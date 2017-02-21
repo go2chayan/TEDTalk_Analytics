@@ -64,10 +64,13 @@ def get_meta(url_link):
     'totalviews':totviews,'downloadlink':downlink,'datepublished':datepub,\
     'datefilmed':datefilm,'datecrawled':datecrawl,'vidlen':vidlen}
 
-def crawl_and_save(csvfilename):
+def crawl_and_save(csvfilename,outfolder):
     with open(csvfilename,'r') as f:
         data = f.read().split('\r')
-        allids = [aline.split(',')[1] for aline in data[1:] if aline.split(',')[1]]
+        # Old style csv file
+        # allids = [aline.split(',')[1] for aline in data[1:] if aline.split(',')[1]]
+        # New style csv file
+        allids = [aline.split(',')[0] for aline in data[1:] if aline.split(',')[0]]
     i = 0
     count = 0
     skipcount = 0
@@ -77,8 +80,8 @@ def crawl_and_save(csvfilename):
         anid = allids[i]
 
         # Remove the entry and continue if the file exists
-        if os.path.isfile(str(anid)+'.pkl'):
-            print count,i,'skipping ...',allids[i]
+        if os.path.isfile(outfolder+str(anid)+'.pkl'):
+            print count,i,'skipping ...',outfolder+allids[i]
             del allids[i]
             continue
 
@@ -101,7 +104,7 @@ def crawl_and_save(csvfilename):
 
         # If successfully extracted, save the data
         skipcount = 0
-        cp.dump({'talk_transcript':txt,'transcript_micsec':micstime,'talk_meta':meta},open(str(anid)+'.pkl','wb'))
+        cp.dump({'talk_transcript':txt,'transcript_micsec':micstime,'talk_meta':meta},open(outfolder+str(anid)+'.pkl','wb'))
         # delete the entry
         del allids[i]
         print 'done'
@@ -111,5 +114,5 @@ def download_video(url_link):
     pass
 
 if __name__=='__main__':
-    csvfilename = './TED Talks as of 01.04.2017.csv'
-    crawl_and_save(csvfilename)
+    csvfilename = './TED Talks as of 02.07.2017.csv'
+    crawl_and_save(csvfilename,'./talks/')

@@ -38,7 +38,7 @@ def plot_correlation(infolder='./talks/',outfolder='./plots/'):
             if akey=='total_count':
                 continue
             if not allratings.get(akey):
-                allratings[akey]=[atalk['talk_meta']['ratings'].get(akey,0)]
+                allratings[akey]=[atalk['talk_meta']['ratings'].get(akey,0)/float(atalk['talk_meta']['ratings']['total_count'])]
             else:
                 allratings[akey].append(float(atalk['talk_meta']['ratings'].get(akey,0))/\
                     float(atalk['talk_meta']['ratings']['total_count']))
@@ -46,13 +46,13 @@ def plot_correlation(infolder='./talks/',outfolder='./plots/'):
     for ind,akey in enumerate(allratings):
         plt.figure(ind)
         # remove the outliers because some ratings are so high that it skews the plot
-        idx = remove_outlier(allratings[akey])
-        x = [viewlst[i] for i in idx]
-        y = [allratings[akey][i] for i in idx]
+        #idx = remove_outlier(allratings[akey])
+        #x = [viewlst[i] for i in idx]
+        #y = [allratings[akey][i] for i in idx]
         # Calculate Correlation Coefficient
-        z = np.corrcoef(x,y)[0,1]
+        z = np.corrcoef(viewlst,allratings[akey])[0,1]
         print 'Correlation coefficient for rating',akey,'and view count:',z
-        plt.scatter(x,y)
+        plt.scatter(viewlst,allratings[akey])
         # plot the x axis in log scale
         plt.xscale('log',nonposy='clip')
         plt.xlabel('Total Viewcount (log scale)')

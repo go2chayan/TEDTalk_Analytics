@@ -16,8 +16,8 @@ def remove_outlier(alist):
     print 'outliers:',len(alist)-len(idx[0])
     print
     return idx[0]
-
-def plot_correlation(infolder='./talks/',outfolder='./plots/'):
+# abs_ratcnt = Absolute Rating Count
+def plot_correlation(infolder='./talks/',outfolder='./plots/',abs_ratcnt=False):
     alltalks = [afile for afile in os.listdir(infolder) if afile.endswith('.pkl')]
     tottalks = len(alltalks)
     totlen,totut,tottok,totsent = 0,0,0,0
@@ -38,10 +38,16 @@ def plot_correlation(infolder='./talks/',outfolder='./plots/'):
             if akey=='total_count':
                 continue
             if not allratings.get(akey):
-                allratings[akey]=[atalk['talk_meta']['ratings'].get(akey,0)/float(atalk['talk_meta']['ratings']['total_count'])]
+                if not abs_ratcnt:
+                    allratings[akey]=[atalk['talk_meta']['ratings'].get(akey,0)/float(atalk['talk_meta']['ratings']['total_count'])]
+                else:
+                    allratings[akey]=[atalk['talk_meta']['ratings'].get(akey,0)]
             else:
-                allratings[akey].append(float(atalk['talk_meta']['ratings'].get(akey,0))/\
-                    float(atalk['talk_meta']['ratings']['total_count']))
+                if not abs_ratcnt:
+                    allratings[akey].append(float(atalk['talk_meta']['ratings'].get(akey,0))/\
+                        float(atalk['talk_meta']['ratings']['total_count']))
+                else:
+                    allratings[akey].append(float(atalk['talk_meta']['ratings'].get(akey,0)))
     # Drawing the scatter plots
     for ind,akey in enumerate(allratings):
         plt.figure(ind)

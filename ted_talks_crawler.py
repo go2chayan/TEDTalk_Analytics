@@ -8,6 +8,7 @@ from datetime import datetime
 from time import sleep
 import cPickle as cp
 from random import random
+import csv
 
 def get_trans_spans(src_url):
     talk_text = ''
@@ -65,49 +66,50 @@ def get_meta(url_link):
     'datefilmed':datefilm,'datecrawled':datecrawl,'vidlen':vidlen}
 
 def crawl_and_save(csvfilename,outfolder):
-    with open(csvfilename,'r') as f:
-        data = f.read().split('\r')
-        # Old style csv file
-        # allids = [aline.split(',')[1] for aline in data[1:] if aline.split(',')[1]]
-        # New style csv file
-        allids = [aline.split(',')[0] for aline in data[1:] if aline.split(',')[0]]
+    # New style csv file
+    with open(csvfilename,'rU') as f:
+        csvfile = csv.DictReader(f)
+        allids = [int(arow['talk_id']) for arow in csvfile if arow['talk_id']]
+
     i = 0
     count = 0
-    skipcount = 0
-    while allids:
-        count+=1
-        i%=len(allids)
-        anid = allids[i]
-
-        # Remove the entry and continue if the file exists
-        if os.path.isfile(outfolder+str(anid)+'.pkl'):
-            print count,i,'skipping ...',outfolder+allids[i]
-            del allids[i]
-            continue
-
-        # Formulate the link
-        alink = 'http://www.ted.com/talks/view/id/'+anid
-        print count,i,'Extracting:',alink,' ... ',
-
-        try:
-            sleep(int(1+1.*random()+skipcount*random()))
-            txt,micstime = get_trans_spans(alink)
-            sleep(1+skipcount*random())
-            meta = get_meta(alink)
-        except:
-            # If can't extract, just continue
-            i+=1
+    consec_skipcount = 0
+    with open('skipped.txt','w') as f:
+        while allids:
+            count+=1
             i%=len(allids)
-            print 'Could not crawl. Skipping ...'
-            skipcount+=1
-            continue
+            anid = allids[i]
 
-        # If successfully extracted, save the data
-        skipcount = 0
-        cp.dump({'talk_transcript':txt,'transcript_micsec':micstime,'talk_meta':meta},open(outfolder+str(anid)+'.pkl','wb'))
-        # delete the entry
-        del allids[i]
-        print 'done'
+            # Remove the entry and continue if the file exists
+            if os.path.isfile(outfolder+str(anid)+'.pkl'):
+                print count,i,'skipping ...',outfolder+allids[i]
+                del allids[i]
+                continue
+
+            # Formulate the link
+            alink = 'http://www.ted.com/talks/view/id/'+anid
+            print count,i,'Extracting:',alink,' ... ',
+
+            try:
+                sleep(int(1+1.*random()+consec_skipcount*random()))
+                txt,micstime = get_trans_spans(alink)
+                sleep(1+consec_skipcount*random())
+                meta = get_meta(alink)
+            except:
+                # If can't extract, just continue
+                i+=1
+                i%=len(allids)
+                print 'Could not crawl. Skipping ...'
+                consec_skipcount+=1
+                f.write('consec_skipcount '+alink+'\n')
+                continue
+
+            # If successfully extracted, save the data
+            consec_skipcount = 0
+            cp.dump({'talk_transcript':txt,'transcript_micsec':micstime,'talk_meta':meta},open(outfolder+str(anid)+'.pkl','wb'))
+            # delete the entry
+            del allids[i]
+            print 'done'
         
 
 def download_video(url_link):

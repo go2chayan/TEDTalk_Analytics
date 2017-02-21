@@ -73,7 +73,7 @@ def crawl_and_save(csvfilename,outfolder):
 
     i = 0
     count = 0
-    consec_skipcount = 0
+    consec_failcount = 0
     with open('skipped.txt','w') as f:
         while allids:
             count+=1
@@ -82,30 +82,30 @@ def crawl_and_save(csvfilename,outfolder):
 
             # Remove the entry and continue if the file exists
             if os.path.isfile(outfolder+str(anid)+'.pkl'):
-                print count,i,'skipping ...',outfolder+allids[i]
+                print count,i,'skipping ...',outfolder+str(anid)
                 del allids[i]
                 continue
 
             # Formulate the link
-            alink = 'http://www.ted.com/talks/view/id/'+anid
+            alink = 'http://www.ted.com/talks/view/id/'+str(anid)
             print count,i,'Extracting:',alink,' ... ',
 
             try:
-                sleep(int(1+1.*random()+consec_skipcount*random()))
+                sleep(int(1+1.*random()+consec_failcount*random()))
                 txt,micstime = get_trans_spans(alink)
-                sleep(1+consec_skipcount*random())
+                sleep(1+consec_failcount*random())
                 meta = get_meta(alink)
             except:
                 # If can't extract, just continue
                 i+=1
                 i%=len(allids)
                 print 'Could not crawl. Skipping ...'
-                consec_skipcount+=1
-                f.write('consec_skipcount '+alink+'\n')
+                consec_failcount+=1
+                f.write(str(anid)+'\n')
                 continue
 
             # If successfully extracted, save the data
-            consec_skipcount = 0
+            consec_failcount = 0
             cp.dump({'talk_transcript':txt,'transcript_micsec':micstime,'talk_meta':meta},open(outfolder+str(anid)+'.pkl','wb'))
             # delete the entry
             del allids[i]

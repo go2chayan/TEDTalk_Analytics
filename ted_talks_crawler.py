@@ -70,19 +70,22 @@ def crawl_and_save(csvfilename,outfolder):
     with open(csvfilename,'rU') as f:
         csvfile = csv.DictReader(f)
         allids = [int(arow['talk_id']) for arow in csvfile if arow['talk_id']]
-
+    if os.path.isfile('to_skip.txt'):
+        f = open('to_skip.txt','rb')
+        toskip=[int(id) for id in f]
     i = 0
     count = 0
     consec_failcount = 0
-    with open('skipped.txt','w') as f:
+    with open('failed.txt','w') as f:
         while allids:
             count+=1
             i%=len(allids)
             anid = allids[i]
 
             # Remove the entry and continue if the file exists
-            if os.path.isfile(outfolder+str(anid)+'.pkl'):
+            if os.path.isfile(outfolder+str(anid)+'.pkl') or anid in toskip:
                 print count,i,'skipping ...',outfolder+str(anid)
+                consec_failcount = 0
                 del allids[i]
                 continue
 
@@ -102,6 +105,7 @@ def crawl_and_save(csvfilename,outfolder):
                 print 'Could not crawl. Skipping ...'
                 consec_failcount+=1
                 f.write(str(anid)+'\n')
+                f.flush()
                 continue
 
             # If successfully extracted, save the data

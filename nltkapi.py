@@ -23,7 +23,7 @@ sys.setdefaultencoding("utf-8")
 
 
 bookname = "Sentimentdata.csv"
-sheetname = 'talk2'
+sheetname = 'talk_20'
 wb = xlrd.open_workbook(bookname)
 sh = wb.sheet_by_name(sheetname)
 book = copy(wb)
@@ -31,12 +31,13 @@ sheet = book.get_sheet(sheetname)
 
 
 def writefile(i,l,nltkneg,nltkneu,nltkpos):
+	
 	sheet.write(i, 0, i)
 	#sheet.write(i, 1, str(l))
 	sheet.write(i, 2, float(nltkneg))
 	sheet.write(i, 3, float(nltkneu))
 	sheet.write(i, 4, float(nltkpos))
-
+	book.save(bookname)
 
 
 def plotter(data):
@@ -52,11 +53,14 @@ def plotter(data):
 	xval = np.array([])
 	diff = np.array([])
 	for l in line:
+		#print '\n\n'
+		#print i, l
 		if i == 0:
 			i = i + 1
 			continue
 		xval = np.append(xval,i)
 		value = os.popen("curl -d \"text='%s'\" http://text-processing.com/api/sentiment/" % l).read()
+		#print value
 		part1,part2 = value.split(', "neutral": ')
 		part1,negv = part1.split('"neg": ')
 		part2,part3 = part2.split('"pos": ')
@@ -64,12 +68,14 @@ def plotter(data):
 		posv, part3 = part3.split('}, "label":')
 		diff = np.append(diff,float(posv)-float(negv))
 
-		#write to file
+
 		writefile(i,l,negv,neuv,posv)
+
 		i = i+1
-		
-	book.save(bookname)
-	diff=np.convolve(diff,[0.333,0.333,0.333,0.333,0.333])
+
+
+
+	diff=np.convolve(diff,[0.2,0.2,0.2,0.2,0.2])
 	j=0
 	ii = i
 	while j<= (len(diff)-ii): 
@@ -83,34 +89,11 @@ def plotter(data):
 	
 
 
-fp = open("2.txt")
+fp = open("l20.txt")
 data = fp.read()
 g1 = plotter(data)
 plt.plot(g1)
-plt.savefig('2.png')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+plt.savefig('l_20.png')
 
 
 

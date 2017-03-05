@@ -77,7 +77,7 @@ def draw_group_mean_sentiments(grp_means,
 def draw_time_mean_sentiments(time_avg,
                             pvals,
                             colnames=['neg','neu','pos'],
-                            groupcolor=['r','g'],
+                            groupcolor=['royalblue','darkkhaki'],
                             outfilename=None):
     plt.figure()
     for i,grp in enumerate(time_avg):
@@ -150,8 +150,10 @@ class Sentiment_Comparator(object):
 
     # Changes the self.raw_sentiments to a smoothed version
     def smoothen_raw_sentiment(self,kernelLen=5.):
+        # Get number of columns in sentiment matrix 
+        _,n = np.shape(self.raw_sentiments[self.alltalks[0]])
         for atalk in self.alltalks:
-            for i in range(3):
+            for i in range(n):
                 self.raw_sentiments[atalk][:,i] = np.convolve(\
                     self.raw_sentiments[atalk][:,i],\
                     np.ones(kernelLen)/kernelLen,mode='same')

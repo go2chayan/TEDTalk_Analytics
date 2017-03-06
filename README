@@ -3,9 +3,10 @@ Analysis of automatic storytelling using TED dataset
 Create a folder named "talks" and put all the .pkl files from
 from the TED dataset inside that folder. Then the scripts should work
 
-The code needs Vader sentiment analysis package. To install it use the following:
-pip install vaderSentiment
+The code needs Vader sentiment analysis and watson tone analyzer. To install these
+use the following:
 
+pip install vaderSentiment
 
 SAMPLE USAGE
 ============
@@ -25,3 +26,6 @@ python ted_talk_statistic_correlation.py
 
 # Draw the scatter plots between Total counts of the ratings and total view count
 python -c "import ted_talk_statistic_correlation as tc;tc.plot_correlation(True)"
+
+Usage of the Sentiment_Comparator class
+=======================================

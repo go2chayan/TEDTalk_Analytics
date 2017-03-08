@@ -62,8 +62,8 @@ def read_utterances(pklfile):
 analyzer = SentimentIntensityAnalyzer()
 def vadersentiment(asent):
     results = analyzer.polarity_scores(asent)
-    return [results['neg'],results['neu'],results['pos']],['negative',
-        'neutral','positive']
+    return [results['neg'],results['neu'],results['pos'],results['compound']],\
+    ['negative','neutral','positive','compound']
 ##############################################################################
 
 class Sentiment_Comparator(object):
@@ -235,16 +235,16 @@ def draw_single_sentiment(anarray,outfilename=None):
 
 # Draws the ensemble averages of the sentiments
 def draw_group_mean_sentiments(grp_means,
-                          styles=['bo-','b--','b-',
-                                  'ro-','r--','r-'],
-                          outfilename=None):
-    plt.figure()
+                            column_names,
+                            styles,
+                            outfilename=None):
+    plt.figure()    
     for g,agroup in enumerate(grp_means):
         m,n = np.shape(grp_means[agroup])
         for col in range(n):
             plt.plot(grp_means[agroup][:,col],
-                styles[g*len(self.column_names)+col],
-                label=agroup+'_'+self.column_names[col])
+                styles[g*len(column_names)+col],
+                label=agroup+'_'+column_names[col])
         plt.xlabel('Interpolated Sentence Number')
         plt.ylabel('Values')
     plt.tight_layout()
@@ -256,6 +256,7 @@ def draw_group_mean_sentiments(grp_means,
 
 # Draw bar plots for time averages and annotate pvalues
 def draw_time_mean_sentiments(time_avg,
+                            column_names,
                             pvals,
                             groupcolor=['royalblue','darkkhaki'],
                             outfilename=None):
@@ -272,7 +273,7 @@ def draw_time_mean_sentiments(time_avg,
     ax = plt.gca()
     ax.set_xticks(np.arange(len(time_avg[grp])))
     ax.set_xticklabels(
-        [c+': p='+str(p) for c,p in zip(self.column_names,pvals)])
+        [c+': p='+str(p) for c,p in zip(column_names,pvals)])
     if outfilename:
         plt.savefig(outfilename)
     else:
@@ -280,12 +281,16 @@ def draw_time_mean_sentiments(time_avg,
 ############################################################################
 
 def main():
-    #comparator = Sentiment_Comparator(hi_lo_files,read_utterances,vadersentiment)
-    comparator = Sentiment_Comparator(hi_lo_files,read_sentences,vadersentiment)
+    comparator = Sentiment_Comparator(hi_lo_files,read_utterances,vadersentiment)
+    #comparator = Sentiment_Comparator(hi_lo_files,read_sentences,vadersentiment)
     grp_avg = comparator.calc_group_mean()
-    draw_group_mean_sentiments(grp_avg,outfilename='./plots/Ensemble_Avg_Sent.pdf')
+    draw_group_mean_sentiments(grp_avg,
+        comparator.column_names,
+        ['ro-','r--','r-','r.-','bo-','b--','b-','b.-'])#,outfilename='./plots/Ensemble_Avg_Sent.pdf')
     time_avg,pvals = comparator.calc_time_mean()
-    draw_time_mean_sentiments(time_avg,pvals,outfilename='./plots/Time_Avg_Sent.pdf')
+    draw_time_mean_sentiments(time_avg,
+        comparator.column_names,
+        pvals)#,outfilename='./plots/Time_Avg_Sent.pdf')
     
 
 

@@ -8,6 +8,9 @@ use the following:
 
 pip install vaderSentiment
 
+To use bluemix, put your own username and password in bluemix_key.py file.
+To get that information, visit https://www.ibm.com/watson/developercloud/
+
 SAMPLE USAGE
 ============
 # To craw the ted dataset

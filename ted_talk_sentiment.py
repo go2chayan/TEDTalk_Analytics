@@ -253,18 +253,36 @@ class Sentiment_Comparator(object):
     # sentence is not lost. Every talk keeps a "backword reference"
     # indicating what are the original sentences (actually the sentence number)
     def display_sentences(self,talkid,start_percent,end_percent):
-        pass
+        assert talkid in self.back_ref.keys(),\
+            'The specified talkid is not present in the talklist'
+        sent_ind=[]
+        # Reads the sentences
+        if self.reader.func_name=='read_bluemix':
+            _,_,sentences = self.reader(self.inputpath+str(talkid)+'.pkl')
+        else:
+            sentences = self.reader(self.inputpath+str(talkid)+'.pkl')
+        # Print the desired ones
+        print 'talkid:',talkid
+        print '================='
+        for i in range(start_percent,end_percent):
+            for j in self.back_ref[talkid][i]:
+                print 'percent:',i,'sentence#:',j,sentences[j]
+                print 'Sentiment Rating:',
+                for k in range(np.size(self.raw_sentiments[talkid],axis=1)):
+                    print self.column_names[k],self.raw_sentiments[talkid][j,k]
+                print
+                print
 
 ################################ Plotters ####################################
 # Draws the sentiment values of a single talk. The input array
 # can be either raw sentiments or interpolated sentiments
-def draw_single_sentiment(anarray,outfilename=None):
+def draw_single_sentiment(sentim_scores,outfilename=None):
     plt.figure()
-    plt.plot(anarray)
-    plt.tight_layout()
+    plt.plot(sentim_scores)
     plt.xlabel('Sentence Number')
     plt.ylabel('Values')
     plt.legend(['Negative','Neutral','Positive'])
+    plt.tight_layout()
     if outfilename:
         plt.savefig(outfilename)
     else:
@@ -273,19 +291,34 @@ def draw_single_sentiment(anarray,outfilename=None):
 # Draws the ensemble averages of the sentiments
 def draw_group_mean_sentiments(grp_means,
                             column_names,
-                            styles,
+                            selected_columns=None,
+                            styles=['r.','r--','r-','r.-',
+                                    'b.','b--','b-','b.-'],
+                            legend_location='center right',
                             outfilename=None):
     plt.figure()    
     for g,agroup in enumerate(grp_means):
         m,n = np.shape(grp_means[agroup])
-        for col in range(n):
-            plt.plot(grp_means[agroup][:,col],
-                styles[g*len(column_names)+col],
-                label=agroup+'_'+column_names[col])
+        if not selected_columns:
+            # Columns are not explicitely selected, show as much as it can
+            for col in range(n):
+                if len(styles)>=n:
+                    plt.plot(grp_means[agroup][:,col],
+                        styles[g*len(column_names)+col],
+                        label=agroup+'_'+column_names[col])
+                else:
+                    plt.plot(grp_means[agroup][:,col],
+                        label=agroup+'_'+column_names[col])
+        else:
+            # Columns are explicitely selected. Show only those            
+            for i,col in enumerate(selected_columns):
+                plt.plot(grp_means[agroup][:,col],
+                        styles[g*len(selected_columns)+i],
+                        label=agroup+'_'+column_names[col])
         plt.xlabel('Interpolated Sentence Number')
         plt.ylabel('Values')
+    plt.legend(loc=legend_location,ncol=2)
     plt.tight_layout()
-    plt.legend(loc='center right')
     if outfilename:
         plt.savefig(outfilename)
     else:
@@ -304,13 +337,13 @@ def draw_time_mean_sentiments(time_avg,
                 color=groupcolor[i],
                 width = 0.25,
                 label=grp)
-    plt.tight_layout()
     plt.ylabel('Average Sentiment Value')
-    plt.legend()
+    plt.legend(loc='upper left',ncol=2)
     ax = plt.gca()
     ax.set_xticks(np.arange(len(time_avg[grp])))
     ax.set_xticklabels(
-        [c+': p='+str(p) for c,p in zip(column_names,pvals)])
+        [c+'\n p='+str(p) for c,p in zip(column_names,pvals)],rotation='vertical')
+    plt.tight_layout()
     if outfilename:
         plt.savefig(outfilename)
     else:
@@ -322,8 +355,7 @@ def main():
     #comparator = Sentiment_Comparator(hi_lo_files,read_sentences,vadersentiment)
     grp_avg = comparator.calc_group_mean()
     draw_group_mean_sentiments(grp_avg,
-        comparator.column_names,
-        ['ro-','r--','r-','r.-','bo-','b--','b-','b.-'])
+        comparator.column_names)
         #,outfilename='./plots/Ensemble_Avg_Sent.pdf')
     time_avg,pvals = comparator.calc_time_mean()
     draw_time_mean_sentiments(time_avg,

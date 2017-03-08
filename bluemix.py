@@ -14,8 +14,10 @@ imporant_talks=[66,96,97,206,229,549,618,
 
 # Use the bluemix api to extract tones
 def fetch_partial_annotations():
-    alltalks = [afile[:-4] for afile in os.listdir('./talks/') if afile.endswith('.pkl')]
-    skipped_talks = [afile[:-4] for afile in os.listdir('./bluemix_sentiment_partial/') if afile.endswith('.pkl')]
+    alltalks = [afile[:-4] for afile in os.listdir('./talks/') \
+        if afile.endswith('.pkl')]
+    skipped_talks = [afile[:-4] for afile in \
+        os.listdir('./bluemix_sentiment_partial/') if afile.endswith('.pkl')]
 
     for atalk in alltalks:
         if atalk in skipped_talks:
@@ -63,6 +65,8 @@ def parse_sentence_tone(senttone_list):
             header,score = parse_tone_categories(asent['tone_categories'])
         else:
             _,score = parse_tone_categories(asent['tone_categories'])
+        if not score:
+            continue
         scores.append(score)
     scores = np.array(scores)
     return scores,header,sentences,frm_idx,to_idx

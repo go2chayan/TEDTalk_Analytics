@@ -6,6 +6,7 @@ from itertools import product
 from scipy.stats import ttest_ind
 import matplotlib.pyplot as plt
 from nltk.tokenize import sent_tokenize
+from bluemix import parse_sentence_tone
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 '''
@@ -51,6 +52,22 @@ def read_utterances(pklfile):
     data = cp.load(open(pklfile))
     txt = re.sub('\([a-zA-Z]*?\)','','__||__'.join(data['talk_transcript']))
     return txt.split('__||__')
+
+def read_bluemix(pklfile,sentiment_dir='./bluemix_sentiment/'):
+    '''
+    Reads all the sentences and their corresponding bluemix sentiments.
+    Note: DONOT change the name of this function. It is used somewhere
+    else in the code
+    '''
+    assert os.path.isfile(pklfile),'File not found: '+pklfile
+    pklfile = sentiment_dir+pklfile.split('/')[-1]
+    assert os.path.isfile(pklfile),'Sentiment file not found: '+pklfile+\
+        ' \nCheck the sentiment_dir argument'
+    data = cp.load(open(pklfile))
+    assert data.get('sentences_tone'), \
+        'Sentence-wise sentiment is not available: {0}'.format(pklfile)
+    scores,header,sentences,_,_ = parse_sentence_tone(data['sentences_tone'])
+    return scores,header,sentences
 ########################### End of Generic Readers ###########################
 
 ######################### Sentiment Extractors ###############################
@@ -86,10 +103,17 @@ class Sentiment_Comparator(object):
                     It can take either the read_sentences function
                     or the read_utterances -- indicating that the transcriptions
                     would be read sentence by sentence or utterance by utterance
-    extractor     : extractor also takes a function. The function specifies the
-                    method of extracting sentiments. The easiest way to extract
-                    sentiment is to use the vaderSentiment package, which is
-                    also available in the nltk package. The vadersentiment()
+                    Note that bluemix reader works little differently than the
+                    other readers. It (bluemix) extracts the sentiments while
+                    reading the sentences.
+    extractor     : If the reader is chosen anything other than bluemix reader,
+                    then we should also specify a sentiment extractor (extractor).
+                    The extractor variable takes a function. The job of the 
+                    extractor function is to take one sentence at a time and 
+                    extract the sentiment as efficiently as possible. The 
+                    function specifies the method of extracting sentiments.
+                    The easiest way to extract sentiment is to use the 
+                    vaderSentiment package. The vadersentiment()
                     function uses this package. Look into the Sentiment 
                     Extractors section.
     inputFolder   : Folder where the .pkl files reside
@@ -108,15 +132,19 @@ class Sentiment_Comparator(object):
     def __init__(self,
                 dict_groups,
                 reader,
-                extractor,
+                extractor=vadersentiment,
                 inputFolder='./talks/',
                 process=True):
         self.inputpath=inputFolder
-        self.reader = reader
+        self.reader = reader    
         self.extractor = extractor
         self.groups = dict_groups
         self.alltalks = [ids for agroup in self.groups \
             for ids in self.groups[agroup]]
+        # The bluemix reader needs special treatment
+        if self.reader.func_name=='read_bluemix':
+            self.extractor = None
+        
         self.raw_sentiments = {}
         self.sentiments_intep={}
         self.back_ref={}
@@ -128,24 +156,34 @@ class Sentiment_Comparator(object):
 
     # Fill out self.raw_sentiments
     def extract_raw_sentiment(self):
-        for atalk in self.alltalks:
-            sents = self.reader(self.inputpath+str(atalk)+'.pkl')
-            values = []
-            for asent in sents:
-                results,header=self.extractor(asent)
-                values.append(results)
-            self.column_names = header
-            self.raw_sentiments[atalk] = np.array(values)
+        for i,atalk in enumerate(self.alltalks):
+            # The bluemix reader needs special treatment
+            if self.reader.func_name=='read_bluemix':
+                filename = self.inputpath+str(atalk)+'.pkl'
+                scores,header,_ = self.reader(filename)
+                if i==0:
+                    self.column_names = header
+                self.raw_sentiments[atalk] = scores
+            else:
+                sents = self.reader(self.inputpath+str(atalk)+'.pkl')
+                values = []
+                for asent in sents:
+                    results,header=self.extractor(asent)
+                    values.append(results)
+                if i==0:
+                    self.column_names = header
+                self.raw_sentiments[atalk] = np.array(values)
 
     # Changes the self.raw_sentiments to a smoothed version
     def smoothen_raw_sentiment(self,kernelLen=5.):
         # Get number of columns in sentiment matrix 
         _,n = np.shape(self.raw_sentiments[self.alltalks[0]])
+
         for atalk in self.alltalks:
             for i in range(n):
                 self.raw_sentiments[atalk][:,i] = np.convolve(\
-                    self.raw_sentiments[atalk][:,i],\
-                    np.ones(kernelLen)/float(kernelLen),mode='same')
+                self.raw_sentiments[atalk][:,i],\
+                np.ones(kernelLen)/float(kernelLen),mode='same')                    
 
     def intep_sentiment_series(self,bins=100):
         '''
@@ -179,8 +217,7 @@ class Sentiment_Comparator(object):
             group_average[agroup]=np.mean(vals,axis=0)
         return group_average
 
-    def calc_time_mean(self,
-                       perform_ttest=True):
+    def calc_time_mean(self,perform_ttest=True):
         '''
         Calculates (and returns) the Time averages of the sentiments
         Also returns the p-values if ttest is done. Note: ttest can't
@@ -286,7 +323,8 @@ def main():
     grp_avg = comparator.calc_group_mean()
     draw_group_mean_sentiments(grp_avg,
         comparator.column_names,
-        ['ro-','r--','r-','r.-','bo-','b--','b-','b.-'])#,outfilename='./plots/Ensemble_Avg_Sent.pdf')
+        ['ro-','r--','r-','r.-','bo-','b--','b-','b.-'])
+        #,outfilename='./plots/Ensemble_Avg_Sent.pdf')
     time_avg,pvals = comparator.calc_time_mean()
     draw_time_mean_sentiments(time_avg,
         comparator.column_names,

@@ -6,16 +6,31 @@ import ted_talk_sentiment as ts
 ###################################################################
 # DO NOT delete an experiment even though they are highly redundant
 ###################################################################
+# Bluemix sentiments:
+# ==================
+# 0: anger 
+# 1: disgust 
+# 2: fear 
+# 3: joy 
+# 4: sadness 
+# 5: analytical 
+# 6: confident 
+# 7: tentative 
+# 8: openness_big5 
+# 9: conscientiousness_big5 
+# 10: extraversion_big5 
+# 11: agreeableness_big5 
+# 12: emotional_range_big5
 
+
+comparator = ts.Sentiment_Comparator(
+    ts.hi_lo_files,     # Compare between hi/lo viewcount files
+    ts.read_bluemix,    # Use bluemix sentiment
+    )
 
 # Check the average emotion plots
 def bluemix_plot1():
-    comparator = ts.Sentiment_Comparator(
-        ts.hi_lo_files,     # Compare between hi/lo viewcount files
-        ts.read_bluemix,    # Use bluemix sentiment
-        )
     avg_ = comparator.calc_group_mean()
-
     # Plot Group Average
     ts.draw_group_mean_sentiments(avg_, # the average of groups
         comparator.column_names,        # name of the columns
@@ -27,12 +42,7 @@ def bluemix_plot1():
 
 # Check the average social plots
 def bluemix_plot2():
-    comparator = ts.Sentiment_Comparator(
-        ts.hi_lo_files,     # Compare between hi/lo viewcount files
-        ts.read_bluemix,    # Use bluemix sentiment
-        )
     avg_ = comparator.calc_group_mean()
-
     # Plot Group Average
     ts.draw_group_mean_sentiments(avg_, # the average of groups
         comparator.column_names,        # name of the columns
@@ -44,12 +54,7 @@ def bluemix_plot2():
 
 # Check the average social plots
 def bluemix_plot3():
-    comparator = ts.Sentiment_Comparator(
-        ts.hi_lo_files,     # Compare between hi/lo viewcount files
-        ts.read_bluemix,    # Use bluemix sentiment
-        )
     avg_ = comparator.calc_group_mean()
-
     # Plot Group Average
     ts.draw_group_mean_sentiments(avg_, # the average of groups
         comparator.column_names,        # name of the columns
@@ -61,12 +66,7 @@ def bluemix_plot3():
 
 # bluemix plot one by one
 def bluemix_plot4():
-    comparator = ts.Sentiment_Comparator(
-        ts.hi_lo_files,     # Compare between hi/lo viewcount files
-        ts.read_bluemix,    # Use bluemix sentiment
-        )
     avg_ = comparator.calc_group_mean()
-
     for i in range(13):
         # Plot Group Average
         ts.draw_group_mean_sentiments(avg_, # the average of groups
@@ -74,21 +74,36 @@ def bluemix_plot4():
             selected_columns=[i],   # only emotion scores
             styles=['r-',
                     'b-'],  # appropriate line style
-            legend_location='lower center'
+            legend_location='lower center',
+            outfilename='./plots/'+comparator.column_names[i]+'.pdf'
             )
 
 # Checking time averages to see the best sentiment
 def bluemix_plot5():
-    comparator = ts.Sentiment_Comparator(
-        ts.hi_lo_files,     # Compare between hi/lo viewcount files
-        ts.read_bluemix,    # Use bluemix sentiment
-        )
     avg_,p = comparator.calc_time_mean()
-
     ts.draw_time_mean_sentiments(avg_, # time averages
         comparator.column_names,       # name of the columns
         p                              # p values                      
         )
+
+# Checking the Emotional progression for a single talk
+def single_plot():
+    talkid = 66
+    selected_columns = [1,3,12]
+    # Display sample sentences
+    comparator.display_sentences(talkid,
+        17, # Start percent
+        29,  # End percent (also try 90 to 100)
+        selected_columns     # Show only Disgust, Joy and Emotional
+        )
+
+    ts.draw_single_sentiment(\
+        comparator.sentiments_interp[talkid], # plot the interpolated sentiment
+        comparator.column_names,              # Name of the columns
+        selected_columns                      # Show only Disgust, Joy and Emotional 
+        )
+    
+
 
 # See the sentences of a talk from a certain percent to another percent
 def see_sentences():
@@ -98,10 +113,13 @@ def see_sentences():
         60  # End percent
         )
 
+# TODO: Experiment on High/Low ratings
+
 if __name__=='__main__':
     # bluemix_plot1()
     # bluemix_plot2()
     # bluemix_plot3()
-    #bluemix_plot4()
-    bluemix_plot5()
+    # bluemix_plot4()
+    # bluemix_plot5()
+    single_plot()
 

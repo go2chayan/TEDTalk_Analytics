@@ -124,7 +124,7 @@ class Sentiment_Comparator(object):
     column_names  : Name of columns of the sentiment matrix. For vadersentiment
                     it is ['neg','neu','pos']. This variable is populated
                     when loading the raw sentiments
-    sentiments_intep: The sentiment data interpolated to a canonical size
+    sentiments_interp: The sentiment data interpolated to a canonical size
     back_ref      : Reference to the old indices of the sentences from 
                     each interpolated sample
     alltalks      : List of all the talk ids being analyzed in this comparator
@@ -146,7 +146,7 @@ class Sentiment_Comparator(object):
             self.extractor = None
         
         self.raw_sentiments = {}
-        self.sentiments_intep={}
+        self.sentiments_interp={}
         self.back_ref={}
         self.column_names=[]
         if process:
@@ -187,7 +187,7 @@ class Sentiment_Comparator(object):
 
     def intep_sentiment_series(self,bins=100):
         '''
-        Fills out the variable self.sentiments_intep. Different sentiment
+        Fills out the variable self.sentiments_interp. Different sentiment
         series has different lengths due to the variable length of the talks.
         This function brings all the series in a common length (having 
         100 samples). It also updates the backward reference (back_ref)
@@ -195,7 +195,7 @@ class Sentiment_Comparator(object):
         for atalk in self.alltalks:
             m,n = np.shape(self.raw_sentiments[atalk])
             # Pre-allocate
-            self.sentiments_intep[atalk] = np.zeros((bins,n))
+            self.sentiments_interp[atalk] = np.zeros((bins,n))
             # x values for the interpolation
             old_xvals = np.arange(m)
             new_xvals = np.linspace(0,old_xvals[-1],num=bins)
@@ -205,14 +205,14 @@ class Sentiment_Comparator(object):
                 zip(new_xvals[:-1],new_xvals[1:])]+[[old_xvals[-1]]]
             # Interpolate column by column
             for i in range(n):
-                self.sentiments_intep[atalk][:,i] = \
+                self.sentiments_interp[atalk][:,i] = \
                 np.interp(new_xvals,old_xvals,self.raw_sentiments[atalk][:,i])
 
     # Calculates (and returns) the ensemble averages of the groups
     def calc_group_mean(self):
         group_average = {}
         for agroup in self.groups:
-            vals = [self.sentiments_intep[id] for id in self.groups[agroup]]
+            vals = [self.sentiments_interp[id] for id in self.groups[agroup]]
             # Averaging over the talks in a group
             group_average[agroup]=np.mean(vals,axis=0)
         return group_average
@@ -225,7 +225,7 @@ class Sentiment_Comparator(object):
         '''
         time_avg = {}
         for agroup in self.groups:
-            vals = [self.sentiments_intep[id] for id in self.groups[agroup]]
+            vals = [self.sentiments_interp[id] for id in self.groups[agroup]]
             # Averaging over time
             time_avg[agroup]=np.mean(vals,axis=1)
         # Perform ttest for statistical significance
@@ -252,7 +252,7 @@ class Sentiment_Comparator(object):
     # to calculate ensemble averages, the reference to the original
     # sentence is not lost. Every talk keeps a "backword reference"
     # indicating what are the original sentences (actually the sentence number)
-    def display_sentences(self,talkid,start_percent,end_percent):
+    def display_sentences(self,talkid,start_percent,end_percent,selected_columns = None):
         assert talkid in self.back_ref.keys(),\
             'The specified talkid is not present in the talklist'
         sent_ind=[]
@@ -268,21 +268,35 @@ class Sentiment_Comparator(object):
             for j in self.back_ref[talkid][i]:
                 print 'percent:',i,'sentence#:',j,sentences[j]
                 print 'Sentiment Rating:',
-                for k in range(np.size(self.raw_sentiments[talkid],axis=1)):
-                    print self.column_names[k],self.raw_sentiments[talkid][j,k]
+                if not selected_columns:
+                    for k in range(np.size(self.raw_sentiments[talkid],axis=1)):
+                        print self.column_names[k],self.raw_sentiments[talkid][j,k]
+                else:
+                    for k in selected_columns:
+                        print self.column_names[k],self.raw_sentiments[talkid][j,k]
                 print
                 print
 
 ################################ Plotters ####################################
 # Draws the sentiment values of a single talk. The input array
 # can be either raw sentiments or interpolated sentiments
-def draw_single_sentiment(sentim_scores,outfilename=None):
-    plt.figure()
-    plt.plot(sentim_scores)
+def draw_single_sentiment(sentim_scores,
+                          column_names,
+                          selected_columns = None,
+                          legend_location='lower center',
+                          outfilename=None):
+    plt.figure(figsize=(16, 4))
+    if not selected_columns:
+        plt.plot(sentim_scores,label=column_names)
+    else:
+        for col in selected_columns:
+            plt.plot(sentim_scores[:,col],label=column_names[col])
     plt.xlabel('Sentence Number')
     plt.ylabel('Values')
-    plt.legend(['Negative','Neutral','Positive'])
-    plt.tight_layout()
+    plt.subplots_adjust(bottom=0.14, right=0.99, left=0.05, top=0.78)
+    plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,
+           ncol=5, mode="expand", borderaxespad=0.)
+    #plt.tight_layout()
     if outfilename:
         plt.savefig(outfilename)
     else:
@@ -294,9 +308,9 @@ def draw_group_mean_sentiments(grp_means,
                             selected_columns=None,
                             styles=['r.','r--','r-','r.-',
                                     'b.','b--','b-','b.-'],
-                            legend_location='center right',
+                            legend_location='lower center',
                             outfilename=None):
-    plt.figure()    
+    plt.figure(figsize=(16, 4))    
     for g,agroup in enumerate(grp_means):
         m,n = np.shape(grp_means[agroup])
         if not selected_columns:

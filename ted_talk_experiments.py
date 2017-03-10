@@ -103,8 +103,6 @@ def single_plot():
         selected_columns                      # Show only Disgust, Joy and Emotional 
         )
     
-
-
 # See the sentences of a talk from a certain percent to another percent
 def see_sentences():
     # Display sample sentences
@@ -114,6 +112,7 @@ def see_sentences():
         )
 
 # TODO: Experiment on High/Low ratings
+
 
 if __name__=='__main__':
     # bluemix_plot1()

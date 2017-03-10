@@ -1,4 +1,5 @@
 import os
+import re
 import cPickle as cp
 import datetime
 
@@ -26,7 +27,8 @@ alltags = []
 with open(outfile,'wb') as ofile:
     # Write header
     ofile.write('Video_ID,Title,'+','.join(ratinglist)+
-        ',Totalviews,Retention_time_in_days\n')
+        ',Totalviews,Retention_time_in_days,Video_Length_(sec),'+
+        'Nb_Words_in_Transcript_(without_tags),Words_per_second,Keywords,Is_a_Talk?\n')
     # Scan through the folder
     for afile in allfiles:
         print talkspath+afile
@@ -43,9 +45,30 @@ with open(outfile,'wb') as ofile:
         ofile.write(str(data['talk_meta']['totalviews'])+',')
         # Retention time in days
         x=data['talk_meta']['datecrawled']-data['talk_meta']['datepublished']
-        ofile.write(str(x.days)+'\n')
+        ofile.write(str(x.days)+',')
+        # Video Length in seconds
+        ofile.write(str(data['talk_meta']['vidlen'])+',')
         # Find all the tags 
-        alltags.extend(re.findall('\([a-zA-Z]*?\)',' '.join(data['talk_transcript'])))
+        txt = ' '.join(data['talk_transcript'])
+        alltags.extend(re.findall('\([a-zA-Z]*?\)',txt))
+        # Number of words in the transcript excluding tags
+        wrd_count=len(re.sub('\([a-zA-Z]*?\)','',txt).split())
+        ofile.write(str(wrd_count)+',')
+        # Words per second
+        wps = float(wrd_count)/data['talk_meta']['vidlen']
+        ofile.write(str(wps)+',')
+        # Keywords
+        ofile.write(';'.join(data['talk_meta']['keywords'])+',')
+        # A heuristic estimation of if it is actually a public speech
+        if 'live music' in data['talk_meta']['keywords']:
+            ofile.write('No'+'\n')
+        elif wrd_count <= 450 and (wps < 1. or any(item in \
+                data['talk_meta']['keywords'] for item in \
+                ['live music','dance','music','performance','entertainment'])):
+            ofile.write('No'+'\n')
+        else:
+            ofile.write('Yes'+'\n')
+
 with open(outtagfile,'wb') as tfile:
     tfile.write('\n'.join(list(set(alltags))))
 

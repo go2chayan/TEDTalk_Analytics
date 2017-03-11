@@ -1,4 +1,5 @@
 import ted_talk_sentiment as ts
+from list_of_talks_ratings_percent import allrating_samples
 
 # This python file is for enlisting all the experiments we are doing
 # It can also be used as sample usage of the code repository such as
@@ -111,7 +112,23 @@ def see_sentences():
         60  # End percent
         )
 
-# TODO: Experiment on High/Low ratings
+# Experiment on High/Low ratings
+def time_avg_hi_lo_ratings():
+    for a_grp_dict in allrating_samples:
+        allkeys = a_grp_dict.keys()
+        titl = allkeys[0]+' vs. '+allkeys[1]
+        print titl
+        compar = ts.Sentiment_Comparator(
+            a_grp_dict,     # Compare between hi/lo viewcount files
+            ts.read_bluemix,    # Use bluemix sentiment
+            )
+        avg_,p = compar.calc_time_mean()
+        ts.draw_time_mean_sentiments(avg_, # time averages
+            comparator.column_names,       # name of the columns
+            p,                             # p values                      
+            outfilename='./plots/'+titl+'.pdf'
+            )
+
 
 
 if __name__=='__main__':
@@ -120,5 +137,6 @@ if __name__=='__main__':
     # bluemix_plot3()
     # bluemix_plot4()
     # bluemix_plot5()
-    single_plot()
+    # single_plot()
+    time_avg_hi_lo_ratings()
 

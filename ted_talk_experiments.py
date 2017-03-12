@@ -115,7 +115,7 @@ def see_sentences():
 # Experiment on High/Low ratings
 def time_avg_hi_lo_ratings():
     for a_grp_dict in allrating_samples:
-        allkeys = a_grp_dict.keys()
+        allkeys = sorted(a_grp_dict.keys())
         titl = allkeys[0]+' vs. '+allkeys[1]
         print titl
         compar = ts.Sentiment_Comparator(
@@ -126,10 +126,32 @@ def time_avg_hi_lo_ratings():
         ts.draw_time_mean_sentiments(avg_, # time averages
             comparator.column_names,       # name of the columns
             p,                             # p values                      
-            outfilename='./plots/'+titl+'.pdf'
+            outfilename='./plots/'+titl+'.png'
             )
 
-
+# Experiment on High/Low rating from group average
+def grp_avg_hilo_ratings():
+    for a_grpdict in allrating_samples:
+        allkeys = sorted(a_grpdict.keys())
+        titl = allkeys[0]+' vs. '+allkeys[1]+' group average'
+        print titl
+        compar = ts.Sentiment_Comparator(
+            a_grpdict,     # Compare between hi/lo viewcount files
+            ts.read_bluemix,    # Use bluemix sentiment
+            )
+        grp_avg = compar.calc_group_mean()
+        for i in [[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]:
+            if len(i)==5:
+                styles = ['r^-','r--','r-','r.-','ro-',
+                 'b^-','b--','b-','b.-','bo-']
+            elif len(i)==3:
+                styles = ['r^-','r--','r-',
+                 'b^-','b--','b-']
+            ts.draw_group_mean_sentiments(grp_avg,
+                compar.column_names,
+                i,
+                styles,
+                outfilename='./plots/'+titl+'.png')
 
 if __name__=='__main__':
     # bluemix_plot1()
@@ -138,5 +160,6 @@ if __name__=='__main__':
     # bluemix_plot4()
     # bluemix_plot5()
     # single_plot()
-    time_avg_hi_lo_ratings()
+    # time_avg_hi_lo_ratings()
+    grp_avg_hilo_ratings()
 

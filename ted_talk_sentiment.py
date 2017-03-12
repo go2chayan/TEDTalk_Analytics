@@ -310,29 +310,44 @@ def draw_group_mean_sentiments(grp_means,
                                     'b.','b--','b-','b.-'],
                             legend_location='lower center',
                             outfilename=None):
-    plt.figure(figsize=(16, 4))    
+    plt.figure(figsize=(16, 8))    
     for g,agroup in enumerate(grp_means):
         m,n = np.shape(grp_means[agroup])
         if not selected_columns:
             # Columns are not explicitely selected, show as much as it can
             for col in range(n):
+                pltLabel = str(agroup+'_'+column_names[col])
+                pltLabel = pltLabel.lower()
+                pltLabel = re.sub(\
+                    'percent|social|tone|language|big5|range',\
+                    '',pltLabel)
+                pltLabel = re.sub(r'emotion_','',pltLabel)
+                
+                pltLabel = re.sub(r'_+',' ',pltLabel)
                 if len(styles)>=n:
                     plt.plot(grp_means[agroup][:,col],
                         styles[g*len(column_names)+col],
-                        label=agroup+'_'+column_names[col])
+                        label=pltLabel)
                 else:
                     plt.plot(grp_means[agroup][:,col],
-                        label=agroup+'_'+column_names[col])
+                        label=pltLabel)
         else:
             # Columns are explicitely selected. Show only those            
             for i,col in enumerate(selected_columns):
+                pltLabel = str(agroup+'_'+column_names[col])                
+                pltLabel = pltLabel.lower()
+                pltLabel = re.sub(\
+                    'percent|social|tone|language|big5|range',\
+                    '',pltLabel)
+                pltLabel = re.sub('emotion_','',pltLabel)
+                pltLabel = re.sub('_+',' ',pltLabel)
                 plt.plot(grp_means[agroup][:,col],
                         styles[g*len(selected_columns)+i],
-                        label=agroup+'_'+column_names[col])
-        plt.xlabel('Interpolated Sentence Number')
+                        label=pltLabel)
         plt.ylabel('Values')
-    plt.legend(loc=legend_location,ncol=2)
-    plt.tight_layout()
+        plt.subplots_adjust(bottom=0.05, right=0.99, left=0.05, top=0.88)
+        plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,\
+           ncol=5, mode="expand", borderaxespad=0.)
     if outfilename:
         plt.savefig(outfilename)
     else:
@@ -344,7 +359,7 @@ def draw_time_mean_sentiments(time_avg,
                             pvals,
                             groupcolor=['royalblue','darkkhaki'],
                             outfilename=None):
-    plt.figure()
+    plt.figure(dpi=300)
     for i,grp in enumerate(time_avg):
         plt.bar(np.arange(len(time_avg[grp]))-i*0.25,
                 time_avg[grp],
@@ -352,12 +367,15 @@ def draw_time_mean_sentiments(time_avg,
                 width = 0.25,
                 label=grp)
     plt.ylabel('Average Sentiment Value')
-    plt.legend(loc='upper left',ncol=2)
+    # plt.legend(loc='upper left',ncol=2)
+    plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,
+           ncol=2, mode="expand", borderaxespad=0.)
     ax = plt.gca()
     ax.set_xticks(np.arange(len(time_avg[grp])))
     ax.set_xticklabels(
         [c+'\n p='+str(p) for c,p in zip(column_names,pvals)],rotation='vertical')
     plt.tight_layout()
+    plt.subplots_adjust(top=0.9)
     if outfilename:
         plt.savefig(outfilename)
     else:

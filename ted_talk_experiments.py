@@ -1,5 +1,8 @@
 import ted_talk_sentiment as ts
-from list_of_talks_ratings_percent import allrating_samples
+from list_of_talks import allrating_samples
+import ted_talk_cluster_analysis as tca
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
 
 # This python file is for enlisting all the experiments we are doing
 # It can also be used as sample usage of the code repository such as
@@ -41,13 +44,13 @@ def bluemix_plot1():
         legend_location='lower center'
         )
 
-# Check the average social plots
+# Check the average Language plots
 def bluemix_plot2():
     avg_ = comparator.calc_group_mean()
     # Plot Group Average
     ts.draw_group_mean_sentiments(avg_, # the average of groups
         comparator.column_names,        # name of the columns
-        selected_columns=[5,6,7],   # only social scores
+        selected_columns=[5,6,7],   # only Language scores
         styles=['r.--','r-','r--',
                 'b.--','b-','b--'],  # appropriate line style
         legend_location='lower center'
@@ -153,6 +156,16 @@ def grp_avg_hilo_ratings():
                 styles,
                 outfilename='./plots/'+titl+'.png')
 
+# Experiment on kmeans clustering
+# Practically all of them becomes flat line. Bad.
+def kmeans_clustering():
+    X,comp = tca.load_score_array()
+    km = KMeans(n_clusters=5)    
+    tca.draw_cluster_avg(X,comp,km)    
+
+
+
+
 if __name__=='__main__':
     # bluemix_plot1()
     # bluemix_plot2()
@@ -161,5 +174,6 @@ if __name__=='__main__':
     # bluemix_plot5()
     # single_plot()
     # time_avg_hi_lo_ratings()
-    grp_avg_hilo_ratings()
+    # grp_avg_hilo_ratings()
+    kmeans_clustering()
 

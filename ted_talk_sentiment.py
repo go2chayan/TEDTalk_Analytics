@@ -154,6 +154,23 @@ class Sentiment_Comparator(object):
             self.smoothen_raw_sentiment()
             self.intep_sentiment_series()
 
+    def reform_groups(self,new_dict_groups):
+        '''
+        If it becomes necessary to re-group the data, this method
+        comes handy. It will restructure the object without loading
+        the data again from file (loading the data is time cosuming).
+        Note that the new_dict_groups dictionary must
+        contain all the talkids from the original dict_groups. No more,
+        no less. Only the group assignments are meant to be changed.
+        '''
+        self.groups = new_dict_groups
+        self.raw_sentiments = {atalk:self.raw_sentiments[atalk] \
+            for akey in new_dict_groups \
+                for atalk in new_dict_groups[akey]}
+        self.sentiments_interp = {atalk:self.sentiments_interp[atalk] \
+            for akey in new_dict_groups \
+                for atalk in new_dict_groups[akey] }
+
     # Fill out self.raw_sentiments
     def extract_raw_sentiment(self):
         for i,atalk in enumerate(self.alltalks):

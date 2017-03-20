@@ -21,8 +21,10 @@ from ted_talk_sentiment import Sentiment_Comparator, read_bluemix
 import numpy as np
 import matplotlib.pyplot as plt
 
-def load_score_array():
+def load_all_scores():
     '''
+    This function loads all the valid TED talks in two groups. The
+    groups are arbitrarily formed by just splitting the list in two halves.
     The score array has a shape N x M x B, where N is the total
     number of talks (2007), M is the interpolated length of each talk (100)
     and B is the number of Bluemix Scores (13).
@@ -46,40 +48,18 @@ def get_clust_labels(X,clusterer):
     clusterer.fit(Z)
     return clusterer.labels_
 
-def get_clust_dict(labls,comparator):
+def get_clust_dict(X,clusterer,comparator):
     '''
-    Returns a dictionary (as the input of sentiment comparator demands)
-    from the cluster labels. All the talksids are grouped by cluster labels.
+    Similar to get_clust_labels, but instead of returning the cluster
+    labels, it returns a dictionary (which can be fed into the sentiment 
+    comparator class). All the talksids are regrouped according to the
+    cluster labels.
     '''
     result_dict = {}
+    labls = get_clust_labels(X,clusterer)
     for lab,talkid in zip(labls,comparator.alltalks):
         if result_dict.get('cluster_'+str(lab)):
             result_dict['cluster_'+str(lab)].append(talkid)
         else:
             result_dict['cluster_'+str(lab)]=[talkid]
     return result_dict
-
-def draw_cluster_avg(X,comp,clusterer):
-    '''
-    Draw the averages of various clusters. It creates as many figures
-    as many seniment scores are there (13 for Bluemix).
-    '''
-    labels = get_clust_labels(X,clusterer)
-    clust_dict = get_clust_dict(labels,comp)    
-    comp.reform_groups(clust_dict)
-    avg = comp.calc_group_mean()
-    m,n = avg[avg.keys()[0]].shape
-    # Draw the cluster averages
-    for acol in range(n):
-        plt.figure(figsize=(16,9))
-        for akey in avg:
-            plt.plot(avg[akey][:,acol],label=akey)
-        plt.xlabel('Percent of Talk Progression')
-        plt.ylabel('Value')
-        plt.title(comp.column_names[acol])
-        plt.tight_layout()
-        plt.subplots_adjust(bottom=0.05, right=0.99, left=0.05, top=0.85)
-        plt.legend(bbox_to_anchor=(0., 1.05, 1., 0), loc=3,\
-           ncol=5, mode="expand", borderaxespad=0.)
-    plt.show()
-

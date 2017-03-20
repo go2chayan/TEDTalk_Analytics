@@ -197,10 +197,12 @@ class Sentiment_Comparator(object):
         _,n = np.shape(self.raw_sentiments[self.alltalks[0]])
 
         for atalk in self.alltalks:
+            temp=[]
             for i in range(n):
-                self.raw_sentiments[atalk][:,i] = np.convolve(\
+                temp.append(np.convolve(\
                 self.raw_sentiments[atalk][:,i],\
-                np.ones(kernelLen)/float(kernelLen),mode='same')                    
+                np.ones(kernelLen)/float(kernelLen),mode='valid'))
+            self.raw_sentiments[atalk]=np.array(temp).T
 
     def intep_sentiment_series(self,bins=100):
         '''
@@ -265,11 +267,13 @@ class Sentiment_Comparator(object):
         else:
             return time_avg,pvals
 
-    # Even though the sentiment plots are interpolated to 0 to 100
-    # to calculate ensemble averages, the reference to the original
-    # sentence is not lost. Every talk keeps a "backword reference"
-    # indicating what are the original sentences (actually the sentence number)
     def display_sentences(self,talkid,start_percent,end_percent,selected_columns = None):
+        '''
+        Even though the sentiment plots are interpolated to 0 to 100
+        to calculate ensemble averages, the reference to the original
+        sentence is not lost. Every talk keeps a "backword reference"
+        indicating what are the original sentences (actually the sentence number)
+        '''
         assert talkid in self.back_ref.keys(),\
             'The specified talkid is not present in the talklist'
         sent_ind=[]
@@ -295,13 +299,15 @@ class Sentiment_Comparator(object):
                 print
 
 ################################ Plotters ####################################
-# Draws the sentiment values of a single talk. The input array
-# can be either raw sentiments or interpolated sentiments
 def draw_single_sentiment(sentim_scores,
                           column_names,
                           selected_columns = None,
                           legend_location='lower center',
                           outfilename=None):
+    '''
+    # Draws the sentiment values of a single talk. The input array
+    # can be either raw sentiments or interpolated sentiments
+    '''
     plt.figure(figsize=(16, 4))
     if not selected_columns:
         plt.plot(sentim_scores,label=column_names)
@@ -319,7 +325,30 @@ def draw_single_sentiment(sentim_scores,
     else:
         plt.show()
 
-# Draws the ensemble averages of the sentiments
+def draw_group_means(avg,column_names):
+    '''
+    Draw the averages of various groups. It creates as many figures
+    as the seniment scores (13 for Bluemix). The difference between this
+    function and draw_group_mean_sentiments function is: this one groups all
+    the plots corresponding to a single sentiment score together in one 
+    figure. where as the other one groups all the plots corresponding
+    to a single group (cluster) together in one figure.
+    '''
+    m,n = avg[avg.keys()[0]].shape
+    # Draw the cluster averages
+    for acol in range(n):
+        plt.figure(figsize=(16,9))
+        for akey in avg:
+            plt.plot(avg[akey][:,acol],label=akey)
+        plt.xlabel('Percent of Talk Progression')
+        plt.ylabel('Value')
+        plt.title(column_names[acol])
+        plt.tight_layout()
+        plt.subplots_adjust(bottom=0.05, right=0.99, left=0.05, top=0.85)
+        plt.legend(bbox_to_anchor=(0., 1.05, 1., 0), loc=3,\
+           ncol=5, mode="expand", borderaxespad=0.)
+    plt.show()
+
 def draw_group_mean_sentiments(grp_means,
                             column_names,
                             selected_columns=None,
@@ -327,6 +356,10 @@ def draw_group_mean_sentiments(grp_means,
                                     'b.','b--','b-','b.-'],
                             legend_location='lower center',
                             outfilename=None):
+    '''
+    Draws the ensemble averages of the sentiments. Check the note on
+    difference in draw_group_mean function documentation.
+    '''
     plt.figure(figsize=(16, 8))    
     for g,agroup in enumerate(grp_means):
         m,n = np.shape(grp_means[agroup])

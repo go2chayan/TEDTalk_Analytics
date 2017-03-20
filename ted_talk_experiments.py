@@ -1,8 +1,13 @@
 import ted_talk_sentiment as ts
+<<<<<<< Updated upstream
 from list_of_talks import allrating_samples
 import ted_talk_cluster_analysis as tca
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+=======
+from list_of_talks_ratings_percent import allrating_samples
+import numpy
+>>>>>>> Stashed changes
 
 # This python file is for enlisting all the experiments we are doing
 # It can also be used as sample usage of the code repository such as
@@ -117,7 +122,10 @@ def see_sentences():
 
 # Experiment on High/Low ratings
 def time_avg_hi_lo_ratings():
+    avg_saved = numpy.array([])
+    i = 0
     for a_grp_dict in allrating_samples:
+        i = i+1
         allkeys = sorted(a_grp_dict.keys())
         titl = allkeys[0]+' vs. '+allkeys[1]
         print titl
@@ -126,11 +134,16 @@ def time_avg_hi_lo_ratings():
             ts.read_bluemix,    # Use bluemix sentiment
             )
         avg_,p = compar.calc_time_mean()
-        ts.draw_time_mean_sentiments(avg_, # time averages
-            comparator.column_names,       # name of the columns
-            p,                             # p values                      
-            outfilename='./plots/'+titl+'.png'
-            )
+        avg_saved = numpy.append(avg_saved, avg_)
+        ###----------------had to close it to access radarplot.py------------
+        #ts.draw_time_mean_sentiments(avg_, # time averages
+         #   comparator.column_names,       # name of the columns
+          #  p,                             # p values                      
+           # outfilename='./plots/'+titl+'.png'
+            #)
+        ##----------------------------------------------------------------
+ 
+    return avg_saved
 
 # Experiment on High/Low rating from group average
 def grp_avg_hilo_ratings():

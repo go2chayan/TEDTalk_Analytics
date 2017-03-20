@@ -164,14 +164,24 @@ def kmeans_clustering():
     clust_dict = tca.get_clust_dict(X,km,comp)    
     comp.reform_groups(clust_dict)
     avg = comp.calc_group_mean()
-    ts.draw_group_means(avg,comp.column_names)
+    ts.draw_group_means(avg,comp.column_names,\
+        outfilename='./plots/cluster_mean.png')
 
 # Experiment on the global average of sentiment progressions in
 # ALL* tedtalks
 # * = all means the 2007 valid ones.
 def draw_global_means():
-    pass
-
+    X,comp = tca.load_all_scores()
+    inp_dict = comp.groups.copy()
+    inp_dict['all']=[]
+    inp_dict['all'].extend(inp_dict['group_1'])
+    inp_dict['all'].extend(inp_dict['group_2'])
+    del inp_dict['group_1']
+    del inp_dict['group_2']
+    comp.reform_groups(inp_dict)
+    avg = comp.calc_group_mean()
+    ts.draw_group_means(avg,comp.column_names,\
+        outfilename='./plots/global_mean.png')
 
 if __name__=='__main__':
     # bluemix_plot1()
@@ -183,4 +193,4 @@ if __name__=='__main__':
     # time_avg_hi_lo_ratings()
     # grp_avg_hilo_ratings()
     kmeans_clustering()
-
+    draw_global_means()

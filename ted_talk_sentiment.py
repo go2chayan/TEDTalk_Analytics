@@ -325,7 +325,7 @@ def draw_single_sentiment(sentim_scores,
     else:
         plt.show()
 
-def draw_group_means(avg,column_names):
+def draw_group_means(avg,column_names,fullyaxis=False,outfilename=None):
     '''
     Draw the averages of various groups. It creates as many figures
     as the seniment scores (13 for Bluemix). The difference between this
@@ -342,12 +342,19 @@ def draw_group_means(avg,column_names):
             plt.plot(avg[akey][:,acol],label=akey)
         plt.xlabel('Percent of Talk Progression')
         plt.ylabel('Value')
+        if fullyaxis:
+            plt.ylim([0,1])
         plt.title(column_names[acol])
         plt.tight_layout()
         plt.subplots_adjust(bottom=0.05, right=0.99, left=0.05, top=0.85)
         plt.legend(bbox_to_anchor=(0., 1.05, 1., 0), loc=3,\
            ncol=5, mode="expand", borderaxespad=0.)
-    plt.show()
+        if outfilename:
+            split_fn = os.path.split(outfilename)
+            plt.savefig(os.path.join(split_fn[0],column_names[acol]+\
+                '_'+split_fn[1]))
+    if not outfilename:
+        plt.show()
 
 def draw_group_mean_sentiments(grp_means,
                             column_names,

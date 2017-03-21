@@ -169,17 +169,6 @@ def grp_avg_hilo_ratings():
                 styles,
                 outfilename='./plots/'+titl+'.png')
 
-# Experiment on kmeans clustering
-# Practically all of them becomes flat line. Bad.
-def kmeans_clustering():
-    X,comp = tca.load_all_scores()
-    km = KMeans(n_clusters=5)
-    clust_dict = tca.get_clust_dict(X,km,comp)    
-    comp.reform_groups(clust_dict)
-    avg = comp.calc_group_mean()
-    ts.draw_group_means(avg,comp.column_names,\
-        outfilename='./plots/cluster_mean.png')
-
 # Experiment on the global average of sentiment progressions in
 # ALL* tedtalks
 # * = all means the 2007 valid ones.
@@ -196,6 +185,28 @@ def draw_global_means():
     ts.draw_group_means(avg,comp.column_names,\
         outfilename='./plots/global_mean.png')
 
+# Experiment on kmeans clustering
+# Practically all of them becomes flat line. Bad.
+def kmeans_clustering():
+    X,comp = tca.load_all_scores()
+    km = KMeans(n_clusters=5)
+    clust_dict = tca.get_clust_dict(X,km,comp)    
+    comp.reform_groups(clust_dict)
+    avg = comp.calc_group_mean()
+    ts.draw_group_means(avg,comp.column_names,\
+        outfilename='./plots/cluster_mean.png')
+
+# Experiment on kmeans clustering separately on each sentiment score
+# check details on March 19th note in the TED Research document.
+# It has a little re-computation which I just left alone.
+def kmeans_separate_stand():
+    X,comp = tca.load_all_scores()
+    km = KMeans(n_clusters=5)
+    avg_dict=tca.clust_separate_stand(X,km,comp)
+    tca.draw_clusters(avg_dict,comp.column_names,\
+        outfilename='./plots/standardizedcluster_mean.png')
+        
+
 if __name__=='__main__':
     # bluemix_plot1()
     # bluemix_plot2()
@@ -205,5 +216,6 @@ if __name__=='__main__':
     # single_plot()
     # time_avg_hi_lo_ratings()
     # grp_avg_hilo_ratings()
-    kmeans_clustering()
-    draw_global_means()
+    # draw_global_means()
+    # kmeans_clustering()
+    kmeans_separate_stand()

@@ -1,13 +1,9 @@
 import ted_talk_sentiment as ts
-<<<<<<< Updated upstream
 from list_of_talks import allrating_samples
 import ted_talk_cluster_analysis as tca
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
-=======
-from list_of_talks_ratings_percent import allrating_samples
 import numpy
->>>>>>> Stashed changes
 
 # This python file is for enlisting all the experiments we are doing
 # It can also be used as sample usage of the code repository such as
@@ -92,7 +88,8 @@ def bluemix_plot5():
     avg_,p = comparator.calc_time_mean()
     ts.draw_time_mean_sentiments(avg_, # time averages
         comparator.column_names,       # name of the columns
-        p                              # p values                      
+        p,                              # p values
+        outfilename='./plots/hivi_lovi.pdf'
         )
 
 # Checking the Emotional progression for a single talk
@@ -121,6 +118,7 @@ def see_sentences():
         )
 
 # Experiment on High/Low ratings
+# Version edited by Samiha:
 def time_avg_hi_lo_ratings():
     avg_saved = numpy.array([])
     i = 0
@@ -139,14 +137,32 @@ def time_avg_hi_lo_ratings():
         #ts.draw_time_mean_sentiments(avg_, # time averages
          #   comparator.column_names,       # name of the columns
           #  p,                             # p values                      
-           # outfilename='./plots/'+titl+'.png'
+           # outfilename='./plots/'+titl+'.pdf'
             #)
         ##----------------------------------------------------------------
  
     return avg_saved
 
+# Experiment on High/Low ratings
+def time_avg_hi_lo_ratings_original():
+    avg_saved = numpy.array([])
+    for a_grp_dict in allrating_samples:
+        allkeys = sorted(a_grp_dict.keys())
+        titl = allkeys[0]+' vs. '+allkeys[1]
+        print titl
+        compar = ts.Sentiment_Comparator(
+            a_grp_dict,     # Compare between hi/lo viewcount files
+            ts.read_bluemix,    # Use bluemix sentiment
+            )
+        avg_,p = compar.calc_time_mean()
+        ts.draw_time_mean_sentiments(avg_, # time averages
+           comparator.column_names,       # name of the columns
+           p,                             # p values                      
+           outfilename='./plots/'+titl+'.pdf'
+            )
+
 # Experiment on High/Low rating from group average
-def grp_avg_hilo_ratings():
+def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
     for a_grpdict in allrating_samples:
         allkeys = sorted(a_grpdict.keys())
         titl = allkeys[0]+' vs. '+allkeys[1]+' group average'
@@ -156,18 +172,19 @@ def grp_avg_hilo_ratings():
             ts.read_bluemix,    # Use bluemix sentiment
             )
         grp_avg = compar.calc_group_mean()
-        for i in [[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]:
-            if len(i)==5:
-                styles = ['r^-','r--','r-','r.-','ro-',
-                 'b^-','b--','b-','b.-','bo-']
-            elif len(i)==3:
+        for i in score_list:
+            if len(i)==3:
                 styles = ['r^-','r--','r-',
                  'b^-','b--','b-']
+            else:
+                styles = ['r^-','r--','r-','r.-','ro-',
+                 'b^-','b--','b-','b.-','bo-']
+
             ts.draw_group_mean_sentiments(grp_avg,
                 compar.column_names,
                 i,
                 styles,
-                outfilename='./plots/'+titl+'.png')
+                outfilename='./plots/'+titl+'.pdf')
 
 # Experiment on the global average of sentiment progressions in
 # ALL* tedtalks
@@ -183,7 +200,7 @@ def draw_global_means():
     comp.reform_groups(inp_dict)
     avg = comp.calc_group_mean()
     ts.draw_group_means(avg,comp.column_names,\
-        outfilename='./plots/global_mean.png')
+        outfilename='./plots/global_mean.pdf')
 
 # Experiment on kmeans clustering
 # Practically all of them becomes flat line. Bad.
@@ -194,7 +211,7 @@ def kmeans_clustering():
     comp.reform_groups(clust_dict)
     avg = comp.calc_group_mean()
     ts.draw_group_means(avg,comp.column_names,\
-        outfilename='./plots/cluster_mean.png')
+        outfilename='./plots/cluster_mean.pdf')
 
 # Experiment on kmeans clustering separately on each sentiment score
 # check details on March 19th note in the TED Research document.
@@ -202,10 +219,13 @@ def kmeans_clustering():
 def kmeans_separate_stand():
     X,comp = tca.load_all_scores()
     km = KMeans(n_clusters=5)
-    avg_dict=tca.clust_separate_stand(X,km,comp)
-    tca.draw_clusters(avg_dict,comp.column_names,\
-        outfilename='./plots/standardizedcluster_mean.png')
-        
+    csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
+    avg_dict=tca.clust_separate_stand(X,km,comp,\
+        csvcontent,csv_vid_idx,comp.column_names)
+    tca.draw_clusters(avg_dict,
+        comp.column_names,
+        outfilename='./plots/standardizedcluster_mean.pdf')    
+
 
 if __name__=='__main__':
     # bluemix_plot1()
@@ -214,8 +234,8 @@ if __name__=='__main__':
     # bluemix_plot4()
     # bluemix_plot5()
     # single_plot()
-    # time_avg_hi_lo_ratings()
-    # grp_avg_hilo_ratings()
+    # time_avg_hi_lo_ratings_original()
+    # grp_avg_hilo_ratings([[1,2],[5,6],[10,12]])
     # draw_global_means()
     # kmeans_clustering()
     kmeans_separate_stand()

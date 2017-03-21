@@ -15,7 +15,7 @@ http://www.cs.ucr.edu/~eamonn/meaningless.pdf
 Silhouette Coef. will be used to tune the model parameters. However,
 the ultimate evaluation metric is obviously the patterns of group mean.
 '''
-
+import csv
 from list_of_talks import all_valid_talks
 from ted_talk_sentiment import Sentiment_Comparator, read_bluemix
 import numpy as np
@@ -78,7 +78,8 @@ def clust_onescore_stand(X_1,clusterer,comparator):
             result_dict['cluster_'+str(lab)]=[talkid]
     return result_dict
 
-def clust_separate_stand(X,clusterer,comparator):
+def clust_separate_stand(X,clusterer,comparator,\
+    csvcontent,csv_vid_idx,column_names):
     '''
     It takes care of the scores individually. Although it is a bit slow
     due to some recomputations, but this would give better results in
@@ -94,23 +95,56 @@ def clust_separate_stand(X,clusterer,comparator):
         # Although it computed the average for all the columns, I need
         # just one, s'th column. This is the recomputation. I don't
         # think it is too bad, though.
-        for akey in avg:
+        print
+        print
+        print 'Clustering for:',column_names[s]
+        print '================================'        
+        for aclust in avg:
             if not comparator.column_names[s] in avg_dict:
-                avg_dict[comparator.column_names[s]] = {akey:avg[akey][:,s]}
+                avg_dict[comparator.column_names[s]] = {aclust:avg[aclust][:,s]}
             else:
-                avg_dict[comparator.column_names[s]][akey]=avg[akey][:,s]
+                avg_dict[comparator.column_names[s]][aclust]=avg[aclust][:,s]
+            # Print information about this cluster
+            totview=[]
+            for vid in clust_dict[aclust]:
+                i = csv_vid_idx[vid]
+                totview.append(int(csvcontent['Totalviews'][i]))
+                #totview.append(int(csvcontent['beautiful'][i]))
+            print aclust+':'
+            print '----------------'
+            print 'Average View Count:',np.mean(totview)
     return avg_dict
-        
+
+def read_index(indexfile):
+    # Read the index file
+    with open(indexfile) as csvfile:
+        reader=csv.DictReader(csvfile,delimiter=',')
+        content={}
+        vid_idx={}
+        for i,arow in enumerate(reader):
+            for akey in arow:
+                if akey=='Video_ID':
+                    vid_idx[int(arow[akey])]=i
+                elif not content.get(akey):
+                    content[akey]=[arow[akey]]
+                else:
+                    content[akey].append(arow[akey])        
+        return content,vid_idx
 
 def draw_clusters(avg_dict,column_names,fullyaxis=False,\
         outfilename=None):
     '''
     This plotter expects the avg_dict from clust_separate_stand.
+    avg_dict is a dictionary containing the averages of each cluster
     '''
     for i,s in enumerate(avg_dict):
         plt.figure(figsize=(16,9))
         for akey in avg_dict[s]:
             plt.plot(avg_dict[s][akey],label=akey)
+            # Print the characteristics of the cluster
+            print akey
+            print '============='
+            print 
         plt.xlabel('Percent of Talk Progression')
         plt.ylabel('value')
         if fullyaxis:

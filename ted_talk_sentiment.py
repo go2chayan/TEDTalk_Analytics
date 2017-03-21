@@ -416,9 +416,9 @@ def draw_time_mean_sentiments(time_avg,
                             pvals,
                             groupcolor=['royalblue','darkkhaki'],
                             outfilename=None):
-    plt.figure(dpi=300)
+    plt.figure(figsize=(16,7))
     for i,grp in enumerate(time_avg):
-        plt.bar(np.arange(len(time_avg[grp]))-i*0.25,
+        plt.bar(np.arange(len(time_avg[grp]))-i*0.25+1,
                 time_avg[grp],
                 color=groupcolor[i],
                 width = 0.25,
@@ -428,15 +428,22 @@ def draw_time_mean_sentiments(time_avg,
     plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,
            ncol=2, mode="expand", borderaxespad=0.)
     ax = plt.gca()
-    ax.set_xticks(np.arange(len(time_avg[grp])))
+    ax.set_xticks(np.arange(len(time_avg[grp]))+1)
     ax.set_xticklabels(
-        [c+'\n p='+str(p) for c,p in zip(column_names,pvals)],rotation='vertical')
+        [namefix(c)+'\n p='+'{0:.4f}'.format(p) for c,p in \
+        zip(column_names,pvals)],rotation=60)
     plt.tight_layout()
     plt.subplots_adjust(top=0.9)
     if outfilename:
         plt.savefig(outfilename)
     else:
         plt.show()
+
+def namefix(astr):
+    astr=astr.replace('emotion_tone_','').replace('language_tone_','')
+    astr=astr.replace('social_tone_','').replace('_big5','')
+    return astr
+
 ############################################################################
 
 def main():

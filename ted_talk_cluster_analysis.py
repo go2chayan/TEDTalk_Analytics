@@ -81,14 +81,17 @@ def clust_onescore_stand(X_1,clusterer,comparator):
 def clust_separate_stand(X,clusterer,comparator,\
     csvcontent,csv_vid_idx,column_names):
     '''
-    It takes care of the scores individually. Although it is a bit slow
-    due to some recomputations, but this would give better results in
-    the clustering. Also, it z-score standardizes each TED talks signal
-    which would reveal the storytelling patterns better.
+    Cluster the videos for each individual score. Notice that it 
+    formulates different clusters while considering different scores.
+    Although it is a bit slow due to some recomputations, but this 
+    would give better results in the clustering. Also, it z-score 
+    standardizes each TED talks signal which would reveal the 
+    storytelling patterns better.
     '''
     N,M,B = X.shape
     avg_dict = {}
     for s in range(B):
+        # Perform clustering over each score
         clust_dict = clust_onescore_stand(X[:,:,s],clusterer,comparator)
         comparator.reform_groups(clust_dict)
         avg = comparator.calc_group_mean()
@@ -116,7 +119,7 @@ def clust_separate_stand(X,clusterer,comparator,\
     return avg_dict
 
 def read_index(indexfile):
-    # Read the index file
+    # Read the content of the index file
     with open(indexfile) as csvfile:
         reader=csv.DictReader(csvfile,delimiter=',')
         content={}
@@ -161,4 +164,91 @@ def draw_clusters(avg_dict,column_names,fullyaxis=False,\
                 '_'+split_fn[1]))
     if not outfilename:
         plt.show()
+
+def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,b_=None):
+    '''
+    Draws the cluster means and its closest-matching talks.
+    avg_dict is a dictionary containing cluster means for various scores.
+    comp is the sentiment comparator object
+    '''
+    X = np.array([comp.sentiments_interp[atalk] for atalk in comp.alltalks])
+    M = np.size(X,axis=1)
+    colidx = {col:i for i,col in enumerate(comp.column_names)}
+    kwlist = ['beautiful', 'ingenious', 'fascinating',
+                'obnoxious', 'confusing', 'funny', 'inspiring',
+                 'courageous', 'ok', 'persuasive', 'longwinded', 
+                 'informative', 'jaw-dropping', 'unconvincing']
+    for ascore in avg_dict:
+        # b is the index of the current score
+        b = colidx[ascore]
+        # If b_ is specified, just draw one score and skip others
+        if b_ and not b_ == b:
+            continue
+        # Start plotting
+        fig = plt.figure(figsize=(15,7))
+        nb_clust = len(avg_dict[ascore].keys())
+        rows = int(np.ceil(nb_clust/3.))
+        cols = 3
+        print
+        print
+        print ascore
+        print '######################'
+        for c,aclust in enumerate(avg_dict[ascore]):
+            # Standerdize X
+            xmean = np.mean(X[:,:,b],axis=1)[None].T
+            xstd = np.std(X[:,:,b],axis=1)[None].T
+            Z = (X[:,:,b] - xmean)/xstd
+            # Calculate the closest matches
+            r = Z - avg_dict[ascore][aclust][None]
+            simidx=np.argsort(np.sum(r*r,axis=1))
+            yval = X[simidx[:20],:,b].T
+            avg_yval = avg_dict[ascore][aclust]
+            # Make the text to be shown for each cluster            
+            txtlist = [csvcontent['Title'][vid_idx[comp.alltalks[idx]]]\
+                for idx in simidx[:5]]
+            # Print the rating averages of the clusters
+            f20vids=[vid_idx[comp.alltalks[idx]] for idx in simidx[:20]]
+            print
+            print aclust
+            print '============'
+            for j,akw in enumerate(kwlist):
+                amean_rat = np.mean(\
+                    [float(csvcontent[akw][i])/float(csvcontent[\
+                    'total_count'][i])*100 for i in f20vids])
+                print akw+' : {0:2.2f}'.format(amean_rat)
+            # Print the average of total view
+            avview = np.mean([int(csvcontent['Totalviews'][i])\
+                    for i in f20vids])
+            print 'Average View: {0:0.2e}'.format(avview)
+            # Draw the axes
+            decorate_axis(c,cols,rows,yval,avg_yval,txtlist,aclust,fig)
+        plt.suptitle(ascore.replace('_',' '))
+
+def decorate_axis(c,cols,rows,yval,avg_yval,txtlist,legendval,fig,
+        toff=0.04,boff=0.02,loff=0.02,midoff=0.04,roff=0.005,txth=0.18):
+    irow = c / cols
+    icol = c % cols
+    cellw = (1. - loff - roff)/float(cols)
+    cellh = (1. - toff - boff)/float(rows)
+    axh = (cellh-midoff)/2.
+    axleft = loff+icol*cellw+midoff/2.
+    axbottom = boff+irow*cellh+midoff/2.+axh
+    axw = cellw-midoff
+    txtaxbottom = boff+irow*cellh+midoff/2.
+    # Position the axes
+    ax = fig.add_axes([axleft,axbottom,axw,axh])
+    # Draw the average and the top 20 similar talks
+    ax.plot(yval,color='gray',linewidth=0.5)
+    ax.plot(avg_yval,color='orange',\
+        linewidth=2,label=legendval)
+    plt.ylim([0,1])
+    plt.xlabel('Percent of Speech')
+    plt.ylabel('Value')
+    plt.legend()
+    # Put the text axis
+    txtax = fig.add_axes([axleft,txtaxbottom,axw,axh-toff-midoff])
+    txtax.axis('off')
+    txtax.patch.set_alpha(0)
+    for i,txt in enumerate(txtlist):
+        txtax.text(0,1 - txth*(i+1),str(i+1)+'. '+txt)
 

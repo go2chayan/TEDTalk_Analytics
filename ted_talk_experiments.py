@@ -218,7 +218,7 @@ def kmeans_clustering():
 # It has a little re-computation which I just left alone.
 def kmeans_separate_stand():
     X,comp = tca.load_all_scores()
-    km = KMeans(n_clusters=5)
+    km = KMeans(n_clusters=6)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
         csvcontent,csv_vid_idx,comp.column_names)
@@ -226,6 +226,16 @@ def kmeans_separate_stand():
         comp.column_names,
         outfilename='./plots/standardizedcluster_mean.pdf')    
 
+# Draw the top 20 talks most similar to the cluster means
+# and name five of them
+def clusters_pretty_draw():
+    X,comp = tca.load_all_scores()
+    km = KMeans(n_clusters=6)
+    csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
+    avg_dict=tca.clust_separate_stand(X,km,comp,\
+        csvcontent,csv_vid_idx,comp.column_names)
+    tca.draw_clusters_pretty(avg_dict,
+        comp,csvcontent,csv_vid_idx)    
 
 if __name__=='__main__':
     # bluemix_plot1()
@@ -238,4 +248,5 @@ if __name__=='__main__':
     # grp_avg_hilo_ratings([[1,2],[5,6],[10,12]])
     # draw_global_means()
     # kmeans_clustering()
-    kmeans_separate_stand()
+    # kmeans_separate_stand()
+    clusters_pretty_draw()

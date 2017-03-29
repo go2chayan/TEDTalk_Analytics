@@ -1,7 +1,7 @@
 import ted_talk_sentiment as ts
 from list_of_talks import allrating_samples
 import ted_talk_cluster_analysis as tca
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, DBSCAN
 import matplotlib.pyplot as plt
 import numpy
 
@@ -206,6 +206,7 @@ def draw_global_means():
 # Practically all of them becomes flat line. Bad.
 def kmeans_clustering():
     X,comp = tca.load_all_scores()
+    # Try Using any other clustering from sklearn.cluster
     km = KMeans(n_clusters=5)
     clust_dict = tca.get_clust_dict(X,km,comp)    
     comp.reform_groups(clust_dict)
@@ -216,26 +217,41 @@ def kmeans_clustering():
 # Experiment on kmeans clustering separately on each sentiment score
 # check details on March 19th note in the TED Research document.
 # It has a little re-computation which I just left alone.
-def kmeans_separate_stand():
+def kclust_separate_stand():
     X,comp = tca.load_all_scores()
-    km = KMeans(n_clusters=6)
+    # Try Using any other clustering from sklearn.cluster
+    km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
-        csvcontent,csv_vid_idx,comp.column_names)
-    tca.draw_clusters(avg_dict,
-        comp.column_names,
+        csvcontent,csv_vid_idx)
+    tca.draw_clusters(avg_dict,comp.column_names,
         outfilename='./plots/standardizedcluster_mean.pdf')    
 
 # Draw the top 20 talks most similar to the cluster means
 # and name five of them
 def clusters_pretty_draw():
     X,comp = tca.load_all_scores()
-    km = KMeans(n_clusters=6)
+    # Try Using any other clustering from sklearn.cluster
+    km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
-        csvcontent,csv_vid_idx,comp.column_names)
-    tca.draw_clusters_pretty(avg_dict,
-        comp,csvcontent,csv_vid_idx)    
+        csvcontent,csv_vid_idx)
+    tca.draw_clusters_pretty(avg_dict,comp,csvcontent,csv_vid_idx)    
+
+# GOOD Result
+##############
+# Draw the cluster means and evaluate the differences in various
+# clusters. It performs an ANOVA test to check if the clusters have
+# any differences in their ratings
+def evaluate_clusters_pretty():
+    X,comp = tca.load_all_scores()
+    # Try Using any other clustering from sklearn.cluster
+    km = DBSCAN(eps=7,min_samples=8)
+    csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
+    tca.evaluate_clust_separate_stand(X,km,comp,csvcontent,csv_vid_idx)
+    
+
+
 
 if __name__=='__main__':
     # bluemix_plot1()
@@ -249,4 +265,4 @@ if __name__=='__main__':
     # draw_global_means()
     # kmeans_clustering()
     # kmeans_separate_stand()
-    clusters_pretty_draw()
+    evaluate_clusters_pretty()

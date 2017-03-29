@@ -20,6 +20,7 @@ from list_of_talks import all_valid_talks
 from ted_talk_sentiment import Sentiment_Comparator, read_bluemix
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.stats import f_oneway
 
 def load_all_scores():
     '''
@@ -61,9 +62,9 @@ def get_clust_dict(X,clusterer,comparator):
 def clust_onescore_stand(X_1,clusterer,comparator):
     '''
     Similar to get_clust_dict. But it will performs clustering assuming there is
-    only one sentiment score. Practically it is equivalent to considering that X_1
-    is of order 2 (NxM), instead of 3 (NxMxB). In addition, it performs z-score 
-    standardization of the rows of X_1 (i.e. each talk).
+    only one sentiment score. Practically it is equivalent to considering that 
+    X_1 is of order 2 (NxM), instead of 3 (NxMxB). In addition, it performs 
+    z-score standardization of the rows of X_1 (i.e. each talk).
     '''
     result_dict = {}
     mean_ = np.mean(X_1,axis=1)[None].T
@@ -78,8 +79,7 @@ def clust_onescore_stand(X_1,clusterer,comparator):
             result_dict['cluster_'+str(lab)]=[talkid]
     return result_dict
 
-def clust_separate_stand(X,clusterer,comparator,\
-    csvcontent,csv_vid_idx,column_names):
+def clust_separate_stand(X,clusterer,comparator,csvcontent,csv_vid_idx):
     '''
     Cluster the videos for each individual score. Notice that it 
     formulates different clusters while considering different scores.
@@ -100,7 +100,7 @@ def clust_separate_stand(X,clusterer,comparator,\
         # think it is too bad, though.
         print
         print
-        print 'Clustering for:',column_names[s]
+        print 'Clustering for:',comparator.column_names[s]
         print '================================'        
         for aclust in avg:
             if not comparator.column_names[s] in avg_dict:
@@ -118,8 +118,78 @@ def clust_separate_stand(X,clusterer,comparator,\
             print 'Average View Count:',np.mean(totview)
     return avg_dict
 
+def evaluate_clust_separate_stand(X,clusterer,comparator,\
+    csvcontent,csv_id,b_=None):
+    '''
+    It is similar to clust_separate_stand, but instead of returning
+    a dictionary, it draws the cluster means and evaluate the differences
+    in various clusters. It performs ANOVA to check if the 
+    clusters have any differences in their ratings
+    '''
+    N,M,B = X.shape
+    avg_dict = {}
+    kwlist = ['beautiful', 'ingenious', 'fascinating',
+                'obnoxious', 'confusing', 'funny', 'inspiring',
+                 'courageous', 'ok', 'persuasive', 'longwinded', 
+                 'informative', 'jaw-dropping', 'unconvincing','Totalviews']
+    # s is the index of a bluemix score
+    for s in range(B):
+        # If b_ is specified, just compute one score and skip others
+        if b_ and not b_ == s:
+            continue
+        # Perform clustering over each score
+        clust_dict = clust_onescore_stand(X[:,:,s],clusterer,comparator)
+        comparator.reform_groups(clust_dict)
+        avg = comparator.calc_group_mean()
+        for aclust in avg:
+            if not comparator.column_names[s] in avg_dict:
+                avg_dict[comparator.column_names[s]] = {aclust:avg[aclust][:,s]}
+            else:
+                avg_dict[comparator.column_names[s]][aclust]=avg[aclust][:,s]
+        # Pretty draw the clusters
+        draw_clusters_pretty(avg_dict,comparator,csvcontent,csv_id,b_=s)
+        
+        # Now apply ANOVA and compare clusters
+        pvals = {}
+        allvals = {}
+        # Formulate a list of values for each rating
+        for akw in kwlist:
+            if akw == 'Totalviews':
+                ratvals = [[int(csvcontent[akw][csv_id[avid]]) for avid\
+                    in comparator.groups[aclust]] for aclust in \
+                    comparator.groups]
+            else:
+                ratvals = [[float(csvcontent[akw][csv_id[avid]])/\
+                        float(csvcontent['total_count'][csv_id[avid]])\
+                        for avid in comparator.groups[aclust]] for\
+                        aclust in comparator.groups]
+            # perform ANOVA
+            _,pval = f_oneway(*ratvals)
+            # Save only the statistically significant ones
+            if pval<0.01:
+                pvals[akw]=pval
+                allvals[akw] = ratvals
+        # If the clusters are significantly different in any rating, draw it
+        if not pvals.keys():
+            continue
+        else:
+            draw_boxplots(pvals,allvals,s,comparator)
+
+def draw_boxplots(pvals,allvals,s,comparator):
+    # Draw the box plot for Totalviews first
+    for akw in pvals:
+        plt.figure(comparator.column_names[s]+akw)
+        ax=plt.boxplot(allvals[akw],
+            labels=comparator.groups.keys(),
+            showfliers=False)
+        plt.ylabel('Total Views')
+        plt.suptitle(\
+            'Significant (p={0:0.6f}) difference in '.format(pvals[akw])+\
+            akw+'\n'+'while clustering based on: '+comparator.column_names[s])
+
 def read_index(indexfile):
     # Read the content of the index file
+    # content is a dictionary 
     with open(indexfile) as csvfile:
         reader=csv.DictReader(csvfile,delimiter=',')
         content={}
@@ -225,7 +295,7 @@ def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,b_=None):
         plt.suptitle(ascore.replace('_',' '))
 
 def decorate_axis(c,cols,rows,yval,avg_yval,txtlist,legendval,fig,
-        toff=0.04,boff=0.02,loff=0.02,midoff=0.04,roff=0.005,txth=0.18):
+        toff=0.03,boff=0.015,loff=0.02,midoff=0.03,roff=0.005,txth=0.18):
     irow = c / cols
     icol = c % cols
     cellw = (1. - loff - roff)/float(cols)
@@ -246,7 +316,7 @@ def decorate_axis(c,cols,rows,yval,avg_yval,txtlist,legendval,fig,
     plt.ylabel('Value')
     plt.legend()
     # Put the text axis
-    txtax = fig.add_axes([axleft,txtaxbottom,axw,axh-toff-midoff])
+    txtax = fig.add_axes([axleft,txtaxbottom,axw,axh-toff])
     txtax.axis('off')
     txtax.patch.set_alpha(0)
     for i,txt in enumerate(txtlist):

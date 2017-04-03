@@ -1,13 +1,19 @@
 import ted_talk_sentiment as ts
 from list_of_talks import allrating_samples
 import ted_talk_cluster_analysis as tca
+import ted_talk_prediction as tp
 from sklearn.cluster import KMeans, DBSCAN
+import sklearn as sl
+import scipy as sp
 import matplotlib.pyplot as plt
 import numpy
 
 # This python file is for enlisting all the experiments we are doing
 # It can also be used as sample usage of the code repository such as
-# the sentiment_comparator class.
+# the sentiment_comparator class. Instead of running this file like a python
+# script, try running it like a python notebook. For each experiment,
+# try running the contents of each function in an interactive python shell.
+# In that way, you don't need to re-execute time intensive functions.
 ###################################################################
 # DO NOT delete an experiment even though they are highly redundant
 ###################################################################
@@ -189,8 +195,8 @@ def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
 # Experiment on the global average of sentiment progressions in
 # ALL* tedtalks
 # * = all means the 2007 valid ones.
-def draw_global_means():
-    X,comp = tca.load_all_scores()
+def draw_global_means(X,comp):
+    #X,comp = tca.load_all_scores()
     inp_dict = comp.groups.copy()
     inp_dict['all']=[]
     inp_dict['all'].extend(inp_dict['group_1'])
@@ -204,8 +210,8 @@ def draw_global_means():
 
 # Experiment on kmeans clustering
 # Practically all of them becomes flat line. Bad.
-def kmeans_clustering():
-    X,comp = tca.load_all_scores()
+def kmeans_clustering(X,comp):
+    #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
     km = KMeans(n_clusters=5)
     clust_dict = tca.get_clust_dict(X,km,comp)    
@@ -217,8 +223,8 @@ def kmeans_clustering():
 # Experiment on kmeans clustering separately on each sentiment score
 # check details on March 19th note in the TED Research document.
 # It has a little re-computation which I just left alone.
-def kclust_separate_stand():
-    X,comp = tca.load_all_scores()
+def kclust_separate_stand(X,comp):
+    #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
     km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
@@ -229,8 +235,8 @@ def kclust_separate_stand():
 
 # Draw the top 20 talks most similar to the cluster means
 # and name five of them
-def clusters_pretty_draw():
-    X,comp = tca.load_all_scores()
+def clusters_pretty_draw(X,comp):
+    #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
     km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
@@ -243,13 +249,34 @@ def clusters_pretty_draw():
 # Draw the cluster means and evaluate the differences in various
 # clusters. It performs an ANOVA test to check if the clusters have
 # any differences in their ratings
-def evaluate_clusters_pretty():
-    X,comp = tca.load_all_scores()
+def evaluate_clusters_pretty(X,comp):
+    #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
     km = DBSCAN(eps=7,min_samples=8)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     tca.evaluate_clust_separate_stand(X,km,comp,csvcontent,csv_vid_idx)
     
+
+def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
+    #scores,Y = tp.loaddata()
+    X,nkw = tp.feat_sumstat(scores)
+    y = tp.discretizeY(Y,0)
+    X_bin,y_bin = tp.binarize(X,y)
+    # Split in training and test data
+    tridx,tstidx = tp.traintest_idx(len(y_bin))
+    trainX,trainY = X_bin[tridx,:],y_bin[tridx]
+    testX,testY = X_bin[tstidx,:],y_bin[tstidx]
+
+    # Classifier selection
+    if classifier == 'LinearSVM':
+        clf = LinearSVC()
+        # Train with training data
+        clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
+            {'C':sp.stats.expon(scale=10.)},nb_iter=10)
+        # Evaluate with test data
+        tp.classifier_eval(clf_trained,testX,testY,'ROC on Test Data')
+    elif classifier == 'SVM_rbf':
+        clf = 
 
 
 
@@ -262,7 +289,12 @@ if __name__=='__main__':
     # single_plot()
     # time_avg_hi_lo_ratings_original()
     # grp_avg_hilo_ratings([[1,2],[5,6],[10,12]])
-    # draw_global_means()
-    # kmeans_clustering()
-    # kmeans_separate_stand()
-    evaluate_clusters_pretty()
+    # -------- Clustering Experiments ---------
+    # X,comp = tca.load_all_scores()
+    # draw_global_means(X,comp)
+    # kmeans_clustering(X,comp)
+    # kmeans_separate_stand(X,comp)
+    # evaluate_clusters_pretty(X,comp)
+    # -------- Classification Experiments -----
+    scores,Y = tp.loaddata()
+    classify_Good_Bad(scores,Y)

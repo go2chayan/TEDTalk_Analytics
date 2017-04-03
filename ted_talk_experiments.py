@@ -260,23 +260,38 @@ def evaluate_clusters_pretty(X,comp):
 def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
     #scores,Y = tp.loaddata()
     X,nkw = tp.feat_sumstat(scores)
-    y = tp.discretizeY(Y,0)
-    X_bin,y_bin = tp.binarize(X,y)
-    # Split in training and test data
-    tridx,tstidx = tp.traintest_idx(len(y_bin))
-    trainX,trainY = X_bin[tridx,:],y_bin[tridx]
-    testX,testY = X_bin[tstidx,:],y_bin[tstidx]
+    for i,kw in enumerate(tp.kwlist):
+        print
+        print
+        print kw
+        print '================='
+        y = tp.discretizeY(Y,i)
+        X_bin,y_bin = tp.binarize(X,y)
+        # Split in training and test data
+        tridx,tstidx = tp.traintest_idx(len(y_bin))
+        trainX,trainY = X_bin[tridx,:],y_bin[tridx]
+        testX,testY = X_bin[tstidx,:],y_bin[tstidx]
 
-    # Classifier selection
-    if classifier == 'LinearSVM':
-        clf = LinearSVC()
-        # Train with training data
-        clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
-            {'C':sp.stats.expon(scale=10.)},nb_iter=10)
-        # Evaluate with test data
-        tp.classifier_eval(clf_trained,testX,testY,'ROC on Test Data')
-    elif classifier == 'SVM_rbf':
-        clf = 
+        # Classifier selection
+        if classifier == 'LinearSVM':
+            clf = sl.svm.LinearSVC()
+            # Train with training data
+            try:
+                clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
+                    {'C':sp.stats.expon(scale=10.)},nb_iter=10,datname=kw)
+            except:
+                print 'Data is badly scaled for',kw
+                print 'skiping'
+                continue
+            # Evaluate with test data
+            tp.classifier_eval(clf_trained,testX,testY,ROCTitle=\
+                'ROC on Test Data'+kw)
+        elif classifier == 'SVM_rbf':
+            clf = sl.svm.SVC()
+            # Train with training data
+            clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
+                {'C':sp.stats.expon(scale=10.),},nb_iter=10,datname=kw)
+
 
 
 

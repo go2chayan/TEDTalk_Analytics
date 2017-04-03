@@ -84,10 +84,10 @@ def binarize(X,y):
     idxmed = y!=0
     return X[idxmed,:],y[idxmed]
 
-def classifier_eval(clf_trained,X_test,y_test,use_proba=True,Title=None):
+def classifier_eval(clf_trained,X_test,y_test,use_proba=True,ROCTitle=None):
     y_pred = clf_trained.predict(X_test)
     print 'Report on Test Data'
-    print '==================='
+    print '-------------------'
     print sl.metrics.classification_report(y_test,y_pred)
     print 'Accuracy:',sl.metrics.accuracy_score(y_test,y_pred)
     if use_proba:
@@ -109,8 +109,8 @@ def classifier_eval(clf_trained,X_test,y_test,use_proba=True,Title=None):
             format(auc))
         plt.xlabel('False Positive Rate')
         plt.ylabel('True Positive Rate')
-        if Title:
-            plt.title(Title)
+        if ROCTitle:
+            plt.title(ROCTitle)
         plt.legend()
         plt.show()
         
@@ -120,7 +120,7 @@ def regressor_eval(y_true,y_pred):
 
 def train_with_CV(X,y,clf,cvparams=None,
         score_func=roc_auc_score,Nfold=3,nb_iter=10,
-        showCV_report=False,use_proba=True):
+        showCV_report=False,use_proba=True,datname=''):
     '''
     Trains the estimator with N fold cross validation. The number of fold
     is given by the parameter Nfold. cvparams is a dictionary specifying
@@ -133,11 +133,11 @@ def train_with_CV(X,y,clf,cvparams=None,
     randcv.fit(X,y)
     y_pred = randcv.best_estimator_.predict(X)
     print 'Report on Training Data'
-    print '======================='
+    print '-----------------------'
     print 'Best parameters:',randcv.best_params_
     print 'Best Score:',randcv.best_score_
     classifier_eval(randcv.best_estimator_,X,y,use_proba,
-        'ROC on Training Data')
+        'ROC on Training Data '+datname)
     if showCV_report:
         print 'CV Results:'
         print randcv.cv_results_

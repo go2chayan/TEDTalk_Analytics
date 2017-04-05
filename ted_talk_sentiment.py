@@ -267,7 +267,8 @@ class Sentiment_Comparator(object):
         else:
             return time_avg,pvals
 
-    def display_sentences(self,talkid,start_percent,end_percent,selected_columns = None):
+    def display_sentences(self,talkid,start_percent,
+        end_percent,selected_columns = None):
         '''
         Even though the sentiment plots are interpolated to 0 to 100
         to calculate ensemble averages, the reference to the original
@@ -302,6 +303,7 @@ class Sentiment_Comparator(object):
 def draw_single_sentiment(sentim_scores,
                           column_names,
                           selected_columns = None,
+                          full_y=False,
                           legend_location='lower center',
                           outfilename=None):
     '''
@@ -319,6 +321,8 @@ def draw_single_sentiment(sentim_scores,
     plt.subplots_adjust(bottom=0.14, right=0.99, left=0.05, top=0.78)
     plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,
            ncol=5, mode="expand", borderaxespad=0.)
+    if full_y:
+        plt.ylim([0,1])
     #plt.tight_layout()
     if outfilename:
         plt.savefig(outfilename)

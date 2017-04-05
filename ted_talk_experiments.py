@@ -41,8 +41,12 @@ comparator = ts.Sentiment_Comparator(
     ts.read_bluemix,    # Use bluemix sentiment
     )
 
-# Check the average emotion plots
-def bluemix_plot1():
+def bluemix_plot1(outfilename = None):
+    '''
+    This function plots the progression of average <b>emotion scores</b>
+    for 20 highest viewed ted talks and 20 lowest viewed ted talks.
+    If you want to save the plots in a file, set the outfilename argument.
+    '''
     avg_ = comparator.calc_group_mean()
     # Plot Group Average
     ts.draw_group_mean_sentiments(avg_, # the average of groups
@@ -50,11 +54,16 @@ def bluemix_plot1():
         selected_columns=[0,1,2,3,4],   # only emotion scores
         styles=['r.--','r-','r--','r.-','ro-',
                 'b.--','b-','b--','b.-','bo-'],  # appropriate line style
-        legend_location='lower center'
+        legend_location='lower center',
+        outfilename=outfilename
         )
 
-# Check the average Language plots
-def bluemix_plot2():
+def bluemix_plot2(outfilename=None):
+    '''
+    This function plots the progression of average Language scores for 20 
+    highest viewed ted talks and 20 lowest viewed ted talks. If you want
+    to save the plots in a file, set the outfilename argument.
+    '''
     avg_ = comparator.calc_group_mean()
     # Plot Group Average
     ts.draw_group_mean_sentiments(avg_, # the average of groups
@@ -62,11 +71,16 @@ def bluemix_plot2():
         selected_columns=[5,6,7],   # only Language scores
         styles=['r.--','r-','r--',
                 'b.--','b-','b--'],  # appropriate line style
-        legend_location='lower center'
+        legend_location='lower center',
+        outfilename=outfilename
         )
 
-# Check the average social plots
-def bluemix_plot3():
+def bluemix_plot3(outfilename=None):
+    '''
+    This function plots the progression of average Social scores for 20 
+    highest viewed ted talks and 20 lowest viewed ted talks. If you want
+    to save the plots in a file, set the outfilename argument.
+    '''
     avg_ = comparator.calc_group_mean()
     # Plot Group Average
     ts.draw_group_mean_sentiments(avg_, # the average of groups
@@ -74,13 +88,25 @@ def bluemix_plot3():
         selected_columns=[8,9,10,11,12],   # only big5 scores
         styles=['r.--','r-','r--','r.-','ro-',
                 'b.--','b-','b--','b.-','bo-'],  # appropriate line style
-        legend_location='lower center'
+        legend_location='lower center',
+        outfilename=outfilename
         )
 
-# bluemix plot one by one
-def bluemix_plot4():
+
+def bluemix_plot4(outprefix='./plots/'):
+    '''
+    This function plots the progression of all the scores one by one.
+    The average was calculated for 20 highest viewed ted talks and 20
+    lowest viewed ted talks. By default, the plots are saved with their
+    unique names inside the directory specified by outprefix argument.
+    If you want to see the plots in window, set outprefix to None
+    '''
     avg_ = comparator.calc_group_mean()
     for i in range(13):
+        if outprefix:
+            outfname = './plots/'+comparator.column_names[i]+'.pdf'
+        else:
+            outfname = None
         # Plot Group Average
         ts.draw_group_mean_sentiments(avg_, # the average of groups
             comparator.column_names,        # name of the columns
@@ -88,39 +114,158 @@ def bluemix_plot4():
             styles=['r-',
                     'b-'],  # appropriate line style
             legend_location='lower center',
-            outfilename='./plots/'+comparator.column_names[i]+'.pdf'
-            )
+            outfilename=outfname)
 
-# Checking time averages to see the best sentiment
-def bluemix_plot5():
+def bluemix_plot5(outfilename='./plots/hivi_lovi.pdf'):
+    '''
+    This function plots the time averages for the 20 highest viewed
+    and 20 lowest viewed ted talks. In addition, it performs T-tests
+    among the hi-view and lo-view groups. By default, the output is saved
+    in the './plots/hivi_lovi.pdf' file. But if you want to see it
+    on an interactive window, just set outfilename=None
+    '''
     avg_,p = comparator.calc_time_mean()
     ts.draw_time_mean_sentiments(avg_, # time averages
         comparator.column_names,       # name of the columns
         p,                              # p values
-        outfilename='./plots/hivi_lovi.pdf'
+        outfilename=outfilename
         )
 
-# Checking the Emotional progression for a single talk
-# Sample Usage: How to check individual sentiment plots
-# and corresponding sentences
-def single_plot(talkid = 66,selected_columns = [1,3,12]):
+def single_plot(talkid = 66,selected_scores = [1,3,12],
+    draw_full_y=False,outfilename=None):
+    '''
+    Plots the score progression for a single talk.
+    Note that this function does not plot the raw score.
+    It smoothens the raw score value, cuts the boundary distortions
+    (due to smoothing) and interpolates from 0 to 100 before showing
+    the plots.
+    The selected_scores argument defines which scores to show. Showing
+    too many scores at once will make the plot busy.
+    If draw_full_y is set True, the plots are drawn over a y-axis ranging
+    from 0 to 1.
+    If outfilename is set to a filename, the plot is saved to that file.
+    The indices of bluemix scores are as follows (needed in the selected
+    scores argument):
+    0: anger 
+    1: disgust 
+    2: fear 
+    3: joy 
+    4: sadness 
+    5: analytical 
+    6: confident 
+    7: tentative 
+    8: openness_big5 
+    9: conscientiousness_big5 
+    10: extraversion_big5 
+    11: agreeableness_big5 
+    12: emotional_range_big5
+    '''
+    singletalk = {'just_one':[talkid]}
+    comp = ts.Sentiment_Comparator(singletalk,ts.read_bluemix)
     ts.draw_single_sentiment(\
-        comparator.sentiments_interp[talkid], # plot the interpolated sentiment
-        comparator.column_names,              # Name of the columns
-        selected_columns                      # Show only Disgust, Joy and Emotional 
-        )
-    
-# See the sentences of a talk from a certain percent to another percent
-def see_sentences(talkid=66,start=50,end=60):
-    # Display sample sentences
-    comparator.display_sentences(talkid, # Talk ID
-        start, # Start percent
-        end  # End percent
+        comp.sentiments_interp[talkid], # plot the interpolated sentiment
+        comp.column_names,              # Name of the columns
+        selected_scores,                # Show only Disgust, Joy and Emotional
+        full_y=draw_full_y,
+        outfilename = outfilename 
         )
 
-# Experiment on High/Low ratings
-# Version edited by Samiha:
+def single_plot_raw(talkid,selected_scores=[3,4],
+    draw_full_y=False,outfilename=None):
+    '''
+    Plots the <b>Raw</b> score progression for a single talk.
+    The selected_scores argument defines which scores to show. Showing
+    too many scores at once will make the plot busy.
+    If draw_full_y is set True, the plots are drawn over a y-axis ranging
+    from 0 to 1.
+    If outfilename is set to a filename, the plot is saved to that file.
+    The indices of bluemix scores are as follows (needed in the 
+    selected_scores argument):
+    0: anger 
+    1: disgust 
+    2: fear 
+    3: joy 
+    4: sadness 
+    5: analytical 
+    6: confident 
+    7: tentative 
+    8: openness_big5 
+    9: conscientiousness_big5 
+    10: extraversion_big5 
+    11: agreeableness_big5 
+    12: emotional_range_big5
+    '''
+    singletalk = {'just_one':[talkid]}
+    comp = ts.Sentiment_Comparator(singletalk,ts.read_bluemix,process=False)
+    comp.extract_raw_sentiment()
+    ts.draw_single_sentiment(\
+        comp.raw_sentiments[talkid], # plot the interpolated sentiment
+        comp.column_names,              # Name of the columns
+        selected_scores,                # Show only Disgust, Joy and Emotional
+        full_y=draw_full_y,
+        outfilename = outfilename 
+        )
+
+def single_plot_smoothed(talkid,selected_scores=[3,4],
+    draw_full_y=False,outfilename=None):
+    '''
+    Plots the Smoothed (but not interpolated) score progression for a
+    single talk. The selected_scores argument defines which scores to 
+    show. Showing too many scores at once will make the plot busy.
+    If draw_full_y is set True, the plots are drawn over a y-axis ranging
+    from 0 to 1.
+    If outfilename is set to a filename, the plot is saved to that file.
+    The indices of bluemix scores are as follows (needed in the 
+    selected_scores argument):
+    0: anger 
+    1: disgust 
+    2: fear 
+    3: joy 
+    4: sadness 
+    5: analytical 
+    6: confident 
+    7: tentative 
+    8: openness_big5 
+    9: conscientiousness_big5 
+    10: extraversion_big5 
+    11: agreeableness_big5 
+    12: emotional_range_big5
+    '''
+    singletalk = {'just_one':[talkid]}
+    comp = ts.Sentiment_Comparator(singletalk,ts.read_bluemix)
+    ts.draw_single_sentiment(\
+        comp.raw_sentiments[talkid], # plot the interpolated sentiment
+        comp.column_names,              # Name of the columns
+        selected_scores,                # Show only Disgust, Joy and Emotional
+        full_y=draw_full_y,
+        outfilename = outfilename 
+        )    
+    
+def see_sentences_percent(talkid,start=50,end=60,selected_scores=None):
+    '''
+    Prints the sentences of a talk from a start percent to end percent.
+    Notice that the start and end indices are numbered in terms of
+    percentages of the the talk. The percentages are automatically
+    converted back to the raw indices of each sentence.
+    This function also shows the scores for each sentence. Use the
+    selected_scores argument to specify which scores you want to see.
+    By default, it is set to None, which means to show all the scores
+    for each sentence.
+    '''
+    # Display sample sentences
+    singletalk = {'just_one':[talkid]}
+    comp = ts.Sentiment_Comparator(singletalk,ts.read_bluemix)
+    comp.display_sentences(talkid, # Talk ID
+        start, # Start percent
+        end,  # End percent
+        selected_columns = selected_scores
+        )
+
 def time_avg_hi_lo_ratings():
+    '''
+    Experiment on High/Low ratings
+    This Version was edited by Samiha
+    '''
     avg_saved = numpy.array([])
     i = 0
     for a_grp_dict in allrating_samples:
@@ -144,8 +289,15 @@ def time_avg_hi_lo_ratings():
  
     return avg_saved
 
-# Experiment on High/Low ratings
 def time_avg_hi_lo_ratings_original():
+    '''
+    Experiment on the time average of (30) Highly rated talks and 
+    low rated talks. 
+    Besides calculating the time average, it also calculates
+    the p-values for t-tests showing if there is any difference in 
+    the average scores.
+    The plots are saved in ./plots/ directory.
+    '''
     avg_saved = numpy.array([])
     for a_grp_dict in allrating_samples:
         allkeys = sorted(a_grp_dict.keys())
@@ -160,10 +312,33 @@ def time_avg_hi_lo_ratings_original():
            comparator.column_names,       # name of the columns
            p,                             # p values                      
            outfilename='./plots/'+titl+'.pdf'
-            )
+        )
 
-# Experiment on High/Low rating from group average
 def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
+    '''
+    Experiment on the (ensemble) average of scores for 30 Highly rated
+    talks and 30 low rated talks. 
+    For every rating, it attempts to show the averages of various scores.
+    The score_list is a list of list indicating which scores would be
+    grouped together in one window. By default, the emotional, language,
+    and personality scores are grouped together. The indices of the scores
+    are given below:
+    0: anger 
+    1: disgust 
+    2: fear 
+    3: joy 
+    4: sadness 
+    5: analytical 
+    6: confident 
+    7: tentative 
+    8: openness_big5 
+    9: conscientiousness_big5 
+    10: extraversion_big5 
+    11: agreeableness_big5 
+    12: emotional_range_big5
+
+    The plots are saved in ./plots/ directory.
+    '''
     for a_grpdict in allrating_samples:
         allkeys = sorted(a_grpdict.keys())
         titl = allkeys[0]+' vs. '+allkeys[1]+' group average'
@@ -174,7 +349,12 @@ def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
             )
         grp_avg = compar.calc_group_mean()
         for i in score_list:
-            if len(i)==3:
+            if len(i)==1:
+                styles = ['r-','b-']
+            elif len(i)==2:
+                styles = ['r^-','r--',
+                 'b^-','b--']                
+            elif len(i)==3:
                 styles = ['r^-','r--','r-',
                  'b^-','b--','b-']
             else:
@@ -187,11 +367,18 @@ def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
                 styles,
                 outfilename='./plots/'+titl+'.pdf')
 
-# Experiment on the global average of sentiment progressions in
-# ALL* tedtalks
-# * = all means the 2007 valid ones.
 def draw_global_means(X,comp):
-    #X,comp = tca.load_all_scores()
+    '''
+    Experiment on the global average of sentiment progressions in
+    ALL* tedtalks
+    * = all means the 2007 valid ones.
+
+    Note: before you call this function, you should get the arguments
+    (X and comp) using the following command: 
+    X,comp = tca.load_all_scores()
+    tca is the ted_talk_cluster_analysis module
+    load_all_scores is a slow function
+    '''
     inp_dict = comp.groups.copy()
     inp_dict['all']=[]
     inp_dict['all'].extend(inp_dict['group_1'])
@@ -203,10 +390,16 @@ def draw_global_means(X,comp):
     ts.draw_group_means(avg,comp.column_names,\
         outfilename='./plots/global_mean.pdf')
 
-# Experiment on kmeans clustering
-# Practically all of them becomes flat line. Bad.
 def kmeans_clustering(X,comp):
-    #X,comp = tca.load_all_scores()
+    '''
+    Experiment on kmeans clustering
+
+    Note: before you call this function, you should get the arguments
+    (X and comp) using the following command: 
+    X,comp = tca.load_all_scores()
+    tca is the ted_talk_cluster_analysis module    
+    load_all_scores is a slow function
+    '''
     # Try Using any other clustering from sklearn.cluster
     km = KMeans(n_clusters=5)
     clust_dict = tca.get_clust_dict(X,km,comp)    
@@ -215,10 +408,18 @@ def kmeans_clustering(X,comp):
     ts.draw_group_means(avg,comp.column_names,\
         outfilename='./plots/cluster_mean.pdf')
 
-# Experiment on kmeans clustering separately on each sentiment score
-# check details on March 19th note in the TED Research document.
-# It has a little re-computation which I just left alone.
 def kclust_separate_stand(X,comp):
+    '''
+    Experiment on kmeans clustering separately on each sentiment score.
+    Check details on March 19th note in the TED Research document.
+    It has a little re-computation which I just left alone.    
+
+    Note: before you call this function, you should get the arguments
+    (X and comp) using the following command: 
+    X,comp = tca.load_all_scores()
+    tca is the ted_talk_cluster_analysis module    
+    load_all_scores is a slow function
+    '''
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
     km = DBSCAN(eps=6.25)
@@ -228,10 +429,17 @@ def kclust_separate_stand(X,comp):
     tca.draw_clusters(avg_dict,comp.column_names,
         outfilename='./plots/standardizedcluster_mean.pdf')    
 
-# Draw the top 20 talks most similar to the cluster means
-# and name five of them
 def clusters_pretty_draw(X,comp):
-    #X,comp = tca.load_all_scores()
+    '''
+    Draws the top 20 talks most similar to the cluster means
+    and name five of them
+
+    Note: before you call this function, you should get the arguments
+    (X and comp) using the following command: 
+    X,comp = tca.load_all_scores()
+    tca is the ted_talk_cluster_analysis module
+    load_all_scores is a slow function      
+    '''
     # Try Using any other clustering from sklearn.cluster
     km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
@@ -241,10 +449,18 @@ def clusters_pretty_draw(X,comp):
 
 # GOOD Result
 ##############
-# Draw the cluster means and evaluate the differences in various
-# clusters. It performs an ANOVA test to check if the clusters have
-# any differences in their ratings
 def evaluate_clusters_pretty(X,comp,outfilename='./plots/'):
+    '''
+    Draw the cluster means and evaluate the differences in various
+    clusters. It performs an ANOVA test to check if the clusters have
+    any differences in their ratings
+
+    Note: before you call this function, you should get the arguments
+    (X and comp) using the following command: 
+    X,comp = tca.load_all_scores()
+    tca is the ted_talk_cluster_analysis module
+    load_all_scores is a slow function     
+    '''
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
     km = DBSCAN(eps=6.5)
@@ -253,10 +469,18 @@ def evaluate_clusters_pretty(X,comp,outfilename='./plots/'):
         csv_vid_idx,outfilename=outfilename)
     
 
-# Classify between groups of High ratings and low ratings using
-# Two different types of SVM
 def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
-    #scores,Y = tp.loaddata()
+    '''
+    Classify between groups of High ratings and low ratings using
+    Two different types of SVM LinearSVM or SVM_rbf. The classifier
+    argument can take these two values.
+    This function trains the classifiers and evaluates their performances.
+
+    Use the following command to get the initial arguments:
+    scores,Y,_ = tp.loaddata()
+    tp = ted_talk_prediction module
+    Note: loaddata is a slow function
+    '''
     X,nkw = tp.feat_sumstat(scores)
     for i,kw in enumerate(tp.kwlist):
         print
@@ -285,6 +509,8 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
                 print 'skiping'
                 continue
             # Evaluate with test data
+            print 'Report on Test Data'
+            print '-----------------------'            
             tp.classifier_eval(clf_trained,testX,testY,ROCTitle=\
                 'ROC of LinearSVM on Test Data for '+kw)
         elif classifier == 'SVM_rbf':
@@ -312,7 +538,16 @@ def classify_good_bad_raw_score():
 def classify_multiclass():
     pass
 
-def regress_sores(scores,Y,regressor='ridge'):
+def regress_ratings(scores,Y,regressor='ridge'):
+    '''
+    Try to predict the ratings using regression methods. Besides training
+    the regressors, it also evaluates them.
+
+    Use the following command to get the initial arguments:
+    scores,Y,_ = tp.loaddata()
+    tp = ted_talk_prediction module
+    Note: loaddata is a slow function
+    '''    
     X,nkw = tp.feat_sumstat(scores)
     for i,kw in enumerate(tp.kwlist):
         print
@@ -326,7 +561,6 @@ def regress_sores(scores,Y,regressor='ridge'):
 
         if regressor=='ridge':
             pass
-
 
 
 if __name__=='__main__':

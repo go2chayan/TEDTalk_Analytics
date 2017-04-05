@@ -4,7 +4,7 @@ import ted_talk_cluster_analysis as tca
 import numpy as np
 import scipy as sp
 import sklearn as sl
-from sklearn.metrics import roc_auc_score
+import sklearn.metrics as met
 import matplotlib.pyplot as plt
 
 kwlist = ['beautiful', 'ingenious', 'fascinating',
@@ -87,8 +87,6 @@ def binarize(X,y):
 def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
         ROCTitle=None,outfilename='./plots/'):
     y_pred = clf_trained.predict(X_test)
-    print 'Report on Test Data'
-    print '-------------------'
     print sl.metrics.classification_report(y_test,y_pred)
     print 'Accuracy:',sl.metrics.accuracy_score(y_test,y_pred)
     if use_proba:
@@ -102,7 +100,7 @@ def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
                 y_score = clf_trained.predict_proba(X_test)
             except:
                 raise
-        auc = sl.metrics.roc_auc_score(y_test,y_score)
+        auc = met.roc_auc_score(y_test,y_score)
         print 'AUC:',auc
         fpr,tpr,_ = sl.metrics.roc_curve(y_test,y_score,pos_label=1)        
         plt.figure()
@@ -119,20 +117,37 @@ def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
             plt.savefig(outfilename+ROCTitle+'.png')
         
 
-def regressor_eval(y_true,y_pred):
+def regressor_eval(regressor_trained,X_test,y_test,use_proba=True):
     pass
 
-def train_with_CV(X,y,clf,cvparams=None,
-        score_func=roc_auc_score,Nfold=3,nb_iter=10,
+def train_with_CV(X,y,predictor,cvparams,
+        score_func=met.roc_auc_score,Nfold=3,nb_iter=10,
         showCV_report=False,use_proba=True,datname=''):
     '''
     Trains the estimator with N fold cross validation. The number of fold
     is given by the parameter Nfold. cvparams is a dictionary specifying
     the hyperparameters of the classifier that needs to be tuned. Scorefunc
     is the metric to evaluate the classifier. 
+    If the number of unique y values are <=3, then the predictor is assumed
+    to be a classifier. Otherwise, it is assumed to be a regressor. The
+    assumption of classifier/regresssor is used when evaluating the predictor.
+    For a classifier, the default scorer is roc_auc_score, for regressor,
+    default scorer is r2_score
     '''
-    scorer = sl.metrics.make_scorer(score_func)
-    randcv = sl.model_selection.RandomizedSearchCV(clf,cvparams,
+    if np.unique(y)<=3:
+        predictor_type = 'classifier'
+    else:
+        predictor_type = 'regressor'
+    # If classifier, use the given scorefunction. If regressor, and the
+    # given scorefunction is the default one, use the default regressor score.
+    # Otherwise, just use the given scorefunction.
+    if predictor_type == 'classifier' or (predictor_type == 'regressor' and \
+        not score_func == met.roc_auc_score):
+        scorer = sl.metrics.make_scorer(score_func)
+    else:
+        scorer = sl.metrics.make_scorer(met.r2_score)
+    # Perform cross-validation
+    randcv = sl.model_selection.RandomizedSearchCV(predictor,cvparams,
         n_iter=nb_iter,scoring=scorer,cv=Nfold)
     randcv.fit(X,y)
     y_pred = randcv.best_estimator_.predict(X)
@@ -140,8 +155,12 @@ def train_with_CV(X,y,clf,cvparams=None,
     print '-----------------------'
     print 'Best parameters:',randcv.best_params_
     print 'Best Score:',randcv.best_score_
-    classifier_eval(randcv.best_estimator_,X,y,use_proba,
-        'ROC on Training Data '+datname)
+    # Evaluate the predictor
+    if predictor_type=='classifier':
+        classifier_eval(randcv.best_estimator_,X,y,use_proba,
+            'ROC on Training Data '+datname)
+    else:
+        regressor_eval(randcv.best_estimator_,X,y,use_proba,datname)
     if showCV_report:
         print 'CV Results:'
         print randcv.cv_results_

@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans, DBSCAN
 import sklearn as sl
 import scipy as sp
 import matplotlib.pyplot as plt
-import numpy
+import numpy as np
 
 # This python file is for enlisting all the experiments we are doing
 # It can also be used as sample usage of the code repository such as
@@ -266,7 +266,7 @@ def time_avg_hi_lo_ratings():
     Experiment on High/Low ratings
     This Version was edited by Samiha
     '''
-    avg_saved = numpy.array([])
+    avg_saved = np.array([])
     i = 0
     for a_grp_dict in allrating_samples:
         i = i+1
@@ -278,7 +278,7 @@ def time_avg_hi_lo_ratings():
             ts.read_bluemix,    # Use bluemix sentiment
             )
         avg_,p = compar.calc_time_mean()
-        avg_saved = numpy.append(avg_saved, avg_)
+        avg_saved = np.append(avg_saved, avg_)
         ###----------------had to close it to access radarplot.py------------
         #ts.draw_time_mean_sentiments(avg_, # time averages
          #   comparator.column_names,       # name of the columns
@@ -298,7 +298,7 @@ def time_avg_hi_lo_ratings_original():
     the average scores.
     The plots are saved in ./plots/ directory.
     '''
-    avg_saved = numpy.array([])
+    avg_saved = np.array([])
     for a_grp_dict in allrating_samples:
         allkeys = sorted(a_grp_dict.keys())
         titl = allkeys[0]+' vs. '+allkeys[1]
@@ -487,6 +487,7 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
         print
         print kw
         print '================='
+        print 'Predictor:',classifier
         y = tp.discretizeY(Y,i)
         X_bin,y_bin = tp.binarize(X,y)
         # Split in training and test data
@@ -518,7 +519,7 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
             # Train with training data
             try:
                 clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
-                    {'C':sp.stats.expon(scale=1000),
+                    {'C':sp.stats.expon(scale=25),
                     'gamma':sp.stats.expon(scale=0.05)},
                     nb_iter=100,datname=kw)
                 print 'Number of SV:',clf_trained.n_support_
@@ -529,6 +530,9 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
                 print 'skiping'
                 continue
             # Evaluate with test data
+            print 'Report on Test Data'
+            print '-----------------------'                 
+            # Evaluate with test data
             tp.classifier_eval(clf_trained,testX,testY,ROCTitle=\
                 'ROC of SVM_RBF on Test Data for '+kw)
 
@@ -538,7 +542,7 @@ def classify_good_bad_raw_score():
 def classify_multiclass():
     pass
 
-def regress_ratings(scores,Y,regressor='ridge'):
+def regress_ratings(scores,Y,regressor='ridge',cv_score=sl.metrics.r2_score):
     '''
     Try to predict the ratings using regression methods. Besides training
     the regressors, it also evaluates them.
@@ -554,14 +558,61 @@ def regress_ratings(scores,Y,regressor='ridge'):
         print
         print kw
         print '================='
+        print 'Predictor:',regressor
         y = Y[:,i]
+        if kw == 'Totalviews':
+            y=np.log(y)
         tridx,tstidx = tp.traintest_idx(len(y))
         trainX,trainY = X[tridx,:],y[tridx]
         testX,testY = X[tstidx,:],y[tstidx]
 
+        # Predictor Selection
         if regressor=='ridge':
-            pass
-
+            # Train on training data
+            rgrs = sl.linear_model.Ridge()
+            rgrs_trained,score = tp.train_with_CV(trainX,trainY,
+                rgrs,{'alpha':sp.stats.expon(scale=1.)},
+                score_func=cv_score)
+            # Evaluate with test data
+            print 'Report on Test Data:'
+            print '-----------------------'             
+            tp.regressor_eval(rgrs_trained,testX,testY,epsilon=0.001)
+        elif regressor == 'SVR':
+            # Train on training data
+            rgrs = sl.svm.LinearSVR(loss='squared_epsilon_insensitive',
+                dual=False)
+            rgrs_trained,score = tp.train_with_CV(trainX,trainY,
+                rgrs,{'C':sp.stats.expon(scale=10)},
+                score_func=cv_score)
+            # Evaluate with test data
+            print 'Report on Test Data:'
+            print '-----------------------'             
+            tp.regressor_eval(rgrs_trained,testX,testY)
+        elif regressor == 'gp':
+            # Train on training data
+            rgrs = sl.gaussian_process.GaussianProcessRegressor()
+            rgrs.fit(trainX,trainY)
+            # Evaluate with test data
+            print 'Report on Training Data:'
+            print '-----------------------'             
+            tp.regressor_eval(rgrs,testX,testY)
+            # Evaluate with test data
+            print 'Report on Test Data:'
+            print '-----------------------'             
+            tp.regressor_eval(rgrs,testX,testY)
+        elif regressor == 'lasso':
+            # Train on training data
+            rgrs = sl.linear_model.Lasso()
+            # Evaluate with test data
+            print 'Report on Training Data:'
+            print '-----------------------'             
+            # Evaluate with training data
+            rgrs_trained,score = tp.train_with_CV(trainX,trainY,
+                rgrs,{'alpha':sp.stats.expon(scale=0.1)},score_func=cv_score)
+            # Evaluate with test data
+            print 'Report on Test Data:'
+            print '-----------------------'             
+            tp.regressor_eval(rgrs_trained,testX,testY)
 
 if __name__=='__main__':
     # plot_statistics()

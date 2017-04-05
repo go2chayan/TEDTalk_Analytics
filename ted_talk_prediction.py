@@ -70,6 +70,8 @@ def discretizeY(Y,col):
     "medium" group.
     '''
     y = Y[:,col]
+    if kwlist[col] == 'Totalviews':
+        y=np.log(y)
     lowthresh = sp.percentile(y,33.3333)
     hithresh = sp.percentile(y,66.6666)
     y[y<=lowthresh] = -1    # Low group
@@ -117,8 +119,16 @@ def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
             plt.savefig(outfilename+ROCTitle+'.png')
         
 
-def regressor_eval(regressor_trained,X_test,y_test,use_proba=True):
-    pass
+def regressor_eval(regressor_trained,X_test,y_test):
+    y_pred = regressor_trained.predict(X_test)
+    print 'Number of samples:',len(y_test)
+    print 'Correlation Coefficient:',np.corrcoef(y_test,y_pred)[0,1]
+    print 'Mean Squared Error:',met.mean_squared_error(y_test,y_pred)
+    print 'Mean Absolute Error:',met.mean_absolute_error(y_test,y_pred)
+    print 'Median Absolute Error:',met.median_absolute_error(y_test,y_pred)
+    print 'Explained Variance Score:',\
+        met.explained_variance_score(y_test,y_pred)
+    print 'R2_score:',met.r2_score(y_test,y_pred)
 
 def train_with_CV(X,y,predictor,cvparams,
         score_func=met.roc_auc_score,Nfold=3,nb_iter=10,
@@ -133,8 +143,8 @@ def train_with_CV(X,y,predictor,cvparams,
     assumption of classifier/regresssor is used when evaluating the predictor.
     For a classifier, the default scorer is roc_auc_score, for regressor,
     default scorer is r2_score
-    '''
-    if np.unique(y)<=3:
+    '''    
+    if len(np.unique(y))<=3:
         predictor_type = 'classifier'
     else:
         predictor_type = 'regressor'
@@ -160,7 +170,7 @@ def train_with_CV(X,y,predictor,cvparams,
         classifier_eval(randcv.best_estimator_,X,y,use_proba,
             'ROC on Training Data '+datname)
     else:
-        regressor_eval(randcv.best_estimator_,X,y,use_proba,datname)
+        regressor_eval(randcv.best_estimator_,X,y)
     if showCV_report:
         print 'CV Results:'
         print randcv.cv_results_

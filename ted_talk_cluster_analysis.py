@@ -119,7 +119,7 @@ def clust_separate_stand(X,clusterer,comparator,csvcontent,csv_vid_idx):
     return avg_dict
 
 def evaluate_clust_separate_stand(X,clusterer,comparator,\
-    csvcontent,csv_id,b_=None):
+    csvcontent,csv_id,b_=None,outfilename=None):
     '''
     It is similar to clust_separate_stand, but instead of returning
     a dictionary, it draws the cluster means and evaluate the differences
@@ -132,6 +132,7 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
                 'obnoxious', 'confusing', 'funny', 'inspiring',
                  'courageous', 'ok', 'persuasive', 'longwinded', 
                  'informative', 'jaw-dropping', 'unconvincing','Totalviews']
+    plt.close('all')
     # s is the index of a bluemix score
     for s in range(B):
         # If b_ is specified, just compute one score and skip others
@@ -147,7 +148,8 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
             else:
                 avg_dict[comparator.column_names[s]][aclust]=avg[aclust][:,s]
         # Pretty draw the clusters
-        draw_clusters_pretty(avg_dict,comparator,csvcontent,csv_id,b_=s)
+        draw_clusters_pretty(avg_dict,comparator,csvcontent,csv_id,
+            b_=s,outfilename=outfilename)
         
         # Now apply ANOVA and compare clusters
         pvals = {}
@@ -173,9 +175,9 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
         if not pvals.keys():
             continue
         else:
-            draw_boxplots(pvals,allvals,s,comparator)
+            draw_boxplots(pvals,allvals,s,comparator,outfilename=outfilename)
 
-def draw_boxplots(pvals,allvals,s,comparator):
+def draw_boxplots(pvals,allvals,s,comparator,outfilename=None):
     # Draw the box plot for Totalviews first
     for akw in pvals:
         plt.figure(comparator.column_names[s]+akw)
@@ -186,6 +188,11 @@ def draw_boxplots(pvals,allvals,s,comparator):
         plt.suptitle(\
             'Significant (p={0:0.6f}) difference in '.format(pvals[akw])+\
             akw+'\n'+'while clustering based on: '+comparator.column_names[s])
+        if not outfilename:
+            plt.show()
+        else:
+            plt.savefig(outfilename+'boxplt_'+\
+                comparator.column_names[s]+'_'+akw+'.pdf')
 
 def read_index(indexfile):
     # Read the content of the index file
@@ -235,7 +242,8 @@ def draw_clusters(avg_dict,column_names,fullyaxis=False,\
     if not outfilename:
         plt.show()
 
-def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,b_=None):
+def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,
+    b_=None,outfilename=None):
     '''
     Draws the cluster means and its closest-matching talks.
     avg_dict is a dictionary containing cluster means for various scores.
@@ -293,6 +301,10 @@ def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,b_=None):
             # Draw the axes
             decorate_axis(c,cols,rows,yval,avg_yval,txtlist,aclust,fig)
         plt.suptitle(ascore.replace('_',' '))
+        if not outfilename:
+            plt.show()
+        else:
+            plt.savefig(outfilename+'clust_'+ascore+'.pdf')
 
 def decorate_axis(c,cols,rows,yval,avg_yval,txtlist,legendval,fig,
         toff=0.03,boff=0.015,loff=0.02,midoff=0.03,roff=0.005,txth=0.18):

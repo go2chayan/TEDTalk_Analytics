@@ -84,7 +84,8 @@ def binarize(X,y):
     idxmed = y!=0
     return X[idxmed,:],y[idxmed]
 
-def classifier_eval(clf_trained,X_test,y_test,use_proba=True,ROCTitle=None):
+def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
+        ROCTitle=None,outfilename='./plots/'):
     y_pred = clf_trained.predict(X_test)
     print 'Report on Test Data'
     print '-------------------'
@@ -112,7 +113,10 @@ def classifier_eval(clf_trained,X_test,y_test,use_proba=True,ROCTitle=None):
         if ROCTitle:
             plt.title(ROCTitle)
         plt.legend()
-        plt.show()
+        if not outfilename:
+            plt.show()
+        else:
+            plt.savefig(outfilename+ROCTitle+'.png')
         
 
 def regressor_eval(y_true,y_pred):

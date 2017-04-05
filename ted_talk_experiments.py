@@ -2,6 +2,8 @@ import ted_talk_sentiment as ts
 from list_of_talks import allrating_samples
 import ted_talk_cluster_analysis as tca
 import ted_talk_prediction as tp
+from ted_talk_statistic import plot_statistics
+from ted_talk_statistic_correlation import plot_correlation
 from sklearn.cluster import KMeans, DBSCAN
 import sklearn as sl
 import scipy as sp
@@ -99,16 +101,9 @@ def bluemix_plot5():
         )
 
 # Checking the Emotional progression for a single talk
-def single_plot():
-    talkid = 66
-    selected_columns = [1,3,12]
-    # Display sample sentences
-    comparator.display_sentences(talkid,
-        17, # Start percent
-        29,  # End percent (also try 90 to 100)
-        selected_columns     # Show only Disgust, Joy and Emotional
-        )
-
+# Sample Usage: How to check individual sentiment plots
+# and corresponding sentences
+def single_plot(talkid = 66,selected_columns = [1,3,12]):
     ts.draw_single_sentiment(\
         comparator.sentiments_interp[talkid], # plot the interpolated sentiment
         comparator.column_names,              # Name of the columns
@@ -116,11 +111,11 @@ def single_plot():
         )
     
 # See the sentences of a talk from a certain percent to another percent
-def see_sentences():
+def see_sentences(talkid=66,start=50,end=60):
     # Display sample sentences
-    comparator.display_sentences(66, # Talk ID
-        50, # Start percent
-        60  # End percent
+    comparator.display_sentences(talkid, # Talk ID
+        start, # Start percent
+        end  # End percent
         )
 
 # Experiment on High/Low ratings
@@ -226,7 +221,7 @@ def kmeans_clustering(X,comp):
 def kclust_separate_stand(X,comp):
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(eps=6.5)
+    km = DBSCAN(eps=6.25)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
         csvcontent,csv_vid_idx)
@@ -249,14 +244,17 @@ def clusters_pretty_draw(X,comp):
 # Draw the cluster means and evaluate the differences in various
 # clusters. It performs an ANOVA test to check if the clusters have
 # any differences in their ratings
-def evaluate_clusters_pretty(X,comp):
+def evaluate_clusters_pretty(X,comp,outfilename='./plots/'):
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(eps=7,min_samples=8)
+    km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
-    tca.evaluate_clust_separate_stand(X,km,comp,csvcontent,csv_vid_idx)
+    tca.evaluate_clust_separate_stand(X,km,comp,csvcontent,
+        csv_vid_idx,outfilename=outfilename)
     
 
+# Classify between groups of High ratings and low ratings using
+# Two different types of SVM
 def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
     #scores,Y = tp.loaddata()
     X,nkw = tp.feat_sumstat(scores)
@@ -278,24 +276,62 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
             # Train with training data
             try:
                 clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
-                    {'C':sp.stats.expon(scale=10.)},nb_iter=10,datname=kw)
+                    {'C':sp.stats.expon(scale=10.)},nb_iter=10,
+                    datname = kw+'_LibSVM')
+            except ImportError:
+                raise
             except:
                 print 'Data is badly scaled for',kw
                 print 'skiping'
                 continue
             # Evaluate with test data
             tp.classifier_eval(clf_trained,testX,testY,ROCTitle=\
-                'ROC on Test Data'+kw)
+                'ROC of LinearSVM on Test Data for '+kw)
         elif classifier == 'SVM_rbf':
             clf = sl.svm.SVC()
             # Train with training data
-            clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
-                {'C':sp.stats.expon(scale=10.),},nb_iter=10,datname=kw)
+            try:
+                clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
+                    {'C':sp.stats.expon(scale=1000),
+                    'gamma':sp.stats.expon(scale=0.05)},
+                    nb_iter=100,datname=kw)
+                print 'Number of SV:',clf_trained.n_support_
+            except ImportError:
+                raise
+            except:
+                print 'Data is badly scaled for',kw
+                print 'skiping'
+                continue
+            # Evaluate with test data
+            tp.classifier_eval(clf_trained,testX,testY,ROCTitle=\
+                'ROC of SVM_RBF on Test Data for '+kw)
 
+def classify_good_bad_raw_score():
+    pass
+
+def classify_multiclass():
+    pass
+
+def regress_sores(scores,Y,regressor='ridge'):
+    X,nkw = tp.feat_sumstat(scores)
+    for i,kw in enumerate(tp.kwlist):
+        print
+        print
+        print kw
+        print '================='
+        y = Y[:,i]
+        tridx,tstidx = tp.traintest_idx(len(y))
+        trainX,trainY = X[tridx,:],y[tridx]
+        testX,testY = X[tstidx,:],y[tstidx]
+
+        if regressor=='ridge':
+            pass
 
 
 
 if __name__=='__main__':
+    # plot_statistics()
+    # plot_correlation()
     # bluemix_plot1()
     # bluemix_plot2()
     # bluemix_plot3()
@@ -305,11 +341,11 @@ if __name__=='__main__':
     # time_avg_hi_lo_ratings_original()
     # grp_avg_hilo_ratings([[1,2],[5,6],[10,12]])
     # -------- Clustering Experiments ---------
-    # X,comp = tca.load_all_scores()
+    X,comp = tca.load_all_scores()
     # draw_global_means(X,comp)
     # kmeans_clustering(X,comp)
     # kmeans_separate_stand(X,comp)
-    # evaluate_clusters_pretty(X,comp)
+    evaluate_clusters_pretty(X,comp,outfilename='./plots/')
     # -------- Classification Experiments -----
-    scores,Y = tp.loaddata()
-    classify_Good_Bad(scores,Y)
+    # scores,Y,_ = tp.loaddata()
+    # classify_Good_Bad(scores,Y)

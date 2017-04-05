@@ -418,6 +418,7 @@ def draw_time_mean_sentiments(time_avg,
                             outfilename=None):
     plt.figure(figsize=(16,7))
     for i,grp in enumerate(time_avg):
+        print grp,':',time_avg[grp]
         plt.bar(np.arange(len(time_avg[grp]))-i*0.25+1,
                 time_avg[grp],
                 color=groupcolor[i],

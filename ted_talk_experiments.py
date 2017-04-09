@@ -44,7 +44,7 @@ comparator = ts.Sentiment_Comparator(
 def bluemix_plot1(outfilename = None):
     '''
     This function plots the progression of average <b>emotion scores</b>
-    for 20 highest viewed ted talks and 20 lowest viewed ted talks.
+    for 30 highest viewed ted talks and 30 lowest viewed ted talks.
     If you want to save the plots in a file, set the outfilename argument.
     '''
     avg_ = comparator.calc_group_mean()
@@ -60,8 +60,8 @@ def bluemix_plot1(outfilename = None):
 
 def bluemix_plot2(outfilename=None):
     '''
-    This function plots the progression of average Language scores for 20 
-    highest viewed ted talks and 20 lowest viewed ted talks. If you want
+    This function plots the progression of average Language scores for 30 
+    highest viewed ted talks and 30 lowest viewed ted talks. If you want
     to save the plots in a file, set the outfilename argument.
     '''
     avg_ = comparator.calc_group_mean()
@@ -77,8 +77,8 @@ def bluemix_plot2(outfilename=None):
 
 def bluemix_plot3(outfilename=None):
     '''
-    This function plots the progression of average Social scores for 20 
-    highest viewed ted talks and 20 lowest viewed ted talks. If you want
+    This function plots the progression of average Social scores for 30 
+    highest viewed ted talks and 30 lowest viewed ted talks. If you want
     to save the plots in a file, set the outfilename argument.
     '''
     avg_ = comparator.calc_group_mean()
@@ -96,7 +96,7 @@ def bluemix_plot3(outfilename=None):
 def bluemix_plot4(outprefix='./plots/'):
     '''
     This function plots the progression of all the scores one by one.
-    The average was calculated for 20 highest viewed ted talks and 20
+    The average was calculated for 30 highest viewed ted talks and 30
     lowest viewed ted talks. By default, the plots are saved with their
     unique names inside the directory specified by outprefix argument.
     If you want to see the plots in window, set outprefix to None
@@ -118,8 +118,8 @@ def bluemix_plot4(outprefix='./plots/'):
 
 def bluemix_plot5(outfilename='./plots/hivi_lovi.pdf'):
     '''
-    This function plots the time averages for the 20 highest viewed
-    and 20 lowest viewed ted talks. In addition, it performs T-tests
+    This function plots the time averages for the 30 highest viewed
+    and 30 lowest viewed ted talks. In addition, it performs T-tests
     among the hi-view and lo-view groups. By default, the output is saved
     in the './plots/hivi_lovi.pdf' file. But if you want to see it
     on an interactive window, just set outfilename=None

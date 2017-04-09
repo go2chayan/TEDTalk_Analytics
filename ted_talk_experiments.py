@@ -422,7 +422,7 @@ def kclust_separate_stand(X,comp):
     '''
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(eps=6.25)
+    km = DBSCAN(pdf=6.25)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
         csvcontent,csv_vid_idx)
@@ -441,7 +441,7 @@ def clusters_pretty_draw(X,comp):
     load_all_scores is a slow function      
     '''
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(eps=6.5)
+    km = DBSCAN(pdf=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
         csvcontent,csv_vid_idx)
@@ -463,7 +463,7 @@ def evaluate_clusters_pretty(X,comp,outfilename='./plots/'):
     '''
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(eps=6.5)
+    km = DBSCAN(pdf=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     tca.evaluate_clust_separate_stand(X,km,comp,csvcontent,
         csv_vid_idx,outfilename=outfilename)
@@ -501,7 +501,7 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
             # Train with training data
             try:
                 clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
-                    {'C':sp.stats.expon(scale=10.)},nb_iter=10,
+                    {'C':sp.stats.expon(scale=1.)},nb_iter=10,
                     datname = kw+'_LibSVM')
             except ImportError:
                 raise
@@ -542,6 +542,12 @@ def classify_good_bad_raw_score():
 def classify_multiclass():
     pass
 
+def regress_totalviews_powerlaw():
+    pass
+
+def classify_totalviews_powerlaw():
+    pass
+
 def regress_ratings(scores,Y,regressor='ridge',cv_score=sl.metrics.r2_score):
     '''
     Try to predict the ratings using regression methods. Besides training
@@ -576,11 +582,11 @@ def regress_ratings(scores,Y,regressor='ridge',cv_score=sl.metrics.r2_score):
             # Evaluate with test data
             print 'Report on Test Data:'
             print '-----------------------'             
-            tp.regressor_eval(rgrs_trained,testX,testY,epsilon=0.001)
+            tp.regressor_eval(rgrs_trained,testX,testY)
         elif regressor == 'SVR':
             # Train on training data
-            rgrs = sl.svm.LinearSVR(loss='squared_epsilon_insensitive',
-                dual=False)
+            rgrs = sl.svm.LinearSVR(loss='squared_pdfilon_insensitive',
+                dual=False,pdfilon=0.001)
             rgrs_trained,score = tp.train_with_CV(trainX,trainY,
                 rgrs,{'C':sp.stats.expon(scale=10)},
                 score_func=cv_score)

@@ -1,10 +1,12 @@
 import cPickle as cp
 import os
 import nltk
+import numpy as np
 import matplotlib.pyplot as plt
+from list_of_talks import all_valid_talks
 
 def plot_statistics(infolder='./talks/',outfolder='./plots/'):
-    alltalks = [afile for afile in os.listdir(infolder) if afile.endswith('.pkl')]
+    alltalks = [str(afile)+'.pkl' for afile in all_valid_talks]
     tottalks = len(alltalks)
     totlen,totut,tottok,totsent = 0,0,0,0
     lenlst,viewlst,ratinglst,topratings,timealive,kwlst=[],[],{},{},[],[]

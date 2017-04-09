@@ -121,14 +121,13 @@ def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
 
 def regressor_eval(regressor_trained,X_test,y_test):
     y_pred = regressor_trained.predict(X_test)
-    print 'Number of samples:',len(y_test)
-    print 'Correlation Coefficient:',np.corrcoef(y_test,y_pred)[0,1]
-    print 'Mean Squared Error:',met.mean_squared_error(y_test,y_pred)
-    print 'Mean Absolute Error:',met.mean_absolute_error(y_test,y_pred)
-    print 'Median Absolute Error:',met.median_absolute_error(y_test,y_pred)
-    print 'Explained Variance Score:',\
-        met.explained_variance_score(y_test,y_pred)
-    print 'R2_score:',met.r2_score(y_test,y_pred)
+    print 'Corr.Coeff:{0:2.2f} '.format(np.corrcoef(y_test,y_pred)[0,1]),
+    print 'MSE:{0:2.2f} '.format(met.mean_squared_error(y_test,y_pred)),
+    print 'MAE:{0:2.2f} '.format(met.mean_absolute_error(y_test,y_pred)),
+    print 'MedAE:{0:2.2f} '.format(met.median_absolute_error(y_test,y_pred)),
+    print 'EVSc.:{0:2.2f} '.format(met.explained_variance_score(y_test,y_pred)),
+    print 'R2S.:{0:2.2f} '.format(met.r2_score(y_test,y_pred)),
+    print 'Smpl:',len(y_test)
 
 def train_with_CV(X,y,predictor,cvparams,
         score_func=met.roc_auc_score,Nfold=3,nb_iter=10,

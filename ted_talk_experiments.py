@@ -1,5 +1,5 @@
 import ted_talk_sentiment as ts
-from list_of_talks import allrating_samples
+from list_of_talks import allrating_samples,all_valid_talks
 import ted_talk_cluster_analysis as tca
 import ted_talk_prediction as tp
 from ted_talk_statistic import plot_statistics
@@ -367,28 +367,38 @@ def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
                 styles,
                 outfilename='./plots/'+titl+'.pdf')
 
-def draw_global_means(X,comp):
+def draw_global_means(comp):
     '''
     Experiment on the global average of sentiment progressions in
     ALL* tedtalks
     * = all means the 2007 valid ones.
-
-    Note: before you call this function, you should get the arguments
-    (X and comp) using the following command: 
-    X,comp = tca.load_all_scores()
-    tca is the ted_talk_cluster_analysis module
-    load_all_scores is a slow function
+    Use the following commands to generate comp where ts is the
+    ted_talk_sentiment.py module
+    comp = ts.Sentiment_Comparator({'all':all_valid_talks},ts.read_bluemix)
     '''
-    inp_dict = comp.groups.copy()
-    inp_dict['all']=[]
-    inp_dict['all'].extend(inp_dict['group_1'])
-    inp_dict['all'].extend(inp_dict['group_2'])
-    del inp_dict['group_1']
-    del inp_dict['group_2']
-    comp.reform_groups(inp_dict)
-    avg = comp.calc_group_mean()
-    ts.draw_group_means(avg,comp.column_names,\
-        outfilename='./plots/global_mean.pdf')
+    avg = comp.calc_group_mean()['all']
+    plt.figure(figsize=(6.5,6))
+    grpnames = ['Emotion Scores', 'Language Scores', 'Personality Scores']
+    for g,agroup in enumerate([[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
+        groupvals = np.array([avg[:,acol] for acol in agroup]).T
+        import re
+        colnames = [re.sub(\
+            'emotion_tone_|language_tone_|social_tone_|_big5',\
+            '',comp.column_names[acol]) for acol in agroup]
+
+        plt.subplot(3,1,g+1)
+        plt.plot(groupvals)
+        plt.xlabel('Percent of Talk')
+        plt.ylabel('Value')
+        plt.ylim([[0,0.6],[0,0.5],[0.2,0.6]][g])
+        #plt.subplots_adjust(bottom=0.05, right=0.99, left=0.05, top=0.85)
+        #plt.legend(colnames,bbox_to_anchor=(0., 1.05, 1., 0), loc=3,\
+        #   ncol=2, mode="expand", borderaxespad=0.)
+        plt.legend(colnames,ncol=[5,3,3][g],loc=['upper left',\
+            'upper left','lower left'][g])
+        plt.title(['Emotion Scores','Language Scores','Personality Scores'][g])
+        plt.tight_layout()
+    plt.savefig('./plots/global_scores.pdf')
 
 def kmeans_clustering(X,comp):
     '''
@@ -463,7 +473,7 @@ def evaluate_clusters_pretty(X,comp,outfilename='./plots/'):
     '''
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(pdf=6.5)
+    km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     tca.evaluate_clust_separate_stand(X,km,comp,csvcontent,
         csv_vid_idx,outfilename=outfilename)

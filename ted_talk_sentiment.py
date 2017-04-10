@@ -339,7 +339,7 @@ def draw_group_means(avg,column_names,fullyaxis=False,outfilename=None):
     to a single group (cluster) together in one figure.
     '''
     m,n = avg[avg.keys()[0]].shape
-    # Draw the cluster averages
+    # Draw the group averages
     for acol in range(n):
         plt.figure(figsize=(16,9))
         for akey in avg:
@@ -420,23 +420,37 @@ def draw_time_mean_sentiments(time_avg,
                             pvals,
                             groupcolor=['royalblue','darkkhaki'],
                             outfilename=None):
-    plt.figure(figsize=(16,7))
-    for i,grp in enumerate(time_avg):
+    plt.figure(figsize=(6,6))
+    keylist=sorted(time_avg.keys())    
+    for i,grp in enumerate(keylist):
         print grp,':',time_avg[grp]
-        plt.bar(np.arange(len(time_avg[grp]))-i*0.25+1,
-                time_avg[grp],
+        plt.barh(bottom=np.arange(len(time_avg[grp]))-i*0.25+1.125,
+                width=time_avg[grp],
                 color=groupcolor[i],
-                width = 0.25,
-                label=grp)
-    plt.ylabel('Average Sentiment Value')
-    # plt.legend(loc='upper left',ncol=2)
-    plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,
-           ncol=2, mode="expand", borderaxespad=0.)
-    ax = plt.gca()
-    ax.set_xticks(np.arange(len(time_avg[grp]))+1)
-    ax.set_xticklabels(
+                height= 0.25)
+
+    plt.xlabel('Scores')
+    plt.yticks(np.arange(len(time_avg[grp]))+1,\
         [namefix(c)+'\n p='+'{0:.4f}'.format(p) for c,p in \
-        zip(column_names,pvals)],rotation=60)
+        zip(column_names,pvals)])
+    for i,ap in enumerate(pvals):
+        if ap<0.01:
+            topofbar = max([time_avg[grp][i] for grp in time_avg])
+            plt.text(topofbar+0.005,i+0.75,'**',fontsize=18)
+        elif ap<0.05:
+            topofbar = max([time_avg[grp][i] for grp in time_avg])
+            plt.text(topofbar+0.005,i+0.75,'*',fontsize=18)
+
+
+    # plt.legend(loc='upper left',ncol=2)
+    axpos=plt.gca().get_position()    
+    plt.legend(keylist,bbox_to_anchor=(-0.3, 1.02, 1.3, .102), loc=3,
+           ncol=2, mode="expand", borderaxespad=0.)
+    # ax = plt.gca()
+    # ax.set_xticks(np.arange(len(time_avg[grp]))+1)
+    # ax.set_xticklabels(
+    #     [namefix(c)+'\n p='+'{0:.4f}'.format(p) for c,p in \
+    #     zip(column_names,pvals)],rotation=60)
     plt.tight_layout()
     plt.subplots_adjust(top=0.9)
     if outfilename:

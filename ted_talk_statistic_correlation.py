@@ -18,7 +18,7 @@ def remove_outlier(alist):
     print
     return idx[0]
 # abs_ratcnt = Absolute Rating Count
-def plot_correlation(abs_ratcnt=False,infolder='./talks/',
+def plot_correlation(abs_ratcnt=True,infolder='./talks/',
         outfolder='./plots/',show_scatter=False):
     alltalks = [str(afile)+'.pkl' for afile in all_valid_talks]
     tottalks = len(alltalks)

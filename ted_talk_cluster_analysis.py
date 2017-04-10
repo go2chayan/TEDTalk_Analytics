@@ -192,7 +192,7 @@ def draw_boxplots(pvals,allvals,s,comparator,outfilename=None):
             plt.show()
         else:
             plt.savefig(outfilename+'boxplt_'+\
-                comparator.column_names[s]+'_'+akw+'.pdf')
+                comparator.column_names[s]+'_'+akw+'.eps')
 
 def read_index(indexfile):
     # Read the content of the index file
@@ -304,7 +304,7 @@ def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,
         if not outfilename:
             plt.show()
         else:
-            plt.savefig(outfilename+'clust_'+ascore+'.pdf')
+            plt.savefig(outfilename+'clust_'+ascore+'.eps')
 
 def decorate_axis(c,cols,rows,yval,avg_yval,txtlist,legendval,fig,
         toff=0.03,boff=0.015,loff=0.02,midoff=0.03,roff=0.005,txth=0.18):

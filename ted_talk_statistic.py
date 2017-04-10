@@ -63,14 +63,14 @@ def plot_statistics(infolder='./talks/',outfolder='./plots/'):
     plt.hist(lenlst,bins=50)
     plt.xlabel('Durations of the videos (sec)')
     plt.ylabel('Frequency')
-    plt.savefig(outfolder+'duration_hist.pdf')
+    plt.savefig(outfolder+'duration_hist.eps')
 
     # Plot viewcount distribution
     plt.figure(2)
     plt.hist(viewlst,bins=50)
     plt.xlabel('Number of views in a video')
     plt.ylabel('Frequency')
-    plt.savefig(outfolder+'viewcount_hist.pdf')
+    plt.savefig(outfolder+'viewcount_hist.eps')
 
     # Plot number of talks with some specific ratings as maximum
     plt.figure(3)
@@ -79,7 +79,7 @@ def plot_statistics(infolder='./talks/',outfolder='./plots/'):
     plt.xlabel('Various Ratings')
     plt.ylabel('Number of talks having a specific rating higher than all other ratings')
     plt.tight_layout()
-    plt.savefig(outfolder+'toprating_count.pdf')
+    plt.savefig(outfolder+'toprating_count.eps')
 
     # Plot the total number of talks with some specific ratings
     plt.figure(4)
@@ -89,7 +89,7 @@ def plot_statistics(infolder='./talks/',outfolder='./plots/'):
     plt.xlabel('Various Ratings')
     plt.ylabel('Total count of the rating in all talks')
     plt.tight_layout()
-    plt.savefig(outfolder+'totalrating_barplot.pdf')
+    plt.savefig(outfolder+'totalrating_barplot.eps')
 
     # Plot number of individual ratings
     for i,akey in enumerate(ratinglst):
@@ -99,7 +99,7 @@ def plot_statistics(infolder='./talks/',outfolder='./plots/'):
         plt.ylabel('Number of talks falling in a specific bin')
         plt.title('Histogram for the rating: '+akey)
         plt.tight_layout()
-        plt.savefig(outfolder+'ratings_hist_'+akey+'.pdf')
+        plt.savefig(outfolder+'ratings_hist_'+akey+'.eps')
 
 
 

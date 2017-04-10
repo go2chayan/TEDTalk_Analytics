@@ -18,7 +18,7 @@ def remove_outlier(alist):
     print
     return idx[0]
 # abs_ratcnt = Absolute Rating Count
-def plot_correlation(abs_ratcnt=True,infolder='./talks/',
+def plot_correlation(abs_ratcnt=False,infolder='./talks/',
         outfolder='./plots/',show_scatter=False):
     alltalks = [str(afile)+'.pkl' for afile in all_valid_talks]
     tottalks = len(alltalks)
@@ -74,9 +74,9 @@ def plot_correlation(abs_ratcnt=True,infolder='./talks/',
                 'corr: {:0.2f}'.format(z))
             plt.tight_layout()
             if abs_ratcnt:
-                plt.savefig(outfolder+'scatter_'+akey+'absolute'+'.pdf')
+                plt.savefig(outfolder+'scatter_'+akey+'absolute'+'.eps')
             else:
-                plt.savefig(outfolder+'scatter_'+akey+'.pdf')
+                plt.savefig(outfolder+'scatter_'+akey+'.eps')
 
     plt.figure()
     allcorr = np.array(allcorr)
@@ -89,9 +89,9 @@ def plot_correlation(abs_ratcnt=True,infolder='./talks/',
     plt.tight_layout()
     if abs_ratcnt:
         plt.savefig(outfolder+\
-            'CorrCoef of Ratings vs. Total View (absolute)'+'.pdf')
+            'CorrCoef of Ratings vs. Total View (absolute)'+'.eps')
     else:
-        plt.savefig(outfolder+'CorrCoef of Ratings vs. Total View'+'.pdf')
+        plt.savefig(outfolder+'CorrCoef of Ratings vs. Total View'+'.eps')
 
 if __name__=='__main__':
     plot_correlation()

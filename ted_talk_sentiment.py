@@ -471,11 +471,11 @@ def main():
     grp_avg = comparator.calc_group_mean()
     draw_group_mean_sentiments(grp_avg,
         comparator.column_names)
-        #,outfilename='./plots/Ensemble_Avg_Sent.pdf')
+        #,outfilename='./plots/Ensemble_Avg_Sent.eps')
     time_avg,pvals = comparator.calc_time_mean()
     draw_time_mean_sentiments(time_avg,
         comparator.column_names,
-        pvals)#,outfilename='./plots/Time_Avg_Sent.pdf')
+        pvals)#,outfilename='./plots/Time_Avg_Sent.eps')
     
 
 

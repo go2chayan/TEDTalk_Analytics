@@ -116,7 +116,7 @@ def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
         if not outfilename:
             plt.show()
         else:
-            plt.savefig(outfilename+ROCTitle+'.png')
+            plt.savefig(outfilename+ROCTitle+'.eps')
         
 
 def regressor_eval(regressor_trained,X_test,y_test):

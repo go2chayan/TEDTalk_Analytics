@@ -104,7 +104,7 @@ def bluemix_plot4(outprefix='./plots/'):
     avg_ = comparator.calc_group_mean()
     for i in range(13):
         if outprefix:
-            outfname = './plots/'+comparator.column_names[i]+'.pdf'
+            outfname = './plots/'+comparator.column_names[i]+'.eps'
         else:
             outfname = None
         # Plot Group Average
@@ -116,12 +116,12 @@ def bluemix_plot4(outprefix='./plots/'):
             legend_location='lower center',
             outfilename=outfname)
 
-def bluemix_plot5(outfilename='./plots/hivi_lovi.pdf'):
+def bluemix_plot5(outfilename='./plots/hivi_lovi.eps'):
     '''
     This function plots the time averages for the 30 highest viewed
     and 30 lowest viewed ted talks. In addition, it performs T-tests
     among the hi-view and lo-view groups. By default, the output is saved
-    in the './plots/hivi_lovi.pdf' file. But if you want to see it
+    in the './plots/hivi_lovi.eps' file. But if you want to see it
     on an interactive window, just set outfilename=None
     '''
     avg_,p = comparator.calc_time_mean()
@@ -283,7 +283,7 @@ def time_avg_hi_lo_ratings():
         #ts.draw_time_mean_sentiments(avg_, # time averages
          #   comparator.column_names,       # name of the columns
           #  p,                             # p values                      
-           # outfilename='./plots/'+titl+'.pdf'
+           # outfilename='./plots/'+titl+'.eps'
             #)
         ##----------------------------------------------------------------
  
@@ -311,7 +311,7 @@ def time_avg_hi_lo_ratings_original():
         ts.draw_time_mean_sentiments(avg_, # time averages
            comparator.column_names,       # name of the columns
            p,                             # p values                      
-           outfilename='./plots/'+titl+'.pdf'
+           outfilename='./plots/'+titl+'.eps'
         )
 
 def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
@@ -365,7 +365,7 @@ def grp_avg_hilo_ratings(score_list=[[0,1,2,3,4],[5,6,7],[8,9,10,11,12]]):
                 compar.column_names,
                 i,
                 styles,
-                outfilename='./plots/'+titl+'.pdf')
+                outfilename='./plots/'+titl+'.eps')
 
 def draw_global_means(comp):
     '''
@@ -398,7 +398,7 @@ def draw_global_means(comp):
             'upper left','lower left'][g])
         plt.title(['Emotion Scores','Language Scores','Personality Scores'][g])
         plt.tight_layout()
-    plt.savefig('./plots/global_scores.pdf')
+    plt.savefig('./plots/global_scores.eps')
 
 def kmeans_clustering(X,comp):
     '''
@@ -416,7 +416,7 @@ def kmeans_clustering(X,comp):
     comp.reform_groups(clust_dict)
     avg = comp.calc_group_mean()
     ts.draw_group_means(avg,comp.column_names,\
-        outfilename='./plots/cluster_mean.pdf')
+        outfilename='./plots/cluster_mean.eps')
 
 def kclust_separate_stand(X,comp):
     '''
@@ -432,12 +432,12 @@ def kclust_separate_stand(X,comp):
     '''
     #X,comp = tca.load_all_scores()
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(pdf=6.25)
+    km = DBSCAN(eps=6.25)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
         csvcontent,csv_vid_idx)
     tca.draw_clusters(avg_dict,comp.column_names,
-        outfilename='./plots/standardizedcluster_mean.pdf')    
+        outfilename='./plots/standardizedcluster_mean.eps')    
 
 def clusters_pretty_draw(X,comp):
     '''
@@ -451,7 +451,7 @@ def clusters_pretty_draw(X,comp):
     load_all_scores is a slow function      
     '''
     # Try Using any other clustering from sklearn.cluster
-    km = DBSCAN(pdf=6.5)
+    km = DBSCAN(eps=6.5)
     csvcontent,csv_vid_idx = tca.read_index(indexfile = './index.csv')
     avg_dict=tca.clust_separate_stand(X,km,comp,\
         csvcontent,csv_vid_idx)
@@ -511,7 +511,7 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
             # Train with training data
             try:
                 clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
-                    {'C':sp.stats.expon(scale=1.)},nb_iter=10,
+                    {'C':sp.stats.expon(scale=10.)},nb_iter=50,
                     datname = kw+'_LibSVM')
             except ImportError:
                 raise
@@ -595,8 +595,8 @@ def regress_ratings(scores,Y,regressor='ridge',cv_score=sl.metrics.r2_score):
             tp.regressor_eval(rgrs_trained,testX,testY)
         elif regressor == 'SVR':
             # Train on training data
-            rgrs = sl.svm.LinearSVR(loss='squared_pdfilon_insensitive',
-                dual=False,pdfilon=0.001)
+            rgrs = sl.svm.LinearSVR(loss='squared_epsilon_insensitive',
+                dual=False,epsilon=0.001)
             rgrs_trained,score = tp.train_with_CV(trainX,trainY,
                 rgrs,{'C':sp.stats.expon(scale=10)},
                 score_func=cv_score)

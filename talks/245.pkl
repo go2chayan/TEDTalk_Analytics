@@ -1,0 +1,396 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, as researchers, something that we often do is use immense resources
+p5
+aVto achieve certain capabilities, or achieve certain goals.
+p6
+aVAnd this is essential to the progress of science,
+p7
+aVor exploration of what is possible.
+p8
+aVBut it creates this unfortunate situation
+p9
+aVwhere a tiny, tiny fraction of the world
+p10
+aVcan actually participate in this exploration
+p11
+aVor can benefit from that technology.
+p12
+aVSomething that motivates me,
+p13
+aVand gets me really excited about my research,
+p14
+aVis when I see simple opportunities
+p15
+aVto drastically change that distribution and make the technology accessible
+p16
+aVto a much wider percentage of the population.
+p17
+aa(lp18
+VI'm going to show you two videos that have gotten a lot of attention
+p19
+aVthat I think embody this philosophy.
+p20
+aVAnd they actually use the Nintendo Wii Remote.
+p21
+aVFor those of you who aren't familiar with this device,
+p22
+aVit's a $40 video game controller.
+p23
+aVAnd it's mostly advertised for its motion-sensing capabilities:
+p24
+aVso you can swing a tennis racket, or hit a baseball bat.
+p25
+aVBut what actually interests me a lot more
+p26
+aVis the fact that in the tip of each controller
+p27
+aVis a relatively high-performing infrared camera.
+p28
+aVAnd I'm going to show you two demos of why this is useful.
+p29
+aa(lp30
+VSo here, I have my computer set up with the projector,
+p31
+aVand I have a Wii Remote sitting on top of it.
+p32
+aVAnd, for example, if you're in a school that doesn't have a lot money,
+p33
+aVprobably a lot of schools,
+p34
+aVor if you're in an office environment, and you want an interactive whiteboard,
+p35
+aVnormally these cost about two to three thousand dollars.
+p36
+aVSo I'm going to show you how to create one with a Wii Remote.
+p37
+aVNow, this requires another piece of hardware,
+p38
+aVwhich is this infrared pen.
+p39
+aVYou can probably make this yourself for about five dollars
+p40
+aVwith a quick trip to the Radio Shack.
+p41
+aVIt's got a battery, a button and an infrared LED \u2014
+p42
+aVyou guys can't see it \u2014
+p43
+aVbut it turns on whenever I push the button.
+p44
+aVNow, what this means is that if I run this piece of software,
+p45
+aVthe camera sees the infrared dot,
+p46
+aVand I can register the location of the camera pixels
+p47
+aVto the projector pixels.
+p48
+aVAnd now this is like an interactive whiteboard surface.
+p49
+aa(lp50
+V(Applause)
+p51
+aa(lp52
+VSo for about $50 of hardware, you can have your own whiteboard.
+p53
+aVThis is Adobe Photoshop.
+p54
+aa(lp55
+V(Applause)
+p56
+aa(lp57
+VThank you.
+p58
+aa(lp59
+V(Laughter)
+p60
+aa(lp61
+VThe software for this I've actually put on my website
+p62
+aVand have let people download it for free.
+p63
+aVIn the three months this project has been public,
+p64
+aVit's been downloaded over half a million times.
+p65
+aVSo teachers and students all around the world
+p66
+aVare already using this.
+p67
+aa(lp68
+V(Applause)
+p69
+aa(lp70
+VAlthough it does do it for 50 dollars,
+p71
+aVthere are some limitations of this approach.
+p72
+aVYou get about 80 percent of the way there, for one percent of the cost.
+p73
+aVAnother nice thing is that a camera can see multiple dots,
+p74
+aVso this is actually a multi-touch, interactive whiteboard system as well.
+p75
+aa(lp76
+V(Applause)
+p77
+aa(lp78
+VFor the second demo,
+p79
+aVI have this Wii Remote that's actually next to the TV.
+p80
+aVSo it's pointing away from the display, rather than pointing at the display.
+p81
+aVAnd why this is interesting
+p82
+aVis that if you put on, say, a pair of safety glasses,
+p83
+aVthat have two infrared dots in them,
+p84
+aVthey are going to give the computer an approximation of your head location.
+p85
+aVAnd why this is interesting
+p86
+aVis I have this sort of application running on the computer monitor,
+p87
+aVwhich has a 3D room, with some targets floating in it.
+p88
+aVAnd you can see that it looks like a 3D room.
+p89
+aVkind of like a video game, it sort of looks 3D,
+p90
+aVbut for the most part, the image looks pretty flat,
+p91
+aVand bound to the surface of the screen.
+p92
+aVBut if we turn on head tracking \u2014
+p93
+aVthe computer can change the image that's on the screen
+p94
+aVand make it respond to the head movements.
+p95
+aVSo let's switch back to that.
+p96
+aa(lp97
+V(Laughter)
+p98
+aa(lp99
+V(Applause)
+p100
+aa(lp101
+VSo this has actually been a little bit startling
+p102
+aVto the game-development community.
+p103
+aa(lp104
+V(Laughter)
+p105
+aa(lp106
+VBecause this is about 10 dollars of additional hardware
+p107
+aVif you already have a Nintendo Wii.
+p108
+aVSo I'm looking forward to seeing some games,
+p109
+aVand actually Louis Castle, that's him down there,
+p110
+aVlast week announced that Electronic Arts, one of the largest game publishers,
+p111
+aVis releasing a game in May that has a little Easter egg feature
+p112
+aVfor supporting this type of head tracking.
+p113
+aVAnd that's from less than five months
+p114
+aVfrom a prototype in my lab to a major commercial product.
+p115
+aa(lp116
+V(Applause)
+p117
+aa(lp118
+VThank you.
+p119
+aa(lp120
+V(Applause)
+p121
+aa(lp122
+VBut actually, to me, what's almost more interesting
+p123
+aVthan either of these two projects
+p124
+aVis how people actually found out about them.
+p125
+aVYouTube has really changed the way, or changed the speed,
+p126
+aVin which a single individual
+p127
+aVcan actually spread an idea around the world.
+p128
+aVI'm doing some research in my lab with a video camera,
+p129
+aVand within the first week, a million people had seen this work,
+p130
+aVand literally within days, engineers, teachers and students
+p131
+aVfrom around the world were already posting their own YouTube videos
+p132
+aVof them using my system or derivatives of this work.
+p133
+aVSo I hope to see more of that in the future,
+p134
+aVand hope online video distribution to be embraced by the research community.
+p135
+aa(lp136
+VSo thank you very much.
+p137
+aa(lp138
+V(Applause)
+p139
+aasS'transcript_micsec'
+p140
+(lp141
+I12000
+aI44000
+aI74000
+aI129000
+aI130000
+aI136000
+aI142000
+aI143000
+aI145000
+aI158000
+aI163000
+aI177000
+aI180000
+aI229000
+aI233000
+aI243000
+aI248000
+aI250000
+aI274000
+aI279000
+aI280000
+aI283000
+aI319000
+aI320000
+asS'talk_meta'
+p142
+(dp143
+S'ratings'
+p144
+(dp145
+S'ingenious'
+p146
+I3249
+sS'beautiful'
+p147
+I159
+sS'inspiring'
+p148
+I1338
+sS'ok'
+p149
+I80
+sS'fascinating'
+p150
+I1684
+sS'funny'
+p151
+I132
+sS'total_count'
+p152
+I10147
+sS'persuasive'
+p153
+I159
+sS'longwinded'
+p154
+I8
+sS'informative'
+p155
+I843
+sS'jaw-dropping'
+p156
+I2368
+sS'obnoxious'
+p157
+I14
+sS'confusing'
+p158
+I15
+sS'courageous'
+p159
+I89
+sS'unconvincing'
+p160
+I9
+ssS'author'
+p161
+VJohnny_Lee;
+p162
+sS'url'
+p163
+S'https://www.ted.com/talks/johnny_lee_demos_wii_remote_hacks'
+p164
+sS'vidlen'
+p165
+I340
+sS'totalviews'
+p166
+I5494629
+sS'title'
+p167
+VFree or cheap Wii Remote hacks
+p168
+sS'downloadlink'
+p169
+Vhttps://download.ted.com/talks/JohnnyLee_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p170
+sS'datepublished'
+p171
+cdatetime
+datetime
+p172
+(S'\x07\xd8\x04\n\x14\x05\x00\x00\x00\x00'
+tRp173
+sS'datefilmed'
+p174
+g172
+(S'\x07\xd8\x04\n\x14\x05\x00\x00\x00\x00'
+tRp175
+sS'alldata_JSON'
+p176
+S'{"viewed_count": 5494629, "speakers": [{"description": "Human-computer interaction researcher", "firstname": "Johnny", "title": "", "lastname": "Lee", "middleinitial": "", "whylisten": "<p>To understand Johnny Lee, just take a look at his <a href=\\"http://johnnylee.net/\\" target=\\"_blank\\">website</a>. Aside from his Wii Remote hacks -- voted the #1 tech demo of all time by Digg -- you can see all the other places his mind has turned: typography, <a href=\\"http://littlegreatideas.com/photography/\\" target=\\"_blank\\">photography</a>, urban renewal ... to say nothing of his interesting sideline in <a href=\\"http://littlegreatideas.com/\\" target=\\"_blank\\">Little Great Ideas</a>, like the hypnotic &quot;<a href=\\"http://littlegreatideas.com/willyou/\\" target=\\"_blank\\">___ will ___ you</a>.&quot;</p><p>After earning his PhD from the <a href=\\"http://www.hcii.cmu.edu/\\" target=\\"_blank\\">Human-Computer Interaction Institute</a>  at Carnegie Mellon University, he joined the team at Microsoft responsible for <a href=\\"http://www.xbox.com/en-US/live/projectnatal/\\" target=\\"_blank\\">Project Natal</a>, a controller-free motion sensing device for the Xbox 360. He&#39;s since turned his attention to accelerated technology R&amp;D at Google.</p>", "slug": "johnny_lee", "whotheyare": "Researcher Johnny Lee became a YouTube star with his demo of Wii Remote hacks -- bending the low-cost game piece to power an interactive whiteboard, a multitouch surface, a head-mounted display ...", "whatotherssay": "This guy deserves a medal.", "id": 204, "photo_url": "https://pe.tedcdn.com/images/ted/38006_254x191.jpg"}], "current_talk": 245, "description": "Building sophisticated educational tools out of cheap parts, Johnny Lee demos his cool Wii Remote hacks, which turn the $40 video game controller into a digital whiteboard, a touchscreen and a head-mounted 3-D viewer.", "language": "en", "url": "https://www.ted.com/talks/johnny_lee_demos_wii_remote_hacks", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39067855}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7785121}, "podcast-high": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39055749}, "180k": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7531535}, "64k": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2742146}, "1500k": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60212424}, "450k": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18937765}, "podcast-regular": {"uri": "https://download.ted.com/talks/JohnnyLee_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19052913}, "950k": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39045777}, "podcast-light": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2875636}, "320k": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13369510}, "600k": {"uri": "https://download.ted.com/talks/JohnnyLee_2008-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25526727}}}, "comments": {"count": 258, "id": 223, "talk_id": 245}, "slug": "johnny_lee_demos_wii_remote_hacks", "threadId": 223, "talks": [{"event": "TED2008", "player_talks": [{"event": "TED2008", "slug": "johnny_lee_demos_wii_remote_hacks", "filmed": 1204156800, "targeting": {"event": "TED2008", "tag": "business,demo,design,education,entertainment,gaming,hack,technology", "id": 245, "talk": "johnny_lee_demos_wii_remote_hacks", "year": "2008"}, "adDuration": "3.33", "external": null, "title": "Free or cheap Wii Remote hacks", "postAdDuration": "0.83", "published": 1207872300, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/5a2028327d0f131b820d1e8b042bb482ddc66db1_1600x1200.jpg?quality=89&w=600", "name": "Johnny Lee: Free or cheap Wii Remote hacks", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ky", "endonym": "\\u043a\\u044b\\u0440\\u0433\\u044b\\u0437 \\u0442\\u0438\\u043b\\u0438", "isRtl": false, "ianaCode": "ky", "languageName": "Kyrgyz"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "demo", "design", "education", "entertainment", "gaming", "hack", "technology"], "speaker": "Johnny Lee", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 340, "id": 245, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JohnnyLee_2008-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2008", "tag": "business,demo,design,education,entertainment,gaming,hack,technology", "id": 245, "talk": "johnny_lee_demos_wii_remote_hacks", "year": "2008"}, "metadata": "https://hls.ted.com/talks/245.json", "stream": "https://hls.ted.com/talks/245.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2008%26id%3D245%26tag%3Dbusiness%2Cdemo%2Cdesign%2Ceducation%2Centertainment%2Cgaming%2Chack%2Ctechnology%26talk%3Djohnny_lee_demos_wii_remote_hacks%26year%3D2008&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/johnny_lee_demos_wii_remote_hacks"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/5a2028327d0f131b820d1e8b042bb482ddc66db1_1600x1200.jpg?q=50&w=15", "duration": 340, "id": 245, "ratings": [{"count": 843, "id": 8, "name": "Informative"}, {"count": 1684, "id": 22, "name": "Fascinating"}, {"count": 1338, "id": 10, "name": "Inspiring"}, {"count": 3249, "id": 9, "name": "Ingenious"}, {"count": 159, "id": 1, "name": "Beautiful"}, {"count": 2368, "id": 23, "name": "Jaw-dropping"}, {"count": 132, "id": 7, "name": "Funny"}, {"count": 89, "id": 3, "name": "Courageous"}, {"count": 159, "id": 24, "name": "Persuasive"}, {"count": 80, "id": 25, "name": "OK"}, {"count": 8, "id": 11, "name": "Longwinded"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 9, "id": 21, "name": "Unconvincing"}, {"count": 15, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Human-computer interaction researcher", "firstname": "Johnny", "title": "", "lastname": "Lee", "middleinitial": "", "whylisten": "<p>To understand Johnny Lee, just take a look at his <a href=\\"http://johnnylee.net/\\" target=\\"_blank\\">website</a>. Aside from his Wii Remote hacks -- voted the #1 tech demo of all time by Digg -- you can see all the other places his mind has turned: typography, <a href=\\"http://littlegreatideas.com/photography/\\" target=\\"_blank\\">photography</a>, urban renewal ... to say nothing of his interesting sideline in <a href=\\"http://littlegreatideas.com/\\" target=\\"_blank\\">Little Great Ideas</a>, like the hypnotic &quot;<a href=\\"http://littlegreatideas.com/willyou/\\" target=\\"_blank\\">___ will ___ you</a>.&quot;</p><p>After earning his PhD from the <a href=\\"http://www.hcii.cmu.edu/\\" target=\\"_blank\\">Human-Computer Interaction Institute</a>  at Carnegie Mellon University, he joined the team at Microsoft responsible for <a href=\\"http://www.xbox.com/en-US/live/projectnatal/\\" target=\\"_blank\\">Project Natal</a>, a controller-free motion sensing device for the Xbox 360. He&#39;s since turned his attention to accelerated technology R&amp;D at Google.</p>", "slug": "johnny_lee", "whotheyare": "Researcher Johnny Lee became a YouTube star with his demo of Wii Remote hacks -- bending the low-cost game piece to power an interactive whiteboard, a multitouch surface, a head-mounted display ...", "whatotherssay": "This guy deserves a medal.", "id": 204, "photo_url": "https://pe.tedcdn.com/images/ted/38006_254x191.jpg"}], "title": "Free or cheap Wii Remote hacks", "take_action": null, "comments": 223, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/5a2028327d0f131b820d1e8b042bb482ddc66db1_1600x1200.jpg", "description": "Building sophisticated educational tools out of cheap parts, Johnny Lee demos his cool Wii Remote hacks, which turn the $40 video game controller into a digital whiteboard, a touchscreen and a head-mounted 3-D viewer.", "tags": ["business", "demo", "design", "education", "entertainment", "gaming", "hack", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ky", "endonym": "\\u043a\\u044b\\u0440\\u0433\\u044b\\u0437 \\u0442\\u0438\\u043b\\u0438", "isRtl": false, "ianaCode": "ky", "languageName": "Kyrgyz"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-sv.mp4"}, "mk": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-sl.mp4"}, "ky": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p-ky.mp4", "name": "Kyrgyz", "low": "https://download.ted.com/talks/JohnnyLee_2008-low-ky.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JohnnyLee_2008-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JohnnyLee_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JohnnyLee_2008-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 245, "audioDownload": null}, "related_talks": [{"viewed_count": 4778593, "hero": "https://pe.tedcdn.com/images/ted/5824aa5b8d490ed3863ee1f8c26731a6ebbfcefe_1600x1200.jpg", "title": "How PhotoSynth can connect the world\'s images", "id": 129, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 450, "slug": "blaise_aguera_y_arcas_demos_photosynth"}, {"viewed_count": 1481054, "hero": "https://pe.tedcdn.com/images/ted/8186_480x360.jpg", "title": "Rethink the desktop with BumpTop", "id": 131, "speaker": "Anand Agarawala", "duration": 279, "slug": "anand_agarawala_demos_his_bumptop_desktop"}, {"viewed_count": 1093588, "hero": "https://pe.tedcdn.com/images/ted/a158433ce985ba2e02f962989c5bcc7a639d75d4_1600x1200.jpg", "title": "Are games better than life?", "id": 361, "speaker": "David Perry", "duration": 1266, "slug": "david_perry_on_videogames"}, {"viewed_count": 4777354, "hero": "https://pe.tedcdn.com/images/ted/4fb87a3ff55d4cfed46fea777350f350e538484d_2880x1620.jpg", "title": "Your brain on video games", "id": 1618, "speaker": "Daphne Bavelier", "duration": 1077, "slug": "daphne_bavelier_your_brain_on_video_games"}, {"viewed_count": 1059180, "hero": "https://pe.tedcdn.com/images/ted/44031d5572b6b671809fa0dc1dae6f9b47408229_2880x1620.jpg", "title": "Easy DIY projects for kid engineers", "id": 2623, "speaker": "Fawn Qiu", "duration": 423, "slug": "fawn_qiu_easy_diy_projects_for_kid_engineers"}, {"viewed_count": 1027533, "hero": "https://pe.tedcdn.com/images/ted/87897eb99c1b0061cca8f820dfe97a5bdb22d813_1600x1200.jpg", "title": "7 ways games reward the brain", "id": 996, "speaker": "Tom Chatfield", "duration": 988, "slug": "tom_chatfield_7_ways_games_reward_the_brain"}], "recorded_at": "2008-02-28T00:00:00.000+00:00", "slug": "johnny_lee_demos_wii_remote_hacks", "speaker_name": "Johnny Lee", "viewed_count": 5494629, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2008", "name": "Johnny Lee: Free or cheap Wii Remote hacks"}'
+p177
+sS'keywords'
+p178
+(lp179
+Vbusiness
+p180
+aVdemo
+p181
+aVdesign
+p182
+aVeducation
+p183
+aVentertainment
+p184
+aVgaming
+p185
+aVhack
+p186
+aVtechnology
+p187
+asS'datecrawled'
+p188
+g172
+(S'\x07\xe1\n\x17\x022\x1b\x0b\xd7D'
+tRp189
+sS'id'
+p190
+I245
+ss.

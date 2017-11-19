@@ -1,0 +1,648 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo this is a picture of my dad and me, at the beach in Far Rockaway,
+p5
+aVor actually Rockaway Park.
+p6
+aVI'm the one with the blond hair.
+p7
+aVMy dad's the guy with the cigarette.
+p8
+aVIt was the 60's.
+p9
+aVA lot of people smoked back then.
+p10
+aVIn the summer of 2009, my dad was diagnosed with lung cancer.
+p11
+aVCancer is one of those things that actually touches everybody.
+p12
+aVIf you're a man in the US,
+p13
+aVyou've got about a one in two chance
+p14
+aVof being diagnosed with cancer during your lifetime.
+p15
+aVIf you're a woman, you've got about a one in three chance
+p16
+aVof being diagnosed with cancer.
+p17
+aVEverybody knows somebody who's been diagnosed with cancer.
+p18
+aa(lp19
+VNow, my dad's doing better today,
+p20
+aVand part of the reason for that is that he was able to participate in the trial
+p21
+aVof an experimental new drug that happened to be specially formulated
+p22
+aVand very good for his particular kind of cancer.
+p23
+aVThere are over 200 kinds of cancer.
+p24
+aVAnd what I want to talk about today
+p25
+aVis how we can help more people like my dad,
+p26
+aVbecause we have to change the way we think about raising money
+p27
+aVto fund cancer research.
+p28
+aa(lp29
+VSo a while after my dad was diagnosed,
+p30
+aVI was having coffee with my friend Andrew Lo.
+p31
+aVHe's the head of the Laboratory for Financial Engineering at MIT,
+p32
+aVwhere I also have a position,
+p33
+aVand we were talking about cancer.
+p34
+aVAnd Andrew had been doing his own bits of research,
+p35
+aVand one of the things that he had been told
+p36
+aVand that he'd learned from studying the literature
+p37
+aVwas that there's actually a big bottleneck.
+p38
+aVIt's very difficult to develop new drugs,
+p39
+aVand the reason it's difficult to develop new drugs
+p40
+aVis because in the early stages of drug development,
+p41
+aVthe drugs are very risky, and they're very expensive.
+p42
+aVSo Andrew asked me if I'd want to maybe work with him a bit,
+p43
+aVwork on some of the math and the analytics
+p44
+aVand see if we could figure out something we could do.
+p45
+aa(lp46
+VNow I'm not a scientist.
+p47
+aVYou know, I don't know how to build a drug.
+p48
+aVAnd none of my coauthors, Andrew Lo or Jose-Maria Fernandez or David Fagnan \u2014
+p49
+aVnone of those guys are scientists either.
+p50
+aVWe don't know the first thing about how to make a cancer drug.
+p51
+aVBut we know a little bit about risk mitigation
+p52
+aVand a little bit about financial engineering,
+p53
+aVand so we started thinking, what could we do?
+p54
+aVI'm going to tell you about some work
+p55
+aVwe've been doing over the last couple years
+p56
+aVthat we think could fundamentally change the way
+p57
+aVresearch for cancer and lots of other things gets done.
+p58
+aVWe want to let the research drive the funding,
+p59
+aVnot the other way around.
+p60
+aa(lp61
+VSo in order to get started,
+p62
+aVlet me tell you how you get a drug financed.
+p63
+aVImagine that you're in your lab \u2014 you're a scientist, you're not like me \u2014
+p64
+aVand you've developed a new compound
+p65
+aVthat you think might be therapeutic for somebody with cancer.
+p66
+aVWell, what you do is, you test in animals, you test in test tubes,
+p67
+aVbut there's this notion of going from the bench to the bedside,
+p68
+aVand in order to get from the bench, the lab, to the bedside, to the patients,
+p69
+aVyou've got to get the drug tested.
+p70
+aVAnd the way the drug gets tested
+p71
+aVis through a series of, basically, experiments,
+p72
+aVthrough these large, they're called trials,
+p73
+aVthat they do to determine whether the drug is safe
+p74
+aVand whether it works and all these things.
+p75
+aVSo the FDA has a very specific protocol.
+p76
+aVIn the first phase of this testing,
+p77
+aVwhich is called testing for toxicity, it's called Phase I.
+p78
+aVIn the first phase, you give the drug to healthy people
+p79
+aVand you see if it actually makes them sick.
+p80
+aVIn other words, are the side effects just so severe
+p81
+aVthat no matter how much good it does,
+p82
+aVit's not going to be worth it?
+p83
+aVDoes it cause heart attacks, kill people, liver failure?
+p84
+aVAnd it turns out, that's a pretty high hurdle.
+p85
+aVAbout a third of all drugs drop out at that point.
+p86
+aVIn the next phase, you test to see if the drug's effective,
+p87
+aVand you give it to people with cancer
+p88
+aVand you see if it makes them better.
+p89
+aVAnd that's also a higher hurdle. People drop out.
+p90
+aVAnd in the third phase, you test it on a very large sample,
+p91
+aVand you're trying to determine what the right dose is,
+p92
+aVis it better than what's available today? If not, then why build it?
+p93
+aVWhen you're done with all that,
+p94
+aVwhat you have is a very small percentage of drugs
+p95
+aVthat start the process actually come out the other side.
+p96
+aVSo those blue bottles \u2014 those blue bottles save lives,
+p97
+aVand they're also worth billions, sometimes billions a year.
+p98
+aa(lp99
+VSo now here's a question:
+p100
+aVif I were to ask you, for example,
+p101
+aVto make a one-time investment of, say, 200 million dollars
+p102
+aVto buy one of those bottles,
+p103
+aVso 200 million dollars up front, one time, to buy one of those bottles,
+p104
+aVI won't tell you which one it is,
+p105
+aVand in 10 years, I'll tell you whether you have one of the blue ones.
+p106
+aVDoes that sound like a good deal for anybody?
+p107
+aVNo. No, right?
+p108
+aVAnd of course, it's a very, very risky trial position,
+p109
+aVand that's why it's very hard to get funding,
+p110
+aVbut to a first approximation, that's actually the proposal.
+p111
+aVYou have to fund these things from the early stages on.
+p112
+aVIt takes a long time.
+p113
+aa(lp114
+VSo Andrew said to me, he said,
+p115
+aV"What if we stop thinking about these as drugs?
+p116
+aVWhat if we start thinking about them as financial assets?"
+p117
+aVThey've got really weird payoff structures and all that,
+p118
+aVbut let's throw everything we know about financial engineering at them.
+p119
+aVLet's see if we can use all the tricks of the trade
+p120
+aVto figure out how to make these drugs work as financial assets.
+p121
+aa(lp122
+VLet's create a giant fund.
+p123
+aVIn finance, we know what to do with assets that are risky.
+p124
+aVYou put them in a portfolio and you try to smooth out the returns.
+p125
+aVSo we did some math, and it turned out you could make this work,
+p126
+aVbut in order to make it work, you need about 80 to 150 drugs.
+p127
+aa(lp128
+VNow the good news is, there's plenty of drugs
+p129
+aVthat are waiting to be tested.
+p130
+aVWe've been told that there's a backlog of about 20 years of drugs
+p131
+aVthat are waiting to be tested but can't be funded.
+p132
+aVIn fact, that early stage of the funding process,
+p133
+aVthat Phase I and preclinical stuff,
+p134
+aVthat's actually, in the industry, called the Valley of Death
+p135
+aVbecause it's where drugs go to die.
+p136
+aVIt's very hard to for them to get through there,
+p137
+aVand of course, if you can't get through there,
+p138
+aVyou can't get to the later stages.
+p139
+aa(lp140
+VSo we did this math, and we figured out, OK,
+p141
+aVwell, you need about 80 to, say, 150, or something like that, drugs.
+p142
+aVAnd then we did a little more math, and we said, OK,
+p143
+aVwell, that's a fund of about three to 15 billion dollars.
+p144
+aVSo we kind of created a new problem by solving the old one.
+p145
+aVWe got rid of the risk, but now we need a lot of capital,
+p146
+aVand you can only get that kind of capital in the capital markets.
+p147
+aVVenture capitalists and philanthropies don't have it.
+p148
+aVBut we have to figure out how to get people in the capital markets,
+p149
+aVwho traditionally don't invest in this, to want to invest in this stuff.
+p150
+aVSo again, financial engineering was helpful here.
+p151
+aVImagine the megafund starts empty,
+p152
+aVand what it does is it issues some debt and some equity,
+p153
+aVand that generates cash flow.
+p154
+aVThat cash flow is used, then, to buy that big portfolio of drugs that you need,
+p155
+aVand those drugs start working their way through that approval process,
+p156
+aVand each time they go through a phase of approval,
+p157
+aVthey gain value.
+p158
+aVMost of them don't make it, but a few of them do,
+p159
+aVand with the ones that gain value, you can sell some,
+p160
+aVand when you sell them,
+p161
+aVyou have money to pay the interest on those bonds,
+p162
+aVbut also to fund the next round of trials.
+p163
+aVIt's almost self-funding.
+p164
+aVYou do that for the course of the transaction,
+p165
+aVand when you're done, you liquidate the portfolio,
+p166
+aVpay back the bonds, and you can give the equity holders a nice return.
+p167
+aa(lp168
+VThat was the theory, and we talked about it,
+p169
+aVwe did a bunch of experiments,
+p170
+aVand then we said, let's really try to test it.
+p171
+aVWe spent the next two years doing research.
+p172
+aVWe talked to hundreds of experts in drug financing and venture capital.
+p173
+aVWe talked to people who have developed drugs.
+p174
+aVWe talked to pharmaceutical companies.
+p175
+aVWe actually looked at the data for drugs,
+p176
+aVover 2,000 drugs that had been approved or denied or withdrawn,
+p177
+aVand we also ran millions of simulations.
+p178
+aVAnd all that actually took a lot of time.
+p179
+aVBut when we were done, we found something that was sort of surprising.
+p180
+aVIt was feasible to structure that fund
+p181
+aVsuch that when you were done structuring it,
+p182
+aVyou could actually produce low-risk bonds that would be attractive to bond holders,
+p183
+aVthat would give you yields of about five to eight percent,
+p184
+aVand you could produce equity
+p185
+aVthat would give equity holders about a 12 percent return.
+p186
+aVNow those returns aren't going to be attractive to a venture capitalist.
+p187
+aVThey want to make those big bets
+p188
+aVand get those billion dollar payoffs.
+p189
+aVBut it turns out there are lots of other folks that would be interested.
+p190
+aVThat's right in the investment sweet spot of pension funds and 401(k) plans
+p191
+aVand all this other stuff.
+p192
+aa(lp193
+VSo we published some articles in the academic press,
+p194
+aVin medical journals, in finance journals.
+p195
+aVBut it wasn't until we actually got the popular press interested in this
+p196
+aVthat we began to get some traction.
+p197
+aa(lp198
+VWe wanted to do more than just make people aware of it.
+p199
+aVWe wanted people to get involved.
+p200
+aVSo we took all of our computer code and made that available online
+p201
+aVunder an open-source license to anybody that wanted it.
+p202
+aVAnd you guys can download it today
+p203
+aVif you want to run your own experiments to see if this would work.
+p204
+aVAnd that was really effective,
+p205
+aVbecause people that didn't believe our assumptions
+p206
+aVcould try their own and see how it would work.
+p207
+aa(lp208
+VNow there's an obvious problem, which is,
+p209
+aVis there enough money in the world to fund this?
+p210
+aVI've told you there's enough drugs, but is there enough money?
+p211
+aVThere's 100 trillion dollars of capital
+p212
+aVcurrently invested in fixed-income securities.
+p213
+aVThat's a hundred thousand billion.
+p214
+aVThere's plenty of money.
+p215
+aa(lp216
+V(Laughter)
+p217
+aa(lp218
+VBut we realized it's more than just money that's required.
+p219
+aVWe had to get people motivated, involved,
+p220
+aVand get them to understand this.
+p221
+aVAnd we started thinking about all the different things that could go wrong.
+p222
+aVWhat are all the challenges that might get in the way?
+p223
+aVAnd we had a long list.
+p224
+aVWe assigned a bunch of people, including ourselves,
+p225
+aVdifferent pieces of this problem.
+p226
+aVAnd we said, could you start a work stream on credit risk?
+p227
+aVCould you start a work stream on the regulatory aspects?
+p228
+aVCould you start a work stream on how you would manage so many projects?
+p229
+aVAnd we had all these experts get together and do these different work streams,
+p230
+aVand then we held a conference.
+p231
+aVThe conference was held over this past summer.
+p232
+aVIt was an invitation-only conference.
+p233
+aVIt was sponsored by the American Cancer Society
+p234
+aVand done in collaboration with the National Cancer Institute.
+p235
+aVWe had experts from every field we thought would be important,
+p236
+aVincluding the government, and people that run research centers,
+p237
+aVand for two days they heard the reports
+p238
+aVfrom those five work streams, and talked about it.
+p239
+aVIt was the first time the people who could make this happen
+p240
+aVsat across the table from each other and had these conversations.
+p241
+aa(lp242
+VNow these conferences, it's typical to have a dinner,
+p243
+aVand at that dinner, you get to know each other,
+p244
+aVsort of like what we're doing here.
+p245
+aVI happened to look out the window,
+p246
+aVand hand on my heart,
+p247
+aVon the night of this conference \u2014 it was the summertime \u2014
+p248
+aVand that's what I saw, a double rainbow.
+p249
+aVSo I'd like to think it was a good sign.
+p250
+aa(lp251
+VSince the conference, we've got people working between Paris and San Francisco,
+p252
+aVlots of different folks working on this
+p253
+aVto try to see if we can really make it happen.
+p254
+aVWe're not looking to start a fund, but we want somebody else to do this.
+p255
+aVBecause, again, I'm not a scientist.
+p256
+aVI can't build a drug.
+p257
+aVI'm never going to have enough money to fund even one of those trials.
+p258
+aVBut all of us together, with our 401(k)s,
+p259
+aVwith our 529 plans, with our pension plans,
+p260
+aVall of us together can actually fund hundreds of trials
+p261
+aVand get paid well for doing it
+p262
+aVand save millions of lives like my dad.
+p263
+aa(lp264
+VThank you.
+p265
+aa(lp266
+V(Applause)
+p267
+aasS'transcript_micsec'
+p268
+(lp269
+I11000
+aI54000
+aI80000
+aI121000
+aI157000
+aI253000
+aI288000
+aI309000
+aI323000
+aI349000
+aI420000
+aI485000
+aI499000
+aI520000
+aI538000
+aI543000
+aI604000
+aI623000
+aI656000
+aI657000
+asS'talk_meta'
+p270
+(dp271
+S'ratings'
+p272
+(dp273
+S'ingenious'
+p274
+I808
+sS'funny'
+p275
+I13
+sS'inspiring'
+p276
+I114
+sS'ok'
+p277
+I20
+sS'fascinating'
+p278
+I118
+sS'total_count'
+p279
+I1756
+sS'persuasive'
+p280
+I375
+sS'longwinded'
+p281
+I2
+sS'informative'
+p282
+I191
+sS'beautiful'
+p283
+I10
+sS'jaw-dropping'
+p284
+I46
+sS'obnoxious'
+p285
+I2
+sS'confusing'
+p286
+I4
+sS'courageous'
+p287
+I43
+sS'unconvincing'
+p288
+I10
+ssS'author'
+p289
+VRoger_Stein;
+p290
+sS'url'
+p291
+S'https://www.ted.com/talks/roger_stein_a_bold_new_way_to_fund_drug_research'
+p292
+sS'vidlen'
+p293
+I669
+sS'totalviews'
+p294
+I906576
+sS'title'
+p295
+VA bold new way to fund drug research
+p296
+sS'downloadlink'
+p297
+Vhttps://download.ted.com/talks/RogerStein_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p298
+sS'datepublished'
+p299
+cdatetime
+datetime
+p300
+(S'\x07\xde\x01\x07\x0b\x00\x1b\x00\x00\x00'
+tRp301
+sS'datefilmed'
+p302
+g300
+(S'\x07\xde\x01\x07\x0b\x00\x1b\x00\x00\x00'
+tRp303
+sS'alldata_JSON'
+p304
+S'{"viewed_count": 906576, "speakers": [{"description": "Financial management expert", "firstname": "Roger", "title": "", "lastname": "Stein", "middleinitial": "", "whylisten": "<p>Roger Stein is a senior lecturer in finance at MIT&#39;s Sloan School of Management and a research affiliate at the MIT Laboratory for Financial Engineering. He is also the former chief analytics officer at State Street Global Exchange. He has been working in risk modeling and financial prediction for almost 25 years; his products and services are used widely in industry and have become benchmarks in banking and finance. With MIT colleagues, he is currently collaborating on a new model that uses modern risk management methods and financial engineering techniques to change the way new drug research is funded.</p> <p>Previously he was managing director of research and academic relations globally for Moody&rsquo;s Corporation, and prior to that was president of Moody&rsquo;s Research Labs. He has a Ph.D. from New York University, has coauthored two full-length texts on applied analytics, and has written more than 50 academic articles and papers. He has also been practicing Aikido since 1980.</p>", "slug": "roger_stein", "whotheyare": "Roger Stein wants to bring financial engineering to the world of drug funding.", "whatotherssay": "Although the odds of any single medical innovation succeeding are low, the chance that one of them will is high. Scale and diversity should minimize risks.", "id": 1741, "photo_url": "https://pe.tedcdn.com/images/ted/cb197a554749057d697f0a68aa723ccec538fe8d_254x191.jpg"}], "current_talk": 1901, "description": "Believe it or not, about 20 years\' worth of potentially life-saving drugs are sitting in labs right now, untested. Why? Because they can\'t get the funding to go to trials; the financial risk is too high. Roger Stein is a finance guy, and he thinks deeply about mitigating risk. He and some colleagues at MIT came up with a promising new financial model that could move hundreds of drugs into the testing pipeline.", "language": "en", "url": "https://www.ted.com/talks/roger_stein_a_bold_new_way_to_fund_drug_research", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RogerStein_2013S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78116273}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RogerStein_2013S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15426530}, "podcast-high": {"uri": "https://download.ted.com/talks/RogerStein_2013S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78113004}, "180k": {"uri": "https://download.ted.com/talks/RogerStein_2013S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15329514}, "64k": {"uri": "https://download.ted.com/talks/RogerStein_2013S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5527142}, "1500k": {"uri": "https://download.ted.com/talks/RogerStein_2013S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 122414324}, "450k": {"uri": "https://download.ted.com/talks/RogerStein_2013S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37879913}, "podcast-regular": {"uri": "https://download.ted.com/talks/RogerStein_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38049811}, "950k": {"uri": "https://download.ted.com/talks/RogerStein_2013S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78142441}, "audio-podcast": {"uri": "https://download.ted.com/talks/RogerStein_2013S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6840474}, "podcast-light": {"uri": "https://download.ted.com/talks/RogerStein_2013S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5626550}, "320k": {"uri": "https://download.ted.com/talks/RogerStein_2013S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27161502}, "600k": {"uri": "https://download.ted.com/talks/RogerStein_2013S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 50765369}}}, "comments": {"count": 158, "id": 24325, "talk_id": 1901}, "slug": "roger_stein_a_bold_new_way_to_fund_drug_research", "threadId": 24325, "talks": [{"event": "TED@State Street Boston", "player_talks": [{"event": "TED@State Street Boston", "slug": "roger_stein_a_bold_new_way_to_fund_drug_research", "filmed": 1383696000, "targeting": {"event": "TED@State Street Boston", "tag": "business,cancer,finance,medical research,medicine,pharmaceuticals", "id": 1901, "talk": "roger_stein_a_bold_new_way_to_fund_drug_research", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "A bold new way to fund drug research", "postAdDuration": "0.83", "published": 1389110427, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/568bf460212248807e5acde5f149bd29c1307c2a_1600x1200.jpg?quality=89&w=600", "name": "Roger Stein: A bold new way to fund drug research", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "cancer", "finance", "medical research", "medicine", "pharmaceuticals"], "speaker": "Roger Stein", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 669, "id": 1901, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RogerStein_2013S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED@State Street Boston", "tag": "business,cancer,finance,medical research,medicine,pharmaceuticals", "id": 1901, "talk": "roger_stein_a_bold_new_way_to_fund_drug_research", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1901.json", "stream": "https://hls.ted.com/talks/1901.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%40State%2BStreet%2BBoston%26id%3D1901%26tag%3Dbusiness%2Ccancer%2Cfinance%2Cmedical%2Bresearch%2Cmedicine%2Cpharmaceuticals%26talk%3Droger_stein_a_bold_new_way_to_fund_drug_research%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/roger_stein_a_bold_new_way_to_fund_drug_research"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/568bf460212248807e5acde5f149bd29c1307c2a_1600x1200.jpg?q=50&w=15", "duration": 669, "id": 1901, "ratings": [{"count": 191, "id": 8, "name": "Informative"}, {"count": 43, "id": 3, "name": "Courageous"}, {"count": 114, "id": 10, "name": "Inspiring"}, {"count": 375, "id": 24, "name": "Persuasive"}, {"count": 808, "id": 9, "name": "Ingenious"}, {"count": 118, "id": 22, "name": "Fascinating"}, {"count": 20, "id": 25, "name": "OK"}, {"count": 10, "id": 21, "name": "Unconvincing"}, {"count": 13, "id": 7, "name": "Funny"}, {"count": 46, "id": 23, "name": "Jaw-dropping"}, {"count": 2, "id": 11, "name": "Longwinded"}, {"count": 10, "id": 1, "name": "Beautiful"}, {"count": 4, "id": 2, "name": "Confusing"}, {"count": 2, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Financial management expert", "firstname": "Roger", "title": "", "lastname": "Stein", "middleinitial": "", "whylisten": "<p>Roger Stein is a senior lecturer in finance at MIT&#39;s Sloan School of Management and a research affiliate at the MIT Laboratory for Financial Engineering. He is also the former chief analytics officer at State Street Global Exchange. He has been working in risk modeling and financial prediction for almost 25 years; his products and services are used widely in industry and have become benchmarks in banking and finance. With MIT colleagues, he is currently collaborating on a new model that uses modern risk management methods and financial engineering techniques to change the way new drug research is funded.</p> <p>Previously he was managing director of research and academic relations globally for Moody&rsquo;s Corporation, and prior to that was president of Moody&rsquo;s Research Labs. He has a Ph.D. from New York University, has coauthored two full-length texts on applied analytics, and has written more than 50 academic articles and papers. He has also been practicing Aikido since 1980.</p>", "slug": "roger_stein", "whotheyare": "Roger Stein wants to bring financial engineering to the world of drug funding.", "whatotherssay": "Although the odds of any single medical innovation succeeding are low, the chance that one of them will is high. Scale and diversity should minimize risks.", "id": 1741, "photo_url": "https://pe.tedcdn.com/images/ted/cb197a554749057d697f0a68aa723ccec538fe8d_254x191.jpg"}], "title": "A bold new way to fund drug research", "take_action": [], "comments": 24325, "more_resources": [{"status": "approved", "start_at": null, "headline": "Can Financial Engineering Cure Cancer?", "link_url": "https://www.youtube.com/watch?v=xu86bYKVmRE", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "youtube.com", "type": "external_website", "blurb": "Watch this TEDx talk from Roger\'s collaborator, Andrew Lo of MIT"}], "hero": "https://pe.tedcdn.com/images/ted/568bf460212248807e5acde5f149bd29c1307c2a_1600x1200.jpg", "description": "Believe it or not, about 20 years\' worth of potentially life-saving drugs are sitting in labs right now, untested. Why? Because they can\'t get the funding to go to trials; the financial risk is too high. Roger Stein is a finance guy, and he thinks deeply about mitigating risk. He and some colleagues at MIT came up with a promising new financial model that could move hundreds of drugs into the testing pipeline.", "tags": ["business", "cancer", "finance", "medical research", "medicine", "pharmaceuticals"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"vi": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RogerStein_2013S-low-vi.mp4"}, "el": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RogerStein_2013S-low-el.mp4"}, "fr": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RogerStein_2013S-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RogerStein_2013S-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RogerStein_2013S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RogerStein_2013S-low-pt.mp4"}, "ru": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RogerStein_2013S-low-ru.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RogerStein_2013S-low-zh-tw.mp4"}, "ko": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RogerStein_2013S-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RogerStein_2013S-low-it.mp4"}, "hu": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RogerStein_2013S-low-hu.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RogerStein_2013S-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RogerStein_2013S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RogerStein_2013S-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RogerStein_2013S-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RogerStein_2013S-low-bg.mp4"}, "sr": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RogerStein_2013S-low-sr.mp4"}, "ro": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RogerStein_2013S-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RogerStein_2013S-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RogerStein_2013S-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RogerStein_2013S-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RogerStein_2013S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RogerStein_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RogerStein_2013S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1901, "audioDownload": "https://download.ted.com/talks/RogerStein_2013S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 836420, "hero": "https://pe.tedcdn.com/images/ted/c8e81b8192cbbf3692415fd4ada61ef060550436_1600x1200.jpg", "title": "The promise of research with stem cells", "id": 1562, "speaker": "Susan Solomon", "duration": 898, "slug": "susan_solomon_the_promise_of_research_with_stem_cells"}, {"viewed_count": 1516697, "hero": "https://pe.tedcdn.com/images/ted/09a24e1875a6b110abf915de98bcfe8e01870d92_1600x1200.jpg", "title": "Body parts on a chip", "id": 1882, "speaker": "Geraldine Hamilton", "duration": 803, "slug": "geraldine_hamilton_body_parts_on_a_chip"}, {"viewed_count": 1188838, "hero": "https://pe.tedcdn.com/images/ted/90e68452d16dbd9cbd1f891ee606a041f5af27c1_2880x1620.jpg", "title": "A provocative way to finance the fight against climate change", "id": 2489, "speaker": "Michael Metcalfe", "duration": 772, "slug": "michael_metcalfe_a_provocative_way_to_finance_the_fight_against_climate_change"}, {"viewed_count": 1609881, "hero": "https://pe.tedcdn.com/images/ted/bf71a1d50bc5f028bb16ff42f5c5c4f70b2091eb_2880x1620.jpg", "title": "Why we need to end the War on Drugs", "id": 2130, "speaker": "Ethan Nadelmann", "duration": 1046, "slug": "ethan_nadelmann_why_we_need_to_end_the_war_on_drugs"}, {"viewed_count": 2219654, "hero": "https://pe.tedcdn.com/images/ted/dafc6377668947205ed22550c7324c72cc2fbefa_2880x1620.jpg", "title": "Battling bad science", "id": 1234, "speaker": "Ben Goldacre", "duration": 859, "slug": "ben_goldacre_battling_bad_science"}, {"viewed_count": 510125, "hero": "https://pe.tedcdn.com/images/ted/250f797f6b7e4432cb076bbcbc0bf7c5f7c22ae6_800x600.jpg", "title": "Open-source cancer research", "id": 1256, "speaker": "Jay Bradner", "duration": 767, "slug": "jay_bradner_open_source_cancer_research"}], "recorded_at": "2013-11-06T00:00:00.000+00:00", "slug": "roger_stein_a_bold_new_way_to_fund_drug_research", "speaker_name": "Roger Stein", "viewed_count": 906576, "event_badge": null, "event_blurb": "This talk was presented at a TED Institute event given in partnership with State Street. TED editors featured it among our selections on the home page. <a href=\\"/about/programs-initiatives/ted-institute\\">Read more about the TED Institute</a>.", "recommendations": null, "corrections": []}], "event": "TED@State Street Boston", "name": "Roger Stein: A bold new way to fund drug research"}'
+p305
+sS'keywords'
+p306
+(lp307
+Vbusiness
+p308
+aVcancer
+p309
+aVfinance
+p310
+aVmedical research
+p311
+aVmedicine
+p312
+aVpharmaceuticals
+p313
+asS'datecrawled'
+p314
+g300
+(S'\x07\xe1\n\x17\x04\x0c\x04\x02:\xfb'
+tRp315
+sS'id'
+p316
+I1901
+ss.

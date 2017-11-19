@@ -1,0 +1,872 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI've been at MIT for 44 years.
+p5
+aVI went to TED I.
+p6
+aVThere's only one other person here, I think, who did that.
+p7
+aVAll the other TEDs \u2014
+p8
+aVand I went to them all, under Ricky's regime \u2014
+p9
+aVI talked about what the Media Lab was doing,
+p10
+aVwhich today has almost 500 people in it.
+p11
+aa(lp12
+VAnd if you read the press,
+p13
+aVlast week it actually said I quit the Media Lab.
+p14
+aVI didn't quit the Media Lab, I stepped down as chairman \u2014
+p15
+aVwhich was a kind of ridiculous title, but someone else has taken it on \u2014
+p16
+aVand one of the things you can do as a professor
+p17
+aVis you stay on as a professor.
+p18
+aVAnd I will now do for the rest of my life the One Laptop Per Child,
+p19
+aVwhich I've sort of been doing for a year and a half, anyway.
+p20
+aVSo I'm going to tell you about this,
+p21
+aVuse my 18 minutes to tell you why we're doing it,
+p22
+aVhow we're doing it and then what we're doing.
+p23
+aVAnd at some point I'll even pass around
+p24
+aVwhat the $100 laptop might be like.
+p25
+aa(lp26
+VI was asked by Chris to talk about some of the big issues,
+p27
+aVand so I figured I'd start with the three that at least drove me to do this.
+p28
+aVAnd the first is pretty obvious.
+p29
+aVIt's amazing when you meet a head of state, and you say,
+p30
+aV"What is your most precious natural resource?"
+p31
+aVThey will not say "children" at first,
+p32
+aVand then when you say, "children," they will pretty quickly agree with you.
+p33
+aVAnd so that isn't very hard.
+p34
+aa(lp35
+V(Laughter)
+p36
+aa(lp37
+VEverybody agrees that whatever the solutions are to the big problems,
+p38
+aVthey include education, sometimes can be just education
+p39
+aVand can never be without some element of education.
+p40
+aVSo that's certainly part of it.
+p41
+aa(lp42
+VAnd the third is a little bit less obvious.
+p43
+aVAnd that is that we all in this room learned how to walk, how to talk,
+p44
+aVnot by being taught how to talk, or taught how to walk,
+p45
+aVbut by interacting with the world,
+p46
+aVby having certain results as a consequence of being able to ask for something,
+p47
+aVor being able to stand up and reach it.
+p48
+aVWhereas at about the age six, we were told to stop learning that way,
+p49
+aVand that all learning from then on would happen through teaching,
+p50
+aVwhether it's people standing up, like I'm doing now,
+p51
+aVor a book, or something.
+p52
+aVBut it was really through teaching.
+p53
+aVAnd one of the things in general that computers have provided to learning
+p54
+aVis that it now includes a kind of learning
+p55
+aVwhich is a little bit more like walking and talking,
+p56
+aVin the sense that a lot of it is driven by the learner himself or herself.
+p57
+aa(lp58
+VSo with those as the principles \u2014
+p59
+aVsome of you may know Seymour Papert.
+p60
+aVThis is back in 1982, when we were working in Senegal.
+p61
+aVBecause some people think that the $100 laptop just happened a year ago,
+p62
+aVor two years ago, or we were struck by lightning \u2014
+p63
+aVthis actually has gone back a long time, and in fact, back to the '60s.
+p64
+aVHere we're in the '80s.
+p65
+aVSteve Jobs had given us some laptops. We were in Senegal.
+p66
+aVIt didn't scale
+p67
+aVbut it at least was bringing computers to developing countries
+p68
+aVand learning pretty quickly that these kids,
+p69
+aVeven though English wasn't their language,
+p70
+aVthe Latin alphabet barely was their language,
+p71
+aVbut they could just swim like fish.
+p72
+aVThey could play these like pianos.
+p73
+aa(lp74
+VA little bit more recently, I got involved personally.
+p75
+aVAnd these are two anecdotes \u2014
+p76
+aVone was in Cambodia,
+p77
+aVin a village that has no electricity, no water, no television, no telephone,
+p78
+aVbut has broadband Internet now.
+p79
+aVAnd these kids, their first English word is "Google"
+p80
+aVand they only know Skype.
+p81
+aVThey've never heard of telephony.
+p82
+aVThey just use Skype.
+p83
+aVAnd they go home at night \u2014
+p84
+aVthey've got a broadband connection in a hut that doesn't have electricity.
+p85
+aVThe parents love it, because when they open up the laptops,
+p86
+aVit's the brightest light source in the house.
+p87
+aVAnd talk about where metaphors and reality mix \u2014
+p88
+aVthis is the actual school.
+p89
+aa(lp90
+VIn parallel with this, Seymour Papert got the governor of Maine
+p91
+aVto legislate one laptop per child in the year 2002.
+p92
+aVNow at the time, I think it's fair to say that 80 percent of the teachers were \u2014
+p93
+aVlet me say, apprehensive.
+p94
+aVReally, they were actually against it.
+p95
+aVAnd they really preferred that the money would be used
+p96
+aVfor higher salaries, more schools, whatever.
+p97
+aa(lp98
+VAnd now, three and a half years later, guess what?
+p99
+aVThey're reporting five things: drop of truancy to almost zero,
+p100
+aVattending parent-teacher meetings \u2014
+p101
+aVwhich nobody did and now almost everybody does \u2014
+p102
+aVdrop in discipline problems, increase in student participation.
+p103
+aVTeachers are now saying it's kind of fun to teach.
+p104
+aVKids are engaged \u2014 they have laptops! \u2014
+p105
+aVand then the fifth, which interests me the most,
+p106
+aVis that the servers have to be turned off at certain times at night
+p107
+aVbecause the teachers are getting too much email
+p108
+aVfrom the kids asking them for help.
+p109
+aVSo when you see that kind of thing \u2014
+p110
+aVthis is not something that you have to test.
+p111
+aVThe days of pilot projects are over, when people say,
+p112
+aV"We'd like to do three or four thousand in our country to see how it works."
+p113
+aVScrew you. Go to the back of the line and someone else will do it,
+p114
+aVand then when you figure out that this works, you can join as well.
+p115
+aVAnd this is what we're doing.
+p116
+aa(lp117
+V(Laughter) (Applause)
+p118
+aa(lp119
+VSo, One Laptop Per Child was formed about a year and a half ago.
+p120
+aVIt's a nonprofit association.
+p121
+aVIt raised about 20 million dollars
+p122
+aVto do the engineering to just get this built,
+p123
+aVand then have it produced afterwards.
+p124
+aVScale is truly important.
+p125
+aVAnd it's not important because you can buy components at a lower price, OK?
+p126
+aVIt's because you can go to a manufacturer \u2014
+p127
+aVand I will leave the name out \u2014
+p128
+aVbut we wanted a small display,
+p129
+aVdoesn't have to have perfect color uniformity.
+p130
+aVIt can even have a pixel or two missing.
+p131
+aVIt doesn't have to be that bright.
+p132
+aVAnd this particular manufacturer said,
+p133
+aV"We're not interested in that. We're interested in the living room.
+p134
+aVWe're interested in perfect color uniformity.
+p135
+aVWe're interested in big displays, bright displays.
+p136
+aVYou're not part of our strategic plan."
+p137
+aVAnd I said, "That's kind of too bad, because we need 100 million units a year."
+p138
+aa(lp139
+V(Laughter)
+p140
+aa(lp141
+VAnd they said, "Oh, well, maybe we could become part of your strategic plan."
+p142
+aVAnd that's why scale counts.
+p143
+aVAnd that's why we will not launch this
+p144
+aVwithout five to 10 million units in the first run.
+p145
+aVAnd the idea is to launch with enough scale
+p146
+aVthat the scale itself helps bring the price down,
+p147
+aVand that's why I said seven to 10 million there.
+p148
+aVAnd we're doing it without a sales-and-marketing team.
+p149
+aVI mean, you're looking at the sales-and-marketing team.
+p150
+aVWe will do it by going to seven large countries
+p151
+aVand getting them to agree and launch it,
+p152
+aVand then the others can follow.
+p153
+aVWe have partners.
+p154
+aVIt's not hard to guess Google would be one.
+p155
+aVThe others are all playing to pending.
+p156
+aVAnd this has been in the press a great deal.
+p157
+aVIt's the so-called Green Machine that we introduced with Kofi Annan
+p158
+aVin November at the World Summit that was held in Tunisia.
+p159
+aa(lp160
+VNow once people start looking at this, they say, "Ah, this is a laptop project."
+p161
+aVWell, no, it's not a laptop project. It's an education project.
+p162
+aVAnd the fun part \u2014 and I'm quite focused on it \u2014
+p163
+aVI tell people I used to be a light bulb, but now I'm a laser \u2014
+p164
+aVI'm just going to get that thing built, and it turns out it's not so hard.
+p165
+aVBecause laptop economics are the following:
+p166
+aVI say 50 percent here \u2014 it's more like 60,
+p167
+aV60 percent of the cost of your laptop
+p168
+aVis sales, marketing, distribution and profit.
+p169
+aVNow we have none of those, OK?
+p170
+aVNone of those figure into our cost,
+p171
+aVbecause first of all, we sell it at cost, and the governments distribute it.
+p172
+aVIt gets distributed to the school system like a textbook.
+p173
+aVSo that piece disappears.
+p174
+aVThen you have display and everything else.
+p175
+aVNow the display on your laptop costs,
+p176
+aVin rough numbers, 10 dollars a diagonal inch.
+p177
+aVThat can drop to eight; it can drop to seven
+p178
+aVbut it's not going to drop to two, or to one and a half,
+p179
+aVunless we do some pretty clever things.
+p180
+aVIt's the rest \u2014 that little brown box \u2014 that is pretty fascinating,
+p181
+aVbecause the rest of your laptop is devoted to itself.
+p182
+aVIt's a little bit like an obese person
+p183
+aVhaving to use most of their energy to move their obesity.
+p184
+aa(lp185
+V(Laughter)
+p186
+aa(lp187
+VAnd we have a situation today which is incredible.
+p188
+aVI've been using laptops since their inception.
+p189
+aVAnd my laptop runs slower, less reliably and less pleasantly
+p190
+aVthan it ever has before.
+p191
+aVAnd this year is worse.
+p192
+aa(lp193
+V(Applause)
+p194
+aa(lp195
+VPeople clap, sometimes you even get standing ovations,
+p196
+aVand I say, "What the hell's wrong with you? Why are we all sitting there?"
+p197
+aVAnd somebody \u2014 to remain nameless \u2014 called our laptop a "gadget" recently.
+p198
+aVAnd I said, "God, our laptop's going to go like a bat out of hell.
+p199
+aVWhen you open it up, it's going to go 'bing.'"
+p200
+aVIt'll be on.
+p201
+aVIt'll be just like it was in 1985,
+p202
+aVwhen you bought an Apple Macintosh 512.
+p203
+aVIt worked really well.
+p204
+aVAnd we've been going steadily downhill.
+p205
+aa(lp206
+VNow, people ask all the time what it is.
+p207
+aVThat's what it is.
+p208
+aVThe two pieces that are probably notable: it'll be a mesh network,
+p209
+aVso when the kids open up their laptops, they all become a network,
+p210
+aVand then just need one or two points of backhaul.
+p211
+aVYou can serve a couple of thousand kids with two megabits.
+p212
+aVSo you really can bring into a village,
+p213
+aVand then the villages can connect themselves,
+p214
+aVand you really can do it quite well.
+p215
+aa(lp216
+VThe dual mode display \u2014
+p217
+aVthe idea is to have a display that both works outdoors \u2014
+p218
+aVisn't it fun using your cell phone outdoors in the sunlight?
+p219
+aVWell, you can't see it.
+p220
+aVAnd one of the reasons you can't see it
+p221
+aVis because it's backlighting most of the time, most cell phones.
+p222
+aVNow, what we're doing is, we're doing one that will be both frontlit and backlit.
+p223
+aVAnd whether you manually switch it or you do it in the software
+p224
+aVis to be seen.
+p225
+aVBut when it's backlit, it's color.
+p226
+aVAnd when it's frontlit, it's black and white
+p227
+aVat three times the resolution.
+p228
+aa(lp229
+VIs it all worked out? No.
+p230
+aVThat's why a lot of our people are more or less living in Taiwan right now.
+p231
+aVAnd in about 30 days, we'll know for sure whether this works.
+p232
+aVProbably the most important piece there
+p233
+aVis that the kids really can do the maintenance.
+p234
+aVAnd this is again something that people don't believe,
+p235
+aVbut I really think it's quite true.
+p236
+aVThat's the machine we showed in Tunis.
+p237
+aVThis is more the direction that we're going to go.
+p238
+aVAnd it's something that we didn't think was possible.
+p239
+aVNow, I'm going to pass this around.
+p240
+aVThis isn't a design, OK?
+p241
+aVSo this is just a mechanical engineering sort of embodiment of it
+p242
+aVfor you to play with.
+p243
+aVAnd it's clearly just a model.
+p244
+aVThe working one is at MIT.
+p245
+aVI'm going to pass it to this handsome gentleman.
+p246
+aVAt least you can decide whether it goes left or \u2014
+p247
+aa(lp248
+VChris Anderson: Before you do it, for the people down in simulcast \u2014
+p249
+aa(lp250
+VNicholas Negroponte: Sorry! I forgot. CA: Just show it off a bit.
+p251
+aa(lp252
+VSo wherever the camera is \u2014 OK, good point. Thank you, Chris.
+p253
+aa(lp254
+VThe idea was that it would be not only a laptop,
+p255
+aVbut that it could transform into an electronic book.
+p256
+aVSo it's sort of an electronic book.
+p257
+aVThis is where when you go outside, it's in black and white.
+p258
+aVThe games buttons are missing,
+p259
+aVbut it'll also be a games machine,
+p260
+aVbook machine.
+p261
+aVSet it up this way, and it's a television set.
+p262
+aVEtc., etc. \u2014 is that enough for simulcast? OK, sorry.
+p263
+aVI'll let Jim decide which way to send it afterwards.
+p264
+aVOK. Seven countries.
+p265
+aa(lp266
+V(Laughter)
+p267
+aa(lp268
+VI say "maybe" for Massachusetts, because they actually have to do a bid.
+p269
+aVBy law you've got to bid, and so on and so forth.
+p270
+aVSo I can't quite name them.
+p271
+aVIn the other cases, they don't have to do bids.
+p272
+aVThey can decide \u2014
+p273
+aVit's the federal government in each case.
+p274
+aVIt's kind of agonizing,
+p275
+aVbecause a lot of people say, "Let's do it at the state level,"
+p276
+aVbecause states are more nimble than the feds, just because of size.
+p277
+aVAnd yet we count.
+p278
+aVWe're really dealing with the federal government.
+p279
+aVWe're really dealing with ministries of education.
+p280
+aVAnd if you look at governments around the world,
+p281
+aVministries of education tend to be the most conservative,
+p282
+aVand also the ones that have huge payrolls.
+p283
+aVEverybody thinks they know about education,
+p284
+aVa lot of culture is built into it as well.
+p285
+aVIt's really hard. And so it's certainly the hard road.
+p286
+aVIf you look at the countries, they're pretty geoculturally distributed.
+p287
+aa(lp288
+VHave they all agreed? No, not completely.
+p289
+aVProbably Thailand, Brazil and Nigeria
+p290
+aVare the three that are the most active and most agreed.
+p291
+aVWe're purposely not signing anything with anybody
+p292
+aVuntil we actually have the working ones.
+p293
+aVAnd since I visit each one of those countries
+p294
+aVwithin at least every three months,
+p295
+aVI'm just going around the world every three weeks.
+p296
+aVHere's sort of the schedule
+p297
+aVand I put at the bottom we might give some away free in two years at this meeting.
+p298
+aVEverybody says it's a $100 laptop \u2014
+p299
+aVyou can't do it.
+p300
+aVWell, guess what, we're not.
+p301
+aVWe're coming in probably at 135, to start, then drift down.
+p302
+aVAnd that's very important,
+p303
+aVbecause so many things hit the market at a price and then drift up.
+p304
+aVIt's kind of the loss leader,
+p305
+aVand then as soon as it looks interesting,
+p306
+aVit can't be afforded, or it can't be scaled out.
+p307
+aVSo we're targeting 50 dollars in 2010.
+p308
+aa(lp309
+VThe gray market's a big issue.
+p310
+aVAnd one of the ways \u2014 just one \u2014
+p311
+aVbut one of the ways to help in the case of the gray market
+p312
+aVis to make something that is so utterly unique \u2014
+p313
+aVIt's a little bit like the fact that automobiles \u2014
+p314
+aVthousands of automobiles are stolen every day in the United States.
+p315
+aVNot one single post-office truck is stolen.
+p316
+aa(lp317
+V(Laughter)
+p318
+aa(lp319
+VAnd why?
+p320
+aVBecause there's no market for post-office trucks.
+p321
+aVIt looks like a post-office truck.
+p322
+aVYou can spray paint it. You can do anything you want.
+p323
+aVI just learned recently: in South Africa, no white Volvos are stolen.
+p324
+aVPeriod. None. Zero.
+p325
+aVSo we want to make it very much like a white Volvo.
+p326
+aa(lp327
+VEach government has a task force.
+p328
+aVThis perhaps is less interesting,
+p329
+aVbut we're trying to get the governments to all work together
+p330
+aVand it's not easy.
+p331
+aVThe economics of this is to start with the federal governments
+p332
+aVand then later, to subsequently go to other \u2014
+p333
+aVwhether it's child-to-child funding,
+p334
+aVso a child in this country buys one for a child in the developing world,
+p335
+aVmaybe of the same gender, maybe of the same age.
+p336
+aVAn uncle gives a niece or a nephew that as a birthday present.
+p337
+aVI mean, there are all sorts of things that will happen,
+p338
+aVand they'll be very, very exciting.
+p339
+aa(lp340
+VAnd everybody says \u2014 I say \u2014 it's an education project.
+p341
+aVAre we providing the software?
+p342
+aVThe answer is:
+p343
+aVThe system certainly has software,
+p344
+aVbut no, we're not providing the education content.
+p345
+aVThat is really done in the countries.
+p346
+aVBut we are certainly constructionists.
+p347
+aVAnd we certainly believe in learning by doing
+p348
+aVand everything from Logo, which was started in 1968,
+p349
+aVto more modern things, like Scratch, if you've ever even heard of it,
+p350
+aVare very, very much part of it.
+p351
+aVAnd that's the rollout.
+p352
+aa(lp353
+VAre we dreaming? Is this real?
+p354
+aVIt actually is real.
+p355
+aVThe only criticism, and people really don't want to criticize this,
+p356
+aVbecause it is a humanitarian effort, a nonprofit effort
+p357
+aVand to criticize it is a little bit stupid, actually.
+p358
+aa(lp359
+V(Laughter)
+p360
+aa(lp361
+VBut the one thing that people could criticize was,
+p362
+aV"Great idea, but these guys can't do it."
+p363
+aVAnd that could either mean these guys, professors and so on couldn't do it,
+p364
+aVor that it's not possible.
+p365
+aVWell, on December 12, a company called Quanta agreed to build it,
+p366
+aVand since they make about one-third of all the laptops on the planet today,
+p367
+aVthat question disappeared.
+p368
+aVSo it's not a matter of whether it's going to happen.
+p369
+aVIt is going to happen.
+p370
+aVAnd if it comes out at 138 dollars, so what?
+p371
+aVIf it comes out six months late, so what?
+p372
+aVThat's a pretty soft landing.
+p373
+aa(lp374
+VThank you.
+p375
+aa(lp376
+V(Applause)
+p377
+aasS'transcript_micsec'
+p378
+(lp379
+I11000
+aI27000
+aI69000
+aI95000
+aI98000
+aI113000
+aI164000
+aI212000
+aI254000
+aI278000
+aI334000
+aI336000
+aI393000
+aI395000
+aI453000
+aI538000
+aI540000
+aI558000
+aI559000
+aI593000
+aI623000
+aI657000
+aI715000
+aI719000
+aI722000
+aI725000
+aI755000
+aI757000
+aI812000
+aI869000
+aI890000
+aI891000
+aI910000
+aI950000
+aI986000
+aI1004000
+aI1005000
+aI1047000
+aI1049000
+asS'talk_meta'
+p380
+(dp381
+S'ratings'
+p382
+(dp383
+S'ingenious'
+p384
+I90
+sS'beautiful'
+p385
+I33
+sS'inspiring'
+p386
+I217
+sS'ok'
+p387
+I30
+sS'fascinating'
+p388
+I67
+sS'funny'
+p389
+I14
+sS'total_count'
+p390
+I784
+sS'persuasive'
+p391
+I49
+sS'longwinded'
+p392
+I20
+sS'informative'
+p393
+I104
+sS'jaw-dropping'
+p394
+I29
+sS'obnoxious'
+p395
+I11
+sS'confusing'
+p396
+I6
+sS'courageous'
+p397
+I83
+sS'unconvincing'
+p398
+I31
+ssS'author'
+p399
+VNicholas_Negroponte;
+p400
+sS'url'
+p401
+S'https://www.ted.com/talks/nicholas_negroponte_on_one_laptop_per_child'
+p402
+sS'vidlen'
+p403
+I1057
+sS'totalviews'
+p404
+I363152
+sS'title'
+p405
+VOne Laptop per Child
+p406
+sS'downloadlink'
+p407
+Vhttps://download.ted.com/talks/NicholasNegroponte_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p408
+sS'datepublished'
+p409
+cdatetime
+datetime
+p410
+(S'\x07\xd6\x07\x1f\x14\x0b\x00\x00\x00\x00'
+tRp411
+sS'datefilmed'
+p412
+g410
+(S'\x07\xd6\x07\x1f\x14\x0b\x00\x00\x00\x00'
+tRp413
+sS'alldata_JSON'
+p414
+S'{"viewed_count": 363152, "speakers": [{"description": "Tech visionary", "firstname": "Nicholas", "title": "", "lastname": "Negroponte", "middleinitial": "", "whylisten": "<p>A pioneer in the field of computer-aided design, Negroponte founded (and was the first director of) <a href=\\"http://www.media.mit.edu/\\" target=\\"_blank\\">MIT&#39;s Media Lab</a>, which helped drive the multimedia revolution and now houses more than 500 researchers and staff across a broad range of disciplines. An original investor in&nbsp;<a href=\\"http://www.wired.com\\" target=\\"_blank\\"><em>Wired</em></a> (and the magazine&#39;s &quot;patron saint&quot;), for five years he penned a column exploring the frontiers of technology -- ideas that he expanded into his 1995 best-selling book <em><a href=\\"http://geni.us/beingdigital\\" target=\\"_blank\\">Being Digital</a>.</em> An angel investor extraordinaire, he&#39;s funded more than 40 startups, and served on the boards of companies such as Motorola and Ambient Devices. </p><p>But his latest effort, the <a href=\\"http://www.laptop.org/\\" target=\\"_blank\\">One Laptop per Child</a>  project, may prove his most ambitious. The organization is designing, manufacturing and distributing low-cost, wireless Internet-enabled computers costing roughly $100 and aimed at children. Negroponte hopes to put millions of these devices in the hands of children in the developing world.</p>", "slug": "nicholas_negroponte", "whotheyare": "The founder of the MIT Media Lab, Nicholas Negroponte pushed the edge of the information revolution as an inventor, thinker and angel investor. He\'s the driving force behind One Laptop per Child, building computers for children in the developing world.  ", "whatotherssay": "If Nicholas Negroponte can achieve his ambition of distributing $100 laptops to the world\'s disadvantaged children, he will help redefine philanthropy and see his name added to a list alongside the likes of Carnegie, Ford and Rockefeller.", "id": 38, "photo_url": "https://pe.tedcdn.com/images/ted/7230935c0d873ed58b2786e1f3b5c93dc09e10cc_254x191.jpg"}], "current_talk": 41, "description": "Nicholas Negroponte, founder of the MIT Media Laboratory, describes how the One Laptop Per Child project will build and distribute the \\"$100 laptop.\\"", "language": "en", "url": "https://www.ted.com/talks/nicholas_negroponte_on_one_laptop_per_child", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 123410037}, "podcast-low-en": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24292827}, "podcast-high": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 123397242}, "180k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24219322}, "64k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8709411}, "1500k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 192123053}, "450k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60051926}, "podcast-regular": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60109284}, "950k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 123290552}, "audio-podcast": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6998390}, "podcast-light": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8805909}, "320k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42828557}, "600k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79786084}}}, "comments": {"count": 99, "id": 40, "talk_id": 41}, "slug": "nicholas_negroponte_on_one_laptop_per_child", "threadId": 40, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "nicholas_negroponte_on_one_laptop_per_child", "filmed": 1140652800, "targeting": {"event": "TED2006", "tag": "children,design,education,entrepreneur,global issues,philanthropy,social change,technology", "id": 41, "talk": "nicholas_negroponte_on_one_laptop_per_child", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "One Laptop per Child", "postAdDuration": "0.83", "published": 1154391060, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/225_480x360.jpg?quality=89&w=600", "name": "Nicholas Negroponte: One Laptop per Child", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["children", "design", "education", "entrepreneur", "global issues", "philanthropy", "social change", "technology"], "speaker": "Nicholas Negroponte", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1057, "id": 41, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/NicholasNegroponte_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "children,design,education,entrepreneur,global issues,philanthropy,social change,technology", "id": 41, "talk": "nicholas_negroponte_on_one_laptop_per_child", "year": "2006"}, "metadata": "https://hls.ted.com/talks/41.json", "stream": "https://hls.ted.com/talks/41.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D41%26tag%3Dchildren%2Cdesign%2Ceducation%2Centrepreneur%2Cglobal%2Bissues%2Cphilanthropy%2Csocial%2Bchange%2Ctechnology%26talk%3Dnicholas_negroponte_on_one_laptop_per_child%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/nicholas_negroponte_on_one_laptop_per_child"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/225_480x360.jpg?q=50&w=15", "duration": 1057, "id": 41, "ratings": [{"count": 83, "id": 3, "name": "Courageous"}, {"count": 90, "id": 9, "name": "Ingenious"}, {"count": 20, "id": 11, "name": "Longwinded"}, {"count": 33, "id": 1, "name": "Beautiful"}, {"count": 104, "id": 8, "name": "Informative"}, {"count": 217, "id": 10, "name": "Inspiring"}, {"count": 67, "id": 22, "name": "Fascinating"}, {"count": 14, "id": 7, "name": "Funny"}, {"count": 31, "id": 21, "name": "Unconvincing"}, {"count": 6, "id": 2, "name": "Confusing"}, {"count": 30, "id": 25, "name": "OK"}, {"count": 49, "id": 24, "name": "Persuasive"}, {"count": 29, "id": 23, "name": "Jaw-dropping"}, {"count": 11, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Tech visionary", "firstname": "Nicholas", "title": "", "lastname": "Negroponte", "middleinitial": "", "whylisten": "<p>A pioneer in the field of computer-aided design, Negroponte founded (and was the first director of) <a href=\\"http://www.media.mit.edu/\\" target=\\"_blank\\">MIT&#39;s Media Lab</a>, which helped drive the multimedia revolution and now houses more than 500 researchers and staff across a broad range of disciplines. An original investor in&nbsp;<a href=\\"http://www.wired.com\\" target=\\"_blank\\"><em>Wired</em></a> (and the magazine&#39;s &quot;patron saint&quot;), for five years he penned a column exploring the frontiers of technology -- ideas that he expanded into his 1995 best-selling book <em><a href=\\"http://geni.us/beingdigital\\" target=\\"_blank\\">Being Digital</a>.</em> An angel investor extraordinaire, he&#39;s funded more than 40 startups, and served on the boards of companies such as Motorola and Ambient Devices. </p><p>But his latest effort, the <a href=\\"http://www.laptop.org/\\" target=\\"_blank\\">One Laptop per Child</a>  project, may prove his most ambitious. The organization is designing, manufacturing and distributing low-cost, wireless Internet-enabled computers costing roughly $100 and aimed at children. Negroponte hopes to put millions of these devices in the hands of children in the developing world.</p>", "slug": "nicholas_negroponte", "whotheyare": "The founder of the MIT Media Lab, Nicholas Negroponte pushed the edge of the information revolution as an inventor, thinker and angel investor. He\'s the driving force behind One Laptop per Child, building computers for children in the developing world.  ", "whatotherssay": "If Nicholas Negroponte can achieve his ambition of distributing $100 laptops to the world\'s disadvantaged children, he will help redefine philanthropy and see his name added to a list alongside the likes of Carnegie, Ford and Rockefeller.", "id": 38, "photo_url": "https://pe.tedcdn.com/images/ted/7230935c0d873ed58b2786e1f3b5c93dc09e10cc_254x191.jpg"}], "title": "One Laptop per Child", "take_action": null, "comments": 40, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/225_480x360.jpg", "description": "Nicholas Negroponte, founder of the MIT Media Laboratory, describes how the One Laptop Per Child project will build and distribute the \\"$100 laptop.\\"", "tags": ["children", "design", "education", "entrepreneur", "global issues", "philanthropy", "social change", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-de.mp4"}, "ja": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-ko.mp4"}, "my": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/NicholasNegroponte_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/NicholasNegroponte_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/NicholasNegroponte_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 41, "audioDownload": "https://download.ted.com/talks/NicholasNegroponte_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1886822, "hero": "https://pe.tedcdn.com/images/ted/916b709d600db97cc67aa7e984c88b011dcb561f_2400x1800.jpg", "title": "A 30-year history of the future", "id": 2043, "speaker": "Nicholas Negroponte", "duration": 1183, "slug": "nicholas_negroponte_a_30_year_history_of_the_future"}, {"viewed_count": 315741, "hero": "https://pe.tedcdn.com/images/ted/40260_480x360.jpg", "title": "The thinking behind 50x15", "id": 255, "speaker": "Hector Ruiz", "duration": 1197, "slug": "hector_ruiz_on_connecting_the_world"}, {"viewed_count": 2917223, "hero": "https://pe.tedcdn.com/images/ted/6c16e9be449a6f2ff8940eb95257ad31ae7e0b4a_1600x1200.jpg", "title": "Build a School in the Cloud", "id": 1678, "speaker": "Sugata Mitra", "duration": 1351, "slug": "sugata_mitra_build_a_school_in_the_cloud"}, {"viewed_count": 400649, "hero": "https://pe.tedcdn.com/images/ted/46407_480x360.jpg", "title": "One Laptop per Child, two years on", "id": 288, "speaker": "Nicholas Negroponte", "duration": 1000, "slug": "nicholas_negroponte_on_one_laptop_per_child_two_years_on"}, {"viewed_count": 364406, "hero": "https://pe.tedcdn.com/images/ted/63395_800x600.jpg", "title": "Taking OLPC to Colombia", "id": 423, "speaker": "Nicholas Negroponte", "duration": 408, "slug": "nicholas_negroponte_takes_olpc_to_colombia"}, {"viewed_count": 977616, "hero": "https://pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg", "title": "5 predictions, from 1984", "id": 230, "speaker": "Nicholas Negroponte", "duration": 1523, "slug": "nicholas_negroponte_in_1984_makes_5_predictions"}], "recorded_at": "2006-02-23T00:00:00.000+00:00", "slug": "nicholas_negroponte_on_one_laptop_per_child", "speaker_name": "Nicholas Negroponte", "viewed_count": 363152, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Nicholas Negroponte: One Laptop per Child"}'
+p415
+sS'keywords'
+p416
+(lp417
+Vchildren
+p418
+aVdesign
+p419
+aVeducation
+p420
+aVentrepreneur
+p421
+aVglobal issues
+p422
+aVphilanthropy
+p423
+aVsocial change
+p424
+aVtechnology
+p425
+asS'datecrawled'
+p426
+g410
+(S'\x07\xe1\n\x17\x00,\x1a\x03\xfd\x85'
+tRp427
+sS'id'
+p428
+I41
+ss.

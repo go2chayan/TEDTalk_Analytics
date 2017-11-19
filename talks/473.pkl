@@ -1,0 +1,500 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VFour years ago, on the TED stage,
+p5
+aVI announced a company I was working with at the time
+p6
+aVcalled Odeo.
+p7
+aVAnd because of that announcement,
+p8
+aVwe got a big article in The New York Times,
+p9
+aVwhich led to more press, which led to more attention,
+p10
+aVand me deciding to become CEO of that company \u2014
+p11
+aVwhereas I was just an adviser \u2014
+p12
+aVand raising a round of venture capital
+p13
+aVand ramping up hiring.
+p14
+aa(lp15
+VOne of the guys I hired was an engineer named Jack Dorsey,
+p16
+aVand a year later, when we were trying to decide which way to go with Odeo,
+p17
+aVJack presented an idea he'd been tinkering around with for a number of years
+p18
+aVthat was based around sending simple status updates to friends.
+p19
+aVWe were also playing with SMS at the time at Odeo,
+p20
+aVso we kind of put two and two together,
+p21
+aVand in early 2006 we launched Twitter as a side project at Odeo.
+p22
+aa(lp23
+VNow, it's hard to justify doing a side project
+p24
+aVat a startup, where focus is so critical,
+p25
+aVbut I had actually launched Blogger as a side project
+p26
+aVto my previous company,
+p27
+aVthinking it was just a little thing we'd do on the side,
+p28
+aVand it ended up taking over not only the company,
+p29
+aVbut my life for the next five or six years.
+p30
+aVSo I learned to follow hunches
+p31
+aVeven though you can't necessarily justify them
+p32
+aVor know where they're going to go.
+p33
+aVAnd that's kind of what's happened with Twitter, time after time.
+p34
+aa(lp35
+VSo, for those of you unfamiliar,
+p36
+aVTwitter is based around a very simple, seemingly trivial concept.
+p37
+aVYou say what you're doing in 140 characters or less,
+p38
+aVand people who are interested in you get those updates.
+p39
+aVIf they're really interested,
+p40
+aVthey get the update as a text message on their cell phone.
+p41
+aVSo, for instance, I may Twitter right now
+p42
+aVthat I'm giving a talk at TED.
+p43
+aVAnd in my case, when I hit send,
+p44
+aVup to 60,000 people will receive that message in a matter of seconds.
+p45
+aVNow, the fundamental idea is that Twitter
+p46
+aVlets people share moments of their lives
+p47
+aVwhenever they want,
+p48
+aVbe they momentous occasions
+p49
+aVor mundane ones.
+p50
+aVIt is by sharing these moments as they're happening
+p51
+aVthat lets people feel more connected and in touch,
+p52
+aVdespite distance, and in real time.
+p53
+aVThis is the primary use we saw of Twitter from the beginning,
+p54
+aVand what got us excited.
+p55
+aa(lp56
+VWhat we didn't anticipate was the many, many other uses
+p57
+aVthat would evolve from this very simple system.
+p58
+aVOne of the things we realized
+p59
+aVwas how important Twitter could be during real-time events.
+p60
+aVWhen the wildfires broke out in San Diego,
+p61
+aVin October of 2007,
+p62
+aVpeople turned to Twitter to report what was happening
+p63
+aVand to find information from neighbors
+p64
+aVabout what was happening around them.
+p65
+aa(lp66
+VBut it wasn't just individuals.
+p67
+aVThe L.A. Times actually turned to Twitter to dispense information as well,
+p68
+aVand put a Twitter feed on the front page,
+p69
+aVand the L.A. Fire Department and Red Cross
+p70
+aVused it to dispense news and updates as well.
+p71
+aVAt this event, dozens of people here are Twittering
+p72
+aVand thousands of people around the world are following along
+p73
+aVbecause they want to know what it feels like to be here
+p74
+aVand what's happening.
+p75
+aa(lp76
+VAmong the other interesting things that have cropped up
+p77
+aa(lp78
+Vare many things from businesses,
+p79
+aa(lp80
+Vfrom marketing and communications and predictable things,
+p81
+aVto an insanely popular Korean-barbecue taco truck
+p82
+aVthat drives around L.A. and Twitters where it stops,
+p83
+aVcausing a line to form around the block.
+p84
+aa(lp85
+VPoliticians have recently begun Twittering.
+p86
+aVIn fact, there are 47 members of Congress
+p87
+aVwho currently have Twitter accounts.
+p88
+aVAnd they're tweeting, in some cases,
+p89
+aVfrom behind closed-door sessions with the President.
+p90
+aVIn this case, this guy's not liking what he's hearing.
+p91
+aVThe President himself is our most popular Twitter user,
+p92
+aValthough his tweets have dropped off as of late,
+p93
+aVwhile Senator McCain's have picked up.
+p94
+aVAs have this guy's.
+p95
+aa(lp96
+VTwitter was originally designed as a broadcast medium:
+p97
+aVyou send one message and it goes out to everybody,
+p98
+aVand you receive the messages you're interested in.
+p99
+aVOne of the many ways that users shaped the evolution of Twitter
+p100
+aVwas by inventing a way to reply to a specific person
+p101
+aVor a specific message.
+p102
+aVSo, this syntax, the "@username" that Shaquille O'Neal's using here
+p103
+aVto reply to one of his fans,
+p104
+aVwas completely invented by users,
+p105
+aVand we didn't build it into the system until it already became popular
+p106
+aVand then we made it easier.
+p107
+aVThis is one of the many ways that users have shaped the system.
+p108
+aa(lp109
+VAnother is via the API.
+p110
+aVWe built an application-programming interface,
+p111
+aVwhich basically means that programmers can write software that interacts with Twitter.
+p112
+aVWe currently know about over 2,000 pieces of software
+p113
+aVthat can send Twitter updates \u2014
+p114
+aVinterfaces for Mac, Windows, your iPhone, your BlackBerry \u2014
+p115
+aVas well as things like
+p116
+aVa device that lets an unborn baby Twitter when it kicks
+p117
+aVor a plant Twitter when it needs water.
+p118
+aa(lp119
+VProbably the most important third-party development
+p120
+aVcame from a little company in Virginia called Summize.
+p121
+aVSummize built a Twitter search engine.
+p122
+aVAnd they tapped into the fact
+p123
+aVthat, if you have millions of people around the world
+p124
+aVtalking about what they're doing and what's around them,
+p125
+aVyou have an incredible resource to find out about any topic or event
+p126
+aVwhile it's going on.
+p127
+aVThis really changed how we perceived Twitter.
+p128
+aVFor instance, here's what people are saying about TED.
+p129
+aVThis is another way that our mind was shifted,
+p130
+aVand Twitter wasn't what we thought it was.
+p131
+aVWe liked this so much we actually bought the company
+p132
+aVand are folding it into the main product.
+p133
+aVThis not only lets you view Twitters in different ways,
+p134
+aVbut it introduces new use cases as well.
+p135
+aVOne of my favorites is what happened a few months ago
+p136
+aVwhen there was a gas shortage in Atlanta.
+p137
+aVSome users figured out
+p138
+aVthat they would Twitter when they found gas \u2014
+p139
+aVwhere it was, and how much it cost \u2014
+p140
+aVand then appended the keyword "#atlgas"
+p141
+aVwhich let other people search for that and find gas themselves.
+p142
+aa(lp143
+VAnd this trend of people using this communication network
+p144
+aVto help each other out
+p145
+aVgoes far beyond the original idea of just keeping up with family and friends.
+p146
+aVIt's happened more and more lately,
+p147
+aVwhether it's raising money for homeless people
+p148
+aVor to dig wells in Africa
+p149
+aVor for a family in crisis.
+p150
+aVPeople have raised tens of thousands of dollars over Twitter
+p151
+aVin a matter of days on several occasions.
+p152
+aVIt seems like when you give people easier ways to share information,
+p153
+aVmore good things happen.
+p154
+aa(lp155
+VI have no idea what will happen next with Twitter.
+p156
+aVI've learned to follow the hunch,
+p157
+aVbut never assume where it will go.
+p158
+aVThanks.
+p159
+aa(lp160
+V(Applause)
+p161
+aa(lp162
+VChris Anderson: We're not quite done yet.
+p163
+aVSo, look, if we could have this screen live.
+p164
+aVThis is actually the most terrifying thing that any speaker can do
+p165
+aVafter they've been to an event.
+p166
+aVIt's totally intimidating.
+p167
+aa(lp168
+VSo, this would be the Twitter search screen.
+p169
+aVSo we're going to just type a couple of random words into Twitter.
+p170
+aVFor example: "Evan Williams."
+p171
+aV"Evan Williams, give people more good ways to share information and follow your hunch at TED."
+p172
+aV"Currently listening to Evan Williams." "Currently listening to Evan Williams." "Evan Williams \u2014"
+p173
+aVOh.
+p174
+aV"Evan Williams is just dying on stage here at TED.
+p175
+aVWorst talk ever!" (Laughter)
+p176
+aa(lp177
+VEvan Williams: Nice. Thanks.
+p178
+aa(lp179
+VCA: Just kidding.
+p180
+aa(lp181
+VBut, literally in the eight minutes he was talking,
+p182
+aVthere are about fifty tweets that already came on the talk.
+p183
+aVSo he'll see every aspect of the reaction:
+p184
+aVthe fact that Barack Obama is the biggest Twitterer,
+p185
+aVthe fact that it came out of TED.
+p186
+aVI don't think there's any other way of getting instant feedback that way.
+p187
+aa(lp188
+VYou have build something very fascinating,
+p189
+aVand it looks like its best times are still ahead of it.
+p190
+aVSo, thank you very much, Evan. EW: Thank you.
+p191
+aVCA: That was very interesting.
+p192
+aasS'transcript_micsec'
+p193
+(lp194
+I15000
+aI38000
+aI63000
+aI88000
+aI143000
+aI166000
+aI187000
+aI190000
+aI192000
+aI205000
+aI235000
+aI268000
+aI292000
+aI354000
+aI386000
+aI398000
+aI404000
+aI415000
+aI440000
+aI442000
+aI444000
+aI459000
+asS'talk_meta'
+p195
+(dp196
+S'ratings'
+p197
+(dp198
+S'ingenious'
+p199
+I73
+sS'funny'
+p200
+I25
+sS'inspiring'
+p201
+I118
+sS'ok'
+p202
+I197
+sS'fascinating'
+p203
+I147
+sS'total_count'
+p204
+I1002
+sS'persuasive'
+p205
+I36
+sS'longwinded'
+p206
+I27
+sS'informative'
+p207
+I262
+sS'beautiful'
+p208
+I16
+sS'jaw-dropping'
+p209
+I15
+sS'obnoxious'
+p210
+I17
+sS'confusing'
+p211
+I6
+sS'courageous'
+p212
+I7
+sS'unconvincing'
+p213
+I56
+ssS'author'
+p214
+VEvan_Williams;
+p215
+sS'url'
+p216
+S'https://www.ted.com/talks/evan_williams_on_listening_to_twitter_users'
+p217
+sS'vidlen'
+p218
+I480
+sS'totalviews'
+p219
+I1138848
+sS'title'
+p220
+VThe voices of Twitter users
+p221
+sS'downloadlink'
+p222
+Vhttps://download.ted.com/talks/EvanWilliams_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p223
+sS'datepublished'
+p224
+cdatetime
+datetime
+p225
+(S'\x07\xd9\x02\x1a\x14\x00\x00\x00\x00\x00'
+tRp226
+sS'datefilmed'
+p227
+g225
+(S'\x07\xd9\x02\x1a\x14\x00\x00\x00\x00\x00'
+tRp228
+sS'alldata_JSON'
+p229
+S'{"viewed_count": 1138848, "speakers": [{"description": "Twitter co-founder", "firstname": "Evan", "title": "", "lastname": "Williams", "middleinitial": "", "whylisten": "<p>Evan Williams helps the world answer the question <strong>&quot;What are you doing?&quot;</strong> <a href=\\"http://twitter.com/home\\" target=\\"_blank\\">Twitter</a>, the tiny, free world-changing app Williams helped launch, has become a vital connector of people and communities (as well as a fantastic way to keep up with <a href=\\"http://twitter.com/THE_REAL_SHAQ\\" target=\\"_blank\\">Shaq</a> and <a href=\\"http://twitter.com/mrskutcher\\" target=\\"_blank\\">Demi Moore</a>).</p><p>Before Williams worked on Twitter, <strong>he was part of a previous revolution in mass communication, <a href=\\"https://www.blogger.com/start\\" target=\\"_blank\\">Blogger</a>,</strong> while working at Google. He left Google in 2004 to launch the podcasting service <a href=\\"http://odeo.com/\\" target=\\"_blank\\">Odeo</a>, and Twitter spun out from this in 2006 as a side project based on <a href=\\"http://flickr.com/photos/jackdorsey/182613360/\\" target=\\"_blank\\">an idea of Jack Dorsey&#39;s</a>. </p>", "slug": "evan_williams", "whotheyare": "Evan Williams is the co-founder of Twitter, the addictive messaging service that connects the world 140 characters at a time.", "whatotherssay": "Williams has a knack for figuring out how people want to keep in touch\\u2014even before they seem to know it themselves.", "id": 412, "photo_url": "https://pe.tedcdn.com/images/ted/74571_254x191.jpg"}], "current_talk": 473, "description": "In the year leading up to this talk, the web tool Twitter exploded in size (up 10x during 2008 alone). Co-founder Evan Williams reveals that many of the ideas driving that growth came from unexpected uses invented by the users themselves.", "language": "en", "url": "https://www.ted.com/talks/evan_williams_on_listening_to_twitter_users", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54953320}, "podcast-low-en": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10944052}, "podcast-high": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54953904}, "180k": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10692681}, "64k": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3891191}, "1500k": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85278657}, "450k": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26809980}, "podcast-regular": {"uri": "https://download.ted.com/talks/EvanWilliams_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26925221}, "950k": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54944093}, "podcast-light": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4024793}, "320k": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18961656}, "600k": {"uri": "https://download.ted.com/talks/EvanWilliams_2009-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35977612}}}, "comments": {"count": 127, "id": 397, "talk_id": 473}, "slug": "evan_williams_on_listening_to_twitter_users", "threadId": 397, "talks": [{"event": "TED2009", "player_talks": [{"event": "TED2009", "slug": "evan_williams_on_listening_to_twitter_users", "filmed": 1233792000, "targeting": {"event": "TED2009", "tag": "business,communication,culture,entertainment,social change,social media,technology", "id": 473, "talk": "evan_williams_on_listening_to_twitter_users", "year": "2009"}, "adDuration": "4.00", "external": null, "title": "The voices of Twitter users", "postAdDuration": "0.83", "published": 1235696400, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/74570_800x600.jpg?quality=89&w=600", "name": "Evan Williams: The voices of Twitter users", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "uz", "endonym": "O\'zbek", "isRtl": false, "ianaCode": "uz", "languageName": "Uzbek"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "communication", "culture", "entertainment", "social change", "social media", "technology"], "speaker": "Evan Williams", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 480, "id": 473, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/EvanWilliams_2009-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2009", "tag": "business,communication,culture,entertainment,social change,social media,technology", "id": 473, "talk": "evan_williams_on_listening_to_twitter_users", "year": "2009"}, "metadata": "https://hls.ted.com/talks/473.json", "stream": "https://hls.ted.com/talks/473.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2009%26id%3D473%26tag%3Dbusiness%2Ccommunication%2Cculture%2Centertainment%2Csocial%2Bchange%2Csocial%2Bmedia%2Ctechnology%26talk%3Devan_williams_on_listening_to_twitter_users%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/evan_williams_on_listening_to_twitter_users"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/74570_800x600.jpg?q=50&w=15", "duration": 480, "id": 473, "ratings": [{"count": 197, "id": 25, "name": "OK"}, {"count": 118, "id": 10, "name": "Inspiring"}, {"count": 147, "id": 22, "name": "Fascinating"}, {"count": 73, "id": 9, "name": "Ingenious"}, {"count": 262, "id": 8, "name": "Informative"}, {"count": 15, "id": 23, "name": "Jaw-dropping"}, {"count": 36, "id": 24, "name": "Persuasive"}, {"count": 25, "id": 7, "name": "Funny"}, {"count": 17, "id": 26, "name": "Obnoxious"}, {"count": 27, "id": 11, "name": "Longwinded"}, {"count": 56, "id": 21, "name": "Unconvincing"}, {"count": 7, "id": 3, "name": "Courageous"}, {"count": 6, "id": 2, "name": "Confusing"}, {"count": 16, "id": 1, "name": "Beautiful"}], "speakers": [{"description": "Twitter co-founder", "firstname": "Evan", "title": "", "lastname": "Williams", "middleinitial": "", "whylisten": "<p>Evan Williams helps the world answer the question <strong>&quot;What are you doing?&quot;</strong> <a href=\\"http://twitter.com/home\\" target=\\"_blank\\">Twitter</a>, the tiny, free world-changing app Williams helped launch, has become a vital connector of people and communities (as well as a fantastic way to keep up with <a href=\\"http://twitter.com/THE_REAL_SHAQ\\" target=\\"_blank\\">Shaq</a> and <a href=\\"http://twitter.com/mrskutcher\\" target=\\"_blank\\">Demi Moore</a>).</p><p>Before Williams worked on Twitter, <strong>he was part of a previous revolution in mass communication, <a href=\\"https://www.blogger.com/start\\" target=\\"_blank\\">Blogger</a>,</strong> while working at Google. He left Google in 2004 to launch the podcasting service <a href=\\"http://odeo.com/\\" target=\\"_blank\\">Odeo</a>, and Twitter spun out from this in 2006 as a side project based on <a href=\\"http://flickr.com/photos/jackdorsey/182613360/\\" target=\\"_blank\\">an idea of Jack Dorsey&#39;s</a>. </p>", "slug": "evan_williams", "whotheyare": "Evan Williams is the co-founder of Twitter, the addictive messaging service that connects the world 140 characters at a time.", "whatotherssay": "Williams has a knack for figuring out how people want to keep in touch\\u2014even before they seem to know it themselves.", "id": 412, "photo_url": "https://pe.tedcdn.com/images/ted/74571_254x191.jpg"}], "title": "The voices of Twitter users", "take_action": null, "comments": 397, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/74570_800x600.jpg", "description": "In the year leading up to this talk, the web tool Twitter exploded in size (up 10x during 2008 alone). Co-founder Evan Williams reveals that many of the ideas driving that growth came from unexpected uses invented by the users themselves.", "tags": ["business", "communication", "culture", "entertainment", "social change", "social media", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "uz", "endonym": "O\'zbek", "isRtl": false, "ianaCode": "uz", "languageName": "Uzbek"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-fa.mp4"}, "fi": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-fi.mp4"}, "ja": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-he.mp4"}, "uz": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-uz.mp4", "name": "Uzbek", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-uz.mp4"}, "sr": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/EvanWilliams_2009-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/EvanWilliams_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/EvanWilliams_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/EvanWilliams_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 473, "audioDownload": null}, "related_talks": [{"viewed_count": 1420572, "hero": "https://pe.tedcdn.com/images/ted/137_480x360.jpg", "title": "The era of open innovation", "id": 63, "speaker": "Charles Leadbeater", "duration": 1141, "slug": "charles_leadbeater_on_innovation"}, {"viewed_count": 940309, "hero": "https://pe.tedcdn.com/images/ted/65912_800x600.jpg", "title": "What consumers want", "id": 434, "speaker": "Joseph Pine", "duration": 859, "slug": "joseph_pine_on_what_consumers_want"}, {"viewed_count": 5602185, "hero": "https://pe.tedcdn.com/images/ted/eec7c4c3214fc9032dc22bfb79c29150bba07c6b_2880x1620.jpg", "title": "How to get your ideas to spread", "id": 28, "speaker": "Seth Godin", "duration": 1021, "slug": "seth_godin_on_sliced_bread"}, {"viewed_count": 890789, "hero": "https://pe.tedcdn.com/images/ted/630d123572ec57fd0a35a1b15016cf4a3d1ec40f_1600x1200.jpg", "title": "Protecting Twitter users (sometimes from themselves)", "id": 1958, "speaker": "Del Harvey", "duration": 559, "slug": "del_harvey_the_strangeness_of_scale_at_twitter"}, {"viewed_count": 1002753, "hero": "https://pe.tedcdn.com/images/ted/4c381516b075b83691b595f5ad7510e3deb9f319_1600x1200.jpg", "title": "Adventures in Twitter fiction", "id": 1841, "speaker": "Andrew Fitzgerald", "duration": 715, "slug": "andrew_fitzgerald_adventures_in_twitter_fiction"}, {"viewed_count": 2672468, "hero": "https://pe.tedcdn.com/images/ted/bd82943883da85a6df233090923b3699ee9f6f14_2880x1620.jpg", "title": "When online shaming goes too far", "id": 2302, "speaker": "Jon Ronson", "duration": 1031, "slug": "jon_ronson_what_happens_when_online_shaming_spirals_out_of_control"}], "recorded_at": "2009-02-05T00:00:00.000+00:00", "slug": "evan_williams_on_listening_to_twitter_users", "speaker_name": "Evan Williams", "viewed_count": 1138848, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2009", "name": "Evan Williams: The voices of Twitter users"}'
+p230
+sS'keywords'
+p231
+(lp232
+Vbusiness
+p233
+aVcommunication
+p234
+aVculture
+p235
+aVentertainment
+p236
+aVsocial change
+p237
+aVsocial media
+p238
+aVtechnology
+p239
+asS'datecrawled'
+p240
+g225
+(S'\x07\xe1\n\x17\x03"\t\x01\xd21'
+tRp241
+sS'id'
+p242
+I473
+ss.

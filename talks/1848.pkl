@@ -1,0 +1,848 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI would like to tell you a story
+p5
+aVconnecting the notorious privacy incident
+p6
+aVinvolving Adam and Eve,
+p7
+aVand the remarkable shift in the boundaries
+p8
+aVbetween public and private which has occurred
+p9
+aVin the past 10 years.
+p10
+aa(lp11
+VYou know the incident.
+p12
+aVAdam and Eve one day in the Garden of Eden
+p13
+aVrealize they are naked.
+p14
+aVThey freak out.
+p15
+aVAnd the rest is history.
+p16
+aa(lp17
+VNowadays, Adam and Eve
+p18
+aVwould probably act differently.
+p19
+aa(lp20
+V[@Adam Last nite was a blast! loved dat apple LOL]
+p21
+aa(lp22
+V[@Eve yep.. babe, know what happened to my pants tho?]
+p23
+aa(lp24
+VWe do reveal so much more information
+p25
+aVabout ourselves online than ever before,
+p26
+aVand so much information about us
+p27
+aVis being collected by organizations.
+p28
+aVNow there is much to gain and benefit
+p29
+aVfrom this massive analysis of personal information,
+p30
+aVor big data,
+p31
+aVbut there are also complex tradeoffs that come
+p32
+aVfrom giving away our privacy.
+p33
+aVAnd my story is about these tradeoffs.
+p34
+aa(lp35
+VWe start with an observation which, in my mind,
+p36
+aVhas become clearer and clearer in the past few years,
+p37
+aVthat any personal information
+p38
+aVcan become sensitive information.
+p39
+aVBack in the year 2000, about 100 billion photos
+p40
+aVwere shot worldwide,
+p41
+aVbut only a minuscule proportion of them
+p42
+aVwere actually uploaded online.
+p43
+aVIn 2010, only on Facebook, in a single month,
+p44
+aV2.5 billion photos were uploaded,
+p45
+aVmost of them identified.
+p46
+aVIn the same span of time,
+p47
+aVcomputers' ability to recognize people in photos
+p48
+aVimproved by three orders of magnitude.
+p49
+aVWhat happens when you combine
+p50
+aVthese technologies together:
+p51
+aVincreasing availability of facial data;
+p52
+aVimproving facial recognizing ability by computers;
+p53
+aVbut also cloud computing,
+p54
+aVwhich gives anyone in this theater
+p55
+aVthe kind of computational power
+p56
+aVwhich a few years ago was only the domain
+p57
+aVof three-letter agencies;
+p58
+aVand ubiquitous computing,
+p59
+aVwhich allows my phone, which is not a supercomputer,
+p60
+aVto connect to the Internet
+p61
+aVand do there hundreds of thousands
+p62
+aVof face metrics in a few seconds?
+p63
+aVWell, we conjecture that the result
+p64
+aVof this combination of technologies
+p65
+aVwill be a radical change in our very notions
+p66
+aVof privacy and anonymity.
+p67
+aa(lp68
+VTo test that, we did an experiment
+p69
+aVon Carnegie Mellon University campus.
+p70
+aVWe asked students who were walking by
+p71
+aVto participate in a study,
+p72
+aVand we took a shot with a webcam,
+p73
+aVand we asked them to fill out a survey on a laptop.
+p74
+aVWhile they were filling out the survey,
+p75
+aVwe uploaded their shot to a cloud-computing cluster,
+p76
+aVand we started using a facial recognizer
+p77
+aVto match that shot to a database
+p78
+aVof some hundreds of thousands of images
+p79
+aVwhich we had downloaded from Facebook profiles.
+p80
+aVBy the time the subject reached the last page
+p81
+aVon the survey, the page had been dynamically updated
+p82
+aVwith the 10 best matching photos
+p83
+aVwhich the recognizer had found,
+p84
+aVand we asked the subjects to indicate
+p85
+aVwhether he or she found themselves in the photo.
+p86
+aa(lp87
+VDo you see the subject?
+p88
+aVWell, the computer did, and in fact did so
+p89
+aVfor one out of three subjects.
+p90
+aa(lp91
+VSo essentially, we can start from an anonymous face,
+p92
+aVoffline or online, and we can use facial recognition
+p93
+aVto give a name to that anonymous face
+p94
+aVthanks to social media data.
+p95
+aVBut a few years back, we did something else.
+p96
+aVWe started from social media data,
+p97
+aVwe combined it statistically with data
+p98
+aVfrom U.S. government social security,
+p99
+aVand we ended up predicting social security numbers,
+p100
+aVwhich in the United States
+p101
+aVare extremely sensitive information.
+p102
+aa(lp103
+VDo you see where I'm going with this?
+p104
+aVSo if you combine the two studies together,
+p105
+aVthen the question becomes,
+p106
+aVcan you start from a face and,
+p107
+aVusing facial recognition, find a name
+p108
+aVand publicly available information
+p109
+aVabout that name and that person,
+p110
+aVand from that publicly available information
+p111
+aVinfer non-publicly available information,
+p112
+aVmuch more sensitive ones
+p113
+aVwhich you link back to the face?
+p114
+aVAnd the answer is, yes, we can, and we did.
+p115
+aVOf course, the accuracy keeps getting worse.
+p116
+aV[27% of subjects' first 5 SSN digits identified (with 4 attempts)]
+p117
+aVBut in fact, we even decided to develop an iPhone app
+p118
+aVwhich uses the phone's internal camera
+p119
+aVto take a shot of a subject
+p120
+aVand then upload it to a cloud
+p121
+aVand then do what I just described to you in real time:
+p122
+aVlooking for a match, finding public information,
+p123
+aVtrying to infer sensitive information,
+p124
+aVand then sending back to the phone
+p125
+aVso that it is overlaid on the face of the subject,
+p126
+aVan example of augmented reality,
+p127
+aVprobably a creepy example of augmented reality.
+p128
+aVIn fact, we didn't develop the app to make it available,
+p129
+aVjust as a proof of concept.
+p130
+aa(lp131
+VIn fact, take these technologies
+p132
+aVand push them to their logical extreme.
+p133
+aVImagine a future in which strangers around you
+p134
+aVwill look at you through their Google Glasses
+p135
+aVor, one day, their contact lenses,
+p136
+aVand use seven or eight data points about you
+p137
+aVto infer anything else
+p138
+aVwhich may be known about you.
+p139
+aVWhat will this future without secrets look like?
+p140
+aVAnd should we care?
+p141
+aa(lp142
+VWe may like to believe
+p143
+aVthat the future with so much wealth of data
+p144
+aVwould be a future with no more biases,
+p145
+aVbut in fact, having so much information
+p146
+aVdoesn't mean that we will make decisions
+p147
+aVwhich are more objective.
+p148
+aVIn another experiment, we presented to our subjects
+p149
+aVinformation about a potential job candidate.
+p150
+aVWe included in this information some references
+p151
+aVto some funny, absolutely legal,
+p152
+aVbut perhaps slightly embarrassing information
+p153
+aVthat the subject had posted online.
+p154
+aVNow interestingly, among our subjects,
+p155
+aVsome had posted comparable information,
+p156
+aVand some had not.
+p157
+aVWhich group do you think
+p158
+aVwas more likely to judge harshly our subject?
+p159
+aVParadoxically, it was the group
+p160
+aVwho had posted similar information,
+p161
+aVan example of moral dissonance.
+p162
+aa(lp163
+VNow you may be thinking,
+p164
+aVthis does not apply to me,
+p165
+aVbecause I have nothing to hide.
+p166
+aVBut in fact, privacy is not about
+p167
+aVhaving something negative to hide.
+p168
+aVImagine that you are the H.R. director
+p169
+aVof a certain organization, and you receive résumés,
+p170
+aVand you decide to find more information about the candidates.
+p171
+aVTherefore, you Google their names
+p172
+aVand in a certain universe,
+p173
+aVyou find this information.
+p174
+aVOr in a parallel universe, you find this information.
+p175
+aVDo you think that you would be equally likely
+p176
+aVto call either candidate for an interview?
+p177
+aVIf you think so, then you are not
+p178
+aVlike the U.S. employers who are, in fact,
+p179
+aVpart of our experiment, meaning we did exactly that.
+p180
+aVWe created Facebook profiles, manipulating traits,
+p181
+aVthen we started sending out résumés to companies in the U.S.,
+p182
+aVand we detected, we monitored,
+p183
+aVwhether they were searching for our candidates,
+p184
+aVand whether they were acting on the information
+p185
+aVthey found on social media. And they were.
+p186
+aVDiscrimination was happening through social media
+p187
+aVfor equally skilled candidates.
+p188
+aa(lp189
+VNow marketers like us to believe
+p190
+aVthat all information about us will always
+p191
+aVbe used in a manner which is in our favor.
+p192
+aVBut think again. Why should that be always the case?
+p193
+aVIn a movie which came out a few years ago,
+p194
+aV"Minority Report," a famous scene
+p195
+aVhad Tom Cruise walk in a mall
+p196
+aVand holographic personalized advertising
+p197
+aVwould appear around him.
+p198
+aVNow, that movie is set in 2054,
+p199
+aVabout 40 years from now,
+p200
+aVand as exciting as that technology looks,
+p201
+aVit already vastly underestimates
+p202
+aVthe amount of information that organizations
+p203
+aVcan gather about you, and how they can use it
+p204
+aVto influence you in a way that you will not even detect.
+p205
+aa(lp206
+VSo as an example, this is another experiment
+p207
+aVactually we are running, not yet completed.
+p208
+aVImagine that an organization has access
+p209
+aVto your list of Facebook friends,
+p210
+aVand through some kind of algorithm
+p211
+aVthey can detect the two friends that you like the most.
+p212
+aVAnd then they create, in real time,
+p213
+aVa facial composite of these two friends.
+p214
+aVNow studies prior to ours have shown that people
+p215
+aVdon't recognize any longer even themselves
+p216
+aVin facial composites, but they react
+p217
+aVto those composites in a positive manner.
+p218
+aVSo next time you are looking for a certain product,
+p219
+aVand there is an ad suggesting you to buy it,
+p220
+aVit will not be just a standard spokesperson.
+p221
+aVIt will be one of your friends,
+p222
+aVand you will not even know that this is happening.
+p223
+aa(lp224
+VNow the problem is that
+p225
+aVthe current policy mechanisms we have
+p226
+aVto protect ourselves from the abuses of personal information
+p227
+aVare like bringing a knife to a gunfight.
+p228
+aVOne of these mechanisms is transparency,
+p229
+aVtelling people what you are going to do with their data.
+p230
+aVAnd in principle, that's a very good thing.
+p231
+aVIt's necessary, but it is not sufficient.
+p232
+aVTransparency can be misdirected.
+p233
+aVYou can tell people what you are going to do,
+p234
+aVand then you still nudge them to disclose
+p235
+aVarbitrary amounts of personal information.
+p236
+aa(lp237
+VSo in yet another experiment, this one with students,
+p238
+aVwe asked them to provide information
+p239
+aVabout their campus behavior,
+p240
+aVincluding pretty sensitive questions, such as this one.
+p241
+aV[Have you ever cheated in an exam?]
+p242
+aVNow to one group of subjects, we told them,
+p243
+aV"Only other students will see your answers."
+p244
+aVTo another group of subjects, we told them,
+p245
+aV"Students and faculty will see your answers."
+p246
+aVTransparency. Notification. And sure enough, this worked,
+p247
+aVin the sense that the first group of subjects
+p248
+aVwere much more likely to disclose than the second.
+p249
+aVIt makes sense, right?
+p250
+aVBut then we added the misdirection.
+p251
+aVWe repeated the experiment with the same two groups,
+p252
+aVthis time adding a delay
+p253
+aVbetween the time we told subjects
+p254
+aVhow we would use their data
+p255
+aVand the time we actually started answering the questions.
+p256
+aa(lp257
+VHow long a delay do you think we had to add
+p258
+aVin order to nullify the inhibitory effect
+p259
+aVof knowing that faculty would see your answers?
+p260
+aVTen minutes?
+p261
+aVFive minutes?
+p262
+aVOne minute?
+p263
+aVHow about 15 seconds?
+p264
+aVFifteen seconds were sufficient to have the two groups
+p265
+aVdisclose the same amount of information,
+p266
+aVas if the second group now no longer cares
+p267
+aVfor faculty reading their answers.
+p268
+aa(lp269
+VNow I have to admit that this talk so far
+p270
+aVmay sound exceedingly gloomy,
+p271
+aVbut that is not my point.
+p272
+aVIn fact, I want to share with you the fact that
+p273
+aVthere are alternatives.
+p274
+aVThe way we are doing things now is not the only way
+p275
+aVthey can done, and certainly not the best way
+p276
+aVthey can be done.
+p277
+aVWhen someone tells you, "People don't care about privacy,"
+p278
+aVconsider whether the game has been designed
+p279
+aVand rigged so that they cannot care about privacy,
+p280
+aVand coming to the realization that these manipulations occur
+p281
+aVis already halfway through the process
+p282
+aVof being able to protect yourself.
+p283
+aVWhen someone tells you that privacy is incompatible
+p284
+aVwith the benefits of big data,
+p285
+aVconsider that in the last 20 years,
+p286
+aVresearchers have created technologies
+p287
+aVto allow virtually any electronic transactions
+p288
+aVto take place in a more privacy-preserving manner.
+p289
+aVWe can browse the Internet anonymously.
+p290
+aVWe can send emails that can only be read
+p291
+aVby the intended recipient, not even the NSA.
+p292
+aVWe can have even privacy-preserving data mining.
+p293
+aVIn other words, we can have the benefits of big data
+p294
+aVwhile protecting privacy.
+p295
+aVOf course, these technologies imply a shifting
+p296
+aVof cost and revenues
+p297
+aVbetween data holders and data subjects,
+p298
+aVwhich is why, perhaps, you don't hear more about them.
+p299
+aa(lp300
+VWhich brings me back to the Garden of Eden.
+p301
+aVThere is a second privacy interpretation
+p302
+aVof the story of the Garden of Eden
+p303
+aVwhich doesn't have to do with the issue
+p304
+aVof Adam and Eve feeling naked
+p305
+aVand feeling ashamed.
+p306
+aVYou can find echoes of this interpretation
+p307
+aVin John Milton's "Paradise Lost."
+p308
+aVIn the garden, Adam and Eve are materially content.
+p309
+aVThey're happy. They are satisfied.
+p310
+aVHowever, they also lack knowledge
+p311
+aVand self-awareness.
+p312
+aVThe moment they eat the aptly named
+p313
+aVfruit of knowledge,
+p314
+aVthat's when they discover themselves.
+p315
+aVThey become aware. They achieve autonomy.
+p316
+aVThe price to pay, however, is leaving the garden.
+p317
+aVSo privacy, in a way, is both the means
+p318
+aVand the price to pay for freedom.
+p319
+aa(lp320
+VAgain, marketers tell us
+p321
+aVthat big data and social media
+p322
+aVare not just a paradise of profit for them,
+p323
+aVbut a Garden of Eden for the rest of us.
+p324
+aVWe get free content.
+p325
+aVWe get to play Angry Birds. We get targeted apps.
+p326
+aVBut in fact, in a few years, organizations
+p327
+aVwill know so much about us,
+p328
+aVthey will be able to infer our desires
+p329
+aVbefore we even form them, and perhaps
+p330
+aVbuy products on our behalf
+p331
+aVbefore we even know we need them.
+p332
+aa(lp333
+VNow there was one English author
+p334
+aVwho anticipated this kind of future
+p335
+aVwhere we would trade away
+p336
+aVour autonomy and freedom for comfort.
+p337
+aVEven more so than George Orwell,
+p338
+aVthe author is, of course, Aldous Huxley.
+p339
+aVIn "Brave New World," he imagines a society
+p340
+aVwhere technologies that we created
+p341
+aVoriginally for freedom
+p342
+aVend up coercing us.
+p343
+aVHowever, in the book, he also offers us a way out
+p344
+aVof that society, similar to the path
+p345
+aVthat Adam and Eve had to follow to leave the garden.
+p346
+aVIn the words of the Savage,
+p347
+aVregaining autonomy and freedom is possible,
+p348
+aValthough the price to pay is steep.
+p349
+aVSo I do believe that one of the defining fights
+p350
+aVof our times will be the fight
+p351
+aVfor the control over personal information,
+p352
+aVthe fight over whether big data will become a force
+p353
+aVfor freedom,
+p354
+aVrather than a force which will hiddenly manipulate us.
+p355
+aa(lp356
+VRight now, many of us
+p357
+aVdo not even know that the fight is going on,
+p358
+aVbut it is, whether you like it or not.
+p359
+aVAnd at the risk of playing the serpent,
+p360
+aVI will tell you that the tools for the fight
+p361
+aVare here, the awareness of what is going on,
+p362
+aVand in your hands,
+p363
+aVjust a few clicks away.
+p364
+aa(lp365
+VThank you.
+p366
+aa(lp367
+V(Applause)
+p368
+aasS'transcript_micsec'
+p369
+(lp370
+I11000
+aI27000
+aI38000
+aI43000
+aI45000
+aI47000
+aI74000
+aI154000
+aI199000
+aI208000
+aI235000
+aI296000
+aI323000
+aI374000
+aI438000
+aI483000
+aI528000
+aI562000
+aI608000
+aI635000
+aI717000
+aI769000
+aI799000
+aI865000
+aI887000
+aI888000
+asS'talk_meta'
+p371
+(dp372
+S'ratings'
+p373
+(dp374
+S'ingenious'
+p375
+I45
+sS'funny'
+p376
+I20
+sS'inspiring'
+p377
+I97
+sS'ok'
+p378
+I42
+sS'fascinating'
+p379
+I206
+sS'total_count'
+p380
+I1635
+sS'persuasive'
+p381
+I337
+sS'longwinded'
+p382
+I23
+sS'informative'
+p383
+I639
+sS'beautiful'
+p384
+I6
+sS'jaw-dropping'
+p385
+I99
+sS'obnoxious'
+p386
+I10
+sS'confusing'
+p387
+I20
+sS'courageous'
+p388
+I75
+sS'unconvincing'
+p389
+I16
+ssS'author'
+p390
+VAlessandro_Acquisti;
+p391
+sS'url'
+p392
+S'https://www.ted.com/talks/alessandro_acquisti_why_privacy_matters'
+p393
+sS'vidlen'
+p394
+I900
+sS'totalviews'
+p395
+I1312305
+sS'title'
+p396
+VWhat will a future without secrets look like?
+p397
+sS'downloadlink'
+p398
+Vhttps://download.ted.com/talks/AlessandroAcquisti_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p399
+sS'datepublished'
+p400
+cdatetime
+datetime
+p401
+(S'\x07\xdd\n\x11\x0b\x00\x0e\x00\x00\x00'
+tRp402
+sS'datefilmed'
+p403
+g401
+(S'\x07\xdd\n\x11\x0b\x00\x0e\x00\x00\x00'
+tRp404
+sS'alldata_JSON'
+p405
+S'{"viewed_count": 1312305, "speakers": [{"description": "Privacy economist", "firstname": "Alessandro", "title": "", "lastname": "Acquisti", "middleinitial": "", "whylisten": "<p>Online, we humans are paradoxical: We cherish privacy, but freely disclose our personal information in certain contexts. Privacy economics offers a powerful lens to understand this paradox, and the field has been spearheaded by Alessandro Acquisti and his colleagues&#39; analyses of how we decide what to share online and what we get in return. </p><p>His team&#39;s surprising studies on facial recognition software showed that it can connect an anonymous human face to an online name -- and<span> </span>then to a Facebook account -- in about 3 seconds. Other work shows how easy it can be to find a US citizen&#39;s Social Security number using basic pattern matching on public data. Work like this earned him an invitation to testify before a US Senate committee on the impact technology has on civil liberties.    </p><p>Read about his work in the <a href=\\"http://www.nytimes.com/2013/03/31/technology/web-privacy-and-how-consumers-let-down-their-guard.html?hpw&amp;_r=0\\" target=\\"_blank\\"><em>New York Times &raquo;</em></a>  </p>", "slug": "alessandro_acquisti", "whotheyare": "What motivates you to share your personal information online? Alessandro Acquisti studies the behavioral economics of privacy (and information security) in social networks.", "whatotherssay": "Alessandro Acquisti, a behavioral economist at Carnegie Mellon University in Pittsburgh, is something of a pioneer in this emerging field of research. His experiments can take time. The last one, revealing how Facebook users had tightened their privacy settings, took seven years. They can also be imaginative: he has been known to dispatch graduate students to a suburban mall in the name of science. And they are often unsettling.", "id": 1559, "photo_url": "https://pe.tedcdn.com/images/ted/e59121d7ae38599f8a0a0beade11356205817bfe_254x191.jpg"}], "current_talk": 1848, "description": "The line between public and private has blurred in the past decade, both online and in real life, and Alessandro Acquisti is here to explain what this means and why it matters. In this thought-provoking, slightly chilling talk, he shares details of recent and ongoing research -- including a project that shows how easy it is to match a photograph of a stranger with their sensitive personal information.", "language": "en", "url": "https://www.ted.com/talks/alessandro_acquisti_why_privacy_matters", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105457125}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20716615}, "podcast-high": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105454319}, "180k": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20457109}, "64k": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7383730}, "1500k": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 163887598}, "450k": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51043836}, "podcast-regular": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51331431}, "950k": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105043162}, "audio-podcast": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 9290769}, "podcast-light": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7521281}, "320k": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36268365}, "600k": {"uri": "https://download.ted.com/talks/AlessandroAcquisti_2013G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68247420}}}, "comments": {"count": 132, "id": 22698, "talk_id": 1848}, "slug": "alessandro_acquisti_why_privacy_matters", "threadId": 22698, "talks": [{"event": "TEDGlobal 2013", "player_talks": [{"event": "TEDGlobal 2013", "slug": "alessandro_acquisti_why_privacy_matters", "filmed": 1371168000, "targeting": {"event": "TEDGlobal 2013", "tag": "business,policy,privacy,social media,technology", "id": 1848, "talk": "alessandro_acquisti_why_privacy_matters", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "What will a future without secrets look like?", "postAdDuration": "0.83", "published": 1382022014, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/455ebe6c262d8f567e288fcda788a28def875400_1600x1200.jpg?quality=89&w=600", "name": "Alessandro Acquisti: What will a future without secrets look like?", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "policy", "privacy", "social media", "technology"], "speaker": "Alessandro Acquisti", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 900, "id": 1848, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AlessandroAcquisti_2013G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2013", "tag": "business,policy,privacy,social media,technology", "id": 1848, "talk": "alessandro_acquisti_why_privacy_matters", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1848.json", "stream": "https://hls.ted.com/talks/1848.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2013%26id%3D1848%26tag%3Dbusiness%2Cpolicy%2Cprivacy%2Csocial%2Bmedia%2Ctechnology%26talk%3Dalessandro_acquisti_why_privacy_matters%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/alessandro_acquisti_why_privacy_matters"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/455ebe6c262d8f567e288fcda788a28def875400_1600x1200.jpg?q=50&w=15", "duration": 900, "id": 1848, "ratings": [{"count": 639, "id": 8, "name": "Informative"}, {"count": 206, "id": 22, "name": "Fascinating"}, {"count": 337, "id": 24, "name": "Persuasive"}, {"count": 20, "id": 7, "name": "Funny"}, {"count": 99, "id": 23, "name": "Jaw-dropping"}, {"count": 45, "id": 9, "name": "Ingenious"}, {"count": 97, "id": 10, "name": "Inspiring"}, {"count": 23, "id": 11, "name": "Longwinded"}, {"count": 75, "id": 3, "name": "Courageous"}, {"count": 6, "id": 1, "name": "Beautiful"}, {"count": 16, "id": 21, "name": "Unconvincing"}, {"count": 10, "id": 26, "name": "Obnoxious"}, {"count": 42, "id": 25, "name": "OK"}, {"count": 20, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Privacy economist", "firstname": "Alessandro", "title": "", "lastname": "Acquisti", "middleinitial": "", "whylisten": "<p>Online, we humans are paradoxical: We cherish privacy, but freely disclose our personal information in certain contexts. Privacy economics offers a powerful lens to understand this paradox, and the field has been spearheaded by Alessandro Acquisti and his colleagues&#39; analyses of how we decide what to share online and what we get in return. </p><p>His team&#39;s surprising studies on facial recognition software showed that it can connect an anonymous human face to an online name -- and<span> </span>then to a Facebook account -- in about 3 seconds. Other work shows how easy it can be to find a US citizen&#39;s Social Security number using basic pattern matching on public data. Work like this earned him an invitation to testify before a US Senate committee on the impact technology has on civil liberties.    </p><p>Read about his work in the <a href=\\"http://www.nytimes.com/2013/03/31/technology/web-privacy-and-how-consumers-let-down-their-guard.html?hpw&amp;_r=0\\" target=\\"_blank\\"><em>New York Times &raquo;</em></a>  </p>", "slug": "alessandro_acquisti", "whotheyare": "What motivates you to share your personal information online? Alessandro Acquisti studies the behavioral economics of privacy (and information security) in social networks.", "whatotherssay": "Alessandro Acquisti, a behavioral economist at Carnegie Mellon University in Pittsburgh, is something of a pioneer in this emerging field of research. His experiments can take time. The last one, revealing how Facebook users had tightened their privacy settings, took seven years. They can also be imaginative: he has been known to dispatch graduate students to a suburban mall in the name of science. And they are often unsettling.", "id": 1559, "photo_url": "https://pe.tedcdn.com/images/ted/e59121d7ae38599f8a0a0beade11356205817bfe_254x191.jpg"}], "title": "What will a future without secrets look like?", "take_action": [], "comments": 22698, "more_resources": [{"status": "approved", "start_at": null, "headline": "What are you revealing online? Much more than you think", "link_url": "http://ideas.ted.com/do-you-know-what-youre-revealing-online-much-more-than-you-think/", "eyebrow": null, "end_at": null, "image_url": "https://tedideas.files.wordpress.com/2014/07/datamine_web_6-26-14_v2.jpg", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Read a conversation between Jennifer Golbeck and Alessandro Acquisti about how much the web really knows about you"}], "hero": "https://pe.tedcdn.com/images/ted/455ebe6c262d8f567e288fcda788a28def875400_1600x1200.jpg", "description": "The line between public and private has blurred in the past decade, both online and in real life, and Alessandro Acquisti is here to explain what this means and why it matters. In this thought-provoking, slightly chilling talk, he shares details of recent and ongoing research -- including a project that shows how easy it is to match a photograph of a stranger with their sensitive personal information.", "tags": ["business", "policy", "privacy", "social media", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AlessandroAcquisti_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AlessandroAcquisti_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AlessandroAcquisti_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1848, "audioDownload": "https://download.ted.com/talks/AlessandroAcquisti_2013G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 432493, "hero": "https://pe.tedcdn.com/images/ted/b3f08de406d119a01844cbdd5eeed3c41d5d20ae_1600x1200.jpg", "title": "The power and the danger of online crowds", "id": 390, "speaker": "James Surowiecki", "duration": 1019, "slug": "james_surowiecki_on_the_turning_point_for_social_media"}, {"viewed_count": 1578338, "hero": "https://pe.tedcdn.com/images/ted/df4268df2cdd9dbc4f5c1e6f1c95cfddedf71576_1600x1200.jpg", "title": "Your online life, permanent as a tattoo", "id": 1730, "speaker": "Juan Enriquez", "duration": 357, "slug": "juan_enriquez_how_to_think_about_digital_tattoos"}, {"viewed_count": 2000331, "hero": "https://pe.tedcdn.com/images/ted/87900_800x600.jpg", "title": "The tribes we lead", "id": 538, "speaker": "Seth Godin", "duration": 1049, "slug": "seth_godin_on_the_tribes_we_lead"}, {"viewed_count": 1583831, "hero": "https://pe.tedcdn.com/images/ted/f4792554f556e73baab114a2d7b27876bd8ae9c6_2880x1620.jpg", "title": "Think your email\'s private? Think again", "id": 2204, "speaker": "Andy Yen", "duration": 729, "slug": "andy_yen_think_your_email_s_private_think_again"}, {"viewed_count": 1265965, "hero": "https://pe.tedcdn.com/images/ted/05717986c9c5cd865d11bd48849f5a5bea90a922_2880x1620.jpg", "title": "How to practice safe sexting", "id": 2685, "speaker": "Amy Adele Hasinoff", "duration": 865, "slug": "amy_adele_hasinoff_how_to_practice_safe_sexting"}, {"viewed_count": 1960222, "hero": "https://pe.tedcdn.com/images/ted/6992aa456af79721f493686c804324356781ddea_2880x1620.jpg", "title": "Why privacy matters", "id": 2106, "speaker": "Glenn Greenwald", "duration": 1237, "slug": "glenn_greenwald_why_privacy_matters"}], "recorded_at": "2013-06-14T00:00:00.000+00:00", "slug": "alessandro_acquisti_why_privacy_matters", "speaker_name": "Alessandro Acquisti", "viewed_count": 1312305, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2013", "name": "Alessandro Acquisti: What will a future without secrets look like?"}'
+p406
+sS'keywords'
+p407
+(lp408
+Vbusiness
+p409
+aVpolicy
+p410
+aVprivacy
+p411
+aVsocial media
+p412
+aVtechnology
+p413
+asS'datecrawled'
+p414
+g401
+(S'\x07\xe1\n\x17\x01*\x02\rn\xfa'
+tRp415
+sS'id'
+p416
+I1848
+ss.

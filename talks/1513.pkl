@@ -1,0 +1,798 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm gonna talk a little bit about open-source security,
+p5
+aVbecause we've got to get better at security
+p6
+aVin this 21st century.
+p7
+aa(lp8
+VLet me start by saying, let's look back to the 20th century,
+p9
+aVand kind of get a sense of how that style of security
+p10
+aVworked for us.
+p11
+aa(lp12
+VThis is Verdun, a battlefield in France
+p13
+aVjust north of the NATO headquarters in Belgium.
+p14
+aVAt Verdun, in 1916, over a 300-day period,
+p15
+aV700,000 people were killed,
+p16
+aVso about 2,000 a day.
+p17
+aa(lp18
+VIf you roll it forward \u2014 20th-century security \u2014
+p19
+aVinto the Second World War,
+p20
+aVyou see the Battle of Stalingrad,
+p21
+aV300 days, 2 million people killed.
+p22
+aa(lp23
+VWe go into the Cold War, and we continue
+p24
+aVto try and build walls.
+p25
+aVWe go from the trench warfare of the First World War
+p26
+aVto the Maginot Line of the Second World War,
+p27
+aVand then we go into the Cold War,
+p28
+aVthe Iron Curtain, the Berlin Wall.
+p29
+aVWalls don't work.
+p30
+aa(lp31
+VMy thesis for us today is, instead of building walls
+p32
+aVto create security, we need to build bridges.
+p33
+aVThis is a famous bridge in Europe.
+p34
+aVIt's in Bosnia-Herzegovina.
+p35
+aVIt's the bridge over the Drina River,
+p36
+aVthe subject of a novel by Ivo Andri\u0107,
+p37
+aVand it talks about how,
+p38
+aVin that very troubled part of Europe and the Balkans,
+p39
+aVover time there's been enormous building of walls.
+p40
+aVMore recently, in the last decade, we begin to see
+p41
+aVthese communities start, hesitatingly,
+p42
+aVto come together.
+p43
+aa(lp44
+VI would argue, again, open-source security
+p45
+aVis about connecting the international,
+p46
+aVthe interagency, the private-public,
+p47
+aVand lashing it together with strategic communication,
+p48
+aVlargely in social networks.
+p49
+aa(lp50
+VSo let me talk a little bit about why we need to do that,
+p51
+aVbecause our global commons is under attack
+p52
+aVin a variety of ways,
+p53
+aVand none of the sources of threat to the global commons
+p54
+aVwill be solved by building walls.
+p55
+aa(lp56
+VNow, I'm a sailor, obviously.
+p57
+aVThis is a ship, a liner, clipping through the Indian Ocean.
+p58
+aVWhat's wrong with this picture?
+p59
+aVIt's got concertina wire along the sides of it.
+p60
+aVThat's to prevent pirates from attacking it.
+p61
+aVPiracy is a very active threat today
+p62
+aVaround the world. This is in the Indian Ocean.
+p63
+aVPiracy is also very active in the Strait of Malacca.
+p64
+aVIt's active in the Gulf of Guinea.
+p65
+aVWe see it in the Caribbean.
+p66
+aVIt's a $10-billion-a-year discontinuity
+p67
+aVin the global transport system.
+p68
+aVLast year, at this time, there were 20 vessels,
+p69
+aV500 mariners held hostage.
+p70
+aVThis is an attack on the global commons.
+p71
+aVWe need to think about how to address it.
+p72
+aa(lp73
+VLet's shift to a different kind of sea,
+p74
+aVthe cyber sea.
+p75
+aVHere are photographs of two young men.
+p76
+aVAt the moment, they're incarcerated.
+p77
+aVThey conducted a credit card fraud that netted them
+p78
+aVover 10 billion dollars.
+p79
+aVThis is part of cybercrime which is a $2-trillion-a-year
+p80
+aVdiscontinuity in the global economy.
+p81
+aVTwo trillion a year.
+p82
+aVThat's just under the GDP of Great Britain.
+p83
+aVSo this cyber sea, which we know endlessly
+p84
+aVis the fundamental piece of radical openness,
+p85
+aVis very much under threat as well.
+p86
+aa(lp87
+VAnother thing I worry about in the global commons
+p88
+aVis the threat posed by trafficking,
+p89
+aVby the movement of narcotics, opium,
+p90
+aVhere coming out of Afghanistan through Europe
+p91
+aVover to the United States.
+p92
+aVWe worry about cocaine
+p93
+aVcoming from the Andean Ridge north.
+p94
+aVWe worry about the movement of illegal weapons
+p95
+aVand trafficking. Above all, perhaps,
+p96
+aVwe worry about human trafficking, and the awful cost of it.
+p97
+aVTrafficking moves largely at sea
+p98
+aVbut in other parts of the global commons.
+p99
+aa(lp100
+VThis is a photograph, and I wish I could tell you
+p101
+aVthat this is a very high-tech piece of US Navy gear
+p102
+aVthat we're using to stop the trafficking.
+p103
+aVThe bad news is,
+p104
+aVthis is a semi-submersible run by drug cartels.
+p105
+aVIt was built in the jungles of South America.
+p106
+aVWe caught it with that low-tech raft \u2014 (Laughter) \u2014
+p107
+aVand it was carrying six tons of cocaine.
+p108
+aVCrew of four. Sophisticated communications sweep.
+p109
+aVThis kind of trafficking, in narcotics, in humans, in weapons,
+p110
+aVGod forbid, in weapons of mass destruction,
+p111
+aVis part of the threat to the global commons.
+p112
+aa(lp113
+VAnd let's pull it together in Afghanistan today.
+p114
+aVThis is a field of poppies in Afghanistan.
+p115
+aVEighty to 90 percent of the world's poppy,
+p116
+aVopium and heroin, comes out of Afghanistan.
+p117
+aVWe also see there, of course, terrorism.
+p118
+aVThis is where al Qaeda is staged from.
+p119
+aVWe also see a very strong insurgency embedded there.
+p120
+aVSo this terrorism concern is also part
+p121
+aVof the global commons, and what we must address.
+p122
+aa(lp123
+VSo here we are, 21st century.
+p124
+aVWe know our 20th-century tools are not going to work.
+p125
+aVWhat should we do?
+p126
+aa(lp127
+VI would argue that we will not deliver security
+p128
+aVsolely from the barrel of a gun.
+p129
+aVWe will not deliver security solely from the barrel of a gun.
+p130
+aVWe will need the application of military force.
+p131
+aVWhen we do it, we must do it well, and competently.
+p132
+aa(lp133
+VBut my thesis is, open-source security is about international,
+p134
+aVinteragency, private-public connection pulled together
+p135
+aVby this idea of strategic communication on the Internet.
+p136
+aa(lp137
+VLet me give you a couple of examples of how this works in a positive way.
+p138
+aVThis is Afghanistan. These are Afghan soldiers.
+p139
+aVThey are all holding books.
+p140
+aVYou should say, "That's odd. I thought I read that
+p141
+aVthis demographic, young men and women
+p142
+aVin their 20s and 30s, is largely illiterate in Afghanistan."
+p143
+aa(lp144
+VYou would be correct.
+p145
+aa(lp146
+VEighty-five percent cannot read
+p147
+aVwhen they enter the security forces of Afghanistan.
+p148
+aVWhy? Because the Taliban withheld education
+p149
+aVduring the period of time in which these men and women
+p150
+aVwould have learned to read.
+p151
+aa(lp152
+VSo the question is, so,
+p153
+aVwhy are they all standing there holding books?
+p154
+aVThe answer is, we are teaching them to read
+p155
+aVin literacy courses by NATO
+p156
+aVin partnership with private sector entities,
+p157
+aVin partnership with development agencies.
+p158
+aVWe've taught well over 200,000 Afghan Security Forces
+p159
+aVto read and write at a basic level.
+p160
+aa(lp161
+VWhen you can read and write in Afghanistan,
+p162
+aVyou will typically put a pen in your pocket.
+p163
+aVAt the ceremonies, when these young men and women
+p164
+aVgraduate, they take that pen with great pride,
+p165
+aVand put it in their pocket.
+p166
+aVThis is bringing together international
+p167
+aV\u2014 there are 50 nations involved in this mission \u2014
+p168
+aVinteragency \u2014 these development agencies \u2014
+p169
+aVand private-public, to take on this kind of security.
+p170
+aa(lp171
+VNow, we are also teaching them combat skills, of course,
+p172
+aVbut I would argue, open-source security
+p173
+aVmeans connecting in ways that create
+p174
+aVlonger lasting security effect.
+p175
+aa(lp176
+VHere's another example.
+p177
+aVThis is a US Navy warship.
+p178
+aVIt's called the Comfort.
+p179
+aVThere's a sister ship called the Mercy.
+p180
+aVThey are hospital ships.
+p181
+aVThis one, the Comfort, operates throughout
+p182
+aVthe Caribbean and the coast of South America
+p183
+aVconducting patient treatments.
+p184
+aVOn a typical cruise, they'll do 400,000 patient treatments.
+p185
+aVIt is crewed not strictly by military
+p186
+aVbut by a combination of humanitarian organizations:
+p187
+aVOperation Hope, Project Smile.
+p188
+aVOther organizations send volunteers.
+p189
+aVInteragency physicians come out.
+p190
+aVThey're all part of this.
+p191
+aa(lp192
+VTo give you one example of the impact this can have,
+p193
+aVthis little boy, eight years old,
+p194
+aVwalked with his mother two days
+p195
+aVto come to the eye clinic put on by the Comfort.
+p196
+aVWhen he was fitted, over his extremely myopic eyes,
+p197
+aVhe suddenly looked up and said,
+p198
+aV"Mama, veo el mundo."
+p199
+aV"Mom, I see the world."
+p200
+aVMultiply this by 400,000 patient treatments,
+p201
+aVthis private-public collaboration with security forces,
+p202
+aVand you begin to see the power
+p203
+aVof creating security in a very different way.
+p204
+aa(lp205
+VHere you see baseball players.
+p206
+aVCan you pick out the two US Army soldiers
+p207
+aVin this photograph?
+p208
+aVThey are the two young men on either side
+p209
+aVof these young boys. This is part of a series
+p210
+aVof baseball clinics, where we have explored collaboration
+p211
+aVbetween Major League Baseball,
+p212
+aVthe Department of State,
+p213
+aVwho sets up the diplomatic piece of this,
+p214
+aVmilitary baseball players, who are real soldiers
+p215
+aVwith real skills but participate in this mission,
+p216
+aVand they put on clinics
+p217
+aVthroughout Latin America and the Caribbean,
+p218
+aVin Honduras, in Nicaragua,
+p219
+aVin all of the Central American and Caribbean nations
+p220
+aVwhere baseball is so popular,
+p221
+aVand it creates security.
+p222
+aVIt shows role models to young men and women
+p223
+aVabout fitness and about life that I would argue
+p224
+aVhelp create security for us.
+p225
+aa(lp226
+VAnother aspect of this partnership
+p227
+aVis in disaster relief.
+p228
+aVThis is a US Air Force helicopter participating
+p229
+aVafter the tsunami in 2004 which killed 250,000 people.
+p230
+aVIn each of these major disasters \u2014 the tsunami in 2004,
+p231
+aV250,000 dead, the Kashmiri earthquake in Pakistan, 2005,
+p232
+aV85,000 dead,
+p233
+aVthe Haitian earthquake, about 300,000 dead,
+p234
+aVmore recently the awful earthquake-tsunami combination
+p235
+aVwhich struck Japan and its nuclear industry \u2014
+p236
+aVin all of these instances, we see partnerships
+p237
+aVbetween international actors,
+p238
+aVinteragency, private-public working with security forces
+p239
+aVto respond to this kind of natural disaster.
+p240
+aVSo these are examples of this idea of open-source security.
+p241
+aa(lp242
+VWe tie it together, increasingly, by doing things like this.
+p243
+aVNow, you're looking at this thinking, "Ah, Admiral,
+p244
+aVthese must be sea lanes of communication,
+p245
+aVor these might be fiber optic cables."
+p246
+aVNo. This is a graphic of the world according to Twitter.
+p247
+aVPurple are tweets. Green are geolocation.
+p248
+aVWhite is the synthesis.
+p249
+aVIt's a perfect evocation of that great population survey,
+p250
+aVthe six largest nations in the world in descending order:
+p251
+aVChina, India, Facebook, the United States,
+p252
+aVTwitter and Indonesia. (Laughter)
+p253
+aa(lp254
+VWhy do we want to get in these nets?
+p255
+aVWhy do we want to be involved?
+p256
+aVWe talked earlier about the Arab Spring,
+p257
+aVand the power of all this.
+p258
+aVI'll give you another example,
+p259
+aVand it's how you move this message.
+p260
+aa(lp261
+VI gave a talk like this in London a while back
+p262
+aVabout this point. I said, as I say to all of you,
+p263
+aVI'm on Facebook. Friend me.
+p264
+aVGot a little laugh from the audience.
+p265
+aVThere was an article which was run by AP, on the wire.
+p266
+aVGot picked up in two places in the world:
+p267
+aVFinland and Indonesia.
+p268
+aVThe headline was: NATO Admiral Needs Friends.
+p269
+aV(Laughter)
+p270
+aVThank you. (Applause)
+p271
+aVWhich I do. (Laughter)
+p272
+aa(lp273
+VAnd the story was a catalyst,
+p274
+aVand the next morning I had hundreds
+p275
+aVof Facebook friend requests
+p276
+aVfrom Indonesians and Finns,
+p277
+aVmostly saying, "Admiral, we heard you need a friend,
+p278
+aVand oh, by the way, what is NATO?" (Laughter)
+p279
+aa(lp280
+VSo ... (Laughter)
+p281
+aa(lp282
+VYeah, we laugh, but this is how we move the message,
+p283
+aVand moving that message is how we connect
+p284
+aVinternational, interagency, private-public,
+p285
+aVand these social nets to help create security.
+p286
+aa(lp287
+VNow, let me hit a somber note.
+p288
+aVThis is a photograph of a brave British soldier.
+p289
+aVHe's in the Scots Guards.
+p290
+aVHe's standing the watch in Helmand,
+p291
+aVin southern Afghanistan.
+p292
+aVI put him here to remind us,
+p293
+aVI would not want anyone to leave the room thinking
+p294
+aVthat we do not need capable, competent militaries
+p295
+aVwho can create real military effect.
+p296
+aVThat is the core of who we are and what we do,
+p297
+aVand we do it to protect freedom, freedom of speech,
+p298
+aVall the things we treasure in our societies.
+p299
+aa(lp300
+VBut, you know, life is not an on-and-off switch.
+p301
+aVYou don't have to have a military that is either
+p302
+aVin hard combat or is in the barracks.
+p303
+aa(lp304
+VI would argue life is a rheostat.
+p305
+aVYou have to dial it in,
+p306
+aVand as I think about how we create security
+p307
+aVin this 21st century, there will be times
+p308
+aVwhen we will apply hard power in true war and crisis,
+p309
+aVbut there will be many instances,
+p310
+aVas we've talked about today,
+p311
+aVwhere our militaries can be part of creating
+p312
+aV21st-century security, international,
+p313
+aVinteragency, private-public,
+p314
+aVconnected with competent communication.
+p315
+aa(lp316
+VI would close by saying that we heard earlier today
+p317
+aVabout Wikipedia. I use Wikipedia all the time
+p318
+aVto look up facts, and as all of you appreciate,
+p319
+aVWikipedia is not created by 12 brilliant people
+p320
+aVlocked in a room writing articles.
+p321
+aVWikipedia, every day, is tens of thousands of people
+p322
+aVinputting information, and every day millions of people
+p323
+aVwithdrawing that information.
+p324
+aVIt's a perfect image for the fundamental point
+p325
+aVthat no one of us is as smart as all of us thinking together.
+p326
+aVNo one person, no one alliance, no one nation,
+p327
+aVno one of us is as smart as all of us thinking together.
+p328
+aa(lp329
+VThe vision statement of Wikipedia is very simple:
+p330
+aVa world in which every human being can freely share
+p331
+aVin the sum of all knowledge.
+p332
+aVMy thesis for you is that by combining international,
+p333
+aVinteragency, private-public, strategic communication,
+p334
+aVtogether, in this 21st century,
+p335
+aVwe can create the sum of all security.
+p336
+aa(lp337
+VThank you. (Applause)
+p338
+aa(lp339
+VThank you very much. Thank you. Thank you. (Applause)
+p340
+aasS'transcript_micsec'
+p341
+(lp342
+I11000
+aI20000
+aI30000
+aI48000
+aI61000
+aI82000
+aI118000
+aI135000
+aI152000
+aI200000
+aI244000
+aI278000
+aI326000
+aI357000
+aI367000
+aI384000
+aI401000
+aI425000
+aI426000
+aI440000
+aI466000
+aI492000
+aI504000
+aI548000
+aI589000
+aI649000
+aI709000
+aI751000
+aI762000
+aI792000
+aI808000
+aI810000
+aI823000
+aI860000
+aI871000
+aI907000
+aI952000
+aI977000
+aI980000
+asS'talk_meta'
+p343
+(dp344
+S'ratings'
+p345
+(dp346
+S'ingenious'
+p347
+I20
+sS'funny'
+p348
+I4
+sS'inspiring'
+p349
+I177
+sS'ok'
+p350
+I40
+sS'fascinating'
+p351
+I63
+sS'total_count'
+p352
+I799
+sS'persuasive'
+p353
+I131
+sS'longwinded'
+p354
+I22
+sS'informative'
+p355
+I145
+sS'beautiful'
+p356
+I6
+sS'jaw-dropping'
+p357
+I16
+sS'obnoxious'
+p358
+I40
+sS'confusing'
+p359
+I5
+sS'courageous'
+p360
+I44
+sS'unconvincing'
+p361
+I86
+ssS'author'
+p362
+VJames_Stavridis;
+p363
+sS'url'
+p364
+S'https://www.ted.com/talks/james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security'
+p365
+sS'vidlen'
+p366
+I1003
+sS'totalviews'
+p367
+I722605
+sS'title'
+p368
+VA Navy Admiral's thoughts on global security
+p369
+sS'downloadlink'
+p370
+Vhttps://download.ted.com/talks/JamesStavridis_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p371
+sS'datepublished'
+p372
+cdatetime
+datetime
+p373
+(S'\x07\xdc\x07\x17\x0b\x00\x11\x00\x00\x00'
+tRp374
+sS'datefilmed'
+p375
+g373
+(S'\x07\xdc\x07\x17\x0b\x00\x11\x00\x00\x00'
+tRp376
+sS'alldata_JSON'
+p377
+S'{"viewed_count": 722605, "speakers": [{"description": "Navy Admiral", "firstname": "James", "title": "", "lastname": "Stavridis", "middleinitial": "", "whylisten": "<p>In the world of security, says James Stavridis, &quot;we are generally focused on risk. But I think we should spend a bit of our most precious resource &mdash; time &mdash; on thinking about and developing opportunities.&quot; The first US Navy officer to hold the positions of Commander of the&nbsp;US European Command&nbsp;(USEUCOM) and of NATO&#39;s&nbsp;Supreme Allied Commander Europe&nbsp;(<a href=\\"http://www.nato.int/cps/en/natolive/topics_50110.htm\\" target=\\"_blank\\">SACEUR</a>), Stavridis has been advocating the opportunities perspective for a long time. He sees dialogue and collaboration &mdash; between nations, and between public and private sectors &mdash; as key to the future of security. As a Navy officer, he thinks deeply about protecting the value of our &quot;global commons.&quot; And he&#39;s a rare high-ranking military officer who tweets and blogs.</p>  <p>He has led the recent military effort in Lybia, among other NATO engagements. Previously Stavridis commanded US Southern Command in Miami, focused on Latin America and the Caribbean.</p>", "slug": "james_stavridis", "whotheyare": "What will 21st-century security look like? Navy Admiral James Stavridis suggests that dialogue and openness will be the game-changers.", "whatotherssay": "What is the top American military officer in Europe up to today? For the answer, simply search for Adm. Stavridis on Facebook or Twitter.", "id": 1330, "photo_url": "https://pe.tedcdn.com/images/ted/ce9e48076e1635da4a5832a5b7634885d59d4c8b_254x191.jpg"}], "current_talk": 1513, "description": "Imagine global security driven by collaboration -- among agencies, government, the private sector and the public. That\'s not just the distant hope of open-source fans, it\'s the vision of James Stavridis, a US Navy Admiral. Stavridis shares vivid moments from recent military history to explain why security of the future should be built with bridges rather than walls.", "language": "en", "url": "https://www.ted.com/talks/james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118374646}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22799312}, "podcast-high": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118367672}, "180k": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22530714}, "64k": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8131476}, "1500k": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 182837383}, "450k": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56179409}, "podcast-regular": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56466978}, "950k": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 117974722}, "audio-podcast": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10276104}, "podcast-light": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8268823}, "320k": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39925514}, "600k": {"uri": "https://download.ted.com/talks/JamesStavridis_2012G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 75087597}}}, "comments": {"count": 203, "id": 14136, "talk_id": 1513}, "slug": "james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security", "threadId": 14136, "talks": [{"event": "TEDGlobal 2012", "player_talks": [{"event": "TEDGlobal 2012", "slug": "james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security", "filmed": 1340668800, "targeting": {"event": "TEDGlobal 2012", "tag": "collaboration,global issues,open-source,peace,social media,terrorism,violence,war", "id": 1513, "talk": "james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "A Navy Admiral\'s thoughts on global security", "postAdDuration": "0.83", "published": 1343055617, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1903aba42bb55daa9da99000e6456d728e7d01e1_1600x1200.jpg?quality=89&w=600", "name": "James Stavridis: A Navy Admiral\'s thoughts on global security", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["collaboration", "global issues", "open-source", "peace", "social media", "terrorism", "violence", "war"], "speaker": "James Stavridis", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1003, "id": 1513, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JamesStavridis_2012G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2012", "tag": "collaboration,global issues,open-source,peace,social media,terrorism,violence,war", "id": 1513, "talk": "james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1513.json", "stream": "https://hls.ted.com/talks/1513.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2012%26id%3D1513%26tag%3Dcollaboration%2Cglobal%2Bissues%2Copen-source%2Cpeace%2Csocial%2Bmedia%2Cterrorism%2Cviolence%2Cwar%26talk%3Djames_stavridis_how_nato_s_supreme_commander_thinks_about_global_security%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1903aba42bb55daa9da99000e6456d728e7d01e1_1600x1200.jpg?q=50&w=15", "duration": 1003, "id": 1513, "ratings": [{"count": 40, "id": 26, "name": "Obnoxious"}, {"count": 177, "id": 10, "name": "Inspiring"}, {"count": 145, "id": 8, "name": "Informative"}, {"count": 86, "id": 21, "name": "Unconvincing"}, {"count": 40, "id": 25, "name": "OK"}, {"count": 131, "id": 24, "name": "Persuasive"}, {"count": 44, "id": 3, "name": "Courageous"}, {"count": 4, "id": 7, "name": "Funny"}, {"count": 22, "id": 11, "name": "Longwinded"}, {"count": 63, "id": 22, "name": "Fascinating"}, {"count": 5, "id": 2, "name": "Confusing"}, {"count": 20, "id": 9, "name": "Ingenious"}, {"count": 16, "id": 23, "name": "Jaw-dropping"}, {"count": 6, "id": 1, "name": "Beautiful"}], "speakers": [{"description": "Navy Admiral", "firstname": "James", "title": "", "lastname": "Stavridis", "middleinitial": "", "whylisten": "<p>In the world of security, says James Stavridis, &quot;we are generally focused on risk. But I think we should spend a bit of our most precious resource &mdash; time &mdash; on thinking about and developing opportunities.&quot; The first US Navy officer to hold the positions of Commander of the&nbsp;US European Command&nbsp;(USEUCOM) and of NATO&#39;s&nbsp;Supreme Allied Commander Europe&nbsp;(<a href=\\"http://www.nato.int/cps/en/natolive/topics_50110.htm\\" target=\\"_blank\\">SACEUR</a>), Stavridis has been advocating the opportunities perspective for a long time. He sees dialogue and collaboration &mdash; between nations, and between public and private sectors &mdash; as key to the future of security. As a Navy officer, he thinks deeply about protecting the value of our &quot;global commons.&quot; And he&#39;s a rare high-ranking military officer who tweets and blogs.</p>  <p>He has led the recent military effort in Lybia, among other NATO engagements. Previously Stavridis commanded US Southern Command in Miami, focused on Latin America and the Caribbean.</p>", "slug": "james_stavridis", "whotheyare": "What will 21st-century security look like? Navy Admiral James Stavridis suggests that dialogue and openness will be the game-changers.", "whatotherssay": "What is the top American military officer in Europe up to today? For the answer, simply search for Adm. Stavridis on Facebook or Twitter.", "id": 1330, "photo_url": "https://pe.tedcdn.com/images/ted/ce9e48076e1635da4a5832a5b7634885d59d4c8b_254x191.jpg"}], "title": "A Navy Admiral\'s thoughts on global security", "take_action": null, "comments": 14136, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/1903aba42bb55daa9da99000e6456d728e7d01e1_1600x1200.jpg", "description": "Imagine global security driven by collaboration -- among agencies, government, the private sector and the public. That\'s not just the distant hope of open-source fans, it\'s the vision of James Stavridis, a US Navy Admiral. Stavridis shares vivid moments from recent military history to explain why security of the future should be built with bridges rather than walls.", "tags": ["collaboration", "global issues", "open-source", "peace", "social media", "terrorism", "violence", "war"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-de.mp4"}, "ja": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JamesStavridis_2012G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JamesStavridis_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JamesStavridis_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JamesStavridis_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1513, "audioDownload": "https://download.ted.com/talks/JamesStavridis_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1141866, "hero": "https://pe.tedcdn.com/images/ted/199_480x360.jpg", "title": "Let\'s rethink America\'s military strategy", "id": 33, "speaker": "Thomas Barnett", "duration": 1402, "slug": "thomas_barnett_draws_a_new_map_for_peace"}, {"viewed_count": 474411, "hero": "https://pe.tedcdn.com/images/ted/936b0ce34f35ad688995ebb3211275fc8744d7b8_800x600.jpg", "title": "How cyberattacks threaten real-world peace", "id": 1250, "speaker": "Guy-Philippe Goldstein", "duration": 564, "slug": "guy_philippe_goldstein_how_cyberattacks_threaten_real_world_peace"}, {"viewed_count": 1623024, "hero": "https://pe.tedcdn.com/images/ted/2335b2e44dc456891306c79c91e11ecc627ea85b_800x600.jpg", "title": "From mach-20 glider to hummingbird drone", "id": 1402, "speaker": "Regina Dugan", "duration": 1501, "slug": "regina_dugan_from_mach_20_glider_to_humming_bird_drone"}, {"viewed_count": 660934, "hero": "https://pe.tedcdn.com/images/ted/7bb5389d0360ef7905de6b6a017b7ce836ad673d_800x600.jpg", "title": "Time to end the war in Afghanistan", "id": 1196, "speaker": "Rory Stewart", "duration": 1202, "slug": "rory_stewart_time_to_end_the_war_in_afghanistan"}, {"viewed_count": 345115, "hero": "https://pe.tedcdn.com/images/ted/197439_800x600.jpg", "title": "An independent diplomat", "id": 951, "speaker": "Carne Ross", "duration": 1238, "slug": "carne_ross_an_independent_diplomat"}, {"viewed_count": 1219376, "hero": "https://pe.tedcdn.com/images/ted/e3382f47e4b18ba1fa1905aa685e2cd8c7747f81_2880x1620.jpg", "title": "How fear drives American politics", "id": 2326, "speaker": "David Rothkopf", "duration": 1080, "slug": "david_rothkopf_how_fear_drives_american_politics"}], "recorded_at": "2012-06-26T00:00:00.000+00:00", "slug": "james_stavridis_how_nato_s_supreme_commander_thinks_about_global_security", "speaker_name": "James Stavridis", "viewed_count": 722605, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal 2012", "name": "James Stavridis: A Navy Admiral\'s thoughts on global security"}'
+p378
+sS'keywords'
+p379
+(lp380
+Vcollaboration
+p381
+aVglobal issues
+p382
+aVopen-source
+p383
+aVpeace
+p384
+aVsocial media
+p385
+aVterrorism
+p386
+aVviolence
+p387
+aVwar
+p388
+asS'datecrawled'
+p389
+g373
+(S'\x07\xe1\n\x17\x03\x053\x08V\x87'
+tRp390
+sS'id'
+p391
+I1513
+ss.

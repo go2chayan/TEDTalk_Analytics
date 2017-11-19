@@ -1,0 +1,772 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI want to start my story in Germany, in 1877,
+p5
+aVwith a mathematician named Georg Cantor.
+p6
+aVAnd Cantor decided he was going to take a line and erase the middle third of the line,
+p7
+aVand then take those two resulting lines and bring them back into the same process, a recursive process.
+p8
+aVSo he starts out with one line, and then two,
+p9
+aVand then four, and then 16, and so on.
+p10
+aVAnd if he does this an infinite number of times, which you can do in mathematics,
+p11
+aVhe ends up with an infinite number of lines,
+p12
+aVeach of which has an infinite number of points in it.
+p13
+aVSo he realized he had a set whose number of elements was larger than infinity.
+p14
+aVAnd this blew his mind. Literally. He checked into a sanitarium. (Laughter)
+p15
+aVAnd when he came out of the sanitarium,
+p16
+aVhe was convinced that he had been put on earth to found transfinite set theory
+p17
+aVbecause the largest set of infinity would be God Himself.
+p18
+aVHe was a very religious man.
+p19
+aVHe was a mathematician on a mission.
+p20
+aa(lp21
+VAnd other mathematicians did the same sort of thing.
+p22
+aVA Swedish mathematician, von Koch,
+p23
+aVdecided that instead of subtracting lines, he would add them.
+p24
+aVAnd so he came up with this beautiful curve.
+p25
+aVAnd there's no particular reason why we have to start with this seed shape;
+p26
+aVwe can use any seed shape we like.
+p27
+aVAnd I'll rearrange this and I'll stick this somewhere \u2014 down there, OK \u2014
+p28
+aVand now upon iteration, that seed shape sort of unfolds into a very different looking structure.
+p29
+aVSo these all have the property of self-similarity:
+p30
+aVthe part looks like the whole.
+p31
+aVIt's the same pattern at many different scales.
+p32
+aa(lp33
+VNow, mathematicians thought this was very strange
+p34
+aVbecause as you shrink a ruler down, you measure a longer and longer length.
+p35
+aVAnd since they went through the iterations an infinite number of times,
+p36
+aVas the ruler shrinks down to infinity, the length goes to infinity.
+p37
+aVThis made no sense at all,
+p38
+aVso they consigned these curves to the back of the math books.
+p39
+aVThey said these are pathological curves, and we don't have to discuss them.
+p40
+aV(Laughter)
+p41
+aVAnd that worked for a hundred years.
+p42
+aa(lp43
+VAnd then in 1977, Benoit Mandelbrot, a French mathematician,
+p44
+aVrealized that if you do computer graphics and used these shapes he called fractals,
+p45
+aVyou get the shapes of nature.
+p46
+aVYou get the human lungs, you get acacia trees, you get ferns,
+p47
+aVyou get these beautiful natural forms.
+p48
+aVIf you take your thumb and your index finger and look right where they meet \u2014
+p49
+aVgo ahead and do that now \u2014
+p50
+aV\u2014 and relax your hand, you'll see a crinkle,
+p51
+aVand then a wrinkle within the crinkle, and a crinkle within the wrinkle. Right?
+p52
+aVYour body is covered with fractals.
+p53
+aVThe mathematicians who were saying these were pathologically useless shapes?
+p54
+aVThey were breathing those words with fractal lungs.
+p55
+aVIt's very ironic. And I'll show you a little natural recursion here.
+p56
+aVAgain, we just take these lines and recursively replace them with the whole shape.
+p57
+aVSo here's the second iteration, and the third, fourth and so on.
+p58
+aa(lp59
+VSo nature has this self-similar structure.
+p60
+aVNature uses self-organizing systems.
+p61
+aVNow in the 1980s, I happened to notice
+p62
+aVthat if you look at an aerial photograph of an African village, you see fractals.
+p63
+aVAnd I thought, "This is fabulous! I wonder why?"
+p64
+aVAnd of course I had to go to Africa and ask folks why.
+p65
+aVSo I got a Fulbright scholarship to just travel around Africa for a year
+p66
+aVasking people why they were building fractals,
+p67
+aVwhich is a great job if you can get it.
+p68
+aV(Laughter)
+p69
+aa(lp70
+VAnd so I finally got to this city, and I'd done a little fractal model for the city
+p71
+aVjust to see how it would sort of unfold \u2014
+p72
+aVbut when I got there, I got to the palace of the chief,
+p73
+aVand my French is not very good; I said something like,
+p74
+aV"I am a mathematician and I would like to stand on your roof."
+p75
+aVBut he was really cool about it, and he took me up there,
+p76
+aVand we talked about fractals.
+p77
+aVAnd he said, "Oh yeah, yeah! We knew about a rectangle within a rectangle,
+p78
+aVwe know all about that."
+p79
+aVAnd it turns out the royal insignia has a rectangle within a rectangle within a rectangle,
+p80
+aVand the path through that palace is actually this spiral here.
+p81
+aVAnd as you go through the path, you have to get more and more polite.
+p82
+aVSo they're mapping the social scaling onto the geometric scaling;
+p83
+aVit's a conscious pattern. It is not unconscious like a termite mound fractal.
+p84
+aa(lp85
+VThis is a village in southern Zambia.
+p86
+aVThe Ba-ila built this village about 400 meters in diameter.
+p87
+aVYou have a huge ring.
+p88
+aVThe rings that represent the family enclosures get larger and larger as you go towards the back,
+p89
+aVand then you have the chief's ring here towards the back
+p90
+aVand then the chief's immediate family in that ring.
+p91
+aVSo here's a little fractal model for it.
+p92
+aVHere's one house with the sacred altar,
+p93
+aVhere's the house of houses, the family enclosure,
+p94
+aVwith the humans here where the sacred altar would be,
+p95
+aVand then here's the village as a whole \u2014
+p96
+aVa ring of ring of rings with the chief's extended family here, the chief's immediate family here,
+p97
+aVand here there's a tiny village only this big.
+p98
+aVNow you might wonder, how can people fit in a tiny village only this big?
+p99
+aVThat's because they're spirit people. It's the ancestors.
+p100
+aVAnd of course the spirit people have a little miniature village in their village, right?
+p101
+aVSo it's just like Georg Cantor said, the recursion continues forever.
+p102
+aa(lp103
+VThis is in the Mandara mountains, near the Nigerian border in Cameroon, Mokoulek.
+p104
+aVI saw this diagram drawn by a French architect,
+p105
+aVand I thought, "Wow! What a beautiful fractal!"
+p106
+aVSo I tried to come up with a seed shape, which, upon iteration, would unfold into this thing.
+p107
+aVI came up with this structure here.
+p108
+aVLet's see, first iteration, second, third, fourth.
+p109
+aVNow, after I did the simulation,
+p110
+aVI realized the whole village kind of spirals around, just like this,
+p111
+aVand here's that replicating line \u2014 a self-replicating line that unfolds into the fractal.
+p112
+aVWell, I noticed that line is about where the only square building in the village is at.
+p113
+aVSo, when I got to the village,
+p114
+aVI said, "Can you take me to the square building?
+p115
+aVI think something's going on there."
+p116
+aVAnd they said, "Well, we can take you there, but you can't go inside
+p117
+aVbecause that's the sacred altar, where we do sacrifices every year
+p118
+aVto keep up those annual cycles of fertility for the fields."
+p119
+aVAnd I started to realize that the cycles of fertility
+p120
+aVwere just like the recursive cycles in the geometric algorithm that builds this.
+p121
+aVAnd the recursion in some of these villages continues down into very tiny scales.
+p122
+aa(lp123
+VSo here's a Nankani village in Mali.
+p124
+aVAnd you can see, you go inside the family enclosure \u2014
+p125
+aVyou go inside and here's pots in the fireplace, stacked recursively.
+p126
+aVHere's calabashes that Issa was just showing us,
+p127
+aVand they're stacked recursively.
+p128
+aVNow, the tiniest calabash in here keeps the woman's soul.
+p129
+aVAnd when she dies, they have a ceremony
+p130
+aVwhere they break this stack called the zalanga and her soul goes off to eternity.
+p131
+aVOnce again, infinity is important.
+p132
+aa(lp133
+VNow, you might ask yourself three questions at this point.
+p134
+aVAren't these scaling patterns just universal to all indigenous architecture?
+p135
+aVAnd that was actually my original hypothesis.
+p136
+aVWhen I first saw those African fractals,
+p137
+aVI thought, "Wow, so any indigenous group that doesn't have a state society,
+p138
+aVthat sort of hierarchy, must have a kind of bottom-up architecture."
+p139
+aVBut that turns out not to be true.
+p140
+aa(lp141
+VI started collecting aerial photographs of Native American and South Pacific architecture;
+p142
+aVonly the African ones were fractal.
+p143
+aVAnd if you think about it, all these different societies have different geometric design themes that they use.
+p144
+aVSo Native Americans use a combination of circular symmetry and fourfold symmetry.
+p145
+aVYou can see on the pottery and the baskets.
+p146
+aVHere's an aerial photograph of one of the Anasazi ruins;
+p147
+aVyou can see it's circular at the largest scale, but it's rectangular at the smaller scale, right?
+p148
+aVIt is not the same pattern at two different scales.
+p149
+aa(lp150
+VSecond, you might ask,
+p151
+aV"Well, Dr. Eglash, aren't you ignoring the diversity of African cultures?"
+p152
+aVAnd three times, the answer is no.
+p153
+aVFirst of all, I agree with Mudimbe's wonderful book, "The Invention of Africa,"
+p154
+aVthat Africa is an artificial invention of first colonialism,
+p155
+aVand then oppositional movements.
+p156
+aVNo, because a widely shared design practice doesn't necessarily give you a unity of culture \u2014
+p157
+aVand it definitely is not "in the DNA."
+p158
+aVAnd finally, the fractals have self-similarity \u2014
+p159
+aVso they're similar to themselves, but they're not necessarily similar to each other \u2014
+p160
+aVyou see very different uses for fractals.
+p161
+aVIt's a shared technology in Africa.
+p162
+aa(lp163
+VAnd finally, well, isn't this just intuition?
+p164
+aVIt's not really mathematical knowledge.
+p165
+aVAfricans can't possibly really be using fractal geometry, right?
+p166
+aVIt wasn't invented until the 1970s.
+p167
+aVWell, it's true that some African fractals are, as far as I'm concerned, just pure intuition.
+p168
+aVSo some of these things, I'd wander around the streets of Dakar
+p169
+aVasking people, "What's the algorithm? What's the rule for making this?"
+p170
+aVand they'd say,
+p171
+aV"Well, we just make it that way because it looks pretty, stupid." (Laughter)
+p172
+aVBut sometimes, that's not the case.
+p173
+aVIn some cases, there would actually be algorithms, and very sophisticated algorithms.
+p174
+aVSo in Manghetu sculpture, you'd see this recursive geometry.
+p175
+aVIn Ethiopian crosses, you see this wonderful unfolding of the shape.
+p176
+aa(lp177
+VIn Angola, the Chokwe people draw lines in the sand,
+p178
+aVand it's what the German mathematician Euler called a graph;
+p179
+aVwe now call it an Eulerian path \u2014
+p180
+aVyou can never lift your stylus from the surface
+p181
+aVand you can never go over the same line twice.
+p182
+aVBut they do it recursively, and they do it with an age-grade system,
+p183
+aVso the little kids learn this one, and then the older kids learn this one,
+p184
+aVthen the next age-grade initiation, you learn this one.
+p185
+aVAnd with each iteration of that algorithm,
+p186
+aVyou learn the iterations of the myth.
+p187
+aVYou learn the next level of knowledge.
+p188
+aa(lp189
+VAnd finally, all over Africa, you see this board game.
+p190
+aVIt's called Owari in Ghana, where I studied it;
+p191
+aVit's called Mancala here on the East Coast, Bao in Kenya, Sogo elsewhere.
+p192
+aVWell, you see self-organizing patterns that spontaneously occur in this board game.
+p193
+aVAnd the folks in Ghana knew about these self-organizing patterns
+p194
+aVand would use them strategically.
+p195
+aVSo this is very conscious knowledge.
+p196
+aa(lp197
+VHere's a wonderful fractal.
+p198
+aVAnywhere you go in the Sahel, you'll see this windscreen.
+p199
+aVAnd of course fences around the world are all Cartesian, all strictly linear.
+p200
+aVBut here in Africa, you've got these nonlinear scaling fences.
+p201
+aVSo I tracked down one of the folks who makes these things,
+p202
+aVthis guy in Mali just outside of Bamako, and I asked him,
+p203
+aV"How come you're making fractal fences? Because nobody else is."
+p204
+aVAnd his answer was very interesting.
+p205
+aVHe said, "Well, if I lived in the jungle, I would only use the long rows of straw
+p206
+aVbecause they're very quick and they're very cheap.
+p207
+aVIt doesn't take much time, doesn't take much straw."
+p208
+aVHe said, "but wind and dust goes through pretty easily.
+p209
+aVNow, the tight rows up at the very top, they really hold out the wind and dust.
+p210
+aVBut it takes a lot of time, and it takes a lot of straw because they're really tight."
+p211
+aV"Now," he said, "we know from experience
+p212
+aVthat the farther up from the ground you go, the stronger the wind blows."
+p213
+aVRight? It's just like a cost-benefit analysis.
+p214
+aVAnd I measured out the lengths of straw,
+p215
+aVput it on a log-log plot, got the scaling exponent,
+p216
+aVand it almost exactly matches the scaling exponent for the relationship between wind speed and height
+p217
+aVin the wind engineering handbook.
+p218
+aVSo these guys are right on target for a practical use of scaling technology.
+p219
+aa(lp220
+VThe most complex example of an algorithmic approach to fractals that I found
+p221
+aVwas actually not in geometry, it was in a symbolic code,
+p222
+aVand this was Bamana sand divination.
+p223
+aVAnd the same divination system is found all over Africa.
+p224
+aVYou can find it on the East Coast as well as the West Coast,
+p225
+aVand often the symbols are very well preserved,
+p226
+aVso each of these symbols has four bits \u2014 it's a four-bit binary word \u2014
+p227
+aVyou draw these lines in the sand randomly, and then you count off,
+p228
+aVand if it's an odd number, you put down one stroke,
+p229
+aVand if it's an even number, you put down two strokes.
+p230
+aVAnd they did this very rapidly,
+p231
+aVand I couldn't understand where they were getting \u2014
+p232
+aVthey only did the randomness four times \u2014
+p233
+aVI couldn't understand where they were getting the other 12 symbols.
+p234
+aVAnd they wouldn't tell me.
+p235
+aVThey said, "No, no, I can't tell you about this."
+p236
+aVAnd I said, "Well look, I'll pay you, you can be my teacher,
+p237
+aVand I'll come each day and pay you."
+p238
+aVThey said, "It's not a matter of money. This is a religious matter."
+p239
+aa(lp240
+VAnd finally, out of desperation, I said,
+p241
+aV"Well, let me explain Georg Cantor in 1877."
+p242
+aVAnd I started explaining why I was there in Africa,
+p243
+aVand they got very excited when they saw the Cantor set.
+p244
+aVAnd one of them said, "Come here. I think I can help you out here."
+p245
+aVAnd so he took me through the initiation ritual for a Bamana priest.
+p246
+aVAnd of course, I was only interested in the math,
+p247
+aVso the whole time, he kept shaking his head going,
+p248
+aV"You know, I didn't learn it this way."
+p249
+aVBut I had to sleep with a kola nut next to my bed, buried in sand,
+p250
+aVand give seven coins to seven lepers and so on.
+p251
+aVAnd finally, he revealed the truth of the matter.
+p252
+aVAnd it turns out it's a pseudo-random number generator using deterministic chaos.
+p253
+aVWhen you have a four-bit symbol, you then put it together with another one sideways.
+p254
+aVSo even plus odd gives you odd.
+p255
+aVOdd plus even gives you odd.
+p256
+aVEven plus even gives you even. Odd plus odd gives you even.
+p257
+aVIt's addition modulo 2, just like in the parity bit check on your computer.
+p258
+aVAnd then you take this symbol, and you put it back in
+p259
+aVso it's a self-generating diversity of symbols.
+p260
+aVThey're truly using a kind of deterministic chaos in doing this.
+p261
+aVNow, because it's a binary code,
+p262
+aVyou can actually implement this in hardware \u2014
+p263
+aVwhat a fantastic teaching tool that should be in African engineering schools.
+p264
+aa(lp265
+VAnd the most interesting thing I found out about it was historical.
+p266
+aVIn the 12th century, Hugo of Santalla brought it from Islamic mystics into Spain.
+p267
+aVAnd there it entered into the alchemy community as geomancy:
+p268
+aVdivination through the earth.
+p269
+aVThis is a geomantic chart drawn for King Richard II in 1390.
+p270
+aVLeibniz, the German mathematician,
+p271
+aVtalked about geomancy in his dissertation called "De Combinatoria."
+p272
+aVAnd he said, "Well, instead of using one stroke and two strokes,
+p273
+aVlet's use a one and a zero, and we can count by powers of two."
+p274
+aVRight? Ones and zeros, the binary code.
+p275
+aVGeorge Boole took Leibniz's binary code and created Boolean algebra,
+p276
+aVand John von Neumann took Boolean algebra and created the digital computer.
+p277
+aVSo all these little PDAs and laptops \u2014
+p278
+aVevery digital circuit in the world \u2014 started in Africa.
+p279
+aVAnd I know Brian Eno says there's not enough Africa in computers,
+p280
+aVbut you know, I don't think there's enough African history in Brian Eno.
+p281
+aV(Laughter) (Applause)
+p282
+aa(lp283
+VSo let me end with just a few words about applications that we've found for this.
+p284
+aVAnd you can go to our website,
+p285
+aVthe applets are all free; they just run in the browser.
+p286
+aVAnybody in the world can use them.
+p287
+aVThe National Science Foundation's Broadening Participation in Computing program
+p288
+aVrecently awarded us a grant to make a programmable version of these design tools,
+p289
+aVso hopefully in three years, anybody'll be able to go on the Web
+p290
+aVand create their own simulations and their own artifacts.
+p291
+aVWe've focused in the U.S. on African-American students as well as Native American and Latino.
+p292
+aVWe've found statistically significant improvement with children using this software in a mathematics class
+p293
+aVin comparison with a control group that did not have the software.
+p294
+aVSo it's really very successful teaching children that they have a heritage that's about mathematics,
+p295
+aVthat it's not just about singing and dancing.
+p296
+aVWe've started a pilot program in Ghana.
+p297
+aVWe got a small seed grant, just to see if folks would be willing to work with us on this;
+p298
+aVwe're very excited about the future possibilities for that.
+p299
+aa(lp300
+VWe've also been working in design.
+p301
+aVI didn't put his name up here \u2014 my colleague, Kerry, in Kenya, has come up with this great idea
+p302
+aVfor using fractal structure for postal address in villages that have fractal structure,
+p303
+aVbecause if you try to impose a grid structure postal system on a fractal village,
+p304
+aVit doesn't quite fit.
+p305
+aVBernard Tschumi at Columbia University has finished using this in a design for a museum of African art.
+p306
+aVDavid Hughes at Ohio State University has written a primer on Afrocentric architecture
+p307
+aVin which he's used some of these fractal structures.
+p308
+aa(lp309
+VAnd finally, I just wanted to point out that this idea of self-organization,
+p310
+aVas we heard earlier, it's in the brain.
+p311
+aVIt's in the \u2014 it's in Google's search engine.
+p312
+aVActually, the reason that Google was such a success
+p313
+aVis because they were the first ones to take advantage of the self-organizing properties of the web.
+p314
+aVIt's in ecological sustainability.
+p315
+aVIt's in the developmental power of entrepreneurship,
+p316
+aVthe ethical power of democracy.
+p317
+aVIt's also in some bad things.
+p318
+aVSelf-organization is why the AIDS virus is spreading so fast.
+p319
+aVAnd if you don't think that capitalism, which is self-organizing, can have destructive effects,
+p320
+aVyou haven't opened your eyes enough.
+p321
+aVSo we need to think about, as was spoken earlier,
+p322
+aVthe traditional African methods for doing self-organization.
+p323
+aVThese are robust algorithms.
+p324
+aVThese are ways of doing self-organization \u2014 of doing entrepreneurship \u2014
+p325
+aVthat are gentle, that are egalitarian.
+p326
+aVSo if we want to find a better way of doing that kind of work,
+p327
+aVwe need look only no farther than Africa to find these robust self-organizing algorithms.
+p328
+aVThank you.
+p329
+aasS'transcript_micsec'
+p330
+(lp331
+I12000
+aI61000
+aI96000
+aI123000
+aI174000
+aI202000
+aI250000
+aI307000
+aI369000
+aI397000
+aI418000
+aI450000
+aI485000
+aI527000
+aI558000
+aI580000
+aI650000
+aI705000
+aI781000
+aI845000
+aI907000
+aI940000
+asS'talk_meta'
+p332
+(dp333
+S'ratings'
+p334
+(dp335
+S'ingenious'
+p336
+I412
+sS'beautiful'
+p337
+I319
+sS'inspiring'
+p338
+I365
+sS'ok'
+p339
+I51
+sS'fascinating'
+p340
+I1142
+sS'funny'
+p341
+I73
+sS'total_count'
+p342
+I4238
+sS'persuasive'
+p343
+I103
+sS'longwinded'
+p344
+I19
+sS'informative'
+p345
+I662
+sS'jaw-dropping'
+p346
+I955
+sS'obnoxious'
+p347
+I15
+sS'confusing'
+p348
+I45
+sS'courageous'
+p349
+I39
+sS'unconvincing'
+p350
+I38
+ssS'author'
+p351
+VRon_Eglash;
+p352
+sS'url'
+p353
+S'https://www.ted.com/talks/ron_eglash_on_african_fractals'
+p354
+sS'vidlen'
+p355
+I1017
+sS'totalviews'
+p356
+I1535690
+sS'title'
+p357
+VThe fractals at the heart of African designs
+p358
+sS'downloadlink'
+p359
+Vhttps://download.ted.com/talks/RonEglash_2007G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p360
+sS'datepublished'
+p361
+cdatetime
+datetime
+p362
+(S'\x07\xd7\x0b\x1d\x00\x00\x00\x00\x00\x00'
+tRp363
+sS'datefilmed'
+p364
+g362
+(S'\x07\xd7\x0b\x1d\x00\x00\x00\x00\x00\x00'
+tRp365
+sS'alldata_JSON'
+p366
+S'{"viewed_count": 1535690, "speakers": [{"description": "Mathematician", "firstname": "Ron", "title": "", "lastname": "Eglash", "middleinitial": "", "whylisten": "<p>&quot;Ethno-mathematician&quot; Ron Eglash is the author of <em><a href=\\"http://geni.us/africanfractals\\" target=\\"_blank\\">African Fractals</a>,</em> a book that examines the fractal patterns underpinning architecture, art and design in many parts of Africa. By looking at aerial-view photos -- and then following up with detailed research on the ground -- Eglash discovered that <strong>many African villages are purposely laid out to form perfect fractals</strong>, with self-similar shapes repeated in the rooms of the house, and the house itself, and the clusters of houses in the village, in mathematically predictable patterns. <br /><br />As he puts it: &quot;When Europeans first came to Africa, they considered the architecture very disorganized and thus primitive. It never occurred to them that the <strong>Africans might have been using a form of mathematics that they hadn&#39;t even discovered yet</strong>.&quot; <br /><br />His other areas of study are equally fascinating, including research into African and Native American cybernetics, teaching kids math through <a href=\\"http://www.ccd.rpi.edu/Eglash/csdt/index.html\\" target=\\"_blank\\">culturally specific design tools</a> (such as the <a href=\\"http://www.ccd.rpi.edu/Eglash/csdt/subcult/brdance/index.html\\" target=\\"_blank\\">Virtual Breakdancer</a>  applet, which explores rotation and sine functions), and <strong>race and ethnicity issues in science and technology</strong>. Eglash teaches in the Department of Science and Technology Studies at Rensselaer Polytechnic Institute in New York, and he recently co-edited the book <em><a href=\\"http://geni.us/appropriatingtech\\" target=\\"_blank\\">Appropriating Technology</a></em>, about how we reinvent consumer tech for our own uses. </p><p>&nbsp;</p>", "slug": "ron_eglash", "whotheyare": "Ron Eglash is an ethno-mathematician: he studies the way math and cultures intersect. He has shown that many aspects of African design -- in architecture, art, even hair braiding -- are based on perfect fractal patterns.", "whatotherssay": "Next time you bump into one of those idiots who starts asking you questions like, \'where is the African Mozart, or where is the African Brunel?\' -- implying that Africans do not think -- send them a copy of Ron Eglash\\u2019s study of fractals in African architecture and watch their heads explode.", "id": 142, "photo_url": "https://pe.tedcdn.com/images/ted/21160_254x191.jpg"}], "current_talk": 198, "description": "\'I am a mathematician, and I would like to stand on your roof.\' That is how Ron Eglash greeted many African families he met while researching the fractal patterns he\'d noticed in villages across the continent.", "language": "en", "url": "https://www.ted.com/talks/ron_eglash_on_african_fractals", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RonEglash_2007G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118601428}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RonEglash_2007G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23246221}, "podcast-high": {"uri": "https://download.ted.com/talks/RonEglash_2007G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118559392}, "180k": {"uri": "https://download.ted.com/talks/RonEglash_2007G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23130535}, "64k": {"uri": "https://download.ted.com/talks/RonEglash_2007G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8350864}, "1500k": {"uri": "https://download.ted.com/talks/RonEglash_2007G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 186416392}, "450k": {"uri": "https://download.ted.com/talks/RonEglash_2007G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57304741}, "podcast-regular": {"uri": "https://download.ted.com/talks/RonEglash_2007G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57474997}, "950k": {"uri": "https://download.ted.com/talks/RonEglash_2007G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118446117}, "podcast-light": {"uri": "https://download.ted.com/talks/RonEglash_2007G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8445213}, "320k": {"uri": "https://download.ted.com/talks/RonEglash_2007G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40919815}, "600k": {"uri": "https://download.ted.com/talks/RonEglash_2007G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 76416343}}}, "comments": {"count": 185, "id": 179, "talk_id": 198}, "slug": "ron_eglash_on_african_fractals", "threadId": 179, "talks": [{"event": "TEDGlobal 2007", "player_talks": [{"event": "TEDGlobal 2007", "slug": "ron_eglash_on_african_fractals", "filmed": 1181088000, "targeting": {"event": "TEDGlobal 2007", "tag": "Africa,architecture,culture,design,math,technology", "id": 198, "talk": "ron_eglash_on_african_fractals", "year": "2007"}, "adDuration": "3.33", "external": null, "title": "The fractals at the heart of African designs", "postAdDuration": "0.83", "published": 1196312400, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/a32770a0e2b36504bd93d484e9f5814fb08975b2_2880x1620.jpg?quality=89&w=600", "name": "Ron Eglash: The fractals at the heart of African designs", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "nativeLanguage": "en", "tags": ["Africa", "architecture", "culture", "design", "math", "technology"], "speaker": "Ron Eglash", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1017, "id": 198, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RonEglash_2007G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2007", "tag": "Africa,architecture,culture,design,math,technology", "id": 198, "talk": "ron_eglash_on_african_fractals", "year": "2007"}, "metadata": "https://hls.ted.com/talks/198.json", "stream": "https://hls.ted.com/talks/198.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2007%26id%3D198%26tag%3DAfrica%2Carchitecture%2Cculture%2Cdesign%2Cmath%2Ctechnology%26talk%3Dron_eglash_on_african_fractals%26year%3D2007&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/ron_eglash_on_african_fractals"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/a32770a0e2b36504bd93d484e9f5814fb08975b2_2880x1620.jpg?q=50&w=15", "duration": 1017, "id": 198, "ratings": [{"count": 1142, "id": 22, "name": "Fascinating"}, {"count": 412, "id": 9, "name": "Ingenious"}, {"count": 662, "id": 8, "name": "Informative"}, {"count": 38, "id": 21, "name": "Unconvincing"}, {"count": 19, "id": 11, "name": "Longwinded"}, {"count": 365, "id": 10, "name": "Inspiring"}, {"count": 319, "id": 1, "name": "Beautiful"}, {"count": 73, "id": 7, "name": "Funny"}, {"count": 45, "id": 2, "name": "Confusing"}, {"count": 39, "id": 3, "name": "Courageous"}, {"count": 955, "id": 23, "name": "Jaw-dropping"}, {"count": 103, "id": 24, "name": "Persuasive"}, {"count": 51, "id": 25, "name": "OK"}, {"count": 15, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Mathematician", "firstname": "Ron", "title": "", "lastname": "Eglash", "middleinitial": "", "whylisten": "<p>&quot;Ethno-mathematician&quot; Ron Eglash is the author of <em><a href=\\"http://geni.us/africanfractals\\" target=\\"_blank\\">African Fractals</a>,</em> a book that examines the fractal patterns underpinning architecture, art and design in many parts of Africa. By looking at aerial-view photos -- and then following up with detailed research on the ground -- Eglash discovered that <strong>many African villages are purposely laid out to form perfect fractals</strong>, with self-similar shapes repeated in the rooms of the house, and the house itself, and the clusters of houses in the village, in mathematically predictable patterns. <br /><br />As he puts it: &quot;When Europeans first came to Africa, they considered the architecture very disorganized and thus primitive. It never occurred to them that the <strong>Africans might have been using a form of mathematics that they hadn&#39;t even discovered yet</strong>.&quot; <br /><br />His other areas of study are equally fascinating, including research into African and Native American cybernetics, teaching kids math through <a href=\\"http://www.ccd.rpi.edu/Eglash/csdt/index.html\\" target=\\"_blank\\">culturally specific design tools</a> (such as the <a href=\\"http://www.ccd.rpi.edu/Eglash/csdt/subcult/brdance/index.html\\" target=\\"_blank\\">Virtual Breakdancer</a>  applet, which explores rotation and sine functions), and <strong>race and ethnicity issues in science and technology</strong>. Eglash teaches in the Department of Science and Technology Studies at Rensselaer Polytechnic Institute in New York, and he recently co-edited the book <em><a href=\\"http://geni.us/appropriatingtech\\" target=\\"_blank\\">Appropriating Technology</a></em>, about how we reinvent consumer tech for our own uses. </p><p>&nbsp;</p>", "slug": "ron_eglash", "whotheyare": "Ron Eglash is an ethno-mathematician: he studies the way math and cultures intersect. He has shown that many aspects of African design -- in architecture, art, even hair braiding -- are based on perfect fractal patterns.", "whatotherssay": "Next time you bump into one of those idiots who starts asking you questions like, \'where is the African Mozart, or where is the African Brunel?\' -- implying that Africans do not think -- send them a copy of Ron Eglash\\u2019s study of fractals in African architecture and watch their heads explode.", "id": 142, "photo_url": "https://pe.tedcdn.com/images/ted/21160_254x191.jpg"}], "title": "The fractals at the heart of African designs", "take_action": [], "comments": 179, "more_resources": [{"status": "approved", "publisher": "Rutgers University Press", "start_at": null, "author": "Ron Eglash", "headline": "*African Fractals*", "link_url": "http://www.amazon.com/African-Fractals-Modern-Computing-Indigenous/dp/0813526140/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/1ea68a95d9fe0ad35e4b5b3bdffc9c23db7863af_441x618.jpg", "year": "2002", "type": "book", "blurb": null}, {"status": "approved", "start_at": null, "headline": "The infinite patterns within the pattern", "link_url": "http://csdt.rpi.edu/african/African_Fractals/index.html", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Fascinated by fractals? Find out more about them and how they influence African architecture on Eglash\'s site."}], "hero": "https://pe.tedcdn.com/images/ted/a32770a0e2b36504bd93d484e9f5814fb08975b2_2880x1620.jpg", "description": "\'I am a mathematician, and I would like to stand on your roof.\' That is how Ron Eglash greeted many African families he met while researching the fractal patterns he\'d noticed in villages across the continent.", "tags": ["Africa", "architecture", "culture", "design", "math", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RonEglash_2007G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RonEglash_2007G-low-en.mp4"}, "it": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RonEglash_2007G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RonEglash_2007G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RonEglash_2007G-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RonEglash_2007G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RonEglash_2007G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RonEglash_2007G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RonEglash_2007G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RonEglash_2007G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RonEglash_2007G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RonEglash_2007G-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RonEglash_2007G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RonEglash_2007G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RonEglash_2007G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RonEglash_2007G-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RonEglash_2007G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/RonEglash_2007G-low-da.mp4"}, "hu": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RonEglash_2007G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RonEglash_2007G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RonEglash_2007G-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RonEglash_2007G-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RonEglash_2007G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RonEglash_2007G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RonEglash_2007G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 198, "audioDownload": null}, "related_talks": [{"viewed_count": 4086140, "hero": "https://pe.tedcdn.com/images/ted/d92f868696918847ff95d08e059764a4b1f6e050_1600x1200.jpg", "title": "6 ways mushrooms can save the world", "id": 258, "speaker": "Paul Stamets", "duration": 1064, "slug": "paul_stamets_on_6_ways_mushrooms_can_save_the_world"}, {"viewed_count": 1929475, "hero": "https://pe.tedcdn.com/images/ted/12_480x360.jpg", "title": "Biomimicry\'s surprising lessons from nature\'s engineers", "id": 18, "speaker": "Janine Benyus", "duration": 1399, "slug": "janine_benyus_shares_nature_s_designs"}, {"viewed_count": 2169692, "hero": "https://pe.tedcdn.com/images/ted/48701_480x360.jpg", "title": "The math and magic of origami", "id": 321, "speaker": "Robert Lang", "duration": 953, "slug": "robert_lang_folds_way_new_origami"}, {"viewed_count": 1217406, "hero": "https://pe.tedcdn.com/images/ted/181883_800x600.jpg", "title": "Fractals and the art of roughness", "id": 909, "speaker": "Benoit Mandelbrot", "duration": 1029, "slug": "benoit_mandelbrot_fractals_the_art_of_roughness"}, {"viewed_count": 475373, "hero": "https://pe.tedcdn.com/images/ted/34910_480x360.jpg", "title": "My wish: Find the next Einstein in Africa", "id": 232, "speaker": "Neil Turok", "duration": 1490, "slug": "neil_turok_makes_his_ted_prize_wish"}, {"viewed_count": 1637574, "hero": "https://pe.tedcdn.com/images/ted/4d02262a103b0cb3723737ea154dd9f83ca37003_2880x1620.jpg", "title": "What\'s so sexy about math?", "id": 2518, "speaker": "C\\u00e9dric Villani", "duration": 983, "slug": "cedric_villani_what_s_so_sexy_about_math"}], "recorded_at": "2007-06-06T00:00:00.000+00:00", "slug": "ron_eglash_on_african_fractals", "speaker_name": "Ron Eglash", "viewed_count": 1535690, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2007", "name": "Ron Eglash: The fractals at the heart of African designs"}'
+p367
+sS'keywords'
+p368
+(lp369
+VAfrica
+p370
+aVarchitecture
+p371
+aVculture
+p372
+aVdesign
+p373
+aVmath
+p374
+aVtechnology
+p375
+asS'datecrawled'
+p376
+g362
+(S'\x07\xe1\n\x17\x04\x12\x1e\x08\x02\x0c'
+tRp377
+sS'id'
+p378
+I198
+ss.

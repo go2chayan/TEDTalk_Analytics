@@ -1,0 +1,1062 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VFor the last 10 years, I've been spending my time trying to figure out
+p5
+aVhow and why human beings
+p6
+aVassemble themselves into social networks.
+p7
+aVAnd the kind of social network I'm talking about
+p8
+aVis not the recent online variety,
+p9
+aVbut rather, the kind of social networks
+p10
+aVthat human beings have been assembling for hundreds of thousands of years,
+p11
+aVever since we emerged from the African savannah.
+p12
+aVSo, I form friendships and co-worker
+p13
+aVand sibling and relative relationships with other people
+p14
+aVwho in turn have similar relationships with other people.
+p15
+aVAnd this spreads on out endlessly into a distance.
+p16
+aVAnd you get a network that looks like this.
+p17
+aVEvery dot is a person.
+p18
+aVEvery line between them is a relationship between two people \u2014
+p19
+aVdifferent kinds of relationships.
+p20
+aVAnd you can get this kind of vast fabric of humanity,
+p21
+aVin which we're all embedded.
+p22
+aa(lp23
+VAnd my colleague, James Fowler and I have been studying for quite sometime
+p24
+aVwhat are the mathematical, social,
+p25
+aVbiological and psychological rules
+p26
+aVthat govern how these networks are assembled
+p27
+aVand what are the similar rules
+p28
+aVthat govern how they operate, how they affect our lives.
+p29
+aVBut recently, we've been wondering
+p30
+aVwhether it might be possible to take advantage of this insight,
+p31
+aVto actually find ways to improve the world,
+p32
+aVto do something better,
+p33
+aVto actually fix things, not just understand things.
+p34
+aVSo one of the first things we thought we would tackle
+p35
+aVwould be how we go about predicting epidemics.
+p36
+aa(lp37
+VAnd the current state of the art in predicting an epidemic \u2014
+p38
+aVif you're the CDC or some other national body \u2014
+p39
+aVis to sit in the middle where you are
+p40
+aVand collect data
+p41
+aVfrom physicians and laboratories in the field
+p42
+aVthat report the prevalence or the incidence of certain conditions.
+p43
+aVSo, so and so patients have been diagnosed with something,
+p44
+aVor other patients have been diagnosed,
+p45
+aVand all these data are fed into a central repository, with some delay.
+p46
+aVAnd if everything goes smoothly,
+p47
+aVone to two weeks from now
+p48
+aVyou'll know where the epidemic was today.
+p49
+aVAnd actually, about a year or so ago,
+p50
+aVthere was this promulgation
+p51
+aVof the idea of Google Flu Trends, with respect to the flu,
+p52
+aVwhere by looking at people's searching behavior today,
+p53
+aVwe could know where the flu \u2014
+p54
+aVwhat the status of the epidemic was today,
+p55
+aVwhat's the prevalence of the epidemic today.
+p56
+aa(lp57
+VBut what I'd like to show you today
+p58
+aVis a means by which we might get
+p59
+aVnot just rapid warning about an epidemic,
+p60
+aVbut also actually
+p61
+aVearly detection of an epidemic.
+p62
+aVAnd, in fact, this idea can be used
+p63
+aVnot just to predict epidemics of germs,
+p64
+aVbut also to predict epidemics of all sorts of kinds.
+p65
+aVFor example, anything that spreads by a form of social contagion
+p66
+aVcould be understood in this way,
+p67
+aVfrom abstract ideas on the left
+p68
+aVlike patriotism, or altruism, or religion
+p69
+aVto practices
+p70
+aVlike dieting behavior, or book purchasing,
+p71
+aVor drinking, or bicycle-helmet [and] other safety practices,
+p72
+aVor products that people might buy,
+p73
+aVpurchases of electronic goods,
+p74
+aVanything in which there's kind of an interpersonal spread.
+p75
+aVA kind of a diffusion of innovation
+p76
+aVcould be understood and predicted
+p77
+aVby the mechanism I'm going to show you now.
+p78
+aa(lp79
+VSo, as all of you probably know,
+p80
+aVthe classic way of thinking about this
+p81
+aVis the diffusion-of-innovation,
+p82
+aVor the adoption curve.
+p83
+aVSo here on the Y-axis, we have the percent of the people affected,
+p84
+aVand on the X-axis, we have time.
+p85
+aVAnd at the very beginning, not too many people are affected,
+p86
+aVand you get this classic sigmoidal,
+p87
+aVor S-shaped, curve.
+p88
+aVAnd the reason for this shape is that at the very beginning,
+p89
+aVlet's say one or two people
+p90
+aVare infected, or affected by the thing
+p91
+aVand then they affect, or infect, two people,
+p92
+aVwho in turn affect four, eight, 16 and so forth,
+p93
+aVand you get the epidemic growth phase of the curve.
+p94
+aVAnd eventually, you saturate the population.
+p95
+aVThere are fewer and fewer people
+p96
+aVwho are still available that you might infect,
+p97
+aVand then you get the plateau of the curve,
+p98
+aVand you get this classic sigmoidal curve.
+p99
+aVAnd this holds for germs, ideas,
+p100
+aVproduct adoption, behaviors,
+p101
+aVand the like.
+p102
+aVBut things don't just diffuse in human populations at random.
+p103
+aVThey actually diffuse through networks.
+p104
+aVBecause, as I said, we live our lives in networks,
+p105
+aVand these networks have a particular kind of a structure.
+p106
+aa(lp107
+VNow if you look at a network like this \u2014
+p108
+aVthis is 105 people.
+p109
+aVAnd the lines represent \u2014 the dots are the people,
+p110
+aVand the lines represent friendship relationships.
+p111
+aVYou might see that people occupy
+p112
+aVdifferent locations within the network.
+p113
+aVAnd there are different kinds of relationships between the people.
+p114
+aVYou could have friendship relationships, sibling relationships,
+p115
+aVspousal relationships, co-worker relationships,
+p116
+aVneighbor relationships and the like.
+p117
+aVAnd different sorts of things
+p118
+aVspread across different sorts of ties.
+p119
+aVFor instance, sexually transmitted diseases
+p120
+aVwill spread across sexual ties.
+p121
+aVOr, for instance, people's smoking behavior
+p122
+aVmight be influenced by their friends.
+p123
+aVOr their altruistic or their charitable giving behavior
+p124
+aVmight be influenced by their coworkers,
+p125
+aVor by their neighbors.
+p126
+aVBut not all positions in the network are the same.
+p127
+aa(lp128
+VSo if you look at this, you might immediately grasp
+p129
+aVthat different people have different numbers of connections.
+p130
+aVSome people have one connection, some have two,
+p131
+aVsome have six, some have 10 connections.
+p132
+aVAnd this is called the "degree" of a node,
+p133
+aVor the number of connections that a node has.
+p134
+aVBut in addition, there's something else.
+p135
+aVSo, if you look at nodes A and B,
+p136
+aVthey both have six connections.
+p137
+aVBut if you can see this image [of the network] from a bird's eye view,
+p138
+aVyou can appreciate that there's something very different
+p139
+aVabout nodes A and B.
+p140
+aVSo, let me ask you this \u2014 I can cultivate this intuition by asking a question \u2014
+p141
+aVwho would you rather be
+p142
+aVif a deadly germ was spreading through the network, A or B?
+p143
+aV(Audience: B.) Nicholas Christakis: B, it's obvious.
+p144
+aVB is located on the edge of the network.
+p145
+aVNow, who would you rather be
+p146
+aVif a juicy piece of gossip were spreading through the network?
+p147
+aVA. And you have an immediate appreciation
+p148
+aVthat A is going to be more likely
+p149
+aVto get the thing that's spreading and to get it sooner
+p150
+aVby virtue of their structural location within the network.
+p151
+aVA, in fact, is more central,
+p152
+aVand this can be formalized mathematically.
+p153
+aVSo, if we want to track something
+p154
+aVthat was spreading through a network,
+p155
+aVwhat we ideally would like to do is to set up sensors
+p156
+aVon the central individuals within the network,
+p157
+aVincluding node A,
+p158
+aVmonitor those people that are right there in the middle of the network,
+p159
+aVand somehow get an early detection
+p160
+aVof whatever it is that is spreading through the network.
+p161
+aa(lp162
+VSo if you saw them contract a germ or a piece of information,
+p163
+aVyou would know that, soon enough,
+p164
+aVeverybody was about to contract this germ
+p165
+aVor this piece of information.
+p166
+aVAnd this would be much better
+p167
+aVthan monitoring six randomly chosen people,
+p168
+aVwithout reference to the structure of the population.
+p169
+aVAnd in fact, if you could do that,
+p170
+aVwhat you would see is something like this.
+p171
+aVOn the left-hand panel, again, we have the S-shaped curve of adoption.
+p172
+aVIn the dotted red line, we show
+p173
+aVwhat the adoption would be in the random people,
+p174
+aVand in the left-hand line, shifted to the left,
+p175
+aVwe show what the adoption would be
+p176
+aVin the central individuals within the network.
+p177
+aVOn the Y-axis is the cumulative instances of contagion,
+p178
+aVand on the X-axis is the time.
+p179
+aVAnd on the right-hand side, we show the same data,
+p180
+aVbut here with daily incidence.
+p181
+aVAnd what we show here is \u2014 like, here \u2014
+p182
+aVvery few people are affected, more and more and more and up to here,
+p183
+aVand here's the peak of the epidemic.
+p184
+aVBut shifted to the left is what's occurring in the central individuals.
+p185
+aVAnd this difference in time between the two
+p186
+aVis the early detection, the early warning we can get,
+p187
+aVabout an impending epidemic
+p188
+aVin the human population.
+p189
+aa(lp190
+VThe problem, however,
+p191
+aVis that mapping human social networks
+p192
+aVis not always possible.
+p193
+aVIt can be expensive, not feasible,
+p194
+aVunethical,
+p195
+aVor, frankly, just not possible to do such a thing.
+p196
+aVSo, how can we figure out
+p197
+aVwho the central people are in a network
+p198
+aVwithout actually mapping the network?
+p199
+aVWhat we came up with
+p200
+aVwas an idea to exploit an old fact,
+p201
+aVor a known fact, about social networks,
+p202
+aVwhich goes like this:
+p203
+aVDo you know that your friends
+p204
+aVhave more friends than you do?
+p205
+aVYour friends have more friends than you do,
+p206
+aVand this is known as the friendship paradox.
+p207
+aVImagine a very popular person in the social network \u2014
+p208
+aVlike a party host who has hundreds of friends \u2014
+p209
+aVand a misanthrope who has just one friend,
+p210
+aVand you pick someone at random from the population;
+p211
+aVthey were much more likely to know the party host.
+p212
+aVAnd if they nominate the party host as their friend,
+p213
+aVthat party host has a hundred friends,
+p214
+aVtherefore, has more friends than they do.
+p215
+aVAnd this, in essence, is what's known as the friendship paradox.
+p216
+aVThe friends of randomly chosen people
+p217
+aVhave higher degree, and are more central
+p218
+aVthan the random people themselves.
+p219
+aa(lp220
+VAnd you can get an intuitive appreciation for this
+p221
+aVif you imagine just the people at the perimeter of the network.
+p222
+aVIf you pick this person,
+p223
+aVthe only friend they have to nominate is this person,
+p224
+aVwho, by construction, must have at least two
+p225
+aVand typically more friends.
+p226
+aVAnd that happens at every peripheral node.
+p227
+aVAnd in fact, it happens throughout the network as you move in,
+p228
+aVeveryone you pick, when they nominate a random \u2014
+p229
+aVwhen a random person nominates a friend of theirs,
+p230
+aVyou move closer to the center of the network.
+p231
+aVSo, we thought we would exploit this idea
+p232
+aVin order to study whether we could predict phenomena within networks.
+p233
+aVBecause now, with this idea
+p234
+aVwe can take a random sample of people,
+p235
+aVhave them nominate their friends,
+p236
+aVthose friends would be more central,
+p237
+aVand we could do this without having to map the network.
+p238
+aa(lp239
+VAnd we tested this idea with an outbreak of H1N1 flu
+p240
+aVat Harvard College
+p241
+aVin the fall and winter of 2009, just a few months ago.
+p242
+aVWe took 1,300 randomly selected undergraduates,
+p243
+aVwe had them nominate their friends,
+p244
+aVand we followed both the random students and their friends
+p245
+aVdaily in time
+p246
+aVto see whether or not they had the flu epidemic.
+p247
+aVAnd we did this passively by looking at whether or not they'd gone to university health services.
+p248
+aVAnd also, we had them [actively] email us a couple of times a week.
+p249
+aVExactly what we predicted happened.
+p250
+aVSo the random group is in the red line.
+p251
+aVThe epidemic in the friends group has shifted to the left, over here.
+p252
+aVAnd the difference in the two is 16 days.
+p253
+aVBy monitoring the friends group,
+p254
+aVwe could get 16 days advance warning
+p255
+aVof an impending epidemic in this human population.
+p256
+aa(lp257
+VNow, in addition to that,
+p258
+aVif you were an analyst who was trying to study an epidemic
+p259
+aVor to predict the adoption of a product, for example,
+p260
+aVwhat you could do is you could pick a random sample of the population,
+p261
+aValso have them nominate their friends and follow the friends
+p262
+aVand follow both the randoms and the friends.
+p263
+aVAmong the friends, the first evidence you saw of a blip above zero
+p264
+aVin adoption of the innovation, for example,
+p265
+aVwould be evidence of an impending epidemic.
+p266
+aVOr you could see the first time the two curves diverged,
+p267
+aVas shown on the left.
+p268
+aVWhen did the randoms \u2014 when did the friends take off
+p269
+aVand leave the randoms,
+p270
+aVand [when did] their curve start shifting?
+p271
+aVAnd that, as indicated by the white line,
+p272
+aVoccurred 46 days
+p273
+aVbefore the peak of the epidemic.
+p274
+aVSo this would be a technique
+p275
+aVwhereby we could get more than a month-and-a-half warning
+p276
+aVabout a flu epidemic in a particular population.
+p277
+aa(lp278
+VI should say that
+p279
+aVhow far advanced a notice one might get about something
+p280
+aVdepends on a host of factors.
+p281
+aVIt could depend on the nature of the pathogen \u2014
+p282
+aVdifferent pathogens,
+p283
+aVusing this technique, you'd get different warning \u2014
+p284
+aVor other phenomena that are spreading,
+p285
+aVor frankly, on the structure of the human network.
+p286
+aVNow in our case, although it wasn't necessary,
+p287
+aVwe could also actually map the network of the students.
+p288
+aa(lp289
+VSo, this is a map of 714 students
+p290
+aVand their friendship ties.
+p291
+aVAnd in a minute now, I'm going to put this map into motion.
+p292
+aVWe're going to take daily cuts through the network
+p293
+aVfor 120 days.
+p294
+aVThe red dots are going to be cases of the flu,
+p295
+aVand the yellow dots are going to be friends of the people with the flu.
+p296
+aVAnd the size of the dots is going to be proportional
+p297
+aVto how many of their friends have the flu.
+p298
+aVSo bigger dots mean more of your friends have the flu.
+p299
+aVAnd if you look at this image \u2014 here we are now in September the 13th \u2014
+p300
+aVyou're going to see a few cases light up.
+p301
+aVYou're going to see kind of blooming of the flu in the middle.
+p302
+aVHere we are on October the 19th.
+p303
+aVThe slope of the epidemic curve is approaching now, in November.
+p304
+aVBang, bang, bang, bang, bang \u2014 you're going to see lots of blooming in the middle,
+p305
+aVand then you're going to see a sort of leveling off,
+p306
+aVfewer and fewer cases towards the end of December.
+p307
+aVAnd this type of a visualization
+p308
+aVcan show that epidemics like this take root
+p309
+aVand affect central individuals first,
+p310
+aVbefore they affect others.
+p311
+aa(lp312
+VNow, as I've been suggesting,
+p313
+aVthis method is not restricted to germs,
+p314
+aVbut actually to anything that spreads in populations.
+p315
+aVInformation spreads in populations,
+p316
+aVnorms can spread in populations,
+p317
+aVbehaviors can spread in populations.
+p318
+aVAnd by behaviors, I can mean things like criminal behavior,
+p319
+aVor voting behavior, or health care behavior,
+p320
+aVlike smoking, or vaccination,
+p321
+aVor product adoption, or other kinds of behaviors
+p322
+aVthat relate to interpersonal influence.
+p323
+aVIf I'm likely to do something that affects others around me,
+p324
+aVthis technique can get early warning or early detection
+p325
+aVabout the adoption within the population.
+p326
+aVThe key thing is that for it to work,
+p327
+aVthere has to be interpersonal influence.
+p328
+aVIt cannot be because of some broadcast mechanism
+p329
+aVaffecting everyone uniformly.
+p330
+aa(lp331
+VNow the same insights
+p332
+aVcan also be exploited \u2014 with respect to networks \u2014
+p333
+aVcan also be exploited in other ways,
+p334
+aVfor example, in the use of targeting
+p335
+aVspecific people for interventions.
+p336
+aVSo, for example, most of you are probably familiar
+p337
+aVwith the notion of herd immunity.
+p338
+aVSo, if we have a population of a thousand people,
+p339
+aVand we want to make the population immune to a pathogen,
+p340
+aVwe don't have to immunize every single person.
+p341
+aVIf we immunize 960 of them,
+p342
+aVit's as if we had immunized a hundred [percent] of them.
+p343
+aVBecause even if one or two of the non-immune people gets infected,
+p344
+aVthere's no one for them to infect.
+p345
+aVThey are surrounded by immunized people.
+p346
+aVSo 96 percent is as good as 100 percent.
+p347
+aVWell, some other scientists have estimated
+p348
+aVwhat would happen if you took a 30 percent random sample
+p349
+aVof these 1000 people, 300 people and immunized them.
+p350
+aVWould you get any population-level immunity?
+p351
+aVAnd the answer is no.
+p352
+aVBut if you took this 30 percent, these 300 people
+p353
+aVand had them nominate their friends
+p354
+aVand took the same number of vaccine doses
+p355
+aVand vaccinated the friends of the 300 \u2014
+p356
+aVthe 300 friends \u2014
+p357
+aVyou can get the same level of herd immunity
+p358
+aVas if you had vaccinated 96 percent of the population
+p359
+aVat a much greater efficiency, with a strict budget constraint.
+p360
+aa(lp361
+VAnd similar ideas can be used, for instance,
+p362
+aVto target distribution of things like bed nets
+p363
+aVin the developing world.
+p364
+aVIf we could understand the structure of networks in villages,
+p365
+aVwe could target to whom to give the interventions
+p366
+aVto foster these kinds of spreads.
+p367
+aVOr, frankly, for advertising with all kinds of products.
+p368
+aVIf we could understand how to target,
+p369
+aVit could affect the efficiency
+p370
+aVof what we're trying to achieve.
+p371
+aVAnd in fact, we can use data
+p372
+aVfrom all kinds of sources nowadays [to do this].
+p373
+aa(lp374
+VThis is a map of eight million phone users
+p375
+aVin a European country.
+p376
+aVEvery dot is a person, and every line represents
+p377
+aVa volume of calls between the people.
+p378
+aVAnd we can use such data, that's being passively obtained,
+p379
+aVto map these whole countries
+p380
+aVand understand who is located where within the network.
+p381
+aVWithout actually having to query them at all,
+p382
+aVwe can get this kind of a structural insight.
+p383
+aVAnd other sources of information, as you're no doubt aware
+p384
+aVare available about such features, from email interactions,
+p385
+aVonline interactions,
+p386
+aVonline social networks and so forth.
+p387
+aVAnd in fact, we are in the era of what I would call
+p388
+aV"massive-passive" data collection efforts.
+p389
+aVThey're all kinds of ways we can use massively collected data
+p390
+aVto create sensor networks
+p391
+aVto follow the population,
+p392
+aVunderstand what's happening in the population,
+p393
+aVand intervene in the population for the better.
+p394
+aVBecause these new technologies tell us
+p395
+aVnot just who is talking to whom,
+p396
+aVbut where everyone is,
+p397
+aVand what they're thinking based on what they're uploading on the Internet,
+p398
+aVand what they're buying based on their purchases.
+p399
+aVAnd all this administrative data can be pulled together
+p400
+aVand processed to understand human behavior
+p401
+aVin a way we never could before.
+p402
+aa(lp403
+VSo, for example, we could use truckers' purchases of fuel.
+p404
+aVSo the truckers are just going about their business,
+p405
+aVand they're buying fuel.
+p406
+aVAnd we see a blip up in the truckers' purchases of fuel,
+p407
+aVand we know that a recession is about to end.
+p408
+aVOr we can monitor the velocity
+p409
+aVwith which people are moving with their phones on a highway,
+p410
+aVand the phone company can see,
+p411
+aVas the velocity is slowing down,
+p412
+aVthat there's a traffic jam.
+p413
+aVAnd they can feed that information back to their subscribers,
+p414
+aVbut only to their subscribers on the same highway
+p415
+aVlocated behind the traffic jam!
+p416
+aVOr we can monitor doctors prescribing behaviors, passively,
+p417
+aVand see how the diffusion of innovation with pharmaceuticals
+p418
+aVoccurs within [networks of] doctors.
+p419
+aVOr again, we can monitor purchasing behavior in people
+p420
+aVand watch how these types of phenomena
+p421
+aVcan diffuse within human populations.
+p422
+aa(lp423
+VAnd there are three ways, I think,
+p424
+aVthat these massive-passive data can be used.
+p425
+aVOne is fully passive,
+p426
+aVlike I just described \u2014
+p427
+aVas in, for instance, the trucker example,
+p428
+aVwhere we don't actually intervene in the population in any way.
+p429
+aVOne is quasi-active,
+p430
+aVlike the flu example I gave,
+p431
+aVwhere we get some people to nominate their friends
+p432
+aVand then passively monitor their friends \u2014
+p433
+aVdo they have the flu, or not? \u2014 and then get warning.
+p434
+aVOr another example would be,
+p435
+aVif you're a phone company, you figure out who's central in the network
+p436
+aVand you ask those people, "Look, will you just text us your fever every day?
+p437
+aVJust text us your temperature."
+p438
+aVAnd collect vast amounts of information about people's temperature,
+p439
+aVbut from centrally located individuals.
+p440
+aVAnd be able, on a large scale,
+p441
+aVto monitor an impending epidemic
+p442
+aVwith very minimal input from people.
+p443
+aVOr, finally, it can be more fully active \u2014
+p444
+aVas I know subsequent speakers will also talk about today \u2014
+p445
+aVwhere people might globally participate in wikis,
+p446
+aVor photographing, or monitoring elections,
+p447
+aVand upload information in a way that allows us to pool
+p448
+aVinformation in order to understand social processes
+p449
+aVand social phenomena.
+p450
+aa(lp451
+VIn fact, the availability of these data, I think,
+p452
+aVheralds a kind of new era
+p453
+aVof what I and others would like to call
+p454
+aV"computational social science."
+p455
+aVIt's sort of like when Galileo invented \u2014 or, didn't invent \u2014
+p456
+aVcame to use a telescope
+p457
+aVand could see the heavens in a new way,
+p458
+aVor Leeuwenhoek became aware of the microscope \u2014
+p459
+aVor actually invented \u2014
+p460
+aVand could see biology in a new way.
+p461
+aVBut now we have access to these kinds of data
+p462
+aVthat allow us to understand social processes
+p463
+aVand social phenomena
+p464
+aVin an entirely new way that was never before possible.
+p465
+aVAnd with this science, we can
+p466
+aVunderstand how exactly
+p467
+aVthe whole comes to be greater
+p468
+aVthan the sum of its parts.
+p469
+aVAnd actually, we can use these insights
+p470
+aVto improve society and improve human well-being.
+p471
+aa(lp472
+VThank you.
+p473
+aasS'transcript_micsec'
+p474
+(lp475
+I11000
+aI54000
+aI87000
+aI133000
+aI184000
+aI245000
+aI289000
+aI368000
+aI428000
+aI495000
+aI539000
+aI584000
+aI634000
+aI656000
+aI707000
+aI751000
+aI821000
+aI847000
+aI915000
+aI960000
+aI1019000
+aI1062000
+asS'talk_meta'
+p476
+(dp477
+S'ratings'
+p478
+(dp479
+S'ingenious'
+p480
+I172
+sS'beautiful'
+p481
+I8
+sS'inspiring'
+p482
+I99
+sS'ok'
+p483
+I47
+sS'fascinating'
+p484
+I230
+sS'funny'
+p485
+I5
+sS'total_count'
+p486
+I1142
+sS'persuasive'
+p487
+I124
+sS'longwinded'
+p488
+I39
+sS'informative'
+p489
+I307
+sS'jaw-dropping'
+p490
+I43
+sS'obnoxious'
+p491
+I10
+sS'confusing'
+p492
+I19
+sS'courageous'
+p493
+I7
+sS'unconvincing'
+p494
+I32
+ssS'author'
+p495
+VNicholas_Christakis;
+p496
+sS'url'
+p497
+S'https://www.ted.com/talks/nicholas_christakis_how_social_networks_predict_epidemics'
+p498
+sS'vidlen'
+p499
+I1074
+sS'totalviews'
+p500
+I571406
+sS'title'
+p501
+VHow social networks predict epidemics
+p502
+sS'downloadlink'
+p503
+Vhttps://download.ted.com/talks/NicholasChristakis_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p504
+sS'datepublished'
+p505
+cdatetime
+datetime
+p506
+(S'\x07\xda\t\x10\x047\x00\x00\x00\x00'
+tRp507
+sS'datefilmed'
+p508
+g506
+(S'\x07\xda\t\x10\x047\x00\x00\x00\x00'
+tRp509
+sS'alldata_JSON'
+p510
+S'{"viewed_count": 571406, "speakers": [{"description": "Physician, social scientist", "firstname": "Nicholas", "title": "", "lastname": "Christakis", "middleinitial": "", "whylisten": "<p>People aren&#39;t merely social animals in the usual sense, for we don&#39;t just live in groups. We live in networks -- and we have done so ever since we emerged from the African savannah. Via intricately branching paths tracing out cascading family connections, friendship ties, and work relationships, we are interconnected to hundreds or even thousands of specific people, most of whom we do not know. We affect them and they affect us.   </p><p>Nicholas Christakis&#39; work examines the biological, psychological, sociological, and mathematical rules that govern how we form these social networks, and the rules that govern how they shape our lives. His work shows how phenomena as diverse as obesity, smoking, emotions, ideas, germs, and altruism can spread through our social ties, and how genes can partially underlie our creation of social ties to begin with. His work also sheds light on how we might take advantage of an understanding of social networks to make the world a better place.</p><p>At Yale, Christakis is a Professor of Social and Natural Science, and he directs a <a href=\\"http://WWW.HumanNatureLab.net\\" target=\\"_blank\\">diverse research group in the field of biosocial science, primarily investigating social networks</a>. His popular undergraduate course &quot;Health of the Public&quot; is available <a href=\\"http://www.nicholaschristakis.net/pages/teaching/teaching.html\\" target=\\"_blank\\">as a podcast</a>. His book, <a href=\\"http://www.connectedthebook.com\\" target=\\"_blank\\">Connected</a>, co-authored with James H. Fowler, appeared in 2009, and has been translated into 20 languages. In 2009, he was named by <em>Time</em> magazine to its annual list of the 100 most influential people in the world, and also, in 2009 and 2010, by <em>Foreign Policy</em> magazine to its list of 100 top global thinkers </p>", "slug": "nicholas_christakis", "whotheyare": "Nicholas Christakis explores how the large-scale, face-to-face social networks in which we are embedded affect our lives, and what we can do to take advantage of this fact.", "whatotherssay": "\'Connected\' is [in the category of] works of brilliant originality that stimulate and enlighten and can sometimes even change the way we understand the world", "id": 599, "photo_url": "https://pe.tedcdn.com/images/ted/169818_254x191.jpg"}], "current_talk": 958, "description": "After mapping humans\' intricate social networks, Nicholas Christakis and colleague James Fowler began investigating how this information could better our lives. Now, he reveals his hot-off-the-press findings: These networks can be used to detect epidemics earlier than ever, from the spread of innovative ideas to risky behaviors to viruses (like H1N1).", "language": "en", "url": "https://www.ted.com/talks/nicholas_christakis_how_social_networks_predict_epidemics", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124798951}, "podcast-low-en": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24604720}, "podcast-high": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 125206012}, "180k": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24342549}, "64k": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8776931}, "1500k": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 195808964}, "450k": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60672810}, "podcast-regular": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60960448}, "950k": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124794783}, "podcast-light": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8914277}, "320k": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43131047}, "600k": {"uri": "https://download.ted.com/talks/NicholasChristakis_2010S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 81077632}}}, "comments": {"count": 125, "id": 787, "talk_id": 958}, "slug": "nicholas_christakis_how_social_networks_predict_epidemics", "threadId": 787, "talks": [{"event": "TED@Cannes", "player_talks": [{"event": "TED@Cannes", "slug": "nicholas_christakis_how_social_networks_predict_epidemics", "filmed": 1277078400, "targeting": {"event": "TED@Cannes", "tag": "friendship,health,humanity,medicine,meme,science,society", "id": 958, "talk": "nicholas_christakis_how_social_networks_predict_epidemics", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "How social networks predict epidemics", "postAdDuration": "0.83", "published": 1284627300, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/199262_800x600.jpg?quality=89&w=600", "name": "Nicholas Christakis: How social networks predict epidemics", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["friendship", "health", "humanity", "medicine", "meme", "science", "society"], "speaker": "Nicholas Christakis", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1074, "id": 958, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/NicholasChristakis_2010S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED@Cannes", "tag": "friendship,health,humanity,medicine,meme,science,society", "id": 958, "talk": "nicholas_christakis_how_social_networks_predict_epidemics", "year": "2010"}, "metadata": "https://hls.ted.com/talks/958.json", "stream": "https://hls.ted.com/talks/958.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%40Cannes%26id%3D958%26tag%3Dfriendship%2Chealth%2Chumanity%2Cmedicine%2Cmeme%2Cscience%2Csociety%26talk%3Dnicholas_christakis_how_social_networks_predict_epidemics%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/nicholas_christakis_how_social_networks_predict_epidemics"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/199262_800x600.jpg?q=50&w=15", "duration": 1074, "id": 958, "ratings": [{"count": 47, "id": 25, "name": "OK"}, {"count": 124, "id": 24, "name": "Persuasive"}, {"count": 230, "id": 22, "name": "Fascinating"}, {"count": 307, "id": 8, "name": "Informative"}, {"count": 99, "id": 10, "name": "Inspiring"}, {"count": 172, "id": 9, "name": "Ingenious"}, {"count": 8, "id": 1, "name": "Beautiful"}, {"count": 39, "id": 11, "name": "Longwinded"}, {"count": 43, "id": 23, "name": "Jaw-dropping"}, {"count": 32, "id": 21, "name": "Unconvincing"}, {"count": 10, "id": 26, "name": "Obnoxious"}, {"count": 19, "id": 2, "name": "Confusing"}, {"count": 5, "id": 7, "name": "Funny"}, {"count": 7, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Physician, social scientist", "firstname": "Nicholas", "title": "", "lastname": "Christakis", "middleinitial": "", "whylisten": "<p>People aren&#39;t merely social animals in the usual sense, for we don&#39;t just live in groups. We live in networks -- and we have done so ever since we emerged from the African savannah. Via intricately branching paths tracing out cascading family connections, friendship ties, and work relationships, we are interconnected to hundreds or even thousands of specific people, most of whom we do not know. We affect them and they affect us.   </p><p>Nicholas Christakis&#39; work examines the biological, psychological, sociological, and mathematical rules that govern how we form these social networks, and the rules that govern how they shape our lives. His work shows how phenomena as diverse as obesity, smoking, emotions, ideas, germs, and altruism can spread through our social ties, and how genes can partially underlie our creation of social ties to begin with. His work also sheds light on how we might take advantage of an understanding of social networks to make the world a better place.</p><p>At Yale, Christakis is a Professor of Social and Natural Science, and he directs a <a href=\\"http://WWW.HumanNatureLab.net\\" target=\\"_blank\\">diverse research group in the field of biosocial science, primarily investigating social networks</a>. His popular undergraduate course &quot;Health of the Public&quot; is available <a href=\\"http://www.nicholaschristakis.net/pages/teaching/teaching.html\\" target=\\"_blank\\">as a podcast</a>. His book, <a href=\\"http://www.connectedthebook.com\\" target=\\"_blank\\">Connected</a>, co-authored with James H. Fowler, appeared in 2009, and has been translated into 20 languages. In 2009, he was named by <em>Time</em> magazine to its annual list of the 100 most influential people in the world, and also, in 2009 and 2010, by <em>Foreign Policy</em> magazine to its list of 100 top global thinkers </p>", "slug": "nicholas_christakis", "whotheyare": "Nicholas Christakis explores how the large-scale, face-to-face social networks in which we are embedded affect our lives, and what we can do to take advantage of this fact.", "whatotherssay": "\'Connected\' is [in the category of] works of brilliant originality that stimulate and enlighten and can sometimes even change the way we understand the world", "id": 599, "photo_url": "https://pe.tedcdn.com/images/ted/169818_254x191.jpg"}], "title": "How social networks predict epidemics", "take_action": null, "comments": 787, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/199262_800x600.jpg", "description": "After mapping humans\' intricate social networks, Nicholas Christakis and colleague James Fowler began investigating how this information could better our lives. Now, he reveals his hot-off-the-press findings: These networks can be used to detect epidemics earlier than ever, from the spread of innovative ideas to risky behaviors to viruses (like H1N1).", "tags": ["friendship", "health", "humanity", "medicine", "meme", "science", "society"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-bg.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-fr-ca.mp4"}, "de": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-low-sv.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/NicholasChristakis_2010S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/NicholasChristakis_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/NicholasChristakis_2010S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 958, "audioDownload": null}, "related_talks": [{"viewed_count": 1339641, "hero": "https://pe.tedcdn.com/images/ted/169816_800x600.jpg", "title": "The hidden influence of social networks", "id": 852, "speaker": "Nicholas Christakis", "duration": 1259, "slug": "nicholas_christakis_the_hidden_influence_of_social_networks"}, {"viewed_count": 1603994, "hero": "https://pe.tedcdn.com/images/ted/6348_480x360.jpg", "title": "Dangerous memes", "id": 116, "speaker": "Dan Dennett", "duration": 926, "slug": "dan_dennett_on_dangerous_memes"}, {"viewed_count": 427189, "hero": "https://pe.tedcdn.com/images/ted/86528_800x600.jpg", "title": "Lessons from the 1918 flu", "id": 529, "speaker": "Laurie Garrett", "duration": 1265, "slug": "laurie_garrett_on_lessons_from_the_1918_flu"}, {"viewed_count": 2542849, "hero": "https://pe.tedcdn.com/images/ted/2a46d8d424ce31486b5ebb8278ade834cd6aefe7_1600x1200.jpg", "title": "Who controls the world?", "id": 1668, "speaker": "James B. Glattfelder", "duration": 850, "slug": "james_b_glattfelder_who_controls_the_world"}, {"viewed_count": 1717815, "hero": "https://pe.tedcdn.com/images/ted/9e003b0a822daba702608136e73f7be001b6b2f2_2880x1620.jpg", "title": "A visual history of human knowledge", "id": 2296, "speaker": "Manuel Lima", "duration": 769, "slug": "manuel_lima_a_visual_history_of_human_knowledge"}, {"viewed_count": 736801, "hero": "https://pe.tedcdn.com/images/ted/57e4481744417c9faab785aa78617808665b7025_1600x1200.jpg", "title": "Let\'s treat violence like a contagious disease", "id": 1840, "speaker": "Gary Slutkin", "duration": 848, "slug": "gary_slutkin_let_s_treat_violence_like_a_contagious_disease"}], "recorded_at": "2010-06-21T00:00:00.000+00:00", "slug": "nicholas_christakis_how_social_networks_predict_epidemics", "speaker_name": "Nicholas Christakis", "viewed_count": 571406, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED@Cannes", "name": "Nicholas Christakis: How social networks predict epidemics"}'
+p511
+sS'keywords'
+p512
+(lp513
+Vfriendship
+p514
+aVhealth
+p515
+aVhumanity
+p516
+aVmedicine
+p517
+aVmeme
+p518
+aVscience
+p519
+aVsociety
+p520
+asS'datecrawled'
+p521
+g506
+(S'\x07\xe1\n\x17\x01\t&\r\x07\xb1'
+tRp522
+sS'id'
+p523
+I958
+ss.

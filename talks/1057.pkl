@@ -1,0 +1,988 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI will start by posing a little bit of a challenge:
+p5
+aVthe challenge of dealing with data,
+p6
+aVdata that we have to deal with
+p7
+aVin medical situations.
+p8
+aVIt's really a huge challenge for us.
+p9
+aVAnd this is our beast of burden \u2014
+p10
+aVthis is a Computer Tomography machine,
+p11
+aVa CT machine.
+p12
+aVIt's a fantastic device.
+p13
+aVIt uses X-rays, X-ray beams,
+p14
+aVthat are rotating very fast around the human body.
+p15
+aVIt takes about 30 seconds to go through the whole machine
+p16
+aVand is generating enormous amounts of information
+p17
+aVthat comes out of the machine.
+p18
+aVSo this is a fantastic machine
+p19
+aVthat we can use
+p20
+aVfor improving health care,
+p21
+aVbut as I said, it's also a challenge for us.
+p22
+aVAnd the challenge is really found in this picture here.
+p23
+aVIt's the medical data explosion
+p24
+aVthat we're having right now.
+p25
+aVWe're facing this problem.
+p26
+aVAnd let me step back in time.
+p27
+aa(lp28
+VLet's go back a few years in time and see what happened back then.
+p29
+aVThese machines that came out \u2014
+p30
+aVthey started coming in the 1970s \u2014
+p31
+aVthey would scan human bodies,
+p32
+aVand they would generate about 100 images
+p33
+aVof the human body.
+p34
+aVAnd I've taken the liberty, just for clarity,
+p35
+aVto translate that to data slices.
+p36
+aVThat would correspond to about 50 megabytes of data,
+p37
+aVwhich is small
+p38
+aVwhen you think about the data we can handle today
+p39
+aVjust on normal mobile devices.
+p40
+aVIf you translate that to phone books,
+p41
+aVit's about one meter of phone books in the pile.
+p42
+aVLooking at what we're doing today
+p43
+aVwith these machines that we have,
+p44
+aVwe can, just in a few seconds,
+p45
+aVget 24,000 images out of a body,
+p46
+aVand that would correspond to about 20 gigabytes of data,
+p47
+aVor 800 phone books,
+p48
+aVand the pile would then be 200 meters of phone books.
+p49
+aVWhat's about to happen \u2014
+p50
+aVand we're seeing this; it's beginning \u2014
+p51
+aVa technology trend that's happening right now
+p52
+aVis that we're starting to look at time-resolved situations as well.
+p53
+aVSo we're getting the dynamics out of the body as well.
+p54
+aVAnd just assume
+p55
+aVthat we will be collecting data during five seconds,
+p56
+aVand that would correspond to one terabyte of data \u2014
+p57
+aVthat's 800,000 books
+p58
+aVand 16 kilometers of phone books.
+p59
+aVThat's one patient, one data set.
+p60
+aVAnd this is what we have to deal with.
+p61
+aa(lp62
+VSo this is really the enormous challenge that we have.
+p63
+aVAnd already today \u2014 this is 25,000 images.
+p64
+aVImagine the days
+p65
+aVwhen we had radiologists doing this.
+p66
+aVThey would put up 25,000 images,
+p67
+aVthey would go like this, "25,0000, okay, okay.
+p68
+aVThere is the problem."
+p69
+aVThey can't do that anymore. That's impossible.
+p70
+aVSo we have to do something that's a little bit more intelligent than doing this.
+p71
+aVSo what we do is that we put all these slices together.
+p72
+aVImagine that you slice your body in all these directions,
+p73
+aVand then you try to put the slices back together again
+p74
+aVinto a pile of data, into a block of data.
+p75
+aVSo this is really what we're doing.
+p76
+aVSo this gigabyte or terabyte of data, we're putting it into this block.
+p77
+aVBut of course, the block of data
+p78
+aVjust contains the amount of X-ray
+p79
+aVthat's been absorbed in each point in the human body.
+p80
+aVSo what we need to do is to figure out a way
+p81
+aVof looking at the things we do want to look at
+p82
+aVand make things transparent that we don't want to look at.
+p83
+aVSo transforming the data set
+p84
+aVinto something that looks like this.
+p85
+aVAnd this is a challenge.
+p86
+aVThis is a huge challenge for us to do that.
+p87
+aa(lp88
+VUsing computers, even though they're getting faster and better all the time,
+p89
+aVit's a challenge to deal with gigabytes of data,
+p90
+aVterabytes of data
+p91
+aVand extracting the relevant information.
+p92
+aVI want to look at the heart.
+p93
+aVI want to look at the blood vessels. I want to look at the liver.
+p94
+aVMaybe even find a tumor,
+p95
+aVin some cases.
+p96
+aVSo this is where this little dear comes into play.
+p97
+aVThis is my daughter.
+p98
+aVThis is as of 9 a.m. this morning.
+p99
+aVShe's playing a computer game.
+p100
+aVShe's only two years old,
+p101
+aVand she's having a blast.
+p102
+aVSo she's really the driving force
+p103
+aVbehind the development of graphics-processing units.
+p104
+aVAs long as kids are playing computer games,
+p105
+aVgraphics is getting better and better and better.
+p106
+aVSo please go back home, tell your kids to play more games,
+p107
+aVbecause that's what I need.
+p108
+aa(lp109
+VSo what's inside of this machine
+p110
+aVis what enables me to do the things that I'm doing
+p111
+aVwith the medical data.
+p112
+aVSo really what I'm doing is using these fantastic little devices.
+p113
+aVAnd you know, going back
+p114
+aVmaybe 10 years in time
+p115
+aVwhen I got the funding
+p116
+aVto buy my first graphics computer \u2014
+p117
+aVit was a huge machine.
+p118
+aVIt was cabinets of processors and storage and everything.
+p119
+aVI paid about one million dollars for that machine.
+p120
+aVThat machine is, today, about as fast as my iPhone.
+p121
+aVSo every month there are new graphics cards coming out,
+p122
+aVand here is a few of the latest ones from the vendors \u2014
+p123
+aVNVIDIA, ATI, Intel is out there as well.
+p124
+aVAnd you know, for a few hundred bucks
+p125
+aVyou can get these things and put them into your computer,
+p126
+aVand you can do fantastic things with these graphics cards.
+p127
+aVSo this is really what's enabling us
+p128
+aVto deal with the explosion of data in medicine,
+p129
+aVtogether with some really nifty work
+p130
+aVin terms of algorithms \u2014
+p131
+aVcompressing data,
+p132
+aVextracting the relevant information that people are doing research on.
+p133
+aa(lp134
+VSo I'm going to show you a few examples of what we can do.
+p135
+aVThis is a data set that was captured using a CT scanner.
+p136
+aVYou can see that this is a full data [set].
+p137
+aVIt's a woman. You can see the hair.
+p138
+aVYou can see the individual structures of the woman.
+p139
+aVYou can see that there is [a] scattering of X-rays
+p140
+aVon the teeth, the metal in the teeth.
+p141
+aVThat's where those artifacts are coming from.
+p142
+aVBut fully interactively
+p143
+aVon standard graphics cards on a normal computer,
+p144
+aVI can just put in a clip plane.
+p145
+aVAnd of course all the data is inside,
+p146
+aVso I can start rotating, I can look at it from different angles,
+p147
+aVand I can see that this woman had a problem.
+p148
+aVShe had a bleeding up in the brain,
+p149
+aVand that's been fixed with a little stent,
+p150
+aVa metal clamp that's tightening up the vessel.
+p151
+aVAnd just by changing the functions,
+p152
+aVthen I can decide what's going to be transparent
+p153
+aVand what's going to be visible.
+p154
+aVI can look at the skull structure,
+p155
+aVand I can see that, okay, this is where they opened up the skull on this woman,
+p156
+aVand that's where they went in.
+p157
+aVSo these are fantastic images.
+p158
+aVThey're really high resolution,
+p159
+aVand they're really showing us what we can do
+p160
+aVwith standard graphics cards today.
+p161
+aa(lp162
+VNow we have really made use of this,
+p163
+aVand we have tried to squeeze a lot of data
+p164
+aVinto the system.
+p165
+aVAnd one of the applications that we've been working on \u2014
+p166
+aVand this has gotten a little bit of traction worldwide \u2014
+p167
+aVis the application of virtual autopsies.
+p168
+aVSo again, looking at very, very large data sets,
+p169
+aVand you saw those full-body scans that we can do.
+p170
+aVWe're just pushing the body through the whole CT scanner,
+p171
+aVand just in a few seconds we can get a full-body data set.
+p172
+aVSo this is from a virtual autopsy.
+p173
+aVAnd you can see how I'm gradually peeling off.
+p174
+aVFirst you saw the body bag that the body came in,
+p175
+aVthen I'm peeling off the skin \u2014 you can see the muscles \u2014
+p176
+aVand eventually you can see the bone structure of this woman.
+p177
+aa(lp178
+VNow at this point, I would also like to emphasize
+p179
+aVthat, with the greatest respect
+p180
+aVfor the people that I'm now going to show \u2014
+p181
+aVI'm going to show you a few cases of virtual autopsies \u2014
+p182
+aVso it's with great respect for the people
+p183
+aVthat have died under violent circumstances
+p184
+aVthat I'm showing these pictures to you.
+p185
+aVIn the forensic case \u2014
+p186
+aVand this is something
+p187
+aVthat ... there's been approximately 400 cases so far
+p188
+aVjust in the part of Sweden that I come from
+p189
+aVthat has been undergoing virtual autopsies
+p190
+aVin the past four years.
+p191
+aVSo this will be the typical workflow situation.
+p192
+aVThe police will decide \u2014
+p193
+aVin the evening, when there's a case coming in \u2014
+p194
+aVthey will decide, okay, is this a case where we need to do an autopsy?
+p195
+aVSo in the morning, in between six and seven in the morning,
+p196
+aVthe body is then transported inside of the body bag
+p197
+aVto our center
+p198
+aVand is being scanned through one of the CT scanners.
+p199
+aVAnd then the radiologist, together with the pathologist
+p200
+aVand sometimes the forensic scientist,
+p201
+aVlooks at the data that's coming out,
+p202
+aVand they have a joint session.
+p203
+aVAnd then they decide what to do in the real physical autopsy after that.
+p204
+aa(lp205
+VNow looking at a few cases,
+p206
+aVhere's one of the first cases that we had.
+p207
+aVYou can really see the details of the data set.
+p208
+aVIt's very high-resolution,
+p209
+aVand it's our algorithms that allow us
+p210
+aVto zoom in on all the details.
+p211
+aVAnd again, it's fully interactive,
+p212
+aVso you can rotate and you can look at things in real time
+p213
+aVon these systems here.
+p214
+aVWithout saying too much about this case,
+p215
+aVthis is a traffic accident,
+p216
+aVa drunk driver hit a woman.
+p217
+aVAnd it's very, very easy to see the damages on the bone structure.
+p218
+aVAnd the cause of death is the broken neck.
+p219
+aVAnd this women also ended up under the car,
+p220
+aVso she's quite badly beaten up
+p221
+aVby this injury.
+p222
+aa(lp223
+VHere's another case, a knifing.
+p224
+aVAnd this is also again showing us what we can do.
+p225
+aVIt's very easy to look at metal artifacts
+p226
+aVthat we can show inside of the body.
+p227
+aVYou can also see some of the artifacts from the teeth \u2014
+p228
+aVthat's actually the filling of the teeth \u2014
+p229
+aVbut because I've set the functions to show me metal
+p230
+aVand make everything else transparent.
+p231
+aVHere's another violent case. This really didn't kill the person.
+p232
+aVThe person was killed by stabs in the heart,
+p233
+aVbut they just deposited the knife
+p234
+aVby putting it through one of the eyeballs.
+p235
+aVHere's another case.
+p236
+aVIt's very interesting for us
+p237
+aVto be able to look at things like knife stabbings.
+p238
+aVHere you can see that knife went through the heart.
+p239
+aVIt's very easy to see how air has been leaking
+p240
+aVfrom one part to another part,
+p241
+aVwhich is difficult to do in a normal, standard, physical autopsy.
+p242
+aVSo it really, really helps
+p243
+aVthe criminal investigation
+p244
+aVto establish the cause of death,
+p245
+aVand in some cases also directing the investigation in the right direction
+p246
+aVto find out who the killer really was.
+p247
+aa(lp248
+VHere's another case that I think is interesting.
+p249
+aVHere you can see a bullet
+p250
+aVthat has lodged just next to the spine on this person.
+p251
+aVAnd what we've done is that we've turned the bullet into a light source,
+p252
+aVso that bullet is actually shining,
+p253
+aVand it makes it really easy to find these fragments.
+p254
+aVDuring a physical autopsy,
+p255
+aVif you actually have to dig through the body to find these fragments,
+p256
+aVthat's actually quite hard to do.
+p257
+aa(lp258
+VOne of the things that I'm really, really happy
+p259
+aVto be able to show you here today
+p260
+aVis our virtual autopsy table.
+p261
+aVIt's a touch device that we have developed
+p262
+aVbased on these algorithms, using standard graphics GPUs.
+p263
+aVIt actually looks like this,
+p264
+aVjust to give you a feeling for what it looks like.
+p265
+aVIt really just works like a huge iPhone.
+p266
+aVSo we've implemented
+p267
+aVall the gestures you can do on the table,
+p268
+aVand you can think of it as an enormous touch interface.
+p269
+aVSo if you were thinking of buying an iPad,
+p270
+aVforget about it. This is what you want instead.
+p271
+aVSteve, I hope you're listening to this, all right.
+p272
+aVSo it's a very nice little device.
+p273
+aVSo if you have the opportunity, please try it out.
+p274
+aVIt's really a hands-on experience.
+p275
+aVSo it gained some traction, and we're trying to roll this out
+p276
+aVand trying to use it for educational purposes,
+p277
+aVbut also, perhaps in the future,
+p278
+aVin a more clinical situation.
+p279
+aVThere's a YouTube video that you can download and look at this,
+p280
+aVif you want to convey the information to other people
+p281
+aVabout virtual autopsies.
+p282
+aa(lp283
+VOkay, now that we're talking about touch,
+p284
+aVlet me move on to really "touching" data.
+p285
+aVAnd this is a bit of science fiction now,
+p286
+aVso we're moving into really the future.
+p287
+aVThis is not really what the medical doctors are using right now,
+p288
+aVbut I hope they will in the future.
+p289
+aVSo what you're seeing on the left is a touch device.
+p290
+aVIt's a little mechanical pen
+p291
+aVthat has very, very fast step motors inside of the pen.
+p292
+aVAnd so I can generate a force feedback.
+p293
+aVSo when I virtually touch data,
+p294
+aVit will generate forces in the pen, so I get a feedback.
+p295
+aVSo in this particular situation,
+p296
+aVit's a scan of a living person.
+p297
+aVI have this pen, and I look at the data,
+p298
+aVand I move the pen towards the head,
+p299
+aVand all of a sudden I feel resistance.
+p300
+aVSo I can feel the skin.
+p301
+aVIf I push a little bit harder, I'll go through the skin,
+p302
+aVand I can feel the bone structure inside.
+p303
+aVIf I push even harder, I'll go through the bone structure,
+p304
+aVespecially close to the ear where the bone is very soft.
+p305
+aVAnd then I can feel the brain inside, and this will be the slushy like this.
+p306
+aa(lp307
+VSo this is really nice.
+p308
+aVAnd to take that even further, this is a heart.
+p309
+aVAnd this is also due to these fantastic new scanners,
+p310
+aVthat just in 0.3 seconds,
+p311
+aVI can scan the whole heart,
+p312
+aVand I can do that with time resolution.
+p313
+aVSo just looking at this heart,
+p314
+aVI can play back a video here.
+p315
+aVAnd this is Karljohan, one of my graduate students
+p316
+aVwho's been working on this project.
+p317
+aVAnd he's sitting there in front of the Haptic device, the force feedback system,
+p318
+aVand he's moving his pen towards the heart,
+p319
+aVand the heart is now beating in front of him,
+p320
+aVso he can see how the heart is beating.
+p321
+aVHe's taken the pen, and he's moving it towards the heart,
+p322
+aVand he's putting it on the heart,
+p323
+aVand then he feels the heartbeats from the real living patient.
+p324
+aVThen he can examine how the heart is moving.
+p325
+aVHe can go inside, push inside of the heart,
+p326
+aVand really feel how the valves are moving.
+p327
+aVAnd this, I think, is really the future for heart surgeons.
+p328
+aVI mean it's probably the wet dream for a heart surgeon
+p329
+aVto be able to go inside of the patient's heart
+p330
+aVbefore you actually do surgery,
+p331
+aVand do that with high-quality resolution data.
+p332
+aVSo this is really neat.
+p333
+aa(lp334
+VNow we're going even further into science fiction.
+p335
+aVAnd we heard a little bit about functional MRI.
+p336
+aVNow this is really an interesting project.
+p337
+aVMRI is using magnetic fields
+p338
+aVand radio frequencies
+p339
+aVto scan the brain, or any part of the body.
+p340
+aVSo what we're really getting out of this
+p341
+aVis information of the structure of the brain,
+p342
+aVbut we can also measure the difference
+p343
+aVin magnetic properties of blood that's oxygenated
+p344
+aVand blood that's depleted of oxygen.
+p345
+aVThat means that it's possible
+p346
+aVto map out the activity of the brain.
+p347
+aVSo this is something that we've been working on.
+p348
+aVAnd you just saw Motts the research engineer, there,
+p349
+aVgoing into the MRI system,
+p350
+aVand he was wearing goggles.
+p351
+aVSo he could actually see things in the goggles.
+p352
+aVSo I could present things to him while he's in the scanner.
+p353
+aVAnd this is a little bit freaky,
+p354
+aVbecause what Motts is seeing is actually this.
+p355
+aVHe's seeing his own brain.
+p356
+aVSo Motts is doing something here,
+p357
+aVand probably he is going like this with his right hand,
+p358
+aVbecause the left side is activated
+p359
+aVon the motor cortex.
+p360
+aVAnd then he can see that at the same time.
+p361
+aVThese visualizations are brand new.
+p362
+aVAnd this is something that we've been researching for a little while.
+p363
+aa(lp364
+VThis is another sequence of Motts' brain.
+p365
+aVAnd here we asked Motts to calculate backwards from 100.
+p366
+aVSo he's going "100, 97, 94."
+p367
+aVAnd then he's going backwards.
+p368
+aVAnd you can see how the little math processor is working up here in his brain
+p369
+aVand is lighting up the whole brain.
+p370
+aVWell this is fantastic. We can do this in real time.
+p371
+aVWe can investigate things. We can tell him to do things.
+p372
+aVYou can also see that his visual cortex
+p373
+aVis activated in the back of the head,
+p374
+aVbecause that's where he's seeing, he's seeing his own brain.
+p375
+aVAnd he's also hearing our instructions
+p376
+aVwhen we tell him to do things.
+p377
+aVThe signal is really deep inside of the brain as well,
+p378
+aVand it's shining through,
+p379
+aVbecause all of the data is inside this volume.
+p380
+aVAnd in just a second here you will see \u2014
+p381
+aVokay, here. Motts, now move your left foot.
+p382
+aVSo he's going like this.
+p383
+aVFor 20 seconds he's going like that,
+p384
+aVand all of a sudden it lights up up here.
+p385
+aVSo we've got motor cortex activation up there.
+p386
+aVSo this is really, really nice,
+p387
+aVand I think this is a great tool.
+p388
+aVAnd connecting also with the previous talk here,
+p389
+aVthis is something that we could use as a tool
+p390
+aVto really understand
+p391
+aVhow the neurons are working, how the brain is working,
+p392
+aVand we can do this with very, very high visual quality
+p393
+aVand very fast resolution.
+p394
+aa(lp395
+VNow we're also having a bit of fun at the center.
+p396
+aVSo this is a CAT scan \u2014 Computer Aided Tomography.
+p397
+aVSo this is a lion from the local zoo
+p398
+aVoutside of Norrkoping in Kolmarden, Elsa.
+p399
+aVSo she came to the center,
+p400
+aVand they sedated her
+p401
+aVand then put her straight into the scanner.
+p402
+aVAnd then, of course, I get the whole data set from the lion.
+p403
+aVAnd I can do very nice images like this.
+p404
+aVI can peel off the layer of the lion.
+p405
+aVI can look inside of it.
+p406
+aVAnd we've been experimenting with this.
+p407
+aVAnd I think this is a great application
+p408
+aVfor the future of this technology,
+p409
+aVbecause there's very little known about the animal anatomy.
+p410
+aVWhat's known out there for veterinarians is kind of basic information.
+p411
+aVWe can scan all sorts of things,
+p412
+aVall sorts of animals.
+p413
+aVThe only problem is to fit it into the machine.
+p414
+aVSo here's a bear.
+p415
+aVIt was kind of hard to get it in.
+p416
+aVAnd the bear is a cuddly, friendly animal.
+p417
+aVAnd here it is. Here is the nose of the bear.
+p418
+aVAnd you might want to cuddle this one,
+p419
+aVuntil you change the functions and look at this.
+p420
+aVSo be aware of the bear.
+p421
+aa(lp422
+VSo with that,
+p423
+aVI'd like to thank all the people
+p424
+aVwho have helped me to generate these images.
+p425
+aVIt's a huge effort that goes into doing this,
+p426
+aVgathering the data and developing the algorithms,
+p427
+aVwriting all the software.
+p428
+aVSo, some very talented people.
+p429
+aVMy motto is always, I only hire people that are smarter than I am
+p430
+aVand most of these are smarter than I am.
+p431
+aa(lp432
+VSo thank you very much.
+p433
+aa(lp434
+V(Applause)
+p435
+aasS'transcript_micsec'
+p436
+(lp437
+I11000
+aI62000
+aI136000
+aI197000
+aI242000
+aI302000
+aI369000
+aI407000
+aI468000
+aI505000
+aI561000
+aI584000
+aI646000
+aI701000
+aI763000
+aI831000
+aI896000
+aI959000
+aI980000
+aI982000
+asS'talk_meta'
+p438
+(dp439
+S'ratings'
+p440
+(dp441
+S'ingenious'
+p442
+I149
+sS'beautiful'
+p443
+I33
+sS'inspiring'
+p444
+I96
+sS'ok'
+p445
+I21
+sS'fascinating'
+p446
+I312
+sS'funny'
+p447
+I5
+sS'total_count'
+p448
+I1096
+sS'persuasive'
+p449
+I20
+sS'longwinded'
+p450
+I10
+sS'informative'
+p451
+I184
+sS'jaw-dropping'
+p452
+I246
+sS'obnoxious'
+p453
+I2
+sS'confusing'
+p454
+I10
+sS'courageous'
+p455
+I2
+sS'unconvincing'
+p456
+I6
+ssS'author'
+p457
+VAnders_Ynnerman;
+p458
+sS'url'
+p459
+S'https://www.ted.com/talks/anders_ynnerman_visualizing_the_medical_data_explosion'
+p460
+sS'vidlen'
+p461
+I996
+sS'totalviews'
+p462
+I464543
+sS'title'
+p463
+VVisualizing the medical data explosion
+p464
+sS'downloadlink'
+p465
+Vhttps://download.ted.com/talks/AndersYnnerman_2010X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p466
+sS'datepublished'
+p467
+cdatetime
+datetime
+p468
+(S'\x07\xdb\x01\x14\n)\x00\x00\x00\x00'
+tRp469
+sS'datefilmed'
+p470
+g468
+(S'\x07\xdb\x01\x14\n)\x00\x00\x00\x00'
+tRp471
+sS'alldata_JSON'
+p472
+S'{"viewed_count": 464543, "speakers": [{"description": "Scientific visualization expert", "firstname": "Anders", "title": "", "lastname": "Ynnerman", "middleinitial": "", "whylisten": "<p>Professor Anders Ynnerman received a Ph.D. in physics from Gothenburg University. During the early 90s he was doing research at Oxford University and Vanderbilt University. In 1996 <strong>he started the Swedish National Graduate School in Scientific Computing,</strong> which he directed until 1999. From 1997 to 2002 he directed the Swedish National Supercomputer Centre and from 2002 to 2006 he directed the Swedish National Infrastructure for Computing (SNIC).<br /><br />Since 1999 he is holding a chair in scientific visualization at Link&ouml;ping University and in 2000 he <strong>founded the Norrk&ouml;ping Visualization and Interaction Studio (NVIS).</strong> NVIS currently constitutes one of the main focal points for research and education in computer graphics and visualization in the Nordic region. Ynnerman is currently heading the build-up of a large scale center for Visualization in Norrk&ouml;ping. </p>", "slug": "anders_ynnerman", "whotheyare": "Anders Ynnerman studies the fundamental aspects of computer graphics and visualization, in particular large scale and complex data sets with a focus on volume rendering and multi-modal interaction. ", "whatotherssay": "", "id": 935, "photo_url": "https://pe.tedcdn.com/images/ted/ce83f89e6aa5461923e6525380fbe4016dea9b49_254x191.jpg"}], "current_talk": 1057, "description": "Medical scans can produce thousands of images for a single patient in seconds, but how do doctors know what\'s useful? Scientific visualization expert Anders Ynnerman shows us sophisticated new tools -- like virtual autopsies -- for analyzing our data, and hints at the sci-fi-sounding medical technologies coming up next. This talk contains some graphic medical imagery.", "language": "en", "url": "https://www.ted.com/talks/anders_ynnerman_visualizing_the_medical_data_explosion", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46326577}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22822922}, "podcast-high": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118464060}, "180k": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22712614}, "64k": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8171525}, "1500k": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 184396236}, "450k": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56276974}, "podcast-regular": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56545450}, "950k": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118228194}, "audio-podcast": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10231799}, "podcast-light": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8276355}, "320k": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40115688}, "600k": {"uri": "https://download.ted.com/talks/AndersYnnerman_2010X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 75227805}}}, "comments": {"count": 55, "id": 870, "talk_id": 1057}, "slug": "anders_ynnerman_visualizing_the_medical_data_explosion", "threadId": 870, "talks": [{"event": "TEDxG\\u00f6teborg 2010", "player_talks": [{"event": "TEDxG\\u00f6teborg 2010", "slug": "anders_ynnerman_visualizing_the_medical_data_explosion", "filmed": 1290211200, "targeting": {"event": "TEDxG\\u00f6teborg 2010", "tag": "TEDx,data,health,medicine,science,technology,virtual reality,visualizations", "id": 1057, "talk": "anders_ynnerman_visualizing_the_medical_data_explosion", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "Visualizing the medical data explosion", "postAdDuration": "0.83", "published": 1295538060, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b5dfadb0dfdfb64ffa70aea2837f8937062ad8eb_800x600.jpg?quality=89&w=600", "name": "Anders Ynnerman: Visualizing the medical data explosion", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "data", "health", "medicine", "science", "technology", "virtual reality", "visualizations"], "speaker": "Anders Ynnerman", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 996, "id": 1057, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AndersYnnerman_2010X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxG\\u00f6teborg 2010", "tag": "TEDx,data,health,medicine,science,technology,virtual reality,visualizations", "id": 1057, "talk": "anders_ynnerman_visualizing_the_medical_data_explosion", "year": "2010"}, "metadata": "https://hls.ted.com/talks/1057.json", "stream": "https://hls.ted.com/talks/1057.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxG%C3%B6teborg%2B2010%26id%3D1057%26tag%3DTEDx%2Cdata%2Chealth%2Cmedicine%2Cscience%2Ctechnology%2Cvirtual%2Breality%2Cvisualizations%26talk%3Danders_ynnerman_visualizing_the_medical_data_explosion%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/anders_ynnerman_visualizing_the_medical_data_explosion"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b5dfadb0dfdfb64ffa70aea2837f8937062ad8eb_800x600.jpg?q=50&w=15", "duration": 996, "id": 1057, "ratings": [{"count": 246, "id": 23, "name": "Jaw-dropping"}, {"count": 312, "id": 22, "name": "Fascinating"}, {"count": 149, "id": 9, "name": "Ingenious"}, {"count": 184, "id": 8, "name": "Informative"}, {"count": 96, "id": 10, "name": "Inspiring"}, {"count": 33, "id": 1, "name": "Beautiful"}, {"count": 20, "id": 24, "name": "Persuasive"}, {"count": 6, "id": 21, "name": "Unconvincing"}, {"count": 21, "id": 25, "name": "OK"}, {"count": 10, "id": 2, "name": "Confusing"}, {"count": 2, "id": 26, "name": "Obnoxious"}, {"count": 10, "id": 11, "name": "Longwinded"}, {"count": 5, "id": 7, "name": "Funny"}, {"count": 2, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Scientific visualization expert", "firstname": "Anders", "title": "", "lastname": "Ynnerman", "middleinitial": "", "whylisten": "<p>Professor Anders Ynnerman received a Ph.D. in physics from Gothenburg University. During the early 90s he was doing research at Oxford University and Vanderbilt University. In 1996 <strong>he started the Swedish National Graduate School in Scientific Computing,</strong> which he directed until 1999. From 1997 to 2002 he directed the Swedish National Supercomputer Centre and from 2002 to 2006 he directed the Swedish National Infrastructure for Computing (SNIC).<br /><br />Since 1999 he is holding a chair in scientific visualization at Link&ouml;ping University and in 2000 he <strong>founded the Norrk&ouml;ping Visualization and Interaction Studio (NVIS).</strong> NVIS currently constitutes one of the main focal points for research and education in computer graphics and visualization in the Nordic region. Ynnerman is currently heading the build-up of a large scale center for Visualization in Norrk&ouml;ping. </p>", "slug": "anders_ynnerman", "whotheyare": "Anders Ynnerman studies the fundamental aspects of computer graphics and visualization, in particular large scale and complex data sets with a focus on volume rendering and multi-modal interaction. ", "whatotherssay": "", "id": 935, "photo_url": "https://pe.tedcdn.com/images/ted/ce83f89e6aa5461923e6525380fbe4016dea9b49_254x191.jpg"}], "title": "Visualizing the medical data explosion", "take_action": null, "comments": 870, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/b5dfadb0dfdfb64ffa70aea2837f8937062ad8eb_800x600.jpg", "description": "Medical scans can produce thousands of images for a single patient in seconds, but how do doctors know what\'s useful? Scientific visualization expert Anders Ynnerman shows us sophisticated new tools -- like virtual autopsies -- for analyzing our data, and hints at the sci-fi-sounding medical technologies coming up next. This talk contains some graphic medical imagery.", "tags": ["TEDx", "data", "health", "medicine", "science", "technology", "virtual reality", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-low-sv.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AndersYnnerman_2010X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AndersYnnerman_2010X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AndersYnnerman_2010X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1057, "audioDownload": "https://download.ted.com/talks/AndersYnnerman_2010X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1504635, "hero": "https://pe.tedcdn.com/images/ted/35408_480x360.jpg", "title": "A look inside the brain in real time", "id": 236, "speaker": "Christopher deCharms", "duration": 242, "slug": "christopher_decharms_scans_the_brain_in_real_time"}, {"viewed_count": 2601329, "hero": "https://pe.tedcdn.com/images/ted/192641_800x600.jpg", "title": "The beauty of data visualization", "id": 937, "speaker": "David McCandless", "duration": 1076, "slug": "david_mccandless_the_beauty_of_data_visualization"}, {"viewed_count": 1516358, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}, {"viewed_count": 1318728, "hero": "https://pe.tedcdn.com/images/ted/c08e045faca0cd007e468e7950e6ef5433c3f44c_2880x1620.jpg", "title": "Big data is better data", "id": 2094, "speaker": "Kenneth Cukier", "duration": 951, "slug": "kenneth_cukier_big_data_is_better_data"}, {"viewed_count": 1176209, "hero": "https://pe.tedcdn.com/images/ted/96044392dd7eea4410a92f4c5d499b888e607653_2880x1620.jpg", "title": "The human insights missing from big data", "id": 2818, "speaker": "Tricia Wang", "duration": 972, "slug": "tricia_wang_the_human_insights_missing_from_big_data"}, {"viewed_count": 1093223, "hero": "https://pe.tedcdn.com/images/ted/9ca3922cace721320cd2b5de1f5761f7a75b2010_2880x1620.jpg", "title": "How we can find ourselves in data", "id": 2727, "speaker": "Giorgia Lupi", "duration": 673, "slug": "giorgia_lupi_how_we_can_find_ourselves_in_data"}], "recorded_at": "2010-11-20T00:00:00.000+00:00", "slug": "anders_ynnerman_visualizing_the_medical_data_explosion", "speaker_name": "Anders Ynnerman", "viewed_count": 464543, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxG\\u00f6teborg 2010, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxG\\u00f6teborg 2010", "name": "Anders Ynnerman: Visualizing the medical data explosion"}'
+p473
+sS'keywords'
+p474
+(lp475
+VTEDx
+p476
+aVdata
+p477
+aVhealth
+p478
+aVmedicine
+p479
+aVscience
+p480
+aVtechnology
+p481
+aVvirtual reality
+p482
+aVvisualizations
+p483
+asS'datecrawled'
+p484
+g468
+(S'\x07\xe1\n\x17\x01\x11\x12\x08>\xc7'
+tRp485
+sS'id'
+p486
+I1057
+ss.

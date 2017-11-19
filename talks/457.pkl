@@ -1,0 +1,478 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI want to start out by asking you to think back to when you were a kid,
+p5
+aVplaying with blocks.
+p6
+aVAs you figured out how to reach out and grasp,
+p7
+aVpick them up and move them around,
+p8
+aVyou were actually learning how to think and solve problems
+p9
+aVby understanding and manipulating spatial relationships.
+p10
+aVSpatial reasoning is deeply connected
+p11
+aVto how we understand a lot of the world around us.
+p12
+aa(lp13
+VSo, as a computer scientist
+p14
+aVinspired by this utility of our interactions with physical objects \u2014
+p15
+aValong with my adviser Pattie, and my collaborator Jeevan Kalanithi \u2014
+p16
+aVI started to wonder \u2014 what if when we used a computer,
+p17
+aVinstead of having this one mouse cursor that was a like a digital fingertip
+p18
+aVmoving around a flat desktop,
+p19
+aVwhat if we could reach in with both hands and grasp information physically,
+p20
+aVarranging it the way we wanted?
+p21
+aVThis question was so compelling that we decided to explore the answer,
+p22
+aVby building Siftables.
+p23
+aa(lp24
+VIn a nutshell, a Siftable is an interactive computer
+p25
+aVthe size of a cookie.
+p26
+aVThey're able to be moved around by hand,
+p27
+aVthey can sense each other, they can sense their motion,
+p28
+aVand they have a screen and a wireless radio.
+p29
+aVMost importantly, they're physical,
+p30
+aVso like the blocks, you can move them just by reaching out and grasping.
+p31
+aVAnd Siftables are an example of a new ecosystem
+p32
+aVof tools for manipulating digital information.
+p33
+aVAnd as these tools become more physical,
+p34
+aVmore aware of their motion, aware of each other,
+p35
+aVand aware of the nuance of how we move them,
+p36
+aVwe can start to explore some new and fun interaction styles.
+p37
+aVSo, I'm going to start with some simple examples.
+p38
+aa(lp39
+VThis Siftable is configured to show video,
+p40
+aVand if I tilt it in one direction, it'll roll the video this way;
+p41
+aVif I tilt it the other way it rolls it backwards.
+p42
+aVAnd these interactive portraits are aware of each other.
+p43
+aVSo if I put them next to each other, they get interested.
+p44
+aVIf they get surrounded, they notice that too,
+p45
+aVthey might get a little flustered.
+p46
+aVAnd they can also sense their motion and tilt.
+p47
+aa(lp48
+VOne of the interesting implications on interaction, we started to realize,
+p49
+aVwas that we could use everyday gestures on data,
+p50
+aVlike pouring a color the way we might pour a liquid.
+p51
+aVSo in this case, we've got three Siftables configured to be paint buckets
+p52
+aVand I can use them to pour color into that central one,
+p53
+aVwhere they get mixed.
+p54
+aVIf we overshoot, we can pour a little bit back.
+p55
+aa(lp56
+VThere are also some neat possibilities for education,
+p57
+aVlike language, math and logic games
+p58
+aVwhere we want to give people the ability to try things quickly,
+p59
+aVand view the results immediately.
+p60
+aVSo here I'm \u2014
+p61
+aV(Applause)
+p62
+aVThis is a Fibonacci sequence that I'm making with a simple equation program.
+p63
+aa(lp64
+VHere we have a word game that's kind of like a mash-up between Scrabble and Boggle.
+p65
+aVBasically, in every round
+p66
+aVyou get a randomly assigned letter on each Siftable,
+p67
+aVand as you try to make words it checks against a dictionary.
+p68
+aVThen, after about 30 seconds, it reshuffles,
+p69
+aVand you have a new set of letters and new possibilities to try.
+p70
+aa(lp71
+V(Applause)
+p72
+aVThank you.
+p73
+aV(Applause)
+p74
+aa(lp75
+VSo these are some kids that came on a field trip to the Media Lab,
+p76
+aVand I managed to get them to try it out, and shoot a video.
+p77
+aVThey really loved it.
+p78
+aVAnd, one of the interesting things about this kind of application
+p79
+aVis that you don't have to give people many instructions.
+p80
+aVAll you have to say is, "Make words,"
+p81
+aVand they know exactly what to do.
+p82
+aa(lp83
+VSo here's another few people trying it out.
+p84
+aVThat's our youngest beta tester, down there on the right.
+p85
+aVTurns out, all he wanted to do was to stack the Siftables up.
+p86
+aVSo to him, they were just blocks.
+p87
+aVNow, this is an interactive cartoon application.
+p88
+aVAnd we wanted to build a learning tool for language learners.
+p89
+aVAnd this is Felix, actually.
+p90
+aVAnd he can bring new characters into the scene,
+p91
+aVjust by lifting the Siftables off the table that have that character shown on them.
+p92
+aVHere, he's bringing the sun out.
+p93
+aa(lp94
+VVideo: The sun is rising.
+p95
+aa(lp96
+VDavid Merrill: Now he's brought a tractor into the scene.
+p97
+aa(lp98
+VVideo: The orange tractor.
+p99
+aVGood job! Yeah!
+p100
+aa(lp101
+VDM: So by shaking the Siftables and putting them next to each other
+p102
+aVhe can make the characters interact \u2014
+p103
+aa(lp104
+VVideo: Woof!
+p105
+aa(lp106
+VDM: inventing his own narrative.
+p107
+aa(lp108
+VVideo: Hello!
+p109
+aa(lp110
+VDM: It's an open-ended story,
+p111
+aVand he gets to decide how it unfolds.
+p112
+aa(lp113
+VVideo: Fly away, cat.
+p114
+aa(lp115
+VDM: So, the last example I have time to show you today
+p116
+aVis a music sequencing and live performance tool
+p117
+aVthat we've built recently,
+p118
+aVin which Siftables act as sounds
+p119
+aVlike lead, bass and drums.
+p120
+aVEach of these has four different variations,
+p121
+aVyou get to choose which one you want to use.
+p122
+aVAnd you can inject these sounds into a sequence
+p123
+aVthat you can assemble into the pattern that you want.
+p124
+aVAnd you inject it by just bumping up the sound Siftable against a sequence Siftable.
+p125
+aVThere are effects that you can control live, like reverb and filter.
+p126
+aVYou attach it to a particular sound and then tilt to adjust it.
+p127
+aVAnd then, overall effects like tempo and volume
+p128
+aVthat apply to the entire sequence.
+p129
+aVSo let's have a look.
+p130
+aa(lp131
+VVideo: (Music)
+p132
+aa(lp133
+VDM: We'll start by putting a lead
+p134
+aVinto two sequence Siftables, arrange them into a series,
+p135
+aVextend it, add a little more lead.
+p136
+aVNow I put a bass line in.
+p137
+aa(lp138
+VVideo: (Music)
+p139
+aVDM: Now I'll put some percussion in.
+p140
+aVVideo: (Music)
+p141
+aa(lp142
+VDM: And now I'll attach the filter to the drums, so I can control the effect live.
+p143
+aa(lp144
+VVideo: (Music)
+p145
+aa(lp146
+VDM: I can speed up the whole sequence
+p147
+aVby tilting the tempo one way or the other.
+p148
+aa(lp149
+VVideo: (Music)
+p150
+aa(lp151
+VDM: And now I'll attach the filter to the bass for some more expression.
+p152
+aa(lp153
+VVideo: (Music)
+p154
+aa(lp155
+VDM: I can rearrange the sequence while it plays.
+p156
+aVSo I don't have to plan it out in advance, but I can improvise,
+p157
+aVmaking it longer or shorter as I go.
+p158
+aVAnd now, finally, I can fade the whole sequence out
+p159
+aVusing the volume Siftable, tilted to the left.
+p160
+aa(lp161
+V(Applause)
+p162
+aVThank you.
+p163
+aa(lp164
+VSo, as you can see,
+p165
+aVmy passion is for making new human-computer interfaces
+p166
+aVthat are a better match to the ways our brains and bodies work.
+p167
+aVAnd today, I had time to show you one point in this new design space,
+p168
+aVand a few of the possibilities that we're working to bring out of the laboratory.
+p169
+aVSo the thought I want to leave you with
+p170
+aVis that we're on the cusp of this new generation of tools
+p171
+aVfor interacting with digital media
+p172
+aVthat are going to bring information into our world
+p173
+aVon our terms.
+p174
+aVThank you very much.
+p175
+aVI look forward to talking with all of you.
+p176
+aa(lp177
+V(Applause)
+p178
+aasS'transcript_micsec'
+p179
+(lp180
+I11000
+aI29000
+aI57000
+aI91000
+aI115000
+aI138000
+aI156000
+aI173000
+aI177000
+aI201000
+aI246000
+aI248000
+aI252000
+aI257000
+aI262000
+aI263000
+aI265000
+aI266000
+aI273000
+aI281000
+aI321000
+aI323000
+aI335000
+aI347000
+aI350000
+aI352000
+aI357000
+aI359000
+aI362000
+aI367000
+aI381000
+aI388000
+aI420000
+asS'talk_meta'
+p181
+(dp182
+S'ratings'
+p183
+(dp184
+S'ingenious'
+p185
+I824
+sS'funny'
+p186
+I43
+sS'inspiring'
+p187
+I375
+sS'ok'
+p188
+I111
+sS'fascinating'
+p189
+I552
+sS'total_count'
+p190
+I2747
+sS'persuasive'
+p191
+I54
+sS'longwinded'
+p192
+I9
+sS'informative'
+p193
+I187
+sS'beautiful'
+p194
+I95
+sS'jaw-dropping'
+p195
+I403
+sS'obnoxious'
+p196
+I8
+sS'confusing'
+p197
+I12
+sS'courageous'
+p198
+I24
+sS'unconvincing'
+p199
+I50
+ssS'author'
+p200
+VDavid_Merrill;
+p201
+sS'url'
+p202
+S'https://www.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks'
+p203
+sS'vidlen'
+p204
+I429
+sS'totalviews'
+p205
+I1767549
+sS'title'
+p206
+VToy tiles that talk to each other
+p207
+sS'downloadlink'
+p208
+Vhttps://download.ted.com/talks/DavidMerrill_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p209
+sS'datepublished'
+p210
+cdatetime
+datetime
+p211
+(S'\x07\xd9\x02\x0c\x04#\x00\x00\x00\x00'
+tRp212
+sS'datefilmed'
+p213
+g211
+(S'\x07\xd9\x02\x0c\x04#\x00\x00\x00\x00'
+tRp214
+sS'alldata_JSON'
+p215
+S'{"viewed_count": 1767549, "speakers": [{"description": "MIT grad student", "firstname": "David", "title": "", "lastname": "Merrill", "middleinitial": "", "whylisten": "<p>David Merrill is currently the VP of Product at 3D Robotics, where he builds new, easy-to-use flying robots. He was formerly president and co-founder of Sifteo, a San Francisco startup spun out of his research at the MIT Media Lab. This research helped build an award-winning physical+digital play system and catalog of unique games. He also directed HW and SW on Sifteo products. </p><p>David constantly tinkers with next-generation technologies to make physical+digital tools that give people new powers (for good).</p><p>He is a human-computer interaction expert, frequent public speaker and aerial photography enthusiast. David&#39;s work has been featured by MoMA, the Disocvery Channel, Popular Science and Wired.</p><p>His main interest now is the Siftables project, the subject of his TEDTalk, on which he works with <a href=\\"http://web.media.mit.edu/~jeevan/\\" target=\\"_blank\\">Jeevan Kalanithi</a>. In another field of inquiry, Merrill is looking at ways to access digital information <a href=\\"http://www.media.mit.edu/resenv/\\" target=\\"_blank\\">in the wider world</a>, when we are <a href=\\"http://web.media.mit.edu/~dmerrill/invisible_media.html\\" target=\\"_blank\\">away from a traditional computer</a>. </p><p>A musician himself, Merril also has a deep interest in <a href=\\"http://inventmusic.org/\\" target=\\"_blank\\">new musical interfaces</a>. His <a href=\\"http://web.media.mit.edu/~dmerrill/adaptive_controller.html\\" target=\\"_blank\\">Adaptive Music Controller</a>  is an instrument that learns its player (rather than the player learning the instrument). And working musicians should check out his <a href=\\"http://web.media.mit.edu/~dmerrill/audiopint.html\\" target=\\"_blank\\">AudioPint</a>, a portable case that consolidates instruments, effects and audio processors into a gig-safe rugged housing. </p>", "slug": "david_merrill", "whotheyare": "David Merrill works on Siftables, tiny computer blocks that interact with each other to make networks (and music).", "whatotherssay": "", "id": 407, "photo_url": "https://pe.tedcdn.com/images/ted/57d234093fd40d9e61f47c79a457f9ba1025a640_254x191.jpg"}], "current_talk": 457, "description": "MIT grad student David Merrill demos Siftables -- cookie-sized, computerized tiles you can stack and shuffle in your hands. These future-toys can do math, play music, and talk to their friends, too. Is this the next thing in hands-on learning?", "language": "en", "url": "https://www.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 50905240}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9951454}, "podcast-high": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 50870165}, "180k": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9856577}, "64k": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3557197}, "1500k": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79176026}, "450k": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24297276}, "podcast-regular": {"uri": "https://download.ted.com/talks/DavidMerrill_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24467170}, "950k": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 50899606}, "audio-podcast": {"uri": "https://download.ted.com/talks/DavidMerrill_2009.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4141001}, "podcast-light": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3656601}, "320k": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17473423}, "600k": {"uri": "https://download.ted.com/talks/DavidMerrill_2009-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32694747}}}, "comments": {"count": 147, "id": 386, "talk_id": 457}, "slug": "david_merrill_demos_siftables_the_smart_blocks", "threadId": 386, "talks": [{"event": "TED2009", "player_talks": [{"event": "TED2009", "slug": "david_merrill_demos_siftables_the_smart_blocks", "filmed": 1233878400, "targeting": {"event": "TED2009", "tag": "art,business,children,computers,design,education,invention,music,technology,toy", "id": 457, "talk": "david_merrill_demos_siftables_the_smart_blocks", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "Toy tiles that talk to each other", "postAdDuration": "0.83", "published": 1234431300, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/71466_800x600.jpg?quality=89&w=600", "name": "David Merrill: Toy tiles that talk to each other", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["art", "business", "children", "computers", "design", "education", "invention", "music", "technology", "toy"], "speaker": "David Merrill", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 429, "id": 457, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DavidMerrill_2009-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2009", "tag": "art,business,children,computers,design,education,invention,music,technology,toy", "id": 457, "talk": "david_merrill_demos_siftables_the_smart_blocks", "year": "2009"}, "metadata": "https://hls.ted.com/talks/457.json", "stream": "https://hls.ted.com/talks/457.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2009%26id%3D457%26tag%3Dart%2Cbusiness%2Cchildren%2Ccomputers%2Cdesign%2Ceducation%2Cinvention%2Cmusic%2Ctechnology%2Ctoy%26talk%3Ddavid_merrill_demos_siftables_the_smart_blocks%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/71466_800x600.jpg?q=50&w=15", "duration": 429, "id": 457, "ratings": [{"count": 824, "id": 9, "name": "Ingenious"}, {"count": 552, "id": 22, "name": "Fascinating"}, {"count": 43, "id": 7, "name": "Funny"}, {"count": 403, "id": 23, "name": "Jaw-dropping"}, {"count": 187, "id": 8, "name": "Informative"}, {"count": 111, "id": 25, "name": "OK"}, {"count": 50, "id": 21, "name": "Unconvincing"}, {"count": 375, "id": 10, "name": "Inspiring"}, {"count": 95, "id": 1, "name": "Beautiful"}, {"count": 9, "id": 11, "name": "Longwinded"}, {"count": 12, "id": 2, "name": "Confusing"}, {"count": 54, "id": 24, "name": "Persuasive"}, {"count": 24, "id": 3, "name": "Courageous"}, {"count": 8, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "MIT grad student", "firstname": "David", "title": "", "lastname": "Merrill", "middleinitial": "", "whylisten": "<p>David Merrill is currently the VP of Product at 3D Robotics, where he builds new, easy-to-use flying robots. He was formerly president and co-founder of Sifteo, a San Francisco startup spun out of his research at the MIT Media Lab. This research helped build an award-winning physical+digital play system and catalog of unique games. He also directed HW and SW on Sifteo products. </p><p>David constantly tinkers with next-generation technologies to make physical+digital tools that give people new powers (for good).</p><p>He is a human-computer interaction expert, frequent public speaker and aerial photography enthusiast. David&#39;s work has been featured by MoMA, the Disocvery Channel, Popular Science and Wired.</p><p>His main interest now is the Siftables project, the subject of his TEDTalk, on which he works with <a href=\\"http://web.media.mit.edu/~jeevan/\\" target=\\"_blank\\">Jeevan Kalanithi</a>. In another field of inquiry, Merrill is looking at ways to access digital information <a href=\\"http://www.media.mit.edu/resenv/\\" target=\\"_blank\\">in the wider world</a>, when we are <a href=\\"http://web.media.mit.edu/~dmerrill/invisible_media.html\\" target=\\"_blank\\">away from a traditional computer</a>. </p><p>A musician himself, Merril also has a deep interest in <a href=\\"http://inventmusic.org/\\" target=\\"_blank\\">new musical interfaces</a>. His <a href=\\"http://web.media.mit.edu/~dmerrill/adaptive_controller.html\\" target=\\"_blank\\">Adaptive Music Controller</a>  is an instrument that learns its player (rather than the player learning the instrument). And working musicians should check out his <a href=\\"http://web.media.mit.edu/~dmerrill/audiopint.html\\" target=\\"_blank\\">AudioPint</a>, a portable case that consolidates instruments, effects and audio processors into a gig-safe rugged housing. </p>", "slug": "david_merrill", "whotheyare": "David Merrill works on Siftables, tiny computer blocks that interact with each other to make networks (and music).", "whatotherssay": "", "id": 407, "photo_url": "https://pe.tedcdn.com/images/ted/57d234093fd40d9e61f47c79a457f9ba1025a640_254x191.jpg"}], "title": "Toy tiles that talk to each other", "take_action": null, "comments": 386, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/71466_800x600.jpg", "description": "MIT grad student David Merrill demos Siftables -- cookie-sized, computerized tiles you can stack and shuffle in your hands. These future-toys can do math, play music, and talk to their friends, too. Is this the next thing in hands-on learning?", "tags": ["art", "business", "children", "computers", "design", "education", "invention", "music", "technology", "toy"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-bg.mp4"}, "eu": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-eu.mp4", "name": "Basque", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-eu.mp4"}, "id": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/DavidMerrill_2009-low-mk.mp4"}, "uk": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p-uk.mp4", "name": "Ukrainian"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DavidMerrill_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DavidMerrill_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DavidMerrill_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 457, "audioDownload": "https://download.ted.com/talks/DavidMerrill_2009.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 421211, "hero": "https://pe.tedcdn.com/images/ted/67af888458ee73293dfb5c92d5624ae56db851db_2880x1620.jpg", "title": "Playtime with Pleo, your robotic dinosaur friend", "id": 350, "speaker": "Caleb Chung", "duration": 1107, "slug": "caleb_chung_plays_with_pleo"}, {"viewed_count": 449535, "hero": "https://pe.tedcdn.com/images/ted/231_480x360.jpg", "title": "Everyday inventions", "id": 48, "speaker": "Saul Griffith", "duration": 869, "slug": "saul_griffith_on_everyday_inventions"}, {"viewed_count": 4393947, "hero": "https://pe.tedcdn.com/images/ted/87205c20e5b3e1b63d04da23c04b22956087f0be_2880x1620.jpg", "title": "5 dangerous things you should let your kids do", "id": 202, "speaker": "Gever Tulley", "duration": 558, "slug": "gever_tulley_on_5_dangerous_things_for_kids"}, {"viewed_count": 1390980, "hero": "https://pe.tedcdn.com/images/ted/fd3659c1ca071d3125a0ff963a385ebbac0bbde9_2880x1620.jpg", "title": "New video technology that reveals an object\'s hidden properties", "id": 2246, "speaker": "Abe Davis", "duration": 1077, "slug": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties"}, {"viewed_count": 1956338, "hero": "https://pe.tedcdn.com/images/ted/74844ad902942f63d1ddb276aeb3d44c5bbcbd38_2880x1620.jpg", "title": "See invisible motion, hear silent sounds", "id": 2159, "speaker": "Michael Rubinstein", "duration": 798, "slug": "michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide"}, {"viewed_count": 16168056, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}], "recorded_at": "2009-02-06T00:00:00.000+00:00", "slug": "david_merrill_demos_siftables_the_smart_blocks", "speaker_name": "David Merrill", "viewed_count": 1767549, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2009", "name": "David Merrill: Toy tiles that talk to each other"}'
+p216
+sS'keywords'
+p217
+(lp218
+Vart
+p219
+aVbusiness
+p220
+aVchildren
+p221
+aVcomputers
+p222
+aVdesign
+p223
+aVeducation
+p224
+aVinvention
+p225
+aVmusic
+p226
+aVtechnology
+p227
+aVtoy
+p228
+asS'datecrawled'
+p229
+g211
+(S'\x07\xe1\n\x17\x02&\x05\x04X*'
+tRp230
+sS'id'
+p231
+I457
+ss.

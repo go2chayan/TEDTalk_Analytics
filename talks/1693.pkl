@@ -1,0 +1,672 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, this book that I have in my hand
+p5
+aVis a directory of everybody who had an email address
+p6
+aVin 1982. (Laughter)
+p7
+aVActually, it's deceptively large.
+p8
+aVThere's actually only about 20 people on each page,
+p9
+aVbecause we have the name, address
+p10
+aVand telephone number of every single person.
+p11
+aVAnd, in fact, everybody's listed twice,
+p12
+aVbecause it's sorted once by name and once by email address.
+p13
+aVObviously a very small community.
+p14
+aVThere were only two other Dannys on the Internet then.
+p15
+aVI knew them both.
+p16
+aVWe didn't all know each other,
+p17
+aVbut we all kind of trusted each other,
+p18
+aVand that basic feeling of trust
+p19
+aVpermeated the whole network,
+p20
+aVand there was a real sense that
+p21
+aVwe could depend on each other to do things.
+p22
+aa(lp23
+VSo just to give you an idea of the level of trust in this community,
+p24
+aVlet me tell you what it was like
+p25
+aVto register a domain name in the early days.
+p26
+aVNow, it just so happened that I got to register
+p27
+aVthe third domain name on the Internet.
+p28
+aVSo I could have anything I wanted
+p29
+aVother than bbn.com and symbolics.com.
+p30
+aVSo I picked think.com, but then I thought,
+p31
+aVyou know, there's a lot of really interesting names out there.
+p32
+aVMaybe I should register a few extras just in case.
+p33
+aVAnd then I thought, "Nah, that wouldn't be very nice."
+p34
+aa(lp35
+V(Laughter)
+p36
+aa(lp37
+VThat attitude of only taking what you need
+p38
+aVwas really what everybody had on the network in those days,
+p39
+aVand in fact, it wasn't just the people on the network,
+p40
+aVbut it was actually kind of built into the protocols
+p41
+aVof the Internet itself.
+p42
+aVSo the basic idea of I.P., or Internet protocol,
+p43
+aVand the way that the \u2014 the routing algorithm that used it,
+p44
+aVwere fundamentally "from each according to their ability,
+p45
+aVto each according to their need."
+p46
+aVAnd so, if you had some extra bandwidth,
+p47
+aVyou'd deliver a message for someone.
+p48
+aVIf they had some extra bandwidth, they would deliver a message for you.
+p49
+aVYou'd kind of depend on people to do that,
+p50
+aVand that was the building block.
+p51
+aVIt was actually interesting that such a communist principle
+p52
+aVwas the basis of a system developed during the Cold War
+p53
+aVby the Defense Department,
+p54
+aVbut it obviously worked really well,
+p55
+aVand we all saw what happened with the Internet.
+p56
+aVIt was incredibly successful.
+p57
+aa(lp58
+VIn fact, it was so successful that there's no way
+p59
+aVthat these days you could make a book like this.
+p60
+aVMy rough calculation is it would be about 25 miles thick.
+p61
+aVBut, of course, you couldn't do it,
+p62
+aVbecause we don't know the names of all the people
+p63
+aVwith Internet or email addresses,
+p64
+aVand even if we did know their names,
+p65
+aVI'm pretty sure that they would not want their name,
+p66
+aVaddress and telephone number published to everyone.
+p67
+aa(lp68
+VSo the fact is that there's a lot of bad guys on the Internet these days,
+p69
+aVand so we dealt with that by making
+p70
+aVwalled communities,
+p71
+aVsecure subnetworks, VPNs,
+p72
+aVlittle things that aren't really the Internet
+p73
+aVbut are made out of the same building blocks,
+p74
+aVbut we're still basically building it out of those
+p75
+aVsame building blocks with those same assumptions of trust.
+p76
+aVAnd that means that it's vulnerable
+p77
+aVto certain kinds of mistakes that can happen,
+p78
+aVor certain kinds of deliberate attacks,
+p79
+aVbut even the mistakes can be bad.
+p80
+aa(lp81
+VSo, for instance,
+p82
+aVin all of Asia recently,
+p83
+aVit was impossible to get YouTube for a little while
+p84
+aVbecause Pakistan made some mistakes
+p85
+aVin how it was censoring YouTube in its internal network.
+p86
+aVThey didn't intend to screw up Asia, but they did
+p87
+aVbecause of the way that the protocols work.
+p88
+aVAnother example that may have affected many of you in this audience is,
+p89
+aVyou may remember a couple of years ago,
+p90
+aVall the planes west of the Mississippi were grounded
+p91
+aVbecause a single routing card in Salt Lake City
+p92
+aVhad a bug in it.
+p93
+aVNow, you don't really think
+p94
+aVthat our airplane system depends on the Internet,
+p95
+aVand in some sense it doesn't.
+p96
+aVI'll come back to that later.
+p97
+aVBut the fact is that people couldn't take off
+p98
+aVbecause something was going wrong on the Internet,
+p99
+aVand the router card was down.
+p100
+aa(lp101
+VAnd so, there are many of those things that start to happen.
+p102
+aVNow, there was an interesting thing that happened last April.
+p103
+aVAll of a sudden,
+p104
+aVa very large percentage of the traffic on the whole Internet,
+p105
+aVincluding a lot of the traffic between U.S. military installations,
+p106
+aVstarted getting re-routed through China.
+p107
+aVSo for a few hours, it all passed through China.
+p108
+aVNow, China Telecom says it was just an honest mistake,
+p109
+aVand it is actually possible that it was, the way things work,
+p110
+aVbut certainly somebody could make
+p111
+aVa dishonest mistake of that sort if they wanted to,
+p112
+aVand it shows you how vulnerable the system is even to mistakes.
+p113
+aVImagine how vulnerable the system is to deliberate attacks.
+p114
+aa(lp115
+VSo if somebody really wanted to attack the United States
+p116
+aVor Western civilization these days,
+p117
+aVthey're not going to do it with tanks.
+p118
+aVThat will not succeed.
+p119
+aVWhat they'll probably do is something
+p120
+aVvery much like the attack that happened
+p121
+aVon the Iranian nuclear facility.
+p122
+aVNobody has claimed credit for that.
+p123
+aVThere was basically a factory of industrial machines.
+p124
+aVIt didn't think of itself as being on the Internet.
+p125
+aVIt thought of itself as being disconnected from the Internet,
+p126
+aVbut it was possible for somebody to smuggle
+p127
+aVa USB drive in there, or something like that,
+p128
+aVand software got in there that causes the centrifuges,
+p129
+aVin that case, to actually destroy themselves.
+p130
+aVNow that same kind of software could destroy an oil refinery
+p131
+aVor a pharmaceutical factory or a semiconductor plant.
+p132
+aVAnd so there's a lot of \u2014 I'm sure you've read a lot in papers,
+p133
+aVabout worries about cyberattacks
+p134
+aVand defenses against those.
+p135
+aa(lp136
+VBut the fact is, people are mostly focused on
+p137
+aVdefending the computers on the Internet,
+p138
+aVand there's been surprisingly little attention
+p139
+aVto defending the Internet itself as a communications medium.
+p140
+aVAnd I think we probably do need to pay
+p141
+aVsome more attention to that, because it's actually kind of fragile.
+p142
+aVSo actually, in the early days,
+p143
+aVback when it was the ARPANET,
+p144
+aVthere were actually times \u2014 there was a particular time it failed completely
+p145
+aVbecause one single message processor
+p146
+aVactually got a bug in it.
+p147
+aVAnd the way the Internet works is
+p148
+aVthe routers are basically exchanging information
+p149
+aVabout how they can get messages to places,
+p150
+aVand this one processor, because of a broken card,
+p151
+aVdecided it could actually get a message
+p152
+aVto some place in negative time.
+p153
+aVSo, in other words, it claimed it could deliver a message before you sent it.
+p154
+aVSo of course, the fastest way to get a message anywhere
+p155
+aVwas to send it to this guy,
+p156
+aVwho would send it back in time and get it there super early,
+p157
+aVso every message in the Internet
+p158
+aVstarted getting switched through this one node,
+p159
+aVand of course that clogged everything up.
+p160
+aVEverything started breaking.
+p161
+aVThe interesting thing was, though,
+p162
+aVthat the sysadmins were able to fix it,
+p163
+aVbut they had to basically turn every single thing on the Internet off.
+p164
+aVNow, of course you couldn't do that today.
+p165
+aVI mean, everything off, it's like
+p166
+aVthe service call you get from the cable company,
+p167
+aVexcept for the whole world.
+p168
+aa(lp169
+VNow, in fact, they couldn't do it for a lot of reasons today.
+p170
+aVOne of the reasons is a lot of their telephones
+p171
+aVuse IP protocol and use things like Skype and so on
+p172
+aVthat go through the Internet right now,
+p173
+aVand so in fact we're becoming dependent on it
+p174
+aVfor more and more different things,
+p175
+aVlike when you take off from LAX,
+p176
+aVyou're really not thinking you're using the Internet.
+p177
+aVWhen you pump gas, you really don't think you're using the Internet.
+p178
+aVWhat's happening increasingly, though, is these systems
+p179
+aVare beginning to use the Internet.
+p180
+aVMost of them aren't based on the Internet yet,
+p181
+aVbut they're starting to use the Internet for service functions,
+p182
+aVfor administrative functions,
+p183
+aVand so if you take something like the cell phone system,
+p184
+aVwhich is still relatively independent of the Internet for the most part,
+p185
+aVInternet pieces are beginning to sneak into it
+p186
+aVin terms of some of the control and administrative functions,
+p187
+aVand it's so tempting to use these same building blocks
+p188
+aVbecause they work so well, they're cheap,
+p189
+aVthey're repeated, and so on.
+p190
+aVSo all of our systems, more and more,
+p191
+aVare starting to use the same technology
+p192
+aVand starting to depend on this technology.
+p193
+aVAnd so even a modern rocket ship these days
+p194
+aVactually uses Internet protocol to talk
+p195
+aVfrom one end of the rocket ship to the other.
+p196
+aVThat's crazy. It was never designed to do things like that.
+p197
+aa(lp198
+VSo we've built this system
+p199
+aVwhere we understand all the parts of it,
+p200
+aVbut we're using it in a very, very different way than we expected to use it,
+p201
+aVand it's gotten a very, very different scale
+p202
+aVthan it was designed for.
+p203
+aVAnd in fact, nobody really exactly understands
+p204
+aVall the things it's being used for right now.
+p205
+aVIt's turning into one of these big emergent systems
+p206
+aVlike the financial system, where we've designed all the parts
+p207
+aVbut nobody really exactly understands
+p208
+aVhow it operates and all the little details of it
+p209
+aVand what kinds of emergent behaviors it can have.
+p210
+aVAnd so if you hear an expert talking about the Internet
+p211
+aVand saying it can do this, or it does do this, or it will do that,
+p212
+aVyou should treat it with the same skepticism
+p213
+aVthat you might treat the comments of an economist about the economy
+p214
+aVor a weatherman about the weather, or something like that.
+p215
+aVThey have an informed opinion,
+p216
+aVbut it's changing so quickly that even the experts
+p217
+aVdon't know exactly what's going on.
+p218
+aVSo if you see one of these maps of the Internet,
+p219
+aVit's just somebody's guess.
+p220
+aVNobody really knows what the Internet is right now
+p221
+aVbecause it's different than it was an hour ago.
+p222
+aVIt's constantly changing. It's constantly reconfiguring.
+p223
+aa(lp224
+VAnd the problem with it is,
+p225
+aVI think we are setting ourselves up for a kind of disaster
+p226
+aVlike the disaster we had in the financial system,
+p227
+aVwhere we take a system that's basically built on trust,
+p228
+aVwas basically built for a smaller-scale system,
+p229
+aVand we've kind of expanded it way beyond the limits
+p230
+aVof how it was meant to operate.
+p231
+aVAnd so right now, I think it's literally true
+p232
+aVthat we don't know what the consequences
+p233
+aVof an effective denial-of-service attack
+p234
+aVon the Internet would be,
+p235
+aVand whatever it would be is going to be worse next year,
+p236
+aVand worse next year, and so on.
+p237
+aa(lp238
+VBut so what we need is a plan B.
+p239
+aVThere is no plan B right now.
+p240
+aVThere's no clear backup system that we've very carefully kept
+p241
+aVto be independent of the Internet,
+p242
+aVmade out of completely different sets of building blocks.
+p243
+aVSo what we need is something that doesn't necessarily
+p244
+aVhave to have the performance of the Internet,
+p245
+aVbut the police department has to be able
+p246
+aVto call up the fire department even without the Internet,
+p247
+aVor the hospitals have to order fuel oil.
+p248
+aVThis doesn't need to be a multi-billion-dollar government project.
+p249
+aVIt's actually relatively simple to do, technically,
+p250
+aVbecause it can use existing fibers that are in the ground,
+p251
+aVexisting wireless infrastructure.
+p252
+aVIt's basically a matter of deciding to do it.
+p253
+aa(lp254
+VBut people won't decide to do it
+p255
+aVuntil they recognize the need for it,
+p256
+aVand that's the problem that we have right now.
+p257
+aVSo there's been plenty of people,
+p258
+aVplenty of us have been quietly arguing
+p259
+aVthat we should have this independent system for years,
+p260
+aVbut it's very hard to get people focused on plan B
+p261
+aVwhen plan A seems to be working so well.
+p262
+aa(lp263
+VSo I think that, if people understand
+p264
+aVhow much we're starting to depend on the Internet,
+p265
+aVand how vulnerable it is,
+p266
+aVwe could get focused on
+p267
+aVjust wanting this other system to exist,
+p268
+aVand I think if enough people say, "Yeah, I would like to use it,
+p269
+aVI'd like to have such a system," then it will get built.
+p270
+aVIt's not that hard a problem.
+p271
+aVIt could definitely be done by people in this room.
+p272
+aa(lp273
+VAnd so I think that this is actually,
+p274
+aVof all the problems you're going to hear about at the conference,
+p275
+aVthis is probably one of the very easiest to fix.
+p276
+aVSo I'm happy to get a chance to tell you about it.
+p277
+aa(lp278
+VThank you very much.
+p279
+aa(lp280
+V(Applause)
+p281
+aasS'transcript_micsec'
+p282
+(lp283
+I11000
+aI65000
+aI99000
+aI105000
+aI163000
+aI190000
+aI225000
+aI274000
+aI318000
+aI373000
+aI460000
+aI532000
+aI600000
+aI635000
+aI676000
+aI698000
+aI722000
+aI735000
+aI738000
+asS'talk_meta'
+p284
+(dp285
+S'ratings'
+p286
+(dp287
+S'ingenious'
+p288
+I33
+sS'funny'
+p289
+I22
+sS'inspiring'
+p290
+I56
+sS'ok'
+p291
+I96
+sS'fascinating'
+p292
+I131
+sS'total_count'
+p293
+I1375
+sS'persuasive'
+p294
+I267
+sS'longwinded'
+p295
+I50
+sS'informative'
+p296
+I568
+sS'beautiful'
+p297
+I19
+sS'jaw-dropping'
+p298
+I36
+sS'obnoxious'
+p299
+I4
+sS'confusing'
+p300
+I17
+sS'courageous'
+p301
+I30
+sS'unconvincing'
+p302
+I46
+ssS'author'
+p303
+VDanny_Hillis;
+p304
+sS'url'
+p305
+S'https://www.ted.com/talks/danny_hillis_the_internet_could_crash_we_need_a_plan_b'
+p306
+sS'vidlen'
+p307
+I751
+sS'totalviews'
+p308
+I1270682
+sS'title'
+p309
+VThe Internet could crash. We need a Plan B
+p310
+sS'downloadlink'
+p311
+Vhttps://download.ted.com/talks/DannyHillis_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p312
+sS'datepublished'
+p313
+cdatetime
+datetime
+p314
+(S'\x07\xdd\x03\x12\x086:\x00\x00\x00'
+tRp315
+sS'datefilmed'
+p316
+g314
+(S'\x07\xdd\x03\x12\x086:\x00\x00\x00'
+tRp317
+sS'alldata_JSON'
+p318
+S'{"viewed_count": 1270682, "speakers": [{"description": "Computer theorist", "firstname": "Danny", "title": "", "lastname": "Hillis", "middleinitial": "", "whylisten": "<p>Danny Hillis is an inventor, scientist, author and engineer. While completing his doctorate at MIT, he pioneered the concept of parallel computers that is now the basis for most supercomputers, as well as the RAID array. He holds over 100 US patents, covering parallel computers, disk arrays, forgery prevention methods and various electronic and mechanical devices, and he has recently been working on problems in medicine as well. He is also the designer of a 10,000-year mechanical clock, and he <a href=\\"http://www.ted.com/talks/danny_hillis_back_to_the_future_of_1994.html\\" target=\\"_blank\\">gave a TED Talk in 1994</a>  that is practically prophetic. Throughout his career, Hillis has worked at places like Disney and now&nbsp;<a href=\\"http://appliedminds.com/\\" target=\\"_blank\\">Applied Minds</a>, always looking for the next fascinating problem. </p>      ", "slug": "danny_hillis", "whotheyare": "Inventor, scientist, author, engineer -- over his broad career, Danny Hillis has turned his ever-searching brain on an array of subjects, with surprising results.", "whatotherssay": "We\'re at a point in time which is analogous to when single-celled organisms were turning into multi-celled organisms. So we\'re the amoebas.", "id": 961, "photo_url": "https://pe.tedcdn.com/images/ted/9e001dad9c1a45caa23a52328f8aa33a256f18ab_254x191.jpg"}], "current_talk": 1693, "description": "The Internet connects billions of people and machines; it\'s the backbone of modern life. But tech pioneer Danny Hillis thinks the Internet just wasn\'t designed to grow this big -- and he fears that one big cyber-attack or glitch could shut it down and take civilization with it. To head off a digital dark age, he sounds a clarion call to develop a Plan B: a parallel system to fall back on if -- or when -- the Internet crashes.", "language": "en", "url": "https://www.ted.com/talks/danny_hillis_the_internet_could_crash_we_need_a_plan_b", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DannyHillis_2013-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86842227}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DannyHillis_2013-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17223418}, "podcast-high": {"uri": "https://download.ted.com/talks/DannyHillis_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86845101}, "180k": {"uri": "https://download.ted.com/talks/DannyHillis_2013-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16977518}, "64k": {"uri": "https://download.ted.com/talks/DannyHillis_2013-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6126826}, "1500k": {"uri": "https://download.ted.com/talks/DannyHillis_2013-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 135322155}, "450k": {"uri": "https://download.ted.com/talks/DannyHillis_2013-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42360050}, "podcast-regular": {"uri": "https://download.ted.com/talks/DannyHillis_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42475321}, "950k": {"uri": "https://download.ted.com/talks/DannyHillis_2013-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86835061}, "audio-podcast": {"uri": "https://download.ted.com/talks/DannyHillis_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7771212}, "podcast-light": {"uri": "https://download.ted.com/talks/DannyHillis_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6260343}, "320k": {"uri": "https://download.ted.com/talks/DannyHillis_2013-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30063506}, "600k": {"uri": "https://download.ted.com/talks/DannyHillis_2013-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56724427}}}, "comments": {"count": 172, "id": 18778, "talk_id": 1693}, "slug": "danny_hillis_the_internet_could_crash_we_need_a_plan_b", "threadId": 18778, "talks": [{"event": "TED2013", "player_talks": [{"event": "TED2013", "slug": "danny_hillis_the_internet_could_crash_we_need_a_plan_b", "filmed": 1361923200, "targeting": {"event": "TED2013", "tag": "Internet,TED Brain Trust,computers,technology", "id": 1693, "talk": "danny_hillis_the_internet_could_crash_we_need_a_plan_b", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "The Internet could crash. We need a Plan B", "postAdDuration": "0.83", "published": 1363611298, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fc7b6c0a7974f84b6fd218a3409eb5248d214aad_1600x1200.jpg?quality=89&w=600", "name": "Danny Hillis: The Internet could crash. We need a Plan B", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "TED Brain Trust", "computers", "technology"], "speaker": "Danny Hillis", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 751, "id": 1693, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DannyHillis_2013-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2013", "tag": "Internet,TED Brain Trust,computers,technology", "id": 1693, "talk": "danny_hillis_the_internet_could_crash_we_need_a_plan_b", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1693.json", "stream": "https://hls.ted.com/talks/1693.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2013%26id%3D1693%26tag%3DInternet%2CTED%2BBrain%2BTrust%2Ccomputers%2Ctechnology%26talk%3Ddanny_hillis_the_internet_could_crash_we_need_a_plan_b%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/danny_hillis_the_internet_could_crash_we_need_a_plan_b"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fc7b6c0a7974f84b6fd218a3409eb5248d214aad_1600x1200.jpg?q=50&w=15", "duration": 751, "id": 1693, "ratings": [{"count": 267, "id": 24, "name": "Persuasive"}, {"count": 568, "id": 8, "name": "Informative"}, {"count": 50, "id": 11, "name": "Longwinded"}, {"count": 96, "id": 25, "name": "OK"}, {"count": 36, "id": 23, "name": "Jaw-dropping"}, {"count": 46, "id": 21, "name": "Unconvincing"}, {"count": 4, "id": 26, "name": "Obnoxious"}, {"count": 131, "id": 22, "name": "Fascinating"}, {"count": 22, "id": 7, "name": "Funny"}, {"count": 33, "id": 9, "name": "Ingenious"}, {"count": 17, "id": 2, "name": "Confusing"}, {"count": 56, "id": 10, "name": "Inspiring"}, {"count": 30, "id": 3, "name": "Courageous"}, {"count": 19, "id": 1, "name": "Beautiful"}], "speakers": [{"description": "Computer theorist", "firstname": "Danny", "title": "", "lastname": "Hillis", "middleinitial": "", "whylisten": "<p>Danny Hillis is an inventor, scientist, author and engineer. While completing his doctorate at MIT, he pioneered the concept of parallel computers that is now the basis for most supercomputers, as well as the RAID array. He holds over 100 US patents, covering parallel computers, disk arrays, forgery prevention methods and various electronic and mechanical devices, and he has recently been working on problems in medicine as well. He is also the designer of a 10,000-year mechanical clock, and he <a href=\\"http://www.ted.com/talks/danny_hillis_back_to_the_future_of_1994.html\\" target=\\"_blank\\">gave a TED Talk in 1994</a>  that is practically prophetic. Throughout his career, Hillis has worked at places like Disney and now&nbsp;<a href=\\"http://appliedminds.com/\\" target=\\"_blank\\">Applied Minds</a>, always looking for the next fascinating problem. </p>      ", "slug": "danny_hillis", "whotheyare": "Inventor, scientist, author, engineer -- over his broad career, Danny Hillis has turned his ever-searching brain on an array of subjects, with surprising results.", "whatotherssay": "We\'re at a point in time which is analogous to when single-celled organisms were turning into multi-celled organisms. So we\'re the amoebas.", "id": 961, "photo_url": "https://pe.tedcdn.com/images/ted/9e001dad9c1a45caa23a52328f8aa33a256f18ab_254x191.jpg"}], "title": "The Internet could crash. We need a Plan B", "take_action": [], "comments": 18778, "more_resources": [{"status": "approved", "start_at": null, "headline": "Actually, the Internet will be just fine", "link_url": "http://blog.ted.com/2013/03/19/vint-cerf-actually-the-internets-going-to-be-just-fine/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Video: Vint Cerf helped invent the Internet. Onstage at TED, he replies to Danny Hillis\' talk."}], "hero": "https://pe.tedcdn.com/images/ted/fc7b6c0a7974f84b6fd218a3409eb5248d214aad_1600x1200.jpg", "description": "The Internet connects billions of people and machines; it\'s the backbone of modern life. But tech pioneer Danny Hillis thinks the Internet just wasn\'t designed to grow this big -- and he fears that one big cyber-attack or glitch could shut it down and take civilization with it. To head off a digital dark age, he sounds a clarion call to develop a Plan B: a parallel system to fall back on if -- or when -- the Internet crashes.", "tags": ["Internet", "TED Brain Trust", "computers", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DannyHillis_2013-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DannyHillis_2013-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DannyHillis_2013-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-pt-br.mp4", "name": "Portuguese, Brazilian"}, "es": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DannyHillis_2013-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DannyHillis_2013-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-pt.mp4", "name": "Portuguese"}, "zh-tw": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DannyHillis_2013-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DannyHillis_2013-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DannyHillis_2013-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DannyHillis_2013-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DannyHillis_2013-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DannyHillis_2013-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DannyHillis_2013-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DannyHillis_2013-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DannyHillis_2013-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DannyHillis_2013-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DannyHillis_2013-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DannyHillis_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DannyHillis_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DannyHillis_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1693, "audioDownload": "https://download.ted.com/talks/DannyHillis_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 584248, "hero": "https://pe.tedcdn.com/images/ted/cf3f802cc34ca2755770767864d9358cd7139f3a_800x600.jpg", "title": "Back to the future (of 1994)", "id": 1346, "speaker": "Danny Hillis", "duration": 1150, "slug": "danny_hillis_back_to_the_future_of_1994"}, {"viewed_count": 1344257, "hero": "https://pe.tedcdn.com/images/ted/152861f8af71a009621660067b64b1c6ed18cf3e_2880x1620.jpg", "title": "Discover the physical side of the internet", "id": 1576, "speaker": "Andrew Blum", "duration": 719, "slug": "andrew_blum_what_is_the_internet_really"}, {"viewed_count": 346285, "hero": "https://pe.tedcdn.com/images/ted/371_480x360.jpg", "title": "The Web as a city", "id": 362, "speaker": "Steven Johnson", "duration": 990, "slug": "steven_johnson_on_the_web_as_a_city"}, {"viewed_count": 720813, "hero": "https://pe.tedcdn.com/images/ted/117051_800x600.jpg", "title": "The Web as random acts of kindness", "id": 640, "speaker": "Jonathan Zittrain", "duration": 1191, "slug": "jonathan_zittrain_the_web_is_a_random_act_of_kindness"}, {"viewed_count": 1823337, "hero": "https://pe.tedcdn.com/images/ted/387_480x360.jpg", "title": "If I controlled the Internet", "id": 26, "speaker": "Rives", "duration": 247, "slug": "rives_controls_the_internet"}, {"viewed_count": 431625, "hero": "https://pe.tedcdn.com/images/ted/117223_800x600.jpg", "title": "How the Net aids dictatorships", "id": 641, "speaker": "Evgeny Morozov", "duration": 713, "slug": "evgeny_morozov_is_the_internet_what_orwell_feared"}], "recorded_at": "2013-02-27T00:00:00.000+00:00", "slug": "danny_hillis_the_internet_could_crash_we_need_a_plan_b", "speaker_name": "Danny Hillis", "viewed_count": 1270682, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2013", "name": "Danny Hillis: The Internet could crash. We need a Plan B"}'
+p319
+sS'keywords'
+p320
+(lp321
+VInternet
+p322
+aVTED Brain Trust
+p323
+aVcomputers
+p324
+aVtechnology
+p325
+asS'datecrawled'
+p326
+g314
+(S'\x07\xe1\n\x17\x02\x16\t\x03\xa1\xd0'
+tRp327
+sS'id'
+p328
+I1693
+ss.

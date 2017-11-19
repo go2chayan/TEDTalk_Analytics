@@ -1,0 +1,702 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VHello! My name is Golan Levin.
+p5
+aVI'm an artist and an engineer,
+p6
+aVwhich is, increasingly, a more common kind of hybrid.
+p7
+aVBut I still fall into this weird crack
+p8
+aVwhere people don't seem to understand me.
+p9
+aVAnd I was looking around and I found this wonderful picture.
+p10
+aVIt's a letter from "Artforum" in 1967
+p11
+aVsaying "We can't imagine ever doing a special issue
+p12
+aVon electronics or computers in art." And they still haven't.
+p13
+aVAnd lest you think that you all, as the digerati, are more enlightened,
+p14
+aVI went to the Apple iPhone app store the other day.
+p15
+aVWhere's art? I got productivity. I got sports.
+p16
+aVAnd somehow the idea that one would want to make art for the iPhone,
+p17
+aVwhich my friends and I are doing now,
+p18
+aVis still not reflected in our understanding
+p19
+aVof what computers are for.
+p20
+aa(lp21
+VSo, from both directions, there is kind of, I think, a lack of understanding
+p22
+aVabout what it could mean to be an artist who uses the materials
+p23
+aVof his own day, or her own day,
+p24
+aVwhich I think artists are obliged to do,
+p25
+aVis to really explore the expressive potential of the new tools that we have.
+p26
+aVIn my own case, I'm an artist,
+p27
+aVand I'm really interested in
+p28
+aVexpanding the vocabulary of human action,
+p29
+aVand basically empowering people through interactivity.
+p30
+aVI want people to discover themselves as actors,
+p31
+aVas creative actors, by having interactive experiences.
+p32
+aa(lp33
+VA lot of my work is about trying to get away from this.
+p34
+aVThis a photograph of the desktop of a student of mine.
+p35
+aVAnd when I say desktop, I don't just mean
+p36
+aVthe actual desk where his mouse has worn away the surface of the desk.
+p37
+aVIf you look carefully, you can even see
+p38
+aVa hint of the Apple menu, up here in the upper left,
+p39
+aVwhere the virtual world has literally
+p40
+aVpunched through to the physical.
+p41
+aVSo this is, as Joy Mountford once said,
+p42
+aV"The mouse is probably the narrowest straw
+p43
+aVyou could try to suck all of human expression through."
+p44
+aa(lp45
+V(Laughter)
+p46
+aa(lp47
+VAnd the thing I'm really trying to do is enabling people to have more rich
+p48
+aVkinds of interactive experiences.
+p49
+aVHow can we get away from the mouse and use our full bodies
+p50
+aVas a way of exploring aesthetic experiences,
+p51
+aVnot necessarily utilitarian ones.
+p52
+aVSo I write software. And that's how I do it.
+p53
+aVAnd a lot of my experiences
+p54
+aVresemble mirrors in some way.
+p55
+aVBecause this is, in some sense, the first way,
+p56
+aVthat people discover their own potential as actors,
+p57
+aVand discover their own agency.
+p58
+aVBy saying "Who is that person in the mirror? Oh it's actually me."
+p59
+aa(lp60
+VAnd so, to give an example,
+p61
+aVthis is a project from last year,
+p62
+aVwhich is called the Interstitial Fragment Processor.
+p63
+aVAnd it allows people to explore the negative shapes that they create
+p64
+aVwhen they're just going about their everyday business.
+p65
+aVSo as people make shapes with their hands or their heads
+p66
+aVand so forth, or with each other,
+p67
+aVthese shapes literally produce sounds and drop out of thin air \u2014
+p68
+aVbasically taking what's often this, kind of, unseen space,
+p69
+aVor this undetected space, and making it something real,
+p70
+aVthat people then can appreciate and become creative with.
+p71
+aVSo again, people discover their creative agency in this way.
+p72
+aVAnd their own personalities come out
+p73
+aVin totally unique ways.
+p74
+aa(lp75
+VSo in addition to using full-body input,
+p76
+aVsomething that I've explored now, for a while,
+p77
+aVhas been the use of the voice,
+p78
+aVwhich is an immensely expressive system for us, vocalizing.
+p79
+aVSong is one of our oldest ways
+p80
+aVof making ourselves heard and understood.
+p81
+aVAnd I came across this fantastic research by Wolfgang Köhler,
+p82
+aVthe so-called father of gestalt psychology, from 1927,
+p83
+aVwho submitted to an audience like yourselves
+p84
+aVthe following two shapes.
+p85
+aVAnd he said one of them is called Maluma.
+p86
+aVAnd one of them is called Taketa. Which is which?
+p87
+aVAnyone want to hazard a guess?
+p88
+aVMaluma is on top. Yeah. So.
+p89
+aVAs he says here, most people answer without any hesitation.
+p90
+aa(lp91
+VSo what we're really seeing here is a phenomenon
+p92
+aVcalled phonaesthesia,
+p93
+aVwhich is a kind of synesthesia that all of you have.
+p94
+aVAnd so, whereas Dr. Oliver Sacks has talked about
+p95
+aVhow perhaps one person in a million
+p96
+aVactually has true synesthesia,
+p97
+aVwhere they hear colors or taste shapes, and things like this,
+p98
+aVphonaesthesia is something we can all experience to some extent.
+p99
+aVIt's about mappings between different perceptual domains,
+p100
+aVlike hardness, sharpness, brightness and darkness,
+p101
+aVand the phonemes that we're able to speak with.
+p102
+aa(lp103
+VSo 70 years on, there's been some research where
+p104
+aVcognitive psychologists have actually sussed out
+p105
+aVthe extent to which, you know,
+p106
+aVL, M and B are more associated with shapes that look like this,
+p107
+aVand P, T and K are perhaps more associated with shapes like this.
+p108
+aVAnd here we suddenly begin to have a mapping between curvature
+p109
+aVthat we can exploit numerically,
+p110
+aVa relative mapping between curvature and shape.
+p111
+aa(lp112
+VSo it occurred to me, what happens if we could run these backwards?
+p113
+aVAnd thus was born the project called Remark,
+p114
+aVwhich is a collaboration with Zachary Lieberman
+p115
+aVand the Ars Electronica Futurelab.
+p116
+aVAnd this is an interactive installation which presents
+p117
+aVthe fiction that speech casts visible shadows.
+p118
+aVSo the idea is you step into a kind of a magic light.
+p119
+aVAnd as you do, you see the shadows of your own speech.
+p120
+aVAnd they sort of fly away, out of your head.
+p121
+aVIf a computer speech recognition system
+p122
+aVis able to recognize what you're saying, then it spells it out.
+p123
+aVAnd if it isn't then it produces a shape which is very phonaesthetically
+p124
+aVtightly coupled to the sounds you made.
+p125
+aVSo let's bring up a video of that.
+p126
+aa(lp127
+V(Applause)
+p128
+aa(lp129
+VThanks. So. And this project here,
+p130
+aVI was working with the great abstract vocalist, Jaap Blonk.
+p131
+aVAnd he is a world expert in performing "The Ursonate,"
+p132
+aVwhich is a half-an-hour nonsense poem
+p133
+aVby Kurt Schwitters, written in the 1920s,
+p134
+aVwhich is half an hour of very highly patterned nonsense.
+p135
+aVAnd it's almost impossible to perform.
+p136
+aVBut Jaap is one of the world experts in performing it.
+p137
+aVAnd in this project we've developed
+p138
+aVa form of intelligent real-time subtitles.
+p139
+aVSo these are our live subtitles,
+p140
+aVthat are being produced by a computer that knows the text of "The Ursonate" \u2014
+p141
+aVfortunately Jaap does too, very well \u2014
+p142
+aVand it is delivering that text at the same time as Jaap is.
+p143
+aVSo all the text you're going to see
+p144
+aVis real-time generated by the computer,
+p145
+aVvisualizing what he's doing with his voice.
+p146
+aVHere you can see the set-up where there is a screen with the subtitles behind him.
+p147
+aVOkay. So ...
+p148
+aV(Applause)
+p149
+aVThe full videos are online if you are interested.
+p150
+aa(lp151
+VI got a split reaction to that during the live performance,
+p152
+aVbecause there is some people who understand
+p153
+aVlive subtitles are a kind of an oxymoron,
+p154
+aVbecause usually there is someone making them afterwards.
+p155
+aVAnd then a bunch of people who were like, "What's the big deal?
+p156
+aVI see subtitles all the time on television."
+p157
+aVYou know? They don't imagine the person in the booth, typing it all.
+p158
+aa(lp159
+VSo in addition to the full body, and in addition to the voice,
+p160
+aVanother thing that I've been really interested in,
+p161
+aVmost recently, is the use of the eyes,
+p162
+aVor the gaze, in terms of how people relate to each other.
+p163
+aVIt's a really profound amount of nonverbal information
+p164
+aVthat's communicated with the eyes.
+p165
+aVAnd it's one of the most interesting technical challenges
+p166
+aVthat's very currently active in the computer sciences:
+p167
+aVbeing able to have a camera that can understand,
+p168
+aVfrom a fairly big distance away,
+p169
+aVhow these little tiny balls are actually pointing in one way or another
+p170
+aVto reveal what you're interested in,
+p171
+aVand where your attention is directed.
+p172
+aVSo there is a lot of emotional communication that happens there.
+p173
+aa(lp174
+VAnd so I've been beginning, with a variety of different projects,
+p175
+aVto understand how people can relate to machines with their eyes.
+p176
+aVAnd basically to ask the questions:
+p177
+aVWhat if art was aware that we were looking at it?
+p178
+aVHow could it respond, in a way,
+p179
+aVto acknowledge or subvert the fact that we're looking at it?
+p180
+aVAnd what could it do if it could look back at us?
+p181
+aVAnd so those are the questions that are happening in the next projects.
+p182
+aa(lp183
+VIn the first one which I'm going to show you, called Eyecode,
+p184
+aVit's a piece of interactive software
+p185
+aVin which, if we read this little circle,
+p186
+aV"the trace left by the looking of the previous observer
+p187
+aVlooks at the trace left by the looking of previous observer."
+p188
+aVThe idea is that it's an image wholly constructed
+p189
+aVfrom its own history of being viewed
+p190
+aVby different people in an installation.
+p191
+aVSo let me just switch over so we can do the live demo.
+p192
+aVSo let's run this and see if it works.
+p193
+aa(lp194
+VOkay. Ah, there is lots of nice bright video.
+p195
+aVThere is just a little test screen that shows that it's working.
+p196
+aVAnd what I'm just going to do is \u2014 I'm going to hide that.
+p197
+aVAnd you can see here that what it's doing
+p198
+aVis it's recording my eyes every time I blink.
+p199
+aVHello? And I can ... hello ... okay.
+p200
+aVAnd no matter where I am, what's really going on here
+p201
+aVis that it's an eye-tracking system that tries to locate my eyes.
+p202
+aVAnd if I get really far away I'm blurry.
+p203
+aVYou know, you're going to have these kind of blurry spots like this
+p204
+aVthat maybe only resemble eyes in a very very abstract way.
+p205
+aVBut if I come up really close and stare directly at the camera
+p206
+aVon this laptop then you'll see these nice crisp eyes.
+p207
+aa(lp208
+VYou can think of it as a way of, sort of, typing, with your eyes.
+p209
+aVAnd what you're typing are recordings of your eyes
+p210
+aVas you're looking at other peoples' eyes.
+p211
+aVSo each person is looking at the looking
+p212
+aVof everyone else before them.
+p213
+aVAnd this exists in larger installations
+p214
+aVwhere there are thousands and thousands of eyes
+p215
+aVthat people could be staring at,
+p216
+aVas you see who's looking at the people looking
+p217
+aVat the people looking before them.
+p218
+aVSo I'll just add a couple more. Blink. Blink.
+p219
+aVAnd you can see, just once again, how it's sort of finding my eyes
+p220
+aVand doing its best to estimate when it's blinking.
+p221
+aVAlright. Let's leave that.
+p222
+aVSo that's this kind of recursive observation system.
+p223
+aV(Applause)
+p224
+aVThank you.
+p225
+aa(lp226
+VThe last couple pieces I'm going to show
+p227
+aVare basically in the new realm of robotics \u2014 for me, new for me.
+p228
+aVIt's called Opto-Isolator.
+p229
+aVAnd I'm going to show a video of the older version of it,
+p230
+aVwhich is just a minute long. Okay.
+p231
+aVIn this case, the Opto-Isolator is blinking
+p232
+aVin response to one's own blinks.
+p233
+aVSo it blinks one second after you do.
+p234
+aVThis is a device which is intended to reduce
+p235
+aVthe phenomenon of gaze down to the simplest possible materials.
+p236
+aVJust one eye,
+p237
+aVlooking at you, and eliminating everything else about a face,
+p238
+aVbut just to consider gaze in an isolated way
+p239
+aVas a kind of, as an element.
+p240
+aVAnd at the same time, it attempts to engage in what you might call
+p241
+aVfamiliar psycho-social gaze behaviors.
+p242
+aVLike looking away if you look at it too long
+p243
+aVbecause it gets shy,
+p244
+aVor things like that.
+p245
+aa(lp246
+VOkay. So the last project I'm going to show
+p247
+aVis this new one called Snout.
+p248
+aV(Laughter)
+p249
+aVIt's an eight-foot snout,
+p250
+aVwith a googly eye.
+p251
+aV(Laughter)
+p252
+aVAnd inside it's got an 800-pound robot arm
+p253
+aVthat I borrowed,
+p254
+aV(Laughter)
+p255
+aVfrom a friend.
+p256
+aV(Laughter)
+p257
+aVIt helps to have good friends.
+p258
+aVI'm at Carnegie Mellon; we've got a great Robotics Institute there.
+p259
+aVI'd like to show you thing called Snout, which is \u2014
+p260
+aVThe idea behind this project is to
+p261
+aVmake a robot that appears as if it's continually surprised to see you.
+p262
+aV(Laughter)
+p263
+aVThe idea is that basically \u2014
+p264
+aVif it's constantly like "Huh? ... Huh?"
+p265
+aVThat's why its other name is Doubletaker, Taker of Doubles.
+p266
+aVIt's always kind of doing a double take: "What?"
+p267
+aVAnd the idea is basically, can it look at you
+p268
+aVand make you feel as if like,
+p269
+aV"What? Is it my shoes?"
+p270
+aV"Got something on my hair?" Here we go. Alright.
+p271
+aa(lp272
+VChecking him out ...
+p273
+aVFor you nerds, here's a little behind-the-scenes.
+p274
+aVIt's got a computer vision system,
+p275
+aVand it tries to look at the people who are moving around the most.
+p276
+aVThose are its targets.
+p277
+aVUp there is the skeleton,
+p278
+aVwhich is actually what it's trying to do.
+p279
+aVIt's really about trying to create a novel body language for a new creature.
+p280
+aVHollywood does this all the time, of course.
+p281
+aVBut also have the body language communicate something
+p282
+aVto the person who is looking at it.
+p283
+aVThis language is communicating that it is surprised to see you,
+p284
+aVand it's interested in looking at you.
+p285
+aa(lp286
+V(Laughter)
+p287
+aa(lp288
+V(Applause)
+p289
+aa(lp290
+VThank you very much. That's all I've got for today.
+p291
+aVAnd I'm really happy to be here. Thank you so much.
+p292
+aa(lp293
+V(Applause)
+p294
+aasS'transcript_micsec'
+p295
+(lp296
+I15000
+aI63000
+aI91000
+aI118000
+aI121000
+aI149000
+aI201000
+aI240000
+aI264000
+aI285000
+aI366000
+aI368000
+aI526000
+aI543000
+aI576000
+aI601000
+aI629000
+aI668000
+aI709000
+aI764000
+aI853000
+aI911000
+aI913000
+aI922000
+aI927000
+asS'talk_meta'
+p297
+(dp298
+S'ratings'
+p299
+(dp300
+S'ingenious'
+p301
+I210
+sS'funny'
+p302
+I253
+sS'inspiring'
+p303
+I137
+sS'ok'
+p304
+I75
+sS'fascinating'
+p305
+I223
+sS'total_count'
+p306
+I1195
+sS'persuasive'
+p307
+I12
+sS'longwinded'
+p308
+I22
+sS'informative'
+p309
+I63
+sS'beautiful'
+p310
+I84
+sS'jaw-dropping'
+p311
+I40
+sS'obnoxious'
+p312
+I14
+sS'confusing'
+p313
+I20
+sS'courageous'
+p314
+I10
+sS'unconvincing'
+p315
+I32
+ssS'author'
+p316
+VGolan_Levin;
+p317
+sS'url'
+p318
+S'https://www.ted.com/talks/golan_levin_ted2009'
+p319
+sS'vidlen'
+p320
+I933
+sS'totalviews'
+p321
+I772451
+sS'title'
+p322
+VArt that looks back at you
+p323
+sS'downloadlink'
+p324
+Vhttps://download.ted.com/talks/GolanLevin_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p325
+sS'datepublished'
+p326
+cdatetime
+datetime
+p327
+(S'\x07\xd9\x07\x1d\x15\x00\x00\x00\x00\x00'
+tRp328
+sS'datefilmed'
+p329
+g327
+(S'\x07\xd9\x07\x1d\x15\x00\x00\x00\x00\x00'
+tRp330
+sS'alldata_JSON'
+p331
+S'{"viewed_count": 772451, "speakers": [{"description": "Experimental audio-visual artist", "firstname": "Golan", "title": "", "lastname": "Levin", "middleinitial": "", "whylisten": "<p>Having worked as an academic at MIT and a researcher specializing in computer technology and software engineering, Golan Levin now spends most of his time working as a performance artist. Rest assured his education hasn&#39;t gone to waste, however, as Levin <strong>blends high tech and customized software programs to create his own extraordinary audio and visual compositions</strong>. The results are inordinately experimental sonic and visual extravaganzas from the furthest left of the field. </p><p>Many of his pieces force audience participation, such as <em><a href=\\"http://www.flong.com/telesymphony/index.html\\" target=\\"_blank\\">Dialtones: A Telesymphony</a>,</em> <strong>a concert from 2001 entirely composed of the choreographed ringtones of his audience</strong>. Regularly exhibiting pieces in galleries around the world, and also working as an Assistant Professor of Electronic Time-Based Art at Carnegie Mellon University, Levin is unapologetically pushing boundaries to define a brave new world of what is possible.</p><p>His latest piece, <a href=\\"http://www.flong.com/projects/snout/\\" target=\\"_blank\\"><em>Double-Taker (Snout)</em></a>, is installed at the Pittsburg Museum of Art.</p>", "slug": "golan_levin", "whotheyare": "Half performance artist, half software engineer, Golan Levin manipulates the computer to create improvised soundscapes with dazzling corresponding visuals. He is at the forefront of defining new parameters for art.", "whatotherssay": "Golan Levin\'s work combines equal measures of the whimsical, the provocative, and the sublime in a wide variety of online, installation and performance media. ", "id": 15, "photo_url": "https://pe.tedcdn.com/images/ted/1431_254x191.jpg"}], "current_talk": 606, "description": "Golan Levin, an artist and engineer, uses modern tools -- robotics, new software, cognitive research -- to make artworks that surprise and delight. Watch as sounds become shapes, bodies create paintings, and a curious eye looks back at the curious viewer.", "language": "en", "url": "https://www.ted.com/talks/golan_levin_ted2009", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/GolanLevin_2009-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110885932}, "podcast-low-en": {"uri": "https://download.ted.com/talks/GolanLevin_2009-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21519148}, "podcast-high": {"uri": "https://download.ted.com/talks/GolanLevin_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110551597}, "180k": {"uri": "https://download.ted.com/talks/GolanLevin_2009-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21237100}, "64k": {"uri": "https://download.ted.com/talks/GolanLevin_2009-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7673327}, "1500k": {"uri": "https://download.ted.com/talks/GolanLevin_2009-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 172071399}, "450k": {"uri": "https://download.ted.com/talks/GolanLevin_2009-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 52942211}, "podcast-regular": {"uri": "https://download.ted.com/talks/GolanLevin_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53057336}, "950k": {"uri": "https://download.ted.com/talks/GolanLevin_2009-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110541476}, "podcast-light": {"uri": "https://download.ted.com/talks/GolanLevin_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7806875}, "320k": {"uri": "https://download.ted.com/talks/GolanLevin_2009-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37663484}, "600k": {"uri": "https://download.ted.com/talks/GolanLevin_2009-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 70782927}}}, "comments": {"count": 85, "id": 497, "talk_id": 606}, "slug": "golan_levin_ted2009", "threadId": 497, "talks": [{"event": "TED2009", "player_talks": [{"event": "TED2009", "slug": "golan_levin_ted2009", "filmed": 1235088000, "targeting": {"event": "TED2009", "tag": "art,creativity,design,poetry,software,technology", "id": 606, "talk": "golan_levin_ted2009", "year": "2009"}, "adDuration": "4.00", "external": null, "title": "Art that looks back at you", "postAdDuration": "0.83", "published": 1248915600, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b4e0d52d297cc0543e032da35e18440433d9f69f_2880x1620.jpg?quality=89&w=600", "name": "Golan Levin: Art that looks back at you", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["art", "creativity", "design", "poetry", "software", "technology"], "speaker": "Golan Levin", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 933, "id": 606, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/GolanLevin_2009-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2009", "tag": "art,creativity,design,poetry,software,technology", "id": 606, "talk": "golan_levin_ted2009", "year": "2009"}, "metadata": "https://hls.ted.com/talks/606.json", "stream": "https://hls.ted.com/talks/606.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2009%26id%3D606%26tag%3Dart%2Ccreativity%2Cdesign%2Cpoetry%2Csoftware%2Ctechnology%26talk%3Dgolan_levin_ted2009%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/golan_levin_ted2009"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b4e0d52d297cc0543e032da35e18440433d9f69f_2880x1620.jpg?q=50&w=15", "duration": 933, "id": 606, "ratings": [{"count": 20, "id": 2, "name": "Confusing"}, {"count": 22, "id": 11, "name": "Longwinded"}, {"count": 32, "id": 21, "name": "Unconvincing"}, {"count": 253, "id": 7, "name": "Funny"}, {"count": 223, "id": 22, "name": "Fascinating"}, {"count": 210, "id": 9, "name": "Ingenious"}, {"count": 84, "id": 1, "name": "Beautiful"}, {"count": 137, "id": 10, "name": "Inspiring"}, {"count": 75, "id": 25, "name": "OK"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 63, "id": 8, "name": "Informative"}, {"count": 12, "id": 24, "name": "Persuasive"}, {"count": 40, "id": 23, "name": "Jaw-dropping"}, {"count": 10, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Experimental audio-visual artist", "firstname": "Golan", "title": "", "lastname": "Levin", "middleinitial": "", "whylisten": "<p>Having worked as an academic at MIT and a researcher specializing in computer technology and software engineering, Golan Levin now spends most of his time working as a performance artist. Rest assured his education hasn&#39;t gone to waste, however, as Levin <strong>blends high tech and customized software programs to create his own extraordinary audio and visual compositions</strong>. The results are inordinately experimental sonic and visual extravaganzas from the furthest left of the field. </p><p>Many of his pieces force audience participation, such as <em><a href=\\"http://www.flong.com/telesymphony/index.html\\" target=\\"_blank\\">Dialtones: A Telesymphony</a>,</em> <strong>a concert from 2001 entirely composed of the choreographed ringtones of his audience</strong>. Regularly exhibiting pieces in galleries around the world, and also working as an Assistant Professor of Electronic Time-Based Art at Carnegie Mellon University, Levin is unapologetically pushing boundaries to define a brave new world of what is possible.</p><p>His latest piece, <a href=\\"http://www.flong.com/projects/snout/\\" target=\\"_blank\\"><em>Double-Taker (Snout)</em></a>, is installed at the Pittsburg Museum of Art.</p>", "slug": "golan_levin", "whotheyare": "Half performance artist, half software engineer, Golan Levin manipulates the computer to create improvised soundscapes with dazzling corresponding visuals. He is at the forefront of defining new parameters for art.", "whatotherssay": "Golan Levin\'s work combines equal measures of the whimsical, the provocative, and the sublime in a wide variety of online, installation and performance media. ", "id": 15, "photo_url": "https://pe.tedcdn.com/images/ted/1431_254x191.jpg"}], "title": "Art that looks back at you", "take_action": null, "comments": 497, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/b4e0d52d297cc0543e032da35e18440433d9f69f_2880x1620.jpg", "description": "Golan Levin, an artist and engineer, uses modern tools -- robotics, new software, cognitive research -- to make artworks that surprise and delight. Watch as sounds become shapes, bodies create paintings, and a curious eye looks back at the curious viewer.", "tags": ["art", "creativity", "design", "poetry", "software", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/GolanLevin_2009-low-el.mp4"}, "fr": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/GolanLevin_2009-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/GolanLevin_2009-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/GolanLevin_2009-low-nl.mp4"}, "ru": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/GolanLevin_2009-low-ru.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/GolanLevin_2009-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/GolanLevin_2009-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/GolanLevin_2009-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/GolanLevin_2009-low-it.mp4"}, "tr": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/GolanLevin_2009-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/GolanLevin_2009-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/GolanLevin_2009-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/GolanLevin_2009-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/GolanLevin_2009-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/GolanLevin_2009-low-bg.mp4"}, "vi": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/GolanLevin_2009-low-vi.mp4"}, "ro": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/GolanLevin_2009-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/GolanLevin_2009-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/GolanLevin_2009-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/GolanLevin_2009-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/GolanLevin_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/GolanLevin_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/GolanLevin_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 606, "audioDownload": null}, "related_talks": [{"viewed_count": 607931, "hero": "https://pe.tedcdn.com/images/ted/cf42ee3e183408cbbd6aaa5e824e605251ad91dc_2880x1620.jpg", "title": "Software (as) art", "id": 14, "speaker": "Golan Levin", "duration": 893, "slug": "golan_levin_on_software_as_art"}, {"viewed_count": 1157592, "hero": "https://pe.tedcdn.com/images/ted/c29cd3594b3be9c5290242f636b79e33e138e488_1600x1200.jpg", "title": "Art with wire, sugar, chocolate and string", "id": 32, "speaker": "Vik Muniz", "duration": 891, "slug": "vik_muniz_makes_art_with_wire_sugar"}, {"viewed_count": 1054574, "hero": "https://pe.tedcdn.com/images/ted/12753_480x360.jpg", "title": "The Web\'s secret stories", "id": 144, "speaker": "Jonathan Harris", "duration": 1030, "slug": "jonathan_harris_tells_the_web_s_secret_stories"}, {"viewed_count": 1050808, "hero": "https://pe.tedcdn.com/images/ted/d538403350630eeaf965325257caf869350a9832_1600x1200.jpg", "title": "How art, technology and design inform creative leaders", "id": 1571, "speaker": "John Maeda", "duration": 1001, "slug": "john_maeda_how_art_technology_and_design_inform_creative_leaders"}, {"viewed_count": 908809, "hero": "https://pe.tedcdn.com/images/ted/51ea0e7d5d539a0a905bce328b62904e1298aca9_1600x1200.jpg", "title": "How Benjamin Button got his face", "id": 469, "speaker": "Ed Ulbrich", "duration": 1087, "slug": "ed_ulbrich_shows_how_benjamin_button_got_his_face"}, {"viewed_count": 243299, "hero": "https://pe.tedcdn.com/images/ted/52bd7d723ba468873a754d813e34988baaf5cab3_2400x1800.jpg", "title": "My journey in design", "id": 427, "speaker": "John Maeda", "duration": 1026, "slug": "john_maeda_on_design"}], "recorded_at": "2009-02-20T00:00:00.000+00:00", "slug": "golan_levin_ted2009", "speaker_name": "Golan Levin", "viewed_count": 772451, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2009", "name": "Golan Levin: Art that looks back at you"}'
+p332
+sS'keywords'
+p333
+(lp334
+Vart
+p335
+aVcreativity
+p336
+aVdesign
+p337
+aVpoetry
+p338
+aVsoftware
+p339
+aVtechnology
+p340
+asS'datecrawled'
+p341
+g327
+(S'\x07\xe1\n\x17\x03\x1e+\t;\xe2'
+tRp342
+sS'id'
+p343
+I606
+ss.

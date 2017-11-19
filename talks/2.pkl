@@ -1,0 +1,804 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIn terms of invention,
+p5
+aVI'd like to tell you the tale of one of my favorite projects.
+p6
+aVI think it's one of the most exciting that I'm working on,
+p7
+aVbut I think it's also the simplest.
+p8
+aa(lp9
+VIt's a project that has the potential to make a huge impact around the world.
+p10
+aVIt addresses one of the biggest health issues on the planet,
+p11
+aVthe number one cause of death in children under five.
+p12
+aVWhich is ...?
+p13
+aVWater-borne diseases? Diarrhea? Malnutrition?
+p14
+aVNo.
+p15
+aVIt's breathing the smoke from indoor cooking fires \u2014
+p16
+aVacute respiratory infections caused by this.
+p17
+aVCan you believe that?
+p18
+aa(lp19
+VI find this shocking and somewhat appalling.
+p20
+aVCan't we make cleaner burning cooking fuels?
+p21
+aVCan't we make better stoves?
+p22
+aVHow is it that this can lead to over two million deaths every year?
+p23
+aVI know Bill Joy was talking to you about the wonders of carbon nanotubes,
+p24
+aVso I'm going to talk to you about the wonders of carbon macro-tubes,
+p25
+aVwhich is charcoal.
+p26
+aa(lp27
+V(Laughter)
+p28
+aa(lp29
+VSo this is a picture of rural Haiti.
+p30
+aVHaiti is now 98 percent deforested.
+p31
+aVYou'll see scenes like this all over the island.
+p32
+aVIt leads to all sorts of environmental problems
+p33
+aVand problems that affect people throughout the nation.
+p34
+aVA couple years ago there was severe flooding
+p35
+aVthat led to thousands of deaths \u2014
+p36
+aVthat's directly attributable to the fact
+p37
+aVthat there are no trees on the hills to stabilize the soil.
+p38
+aVSo the rains come \u2014
+p39
+aVthey go down the rivers and the flooding happens.
+p40
+aa(lp41
+VNow one of the reasons why there are so few trees is this:
+p42
+aVpeople need to cook,
+p43
+aVand they harvest wood and they make charcoal in order to do it.
+p44
+aVIt's not that people are ignorant to the environmental damage.
+p45
+aVThey know perfectly well, but they have no other choice.
+p46
+aVFossil fuels are not available,
+p47
+aVand solar energy doesn't cook the way that they like their food prepared.
+p48
+aVAnd so this is what they do.
+p49
+aVYou'll find families like this who go out into the forest to find a tree,
+p50
+aVcut it down and make charcoal out of it.
+p51
+aVSo not surprisingly,
+p52
+aVthere's a lot of effort that's been done to look at alternative cooking fuels.
+p53
+aa(lp54
+VAbout four years ago, I took a team of students down to Haiti
+p55
+aVand we worked with Peace Corps volunteers there.
+p56
+aVThis is one such volunteer
+p57
+aVand this is a device that he had built in the village where he worked.
+p58
+aVAnd the idea was that you could take waste paper;
+p59
+aVyou could compress it
+p60
+aVand make briquettes that could be used for fuel.
+p61
+aVBut this device was very slow.
+p62
+aVSo our engineering students went to work on it
+p63
+aVand with some very simple changes,
+p64
+aVthey were able to triple the throughput of this device.
+p65
+aVSo you could imagine they were very excited about it.
+p66
+aVAnd they took the briquettes back to MIT so that they could test them.
+p67
+aVAnd one of the things that they found was they didn't burn.
+p68
+aVSo it was a little discouraging to the students.
+p69
+aa(lp70
+V(Laughter)
+p71
+aa(lp72
+VAnd in fact, if you look closely,
+p73
+aVright here you can see it says, "US Peace Corps."
+p74
+aVAs it turns out, there actually wasn't any waste paper in this village.
+p75
+aVAnd while it was a good use of government paperwork
+p76
+aVfor this volunteer to bring it back with him to his village,
+p77
+aVit was 800 kilometers away.
+p78
+aVAnd so we thought perhaps there might be a better way
+p79
+aVto come up with an alternative cooking fuel.
+p80
+aa(lp81
+VWhat we wanted to do is we wanted to make a fuel
+p82
+aVthat used something that was readily available on the local level.
+p83
+aVYou see these all over Haiti as well.
+p84
+aVThey're small-scale sugar mills.
+p85
+aVAnd the waste product from them
+p86
+aVafter you extract the juice from the sugarcane
+p87
+aVis called "bagasse."
+p88
+aVIt has no other use.
+p89
+aVIt has no nutritional value, so they don't feed it to the animals.
+p90
+aVIt just sits in a pile near the sugar mill until eventually they burn it.
+p91
+aVWhat we wanted to do was we wanted to find a way
+p92
+aVto harness this waste resource and turn it into a fuel
+p93
+aVthat would be something that people could easily cook with,
+p94
+aVsomething like charcoal.
+p95
+aVSo over the next couple of years,
+p96
+aVstudents and I worked to develop a process.
+p97
+aa(lp98
+VSo you start with the bagasse, and then you take a very simple kiln
+p99
+aVthat you can make out of a waste fifty five-gallon oil drum.
+p100
+aVAfter some time, after setting it on fire,
+p101
+aVyou seal it to restrict the oxygen that goes into the kiln,
+p102
+aVand then you end up with this carbonized material here.
+p103
+aVHowever, you can't burn this.
+p104
+aVIt's too fine and it burns too quickly to be useful for cooking.
+p105
+aVSo we had to try to find a way to form it into useful briquettes.
+p106
+aVAnd conveniently, one of my students was from Ghana,
+p107
+aVand he remembered a dish his mom used to make for him called "kokonte,"
+p108
+aVwhich is a very sticky porridge made out of the cassava root.
+p109
+aVAnd so what we did was we looked,
+p110
+aVand we found that cassava is indeed grown in Haiti,
+p111
+aVunder the name of "manioc."
+p112
+aVIn fact, it's grown all over the world \u2014
+p113
+aVyucca, tapioca, manioc, cassava, it's all the same thing \u2014
+p114
+aVa very starchy root vegetable.
+p115
+aVAnd you can make a very thick, sticky porridge out of it,
+p116
+aVwhich you can use to bind together the charcoal briquettes.
+p117
+aVSo we did this. We went down to Haiti.
+p118
+aVThese are the graduates of the first Ecole de Charbon,
+p119
+aVor Charcoal Institute.
+p120
+aVAnd these \u2014
+p121
+aa(lp122
+V(Laughter)
+p123
+aa(lp124
+VThat's right. So I'm actually an instructor at MIT as well as CIT.
+p125
+aVAnd these are the briquettes that we made.
+p126
+aa(lp127
+VNow I'm going to take you to a different continent.
+p128
+aVThis is India
+p129
+aVand this is the most commonly used cooking fuel in India.
+p130
+aVIt's cow dung.
+p131
+aVAnd more than in Haiti, this produces really smoky fires,
+p132
+aVand this is where you see the health impacts
+p133
+aVof cooking with cow dung and biomass as a fuel.
+p134
+aVKids and women are especially affected by it,
+p135
+aVbecause they're the ones who are around the cooking fires.
+p136
+aa(lp137
+VSo we wanted to see
+p138
+aVif we could introduce this charcoal-making technology there.
+p139
+aVWell, unfortunately, they didn't have sugarcane
+p140
+aVand they didn't have cassava,
+p141
+aVbut that didn't stop us.
+p142
+aVWhat we did was we found what were the locally available sources of biomass.
+p143
+aVAnd there was wheat straw and there was rice straw in this area.
+p144
+aVAnd what we could use as a binder was actually small amounts of cow manure,
+p145
+aVwhich they used ordinarily for their fuel.
+p146
+aVAnd we did side-by-side tests,
+p147
+aVand here you can see the charcoal briquettes
+p148
+aVand here the cow dung.
+p149
+aVAnd you can see that it's a lot cleaner burning of a cooking fuel.
+p150
+aVAnd in fact, it heats the water a lot more quickly.
+p151
+aVAnd so we were very happy, thus far.
+p152
+aVBut one of the things that we found
+p153
+aVwas when we did side-by-side comparisons with wood charcoal,
+p154
+aVit didn't burn as long.
+p155
+aVAnd the briquettes crumbled a little bit
+p156
+aVand we lost energy as they fell apart as they were cooking.
+p157
+aVSo we wanted to try to find a way to make a stronger briquette
+p158
+aVso that we could compete with wood charcoal in the markets in Haiti.
+p159
+aa(lp160
+VSo we went back to MIT,
+p161
+aVwe took out the Instron machine
+p162
+aVand we figured out what sort of forces you needed
+p163
+aVin order to compress a briquette to the level
+p164
+aVthat you actually are getting improved performance out of it?
+p165
+aVAnd at the same time that we had students in the lab looking at this,
+p166
+aVwe also had community partners in Haiti working to develop the process,
+p167
+aVto improve it and make it more accessible to people in the villages there.
+p168
+aVAnd after some time,
+p169
+aVwe developed a low-cost press that allows you to produce charcoal,
+p170
+aVwhich actually now burns not only \u2014
+p171
+aVactually, it burns longer, cleaner than wood charcoal.
+p172
+aa(lp173
+VSo now we're in a situation where we have a product,
+p174
+aVwhich is actually better than what you can buy in Haiti in the marketplace,
+p175
+aVwhich is a very wonderful place to be.
+p176
+aVIn Haiti alone, about 30 million trees are cut down every year.
+p177
+aVThere's a possibility of this being implemented
+p178
+aVand saving a good portion of those.
+p179
+aVIn addition, the revenue generated from that charcoal is 260 million dollars.
+p180
+aVThat's an awful lot for a country like Haiti \u2014
+p181
+aVwith a population of eight million
+p182
+aVand an average income of less than 400 dollars.
+p183
+aVSo this is where we're also moving ahead with our charcoal project.
+p184
+aa(lp185
+VAnd one of the things that I think is also interesting,
+p186
+aVis I have a friend up at UC Berkeley who's been doing risk analysis.
+p187
+aVAnd he's looked at the problem of the health impacts
+p188
+aVof burning wood versus charcoal.
+p189
+aVAnd he's found that worldwide, you could prevent a million deaths
+p190
+aVswitching from wood to charcoal as a cooking fuel.
+p191
+aVThat's remarkable,
+p192
+aVbut up until now, there weren't ways to do it without cutting down trees.
+p193
+aVBut now we have a way
+p194
+aVthat's using an agricultural waste material to create a cooking fuel.
+p195
+aa(lp196
+VOne of the really exciting things, though,
+p197
+aVis something that came out of the trip that I took to Ghana just last month.
+p198
+aVAnd I think it's the coolest thing,
+p199
+aVand it's even lower tech than what you just saw,
+p200
+aVif you can imagine such a thing.
+p201
+aVHere it is.
+p202
+aVSo what is this?
+p203
+aVThis is corncobs turned into charcoal.
+p204
+aVAnd the beauty of this is that you don't need to form briquettes \u2014
+p205
+aVit comes ready made.
+p206
+aVThis is my $100 laptop, right here.
+p207
+aVAnd actually, like Nick, I brought samples.
+p208
+aa(lp209
+V(Laughter)
+p210
+aa(lp211
+VSo we can pass these around.
+p212
+aVThey're fully functional, field-tested, ready to roll out.
+p213
+aa(lp214
+V(Laughter)
+p215
+aa(lp216
+VAnd I think one of the things
+p217
+aVwhich is also remarkable about this technology,
+p218
+aVis that the technology transfer is so easy.
+p219
+aVCompared to the sugarcane charcoal,
+p220
+aVwhere we have to teach people how to form it into briquettes
+p221
+aVand you have the extra step of cooking the binder,
+p222
+aVthis comes pre-briquetted.
+p223
+aVAnd this is about the most exciting thing in my life right now,
+p224
+aVwhich is perhaps a sad commentary on my life.
+p225
+aa(lp226
+V(Laughter)
+p227
+aa(lp228
+VBut once you see it, like you guys in the front row \u2014
+p229
+aVAll right, yeah, OK.
+p230
+aVSo anyway \u2014
+p231
+aa(lp232
+V(Laughter)
+p233
+aa(lp234
+VHere it is.
+p235
+aVAnd this is, I think, a perfect example
+p236
+aVof what Robert Wright was talking about in those non-zero-sum things.
+p237
+aVSo not only do you have health benefits,
+p238
+aVyou have environmental benefits.
+p239
+aVBut this is one of the incredibly rare situations
+p240
+aVwhere you also have economic benefits.
+p241
+aVPeople can make their own cooking fuel from waste products.
+p242
+aVThey can generate income from this.
+p243
+aVThey can save the money that they were going to spend on charcoal
+p244
+aVand they can produce excess and sell it in the market
+p245
+aVto people who aren't making their own.
+p246
+aVIt's really rare that you don't have trade-offs
+p247
+aVbetween health and economics, or environment and economics.
+p248
+aVSo this is a project that I just find extremely exciting
+p249
+aVand I'm really looking forward to see where it takes us.
+p250
+aa(lp251
+VSo when we talk about, now, the future we will create,
+p252
+aVone of the things that I think is necessary
+p253
+aVis to have a very clear vision of the world that we live in.
+p254
+aVAnd now, I don't actually mean the world that we live in.
+p255
+aVI mean the world where women spend two to three hours everyday
+p256
+aVgrinding grain for their families to eat.
+p257
+aVI mean the world where advanced building materials
+p258
+aVmeans cement roofing tiles that are made by hand,
+p259
+aVand where, when you work 10 hours a day,
+p260
+aVyou're still only earning 60 dollars in a month.
+p261
+aVI mean the world
+p262
+aVwhere women and children spend 40 billion hours a year fetching water.
+p263
+aVThat's as if the entire workforce of the state of California
+p264
+aVworked full time for a year doing nothing but fetching water.
+p265
+aa(lp266
+VIt's a place where, for example, if this were India,
+p267
+aVin this room, only three of us would have a car.
+p268
+aVIf this were Afghanistan,
+p269
+aVonly one person in this room would know how the use the Internet.
+p270
+aVIf this were Zambia \u2014
+p271
+aV300 of you would be farmers,
+p272
+aV100 of you would have AIDS or HIV.
+p273
+aVAnd more than half of you would be living on less than a dollar a day.
+p274
+aVThese are the issues that we need to come up with solutions for.
+p275
+aVThese are the issues that we need to be training our engineers,
+p276
+aVour designers, our business people, our entrepreneurs to be facing.
+p277
+aVThese are the solutions that we need to find.
+p278
+aa(lp279
+VI have a few areas that I believe are especially important that we address.
+p280
+aVOne of them is creating technologies
+p281
+aVto promote micro-finance and micro-enterprise,
+p282
+aVso that people who are living below the poverty line
+p283
+aVcan find a way to move out \u2014
+p284
+aVand that they're not doing it
+p285
+aVusing the same traditional basket making, poultry rearing, etc.
+p286
+aVBut there are new technologies and new products
+p287
+aVthat they can make on a small scale.
+p288
+aa(lp289
+VThe next thing I believe
+p290
+aVis that we need to create technologies for poor farmers
+p291
+aVto add value to their own crops.
+p292
+aVAnd we need to rethink our development strategies,
+p293
+aVso that we're not promoting educational campaigns
+p294
+aVto get them to stop being farmers,
+p295
+aVbut rather to stop being poor farmers.
+p296
+aVAnd we need to think about how we can do that effectively.
+p297
+aVWe need to work with the people in these communities
+p298
+aVand give them the resources and the tools that they need
+p299
+aVto solve their own problems.
+p300
+aVThat's the best way to do it.
+p301
+aVWe shouldn't be doing it from outside.
+p302
+aVSo we need to create this future, and we need to start doing it now.
+p303
+aa(lp304
+VThank you.
+p305
+aa(lp306
+V(Applause)
+p307
+aa(lp308
+VChris Anderson: Thank you, incredible.
+p309
+aVStay here.
+p310
+aVTell us \u2014 just while we see if someone has a question \u2014
+p311
+aVjust tell us about one of the other things that you've worked on.
+p312
+aa(lp313
+VAmy Smith: Some of the other things we're working on
+p314
+aVare ways to do low-cost water quality testing,
+p315
+aVso that communities can maintain their own water systems,
+p316
+aVknow when they're working, know when they treat them, etc.
+p317
+aVWe're also looking at low-cost water-treatment systems.
+p318
+aVOne of the really exciting things is looking at solar water disinfection
+p319
+aVand improving the ability to be able to do that.
+p320
+aa(lp321
+VCA: What's the bottleneck preventing this stuff getting from scale?
+p322
+aVDo you need to find entrepreneurs, or venture capitalists,
+p323
+aVor what do you need to take what you've got and get it to scale?
+p324
+aa(lp325
+VAS: I think it's large numbers of people moving it forward.
+p326
+aVIt's a difficult thing \u2014
+p327
+aVit's a marketplace which is very fragmented
+p328
+aVand a consumer population with no income.
+p329
+aVSo you can't use the same models that you use in the United States
+p330
+aVfor making things move forward.
+p331
+aVAnd we're a pretty small staff,
+p332
+aVwhich is me.
+p333
+aa(lp334
+V(Laughter)
+p335
+aa(lp336
+VSo, you know, I do what I can with the students.
+p337
+aVWe have 30 students a year go out into the field
+p338
+aVand try to implement this and move it forward.
+p339
+aVThe other thing is you have to do things with a long time frame,
+p340
+aVas, you know, you can't expect to get something done in a year or two years;
+p341
+aVyou have to be looking five or 10 years ahead.
+p342
+aVBut I think with the vision to do that, we can move forward.
+p343
+aasS'transcript_micsec'
+p344
+(lp345
+I11000
+aI21000
+aI48000
+aI70000
+aI72000
+aI101000
+aI140000
+aI182000
+aI183000
+aI207000
+aI247000
+aI316000
+aI317000
+aI327000
+aI353000
+aI411000
+aI453000
+aI493000
+aI522000
+aI552000
+aI554000
+aI562000
+aI566000
+aI590000
+aI592000
+aI597000
+aI599000
+aI649000
+aI699000
+aI741000
+aI766000
+aI806000
+aI807000
+aI812000
+aI823000
+aI843000
+aI855000
+aI871000
+aI873000
+asS'talk_meta'
+p346
+(dp347
+S'ratings'
+p348
+(dp349
+S'ingenious'
+p350
+I321
+sS'beautiful'
+p351
+I67
+sS'inspiring'
+p352
+I515
+sS'ok'
+p353
+I30
+sS'fascinating'
+p354
+I159
+sS'funny'
+p355
+I21
+sS'total_count'
+p356
+I1788
+sS'persuasive'
+p357
+I140
+sS'longwinded'
+p358
+I19
+sS'informative'
+p359
+I279
+sS'jaw-dropping'
+p360
+I63
+sS'obnoxious'
+p361
+I4
+sS'confusing'
+p362
+I7
+sS'courageous'
+p363
+I150
+sS'unconvincing'
+p364
+I13
+ssS'author'
+p365
+VAmy_Smith;
+p366
+sS'url'
+p367
+S'https://www.ted.com/talks/amy_smith_shares_simple_lifesaving_design'
+p368
+sS'vidlen'
+p369
+I906
+sS'totalviews'
+p370
+I1427361
+sS'title'
+p371
+VSimple designs to save a life
+p372
+sS'downloadlink'
+p373
+Vhttps://download.ted.com/talks/AmySmith_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p374
+sS'datepublished'
+p375
+cdatetime
+datetime
+p376
+(S'\x07\xd6\x08\x0e\x14\x0b\x00\x00\x00\x00'
+tRp377
+sS'datefilmed'
+p378
+g376
+(S'\x07\xd6\x08\x0e\x14\x0b\x00\x00\x00\x00'
+tRp379
+sS'alldata_JSON'
+p380
+S'{"viewed_count": 1427361, "speakers": [{"description": "inventor, engineer", "firstname": "Amy", "title": "", "lastname": "Smith", "middleinitial": "", "whylisten": "<p>Mechanical engineer Amy Smith&#39;s approach to problem-solving in developing nations is refreshingly common-sense: <strong>Invent cheap, low-tech devices that use local resources, so communities can reproduce her efforts and ultimately help themselves.</strong> Smith, working with her students at MIT&#39;s&nbsp;D-Lab, has come up with several useful tools, including an incubator that stays warm without electricity, a simple grain mill, and a tool that converts farm waste into cleaner-burning charcoal. <br /><br />The inventions have earned Smith three prestigious prizes: the B.F. Goodrich Collegiate Inventors Award, the MIT-Lemelson Prize, and a MacArthur &quot;genius&quot; grant. Her course, &quot;Design for Developing Countries,&quot; is a pioneer in <strong>bringing humanitarian design into the curriculum of major institutions</strong>. Going forward, the former <a href=\\"http://www.peacecorps.gov/\\" target=\\"_blank\\">Peace Corps</a>  volunteer strives to do much more, bringing her inventiveness and boundless energy to bear on some of the world&#39;s most persistent problems.</p>", "slug": "amy_smith", "whotheyare": "Amy Smith designs cheap, practical fixes for tough problems in developing countries. Among her many accomplishments, the MIT engineer received a MacArthur \\"genius\\" grant in 2004 and was the first woman to win the Lemelson-MIT Prize for turning her ideas into inventions.", "whatotherssay": "Smith has a stable of oldfangled technologies that she has reconfigured and applied to underdeveloped areas around the world. Her solutions sound like answers to problems that should have been solved a century ago. To Smith, that\'s the point.", "id": 3, "photo_url": "https://pe.tedcdn.com/images/ted/1527_253x190.jpg"}], "current_talk": 2, "description": "Fumes from indoor cooking fires kill more than 2 million children a year in the developing world. MIT engineer Amy Smith details an exciting but simple solution: a tool for turning farm waste into clean-burning charcoal.", "language": "en", "url": "https://www.ted.com/talks/amy_smith_shares_simple_lifesaving_design", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AmySmith_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105331771}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AmySmith_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20692634}, "podcast-high": {"uri": "https://download.ted.com/talks/AmySmith_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105321734}, "180k": {"uri": "https://download.ted.com/talks/AmySmith_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20485911}, "64k": {"uri": "https://download.ted.com/talks/AmySmith_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7386418}, "1500k": {"uri": "https://download.ted.com/talks/AmySmith_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 162883743}, "450k": {"uri": "https://download.ted.com/talks/AmySmith_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51310836}, "podcast-regular": {"uri": "https://download.ted.com/talks/AmySmith_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51200291}, "950k": {"uri": "https://download.ted.com/talks/AmySmith_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 104656163}, "audio-podcast": {"uri": "https://download.ted.com/talks/AmySmith_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5715292}, "podcast-light": {"uri": "https://download.ted.com/talks/AmySmith_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7518871}, "320k": {"uri": "https://download.ted.com/talks/AmySmith_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36258660}, "600k": {"uri": "https://download.ted.com/talks/AmySmith_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68214325}}}, "comments": {"count": 88, "id": 2, "talk_id": 2}, "slug": "amy_smith_shares_simple_lifesaving_design", "threadId": 2, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "amy_smith_shares_simple_lifesaving_design", "filmed": 1140739200, "targeting": {"event": "TED2006", "tag": "MacArthur grant,alternative energy,design,engineering,global issues,industrial design,invention,simplicity", "id": 2, "talk": "amy_smith_shares_simple_lifesaving_design", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "Simple designs to save a life", "postAdDuration": "0.83", "published": 1155600660, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1451_480x360.jpg?quality=89&w=600", "name": "Amy Smith: Simple designs to save a life", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["MacArthur grant", "alternative energy", "design", "engineering", "global issues", "industrial design", "invention", "simplicity"], "speaker": "Amy Smith", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 906, "id": 2, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AmySmith_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "MacArthur grant,alternative energy,design,engineering,global issues,industrial design,invention,simplicity", "id": 2, "talk": "amy_smith_shares_simple_lifesaving_design", "year": "2006"}, "metadata": "https://hls.ted.com/talks/2.json", "stream": "https://hls.ted.com/talks/2.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D2%26tag%3DMacArthur%2Bgrant%2Calternative%2Benergy%2Cdesign%2Cengineering%2Cglobal%2Bissues%2Cindustrial%2Bdesign%2Cinvention%2Csimplicity%26talk%3Damy_smith_shares_simple_lifesaving_design%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/amy_smith_shares_simple_lifesaving_design"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1451_480x360.jpg?q=50&w=15", "duration": 906, "id": 2, "ratings": [{"count": 321, "id": 9, "name": "Ingenious"}, {"count": 150, "id": 3, "name": "Courageous"}, {"count": 67, "id": 1, "name": "Beautiful"}, {"count": 279, "id": 8, "name": "Informative"}, {"count": 515, "id": 10, "name": "Inspiring"}, {"count": 159, "id": 22, "name": "Fascinating"}, {"count": 13, "id": 21, "name": "Unconvincing"}, {"count": 21, "id": 7, "name": "Funny"}, {"count": 19, "id": 11, "name": "Longwinded"}, {"count": 140, "id": 24, "name": "Persuasive"}, {"count": 30, "id": 25, "name": "OK"}, {"count": 63, "id": 23, "name": "Jaw-dropping"}, {"count": 4, "id": 26, "name": "Obnoxious"}, {"count": 7, "id": 2, "name": "Confusing"}], "speakers": [{"description": "inventor, engineer", "firstname": "Amy", "title": "", "lastname": "Smith", "middleinitial": "", "whylisten": "<p>Mechanical engineer Amy Smith&#39;s approach to problem-solving in developing nations is refreshingly common-sense: <strong>Invent cheap, low-tech devices that use local resources, so communities can reproduce her efforts and ultimately help themselves.</strong> Smith, working with her students at MIT&#39;s&nbsp;D-Lab, has come up with several useful tools, including an incubator that stays warm without electricity, a simple grain mill, and a tool that converts farm waste into cleaner-burning charcoal. <br /><br />The inventions have earned Smith three prestigious prizes: the B.F. Goodrich Collegiate Inventors Award, the MIT-Lemelson Prize, and a MacArthur &quot;genius&quot; grant. Her course, &quot;Design for Developing Countries,&quot; is a pioneer in <strong>bringing humanitarian design into the curriculum of major institutions</strong>. Going forward, the former <a href=\\"http://www.peacecorps.gov/\\" target=\\"_blank\\">Peace Corps</a>  volunteer strives to do much more, bringing her inventiveness and boundless energy to bear on some of the world&#39;s most persistent problems.</p>", "slug": "amy_smith", "whotheyare": "Amy Smith designs cheap, practical fixes for tough problems in developing countries. Among her many accomplishments, the MIT engineer received a MacArthur \\"genius\\" grant in 2004 and was the first woman to win the Lemelson-MIT Prize for turning her ideas into inventions.", "whatotherssay": "Smith has a stable of oldfangled technologies that she has reconfigured and applied to underdeveloped areas around the world. Her solutions sound like answers to problems that should have been solved a century ago. To Smith, that\'s the point.", "id": 3, "photo_url": "https://pe.tedcdn.com/images/ted/1527_253x190.jpg"}], "title": "Simple designs to save a life", "take_action": null, "comments": 2, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/1451_480x360.jpg", "description": "Fumes from indoor cooking fires kill more than 2 million children a year in the developing world. MIT engineer Amy Smith details an exciting but simple solution: a tool for turning farm waste into clean-burning charcoal.", "tags": ["MacArthur grant", "alternative energy", "design", "engineering", "global issues", "industrial design", "invention", "simplicity"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AmySmith_2006-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AmySmith_2006-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AmySmith_2006-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/AmySmith_2006-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AmySmith_2006-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AmySmith_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AmySmith_2006-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/AmySmith_2006-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AmySmith_2006-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AmySmith_2006-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AmySmith_2006-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AmySmith_2006-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AmySmith_2006-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AmySmith_2006-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AmySmith_2006-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AmySmith_2006-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AmySmith_2006-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AmySmith_2006-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AmySmith_2006-low-bg.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/AmySmith_2006-low-fr-ca.mp4"}, "de": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AmySmith_2006-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AmySmith_2006-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AmySmith_2006-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AmySmith_2006-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AmySmith_2006-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/AmySmith_2006-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AmySmith_2006-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AmySmith_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AmySmith_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AmySmith_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2, "audioDownload": "https://download.ted.com/talks/AmySmith_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 818418, "hero": "https://pe.tedcdn.com/images/ted/93ef1e914e9715e911cbcac0447377bdb1bfafe6_1600x1200.jpg", "title": "Energy from floating algae pods", "id": 1561, "speaker": "Jonathan Trent", "duration": 885, "slug": "jonathan_trent_energy_from_floating_algae_pods"}, {"viewed_count": 1749507, "hero": "https://pe.tedcdn.com/images/ted/4675e1c70377634e72042bd7757eadcb53b96b56_800x600.jpg", "title": "Using nature\'s genius in architecture", "id": 1072, "speaker": "Michael Pawlyn", "duration": 826, "slug": "michael_pawlyn_using_nature_s_genius_in_architecture"}, {"viewed_count": 1399230, "hero": "https://pe.tedcdn.com/images/ted/032fd1698c105d7d0df51d3fada7ac4e9e368436_800x600.jpg", "title": "Cooking as never seen before", "id": 1184, "speaker": "Nathan Myhrvold", "duration": 605, "slug": "nathan_myhrvold_cut_your_food_in_half"}, {"viewed_count": 836175, "hero": "https://pe.tedcdn.com/images/ted/b80f80423a51c94a3d399d5c8f85ae3d3c9d2f0d_2880x1620.jpg", "title": "A vision for sustainable restaurants", "id": 1020, "speaker": "Arthur Potts Dawson", "duration": 529, "slug": "arthur_potts_dawson_a_vision_for_sustainable_restaurants"}, {"viewed_count": 731206, "hero": "https://pe.tedcdn.com/images/ted/96c703bb13a2e9c2d351a5e6b52390bc35eaad06_800x600.jpg", "title": "3 stories of local eco-entrepreneurship", "id": 1041, "speaker": "Majora Carter", "duration": 1079, "slug": "majora_carter_3_stories_of_local_ecoactivism"}, {"viewed_count": 851718, "hero": "https://pe.tedcdn.com/images/ted/aa8103bec20c29929be19087fec1b22943a10e75_2880x1620.jpg", "title": "My wish: Rebuilding Rwanda", "id": 85, "speaker": "Bill Clinton", "duration": 1447, "slug": "bill_clinton_on_rebuilding_rwanda"}], "recorded_at": "2006-02-24T00:00:00.000+00:00", "slug": "amy_smith_shares_simple_lifesaving_design", "speaker_name": "Amy Smith", "viewed_count": 1427361, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Amy Smith: Simple designs to save a life"}'
+p381
+sS'keywords'
+p382
+(lp383
+VMacArthur grant
+p384
+aValternative energy
+p385
+aVdesign
+p386
+aVengineering
+p387
+aVglobal issues
+p388
+aVindustrial design
+p389
+aVinvention
+p390
+aVsimplicity
+p391
+asS'datecrawled'
+p392
+g376
+(S'\x07\xe1\n\x17\x007\x02\x07\xdc\xcd'
+tRp393
+sS'id'
+p394
+I2
+ss.

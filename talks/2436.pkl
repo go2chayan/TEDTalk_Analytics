@@ -1,0 +1,864 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo you go to the doctor and get some tests.
+p5
+aVThe doctor determines that you have high cholesterol
+p6
+aVand you would benefit from medication to treat it.
+p7
+aVSo you get a pillbox.
+p8
+aVYou have some confidence,
+p9
+aVyour physician has some confidence that this is going to work.
+p10
+aVThe company that invented it did a lot of studies, submitted it to the FDA.
+p11
+aVThey studied it very carefully, skeptically, they approved it.
+p12
+aVThey have a rough idea of how it works,
+p13
+aVthey have a rough idea of what the side effects are.
+p14
+aVIt should be OK.
+p15
+aVYou have a little more of a conversation with your physician
+p16
+aVand the physician is a little worried because you've been blue,
+p17
+aVhaven't felt like yourself,
+p18
+aVyou haven't been able to enjoy things in life quite as much as you usually do.
+p19
+aVYour physician says, "You know, I think you have some depression.
+p20
+aVI'm going to have to give you another pill."
+p21
+aa(lp22
+VSo now we're talking about two medications.
+p23
+aVThis pill also \u2014 millions of people have taken it,
+p24
+aVthe company did studies, the FDA looked at it \u2014 all good.
+p25
+aVThink things should go OK.
+p26
+aVThink things should go OK.
+p27
+aVWell, wait a minute.
+p28
+aVHow much have we studied these two together?
+p29
+aa(lp30
+VWell, it's very hard to do that.
+p31
+aVIn fact, it's not traditionally done.
+p32
+aVWe totally depend on what we call "post-marketing surveillance,"
+p33
+aVafter the drugs hit the market.
+p34
+aVHow can we figure out if bad things are happening
+p35
+aVbetween two medications?
+p36
+aVThree? Five? Seven?
+p37
+aVAsk your favorite person who has several diagnoses
+p38
+aVhow many medications they're on.
+p39
+aa(lp40
+VWhy do I care about this problem?
+p41
+aVI care about it deeply.
+p42
+aVI'm an informatics and data science guy and really, in my opinion,
+p43
+aVthe only hope \u2014 only hope \u2014 to understand these interactions
+p44
+aVis to leverage lots of different sources of data
+p45
+aVin order to figure out when drugs can be used together safely
+p46
+aVand when it's not so safe.
+p47
+aa(lp48
+VSo let me tell you a data science story.
+p49
+aVAnd it begins with my student Nick.
+p50
+aVLet's call him "Nick," because that's his name.
+p51
+aa(lp52
+V(Laughter)
+p53
+aa(lp54
+VNick was a young student.
+p55
+aVI said, "You know, Nick, we have to understand how drugs work
+p56
+aVand how they work together and how they work separately,
+p57
+aVand we don't have a great understanding.
+p58
+aVBut the FDA has made available an amazing database.
+p59
+aVIt's a database of adverse events.
+p60
+aVThey literally put on the web \u2014
+p61
+aVpublicly available, you could all download it right now \u2014
+p62
+aVhundreds of thousands of adverse event reports
+p63
+aVfrom patients, doctors, companies, pharmacists.
+p64
+aVAnd these reports are pretty simple:
+p65
+aVit has all the diseases that the patient has,
+p66
+aVall the drugs that they're on,
+p67
+aVand all the adverse events, or side effects, that they experience.
+p68
+aVIt is not all of the adverse events that are occurring in America today,
+p69
+aVbut it's hundreds and hundreds of thousands of drugs.
+p70
+aa(lp71
+VSo I said to Nick,
+p72
+aV"Let's think about glucose.
+p73
+aVGlucose is very important, and we know it's involved with diabetes.
+p74
+aVLet's see if we can understand glucose response.
+p75
+aVI sent Nick off. Nick came back.
+p76
+aa(lp77
+V"Russ," he said,
+p78
+aV"I've created a classifier that can look at the side effects of a drug
+p79
+aVbased on looking at this database,
+p80
+aVand can tell you whether that drug is likely to change glucose or not."
+p81
+aa(lp82
+VHe did it. It was very simple, in a way.
+p83
+aVHe took all the drugs that were known to change glucose
+p84
+aVand a bunch of drugs that don't change glucose,
+p85
+aVand said, "What's the difference in their side effects?
+p86
+aVDifferences in fatigue? In appetite? In urination habits?"
+p87
+aVAll those things conspired to give him a really good predictor.
+p88
+aVHe said, "Russ, I can predict with 93 percent accuracy
+p89
+aVwhen a drug will change glucose."
+p90
+aa(lp91
+VI said, "Nick, that's great."
+p92
+aVHe's a young student, you have to build his confidence.
+p93
+aV"But Nick, there's a problem.
+p94
+aVIt's that every physician in the world knows all the drugs that change glucose,
+p95
+aVbecause it's core to our practice.
+p96
+aVSo it's great, good job, but not really that interesting,
+p97
+aVdefinitely not publishable."
+p98
+aa(lp99
+V(Laughter)
+p100
+aa(lp101
+VHe said, "I know, Russ. I thought you might say that."
+p102
+aVNick is smart.
+p103
+aV"I thought you might say that, so I did one other experiment.
+p104
+aVI looked at people in this database who were on two drugs,
+p105
+aVand I looked for signals similar, glucose-changing signals,
+p106
+aVfor people taking two drugs,
+p107
+aVwhere each drug alone did not change glucose,
+p108
+aVbut together I saw a strong signal."
+p109
+aa(lp110
+VAnd I said, "Oh! You're clever. Good idea. Show me the list."
+p111
+aVAnd there's a bunch of drugs, not very exciting.
+p112
+aVBut what caught my eye was, on the list there were two drugs:
+p113
+aVparoxetine, or Paxil, an antidepressant;
+p114
+aVand pravastatin, or Pravachol, a cholesterol medication.
+p115
+aa(lp116
+VAnd I said, "Huh. There are millions of Americans on those two drugs."
+p117
+aVIn fact, we learned later,
+p118
+aV15 million Americans on paroxetine at the time, 15 million on pravastatin,
+p119
+aVand a million, we estimated, on both.
+p120
+aVSo that's a million people
+p121
+aVwho might be having some problems with their glucose
+p122
+aVif this machine-learning mumbo jumbo that he did in the FDA database
+p123
+aVactually holds up.
+p124
+aVBut I said, "It's still not publishable,
+p125
+aVbecause I love what you did with the mumbo jumbo,
+p126
+aVwith the machine learning,
+p127
+aVbut it's not really standard-of-proof evidence that we have."
+p128
+aVSo we have to do something else.
+p129
+aVLet's go into the Stanford electronic medical record.
+p130
+aVWe have a copy of it that's OK for research,
+p131
+aVwe removed identifying information.
+p132
+aVAnd I said, "Let's see if people on these two drugs
+p133
+aVhave problems with their glucose."
+p134
+aa(lp135
+VNow there are thousands and thousands of people
+p136
+aVin the Stanford medical records that take paroxetine and pravastatin.
+p137
+aVBut we needed special patients.
+p138
+aVWe needed patients who were on one of them and had a glucose measurement,
+p139
+aVthen got the second one and had another glucose measurement,
+p140
+aVall within a reasonable period of time \u2014 something like two months.
+p141
+aVAnd when we did that, we found 10 patients.
+p142
+aVHowever, eight out of the 10 had a bump in their glucose
+p143
+aVwhen they got the second P \u2014 we call this P and P \u2014
+p144
+aVwhen they got the second P.
+p145
+aVEither one could be first, the second one comes up,
+p146
+aVglucose went up 20 milligrams per deciliter.
+p147
+aVJust as a reminder,
+p148
+aVyou walk around normally, if you're not diabetic,
+p149
+aVwith a glucose of around 90.
+p150
+aVAnd if it gets up to 120, 125,
+p151
+aVyour doctor begins to think about a potential diagnosis of diabetes.
+p152
+aVSo a 20 bump \u2014 pretty significant.
+p153
+aa(lp154
+VI said, "Nick, this is very cool.
+p155
+aVBut, I'm sorry, we still don't have a paper,
+p156
+aVbecause this is 10 patients and \u2014 give me a break \u2014
+p157
+aVit's not enough patients."
+p158
+aa(lp159
+VSo we said, what can we do?
+p160
+aVAnd we said, let's call our friends at Harvard and Vanderbilt,
+p161
+aVwho also \u2014 Harvard in Boston, Vanderbilt in Nashville,
+p162
+aVwho also have electronic medical records similar to ours.
+p163
+aVLet's see if they can find similar patients
+p164
+aVwith the one P, the other P, the glucose measurements
+p165
+aVin that range that we need.
+p166
+aa(lp167
+VGod bless them, Vanderbilt in one week found 40 such patients,
+p168
+aVsame trend.
+p169
+aVHarvard found 100 patients, same trend.
+p170
+aVSo at the end, we had 150 patients from three diverse medical centers
+p171
+aVthat were telling us that patients getting these two drugs
+p172
+aVwere having their glucose bump somewhat significantly.
+p173
+aa(lp174
+VMore interestingly, we had left out diabetics,
+p175
+aVbecause diabetics already have messed up glucose.
+p176
+aVWhen we looked at the glucose of diabetics,
+p177
+aVit was going up 60 milligrams per deciliter, not just 20.
+p178
+aVThis was a big deal, and we said, "We've got to publish this."
+p179
+aVWe submitted the paper.
+p180
+aVIt was all data evidence,
+p181
+aVdata from the FDA, data from Stanford,
+p182
+aVdata from Vanderbilt, data from Harvard.
+p183
+aVWe had not done a single real experiment.
+p184
+aa(lp185
+VBut we were nervous.
+p186
+aVSo Nick, while the paper was in review, went to the lab.
+p187
+aVWe found somebody who knew about lab stuff.
+p188
+aVI don't do that.
+p189
+aVI take care of patients, but I don't do pipettes.
+p190
+aVThey taught us how to feed mice drugs.
+p191
+aVWe took mice and we gave them one P, paroxetine.
+p192
+aVWe gave some other mice pravastatin.
+p193
+aVAnd we gave a third group of mice both of them.
+p194
+aVAnd lo and behold, glucose went up 20 to 60 milligrams per deciliter
+p195
+aVin the mice.
+p196
+aa(lp197
+VSo the paper was accepted based on the informatics evidence alone,
+p198
+aVbut we added a little note at the end,
+p199
+aVsaying, oh by the way, if you give these to mice, it goes up.
+p200
+aa(lp201
+VThat was great, and the story could have ended there.
+p202
+aVBut I still have six and a half minutes.
+p203
+aa(lp204
+V(Laughter)
+p205
+aa(lp206
+VSo we were sitting around thinking about all of this,
+p207
+aVand I don't remember who thought of it, but somebody said,
+p208
+aV"I wonder if patients who are taking these two drugs
+p209
+aVare noticing side effects of hyperglycemia.
+p210
+aVThey could and they should.
+p211
+aVHow would we ever determine that?"
+p212
+aa(lp213
+VWe said, well, what do you do?
+p214
+aVYou're taking a medication, one new medication or two,
+p215
+aVand you get a funny feeling.
+p216
+aVWhat do you do?
+p217
+aVYou go to Google
+p218
+aVand type in the two drugs you're taking or the one drug you're taking,
+p219
+aVand you type in "side effects."
+p220
+aVWhat are you experiencing?
+p221
+aVSo we said OK,
+p222
+aVlet's ask Google if they will share their search logs with us,
+p223
+aVso that we can look at the search logs
+p224
+aVand see if patients are doing these kinds of searches.
+p225
+aVGoogle, I am sorry to say, denied our request.
+p226
+aVSo I was bummed.
+p227
+aVI was at a dinner with a colleague who works at Microsoft Research
+p228
+aVand I said, "We wanted to do this study,
+p229
+aVGoogle said no, it's kind of a bummer."
+p230
+aVHe said, "Well, we have the Bing searches."
+p231
+aa(lp232
+V(Laughter)
+p233
+aa(lp234
+VYeah.
+p235
+aVThat's great.
+p236
+aVNow I felt like I was \u2014
+p237
+aa(lp238
+V(Laughter)
+p239
+aa(lp240
+VI felt like I was talking to Nick again.
+p241
+aVHe works for one of the largest companies in the world,
+p242
+aVand I'm already trying to make him feel better.
+p243
+aVBut he said, "No, Russ \u2014 you might not understand.
+p244
+aVWe not only have Bing searches,
+p245
+aVbut if you use Internet Explorer to do searches at Google,
+p246
+aVYahoo, Bing, any ...
+p247
+aVThen, for 18 months, we keep that data for research purposes only."
+p248
+aVI said, "Now you're talking!"
+p249
+aVThis was Eric Horvitz, my friend at Microsoft.
+p250
+aa(lp251
+VSo we did a study
+p252
+aVwhere we defined 50 words that a regular person might type in
+p253
+aVif they're having hyperglycemia,
+p254
+aVlike "fatigue," "loss of appetite," "urinating a lot," "peeing a lot" \u2014
+p255
+aVforgive me, but that's one of the things you might type in.
+p256
+aVSo we had 50 phrases that we called the "diabetes words."
+p257
+aVAnd we did first a baseline.
+p258
+aVAnd it turns out that about .5 to one percent
+p259
+aVof all searches on the Internet involve one of those words.
+p260
+aVSo that's our baseline rate.
+p261
+aVIf people type in "paroxetine" or "Paxil" \u2014 those are synonyms \u2014
+p262
+aVand one of those words,
+p263
+aVthe rate goes up to about two percent of diabetes-type words,
+p264
+aVif you already know that there's that "paroxetine" word.
+p265
+aVIf it's "pravastatin," the rate goes up to about three percent from the baseline.
+p266
+aVIf both "paroxetine" and "pravastatin" are present in the query,
+p267
+aVit goes up to 10 percent,
+p268
+aVa huge three- to four-fold increase
+p269
+aVin those searches with the two drugs that we were interested in,
+p270
+aVand diabetes-type words or hyperglycemia-type words.
+p271
+aa(lp272
+VWe published this,
+p273
+aVand it got some attention.
+p274
+aVThe reason it deserves attention
+p275
+aVis that patients are telling us their side effects indirectly
+p276
+aVthrough their searches.
+p277
+aVWe brought this to the attention of the FDA.
+p278
+aVThey were interested.
+p279
+aVThey have set up social media surveillance programs
+p280
+aVto collaborate with Microsoft,
+p281
+aVwhich had a nice infrastructure for doing this, and others,
+p282
+aVto look at Twitter feeds,
+p283
+aVto look at Facebook feeds,
+p284
+aVto look at search logs,
+p285
+aVto try to see early signs that drugs, either individually or together,
+p286
+aVare causing problems.
+p287
+aa(lp288
+VWhat do I take from this? Why tell this story?
+p289
+aVWell, first of all,
+p290
+aVwe have now the promise of big data and medium-sized data
+p291
+aVto help us understand drug interactions
+p292
+aVand really, fundamentally, drug actions.
+p293
+aVHow do drugs work?
+p294
+aVThis will create and has created a new ecosystem
+p295
+aVfor understanding how drugs work and to optimize their use.
+p296
+aVNick went on; he's a professor at Columbia now.
+p297
+aVHe did this in his PhD for hundreds of pairs of drugs.
+p298
+aVHe found several very important interactions,
+p299
+aVand so we replicated this
+p300
+aVand we showed that this is a way that really works
+p301
+aVfor finding drug-drug interactions.
+p302
+aa(lp303
+VHowever, there's a couple of things.
+p304
+aVWe don't just use pairs of drugs at a time.
+p305
+aVAs I said before, there are patients on three, five, seven, nine drugs.
+p306
+aVHave they been studied with respect to their nine-way interaction?
+p307
+aVYes, we can do pair-wise, A and B, A and C, A and D,
+p308
+aVbut what about A, B, C, D, E, F, G all together,
+p309
+aVbeing taken by the same patient,
+p310
+aVperhaps interacting with each other
+p311
+aVin ways that either makes them more effective or less effective
+p312
+aVor causes side effects that are unexpected?
+p313
+aVWe really have no idea.
+p314
+aVIt's a blue sky, open field for us to use data
+p315
+aVto try to understand the interaction of drugs.
+p316
+aa(lp317
+VTwo more lessons:
+p318
+aVI want you to think about the power that we were able to generate
+p319
+aVwith the data from people who had volunteered their adverse reactions
+p320
+aVthrough their pharmacists, through themselves, through their doctors,
+p321
+aVthe people who allowed the databases at Stanford, Harvard, Vanderbilt,
+p322
+aVto be used for research.
+p323
+aVPeople are worried about data.
+p324
+aVThey're worried about their privacy and security \u2014 they should be.
+p325
+aVWe need secure systems.
+p326
+aVBut we can't have a system that closes that data off,
+p327
+aVbecause it is too rich of a source
+p328
+aVof inspiration, innovation and discovery
+p329
+aVfor new things in medicine.
+p330
+aa(lp331
+VAnd the final thing I want to say is,
+p332
+aVin this case we found two drugs and it was a little bit of a sad story.
+p333
+aVThe two drugs actually caused problems.
+p334
+aVThey increased glucose.
+p335
+aVThey could throw somebody into diabetes
+p336
+aVwho would otherwise not be in diabetes,
+p337
+aVand so you would want to use the two drugs very carefully together,
+p338
+aVperhaps not together,
+p339
+aVmake different choices when you're prescribing.
+p340
+aVBut there was another possibility.
+p341
+aVWe could have found two drugs or three drugs
+p342
+aVthat were interacting in a beneficial way.
+p343
+aVWe could have found new effects of drugs
+p344
+aVthat neither of them has alone,
+p345
+aVbut together, instead of causing a side effect,
+p346
+aVthey could be a new and novel treatment
+p347
+aVfor diseases that don't have treatments
+p348
+aVor where the treatments are not effective.
+p349
+aVIf we think about drug treatment today,
+p350
+aVall the major breakthroughs \u2014
+p351
+aVfor HIV, for tuberculosis, for depression, for diabetes \u2014
+p352
+aVit's always a cocktail of drugs.
+p353
+aa(lp354
+VAnd so the upside here,
+p355
+aVand the subject for a different TED Talk on a different day,
+p356
+aVis how can we use the same data sources
+p357
+aVto find good effects of drugs in combination
+p358
+aVthat will provide us new treatments,
+p359
+aVnew insights into how drugs work
+p360
+aVand enable us to take care of our patients even better?
+p361
+aa(lp362
+VThank you very much.
+p363
+aa(lp364
+V(Applause)
+p365
+aasS'transcript_micsec'
+p366
+(lp367
+I11000
+aI59000
+aI79000
+aI103000
+aI123000
+aI130000
+aI131000
+aI173000
+aI187000
+aI200000
+aI222000
+aI240000
+aI241000
+aI265000
+aI282000
+aI330000
+aI381000
+aI390000
+aI407000
+aI429000
+aI455000
+aI486000
+aI494000
+aI498000
+aI501000
+aI518000
+aI557000
+aI561000
+aI565000
+aI566000
+aI591000
+aI655000
+aI687000
+aI725000
+aI765000
+aI803000
+aI855000
+aI874000
+aI875000
+asS'talk_meta'
+p368
+(dp369
+S'ratings'
+p370
+(dp371
+S'ingenious'
+p372
+I149
+sS'funny'
+p373
+I34
+sS'inspiring'
+p374
+I108
+sS'ok'
+p375
+I42
+sS'fascinating'
+p376
+I245
+sS'total_count'
+p377
+I1406
+sS'persuasive'
+p378
+I123
+sS'longwinded'
+p379
+I8
+sS'unconvincing'
+p380
+I11
+sS'informative'
+p381
+I605
+sS'beautiful'
+p382
+I36
+sS'jaw-dropping'
+p383
+I18
+sS'obnoxious'
+p384
+I8
+sS'courageous'
+p385
+I12
+sS'confusing'
+p386
+I7
+ssS'author'
+p387
+VRuss_Altman;
+p388
+sS'url'
+p389
+S'https://www.ted.com/talks/russ_altman_what_really_happens_when_you_mix_medications'
+p390
+sS'vidlen'
+p391
+I881
+sS'totalviews'
+p392
+I1598054
+sS'title'
+p393
+VWhat really happens when you mix medications?
+p394
+sS'downloadlink'
+p395
+Vhttps://download.ted.com/talks/RussAltman_2015P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p396
+sS'datepublished'
+p397
+cdatetime
+datetime
+p398
+(S'\x07\xe0\x03\x02\x0b\x12\x08\x00\x00\x00'
+tRp399
+sS'datefilmed'
+p400
+g398
+(S'\x07\xe0\x03\x02\x0b\x12\x08\x00\x00\x00'
+tRp401
+sS'alldata_JSON'
+p402
+S'{"viewed_count": 1598054, "speakers": [{"description": "Big data techno-\\u00adoptimist and internist", "firstname": "Russ", "title": "", "lastname": "Altman", "middleinitial": "", "whylisten": "<p>Professor of bioengineering, genetics, medicine and computer science at Stanford University, Russ Altman&#39;s primary research interests are in the application of computing and informatics technologies to problems relevant to medicine. He is particularly interested in methods for understanding drug actions at molecular, cellular, organism and population levels, including how genetic variation impacts drug response. </p><p>Altman received the U.S. Presidential Early Career Award for Scientists and Engineers, a National Science Foundation CAREER Award and Stanford Medical School&#39;s graduate teaching award. He has chaired the Science Board advising the FDA Commissioner and currently serves on the NIH Director&rsquo;s Advisory Committee. He is a clinically active internist, the founder of the PharmGKB knowledge base, and advisor to pharmacogenomics companies.</p>", "slug": "russ_altman", "whotheyare": "Russ Altman uses machine learning to better understand adverse effects of medication.", "whatotherssay": "", "id": 2832, "photo_url": "https://pe.tedcdn.com/images/ted/a693d3d3f1aeecb6bca25d16e34c7ce4042b1a92_254x191.jpg"}], "current_talk": 2436, "description": "If you take two different medications for two different reasons, here\'s a sobering thought: your doctor may not fully understand what happens when they\'re combined, because drug interactions are incredibly hard to study. In this fascinating and accessible talk, Russ Altman shows how doctors are studying unexpected drug interactions using a surprising resource: search engine queries.", "language": "en", "url": "https://www.ted.com/talks/russ_altman_what_really_happens_when_you_mix_medications", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RussAltman_2015P-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105397026}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RussAltman_2015P-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20330043}, "podcast-high": {"uri": "https://download.ted.com/talks/RussAltman_2015P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105645070}, "180k": {"uri": "https://download.ted.com/talks/RussAltman_2015P-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20106166}, "64k": {"uri": "https://download.ted.com/talks/RussAltman_2015P-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7252289}, "1500k": {"uri": "https://download.ted.com/talks/RussAltman_2015P-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 163058702}, "450k": {"uri": "https://download.ted.com/talks/RussAltman_2015P-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49981487}, "podcast-regular": {"uri": "https://download.ted.com/talks/RussAltman_2015P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 50314961}, "950k": {"uri": "https://download.ted.com/talks/RussAltman_2015P-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105416338}, "audio-podcast": {"uri": "https://download.ted.com/talks/RussAltman_2015P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 9104770}, "podcast-light": {"uri": "https://download.ted.com/talks/RussAltman_2015P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7386370}, "320k": {"uri": "https://download.ted.com/talks/RussAltman_2015P-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35567907}, "600k": {"uri": "https://download.ted.com/talks/RussAltman_2015P-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66695456}}}, "comments": {"count": 69, "id": 27055, "talk_id": 2436}, "slug": "russ_altman_what_really_happens_when_you_mix_medications", "threadId": 27055, "talks": [{"event": "TEDMED 2015", "player_talks": [{"event": "TEDMED 2015", "slug": "russ_altman_what_really_happens_when_you_mix_medications", "filmed": 1447804800, "targeting": {"event": "TEDMED 2015", "tag": "Internet,TEDMED,big problems,complexity,curiosity,data,depression,health,health care,illness,innovation,medical research,medicine,pharmaceuticals,potential,science", "id": 2436, "talk": "russ_altman_what_really_happens_when_you_mix_medications", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "What really happens when you mix medications?", "postAdDuration": "0.83", "published": 1456935488, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/be7a7a310af5cfda1f5f3eb883c4bbb508c50918_2880x1620.jpg?quality=89&w=600", "name": "Russ Altman: What really happens when you mix medications?", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "TEDMED", "big problems", "complexity", "curiosity", "data", "depression", "health", "health care", "illness", "innovation", "medical research", "medicine", "pharmaceuticals", "potential", "science"], "speaker": "Russ Altman", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 881, "id": 2436, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RussAltman_2015P-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDMED 2015", "tag": "Internet,TEDMED,big problems,complexity,curiosity,data,depression,health,health care,illness,innovation,medical research,medicine,pharmaceuticals,potential,science", "id": 2436, "talk": "russ_altman_what_really_happens_when_you_mix_medications", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2436.json", "stream": "https://hls.ted.com/talks/2436.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDMED%2B2015%26id%3D2436%26tag%3DInternet%2CTEDMED%2Cbig%2Bproblems%2Ccomplexity%2Ccuriosity%2Cdata%2Cdepression%2Chealth%2Chealth%2Bcare%2Cillness%2Cinnovation%2Cmedical%2Bresearch%2Cmedicine%2Cpharmaceuticals%2Cpotential%2Cscience%26talk%3Druss_altman_what_really_happens_when_you_mix_medications%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/russ_altman_what_really_happens_when_you_mix_medications"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/be7a7a310af5cfda1f5f3eb883c4bbb508c50918_2880x1620.jpg?q=50&w=15", "duration": 881, "id": 2436, "ratings": [{"count": 605, "id": 8, "name": "Informative"}, {"count": 149, "id": 9, "name": "Ingenious"}, {"count": 245, "id": 22, "name": "Fascinating"}, {"count": 123, "id": 24, "name": "Persuasive"}, {"count": 108, "id": 10, "name": "Inspiring"}, {"count": 42, "id": 25, "name": "OK"}, {"count": 34, "id": 7, "name": "Funny"}, {"count": 18, "id": 23, "name": "Jaw-dropping"}, {"count": 7, "id": 2, "name": "Confusing"}, {"count": 12, "id": 3, "name": "Courageous"}, {"count": 11, "id": 21, "name": "Unconvincing"}, {"count": 36, "id": 1, "name": "Beautiful"}, {"count": 8, "id": 11, "name": "Longwinded"}, {"count": 8, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Big data techno-\\u00adoptimist and internist", "firstname": "Russ", "title": "", "lastname": "Altman", "middleinitial": "", "whylisten": "<p>Professor of bioengineering, genetics, medicine and computer science at Stanford University, Russ Altman&#39;s primary research interests are in the application of computing and informatics technologies to problems relevant to medicine. He is particularly interested in methods for understanding drug actions at molecular, cellular, organism and population levels, including how genetic variation impacts drug response. </p><p>Altman received the U.S. Presidential Early Career Award for Scientists and Engineers, a National Science Foundation CAREER Award and Stanford Medical School&#39;s graduate teaching award. He has chaired the Science Board advising the FDA Commissioner and currently serves on the NIH Director&rsquo;s Advisory Committee. He is a clinically active internist, the founder of the PharmGKB knowledge base, and advisor to pharmacogenomics companies.</p>", "slug": "russ_altman", "whotheyare": "Russ Altman uses machine learning to better understand adverse effects of medication.", "whatotherssay": "", "id": 2832, "photo_url": "https://pe.tedcdn.com/images/ted/a693d3d3f1aeecb6bca25d16e34c7ce4042b1a92_254x191.jpg"}], "title": "What really happens when you mix medications?", "take_action": [], "comments": 27055, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/be7a7a310af5cfda1f5f3eb883c4bbb508c50918_2880x1620.jpg", "description": "If you take two different medications for two different reasons, here\'s a sobering thought: your doctor may not fully understand what happens when they\'re combined, because drug interactions are incredibly hard to study. In this fascinating and accessible talk, Russ Altman shows how doctors are studying unexpected drug interactions using a surprising resource: search engine queries.", "tags": ["Internet", "TEDMED", "big problems", "complexity", "curiosity", "data", "depression", "health", "health care", "illness", "innovation", "medical research", "medicine", "pharmaceuticals", "potential", "science"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RussAltman_2015P-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RussAltman_2015P-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RussAltman_2015P-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RussAltman_2015P-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/RussAltman_2015P-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/RussAltman_2015P-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RussAltman_2015P-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RussAltman_2015P-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RussAltman_2015P-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RussAltman_2015P-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RussAltman_2015P-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RussAltman_2015P-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RussAltman_2015P-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RussAltman_2015P-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RussAltman_2015P-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RussAltman_2015P-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RussAltman_2015P-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RussAltman_2015P-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/RussAltman_2015P-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RussAltman_2015P-low-uk.mp4"}, "mr": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/RussAltman_2015P-low-mr.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RussAltman_2015P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RussAltman_2015P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RussAltman_2015P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2436, "audioDownload": "https://download.ted.com/talks/RussAltman_2015P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1305554, "hero": "https://pe.tedcdn.com/images/ted/41ac82f3910374b1dee363913218e5f632a22630_2880x1620.jpg", "title": "Soon we\'ll cure diseases with a cell, not a pill", "id": 2343, "speaker": "Siddhartha Mukherjee", "duration": 1055, "slug": "siddhartha_mukherjee_soon_we_ll_cure_diseases_with_a_cell_not_a_pill"}, {"viewed_count": 1422630, "hero": "https://pe.tedcdn.com/images/ted/1b1a683e5ebe9dcb2fdde87144516ce3aa0e025d_2880x1620.jpg", "title": "Why medicine often has dangerous side effects for women", "id": 2349, "speaker": "Alyson McGregor", "duration": 929, "slug": "alyson_mcgregor_why_medicine_often_has_dangerous_side_effects_for_women"}, {"viewed_count": 1079961, "hero": "https://pe.tedcdn.com/images/ted/a15d188f6811315cdb75f38b042d936dbb52e2fa_2880x1620.jpg", "title": "Why your doctor should care about social justice", "id": 2445, "speaker": "Mary Bassett", "duration": 829, "slug": "mary_bassett_why_your_doctor_should_care_about_social_justice"}, {"viewed_count": 530202, "hero": "https://pe.tedcdn.com/images/ted/146160_800x600.jpg", "title": "The big idea my brother inspired", "id": 759, "speaker": "Jamie Heywood", "duration": 1014, "slug": "jamie_heywood_the_big_idea_my_brother_inspired"}, {"viewed_count": 1609869, "hero": "https://pe.tedcdn.com/images/ted/bf71a1d50bc5f028bb16ff42f5c5c4f70b2091eb_2880x1620.jpg", "title": "Why we need to end the War on Drugs", "id": 2130, "speaker": "Ethan Nadelmann", "duration": 1046, "slug": "ethan_nadelmann_why_we_need_to_end_the_war_on_drugs"}, {"viewed_count": 906576, "hero": "https://pe.tedcdn.com/images/ted/568bf460212248807e5acde5f149bd29c1307c2a_1600x1200.jpg", "title": "A bold new way to fund drug research", "id": 1901, "speaker": "Roger Stein", "duration": 669, "slug": "roger_stein_a_bold_new_way_to_fund_drug_research"}], "recorded_at": "2015-11-18T00:00:00.000+00:00", "slug": "russ_altman_what_really_happens_when_you_mix_medications", "speaker_name": "Russ Altman", "viewed_count": 1598054, "event_badge": null, "event_blurb": "This video was produced by TEDMED. TED\'s editors featured it among our daily selections on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Russ Altman recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Web\\u00ad-scale pharmacovigilance: listening to signals from the crowd", "link_url": "http://jamia.oxfordjournals.org/content/20/3/404.long", "eyebrow": null, "label": "READ_Article", "note": "Ryen W. White, Nicholas P. Tatonetti, Nigam H. Shah, Russ B. Altman, Eric Horvitz\\r\\n*Journal of American Medical Informatics*, 2013", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Unreported Side Effects of Drugs Are Found Using Internet Search Data, Study Finds", "link_url": "http://www.nytimes.com/2013/03/07/science/unreported-side-effects-of-drugs-found-using-internet-data-study-finds.html?_r=1", "eyebrow": null, "label": "READ_Article", "note": "John Markoff\\r\\n*The New York Times*, 2013", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Mining Electronic Records for Revealing Health Data", "link_url": "http://www.nytimes.com/2013/01/15/health/mining-electronic-records-for-revealing-health-data.html", "eyebrow": null, "label": "READ_Article", "note": "Peter Jaret\\r\\n*The New York Times*, 2013.", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Personalized Prescriptions", "link_url": "https://www.youtube.com/watch?v=X1iKibDqtck&feature=youtu.be", "eyebrow": null, "label": "EXPLORE", "note": "Russ B. Altman\\r\\nTEDxStanford, 2013", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Detecting Drug Interactions From Adverse-\\u00adEvent Reports: Interaction Between Paroxetine and Pravastatin Increases Blood Glucose Levels", "link_url": "http://www.ncbi.nlm.nih.gov/pubmed/21613990", "eyebrow": null, "label": "READ_Article", "note": "NP Tatonetti, J Denny, S Murphy, GH Fernald, G Krishnan, V Castro, et al.\\r\\n*Clinical Pharmacology and Therapeutics*, 2011", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Translational Bioinformatics: Linking the Molecular World to the Clinical World", "link_url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4154360/", "eyebrow": null, "label": "READ_Article", "note": "Russ B. Altman\\r\\n*Clinical Pharmacology and Therapeutics*, 2012", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Data\\u00ad-Driven Prediction of Drug Effects and Interactions ", "link_url": "http://stm.sciencemag.org/content/4/125/125ra31", "eyebrow": null, "label": "READ_Article", "note": "NP Tatonetti, PP Ye, R Daneshjou, RB Altman\\r\\n*Science Translational Medicine*, 2012", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Discovery and explanation of drug\\u00ad-drug interactions via text mining", "link_url": "http://www.worldscientific.com/doi/abs/10.1142/9789814366496_0040", "eyebrow": null, "label": "READ_Article", "note": "B Percha, Y Garten, RB Altman\\r\\n*Pacific Symposium on Biocomputing*, 2012", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Clinical assessment incorporating a personal genome", "link_url": "http://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2810%2960452-7/abstract", "eyebrow": null, "label": "READ_Article", "note": "EA Ashley, AJ Butte, MT Wheeler, R Chen, TE Klein, FE Dewey, et al. \\r\\n*The Lancet*, 2010", "position": null, "blurb": ""}], "title": ""}], "published": true, "type": "recommendation", "blurb": "Check out more resources on the uses of data in medicine, curated by Russ Altman."}, "corrections": []}], "event": "TEDMED 2015", "name": "Russ Altman: What really happens when you mix medications?"}'
+p403
+sS'keywords'
+p404
+(lp405
+VInternet
+p406
+aVTEDMED
+p407
+aVbig problems
+p408
+aVcomplexity
+p409
+aVcuriosity
+p410
+aVdata
+p411
+aVdepression
+p412
+aVhealth
+p413
+aVhealth care
+p414
+aVillness
+p415
+aVinnovation
+p416
+aVmedical research
+p417
+aVmedicine
+p418
+aVpharmaceuticals
+p419
+aVpotential
+p420
+aVscience
+p421
+asS'datecrawled'
+p422
+g398
+(S'\x07\xe1\n\x17\x04\x03$\x0b\x07\x88'
+tRp423
+sS'id'
+p424
+I2436
+ss.

@@ -1,0 +1,968 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo historically there has
+p5
+aVbeen a huge divide between what people
+p6
+aVconsider to be non-living systems on one
+p7
+aVside, and living systems on the other side.
+p8
+aVSo we go from, say, this beautiful and
+p9
+aVcomplex crystal as non-life, and this rather
+p10
+aVbeautiful and complex cat on the other side.
+p11
+aVOver the last hundred and fifty years or so,
+p12
+aVscience has kind of blurred this distinction
+p13
+aVbetween non-living and living systems, and
+p14
+aVnow we consider that there may be a kind
+p15
+aVof continuum that exists between the two.
+p16
+aVWe'll just take one example here:
+p17
+aVa virus is a natural system, right?
+p18
+aVBut it's very simple. It's very simplistic.
+p19
+aVIt doesn't really satisfy all the requirements,
+p20
+aVit doesn't have all the characteristics
+p21
+aVof living systems and is in fact a parasite
+p22
+aVon other living systems in order to, say,
+p23
+aVreproduce and evolve.
+p24
+aa(lp25
+VBut what we're going to be talking about here
+p26
+aVtonight are experiments done on this sort of
+p27
+aVnon-living end of this spectrum \u2014 so actually
+p28
+aVdoing chemical experiments in the laboratory,
+p29
+aVmixing together nonliving ingredients
+p30
+aVto make new structures, and that these
+p31
+aVnew structures might have some of the
+p32
+aVcharacteristics of living systems.
+p33
+aVReally what I'm talking about here is
+p34
+aVtrying to create a kind of artificial life.
+p35
+aa(lp36
+VSo what are these characteristics that I'm
+p37
+aVtalking about? These are them.
+p38
+aVWe consider first that life has a body.
+p39
+aVNow this is necessary to distinguish the self
+p40
+aVfrom the environment.
+p41
+aVLife also has a metabolism. Now this is a
+p42
+aVprocess by which life can convert resources
+p43
+aVfrom the environment into building blocks
+p44
+aVso it can maintain and build itself.
+p45
+aVLife also has a kind of inheritable information.
+p46
+aVNow we, as humans, we store our information
+p47
+aVas DNA in our genomes and we pass this
+p48
+aVinformation on to our offspring.
+p49
+aVIf we couple the first two \u2014 the body and the metabolism \u2014
+p50
+aVwe can come up with a system that could
+p51
+aVperhaps move and replicate, and if we
+p52
+aVcoupled these now to inheritable information,
+p53
+aVwe can come up with a system that would be
+p54
+aVmore lifelike, and would perhaps evolve.
+p55
+aVAnd so these are the things we will try to do
+p56
+aVin the lab, make some experiments that have
+p57
+aVone or more of these characteristics of life.
+p58
+aa(lp59
+VSo how do we do this? Well, we use
+p60
+aVa model system that we term a protocell.
+p61
+aVYou might think of this as kind of like a
+p62
+aVprimitive cell. It is a simple chemical
+p63
+aVmodel of a living cell, and if you consider
+p64
+aVfor example a cell in your body may have
+p65
+aVon the order of millions of different types
+p66
+aVof molecules that need to come together,
+p67
+aVplay together in a complex network
+p68
+aVto produce something that we call alive.
+p69
+aVIn the laboratory what we want to do
+p70
+aVis much the same, but with on the order of
+p71
+aVtens of different types of molecules \u2014
+p72
+aVso a drastic reduction in complexity, but still
+p73
+aVtrying to produce something that looks lifelike.
+p74
+aVAnd so what we do is, we start simple
+p75
+aVand we work our way up to living systems.
+p76
+aVConsider for a moment this quote by
+p77
+aVLeduc, a hundred years ago, considering a
+p78
+aVkind of synthetic biology:
+p79
+aV"The synthesis of life, should it ever occur,
+p80
+aVwill not be the sensational discovery which we
+p81
+aVusually associate with the idea."
+p82
+aVThat's his first statement. So if we actually
+p83
+aVcreate life in the laboratories, it's
+p84
+aVprobably not going to impact our lives at all.
+p85
+aa(lp86
+V"If we accept the theory of evolution, then
+p87
+aVthe first dawn of synthesis of life must consist
+p88
+aVin the production of forms intermediate
+p89
+aVbetween the inorganic and the organic
+p90
+aVworld, or between the non-living
+p91
+aVand living world, forms which possess
+p92
+aVonly some of the rudimentary attributes of life"
+p93
+aV\u2014 so, the ones I just discussed \u2014
+p94
+aV"to which other attributes will be slowly added
+p95
+aVin the course of development by the
+p96
+aVevolutionary actions of the environment."
+p97
+aVSo we start simple, we make some structures
+p98
+aVthat may have some of these characteristics
+p99
+aVof life, and then we try to develop that
+p100
+aVto become more lifelike.
+p101
+aVThis is how we can start to make a protocell.
+p102
+aVWe use this idea called self-assembly.
+p103
+aVWhat that means is, I can mix some
+p104
+aVchemicals together in a test tube in my lab,
+p105
+aVand these chemicals will start to self-associate
+p106
+aVto form larger and larger structures.
+p107
+aVSo say on the order of tens of thousands,
+p108
+aVhundreds of thousands of molecules will
+p109
+aVcome together to form a large structure
+p110
+aVthat didn't exist before.
+p111
+aVAnd in this particular example,
+p112
+aVwhat I took is some membrane molecules,
+p113
+aVmixed those together in the right environment,
+p114
+aVand within seconds it forms these rather
+p115
+aVcomplex and beautiful structures here.
+p116
+aVThese membranes are also quite similar,
+p117
+aVmorphologically and functionally,
+p118
+aVto the membranes in your body,
+p119
+aVand we can use these, as they say,
+p120
+aVto form the body of our protocell.
+p121
+aa(lp122
+VLikewise,
+p123
+aVwe can work with oil and water systems.
+p124
+aVAs you know, when you put oil and water together,
+p125
+aVthey don't mix, but through self-assembly
+p126
+aVwe can get a nice oil droplet to form,
+p127
+aVand we can actually use this as a body for
+p128
+aVour artificial organism or for our protocell,
+p129
+aVas you will see later.
+p130
+aVSo that's just forming some body stuff, right?
+p131
+aVSome architectures.
+p132
+aVWhat about the other aspects of living systems?
+p133
+aVSo we came up with this protocell model here
+p134
+aVthat I'm showing.
+p135
+aVWe started with a natural occurring clay
+p136
+aVcalled montmorillonite.
+p137
+aVThis is natural from the environment, this clay.
+p138
+aVIt forms a surface that is, say, chemically active.
+p139
+aVIt could run a metabolism on it.
+p140
+aVCertain kind of molecules like to associate
+p141
+aVwith the clay. For example, in this case, RNA, shown in red
+p142
+aV\u2014 this is a relative of DNA,
+p143
+aVit's an informational molecule \u2014
+p144
+aVit can come along and it starts to associate
+p145
+aVwith the surface of this clay.
+p146
+aVThis structure, then, can organize the
+p147
+aVformation of a membrane boundary around
+p148
+aVitself, so it can make a body of
+p149
+aVliquid molecules around itself, and that's
+p150
+aVshown in green here on this micrograph.
+p151
+aVSo just through self-assembly, mixing things
+p152
+aVtogether in the lab, we can come up with, say,
+p153
+aVa metabolic surface with some
+p154
+aVinformational molecules attached
+p155
+aVinside of this membrane body, right?
+p156
+aa(lp157
+VSo we're on a road towards living systems.
+p158
+aVBut if you saw this protocell, you would not
+p159
+aVconfuse this with something that was actually alive.
+p160
+aVIt's actually quite lifeless. Once it forms,
+p161
+aVit doesn't really do anything.
+p162
+aVSo, something is missing.
+p163
+aVSome things are missing.
+p164
+aVSo some things that are missing is,
+p165
+aVfor example, if you had a flow of energy
+p166
+aVthrough a system, what we'd want
+p167
+aVis a protocell that can harvest
+p168
+aVsome of that energy in order to maintain itself,
+p169
+aVmuch like living systems do.
+p170
+aVSo we came up with a different protocell
+p171
+aVmodel, and this is actually simpler than the previous one.
+p172
+aVIn this protocell model, it's just an oil droplet,
+p173
+aVbut a chemical metabolism inside
+p174
+aVthat allows this protocell to use energy
+p175
+aVto do something, to actually become dynamic,
+p176
+aVas we'll see here.
+p177
+aVYou add the droplet to the system.
+p178
+aVIt's a pool of water, and the protocell
+p179
+aVstarts moving itself around in the system.
+p180
+aVOkay? Oil droplet forms
+p181
+aVthrough self-assembly, has a chemical
+p182
+aVmetabolism inside so it can use energy,
+p183
+aVand it uses that energy to move itself
+p184
+aVaround in its environment.
+p185
+aa(lp186
+VAs we heard earlier, movement is very
+p187
+aVimportant in these kinds of living systems.
+p188
+aVIt is moving around, exploring its environment,
+p189
+aVand remodeling its environment, as you see,
+p190
+aVby these chemical waves that are forming by the protocell.
+p191
+aVSo it's acting, in a sense, like a living system
+p192
+aVtrying to preserve itself.
+p193
+aVWe take this same moving protocell here,
+p194
+aVand we put it in another experiment,
+p195
+aVget it moving. Then I'm going
+p196
+aVto add some food to the system,
+p197
+aVand you'll see that in blue here, right?
+p198
+aVSo I add some food source to the system.
+p199
+aVThe protocell moves. It encounters the food.
+p200
+aVIt reconfigures itself and actually then
+p201
+aVis able to climb to the highest concentration
+p202
+aVof food in that system and stop there.
+p203
+aVAlright? So not only do we have this system
+p204
+aVthat has a body, it has a metabolism,
+p205
+aVit can use energy, it moves around.
+p206
+aVIt can sense its local environment
+p207
+aVand actually find resources
+p208
+aVin the environment to sustain itself.
+p209
+aa(lp210
+VNow, this doesn't have a brain, it doesn't have
+p211
+aVa neural system. This is just a sack of
+p212
+aVchemicals that is able to have this interesting
+p213
+aVand complex lifelike behavior.
+p214
+aVIf we count the number of chemicals
+p215
+aVin that system, actually, including the water
+p216
+aVthat's in the dish, we have five chemicals
+p217
+aVthat can do this.
+p218
+aVSo then we put these protocells together in a
+p219
+aVsingle experiment to see what they would do,
+p220
+aVand depending on the conditions, we have
+p221
+aVsome protocells on the left that are
+p222
+aVmoving around and it likes to touch the other
+p223
+aVstructures in its environment.
+p224
+aVOn the other hand we have two moving
+p225
+aVprotocells that like to circle each other,
+p226
+aVand they form a kind of a dance, a complex dance with each other.
+p227
+aVRight? So not only do individual protocells
+p228
+aVhave behavior, what we've interpreted as
+p229
+aVbehavior in this system, but we also have
+p230
+aVbasically population-level behavior
+p231
+aVsimilar to what organisms have.
+p232
+aVSo now that you're all experts on protocells,
+p233
+aVwe're going to play a game with these protocells.
+p234
+aVWe're going to make two different kinds.
+p235
+aVProtocell A has a certain kind of chemistry
+p236
+aVinside that, when activated, the protocell
+p237
+aVstarts to vibrate around, just dancing.
+p238
+aVSo remember, these are primitive things,
+p239
+aVso dancing protocells, that's very
+p240
+aVinteresting to us. (Laughter)
+p241
+aa(lp242
+VThe second protocell has a different
+p243
+aVchemistry inside, and when activated,
+p244
+aVthe protocells all come together and they fuse
+p245
+aVinto one big one. Right?
+p246
+aVAnd we just put these two together
+p247
+aVin the same system.
+p248
+aVSo there's population A,
+p249
+aVthere's population B, and then
+p250
+aVwe activate the system,
+p251
+aVand protocell Bs, they're the blue ones,
+p252
+aVthey all come together. They fuse together
+p253
+aVto form one big blob, and the other protocell
+p254
+aVjust dances around. And this just happens
+p255
+aVuntil all of the energy in the system is
+p256
+aVbasically used up, and then, game over.
+p257
+aVSo then I repeated this experiment
+p258
+aVa bunch of times, and one time
+p259
+aVsomething very interesting happened.
+p260
+aVSo, I added these protocells together
+p261
+aVto the system, and protocell A and protocell B
+p262
+aVfused together to form a hybrid protocell AB.
+p263
+aVThat didn't happen before. There it goes.
+p264
+aVThere's a protocell AB now in this system.
+p265
+aVProtocell AB likes to dance around for a bit,
+p266
+aVwhile protocell B does the fusing, okay?
+p267
+aa(lp268
+VBut then something even more interesting happens.
+p269
+aVWatch when these two large protocells,
+p270
+aVthe hybrid ones, fuse together.
+p271
+aVNow we have a dancing protocell
+p272
+aVand a self-replication event. Right. (Laughter)
+p273
+aVJust with blobs of chemicals, again.
+p274
+aVSo the way this works is, you have
+p275
+aVa simple system of five chemicals here,
+p276
+aVa simple system here. When they hybridize,
+p277
+aVyou then form something that's different than
+p278
+aVbefore, it's more complex than before,
+p279
+aVand you get the emergence of another kind of
+p280
+aVlifelike behavior which
+p281
+aVin this case is replication.
+p282
+aa(lp283
+VSo since we can make some interesting
+p284
+aVprotocells that we like, interesting colors and
+p285
+aVinteresting behaviors, and they're very easy
+p286
+aVto make, and they have interesting lifelike
+p287
+aVproperties, perhaps these protocells have
+p288
+aVsomething to tell us about the origin of life
+p289
+aVon the Earth. Perhaps these represent an
+p290
+aVeasily accessible step, one of the first steps
+p291
+aVby which life got started on the early Earth.
+p292
+aVCertainly, there were molecules present on
+p293
+aVthe early Earth, but they wouldn't have been
+p294
+aVthese pure compounds that we worked with
+p295
+aVin the lab and I showed in these experiments.
+p296
+aVRather, they'd be a real complex mixture of
+p297
+aVall kinds of stuff, because
+p298
+aVuncontrolled chemical reactions produce
+p299
+aVa diverse mixture of organic compounds.
+p300
+aVThink of it like a primordial ooze, okay?
+p301
+aVAnd it's a pool that's too difficult to fully
+p302
+aVcharacterize, even by modern methods, and
+p303
+aVthe product looks brown, like this tar here
+p304
+aVon the left. A pure compound
+p305
+aVis shown on the right, for contrast.
+p306
+aa(lp307
+VSo this is similar to what happens when you
+p308
+aVtake pure sugar crystals in your kitchen,
+p309
+aVyou put them in a pan, and you apply energy.
+p310
+aVYou turn up the heat, you start making
+p311
+aVor breaking chemical bonds in the sugar,
+p312
+aVforming a brownish caramel, right?
+p313
+aVIf you let that go unregulated, you'll
+p314
+aVcontinue to make and break chemical bonds,
+p315
+aVforming an even more diverse mixture of
+p316
+aVmolecules that then forms this kind of black
+p317
+aVtarry stuff in your pan, right, that's
+p318
+aVdifficult to wash out. So that's what
+p319
+aVthe origin of life would have looked like.
+p320
+aVYou needed to get life out of this junk that
+p321
+aVis present on the early Earth,
+p322
+aVfour, 4.5 billion years ago.
+p323
+aVSo the challenge then is,
+p324
+aVthrow away all your pure chemicals in the lab,
+p325
+aVand try to make some protocells with lifelike
+p326
+aVproperties from this kind of primordial ooze.
+p327
+aa(lp328
+VSo we're able to then see the self-assembly
+p329
+aVof these oil droplet bodies again
+p330
+aVthat we've seen previously,
+p331
+aVand the black spots inside of there
+p332
+aVrepresent this kind of black tar \u2014 this diverse,
+p333
+aVvery complex, organic black tar.
+p334
+aVAnd we put them into one of these
+p335
+aVexperiments, as you've seen earlier, and then
+p336
+aVwe watch lively movement that comes out.
+p337
+aVThey look really good, very nice movement,
+p338
+aVand also they appear to have some kind of
+p339
+aVbehavior where they kind of circle
+p340
+aVaround each other and follow each other,
+p341
+aVsimilar to what we've seen before \u2014 but again,
+p342
+aVworking with just primordial conditions,
+p343
+aVno pure chemicals.
+p344
+aVThese are also, these tar-fueled protocells,
+p345
+aVare also able to locate resources
+p346
+aVin their environment.
+p347
+aVI'm going to add some resource from the left,
+p348
+aVhere, that defuses into the system,
+p349
+aVand you can see, they really like that.
+p350
+aVThey become very energetic, and able
+p351
+aVto find the resource in the environment,
+p352
+aVsimilar to what we saw before.
+p353
+aVBut again, these are done in these primordial
+p354
+aVconditions, really messy conditions,
+p355
+aVnot sort of sterile laboratory conditions.
+p356
+aVThese are very dirty little protocells,
+p357
+aVas a matter of fact. (Laughter)
+p358
+aVBut they have lifelike properties, is the point.
+p359
+aa(lp360
+VSo, doing these artificial life experiments
+p361
+aVhelps us define a potential path between
+p362
+aVnon-living and living systems.
+p363
+aVAnd not only that, but it helps us
+p364
+aVbroaden our view of what life is
+p365
+aVand what possible life there could be
+p366
+aVout there \u2014 life that could be very different
+p367
+aVfrom life that we find here on Earth.
+p368
+aVAnd that leads me to the next
+p369
+aVterm, which is "weird life."
+p370
+aVThis is a term by Steve Benner.
+p371
+aVThis is used in reference to a report
+p372
+aVin 2007 by the National Research Council
+p373
+aVin the United States, wherein
+p374
+aVthey tried to understand how we can
+p375
+aVlook for life elsewhere in the universe, okay,
+p376
+aVespecially if that life is very different from life
+p377
+aVon Earth. If we went to another planet and
+p378
+aVwe thought there might be life there,
+p379
+aVhow could we even recognize it as life?
+p380
+aa(lp381
+VWell, they came up with three very general
+p382
+aVcriteria. First is \u2014 and they're listed here.
+p383
+aVThe first is, the system has to be in
+p384
+aVnon-equilibrium. That means the system
+p385
+aVcannot be dead, in a matter of fact.
+p386
+aVBasically what that means is, you have
+p387
+aVan input of energy into the system that life
+p388
+aVcan use and exploit to maintain itself.
+p389
+aVThis is similar to having the Sun shining
+p390
+aVon the Earth, driving photosynthesis,
+p391
+aVdriving the ecosystem.
+p392
+aVWithout the Sun, there's likely to be
+p393
+aVno life on this planet.
+p394
+aVSecondly, life needs to be in liquid form,
+p395
+aVso that means even if we had some
+p396
+aVinteresting structures, interesting molecules
+p397
+aVtogether but they were frozen solid,
+p398
+aVthen this is not a good place for life.
+p399
+aVAnd thirdly, we need to be able to make
+p400
+aVand break chemical bonds. And again
+p401
+aVthis is important because life transforms
+p402
+aVresources from the environment into
+p403
+aVbuilding blocks so it can maintain itself.
+p404
+aa(lp405
+VNow today, I told you about very strange
+p406
+aVand weird protocells \u2014 some that contain clay,
+p407
+aVsome that have primordial ooze in them,
+p408
+aVsome that have basically oil
+p409
+aVinstead of water inside of them.
+p410
+aVMost of these don't contain DNA,
+p411
+aVbut yet they have lifelike properties.
+p412
+aVBut these protocells satisfy
+p413
+aVthese general requirements of living systems.
+p414
+aVSo by making these chemical, artificial
+p415
+aVlife experiments, we hope not only
+p416
+aVto understand something fundamental
+p417
+aVabout the origin of life and the existence
+p418
+aVof life on this planet, but also
+p419
+aVwhat possible life there could be
+p420
+aVout there in the universe. Thank you.
+p421
+aV(Applause)
+p422
+aasS'transcript_micsec'
+p423
+(lp424
+I11000
+aI58000
+aI79000
+aI128000
+aI184000
+aI254000
+aI322000
+aI381000
+aI431000
+aI497000
+aI551000
+aI583000
+aI632000
+aI673000
+aI736000
+aI782000
+aI828000
+asS'talk_meta'
+p425
+(dp426
+S'ratings'
+p427
+(dp428
+S'ingenious'
+p429
+I193
+sS'beautiful'
+p430
+I71
+sS'inspiring'
+p431
+I135
+sS'ok'
+p432
+I53
+sS'fascinating'
+p433
+I517
+sS'funny'
+p434
+I17
+sS'total_count'
+p435
+I1658
+sS'persuasive'
+p436
+I73
+sS'longwinded'
+p437
+I12
+sS'informative'
+p438
+I327
+sS'jaw-dropping'
+p439
+I174
+sS'obnoxious'
+p440
+I10
+sS'confusing'
+p441
+I24
+sS'courageous'
+p442
+I14
+sS'unconvincing'
+p443
+I38
+ssS'author'
+p444
+VMartin_Hanczyc;
+p445
+sS'url'
+p446
+S'https://www.ted.com/talks/martin_hanczyc_the_line_between_life_and_not_life'
+p447
+sS'vidlen'
+p448
+I877
+sS'totalviews'
+p449
+I724635
+sS'title'
+p450
+VThe line between life and not-life
+p451
+sS'downloadlink'
+p452
+Vhttps://download.ted.com/talks/MartinHanczyc_2011S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p453
+sS'datepublished'
+p454
+cdatetime
+datetime
+p455
+(S"\x07\xdb\x0b\x07\x0b\x00'\x00\x00\x00"
+tRp456
+sS'datefilmed'
+p457
+g455
+(S"\x07\xdb\x0b\x07\x0b\x00'\x00\x00\x00"
+tRp458
+sS'alldata_JSON'
+p459
+S'{"viewed_count": 724635, "speakers": [{"description": "Chemist", "firstname": "Martin", "title": "", "lastname": "Hanczyc", "middleinitial": "", "whylisten": "<p>Martin Hanczyc is developing novel synthetic chemical systems based on the  properties of living systems, in a quest to understand how life forms. These synthetic systems, or &quot;protocells,&quot; are model  systems of primitive living cells and chemical examples of artificial  life. As <a href=\\"http://grayanat.posterous.com/?tag=martinhanczyc\\" target=\\"_blank\\">Rachel Armstrong puts it</a>: &quot;Although the protocell model system is just a chemically modified oil droplet, its dynamics are astonishingly varied and complex.&quot; </p><p>He&#39;s based at the Institute of Physics and Chemistry and the Center for Fundamental  Living Technology (FLinT) in Denmark. He is also an Honorary Senior  Lecturer at the Bartlett School of Architecture, University College  London. </p>", "slug": "martin_hanczyc", "whotheyare": "Martin Hanczyc explores the path between living and nonliving systems, using chemical droplets to study behavior of the earliest cells.", "whatotherssay": "Martin Hanczyc of the University of Southern Denmark just spoke on his research on protocells. It was, trust me, an astonishing illumination", "id": 1100, "photo_url": "https://pe.tedcdn.com/images/ted/70d32d931c3849d25fc426efe1e4e8304e512392_254x191.jpg"}], "current_talk": 1264, "description": "In his lab, Martin Hanczyc makes \\"protocells,\\" experimental blobs of chemicals that behave like living cells. His work demonstrates how life might have first occurred on Earth ... and perhaps elsewhere too.", "language": "en", "url": "https://www.ted.com/talks/martin_hanczyc_the_line_between_life_and_not_life", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101613724}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20113768}, "podcast-high": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101613757}, "180k": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20014387}, "64k": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7200700}, "1500k": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 159044848}, "450k": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49554113}, "podcast-regular": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49822589}, "950k": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101377891}, "audio-podcast": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 9005350}, "podcast-light": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7305534}, "320k": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35337891}, "600k": {"uri": "https://download.ted.com/talks/MartinHanczyc_2011S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66272848}}}, "comments": {"count": 188, "id": 8142, "talk_id": 1264}, "slug": "martin_hanczyc_the_line_between_life_and_not_life", "threadId": 8142, "talks": [{"event": "TEDSalon London Spring 2011", "player_talks": [{"event": "TEDSalon London Spring 2011", "slug": "martin_hanczyc_the_line_between_life_and_not_life", "filmed": 1305676800, "targeting": {"event": "TEDSalon London Spring 2011", "tag": "AI,biology,chemistry,ecology,evolution,human origins,innovation,life,molecular biology,nanoscale,science", "id": 1264, "talk": "martin_hanczyc_the_line_between_life_and_not_life", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "The line between life and not-life", "postAdDuration": "0.83", "published": 1320681639, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0ef39d000fb7255a6a9e65aff37dc28479b9b1a4_800x600.jpg?quality=89&w=600", "name": "Martin Hanczyc: The line between life and not-life", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "biology", "chemistry", "ecology", "evolution", "human origins", "innovation", "life", "molecular biology", "nanoscale", "science"], "speaker": "Martin Hanczyc", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 877, "id": 1264, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MartinHanczyc_2011S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDSalon London Spring 2011", "tag": "AI,biology,chemistry,ecology,evolution,human origins,innovation,life,molecular biology,nanoscale,science", "id": 1264, "talk": "martin_hanczyc_the_line_between_life_and_not_life", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1264.json", "stream": "https://hls.ted.com/talks/1264.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDSalon%2BLondon%2BSpring%2B2011%26id%3D1264%26tag%3DAI%2Cbiology%2Cchemistry%2Cecology%2Cevolution%2Chuman%2Borigins%2Cinnovation%2Clife%2Cmolecular%2Bbiology%2Cnanoscale%2Cscience%26talk%3Dmartin_hanczyc_the_line_between_life_and_not_life%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/martin_hanczyc_the_line_between_life_and_not_life"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0ef39d000fb7255a6a9e65aff37dc28479b9b1a4_800x600.jpg?q=50&w=15", "duration": 877, "id": 1264, "ratings": [{"count": 193, "id": 9, "name": "Ingenious"}, {"count": 517, "id": 22, "name": "Fascinating"}, {"count": 71, "id": 1, "name": "Beautiful"}, {"count": 12, "id": 11, "name": "Longwinded"}, {"count": 24, "id": 2, "name": "Confusing"}, {"count": 38, "id": 21, "name": "Unconvincing"}, {"count": 327, "id": 8, "name": "Informative"}, {"count": 174, "id": 23, "name": "Jaw-dropping"}, {"count": 135, "id": 10, "name": "Inspiring"}, {"count": 73, "id": 24, "name": "Persuasive"}, {"count": 53, "id": 25, "name": "OK"}, {"count": 17, "id": 7, "name": "Funny"}, {"count": 14, "id": 3, "name": "Courageous"}, {"count": 10, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Chemist", "firstname": "Martin", "title": "", "lastname": "Hanczyc", "middleinitial": "", "whylisten": "<p>Martin Hanczyc is developing novel synthetic chemical systems based on the  properties of living systems, in a quest to understand how life forms. These synthetic systems, or &quot;protocells,&quot; are model  systems of primitive living cells and chemical examples of artificial  life. As <a href=\\"http://grayanat.posterous.com/?tag=martinhanczyc\\" target=\\"_blank\\">Rachel Armstrong puts it</a>: &quot;Although the protocell model system is just a chemically modified oil droplet, its dynamics are astonishingly varied and complex.&quot; </p><p>He&#39;s based at the Institute of Physics and Chemistry and the Center for Fundamental  Living Technology (FLinT) in Denmark. He is also an Honorary Senior  Lecturer at the Bartlett School of Architecture, University College  London. </p>", "slug": "martin_hanczyc", "whotheyare": "Martin Hanczyc explores the path between living and nonliving systems, using chemical droplets to study behavior of the earliest cells.", "whatotherssay": "Martin Hanczyc of the University of Southern Denmark just spoke on his research on protocells. It was, trust me, an astonishing illumination", "id": 1100, "photo_url": "https://pe.tedcdn.com/images/ted/70d32d931c3849d25fc426efe1e4e8304e512392_254x191.jpg"}], "title": "The line between life and not-life", "take_action": null, "comments": 8142, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/0ef39d000fb7255a6a9e65aff37dc28479b9b1a4_800x600.jpg", "description": "In his lab, Martin Hanczyc makes \\"protocells,\\" experimental blobs of chemicals that behave like living cells. His work demonstrates how life might have first occurred on Earth ... and perhaps elsewhere too.", "tags": ["AI", "biology", "chemistry", "ecology", "evolution", "human origins", "innovation", "life", "molecular biology", "nanoscale", "science"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MartinHanczyc_2011S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MartinHanczyc_2011S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MartinHanczyc_2011S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1264, "audioDownload": "https://download.ted.com/talks/MartinHanczyc_2011S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 695302, "hero": "https://pe.tedcdn.com/images/ted/6da638a3d94475b933f0c6395f0c0723d21f5eb2_2880x1620.jpg", "title": "Making matter come alive", "id": 1218, "speaker": "Lee Cronin", "duration": 911, "slug": "lee_cronin_making_matter_come_alive"}, {"viewed_count": 599580, "hero": "https://pe.tedcdn.com/images/ted/baf8d230f2388c3774d20b54083667f8aa605692_800x600.jpg", "title": "Finding life we can\'t imagine", "id": 1237, "speaker": "Christoph Adami", "duration": 1131, "slug": "christophe_adami_finding_life_we_can_t_imagine"}, {"viewed_count": 899699, "hero": "https://pe.tedcdn.com/images/ted/496_480x360.jpg", "title": "Let\'s look for life in the outer solar system", "id": 306, "speaker": "Freeman Dyson", "duration": 1151, "slug": "freeman_dyson_says_let_s_look_for_life_in_the_outer_solar_system"}, {"viewed_count": 1104452, "hero": "https://pe.tedcdn.com/images/ted/126194_800x600.jpg", "title": "Architecture that repairs itself?", "id": 667, "speaker": "Rachel Armstrong", "duration": 452, "slug": "rachel_armstrong_architecture_that_repairs_itself"}, {"viewed_count": 584255, "hero": "https://pe.tedcdn.com/images/ted/cf3f802cc34ca2755770767864d9358cd7139f3a_800x600.jpg", "title": "Back to the future (of 1994)", "id": 1346, "speaker": "Danny Hillis", "duration": 1150, "slug": "danny_hillis_back_to_the_future_of_1994"}, {"viewed_count": 865385, "hero": "https://pe.tedcdn.com/images/ted/506afea303c6c3f92efdfeae0daa3749a32c1c43_800x600.jpg", "title": "Using nature to grow batteries", "id": 1133, "speaker": "Angela Belcher", "duration": 625, "slug": "angela_belcher_using_nature_to_grow_batteries"}], "recorded_at": "2011-05-18T00:00:00.000+00:00", "slug": "martin_hanczyc_the_line_between_life_and_not_life", "speaker_name": "Martin Hanczyc", "viewed_count": 724635, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDSalon London Spring 2011", "name": "Martin Hanczyc: The line between life and not-life"}'
+p460
+sS'keywords'
+p461
+(lp462
+VAI
+p463
+aVbiology
+p464
+aVchemistry
+p465
+aVecology
+p466
+aVevolution
+p467
+aVhuman origins
+p468
+aVinnovation
+p469
+aVlife
+p470
+aVmolecular biology
+p471
+aVnanoscale
+p472
+aVscience
+p473
+asS'datecrawled'
+p474
+g455
+(S'\x07\xe1\n\x17\x03%\x10\x01\xa8\xe0'
+tRp475
+sS'id'
+p476
+I1264
+ss.

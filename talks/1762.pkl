@@ -1,0 +1,478 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWell, Arthur C. Clarke,
+p5
+aVa famous science fiction writer from the 1950s,
+p6
+aVsaid that, "We overestimate technology in the short term,
+p7
+aVand we underestimate it in the long term."
+p8
+aVAnd I think that's some of the fear that we see
+p9
+aVabout jobs disappearing from artificial intelligence and robots.
+p10
+aVThat we're overestimating the technology in the short term.
+p11
+aVBut I am worried whether we're going to get the technology we need in the long term.
+p12
+aVBecause the demographics are really going to leave us with lots of jobs that need doing
+p13
+aVand that we, our society, is going to have to be built on the shoulders of steel of robots in the future.
+p14
+aVSo I'm scared we won't have enough robots.
+p15
+aVBut fear of losing jobs to technology has been around for a long time.
+p16
+aVBack in 1957, there was a Spencer Tracy, Katharine Hepburn movie.
+p17
+aVSo you know how it ended up,
+p18
+aVSpencer Tracy brought a computer, a mainframe computer of 1957, in
+p19
+aVto help the librarians.
+p20
+aVThe librarians in the company would do things like answer for the executives,
+p21
+aV"What are the names of Santa's reindeer?"
+p22
+aVAnd they would look that up.
+p23
+aVAnd this mainframe computer was going to help them with that job.
+p24
+aVWell of course a mainframe computer in 1957 wasn't much use for that job.
+p25
+aVThe librarians were afraid their jobs were going to disappear.
+p26
+aVBut that's not what happened in fact.
+p27
+aVThe number of jobs for librarians increased for a long time after 1957.
+p28
+aVIt wasn't until the Internet came into play,
+p29
+aVthe web came into play and search engines came into play
+p30
+aVthat the need for librarians went down.
+p31
+aVAnd I think everyone from 1957 totally underestimated
+p32
+aVthe level of technology we would all carry around in our hands and in our pockets today.
+p33
+aVAnd we can just ask: "What are the names of Santa's reindeer?" and be told instantly \u2014
+p34
+aVor anything else we want to ask.
+p35
+aVBy the way, the wages for librarians went up faster
+p36
+aVthan the wages for other jobs in the U.S. over that same time period,
+p37
+aVbecause librarians became partners of computers.
+p38
+aVComputers became tools, and they got more tools that they could use
+p39
+aVand become more effective during that time.
+p40
+aVSame thing happened in offices.
+p41
+aVBack in the old days, people used spreadsheets.
+p42
+aVSpreadsheets were spread sheets of paper,
+p43
+aVand they calculated by hand.
+p44
+aVBut here was an interesting thing that came along.
+p45
+aVWith the revolution around 1980 of P.C.'s,
+p46
+aVthe spreadsheet programs were tuned for office workers,
+p47
+aVnot to replace office workers,
+p48
+aVbut it respected office workers as being capable of being programmers.
+p49
+aVSo office workers became programmers of spreadsheets.
+p50
+aVIt increased their capabilities.
+p51
+aVThey no longer had to do the mundane computations,
+p52
+aVbut they could do something much more.
+p53
+aVNow today, we're starting to see robots in our lives.
+p54
+aVOn the left there is the PackBot from iRobot.
+p55
+aVWhen soldiers came across roadside bombs in Iraq and Afghanistan,
+p56
+aVinstead of putting on a bomb suit and going out and poking with a stick,
+p57
+aVas they used to do up until about 2002,
+p58
+aVthey now send the robot out.
+p59
+aVSo the robot takes over the dangerous jobs.
+p60
+aVOn the right are some TUGs from a company called Aethon in Pittsburgh.
+p61
+aVThese are in hundreds of hospitals across the U.S.
+p62
+aVAnd they take the dirty sheets down to the laundry.
+p63
+aVThey take the dirty dishes back to the kitchen.
+p64
+aVThey bring the medicines up from the pharmacy.
+p65
+aVAnd it frees up the nurses and the nurse's aides
+p66
+aVfrom doing that mundane work of just mechanically pushing stuff around
+p67
+aVto spend more time with patients.
+p68
+aVIn fact, robots have become sort of ubiquitous in our lives in many ways.
+p69
+aVBut I think when it comes to factory robots, people are sort of afraid,
+p70
+aVbecause factory robots are dangerous to be around.
+p71
+aVIn order to program them, you have to understand six-dimensional vectors and quaternions.
+p72
+aVAnd ordinary people can't interact with them.
+p73
+aVAnd I think it's the sort of technology that's gone wrong.
+p74
+aVIt's displaced the worker from the technology.
+p75
+aVAnd I think we really have to look at technologies
+p76
+aVthat ordinary workers can interact with.
+p77
+aVAnd so I want to tell you today about Baxter, which we've been talking about.
+p78
+aVAnd Baxter, I see, as a way \u2014 a first wave of robot
+p79
+aVthat ordinary people can interact with in an industrial setting.
+p80
+aVSo Baxter is up here.
+p81
+aVThis is Chris Harbert from Rethink Robotics.
+p82
+aVWe've got a conveyor there.
+p83
+aVAnd if the lighting isn't too extreme \u2014
+p84
+aVAh, ah! There it is. It's picked up the object off the conveyor.
+p85
+aVIt's going to come bring it over here and put it down.
+p86
+aVAnd then it'll go back, reach for another object.
+p87
+aVThe interesting thing is Baxter has some basic common sense.
+p88
+aVBy the way, what's going on with the eyes?
+p89
+aVThe eyes are on the screen there.
+p90
+aVThe eyes look ahead where the robot's going to move.
+p91
+aVSo a person that's interacting with the robot
+p92
+aVunderstands where it's going to reach and isn't surprised by its motions.
+p93
+aVHere Chris took the object out of its hand,
+p94
+aVand Baxter didn't go and try to put it down;
+p95
+aVit went back and realized it had to get another one.
+p96
+aVIt's got a little bit of basic common sense, goes and picks the objects.
+p97
+aVAnd Baxter's safe to interact with.
+p98
+aVYou wouldn't want to do this with a current industrial robot.
+p99
+aVBut with Baxter it doesn't hurt.
+p100
+aVIt feels the force, understands that Chris is there
+p101
+aVand doesn't push through him and hurt him.
+p102
+aVBut I think the most interesting thing about Baxter is the user interface.
+p103
+aVAnd so Chris is going to come and grab the other arm now.
+p104
+aVAnd when he grabs an arm, it goes into zero-force gravity-compensated mode
+p105
+aVand graphics come up on the screen.
+p106
+aVYou can see some icons on the left of the screen there for what was about its right arm.
+p107
+aVHe's going to put something in its hand, he's going to bring it over here,
+p108
+aVpress a button and let go of that thing in the hand.
+p109
+aVAnd the robot figures out, ah, he must mean I want to put stuff down.
+p110
+aVIt puts a little icon there.
+p111
+aVHe comes over here, and he gets the fingers to grasp together,
+p112
+aVand the robot infers, ah, you want an object for me to pick up.
+p113
+aVThat puts the green icon there.
+p114
+aVHe's going to map out an area of where the robot should pick up the object from.
+p115
+aVIt just moves it around, and the robot figures out that was an area search.
+p116
+aVHe didn't have to select that from a menu.
+p117
+aVAnd now he's going to go off and train the visual appearance of that object
+p118
+aVwhile we continue talking.
+p119
+aVSo as we continue here,
+p120
+aVI want to tell you about what this is like in factories.
+p121
+aVThese robots we're shipping every day.
+p122
+aVThey go to factories around the country.
+p123
+aVThis is Mildred.
+p124
+aVMildred's a factory worker in Connecticut.
+p125
+aVShe's worked on the line for over 20 years.
+p126
+aVOne hour after she saw her first industrial robot,
+p127
+aVshe had programmed it to do some tasks in the factory.
+p128
+aVShe decided she really liked robots.
+p129
+aVAnd it was doing the simple repetitive tasks that she had had to do beforehand.
+p130
+aVNow she's got the robot doing it.
+p131
+aVWhen we first went out to talk to people in factories
+p132
+aVabout how we could get robots to interact with them better,
+p133
+aVone of the questions we asked them was,
+p134
+aV"Do you want your children to work in a factory?"
+p135
+aVThe universal answer was "No, I want a better job than that for my children."
+p136
+aVAnd as a result of that, Mildred is very typical
+p137
+aVof today's factory workers in the U.S.
+p138
+aVThey're older, and they're getting older and older.
+p139
+aVThere aren't many young people coming into factory work.
+p140
+aVAnd as their tasks become more onerous on them,
+p141
+aVwe need to give them tools that they can collaborate with,
+p142
+aVso that they can be part of the solution,
+p143
+aVso that they can continue to work and we can continue to produce in the U.S.
+p144
+aVAnd so our vision is that Mildred who's the line worker
+p145
+aVbecomes Mildred the robot trainer.
+p146
+aVShe lifts her game,
+p147
+aVlike the office workers of the 1980s lifted their game of what they could do.
+p148
+aVWe're not giving them tools that they have to go and study for years and years in order to use.
+p149
+aVThey're tools that they can just learn how to operate in a few minutes.
+p150
+aVThere's two great forces that are both volitional but inevitable.
+p151
+aVThat's climate change and demographics.
+p152
+aVDemographics is really going to change our world.
+p153
+aVThis is the percentage of adults who are working age.
+p154
+aVAnd it's gone down slightly over the last 40 years.
+p155
+aVBut over the next 40 years, it's going to change dramatically, even in China.
+p156
+aVThe percentage of adults who are working age drops dramatically.
+p157
+aVAnd turned up the other way, the people who are retirement age goes up very, very fast,
+p158
+aVas the baby boomers get to retirement age.
+p159
+aVThat means there will be more people with fewer social security dollars
+p160
+aVcompeting for services.
+p161
+aVBut more than that, as we get older we get more frail
+p162
+aVand we can't do all the tasks we used to do.
+p163
+aVIf we look at the statistics on the ages of caregivers,
+p164
+aVbefore our eyes those caregivers are getting older and older.
+p165
+aVThat's happening statistically right now.
+p166
+aVAnd as the number of people who are older, above retirement age and getting older, as they increase,
+p167
+aVthere will be less people to take care of them.
+p168
+aVAnd I think we're really going to have to have robots to help us.
+p169
+aVAnd I don't mean robots in terms of companions.
+p170
+aVI mean robots doing the things that we normally do for ourselves
+p171
+aVbut get harder as we get older.
+p172
+aVGetting the groceries in from the car, up the stairs, into the kitchen.
+p173
+aVOr even, as we get very much older,
+p174
+aVdriving our cars to go visit people.
+p175
+aVAnd I think robotics gives people a chance to have dignity as they get older
+p176
+aVby having control of the robotic solution.
+p177
+aVSo they don't have to rely on people that are getting scarcer to help them.
+p178
+aVAnd so I really think that we're going to be spending more time
+p179
+aVwith robots like Baxter
+p180
+aVand working with robots like Baxter in our daily lives. And that we will \u2014
+p181
+aVHere, Baxter, it's good.
+p182
+aVAnd that we will all come to rely on robots over the next 40 years
+p183
+aVas part of our everyday lives.
+p184
+aVThanks very much.
+p185
+aV(Applause)
+p186
+aasS'transcript_micsec'
+p187
+(lp188
+I12000
+asS'talk_meta'
+p189
+(dp190
+S'ratings'
+p191
+(dp192
+S'beautiful'
+p193
+I25
+sS'ingenious'
+p194
+I72
+sS'inspiring'
+p195
+I60
+sS'ok'
+p196
+I54
+sS'fascinating'
+p197
+I93
+sS'funny'
+p198
+I10
+sS'total_count'
+p199
+I585
+sS'persuasive'
+p200
+I73
+sS'longwinded'
+p201
+I13
+sS'informative'
+p202
+I123
+sS'jaw-dropping'
+p203
+I11
+sS'obnoxious'
+p204
+I6
+sS'confusing'
+p205
+I15
+sS'courageous'
+p206
+I8
+sS'unconvincing'
+p207
+I22
+ssS'author'
+p208
+VRodney_Brooks;
+p209
+sS'url'
+p210
+S'https://www.ted.com/talks/rodney_brooks_why_we_will_rely_on_robots'
+p211
+sS'vidlen'
+p212
+I596
+sS'totalviews'
+p213
+I1356392
+sS'title'
+p214
+VWhy we will rely on robots
+p215
+sS'downloadlink'
+p216
+Vhttps://download.ted.com/talks/RodneyBrooks_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p217
+sS'datepublished'
+p218
+cdatetime
+datetime
+p219
+(S'\x07\xdd\x06\x1c\x0b\x01\x08\x00\x00\x00'
+tRp220
+sS'datefilmed'
+p221
+g219
+(S'\x07\xdd\x06\x1c\x0b\x01\x08\x00\x00\x00'
+tRp222
+sS'alldata_JSON'
+p223
+S'{"viewed_count": 1356392, "speakers": [{"description": "Roboticist", "firstname": "Rodney", "title": "", "lastname": "Brooks", "middleinitial": "", "whylisten": "<p>Former MIT professor Rodney Brooks studies and engineers robot intelligence, looking for the holy grail of robotics: the AGI, or artificial general intelligence. For decades, we&#39;ve been building robots to do highly specific tasks -- welding, riveting, delivering interoffice mail -- but what we all want, really, is a robot that can figure things out on its own, the way we humans do.</p><p>Brooks realized that a top-down approach -- just building the biggest brain possible and teaching it everything we could think of -- would never work. What <em>would</em> work is a robot who learns like we do, by trial and error, and with many separate parts that learn separate jobs. The thesis of his work which was captured in&nbsp;<em><a href=\\"http://www.sonypictures.com/classics/fastcheap/\\" target=\\"_blank\\">Fast, Cheap and Out of Control</a>,</em>went on to become the title of the great Errol Morris documentary.</p><p>A founder of <a href=\\"http://www.irobot.com/\\" target=\\"_blank\\">iRobot</a>, makers of the Roomba vacuum, Brooks is now founder and CTO of&nbsp;<a href=\\"http://rethinkrobotics.com\\" target=\\"_blank\\"><span>Rethink Robotics</span></a>, whose mission is to apply advanced robotic intelligence to manufacturing and physical labor. Its first robots: the versatile two-armed&nbsp;<a href=\\"http://www.youtube.com/watch?v=gXOkWuSCkRI\\" target=\\"_blank\\">Baxter</a>&nbsp;and one-armed Sawyer. Brooks is the former director of&nbsp;<a href=\\"http://www.csail.mit.edu/\\" target=\\"_blank\\">CSAIL</a>, MIT&#39;s Computers Science and Artificial Intelligence Laboratory. </p>&nbsp;", "slug": "rodney_brooks", "whotheyare": "Rodney Brooks builds robots based on biological principles of movement and reasoning. The goal: a robot who can figure things out.", "whatotherssay": "", "id": 289, "photo_url": "https://pe.tedcdn.com/images/ted/fd62c98eaae27d3d77ca415923ee01f6a4a5bd1f_254x191.jpg"}], "current_talk": 1762, "description": "Scaremongers play on the idea that robots will simply replace people on the job. In fact, they can become our essential collaborators, freeing us up to spend time on less mundane and mechanical challenges. Rodney Brooks points out how valuable this could be as the number of working-age adults drops and the number of retirees swells. He introduces us to Baxter, the robot with eyes that move and arms that react to touch, which could work alongside an aging population -- and learn to help them at home, too.", "language": "en", "url": "https://www.ted.com/talks/rodney_brooks_why_we_will_rely_on_robots", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69176258}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13772269}, "podcast-high": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69329329}, "180k": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13520517}, "64k": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4890897}, "1500k": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 107710807}, "450k": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33814514}, "podcast-regular": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33929742}, "950k": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69319519}, "audio-podcast": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6247491}, "podcast-light": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5024398}, "320k": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23964979}, "600k": {"uri": "https://download.ted.com/talks/RodneyBrooks_2013-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45326159}}}, "comments": {"count": 223, "id": 20597, "talk_id": 1762}, "slug": "rodney_brooks_why_we_will_rely_on_robots", "threadId": 20597, "talks": [{"event": "TED2013", "player_talks": [{"event": "TED2013", "slug": "rodney_brooks_why_we_will_rely_on_robots", "filmed": 1361836800, "targeting": {"event": "TED2013", "tag": "robots,work", "id": 1762, "talk": "rodney_brooks_why_we_will_rely_on_robots", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "Why we will rely on robots", "postAdDuration": "0.83", "published": 1372431668, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/c9928d59974a7d5b8f8889794634cbded07ff266_1600x1200.jpg?quality=89&w=600", "name": "Rodney Brooks: Why we will rely on robots", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["robots", "work"], "speaker": "Rodney Brooks", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 596, "id": 1762, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RodneyBrooks_2013-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2013", "tag": "robots,work", "id": 1762, "talk": "rodney_brooks_why_we_will_rely_on_robots", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1762.json", "stream": "https://hls.ted.com/talks/1762.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2013%26id%3D1762%26tag%3Drobots%2Cwork%26talk%3Drodney_brooks_why_we_will_rely_on_robots%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/rodney_brooks_why_we_will_rely_on_robots"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/c9928d59974a7d5b8f8889794634cbded07ff266_1600x1200.jpg?q=50&w=15", "duration": 596, "id": 1762, "ratings": [{"count": 25, "id": 1, "name": "Beautiful"}, {"count": 72, "id": 9, "name": "Ingenious"}, {"count": 11, "id": 23, "name": "Jaw-dropping"}, {"count": 13, "id": 11, "name": "Longwinded"}, {"count": 93, "id": 22, "name": "Fascinating"}, {"count": 60, "id": 10, "name": "Inspiring"}, {"count": 73, "id": 24, "name": "Persuasive"}, {"count": 123, "id": 8, "name": "Informative"}, {"count": 22, "id": 21, "name": "Unconvincing"}, {"count": 54, "id": 25, "name": "OK"}, {"count": 10, "id": 7, "name": "Funny"}, {"count": 6, "id": 26, "name": "Obnoxious"}, {"count": 15, "id": 2, "name": "Confusing"}, {"count": 8, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Roboticist", "firstname": "Rodney", "title": "", "lastname": "Brooks", "middleinitial": "", "whylisten": "<p>Former MIT professor Rodney Brooks studies and engineers robot intelligence, looking for the holy grail of robotics: the AGI, or artificial general intelligence. For decades, we&#39;ve been building robots to do highly specific tasks -- welding, riveting, delivering interoffice mail -- but what we all want, really, is a robot that can figure things out on its own, the way we humans do.</p><p>Brooks realized that a top-down approach -- just building the biggest brain possible and teaching it everything we could think of -- would never work. What <em>would</em> work is a robot who learns like we do, by trial and error, and with many separate parts that learn separate jobs. The thesis of his work which was captured in&nbsp;<em><a href=\\"http://www.sonypictures.com/classics/fastcheap/\\" target=\\"_blank\\">Fast, Cheap and Out of Control</a>,</em>went on to become the title of the great Errol Morris documentary.</p><p>A founder of <a href=\\"http://www.irobot.com/\\" target=\\"_blank\\">iRobot</a>, makers of the Roomba vacuum, Brooks is now founder and CTO of&nbsp;<a href=\\"http://rethinkrobotics.com\\" target=\\"_blank\\"><span>Rethink Robotics</span></a>, whose mission is to apply advanced robotic intelligence to manufacturing and physical labor. Its first robots: the versatile two-armed&nbsp;<a href=\\"http://www.youtube.com/watch?v=gXOkWuSCkRI\\" target=\\"_blank\\">Baxter</a>&nbsp;and one-armed Sawyer. Brooks is the former director of&nbsp;<a href=\\"http://www.csail.mit.edu/\\" target=\\"_blank\\">CSAIL</a>, MIT&#39;s Computers Science and Artificial Intelligence Laboratory. </p>&nbsp;", "slug": "rodney_brooks", "whotheyare": "Rodney Brooks builds robots based on biological principles of movement and reasoning. The goal: a robot who can figure things out.", "whatotherssay": "", "id": 289, "photo_url": "https://pe.tedcdn.com/images/ted/fd62c98eaae27d3d77ca415923ee01f6a4a5bd1f_254x191.jpg"}], "title": "Why we will rely on robots", "take_action": [], "comments": 20597, "more_resources": [{"status": "approved", "publisher": "Vintage", "start_at": null, "author": "Rodney Brooks", "headline": "*Flesh and Machines*", "link_url": "http://www.amazon.com/Flesh-Machines-Robots-Will-Change/dp/037572527X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/52f51d72c882c9b881b03668ccced8f2768d4ee2_475x736.jpg", "year": "2003", "type": "book", "blurb": null}, {"status": "approved", "start_at": null, "headline": "Rethink Robotics", "link_url": "http://www.rethinkrobotics.com/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Rodney Brooks\' company designs dynamic and adaptable low-cost bots. Find out more at rethinkrobotics.com."}], "hero": "https://pe.tedcdn.com/images/ted/c9928d59974a7d5b8f8889794634cbded07ff266_1600x1200.jpg", "description": "Scaremongers play on the idea that robots will simply replace people on the job. In fact, they can become our essential collaborators, freeing us up to spend time on less mundane and mechanical challenges. Rodney Brooks points out how valuable this could be as the number of working-age adults drops and the number of retirees swells. He introduces us to Baxter, the robot with eyes that move and arms that react to touch, which could work alongside an aging population -- and learn to help them at home, too.", "tags": ["robots", "work"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RodneyBrooks_2013-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RodneyBrooks_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RodneyBrooks_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RodneyBrooks_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1762, "audioDownload": "https://download.ted.com/talks/RodneyBrooks_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 604242, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}, {"viewed_count": 1215825, "hero": "https://pe.tedcdn.com/images/ted/17631_480x360.jpg", "title": "Building \\"self-aware\\" robots", "id": 165, "speaker": "Hod Lipson", "duration": 378, "slug": "hod_lipson_builds_self_aware_robots"}, {"viewed_count": 807653, "hero": "https://pe.tedcdn.com/images/ted/8797510dd2c00e81d277493d9ca173f6ea5de0ec_2880x1620.jpg", "title": "Robots inspired by cockroach ingenuity", "id": 280, "speaker": "Robert Full", "duration": 1222, "slug": "robert_full_on_engineering_and_evolution"}, {"viewed_count": 1623417, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}, {"viewed_count": 1068082, "hero": "https://pe.tedcdn.com/images/ted/d5d8a98861dcc5ee45ddc721bec6cf00005aafc6_2400x1800.jpg", "title": "The rise of personal robots", "id": 1070, "speaker": "Cynthia Breazeal", "duration": 844, "slug": "cynthia_breazeal_the_rise_of_personal_robots"}, {"viewed_count": 4257286, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}], "recorded_at": "2013-02-26T00:00:00.000+00:00", "slug": "rodney_brooks_why_we_will_rely_on_robots", "speaker_name": "Rodney Brooks", "viewed_count": 1356392, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2013", "name": "Rodney Brooks: Why we will rely on robots"}'
+p224
+sS'keywords'
+p225
+(lp226
+Vrobots
+p227
+aVwork
+p228
+asS'datecrawled'
+p229
+g219
+(S'\x07\xe1\n\x17\x01:6\x00\x82\x05'
+tRp230
+sS'id'
+p231
+I1762
+ss.

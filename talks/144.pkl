@@ -1,0 +1,942 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo I really consider myself a storyteller.
+p5
+aVBut I don't really tell stories in the usual way,
+p6
+aVin the sense that I don't usually tell my own stories.
+p7
+aVInstead, I'm really interested in building tools that allow
+p8
+aVlarge numbers of other people to tell their stories,
+p9
+aVpeople all around the world.
+p10
+aVI do this because I think that people actually have a lot in common.
+p11
+aVI think people are very similar,
+p12
+aVbut I also think that we have trouble seeing that.
+p13
+aa(lp14
+VYou know, as I look around the world I see a lot of gaps,
+p15
+aVand I think we all see a lot of gaps.
+p16
+aVAnd we define ourselves by our gaps.
+p17
+aVThere's language gaps,
+p18
+aVthere's ethnicity and racial gaps, there's age gaps,
+p19
+aVthere's gender gaps, there's sexuality gaps,
+p20
+aVthere's wealth and money gaps, there's education gaps,
+p21
+aVthere's also religious gaps.
+p22
+aVYou know, we have all these gaps and I think we like our gaps
+p23
+aVbecause they make us feel like we identify with something,
+p24
+aVsome smaller community.
+p25
+aVBut I think that actually, despite our gaps,
+p26
+aVwe really have a lot in common.
+p27
+aVAnd I think one thing we have in common is a very deep need
+p28
+aVto express ourselves.
+p29
+aVI think this is a very old human desire. It's nothing new.
+p30
+aa(lp31
+VBut the thing about self-expression
+p32
+aVis that there's traditionally been this imbalance
+p33
+aVbetween the desire that we have to express ourselves
+p34
+aVand the number of sympathetic friends
+p35
+aVwho are willing to stand around and listen.
+p36
+aa(lp37
+V(Laughter)
+p38
+aa(lp39
+VThis, also, is nothing new.
+p40
+aVSince the dawn of human history, we've tried to rectify this imbalance
+p41
+aVby making art, writing poems, singing songs,
+p42
+aVscripting editorials and sending them in to a newspaper,
+p43
+aVgossiping with friends. This is nothing new.
+p44
+aa(lp45
+VWhat's new is that in the last several years
+p46
+aVa lot of these very traditional physical human activities,
+p47
+aVthese acts of self-expression, have been moving onto the Internet.
+p48
+aVAnd as that's happened, people have been leaving behind footprints,
+p49
+aVfootprints that tell stories of their moments of self-expression.
+p50
+aVAnd so what I do is, I write computer programs
+p51
+aVthat study very large sets of these footprints,
+p52
+aVand then try to draw conclusions about the people who left them \u2014
+p53
+aVwhat they feel, what they think,
+p54
+aVwhat's different in the world today than usual,
+p55
+aVthese sorts of questions.
+p56
+aa(lp57
+VOne project that explores these ideas,
+p58
+aVwhich was made about a year ago,
+p59
+aVis a piece called We Feel Fine.
+p60
+aVThis is a piece that every two or three minutes
+p61
+aVscans the world's newly-posted blog entries
+p62
+aVfor occurrences of the phrases "I feel" or "I am feeling."
+p63
+aVAnd when it finds one of those phrases,
+p64
+aVit grabs the sentence up to the period,
+p65
+aVand then automatically tries to deduce the age, gender
+p66
+aVand geographical location of the person that wrote that sentence.
+p67
+aVThen, knowing the geographical location and the time,
+p68
+aVwe can also then figure out the weather
+p69
+aVwhen that person wrote the sentence.
+p70
+aVAll of this information is saved in a database
+p71
+aVthat collects about 20,000 feelings a day.
+p72
+aVIt's been running for about a year and a half.
+p73
+aVIt's reached about seven-and-a-half million human feelings now.
+p74
+aVAnd I'll show you a glimpse
+p75
+aVof how this information is then visualized. So this is We Feel Fine.
+p76
+aa(lp77
+VWhat you see here is a madly swarming mass of particles,
+p78
+aVeach of which represents a single human feeling
+p79
+aVthat was stated in the last few hours.
+p80
+aVThe color of each particle corresponds to the type of feeling inside \u2014
+p81
+aVso that happy, positive feelings are brightly colored.
+p82
+aVAnd sad, negative feelings are darkly colored.
+p83
+aVThe diameter of each dot
+p84
+aVrepresents the length of the sentence inside,
+p85
+aVso that the large dots contain large sentences,
+p86
+aVand the small dots contain small sentences.
+p87
+aVAny dot can be clicked and expanded. And we see here,
+p88
+aV"I would just feel so much better
+p89
+aVif I could curl up in his arms right now and feel his affection for me
+p90
+aVin the embrace of his body and the tenderness of his lips."
+p91
+aVSo it gets pretty hot and steamy sometimes
+p92
+aVin the world of human emotions.
+p93
+aVAnd all of these are stated by people:
+p94
+aV"I know that objectively it really doesn't mean much,
+p95
+aVbut after spending so many years as a small fish in a big pond,
+p96
+aVit's nice to feel bigger again."
+p97
+aa(lp98
+VThe dots exhibit human qualities. They kind of have their own physics,
+p99
+aVand they swarm wildly around, kind of exploring the world of life.
+p100
+aVAnd then they also exhibit curiosity.
+p101
+aVYou can see a few of them are swarming around the cursor right now.
+p102
+aVYou can see some other ones
+p103
+aVare swarming around the bottom left corner of the screen
+p104
+aVaround six words. Those six words represent the six movements
+p105
+aVof We Feel Fine. We're currently seeing Madness.
+p106
+aVThere's also Murmurs, Montage, Mobs, Metrics and Mounds.
+p107
+aVAnd I'll walk you through a few of those now.
+p108
+aVMurmurs causes all of the feelings to fly to the ceiling.
+p109
+aVAnd then, one by one, in reverse chronological order,
+p110
+aVthey excuse themselves, entering the scrolling list of feelings.
+p111
+aV"I feel a bit better now."
+p112
+aa(lp113
+V(Laughter)
+p114
+aa(lp115
+V"I feel confused and unsure of what the hell I want to do."
+p116
+aV"I feel gypped out of something awesome here."
+p117
+aV"I feel so free; I feel so good."
+p118
+aV"I feel like I'm in this fog of depression that I can't get out of."
+p119
+aVAnd you can click any of these to go out and visit the blog
+p120
+aVfrom which it was collected. And in that way,
+p121
+aVyou can connect with the authors of these statements
+p122
+aVif you feel some degree of empathy.
+p123
+aa(lp124
+VThe next movement is called Montage.
+p125
+aVMontage causes all of the feelings that contain photographs
+p126
+aVto become extracted and display themselves in a grid.
+p127
+aVThis grid is then said to represent the picture of the world's feelings
+p128
+aVin the last few hours, if you will.
+p129
+aVEach of these can be clicked and we can blow it up.
+p130
+aVWe see, "I just feel like I'm not going to have fun
+p131
+aVif it's not the both of us." That was from someone in Michigan.
+p132
+aVWe see, "I feel like I have been at a computer all day."
+p133
+aa(lp134
+V(Laughter)
+p135
+aa(lp136
+VThese are automatically constructed using the found objects:
+p137
+aV"I think I feel a little full."
+p138
+aa(lp139
+VThe next movement is called mobs.
+p140
+aVMobs provides different statistical breakdowns
+p141
+aVof the population of the world's feelings in the last few hours.
+p142
+aVWe see that "better" is the most frequent feeling right now,
+p143
+aVfollowed by "good," "bad," "guilty," "right," "down," "sick" and so on.
+p144
+aVWe can also get a gender breakdown.
+p145
+aVAnd we see that women are slightly more prolific
+p146
+aVtalking about their emotions in the last few hours than men.
+p147
+aVWe can do an age breakdown, which gives us a histogram
+p148
+aVof the world's emotional distribution by age.
+p149
+aVWe see people in their twenties are the most prolific,
+p150
+aVfollowed by teenagers, and then people in their thirties,
+p151
+aVand it dies out very quickly from there.
+p152
+aVIn weather, the feelings assume the physical characteristics
+p153
+aVof the weather that they represent,
+p154
+aVso that the ones collected on a sunny day
+p155
+aVswirl around as if they're part of the sun.
+p156
+aVThe cloudy ones float along as if they're on a breeze.
+p157
+aVThe rainy ones fall down as if they're in a rainstorm,
+p158
+aVand the snowy ones kind of flutter to the ground.
+p159
+aa(lp160
+VFinally, location causes the feelings to move to their positions
+p161
+aVon a world map showing the geographical distribution of feelings.
+p162
+aVMetrics provides more numerical views on the data.
+p163
+aVWe see that the world is feeling "used"
+p164
+aVat 3.3 times the normal level right now.
+p165
+aa(lp166
+V(Laughter)
+p167
+aa(lp168
+VThey're feeling "warm" at 2.9 times the normal level, and so on.
+p169
+aVOther views are also available.
+p170
+aVHere are gender, age, weather, location.
+p171
+aa(lp172
+VThe final movement is called Mounds.
+p173
+aVIt's a bit different from the others.
+p174
+aVMounds visualizes the entire dataset as large, gelatinous blobs
+p175
+aVwhich kind of jiggle.
+p176
+aVAnd if I hold down my cursor, they do a little dance.
+p177
+aVWe see "better" is the most frequent feeling, followed by "bad."
+p178
+aVAnd then if I go over here, the list begins to scroll,
+p179
+aVand there are actually thousands of feelings that have been collected.
+p180
+aVYou can see the little pink cursor moving along,
+p181
+aVrepresenting our position.
+p182
+aVHere we see people that feel "slipping," "nauseous," "responsible."
+p183
+aa(lp184
+VThere's also a search capability,
+p185
+aVif you're interested in finding out about a certain population.
+p186
+aVFor instance, you could find women who feel "addicted"
+p187
+aVin their 20s when it was cloudy in Bangladesh.
+p188
+aa(lp189
+V(Laughter)
+p190
+aa(lp191
+VBut I'll spare you that.
+p192
+aVSo here are some of my favorite montages that have been collected:
+p193
+aV"I feel so much of my dad alive in me that there isn't even room for me."
+p194
+aV"I feel very lonely."
+p195
+aV"I need to be in some backwoods redneck town
+p196
+aVso that I can feel beautiful."
+p197
+aV"I feel invisible to you."
+p198
+aV"I wouldn't hide it if society didn't make me feel like I needed to."
+p199
+aV"I feel in love with Carolyn." "I feel so naughty."
+p200
+aV"I feel these weirdoes are actually an asset to college life."
+p201
+aa(lp202
+V(Laughter)
+p203
+aa(lp204
+V"I love how I feel today."
+p205
+aa(lp206
+VSo as you can see, We Feel Fine uses a technique
+p207
+aVthat I call "passive observation."
+p208
+aVWhat I mean by that is that it passively observes people
+p209
+aVas they live their lives. It scans the world's blogs
+p210
+aVand looks at what people are writing,
+p211
+aVand these people don't know they're being watched or interviewed.
+p212
+aVAnd because of that,
+p213
+aVyou end up getting very honest, candid, sincere responses
+p214
+aVthat are often very moving.
+p215
+aVAnd this is a technique that I usually prefer in my work
+p216
+aVbecause people don't know they're being interviewed.
+p217
+aVThey're just living life, and they end up just acting like that.
+p218
+aa(lp219
+VAnother technique is directly questioning people.
+p220
+aVAnd this is a technique that I explored in a different project,
+p221
+aVthe Yahoo! Time Capsule,
+p222
+aVwhich was designed to take a fingerprint of the world in 2006.
+p223
+aVIt was divided into ten very simple themes \u2014
+p224
+aVlove, anger, sadness and so on \u2014
+p225
+aVeach of which contained a single, very open-ended question
+p226
+aVput to the world: What do you love? What makes you angry?
+p227
+aVWhat makes you sad? What do you believe in? And so on.
+p228
+aVThe time capsule was available for one month online,
+p229
+aVtranslated into 10 languages, and this is what it looked like.
+p230
+aVIt's a spinning globe,
+p231
+aVthe surface of which is entirely composed of the pictures
+p232
+aVand words and drawings of people
+p233
+aVthat submitted to the time capsule.
+p234
+aVThe ten themes radiate out and orbit the time capsule.
+p235
+aVYou can sift through this data and see what people have submitted.
+p236
+aVThis is in response to, What's beautiful? "Miss World."
+p237
+aa(lp238
+VThere are two modes to the time capsule.
+p239
+aVThere's One World, which presents the spinning globe,
+p240
+aVand Many Voices, which splits the data out into film strips
+p241
+aVand lets you sift through them one by one.
+p242
+aVSo this project was punctuated by a really amazing event,
+p243
+aVwhich was held in the desert outside Albuquerque in New Mexico
+p244
+aVat the Jemez Pueblo, where for three consecutive nights,
+p245
+aVthe contents of the capsule were projected onto the sides
+p246
+aVof the ancient Red Rock Canyon walls,
+p247
+aVwhich stand about 200 feet tall. It was really incredible.
+p248
+aVAnd we also projected the contents of the time capsule
+p249
+aVas binary code using a 35-watt laser into outer space.
+p250
+aVYou can see the orange line leaving the desert floor
+p251
+aVat about a 45 degree angle there. This was amazing
+p252
+aVbecause the first night I looked at all this information
+p253
+aVand really started seeing the gaps that I talked about earlier \u2014
+p254
+aVthe differences in age, gender and wealth and so on.
+p255
+aa(lp256
+VBut, you know, as I looked at this more and more and more,
+p257
+aVand saw these images go across the rocks,
+p258
+aVI realized I was seeing the same archetypal events
+p259
+aVdepicted again and again and again.
+p260
+aVYou know: weddings, births, funerals, the first car, the first kiss,
+p261
+aVthe first camel or horse \u2014 depending on the culture.
+p262
+aVAnd it was really moving. And this picture here was taken
+p263
+aVthe final night from a distant cliff about two miles away,
+p264
+aVwhere the contents of the capsule were being beamed into space.
+p265
+aVAnd there was something very moving
+p266
+aVabout all of this human expression being shot off into the night sky.
+p267
+aa(lp268
+VAnd it started to make me think a lot about the night sky,
+p269
+aVand how humans have always used the night sky
+p270
+aVto project their great stories.
+p271
+aVYou know, as a child in Vermont, on a farm where I grew up,
+p272
+aVI would often look up into the dark sky
+p273
+aVand see the three star belt of Orion, the Hunter.
+p274
+aVAnd as an adult, I've been more aware
+p275
+aVof the great Greek myths playing out in the sky overhead every night.
+p276
+aVYou know, Orion facing the roaring bull.
+p277
+aVPerseus flying to the rescue of Andromeda.
+p278
+aVZeus battling Chronos for control of Mount Olympus.
+p279
+aVI mean, these are the great tales of the Greeks.
+p280
+aa(lp281
+VAnd it caused me to wonder about our world today.
+p282
+aVAnd it caused me to wonder specifically,
+p283
+aVif we could make new constellations today,
+p284
+aVwhat would those look like? What would those be?
+p285
+aVIf we could make new pictures in the sky, what would we draw?
+p286
+aVWhat are the great stories of today?
+p287
+aa(lp288
+VAnd those are the questions that inspired my new project,
+p289
+aVwhich is debuting here today at TED.
+p290
+aVNobody's seen this yet, publicly.
+p291
+aVIt's called Universe: Revealing Our Modern Mythology.
+p292
+aVAnd it uses this metaphor of an interactive night sky.
+p293
+aVSo, it's my great pleasure now to show this to you.
+p294
+aa(lp295
+VSo, Universe will open here.
+p296
+aVAnd you'll see that it leads with a shifting star field,
+p297
+aVand there's an Aurora Borealis in the background,
+p298
+aVkind of morphing with color. The color of the Aurora Borealis
+p299
+aVcan be controlled using this single bar of color at the bottom,
+p300
+aVand we'll put it down here to red.
+p301
+aVSo you see this kind of \u2014 these stars moving along.
+p302
+aa(lp303
+VNow, these aren't just little points of light, little pixels.
+p304
+aVEach of those stars actually represents
+p305
+aVa specific event in the real world \u2014
+p306
+aVa quote that was stated by somebody, an image,
+p307
+aVa news story, a person, a company. You know,
+p308
+aVsome kind of heroic personality.
+p309
+aVAnd you might notice that as the cursor begins
+p310
+aVto touch some of these stars, that shapes begin to emerge.
+p311
+aVWe see here there's a little man walking along, or maybe a woman.
+p312
+aVAnd we see here a photograph with a head.
+p313
+aVYou can start to see words emerging here.
+p314
+aVAnd those are
+p315
+aVthe constellations of today.
+p316
+aVAnd I can turn them all on,
+p317
+aVand you can see them moving across the sky now.
+p318
+aa(lp319
+VThis is the universe of 2007, the last two months.
+p320
+aVThe data from this is global news coverage
+p321
+aVfrom thousands of news sources around the world.
+p322
+aVIt's using the API of a really great company that I work with
+p323
+aVin New York, actually, called Daylife.
+p324
+aVAnd it's kind of the zeitgeist view at this level
+p325
+aVof the world's current mythology over the last couple of months.
+p326
+aa(lp327
+VSo we can see where it's emerging here, like President Ford,
+p328
+aVIraq, Bush. And we can actually isolate just the words \u2014
+p329
+aVI call them secrets \u2014 and we can cause them to form
+p330
+aVan alphabetical list. And we see Anna Nicole Smith
+p331
+aVplaying a big role recently.
+p332
+aVPresident Ford \u2014 this is Gerald Ford's funeral.
+p333
+aVWe can actually click anything in Universe
+p334
+aVand have it become the center of the universe,
+p335
+aVand everything else will enter its orbit.
+p336
+aVSo, we'll click Ford, and now that becomes the center.
+p337
+aVAnd the things that relate to Ford enter its orbit
+p338
+aVand swirl around it.
+p339
+aa(lp340
+VWe can isolate just the photographs, and we now see those.
+p341
+aVWe can click on one of those
+p342
+aVand have the photograph be the center of the universe.
+p343
+aVNow the things that relate to it are swirling around.
+p344
+aVWe can click on this and we see this iconic image
+p345
+aVof Betty Ford kissing her husband's coffin.
+p346
+aa(lp347
+VIn Universe, there's kind of no end. It just goes infinitely,
+p348
+aVand you can just kind of click on stuff.
+p349
+aVThis is a photographic representation, called Snapshots.
+p350
+aVBut we can actually be more specific in defining our universe.
+p351
+aVSo, if we want to,
+p352
+aVlet's check out what Bill Clinton's universe looks like.
+p353
+aVAnd let's see, in the past week, what he's been up to.
+p354
+aVSo now, we have a new universe, which is just constrained
+p355
+aVto all things Bill Clinton.
+p356
+aVWe can have his constellations emerge here.
+p357
+aVWe can pull out his secrets,
+p358
+aVand we see that it has a lot to do with candidates,
+p359
+aVHillary, presidential, Barack Obama.
+p360
+aVWe can see the stories
+p361
+aVthat Bill Clinton is taking part in right now.
+p362
+aVAny of those can be opened up.
+p363
+aVSo we see Obama and the Clintons meet in Alabama.
+p364
+aVYou can see that this is an important story;
+p365
+aVthere are a lot of things in its orbit. If we open this up,
+p366
+aVwe get different perspectives on this story.
+p367
+aVYou can click any of those to go out and read the article
+p368
+aVat the source. This one's from Al Jazeera.
+p369
+aa(lp370
+VWe can also see the superstars. These would be the people
+p371
+aVthat are kind of the looming heroes and heroines
+p372
+aVin the universe of Bill Clinton. So there's Bill Clinton, Hillary,
+p373
+aVIraq, George Bush, Barack Obama, Scooter Libby \u2014
+p374
+aVthese are kind of the people of Bill Clinton.
+p375
+aVWe can also see a world map, so this shows us the geographic reach
+p376
+aVof Bill Clinton in the last week or so.
+p377
+aVWe can see he's been focused in America
+p378
+aVbecause he's been campaigning, probably,
+p379
+aVbut a little bit of action over here in the Middle East.
+p380
+aVAnd then we can also see a timeline.
+p381
+aVSo we see that he was a bit quiet on Saturday,
+p382
+aVbut he was back to work on Sunday morning,
+p383
+aVand actually been tapering off since then this week.
+p384
+aa(lp385
+VAnd it's not limited to just people or dates,
+p386
+aVbut we can actually put in concepts also.
+p387
+aVSo if I put in climate change for all of 2006,
+p388
+aVwe'll see what that universe looks like.
+p389
+aVHere we have our star field. Here we have our shapes.
+p390
+aVHere we have our secrets.
+p391
+aVSo we see again, climate change is large:
+p392
+aVNairobi, global conference, environmental.
+p393
+aVAnd there are also quotes that you can see,
+p394
+aVif you're interested in reading about quotes on climate change.
+p395
+aVYou know, this is really an infinite thing.
+p396
+aa(lp397
+VThe superstars of climate change in 2006:
+p398
+aVUnited States, Britain, China. You know,
+p399
+aVthese are the towering countries that kind of define this concept.
+p400
+aVSo this is a piece that demands exploration.
+p401
+aa(lp402
+VThis will be online in several days, probably next Tuesday.
+p403
+aVAnd you'll all be able to use it and kind of explore
+p404
+aVwhat your own personal mythology might be.
+p405
+aVYou'll notice that in Daylife \u2014 rather, in Universe \u2014
+p406
+aVit supports both the notion of a global mythology,
+p407
+aVwhich is represented by something as broad as, say, 2007,
+p408
+aVand also a personal mythology.
+p409
+aVAs you search for the things that are important to you in your world,
+p410
+aVand then see what the constellations of those might look like.
+p411
+aa(lp412
+VSo it's been a pleasure. Thank you very much.
+p413
+aa(lp414
+V(Applause)
+p415
+aasS'transcript_micsec'
+p416
+(lp417
+I11000
+aI40000
+aI88000
+aI98000
+aI100000
+aI114000
+aI147000
+aI193000
+aI243000
+aI283000
+aI286000
+aI306000
+aI336000
+aI339000
+aI346000
+aI395000
+aI409000
+aI412000
+aI419000
+aI447000
+aI457000
+aI461000
+aI501000
+aI505000
+aI508000
+aI536000
+aI580000
+aI630000
+aI661000
+aI690000
+aI704000
+aI722000
+aI742000
+aI784000
+aI804000
+aI836000
+aI852000
+aI914000
+aI952000
+aI979000
+aI990000
+aI1019000
+aI1022000
+asS'talk_meta'
+p418
+(dp419
+S'ratings'
+p420
+(dp421
+S'ingenious'
+p422
+I558
+sS'beautiful'
+p423
+I361
+sS'inspiring'
+p424
+I417
+sS'ok'
+p425
+I135
+sS'fascinating'
+p426
+I643
+sS'funny'
+p427
+I50
+sS'total_count'
+p428
+I3937
+sS'persuasive'
+p429
+I28
+sS'longwinded'
+p430
+I125
+sS'unconvincing'
+p431
+I98
+sS'informative'
+p432
+I232
+sS'jaw-dropping'
+p433
+I1157
+sS'obnoxious'
+p434
+I48
+sS'courageous'
+p435
+I31
+sS'confusing'
+p436
+I54
+ssS'author'
+p437
+VJonathan_Harris;
+p438
+sS'url'
+p439
+S'https://www.ted.com/talks/jonathan_harris_tells_the_web_s_secret_stories'
+p440
+sS'vidlen'
+p441
+I1030
+sS'totalviews'
+p442
+I1054565
+sS'title'
+p443
+VThe Web's secret stories
+p444
+sS'downloadlink'
+p445
+Vhttps://download.ted.com/talks/JonathanHarris_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p446
+sS'datepublished'
+p447
+cdatetime
+datetime
+p448
+(S'\x07\xd7\x07\x08\x10\x0e\x00\x00\x00\x00'
+tRp449
+sS'datefilmed'
+p450
+g448
+(S'\x07\xd7\x07\x08\x10\x0e\x00\x00\x00\x00'
+tRp451
+sS'alldata_JSON'
+p452
+S'{"viewed_count": 1054565, "speakers": [{"description": "Artist, storyteller, Internet anthropologist", "firstname": "Jonathan", "title": "", "lastname": "Harris", "middleinitial": "", "whylisten": "<p>Brooklyn-based artist <a href=\\"http://www.number27.org/\\" target=\\"_blank\\">Jonathan Harris</a>&#39; work celebrates the world&#39;s diversity even as it illustrates the universal concerns of its occupants. His computer programs <strong>scour the Internet for unfiltered content</strong>, which his beautiful interfaces then organize to create coherence from the chaos. <br /><br />His projects are both intensely personal (the &quot;<a href=\\"http://www.wefeelfine.org/\\" target=\\"_blank\\">We Feel Fine</a>&quot; project, made with <a href=\\"http://www.stanford.edu/~sdkamvar/\\" target=\\"_blank\\">Sep Kanvar</a>, which scans the world&#39;s blogs to collect snapshots of the writers&#39; feelings) and entirely global (the new &quot;<a href=\\"http://universe.daylife.com/\\" target=\\"_blank\\">Universe</a>,&quot; which turns current events into <strong>constellations of words</strong>). But their effect is the same -- to show off <strong>a world that resonates with shared emotions, concerns, problems, triumphs and troubles</strong>. </p>", "slug": "jonathan_harris", "whotheyare": "Artist and computer scientist Jonathan Harris makes online art that captures the world\'s expression -- and gives us a glimpse of the soul of the Internet.", "whatotherssay": "Jonathan Harris [is] a New York artist and storyteller working primarily on the Internet. His work involves the exploration and understanding of humans, on a global scale, through the artifacts they leave behind on the Web.", "id": 125, "photo_url": "https://pe.tedcdn.com/images/ted/12752_254x191.jpg"}], "current_talk": 144, "description": "Jonathan Harris wants to make sense of the emotional world of the Web. With deep compassion for the human condition, his projects troll the Internet to find out what we\'re all feeling and looking for.", "language": "en", "url": "https://www.ted.com/talks/jonathan_harris_tells_the_web_s_secret_stories", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119767283}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23651533}, "podcast-high": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119792907}, "180k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23549899}, "64k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8470929}, "1500k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 187831320}, "450k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58259166}, "podcast-regular": {"uri": "https://download.ted.com/talks/JonathanHarris_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58429062}, "950k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119822346}, "audio-podcast": {"uri": "https://download.ted.com/talks/JonathanHarris_2007.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7796826}, "podcast-light": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8570335}, "320k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41692985}, "600k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 77921740}}}, "comments": {"count": 145, "id": 130, "talk_id": 144}, "slug": "jonathan_harris_tells_the_web_s_secret_stories", "threadId": 130, "talks": [{"event": "TED2007", "player_talks": [{"event": "TED2007", "slug": "jonathan_harris_tells_the_web_s_secret_stories", "filmed": 1172880000, "targeting": {"event": "TED2007", "tag": "design,entertainment,global issues,software,technology", "id": 144, "talk": "jonathan_harris_tells_the_web_s_secret_stories", "year": "2007"}, "adDuration": "3.33", "external": null, "title": "The Web\'s secret stories", "postAdDuration": "0.83", "published": 1183925640, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/12753_480x360.jpg?quality=89&w=600", "name": "Jonathan Harris: The Web\'s secret stories", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["design", "entertainment", "global issues", "software", "technology"], "speaker": "Jonathan Harris", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1030, "id": 144, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JonathanHarris_2007-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2007", "tag": "design,entertainment,global issues,software,technology", "id": 144, "talk": "jonathan_harris_tells_the_web_s_secret_stories", "year": "2007"}, "metadata": "https://hls.ted.com/talks/144.json", "stream": "https://hls.ted.com/talks/144.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2007%26id%3D144%26tag%3Ddesign%2Centertainment%2Cglobal%2Bissues%2Csoftware%2Ctechnology%26talk%3Djonathan_harris_tells_the_web_s_secret_stories%26year%3D2007&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jonathan_harris_tells_the_web_s_secret_stories"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/12753_480x360.jpg?q=50&w=15", "duration": 1030, "id": 144, "ratings": [{"count": 558, "id": 9, "name": "Ingenious"}, {"count": 125, "id": 11, "name": "Longwinded"}, {"count": 361, "id": 1, "name": "Beautiful"}, {"count": 50, "id": 7, "name": "Funny"}, {"count": 54, "id": 2, "name": "Confusing"}, {"count": 232, "id": 8, "name": "Informative"}, {"count": 417, "id": 10, "name": "Inspiring"}, {"count": 643, "id": 22, "name": "Fascinating"}, {"count": 98, "id": 21, "name": "Unconvincing"}, {"count": 31, "id": 3, "name": "Courageous"}, {"count": 1157, "id": 23, "name": "Jaw-dropping"}, {"count": 135, "id": 25, "name": "OK"}, {"count": 48, "id": 26, "name": "Obnoxious"}, {"count": 28, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Artist, storyteller, Internet anthropologist", "firstname": "Jonathan", "title": "", "lastname": "Harris", "middleinitial": "", "whylisten": "<p>Brooklyn-based artist <a href=\\"http://www.number27.org/\\" target=\\"_blank\\">Jonathan Harris</a>&#39; work celebrates the world&#39;s diversity even as it illustrates the universal concerns of its occupants. His computer programs <strong>scour the Internet for unfiltered content</strong>, which his beautiful interfaces then organize to create coherence from the chaos. <br /><br />His projects are both intensely personal (the &quot;<a href=\\"http://www.wefeelfine.org/\\" target=\\"_blank\\">We Feel Fine</a>&quot; project, made with <a href=\\"http://www.stanford.edu/~sdkamvar/\\" target=\\"_blank\\">Sep Kanvar</a>, which scans the world&#39;s blogs to collect snapshots of the writers&#39; feelings) and entirely global (the new &quot;<a href=\\"http://universe.daylife.com/\\" target=\\"_blank\\">Universe</a>,&quot; which turns current events into <strong>constellations of words</strong>). But their effect is the same -- to show off <strong>a world that resonates with shared emotions, concerns, problems, triumphs and troubles</strong>. </p>", "slug": "jonathan_harris", "whotheyare": "Artist and computer scientist Jonathan Harris makes online art that captures the world\'s expression -- and gives us a glimpse of the soul of the Internet.", "whatotherssay": "Jonathan Harris [is] a New York artist and storyteller working primarily on the Internet. His work involves the exploration and understanding of humans, on a global scale, through the artifacts they leave behind on the Web.", "id": 125, "photo_url": "https://pe.tedcdn.com/images/ted/12752_254x191.jpg"}], "title": "The Web\'s secret stories", "take_action": null, "comments": 130, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/12753_480x360.jpg", "description": "Jonathan Harris wants to make sense of the emotional world of the Web. With deep compassion for the human condition, his projects troll the Internet to find out what we\'re all feeling and looking for.", "tags": ["design", "entertainment", "global issues", "software", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-bg.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-fr-ca.mp4"}, "de": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JonathanHarris_2007-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JonathanHarris_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JonathanHarris_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JonathanHarris_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 144, "audioDownload": "https://download.ted.com/talks/JonathanHarris_2007.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 857327, "hero": "https://pe.tedcdn.com/images/ted/48285_480x360.jpg", "title": "The web as art", "id": 316, "speaker": "Jonathan Harris", "duration": 1229, "slug": "jonathan_harris_collects_stories"}, {"viewed_count": 1157573, "hero": "https://pe.tedcdn.com/images/ted/c29cd3594b3be9c5290242f636b79e33e138e488_1600x1200.jpg", "title": "Art with wire, sugar, chocolate and string", "id": 32, "speaker": "Vik Muniz", "duration": 891, "slug": "vik_muniz_makes_art_with_wire_sugar"}, {"viewed_count": 607925, "hero": "https://pe.tedcdn.com/images/ted/cf42ee3e183408cbbd6aaa5e824e605251ad91dc_2880x1620.jpg", "title": "Software (as) art", "id": 14, "speaker": "Golan Levin", "duration": 893, "slug": "golan_levin_on_software_as_art"}, {"viewed_count": 1689355, "hero": "https://pe.tedcdn.com/images/ted/180834_800x600.jpg", "title": "A 3D atlas of the universe", "id": 900, "speaker": "Carter Emmart", "duration": 417, "slug": "carter_emmart_demos_a_3d_atlas_of_the_universe"}, {"viewed_count": 7562548, "hero": "https://pe.tedcdn.com/images/ted/3feaf5a930ecff54d82d3ef0ec5f5e41379098df_1600x1200.jpg", "title": "The history of our world in 18 minutes", "id": 1118, "speaker": "David Christian", "duration": 1060, "slug": "david_christian_big_history"}, {"viewed_count": 1547608, "hero": "https://pe.tedcdn.com/images/ted/166847_800x600.jpg", "title": "Computing a theory of all knowledge", "id": 843, "speaker": "Stephen Wolfram", "duration": 1198, "slug": "stephen_wolfram_computing_a_theory_of_everything"}], "recorded_at": "2007-03-03T00:00:00.000+00:00", "slug": "jonathan_harris_tells_the_web_s_secret_stories", "speaker_name": "Jonathan Harris", "viewed_count": 1054565, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2007", "name": "Jonathan Harris: The Web\'s secret stories"}'
+p453
+sS'keywords'
+p454
+(lp455
+Vdesign
+p456
+aVentertainment
+p457
+aVglobal issues
+p458
+aVsoftware
+p459
+aVtechnology
+p460
+asS'datecrawled'
+p461
+g448
+(S'\x07\xe1\n\x17\x02\x17\x1f\x08P\n'
+tRp462
+sS'id'
+p463
+I144
+ss.

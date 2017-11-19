@@ -1,0 +1,502 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI was offered a position as associate professor of medicine
+p5
+aVand chief of scientific visualization
+p6
+aVat Yale University
+p7
+aVin the department of medicine.
+p8
+aVAnd my job was to write many of the algorithms and code
+p9
+aVfor NASA to do virtual surgery
+p10
+aVin preparation for the astronauts going into deep-space flight,
+p11
+aVso they could be kept in robotic pods.
+p12
+aVOne of the fascinating things about what we were working on
+p13
+aVis that we were seeing, using new scanning technologies,
+p14
+aVthings that had never been seen before.
+p15
+aVNot only in disease management,
+p16
+aVbut also things that allowed us to see things about the body
+p17
+aVthat just made you marvel.
+p18
+aa(lp19
+VI remember one of the first times we were looking at collagen.
+p20
+aVAnd your entire body, everything \u2014
+p21
+aVyour hair, skin, bone, nails \u2014
+p22
+aVeverything is made of collagen.
+p23
+aVAnd it's a kind of rope-like structure that twirls and swirls like this.
+p24
+aVAnd the only place that collagen changes its structure
+p25
+aVis in the cornea of your eye.
+p26
+aVIn your eye, it becomes a grid formation,
+p27
+aVand therefore, it becomes transparent, as opposed to opaque.
+p28
+aVSo perfectly organized a structure,
+p29
+aVit was hard not to attribute divinity to it.
+p30
+aVBecause we kept on seeing this in different parts of the body.
+p31
+aa(lp32
+VOne of the opportunities I had
+p33
+aVwas one person was working on a really interesting
+p34
+aVmicromagnetic resonance imaging machine with the NIH.
+p35
+aVAnd what we were going to do
+p36
+aVwas scan a new project
+p37
+aVon the development of the fetus from conception to birth
+p38
+aVusing these new technologies.
+p39
+aVSo I wrote the algorithms and code,
+p40
+aVand he built the hardware \u2014 Paul Lauterbur \u2014
+p41
+aVthen went onto win the Nobel Prize for inventing the MRI.
+p42
+aVI got the data.
+p43
+aVAnd I'm going to show you a sample of the piece,
+p44
+aV"From Conception to Birth."
+p45
+aa(lp46
+V(Music)
+p47
+aa(lp48
+V[From Conception to Birth]
+p49
+aa(lp50
+V[Oocyte]
+p51
+aa(lp52
+V[Sperm]
+p53
+aa(lp54
+V[Egg Inseminated]
+p55
+aa(lp56
+V[24 Hours: Baby's first division]
+p57
+aa(lp58
+V[The fertilized ovum divides a few hours after fusion...]
+p59
+aa(lp60
+V[And divides anew every 12 to 15 hours.]
+p61
+aa(lp62
+V[Early Embryo]
+p63
+aa(lp64
+V[Yolk sack still feeding baby.]
+p65
+aa(lp66
+V[25 Days: Heart chamber developing.]
+p67
+aa(lp68
+V[32 Days: Arms & hands are developing]
+p69
+aa(lp70
+V[36 Days: Beginning of the primitive vertebrae]
+p71
+aa(lp72
+V[These weeks are the period of the most rapid development
+p73
+aVof the fetus.]
+p74
+aa(lp75
+V[If the fetus continues to grow at this speed for the entire 9 months,
+p76
+aVit would be 1.5 tons at birth.]
+p77
+aa(lp78
+V[45 Days]
+p79
+aa(lp80
+V[Embryo's heart is beating twice as fast as the mother's.]
+p81
+aa(lp82
+V[51 Days]
+p83
+aa(lp84
+V[Developing retina, nose and fingers]
+p85
+aa(lp86
+V[The fetus' continual movement in the womb
+p87
+aVis necessary for muscular and skeletal growth.]
+p88
+aa(lp89
+V[12 Weeks: Indifferent penis]
+p90
+aa(lp91
+V[Girl or boy yet to be determined]
+p92
+aa(lp93
+V[8 Months]
+p94
+aa(lp95
+V[Delivery: The expulsion stage]
+p96
+aa(lp97
+V[The moment of birth]
+p98
+aa(lp99
+V(Applause)
+p100
+aa(lp101
+VAlexander Tsiaras: Thank you.
+p102
+aVBut as you can see,
+p103
+aVwhen you actually start working on this data,
+p104
+aVit's pretty spectacular.
+p105
+aVAnd as we kept on scanning more and more,
+p106
+aVworking on this project,
+p107
+aVlooking at these two simple cells
+p108
+aVthat have this unbelievable machinery that will become the magic of you.
+p109
+aVAnd as we kept on working on this data,
+p110
+aVlooking at small clusters of the body,
+p111
+aVthese little pieces of tissue
+p112
+aVthat were the trophoblasts coming off of the blastocyst,
+p113
+aVall of a sudden burrowing itself into the side of the uterus,
+p114
+aVsaying, "I'm here to stay."
+p115
+aVHaving conversation and communications
+p116
+aVwith the estrogens, the progesterones,
+p117
+aVsaying, "I'm here to stay, plant me,"
+p118
+aVbuilding this incredible trilinear fetus
+p119
+aVthat becomes, within 44 days, something that you can recognize,
+p120
+aVand then at nine weeks is really kind of a little human being.
+p121
+aVThe marvel of this information:
+p122
+aVHow do we actually have this biological mechanism
+p123
+aVinside our body
+p124
+aVto actually see this information?
+p125
+aa(lp126
+VI'm going to show you something pretty unique.
+p127
+aVHere's a human heart at 25 days.
+p128
+aVIt's just basically two strands.
+p129
+aVAnd like this magnificent origami,
+p130
+aVcells are developing at one million cells per second at four weeks,
+p131
+aVas it's just folding on itself.
+p132
+aVWithin five weeks, you start to see the early atrium and the early ventricles.
+p133
+aVSix weeks, these folds are now beginning
+p134
+aVwith the papilla on the inside of the heart
+p135
+aVactually being able to pull down each one of those valves in your heart
+p136
+aVuntil you get a mature heart \u2014
+p137
+aVand then basically the development of the entire human body.
+p138
+aVThe magic of the mechanisms inside each genetic structure
+p139
+aVsaying exactly where that nerve cell should go \u2014
+p140
+aVthe complexity of these,
+p141
+aVthe mathematical models of how these things are indeed done
+p142
+aVare beyond human comprehension.
+p143
+aa(lp144
+VEven though I am a mathematician,
+p145
+aVI look at this with marvel
+p146
+aVof how do these instruction sets not make these mistakes
+p147
+aVas they build what is us?
+p148
+aVIt's a mystery, it's magic, it's divinity.
+p149
+aVThen you start to take a look at adult life.
+p150
+aVTake a look at this little tuft of capillaries.
+p151
+aVIt's just a tiny sub-substructure, microscopic.
+p152
+aVBut basically by the time you're nine months and you're given birth,
+p153
+aVyou have almost 60,000 miles of vessels inside your body.
+p154
+aVAnd only one mile is visible.
+p155
+aV59,999 miles
+p156
+aVthat are basically bringing nutrients and taking waste away.
+p157
+aVThe complexity of building that within a single system
+p158
+aVis, again, beyond any comprehension or any existing mathematics today.
+p159
+aa(lp160
+VAnd then instructions set,
+p161
+aVfrom the brain to every other part of the body \u2014
+p162
+aVlook at the complexity of the folding.
+p163
+aVWhere does this intelligence
+p164
+aVof knowing that a fold can actually hold more information,
+p165
+aVso as you actually watch the baby's brain grow.
+p166
+aVAnd this is one of the things we're doing.
+p167
+aVWe're launching two new studies
+p168
+aVof scanning babies' brains from the moment they're born.
+p169
+aVEvery six months until they're six years old,
+p170
+aVwe're going to be doing about 250 children,
+p171
+aVwatching exactly how the gyri and the sulci of the brains fold
+p172
+aVto see how this magnificent development
+p173
+aVactually turns into memories and the marvel that is us.
+p174
+aa(lp175
+VAnd it's not just our own existence,
+p176
+aVbut how does the woman's body understand
+p177
+aVto have genetic structure that not only builds her own,
+p178
+aVbut then has the understanding
+p179
+aVthat allows her to become
+p180
+aVa walking immunological, cardiovascular system
+p181
+aVthat basically is a mobile system
+p182
+aVthat can actually nurture,
+p183
+aVtreat this child with a kind of marvel
+p184
+aVthat is beyond, again, our comprehension \u2014
+p185
+aVthe magic that is existence, that is us?
+p186
+aa(lp187
+VThank you.
+p188
+aa(lp189
+V(Applause)
+p190
+aasS'transcript_micsec'
+p191
+(lp192
+I11000
+aI47000
+aI83000
+aI113000
+aI118000
+aI124000
+aI130000
+aI136000
+aI143000
+aI149000
+aI154000
+aI157000
+aI160000
+aI164000
+aI171000
+aI181000
+aI187000
+aI200000
+aI207000
+aI215000
+aI222000
+aI225000
+aI239000
+aI261000
+aI263000
+aI267000
+aI297000
+aI339000
+aI349000
+aI352000
+aI411000
+aI456000
+aI500000
+aI533000
+aI560000
+aI561000
+asS'talk_meta'
+p193
+(dp194
+S'ratings'
+p195
+(dp196
+S'beautiful'
+p197
+I1118
+sS'ingenious'
+p198
+I193
+sS'inspiring'
+p199
+I660
+sS'ok'
+p200
+I97
+sS'fascinating'
+p201
+I976
+sS'funny'
+p202
+I12
+sS'total_count'
+p203
+I4562
+sS'persuasive'
+p204
+I105
+sS'longwinded'
+p205
+I28
+sS'informative'
+p206
+I479
+sS'jaw-dropping'
+p207
+I703
+sS'obnoxious'
+p208
+I63
+sS'confusing'
+p209
+I16
+sS'courageous'
+p210
+I54
+sS'unconvincing'
+p211
+I58
+ssS'author'
+p212
+VAlexander_Tsiaras;
+p213
+sS'url'
+p214
+S'https://www.ted.com/talks/alexander_tsiaras_conception_to_birth_visualized'
+p215
+sS'vidlen'
+p216
+I577
+sS'totalviews'
+p217
+I6085405
+sS'title'
+p218
+VConception to birth -- visualized
+p219
+sS'downloadlink'
+p220
+Vhttps://download.ted.com/talks/AlexanderTsiaras_2010P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p221
+sS'datepublished'
+p222
+cdatetime
+datetime
+p223
+(S'\x07\xdb\x0b\x0e\x0b"(\x00\x00\x00'
+tRp224
+sS'datefilmed'
+p225
+g223
+(S'\x07\xdb\x0b\x0e\x0b"(\x00\x00\x00'
+tRp226
+sS'alldata_JSON'
+p227
+S'{"viewed_count": 6085405, "speakers": [{"description": "Medical image maker", "firstname": "Alexander", "title": "", "lastname": "Tsiaras", "middleinitial": "", "whylisten": "<p> Alexander Tsiaras is an artist and technologist whose work explores the unseen human body,  developing scientific visualization          software to enable him to &quot;paint&quot; the human anatomy using volume data. He&#39;s the author of&nbsp;<a href=\\"http://geni.us/bodyvoyage\\" target=\\"_blank\\"><em>Body Voyage</em></a>&nbsp;and co-author of <em>Information Architects</em>. Most recently,          he is the author of&nbsp;<a href=\\"http://geni.us/conceptiontobirth\\" target=\\"_blank\\"><em>From Conception to Birth: A Life Unfolds</em></a>&nbsp;and          <em><a href=\\"http://geni.us/archanddesign\\" target=\\"_blank\\">The Architecture and Design of Man and Woman: The Marvel of the Human          Body, Revealed</a>.</em></p><p>His latest project is <a href=\\"http://www.thevisualmd.com/\\" target=\\"_blank\\">The Visual MD</a>, an online compendium of health visualizations.</p>", "slug": "alexander_tsiaras", "whotheyare": "Using art and technology, Alexander Tsiaras visualizes the unseen human body.", "whatotherssay": "", "id": 1104, "photo_url": "https://pe.tedcdn.com/images/ted/141e778619fa7f5ea5d11bea8fa6f9a8b2bcd156_254x191.jpg"}], "current_talk": 1270, "description": "Image-maker Alexander Tsiaras shares a powerful medical visualization, showing human development from conception to birth and beyond. (Some graphic images.)", "language": "en", "url": "https://www.ted.com/talks/alexander_tsiaras_conception_to_birth_visualized", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68169997}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13229828}, "podcast-high": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68395576}, "180k": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13174612}, "64k": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4713845}, "1500k": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 106528170}, "450k": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32422493}, "podcast-regular": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32704448}, "950k": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67932081}, "audio-podcast": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6064384}, "podcast-light": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4797665}, "320k": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23127871}, "600k": {"uri": "https://download.ted.com/talks/AlexanderTsiaras_2010P-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43656292}}}, "comments": {"count": 495, "id": 8359, "talk_id": 1270}, "slug": "alexander_tsiaras_conception_to_birth_visualized", "threadId": 8359, "talks": [{"event": "INK Conference", "player_talks": [{"event": "INK Conference", "slug": "alexander_tsiaras_conception_to_birth_visualized", "filmed": 1291248000, "targeting": {"event": "INK Conference", "tag": "Human body,biotech,design,medical imaging,medical research,physiology,pregnancy,science,science and art,visualizations", "id": 1270, "talk": "alexander_tsiaras_conception_to_birth_visualized", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "Conception to birth -- visualized", "postAdDuration": "0.83", "published": 1321288480, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9f1b646fa4d10bf53a8c68d9db58a50442da84e9_800x600.jpg?quality=89&w=600", "name": "Alexander Tsiaras: Conception to birth -- visualized", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "be", "endonym": "\\u0411\\u0435\\u043b\\u0430\\u0440\\u0443\\u0441\\u043a\\u0430\\u044f \\u043c\\u043e\\u0432\\u0430", "isRtl": false, "ianaCode": "be", "languageName": "Belarusian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Human body", "biotech", "design", "medical imaging", "medical research", "physiology", "pregnancy", "science", "science and art", "visualizations"], "speaker": "Alexander Tsiaras", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 577, "id": 1270, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AlexanderTsiaras_2010P-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "INK Conference", "tag": "Human body,biotech,design,medical imaging,medical research,physiology,pregnancy,science,science and art,visualizations", "id": 1270, "talk": "alexander_tsiaras_conception_to_birth_visualized", "year": "2010"}, "metadata": "https://hls.ted.com/talks/1270.json", "stream": "https://hls.ted.com/talks/1270.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DINK%2BConference%26id%3D1270%26tag%3DHuman%2Bbody%2Cbiotech%2Cdesign%2Cmedical%2Bimaging%2Cmedical%2Bresearch%2Cphysiology%2Cpregnancy%2Cscience%2Cscience%2Band%2Bart%2Cvisualizations%26talk%3Dalexander_tsiaras_conception_to_birth_visualized%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/alexander_tsiaras_conception_to_birth_visualized"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9f1b646fa4d10bf53a8c68d9db58a50442da84e9_800x600.jpg?q=50&w=15", "duration": 577, "id": 1270, "ratings": [{"count": 1118, "id": 1, "name": "Beautiful"}, {"count": 660, "id": 10, "name": "Inspiring"}, {"count": 703, "id": 23, "name": "Jaw-dropping"}, {"count": 976, "id": 22, "name": "Fascinating"}, {"count": 479, "id": 8, "name": "Informative"}, {"count": 54, "id": 3, "name": "Courageous"}, {"count": 193, "id": 9, "name": "Ingenious"}, {"count": 58, "id": 21, "name": "Unconvincing"}, {"count": 16, "id": 2, "name": "Confusing"}, {"count": 97, "id": 25, "name": "OK"}, {"count": 105, "id": 24, "name": "Persuasive"}, {"count": 63, "id": 26, "name": "Obnoxious"}, {"count": 28, "id": 11, "name": "Longwinded"}, {"count": 12, "id": 7, "name": "Funny"}], "speakers": [{"description": "Medical image maker", "firstname": "Alexander", "title": "", "lastname": "Tsiaras", "middleinitial": "", "whylisten": "<p> Alexander Tsiaras is an artist and technologist whose work explores the unseen human body,  developing scientific visualization          software to enable him to &quot;paint&quot; the human anatomy using volume data. He&#39;s the author of&nbsp;<a href=\\"http://geni.us/bodyvoyage\\" target=\\"_blank\\"><em>Body Voyage</em></a>&nbsp;and co-author of <em>Information Architects</em>. Most recently,          he is the author of&nbsp;<a href=\\"http://geni.us/conceptiontobirth\\" target=\\"_blank\\"><em>From Conception to Birth: A Life Unfolds</em></a>&nbsp;and          <em><a href=\\"http://geni.us/archanddesign\\" target=\\"_blank\\">The Architecture and Design of Man and Woman: The Marvel of the Human          Body, Revealed</a>.</em></p><p>His latest project is <a href=\\"http://www.thevisualmd.com/\\" target=\\"_blank\\">The Visual MD</a>, an online compendium of health visualizations.</p>", "slug": "alexander_tsiaras", "whotheyare": "Using art and technology, Alexander Tsiaras visualizes the unseen human body.", "whatotherssay": "", "id": 1104, "photo_url": "https://pe.tedcdn.com/images/ted/141e778619fa7f5ea5d11bea8fa6f9a8b2bcd156_254x191.jpg"}], "title": "Conception to birth -- visualized", "take_action": [], "comments": 8359, "more_resources": [{"status": "approved", "publisher": "Doubleday", "start_at": null, "author": "Alexander Tsiaras", "headline": "*From Conception to Birth*", "link_url": "http://www.amazon.com/From-Conception-Birth-Life-Unfolds/dp/0385503180/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/98ee544127f478063abf871373355c9c162eb169_617x622.jpg", "year": "2002", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/9f1b646fa4d10bf53a8c68d9db58a50442da84e9_800x600.jpg", "description": "Image-maker Alexander Tsiaras shares a powerful medical visualization, showing human development from conception to birth and beyond. (Some graphic images.)", "tags": ["Human body", "biotech", "design", "medical imaging", "medical research", "physiology", "pregnancy", "science", "science and art", "visualizations"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "be", "endonym": "\\u0411\\u0435\\u043b\\u0430\\u0440\\u0443\\u0441\\u043a\\u0430\\u044f \\u043c\\u043e\\u0432\\u0430", "isRtl": false, "ianaCode": "be", "languageName": "Belarusian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-pl.mp4"}, "be": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-be.mp4", "name": "Belarusian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-be.mp4"}, "fr": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AlexanderTsiaras_2010P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AlexanderTsiaras_2010P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AlexanderTsiaras_2010P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1270, "audioDownload": "https://download.ted.com/talks/AlexanderTsiaras_2010P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1801271, "hero": "https://pe.tedcdn.com/images/ted/13343_480x360.jpg", "title": "Visualizing the wonder of a living cell", "id": 147, "speaker": "David Bolinsky", "duration": 585, "slug": "david_bolinsky_animates_a_cell"}, {"viewed_count": 583226, "hero": "https://pe.tedcdn.com/images/ted/49376_480x360.jpg", "title": "A computer that works like the brain", "id": 320, "speaker": "Kwabena Boahen", "duration": 982, "slug": "kwabena_boahen_on_a_computer_that_works_like_the_brain"}, {"viewed_count": 464553, "hero": "https://pe.tedcdn.com/images/ted/b5dfadb0dfdfb64ffa70aea2837f8937062ad8eb_800x600.jpg", "title": "Visualizing the medical data explosion", "id": 1057, "speaker": "Anders Ynnerman", "duration": 996, "slug": "anders_ynnerman_visualizing_the_medical_data_explosion"}, {"viewed_count": 1806045, "hero": "https://pe.tedcdn.com/images/ted/58dfa89d21c1ed1905337683073cfe355f758ffa_800x600.jpg", "title": "What we learn before we\'re born", "id": 1289, "speaker": "Annie Murphy Paul", "duration": 1006, "slug": "annie_murphy_paul_what_we_learn_before_we_re_born"}, {"viewed_count": 1436456, "hero": "https://pe.tedcdn.com/images/ted/a10f09df6fcd37ad053282cf30ae0c71f5175627_2880x1620.jpg", "title": "How my son\'s short life made a lasting difference", "id": 2492, "speaker": "Sarah Gray", "duration": 617, "slug": "sarah_gray_how_my_son_s_short_life_made_a_lasting_difference"}, {"viewed_count": 3908281, "hero": "https://pe.tedcdn.com/images/ted/f56ce0ad52aff2c1ec737ebe2ddd5ff601ddbb72_800x600.jpg", "title": "What we didn\'t know about penis anatomy", "id": 1468, "speaker": "Diane Kelly", "duration": 680, "slug": "diane_kelly_what_we_didn_t_know_about_penis_anatomy"}], "recorded_at": "2010-12-02T00:00:00.000+00:00", "slug": "alexander_tsiaras_conception_to_birth_visualized", "speaker_name": "Alexander Tsiaras", "viewed_count": 6085405, "event_badge": null, "event_blurb": null, "recommendations": null, "corrections": []}], "event": "INK Conference", "name": "Alexander Tsiaras: Conception to birth -- visualized"}'
+p228
+sS'keywords'
+p229
+(lp230
+VHuman body
+p231
+aVbiotech
+p232
+aVdesign
+p233
+aVmedical imaging
+p234
+aVmedical research
+p235
+aVphysiology
+p236
+aVpregnancy
+p237
+aVscience
+p238
+aVscience and art
+p239
+aVvisualizations
+p240
+asS'datecrawled'
+p241
+g223
+(S'\x07\xe1\n\x17\x039\x12\x01@\x00'
+tRp242
+sS'id'
+p243
+I1270
+ss.

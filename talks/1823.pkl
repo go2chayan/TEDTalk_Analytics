@@ -1,0 +1,558 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VEric Berlow: I'm an ecologist, and Sean's a physicist,
+p5
+aVand we both study complex networks.
+p6
+aVAnd we met a couple years ago when we discovered
+p7
+aVthat we had both given a short TED Talk
+p8
+aVabout the ecology of war,
+p9
+aVand we realized that we were connected
+p10
+aVby the ideas we shared before we ever met.
+p11
+aVAnd then we thought, you know, there are thousands
+p12
+aVof other talks out there, especially TEDx Talks,
+p13
+aVthat are popping up all over the world.
+p14
+aVHow are they connected,
+p15
+aVand what does that global conversation look like?
+p16
+aVSo Sean's going to tell you a little bit about how we did that.
+p17
+aa(lp18
+VSean Gourley: Exactly. So we took 24,000 TEDx Talks
+p19
+aVfrom around the world, 147 different countries,
+p20
+aVand we took these talks and we wanted to find
+p21
+aVthe mathematical structures that underly
+p22
+aVthe ideas behind them.
+p23
+aVAnd we wanted to do that so we could see how
+p24
+aVthey connected with each other.
+p25
+aa(lp26
+VAnd so, of course, if you're going to do this kind of stuff,
+p27
+aVyou need a lot of data.
+p28
+aVSo the data that you've got is a great thing called YouTube,
+p29
+aVand we can go down and basically pull
+p30
+aVall the open information from YouTube,
+p31
+aVall the comments, all the views, who's watching it,
+p32
+aVwhere are they watching it, what are they saying in the comments.
+p33
+aVBut we can also pull up, using speech-to-text translation,
+p34
+aVwe can pull the entire transcript,
+p35
+aVand that works even for people with kind of funny accents like myself.
+p36
+aVSo we can take their transcript
+p37
+aVand actually do some pretty cool things.
+p38
+aVWe can take natural language processing algorithms
+p39
+aVto kind of read through with a computer, line by line,
+p40
+aVextracting key concepts from this.
+p41
+aVAnd we take those key concepts and they sort of form
+p42
+aVthis mathematical structure of an idea.
+p43
+aVAnd we call that the meme-ome.
+p44
+aVAnd the meme-ome, you know, quite simply,
+p45
+aVis the mathematics that underlies an idea,
+p46
+aVand we can do some pretty interesting analysis with it,
+p47
+aVwhich I want to share with you now.
+p48
+aa(lp49
+VSo each idea has its own meme-ome,
+p50
+aVand each idea is unique with that,
+p51
+aVbut of course, ideas, they borrow from each other,
+p52
+aVthey kind of steal sometimes,
+p53
+aVand they certainly build on each other,
+p54
+aVand we can go through mathematically
+p55
+aVand take the meme-ome from one talk
+p56
+aVand compare it to the meme-ome from every other talk,
+p57
+aVand if there's a similarity between the two of them,
+p58
+aVwe can create a link and represent that as a graph,
+p59
+aVjust like Eric and I are connected.
+p60
+aa(lp61
+VSo that's theory, that's great.
+p62
+aVLet's see how it works in actual practice.
+p63
+aVSo what we've got here now is the global footprint
+p64
+aVof all the TEDx Talks over the last four years
+p65
+aVexploding out around the world
+p66
+aVfrom New York all the way down to little old New Zealand in the corner.
+p67
+aVAnd what we did on this is we analyzed the top 25 percent of these,
+p68
+aVand we started to see where the connections occurred,
+p69
+aVwhere they connected with each other.
+p70
+aVCameron Russell talking about image and beauty
+p71
+aVconnected over into Europe.
+p72
+aVWe've got a bigger conversation about Israel and Palestine
+p73
+aVradiating outwards from the Middle East.
+p74
+aVAnd we've got something a little broader
+p75
+aVlike big data with a truly global footprint
+p76
+aVreminiscent of a conversation
+p77
+aVthat is happening everywhere.
+p78
+aa(lp79
+VSo from this, we kind of run up against the limits
+p80
+aVof what we can actually do with a geographic projection,
+p81
+aVbut luckily, computer technology allows us to go out
+p82
+aVinto multidimensional space.
+p83
+aVSo we can take in our network projection
+p84
+aVand apply a physics engine to this,
+p85
+aVand the similar talks kind of smash together,
+p86
+aVand the different ones fly apart,
+p87
+aVand what we're left with is something quite beautiful.
+p88
+aa(lp89
+VEB: So I want to just point out here that every node is a talk,
+p90
+aVthey're linked if they share similar ideas,
+p91
+aVand that comes from a machine reading
+p92
+aVof entire talk transcripts,
+p93
+aVand then all these topics that pop out,
+p94
+aVthey're not from tags and keywords.
+p95
+aVThey come from the network structure
+p96
+aVof interconnected ideas. Keep going.
+p97
+aa(lp98
+VSG: Absolutely. So I got a little quick on that,
+p99
+aVbut he's going to slow me down.
+p100
+aVWe've got education connected to storytelling
+p101
+aVtriangulated next to social media.
+p102
+aVYou've got, of course, the human brain right next to healthcare,
+p103
+aVwhich you might expect,
+p104
+aVbut also you've got video games, which is sort of adjacent,
+p105
+aVas those two spaces interface with each other.
+p106
+aa(lp107
+VBut I want to take you into one cluster
+p108
+aVthat's particularly important to me, and that's the environment.
+p109
+aVAnd I want to kind of zoom in on that
+p110
+aVand see if we can get a little more resolution.
+p111
+aVSo as we go in here, what we start to see,
+p112
+aVapply the physics engine again,
+p113
+aVwe see what's one conversation
+p114
+aVis actually composed of many smaller ones.
+p115
+aVThe structure starts to emerge
+p116
+aVwhere we see a kind of fractal behavior
+p117
+aVof the words and the language that we use
+p118
+aVto describe the things that are important to us
+p119
+aVall around this world.
+p120
+aVSo you've got food economy and local food at the top,
+p121
+aVyou've got greenhouse gases, solar and nuclear waste.
+p122
+aVWhat you're getting is a range of smaller conversations,
+p123
+aVeach connected to each other through the ideas
+p124
+aVand the language they share,
+p125
+aVcreating a broader concept of the environment.
+p126
+aVAnd of course, from here, we can go
+p127
+aVand zoom in and see, well, what are young people looking at?
+p128
+aVAnd they're looking at energy technology and nuclear fusion.
+p129
+aVThis is their kind of resonance
+p130
+aVfor the conversation around the environment.
+p131
+aVIf we split along gender lines,
+p132
+aVwe can see females resonating heavily
+p133
+aVwith food economy, but also out there in hope and optimism.
+p134
+aa(lp135
+VAnd so there's a lot of exciting stuff we can do here,
+p136
+aVand I'll throw to Eric for the next part.
+p137
+aa(lp138
+VEB: Yeah, I mean, just to point out here,
+p139
+aVyou cannot get this kind of perspective
+p140
+aVfrom a simple tag search on YouTube.
+p141
+aVLet's now zoom back out to the entire global conversation
+p142
+aVout of environment, and look at all the talks together.
+p143
+aVNow often, when we're faced with this amount of content,
+p144
+aVwe do a couple of things to simplify it.
+p145
+aVWe might just say, well,
+p146
+aVwhat are the most popular talks out there?
+p147
+aVAnd a few rise to the surface.
+p148
+aVThere's a talk about gratitude.
+p149
+aVThere's another one about personal health and nutrition.
+p150
+aVAnd of course, there's got to be one about porn, right?
+p151
+aVAnd so then we might say, well, gratitude, that was last year.
+p152
+aVWhat's trending now? What's the popular talk now?
+p153
+aVAnd we can see that the new, emerging, top trending topic
+p154
+aVis about digital privacy.
+p155
+aa(lp156
+VSo this is great. It simplifies things.
+p157
+aVBut there's so much creative content
+p158
+aVthat's just buried at the bottom.
+p159
+aVAnd I hate that. How do we bubble stuff up to the surface
+p160
+aVthat's maybe really creative and interesting?
+p161
+aVWell, we can go back to the network structure of ideas
+p162
+aVto do that.
+p163
+aVRemember, it's that network structure
+p164
+aVthat is creating these emergent topics,
+p165
+aVand let's say we could take two of them,
+p166
+aVlike cities and genetics, and say, well, are there any talks
+p167
+aVthat creatively bridge these two really different disciplines.
+p168
+aVAnd that's \u2014 Essentially, this kind of creative remix
+p169
+aVis one of the hallmarks of innovation.
+p170
+aVWell here's one by Jessica Green
+p171
+aVabout the microbial ecology of buildings.
+p172
+aVIt's literally defining a new field.
+p173
+aVAnd we could go back to those topics and say, well,
+p174
+aVwhat talks are central to those conversations?
+p175
+aVIn the cities cluster, one of the most central
+p176
+aVwas one by Mitch Joachim about ecological cities,
+p177
+aVand in the genetics cluster,
+p178
+aVwe have a talk about synthetic biology by Craig Venter.
+p179
+aVThese are talks that are linking many talks within their discipline.
+p180
+aVWe could go the other direction and say, well,
+p181
+aVwhat are talks that are broadly synthesizing
+p182
+aVa lot of different kinds of fields.
+p183
+aVWe used a measure of ecological diversity to get this.
+p184
+aVLike, a talk by Steven Pinker on the history of violence,
+p185
+aVvery synthetic.
+p186
+aa(lp187
+VAnd then, of course, there are talks that are so unique
+p188
+aVthey're kind of out in the stratosphere, in their own special place,
+p189
+aVand we call that the Colleen Flanagan index.
+p190
+aVAnd if you don't know Colleen, she's an artist,
+p191
+aVand I asked her, "Well, what's it like out there
+p192
+aVin the stratosphere of our idea space?"
+p193
+aVAnd apparently it smells like bacon.
+p194
+aVI wouldn't know.
+p195
+aVSo we're using these network motifs
+p196
+aVto find talks that are unique,
+p197
+aVones that are creatively synthesizing a lot of different fields,
+p198
+aVones that are central to their topic,
+p199
+aVand ones that are really creatively bridging disparate fields.
+p200
+aVOkay? We never would have found those with our obsession
+p201
+aVwith what's trending now.
+p202
+aVAnd all of this comes from the architecture of complexity,
+p203
+aVor the patterns of how things are connected.
+p204
+aa(lp205
+VSG: So that's exactly right.
+p206
+aVWe've got ourselves in a world
+p207
+aVthat's massively complex,
+p208
+aVand we've been using algorithms to kind of filter it down
+p209
+aVso we can navigate through it.
+p210
+aVAnd those algorithms, whilst being kind of useful,
+p211
+aVare also very, very narrow, and we can do better than that,
+p212
+aVbecause we can realize that their complexity is not random.
+p213
+aVIt has mathematical structure,
+p214
+aVand we can use that mathematical structure
+p215
+aVto go and explore things like the world of ideas
+p216
+aVto see what's being said, to see what's not being said,
+p217
+aVand to be a little bit more human
+p218
+aVand, hopefully, a little smarter.
+p219
+aa(lp220
+VThank you.
+p221
+aa(lp222
+V(Applause)
+p223
+aasS'transcript_micsec'
+p224
+(lp225
+I11000
+aI38000
+aI54000
+aI106000
+aI129000
+aI166000
+aI184000
+aI202000
+aI218000
+aI276000
+aI280000
+aI324000
+aI392000
+aI433000
+aI464000
+aI465000
+asS'talk_meta'
+p226
+(dp227
+S'ratings'
+p228
+(dp229
+S'ingenious'
+p230
+I155
+sS'beautiful'
+p231
+I46
+sS'inspiring'
+p232
+I49
+sS'ok'
+p233
+I34
+sS'fascinating'
+p234
+I196
+sS'funny'
+p235
+I3
+sS'total_count'
+p236
+I758
+sS'persuasive'
+p237
+I20
+sS'longwinded'
+p238
+I7
+sS'unconvincing'
+p239
+I10
+sS'informative'
+p240
+I165
+sS'jaw-dropping'
+p241
+I60
+sS'obnoxious'
+p242
+I1
+sS'courageous'
+p243
+I0
+sS'confusing'
+p244
+I12
+ssS'author'
+p245
+VEric_Berlow;Sean_Gourley;
+p246
+sS'url'
+p247
+S'https://www.ted.com/talks/eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading'
+p248
+sS'vidlen'
+p249
+I475
+sS'totalviews'
+p250
+I1087781
+sS'title'
+p251
+VMapping ideas worth spreading
+p252
+sS'downloadlink'
+p253
+Vhttps://download.ted.com/talks/EricBerlow_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p254
+sS'datepublished'
+p255
+cdatetime
+datetime
+p256
+(S'\x07\xdd\t\x12\x0b\x01"\x00\x00\x00'
+tRp257
+sS'datefilmed'
+p258
+g256
+(S'\x07\xdd\t\x12\x0b\x01"\x00\x00\x00'
+tRp259
+sS'alldata_JSON'
+p260
+S'{"viewed_count": 1087781, "speakers": [{"description": "Ecologist", "firstname": "Eric", "title": "", "lastname": "Berlow", "middleinitial": "", "whylisten": "<p>Eric Berlow is an ecologist and network scientist who specializes in not specializing. A TED Senior Fellow, Berlow is recognized for his research on food webs and ecological networks and for creative approaches to complex problems. He was the founding director of the University of California&#39;s first  environmental science center inside Yosemite National Park, where he  continues to develop data-driven approaches to managing natural  ecosystems.&nbsp; </p><p>In 2012 Berlow founded <a href=\\"http://vibrantdatalabs.org/\\" target=\\"_blank\\">Vibrant Data Labs</a>, which builds tools to use data for social good. Berlow&#39;s current projects range from helping spark <a href=\\"http://wethedata.org/\\" target=\\"_blank\\">an  egalitarian personal data economy</a> to protecting  endangered amphibians in Yosemite to crowd-sourcing novel insights about  human creativity. Berlow holds a Ph.D. from Oregon State University in marine ecology. </p><p>&nbsp;</p><p>&nbsp;</p>", "slug": "eric_berlow", "whotheyare": "TED Senior Fellow Eric Berlow studies ecology and networks, exposing the interconnectedness of our ecosystems with climate change, government, corporations and more.  ", "whatotherssay": "", "id": 860, "photo_url": "https://pe.tedcdn.com/images/ted/ee0cee147c21fe57e439332bdf268ecea94aec81_254x191.jpg"}, {"description": "Physicist and military theorist", "firstname": "Sean", "title": "", "lastname": "Gourley", "middleinitial": "", "whylisten": "<p>Sean Gourley&#39;s twin passions are physics (working on nanoscale blue-light lasers and self-assembled quantum nanowires) and politics (he once ran for a national elected office back home in New Zealand).</p><p>A Rhodes scholar, he&#39;s spent the past five years working at Oxford on complex adaptive systems and collective intelligent systems -- basically, <strong>using data to understand the nature of human conflict</strong>. As he puts it, &quot;This research has taken me all over the world from the Pentagon, to the House of Lords, the United Nations and most recently to Iraq&quot;. Originally from New Zealand, he now lives in San Francisco, where he is the co-founder and CTO of Quid which is building a global intelligence platform. He&#39;s a 2009 TED Fellow.</p><p>In December 2009, Gourley and his team&#39;s research was published in the scientific journal <a href=\\"http://www.nature.com/nature/journal/v462/n7275/full/nature08631.html\\" target=\\"_blank\\"><em>Nature</em></a>. He is co-founder and CTO of Quid.</p>", "slug": "sean_gourley", "whotheyare": "Sean Gourley, trained as a physicist, has turned his scientific mind to analyzing data about a messier topic: modern war and conflict. He is a TED Fellow.", "whatotherssay": "", "id": 440, "photo_url": "https://pe.tedcdn.com/images/ted/86686_254x191.jpg"}], "current_talk": 1823, "description": "What do 24,000 ideas look like? Ecologist Eric Berlow and physicist Sean Gourley apply algorithms to the entire archive of TEDx Talks, taking us on a stimulating visual tour to show how ideas connect globally.", "language": "en", "url": "https://www.ted.com/talks/eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55421948}, "podcast-low-en": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11024651}, "podcast-high": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55424504}, "180k": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10778356}, "64k": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3909367}, "1500k": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85998336}, "450k": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26992629}, "podcast-regular": {"uri": "https://download.ted.com/talks/EricBerlow_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27107941}, "950k": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55414394}, "audio-podcast": {"uri": "https://download.ted.com/talks/EricBerlow_2013U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5107777}, "podcast-light": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4042958}, "320k": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19109287}, "600k": {"uri": "https://download.ted.com/talks/EricBerlow_2013U-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36275208}}}, "comments": {"count": 99, "id": 22173, "talk_id": 1823}, "slug": "eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading", "threadId": 22173, "talks": [{"event": "TED2013", "player_talks": [{"event": "TED2013", "slug": "eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading", "filmed": 1362009600, "targeting": {"event": "TED2013", "tag": "TED Fellows,algorithm,complexity,data,technology", "id": 1823, "talk": "eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "Mapping ideas worth spreading", "postAdDuration": "0.83", "published": 1379516494, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7afc3969fed81d16eb00d739a916d559c5e53933_1600x1200.jpg?quality=89&w=600", "name": "Eric Berlow and Sean Gourley: Mapping ideas worth spreading", "languages": [{"languageCode": "af", "endonym": "Afrikaans", "isRtl": false, "ianaCode": "af", "languageName": "Afrikaans"}, {"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TED Fellows", "algorithm", "complexity", "data", "technology"], "speaker": "Eric Berlow and Sean Gourley", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 475, "id": 1823, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/EricBerlow_2013U-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2013", "tag": "TED Fellows,algorithm,complexity,data,technology", "id": 1823, "talk": "eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1823.json", "stream": "https://hls.ted.com/talks/1823.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2013%26id%3D1823%26tag%3DTED%2BFellows%2Calgorithm%2Ccomplexity%2Cdata%2Ctechnology%26talk%3Deric_berlow_and_sean_gourley_mapping_ideas_worth_spreading%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7afc3969fed81d16eb00d739a916d559c5e53933_1600x1200.jpg?q=50&w=15", "duration": 475, "id": 1823, "ratings": [{"count": 196, "id": 22, "name": "Fascinating"}, {"count": 165, "id": 8, "name": "Informative"}, {"count": 34, "id": 25, "name": "OK"}, {"count": 155, "id": 9, "name": "Ingenious"}, {"count": 12, "id": 2, "name": "Confusing"}, {"count": 20, "id": 24, "name": "Persuasive"}, {"count": 60, "id": 23, "name": "Jaw-dropping"}, {"count": 49, "id": 10, "name": "Inspiring"}, {"count": 46, "id": 1, "name": "Beautiful"}, {"count": 10, "id": 21, "name": "Unconvincing"}, {"count": 7, "id": 11, "name": "Longwinded"}, {"count": 3, "id": 7, "name": "Funny"}, {"count": 1, "id": 26, "name": "Obnoxious"}, {"count": 0, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Ecologist", "firstname": "Eric", "title": "", "lastname": "Berlow", "middleinitial": "", "whylisten": "<p>Eric Berlow is an ecologist and network scientist who specializes in not specializing. A TED Senior Fellow, Berlow is recognized for his research on food webs and ecological networks and for creative approaches to complex problems. He was the founding director of the University of California&#39;s first  environmental science center inside Yosemite National Park, where he  continues to develop data-driven approaches to managing natural  ecosystems.&nbsp; </p><p>In 2012 Berlow founded <a href=\\"http://vibrantdatalabs.org/\\" target=\\"_blank\\">Vibrant Data Labs</a>, which builds tools to use data for social good. Berlow&#39;s current projects range from helping spark <a href=\\"http://wethedata.org/\\" target=\\"_blank\\">an  egalitarian personal data economy</a> to protecting  endangered amphibians in Yosemite to crowd-sourcing novel insights about  human creativity. Berlow holds a Ph.D. from Oregon State University in marine ecology. </p><p>&nbsp;</p><p>&nbsp;</p>", "slug": "eric_berlow", "whotheyare": "TED Senior Fellow Eric Berlow studies ecology and networks, exposing the interconnectedness of our ecosystems with climate change, government, corporations and more.  ", "whatotherssay": "", "id": 860, "photo_url": "https://pe.tedcdn.com/images/ted/ee0cee147c21fe57e439332bdf268ecea94aec81_254x191.jpg"}, {"description": "Physicist and military theorist", "firstname": "Sean", "title": "", "lastname": "Gourley", "middleinitial": "", "whylisten": "<p>Sean Gourley&#39;s twin passions are physics (working on nanoscale blue-light lasers and self-assembled quantum nanowires) and politics (he once ran for a national elected office back home in New Zealand).</p><p>A Rhodes scholar, he&#39;s spent the past five years working at Oxford on complex adaptive systems and collective intelligent systems -- basically, <strong>using data to understand the nature of human conflict</strong>. As he puts it, &quot;This research has taken me all over the world from the Pentagon, to the House of Lords, the United Nations and most recently to Iraq&quot;. Originally from New Zealand, he now lives in San Francisco, where he is the co-founder and CTO of Quid which is building a global intelligence platform. He&#39;s a 2009 TED Fellow.</p><p>In December 2009, Gourley and his team&#39;s research was published in the scientific journal <a href=\\"http://www.nature.com/nature/journal/v462/n7275/full/nature08631.html\\" target=\\"_blank\\"><em>Nature</em></a>. He is co-founder and CTO of Quid.</p>", "slug": "sean_gourley", "whotheyare": "Sean Gourley, trained as a physicist, has turned his scientific mind to analyzing data about a messier topic: modern war and conflict. He is a TED Fellow.", "whatotherssay": "", "id": 440, "photo_url": "https://pe.tedcdn.com/images/ted/86686_254x191.jpg"}], "title": "Mapping ideas worth spreading", "take_action": null, "comments": 22173, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/7afc3969fed81d16eb00d739a916d559c5e53933_1600x1200.jpg", "description": "What do 24,000 ideas look like? Ecologist Eric Berlow and physicist Sean Gourley apply algorithms to the entire archive of TEDx Talks, taking us on a stimulating visual tour to show how ideas connect globally.", "tags": ["TED Fellows", "algorithm", "complexity", "data", "technology"], "downloads": {"languages": [{"languageCode": "af", "endonym": "Afrikaans", "isRtl": false, "ianaCode": "af", "languageName": "Afrikaans"}, {"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-en.mp4"}, "af": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-af.mp4", "name": "Afrikaans", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-af.mp4"}, "vi": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/EricBerlow_2013U-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/EricBerlow_2013U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/EricBerlow_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/EricBerlow_2013U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1823, "audioDownload": "https://download.ted.com/talks/EricBerlow_2013U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 911090, "hero": "https://pe.tedcdn.com/images/ted/86685_800x600.jpg", "title": "The mathematics of war", "id": 532, "speaker": "Sean Gourley", "duration": 439, "slug": "sean_gourley_on_the_mathematics_of_war"}, {"viewed_count": 1160540, "hero": "https://pe.tedcdn.com/images/ted/864a77c75e66fbac4c49afd3c7e45a17ec522c91_800x600.jpg", "title": "Simplifying complexity", "id": 1006, "speaker": "Eric Berlow", "duration": 222, "slug": "eric_berlow_how_complexity_leads_to_simplicity"}, {"viewed_count": 622737, "hero": "https://pe.tedcdn.com/images/ted/e6defb3780c8989a54815f3bc50384ccb404509a_800x600.jpg", "title": "1,000 TED Talks in six words", "id": 1315, "speaker": "Sebastian Wernicke", "duration": 454, "slug": "sebastian_wernicke_1000_tedtalks_6_words"}, {"viewed_count": 3112740, "hero": "https://pe.tedcdn.com/images/ted/69d74807799b754a4ce42394fb5b2134766f27f2_2880x1620.jpg", "title": "TED\'s secret to great public speaking", "id": 2485, "speaker": "Chris Anderson", "duration": 475, "slug": "chris_anderson_teds_secret_to_great_public_speaking"}, {"viewed_count": 2222257, "hero": "https://pe.tedcdn.com/images/ted/167464_800x600.jpg", "title": "Lies, damned lies and statistics (about TEDTalks)", "id": 846, "speaker": "Sebastian Wernicke", "duration": 359, "slug": "lies_damned_lies_and_statistics_about_tedtalks"}, {"viewed_count": 2542838, "hero": "https://pe.tedcdn.com/images/ted/2a46d8d424ce31486b5ebb8278ade834cd6aefe7_1600x1200.jpg", "title": "Who controls the world?", "id": 1668, "speaker": "James B. Glattfelder", "duration": 850, "slug": "james_b_glattfelder_who_controls_the_world"}], "recorded_at": "2013-02-28T00:00:00.000+00:00", "slug": "eric_berlow_and_sean_gourley_mapping_ideas_worth_spreading", "speaker_name": "Eric Berlow and Sean Gourley", "viewed_count": 1087781, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2013", "name": "Eric Berlow and Sean Gourley: Mapping ideas worth spreading"}'
+p261
+sS'keywords'
+p262
+(lp263
+VTED Fellows
+p264
+aValgorithm
+p265
+aVcomplexity
+p266
+aVdata
+p267
+aVtechnology
+p268
+asS'datecrawled'
+p269
+g256
+(S'\x07\xe1\n\x17\x00\x05\x19\x08\xe1}'
+tRp270
+sS'id'
+p271
+I1823
+ss.

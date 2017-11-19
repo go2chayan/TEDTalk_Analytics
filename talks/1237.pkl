@@ -1,0 +1,926 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, I have a strange career.
+p5
+aVI know it because people come up to me, like colleagues, and say,
+p6
+aV"Chris, you have a strange career."
+p7
+aa(lp8
+V(Laughter)
+p9
+aa(lp10
+VAnd I can see their point,
+p11
+aVbecause I started my career as a theoretical nuclear physicist.
+p12
+aVAnd I was thinking about quarks and gluons and heavy ion collisions,
+p13
+aVand I was only 14 years old \u2014
+p14
+aVNo, no, I wasn't 14 years old.
+p15
+aVBut after that,
+p16
+aVI actually had my own lab
+p17
+aVin the Computational Neuroscience department,
+p18
+aVand I wasn't doing any neuroscience.
+p19
+aVLater, I would work on evolutionary genetics,
+p20
+aVand I would work on systems biology.
+p21
+aa(lp22
+VBut I'm going to tell you about something else today.
+p23
+aVI'm going to tell you about how I learned something about life.
+p24
+aVAnd I was actually a rocket scientist.
+p25
+aVI wasn't really a rocket scientist,
+p26
+aVbut I was working at the Jet Propulsion Laboratory
+p27
+aVin sunny California, where it's warm;
+p28
+aVwhereas now I am in the mid-West, and it's cold.
+p29
+aVBut it was an exciting experience.
+p30
+aVOne day, a NASA manager comes into my office,
+p31
+aVsits down and says,
+p32
+aV"Can you please tell us, how do we look for life outside Earth?"
+p33
+aVAnd that came as a surprise to me,
+p34
+aVbecause I was actually hired to work on quantum computation.
+p35
+aVYet, I had a very good answer.
+p36
+aVI said, "I have no idea."
+p37
+aa(lp38
+V(Laughter)
+p39
+aa(lp40
+VAnd he told me, "Biosignatures, we need to look for a biosignature."
+p41
+aVAnd I said, "What is that?"
+p42
+aVAnd he said, "It's any measurable phenomenon
+p43
+aVthat allows us to indicate the presence of life."
+p44
+aVAnd I said, "Really?
+p45
+aVBecause isn't that easy?
+p46
+aVI mean, we have life.
+p47
+aVCan't you apply a definition,
+p48
+aVfor example, a Supreme Court-like definition of life?"
+p49
+aa(lp50
+VAnd then I thought about it a little bit, and I said,
+p51
+aV"Well, is it really that easy?
+p52
+aVBecause, yes, if you see something like this,
+p53
+aVthen all right, fine, I'm going to call it life \u2014
+p54
+aVno doubt about it.
+p55
+aVBut here's something."
+p56
+aVAnd he goes, "Right, that's life too. I know that."
+p57
+aVExcept, if you think that life is also defined by things that die,
+p58
+aVyou're not in luck with this thing,
+p59
+aVbecause that's actually a very strange organism.
+p60
+aVIt grows up into the adult stage like that
+p61
+aVand then goes through a Benjamin Button phase,
+p62
+aVand actually goes backwards and backwards until it's like a little embryo again,
+p63
+aVand then actually grows back up, and back down and back up \u2014
+p64
+aVsort of yo-yo \u2014 and it never dies.
+p65
+aVSo it's actually life,
+p66
+aVbut it's actually not as we thought life would be.
+p67
+aVAnd then you see something like that.
+p68
+aVAnd he was like, "My God, what kind of a life form is that?"
+p69
+aVAnyone know?
+p70
+aVIt's actually not life, it's a crystal.
+p71
+aa(lp72
+VSo once you start looking and looking at smaller and smaller things \u2014
+p73
+aVso this particular person wrote a whole article and said,
+p74
+aV"Hey, these are bacteria."
+p75
+aVExcept, if you look a little bit closer,
+p76
+aVyou see, in fact, that this thing is way too small to be anything like that.
+p77
+aVSo he was convinced, but, in fact, most people aren't.
+p78
+aVAnd then, of course, NASA also had a big announcement,
+p79
+aVand President Clinton gave a press conference,
+p80
+aVabout this amazing discovery of life in a Martian meteorite.
+p81
+aVExcept that nowadays, it's heavily disputed.
+p82
+aVIf you take the lesson of all these pictures,
+p83
+aVthen you realize, well, actually, maybe it's not that easy.
+p84
+aVMaybe I do need a definition of life
+p85
+aVin order to make that kind of distinction.
+p86
+aa(lp87
+VSo can life be defined?
+p88
+aVWell how would you go about it?
+p89
+aVWell of course, you'd go to Encyclopedia Britannica and open at L.
+p90
+aVNo, of course you don't do that; you put it somewhere in Google.
+p91
+aVAnd then you might get something.
+p92
+aa(lp93
+V(Laughter)
+p94
+aa(lp95
+VAnd what you might get \u2014
+p96
+aVand anything that actually refers to things that we are used to,
+p97
+aVyou throw away.
+p98
+aVAnd then you might come up with something like this.
+p99
+aVAnd it says something complicated with lots and lots of concepts.
+p100
+aVWho on Earth would write something as convoluted and complex and inane?
+p101
+aVOh, it's actually a really, really, important set of concepts.
+p102
+aVSo I'm highlighting just a few words
+p103
+aVand saying definitions like that rely on things
+p104
+aVthat are not based on amino acids or leaves or anything that we are used to,
+p105
+aVbut in fact on processes only.
+p106
+aVAnd if you take a look at that,
+p107
+aVthis was actually in a book that I wrote that deals with artificial life.
+p108
+aVAnd that explains why that NASA manager was actually in my office to begin with.
+p109
+aVBecause the idea was that, with concepts like that,
+p110
+aVmaybe we can actually manufacture a form of life.
+p111
+aa(lp112
+VAnd so if you go and ask yourself, "What on Earth is artificial life?",
+p113
+aVlet me give you a whirlwind tour of how all this stuff came about.
+p114
+aVAnd it started out quite a while ago,
+p115
+aVwhen someone wrote one of the first successful computer viruses.
+p116
+aVAnd for those of you who aren't old enough,
+p117
+aVyou have no idea how this infection was working \u2014
+p118
+aVnamely, through these floppy disks.
+p119
+aVBut the interesting thing about these computer virus infections
+p120
+aVwas that, if you look at the rate at which the infection worked,
+p121
+aVthey show this spiky behavior that you're used to from a flu virus.
+p122
+aVAnd it is in fact due to this arms race
+p123
+aVbetween hackers and operating system designers
+p124
+aVthat things go back and forth.
+p125
+aVAnd the result is kind of a tree of life of these viruses,
+p126
+aVa phylogeny that looks very much like the type of life
+p127
+aVthat we're used to, at least on the viral level.
+p128
+aa(lp129
+VSo is that life?
+p130
+aVNot as far as I'm concerned.
+p131
+aVWhy? Because these things don't evolve by themselves.
+p132
+aVIn fact, they have hackers writing them.
+p133
+aVBut the idea was taken very quickly a little bit further,
+p134
+aVwhen a scientist working at the Santa Fe Institute decided,
+p135
+aV"Why don't we try to package these little viruses
+p136
+aVin artificial worlds inside of the computer
+p137
+aVand let them evolve?"
+p138
+aVAnd this was Steen Rasmussen.
+p139
+aVAnd he designed this system, but it really didn't work,
+p140
+aVbecause his viruses were constantly destroying each other.
+p141
+aVBut there was another scientist who had been watching this, an ecologist.
+p142
+aVAnd he went home and says, "I know how to fix this."
+p143
+aVAnd he wrote the Tierra system,
+p144
+aVand, in my book,
+p145
+aVis in fact one of the first truly artificial living systems \u2014
+p146
+aVexcept for the fact that these programs didn't really grow in complexity.
+p147
+aa(lp148
+VSo having seen this work, worked a little bit on this,
+p149
+aVthis is where I came in.
+p150
+aVAnd I decided to create a system that has all the properties
+p151
+aVthat are necessary to see, in fact, the evolution of complexity,
+p152
+aVmore and more complex problems constantly evolving.
+p153
+aVAnd of course, since I really don't know how to write code, I had help in this.
+p154
+aVI had two undergraduate students
+p155
+aVat California Institute of Technology that worked with me.
+p156
+aVThat's Charles Ofria on the left, Titus Brown on the right.
+p157
+aVThey are now, actually, respectable professors
+p158
+aVat Michigan State University,
+p159
+aVbut I can assure you, back in the day, we were not a respectable team.
+p160
+aVAnd I'm really happy that no photo survives
+p161
+aVof the three of us anywhere close together.
+p162
+aa(lp163
+VBut what is this system like?
+p164
+aVWell I can't really go into the details,
+p165
+aVbut what you see here is some of the entrails.
+p166
+aVBut what I wanted to focus on is this type of population structure.
+p167
+aVThere's about 10,000 programs sitting here.
+p168
+aVAnd all different strains are colored in different colors.
+p169
+aVAnd as you see here, there are groups that are growing on top of each other,
+p170
+aVbecause they are spreading.
+p171
+aVAny time there is a program that's better at surviving in this world,
+p172
+aVdue to whatever mutation it has acquired,
+p173
+aVit is going to spread over the others and drive the others to extinction.
+p174
+aa(lp175
+VSo I'm going to show you a movie
+p176
+aVwhere you're going to see that kind of dynamic.
+p177
+aVAnd these kinds of experiments are started with programs that we wrote ourselves.
+p178
+aVWe write our own stuff, replicate it, and are very proud of ourselves.
+p179
+aVAnd we put them in, and what you see immediately
+p180
+aVis that there are waves and waves of innovation.
+p181
+aVBy the way, this is highly accelerated,
+p182
+aVso it's like a 1000 generations a second.
+p183
+aVBut immediately, the system goes like, "What kind of dumb piece of code was this?
+p184
+aVThis can be improved upon in so many ways, so quickly."
+p185
+aVSo you see waves of new types taking over the other types.
+p186
+aVAnd this type of activity goes on for quite a while,
+p187
+aVuntil the main easy things have been acquired by these programs.
+p188
+aVAnd then, you see sort of like a stasis coming on
+p189
+aVwhere the system essentially waits
+p190
+aVfor a new type of innovation, like this one,
+p191
+aVwhich is going to spread over all the other innovations that were before
+p192
+aVand is erasing the genes that it had before,
+p193
+aVuntil a new type of higher level of complexity has been achieved.
+p194
+aVAnd this process goes on and on and on.
+p195
+aa(lp196
+VSo what we see here
+p197
+aVis a system that lives in very much the way we're used to how life goes.
+p198
+aVBut what the NASA people had asked me really was,
+p199
+aV"Do these guys have a biosignature?
+p200
+aVCan we measure this type of life?
+p201
+aVBecause if we can,
+p202
+aVmaybe we have a chance of actually discovering life somewhere else
+p203
+aVwithout being biased by things like amino acids."
+p204
+aVSo I said, "Well, perhaps we should construct a biosignature
+p205
+aVbased on life as a universal process.
+p206
+aVIn fact, it should perhaps make use of the concepts that I developed
+p207
+aVjust in order to sort of capture what a simple living system might be."
+p208
+aa(lp209
+VAnd the thing I came up with \u2014
+p210
+aVI have to first give you an introduction about the idea,
+p211
+aVand maybe that would be a meaning detector,
+p212
+aVrather than a life detector.
+p213
+aVAnd the way we would do that \u2014
+p214
+aVI would like to find out how I can distinguish text
+p215
+aVthat was written by a million monkeys, as opposed to text that is in our books.
+p216
+aVAnd I would like to do it in such a way
+p217
+aVthat I don't actually have to be able to read the language,
+p218
+aVbecause I'm sure I won't be able to.
+p219
+aVAs long as I know that there's some sort of alphabet.
+p220
+aVSo here would be a frequency plot
+p221
+aVof how often you find each of the 26 letters of the alphabet
+p222
+aVin a text written by random monkeys.
+p223
+aVAnd obviously, each of these letters comes off about roughly equally frequent.
+p224
+aa(lp225
+VBut if you now look at the same distribution in English texts,
+p226
+aVit looks like that.
+p227
+aVAnd I'm telling you, this is very robust across English texts.
+p228
+aVAnd if I look at French texts, it looks a little bit different,
+p229
+aVor Italian or German.
+p230
+aVThey all have their own type of frequency distribution,
+p231
+aVbut it's robust.
+p232
+aVIt doesn't matter whether it writes about politics or about science.
+p233
+aVIt doesn't matter whether it's a poem or whether it's a mathematical text.
+p234
+aVIt's a robust signature,
+p235
+aVand it's very stable.
+p236
+aVAs long as our books are written in English \u2014
+p237
+aVbecause people are rewriting them and recopying them \u2014
+p238
+aVit's going to be there.
+p239
+aa(lp240
+VSo that inspired me to think about, well, what if I try to use this idea
+p241
+aVin order, not to detect random texts from texts with meaning,
+p242
+aVbut rather detect the fact that there is meaning
+p243
+aVin the biomolecules that make up life.
+p244
+aVBut first I have to ask:
+p245
+aVwhat are these building blocks,
+p246
+aVlike the alphabet, elements that I showed you?
+p247
+aVWell it turns out, we have many different alternatives
+p248
+aVfor such a set of building blocks.
+p249
+aVWe could use amino acids,
+p250
+aVwe could use nucleic acids, carboxylic acids, fatty acids.
+p251
+aVIn fact, chemistry's extremely rich, and our body uses a lot of them.
+p252
+aa(lp253
+VSo that we actually, to test this idea,
+p254
+aVfirst took a look at amino acids and some other carboxylic acids.
+p255
+aVAnd here's the result.
+p256
+aVHere is, in fact, what you get
+p257
+aVif you, for example, look at the distribution of amino acids
+p258
+aVon a comet or in interstellar space or, in fact, in a laboratory,
+p259
+aVwhere you made very sure that in your primordial soup,
+p260
+aVthere is no living stuff in there.
+p261
+aVWhat you find is mostly glycine and then alanine
+p262
+aVand there's some trace elements of the other ones.
+p263
+aVThat is also very robust \u2014
+p264
+aVwhat you find in systems like Earth
+p265
+aVwhere there are amino acids, but there is no life.
+p266
+aa(lp267
+VBut suppose you take some dirt and dig through it
+p268
+aVand then put it into these spectrometers,
+p269
+aVbecause there's bacteria all over the place;
+p270
+aVor you take water anywhere on Earth,
+p271
+aVbecause it's teaming with life,
+p272
+aVand you make the same analysis;
+p273
+aVthe spectrum looks completely different.
+p274
+aVOf course, there is still glycine and alanine,
+p275
+aVbut in fact, there are these heavy elements, these heavy amino acids,
+p276
+aVthat are being produced because they are valuable to the organism.
+p277
+aVAnd some other ones that are not used in the set of 20,
+p278
+aVthey will not appear at all in any type of concentration.
+p279
+aVSo this also turns out to be extremely robust.
+p280
+aVIt doesn't matter what kind of sediment you're using to grind up,
+p281
+aVwhether it's bacteria or any other plants or animals.
+p282
+aVAnywhere there's life,
+p283
+aVyou're going to have this distribution,
+p284
+aVas opposed to that distribution.
+p285
+aVAnd it is detectable not just in amino acids.
+p286
+aa(lp287
+VNow you could ask:
+p288
+aVWell, what about these Avidians?
+p289
+aVThe Avidians being the denizens of this computer world
+p290
+aVwhere they are perfectly happy replicating and growing in complexity.
+p291
+aVSo this is the distribution that you get if, in fact, there is no life.
+p292
+aVThey have about 28 of these instructions.
+p293
+aVAnd if you have a system where they're being replaced one by the other,
+p294
+aVit's like the monkeys writing on a typewriter.
+p295
+aVEach of these instructions appears with roughly the equal frequency.
+p296
+aVBut if you now take a set of replicating guys
+p297
+aVlike in the video that you saw,
+p298
+aVit looks like this.
+p299
+aVSo there are some instructions
+p300
+aVthat are extremely valuable to these organisms,
+p301
+aVand their frequency is going to be high.
+p302
+aVAnd there's actually some instructions that you only use once, if ever.
+p303
+aVSo they are either poisonous
+p304
+aVor really should be used at less of a level than random.
+p305
+aVIn this case, the frequency is lower.
+p306
+aVAnd so now we can see, is that really a robust signature?
+p307
+aVI can tell you indeed it is,
+p308
+aVbecause this type of spectrum, just like what you've seen in books,
+p309
+aVand just like what you've seen in amino acids,
+p310
+aVit doesn't really matter how you change the environment,
+p311
+aVit's very robust, it's going to reflect the environment.
+p312
+aa(lp313
+VSo I'm going to show you now a little experiment that we did.
+p314
+aVAnd I have to explain to you,
+p315
+aVthe top of this graph
+p316
+aVshows you that frequency distribution that I talked about.
+p317
+aVHere, that's the lifeless environment
+p318
+aVwhere each instruction occurs at an equal frequency.
+p319
+aVAnd below there, I show, in fact, the mutation rate in the environment.
+p320
+aVAnd I'm starting this at a mutation rate that is so high
+p321
+aVthat even if you would drop a replicating program
+p322
+aVthat would otherwise happily grow up to fill the entire world,
+p323
+aVif you drop it in, it gets mutated to death immediately.
+p324
+aVSo there is no life possible at that type of mutation rate.
+p325
+aVBut then I'm going to slowly turn down the heat, so to speak,
+p326
+aVand then there's this viability threshold
+p327
+aVwhere now it would be possible for a replicator to actually live.
+p328
+aVAnd indeed, we're going to be dropping these guys into that soup all the time.
+p329
+aa(lp330
+VSo let's see what that looks like.
+p331
+aVSo first, nothing, nothing, nothing.
+p332
+aVToo hot, too hot.
+p333
+aVNow the viability threshold is reached,
+p334
+aVand the frequency distribution has dramatically changed
+p335
+aVand, in fact, stabilizes.
+p336
+aVAnd now what I did there
+p337
+aVis, I was being nasty, I just turned up the heat again and again.
+p338
+aVAnd of course, it reaches the viability threshold.
+p339
+aVAnd I'm just showing this to you again because it's so nice.
+p340
+aVYou hit the viability threshold.
+p341
+aVThe distribution changes to "alive!"
+p342
+aVAnd then, once you hit the threshold
+p343
+aVwhere the mutation rate is so high that you cannot self-reproduce,
+p344
+aVyou cannot copy the information forward to your offspring
+p345
+aVwithout making so many mistakes that your ability to replicate vanishes.
+p346
+aVAnd then, that signature is lost.
+p347
+aa(lp348
+VWhat do we learn from that?
+p349
+aVWell, I think we learn a number of things from that.
+p350
+aVOne of them is,
+p351
+aVif we are able to think about life in abstract terms \u2014
+p352
+aVand we're not talking about things like plants,
+p353
+aVand we're not talking about amino acids,
+p354
+aVand we're not talking about bacteria,
+p355
+aVbut we think in terms of processes \u2014
+p356
+aVthen we could start to think about life
+p357
+aVnot as something that is so special to Earth,
+p358
+aVbut that, in fact, could exist anywhere.
+p359
+aVBecause it really only has to do with these concepts of information,
+p360
+aVof storing information within physical substrates \u2014
+p361
+aVanything: bits, nucleic acids, anything that's an alphabet \u2014
+p362
+aVand make sure that there's some process
+p363
+aVso that this information can be stored for much longer than you would expect \u2014
+p364
+aVthe time scales for the deterioration of information.
+p365
+aVAnd if you can do that, then you have life.
+p366
+aa(lp367
+VSo the first thing that we learn
+p368
+aVis that it is possible to define life in terms of processes alone,
+p369
+aVwithout referring at all to the type of things that we hold dear,
+p370
+aVas far as the type of life on Earth is.
+p371
+aVAnd that, in a sense, removes us again,
+p372
+aVlike all of our scientific discoveries, or many of them \u2014
+p373
+aVit's this continuous dethroning of man \u2014
+p374
+aVof how we think we're special because we're alive.
+p375
+aVWell, we can make life; we can make life in the computer.
+p376
+aVGranted, it's limited,
+p377
+aVbut we have learned what it takes in order to actually construct it.
+p378
+aVAnd once we have that,
+p379
+aVthen it is not such a difficult task anymore
+p380
+aVto say, if we understand the fundamental processes
+p381
+aVthat do not refer to any particular substrate,
+p382
+aVthen we can go out and try other worlds,
+p383
+aVfigure out what kind of chemical alphabets might there be,
+p384
+aVfigure enough about the normal chemistry, the geochemistry of the planet,
+p385
+aVso that we know what this distribution would look like in the absence of life,
+p386
+aVand then look for large deviations from this \u2014
+p387
+aVthis thing sticking out, which says, "This chemical really shouldn't be there."
+p388
+aVNow we don't know that there's life then,
+p389
+aVbut we could say,
+p390
+aV"Well at least I'm going to have to take a look very precisely at this chemical
+p391
+aVand see where it comes from."
+p392
+aVAnd that might be our chance of actually discovering life
+p393
+aVwhen we cannot visibly see it.
+p394
+aa(lp395
+VAnd so that's really the only take-home message that I have for you.
+p396
+aVLife can be less mysterious than we make it out to be
+p397
+aVwhen we try to think about how it would be on other planets.
+p398
+aVAnd if we remove the mystery of life,
+p399
+aVthen I think it is a little bit easier for us to think about how we live,
+p400
+aVand how perhaps we're not as special as we always think we are.
+p401
+aVAnd I'm going to leave you with that.
+p402
+aa(lp403
+VAnd thank you very much.
+p404
+aa(lp405
+V(Applause)
+p406
+aasS'transcript_micsec'
+p407
+(lp408
+I11000
+aI18000
+aI20000
+aI49000
+aI96000
+aI97000
+aI122000
+aI177000
+aI220000
+aI233000
+aI234000
+aI288000
+aI341000
+aI386000
+aI427000
+aI458000
+aI521000
+aI562000
+aI605000
+aI643000
+aI677000
+aI714000
+aI768000
+aI841000
+aI899000
+aI948000
+aI1003000
+aI1092000
+aI1118000
+aI1120000
+asS'talk_meta'
+p409
+(dp410
+S'ratings'
+p411
+(dp412
+S'ingenious'
+p413
+I194
+sS'funny'
+p414
+I21
+sS'inspiring'
+p415
+I94
+sS'ok'
+p416
+I40
+sS'fascinating'
+p417
+I285
+sS'total_count'
+p418
+I1180
+sS'persuasive'
+p419
+I67
+sS'longwinded'
+p420
+I53
+sS'informative'
+p421
+I216
+sS'beautiful'
+p422
+I13
+sS'jaw-dropping'
+p423
+I69
+sS'obnoxious'
+p424
+I26
+sS'confusing'
+p425
+I55
+sS'courageous'
+p426
+I10
+sS'unconvincing'
+p427
+I37
+ssS'author'
+p428
+VChristoph_Adami;
+p429
+sS'url'
+p430
+S'https://www.ted.com/talks/christophe_adami_finding_life_we_can_t_imagine'
+p431
+sS'vidlen'
+p432
+I1131
+sS'totalviews'
+p433
+I599579
+sS'title'
+p434
+VFinding life we can't imagine
+p435
+sS'downloadlink'
+p436
+Vhttps://download.ted.com/talks/ChristophAdami_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p437
+sS'datepublished'
+p438
+cdatetime
+datetime
+p439
+(S'\x07\xdb\n\x04\n\x1f\x0e\x00\x00\x00'
+tRp440
+sS'datefilmed'
+p441
+g439
+(S'\x07\xdb\n\x04\n\x1f\x0e\x00\x00\x00'
+tRp442
+sS'alldata_JSON'
+p443
+S'{"viewed_count": 599579, "speakers": [{"description": "Artificial life researcher", "firstname": "Christoph", "title": "", "lastname": "Adami", "middleinitial": "", "whylisten": "<p>Christoph Adami researches the nature of living systems, using &#39;artificial life&#39; -- small, self-replicating computer programs.&nbsp;His main research focus is Darwinian evolution, which he studies at different levels of organization (from simple molecules to brains). He has pioneered theapplication of methods from information theory to the study of evolution, and designed the &quot;Avida&quot; system that launched the use of digital life as a tool for investigating basic questions in evolutionary biology.</p><p>He is Professor of Applied Life Sciences at the Keck Graduate Institute in Claremont, CA, and a Visiting Professor at the BEACON Center for the Study of Evolution in Action at Michigan State University. He obtained his PhD in theoretical physics from the State University of New York at Stony Brook.&nbsp;</p>", "slug": "christoph_adami", "whotheyare": "Christoph Adami works on the nature of life and evolution, trying to define life in a way that is as free as possible from our preconceptions.", "whatotherssay": "", "id": 1090, "photo_url": "https://pe.tedcdn.com/images/ted/0924299e75ea11fc049193ae9bf657c6b023c3c2_254x191.jpg"}], "current_talk": 1237, "description": "How do we search for alien life if it\'s nothing like the life that we know? Christoph Adami shows how he uses his research into artificial life -- self-replicating computer programs -- to find a signature, a \\"biomarker,\\" that is free of our preconceptions of what life is.", "language": "en", "url": "https://www.ted.com/talks/christophe_adami_finding_life_we_can_t_imagine", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 133586492}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25912209}, "podcast-high": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 133554285}, "180k": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25787572}, "64k": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9264751}, "1500k": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 206948860}, "450k": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63804845}, "podcast-regular": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63974746}, "950k": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 133583719}, "audio-podcast": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 11615400}, "podcast-light": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9364162}, "320k": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45635661}, "600k": {"uri": "https://download.ted.com/talks/ChristophAdami_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85315765}}}, "comments": {"count": 153, "id": 7286, "talk_id": 1237}, "slug": "christophe_adami_finding_life_we_can_t_imagine", "threadId": 7286, "talks": [{"event": "TEDxUIUC", "player_talks": [{"event": "TEDxUIUC", "slug": "christophe_adami_finding_life_we_can_t_imagine", "filmed": 1298073600, "targeting": {"event": "TEDxUIUC", "tag": "TEDx,bacteria,biology,evolution,life,science", "id": 1237, "talk": "christophe_adami_finding_life_we_can_t_imagine", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Finding life we can\'t imagine", "postAdDuration": "0.83", "published": 1317738674, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/baf8d230f2388c3774d20b54083667f8aa605692_800x600.jpg?quality=89&w=600", "name": "Christoph Adami: Finding life we can\'t imagine", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "bacteria", "biology", "evolution", "life", "science"], "speaker": "Christoph Adami", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1131, "id": 1237, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ChristophAdami_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxUIUC", "tag": "TEDx,bacteria,biology,evolution,life,science", "id": 1237, "talk": "christophe_adami_finding_life_we_can_t_imagine", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1237.json", "stream": "https://hls.ted.com/talks/1237.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxUIUC%26id%3D1237%26tag%3DTEDx%2Cbacteria%2Cbiology%2Cevolution%2Clife%2Cscience%26talk%3Dchristophe_adami_finding_life_we_can_t_imagine%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/christophe_adami_finding_life_we_can_t_imagine"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/baf8d230f2388c3774d20b54083667f8aa605692_800x600.jpg?q=50&w=15", "duration": 1131, "id": 1237, "ratings": [{"count": 67, "id": 24, "name": "Persuasive"}, {"count": 10, "id": 3, "name": "Courageous"}, {"count": 285, "id": 22, "name": "Fascinating"}, {"count": 216, "id": 8, "name": "Informative"}, {"count": 94, "id": 10, "name": "Inspiring"}, {"count": 194, "id": 9, "name": "Ingenious"}, {"count": 69, "id": 23, "name": "Jaw-dropping"}, {"count": 37, "id": 21, "name": "Unconvincing"}, {"count": 55, "id": 2, "name": "Confusing"}, {"count": 21, "id": 7, "name": "Funny"}, {"count": 26, "id": 26, "name": "Obnoxious"}, {"count": 13, "id": 1, "name": "Beautiful"}, {"count": 40, "id": 25, "name": "OK"}, {"count": 53, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Artificial life researcher", "firstname": "Christoph", "title": "", "lastname": "Adami", "middleinitial": "", "whylisten": "<p>Christoph Adami researches the nature of living systems, using &#39;artificial life&#39; -- small, self-replicating computer programs.&nbsp;His main research focus is Darwinian evolution, which he studies at different levels of organization (from simple molecules to brains). He has pioneered theapplication of methods from information theory to the study of evolution, and designed the &quot;Avida&quot; system that launched the use of digital life as a tool for investigating basic questions in evolutionary biology.</p><p>He is Professor of Applied Life Sciences at the Keck Graduate Institute in Claremont, CA, and a Visiting Professor at the BEACON Center for the Study of Evolution in Action at Michigan State University. He obtained his PhD in theoretical physics from the State University of New York at Stony Brook.&nbsp;</p>", "slug": "christoph_adami", "whotheyare": "Christoph Adami works on the nature of life and evolution, trying to define life in a way that is as free as possible from our preconceptions.", "whatotherssay": "", "id": 1090, "photo_url": "https://pe.tedcdn.com/images/ted/0924299e75ea11fc049193ae9bf657c6b023c3c2_254x191.jpg"}], "title": "Finding life we can\'t imagine", "take_action": null, "comments": 7286, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/baf8d230f2388c3774d20b54083667f8aa605692_800x600.jpg", "description": "How do we search for alien life if it\'s nothing like the life that we know? Christoph Adami shows how he uses his research into artificial life -- self-replicating computer programs -- to find a signature, a \\"biomarker,\\" that is free of our preconceptions of what life is.", "tags": ["TEDx", "bacteria", "biology", "evolution", "life", "science"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-pt-br.mp4"}, "az": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-az.mp4", "name": "Azerbaijani", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-az.mp4"}, "es": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/ChristophAdami_2011X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ChristophAdami_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ChristophAdami_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ChristophAdami_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1237, "audioDownload": "https://download.ted.com/talks/ChristophAdami_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1266914, "hero": "https://pe.tedcdn.com/images/ted/d1deec1628e79899995a048ad5d012737740caa1_2880x1620.jpg", "title": "Join the SETI search", "id": 468, "speaker": "Jill Tarter", "duration": 1283, "slug": "jill_tarter_s_call_to_join_the_seti_search"}, {"viewed_count": 1082636, "hero": "https://pe.tedcdn.com/images/ted/af6bbdfdd36307c7cb26702fd0da799d8bd7f505_800x600.jpg", "title": "Finding planets around other stars", "id": 1210, "speaker": "Lucianne Walkowicz", "duration": 264, "slug": "lucianne_walkowicz_finding_planets_around_other_stars"}, {"viewed_count": 695298, "hero": "https://pe.tedcdn.com/images/ted/6da638a3d94475b933f0c6395f0c0723d21f5eb2_2880x1620.jpg", "title": "Making matter come alive", "id": 1218, "speaker": "Lee Cronin", "duration": 911, "slug": "lee_cronin_making_matter_come_alive"}, {"viewed_count": 584248, "hero": "https://pe.tedcdn.com/images/ted/cf3f802cc34ca2755770767864d9358cd7139f3a_800x600.jpg", "title": "Back to the future (of 1994)", "id": 1346, "speaker": "Danny Hillis", "duration": 1150, "slug": "danny_hillis_back_to_the_future_of_1994"}, {"viewed_count": 2620719, "hero": "https://pe.tedcdn.com/images/ted/412f4466f7aab961dc3bb4840b09519d64b6cf9c_2880x1620.jpg", "title": "What will humans look like in 100 years?", "id": 2632, "speaker": "Juan Enriquez", "duration": 945, "slug": "juan_enriquez_what_will_humans_look_like_in_100_years"}, {"viewed_count": 1347051, "hero": "https://pe.tedcdn.com/images/ted/06875351627d45a225069463cc956d5413519a70_2880x1620.jpg", "title": "My wish: Build the Encyclopedia of Life", "id": 83, "speaker": "E.O. Wilson", "duration": 1355, "slug": "e_o_wilson_on_saving_life_on_earth"}], "recorded_at": "2011-02-19T00:00:00.000+00:00", "slug": "christophe_adami_finding_life_we_can_t_imagine", "speaker_name": "Christoph Adami", "viewed_count": 599579, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxUIUC, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxUIUC", "name": "Christoph Adami: Finding life we can\'t imagine"}'
+p444
+sS'keywords'
+p445
+(lp446
+VTEDx
+p447
+aVbacteria
+p448
+aVbiology
+p449
+aVevolution
+p450
+aVlife
+p451
+aVscience
+p452
+asS'datecrawled'
+p453
+g439
+(S'\x07\xe1\n\x17\x02\x12\x1f\x0c\xe5\xe7'
+tRp454
+sS'id'
+p455
+I1237
+ss.

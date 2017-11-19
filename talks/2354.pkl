@@ -1,0 +1,772 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VA few years ago,
+p5
+aVwith my colleague, Emmanuelle Charpentier,
+p6
+aVI invented a new technology for editing genomes.
+p7
+aVIt's called CRISPR-Cas9.
+p8
+aVThe CRISPR technology allows scientists to make changes
+p9
+aVto the DNA in cells
+p10
+aVthat could allow us to cure genetic disease.
+p11
+aa(lp12
+VYou might be interested to know
+p13
+aVthat the CRISPR technology came about through a basic research project
+p14
+aVthat was aimed at discovering how bacteria fight viral infections.
+p15
+aVBacteria have to deal with viruses in their environment,
+p16
+aVand we can think about a viral infection like a ticking time bomb \u2014
+p17
+aVa bacterium has only a few minutes to defuse the bomb
+p18
+aVbefore it gets destroyed.
+p19
+aVSo, many bacteria have in their cells an adaptive immune system called CRISPR,
+p20
+aVthat allows them to detect viral DNA and destroy it.
+p21
+aa(lp22
+VPart of the CRISPR system is a protein called Cas9,
+p23
+aVthat's able to seek out, cut and eventually degrade viral DNA
+p24
+aVin a specific way.
+p25
+aVAnd it was through our research
+p26
+aVto understand the activity of this protein, Cas9,
+p27
+aVthat we realized that we could harness its function
+p28
+aVas a genetic engineering technology \u2014
+p29
+aVa way for scientists to delete or insert specific bits of DNA into cells
+p30
+aVwith incredible precision \u2014
+p31
+aVthat would offer opportunities
+p32
+aVto do things that really haven't been possible in the past.
+p33
+aa(lp34
+VThe CRISPR technology has already been used
+p35
+aVto change the DNA in the cells of mice and monkeys,
+p36
+aVother organisms as well.
+p37
+aVChinese scientists showed recently
+p38
+aVthat they could even use the CRISPR technology
+p39
+aVto change genes in human embryos.
+p40
+aVAnd scientists in Philadelphia showed they could use CRISPR
+p41
+aVto remove the DNA of an integrated HIV virus
+p42
+aVfrom infected human cells.
+p43
+aa(lp44
+VThe opportunity to do this kind of genome editing
+p45
+aValso raises various ethical issues that we have to consider,
+p46
+aVbecause this technology can be employed not only in adult cells,
+p47
+aVbut also in the embryos of organisms,
+p48
+aVincluding our own species.
+p49
+aVAnd so, together with my colleagues,
+p50
+aVI've called for a global conversation about the technology that I co-invented,
+p51
+aVso that we can consider all of the ethical and societal implications
+p52
+aVof a technology like this.
+p53
+aa(lp54
+VWhat I want to do now is tell you what the CRISPR technology is,
+p55
+aVwhat it can do,
+p56
+aVwhere we are today
+p57
+aVand why I think we need to take a prudent path forward
+p58
+aVin the way that we employ this technology.
+p59
+aa(lp60
+VWhen viruses infect a cell, they inject their DNA.
+p61
+aVAnd in a bacterium,
+p62
+aVthe CRISPR system allows that DNA to be plucked out of the virus,
+p63
+aVand inserted in little bits into the chromosome \u2014
+p64
+aVthe DNA of the bacterium.
+p65
+aVAnd these integrated bits of viral DNA get inserted at a site called CRISPR.
+p66
+aVCRISPR stands for clustered regularly interspaced short palindromic repeats.
+p67
+aV(Laughter)
+p68
+aa(lp69
+VA big mouthful \u2014 you can see why we use the acronym CRISPR.
+p70
+aVIt's a mechanism that allows cells to record, over time,
+p71
+aVthe viruses they have been exposed to.
+p72
+aVAnd importantly, those bits of DNA are passed on to the cells' progeny,
+p73
+aVso cells are protected from viruses not only in one generation,
+p74
+aVbut over many generations of cells.
+p75
+aVThis allows the cells to keep a record of infection,
+p76
+aVand as my colleague, Blake Wiedenheft, likes to say,
+p77
+aVthe CRISPR locus is effectively a genetic vaccination card in cells.
+p78
+aVOnce those bits of DNA have been inserted into the bacterial chromosome,
+p79
+aVthe cell then makes a little copy of a molecule called RNA,
+p80
+aVwhich is orange in this picture,
+p81
+aVthat is an exact replicate of the viral DNA.
+p82
+aVRNA is a chemical cousin of DNA,
+p83
+aVand it allows interaction with DNA molecules
+p84
+aVthat have a matching sequence.
+p85
+aa(lp86
+VSo those little bits of RNA from the CRISPR locus
+p87
+aVassociate \u2014 they bind \u2014 to protein called Cas9,
+p88
+aVwhich is white in the picture,
+p89
+aVand form a complex that functions like a sentinel in the cell.
+p90
+aVIt searches through all of the DNA in the cell,
+p91
+aVto find sites that match the sequences in the bound RNAs.
+p92
+aVAnd when those sites are found \u2014
+p93
+aVas you can see here, the blue molecule is DNA \u2014
+p94
+aVthis complex associates with that DNA
+p95
+aVand allows the Cas9 cleaver to cut up the viral DNA.
+p96
+aVIt makes a very precise break.
+p97
+aVSo we can think of the Cas9 RNA sentinel complex
+p98
+aVlike a pair of scissors that can cut DNA \u2014
+p99
+aVit makes a double-stranded break in the DNA helix.
+p100
+aVAnd importantly, this complex is programmable,
+p101
+aVso it can be programmed to recognize particular DNA sequences,
+p102
+aVand make a break in the DNA at that site.
+p103
+aa(lp104
+VAs I'm going to tell you now,
+p105
+aVwe recognized that that activity could be harnessed for genome engineering,
+p106
+aVto allow cells to make a very precise change to the DNA
+p107
+aVat the site where this break was introduced.
+p108
+aVThat's sort of analogous
+p109
+aVto the way that we use a word-processing program
+p110
+aVto fix a typo in a document.
+p111
+aa(lp112
+VThe reason we envisioned using the CRISPR system for genome engineering
+p113
+aVis because cells have the ability to detect broken DNA
+p114
+aVand repair it.
+p115
+aVSo when a plant or an animal cell detects a double-stranded break in its DNA,
+p116
+aVit can fix that break,
+p117
+aVeither by pasting together the ends of the broken DNA
+p118
+aVwith a little, tiny change in the sequence of that position,
+p119
+aVor it can repair the break by integrating a new piece of DNA at the site of the cut.
+p120
+aVSo if we have a way to introduce double-stranded breaks into DNA
+p121
+aVat precise places,
+p122
+aVwe can trigger cells to repair those breaks,
+p123
+aVby either the disruption or incorporation of new genetic information.
+p124
+aVSo if we were able to program the CRISPR technology
+p125
+aVto make a break in DNA
+p126
+aVat the position at or near a mutation causing cystic fibrosis, for example,
+p127
+aVwe could trigger cells to repair that mutation.
+p128
+aa(lp129
+VGenome engineering is actually not new, it's been in development since the 1970s.
+p130
+aVWe've had technologies for sequencing DNA,
+p131
+aVfor copying DNA,
+p132
+aVand even for manipulating DNA.
+p133
+aVAnd these technologies were very promising,
+p134
+aVbut the problem was that they were either inefficient,
+p135
+aVor they were difficult enough to use
+p136
+aVthat most scientists had not adopted them for use in their own laboratories,
+p137
+aVor certainly for many clinical applications.
+p138
+aVSo, the opportunity to take a technology like CRISPR and utilize it has appeal,
+p139
+aVbecause of its relative simplicity.
+p140
+aVWe can think of older genome engineering technologies
+p141
+aVas similar to having to rewire your computer
+p142
+aVeach time you want to run a new piece of software,
+p143
+aVwhereas the CRISPR technology is like software for the genome,
+p144
+aVwe can program it easily, using these little bits of RNA.
+p145
+aa(lp146
+VSo once a double-stranded break is made in DNA,
+p147
+aVwe can induce repair,
+p148
+aVand thereby potentially achieve astounding things,
+p149
+aVlike being able to correct mutations that cause sickle cell anemia
+p150
+aVor cause Huntington's Disease.
+p151
+aVI actually think that the first applications of the CRISPR technology
+p152
+aVare going to happen in the blood,
+p153
+aVwhere it's relatively easier to deliver this tool into cells,
+p154
+aVcompared to solid tissues.
+p155
+aa(lp156
+VRight now, a lot of the work that's going on
+p157
+aVapplies to animal models of human disease, such as mice.
+p158
+aVThe technology is being used to make very precise changes
+p159
+aVthat allow us to study the way that these changes in the cell's DNA
+p160
+aVaffect either a tissue or, in this case, an entire organism.
+p161
+aa(lp162
+VNow in this example,
+p163
+aVthe CRISPR technology was used to disrupt a gene
+p164
+aVby making a tiny change in the DNA
+p165
+aVin a gene that is responsible for the black coat color of these mice.
+p166
+aVImagine that these white mice differ from their pigmented litter-mates
+p167
+aVby just a tiny change at one gene in the entire genome,
+p168
+aVand they're otherwise completely normal.
+p169
+aVAnd when we sequence the DNA from these animals,
+p170
+aVwe find that the change in the DNA
+p171
+aVhas occurred at exactly the place where we induced it,
+p172
+aVusing the CRISPR technology.
+p173
+aa(lp174
+VAdditional experiments are going on in other animals
+p175
+aVthat are useful for creating models for human disease,
+p176
+aVsuch as monkeys.
+p177
+aVAnd here we find that we can use these systems
+p178
+aVto test the application of this technology in particular tissues,
+p179
+aVfor example, figuring out how to deliver the CRISPR tool into cells.
+p180
+aVWe also want to understand better
+p181
+aVhow to control the way that DNA is repaired after it's cut,
+p182
+aVand also to figure out how to control and limit any kind of off-target,
+p183
+aVor unintended effects of using the technology.
+p184
+aa(lp185
+VI think that we will see clinical application of this technology,
+p186
+aVcertainly in adults,
+p187
+aVwithin the next 10 years.
+p188
+aVI think that it's likely that we will see clinical trials
+p189
+aVand possibly even approved therapies within that time,
+p190
+aVwhich is a very exciting thing to think about.
+p191
+aVAnd because of the excitement around this technology,
+p192
+aVthere's a lot of interest in start-up companies
+p193
+aVthat have been founded to commercialize the CRISPR technology,
+p194
+aVand lots of venture capitalists
+p195
+aVthat have been investing in these companies.
+p196
+aa(lp197
+VBut we have to also consider
+p198
+aVthat the CRISPR technology can be used for things like enhancement.
+p199
+aVImagine that we could try to engineer humans
+p200
+aVthat have enhanced properties, such as stronger bones,
+p201
+aVor less susceptibility to cardiovascular disease
+p202
+aVor even to have properties
+p203
+aVthat we would consider maybe to be desirable,
+p204
+aVlike a different eye color or to be taller, things like that.
+p205
+aV"Designer humans," if you will.
+p206
+aVRight now, the genetic information
+p207
+aVto understand what types of genes would give rise to these traits
+p208
+aVis mostly not known.
+p209
+aVBut it's important to know
+p210
+aVthat the CRISPR technology gives us a tool to make such changes,
+p211
+aVonce that knowledge becomes available.
+p212
+aa(lp213
+VThis raises a number of ethical questions that we have to carefully consider,
+p214
+aVand this is why I and my colleagues have called for a global pause
+p215
+aVin any clinical application of the CRISPR technology in human embryos,
+p216
+aVto give us time
+p217
+aVto really consider all of the various implications of doing so.
+p218
+aVAnd actually, there is an important precedent for such a pause
+p219
+aVfrom the 1970s,
+p220
+aVwhen scientists got together
+p221
+aVto call for a moratorium on the use of molecular cloning,
+p222
+aVuntil the safety of that technology could be tested carefully and validated.
+p223
+aa(lp224
+VSo, genome-engineered humans are not with us yet,
+p225
+aVbut this is no longer science fiction.
+p226
+aVGenome-engineered animals and plants are happening right now.
+p227
+aVAnd this puts in front of all of us a huge responsibility,
+p228
+aVto consider carefully both the unintended consequences
+p229
+aVas well as the intended impacts of a scientific breakthrough.
+p230
+aa(lp231
+VThank you.
+p232
+aa(lp233
+V(Applause)
+p234
+aa(lp235
+V(Applause ends)
+p236
+aa(lp237
+VBruno Giussani: Jennifer, this is a technology with huge consequences,
+p238
+aVas you pointed out.
+p239
+aVYour attitude about asking for a pause or a moratorium or a quarantine
+p240
+aVis incredibly responsible.
+p241
+aVThere are, of course, the therapeutic results of this,
+p242
+aVbut then there are the un-therapeutic ones
+p243
+aVand they seem to be the ones gaining traction,
+p244
+aVparticularly in the media.
+p245
+aVThis is one of the latest issues of The Economist \u2014 "Editing humanity."
+p246
+aVIt's all about genetic enhancement, it's not about therapeutics.
+p247
+aVWhat kind of reactions did you get back in March
+p248
+aVfrom your colleagues in the science world,
+p249
+aVwhen you asked or suggested
+p250
+aVthat we should actually pause this for a moment and think about it?
+p251
+aa(lp252
+VJennifer Doudna: My colleagues were actually, I think, delighted
+p253
+aVto have the opportunity to discuss this openly.
+p254
+aVIt's interesting that as I talk to people,
+p255
+aVmy scientific colleagues as well as others,
+p256
+aVthere's a wide variety of viewpoints about this.
+p257
+aVSo clearly it's a topic that needs careful consideration and discussion.
+p258
+aa(lp259
+VBG: There's a big meeting happening in December
+p260
+aVthat you and your colleagues are calling,
+p261
+aVtogether with the National Academy of Sciences and others,
+p262
+aVwhat do you hope will come out of the meeting, practically?
+p263
+aa(lp264
+VJD: Well, I hope that we can air the views
+p265
+aVof many different individuals and stakeholders
+p266
+aVwho want to think about how to use this technology responsibly.
+p267
+aVIt may not be possible to come up with a consensus point of view,
+p268
+aVbut I think we should at least understand
+p269
+aVwhat all the issues are as we go forward.
+p270
+aa(lp271
+VBG: Now, colleagues of yours,
+p272
+aVlike George Church, for example, at Harvard,
+p273
+aVthey say, "Yeah, ethical issues basically are just a question of safety.
+p274
+aVWe test and test and test again, in animals and in labs,
+p275
+aVand then once we feel it's safe enough, we move on to humans."
+p276
+aVSo that's kind of the other school of thought,
+p277
+aVthat we should actually use this opportunity and really go for it.
+p278
+aVIs there a possible split happening in the science community about this?
+p279
+aVI mean, are we going to see some people holding back
+p280
+aVbecause they have ethical concerns,
+p281
+aVand some others just going forward
+p282
+aVbecause some countries under-regulate or don't regulate at all?
+p283
+aa(lp284
+VJD: Well, I think with any new technology, especially something like this,
+p285
+aVthere are going to be a variety of viewpoints,
+p286
+aVand I think that's perfectly understandable.
+p287
+aVI think that in the end,
+p288
+aVthis technology will be used for human genome engineering,
+p289
+aVbut I think to do that without careful consideration and discussion
+p290
+aVof the risks and potential complications
+p291
+aVwould not be responsible.
+p292
+aa(lp293
+VBG: There are a lot of technologies and other fields of science
+p294
+aVthat are developing exponentially, pretty much like yours.
+p295
+aVI'm thinking about artificial intelligence, autonomous robots and so on.
+p296
+aVNo one seems \u2014
+p297
+aVaside from autonomous warfare robots \u2014
+p298
+aVnobody seems to have launched a similar discussion in those fields,
+p299
+aVin calling for a moratorium.
+p300
+aVDo you think that your discussion may serve as a blueprint for other fields?
+p301
+aa(lp302
+VJD: Well, I think it's hard for scientists to get out of the laboratory.
+p303
+aVSpeaking for myself,
+p304
+aVit's a little bit uncomfortable to do that.
+p305
+aVBut I do think that being involved in the genesis of this
+p306
+aVreally puts me and my colleagues in a position of responsibility.
+p307
+aVAnd I would say that I certainly hope that other technologies
+p308
+aVwill be considered in the same way,
+p309
+aVjust as we would want to consider something that could have implications
+p310
+aVin other fields besides biology.
+p311
+aa(lp312
+VBG: Jennifer, thanks for coming to TED.
+p313
+aa(lp314
+VJD: Thank you.
+p315
+aa(lp316
+V(Applause)
+p317
+aasS'transcript_micsec'
+p318
+(lp319
+I12000
+aI32000
+aI64000
+aI102000
+aI129000
+aI159000
+aI174000
+aI204000
+aI264000
+aI326000
+aI348000
+aI411000
+aI473000
+aI502000
+aI522000
+aI558000
+aI595000
+aI630000
+aI677000
+aI714000
+aI741000
+aI742000
+aI750000
+aI752000
+aI792000
+aI808000
+aI818000
+aI836000
+aI868000
+aI893000
+aI918000
+aI944000
+aI946000
+aI948000
+asS'talk_meta'
+p320
+(dp321
+S'ratings'
+p322
+(dp323
+S'beautiful'
+p324
+I104
+sS'ingenious'
+p325
+I150
+sS'inspiring'
+p326
+I157
+sS'ok'
+p327
+I53
+sS'fascinating'
+p328
+I462
+sS'funny'
+p329
+I5
+sS'total_count'
+p330
+I2002
+sS'persuasive'
+p331
+I150
+sS'longwinded'
+p332
+I18
+sS'unconvincing'
+p333
+I15
+sS'informative'
+p334
+I595
+sS'jaw-dropping'
+p335
+I186
+sS'obnoxious'
+p336
+I12
+sS'courageous'
+p337
+I80
+sS'confusing'
+p338
+I15
+ssS'author'
+p339
+VJennifer_Doudna;
+p340
+sS'url'
+p341
+S'https://www.ted.com/talks/jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely'
+p342
+sS'vidlen'
+p343
+I953
+sS'totalviews'
+p344
+I1965935
+sS'title'
+p345
+V How CRISPR lets us edit our DNA
+p346
+sS'downloadlink'
+p347
+Vhttps://download.ted.com/talks/JenniferDoudna_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p348
+sS'datepublished'
+p349
+cdatetime
+datetime
+p350
+(S'\x07\xdf\n\x14\x0b\x03\x1f\x00\x00\x00'
+tRp351
+sS'datefilmed'
+p352
+g350
+(S'\x07\xdf\n\x14\x0b\x03\x1f\x00\x00\x00'
+tRp353
+sS'alldata_JSON'
+p354
+S'{"viewed_count": 1965935, "speakers": [{"description": "Biologist", "firstname": "Jennifer", "title": "", "lastname": "Doudna", "middleinitial": "", "whylisten": "<p>Together with her colleague Emmanuelle Charpentier of Ume&aring; University in Sweden, Berkeley biologist Jennifer Doudna is at the center of one of today&#39;s most-discussed science discoveries: a technology called CRISPR-Cas9 that allows human genome editing by adding or removing genetic material at will. This enables fighting genetic diseases (cutting out HIV, altering cancer cells) as well as, potentially, opening the road to &quot;engineered humans.&quot; </p><p>Because some applications of genetic manipulation can be inherited, Doudna and numerous colleagues have called for prudent use of the technology until the ethics and safety have been properly considered.</p>", "slug": "jennifer_doudna", "whotheyare": "Jennifer Doudna was part of inventing a potentially world-changing genetic technology: the gene editing technology CRISPR-Cas9.", "whatotherssay": "", "id": 2663, "photo_url": "https://pe.tedcdn.com/images/ted/455ee6099c419837991c96c9445ed0ae4b501cd0_254x191.jpg"}], "current_talk": 2354, "description": "Geneticist Jennifer Doudna co-invented a groundbreaking new technology for editing genes, called CRISPR-Cas9. The tool allows scientists to make precise edits to DNA strands, which could lead to treatments for genetic diseases ... but could also be used to create so-called \\"designer babies.\\" Doudna reviews how CRISPR-Cas9 works -- and asks the scientific community to pause and discuss the ethics of this new tool.", "language": "en", "url": "https://www.ted.com/talks/jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114317756}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22030953}, "podcast-high": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114320598}, "180k": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21774013}, "64k": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7851403}, "1500k": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 176538547}, "450k": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54276126}, "podcast-regular": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54563848}, "950k": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113927492}, "audio-podcast": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 9844561}, "podcast-light": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7988855}, "320k": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38573059}, "600k": {"uri": "https://download.ted.com/talks/JenniferDoudna_2015G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 72563024}}}, "comments": {"count": 217, "id": 26974, "talk_id": 2354}, "slug": "jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely", "threadId": 26974, "talks": [{"event": "TEDGlobal>London", "player_talks": [{"event": "TEDGlobal>London", "slug": "jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely", "filmed": 1443484800, "targeting": {"event": "TEDGlobal>London", "tag": "Bioethics,CRISPR,DNA,biotech,engineering,future,genetics,health,innovation,medical research,medicine,molecular biology,philosophy,science,software,synthetic biology,technology,virus", "id": 2354, "talk": "jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely", "year": "2015"}, "adDuration": "3.33", "external": null, "title": " How CRISPR lets us edit our DNA", "postAdDuration": "0.83", "published": 1445353411, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/aa33beda36e8737f3ec0029a9df20dc8448f164d_2880x1620.jpg?quality=89&w=600", "name": "Jennifer Doudna: How CRISPR lets us edit our DNA", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Bioethics", "CRISPR", "DNA", "biotech", "engineering", "future", "genetics", "health", "innovation", "medical research", "medicine", "molecular biology", "philosophy", "science", "software", "synthetic biology", "technology", "virus"], "speaker": "Jennifer Doudna", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 953, "id": 2354, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JenniferDoudna_2015G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal>London", "tag": "Bioethics,CRISPR,DNA,biotech,engineering,future,genetics,health,innovation,medical research,medicine,molecular biology,philosophy,science,software,synthetic biology,technology,virus", "id": 2354, "talk": "jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2354.json", "stream": "https://hls.ted.com/talks/2354.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%3ELondon%26id%3D2354%26tag%3DBioethics%2CCRISPR%2CDNA%2Cbiotech%2Cengineering%2Cfuture%2Cgenetics%2Chealth%2Cinnovation%2Cmedical%2Bresearch%2Cmedicine%2Cmolecular%2Bbiology%2Cphilosophy%2Cscience%2Csoftware%2Csynthetic%2Bbiology%2Ctechnology%2Cvirus%26talk%3Djennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/aa33beda36e8737f3ec0029a9df20dc8448f164d_2880x1620.jpg?q=50&w=15", "duration": 953, "id": 2354, "ratings": [{"count": 150, "id": 24, "name": "Persuasive"}, {"count": 104, "id": 1, "name": "Beautiful"}, {"count": 80, "id": 3, "name": "Courageous"}, {"count": 595, "id": 8, "name": "Informative"}, {"count": 186, "id": 23, "name": "Jaw-dropping"}, {"count": 18, "id": 11, "name": "Longwinded"}, {"count": 53, "id": 25, "name": "OK"}, {"count": 157, "id": 10, "name": "Inspiring"}, {"count": 462, "id": 22, "name": "Fascinating"}, {"count": 150, "id": 9, "name": "Ingenious"}, {"count": 5, "id": 7, "name": "Funny"}, {"count": 15, "id": 2, "name": "Confusing"}, {"count": 15, "id": 21, "name": "Unconvincing"}, {"count": 12, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Biologist", "firstname": "Jennifer", "title": "", "lastname": "Doudna", "middleinitial": "", "whylisten": "<p>Together with her colleague Emmanuelle Charpentier of Ume&aring; University in Sweden, Berkeley biologist Jennifer Doudna is at the center of one of today&#39;s most-discussed science discoveries: a technology called CRISPR-Cas9 that allows human genome editing by adding or removing genetic material at will. This enables fighting genetic diseases (cutting out HIV, altering cancer cells) as well as, potentially, opening the road to &quot;engineered humans.&quot; </p><p>Because some applications of genetic manipulation can be inherited, Doudna and numerous colleagues have called for prudent use of the technology until the ethics and safety have been properly considered.</p>", "slug": "jennifer_doudna", "whotheyare": "Jennifer Doudna was part of inventing a potentially world-changing genetic technology: the gene editing technology CRISPR-Cas9.", "whatotherssay": "", "id": 2663, "photo_url": "https://pe.tedcdn.com/images/ted/455ee6099c419837991c96c9445ed0ae4b501cd0_254x191.jpg"}], "title": " How CRISPR lets us edit our DNA", "take_action": [], "comments": 26974, "more_resources": [{"status": "approved", "start_at": null, "headline": "The Promising and Perilous Science of Gene Editing", "link_url": "http://ideas.ted.com/the-promising-and-perilous-science-of-gene-editing/", "eyebrow": null, "end_at": null, "image_url": "https://tedideas.files.wordpress.com/2015/10/doudna_crispr.jpg", "published": true, "visible_url": "ideas.ted.com", "type": "from_the_blog", "blurb": "CRISPR-Cas9 could change the human genome for generations. Here\\u2019s why its inventor is trying to press pause."}, {"status": "approved", "start_at": null, "headline": "On Human Gene Editing: International Summit Statement", "link_url": "http://www8.nationalacademies.org/onpinews/newsitem.aspx?RecordID=12032015a", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "nationalacademies.org", "type": "external_website", "blurb": "Read the International Summit on Human Gene Editing\'s official statement on important scientific, ethical and societal questions altering genetic sequences."}], "hero": "https://pe.tedcdn.com/images/ted/aa33beda36e8737f3ec0029a9df20dc8448f164d_2880x1620.jpg", "description": "Geneticist Jennifer Doudna co-invented a groundbreaking new technology for editing genes, called CRISPR-Cas9. The tool allows scientists to make precise edits to DNA strands, which could lead to treatments for genetic diseases ... but could also be used to create so-called \\"designer babies.\\" Doudna reviews how CRISPR-Cas9 works -- and asks the scientific community to pause and discuss the ethics of this new tool.", "tags": ["Bioethics", "CRISPR", "DNA", "biotech", "engineering", "future", "genetics", "health", "innovation", "medical research", "medicine", "molecular biology", "philosophy", "science", "software", "synthetic biology", "technology", "virus"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-ru.mp4"}, "pt": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-sv.mp4"}, "mk": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-mk.mp4"}, "uk": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JenniferDoudna_2015G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JenniferDoudna_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JenniferDoudna_2015G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2354, "audioDownload": "https://download.ted.com/talks/JenniferDoudna_2015G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1532308, "hero": "https://pe.tedcdn.com/images/ted/c77755451ad53291f2891f27dcfde0456292b010_2880x1620.jpg", "title": "How we discovered DNA", "id": 35, "speaker": "James Watson", "duration": 1211, "slug": "james_watson_on_how_he_discovered_dna"}, {"viewed_count": 1237862, "hero": "https://pe.tedcdn.com/images/ted/5440d9a305dd3a8c5a55478e48b7e69500fc5b4f_800x600.jpg", "title": "It\'s time to question bio-engineering", "id": 1103, "speaker": "Paul Root Wolpe", "duration": 1182, "slug": "paul_root_wolpe_it_s_time_to_question_bio_engineering"}, {"viewed_count": 1207973, "hero": "https://pe.tedcdn.com/images/ted/75c00863cc695bd49cb185853bf0be2b8e2a5c35_2880x1620.jpg", "title": "Could we cure HIV with lasers?", "id": 2313, "speaker": "Patience Mthunzi", "duration": 265, "slug": "patience_mthunzi_could_we_cure_hiv_with_lasers"}, {"viewed_count": 1419543, "hero": "https://pe.tedcdn.com/images/ted/0746bae172459ca122b13c42a7c2515a35c33cdd_2880x1620.jpg", "title": "What you need to know about CRISPR", "id": 2593, "speaker": "Ellen Jorgensen", "duration": 593, "slug": "ellen_jorgensen_what_you_need_to_know_about_crispr"}, {"viewed_count": 1059021, "hero": "https://pe.tedcdn.com/images/ted/4b2ca98174f9bb6a74ce18474ed13b2f8c1b6f61_2880x1620.jpg", "title": "The era of personal DNA testing is here", "id": 2570, "speaker": "Sebastian Kraves", "duration": 784, "slug": "sebastian_kraves_the_era_of_personal_dna_testing_is_here"}, {"viewed_count": 1465158, "hero": "https://pe.tedcdn.com/images/ted/ffe032a2d557b859e57857bc66286ef1a74736f5_800x600.jpg", "title": "Animations of unseeable biology", "id": 1322, "speaker": "Drew Berry", "duration": 548, "slug": "drew_berry_animations_of_unseeable_biology"}], "recorded_at": "2015-09-29T00:00:00.000+00:00", "slug": "jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely", "speaker_name": "Jennifer Doudna", "viewed_count": 1965935, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal>London", "name": "Jennifer Doudna: How CRISPR lets us edit our DNA"}'
+p355
+sS'keywords'
+p356
+(lp357
+VBioethics
+p358
+aVCRISPR
+p359
+aVDNA
+p360
+aVbiotech
+p361
+aVengineering
+p362
+aVfuture
+p363
+aVgenetics
+p364
+aVhealth
+p365
+aVinnovation
+p366
+aVmedical research
+p367
+aVmedicine
+p368
+aVmolecular biology
+p369
+aVphilosophy
+p370
+aVscience
+p371
+aVsoftware
+p372
+aVsynthetic biology
+p373
+aVtechnology
+p374
+aVvirus
+p375
+asS'datecrawled'
+p376
+g350
+(S'\x07\xe1\n\x17\x03:\x12\x06Jt'
+tRp377
+sS'id'
+p378
+I2354
+ss.

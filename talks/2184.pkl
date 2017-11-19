@@ -1,0 +1,388 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhat's the fastest growing threat to Americans' health?
+p5
+aVCancer? Heart attacks? Diabetes?
+p6
+aVThe answer is actually none of these;
+p7
+aVit's Alzheimer's disease.
+p8
+aVEvery 67 seconds,
+p9
+aVsomeone in the United States is diagnosed with Alzheimer's.
+p10
+aVAs the number of Alzheimer's patients triples by the year 2050,
+p11
+aVcaring for them, as well as the rest of the aging population,
+p12
+aVwill become an overwhelming societal challenge.
+p13
+aa(lp14
+VMy family has experienced firsthand
+p15
+aVthe struggles of caring for an Alzheimer's patient.
+p16
+aVGrowing up in a family with three generations,
+p17
+aVI've always been very close to my grandfather.
+p18
+aVWhen I was four years old,
+p19
+aVmy grandfather and I  were walking in a park in Japan
+p20
+aVwhen he suddenly got lost.
+p21
+aVIt was one of the scariest moments I've ever experienced in my life,
+p22
+aVand it was also the first instance that informed us
+p23
+aVthat my grandfather had Alzheimer's disease.
+p24
+aVOver the past 12 years, his condition got worse and worse,
+p25
+aVand his wandering in particular caused my family a lot of stress.
+p26
+aVMy aunt, his primary caregiver,
+p27
+aVreally struggled to stay awake at night to keep an eye on him,
+p28
+aVand even then often failed to catch him leaving the bed.
+p29
+aVI became really concerned about my aunt's well-being
+p30
+aVas well as my grandfather's safety.
+p31
+aVI searched extensively for a solution that could help my family's problems,
+p32
+aVbut couldn't find one.
+p33
+aa(lp34
+VThen, one night about two years ago,
+p35
+aVI was looking after my grandfather and I saw him stepping out of the bed.
+p36
+aVThe moment his foot landed on the floor,
+p37
+aVI thought, why don't I put a pressure sensor on the heel of his foot?
+p38
+aVOnce he stepped onto the floor and out of the bed,
+p39
+aVthe pressure sensor would detect an increase in pressure caused by body weight
+p40
+aVand then wirelessly send an audible alert to the caregiver's smartphone.
+p41
+aVThat way, my aunt could sleep much better at night
+p42
+aVwithout having to worry about my grandfather's wandering.
+p43
+aa(lp44
+VSo now I'd like to perform a demonstration of this sock.
+p45
+aVCould I please have my sock model on the stage?
+p46
+aVGreat.
+p47
+aVSo once the patient steps onto the floor \u2014
+p48
+aV(Ringing) \u2014
+p49
+aVan alert is sent to the caregiver's smartphone.
+p50
+aa(lp51
+VThank you. (Applause)
+p52
+aa(lp53
+VThank you, sock model.
+p54
+aa(lp55
+VSo this is a drawing of my preliminary design.
+p56
+aa(lp57
+VMy desire to create a sensor-based technology
+p58
+aVperhaps stemmed from my lifelong love for sensors and technology.
+p59
+aVWhen I was six years old,
+p60
+aVan elderly family friend fell down in the bathroom
+p61
+aVand suffered severe injuries.
+p62
+aVI became concerned about my own grandparents
+p63
+aVand decided to invent a smart bathroom system.
+p64
+aVMotion sensors would be installed inside the tiles of bathroom floors
+p65
+aVto detect the falls of elderly patients whenever they fell down in the bathroom.
+p66
+aVSince I was only six years old at the time
+p67
+aVand I hadn't graduated from kindergarten yet,
+p68
+aVI didn't have the necessary resources and  tools to translate my idea into reality,
+p69
+aVbut nonetheless, my research experience
+p70
+aVreally implanted in me a firm desire to use sensors to help the elderly people.
+p71
+aVI really believe that sensors can improve the quality of life of the elderly.
+p72
+aa(lp73
+VWhen I laid out my plan, I realized that I faced three main challenges:
+p74
+aVfirst, creating a sensor;
+p75
+aVsecond, designing a circuit;
+p76
+aVand third, coding a smartphone app.
+p77
+aVThis made me realize that my project was actually much harder to realize
+p78
+aVthan I initially had thought it to be.
+p79
+aa(lp80
+VFirst, I had to create a wearable sensor that was thin and flexible enough
+p81
+aVto be worn comfortably on the bottom of the patient's foot.
+p82
+aVAfter extensive research and testing of different materials like rubber,
+p83
+aVwhich I realized was too thick to be worn snugly on the bottom of the foot,
+p84
+aVI decided to print a film sensor
+p85
+aVwith electrically conductive pressure-sensitive ink particles.
+p86
+aVOnce pressure is applied, the connectivity between the particles increases.
+p87
+aVTherefore, I could design a circuit that would measure pressure
+p88
+aVby measuring electrical resistance.
+p89
+aa(lp90
+VNext, I had to design a wearable wireless circuit,
+p91
+aVbut wireless signal transmission consumes lots of power
+p92
+aVand requires heavy, bulky batteries.
+p93
+aVThankfully, I was able to find out about the Bluetooth low energy technology,
+p94
+aVwhich consumes very little power and can be driven by a coin-sized battery.
+p95
+aVThis prevented the system from dying in the middle of the night.
+p96
+aa(lp97
+VLastly, I had to code a smartphone app that would essentially transform
+p98
+aVthe care-giver's smartphone into a remote monitor.
+p99
+aVFor this, I had to expand upon my knowledge of coding with Java and XCode
+p100
+aVand I also had to learn about how to code for Bluetooth low energy devices
+p101
+aVby watching YouTube tutorials and reading various textbooks.
+p102
+aa(lp103
+VIntegrating these components, I was able to successfully create two prototypes,
+p104
+aVone in which the sensor is embedded inside a sock,
+p105
+aVand another that's a re-attachable sensor assembly
+p106
+aVthat can be adhered anywhere that makes contact
+p107
+aVwith the bottom of the patient's foot.
+p108
+aVI've tested the device on my grandfather for about a year now,
+p109
+aVand it's had a 100 percent success rate
+p110
+aVin detecting the over 900  known cases of his wandering.
+p111
+aVLast summer, I was able to beta test my device
+p112
+aVat several residential care facilities in California,
+p113
+aVand I'm currently incorporating the feedback
+p114
+aVto further improve the device  into a marketable product.
+p115
+aVTesting the device on a number of patients
+p116
+aVmade me realize that I needed to invent solutions
+p117
+aVfor people who didn't want to wear socks to sleep at night.
+p118
+aa(lp119
+VSo sensor data, collected on a vast number of patients,
+p120
+aVcan be useful for improving patient care
+p121
+aVand also leading to a cure for the disease, possibly.
+p122
+aVFor example, I'm currently examining
+p123
+aVcorrelations between the frequency of a patient's nightly wandering
+p124
+aVand his or her daily activities and diet.
+p125
+aa(lp126
+VOne thing I'll never forget is when my device first caught
+p127
+aVmy grandfather's wandering out of bed at night.
+p128
+aVAt that moment, I was really struck by the power of technology
+p129
+aVto change lives for the better.
+p130
+aVPeople living happily and healthfully \u2014
+p131
+aVthat's the world that I imagine.
+p132
+aa(lp133
+VThank you very much.
+p134
+aa(lp135
+V(Applause)
+p136
+aasS'transcript_micsec'
+p137
+(lp138
+I11000
+aI37000
+aI83000
+aI110000
+aI135000
+aI137000
+aI143000
+aI146000
+aI191000
+aI205000
+aI232000
+aI250000
+aI268000
+aI307000
+aI324000
+aI339000
+aI341000
+asS'talk_meta'
+p139
+(dp140
+S'ratings'
+p141
+(dp142
+S'ingenious'
+p143
+I416
+sS'funny'
+p144
+I17
+sS'inspiring'
+p145
+I423
+sS'ok'
+p146
+I90
+sS'fascinating'
+p147
+I142
+sS'total_count'
+p148
+I1543
+sS'persuasive'
+p149
+I51
+sS'longwinded'
+p150
+I14
+sS'informative'
+p151
+I223
+sS'beautiful'
+p152
+I83
+sS'jaw-dropping'
+p153
+I19
+sS'obnoxious'
+p154
+I5
+sS'confusing'
+p155
+I5
+sS'courageous'
+p156
+I43
+sS'unconvincing'
+p157
+I12
+ssS'author'
+p158
+VKenneth_Shinozuka;
+p159
+sS'url'
+p160
+S'https://www.ted.com/talks/kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe'
+p161
+sS'vidlen'
+p162
+I346
+sS'totalviews'
+p163
+I1569418
+sS'title'
+p164
+VMy simple invention, designed to keep my grandfather safe
+p165
+sS'downloadlink'
+p166
+Vhttps://download.ted.com/talks/KennethShinozuka_2014Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p167
+sS'datepublished'
+p168
+cdatetime
+datetime
+p169
+(S'\x07\xdf\x02\x0c\x0b\x00\x14\x00\x00\x00'
+tRp170
+sS'datefilmed'
+p171
+g169
+(S'\x07\xdf\x02\x0c\x0b\x00\x14\x00\x00\x00'
+tRp172
+sS'alldata_JSON'
+p173
+S'{"viewed_count": 1569418, "speakers": [{"description": "Smart product inventor", "firstname": "Kenneth", "title": "", "lastname": "Shinozuka", "middleinitial": "", "whylisten": "<p>When he was six years old, a family friend of Kenneth Shinozuka fell down in the bathroom. The friend was ok -- but the incident inspired him to design a motion detection system that could be embedded in bathroom tiles. He never actually made one in real life (remember, he was only six) ... but he was hooked on both the promise of invention and the potential of technology. </p><p>Since then, Shinozuka has designed smart devices for his grandfather, who has Alzheimer&#39;s disease. One invention that caught the eye of both the media and awards programs such as the Google Science Fair: a pair of smart socks, designed to send an alert to a caregiver if a patient gets out of bed. In 2014, he won the $50,000 <em>Scientific American</em> Science in Action Award, while he was also a 2014 Davidson Fellow.</p>", "slug": "kenneth_shinozuka", "whotheyare": "Kenneth Shinozuka designs smart products ... He\'s been doing so since he was in kindergarten.", "whatotherssay": "", "id": 2316, "photo_url": "https://pe.tedcdn.com/images/ted/98c25965909d1477aa54ec43677316888551f8e9_254x191.jpg"}], "current_talk": 2184, "description": "60% of people with dementia wander off, an issue that can prove hugely stressful for both patients and caregivers. In this charming talk, hear how teen inventor Kenneth Shinozuka came up with a novel solution to help his night-wandering grandfather and the aunt who looks after him ... and how he hopes to help others with Alzheimer\'s.", "language": "en", "url": "https://www.ted.com/talks/kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41126764}, "podcast-low-en": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8172184}, "podcast-high": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41127511}, "180k": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7925675}, "64k": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2896999}, "1500k": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63637221}, "450k": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19954550}, "podcast-regular": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20069832}, "950k": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41117425}, "audio-podcast": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3806619}, "podcast-light": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3030559}, "320k": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14087778}, "600k": {"uri": "https://download.ted.com/talks/KennethShinozuka_2014Y-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26887277}}}, "comments": {"count": 69, "id": 26803, "talk_id": 2184}, "slug": "kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe", "threadId": 26803, "talks": [{"event": "TEDYouth 2014", "player_talks": [{"event": "TEDYouth 2014", "slug": "kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe", "filmed": 1416009600, "targeting": {"event": "TEDYouth 2014", "tag": "TEDYouth,aging,design,innovation,invention,product design,technology", "id": 2184, "talk": "kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "My simple invention, designed to keep my grandfather safe", "postAdDuration": "0.83", "published": 1423756820, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/53a9dce4578c8bbd105d14e457431afa330f2ec0_2880x1620.jpg?quality=89&w=600", "name": "Kenneth Shinozuka: My simple invention, designed to keep my grandfather safe", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "be", "endonym": "\\u0411\\u0435\\u043b\\u0430\\u0440\\u0443\\u0441\\u043a\\u0430\\u044f \\u043c\\u043e\\u0432\\u0430", "isRtl": false, "ianaCode": "be", "languageName": "Belarusian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kk", "endonym": "\\u049a\\u0430\\u0437\\u0430\\u049b \\u0442\\u0456\\u043b\\u0456", "isRtl": false, "ianaCode": "kk", "languageName": "Kazakh"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDYouth", "aging", "design", "innovation", "invention", "product design", "technology"], "speaker": "Kenneth Shinozuka", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 346, "id": 2184, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/KennethShinozuka_2014Y-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDYouth 2014", "tag": "TEDYouth,aging,design,innovation,invention,product design,technology", "id": 2184, "talk": "kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2184.json", "stream": "https://hls.ted.com/talks/2184.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDYouth%2B2014%26id%3D2184%26tag%3DTEDYouth%2Caging%2Cdesign%2Cinnovation%2Cinvention%2Cproduct%2Bdesign%2Ctechnology%26talk%3Dkenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/53a9dce4578c8bbd105d14e457431afa330f2ec0_2880x1620.jpg?q=50&w=15", "duration": 346, "id": 2184, "ratings": [{"count": 416, "id": 9, "name": "Ingenious"}, {"count": 423, "id": 10, "name": "Inspiring"}, {"count": 51, "id": 24, "name": "Persuasive"}, {"count": 223, "id": 8, "name": "Informative"}, {"count": 17, "id": 7, "name": "Funny"}, {"count": 142, "id": 22, "name": "Fascinating"}, {"count": 43, "id": 3, "name": "Courageous"}, {"count": 83, "id": 1, "name": "Beautiful"}, {"count": 90, "id": 25, "name": "OK"}, {"count": 12, "id": 21, "name": "Unconvincing"}, {"count": 19, "id": 23, "name": "Jaw-dropping"}, {"count": 5, "id": 26, "name": "Obnoxious"}, {"count": 14, "id": 11, "name": "Longwinded"}, {"count": 5, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Smart product inventor", "firstname": "Kenneth", "title": "", "lastname": "Shinozuka", "middleinitial": "", "whylisten": "<p>When he was six years old, a family friend of Kenneth Shinozuka fell down in the bathroom. The friend was ok -- but the incident inspired him to design a motion detection system that could be embedded in bathroom tiles. He never actually made one in real life (remember, he was only six) ... but he was hooked on both the promise of invention and the potential of technology. </p><p>Since then, Shinozuka has designed smart devices for his grandfather, who has Alzheimer&#39;s disease. One invention that caught the eye of both the media and awards programs such as the Google Science Fair: a pair of smart socks, designed to send an alert to a caregiver if a patient gets out of bed. In 2014, he won the $50,000 <em>Scientific American</em> Science in Action Award, while he was also a 2014 Davidson Fellow.</p>", "slug": "kenneth_shinozuka", "whotheyare": "Kenneth Shinozuka designs smart products ... He\'s been doing so since he was in kindergarten.", "whatotherssay": "", "id": 2316, "photo_url": "https://pe.tedcdn.com/images/ted/98c25965909d1477aa54ec43677316888551f8e9_254x191.jpg"}], "title": "My simple invention, designed to keep my grandfather safe", "take_action": null, "comments": 26803, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/53a9dce4578c8bbd105d14e457431afa330f2ec0_2880x1620.jpg", "description": "60% of people with dementia wander off, an issue that can prove hugely stressful for both patients and caregivers. In this charming talk, hear how teen inventor Kenneth Shinozuka came up with a novel solution to help his night-wandering grandfather and the aunt who looks after him ... and how he hopes to help others with Alzheimer\'s.", "tags": ["TEDYouth", "aging", "design", "innovation", "invention", "product design", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "be", "endonym": "\\u0411\\u0435\\u043b\\u0430\\u0440\\u0443\\u0441\\u043a\\u0430\\u044f \\u043c\\u043e\\u0432\\u0430", "isRtl": false, "ianaCode": "be", "languageName": "Belarusian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kk", "endonym": "\\u049a\\u0430\\u0437\\u0430\\u049b \\u0442\\u0456\\u043b\\u0456", "isRtl": false, "ianaCode": "kk", "languageName": "Kazakh"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-nl.mp4", "name": "Dutch"}, "pt": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-pl.mp4"}, "be": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-be.mp4", "name": "Belarusian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-be.mp4"}, "fr": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-he.mp4"}, "kk": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-kk.mp4", "name": "Kazakh", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-kk.mp4"}, "sr": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-sq.mp4"}, "mn": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-uk.mp4"}, "mr": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-mr.mp4"}, "my": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/KennethShinozuka_2014Y-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/KennethShinozuka_2014Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/KennethShinozuka_2014Y-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2184, "audioDownload": "https://download.ted.com/talks/KennethShinozuka_2014Y.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1427340, "hero": "https://pe.tedcdn.com/images/ted/1451_480x360.jpg", "title": "Simple designs to save a life", "id": 2, "speaker": "Amy Smith", "duration": 906, "slug": "amy_smith_shares_simple_lifesaving_design"}, {"viewed_count": 708076, "hero": "https://pe.tedcdn.com/images/ted/144882_800x600.jpg", "title": "A warm embrace that saves lives", "id": 752, "speaker": "Jane Chen", "duration": 286, "slug": "jane_chen_a_warm_embrace_that_saves_lives"}, {"viewed_count": 155068, "hero": "https://pe.tedcdn.com/images/ted/137579_240x180.jpg", "title": "Engineering a better life for all", "id": 722, "speaker": "Cat Laine", "duration": 889, "slug": "cat_laine_engineering_a_better_life_for_all"}, {"viewed_count": 712870, "hero": "https://pe.tedcdn.com/images/ted/152015_800x600.jpg", "title": "The wireless future of medicine", "id": 772, "speaker": "Eric Topol", "duration": 1018, "slug": "eric_topol_the_wireless_future_of_medicine"}, {"viewed_count": 872881, "hero": "https://pe.tedcdn.com/images/ted/201789_800x600.jpg", "title": "The quantified self", "id": 966, "speaker": "Gary Wolf", "duration": 310, "slug": "gary_wolf_the_quantified_self"}, {"viewed_count": 1234881, "hero": "https://pe.tedcdn.com/images/ted/553f205b9269955211024b24be4c516ad7c41c2a_2880x1620.jpg", "title": "A new way to heal hearts without surgery", "id": 2555, "speaker": "Franz Freudenthal", "duration": 568, "slug": "franz_freudenthal_a_new_way_to_heal_hearts_without_surgery"}], "recorded_at": "2014-11-15T00:00:00.000+00:00", "slug": "kenneth_shinozuka_my_simple_invention_designed_to_keep_my_grandfather_safe", "speaker_name": "Kenneth Shinozuka", "viewed_count": 1569418, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDYouth 2014", "name": "Kenneth Shinozuka: My simple invention, designed to keep my grandfather safe"}'
+p174
+sS'keywords'
+p175
+(lp176
+VTEDYouth
+p177
+aVaging
+p178
+aVdesign
+p179
+aVinnovation
+p180
+aVinvention
+p181
+aVproduct design
+p182
+aVtechnology
+p183
+asS'datecrawled'
+p184
+g169
+(S'\x07\xe1\n\x17\x00\x07\x17\x0c\xe6w'
+tRp185
+sS'id'
+p186
+I2184
+ss.

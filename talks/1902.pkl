@@ -1,0 +1,628 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThis is an image of the planet Earth.
+p5
+aVIt looks very much like the Apollo pictures
+p6
+aVthat are very well known.
+p7
+aVThere is something different;
+p8
+aVyou can click on it,
+p9
+aVand if you click on it,
+p10
+aVyou can zoom in on almost any place on the Earth.
+p11
+aVFor instance, this is a bird's-eye view
+p12
+aVof the EPFL campus.
+p13
+aVIn many cases, you can also see
+p14
+aVhow a building looks from a nearby street.
+p15
+aVThis is pretty amazing.
+p16
+aVBut there's something missing in this wonderful tour:
+p17
+aVIt's time.
+p18
+aVi'm not really sure when this picture was taken.
+p19
+aVI'm not even sure it was taken
+p20
+aVat the same moment as the bird's-eye view.
+p21
+aVIn my lab, we develop tools
+p22
+aVto travel not only in space
+p23
+aVbut also through time.
+p24
+aVThe kind of question we're asking is
+p25
+aVIs it possible to build something
+p26
+aVlike Google Maps of the past?
+p27
+aVCan I add a slider on top of Google Maps
+p28
+aVand just change the year,
+p29
+aVseeing how it was 100 years before,
+p30
+aV1,000 years before?
+p31
+aVIs that possible?
+p32
+aVCan I reconstruct social networks of the past?
+p33
+aVCan I make a Facebook of the Middle Ages?
+p34
+aVSo, can I build time machines?
+p35
+aVMaybe we can just say, "No, it's not possible."
+p36
+aVOr, maybe, we can think of it from an information point of view.
+p37
+aVThis is what I call the information mushroom.
+p38
+aVVertically, you have the time.
+p39
+aVand horizontally, the amount of digital information available.
+p40
+aVObviously, in the last 10 years, we have much information.
+p41
+aVAnd obviously the more we go in the past, the less information we have.
+p42
+aVIf we want to build something like Google Maps of the past,
+p43
+aVor Facebook of the past,
+p44
+aVwe need to enlarge this space,
+p45
+aVwe need to make that like a rectangle.
+p46
+aVHow do we do that?
+p47
+aVOne way is digitization.
+p48
+aVThere's a lot of material available \u2014
+p49
+aVnewspaper, printed books, thousands of printed books.
+p50
+aVI can digitize all these.
+p51
+aVI can extract information from these.
+p52
+aVOf course, the more you go in the past, the less information you will have.
+p53
+aVSo, it might not be enough.
+p54
+aVSo, I can do what historians do.
+p55
+aVI can extrapolate.
+p56
+aVThis is what we call, in computer science, simulation.
+p57
+aVIf I take a log book,
+p58
+aVI can consider, it's not just a log book
+p59
+aVof a Venetian captain going to a particular journey.
+p60
+aVI can consider it is actually a log book
+p61
+aVwhich is representative of many journeys of that period.
+p62
+aVI'm extrapolating.
+p63
+aVIf I have a painting of a facade,
+p64
+aVI can consider it's not just that particular building,
+p65
+aVbut probably it also shares the same grammar
+p66
+aVof buildings where we lost any information.
+p67
+aa(lp68
+VSo if we want to construct a time machine,
+p69
+aVwe need two things.
+p70
+aVWe need very large archives,
+p71
+aVand we need excellent specialists.
+p72
+aVThe Venice Time Machine,
+p73
+aVthe project I'm going to talk to you about,
+p74
+aVis a joint project between the EPFL
+p75
+aVand the University of Venice Ca'Foscari.
+p76
+aa(lp77
+VThere's something very peculiar about Venice,
+p78
+aVthat its administration has been
+p79
+aVvery, very bureaucratic.
+p80
+aVThey've been keeping track of everything,
+p81
+aValmost like Google today.
+p82
+aVAt the Archivio di Stato,
+p83
+aVyou have 80 kilometers of archives
+p84
+aVdocumenting every aspect
+p85
+aVof the life of Venice over more than 1,000 years.
+p86
+aVYou have every boat that goes out,
+p87
+aVevery boat that comes in.
+p88
+aVYou have every change that was made in the city.
+p89
+aVThis is all there.
+p90
+aVWe are setting up a 10-year digitization program
+p91
+aVwhich has the objective of transforming
+p92
+aVthis immense archive
+p93
+aVinto a giant information system.
+p94
+aVThe type of objective we want to reach
+p95
+aVis 450 books a day that can be digitized.
+p96
+aVOf course, when you digitize, that's not enough,
+p97
+aVbecause these documents,
+p98
+aVmost of them are in Latin, in Tuscan,
+p99
+aVin Venetian dialect,
+p100
+aVso you need to transcribe them,
+p101
+aVto translate them in some cases,
+p102
+aVto index them,
+p103
+aVand this is obviously not easy.
+p104
+aVIn particular, traditional optical character recognition method
+p105
+aVthat can be used for printed manuscripts,
+p106
+aVthey do not work well on the handwritten document.
+p107
+aVSo the solution is actually to take inspiration
+p108
+aVfrom another domain: speech recognition.
+p109
+aVThis is a domain of something  that seems impossible,
+p110
+aVwhich can actually be done,
+p111
+aVsimply by putting additional constraints.
+p112
+aVIf you have a very good model
+p113
+aVof a language which is used,
+p114
+aVif you have a very good model of a document,
+p115
+aVhow well they are structured.
+p116
+aVAnd these are administrative documents.
+p117
+aVThey are well structured in many cases.
+p118
+aVIf you divide this huge archive into smaller subsets
+p119
+aVwhere a smaller subset actually shares similar features,
+p120
+aVthen there's a chance of success.
+p121
+aa(lp122
+VIf we reach that stage, then there's something else:
+p123
+aVwe can extract from this document events.
+p124
+aVActually probably 10 billion events
+p125
+aVcan be extracted from this archive.
+p126
+aVAnd this giant information system
+p127
+aVcan be searched in many ways.
+p128
+aVYou can ask questions like,
+p129
+aV"Who lived in this palazzo in 1323?"
+p130
+aV"How much cost a sea bream at the Realto market
+p131
+aVin 1434?"
+p132
+aV"What was the salary
+p133
+aVof a glass maker in Murano
+p134
+aVmaybe over a decade?"
+p135
+aVYou can ask even bigger questions
+p136
+aVbecause it will be semantically coded.
+p137
+aVAnd then what you can do is put that in space,
+p138
+aVbecause much of this information is spatial.
+p139
+aVAnd from that, you can do things like
+p140
+aVreconstructing this extraordinary journey
+p141
+aVof that city that managed to have a sustainable development
+p142
+aVover a thousand years,
+p143
+aVmanaging to have all the time
+p144
+aVa form of equilibrium with its environment.
+p145
+aVYou can reconstruct that journey,
+p146
+aVvisualize it in many different ways.
+p147
+aVBut of course, you cannot understand  Venice if you just look at the city.
+p148
+aVYou have to put it in a larger European context.
+p149
+aVSo the idea is also to document all the things
+p150
+aVthat worked at the European level.
+p151
+aVWe can reconstruct also the journey
+p152
+aVof the Venetian maritime empire,
+p153
+aVhow it progressively controlled the Adriatic Sea,
+p154
+aVhow it became the most powerful medieval empire
+p155
+aVof its time,
+p156
+aVcontrolling most of the sea routes
+p157
+aVfrom the east to the south.
+p158
+aa(lp159
+VBut you can even do other things,
+p160
+aVbecause in these maritime routes,
+p161
+aVthere are regular patterns.
+p162
+aVYou can go one step beyond
+p163
+aVand actually create a simulation system,
+p164
+aVcreate a Mediterranean simulator
+p165
+aVwhich is capable actually of reconstructing
+p166
+aVeven the information we are missing,
+p167
+aVwhich would enable us to have  questions you could ask
+p168
+aVlike if you were using a route planner.
+p169
+aa(lp170
+V"If I am in Corfu in June 1323
+p171
+aVand want to go to Constantinople,
+p172
+aVwhere can I take a boat?"
+p173
+aa(lp174
+VProbably we can answer this question
+p175
+aVwith one or two or three days' precision.
+p176
+aa(lp177
+V"How much will it cost?"
+p178
+aa(lp179
+V"What are the chance of encountering pirates?"
+p180
+aa(lp181
+VOf course, you understand,
+p182
+aVthe central scientific challenge of a project like this one
+p183
+aVis qualifying, quantifying and representing
+p184
+aVuncertainty and inconsistency at each step of this process.
+p185
+aVThere are errors everywhere,
+p186
+aVerrors in the document, it's the wrong name of the captain,
+p187
+aVsome of the boats never actually took to sea.
+p188
+aVThere are errors in translation, interpretative biases,
+p189
+aVand on top of that, if you add algorithmic processes,
+p190
+aVyou're going to have errors in recognition,
+p191
+aVerrors in extraction,
+p192
+aVso you have very, very uncertain data.
+p193
+aa(lp194
+VSo how can we detect and correct these inconsistencies?
+p195
+aVHow can we represent that form of uncertainty?
+p196
+aVIt's difficult. One thing you can do
+p197
+aVis document each step of the process,
+p198
+aVnot only coding the historical information
+p199
+aVbut what we call the meta-historical information,
+p200
+aVhow is historical knowledge constructed,
+p201
+aVdocumenting each step.
+p202
+aVThat will not guarantee that we actually converge
+p203
+aVtoward a single story of Venice,
+p204
+aVbut probably we can actually reconstruct
+p205
+aVa fully documented potential story of Venice.
+p206
+aVMaybe there's not a single map.
+p207
+aVMaybe there are several maps.
+p208
+aVThe system should allow for that,
+p209
+aVbecause we have to deal with a new form of uncertainty,
+p210
+aVwhich is really new for this type of giant databases.
+p211
+aa(lp212
+VAnd how should we communicate
+p213
+aVthis new research to a large audience?
+p214
+aVAgain, Venice is extraordinary for that.
+p215
+aVWith the millions of visitors that come every year,
+p216
+aVit's actually one of the best places
+p217
+aVto try to invent the museum of the future.
+p218
+aVImagine, horizontally you see the reconstructed map
+p219
+aVof a given year,
+p220
+aVand vertically, you see the document
+p221
+aVthat served the reconstruction,
+p222
+aVpaintings, for instance.
+p223
+aVImagine an immersive system that permits
+p224
+aVto go and dive and reconstruct the Venice of a given year,
+p225
+aVsome experience you could share within a group.
+p226
+aVOn the contrary, imagine actually that you start
+p227
+aVfrom a document, a Venetian manuscript,
+p228
+aVand you show, actually, what you can construct out of it,
+p229
+aVhow it is decoded,
+p230
+aVhow the context of that document can be recreated.
+p231
+aVThis is an image from an exhibit
+p232
+aVwhich is currently conducted in Geneva
+p233
+aVwith that type of system.
+p234
+aa(lp235
+VSo to conclude, we can say that
+p236
+aVresearch in the humanities is about to undergo
+p237
+aVan evolution which is maybe similar
+p238
+aVto what happened to life sciences 30 years ago.
+p239
+aVIt's really a question of scale.
+p240
+aVWe see projects which are
+p241
+aVmuch beyond any single research team can do,
+p242
+aVand this is really new for the humanities,
+p243
+aVwhich very often take the habit of working
+p244
+aVin small groups or only with a couple of researchers.
+p245
+aVWhen you visit the Archivio di Stato,
+p246
+aVyou feel this is beyond what any single team can do,
+p247
+aVand that should be a joint and common effort.
+p248
+aVSo what we must do for this paradigm shift
+p249
+aVis actually foster a new generation
+p250
+aVof "digital humanists"
+p251
+aVthat are going to be ready for this shift.
+p252
+aa(lp253
+VI thank you very much.
+p254
+aa(lp255
+V(Applause)
+p256
+aasS'transcript_micsec'
+p257
+(lp258
+I11000
+aI171000
+aI190000
+aI293000
+aI376000
+aI401000
+aI408000
+aI414000
+aI416000
+aI419000
+aI457000
+aI501000
+aI556000
+aI607000
+aI609000
+asS'talk_meta'
+p259
+(dp260
+S'ratings'
+p261
+(dp262
+S'ingenious'
+p263
+I99
+sS'beautiful'
+p264
+I23
+sS'inspiring'
+p265
+I58
+sS'ok'
+p266
+I50
+sS'fascinating'
+p267
+I101
+sS'funny'
+p268
+I2
+sS'total_count'
+p269
+I556
+sS'persuasive'
+p270
+I16
+sS'longwinded'
+p271
+I19
+sS'unconvincing'
+p272
+I32
+sS'informative'
+p273
+I101
+sS'jaw-dropping'
+p274
+I25
+sS'obnoxious'
+p275
+I1
+sS'courageous'
+p276
+I18
+sS'confusing'
+p277
+I11
+ssS'author'
+p278
+VFrederic_Kaplan;
+p279
+sS'url'
+p280
+S'https://www.ted.com/talks/frederic_kaplan_how_i_built_an_information_time_machine'
+p281
+sS'vidlen'
+p282
+I620
+sS'totalviews'
+p283
+I1190181
+sS'title'
+p284
+VHow to build an information time machine
+p285
+sS'downloadlink'
+p286
+Vhttps://download.ted.com/talks/FredericKaplan_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p287
+sS'datepublished'
+p288
+cdatetime
+datetime
+p289
+(S'\x07\xde\x01\t\n7%\x00\x00\x00'
+tRp290
+sS'datefilmed'
+p291
+g289
+(S'\x07\xde\x01\t\n7%\x00\x00\x00'
+tRp292
+sS'alldata_JSON'
+p293
+S'{"viewed_count": 1190181, "speakers": [{"description": "Digital humanities researcher", "firstname": "Frederic", "title": "", "lastname": "Kaplan", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.fkaplan.com/en/index.xml\\" target=\\"_blank\\">Frederic Kaplan</a> is the Digital Humanities Chair at Ecole Polytechnique Federale de Lausanne (EPFL) and the EPFL&#39;s <a href=\\"http://dhlab.epfl.ch/page-87782.html\\" target=\\"_blank\\">Digital Humanities Lab</a> Director. Kaplan leads the lab in applying computation to humanities research. His latest project is the <a href=\\"http://dhlab.epfl.ch/page-91073-en.html\\" target=\\"_blank\\">Venice Time Machine</a>, a collaborative work archiving 80 kilometers of books from throughout 1000 years of Venetician history. The goal of the time machine is to create an information system which can be searched and mapped. Think of it as a Google Maps for time.</p><p>Kaplan holds a PhD in artificial intelligence from the University Paris VI. He lives in Switzerland.</p>", "slug": "frederic_kaplan", "whotheyare": "Frederic Kaplan seeks to digitize vast archives of historical information to make maps that move -- through time.", "whatotherssay": "", "id": 1742, "photo_url": "https://pe.tedcdn.com/images/ted/be1a0f09c1c8edde11cf5e29dea88c021290016f_254x191.jpg"}], "current_talk": 1902, "description": "Imagine if you could surf Facebook ... from the Middle Ages. Well, it may not be as far off as it sounds. In a fun and interesting talk, Frederic Kaplan shows off the Venice Time Machine, a project to digitize 80 kilometers of books to create a historical and geographical simulation of Venice across 1,000 years. ", "language": "en", "url": "https://www.ted.com/talks/frederic_kaplan_how_i_built_an_information_time_machine", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74414002}, "podcast-low-en": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14311589}, "podcast-high": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74435573}, "180k": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14204166}, "64k": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5121523}, "1500k": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115325601}, "450k": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35203619}, "podcast-regular": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35472095}, "950k": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74199707}, "audio-podcast": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6496967}, "podcast-light": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5226353}, "320k": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25093680}, "600k": {"uri": "https://download.ted.com/talks/FredericKaplan_2013X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47188771}}}, "comments": {"count": 77, "id": 24347, "talk_id": 1902}, "slug": "frederic_kaplan_how_i_built_an_information_time_machine", "threadId": 24347, "talks": [{"event": "TEDxCaFoscariU", "player_talks": [{"event": "TEDxCaFoscariU", "slug": "frederic_kaplan_how_i_built_an_information_time_machine", "filmed": 1371600000, "targeting": {"event": "TEDxCaFoscariU", "tag": "TEDx,books,computers,history,library,map,technology", "id": 1902, "talk": "frederic_kaplan_how_i_built_an_information_time_machine", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "How to build an information time machine", "postAdDuration": "0.83", "published": 1389282937, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e0c93d5e28d30a0ff0670df4ebc1a3ee3e780d25_1600x1200.jpg?quality=89&w=600", "name": "Frederic Kaplan: How to build an information time machine", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "books", "computers", "history", "library", "map", "technology"], "speaker": "Frederic Kaplan", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 620, "id": 1902, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/FredericKaplan_2013X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxCaFoscariU", "tag": "TEDx,books,computers,history,library,map,technology", "id": 1902, "talk": "frederic_kaplan_how_i_built_an_information_time_machine", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1902.json", "stream": "https://hls.ted.com/talks/1902.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxCaFoscariU%26id%3D1902%26tag%3DTEDx%2Cbooks%2Ccomputers%2Chistory%2Clibrary%2Cmap%2Ctechnology%26talk%3Dfrederic_kaplan_how_i_built_an_information_time_machine%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/frederic_kaplan_how_i_built_an_information_time_machine"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e0c93d5e28d30a0ff0670df4ebc1a3ee3e780d25_1600x1200.jpg?q=50&w=15", "duration": 620, "id": 1902, "ratings": [{"count": 99, "id": 9, "name": "Ingenious"}, {"count": 25, "id": 23, "name": "Jaw-dropping"}, {"count": 58, "id": 10, "name": "Inspiring"}, {"count": 50, "id": 25, "name": "OK"}, {"count": 101, "id": 22, "name": "Fascinating"}, {"count": 101, "id": 8, "name": "Informative"}, {"count": 23, "id": 1, "name": "Beautiful"}, {"count": 16, "id": 24, "name": "Persuasive"}, {"count": 11, "id": 2, "name": "Confusing"}, {"count": 18, "id": 3, "name": "Courageous"}, {"count": 32, "id": 21, "name": "Unconvincing"}, {"count": 19, "id": 11, "name": "Longwinded"}, {"count": 2, "id": 7, "name": "Funny"}, {"count": 1, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Digital humanities researcher", "firstname": "Frederic", "title": "", "lastname": "Kaplan", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.fkaplan.com/en/index.xml\\" target=\\"_blank\\">Frederic Kaplan</a> is the Digital Humanities Chair at Ecole Polytechnique Federale de Lausanne (EPFL) and the EPFL&#39;s <a href=\\"http://dhlab.epfl.ch/page-87782.html\\" target=\\"_blank\\">Digital Humanities Lab</a> Director. Kaplan leads the lab in applying computation to humanities research. His latest project is the <a href=\\"http://dhlab.epfl.ch/page-91073-en.html\\" target=\\"_blank\\">Venice Time Machine</a>, a collaborative work archiving 80 kilometers of books from throughout 1000 years of Venetician history. The goal of the time machine is to create an information system which can be searched and mapped. Think of it as a Google Maps for time.</p><p>Kaplan holds a PhD in artificial intelligence from the University Paris VI. He lives in Switzerland.</p>", "slug": "frederic_kaplan", "whotheyare": "Frederic Kaplan seeks to digitize vast archives of historical information to make maps that move -- through time.", "whatotherssay": "", "id": 1742, "photo_url": "https://pe.tedcdn.com/images/ted/be1a0f09c1c8edde11cf5e29dea88c021290016f_254x191.jpg"}], "title": "How to build an information time machine", "take_action": null, "comments": 24347, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/e0c93d5e28d30a0ff0670df4ebc1a3ee3e780d25_1600x1200.jpg", "description": "Imagine if you could surf Facebook ... from the Middle Ages. Well, it may not be as far off as it sounds. In a fun and interesting talk, Frederic Kaplan shows off the Venice Time Machine, a project to digitize 80 kilometers of books to create a historical and geographical simulation of Venice across 1,000 years. ", "tags": ["TEDx", "books", "computers", "history", "library", "map", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-ko.mp4"}, "my": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/FredericKaplan_2013X-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/FredericKaplan_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/FredericKaplan_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/FredericKaplan_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1902, "audioDownload": "https://download.ted.com/talks/FredericKaplan_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1791397, "hero": "https://pe.tedcdn.com/images/ted/7b2e7e2bac40b3ab6d040991f84b70e2b64a6613_800x600.jpg", "title": "What we learned from 5 million books", "id": 1227, "speaker": "Jean-Baptiste Michel + Erez Lieberman Aiden", "duration": 848, "slug": "what_we_learned_from_5_million_books"}, {"viewed_count": 1721918, "hero": "https://pe.tedcdn.com/images/ted/149547_800x600.jpg", "title": "Augmented-reality maps", "id": 766, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 465, "slug": "blaise_aguera"}, {"viewed_count": 447944, "hero": "https://pe.tedcdn.com/images/ted/53153_480x360.jpg", "title": "A free digital library", "id": 346, "speaker": "Brewster Kahle", "duration": 1206, "slug": "brewster_kahle_builds_a_free_digital_library"}, {"viewed_count": 657309, "hero": "https://pe.tedcdn.com/images/ted/b30a17466edd6c3a66d179c59c71f89a7c19bf9d_800x600.jpg", "title": "Information is food", "id": 1441, "speaker": "JP Rangaswami", "duration": 488, "slug": "jp_rangaswami_information_is_food"}, {"viewed_count": 994221, "hero": "https://pe.tedcdn.com/images/ted/9b3d932e6c73c41f74993f08dd23d9f940b5464c_1600x1200.jpg", "title": "The military case for sharing knowledge", "id": 1992, "speaker": "Stanley McChrystal", "duration": 404, "slug": "stanley_mcchrystal_the_military_case_for_sharing_knowledge"}, {"viewed_count": 1004629, "hero": "https://pe.tedcdn.com/images/ted/a9019c9c976642b9efef0b3d4f6dbcf0f3778bff_2880x1620.jpg", "title": "How the Panama Papers journalists broke the biggest leak in history", "id": 2553, "speaker": "Gerard Ryle", "duration": 788, "slug": "gerard_ryle_how_the_panama_papers_journalists_broke_the_biggest_leak_in_history"}], "recorded_at": "2013-06-19T00:00:00.000+00:00", "slug": "frederic_kaplan_how_i_built_an_information_time_machine", "speaker_name": "Frederic Kaplan", "viewed_count": 1190181, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxCaFoscariU, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxCaFoscariU", "name": "Frederic Kaplan: How to build an information time machine"}'
+p294
+sS'keywords'
+p295
+(lp296
+VTEDx
+p297
+aVbooks
+p298
+aVcomputers
+p299
+aVhistory
+p300
+aVlibrary
+p301
+aVmap
+p302
+aVtechnology
+p303
+asS'datecrawled'
+p304
+g289
+(S'\x07\xe1\n\x17\x04\x0c\r\x0e\xde8'
+tRp305
+sS'id'
+p306
+I1902
+ss.

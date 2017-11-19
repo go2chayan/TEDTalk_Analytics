@@ -1,0 +1,446 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VCan I get a show of hands \u2014
+p5
+aVhow many of you in this room have been on a plane in this past year?
+p6
+aVThat's pretty good.
+p7
+aVWell, it turns out that you share that experience
+p8
+aVwith more than three billion people every year.
+p9
+aVAnd when we put so many people in all these metal tubes
+p10
+aVthat fly all over the world,
+p11
+aVsometimes, things like this can happen
+p12
+aVand you get a disease epidemic.
+p13
+aa(lp14
+VI first actually got into this topic
+p15
+aVwhen I heard about the Ebola outbreak last year.
+p16
+aVAnd it turns out that,
+p17
+aValthough Ebola spreads through these more range-limited,
+p18
+aVlarge-droplet routes,
+p19
+aVthere's all these other sorts of diseases
+p20
+aVthat can be spread in the airplane cabin.
+p21
+aVThe worst part is, when we take a look at some of the numbers,
+p22
+aVit's pretty scary.
+p23
+aVSo with H1N1,
+p24
+aVthere was this guy that decided to go on the plane
+p25
+aVand in the matter of a single flight
+p26
+aVactually spread the disease to 17 other people.
+p27
+aVAnd then there was this other guy with SARS,
+p28
+aVwho managed to go on a three-hour flight
+p29
+aVand spread the disease to 22 other people.
+p30
+aVThat's not exactly my idea of a great superpower.
+p31
+aa(lp32
+VWhen we take a look at this, what we also find
+p33
+aVis that it's very difficult to pre-screen for these diseases.
+p34
+aVSo when someone actually goes on a plane,
+p35
+aVthey could be sick
+p36
+aVand they could actually be in this latency period
+p37
+aVin which they could actually have the disease
+p38
+aVbut not exhibit any symptoms,
+p39
+aVand they could, in turn, spread the disease
+p40
+aVto many other people in the cabin.
+p41
+aa(lp42
+VHow that actually works is that right now
+p43
+aVwe've got air coming in from the top of the cabin
+p44
+aVand from the side of the cabin, as you see in blue.
+p45
+aVAnd then also, that air goes out through these very efficient filters
+p46
+aVthat eliminate 99.97 percent of pathogens near the outlets.
+p47
+aVWhat happens right now, though,
+p48
+aVis that we have this mixing airflow pattern.
+p49
+aVSo if someone were to actually sneeze,
+p50
+aVthat air would get swirled around multiple times
+p51
+aVbefore it even has a chance to go out through the filter.
+p52
+aVSo I thought: clearly, this is a pretty serious problem.
+p53
+aa(lp54
+VI didn't have the money to go out and buy a plane,
+p55
+aVso I decided to build a computer instead.
+p56
+aVIt actually turns out that with computational fluid dynamics,
+p57
+aVwhat we're able to do is create these simulations
+p58
+aVthat give us higher resolutions
+p59
+aVthan actually physically going in and taking readings in the plane.
+p60
+aVAnd so how, essentially, this works is you would start out
+p61
+aVwith these 2D drawings \u2014
+p62
+aVthese are floating around in technical papers around the Internet.
+p63
+aVI take that and then I put it into this 3D-modeling software,
+p64
+aVreally building that 3D model.
+p65
+aVAnd then I divide that model that I just built into these tiny pieces,
+p66
+aVessentially meshing it so that the computer can better understand it.
+p67
+aVAnd then I tell the computer where the air goes in and out of the cabin,
+p68
+aVthrow in a bunch of physics
+p69
+aVand basically sit there and wait until the computer calculates the simulation.
+p70
+aa(lp71
+VSo what we get, actually, with the conventional cabin is this:
+p72
+aVyou'll notice the middle person sneezing,
+p73
+aVand we go "Splat!" \u2014 it goes right into people's faces.
+p74
+aVIt's pretty disgusting.
+p75
+aVFrom the front, you'll notice those two passengers
+p76
+aVsitting next to the central passenger
+p77
+aVnot exactly having a great time.
+p78
+aVAnd when we take a look at that from the side,
+p79
+aVyou'll also notice those pathogens spreading across the length of the cabin.
+p80
+aa(lp81
+VThe first thing I thought was, "This is no good."
+p82
+aVSo I actually conducted more than 32 different simulations
+p83
+aVand ultimately, I came up with this solution right here.
+p84
+aVThis is what I call a \u2014 patent pending \u2014 Global Inlet Director.
+p85
+aVWith this, we're able to reduce pathogen transmission
+p86
+aVby about 55 times,
+p87
+aVand increase fresh-air inhalation by about 190 percent.
+p88
+aa(lp89
+VSo how this actually works
+p90
+aVis we would install this piece of composite material
+p91
+aVinto these existing spots that are already in the plane.
+p92
+aVSo it's very cost-effective to install
+p93
+aVand we can do this directly overnight.
+p94
+aVAll we have to do is put a couple of screws in there and you're good to go.
+p95
+aVAnd the results that we get are absolutely amazing.
+p96
+aVInstead of having those problematic swirling airflow patterns,
+p97
+aVwe can create these walls of air
+p98
+aVthat come down in-between the passengers
+p99
+aVto create personalized breathing zones.
+p100
+aa(lp101
+VSo you'll notice the middle passenger here is sneezing again,
+p102
+aVbut this time, we're able to effectively push that down
+p103
+aVto the filters for elimination.
+p104
+aVAnd same thing from the side,
+p105
+aVyou'll notice we're able to directly push those pathogens down.
+p106
+aVSo if you take a look again now at the same scenario
+p107
+aVbut with this innovation installed,
+p108
+aVyou'll notice the middle passenger sneezes,
+p109
+aVand this time, we're pushing that straight down into the outlet
+p110
+aVbefore it gets a chance to infect any other people.
+p111
+aVSo you'll notice the two passengers sitting next to the middle guy
+p112
+aVare breathing virtually no pathogens at all.
+p113
+aVTake a look at that from the side as well,
+p114
+aVyou see a very efficient system.
+p115
+aa(lp116
+VAnd in short, with this system, we win.
+p117
+aVWhen we take a look at what this means,
+p118
+aVwhat we see is that this not only works if the middle passenger sneezes,
+p119
+aVbut also if the window-seat passenger sneezes
+p120
+aVor if the aisle-seat passenger sneezes.
+p121
+aa(lp122
+VAnd so with this solution, what does this mean for the world?
+p123
+aVWell, when we take a look at this
+p124
+aVfrom the computer simulation into real life,
+p125
+aVwe can see with this 3D model that I built over here,
+p126
+aVessentially using 3D printing,
+p127
+aVwe can see those same airflow patterns coming down,
+p128
+aVright to the passengers.
+p129
+aVIn the past, the SARS epidemic actually cost the world
+p130
+aVabout 40 billion dollars.
+p131
+aVAnd in the future,
+p132
+aVa big disease outbreak could actually cost the world
+p133
+aVin excess of three trillion dollars.
+p134
+aVSo before, it used to be that you had to take an airplane out of service
+p135
+aVfor one to two months,
+p136
+aVspend tens of thousands of man hours and several million dollars
+p137
+aVto try to change something.
+p138
+aVBut now, we're able to install something essentially overnight
+p139
+aVand see results right away.
+p140
+aa(lp141
+VSo it's really now a matter of taking this through to certification,
+p142
+aVflight testing,
+p143
+aVand going through all of these regulatory approvals processes.
+p144
+aVBut it just really goes to show that sometimes the best solutions
+p145
+aVare the simplest solutions.
+p146
+aVAnd two years ago, even,
+p147
+aVthis project would not have happened,
+p148
+aVjust because the technology then wouldn't have supported it.
+p149
+aVBut now with advanced computing
+p150
+aVand how developed our Internet is,
+p151
+aVit's really the golden era for innovation.
+p152
+aa(lp153
+VAnd so the question I ask all of you today is: why wait?
+p154
+aVTogether, we can build the future today.
+p155
+aa(lp156
+VThanks.
+p157
+aa(lp158
+V(Applause)
+p159
+aasS'transcript_micsec'
+p160
+(lp161
+I12000
+aI36000
+aI74000
+aI94000
+aI126000
+aI175000
+aI201000
+aI221000
+aI248000
+aI286000
+aI302000
+aI348000
+aI376000
+aI382000
+aI383000
+asS'talk_meta'
+p162
+(dp163
+S'ratings'
+p164
+(dp165
+S'ingenious'
+p166
+I285
+sS'funny'
+p167
+I7
+sS'inspiring'
+p168
+I173
+sS'ok'
+p169
+I62
+sS'fascinating'
+p170
+I134
+sS'total_count'
+p171
+I1201
+sS'persuasive'
+p172
+I100
+sS'longwinded'
+p173
+I7
+sS'unconvincing'
+p174
+I19
+sS'informative'
+p175
+I359
+sS'beautiful'
+p176
+I5
+sS'jaw-dropping'
+p177
+I23
+sS'obnoxious'
+p178
+I8
+sS'courageous'
+p179
+I15
+sS'confusing'
+p180
+I4
+ssS'author'
+p181
+VRaymond_Wang;
+p182
+sS'url'
+p183
+S'https://www.ted.com/talks/raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them'
+p184
+sS'vidlen'
+p185
+I388
+sS'totalviews'
+p186
+I1696927
+sS'title'
+p187
+VHow germs travel on planes -- and how we can stop them
+p188
+sS'downloadlink'
+p189
+Vhttps://download.ted.com/talks/RaymondWang_2015Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p190
+sS'datepublished'
+p191
+cdatetime
+datetime
+p192
+(S'\x07\xdf\x0c\n\x0b\x105\x00\x00\x00'
+tRp193
+sS'datefilmed'
+p194
+g192
+(S'\x07\xdf\x0c\n\x0b\x105\x00\x00\x00'
+tRp195
+sS'alldata_JSON'
+p196
+S'{"viewed_count": 1696927, "speakers": [{"description": "Inventor", "firstname": "Raymond", "title": "", "lastname": "Wang", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Raymond Wang is a Canadian youth innovator who is passionate about science, technology, engineering and entrepreneurship. He is one of Canada&#39;s Top 20 Under 20, and most recently, the recipient of the Gordon E. Moore award for the Top Project at the 2015 Intel International Science and Engineering Fair (ISEF).</p><p class=\\"p1\\">Raymond enjoys exploring STEM and promoting global sustainability. His latest engineering innovations, including his work with aircraft cabin airflow and his inventions of the &ldquo;Weather Harvester,&rdquo; &ldquo;Smart Knee Assistant&rdquo; and &quot;Smart Bin,&rdquo; have achieved international recognition.</p><p class=\\"p1\\">Raymond is enthusiastic about inspiring others to pursue STEM opportunities. He actively reaches out to the local community through camps &amp; associations, in addition to communities around the world through YouTube &amp; Modern Media.</p><p class=\\"p1\\">Having a strong passion for sustainability, Raymond has founded Sustainable Youth Canada, a youth-led non-profit organization dedicated to empowering young people in Affiliated Regions established from coast to coast to be leaders in tackling issues with environmental and energy sustainability.</p><p class=\\"p1\\">In his spare time, Raymond enjoys exploring music as both a National Youth Band clarinetist and an avid pianist. He is also a keen director of films and videos; many of his productions have been recognized at local film festivals.&nbsp;</p><p class=\\"p1\\">Raymond envisions himself pursuing a career in science, applying research and innovation with a business approach to do his part in bettering the world.</p>", "slug": "raymond_wang", "whotheyare": "Raymond Wang won the top prize in the 2015 Intel Science and Engineering Fair for his invention that circulates fresh air on planes and reduces transmission of germs between passengers.", "whatotherssay": "", "id": 2724, "photo_url": "https://pe.tedcdn.com/images/ted/3f2ce13d7d5b6c5147ae5583b739f6a3458c1f87_254x191.jpg"}], "current_talk": 2391, "description": "Raymond Wang is only 17 years old, but he\'s already helping to build a healthier future. Using fluid dynamics, he created computational simulations of how air moves on airplanes, and what he found is disturbing -- when a person sneezes on a plane, the airflow actually helps to spread pathogens to other passengers. Wang shares an unforgettable animation of how a sneeze travels inside a plane cabin as well as his prize-winning solution: a small, fin-shaped device that increases fresh airflow in airplanes and redirects pathogen-laden air out of circulation.", "language": "en", "url": "https://www.ted.com/talks/raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46953100}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9139382}, "podcast-high": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46949324}, "180k": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8893052}, "64k": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3226556}, "1500k": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 72076198}, "450k": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22351776}, "podcast-regular": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22467099}, "950k": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46957243}, "audio-podcast": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4187741}, "podcast-light": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3360237}, "320k": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15796193}, "600k": {"uri": "https://download.ted.com/talks/RaymondWang_2015Y-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30062363}}}, "comments": {"count": 76, "id": 27010, "talk_id": 2391}, "slug": "raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them", "threadId": 27010, "talks": [{"event": "TEDYouth 2015", "player_talks": [{"event": "TEDYouth 2015", "slug": "raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them", "filmed": 1447459200, "targeting": {"event": "TEDYouth 2015", "tag": "TEDYouth,aircraft,bacteria,design,engineering,flight,health,illness,innovation,invention,physics,science,transportation", "id": 2391, "talk": "raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "How germs travel on planes -- and how we can stop them", "postAdDuration": "0.83", "published": 1449764213, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/84b7bc4827f762d7eca914303f45397b96eabeec_2880x1620.jpg?quality=89&w=600", "name": "Raymond Wang: How germs travel on planes -- and how we can stop them", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDYouth", "aircraft", "bacteria", "design", "engineering", "flight", "health", "illness", "innovation", "invention", "physics", "science", "transportation"], "speaker": "Raymond Wang", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 388, "id": 2391, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RaymondWang_2015Y-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDYouth 2015", "tag": "TEDYouth,aircraft,bacteria,design,engineering,flight,health,illness,innovation,invention,physics,science,transportation", "id": 2391, "talk": "raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2391.json", "stream": "https://hls.ted.com/talks/2391.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDYouth%2B2015%26id%3D2391%26tag%3DTEDYouth%2Caircraft%2Cbacteria%2Cdesign%2Cengineering%2Cflight%2Chealth%2Cillness%2Cinnovation%2Cinvention%2Cphysics%2Cscience%2Ctransportation%26talk%3Draymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/84b7bc4827f762d7eca914303f45397b96eabeec_2880x1620.jpg?q=50&w=15", "duration": 388, "id": 2391, "ratings": [{"count": 359, "id": 8, "name": "Informative"}, {"count": 285, "id": 9, "name": "Ingenious"}, {"count": 173, "id": 10, "name": "Inspiring"}, {"count": 100, "id": 24, "name": "Persuasive"}, {"count": 134, "id": 22, "name": "Fascinating"}, {"count": 4, "id": 2, "name": "Confusing"}, {"count": 19, "id": 21, "name": "Unconvincing"}, {"count": 62, "id": 25, "name": "OK"}, {"count": 7, "id": 11, "name": "Longwinded"}, {"count": 15, "id": 3, "name": "Courageous"}, {"count": 23, "id": 23, "name": "Jaw-dropping"}, {"count": 7, "id": 7, "name": "Funny"}, {"count": 8, "id": 26, "name": "Obnoxious"}, {"count": 5, "id": 1, "name": "Beautiful"}], "speakers": [{"description": "Inventor", "firstname": "Raymond", "title": "", "lastname": "Wang", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Raymond Wang is a Canadian youth innovator who is passionate about science, technology, engineering and entrepreneurship. He is one of Canada&#39;s Top 20 Under 20, and most recently, the recipient of the Gordon E. Moore award for the Top Project at the 2015 Intel International Science and Engineering Fair (ISEF).</p><p class=\\"p1\\">Raymond enjoys exploring STEM and promoting global sustainability. His latest engineering innovations, including his work with aircraft cabin airflow and his inventions of the &ldquo;Weather Harvester,&rdquo; &ldquo;Smart Knee Assistant&rdquo; and &quot;Smart Bin,&rdquo; have achieved international recognition.</p><p class=\\"p1\\">Raymond is enthusiastic about inspiring others to pursue STEM opportunities. He actively reaches out to the local community through camps &amp; associations, in addition to communities around the world through YouTube &amp; Modern Media.</p><p class=\\"p1\\">Having a strong passion for sustainability, Raymond has founded Sustainable Youth Canada, a youth-led non-profit organization dedicated to empowering young people in Affiliated Regions established from coast to coast to be leaders in tackling issues with environmental and energy sustainability.</p><p class=\\"p1\\">In his spare time, Raymond enjoys exploring music as both a National Youth Band clarinetist and an avid pianist. He is also a keen director of films and videos; many of his productions have been recognized at local film festivals.&nbsp;</p><p class=\\"p1\\">Raymond envisions himself pursuing a career in science, applying research and innovation with a business approach to do his part in bettering the world.</p>", "slug": "raymond_wang", "whotheyare": "Raymond Wang won the top prize in the 2015 Intel Science and Engineering Fair for his invention that circulates fresh air on planes and reduces transmission of germs between passengers.", "whatotherssay": "", "id": 2724, "photo_url": "https://pe.tedcdn.com/images/ted/3f2ce13d7d5b6c5147ae5583b739f6a3458c1f87_254x191.jpg"}], "title": "How germs travel on planes -- and how we can stop them", "take_action": [], "comments": 27010, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/84b7bc4827f762d7eca914303f45397b96eabeec_2880x1620.jpg", "description": "Raymond Wang is only 17 years old, but he\'s already helping to build a healthier future. Using fluid dynamics, he created computational simulations of how air moves on airplanes, and what he found is disturbing -- when a person sneezes on a plane, the airflow actually helps to spread pathogens to other passengers. Wang shares an unforgettable animation of how a sneeze travels inside a plane cabin as well as his prize-winning solution: a small, fin-shaped device that increases fresh airflow in airplanes and redirects pathogen-laden air out of circulation.", "tags": ["TEDYouth", "aircraft", "bacteria", "design", "engineering", "flight", "health", "illness", "innovation", "invention", "physics", "science", "transportation"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-pt.mp4"}, "zh-tw": {"name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-hr.mp4"}, "da": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-he.mp4"}, "te": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-te.mp4", "name": "Telugu", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-te.mp4"}, "sr": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-sv.mp4"}, "mk": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-sk.mp4"}, "sl": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-sl.mp4"}, "my": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/RaymondWang_2015Y-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RaymondWang_2015Y-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RaymondWang_2015Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RaymondWang_2015Y-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2391, "audioDownload": "https://download.ted.com/talks/RaymondWang_2015Y.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 781768, "hero": "https://pe.tedcdn.com/images/ted/9cc607ade24a84b3ceb2a166a3765d45e41af353_2880x1620.jpg", "title": "My solar-powered adventure", "id": 723, "speaker": "Bertrand Piccard", "duration": 1066, "slug": "bertrand_piccard_s_solar_powered_adventure"}, {"viewed_count": 993113, "hero": "https://pe.tedcdn.com/images/ted/b226ce62a4f4e1442f252df8481a8930f02d4205_2880x1620.jpg", "title": "The troubling reason why vaccines are made too late ... if they\'re made at all", "id": 2317, "speaker": "Seth Berkley", "duration": 437, "slug": "seth_berkley_the_troubling_reason_why_vaccines_are_made_too_late_if_they_re_made_at_all"}, {"viewed_count": 958595, "hero": "https://pe.tedcdn.com/images/ted/6b6589338b03f27ab6c1ba727afa0d9d2393bba3_1600x1200.jpg", "title": "We\'re covered in germs. Let\'s design for that.", "id": 1698, "speaker": "Jessica Green", "duration": 523, "slug": "jessica_green_good_germs_make_healthy_buildings"}, {"viewed_count": 861997, "hero": "https://pe.tedcdn.com/images/ted/feb20ff7066bfae475458b02519cbda9523c3ed8_2880x1620.jpg", "title": "Humanity vs. Ebola. How we could win a terrifying war", "id": 2177, "speaker": "Bruce Aylward", "duration": 1151, "slug": "bruce_aylward_humanity_vs_ebola_the_winning_strategies_in_a_terrifying_war"}, {"viewed_count": 2252036, "hero": "https://pe.tedcdn.com/images/ted/2c60223169fd66d3962f9f3c354081824d2914c5_2880x1620.jpg", "title": "The next outbreak? We\\u2019re not ready", "id": 2225, "speaker": "Bill Gates", "duration": 512, "slug": "bill_gates_the_next_disaster_we_re_not_ready"}, {"viewed_count": 556042, "hero": "https://pe.tedcdn.com/images/ted/84966_800x600.jpg", "title": "Rethinking the way we sit down", "id": 520, "speaker": "Niels Diffrient", "duration": 1040, "slug": "niels_diffrient_rethinks_the_way_we_sit_at_work"}], "recorded_at": "2015-11-14T00:00:00.000+00:00", "slug": "raymond_wang_how_germs_travel_on_planes_and_how_we_can_stop_them", "speaker_name": "Raymond Wang", "viewed_count": 1696927, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDYouth 2015", "name": "Raymond Wang: How germs travel on planes -- and how we can stop them"}'
+p197
+sS'keywords'
+p198
+(lp199
+VTEDYouth
+p200
+aVaircraft
+p201
+aVbacteria
+p202
+aVdesign
+p203
+aVengineering
+p204
+aVflight
+p205
+aVhealth
+p206
+aVillness
+p207
+aVinnovation
+p208
+aVinvention
+p209
+aVphysics
+p210
+aVscience
+p211
+aVtransportation
+p212
+asS'datecrawled'
+p213
+g192
+(S'\x07\xe1\n\x17\x01\x1d0\rQ\x1e'
+tRp214
+sS'id'
+p215
+I2391
+ss.

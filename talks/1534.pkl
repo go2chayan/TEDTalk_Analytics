@@ -1,0 +1,456 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, well, I do applied math,
+p5
+aVand this is a peculiar problem
+p6
+aVfor anyone who does applied math, is that
+p7
+aVwe are like management consultants.
+p8
+aVNo one knows what the hell we do.
+p9
+aVSo I am going to give you some \u2014 attempt today
+p10
+aVto try and explain to you what I do.
+p11
+aa(lp12
+VSo, dancing is one of the most human of activities.
+p13
+aVWe delight at ballet virtuosos and tap dancers
+p14
+aVyou will see later on.
+p15
+aVNow, ballet requires an extraordinary level of expertise
+p16
+aVand a high level of skill,
+p17
+aVand probably a level of initial suitability
+p18
+aVthat may well have a genetic component to it.
+p19
+aVNow, sadly, neurological disorders such as Parkinson's disease
+p20
+aVgradually destroy this extraordinary ability,
+p21
+aVas it is doing to my friend Jan Stripling, who was
+p22
+aVa virtuoso ballet dancer in his time.
+p23
+aVSo great progress and treatment has been made over the years.
+p24
+aVHowever, there are 6.3 million people worldwide
+p25
+aVwho have the disease, and they have to live with
+p26
+aVincurable weakness, tremor, rigidity
+p27
+aVand the other symptoms that go along with the disease,
+p28
+aVso what we need are objective tools
+p29
+aVto detect the disease before it's too late.
+p30
+aVWe need to be able to measure progression objectively,
+p31
+aVand ultimately, the only way we're going to know
+p32
+aVwhen we actually have a cure is when we have
+p33
+aVan objective measure that can answer that for sure.
+p34
+aa(lp35
+VBut frustratingly, with Parkinson's disease
+p36
+aVand other movement disorders, there are no biomarkers,
+p37
+aVso there's no simple blood test that you can do,
+p38
+aVand the best that we have is like
+p39
+aVthis 20-minute neurologist test.
+p40
+aVYou have to go to the clinic to do it. It's very, very costly,
+p41
+aVand that means that, outside the clinical trials,
+p42
+aVit's just never done. It's never done.
+p43
+aa(lp44
+VBut what if patients could do this test at home?
+p45
+aVNow, that would actually save on a difficult trip to the clinic,
+p46
+aVand what if patients could do that test themselves, right?
+p47
+aVNo expensive staff time required.
+p48
+aVTakes about $300, by the way,
+p49
+aVin the neurologist's clinic to do it.
+p50
+aa(lp51
+VSo what I want to propose to you as an unconventional way
+p52
+aVin which we can try to achieve this,
+p53
+aVbecause, you see, in one sense, at least,
+p54
+aVwe are all virtuosos like my friend Jan Stripling.
+p55
+aa(lp56
+VSo here we have a video of the vibrating vocal folds.
+p57
+aVNow, this is healthy and this is somebody making speech sounds,
+p58
+aVand we can think of ourselves as vocal ballet dancers,
+p59
+aVbecause we have to coordinate all of these vocal organs
+p60
+aVwhen we make sounds, and we all actually
+p61
+aVhave the genes for it. FoxP2, for example.
+p62
+aVAnd like ballet, it takes an extraordinary level of training.
+p63
+aVI mean, just think how long it takes a child to learn to speak.
+p64
+aVFrom the sound, we can actually track
+p65
+aVthe vocal fold position as it vibrates,
+p66
+aVand just as the limbs are affected in Parkinson's,
+p67
+aVso too are the vocal organs.
+p68
+aVSo on the bottom trace, you can see an example of
+p69
+aVirregular vocal fold tremor.
+p70
+aVWe see all the same symptoms.
+p71
+aVWe see vocal tremor, weakness and rigidity.
+p72
+aVThe speech actually becomes quieter and more breathy
+p73
+aVafter a while, and that's one of the example symptoms of it.
+p74
+aa(lp75
+VSo these vocal effects can actually be quite subtle,
+p76
+aVin some cases, but with any digital microphone,
+p77
+aVand using precision voice analysis software
+p78
+aVin combination with the latest in machine learning,
+p79
+aVwhich is very advanced by now,
+p80
+aVwe can now quantify exactly where somebody lies
+p81
+aVon a continuum between health and disease
+p82
+aVusing voice signals alone.
+p83
+aa(lp84
+VSo these voice-based tests, how do they stack up against
+p85
+aVexpert clinical tests? We'll, they're both non-invasive.
+p86
+aVThe neurologist's test is non-invasive. They both use existing infrastructure.
+p87
+aVYou don't have to design a whole new set of hospitals to do it.
+p88
+aVAnd they're both accurate. Okay, but in addition,
+p89
+aVvoice-based tests are non-expert.
+p90
+aVThat means they can be self-administered.
+p91
+aVThey're high-speed, take about 30 seconds at most.
+p92
+aVThey're ultra-low cost, and we all know what happens.
+p93
+aVWhen something becomes ultra-low cost,
+p94
+aVit becomes massively scalable.
+p95
+aVSo here are some amazing goals that I think we can deal with now.
+p96
+aVWe can reduce logistical difficulties with patients.
+p97
+aVNo need to go to the clinic for a routine checkup.
+p98
+aVWe can do high-frequency monitoring to get objective data.
+p99
+aVWe can perform low-cost mass recruitment for clinical trials,
+p100
+aVand we can make population-scale screening
+p101
+aVfeasible for the first time.
+p102
+aVWe have the opportunity to start to search
+p103
+aVfor the early biomarkers of the disease before it's too late.
+p104
+aa(lp105
+VSo, taking the first steps towards this today,
+p106
+aVwe're launching the Parkinson's Voice Initiative.
+p107
+aVWith Aculab and PatientsLikeMe, we're aiming
+p108
+aVto record a very large number of voices worldwide
+p109
+aVto collect enough data to start to tackle these four goals.
+p110
+aVWe have local numbers accessible to three quarters
+p111
+aVof a billion people on the planet.
+p112
+aVAnyone healthy or with Parkinson's can call in, cheaply,
+p113
+aVand leave recordings, a few cents each,
+p114
+aVand I'm really happy to announce that we've already hit
+p115
+aVsix percent of our target just in eight hours.
+p116
+aVThank you. (Applause)
+p117
+aV(Applause)
+p118
+aa(lp119
+VTom Rielly: So Max, by taking all these samples of,
+p120
+aa(lp121
+Vlet's say, 10,000 people,
+p122
+aVyou'll be able to tell who's healthy and who's not?
+p123
+aVWhat are you going to get out of those samples?
+p124
+aa(lp125
+VMax Little: Yeah. Yeah. So what will happen is that,
+p126
+aVduring the call you have to indicate whether or not
+p127
+aVyou have the disease or not, you see. TR: Right.
+p128
+aVML: You see, some people may not do it. They may not get through it.
+p129
+aVBut we'll get a very large sample of data that is collected
+p130
+aVfrom all different circumstances, and it's getting it
+p131
+aVin different circumstances that matter because then
+p132
+aVwe are looking at ironing out the confounding factors,
+p133
+aVand looking for the actual markers of the disease.
+p134
+aa(lp135
+VTR: So you're 86 percent accurate right now?
+p136
+aa(lp137
+VML: It's much better than that.
+p138
+aVActually, my student Thanasis, I have to plug him,
+p139
+aVbecause he's done some fantastic work,
+p140
+aVand now he has proved that it works over the mobile telephone network as well,
+p141
+aVwhich enables this project, and we're getting 99 percent accuracy.
+p142
+aa(lp143
+VTR: Ninety-nine. Well, that's an improvement.
+p144
+aVSo what that means is that people will be able to \u2014
+p145
+aVML: (Laughs)
+p146
+aVTR: People will be able to call in from their mobile phones
+p147
+aVand do this test, and people with Parkinson's could call in,
+p148
+aVrecord their voice, and then their doctor can check up
+p149
+aVon their progress, see where they're doing in this course of the disease.
+p150
+aa(lp151
+VML: Absolutely.
+p152
+aa(lp153
+VTR: Thanks so much. Max Little, everybody.
+p154
+aa(lp155
+VML: Thanks, Tom. (Applause)
+p156
+aasS'transcript_micsec'
+p157
+(lp158
+I11000
+aI25000
+aI85000
+aI104000
+aI119000
+aI128000
+aI173000
+aI194000
+aI247000
+aI283000
+aI287000
+aI294000
+aI315000
+aI318000
+aI330000
+aI346000
+aI347000
+aI348000
+asS'talk_meta'
+p159
+(dp160
+S'ratings'
+p161
+(dp162
+S'ingenious'
+p163
+I297
+sS'beautiful'
+p164
+I11
+sS'inspiring'
+p165
+I88
+sS'ok'
+p166
+I28
+sS'fascinating'
+p167
+I124
+sS'funny'
+p168
+I2
+sS'total_count'
+p169
+I870
+sS'persuasive'
+p170
+I54
+sS'longwinded'
+p171
+I1
+sS'informative'
+p172
+I162
+sS'jaw-dropping'
+p173
+I74
+sS'obnoxious'
+p174
+I0
+sS'confusing'
+p175
+I1
+sS'courageous'
+p176
+I16
+sS'unconvincing'
+p177
+I12
+ssS'author'
+p178
+VMax_Little;
+p179
+sS'url'
+p180
+S'https://www.ted.com/talks/max_little_a_test_for_parkinson_s_with_a_phone_call'
+p181
+sS'vidlen'
+p182
+I364
+sS'totalviews'
+p183
+I1069857
+sS'title'
+p184
+VA test for Parkinson's with a phone call
+p185
+sS'downloadlink'
+p186
+Vhttps://download.ted.com/talks/MaxLittle_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p187
+sS'datepublished'
+p188
+cdatetime
+datetime
+p189
+(S'\x07\xdc\x08\x07\x0b\x04+\x00\x00\x00'
+tRp190
+sS'datefilmed'
+p191
+g189
+(S'\x07\xdc\x08\x07\x0b\x04+\x00\x00\x00'
+tRp192
+sS'alldata_JSON'
+p193
+S'{"viewed_count": 1069857, "speakers": [{"description": "Applied mathematician", "firstname": "Max", "title": "", "lastname": "Little", "middleinitial": "", "whylisten": "<p>Max Little is an applied mathematician whose goal is to &quot;see connections between subjects, not boundaries &hellip; to see how things are related, not how they are different.&quot; He has a background in applied mathematics, statistics, signal processing and computational engineering, and his work has been applied across disciplines like biomedicine, extreme rainfall analysis and forecasting, biophysical signal processing, and hydrogeomorphology and open channel flow measurement. Little is best known for his work on the Parkinson&#39;s Voice Initiative, in which he and his team developed a cheap and simple tool that uses precise voice analysis software to detect Parkinson&#39;s with 99 percent accuracy. Little is a TEDGlobal 2012 Fellow and a Wellcome Trust-MIT Postdoctoral Research Fellow.</p>", "slug": "max_little", "whotheyare": "Max Little is a mathematician whose research includes a breakthrough technique to monitor \\u2013 and potentially screen for \\u2013 Parkinson\'s disease through simple voice recordings.", "whatotherssay": "", "id": 1397, "photo_url": "https://pe.tedcdn.com/images/ted/1f390e8f2f8a6b0aadff726c3908b3ef9994c9a1_254x191.jpg"}], "current_talk": 1534, "description": "Parkinson\'s disease affects 6.3 million people worldwide, causing weakness and tremors, but there\'s no objective way to detect it early on. Yet. Applied mathematician and TED Fellow Max Little is testing a simple, cheap tool that in trials is able to detect Parkinson\'s with 99 percent accuracy -- in a 30-second phone call.", "language": "en", "url": "https://www.ted.com/talks/max_little_a_test_for_parkinson_s_with_a_phone_call", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43121327}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8415805}, "podcast-high": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43122686}, "180k": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8345392}, "64k": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3012248}, "1500k": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67319478}, "450k": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20496032}, "podcast-regular": {"uri": "https://download.ted.com/talks/MaxLittle_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20665930}, "950k": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43152123}, "audio-podcast": {"uri": "https://download.ted.com/talks/MaxLittle_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3871658}, "podcast-light": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3111656}, "320k": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14779596}, "600k": {"uri": "https://download.ted.com/talks/MaxLittle_2012G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27619795}}}, "comments": {"count": 231, "id": 14487, "talk_id": 1534}, "slug": "max_little_a_test_for_parkinson_s_with_a_phone_call", "threadId": 14487, "talks": [{"event": "TEDGlobal 2012", "player_talks": [{"event": "TEDGlobal 2012", "slug": "max_little_a_test_for_parkinson_s_with_a_phone_call", "filmed": 1340668800, "targeting": {"event": "TEDGlobal 2012", "tag": "TED Fellows,aging,brain,cognitive science,computers,disability,disease,global issues,health,health care,illness,innovation,machine learning,math,medicine,mind,neuroscience,programming,science,speech,technology", "id": 1534, "talk": "max_little_a_test_for_parkinson_s_with_a_phone_call", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "A test for Parkinson\'s with a phone call", "postAdDuration": "0.83", "published": 1344351883, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fd821b3a7bc81494f193458512e3e344e464226a_1600x1200.jpg?quality=89&w=600", "name": "Max Little: A test for Parkinson\'s with a phone call", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TED Fellows", "aging", "brain", "cognitive science", "computers", "disability", "disease", "global issues", "health", "health care", "illness", "innovation", "machine learning", "math", "medicine", "mind", "neuroscience", "programming", "science", "speech", "technology"], "speaker": "Max Little", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 364, "id": 1534, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MaxLittle_2012G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2012", "tag": "TED Fellows,aging,brain,cognitive science,computers,disability,disease,global issues,health,health care,illness,innovation,machine learning,math,medicine,mind,neuroscience,programming,science,speech,technology", "id": 1534, "talk": "max_little_a_test_for_parkinson_s_with_a_phone_call", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1534.json", "stream": "https://hls.ted.com/talks/1534.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2012%26id%3D1534%26tag%3DTED%2BFellows%2Caging%2Cbrain%2Ccognitive%2Bscience%2Ccomputers%2Cdisability%2Cdisease%2Cglobal%2Bissues%2Chealth%2Chealth%2Bcare%2Cillness%2Cinnovation%2Cmachine%2Blearning%2Cmath%2Cmedicine%2Cmind%2Cneuroscience%2Cprogramming%2Cscience%2Cspeech%2Ctechnology%26talk%3Dmax_little_a_test_for_parkinson_s_with_a_phone_call%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/max_little_a_test_for_parkinson_s_with_a_phone_call"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fd821b3a7bc81494f193458512e3e344e464226a_1600x1200.jpg?q=50&w=15", "duration": 364, "id": 1534, "ratings": [{"count": 297, "id": 9, "name": "Ingenious"}, {"count": 88, "id": 10, "name": "Inspiring"}, {"count": 54, "id": 24, "name": "Persuasive"}, {"count": 162, "id": 8, "name": "Informative"}, {"count": 124, "id": 22, "name": "Fascinating"}, {"count": 74, "id": 23, "name": "Jaw-dropping"}, {"count": 28, "id": 25, "name": "OK"}, {"count": 11, "id": 1, "name": "Beautiful"}, {"count": 16, "id": 3, "name": "Courageous"}, {"count": 2, "id": 7, "name": "Funny"}, {"count": 12, "id": 21, "name": "Unconvincing"}, {"count": 1, "id": 11, "name": "Longwinded"}, {"count": 1, "id": 2, "name": "Confusing"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Applied mathematician", "firstname": "Max", "title": "", "lastname": "Little", "middleinitial": "", "whylisten": "<p>Max Little is an applied mathematician whose goal is to &quot;see connections between subjects, not boundaries &hellip; to see how things are related, not how they are different.&quot; He has a background in applied mathematics, statistics, signal processing and computational engineering, and his work has been applied across disciplines like biomedicine, extreme rainfall analysis and forecasting, biophysical signal processing, and hydrogeomorphology and open channel flow measurement. Little is best known for his work on the Parkinson&#39;s Voice Initiative, in which he and his team developed a cheap and simple tool that uses precise voice analysis software to detect Parkinson&#39;s with 99 percent accuracy. Little is a TEDGlobal 2012 Fellow and a Wellcome Trust-MIT Postdoctoral Research Fellow.</p>", "slug": "max_little", "whotheyare": "Max Little is a mathematician whose research includes a breakthrough technique to monitor \\u2013 and potentially screen for \\u2013 Parkinson\'s disease through simple voice recordings.", "whatotherssay": "", "id": 1397, "photo_url": "https://pe.tedcdn.com/images/ted/1f390e8f2f8a6b0aadff726c3908b3ef9994c9a1_254x191.jpg"}], "title": "A test for Parkinson\'s with a phone call", "take_action": [{"status": "approved", "start_at": null, "link_url": "http://www.parkinsonsvoice.org/survey2012en.php", "eyebrow": null, "end_at": null, "verb": "sign_up", "published": true, "visible_url": "parkinsonsvoice.org", "type": "take_action", "blurb": "**Sign up** to participate in a future Parkinson\'s Voice Initiative trial, by filling out his 2012 survey."}], "comments": 14487, "more_resources": [{"status": "approved", "start_at": null, "headline": "How my TED Talk helped me record thousands of voices", "link_url": "http://blog.ted.com/2012/12/21/the-voice-detective-fellows-friday-with-max-little/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "In a Q&A, Max Little explains how his talk ignited awareness about his work."}, {"status": "approved", "start_at": null, "headline": "Max Little\'s published research", "link_url": "http://www.maxlittle.net/publications/index.php", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Visit Little\'s website to find out more about his latest biomedical and mathematical findings."}, {"status": "approved", "start_at": null, "headline": "How to turn the iPhone into a medical research tool", "link_url": "http://blog.ted.com/how-max-little-put-a-parkinsons-app-on-the-iphone/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Read how Max Little\'s work in applied mathematics helped develop mPower, a data collection app for Parkinson\\u2019s research."}], "hero": "https://pe.tedcdn.com/images/ted/fd821b3a7bc81494f193458512e3e344e464226a_1600x1200.jpg", "description": "Parkinson\'s disease affects 6.3 million people worldwide, causing weakness and tremors, but there\'s no objective way to detect it early on. Yet. Applied mathematician and TED Fellow Max Little is testing a simple, cheap tool that in trials is able to detect Parkinson\'s with 99 percent accuracy -- in a 30-second phone call.", "tags": ["TED Fellows", "aging", "brain", "cognitive science", "computers", "disability", "disease", "global issues", "health", "health care", "illness", "innovation", "machine learning", "math", "medicine", "mind", "neuroscience", "programming", "science", "speech", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-sk.mp4"}, "mr": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/MaxLittle_2012G-low-mr.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MaxLittle_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MaxLittle_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MaxLittle_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1534, "audioDownload": "https://download.ted.com/talks/MaxLittle_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 513510, "hero": "https://pe.tedcdn.com/images/ted/55e8224d694fec895e6f95aa6fad6ee7fe091bb7_800x600.jpg", "title": "How we\'ll stop polio for good", "id": 1153, "speaker": "Bruce Aylward", "duration": 1389, "slug": "bruce_aylward_how_we_ll_stop_polio"}, {"viewed_count": 1295047, "hero": "https://pe.tedcdn.com/images/ted/7c8561015312ec4ba79c40a70b487512afb738c3_800x600.jpg", "title": "How I\'m preparing to get Alzheimer\'s", "id": 1498, "speaker": "Alanna Shaikh", "duration": 386, "slug": "alanna_shaikh_how_i_m_preparing_to_get_alzheimer_s"}, {"viewed_count": 626493, "hero": "https://pe.tedcdn.com/images/ted/9faa271f994e4928e673ccff499924bfe3e7083c_2880x1620.jpg", "title": "A next-gen cure for killer infections", "id": 594, "speaker": "Kary Mullis", "duration": 275, "slug": "kary_mullis_next_gen_cure_for_killer_infections"}, {"viewed_count": 1442678, "hero": "https://pe.tedcdn.com/images/ted/806fae883bd8d18133ee02ba5f67152396d9864a_2880x1620.jpg", "title": "What happens when you have a disease doctors can\'t diagnose", "id": 2627, "speaker": "Jennifer Brea", "duration": 1027, "slug": "jen_brea_what_happens_when_you_have_a_disease_doctors_can_t_diagnose"}, {"viewed_count": 913016, "hero": "https://pe.tedcdn.com/images/ted/f1ae4105704189a64c5c48db8b358b785a43c678_2880x1620.jpg", "title": "The coming neurological epidemic", "id": 408, "speaker": "Gregory Petsko", "duration": 227, "slug": "gregory_petsko_on_the_coming_neurological_epidemic"}, {"viewed_count": 965926, "hero": "https://pe.tedcdn.com/images/ted/70ee482d06c15e4d3f7db396870384ab35294218_1600x1200.jpg", "title": "The hunt for \\"unexpected genetic heroes\\"", "id": 2004, "speaker": "Stephen Friend", "duration": 639, "slug": "stephen_friend_the_hunt_for_unexpected_genetic_heroes"}], "recorded_at": "2012-06-26T00:00:00.000+00:00", "slug": "max_little_a_test_for_parkinson_s_with_a_phone_call", "speaker_name": "Max Little", "viewed_count": 1069857, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2012", "name": "Max Little: A test for Parkinson\'s with a phone call"}'
+p194
+sS'keywords'
+p195
+(lp196
+VTED Fellows
+p197
+aVaging
+p198
+aVbrain
+p199
+aVcognitive science
+p200
+aVcomputers
+p201
+aVdisability
+p202
+aVdisease
+p203
+aVglobal issues
+p204
+aVhealth
+p205
+aVhealth care
+p206
+aVillness
+p207
+aVinnovation
+p208
+aVmachine learning
+p209
+aVmath
+p210
+aVmedicine
+p211
+aVmind
+p212
+aVneuroscience
+p213
+aVprogramming
+p214
+aVscience
+p215
+aVspeech
+p216
+aVtechnology
+p217
+asS'datecrawled'
+p218
+g189
+(S'\x07\xe1\n\x17\x030\x11\x01\xa9\x14'
+tRp219
+sS'id'
+p220
+I1534
+ss.

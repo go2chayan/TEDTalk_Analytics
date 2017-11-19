@@ -1,0 +1,888 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThere's an old joke about a cop
+p5
+aVwho's walking his beat in the middle of the night,
+p6
+aVand he comes across a guy under a street lamp
+p7
+aVwho's looking at the ground and moving from side to side,
+p8
+aVand the cop asks him what he's doing.
+p9
+aVThe guys says he's looking for his keys.
+p10
+aVSo the cop takes his time
+p11
+aVand looks over and kind of makes a little matrix
+p12
+aVand looks for about two, three minutes.
+p13
+aVNo keys.
+p14
+aa(lp15
+VThe cop says, "Are you sure?
+p16
+aVHey buddy, are you sure you lost your keys here?"
+p17
+aa(lp18
+VAnd the guy says, "No, actually I lost them
+p19
+aVdown at the other end of the street,
+p20
+aVbut the light is better here."
+p21
+aa(lp22
+V(Laughter)
+p23
+aa(lp24
+VThere's a concept that people talk about nowadays called "big data."
+p25
+aVAnd what they're talking about is all of the information
+p26
+aVthat we're generating through our interaction
+p27
+aVwith and over the Internet,
+p28
+aVeverything from Facebook and Twitter
+p29
+aVto music downloads, movies, streaming, all this kind of stuff,
+p30
+aVthe live streaming of TED.
+p31
+aVAnd the folks who work with big data, for them,
+p32
+aVthey talk about that their biggest problem
+p33
+aVis we have so much information.
+p34
+aVThe biggest problem is: how do we organize all that information?
+p35
+aa(lp36
+VI can tell you that, working in global health,
+p37
+aVthat is not our biggest problem.
+p38
+aVBecause for us, even though the light is better on the Internet,
+p39
+aVthe data that would help us solve the problems we're trying to solve
+p40
+aVis not actually present on the Internet.
+p41
+aVSo we don't know, for example,
+p42
+aVhow many people right now are being affected by disasters
+p43
+aVor by conflict situations.
+p44
+aVWe don't know for, really, basically, any of the clinics
+p45
+aVin the developing world,
+p46
+aVwhich ones have medicines and which ones don't.
+p47
+aVWe have no idea of what the supply chain is for those clinics.
+p48
+aVWe don't know \u2014 and this is really amazing to me \u2014 we don't know
+p49
+aVhow many children were born \u2014 or how many children there are \u2014
+p50
+aVin Bolivia or Botswana or Bhutan.
+p51
+aVWe don't know how many kids died last week
+p52
+aVin any of those countries.
+p53
+aVWe don't know the needs of the elderly, the mentally ill.
+p54
+aVFor all of these different critically important problems
+p55
+aVor critically important areas that we want to solve problems in,
+p56
+aVwe basically know nothing at all.
+p57
+aa(lp58
+VAnd part of the reason why we don't know anything at all
+p59
+aVis that the information technology systems that we use in global health
+p60
+aVto find the data to solve these problems is what you see here.
+p61
+aVThis is about a 5,000-year-old technology.
+p62
+aVSome of you may have used it before.
+p63
+aVIt's kind of on its way out now,
+p64
+aVbut we still use it for 99 percent of our stuff.
+p65
+aVThis is a paper form.
+p66
+aVAnd what you're looking at is a paper form
+p67
+aVin the hand of a Ministry of Health nurse in Indonesia,
+p68
+aVwho is tramping out across the countryside
+p69
+aVin Indonesia on, I'm sure, a very hot and humid day,
+p70
+aVand she is going to be knocking on thousands of doors
+p71
+aVover a period of weeks or months,
+p72
+aVknocking on the doors and saying,
+p73
+aV"Excuse me, we'd like to ask you some questions.
+p74
+aVDo you have any children? Were your children vaccinated?"
+p75
+aa(lp76
+VBecause the only way we can actually find out
+p77
+aVhow many children were vaccinated in the country of Indonesia,
+p78
+aVwhat percentage were vaccinated,
+p79
+aVis actually not on the Internet, but by going out and knocking on doors,
+p80
+aVsometimes tens of thousands of doors.
+p81
+aVSometimes it takes months to even years to do something like this.
+p82
+aVYou know, a census of Indonesia
+p83
+aVwould probably take two years to accomplish.
+p84
+aa(lp85
+VAnd the problem, of course, with all of this
+p86
+aVis that, with all those paper forms \u2014
+p87
+aVand I'm telling you, we have paper forms for every possible thing:
+p88
+aVWe have paper forms for vaccination surveys.
+p89
+aVWe have paper forms to track people who come into clinics.
+p90
+aVWe have paper forms to track drug supplies, blood supplies \u2014
+p91
+aVall these different paper forms for many different topics,
+p92
+aVthey all have a single, common endpoint,
+p93
+aVand the common endpoint looks something like this.
+p94
+aVAnd what we're looking at here is a truckful of data.
+p95
+aVThis is the data from a single vaccination coverage survey
+p96
+aVin a single district in the country of Zambia
+p97
+aVfrom a few years ago, that I participated in.
+p98
+aVThe only thing anyone was trying to find out
+p99
+aVis what percentage of Zambian children are vaccinated,
+p100
+aVand this is the data, collected on paper over weeks,
+p101
+aVfrom a single district,
+p102
+aVwhich is something like a county in the United States.
+p103
+aVYou can imagine that, for the entire country of Zambia,
+p104
+aVanswering just that single question ...
+p105
+aVlooks something like this.
+p106
+aVTruck after truck after truck,
+p107
+aVfilled with stack after stack after stack of data.
+p108
+aa(lp109
+VAnd what makes it even worse is that's just the beginning.
+p110
+aVBecause once you've collected all that data,
+p111
+aVof course, someone \u2014 some unfortunate person \u2014
+p112
+aVis going to have to type that into a computer.
+p113
+aVWhen I was a graduate student,
+p114
+aVI actually was that unfortunate person sometimes.
+p115
+aVI can tell you, I often wasn't really paying attention.
+p116
+aVI probably made a lot of mistakes when I did it
+p117
+aVthat no one ever discovered, so data quality goes down.
+p118
+aa(lp119
+VBut eventually that data, hopefully, gets typed into a computer,
+p120
+aVand someone can begin to analyze it,
+p121
+aVand once they have an analysis and a report,
+p122
+aVhopefully, then you can take the results of that data collection
+p123
+aVand use it to vaccinate children better.
+p124
+aa(lp125
+VBecause if there's anything worse in the field of global public health \u2014
+p126
+aVI don't know what's worse than allowing children on this planet
+p127
+aVto die of vaccine-preventable diseases \u2014
+p128
+aVdiseases for which the vaccine costs a dollar.
+p129
+aVAnd millions of children die of these diseases every year.
+p130
+aVAnd the fact is, millions is a gross estimate,
+p131
+aVbecause we don't really know how many kids die each year of this.
+p132
+aa(lp133
+VWhat makes it even more frustrating is that the data-entry part,
+p134
+aVthe part that I used to do as a grad student,
+p135
+aVcan take sometimes six months.
+p136
+aVSometimes it can take two years to type that information into a computer,
+p137
+aVAnd sometimes, actually not infrequently,
+p138
+aVit actually never happens.
+p139
+aVNow try and wrap your head around that for a second.
+p140
+aVYou just had teams of hundreds of people.
+p141
+aVThey went out into the field to answer a particular question.
+p142
+aVYou probably spent hundreds of thousands of dollars
+p143
+aVon fuel and photocopying and per diem.
+p144
+aVAnd then for some reason, momentum is lost
+p145
+aVor there's no money left,
+p146
+aVand all of that comes to nothing,
+p147
+aVbecause no one actually types it into the computer at all.
+p148
+aVThe process just stops.
+p149
+aVHappens all the time.
+p150
+aVThis is what we base our decisions on in global health:
+p151
+aVlittle data, old data, no data.
+p152
+aa(lp153
+VSo back in 1995,
+p154
+aVI began to think about ways in which we could improve this process.
+p155
+aVNow 1995 \u2014 obviously, that was quite a long time ago.
+p156
+aVIt kind of frightens me to think of how long ago that was.
+p157
+aVThe top movie of the year was "Die Hard with a Vengeance."
+p158
+aVAs you can see, Bruce Willis had a lot more hair back then.
+p159
+aVI was working in the Centers for Disease Control
+p160
+aVand I had a lot more hair back then as well.
+p161
+aa(lp162
+VBut to me, the most significant thing that I saw in 1995
+p163
+aVwas this.
+p164
+aVHard for us to imagine, but in 1995,
+p165
+aVthis was the ultimate elite mobile device.
+p166
+aVIt wasn't an iPhone. It wasn't a Galaxy phone.
+p167
+aVIt was a PalmPilot.
+p168
+aVAnd when I saw the PalmPilot for the first time, I thought,
+p169
+aV"Why can't we put the forms on these PalmPilots?
+p170
+aVAnd go out into the field just carrying one PalmPilot,
+p171
+aVwhich can hold the capacity of tens of thousands of paper forms?
+p172
+aVWhy don't we try to do that?
+p173
+aVBecause if we can do that,
+p174
+aVif we can actually just collect the data electronically, digitally,
+p175
+aVfrom the very beginning,
+p176
+aVwe can just put a shortcut right through that whole process
+p177
+aVof typing, of having somebody type that stuff into the computer.
+p178
+aVWe can skip straight to the analysis
+p179
+aVand then straight to the use of the data to actually save lives."
+p180
+aa(lp181
+VSo that's what I began to do.
+p182
+aVWorking at CDC, I began to travel to different programs around the world
+p183
+aVand to train them in using PalmPilots to do data collection,
+p184
+aVinstead of using paper.
+p185
+aVAnd it actually worked great.
+p186
+aVIt worked exactly as well as anybody would have predicted.
+p187
+aVWhat do you know?
+p188
+aVDigital data collection is actually more efficient than collecting on paper.
+p189
+aVWhile I was doing it, my business partner,
+p190
+aVRose, who's here with her husband, Matthew, here in the audience,
+p191
+aVRose was out doing similar stuff for the American Red Cross.
+p192
+aa(lp193
+VThe problem was, after a few years of doing that,
+p194
+aVI realized \u2014 I had been to maybe six or seven programs \u2014
+p195
+aVand I thought, you know, if I keep this up at this pace,
+p196
+aVover my whole career,
+p197
+aVmaybe I'm going to go to maybe 20 or 30 programs.
+p198
+aVBut the problem is, 20 or 30 programs,
+p199
+aVlike, training 20 or 30 programs to use this technology,
+p200
+aVthat is a tiny drop in the bucket.
+p201
+aVThe demand for this, the need for data to run better programs
+p202
+aVjust within health \u2014 not to mention all of the other fields
+p203
+aVin developing countries \u2014 is enormous.
+p204
+aVThere are millions and millions and millions of programs,
+p205
+aVmillions of clinics that need to track drugs,
+p206
+aVmillions of vaccine programs.
+p207
+aVThere are schools that need to track attendance.
+p208
+aVThere are all these different things for us to get the data that we need to do.
+p209
+aVAnd I realized if I kept up the way that I was doing,
+p210
+aVI was basically hardly going to make any impact
+p211
+aVby the end of my career.
+p212
+aa(lp213
+VAnd so I began to rack my brain,
+p214
+aVtrying to think about, what was the process that I was doing?
+p215
+aVHow was I training folks,
+p216
+aVand what were the bottlenecks and what were the obstacles
+p217
+aVto doing it faster and to doing it more efficiently?
+p218
+aVAnd, unfortunately, after thinking about this for some time,
+p219
+aVI identified the main obstacle.
+p220
+aVAnd the main obstacle, it turned out \u2014
+p221
+aVand this is a sad realization \u2014
+p222
+aVthe main obstacle was me.
+p223
+aa(lp224
+VSo what do I mean by that?
+p225
+aVI had developed a process
+p226
+aVwhereby I was the center of the universe of this technology.
+p227
+aVIf you wanted to use this technology, you had to get in touch with me.
+p228
+aVThat means you had to know I existed.
+p229
+aVThen you had to find the money to pay for me to fly out to your country
+p230
+aVand the money to pay for my hotel and my per diem and my daily rate.
+p231
+aVSo you could be talking about 10- or 20- or 30,000 dollars,
+p232
+aVif I actually had the time or it fit my schedule
+p233
+aVand I wasn't on vacation.
+p234
+aVThe point is that anything,
+p235
+aVany system that depends on a single human being
+p236
+aVor two or three or five human beings \u2014
+p237
+aVit just doesn't scale.
+p238
+aVAnd this is a problem for which we need to scale this technology,
+p239
+aVand we need to scale it now.
+p240
+aa(lp241
+VAnd so I began to think of ways in which I could basically
+p242
+aVtake myself out of the picture.
+p243
+aVAnd, you know, I was thinking,
+p244
+aV"How could I take myself out of the picture?"
+p245
+aVfor quite some time.
+p246
+aVI'd been trained that the way you distribute technology
+p247
+aVwithin international development
+p248
+aVis always consultant-based.
+p249
+aVIt's always guys that look pretty much like me,
+p250
+aVflying from countries that look pretty much like this
+p251
+aVto other countries with people with darker skin.
+p252
+aVAnd you go out there, and you spend money on airfare
+p253
+aVand you spend time and you spend per diem
+p254
+aVand you spend for a hotel and all that stuff.
+p255
+aVAs far as I knew, that was the only way you could distribute technology,
+p256
+aVand I couldn't figure out a way around it.
+p257
+aa(lp258
+VBut the miracle that happened \u2014
+p259
+aVI'm going to call it Hotmail for short.
+p260
+aVYou may not think of Hotmail as being miraculous,
+p261
+aVbut for me it was miraculous,
+p262
+aVbecause I noticed, just as I was wrestling with this problem \u2014
+p263
+aVI was working in sub-Saharan Africa, mostly, at the time \u2014
+p264
+aVI noticed that every sub-Saharan African health worker
+p265
+aVthat I was working with had a Hotmail account.
+p266
+aVAnd it struck me, "Wait a minute \u2014
+p267
+aVI know the Hotmail people surely didn't fly to the Ministry of Health in Kenya
+p268
+aVto train people in how to use Hotmail.
+p269
+aVSo these guys are distributing technology, getting software capacity out there,
+p270
+aVbut they're not actually flying around the world.
+p271
+aVI need to think about this more."
+p272
+aVWhile I was thinking about it,
+p273
+aVpeople started using even more things like this, just as we were.
+p274
+aVThey started using LinkedIn and Flickr and Gmail and Google Maps \u2014
+p275
+aVall these things.
+p276
+aVOf course, all of these things are cloud based
+p277
+aVand don't require any training.
+p278
+aVThey don't require any programmers.
+p279
+aVThey don't require consultants.
+p280
+aVBecause the business model for all these businesses
+p281
+aVrequires that something be so simple we can use it ourselves,
+p282
+aVwith little or no training.
+p283
+aVYou just have to hear about it and go to the website.
+p284
+aa(lp285
+VAnd so I thought, what would happen if we built software
+p286
+aVto do what I'd been consulting in?
+p287
+aVInstead of training people how to put forms onto mobile devices,
+p288
+aVlet's create software that lets them do it themselves with no training
+p289
+aVand without me being involved.
+p290
+aVAnd that's exactly what we did.
+p291
+aa(lp292
+VSo we created software called Magpi, which has an online form creator.
+p293
+aVNo one has to speak to me,
+p294
+aVyou just have to hear about it and go to the website.
+p295
+aVYou can create forms, and once you've created the forms,
+p296
+aVyou push them to a variety of common mobile phones.
+p297
+aVObviously, nowadays, we've moved past PalmPilots to mobile phones.
+p298
+aVAnd it doesn't have to be a smartphone, it can be a basic phone,
+p299
+aVlike the phone on the right, the basic Symbian phone
+p300
+aVthat's very common in developing countries.
+p301
+aVAnd the great part about this is it's just like Hotmail.
+p302
+aVIt's cloud based,
+p303
+aVand it doesn't require any training, programming, consultants.
+p304
+aa(lp305
+VBut there are some additional benefits as well.
+p306
+aVNow we knew when we built this system,
+p307
+aVthe whole point of it, just like with the PalmPilots,
+p308
+aVwas that you'd be able to collect the data
+p309
+aVand immediately upload the data and get your data set.
+p310
+aVBut what we found, of course, since it's already on a computer,
+p311
+aVwe can deliver instant maps and analysis and graphing.
+p312
+aVWe can take a process that took two years
+p313
+aVand compress that down to the space of five minutes.
+p314
+aVUnbelievable improvements in efficiency.
+p315
+aVCloud based, no training, no consultants, no me.
+p316
+aa(lp317
+VAnd I told you that in the first few years
+p318
+aVof trying to do this the old-fashioned way,
+p319
+aVgoing out to each country,
+p320
+aVwe probably trained about 1,000 people.
+p321
+aVWhat happened after we did this?
+p322
+aVIn the second three years,
+p323
+aVwe had 14,000 people find the website,
+p324
+aVsign up and start using it to collect data:
+p325
+aVdata for disaster response,
+p326
+aVCanadian pig farmers tracking pig disease and pig herds,
+p327
+aVpeople tracking drug supplies.
+p328
+aa(lp329
+VOne of my favorite examples, the IRC, International Rescue Committee,
+p330
+aVthey have a program where semi-literate midwives,
+p331
+aVusing $10 mobile phones,
+p332
+aVsend a text message using our software, once a week,
+p333
+aVwith the number of births and the number of deaths,
+p334
+aVwhich gives IRC something that no one in global health has ever had:
+p335
+aVa near-real-time system of counting babies,
+p336
+aVof knowing how many kids are born,
+p337
+aVof knowing how many children there are in Sierra Leone,
+p338
+aVwhich is the country where this is happening,
+p339
+aVand knowing how many children die.
+p340
+aa(lp341
+VPhysicians for Human Rights \u2014
+p342
+aVthis is moving a little bit outside the health field \u2014
+p343
+aVthey're basically training people to do rape exams in Congo,
+p344
+aVwhere this is an epidemic,
+p345
+aVa horrible epidemic,
+p346
+aVand they're using our software to document the evidence they find,
+p347
+aVincluding photographically,
+p348
+aVso that they can bring the perpetrators to justice.
+p349
+aa(lp350
+VCamfed, another charity based out of the UK \u2014
+p351
+aVCamfed pays girls' families to keep them in school.
+p352
+aVThey understand this is the most significant intervention they can make.
+p353
+aVThey used to track the disbursements, the attendance, the grades, on paper.
+p354
+aVThe turnaround time between a teacher writing down grades or attendance
+p355
+aVand getting that into a report was about two to three years.
+p356
+aVNow it's real time.
+p357
+aVAnd because this is such a low-cost system and based in the cloud,
+p358
+aVit costs, for the entire five countries that Camfed runs this in,
+p359
+aVwith tens of thousands of girls,
+p360
+aVthe whole cost combined is 10,000 dollars a year.
+p361
+aVThat's less than I used to get
+p362
+aVjust traveling out for two weeks to do a consultation.
+p363
+aa(lp364
+VSo I told you before that when we were doing it the old-fashioned way,
+p365
+aVI realized all of our work was really adding up to just a drop in the bucket \u2014
+p366
+aV10, 20, 30 different programs.
+p367
+aVWe've made a lot of progress,
+p368
+aVbut I recognize that right now,
+p369
+aVeven the work that we've done with 14,000 people using this
+p370
+aVis still a drop in the bucket.
+p371
+aa(lp372
+VBut something's changed, and I think it should be obvious.
+p373
+aVWhat's changed now is,
+p374
+aVinstead of having a program in which we're scaling at such a slow rate
+p375
+aVthat we can never reach all the people who need us,
+p376
+aVwe've made it unnecessary for people to get reached by us.
+p377
+aVWe've created a tool that lets programs keep kids in school,
+p378
+aVtrack the number of babies that are born and the number of babies that die,
+p379
+aVcatch criminals and successfully prosecute them \u2014
+p380
+aVto do all these different things to learn more about what's going on,
+p381
+aVto understand more,
+p382
+aVto see more ...
+p383
+aVand to save lives and improve lives.
+p384
+aa(lp385
+VThank you.
+p386
+aa(lp387
+V(Applause)
+p388
+aasS'transcript_micsec'
+p389
+(lp390
+I12000
+aI31000
+aI36000
+aI41000
+aI45000
+aI72000
+aI134000
+aI181000
+aI202000
+aI267000
+aI289000
+aI302000
+aI326000
+aI374000
+aI396000
+aI445000
+aI476000
+aI530000
+aI555000
+aI597000
+aI639000
+aI707000
+aI723000
+aI757000
+aI788000
+aI815000
+aI846000
+aI867000
+aI909000
+aI926000
+aI966000
+aI968000
+asS'talk_meta'
+p391
+(dp392
+S'ratings'
+p393
+(dp394
+S'ingenious'
+p395
+I42
+sS'beautiful'
+p396
+I10
+sS'inspiring'
+p397
+I95
+sS'ok'
+p398
+I59
+sS'fascinating'
+p399
+I28
+sS'funny'
+p400
+I1
+sS'total_count'
+p401
+I525
+sS'persuasive'
+p402
+I35
+sS'longwinded'
+p403
+I58
+sS'informative'
+p404
+I159
+sS'jaw-dropping'
+p405
+I10
+sS'obnoxious'
+p406
+I5
+sS'confusing'
+p407
+I0
+sS'courageous'
+p408
+I11
+sS'unconvincing'
+p409
+I12
+ssS'author'
+p410
+VJoel_Selanikio;
+p411
+sS'url'
+p412
+S'https://www.ted.com/talks/joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare'
+p413
+sS'vidlen'
+p414
+I978
+sS'totalviews'
+p415
+I690215
+sS'title'
+p416
+VThe big-data revolution in healthcare
+p417
+sS'downloadlink'
+p418
+Vhttps://download.ted.com/talks/JoelSelanikio_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p419
+sS'datepublished'
+p420
+cdatetime
+datetime
+p421
+(S'\x07\xdd\x07\x02\x0b\x01\x0e\x00\x00\x00'
+tRp422
+sS'datefilmed'
+p423
+g421
+(S'\x07\xdd\x07\x02\x0b\x01\x0e\x00\x00\x00'
+tRp424
+sS'alldata_JSON'
+p425
+S'{"viewed_count": 690215, "speakers": [{"description": "Health and technology activist", "firstname": "Joel", "title": "", "lastname": "Selanikio", "middleinitial": "", "whylisten": "<p>A practicing pediatrician, former Wall Street computer consultant, and former epidemiologist at the Centers for Disease Control, Dr. Joel Selanikio is the CEO of <a href=\\"http://www.datadyne.org\\" target=\\"_blank\\">DataDyne</a>, a social business working in fields such as international development and global health.</p> <p>Selanikio started to experiment with electronic data capture back when the Palm Pilot was cutting edge technology. In the years since then, he has helped to experiment with the growing potential and availability of technology--and the growing ubiquity of the cloud. Combining the two has led to systems such as <a href=\\"https://www.magpi.com/login/auth\\">Magpi</a> mobile data collection software. Previously known as &quot;EpiSurveyor,&quot; the service now has over 20,000 users in more than 170 countries.</p> <p>Selanikio holds a bachelor&#39;s degree from Haverford College, a medical degree from Brown University, and he is a graduate of the Epidemic Intelligence Service fellowship of the CDC. He continues to practice clinical pediatrics as an Assistant Professor at Georgetown University and on the Emergency Response Team of the International Rescue Committee.</p>", "slug": "joel_selanikio", "whotheyare": "Dr. Joel Selanikio combines technology and data to help solve global health challenges.", "whatotherssay": "During his career as a U.S. Public Health Service officer at the CDC, concentrating on epidemiology and outbreak response, Joel Selanikio saw areas for improvement in health data collection. Determined to improve existing and outdated methods, he created EpiSurveyor, for which he won the 2009 $100,000 Lemelson-MIT Award for Sustainability.", "id": 1662, "photo_url": "https://pe.tedcdn.com/images/ted/81ae0017613583ac2e462c99a7ac99c04761416e_254x191.jpg"}], "current_talk": 1779, "description": "Collecting global health data is an imperfect science: Workers tramp through villages to knock on doors and ask questions, write the answers on paper forms, then input the data -- and from this messy, gappy information, countries and NGOs need to make huge decisions. Data geek Joel Selanikio talks through the sea change in collecting health data in the past decade -- starting with the PalmPilot and Hotmail, and now moving into the cloud.", "language": "en", "url": "https://www.ted.com/talks/joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113869741}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22473671}, "podcast-high": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 117035714}, "180k": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22250946}, "64k": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8022890}, "1500k": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 177741719}, "450k": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55321421}, "podcast-regular": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58477458}, "950k": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114307976}, "podcast-light": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10902020}, "320k": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39353671}, "600k": {"uri": "https://download.ted.com/talks/JoelSelanikio_2013X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73753480}}}, "comments": {"count": 85, "id": 21000, "talk_id": 1779}, "slug": "joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare", "threadId": 21000, "talks": [{"event": "TEDxAustin", "player_talks": [{"event": "TEDxAustin", "slug": "joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare", "filmed": 1360368000, "targeting": {"event": "TEDxAustin", "tag": "TEDx,data,global issues,health,technology", "id": 1779, "talk": "joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "The big-data revolution in healthcare", "postAdDuration": "0.83", "published": 1372777274, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f9d59da65530d17cbbc8afe5d431949ab952e118_1600x1200.jpg?quality=89&w=600", "name": "Joel Selanikio: The big-data revolution in healthcare", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "data", "global issues", "health", "technology"], "speaker": "Joel Selanikio", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 978, "id": 1779, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JoelSelanikio_2013X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxAustin", "tag": "TEDx,data,global issues,health,technology", "id": 1779, "talk": "joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1779.json", "stream": "https://hls.ted.com/talks/1779.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxAustin%26id%3D1779%26tag%3DTEDx%2Cdata%2Cglobal%2Bissues%2Chealth%2Ctechnology%26talk%3Djoel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f9d59da65530d17cbbc8afe5d431949ab952e118_1600x1200.jpg?q=50&w=15", "duration": 978, "id": 1779, "ratings": [{"count": 95, "id": 10, "name": "Inspiring"}, {"count": 35, "id": 24, "name": "Persuasive"}, {"count": 59, "id": 25, "name": "OK"}, {"count": 159, "id": 8, "name": "Informative"}, {"count": 58, "id": 11, "name": "Longwinded"}, {"count": 12, "id": 21, "name": "Unconvincing"}, {"count": 28, "id": 22, "name": "Fascinating"}, {"count": 42, "id": 9, "name": "Ingenious"}, {"count": 10, "id": 1, "name": "Beautiful"}, {"count": 11, "id": 3, "name": "Courageous"}, {"count": 5, "id": 26, "name": "Obnoxious"}, {"count": 10, "id": 23, "name": "Jaw-dropping"}, {"count": 1, "id": 7, "name": "Funny"}, {"count": 0, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Health and technology activist", "firstname": "Joel", "title": "", "lastname": "Selanikio", "middleinitial": "", "whylisten": "<p>A practicing pediatrician, former Wall Street computer consultant, and former epidemiologist at the Centers for Disease Control, Dr. Joel Selanikio is the CEO of <a href=\\"http://www.datadyne.org\\" target=\\"_blank\\">DataDyne</a>, a social business working in fields such as international development and global health.</p> <p>Selanikio started to experiment with electronic data capture back when the Palm Pilot was cutting edge technology. In the years since then, he has helped to experiment with the growing potential and availability of technology--and the growing ubiquity of the cloud. Combining the two has led to systems such as <a href=\\"https://www.magpi.com/login/auth\\">Magpi</a> mobile data collection software. Previously known as &quot;EpiSurveyor,&quot; the service now has over 20,000 users in more than 170 countries.</p> <p>Selanikio holds a bachelor&#39;s degree from Haverford College, a medical degree from Brown University, and he is a graduate of the Epidemic Intelligence Service fellowship of the CDC. He continues to practice clinical pediatrics as an Assistant Professor at Georgetown University and on the Emergency Response Team of the International Rescue Committee.</p>", "slug": "joel_selanikio", "whotheyare": "Dr. Joel Selanikio combines technology and data to help solve global health challenges.", "whatotherssay": "During his career as a U.S. Public Health Service officer at the CDC, concentrating on epidemiology and outbreak response, Joel Selanikio saw areas for improvement in health data collection. Determined to improve existing and outdated methods, he created EpiSurveyor, for which he won the 2009 $100,000 Lemelson-MIT Award for Sustainability.", "id": 1662, "photo_url": "https://pe.tedcdn.com/images/ted/81ae0017613583ac2e462c99a7ac99c04761416e_254x191.jpg"}], "title": "The big-data revolution in healthcare", "take_action": [], "comments": 21000, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/f9d59da65530d17cbbc8afe5d431949ab952e118_1600x1200.jpg", "description": "Collecting global health data is an imperfect science: Workers tramp through villages to knock on doors and ask questions, write the answers on paper forms, then input the data -- and from this messy, gappy information, countries and NGOs need to make huge decisions. Data geek Joel Selanikio talks through the sea change in collecting health data in the past decade -- starting with the PalmPilot and Hotmail, and now moving into the cloud.", "tags": ["TEDx", "data", "global issues", "health", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-zh-tw.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-da.mp4"}, "hu": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JoelSelanikio_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JoelSelanikio_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JoelSelanikio_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1779, "audioDownload": null}, "related_talks": [{"viewed_count": 703164, "hero": "https://pe.tedcdn.com/images/ted/2d0b8ee49363b194451f7c23755b563f5c9337f0_2880x1620.jpg", "title": "Use data to build better schools", "id": 1667, "speaker": "Andreas Schleicher", "duration": 1187, "slug": "andreas_schleicher_use_data_to_build_better_schools"}, {"viewed_count": 538057, "hero": "https://pe.tedcdn.com/images/ted/f88e5356ce534bda61de99617beaaebce332c71a_800x600.jpg", "title": "Meet e-Patient Dave", "id": 1181, "speaker": "Dave deBronkart", "duration": 991, "slug": "dave_debronkart_meet_e_patient_dave"}, {"viewed_count": 2601384, "hero": "https://pe.tedcdn.com/images/ted/192641_800x600.jpg", "title": "The beauty of data visualization", "id": 937, "speaker": "David McCandless", "duration": 1076, "slug": "david_mccandless_the_beauty_of_data_visualization"}, {"viewed_count": 1176269, "hero": "https://pe.tedcdn.com/images/ted/96044392dd7eea4410a92f4c5d499b888e607653_2880x1620.jpg", "title": "The human insights missing from big data", "id": 2818, "speaker": "Tricia Wang", "duration": 972, "slug": "tricia_wang_the_human_insights_missing_from_big_data"}, {"viewed_count": 1318738, "hero": "https://pe.tedcdn.com/images/ted/c08e045faca0cd007e468e7950e6ef5433c3f44c_2880x1620.jpg", "title": "Big data is better data", "id": 2094, "speaker": "Kenneth Cukier", "duration": 951, "slug": "kenneth_cukier_big_data_is_better_data"}, {"viewed_count": 1093234, "hero": "https://pe.tedcdn.com/images/ted/9ca3922cace721320cd2b5de1f5761f7a75b2010_2880x1620.jpg", "title": "How we can find ourselves in data", "id": 2727, "speaker": "Giorgia Lupi", "duration": 673, "slug": "giorgia_lupi_how_we_can_find_ourselves_in_data"}], "recorded_at": "2013-02-09T00:00:00.000+00:00", "slug": "joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare", "speaker_name": "Joel Selanikio", "viewed_count": 690215, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxAustin, an independent event. TED editors featured it among our selections on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Joel Selanikio recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "The Rise of the Reluctant Innovator", "link_url": "http://www.amazon.com/The-Rise-Reluctant-Innovator-Banks/dp/1907994181/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Ken Banks (Editor)\\r\\nLondon Publishing Partnership, 2013", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The Tyranny of Experts", "link_url": "http://www.amazon.com/The-Tyranny-Experts-Economists-Dictators/dp/0465031250/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "William Easterly \\r\\nBasic Books, 2013", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The Idealist", "link_url": "http://www.amazon.com/The-Idealist-Jeffrey-Sachs-Poverty/dp/0385525818/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Nina Munk\\r\\nDoubleday, 2013", "position": null, "blurb": ""}], "title": "reading list"}], "published": true, "type": "recommendation", "blurb": "Selanikio shares his three picks that provide insight into the big changes coming to our global health system."}, "corrections": []}], "event": "TEDxAustin", "name": "Joel Selanikio: The big-data revolution in healthcare"}'
+p426
+sS'keywords'
+p427
+(lp428
+VTEDx
+p429
+aVdata
+p430
+aVglobal issues
+p431
+aVhealth
+p432
+aVtechnology
+p433
+asS'datecrawled'
+p434
+g421
+(S'\x07\xe1\n\x17\x02\x04\x0e\rd\x17'
+tRp435
+sS'id'
+p436
+I1779
+ss.

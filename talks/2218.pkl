@@ -1,0 +1,764 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VLet me show you something.
+p5
+aa(lp6
+V(Video) Girl: Okay, that's a cat sitting in a bed.
+p7
+aVThe boy is petting the elephant.
+p8
+aVThose are people that are going on an airplane.
+p9
+aVThat's a big airplane.
+p10
+aa(lp11
+VFei-Fei Li: This is a three-year-old child
+p12
+aVdescribing what she sees in a series of photos.
+p13
+aVShe might still have a lot to learn about this world,
+p14
+aVbut she's already an expert at one very important task:
+p15
+aVto make sense of what she sees.
+p16
+aVOur society is more technologically advanced than ever.
+p17
+aVWe send people to the moon, we make phones that talk to us
+p18
+aVor customize radio stations that can play only music we like.
+p19
+aVYet, our most advanced machines and computers
+p20
+aVstill struggle at this task.
+p21
+aVSo I'm here today to give you a progress report
+p22
+aVon the latest advances in our research in computer vision,
+p23
+aVone of the most frontier and potentially revolutionary
+p24
+aVtechnologies in computer science.
+p25
+aa(lp26
+VYes, we have prototyped cars that can drive by themselves,
+p27
+aVbut without smart vision, they cannot really tell the difference
+p28
+aVbetween a crumpled paper bag on the road, which can be run over,
+p29
+aVand a rock that size, which should be avoided.
+p30
+aVWe have made fabulous megapixel cameras,
+p31
+aVbut we have not delivered sight to the blind.
+p32
+aVDrones can fly over massive land,
+p33
+aVbut don't have enough vision technology
+p34
+aVto help us to track the changes of the rainforests.
+p35
+aVSecurity cameras are everywhere,
+p36
+aVbut they do not alert us when a child is drowning in a swimming pool.
+p37
+aVPhotos and videos are becoming an integral part of global life.
+p38
+aVThey're being generated at a pace that's far beyond what any human,
+p39
+aVor teams of humans, could hope to view,
+p40
+aVand you and I are contributing to that at this TED.
+p41
+aVYet our most advanced software is still struggling at understanding
+p42
+aVand managing this enormous content.
+p43
+aVSo in other words, collectively as a society,
+p44
+aVwe're very much blind,
+p45
+aVbecause our smartest  machines are still blind.
+p46
+aa(lp47
+V"Why is this so hard?" you may ask.
+p48
+aVCameras can take pictures like this one
+p49
+aVby converting lights into a two-dimensional array of numbers
+p50
+aVknown as pixels,
+p51
+aVbut these are just lifeless numbers.
+p52
+aVThey do not carry meaning in themselves.
+p53
+aVJust like to hear is not the same as to listen,
+p54
+aVto take pictures is not the same as to see,
+p55
+aVand by seeing, we really mean understanding.
+p56
+aVIn fact, it took Mother Nature 540 million years of hard work
+p57
+aVto do this task,
+p58
+aVand much of that effort
+p59
+aVwent into developing the visual processing apparatus of our brains,
+p60
+aVnot the eyes themselves.
+p61
+aVSo vision begins with the eyes,
+p62
+aVbut it truly takes place in the brain.
+p63
+aa(lp64
+VSo for 15 years now, starting from my Ph.D. at Caltech
+p65
+aVand then leading Stanford's Vision Lab,
+p66
+aVI've been working with my mentors, collaborators and students
+p67
+aVto teach computers to see.
+p68
+aVOur research field is called computer vision and machine learning.
+p69
+aVIt's part of the general field of artificial intelligence.
+p70
+aVSo ultimately, we want to teach the machines to see just like we do:
+p71
+aVnaming objects, identifying people, inferring 3D geometry of things,
+p72
+aVunderstanding relations, emotions, actions and intentions.
+p73
+aVYou and I weave together entire stories of people, places and things
+p74
+aVthe moment we lay our gaze on them.
+p75
+aa(lp76
+VThe first step towards this goal is to teach a computer to see objects,
+p77
+aVthe building block of the visual world.
+p78
+aVIn its simplest terms, imagine this teaching process
+p79
+aVas showing the computers some training images
+p80
+aVof a particular object, let's say cats,
+p81
+aVand designing a model that learns from these training images.
+p82
+aVHow hard can this be?
+p83
+aVAfter all, a cat is just a collection of shapes and colors,
+p84
+aVand this is what we did in the early days of object modeling.
+p85
+aVWe'd tell the computer algorithm in a mathematical language
+p86
+aVthat a cat has a round face, a chubby body,
+p87
+aVtwo pointy ears, and a long tail,
+p88
+aVand that looked all fine.
+p89
+aVBut what about this cat?
+p90
+aV(Laughter)
+p91
+aVIt's all curled up.
+p92
+aVNow you have to add another shape and viewpoint to the object model.
+p93
+aVBut what if cats are hidden?
+p94
+aVWhat about these silly cats?
+p95
+aVNow you get my point.
+p96
+aVEven something as simple as a household pet
+p97
+aVcan present an infinite number of variations to the object model,
+p98
+aVand that's just one object.
+p99
+aa(lp100
+VSo about eight years ago,
+p101
+aVa very simple and profound observation changed my thinking.
+p102
+aVNo one tells a child how to see,
+p103
+aVespecially in the early years.
+p104
+aVThey learn this through real-world experiences and examples.
+p105
+aVIf you consider a child's eyes
+p106
+aVas a pair of biological cameras,
+p107
+aVthey take one picture about every 200 milliseconds,
+p108
+aVthe average time an eye movement is made.
+p109
+aVSo by age three, a child would have seen hundreds of millions of pictures
+p110
+aVof the real world.
+p111
+aVThat's a lot of training examples.
+p112
+aVSo instead of focusing solely on better and better algorithms,
+p113
+aVmy insight was to give the algorithms the kind of training data
+p114
+aVthat a child was given through experiences
+p115
+aVin both quantity and quality.
+p116
+aa(lp117
+VOnce we know this,
+p118
+aVwe knew we needed to collect a data set
+p119
+aVthat has far more images than we have ever had before,
+p120
+aVperhaps thousands of times more,
+p121
+aVand together with Professor Kai Li at Princeton University,
+p122
+aVwe launched the ImageNet project in 2007.
+p123
+aVLuckily, we didn't have to mount a camera on our head
+p124
+aVand wait for many years.
+p125
+aVWe went to the Internet,
+p126
+aVthe biggest treasure trove of pictures that humans have ever created.
+p127
+aVWe downloaded nearly a billion images
+p128
+aVand used crowdsourcing technology like the Amazon Mechanical Turk platform
+p129
+aVto help us to label these images.
+p130
+aVAt its peak, ImageNet was one of the biggest employers
+p131
+aVof the Amazon Mechanical Turk workers:
+p132
+aVtogether, almost 50,000 workers
+p133
+aVfrom 167 countries around the world
+p134
+aVhelped us to clean, sort and label
+p135
+aVnearly a billion candidate images.
+p136
+aVThat was how much effort it took
+p137
+aVto capture even a fraction of the imagery
+p138
+aVa child's mind takes in in the early developmental years.
+p139
+aa(lp140
+VIn hindsight, this idea of using big data
+p141
+aVto train computer algorithms may seem obvious now,
+p142
+aVbut back in 2007, it was not so obvious.
+p143
+aVWe were fairly alone on this journey for quite a while.
+p144
+aVSome very friendly colleagues advised me to do something more useful for my tenure,
+p145
+aVand we were constantly struggling for research funding.
+p146
+aVOnce, I even joked to my graduate students
+p147
+aVthat I would just reopen my dry cleaner's shop to fund ImageNet.
+p148
+aVAfter all, that's how I funded my college years.
+p149
+aa(lp150
+VSo we carried on.
+p151
+aVIn 2009, the ImageNet project delivered
+p152
+aVa database of 15 million images
+p153
+aVacross 22,000 classes of objects and things
+p154
+aVorganized by everyday English words.
+p155
+aVIn both quantity and quality,
+p156
+aVthis was an unprecedented scale.
+p157
+aVAs an example, in the case of cats,
+p158
+aVwe have more than 62,000 cats
+p159
+aVof all kinds of looks and poses
+p160
+aVand across all species of domestic and wild cats.
+p161
+aVWe were thrilled to have put together ImageNet,
+p162
+aVand we wanted the whole research world to benefit from it,
+p163
+aVso in the TED fashion, we opened up the entire data set
+p164
+aVto the worldwide research community for free.
+p165
+aV(Applause)
+p166
+aa(lp167
+VNow that we have the data to nourish our computer brain,
+p168
+aVwe're ready to come back to the algorithms themselves.
+p169
+aVAs it turned out, the wealth of information provided by ImageNet
+p170
+aVwas a perfect match to a particular class of machine learning algorithms
+p171
+aVcalled convolutional neural network,
+p172
+aVpioneered by Kunihiko Fukushima, Geoff Hinton, and Yann LeCun
+p173
+aVback in the 1970s and '80s.
+p174
+aVJust like the brain consists of billions of highly connected neurons,
+p175
+aVa basic operating unit in a neural network
+p176
+aVis a neuron-like node.
+p177
+aVIt takes input from other nodes
+p178
+aVand sends output to others.
+p179
+aVMoreover, these hundreds of thousands or even millions of nodes
+p180
+aVare organized in hierarchical layers,
+p181
+aValso similar to the brain.
+p182
+aVIn a typical neural network we use to train our object recognition model,
+p183
+aVit has 24 million nodes,
+p184
+aV140 million parameters,
+p185
+aVand 15 billion connections.
+p186
+aVThat's an enormous model.
+p187
+aVPowered by the massive data from ImageNet
+p188
+aVand the modern CPUs and GPUs to train such a humongous model,
+p189
+aVthe convolutional neural network
+p190
+aVblossomed in a way that no one expected.
+p191
+aVIt became the winning architecture
+p192
+aVto generate exciting new results in object recognition.
+p193
+aVThis is a computer telling us
+p194
+aVthis picture contains a cat
+p195
+aVand where the cat is.
+p196
+aVOf course there are more things than cats,
+p197
+aVso here's a computer algorithm telling us
+p198
+aVthe picture contains a boy and a teddy bear;
+p199
+aVa dog, a person, and a small kite in the background;
+p200
+aVor a picture of very busy things
+p201
+aVlike a man, a skateboard, railings, a lampost, and so on.
+p202
+aVSometimes, when the computer is not so confident about what it sees,
+p203
+aVwe have taught it to be smart enough
+p204
+aVto give us a safe answer instead of committing too much,
+p205
+aVjust like we would do,
+p206
+aVbut other times our computer algorithm is remarkable at telling us
+p207
+aVwhat exactly the objects are,
+p208
+aVlike the make, model, year of the cars.
+p209
+aa(lp210
+VWe applied this algorithm to millions of Google Street View images
+p211
+aVacross hundreds of American cities,
+p212
+aVand we have learned something really interesting:
+p213
+aVfirst, it confirmed our common wisdom
+p214
+aVthat car prices correlate very well
+p215
+aVwith household incomes.
+p216
+aVBut surprisingly, car prices also correlate well
+p217
+aVwith crime rates in cities,
+p218
+aVor voting patterns by zip codes.
+p219
+aa(lp220
+VSo wait a minute. Is that it?
+p221
+aVHas the computer already matched or even surpassed human capabilities?
+p222
+aVNot so fast.
+p223
+aVSo far, we have just taught the computer to see objects.
+p224
+aVThis is like a small child learning to utter a few nouns.
+p225
+aVIt's an incredible accomplishment,
+p226
+aVbut it's only the first step.
+p227
+aVSoon, another developmental milestone will be hit,
+p228
+aVand children begin to communicate in sentences.
+p229
+aVSo instead of saying this is a cat in the picture,
+p230
+aVyou already heard the little girl telling us this is a cat lying on a bed.
+p231
+aa(lp232
+VSo to teach a computer to see a picture and generate sentences,
+p233
+aVthe marriage between big data and machine learning algorithm
+p234
+aVhas to take another step.
+p235
+aVNow, the computer has to learn from both pictures
+p236
+aVas well as natural language sentences
+p237
+aVgenerated by humans.
+p238
+aVJust like the brain integrates vision and language,
+p239
+aVwe developed a model that connects parts of visual things
+p240
+aVlike visual snippets
+p241
+aVwith words and phrases in sentences.
+p242
+aa(lp243
+VAbout four months ago,
+p244
+aVwe finally tied all this together
+p245
+aVand produced one of the first computer vision models
+p246
+aVthat is capable of generating a human-like sentence
+p247
+aVwhen it sees a picture for the first time.
+p248
+aVNow, I'm ready to show you what the computer says
+p249
+aVwhen it sees the picture
+p250
+aVthat the little girl saw at the beginning of this talk.
+p251
+aa(lp252
+V(Video) Computer: A man is standing next to an elephant.
+p253
+aVA large airplane sitting on top of an airport runway.
+p254
+aa(lp255
+VFFL: Of course, we're still working hard to improve our algorithms,
+p256
+aVand it still has a lot to learn.
+p257
+aV(Applause)
+p258
+aa(lp259
+VAnd the computer still makes mistakes.
+p260
+aa(lp261
+V(Video) Computer: A cat lying on a bed in a blanket.
+p262
+aa(lp263
+VFFL: So of course, when it sees too many cats,
+p264
+aVit thinks everything might look like a cat.
+p265
+aa(lp266
+V(Video) Computer: A young boy is holding a baseball bat.
+p267
+aV(Laughter)
+p268
+aa(lp269
+VFFL: Or, if it hasn't seen a toothbrush, it confuses it with a baseball bat.
+p270
+aa(lp271
+V(Video) Computer: A man riding a horse down a street next to a building.
+p272
+aV(Laughter)
+p273
+aa(lp274
+VFFL: We haven't taught Art 101 to the computers.
+p275
+aa(lp276
+V(Video) Computer: A zebra standing in a field of grass.
+p277
+aa(lp278
+VFFL: And it hasn't learned to appreciate the stunning beauty of nature
+p279
+aVlike you and I do.
+p280
+aa(lp281
+VSo it has been a long journey.
+p282
+aVTo get from age zero to three was hard.
+p283
+aVThe real challenge is to go from three to 13 and far beyond.
+p284
+aVLet me remind you with this picture of the boy and the cake again.
+p285
+aVSo far, we have taught the computer to see objects
+p286
+aVor even tell us a simple story when seeing a picture.
+p287
+aa(lp288
+V(Video) Computer: A person sitting at a table with a cake.
+p289
+aa(lp290
+VFFL: But there's so much more  to this picture
+p291
+aVthan just a person and a cake.
+p292
+aVWhat the computer doesn't see is that this is a special Italian cake
+p293
+aVthat's only served during Easter time.
+p294
+aVThe boy is wearing his favorite t-shirt
+p295
+aVgiven to him as a gift by his father after a trip to Sydney,
+p296
+aVand you and I can all tell how happy he is
+p297
+aVand what's exactly on his mind at that moment.
+p298
+aa(lp299
+VThis is my son Leo.
+p300
+aVOn my quest for visual intelligence,
+p301
+aVI think of Leo constantly
+p302
+aVand the future world he will live in.
+p303
+aVWhen machines can see,
+p304
+aVdoctors and nurses will have extra pairs of tireless eyes
+p305
+aVto help them to diagnose and take care of patients.
+p306
+aVCars will run smarter and safer on the road.
+p307
+aVRobots, not just humans,
+p308
+aVwill help us to brave the disaster zones to save the trapped and wounded.
+p309
+aVWe will discover new species,  better materials,
+p310
+aVand explore unseen frontiers with the help of the machines.
+p311
+aa(lp312
+VLittle by little, we're giving sight to the machines.
+p313
+aVFirst, we teach them to see.
+p314
+aVThen, they help us to see better.
+p315
+aVFor the first time, human eyes won't be the only ones
+p316
+aVpondering and exploring our world.
+p317
+aVWe will not only use the machines for their intelligence,
+p318
+aVwe will also collaborate with them in ways that we cannot even imagine.
+p319
+aa(lp320
+VThis is my quest:
+p321
+aVto give computers visual intelligence
+p322
+aVand to create a better future for Leo and for the world.
+p323
+aa(lp324
+VThank you.
+p325
+aa(lp326
+V(Applause)
+p327
+aasS'transcript_micsec'
+p328
+(lp329
+I13000
+aI17000
+aI32000
+aI83000
+aI162000
+aI217000
+aI267000
+aI343000
+aI403000
+aI483000
+aI520000
+aI580000
+aI729000
+aI763000
+aI803000
+aI841000
+aI870000
+aI880000
+aI890000
+aI893000
+aI897000
+aI904000
+aI908000
+aI914000
+aI919000
+aI924000
+aI927000
+aI933000
+aI958000
+aI962000
+aI990000
+aI1034000
+aI1060000
+aI1070000
+aI1072000
+asS'talk_meta'
+p330
+(dp331
+S'ratings'
+p332
+(dp333
+S'ingenious'
+p334
+I217
+sS'beautiful'
+p335
+I152
+sS'inspiring'
+p336
+I580
+sS'ok'
+p337
+I206
+sS'fascinating'
+p338
+I437
+sS'funny'
+p339
+I41
+sS'total_count'
+p340
+I2320
+sS'persuasive'
+p341
+I43
+sS'longwinded'
+p342
+I19
+sS'unconvincing'
+p343
+I18
+sS'informative'
+p344
+I475
+sS'jaw-dropping'
+p345
+I88
+sS'obnoxious'
+p346
+I10
+sS'courageous'
+p347
+I23
+sS'confusing'
+p348
+I11
+ssS'author'
+p349
+VFei-Fei_Li;
+p350
+sS'url'
+p351
+S'https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures'
+p352
+sS'vidlen'
+p353
+I1078
+sS'totalviews'
+p354
+I2034847
+sS'title'
+p355
+VHow we're teaching computers to understand pictures
+p356
+sS'downloadlink'
+p357
+Vhttps://download.ted.com/talks/FeiFeiLi_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p358
+sS'datepublished'
+p359
+cdatetime
+datetime
+p360
+(S'\x07\xdf\x03\x17\x0b\x06"\x00\x00\x00'
+tRp361
+sS'datefilmed'
+p362
+g360
+(S'\x07\xdf\x03\x17\x0b\x06"\x00\x00\x00'
+tRp363
+sS'alldata_JSON'
+p364
+S'{"viewed_count": 2034847, "speakers": [{"description": "Computer scientist", "firstname": "Fei-Fei", "title": "", "lastname": "Li", "middleinitial": "", "whylisten": "<p>Using algorithms built on machine learning methods such as neural network models, the Stanford Artificial Intelligence Lab led by Fei-Fei Li has created software capable of recognizing scenes in still photographs -- and accurately describe them using natural language.<br /><br />Li&rsquo;s work with neural networks and computer vision (with Stanford&rsquo;s Vision Lab) marks a significant step forward for AI research, and could lead to applications ranging from more intuitive image searches to robots able to make autonomous decisions in unfamiliar situations.</p><p>Fei-Fei was honored as one of <em>Foreign Policy</em>&#39;s 2015<a href=\\"http://2015globalthinkers.foreignpolicy.com/?utm_source=Sailthru&amp;utm_medium=email&amp;utm_campaign=New%20Campaign&amp;utm_term=Flashpoints#!challengers/detail/li-russakovsky-summers-ghadiyali-robyn\\" target=\\"_blank\\">&nbsp;Global Thinkers</a>.&nbsp;</p>", "slug": "fei_fei_li", "whotheyare": "As Director of Stanford\\u2019s Artificial Intelligence Lab and Vision Lab, Fei-Fei Li is working to solve AI\\u2019s trickiest problems -- including image recognition, learning and language processing.", "whatotherssay": "Computer software only recently became smart enough to recognize objects in photographs. Now, Stanford researchers using machine learning have created a system that takes the next step, writing a simple story of what\'s happening in any digital image.", "id": 2454, "photo_url": "https://pe.tedcdn.com/images/ted/3e8797e5c52a8332c84deeef58f6f606240884ab_254x191.jpg"}], "current_talk": 2218, "description": "When a very young child looks at a picture, she can identify simple elements: \\"cat,\\" \\"book,\\" \\"chair.\\" Now, computers are getting smart enough to do that too. What\'s next? In a thrilling talk, computer vision expert Fei-Fei Li describes the state of the art  -- including the database of 15 million photos her team built to \\"teach\\" a computer to understand pictures -- and the key insights yet to come.", "language": "en", "url": "https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 128687110}, "podcast-low-en": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24867418}, "podcast-high": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 128678911}, "180k": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24622219}, "64k": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8868522}, "1500k": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 199770047}, "450k": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61321359}, "podcast-regular": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61436614}, "950k": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 128686691}, "audio-podcast": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 11084320}, "podcast-light": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9002090}, "320k": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43574675}, "600k": {"uri": "https://download.ted.com/talks/FeiFeiLi_2015-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 81939340}}}, "comments": {"count": 185, "id": 26838, "talk_id": 2218}, "slug": "fei_fei_li_how_we_re_teaching_computers_to_understand_pictures", "threadId": 26838, "talks": [{"event": "TED2015", "player_talks": [{"event": "TED2015", "slug": "fei_fei_li_how_we_re_teaching_computers_to_understand_pictures", "filmed": 1426550400, "targeting": {"event": "TED2015", "tag": "AI,photography,sight,technology", "id": 2218, "talk": "fei_fei_li_how_we_re_teaching_computers_to_understand_pictures", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "How we\'re teaching computers to understand pictures", "postAdDuration": "0.83", "published": 1427123194, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fbada01990f86f5afa850cc23a0259fec091f929_2880x1620.jpg?quality=89&w=600", "name": "Fei-Fei Li: How we\'re teaching computers to understand pictures", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "photography", "sight", "technology"], "speaker": "Fei-Fei Li", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1078, "id": 2218, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/FeiFeiLi_2015-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2015", "tag": "AI,photography,sight,technology", "id": 2218, "talk": "fei_fei_li_how_we_re_teaching_computers_to_understand_pictures", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2218.json", "stream": "https://hls.ted.com/talks/2218.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2015%26id%3D2218%26tag%3DAI%2Cphotography%2Csight%2Ctechnology%26talk%3Dfei_fei_li_how_we_re_teaching_computers_to_understand_pictures%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fbada01990f86f5afa850cc23a0259fec091f929_2880x1620.jpg?q=50&w=15", "duration": 1078, "id": 2218, "ratings": [{"count": 206, "id": 25, "name": "OK"}, {"count": 217, "id": 9, "name": "Ingenious"}, {"count": 580, "id": 10, "name": "Inspiring"}, {"count": 437, "id": 22, "name": "Fascinating"}, {"count": 152, "id": 1, "name": "Beautiful"}, {"count": 475, "id": 8, "name": "Informative"}, {"count": 11, "id": 2, "name": "Confusing"}, {"count": 88, "id": 23, "name": "Jaw-dropping"}, {"count": 23, "id": 3, "name": "Courageous"}, {"count": 19, "id": 11, "name": "Longwinded"}, {"count": 43, "id": 24, "name": "Persuasive"}, {"count": 18, "id": 21, "name": "Unconvincing"}, {"count": 41, "id": 7, "name": "Funny"}, {"count": 10, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Computer scientist", "firstname": "Fei-Fei", "title": "", "lastname": "Li", "middleinitial": "", "whylisten": "<p>Using algorithms built on machine learning methods such as neural network models, the Stanford Artificial Intelligence Lab led by Fei-Fei Li has created software capable of recognizing scenes in still photographs -- and accurately describe them using natural language.<br /><br />Li&rsquo;s work with neural networks and computer vision (with Stanford&rsquo;s Vision Lab) marks a significant step forward for AI research, and could lead to applications ranging from more intuitive image searches to robots able to make autonomous decisions in unfamiliar situations.</p><p>Fei-Fei was honored as one of <em>Foreign Policy</em>&#39;s 2015<a href=\\"http://2015globalthinkers.foreignpolicy.com/?utm_source=Sailthru&amp;utm_medium=email&amp;utm_campaign=New%20Campaign&amp;utm_term=Flashpoints#!challengers/detail/li-russakovsky-summers-ghadiyali-robyn\\" target=\\"_blank\\">&nbsp;Global Thinkers</a>.&nbsp;</p>", "slug": "fei_fei_li", "whotheyare": "As Director of Stanford\\u2019s Artificial Intelligence Lab and Vision Lab, Fei-Fei Li is working to solve AI\\u2019s trickiest problems -- including image recognition, learning and language processing.", "whatotherssay": "Computer software only recently became smart enough to recognize objects in photographs. Now, Stanford researchers using machine learning have created a system that takes the next step, writing a simple story of what\'s happening in any digital image.", "id": 2454, "photo_url": "https://pe.tedcdn.com/images/ted/3e8797e5c52a8332c84deeef58f6f606240884ab_254x191.jpg"}], "title": "How we\'re teaching computers to understand pictures", "take_action": null, "comments": 26838, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/fbada01990f86f5afa850cc23a0259fec091f929_2880x1620.jpg", "description": "When a very young child looks at a picture, she can identify simple elements: \\"cat,\\" \\"book,\\" \\"chair.\\" Now, computers are getting smart enough to do that too. What\'s next? In a thrilling talk, computer vision expert Fei-Fei Li describes the state of the art  -- including the database of 15 million photos her team built to \\"teach\\" a computer to understand pictures -- and the key insights yet to come.", "tags": ["AI", "photography", "sight", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-hr.mp4"}, "da": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/FeiFeiLi_2015-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p-uk.mp4", "name": "Ukrainian"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/FeiFeiLi_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/FeiFeiLi_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/FeiFeiLi_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2218, "audioDownload": "https://download.ted.com/talks/FeiFeiLi_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2208057, "hero": "https://pe.tedcdn.com/images/ted/4707d8e88ba824e4a9ad05ee2446d93576117d21_2880x1620.jpg", "title": "The wonderful and terrifying implications of computers that can learn", "id": 2155, "speaker": "Jeremy Howard", "duration": 1185, "slug": "jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn"}, {"viewed_count": 842433, "hero": "https://pe.tedcdn.com/images/ted/152494_800x600.jpg", "title": "How brains learn to see", "id": 776, "speaker": "Pawan Sinha", "duration": 1103, "slug": "pawan_sinha_on_how_brains_learn_to_see"}, {"viewed_count": 2548679, "hero": "https://pe.tedcdn.com/images/ted/fc7831d78e381e4f6b1d37aed55ab455d1d14914_800x600.jpg", "title": "The linguistic genius of babies", "id": 1075, "speaker": "Patricia Kuhl", "duration": 617, "slug": "patricia_kuhl_the_linguistic_genius_of_babies"}, {"viewed_count": 1254719, "hero": "https://pe.tedcdn.com/images/ted/16b227c8ce4564818eff55a5c4d4945aec756db1_2880x1620.jpg", "title": "How computers learn to recognize objects instantly", "id": 2829, "speaker": "Joseph Redmon", "duration": 457, "slug": "joseph_redmon_how_a_computer_learns_to_recognize_objects_instantly"}, {"viewed_count": 1643970, "hero": "https://pe.tedcdn.com/images/ted/17161e8b4c3a91b54f1e9451f09d18522cb170fd_2880x1620.jpg", "title": "A delightful way to teach kids about computers", "id": 2417, "speaker": "Linda Liukas", "duration": 663, "slug": "linda_liukas_a_delightful_way_to_teach_kids_about_computers"}, {"viewed_count": 860621, "hero": "https://pe.tedcdn.com/images/ted/5c4684ef473da7cf988f4f4c6da8b23ec09e6b87_1600x1200.jpg", "title": "The rise of human-computer cooperation", "id": 1556, "speaker": "Shyam Sankar", "duration": 732, "slug": "shyam_sankar_the_rise_of_human_computer_cooperation"}], "recorded_at": "2015-03-17T00:00:00.000+00:00", "slug": "fei_fei_li_how_we_re_teaching_computers_to_understand_pictures", "speaker_name": "Fei-Fei Li", "viewed_count": 2034847, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2015", "name": "Fei-Fei Li: How we\'re teaching computers to understand pictures"}'
+p365
+sS'keywords'
+p366
+(lp367
+VAI
+p368
+aVphotography
+p369
+aVsight
+p370
+aVtechnology
+p371
+asS'datecrawled'
+p372
+g360
+(S'\x07\xe1\n\x17\x01"\x04\t\xd0\x15'
+tRp373
+sS'id'
+p374
+I2218
+ss.

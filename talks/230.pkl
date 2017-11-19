@@ -1,0 +1,960 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIn this rather long sort of marathon presentation,
+p5
+aVI've tried to break it up into three parts:
+p6
+aVthe first being a whole lot of examples on how it can be
+p7
+aVa little bit more pleasurable to deal with a computer
+p8
+aVand really address the qualities of the human interface.
+p9
+aVAnd these will be some simple design qualities
+p10
+aVand they will also be some qualities of, if you will,
+p11
+aVthe intelligence of interaction.
+p12
+aVThen the second part will really just be examples of new technologies \u2014
+p13
+aVnew media falling very much into that mold.
+p14
+aVAgain, I will go through them as fast as possible.
+p15
+aVAnd then the last one will be some examples
+p16
+aVI've been able to collect, which I think
+p17
+aVillustrate this at least as best I can, in the world of entertainment.
+p18
+aVPeople have this belief \u2014 and I share most of it \u2014
+p19
+aVthat we will be using the TV screens or their equivalents
+p20
+aVfor electronic books of the future. But then you think,
+p21
+aV"My God! What a terrible image you get when you look at still pictures on TV."
+p22
+aVWell, it doesn't have to be terrible.
+p23
+aVAnd that is a slide taken from a TV set
+p24
+aVand it was pre-processed to be very sympathetic to the TV medium,
+p25
+aVand it absolutely looks beautiful.
+p26
+aa(lp27
+VWell, what's happened? How did people get into this mess?
+p28
+aVWhere you are now, all of a sudden,
+p29
+aVsitting in front of personal computers
+p30
+aVand video text \u2014 teletext systems,
+p31
+aVand somewhat horrified by what you see on the screen?
+p32
+aVWell, you have to remember that TV was designed
+p33
+aVto be looked at eight times the distance of the diagonal.
+p34
+aVSo you get a 13-inch, 19-inch, whatever, TV,
+p35
+aVand then you should multiply that by eight
+p36
+aVand that's the distance you should sit away from the TV set.
+p37
+aVNow we've put people 18 inches in front of a TV,
+p38
+aVand all the artifacts that none of the original designers expected to be seen,
+p39
+aVall of a sudden, are staring you in the face:
+p40
+aVthe shadow mask, the scan lines, all of that.
+p41
+aVAnd they can be treated very easily;
+p42
+aVthere are actually ways of getting rid of them,
+p43
+aVthere are actually ways of just making absolutely beautiful pictures.
+p44
+aVI'm talking here a little bit about display technologies.
+p45
+aa(lp46
+VLet me talk about how you might input information.
+p47
+aVAnd my favorite example is always fingers.
+p48
+aVI'm very interested in touch-sensitive displays.
+p49
+aVHigh-tech, high-touch. Isn't that what some of you said?
+p50
+aVIt's certainly a very important medium for input,
+p51
+aVand a lot of people think that fingers are a very low-resolution
+p52
+aVsort of stylus for inputting to a display.
+p53
+aVIn fact, they're not: it's really a very, very high-resolution input medium \u2014
+p54
+aVyou have to just do it twice, you have to touch the screen
+p55
+aVand then rotate your finger slightly \u2014
+p56
+aVand you can move a cursor with great accuracy.
+p57
+aVAnd so when you see on the market these systems
+p58
+aVthat have just a few light emitting diodes on the side and are very low resolution,
+p59
+aVit's nice that they exist because it still is better than nothing.
+p60
+aVBut it, in some sense, misses the point:
+p61
+aVnamely, that fingers are a very, very high-resolution input medium.
+p62
+aVNow, what are some of the other advantages?
+p63
+aVWell, the one advantage is that you don't have to pick them up,
+p64
+aVand people don't realize how important that is \u2014
+p65
+aVnot having to pick up your fingers to use them. (Laughter)
+p66
+aa(lp67
+VWhen you think for a second of the mouse on Macintosh \u2014
+p68
+aVand I will not criticize the mouse too much \u2014
+p69
+aVwhen you're typing \u2014 what you have \u2014 you want to now put something \u2014
+p70
+aVfirst of all, you've got to find the mouse.
+p71
+aVYou have to probably stop. Maybe not come to a grinding halt,
+p72
+aVbut you've got to sort of find that mouse. Then you find the mouse,
+p73
+aVand you're going to have to wiggle it a little bit
+p74
+aVto see where the cursor is on the screen.
+p75
+aVAnd then when you finally see where it is,
+p76
+aVthen you've got to move it to get the cursor over there,
+p77
+aVand then \u2014 "Bang" \u2014 you've got to hit a button or do whatever.
+p78
+aVThat's four separate steps versus typing and then touching
+p79
+aVand typing and just doing it all in one motion \u2014
+p80
+aVor one-and-a-half, depending on how you want to count.
+p81
+aVAgain, what I'm trying to do is just illustrate
+p82
+aVthe kinds of problems that I think face the designers
+p83
+aVof new computer systems and entertainment systems
+p84
+aVand educational systems
+p85
+aVfrom the perspective of the quality of that interface.
+p86
+aa(lp87
+VAnd another advantage, of course, of using fingers is you have 10 of them.
+p88
+aVAnd we have never known how to do this technically,
+p89
+aVso this slide is a fake slide.
+p90
+aVWe never succeeded in using ten fingers,
+p91
+aVbut there are certain things you can do, obviously,
+p92
+aVwith more than one-finger input, which is rather fascinating.
+p93
+aVWhat we did stumble across was something ...
+p94
+aVAgain, which is typical of the computer field,
+p95
+aVis when you have a bug that you can't get rid of you turn it into a feature.
+p96
+aVAnd maybe ... (Laughter)
+p97
+aVmaybe a mouse is a new kind of bug.
+p98
+aVBut the bug in our case was in touch-sensitive displays:
+p99
+aVwe wanted to be able to draw \u2014 you know, rub your finger
+p100
+aVacross the screen to input continuous points \u2014
+p101
+aVand there was just too much friction
+p102
+aVcreated between your finger and the glass \u2014
+p103
+aVif glass was the substrate, which it usually is.
+p104
+aa(lp105
+VSo we found that that actually was a feature
+p106
+aVin the sense you could build a pressure-sensitive display.
+p107
+aVAnd when you touch it with your finger,
+p108
+aVyou can actually, then, introduce all the forces on the face of that screen,
+p109
+aVand that actually has a certain amount of value.
+p110
+aVLet me see if I can load another disc
+p111
+aVand show you, quickly, an example.
+p112
+aVNow, imagine a screen, which is not only touch-sensitive now,
+p113
+aVit's pressure-sensitive.
+p114
+aVAnd it's pressure-sensitive to the forces both in the plane of the screen \u2014
+p115
+aVX, Y, and Z at least in one direction;
+p116
+aVwe couldn't figure out how to come in the other direction.
+p117
+aVBut let me get rid of the slide,
+p118
+aVand let's see if this comes on.
+p119
+aVOK. So there is the pressure-sensitive display in operation.
+p120
+aVThe person's just, if you will, pushing on the screen to make a curve.
+p121
+aVBut this is the interesting part.
+p122
+aa(lp123
+VI want to stop it for a second
+p124
+aVbecause the movie is very badly made.
+p125
+aVAnd the particular display was built about six years ago,
+p126
+aVand when we moved from one room to another room,
+p127
+aVa rather large person sat on it and it got destroyed.
+p128
+aVSo all we have is this record. (Laughter)
+p129
+aVBut imagine that screen having lots of objects on it
+p130
+aVand the person has touched an object \u2014
+p131
+aVone of N \u2014 like he did there, and then pushed on it.
+p132
+aVNow, imagine a program
+p133
+aVwhere some of those objects are physically heavy and some are light:
+p134
+aVone is an anvil on a fuzzy rug
+p135
+aVand the other one is a ping-pong ball on a sheet of glass.
+p136
+aVAnd when you touch it, you have to really push very hard
+p137
+aVto move that anvil across the screen,
+p138
+aVand yet you touch the ping-pong ball very lightly
+p139
+aVand it just scoots across the screen.
+p140
+aVAnd what you can do \u2014 oops, I didn't mean to do that \u2014
+p141
+aVwhat you can do is actually feed back to the user
+p142
+aVthe feeling of the physical properties.
+p143
+aVSo again, they don't have to be weight;
+p144
+aVthey could be a general trying to move troops,
+p145
+aVand he's got to move an aircraft carrier versus a little boat.
+p146
+aVIn fact, they funded it for that very reason.
+p147
+aa(lp148
+V(Laughter)
+p149
+aa(lp150
+VThe whole notion, then, is one that at the interface
+p151
+aVthere are physical properties in that transducer \u2014
+p152
+aVin this case it's pressure and touches \u2014
+p153
+aVthat allow you to present things to the user that you could never present before.
+p154
+aVSo it's not simply looking at the quality or, if you will, the luxury of that interface,
+p155
+aVbut it's actually looking at the idea
+p156
+aVof presenting things that previously couldn't be presented before.
+p157
+aVI want to move on to another example,
+p158
+aVwhich is one of a different sort, where we're trying to use computer
+p159
+aVand video disc technology now to come up with a new kind of book.
+p160
+aVHere, the idea is that you're going to take this book,
+p161
+aVif you will, and it's going to come alive.
+p162
+aVYou're going to sort of breathe life into it.
+p163
+aVWe are so used to doing monologues.
+p164
+aVFilmmakers, for example, are the experts in monologue making:
+p165
+aVyou make a film and it has a well-formed beginning, middle and end,
+p166
+aVand in some sense the art of it is that.
+p167
+aVAnd you then say, "There's an opportunity
+p168
+aVfor making conversational movies." Well, what does that mean?
+p169
+aVAnd it sort of nibbles at the core of the whole profession
+p170
+aVand all the assumptions of that medium.
+p171
+aVSo, book writing is the same thing.
+p172
+aa(lp173
+VWhat I'll show you very quickly is a new kind of book
+p174
+aVwhere it is mixed now with ... all sorts of things live in there,
+p175
+aVbut you have to keep a few things in mind.
+p176
+aVOne is that this book knows about itself.
+p177
+aVEach frame of the movie has information about itself.
+p178
+aVSo it knows, or at least there is computer-readable information
+p179
+aVin the medium itself. It's just not a static movie frame.
+p180
+aVThat's one thing. The other is that you have to realize
+p181
+aVthat it is a random access medium,
+p182
+aVand you can, in fact, branch and expand and elaborate and shrink.
+p183
+aVAnd here \u2014 again, my favorite example \u2014 is the cookbook,
+p184
+aVthe "Larousse Gastronomique."
+p185
+aVAnd I think I use the example all too often,
+p186
+aVbut it's a great one because there is a classic ending in that little
+p187
+aVencyclopedia-style cookbook that tells you how to do something like penguin,
+p188
+aVand you get to the end of the recipe and it says, "Cook until done."
+p189
+aVNow, that would be, if you will, the top green track,
+p190
+aVwhich doesn't mean too much. But you might have to elaborate for me
+p191
+aVor for somebody who isn't an expert, and say,
+p192
+aV"Cook at 380 degrees for 45 minutes."
+p193
+aVAnd then for a real beginner, you would go down even further
+p194
+aVand elaborate more \u2014 say, "Open the oven, preheat, wait for the light to go out,
+p195
+aVopen the door, don't leave it open too long,
+p196
+aVput the penguin in and shut the door ..." (Laughter) whatever.
+p197
+aVAnd that's a much more elaborate one than you dribble back.
+p198
+aa(lp199
+VThat's one kind of use of random access.
+p200
+aVAnd the other is where you want to explain the same thing in different ways.
+p201
+aVIf you're in a classroom situation and somebody asks a question,
+p202
+aVthe last thing you do is repeat what you just said.
+p203
+aVYou try and think of a different way of saying the same thing,
+p204
+aVor if you know the particular student and that student's cognitive style,
+p205
+aVthen you might say it in a way that you think
+p206
+aVwould have a good impedance match with that student.
+p207
+aVThere are all sorts of techniques you will use \u2014
+p208
+aVand again, this is a different kind of branching.
+p209
+aVSo, what I will show you is ... it's a rather boring book,
+p210
+aVbut I'm afraid sometimes you have to do boring books
+p211
+aVbecause your sponsors aren't necessarily interested in fiction
+p212
+aVand entertainment. And this is a book on how to repair a transmission.
+p213
+aVNow, I don't even know what vintage the transmission is,
+p214
+aVbut let me just show you very quickly some of it, and we'll move on.
+p215
+aa(lp216
+V(Video) Narrator: And continue to get descriptions for each of these chapters.
+p217
+aVNicholas Negroponte: Now, this is his table of contents.
+p218
+aVJust a picture of the transmission, and as you rub your finger across the transmission
+p219
+aVit highlights the various parts.
+p220
+aa(lp221
+VNarrator: When I find a chapter that I want to see,
+p222
+aVI just touch the text and the system will format pages for me to read.
+p223
+aVThe words or phrases that are lit up in red are glossary words,
+p224
+aVso I can get a different definition by just touching the word,
+p225
+aVand the definition appears, superimposed over the illustration.
+p226
+aa(lp227
+VNN: This is about the oil pan, or the oil filter and all that.
+p228
+aVThis is relatively important because it sets the page ...
+p229
+aa(lp230
+VNarrator: This is another example of a page with glossary words
+p231
+aVhighlighted in red.
+p232
+aVI can get a definition of these words just by touching them,
+p233
+aVand the definition will appear in the illustration corner.
+p234
+aVI can get back to the illustration, but in this case it's not a single frame,
+p235
+aVbut it's actually a movie of someone coming into the frame and doing the repair
+p236
+aVthat's described in the text.
+p237
+aVThe two-headed slider is a speed control that allows me to watch the movie
+p238
+aVat various speeds, in forward or reverse.
+p239
+aVAnd the movie is displayed as a full frame movie.
+p240
+aVI can go back to the beginning ... and play the movie at full speed.
+p241
+aVHere's another step-by-step procedure, only in this case \u2014
+p242
+aa(lp243
+VNN: Okay, this movie is ... Everybody's heard of sound-sync movies \u2014
+p244
+aVthis is text-sync movies, so as the movie plays, the text gets highlighted.
+p245
+aVWe highlight the text as we go through the movie.
+p246
+aVRepairman: ... Not too far out. Front poles, preferably.
+p247
+aVDon't loosen them too far. If you loosen them too far, you'll have a big mess.
+p248
+aVNN: I suspect that some of you might not even understand that language.
+p249
+aa(lp250
+V(Laughter)
+p251
+aa(lp252
+VOK. I'm at the third and last part of this,
+p253
+aVwhich I said I would make an attempt to at least give you some examples
+p254
+aVthat may be more directly related to the world of entertainment.
+p255
+aVAnd of course, good education has got to be good entertainment,
+p256
+aVso my first example will be drawn from a very recent experiment
+p257
+aVthat we've been doing \u2014 in this case, in Senegal \u2014
+p258
+aVwhere we have tried to use personal computers
+p259
+aVas a pedagogical medium. But not as teaching machines at all;
+p260
+aVthe whole notion is to use this as an instrument
+p261
+aVwhere there is a complete reversal of roles \u2014
+p262
+aVthe child is, if you will, the teacher and the machine is the student \u2014
+p263
+aVand the art of computer programming is a vehicle that sort of
+p264
+aVapproximates thinking about thinking.
+p265
+aVBut teaching kids programming per se is utterly irrelevant.
+p266
+aVAnd there are just a few slides I want to go through,
+p267
+aa(lp268
+Vbut there's a story I'd like to tell. And that was when,
+p269
+aVbefore we did this in any developing countries \u2014
+p270
+aVwe're doing it, in fact, in three developing countries right now:
+p271
+aVPakistan, Colombia and Senegal \u2014
+p272
+aVwe did it in some pretty rough areas of New York City.
+p273
+aVAnd one child, whose name I've forgotten, was about seven or eight years old,
+p274
+aVabsolutely considered mentally handicapped \u2014
+p275
+aVcouldn't read, didn't even make it in the lowest section of the school's classes \u2014
+p276
+aVand was pretty much not in school, though physically there.
+p277
+aVBut did hang around the, quote, "computer room,"
+p278
+aVwhere there were quite a few computers,
+p279
+aVand learned this particular language called Logo \u2014
+p280
+aVand learned it with great ease and found it a lot of fun,
+p281
+aVit was very interesting. And one day, by chance,
+p282
+aVsome visitors from the NIE came by in their double-breasted suits
+p283
+aVlooking at this setup, and none of the children who were normally there,
+p284
+aVexcept for this one child, were there.
+p285
+aa(lp286
+VHe was, and he said, "Let me show you how this works,"
+p287
+aVand they got an absolutely ingenuous, wonderful description of Logo.
+p288
+aVAnd the child was just zipping right through it, showing them all sorts of things
+p289
+aVuntil they asked him how to do something which he couldn't explain
+p290
+aVand so he flipped through the manual, found the explanation
+p291
+aVand typed the command and got it to do what they asked.
+p292
+aVThey were delighted, and by the time it was time to go see the principal,
+p293
+aVwhom they'd actually come to see \u2014 not the computer room \u2014
+p294
+aVthey went upstairs and they said,
+p295
+aV"This is absolutely remarkable!
+p296
+aVThat child was very articulate and showed us
+p297
+aVand even dealt with the things he couldn't do automatically
+p298
+aVwith that manual. It was just absolutely fantastic."
+p299
+aa(lp300
+VThe principal said, "There's a dreadful mistake,
+p301
+aVbecause that child can't read.
+p302
+aVAnd you obviously have been hoodwinked
+p303
+aVor you've talked about somebody else."
+p304
+aVAnd they all got up and they all went downstairs
+p305
+aVand the child was still there. And they did something very intelligent:
+p306
+aVthey asked the child, "Can you read?"
+p307
+aVAnd the child said, "No, I can't."
+p308
+aVAnd then they said, "But wait a minute. You
+p309
+aVjust looked through that manual and you found ... "
+p310
+aVand he said, "Oh, but that's not reading."
+p311
+aVAnd so they said, "Well, what's reading then?"
+p312
+aVHe says, "Well, reading is this junk they give me in little books to read.
+p313
+aVIt's absolutely irrelevant, (Laughter) and I get nothing for it.
+p314
+aVBut here, with a little bit of effort I get a lot of return."
+p315
+aa(lp316
+VAnd it really meant something to the child.
+p317
+aVThe child read beautifully, it turned out,
+p318
+aVand was really very competent. So it actually meant something.
+p319
+aVAnd that story has many other anecdotes that are similar,
+p320
+aVbut wow. The key to the future of computers in education is right there,
+p321
+aVand it is: when does it mean something to a child?
+p322
+aVThere is a myth, and it truly is a myth:
+p323
+aVwe believe \u2014 and I'm sure a lot of you believe in this room \u2014
+p324
+aVthat it is harder to read and write than it is to learn how to speak.
+p325
+aVAnd it's not, but we think speech \u2014 "My God, little children pick it up somehow,
+p326
+aVand by the age of two they're doing a mediocre job,
+p327
+aVand by three and four they're speaking reasonably well.
+p328
+aVAnd yet you've got to go to school to learn how to read,
+p329
+aVand you have to sit in a classroom and somebody has to teach you.
+p330
+aVHence, it must be harder." Well, it's not harder.
+p331
+aVWhat the truth is is that speaking has great value to a child;
+p332
+aVthe child can get a great deal by talking to you.
+p333
+aa(lp334
+VReading and writing is utterly useless.
+p335
+aVThere is no reason for a child to read and write except blind faith,
+p336
+aVand that it's going to help you. (Laughter)
+p337
+aVSo what happens is you go to school and people say,
+p338
+aV"Just believe me, you're going to like it.
+p339
+aVYou're going to like reading," and just read and read.
+p340
+aVOn the other hand, you give a kid \u2014 a three-year-old kid \u2014 a computer
+p341
+aVand they type a little command and \u2014 Poof! \u2014 something happens.
+p342
+aVAnd all of a sudden ... You may not call that reading and writing,
+p343
+aVbut a certain bit of typing and reading stuff on the screen
+p344
+aVhas a huge payoff, and it's a lot of fun.
+p345
+aVAnd in fact, it's a powerful educational instrument.
+p346
+aVWell, in Senegal we found that this was the traditional classroom:
+p347
+aV120 kids \u2014 three per desk \u2014 one teacher, a little bit of chalk.
+p348
+aVThis student was one of our first students,
+p349
+aVand it's the girl on the left leaning with her chalkboard,
+p350
+aVand she came ... within two days \u2014
+p351
+aVI want to show you the program she wrote,
+p352
+aVand remember her hairstyle. And that is the program she made.
+p353
+aa(lp354
+VThat's what meant something to her, is doing the hair pattern,
+p355
+aVand actually did it within two days \u2014 an hour each day \u2014
+p356
+aVand found it was, to her,
+p357
+aVabsolutely the most meaningful piece ...
+p358
+aVBut rooted in that, little did she know how much knowledge
+p359
+aVshe was acquiring about geometry
+p360
+aVand just math and logic and all the rest.
+p361
+aVAnd again, I could talk for three hours about this subject.
+p362
+aVI will come to my last example and then quit.
+p363
+aVAnd my last example \u2014 as some of my former colleagues,
+p364
+aVwhom I see in the room, can imagine what it will be.
+p365
+aVYes, it is. It's our work \u2014 that was a while ago,
+p366
+aVand it still is my favorite project \u2014 of teleconferencing.
+p367
+aVAnd the reason it remains a favorite project
+p368
+aVis that we were asked to do a teleconferencing system
+p369
+aVwhere you had the following situation:
+p370
+aVyou had five people at five different sites \u2014 they were known people \u2014
+p371
+aVand you had to have these people in teleconference,
+p372
+aVsuch that each one was utterly convinced
+p373
+aVthat the other four were physically present.
+p374
+aVNow, that is sufficiently
+p375
+aVzany that we would, obviously, jump to the bait, and we did.
+p376
+aVAnd the fact that we knew the people \u2014
+p377
+aVwe had to take a page out of the history of Walt Disney \u2014
+p378
+aVwe actually went so far as to build CRTs
+p379
+aVin the shapes of the people's faces.
+p380
+aVSo if I wanted to call my friend Peter Sprague on the phone,
+p381
+aVmy secretary would get his head out and bring it and set it on the desk,
+p382
+aa(lp383
+V(Laughter)
+p384
+aa(lp385
+Vand that would be the TV used for the occasion.
+p386
+aVAnd it's uncanny: there's no way I can explain to you
+p387
+aVthe amount of eye contact you get with that physical face
+p388
+aVprojected on a 3D CRT of that sort.
+p389
+aVThe next thing that we had to do is to persuade them
+p390
+aVthat there needed to be spatial correspondence, which is straightforward,
+p391
+aVbut again, it's something that didn't fall naturally
+p392
+aVout of a telecommunications or computing style of thinking;
+p393
+aVit was a very, if you will, architectural or spatial concept.
+p394
+aVAnd that was to recognize that when you sit around the table,
+p395
+aVthe actual location of the people becomes rather important.
+p396
+aVAnd when somebody gets up, in fact, to go answer a phone
+p397
+aVor use a bathroom or something, the empty seat becomes,
+p398
+aVif you will, that person. And you point frequently to the empty seat
+p399
+aVand you say, "He or she wouldn't agree,"
+p400
+aVand the empty chair is that person and the spatiality is crucial.
+p401
+aVSo we said, "Well, these will be on round tables
+p402
+aVand the order around the table had to be the same,
+p403
+aVso that at my site, I would be, if you will, real
+p404
+aVand then at each other's site you'd have these plastic heads.
+p405
+aVAnd the plastic heads, sometimes you want to project them.
+p406
+aVAnd there are a number of schemes, which I don't want to dwell on,
+p407
+aa(lp408
+Vbut this is the one that we finally used
+p409
+aVwhere we projected onto rear screen material
+p410
+aVthat was molded in the face \u2014 literally in the face of the person.
+p411
+aVAnd I'll show you one more slide, where this is actually made
+p412
+aVfrom something called a solid photograph and is the screen.
+p413
+aVNow, we track, on the person's head, the head motions \u2014
+p414
+aVso we transmit with a video the head positions \u2014
+p415
+aVand so this head moves in about two axes.
+p416
+aVSo if I, all of a sudden, turn to the person to my left
+p417
+aVand start talking to that person, then at the person to my right's site,
+p418
+aVhe'll see these two plastic heads talking to each other.
+p419
+aVAnd then if that person interrupts, then those two heads may turn.
+p420
+aVAnd it really is reconstructing, quite accurately, teleconferencing.
+p421
+aasS'transcript_micsec'
+p422
+(lp423
+I11000
+aI92000
+aI154000
+aI226000
+aI289000
+aI346000
+aI411000
+aI497000
+aI501000
+aI585000
+aI678000
+aI752000
+aI764000
+aI812000
+aI827000
+aI890000
+aI917000
+aI922000
+aI984000
+aI1054000
+aI1097000
+aI1145000
+aI1208000
+aI1275000
+aI1382000
+aI1383000
+aI1462000
+asS'talk_meta'
+p424
+(dp425
+S'ratings'
+p426
+(dp427
+S'ingenious'
+p428
+I86
+sS'funny'
+p429
+I24
+sS'inspiring'
+p430
+I101
+sS'ok'
+p431
+I30
+sS'fascinating'
+p432
+I177
+sS'total_count'
+p433
+I759
+sS'persuasive'
+p434
+I26
+sS'longwinded'
+p435
+I51
+sS'informative'
+p436
+I131
+sS'beautiful'
+p437
+I14
+sS'jaw-dropping'
+p438
+I77
+sS'obnoxious'
+p439
+I7
+sS'confusing'
+p440
+I12
+sS'courageous'
+p441
+I19
+sS'unconvincing'
+p442
+I4
+ssS'author'
+p443
+VNicholas_Negroponte;
+p444
+sS'url'
+p445
+S'https://www.ted.com/talks/nicholas_negroponte_in_1984_makes_5_predictions'
+p446
+sS'vidlen'
+p447
+I1523
+sS'totalviews'
+p448
+I977622
+sS'title'
+p449
+V5 predictions, from 1984
+p450
+sS'downloadlink'
+p451
+Vhttps://download.ted.com/talks/NicholasNegroponte_1984.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p452
+sS'datepublished'
+p453
+cdatetime
+datetime
+p454
+(S'\x07\xd8\x03\n\x15\x1a\x00\x00\x00\x00'
+tRp455
+sS'datefilmed'
+p456
+g454
+(S'\x07\xd8\x03\n\x15\x1a\x00\x00\x00\x00'
+tRp457
+sS'alldata_JSON'
+p458
+S'{"viewed_count": 977622, "speakers": [{"description": "Tech visionary", "firstname": "Nicholas", "title": "", "lastname": "Negroponte", "middleinitial": "", "whylisten": "<p>A pioneer in the field of computer-aided design, Negroponte founded (and was the first director of) <a href=\\"http://www.media.mit.edu/\\" target=\\"_blank\\">MIT&#39;s Media Lab</a>, which helped drive the multimedia revolution and now houses more than 500 researchers and staff across a broad range of disciplines. An original investor in&nbsp;<a href=\\"http://www.wired.com\\" target=\\"_blank\\"><em>Wired</em></a> (and the magazine&#39;s &quot;patron saint&quot;), for five years he penned a column exploring the frontiers of technology -- ideas that he expanded into his 1995 best-selling book <em><a href=\\"http://geni.us/beingdigital\\" target=\\"_blank\\">Being Digital</a>.</em> An angel investor extraordinaire, he&#39;s funded more than 40 startups, and served on the boards of companies such as Motorola and Ambient Devices. </p><p>But his latest effort, the <a href=\\"http://www.laptop.org/\\" target=\\"_blank\\">One Laptop per Child</a>  project, may prove his most ambitious. The organization is designing, manufacturing and distributing low-cost, wireless Internet-enabled computers costing roughly $100 and aimed at children. Negroponte hopes to put millions of these devices in the hands of children in the developing world.</p>", "slug": "nicholas_negroponte", "whotheyare": "The founder of the MIT Media Lab, Nicholas Negroponte pushed the edge of the information revolution as an inventor, thinker and angel investor. He\'s the driving force behind One Laptop per Child, building computers for children in the developing world.  ", "whatotherssay": "If Nicholas Negroponte can achieve his ambition of distributing $100 laptops to the world\'s disadvantaged children, he will help redefine philanthropy and see his name added to a list alongside the likes of Carnegie, Ford and Rockefeller.", "id": 38, "photo_url": "https://pe.tedcdn.com/images/ted/7230935c0d873ed58b2786e1f3b5c93dc09e10cc_254x191.jpg"}], "current_talk": 230, "description": "With surprising accuracy, Nicholas Negroponte predicts what will happen with CD-ROMs, web interfaces, service kiosks, the touchscreen interface of the iPhone and his own One Laptop per Child project.", "language": "en", "url": "https://www.ted.com/talks/nicholas_negroponte_in_1984_makes_5_predictions", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 177463984}, "podcast-low-en": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34930294}, "podcast-high": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 177468025}, "180k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34851438}, "64k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12520492}, "1500k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 277137635}, "450k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86417562}, "podcast-regular": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86474920}, "950k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 177361335}, "podcast-light": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12616990}, "320k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61608373}, "600k": {"uri": "https://download.ted.com/talks/NicholasNegroponte_1984-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114902594}}}, "comments": {"count": 64, "id": 210, "talk_id": 230}, "slug": "nicholas_negroponte_in_1984_makes_5_predictions", "threadId": 210, "talks": [{"event": "TED1984", "player_talks": [{"event": "TED1984", "slug": "nicholas_negroponte_in_1984_makes_5_predictions", "filmed": 444528000, "targeting": {"event": "TED1984", "tag": "demo,design,entertainment,future,interface design,media,movies,technology", "id": 230, "talk": "nicholas_negroponte_in_1984_makes_5_predictions", "year": "1984"}, "adDuration": "3.33", "external": null, "title": "5 predictions, from 1984", "postAdDuration": "0.83", "published": 1205198760, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg?quality=89&w=600", "name": "Nicholas Negroponte: 5 predictions, from 1984", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "nativeLanguage": "en", "tags": ["demo", "design", "entertainment", "future", "interface design", "media", "movies", "technology"], "speaker": "Nicholas Negroponte", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1523, "id": 230, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/NicholasNegroponte_1984-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED1984", "tag": "demo,design,entertainment,future,interface design,media,movies,technology", "id": 230, "talk": "nicholas_negroponte_in_1984_makes_5_predictions", "year": "1984"}, "metadata": "https://hls.ted.com/talks/230.json", "stream": "https://hls.ted.com/talks/230.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED1984%26id%3D230%26tag%3Ddemo%2Cdesign%2Centertainment%2Cfuture%2Cinterface%2Bdesign%2Cmedia%2Cmovies%2Ctechnology%26talk%3Dnicholas_negroponte_in_1984_makes_5_predictions%26year%3D1984&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/nicholas_negroponte_in_1984_makes_5_predictions"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg?q=50&w=15", "duration": 1523, "id": 230, "ratings": [{"count": 77, "id": 23, "name": "Jaw-dropping"}, {"count": 24, "id": 7, "name": "Funny"}, {"count": 19, "id": 3, "name": "Courageous"}, {"count": 177, "id": 22, "name": "Fascinating"}, {"count": 51, "id": 11, "name": "Longwinded"}, {"count": 86, "id": 9, "name": "Ingenious"}, {"count": 131, "id": 8, "name": "Informative"}, {"count": 101, "id": 10, "name": "Inspiring"}, {"count": 26, "id": 24, "name": "Persuasive"}, {"count": 30, "id": 25, "name": "OK"}, {"count": 14, "id": 1, "name": "Beautiful"}, {"count": 4, "id": 21, "name": "Unconvincing"}, {"count": 12, "id": 2, "name": "Confusing"}, {"count": 7, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Tech visionary", "firstname": "Nicholas", "title": "", "lastname": "Negroponte", "middleinitial": "", "whylisten": "<p>A pioneer in the field of computer-aided design, Negroponte founded (and was the first director of) <a href=\\"http://www.media.mit.edu/\\" target=\\"_blank\\">MIT&#39;s Media Lab</a>, which helped drive the multimedia revolution and now houses more than 500 researchers and staff across a broad range of disciplines. An original investor in&nbsp;<a href=\\"http://www.wired.com\\" target=\\"_blank\\"><em>Wired</em></a> (and the magazine&#39;s &quot;patron saint&quot;), for five years he penned a column exploring the frontiers of technology -- ideas that he expanded into his 1995 best-selling book <em><a href=\\"http://geni.us/beingdigital\\" target=\\"_blank\\">Being Digital</a>.</em> An angel investor extraordinaire, he&#39;s funded more than 40 startups, and served on the boards of companies such as Motorola and Ambient Devices. </p><p>But his latest effort, the <a href=\\"http://www.laptop.org/\\" target=\\"_blank\\">One Laptop per Child</a>  project, may prove his most ambitious. The organization is designing, manufacturing and distributing low-cost, wireless Internet-enabled computers costing roughly $100 and aimed at children. Negroponte hopes to put millions of these devices in the hands of children in the developing world.</p>", "slug": "nicholas_negroponte", "whotheyare": "The founder of the MIT Media Lab, Nicholas Negroponte pushed the edge of the information revolution as an inventor, thinker and angel investor. He\'s the driving force behind One Laptop per Child, building computers for children in the developing world.  ", "whatotherssay": "If Nicholas Negroponte can achieve his ambition of distributing $100 laptops to the world\'s disadvantaged children, he will help redefine philanthropy and see his name added to a list alongside the likes of Carnegie, Ford and Rockefeller.", "id": 38, "photo_url": "https://pe.tedcdn.com/images/ted/7230935c0d873ed58b2786e1f3b5c93dc09e10cc_254x191.jpg"}], "title": "5 predictions, from 1984", "take_action": null, "comments": 210, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg", "description": "With surprising accuracy, Nicholas Negroponte predicts what will happen with CD-ROMs, web interfaces, service kiosks, the touchscreen interface of the iPhone and his own One Laptop per Child project.", "tags": ["demo", "design", "entertainment", "future", "interface design", "media", "movies", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-zh-tw.mp4"}, "ko": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-it.mp4"}, "tr": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-bg.mp4"}, "sr": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-sr.mp4"}, "ro": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/NicholasNegroponte_1984-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/NicholasNegroponte_1984.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/NicholasNegroponte_1984-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 230, "audioDownload": null}, "related_talks": [{"viewed_count": 400655, "hero": "https://pe.tedcdn.com/images/ted/46407_480x360.jpg", "title": "One Laptop per Child, two years on", "id": 288, "speaker": "Nicholas Negroponte", "duration": 1000, "slug": "nicholas_negroponte_on_one_laptop_per_child_two_years_on"}, {"viewed_count": 1559308, "hero": "https://pe.tedcdn.com/images/ted/7ddac8199e485dc8fe198d34b726f76680e7b86e_2880x1620.jpg", "title": "How technology evolves", "id": 19, "speaker": "Kevin Kelly", "duration": 1200, "slug": "kevin_kelly_on_how_technology_evolves"}, {"viewed_count": 2446750, "hero": "https://pe.tedcdn.com/images/ted/e87f6855a745a988c2dee9ceba6bfbd4f854a3a6_1600x1200.jpg", "title": "The accelerating power of technology", "id": 38, "speaker": "Ray Kurzweil", "duration": 1376, "slug": "ray_kurzweil_on_how_technology_will_transform_us"}, {"viewed_count": 1886828, "hero": "https://pe.tedcdn.com/images/ted/916b709d600db97cc67aa7e984c88b011dcb561f_2400x1800.jpg", "title": "A 30-year history of the future", "id": 2043, "speaker": "Nicholas Negroponte", "duration": 1183, "slug": "nicholas_negroponte_a_30_year_history_of_the_future"}, {"viewed_count": 1516359, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}, {"viewed_count": 4541024, "hero": "https://pe.tedcdn.com/images/ted/2c78c5f87d19f51a0ff4d3e655cb815360bf8063_1600x1200.jpg", "title": "The radical promise of the multi-touch interface", "id": 65, "speaker": "Jeff Han", "duration": 527, "slug": "jeff_han_demos_his_breakthrough_touchscreen"}], "recorded_at": "1984-02-02T00:00:00.000+00:00", "slug": "nicholas_negroponte_in_1984_makes_5_predictions", "speaker_name": "Nicholas Negroponte", "viewed_count": 977622, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED1984", "name": "Nicholas Negroponte: 5 predictions, from 1984"}'
+p459
+sS'keywords'
+p460
+(lp461
+Vdemo
+p462
+aVdesign
+p463
+aVentertainment
+p464
+aVfuture
+p465
+aVinterface design
+p466
+aVmedia
+p467
+aVmovies
+p468
+aVtechnology
+p469
+asS'datecrawled'
+p470
+g454
+(S'\x07\xe1\n\x17\x010\x18\t\x80V'
+tRp471
+sS'id'
+p472
+I230
+ss.

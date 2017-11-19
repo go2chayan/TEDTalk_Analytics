@@ -1,0 +1,740 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo what does it mean for a machine to be athletic?
+p5
+aVWe will demonstrate the concept of machine athleticism
+p6
+aVand the research to achieve it
+p7
+aVwith the help of these flying machines called quadrocopters,
+p8
+aVor quads, for short.
+p9
+aa(lp10
+VQuads have been around for a long time.
+p11
+aVThey're so popular these days because they're mechanically simple.
+p12
+aVBy controlling the speeds of these four propellers,
+p13
+aVthese machines can roll, pitch, yaw,
+p14
+aVand accelerate along their common orientation.
+p15
+aVOn board are also a battery, a computer,
+p16
+aVvarious sensors and wireless radios.
+p17
+aa(lp18
+VQuads are extremely agile, but this agility comes at a cost.
+p19
+aVThey are inherently unstable,
+p20
+aVand they need some form of automatic feedback control
+p21
+aVin order to be able to fly.
+p22
+aa(lp23
+VSo, how did it just do that?
+p24
+aVCameras on the ceiling and a laptop
+p25
+aVserve as an indoor global positioning system.
+p26
+aVIt's used to locate objects in the space
+p27
+aVthat have these reflective markers on them.
+p28
+aVThis data is then sent to another laptop
+p29
+aVthat is running estimation and control algorithms,
+p30
+aVwhich in turn sends commands to the quad,
+p31
+aVwhich is also running estimation and control algorithms.
+p32
+aVThe bulk of our research is algorithms.
+p33
+aVIt's the magic that brings these machines to life.
+p34
+aa(lp35
+VSo how does one design the algorithms that create a machine athlete?
+p36
+aVWe use something broadly called model-based design.
+p37
+aVWe first capture the physics
+p38
+aVwith a mathematical model of how the machines behave.
+p39
+aVWe then use a branch of mathematics called control theory
+p40
+aVto analyze these models
+p41
+aVand also to synthesize algorithms for controlling them.
+p42
+aVFor example, that's how we can make the quad hover.
+p43
+aVWe first captured the dynamics with a set of differential equations.
+p44
+aVWe then manipulate these equations with the help of control theory
+p45
+aVto create algorithms that stabilize the quad.
+p46
+aa(lp47
+VLet me demonstrate the strength of this approach.
+p48
+aVSuppose that we want this quad to not only hover
+p49
+aVbut to also balance this pole.
+p50
+aVWith a little bit of practice,
+p51
+aVit's pretty straightforward for a human being to do this,
+p52
+aValthough we do have the advantage of having two feet on the ground
+p53
+aVand the use of our very versatile hands.
+p54
+aVIt becomes a little bit more difficult
+p55
+aVwhen I only have one foot on the ground
+p56
+aVand when I don't use my hands.
+p57
+aVNotice how this pole has a reflective marker on top,
+p58
+aVwhich means that it can be located in the space.
+p59
+aa(lp60
+V(Audience) Oh!
+p61
+aa(lp62
+V(Applause)
+p63
+aa(lp64
+V(Applause ends)
+p65
+aa(lp66
+VYou can notice that this quad is making fine adjustments
+p67
+aVto keep the pole balanced.
+p68
+aVHow did we design the algorithms to do this?
+p69
+aVWe added the mathematical model of the pole
+p70
+aVto that of the quad.
+p71
+aVOnce we have a model of the combined quad-pole system,
+p72
+aVwe can use control theory to create algorithms for controlling it.
+p73
+aVHere, you see that it's stable,
+p74
+aVand even if I give it little nudges,
+p75
+aVit goes back \u2014
+p76
+aVto the nice, balanced position.
+p77
+aa(lp78
+VWe can also augment the model
+p79
+aVto include where we want the quad to be in space.
+p80
+aVUsing this pointer, made out of reflective markers,
+p81
+aVI can point to where I want the quad to be in space
+p82
+aVa fixed distance away from me.
+p83
+aa(lp84
+V(Laughter)
+p85
+aa(lp86
+VThe key to these acrobatic maneuvers is algorithms,
+p87
+aVdesigned with the help of mathematical models
+p88
+aVand control theory.
+p89
+aa(lp90
+VLet's tell the quad to come back here
+p91
+aVand let the pole drop,
+p92
+aVand I will next demonstrate the importance
+p93
+aVof understanding physical models
+p94
+aVand the workings of the physical world.
+p95
+aVNotice how the quad lost altitude when I put this glass of water on it.
+p96
+aVUnlike the balancing pole,
+p97
+aVI did not include the mathematical model of the glass
+p98
+aVin the system.
+p99
+aVIn fact, the system doesn't even know that the glass is there.
+p100
+aVLike before, I could use the pointer to tell the quad
+p101
+aVwhere I want it to be in space.
+p102
+aa(lp103
+V(Applause)
+p104
+aa(lp105
+V(Applause ends)
+p106
+aa(lp107
+VOkay, you should be asking yourself,
+p108
+aVwhy doesn't the water fall out of the glass?
+p109
+aVTwo facts.
+p110
+aVThe first is that gravity acts on all objects in the same way.
+p111
+aVThe second is that the propellers
+p112
+aVare all pointing in the same direction of the glass, pointing up.
+p113
+aVYou put these two things together,
+p114
+aVthe net result is that all side forces on the glass are small
+p115
+aVand are mainly dominated by aerodynamic effects,
+p116
+aVwhich at these speeds are negligible.
+p117
+aVAnd that's why you don't need to model the glass.
+p118
+aVIt naturally doesn't spill, no matter what the quad does.
+p119
+aa(lp120
+V(Audience) Oh!
+p121
+aa(lp122
+V(Applause)
+p123
+aa(lp124
+V(Applause ends)
+p125
+aa(lp126
+VThe lesson here
+p127
+aVis that some high-performance tasks are easier than others,
+p128
+aVand that understanding the physics of the problem
+p129
+aVtells you which ones are easy and which ones are hard.
+p130
+aVIn this instance, carrying a glass of water is easy.
+p131
+aVBalancing a pole is hard.
+p132
+aa(lp133
+VWe've all heard stories of athletes performing feats while physically injured.
+p134
+aVCan a machine also perform with extreme physical damage?
+p135
+aVConventional wisdom says
+p136
+aVthat you need at least four fixed motor propeller pairs in order to fly,
+p137
+aVbecause there are four degrees of freedom to control:
+p138
+aVroll, pitch, yaw and acceleration.
+p139
+aVHexacopters and octocopters, with six and eight propellers,
+p140
+aVcan provide redundancy,
+p141
+aVbut quadrocopters are much more popular
+p142
+aVbecause they have the minimum number of fixed motor propeller pairs: four.
+p143
+aVOr do they?
+p144
+aa(lp145
+V(Audience) Oh!
+p146
+aa(lp147
+V(Laughter)
+p148
+aa(lp149
+VIf we analyze the mathematical model of this machine
+p150
+aVwith only two working propellers,
+p151
+aVwe discover that there's an unconventional way to fly it.
+p152
+aVWe relinquish control of yaw,
+p153
+aVbut roll, pitch and acceleration can still be controlled
+p154
+aVwith algorithms that exploit this new configuration.
+p155
+aVMathematical models tell us exactly when and why this is possible.
+p156
+aVIn this instance, this knowledge allows us to design
+p157
+aVnovel machine architectures
+p158
+aVor to design clever algorithms that gracefully handle damage,
+p159
+aVjust like human athletes do,
+p160
+aVinstead of building machines with redundancy.
+p161
+aa(lp162
+VWe can't help but hold our breath
+p163
+aVwhen we watch a diver somersaulting into the water,
+p164
+aVor when a vaulter is twisting in the air,
+p165
+aVthe ground fast approaching.
+p166
+aVWill the diver be able to pull off a rip entry?
+p167
+aVWill the vaulter stick the landing?
+p168
+aVSuppose we want this quad here to perform a triple flip
+p169
+aVand finish off at the exact same spot that it started.
+p170
+aVThis maneuver is going to happen so quickly
+p171
+aVthat we can't use position feedback to correct the motion during execution.
+p172
+aVThere simply isn't enough time.
+p173
+aVInstead, what the quad can do is perform the maneuver blindly,
+p174
+aVobserve how it finishes the maneuver,
+p175
+aVand then use that information to modify its behavior
+p176
+aVso that the next flip is better.
+p177
+aVSimilar to the diver and the vaulter,
+p178
+aVit is only through repeated practice
+p179
+aVthat the maneuver can be learned and executed
+p180
+aVto the highest standard.
+p181
+aa(lp182
+V(Laughter)
+p183
+aa(lp184
+V(Applause)
+p185
+aa(lp186
+VStriking a moving ball is a necessary skill in many sports.
+p187
+aVHow do we make a machine do
+p188
+aVwhat an athlete does seemingly without effort?
+p189
+aa(lp190
+V(Laughter)
+p191
+aa(lp192
+V(Applause)
+p193
+aa(lp194
+V(Applause ends)
+p195
+aa(lp196
+VThis quad has a racket strapped onto its head
+p197
+aVwith a sweet spot roughly the size of an apple, so not too large.
+p198
+aVThe following calculations are made every 20 milliseconds,
+p199
+aVor 50 times per second.
+p200
+aVWe first figure out where the ball is going.
+p201
+aVWe then next calculate how the quad should hit the ball
+p202
+aVso that it flies to where it was thrown from.
+p203
+aVThird, a trajectory is planned that carries the quad
+p204
+aVfrom its current state to the impact point with the ball.
+p205
+aVFourth, we only execute 20 milliseconds' worth of that strategy.
+p206
+aVTwenty milliseconds later, the whole process is repeated
+p207
+aVuntil the quad strikes the ball.
+p208
+aa(lp209
+V(Applause)
+p210
+aa(lp211
+VMachines can not only perform dynamic maneuvers on their own,
+p212
+aVthey can do it collectively.
+p213
+aVThese three quads are cooperatively carrying a sky net.
+p214
+aa(lp215
+V(Applause)
+p216
+aa(lp217
+V(Applause ends)
+p218
+aa(lp219
+VThey perform an extremely dynamic and collective maneuver
+p220
+aVto launch the ball back to me.
+p221
+aVNotice that, at full extension, these quads are vertical.
+p222
+aa(lp223
+V(Applause)
+p224
+aa(lp225
+VIn fact, when fully extended,
+p226
+aVthis is roughly five times greater than what a bungee jumper feels
+p227
+aVat the end of their launch.
+p228
+aa(lp229
+VThe algorithms to do this are very similar
+p230
+aVto what the single quad used to hit the ball back to me.
+p231
+aVMathematical models are used to continuously re-plan
+p232
+aVa cooperative strategy 50 times per second.
+p233
+aa(lp234
+VEverything we have seen so far has been about the machines and their capabilities.
+p235
+aVWhat happens when we couple this machine athleticism
+p236
+aVwith that of a human being?
+p237
+aVWhat I have in front of me is a commercial gesture sensor
+p238
+aVmainly used in gaming.
+p239
+aVIt can recognize what my various body parts
+p240
+aVare doing in real time.
+p241
+aVSimilar to the pointer that I used earlier,
+p242
+aVwe can use this as inputs to the system.
+p243
+aVWe now have a natural way of interacting
+p244
+aVwith the raw athleticism of these quads with my gestures.
+p245
+aa(lp246
+V(Applause)
+p247
+aa(lp248
+VInteraction doesn't have to be virtual.
+p249
+aVIt can be physical.
+p250
+aVTake this quad, for example.
+p251
+aVIt's trying to stay at a fixed point in space.
+p252
+aVIf I try to move it out of the way, it fights me,
+p253
+aVand moves back to where it wants to be.
+p254
+aVWe can change this behavior, however.
+p255
+aVWe can use mathematical models
+p256
+aVto estimate the force that I'm applying to the quad.
+p257
+aVOnce we know this force, we can also change the laws of physics,
+p258
+aVas far as the quad is concerned, of course.
+p259
+aVHere, the quad is behaving as if it were in a viscous fluid.
+p260
+aa(lp261
+VWe now have an intimate way of interacting with a machine.
+p262
+aVI will use this new capability to position
+p263
+aVthis camera-carrying quad to the appropriate location
+p264
+aVfor filming the remainder of this demonstration.
+p265
+aa(lp266
+VSo we can physically interact with these quads
+p267
+aVand we can change the laws of physics.
+p268
+aVLet's have a little bit of fun with this.
+p269
+aVFor what you will see next,
+p270
+aVthese quads will initially behave as if they were on Pluto.
+p271
+aVAs time goes on, gravity will be increased
+p272
+aVuntil we're all back on planet Earth,
+p273
+aVbut I assure you we won't get there.
+p274
+aVOkay, here goes.
+p275
+aa(lp276
+V(Laughter)
+p277
+aa(lp278
+V(Laughter)
+p279
+aa(lp280
+V(Applause)
+p281
+aa(lp282
+VWhew!
+p283
+aVYou're all thinking now,
+p284
+aVthese guys are having way too much fun,
+p285
+aVand you're probably also asking yourself,
+p286
+aVwhy exactly are they building machine athletes?
+p287
+aVSome conjecture that the role of play in the animal kingdom
+p288
+aVis to hone skills and develop capabilities.
+p289
+aVOthers think that it has more of a social role,
+p290
+aVthat it's used to bind the group.
+p291
+aVSimilarly, we use the analogy of sports and athleticism
+p292
+aVto create new algorithms for machines
+p293
+aVto push them to their limits.
+p294
+aVWhat impact will the speed of machines have on our way of life?
+p295
+aVLike all our past creations and innovations,
+p296
+aVthey may be used to improve the human condition
+p297
+aVor they may be misused and abused.
+p298
+aVThis is not a technical choice we are faced with;
+p299
+aVit's a social one.
+p300
+aVLet's make the right choice,
+p301
+aVthe choice that brings out the best in the future of machines,
+p302
+aVjust like athleticism in sports can bring out the best in us.
+p303
+aa(lp304
+VLet me introduce you to the wizards behind the green curtain.
+p305
+aVThey're the current members of the Flying Machine Arena research team.
+p306
+aa(lp307
+V(Applause)
+p308
+aa(lp309
+VFederico Augugliaro, Dario Brescianini,
+p310
+aVMarkus Hehn, Sergei Lupashin, Mark Muller and Robin Ritz.
+p311
+aVLook out for them. They're destined for great things.
+p312
+aa(lp313
+VThank you.
+p314
+aa(lp315
+V(Applause)
+p316
+aasS'transcript_micsec'
+p317
+(lp318
+I22000
+aI37000
+aI58000
+aI75000
+aI107000
+aI142000
+aI183000
+aI184000
+aI188000
+aI190000
+aI219000
+aI238000
+aI246000
+aI254000
+aI296000
+aI302000
+aI304000
+aI343000
+aI349000
+aI354000
+aI356000
+aI373000
+aI411000
+aI413000
+aI420000
+aI471000
+aI524000
+aI525000
+aI530000
+aI548000
+aI555000
+aI559000
+aI561000
+aI606000
+aI609000
+aI626000
+aI631000
+aI632000
+aI647000
+aI649000
+aI662000
+aI675000
+aI741000
+aI755000
+aI793000
+aI815000
+aI843000
+aI873000
+aI876000
+aI880000
+aI935000
+aI941000
+aI946000
+aI954000
+aI955000
+asS'talk_meta'
+p319
+(dp320
+S'ratings'
+p321
+(dp322
+S'ingenious'
+p323
+I935
+sS'funny'
+p324
+I138
+sS'inspiring'
+p325
+I553
+sS'ok'
+p326
+I75
+sS'fascinating'
+p327
+I1189
+sS'total_count'
+p328
+I4801
+sS'persuasive'
+p329
+I47
+sS'longwinded'
+p330
+I3
+sS'unconvincing'
+p331
+I21
+sS'informative'
+p332
+I329
+sS'beautiful'
+p333
+I205
+sS'jaw-dropping'
+p334
+I1244
+sS'obnoxious'
+p335
+I18
+sS'courageous'
+p336
+I33
+sS'confusing'
+p337
+I11
+ssS'author'
+p338
+VRaffaello_D'Andrea;
+p339
+sS'url'
+p340
+S'https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters'
+p341
+sS'vidlen'
+p342
+I968
+sS'totalviews'
+p343
+I10319614
+sS'title'
+p344
+VThe astounding athletic power of quadcopters
+p345
+sS'downloadlink'
+p346
+Vhttps://download.ted.com/talks/RaffaelloDAndrea_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p347
+sS'datepublished'
+p348
+cdatetime
+datetime
+p349
+(S'\x07\xdd\x06\x0b\x0f,\x05\x00\x00\x00'
+tRp350
+sS'datefilmed'
+p351
+g349
+(S'\x07\xdd\x06\x0b\x0f,\x05\x00\x00\x00'
+tRp352
+sS'alldata_JSON'
+p353
+S'{"viewed_count": 10319614, "speakers": [{"description": "Autonomous systems pioneer", "firstname": "Raffaello", "title": "", "lastname": "D\'Andrea", "middleinitial": "", "whylisten": "<p>Raffaello D&#39;Andrea combines academics, business, and the arts to explore the capabilities of autonomous systems. As part of his research as professor of dynamic systems and control at the Swiss Federal Institute of Technology (ETH Z&uuml;rich), he and his collaborators enchant viewers with works like the self-destructing, self-assembling Robotic Chair, or the Balancing Cube that can perch itself on its corners.   </p><p>D&rsquo;Andrea and his team created the Flying Machine Arena to test the gravity-defying abilities of their athletic flying robots. Building on research in the Flying Machine Arena, ETH Z&uuml;rich partnered with its spin-off company Verity Studios and with Cirque du Soleil to create &ldquo;<a href=\\"http://raffaello.name/projects/sparked/\\" target=\\"_blank\\">Sparked</a>,&rdquo; a short film showcasing the unexpected airborne dexterity of quadcopters.  D&rsquo;Andrea is the co-founder of Kiva Systems, a robotics company that develops intelligent automated warehouse systems and that was acquired by Amazon in 2012.</p>", "slug": "raffaello_d_andrea", "whotheyare": "Raffaello D\'Andrea explores the possibilities of autonomous technology by collaborating with artists, engineers and entrepreneurs.", "whatotherssay": "We should be more concerned about fulfilling our dreams as children. What was it we wanted to do as children? We wanted to fly like birds. Well, why aren\'t we doing that?", "id": 1594, "photo_url": "https://pe.tedcdn.com/images/ted/0480fa8b47103fef80ece400887f7a95c94f6c49_254x191.jpg"}], "current_talk": 1764, "description": "In a robot lab at TEDGlobal, Raffaello D\'Andrea demos his flying quadcopters: robots that think like athletes, solving physical problems with algorithms that help them learn. In a series of nifty demos, D\'Andrea show drones that play catch, balance and make decisions together -- and watch out for an I-want-this-now demo of Kinect-controlled quads.", "language": "en", "url": "https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113216783}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22269103}, "podcast-high": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113549258}, "180k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21993954}, "64k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7937292}, "1500k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 176421135}, "450k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54874684}, "podcast-regular": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55162169}, "950k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113136997}, "podcast-light": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8074623}, "320k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39007502}, "600k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73369973}}}, "comments": {"count": 310, "id": 20649, "talk_id": 1764}, "slug": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters", "threadId": 20649, "talks": [{"event": "TEDGlobal 2013", "player_talks": [{"event": "TEDGlobal 2013", "slug": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters", "filmed": 1370822400, "targeting": {"event": "TEDGlobal 2013", "tag": "drones,robots,technology", "id": 1764, "talk": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "The astounding athletic power of quadcopters", "postAdDuration": "0.83", "published": 1370979845, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e15213155418fc82875680062821e32eccd30a5f_1600x1200.jpg?quality=89&w=600", "name": "Raffaello D\'Andrea: The astounding athletic power of quadcopters", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "zh", "endonym": "\\u4e2d\\u6587 (\\u7cb5\\u8a9e)", "isRtl": false, "ianaCode": "zh", "languageName": "Chinese, Yue"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["drones", "robots", "technology"], "speaker": "Raffaello D\'Andrea", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 968, "id": 1764, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2013", "tag": "drones,robots,technology", "id": 1764, "talk": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1764.json", "stream": "https://hls.ted.com/talks/1764.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2013%26id%3D1764%26tag%3Ddrones%2Crobots%2Ctechnology%26talk%3Draffaello_d_andrea_the_astounding_athletic_power_of_quadcopters%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e15213155418fc82875680062821e32eccd30a5f_1600x1200.jpg?q=50&w=15", "duration": 968, "id": 1764, "ratings": [{"count": 935, "id": 9, "name": "Ingenious"}, {"count": 1189, "id": 22, "name": "Fascinating"}, {"count": 1244, "id": 23, "name": "Jaw-dropping"}, {"count": 138, "id": 7, "name": "Funny"}, {"count": 205, "id": 1, "name": "Beautiful"}, {"count": 329, "id": 8, "name": "Informative"}, {"count": 553, "id": 10, "name": "Inspiring"}, {"count": 33, "id": 3, "name": "Courageous"}, {"count": 75, "id": 25, "name": "OK"}, {"count": 47, "id": 24, "name": "Persuasive"}, {"count": 11, "id": 2, "name": "Confusing"}, {"count": 21, "id": 21, "name": "Unconvincing"}, {"count": 3, "id": 11, "name": "Longwinded"}, {"count": 18, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Autonomous systems pioneer", "firstname": "Raffaello", "title": "", "lastname": "D\'Andrea", "middleinitial": "", "whylisten": "<p>Raffaello D&#39;Andrea combines academics, business, and the arts to explore the capabilities of autonomous systems. As part of his research as professor of dynamic systems and control at the Swiss Federal Institute of Technology (ETH Z&uuml;rich), he and his collaborators enchant viewers with works like the self-destructing, self-assembling Robotic Chair, or the Balancing Cube that can perch itself on its corners.   </p><p>D&rsquo;Andrea and his team created the Flying Machine Arena to test the gravity-defying abilities of their athletic flying robots. Building on research in the Flying Machine Arena, ETH Z&uuml;rich partnered with its spin-off company Verity Studios and with Cirque du Soleil to create &ldquo;<a href=\\"http://raffaello.name/projects/sparked/\\" target=\\"_blank\\">Sparked</a>,&rdquo; a short film showcasing the unexpected airborne dexterity of quadcopters.  D&rsquo;Andrea is the co-founder of Kiva Systems, a robotics company that develops intelligent automated warehouse systems and that was acquired by Amazon in 2012.</p>", "slug": "raffaello_d_andrea", "whotheyare": "Raffaello D\'Andrea explores the possibilities of autonomous technology by collaborating with artists, engineers and entrepreneurs.", "whatotherssay": "We should be more concerned about fulfilling our dreams as children. What was it we wanted to do as children? We wanted to fly like birds. Well, why aren\'t we doing that?", "id": 1594, "photo_url": "https://pe.tedcdn.com/images/ted/0480fa8b47103fef80ece400887f7a95c94f6c49_254x191.jpg"}], "title": "The astounding athletic power of quadcopters", "take_action": [], "comments": 20649, "more_resources": [{"status": "approved", "start_at": null, "headline": "Since the Talk: Up, up and away", "link_url": "http://ideas.ted.com/2014/07/11/watch-these-flying-machines-are-getting-better-faster-stronger-smarter/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "since_the_talk", "blurb": "Since demoing his robots at TED, Raffaello D\'Andrea has designed quadcopters that are even stronger and smarter than before. Here, three new features."}, {"status": "approved", "start_at": null, "headline": "Quadcopters join the circus", "link_url": "http://ideas.ted.com/2014/10/22/quadcopters-join-the-circus-in-this-magical-video-from-raff-dandrea-and-cirque-du-soleil/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "In art, drones can be magical. See beautiful GIFs and a charming short film from a collaboration between Raffaello D\'Andrea and Cirque du Soleil."}], "hero": "https://pe.tedcdn.com/images/ted/e15213155418fc82875680062821e32eccd30a5f_1600x1200.jpg", "description": "In a robot lab at TEDGlobal, Raffaello D\'Andrea demos his flying quadcopters: robots that think like athletes, solving physical problems with algorithms that help them learn. In a series of nifty demos, D\'Andrea show drones that play catch, balance and make decisions together -- and watch out for an I-want-this-now demo of Kinect-controlled quads.", "tags": ["drones", "robots", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "zh", "endonym": "\\u4e2d\\u6587 (\\u7cb5\\u8a9e)", "isRtl": false, "ianaCode": "zh", "languageName": "Chinese, Yue"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-en.mp4"}, "zh": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-zh.mp4", "name": "Chinese, Yue", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-zh.mp4"}, "vi": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RaffaelloDAndrea_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1764, "audioDownload": null}, "related_talks": [{"viewed_count": 1932066, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "title": "My seven species of robot -- and how we created them", "id": 820, "speaker": "Dennis Hong", "duration": 955, "slug": "dennis_hong_my_seven_species_of_robot"}, {"viewed_count": 6280677, "hero": "https://pe.tedcdn.com/images/ted/125797a95411e0682b7a67ab7b16bae1b9e35afc_1600x1200.jpg", "title": "A robot that flies like a bird", "id": 1195, "speaker": "Markus Fischer", "duration": 379, "slug": "a_robot_that_flies_like_a_bird"}, {"viewed_count": 4257278, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}, {"viewed_count": 2620577, "hero": "https://pe.tedcdn.com/images/ted/6deb9d6006d9f495f7963cb4051a1e350ffb9ae6_2880x1620.jpg", "title": "Meet the dazzling flying machines of the future", "id": 2440, "speaker": "Raffaello D\'Andrea", "duration": 695, "slug": "raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future"}, {"viewed_count": 1966607, "hero": "https://pe.tedcdn.com/images/ted/7435561605a12023707d418b73c64ccb7d465783_2880x1620.jpg", "title": "The jobs we\'ll lose to machines -- and the ones we won\'t", "id": 2548, "speaker": "Anthony Goldbloom", "duration": 276, "slug": "anthony_goldbloom_the_jobs_we_ll_lose_to_machines_and_the_ones_we_won_t"}, {"viewed_count": 1133128, "hero": "https://pe.tedcdn.com/images/ted/0d28c4301c3c7ed0a3790e31231e71e1469524e6_2880x1620.jpg", "title": "Don\'t fear intelligent machines. Work with them", "id": 2787, "speaker": "Garry Kasparov", "duration": 920, "slug": "garry_kasparov_don_t_fear_intelligent_machines_work_with_them"}], "recorded_at": "2013-06-10T00:00:00.000+00:00", "slug": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters", "speaker_name": "Raffaello D\'Andrea", "viewed_count": 10319614, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2013", "name": "Raffaello D\'Andrea: The astounding athletic power of quadcopters"}'
+p354
+sS'keywords'
+p355
+(lp356
+Vdrones
+p357
+aVrobots
+p358
+aVtechnology
+p359
+asS'datecrawled'
+p360
+g349
+(S'\x07\xe1\n\x17\x01\x15\x1d\x00S\x9a'
+tRp361
+sS'id'
+p362
+I1764
+ss.

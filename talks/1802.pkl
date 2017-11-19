@@ -1,0 +1,438 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMotor racing is a funny old business.
+p5
+aVWe make a new car every year,
+p6
+aVand then we spend the rest of the season
+p7
+aVtrying to understand what it is we've built
+p8
+aVto make it better, to make it faster.
+p9
+aVAnd then the next year, we start again.
+p10
+aVNow, the car you see in front of you is quite complicated.
+p11
+aVThe chassis is made up of about 11,000 components,
+p12
+aVthe engine another 6,000,
+p13
+aVthe electronics about eight and a half thousand.
+p14
+aVSo there's about 25,000 things there that can go wrong.
+p15
+aVSo motor racing is very much about attention to detail.
+p16
+aVThe other thing about Formula 1 in particular
+p17
+aVis we're always changing the car.
+p18
+aVWe're always trying to make it faster.
+p19
+aVSo every two weeks, we will be making
+p20
+aVabout 5,000 new components to fit to the car.
+p21
+aVFive to 10 percent of the race car
+p22
+aVwill be different every two weeks of the year.
+p23
+aVSo how do we do that?
+p24
+aVWell, we start our life with the racing car.
+p25
+aVWe have a lot of sensors on the car to measure things.
+p26
+aVOn the race car in front of you here
+p27
+aVthere are about 120 sensors when it goes into a race.
+p28
+aVIt's measuring all sorts of things around the car.
+p29
+aVThat data is logged. We're logging about
+p30
+aV500 different parameters within the data systems,
+p31
+aVabout 13,000 health parameters and events
+p32
+aVto say when things are not working the way they should do,
+p33
+aVand we're sending that data back to the garage
+p34
+aVusing telemetry at a rate of two to four megabits per second.
+p35
+aVSo during a two-hour race, each car will be sending
+p36
+aV750 million numbers.
+p37
+aVThat's twice as many numbers as words that each of us
+p38
+aVspeaks in a lifetime.
+p39
+aVIt's a huge amount of data.
+p40
+aVBut it's not enough just to have data and measure it.
+p41
+aVYou need to be able to do something with it.
+p42
+aVSo we've spent a lot of time and effort
+p43
+aVin turning the data into stories
+p44
+aVto be able to tell, what's the state of the engine,
+p45
+aVhow are the tires degrading,
+p46
+aVwhat's the situation with fuel consumption?
+p47
+aVSo all of this is taking data
+p48
+aVand turning it into knowledge that we can act upon.
+p49
+aVOkay, so let's have a look at a little bit of data.
+p50
+aVLet's pick a bit of data from
+p51
+aVanother three-month-old patient.
+p52
+aVThis is a child, and what you're seeing here is real data,
+p53
+aVand on the far right-hand side,
+p54
+aVwhere everything starts getting a little bit catastrophic,
+p55
+aVthat is the patient going into cardiac arrest.
+p56
+aVIt was deemed to be an unpredictable event.
+p57
+aVThis was a heart attack that no one could see coming.
+p58
+aVBut when we look at the information there,
+p59
+aVwe can see that things are starting to become
+p60
+aVa little fuzzy about five minutes or so before the cardiac arrest.
+p61
+aVWe can see small changes
+p62
+aVin things like the heart rate moving.
+p63
+aVThese were all undetected by normal thresholds
+p64
+aVwhich would be applied to data.
+p65
+aVSo the question is, why couldn't we see it?
+p66
+aVWas this a predictable event?
+p67
+aVCan we look more at the patterns in the data
+p68
+aVto be able to do things better?
+p69
+aVSo this is a child,
+p70
+aVabout the same age as the racing car on stage,
+p71
+aVthree months old.
+p72
+aVIt's a patient with a heart problem.
+p73
+aVNow, when you look at some of the data on the screen above,
+p74
+aVthings like heart rate, pulse, oxygen, respiration rates,
+p75
+aVthey're all unusual for a normal child,
+p76
+aVbut they're quite normal for the child there,
+p77
+aVand so one of the challenges you have in health care is,
+p78
+aVhow can I look at the patient in front of me,
+p79
+aVhave something which is specific for her,
+p80
+aVand be able to detect when things start to change,
+p81
+aVwhen things start to deteriorate?
+p82
+aVBecause like a racing car, any patient,
+p83
+aVwhen things start to go bad, you have a short time
+p84
+aVto make a difference.
+p85
+aVSo what we did is we took a data system
+p86
+aVwhich we run every two weeks of the year in Formula 1
+p87
+aVand we installed it on the hospital computers
+p88
+aVat Birmingham Children's Hospital.
+p89
+aVWe streamed data from the bedside instruments
+p90
+aVin their pediatric intensive care
+p91
+aVso that we could both look at the data in real time
+p92
+aVand, more importantly, to store the data
+p93
+aVso that we could start to learn from it.
+p94
+aVAnd then, we applied an application on top
+p95
+aVwhich would allow us to tease out the patterns in the data
+p96
+aVin real time so we could see what was happening,
+p97
+aVso we could determine when things started to change.
+p98
+aVNow, in motor racing, we're all a little bit ambitious,
+p99
+aVaudacious, a little bit arrogant sometimes,
+p100
+aVso we decided we would also look at the children
+p101
+aVas they were being transported to intensive care.
+p102
+aVWhy should we wait until they arrived in the hospital
+p103
+aVbefore we started to look?
+p104
+aVAnd so we installed a real-time link
+p105
+aVbetween the ambulance and the hospital,
+p106
+aVjust using normal 3G telephony to send that data
+p107
+aVso that the ambulance became an extra bed
+p108
+aVin intensive care.
+p109
+aVAnd then we started looking at the data.
+p110
+aVSo the wiggly lines at the top, all the colors,
+p111
+aVthis is the normal sort of data you would see on a monitor \u2014
+p112
+aVheart rate, pulse, oxygen within the blood,
+p113
+aVand respiration.
+p114
+aVThe lines on the bottom, the blue and the red,
+p115
+aVthese are the interesting ones.
+p116
+aVThe red line is showing an automated version
+p117
+aVof the early warning score
+p118
+aVthat Birmingham Children's Hospital were already running.
+p119
+aVThey'd been running that since 2008,
+p120
+aVand already have stopped cardiac arrests
+p121
+aVand distress within the hospital.
+p122
+aVThe blue line is an indication
+p123
+aVof when patterns start to change,
+p124
+aVand immediately, before we even started
+p125
+aVputting in clinical interpretation,
+p126
+aVwe can see that the data is speaking to us.
+p127
+aVIt's telling us that something is going wrong.
+p128
+aVThe plot with the red and the green blobs,
+p129
+aVthis is plotting different components
+p130
+aVof the data against each other.
+p131
+aVThe green is us learning what is normal for that child.
+p132
+aVWe call it the cloud of normality.
+p133
+aVAnd when things start to change,
+p134
+aVwhen conditions start to deteriorate,
+p135
+aVwe move into the red line.
+p136
+aVThere's no rocket science here.
+p137
+aVIt is displaying data that exists already in a different way,
+p138
+aVto amplify it, to provide cues to the doctors,
+p139
+aVto the nurses, so they can see what's happening.
+p140
+aVIn the same way that a good racing driver
+p141
+aVrelies on cues to decide when to apply the brakes,
+p142
+aVwhen to turn into a corner,
+p143
+aVwe need to help our physicians and our nurses
+p144
+aVto see when things are starting to go wrong.
+p145
+aVSo we have a very ambitious program.
+p146
+aVWe think that the race is on to do something differently.
+p147
+aVWe are thinking big. It's the right thing to do.
+p148
+aVWe have an approach which, if it's successful,
+p149
+aVthere's no reason why it should stay within a hospital.
+p150
+aVIt can go beyond the walls.
+p151
+aVWith wireless connectivity these days,
+p152
+aVthere is no reason why patients, doctors and nurses
+p153
+aValways have to be in the same place
+p154
+aVat the same time.
+p155
+aVAnd meanwhile, we'll take our little three-month-old baby,
+p156
+aVkeep taking it to the track, keeping it safe,
+p157
+aVand making it faster and better.
+p158
+aVThank you very much.
+p159
+aV(Applause)
+p160
+aasS'transcript_micsec'
+p161
+(lp162
+I11000
+asS'talk_meta'
+p163
+(dp164
+S'ratings'
+p165
+(dp166
+S'ingenious'
+p167
+I124
+sS'beautiful'
+p168
+I22
+sS'inspiring'
+p169
+I135
+sS'ok'
+p170
+I49
+sS'fascinating'
+p171
+I97
+sS'funny'
+p172
+I4
+sS'total_count'
+p173
+I670
+sS'persuasive'
+p174
+I37
+sS'longwinded'
+p175
+I8
+sS'informative'
+p176
+I130
+sS'jaw-dropping'
+p177
+I16
+sS'obnoxious'
+p178
+I4
+sS'confusing'
+p179
+I5
+sS'courageous'
+p180
+I31
+sS'unconvincing'
+p181
+I8
+ssS'author'
+p182
+VPeter_van Manen;
+p183
+sS'url'
+p184
+S'https://www.ted.com/talks/peter_van_manen_how_can_formula_1_racing_help_babies'
+p185
+sS'vidlen'
+p186
+I476
+sS'totalviews'
+p187
+I793340
+sS'title'
+p188
+VBetter baby care -- thanks to Formula 1
+p189
+sS'downloadlink'
+p190
+Vhttps://download.ted.com/talks/PeterVanManen_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p191
+sS'datepublished'
+p192
+cdatetime
+datetime
+p193
+(S'\x07\xdd\x08\x01\x0b\x07-\x00\x00\x00'
+tRp194
+sS'datefilmed'
+p195
+g193
+(S'\x07\xdd\x08\x01\x0b\x07-\x00\x00\x00'
+tRp196
+sS'alldata_JSON'
+p197
+S'{"viewed_count": 793340, "speakers": [{"description": "Electronic systems expert", "firstname": "Peter", "title": "", "lastname": "van Manen", "middleinitial": "", "whylisten": "<p>To say that Peter van Manen has a high-speed job would be an understatement. As Managing Director of McLaren Electronics, which provides electronics and data collection software to motorsports events, he and his team work in real time during a race to improve cars on about 500 different parameters. That&#39;s about 750 million data points in two hours.</p><p>But recently van Manen and his team have been wondering: Why can&#39;t the extremely precise and subtle data-collection and analysis systems used in motorsports be applied elsewhere, for the benefit of all? They have applied their systems to ICU units at Birmingham Children&#39;s Hospital with real-time analysis that allows them to proactively prevent cardiac arrests. The unit has seen a 25 percent decrease in life-threatening events. And it&#39;s just the beginning.</p>", "slug": "peter_van_manen", "whotheyare": "Peter van Manen is the Managing Director of McLaren Electronics, which provides data systems to major motorsports series.", "whatotherssay": "", "id": 1672, "photo_url": "https://pe.tedcdn.com/images/ted/637d45f4d175249541bd7ac09babfe4acf8e0641_254x191.jpg"}], "current_talk": 1802, "description": "During a Formula 1 race, a car sends hundreds of millions of data points to its garage for real-time analysis and feedback. So why not use this detailed and rigorous data system elsewhere, like at children\'s hospitals? Peter van Manen tells us more.", "language": "en", "url": "https://www.ted.com/talks/peter_van_manen_how_can_formula_1_racing_help_babies", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56112132}, "podcast-low-en": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11052340}, "podcast-high": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56110359}, "180k": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10789519}, "64k": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3923462}, "1500k": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86281037}, "450k": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27067026}, "podcast-regular": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27354653}, "950k": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55699223}, "audio-podcast": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5070158}, "podcast-light": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4060759}, "320k": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19181979}, "600k": {"uri": "https://download.ted.com/talks/PeterVanManen_2013X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36334719}}}, "comments": {"count": 121, "id": 21595, "talk_id": 1802}, "slug": "peter_van_manen_how_can_formula_1_racing_help_babies", "threadId": 21595, "talks": [{"event": "TEDxNijmegen", "player_talks": [{"event": "TEDxNijmegen", "slug": "peter_van_manen_how_can_formula_1_racing_help_babies", "filmed": 1366243200, "targeting": {"event": "TEDxNijmegen", "tag": "TEDx,cars,children,data,health,medicine,sports,technology", "id": 1802, "talk": "peter_van_manen_how_can_formula_1_racing_help_babies", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "Better baby care -- thanks to Formula 1", "postAdDuration": "0.83", "published": 1375369665, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/02f48c708b9fd49b9b05320ecfec5dd260b0c7a7_1600x1200.jpg?quality=89&w=600", "name": "Peter van Manen: Better baby care -- thanks to Formula 1", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sw", "endonym": "Kiswahili", "isRtl": false, "ianaCode": "sw", "languageName": "Swahili"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "cars", "children", "data", "health", "medicine", "sports", "technology"], "speaker": "Peter van Manen", "isSubtitleRequired": true, "introDuration": 11.82, "duration": 476, "id": 1802, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/PeterVanManen_2013X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxNijmegen", "tag": "TEDx,cars,children,data,health,medicine,sports,technology", "id": 1802, "talk": "peter_van_manen_how_can_formula_1_racing_help_babies", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1802.json", "stream": "https://hls.ted.com/talks/1802.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxNijmegen%26id%3D1802%26tag%3DTEDx%2Ccars%2Cchildren%2Cdata%2Chealth%2Cmedicine%2Csports%2Ctechnology%26talk%3Dpeter_van_manen_how_can_formula_1_racing_help_babies%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/peter_van_manen_how_can_formula_1_racing_help_babies"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/02f48c708b9fd49b9b05320ecfec5dd260b0c7a7_1600x1200.jpg?q=50&w=15", "duration": 476, "id": 1802, "ratings": [{"count": 31, "id": 3, "name": "Courageous"}, {"count": 135, "id": 10, "name": "Inspiring"}, {"count": 124, "id": 9, "name": "Ingenious"}, {"count": 37, "id": 24, "name": "Persuasive"}, {"count": 130, "id": 8, "name": "Informative"}, {"count": 16, "id": 23, "name": "Jaw-dropping"}, {"count": 97, "id": 22, "name": "Fascinating"}, {"count": 49, "id": 25, "name": "OK"}, {"count": 8, "id": 11, "name": "Longwinded"}, {"count": 22, "id": 1, "name": "Beautiful"}, {"count": 8, "id": 21, "name": "Unconvincing"}, {"count": 5, "id": 2, "name": "Confusing"}, {"count": 4, "id": 7, "name": "Funny"}, {"count": 4, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Electronic systems expert", "firstname": "Peter", "title": "", "lastname": "van Manen", "middleinitial": "", "whylisten": "<p>To say that Peter van Manen has a high-speed job would be an understatement. As Managing Director of McLaren Electronics, which provides electronics and data collection software to motorsports events, he and his team work in real time during a race to improve cars on about 500 different parameters. That&#39;s about 750 million data points in two hours.</p><p>But recently van Manen and his team have been wondering: Why can&#39;t the extremely precise and subtle data-collection and analysis systems used in motorsports be applied elsewhere, for the benefit of all? They have applied their systems to ICU units at Birmingham Children&#39;s Hospital with real-time analysis that allows them to proactively prevent cardiac arrests. The unit has seen a 25 percent decrease in life-threatening events. And it&#39;s just the beginning.</p>", "slug": "peter_van_manen", "whotheyare": "Peter van Manen is the Managing Director of McLaren Electronics, which provides data systems to major motorsports series.", "whatotherssay": "", "id": 1672, "photo_url": "https://pe.tedcdn.com/images/ted/637d45f4d175249541bd7ac09babfe4acf8e0641_254x191.jpg"}], "title": "Better baby care -- thanks to Formula 1", "take_action": null, "comments": 21595, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/02f48c708b9fd49b9b05320ecfec5dd260b0c7a7_1600x1200.jpg", "description": "During a Formula 1 race, a car sends hundreds of millions of data points to its garage for real-time analysis and feedback. So why not use this detailed and rigorous data system elsewhere, like at children\'s hospitals? Peter van Manen tells us more.", "tags": ["TEDx", "cars", "children", "data", "health", "medicine", "sports", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sw", "endonym": "Kiswahili", "isRtl": false, "ianaCode": "sw", "languageName": "Swahili"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-en.mp4"}, "sw": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-sw.mp4", "name": "Swahili", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-sw.mp4"}, "ca": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-zh-cn.mp4"}, "vi": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-vi.mp4"}, "ro": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-bg.mp4"}, "uk": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-uk.mp4"}, "hr": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-hi.mp4"}, "ja": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-sv.mp4"}, "ms": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p-ms.mp4", "name": "Malay", "low": "https://download.ted.com/talks/PeterVanManen_2013X-low-ms.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/PeterVanManen_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/PeterVanManen_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/PeterVanManen_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1802, "audioDownload": "https://download.ted.com/talks/PeterVanManen_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 708096, "hero": "https://pe.tedcdn.com/images/ted/144882_800x600.jpg", "title": "A warm embrace that saves lives", "id": 752, "speaker": "Jane Chen", "duration": 286, "slug": "jane_chen_a_warm_embrace_that_saves_lives"}, {"viewed_count": 754077, "hero": "https://pe.tedcdn.com/images/ted/21_480x360.jpg", "title": "Surprising stats about child carseats", "id": 30, "speaker": "Steven Levitt", "duration": 1138, "slug": "steven_levitt_on_child_carseats"}, {"viewed_count": 541920, "hero": "https://pe.tedcdn.com/images/ted/ee7314164d2ba80271cd05a8ab1f5deeb29c7f90_1600x1200.jpg", "title": "Let\'s pool our medical data", "id": 1585, "speaker": "John Wilbanks", "duration": 985, "slug": "john_wilbanks_let_s_pool_our_medical_data"}, {"viewed_count": 1093258, "hero": "https://pe.tedcdn.com/images/ted/9ca3922cace721320cd2b5de1f5761f7a75b2010_2880x1620.jpg", "title": "How we can find ourselves in data", "id": 2727, "speaker": "Giorgia Lupi", "duration": 673, "slug": "giorgia_lupi_how_we_can_find_ourselves_in_data"}, {"viewed_count": 1318754, "hero": "https://pe.tedcdn.com/images/ted/c08e045faca0cd007e468e7950e6ef5433c3f44c_2880x1620.jpg", "title": "Big data is better data", "id": 2094, "speaker": "Kenneth Cukier", "duration": 951, "slug": "kenneth_cukier_big_data_is_better_data"}, {"viewed_count": 1176383, "hero": "https://pe.tedcdn.com/images/ted/96044392dd7eea4410a92f4c5d499b888e607653_2880x1620.jpg", "title": "The human insights missing from big data", "id": 2818, "speaker": "Tricia Wang", "duration": 972, "slug": "tricia_wang_the_human_insights_missing_from_big_data"}], "recorded_at": "2013-04-18T00:00:00.000+00:00", "slug": "peter_van_manen_how_can_formula_1_racing_help_babies", "speaker_name": "Peter van Manen", "viewed_count": 793340, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxNijmegen, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxNijmegen", "name": "Peter van Manen: Better baby care -- thanks to Formula 1"}'
+p198
+sS'keywords'
+p199
+(lp200
+VTEDx
+p201
+aVcars
+p202
+aVchildren
+p203
+aVdata
+p204
+aVhealth
+p205
+aVmedicine
+p206
+aVsports
+p207
+aVtechnology
+p208
+asS'datecrawled'
+p209
+g193
+(S'\x07\xe1\n\x17\x03 /\t\x97\x9b'
+tRp210
+sS'id'
+p211
+I1802
+ss.

@@ -1,0 +1,548 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMy job at Twitter
+p5
+aVis to ensure user trust,
+p6
+aVprotect user rights and keep users safe,
+p7
+aVboth from each other
+p8
+aVand, at times, from themselves.
+p9
+aVLet's talk about what scale looks like at Twitter.
+p10
+aVBack in January 2009,
+p11
+aVwe saw more than two million new tweets each day
+p12
+aVon the platform.
+p13
+aVJanuary 2014, more than 500 million.
+p14
+aVWe were seeing two million tweets
+p15
+aVin less than six minutes.
+p16
+aVThat's a 24,900-percent increase.
+p17
+aa(lp18
+VNow, the vast majority of activity on Twitter
+p19
+aVputs no one in harm's way.
+p20
+aVThere's no risk involved.
+p21
+aVMy job is to root out and prevent activity that might.
+p22
+aVSounds straightforward, right?
+p23
+aVYou might even think it'd be easy,
+p24
+aVgiven that I just said the vast majority
+p25
+aVof activity on Twitter puts no one in harm's way.
+p26
+aVWhy spend so much time
+p27
+aVsearching for potential calamities
+p28
+aVin innocuous activities?
+p29
+aVGiven the scale that Twitter is at,
+p30
+aVa one-in-a-million chance happens
+p31
+aV500 times a day.
+p32
+aVIt's the same for other companies
+p33
+aVdealing at this sort of scale.
+p34
+aVFor us, edge cases,
+p35
+aVthose rare situations that are unlikely to occur,
+p36
+aVare more like norms.
+p37
+aVSay 99.999 percent of tweets
+p38
+aVpose no risk to anyone.
+p39
+aVThere's no threat involved.
+p40
+aVMaybe people are documenting travel landmarks
+p41
+aVlike Australia's Heart Reef,
+p42
+aVor tweeting about a concert they're attending,
+p43
+aVor sharing pictures of cute baby animals.
+p44
+aVAfter you take out that 99.999 percent,
+p45
+aVthat tiny percentage of tweets remaining
+p46
+aVworks out to roughly
+p47
+aV150,000 per month.
+p48
+aVThe sheer scale of what we're dealing with
+p49
+aVmakes for a challenge.
+p50
+aa(lp51
+VYou know what else makes my role
+p52
+aVparticularly challenging?
+p53
+aVPeople do weird things.
+p54
+aV(Laughter)
+p55
+aVAnd I have to figure out what they're doing,
+p56
+aVwhy, and whether or not there's risk involved,
+p57
+aVoften without much in terms of context
+p58
+aVor background.
+p59
+aVI'm going to show you some examples
+p60
+aVthat I've run into during my time at Twitter \u2014
+p61
+aVthese are all real examples \u2014
+p62
+aVof situations that at first seemed cut and dried,
+p63
+aVbut the truth of the matter was something
+p64
+aValtogether different.
+p65
+aVThe details have been changed
+p66
+aVto protect the innocent
+p67
+aVand sometimes the guilty.
+p68
+aVWe'll start off easy.
+p69
+aa(lp70
+V["Yo bitch"]
+p71
+aa(lp72
+VIf you saw a Tweet that only said this,
+p73
+aVyou might think to yourself,
+p74
+aV"That looks like abuse."
+p75
+aVAfter all, why would you want to receive the message,
+p76
+aV"Yo, bitch."
+p77
+aVNow, I try to stay relatively hip
+p78
+aVto the latest trends and memes,
+p79
+aVso I knew that "yo, bitch"
+p80
+aVwas also often a common greeting between friends,
+p81
+aVas well as being a popular "Breaking Bad" reference.
+p82
+aVI will admit that I did not expect
+p83
+aVto encounter a fourth use case.
+p84
+aVIt turns out it is also used on Twitter
+p85
+aVwhen people are role-playing as dogs.
+p86
+aV(Laughter)
+p87
+aVAnd in fact, in that case,
+p88
+aVit's not only not abusive,
+p89
+aVit's technically just an accurate greeting.
+p90
+aV(Laughter)
+p91
+aa(lp92
+VSo okay, determining whether or not
+p93
+aVsomething is abusive without context,
+p94
+aVdefinitely hard.
+p95
+aa(lp96
+VLet's look at spam.
+p97
+aVHere's an example of an account engaged
+p98
+aVin classic spammer behavior,
+p99
+aVsending the exact same message
+p100
+aVto thousands of people.
+p101
+aVWhile this is a mockup I put together using my account,
+p102
+aVwe see accounts doing this all the time.
+p103
+aVSeems pretty straightforward.
+p104
+aVWe should just automatically suspend accounts
+p105
+aVengaging in this kind of behavior.
+p106
+aVTurns out there's some exceptions to that rule.
+p107
+aVTurns out that that message could also be a notification
+p108
+aVyou signed up for that the International Space Station is passing overhead
+p109
+aVbecause you wanted to go outside
+p110
+aVand see if you could see it.
+p111
+aVYou're not going to get that chance
+p112
+aVif we mistakenly suspend the account
+p113
+aVthinking it's spam.
+p114
+aa(lp115
+VOkay. Let's make the stakes higher.
+p116
+aVBack to my account,
+p117
+aVagain exhibiting classic behavior.
+p118
+aVThis time it's sending the same message and link.
+p119
+aVThis is often indicative of  something called phishing,
+p120
+aVsomebody trying to steal another person's account information
+p121
+aVby directing them to another website.
+p122
+aVThat's pretty clearly not a good thing.
+p123
+aVWe want to, and do, suspend accounts
+p124
+aVengaging in that kind of behavior.
+p125
+aVSo why are the stakes higher for this?
+p126
+aVWell, this could also be a bystander at a rally
+p127
+aVwho managed to record a video
+p128
+aVof a police officer beating a non-violent protester
+p129
+aVwho's trying to let the world know what's happening.
+p130
+aVWe don't want to gamble
+p131
+aVon potentially silencing that crucial speech
+p132
+aVby classifying it as spam and suspending it.
+p133
+aVThat means we evaluate hundreds of parameters
+p134
+aVwhen looking at account behaviors,
+p135
+aVand even then, we can still get it wrong
+p136
+aVand have to reevaluate.
+p137
+aa(lp138
+VNow, given the sorts of challenges I'm up against,
+p139
+aVit's crucial that I not only predict
+p140
+aVbut also design protections for the unexpected.
+p141
+aVAnd that's not just an issue for me,
+p142
+aVor for Twitter, it's an issue for you.
+p143
+aVIt's an issue for anybody who's building or creating
+p144
+aVsomething that you think is going to be amazing
+p145
+aVand will let people do awesome things.
+p146
+aVSo what do I do?
+p147
+aVI pause and I think,
+p148
+aVhow could all of this
+p149
+aVgo horribly wrong?
+p150
+aVI visualize catastrophe.
+p151
+aVAnd that's hard. There's a sort of
+p152
+aVinherent cognitive dissonance in doing that,
+p153
+aVlike when you're writing your wedding vows
+p154
+aVat the same time as your prenuptial agreement.
+p155
+aV(Laughter)
+p156
+aVBut you still have to do it,
+p157
+aVparticularly if you're marrying  500 million tweets per day.
+p158
+aVWhat do I mean by "visualize catastrophe?"
+p159
+aVI try to think of how something as
+p160
+aVbenign and innocuous as a picture of a cat
+p161
+aVcould lead to death,
+p162
+aVand what to do to prevent that.
+p163
+aVWhich happens to be my next example.
+p164
+aVThis is my cat, Eli.
+p165
+aVWe wanted to give users the ability
+p166
+aVto add photos to their tweets.
+p167
+aVA picture is worth a thousand words.
+p168
+aVYou only get 140 characters.
+p169
+aVYou add a photo to your tweet,
+p170
+aVlook at how much more content you've got now.
+p171
+aVThere's all sorts of great things you can do
+p172
+aVby adding a photo to a tweet.
+p173
+aVMy job isn't to think of those.
+p174
+aVIt's to think of what could go wrong.
+p175
+aa(lp176
+VHow could this picture
+p177
+aVlead to my death?
+p178
+aVWell, here's one possibility.
+p179
+aVThere's more in that picture than just a cat.
+p180
+aVThere's geodata.
+p181
+aVWhen you take a picture with your smartphone
+p182
+aVor digital camera,
+p183
+aVthere's a lot of additional information
+p184
+aVsaved along in that image.
+p185
+aVIn fact, this image also contains
+p186
+aVthe equivalent of this,
+p187
+aVmore specifically, this.
+p188
+aVSure, it's not likely that someone's going to try
+p189
+aVto track me down and do me harm
+p190
+aVbased upon image data associated
+p191
+aVwith a picture I took of my cat,
+p192
+aVbut I start by assuming the worst will happen.
+p193
+aVThat's why, when we launched photos on Twitter,
+p194
+aVwe made the decision to strip that geodata out.
+p195
+aV(Applause)
+p196
+aVIf I start by assuming the worst
+p197
+aVand work backwards,
+p198
+aVI can make sure that the protections we build
+p199
+aVwork for both expected
+p200
+aVand unexpected use cases.
+p201
+aa(lp202
+VGiven that I spend my days and nights
+p203
+aVimagining the worst that could happen,
+p204
+aVit wouldn't be surprising if  my worldview was gloomy.
+p205
+aV(Laughter)
+p206
+aVIt's not.
+p207
+aVThe vast majority of interactions I see \u2014
+p208
+aVand I see a lot, believe me \u2014 are positive,
+p209
+aVpeople reaching out to help
+p210
+aVor to connect or share information with each other.
+p211
+aVIt's just that for those of us dealing with scale,
+p212
+aVfor those of us tasked with keeping people safe,
+p213
+aVwe have to assume the worst will happen,
+p214
+aVbecause for us, a one-in-a-million chance
+p215
+aVis pretty good odds.
+p216
+aa(lp217
+VThank you.
+p218
+aa(lp219
+V(Applause)
+p220
+aasS'transcript_micsec'
+p221
+(lp222
+I11000
+aI53000
+aI141000
+aI182000
+aI184000
+aI239000
+aI245000
+aI287000
+aI345000
+aI441000
+aI501000
+aI544000
+aI546000
+asS'talk_meta'
+p223
+(dp224
+S'ratings'
+p225
+(dp226
+S'ingenious'
+p227
+I40
+sS'funny'
+p228
+I167
+sS'inspiring'
+p229
+I20
+sS'ok'
+p230
+I159
+sS'fascinating'
+p231
+I165
+sS'total_count'
+p232
+I1293
+sS'persuasive'
+p233
+I64
+sS'longwinded'
+p234
+I72
+sS'unconvincing'
+p235
+I72
+sS'informative'
+p236
+I454
+sS'beautiful'
+p237
+I12
+sS'jaw-dropping'
+p238
+I14
+sS'obnoxious'
+p239
+I38
+sS'courageous'
+p240
+I8
+sS'confusing'
+p241
+I8
+ssS'author'
+p242
+VDel_Harvey;
+p243
+sS'url'
+p244
+S'https://www.ted.com/talks/del_harvey_the_strangeness_of_scale_at_twitter'
+p245
+sS'vidlen'
+p246
+I559
+sS'totalviews'
+p247
+I890784
+sS'title'
+p248
+VProtecting Twitter users (sometimes from themselves)
+p249
+sS'downloadlink'
+p250
+Vhttps://download.ted.com/talks/DelHarvey_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p251
+sS'datepublished'
+p252
+cdatetime
+datetime
+p253
+(S'\x07\xde\x03\x1b\n 6\x00\x00\x00'
+tRp254
+sS'datefilmed'
+p255
+g253
+(S'\x07\xde\x03\x1b\n 6\x00\x00\x00'
+tRp256
+sS'alldata_JSON'
+p257
+S'{"viewed_count": 890784, "speakers": [{"description": "Security maven", "firstname": "Del", "title": "", "lastname": "Harvey", "middleinitial": "", "whylisten": "<p>At Twitter, Del Harvey works to ensure user safety and security, balancing Twitter&#39;s wide-open spaces against spammers, harassers and worse, to create a workable policy that lets the tweets flow. Prior to joining the booming social media site, she spent five years as the law enforcement liaison for a group fighting child exploitation, where she worked with agencies ranging from local police departments to the FBI, US Marshals and the Secret Service. </p><p>As Twitter grows, its ever inventive users (who famously came up with many of its key features by themselves) are finding ever new ways to overshare, offend and pick on others. Harvey and team&#39;s challenge is to weed out the&nbsp;<a href=\\"http://www.theguardian.com/technology/2013/jul/25/twitter-del-harvey-photodna-spam-prism\\" target=\\"_blank\\">worst</a> while keeping the site feeling like a safe place to have this new kind of conversation we&#39;re all having there now.</p>", "slug": "del_harvey", "whotheyare": "Del Harvey is the VP of Trust & Safety at Twitter.", "whatotherssay": "One of the projects Harvey is most keen on is called PhotoDNA \\u2013 a Microsoft-developed technology which will produce a unique \'fingerprint\' of every picture put on Twitter\'s service.", "id": 1775, "photo_url": "https://pe.tedcdn.com/images/ted/9ca6d481cc8c55d3d10ebf2bbd5122e66c25df2a_254x191.jpg"}], "current_talk": 1958, "description": "Del Harvey heads up Twitter\\u2019s Trust and Safety Team, and she thinks all day about how to prevent worst-case scenarios -- abuse, trolling, stalking -- while giving voice to people around the globe. With deadpan humor, she offers a window into how she works to keep 240 million users safe.", "language": "en", "url": "https://www.ted.com/talks/del_harvey_the_strangeness_of_scale_at_twitter", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DelHarvey_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64954877}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DelHarvey_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12919823}, "podcast-high": {"uri": "https://download.ted.com/talks/DelHarvey_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64949588}, "180k": {"uri": "https://download.ted.com/talks/DelHarvey_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12665242}, "64k": {"uri": "https://download.ted.com/talks/DelHarvey_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4577814}, "1500k": {"uri": "https://download.ted.com/talks/DelHarvey_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 100732660}, "450k": {"uri": "https://download.ted.com/talks/DelHarvey_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 31684358}, "podcast-regular": {"uri": "https://download.ted.com/talks/DelHarvey_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 31799557}, "950k": {"uri": "https://download.ted.com/talks/DelHarvey_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64939671}, "podcast-light": {"uri": "https://download.ted.com/talks/DelHarvey_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4711159}, "320k": {"uri": "https://download.ted.com/talks/DelHarvey_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22450001}, "600k": {"uri": "https://download.ted.com/talks/DelHarvey_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42487607}}}, "comments": {"count": 82, "id": 25522, "talk_id": 1958}, "slug": "del_harvey_the_strangeness_of_scale_at_twitter", "threadId": 25522, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "del_harvey_the_strangeness_of_scale_at_twitter", "filmed": 1394582400, "targeting": {"event": "TED2014", "tag": "security,social media,technology", "id": 1958, "talk": "del_harvey_the_strangeness_of_scale_at_twitter", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "Protecting Twitter users (sometimes from themselves)", "postAdDuration": "0.83", "published": 1395930774, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/630d123572ec57fd0a35a1b15016cf4a3d1ec40f_1600x1200.jpg?quality=89&w=600", "name": "Del Harvey: Protecting Twitter users (sometimes from themselves)", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["security", "social media", "technology"], "speaker": "Del Harvey", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 559, "id": 1958, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DelHarvey_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "security,social media,technology", "id": 1958, "talk": "del_harvey_the_strangeness_of_scale_at_twitter", "year": "2014"}, "metadata": "https://hls.ted.com/talks/1958.json", "stream": "https://hls.ted.com/talks/1958.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D1958%26tag%3Dsecurity%2Csocial%2Bmedia%2Ctechnology%26talk%3Ddel_harvey_the_strangeness_of_scale_at_twitter%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/del_harvey_the_strangeness_of_scale_at_twitter"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/630d123572ec57fd0a35a1b15016cf4a3d1ec40f_1600x1200.jpg?q=50&w=15", "duration": 559, "id": 1958, "ratings": [{"count": 454, "id": 8, "name": "Informative"}, {"count": 167, "id": 7, "name": "Funny"}, {"count": 40, "id": 9, "name": "Ingenious"}, {"count": 64, "id": 24, "name": "Persuasive"}, {"count": 165, "id": 22, "name": "Fascinating"}, {"count": 72, "id": 11, "name": "Longwinded"}, {"count": 159, "id": 25, "name": "OK"}, {"count": 8, "id": 3, "name": "Courageous"}, {"count": 20, "id": 10, "name": "Inspiring"}, {"count": 12, "id": 1, "name": "Beautiful"}, {"count": 14, "id": 23, "name": "Jaw-dropping"}, {"count": 38, "id": 26, "name": "Obnoxious"}, {"count": 8, "id": 2, "name": "Confusing"}, {"count": 72, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Security maven", "firstname": "Del", "title": "", "lastname": "Harvey", "middleinitial": "", "whylisten": "<p>At Twitter, Del Harvey works to ensure user safety and security, balancing Twitter&#39;s wide-open spaces against spammers, harassers and worse, to create a workable policy that lets the tweets flow. Prior to joining the booming social media site, she spent five years as the law enforcement liaison for a group fighting child exploitation, where she worked with agencies ranging from local police departments to the FBI, US Marshals and the Secret Service. </p><p>As Twitter grows, its ever inventive users (who famously came up with many of its key features by themselves) are finding ever new ways to overshare, offend and pick on others. Harvey and team&#39;s challenge is to weed out the&nbsp;<a href=\\"http://www.theguardian.com/technology/2013/jul/25/twitter-del-harvey-photodna-spam-prism\\" target=\\"_blank\\">worst</a> while keeping the site feeling like a safe place to have this new kind of conversation we&#39;re all having there now.</p>", "slug": "del_harvey", "whotheyare": "Del Harvey is the VP of Trust & Safety at Twitter.", "whatotherssay": "One of the projects Harvey is most keen on is called PhotoDNA \\u2013 a Microsoft-developed technology which will produce a unique \'fingerprint\' of every picture put on Twitter\'s service.", "id": 1775, "photo_url": "https://pe.tedcdn.com/images/ted/9ca6d481cc8c55d3d10ebf2bbd5122e66c25df2a_254x191.jpg"}], "title": "Protecting Twitter users (sometimes from themselves)", "take_action": null, "comments": 25522, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/630d123572ec57fd0a35a1b15016cf4a3d1ec40f_1600x1200.jpg", "description": "Del Harvey heads up Twitter\\u2019s Trust and Safety Team, and she thinks all day about how to prevent worst-case scenarios -- abuse, trolling, stalking -- while giving voice to people around the globe. With deadpan humor, she offers a window into how she works to keep 240 million users safe.", "tags": ["security", "social media", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DelHarvey_2014-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DelHarvey_2014-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DelHarvey_2014-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DelHarvey_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DelHarvey_2014-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DelHarvey_2014-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/DelHarvey_2014-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DelHarvey_2014-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DelHarvey_2014-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DelHarvey_2014-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DelHarvey_2014-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DelHarvey_2014-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DelHarvey_2014-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DelHarvey_2014-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DelHarvey_2014-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DelHarvey_2014-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DelHarvey_2014-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/DelHarvey_2014-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DelHarvey_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DelHarvey_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DelHarvey_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1958, "audioDownload": null}, "related_talks": [{"viewed_count": 432493, "hero": "https://pe.tedcdn.com/images/ted/b3f08de406d119a01844cbdd5eeed3c41d5d20ae_1600x1200.jpg", "title": "The power and the danger of online crowds", "id": 390, "speaker": "James Surowiecki", "duration": 1019, "slug": "james_surowiecki_on_the_turning_point_for_social_media"}, {"viewed_count": 2000339, "hero": "https://pe.tedcdn.com/images/ted/87900_800x600.jpg", "title": "The tribes we lead", "id": 538, "speaker": "Seth Godin", "duration": 1049, "slug": "seth_godin_on_the_tribes_we_lead"}, {"viewed_count": 1683964, "hero": "https://pe.tedcdn.com/images/ted/59ead9099fde9f11dfa640dfe3e3c6144237825b_1600x1200.jpg", "title": "How social media can make history", "id": 575, "speaker": "Clay Shirky", "duration": 948, "slug": "clay_shirky_how_cellphones_twitter_facebook_can_make_history"}, {"viewed_count": 1138834, "hero": "https://pe.tedcdn.com/images/ted/74570_800x600.jpg", "title": "The voices of Twitter users", "id": 473, "speaker": "Evan Williams", "duration": 480, "slug": "evan_williams_on_listening_to_twitter_users"}, {"viewed_count": 2672444, "hero": "https://pe.tedcdn.com/images/ted/bd82943883da85a6df233090923b3699ee9f6f14_2880x1620.jpg", "title": "When online shaming goes too far", "id": 2302, "speaker": "Jon Ronson", "duration": 1031, "slug": "jon_ronson_what_happens_when_online_shaming_spirals_out_of_control"}, {"viewed_count": 1002753, "hero": "https://pe.tedcdn.com/images/ted/4c381516b075b83691b595f5ad7510e3deb9f319_1600x1200.jpg", "title": "Adventures in Twitter fiction", "id": 1841, "speaker": "Andrew Fitzgerald", "duration": 715, "slug": "andrew_fitzgerald_adventures_in_twitter_fiction"}], "recorded_at": "2014-03-12T00:00:00.000+00:00", "slug": "del_harvey_the_strangeness_of_scale_at_twitter", "speaker_name": "Del Harvey", "viewed_count": 890784, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2014", "name": "Del Harvey: Protecting Twitter users (sometimes from themselves)"}'
+p258
+sS'keywords'
+p259
+(lp260
+Vsecurity
+p261
+aVsocial media
+p262
+aVtechnology
+p263
+asS'datecrawled'
+p264
+g253
+(S'\x07\xe1\n\x17\x02\x05\x0e\x08\xbe1'
+tRp265
+sS'id'
+p266
+I1958
+ss.

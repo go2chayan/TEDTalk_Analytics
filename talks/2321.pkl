@@ -1,0 +1,676 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VPaul Krugman, the Nobel Prize [winner] in economics, once wrote:
+p5
+aV"Productivity is not everything, but in the long run,
+p6
+aVit is almost everything."
+p7
+aa(lp8
+VSo this is serious.
+p9
+aVThere are not that many things on earth that are "almost everything."
+p10
+aVProductivity is the principal driver of the prosperity of a society.
+p11
+aVSo we have a problem.
+p12
+aVIn the largest European economies,
+p13
+aVproductivity used to grow five percent per annum
+p14
+aVin the '50s, '60s, early '70s.
+p15
+aVFrom '73 to '83: three percent per annum.
+p16
+aVFrom '83 to '95: two percent per annum.
+p17
+aVSince 1995: less than one percent per annum.
+p18
+aVThe same profile in Japan.
+p19
+aVThe same profile in the US,
+p20
+aVdespite a momentary rebound 15 years ago,
+p21
+aVand despite all the technological innovations
+p22
+aVaround us: the Internet, the information,
+p23
+aVthe new information and communication technologies.
+p24
+aa(lp25
+VWhen productivity grows three percent per annum,
+p26
+aVyou double the standard of living every generation.
+p27
+aVEvery generation is twice as well-off as its parents'.
+p28
+aVWhen it grows one percent per annum,
+p29
+aVit takes three generations to double the standard of living.
+p30
+aVAnd in this process, many people will be less well-off than their parents.
+p31
+aVThey will have less of everything:
+p32
+aVsmaller roofs, or perhaps no roof at all,
+p33
+aVless access to education, to vitamins, to antibiotics, to vaccination \u2014
+p34
+aVto everything.
+p35
+aVThink of all the problems that we're facing at the moment.
+p36
+aVAll.
+p37
+aVChances are that they are rooted in the productivity crisis.
+p38
+aa(lp39
+VWhy this crisis?
+p40
+aVBecause the basic tenets about efficiency \u2014
+p41
+aVeffectiveness in organizations, in management \u2014
+p42
+aVhave become counterproductive for human efforts.
+p43
+aVEverywhere in public services \u2014 in companies, in the way we work,
+p44
+aVthe way we innovate, invest \u2014 try to learn to work better.
+p45
+aVTake the holy trinity of efficiency:
+p46
+aVclarity, measurement, accountability.
+p47
+aVThey make human efforts derail.
+p48
+aa(lp49
+VThere are two ways to look at it, to prove it.
+p50
+aVOne, the one I prefer,
+p51
+aVis rigorous, elegant, nice \u2014 math.
+p52
+aVBut the full math version takes a little while,
+p53
+aVso there is another one.
+p54
+aVIt is to look at a relay race.
+p55
+aVThis is what we will do today.
+p56
+aVIt's a bit more animated, more visual and also faster \u2014 it's a race.
+p57
+aVHopefully, it's faster.
+p58
+aa(lp59
+V(Laughter)
+p60
+aa(lp61
+VWorld championship final \u2014 women.
+p62
+aVEight teams in the final.
+p63
+aVThe fastest team is the US team.
+p64
+aVThey have the fastest women on earth.
+p65
+aVThey are the favorite team to win.
+p66
+aVNotably, if you compare them to an average team,
+p67
+aVsay, the French team,
+p68
+aa(lp69
+V(Laughter)
+p70
+aa(lp71
+Vbased on their best performances in the 100-meter race,
+p72
+aVif you add the individual times of the US runners,
+p73
+aVthey arrive at the finish line 3.2 meters ahead of the French team.
+p74
+aVAnd this year, the US team is in great shape.
+p75
+aVBased on their best performance this year,
+p76
+aVthey arrive 6.4 meters ahead of the French team,
+p77
+aVbased on the data.
+p78
+aVWe are going to look at the race.
+p79
+aVAt some point you will see, towards the end,
+p80
+aVthat Torri Edwards, the fourth US runner, is ahead.
+p81
+aVNot surprising \u2014 this year she got the gold medal in the 100-meter race.
+p82
+aVAnd by the way, Chryste Gaines, the second runner in the US team,
+p83
+aVis the fastest woman on earth.
+p84
+aVSo, there are 3.5 billion women on earth.
+p85
+aVWhere are the two fastest? On the US team.
+p86
+aVAnd the two other runners on the US team are not bad, either.
+p87
+aa(lp88
+V(Laughter)
+p89
+aa(lp90
+VSo clearly, the US team has won the war for talent.
+p91
+aVBut behind, the average team is trying to catch up.
+p92
+aVLet's watch the race.
+p93
+aa(lp94
+V(Video: French sportscasters narrate race)
+p95
+aa(lp96
+V(Video: Race narration ends)
+p97
+aa(lp98
+VYves Morieux: So what happened?
+p99
+aVThe fastest team did not win; the slower one did.
+p100
+aVBy the way, I hope you appreciate
+p101
+aVthe deep historical research I did to make the French look good.
+p102
+aa(lp103
+V(Laughter)
+p104
+aa(lp105
+VBut let's not exaggerate \u2014 it's not archeology, either.
+p106
+aa(lp107
+V(Laughter)
+p108
+aa(lp109
+VBut why?
+p110
+aVBecause of cooperation.
+p111
+aVWhen you hear this sentence:
+p112
+aV"Thanks to cooperation, the whole is worth more than the sum of the parts."
+p113
+aVThis is not poetry; this is not philosophy.
+p114
+aVThis is math.
+p115
+aVThose who carry the baton are slower,
+p116
+aVbut their baton is faster.
+p117
+aVMiracle of cooperation:
+p118
+aVit multiplies energy, intelligence in human efforts.
+p119
+aVIt is the essence of human efforts:
+p120
+aVhow we work together, how each effort contributes to the efforts of others.
+p121
+aVWith cooperation, we can do more with less.
+p122
+aa(lp123
+VNow, what happens to cooperation when the holy grail \u2014
+p124
+aVthe holy trinity, even \u2014
+p125
+aVof clarity, measurement, accountability \u2014
+p126
+aVappears?
+p127
+aa(lp128
+VClarity.
+p129
+aVManagement reports are full of complaints about the lack of clarity.
+p130
+aVCompliance audits, consultants' diagnostics.
+p131
+aVWe need more clarity, we need to clarify the roles, the processes.
+p132
+aVIt is as though the runners on the team were saying,
+p133
+aV"Let's be clear \u2014 where does my role really start and end?
+p134
+aVAm I supposed to run for 95 meters, 96, 97...?"
+p135
+aVIt's important, let's be clear.
+p136
+aVIf you say 97, after 97 meters,
+p137
+aVpeople will drop the baton, whether there is someone to take it or not.
+p138
+aa(lp139
+VAccountability.
+p140
+aVWe are constantly trying to put accountability
+p141
+aVin someone's hands.
+p142
+aVWho is accountable for this process?
+p143
+aVWe need somebody accountable for this process.
+p144
+aVSo in the relay race, since passing the baton is so important,
+p145
+aVthen we need somebody clearly accountable for passing the baton.
+p146
+aVSo between each runner,
+p147
+aVnow we will have a new dedicated athlete,
+p148
+aVclearly dedicated to taking the baton from one runner,
+p149
+aVand passing it to the next runner.
+p150
+aVAnd we will have at least two like that.
+p151
+aVWell, will we, in that case, win the race?
+p152
+aVThat I don't know, but for sure,
+p153
+aVwe would have a clear interface,
+p154
+aVa clear line of accountability.
+p155
+aVWe will know who to blame.
+p156
+aVBut we'll never win the race.
+p157
+aVIf you think about it, we pay more attention
+p158
+aVto knowing who to blame in case we fail,
+p159
+aVthan to creating the conditions to succeed.
+p160
+aVAll the human intelligence put in organization design \u2014
+p161
+aVurban structures, processing systems \u2014
+p162
+aVwhat is the real goal?
+p163
+aVTo have somebody guilty in case they fail.
+p164
+aVWe are creating organizations able to fail,
+p165
+aVbut in a compliant way,
+p166
+aVwith somebody clearly accountable when we fail.
+p167
+aVAnd we are quite effective at that \u2014 failing.
+p168
+aa(lp169
+VMeasurement.
+p170
+aVWhat gets measured gets done.
+p171
+aVLook, to pass the baton, you have to do it at the right time,
+p172
+aVin the right hand, at the right speed.
+p173
+aVBut to do that, you have to put energy in your arm.
+p174
+aVThis energy that is in your arm will not be in your legs.
+p175
+aVIt will come at the expense of your measurable speed.
+p176
+aVYou have to shout early enough to the next runner
+p177
+aVwhen you will pass the baton, to signal that you are arriving,
+p178
+aVso that the next runner can prepare, can anticipate.
+p179
+aVAnd you have to shout loud.
+p180
+aVBut the blood, the energy that will be in your throat
+p181
+aVwill not be in your legs.
+p182
+aVBecause you know, there are eight people shouting at the same time.
+p183
+aVSo you have to recognize the voice of your colleague.
+p184
+aVYou cannot say, "Is it you?"
+p185
+aVToo late!
+p186
+aa(lp187
+V(Laughter)
+p188
+aa(lp189
+VNow, let's look at the race in slow motion,
+p190
+aVand concentrate on the third runner.
+p191
+aVLook at where she allocates her efforts,
+p192
+aVher energy, her attention.
+p193
+aVNot all in her legs \u2014 that would be great for her own speed \u2014
+p194
+aVbut in also in her throat, arm, eye, brain.
+p195
+aVThat makes a difference in whose legs?
+p196
+aVIn the legs of the next runner.
+p197
+aVBut when the next runner runs super-fast,
+p198
+aVis it because she made a super effort,
+p199
+aVor because of the way the third runner passed the baton?
+p200
+aVThere is no metric on earth that will give us the answer.
+p201
+aVAnd if we reward people on the basis of their measurable performance,
+p202
+aVthey will put their energy, their attention, their blood
+p203
+aVin what can get measured \u2014 in their legs.
+p204
+aVAnd the baton will fall and slow down.
+p205
+aa(lp206
+VTo cooperate is not a super effort,
+p207
+aVit is how you allocate your effort.
+p208
+aVIt is to take a risk,
+p209
+aVbecause you sacrifice the ultimate protection
+p210
+aVgranted by objectively measurable individual performance.
+p211
+aVIt is to make a super difference in the performance of others,
+p212
+aVwith whom we are compared.
+p213
+aVIt takes being stupid to cooperate, then.
+p214
+aVAnd people are not stupid; they don't cooperate.
+p215
+aa(lp216
+VYou know, clarity, accountability, measurement were OK
+p217
+aVwhen the world was simpler.
+p218
+aVBut business has become much more complex.
+p219
+aVWith my teams, we have measured
+p220
+aVthe evolution of complexity in business.
+p221
+aVIt is much more demanding today to attract and retain customers,
+p222
+aVto build advantage on a global scale,
+p223
+aVto create value.
+p224
+aVAnd the more business gets complex,
+p225
+aVthe more, in the name of clarity, accountability, measurement
+p226
+aVwe multiply structures, processes, systems.
+p227
+aa(lp228
+VYou know, this drive for clarity and accountability triggers
+p229
+aVa counterproductive multiplication of interfaces, middle offices,
+p230
+aVcoordinators that do not only mobilize people and resources,
+p231
+aVbut that also add obstacles.
+p232
+aVAnd the more complicated the organization,
+p233
+aVthe more difficult it is to understand what is really happening.
+p234
+aVSo we need summaries, proxies, reports,
+p235
+aVkey performance indicators, metrics.
+p236
+aVSo people put their energy in what can get measured,
+p237
+aVat the expense of cooperation.
+p238
+aVAnd as performance deteriorates,
+p239
+aVwe add even more structure, process, systems.
+p240
+aVPeople spend their time in meetings,
+p241
+aVwriting reports they have to do, undo and redo.
+p242
+aVBased on our analysis, teams in these organizations
+p243
+aVspend between 40 and 80 percent of their time wasting their time,
+p244
+aVbut working harder and harder, longer and longer,
+p245
+aVon less and less value-adding activities.
+p246
+aVThis is what is killing productivity,
+p247
+aVwhat makes people suffer at work.
+p248
+aa(lp249
+VOur organizations are wasting human intelligence.
+p250
+aVThey have turned against human efforts.
+p251
+aVWhen people don't cooperate,
+p252
+aVdon't blame their mindsets, their mentalities, their personality \u2014
+p253
+aVlook at the work situations.
+p254
+aVIs it really in their personal interest to cooperate or not,
+p255
+aVif, when they cooperate, they are individually worse off?
+p256
+aVWhy would they cooperate?
+p257
+aVWhen we blame personalities
+p258
+aVinstead of the clarity, the accountability, the measurement,
+p259
+aVwe add injustice to ineffectiveness.
+p260
+aa(lp261
+VWe need to create organizations
+p262
+aVin which it becomes individually useful for people to cooperate.
+p263
+aVRemove the interfaces, the middle offices \u2014
+p264
+aVall these complicated coordination structures.
+p265
+aVDon't look for clarity; go for fuzziness.
+p266
+aVFuzziness overlaps.
+p267
+aVRemove most of the quantitative metrics to assess performance.
+p268
+aVSpeed the "what."
+p269
+aVLook at cooperation, the "how."
+p270
+aVHow did you pass the baton?
+p271
+aVDid you throw it, or did you pass it effectively?
+p272
+aVAm I putting my energy in what can get measured \u2014
+p273
+aVmy legs, my speed \u2014 or in passing the baton?
+p274
+aa(lp275
+VYou, as leaders, as managers,
+p276
+aVare you making it individually useful for people to cooperate?
+p277
+aVThe future of our organizations,
+p278
+aVour companies, our societies
+p279
+aVhinges on your answer to these questions.
+p280
+aa(lp281
+VThank you.
+p282
+aa(lp283
+V(Applause)
+p284
+aasS'transcript_micsec'
+p285
+(lp286
+I11000
+aI27000
+aI87000
+aI146000
+aI190000
+aI221000
+aI223000
+aI245000
+aI247000
+aI315000
+aI317000
+aI329000
+aI377000
+aI381000
+aI395000
+aI400000
+aI404000
+aI406000
+aI448000
+aI465000
+aI510000
+aI615000
+aI664000
+aI665000
+aI720000
+aI751000
+aI792000
+aI870000
+aI916000
+aI967000
+aI992000
+aI993000
+asS'talk_meta'
+p287
+(dp288
+S'ratings'
+p289
+(dp290
+S'ingenious'
+p291
+I137
+sS'beautiful'
+p292
+I196
+sS'inspiring'
+p293
+I675
+sS'ok'
+p294
+I63
+sS'fascinating'
+p295
+I288
+sS'funny'
+p296
+I72
+sS'total_count'
+p297
+I2368
+sS'persuasive'
+p298
+I363
+sS'longwinded'
+p299
+I69
+sS'informative'
+p300
+I315
+sS'jaw-dropping'
+p301
+I26
+sS'obnoxious'
+p302
+I6
+sS'confusing'
+p303
+I31
+sS'courageous'
+p304
+I85
+sS'unconvincing'
+p305
+I42
+ssS'author'
+p306
+VYves_Morieux;
+p307
+sS'url'
+p308
+S'https://www.ted.com/talks/yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done'
+p309
+sS'vidlen'
+p310
+I998
+sS'totalviews'
+p311
+I1864089
+sS'title'
+p312
+VHow too many rules at work keep you from getting things done
+p313
+sS'downloadlink'
+p314
+Vhttps://download.ted.com/talks/YvesMorieux_2015S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p315
+sS'datepublished'
+p316
+cdatetime
+datetime
+p317
+(S'\x07\xdf\x08\x1c\x0b\x0b-\x00\x00\x00'
+tRp318
+sS'datefilmed'
+p319
+g317
+(S'\x07\xdf\x08\x1c\x0b\x0b-\x00\x00\x00'
+tRp320
+sS'alldata_JSON'
+p321
+S'{"viewed_count": 1864089, "speakers": [{"description": "Consultant", "firstname": "Yves", "title": "", "lastname": "Morieux", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.bcg.com/expertise_impact/BCG_fellows/organization/yves_morieux.aspx\\" target=\\"_blank\\">Yves Morieux</a>&nbsp;thinks deeply about what makes organizations work effectively. A senior partner in BCG&rsquo;s Washington D.C. office and director of the BCG Institute for Organization, Morieux considers how overarching changes in structure can improve motivation for all who work there. His calls his approach &quot;Smart Simplicity.&quot; Using <a href=\\"https://www.bcgperspectives.com/sixsimplerules\\" target=\\"_blank\\">six key rules</a>, it encourages employees to cooperate in order to solve long-term problems. It isn&rsquo;t just about reducing costs and increasing profit -- it&rsquo;s about maximizing engagement through all levels of a company. Morieux has been featured in articles on organizational evolution in&nbsp;<em>Harvard Business Review</em>, <em>The Economist</em>, <em>The Wall Street Journal</em>, <em>Fast Company</em>&nbsp;and <em>Le Monde</em>.</p>", "slug": "yves_morieux", "whotheyare": "BCG\'s Yves Morieux researches how corporations can adapt to a modern and complex business landscape.", "whatotherssay": "", "id": 1747, "photo_url": "https://pe.tedcdn.com/images/ted/582ef48ee72d9d7a757c70aa25ffefdf0edffee5_254x191.jpg"}], "current_talk": 2321, "description": "Modern work -- from waiting tables to crunching numbers to designing products -- is about solving brand-new problems every day, flexibly and collaboratively. But as Yves Morieux shows in this insightful talk, too often, an overload of rules, processes and metrics keeps us from doing our best work together. Meet the new frontier of productivity: cooperation.", "language": "en", "url": "https://www.ted.com/talks/yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119577087}, "podcast-low-en": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23043688}, "podcast-high": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119569502}, "180k": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22777014}, "64k": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8222038}, "1500k": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 184807656}, "450k": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56776261}, "podcast-regular": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57063916}, "950k": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119176430}, "audio-podcast": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10318941}, "podcast-light": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8359489}, "320k": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40362852}, "600k": {"uri": "https://download.ted.com/talks/YvesMorieux_2015S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 75897132}}}, "comments": {"count": 58, "id": 26941, "talk_id": 2321}, "slug": "yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done", "threadId": 26941, "talks": [{"event": "TED@BCG London", "player_talks": [{"event": "TED@BCG London", "slug": "yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done", "filmed": 1435708800, "targeting": {"event": "TED@BCG London", "tag": "leadership,productivity,work", "id": 2321, "talk": "yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "How too many rules at work keep you from getting things done", "postAdDuration": "0.83", "published": 1440774705, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/18f7cbd893bce653534edfbb9c1f503dacefef7e_2880x1620.jpg?quality=89&w=600", "name": "Yves Morieux: How too many rules at work keep you from getting things done", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["leadership", "productivity", "work"], "speaker": "Yves Morieux", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 998, "id": 2321, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/YvesMorieux_2015S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED@BCG London", "tag": "leadership,productivity,work", "id": 2321, "talk": "yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2321.json", "stream": "https://hls.ted.com/talks/2321.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%40BCG%2BLondon%26id%3D2321%26tag%3Dleadership%2Cproductivity%2Cwork%26talk%3Dyves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/18f7cbd893bce653534edfbb9c1f503dacefef7e_2880x1620.jpg?q=50&w=15", "duration": 998, "id": 2321, "ratings": [{"count": 69, "id": 11, "name": "Longwinded"}, {"count": 42, "id": 21, "name": "Unconvincing"}, {"count": 85, "id": 3, "name": "Courageous"}, {"count": 137, "id": 9, "name": "Ingenious"}, {"count": 675, "id": 10, "name": "Inspiring"}, {"count": 196, "id": 1, "name": "Beautiful"}, {"count": 363, "id": 24, "name": "Persuasive"}, {"count": 63, "id": 25, "name": "OK"}, {"count": 72, "id": 7, "name": "Funny"}, {"count": 315, "id": 8, "name": "Informative"}, {"count": 288, "id": 22, "name": "Fascinating"}, {"count": 26, "id": 23, "name": "Jaw-dropping"}, {"count": 31, "id": 2, "name": "Confusing"}, {"count": 6, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Consultant", "firstname": "Yves", "title": "", "lastname": "Morieux", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.bcg.com/expertise_impact/BCG_fellows/organization/yves_morieux.aspx\\" target=\\"_blank\\">Yves Morieux</a>&nbsp;thinks deeply about what makes organizations work effectively. A senior partner in BCG&rsquo;s Washington D.C. office and director of the BCG Institute for Organization, Morieux considers how overarching changes in structure can improve motivation for all who work there. His calls his approach &quot;Smart Simplicity.&quot; Using <a href=\\"https://www.bcgperspectives.com/sixsimplerules\\" target=\\"_blank\\">six key rules</a>, it encourages employees to cooperate in order to solve long-term problems. It isn&rsquo;t just about reducing costs and increasing profit -- it&rsquo;s about maximizing engagement through all levels of a company. Morieux has been featured in articles on organizational evolution in&nbsp;<em>Harvard Business Review</em>, <em>The Economist</em>, <em>The Wall Street Journal</em>, <em>Fast Company</em>&nbsp;and <em>Le Monde</em>.</p>", "slug": "yves_morieux", "whotheyare": "BCG\'s Yves Morieux researches how corporations can adapt to a modern and complex business landscape.", "whatotherssay": "", "id": 1747, "photo_url": "https://pe.tedcdn.com/images/ted/582ef48ee72d9d7a757c70aa25ffefdf0edffee5_254x191.jpg"}], "title": "How too many rules at work keep you from getting things done", "take_action": null, "comments": 26941, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/18f7cbd893bce653534edfbb9c1f503dacefef7e_2880x1620.jpg", "description": "Modern work -- from waiting tables to crunching numbers to designing products -- is about solving brand-new problems every day, flexibly and collaboratively. But as Yves Morieux shows in this insightful talk, too often, an overload of rules, processes and metrics keeps us from doing our best work together. Meet the new frontier of productivity: cooperation.", "tags": ["leadership", "productivity", "work"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-hi.mp4"}, "hu": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-uk.mp4"}, "mr": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/YvesMorieux_2015S-low-mr.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/YvesMorieux_2015S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/YvesMorieux_2015S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/YvesMorieux_2015S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2321, "audioDownload": "https://download.ted.com/talks/YvesMorieux_2015S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 3204276, "hero": "https://pe.tedcdn.com/images/ted/ebe6dc533509fb045e77d0668a35ab8082375b5b_1600x1200.jpg", "title": "As work gets more complex, 6 rules to simplify", "id": 1911, "speaker": "Yves Morieux", "duration": 721, "slug": "yves_morieux_as_work_gets_more_complex_6_rules_to_simplify"}, {"viewed_count": 3738389, "hero": "https://pe.tedcdn.com/images/ted/84075682f1b8cf15aa7460548a4b61fedc4cb736_1600x1200.jpg", "title": "What it takes to be a great leader", "id": 1930, "speaker": "Roselinde Torres", "duration": 559, "slug": "roselinde_torres_what_it_takes_to_be_a_great_leader"}, {"viewed_count": 2632957, "hero": "https://pe.tedcdn.com/images/ted/07ece83dd77f758dd2c92e3fcb0ee6b404dc49a2_2880x1620.jpg", "title": "How to run a company with (almost) no rules", "id": 2182, "speaker": "Ricardo Semler", "duration": 1302, "slug": "ricardo_semler_how_to_run_a_company_with_almost_no_rules"}, {"viewed_count": 3085196, "hero": "https://pe.tedcdn.com/images/ted/b6eb80461d37ced7b3e96c46e51b0d1c82e2fc8e_1600x1200.jpg", "title": "Are athletes really getting faster, better, stronger?", "id": 1986, "speaker": "David Epstein", "duration": 893, "slug": "david_epstein_are_athletes_really_getting_faster_better_stronger"}, {"viewed_count": 2410660, "hero": "https://pe.tedcdn.com/images/ted/7f117aeb440b9bc0868e535ebecf676d04adbd62_2880x1620.jpg", "title": "Forget the pecking order at work", "id": 2283, "speaker": "Margaret Heffernan", "duration": 947, "slug": "margaret_heffernan_why_it_s_time_to_forget_the_pecking_order_at_work"}, {"viewed_count": 2449731, "hero": "https://pe.tedcdn.com/images/ted/13097f03028a4a577ba9e793042afd7f2c501261_2880x1620.jpg", "title": "Are we born to run?", "id": 1067, "speaker": "Christopher McDougall", "duration": 952, "slug": "christopher_mcdougall_are_we_born_to_run"}], "recorded_at": "2015-07-01T00:00:00.000+00:00", "slug": "yves_morieux_how_too_many_rules_at_work_keep_you_from_getting_things_done", "speaker_name": "Yves Morieux", "viewed_count": 1864089, "event_badge": null, "event_blurb": "This talk was presented at a TED Institute event given in partnership with BCG. TED editors featured it among our selections on the home page. <a href=\\"/about/programs-initiatives/ted-institute\\">Read more about the TED Institute</a>.", "recommendations": null, "corrections": null}], "event": "TED@BCG London", "name": "Yves Morieux: How too many rules at work keep you from getting things done"}'
+p322
+sS'keywords'
+p323
+(lp324
+Vleadership
+p325
+aVproductivity
+p326
+aVwork
+p327
+asS'datecrawled'
+p328
+g317
+(S'\x07\xe1\n\x17\x02\x11\x13\x03e\xac'
+tRp329
+sS'id'
+p330
+I2321
+ss.

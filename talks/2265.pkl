@@ -1,0 +1,904 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMark Twain summed up what I take to be
+p5
+aVone of the fundamental problems of cognitive science
+p6
+aVwith a single witticism.
+p7
+aVHe said, "There's something fascinating about science.
+p8
+aVOne gets such wholesale returns of conjecture
+p9
+aVout of such a trifling investment in fact."
+p10
+aV(Laughter)
+p11
+aa(lp12
+VTwain meant it as a joke, of course, but he's right:
+p13
+aVThere's something fascinating about science.
+p14
+aVFrom a few bones, we infer the existence of dinosuars.
+p15
+aVFrom spectral lines, the composition of nebulae.
+p16
+aVFrom fruit flies,
+p17
+aVthe mechanisms of heredity,
+p18
+aVand from reconstructed images of blood flowing through the brain,
+p19
+aVor in my case, from the behavior of very young children,
+p20
+aVwe try to say something about the fundamental mechanisms
+p21
+aVof human cognition.
+p22
+aVIn particular, in my lab in the Department of Brain and Cognitive Sciences at MIT,
+p23
+aVI have spent the past decade trying to understand the mystery
+p24
+aVof how children learn so much from so little so quickly.
+p25
+aVBecause, it turns out that the fascinating thing about science
+p26
+aVis also a fascinating thing about children,
+p27
+aVwhich, to put a gentler spin on Mark Twain,
+p28
+aVis precisely their ability to draw rich, abstract inferences
+p29
+aVrapidly and accurately from sparse, noisy data.
+p30
+aVI'm going to give you just two examples today.
+p31
+aVOne is about a problem of generalization,
+p32
+aVand the other is about a problem of causal reasoning.
+p33
+aVAnd although I'm going to talk about work in my lab,
+p34
+aVthis work is inspired by and indebted to a field.
+p35
+aVI'm grateful to mentors, colleagues, and collaborators around the world.
+p36
+aa(lp37
+VLet me start with the problem of generalization.
+p38
+aVGeneralizing from small samples of data is the bread and butter of science.
+p39
+aVWe poll a tiny fraction of the electorate
+p40
+aVand we predict the outcome of national elections.
+p41
+aVWe see how a handful of patients responds to treatment in a clinical trial,
+p42
+aVand we bring drugs to a national market.
+p43
+aVBut this only works if our sample is randomly drawn from the population.
+p44
+aVIf our sample is cherry-picked in some way \u2014
+p45
+aVsay, we poll only urban voters,
+p46
+aVor say, in our clinical trials for treatments for heart disease,
+p47
+aVwe include only men \u2014
+p48
+aVthe results may not generalize to the broader population.
+p49
+aa(lp50
+VSo scientists care whether evidence is randomly sampled or not,
+p51
+aVbut what does that have to do with babies?
+p52
+aVWell, babies have to generalize from small samples of data all the time.
+p53
+aVThey see a few rubber ducks and learn that they float,
+p54
+aVor a few balls and learn that they bounce.
+p55
+aVAnd they develop expectations about ducks and balls
+p56
+aVthat they're going to extend to rubber ducks and balls
+p57
+aVfor the rest of their lives.
+p58
+aVAnd the kinds of generalizations babies have to make about ducks and balls
+p59
+aVthey have to make about almost everything:
+p60
+aVshoes and ships and sealing wax and cabbages and kings.
+p61
+aa(lp62
+VSo do babies care whether the tiny bit of evidence they see
+p63
+aVis plausibly representative of a larger population?
+p64
+aVLet's find out.
+p65
+aVI'm going to show you two movies,
+p66
+aVone from each of two conditions of an experiment,
+p67
+aVand because you're going to see just two movies,
+p68
+aVyou're going to see just two babies,
+p69
+aVand any two babies differ from each other in innumerable ways.
+p70
+aVBut these babies, of course, here stand in for groups of babies,
+p71
+aVand the differences you're going to see
+p72
+aVrepresent average group differences in babies' behavior across conditions.
+p73
+aVIn each movie, you're going to see a baby doing maybe
+p74
+aVjust exactly what you might expect a baby to do,
+p75
+aVand we can hardly make babies more magical than they already are.
+p76
+aVBut to my mind the magical thing,
+p77
+aVand what I want you to pay attention to,
+p78
+aVis the contrast between these two conditions,
+p79
+aVbecause the only thing that differs between these two movies
+p80
+aVis the statistical evidence the babies are going to observe.
+p81
+aVWe're going to show babies a box of blue and yellow balls,
+p82
+aVand my then-graduate student, now colleague at Stanford, Hyowon Gweon,
+p83
+aVis going to pull three blue balls in a row out of this box,
+p84
+aVand when she pulls those balls out, she's going to squeeze them,
+p85
+aVand the balls are going to squeak.
+p86
+aVAnd if you're a baby, that's like a TED Talk.
+p87
+aVIt doesn't get better than that.
+p88
+aV(Laughter)
+p89
+aVBut the important point is it's really easy to pull three blue balls in a row
+p90
+aVout of a box of mostly blue balls.
+p91
+aVYou could do that with your eyes closed.
+p92
+aVIt's plausibly a random sample from this population.
+p93
+aVAnd if you can reach into a box at random and pull out things that squeak,
+p94
+aVthen maybe everything in the box squeaks.
+p95
+aVSo maybe babies should expect those yellow balls to squeak as well.
+p96
+aVNow, those yellow balls have funny sticks on the end,
+p97
+aVso babies could do other things with them if they wanted to.
+p98
+aVThey could pound them or whack them.
+p99
+aVBut let's see what the baby does.
+p100
+aa(lp101
+V(Video) Hyowon Gweon: See this? (Ball squeaks)
+p102
+aVDid you see that? (Ball squeaks)
+p103
+aVCool.
+p104
+aVSee this one?
+p105
+aV(Ball squeaks)
+p106
+aVWow.
+p107
+aa(lp108
+VLaura Schulz: Told you. (Laughs)
+p109
+aa(lp110
+V(Video) HG: See this one? (Ball squeaks)
+p111
+aVHey Clara, this one's for you. You can go ahead and play.
+p112
+aV(Laughter)
+p113
+aa(lp114
+VLS: I don't even have to talk, right?
+p115
+aVAll right, it's nice that babies will generalize properties
+p116
+aVof blue balls to yellow balls,
+p117
+aVand it's impressive that babies can learn from imitating us,
+p118
+aVbut we've known those things about babies for a very long time.
+p119
+aVThe really interesting question
+p120
+aVis what happens when we show babies exactly the same thing,
+p121
+aVand we can ensure it's exactly the same because we have a secret compartment
+p122
+aVand we actually pull the balls from there,
+p123
+aVbut this time, all we change is the apparent population
+p124
+aVfrom which that evidence was drawn.
+p125
+aVThis time, we're going to show babies three blue balls
+p126
+aVpulled out of a box of mostly yellow balls,
+p127
+aVand guess what?
+p128
+aVYou [probably won't] randomly draw three blue balls in a row
+p129
+aVout of a box of mostly yellow balls.
+p130
+aVThat is not plausibly randomly sampled evidence.
+p131
+aVThat evidence suggests that maybe Hyowon was deliberately sampling the blue balls.
+p132
+aVMaybe there's something special about the blue balls.
+p133
+aVMaybe only the blue balls squeak.
+p134
+aVLet's see what the baby does.
+p135
+aa(lp136
+V(Video) HG: See this? (Ball squeaks)
+p137
+aVSee this toy? (Ball squeaks)
+p138
+aVOh, that was cool. See? (Ball squeaks)
+p139
+aVNow this one's for you to play. You can go ahead and play.
+p140
+aa(lp141
+V(Fussing) (Laughter)
+p142
+aa(lp143
+VLS: So you just saw two 15-month-old babies
+p144
+aVdo entirely different things
+p145
+aVbased only on the probability of the sample they observed.
+p146
+aVLet me show you the experimental results.
+p147
+aVOn the vertical axis, you'll see the percentage of babies
+p148
+aVwho squeezed the ball in each condition,
+p149
+aVand as you'll see, babies are much more likely to generalize the evidence
+p150
+aVwhen it's plausibly representative of the population
+p151
+aVthan when the evidence is clearly cherry-picked.
+p152
+aVAnd this leads to a fun prediction:
+p153
+aVSuppose you pulled just one blue ball out of the mostly yellow box.
+p154
+aVYou [probably won't] pull three blue balls in a row at random out of a yellow box,
+p155
+aVbut you could randomly sample just one blue ball.
+p156
+aVThat's not an improbable sample.
+p157
+aVAnd if you could reach into a box at random
+p158
+aVand pull out something that squeaks, maybe everything in the box squeaks.
+p159
+aVSo even though babies are going to see much less evidence for squeaking,
+p160
+aVand have many fewer actions to imitate
+p161
+aVin this one ball condition than in the condition you just saw,
+p162
+aVwe predicted that babies themselves would squeeze more,
+p163
+aVand that's exactly what we found.
+p164
+aVSo 15-month-old babies, in this respect, like scientists,
+p165
+aVcare whether evidence is randomly sampled or not,
+p166
+aVand they use this to develop expectations about the world:
+p167
+aVwhat squeaks and what doesn't,
+p168
+aVwhat to explore and what to ignore.
+p169
+aa(lp170
+VLet me show you another example now,
+p171
+aVthis time about a problem of causal reasoning.
+p172
+aVAnd it starts with a problem of confounded evidence
+p173
+aVthat all of us have,
+p174
+aVwhich is that we are part of the world.
+p175
+aVAnd this might not seem like a problem to you, but like most problems,
+p176
+aVit's only a problem when things go wrong.
+p177
+aVTake this baby, for instance.
+p178
+aVThings are going wrong for him.
+p179
+aVHe would like to make this toy go, and he can't.
+p180
+aVI'll show you a few-second clip.
+p181
+aVAnd there's two possibilities, broadly:
+p182
+aVMaybe he's doing something wrong,
+p183
+aVor maybe there's something wrong with the toy.
+p184
+aVSo in this next experiment,
+p185
+aVwe're going to give babies just a tiny bit of statistical data
+p186
+aVsupporting one hypothesis over the other,
+p187
+aVand we're going to see if babies can use that to make different decisions
+p188
+aVabout what to do.
+p189
+aa(lp190
+VHere's the setup.
+p191
+aVHyowon is going to try to make the toy go and succeed.
+p192
+aVI am then going to try twice and fail both times,
+p193
+aVand then Hyowon is going to try again and succeed,
+p194
+aVand this roughly sums up my relationship to my graduate students
+p195
+aVin technology across the board.
+p196
+aVBut the important point here is it provides a little bit of evidence
+p197
+aVthat the problem isn't with the toy, it's with the person.
+p198
+aVSome people can make this toy go,
+p199
+aVand some can't.
+p200
+aVNow, when the baby gets the toy, he's going to have a choice.
+p201
+aVHis mom is right there,
+p202
+aVso he can go ahead and hand off the toy and change the person,
+p203
+aVbut there's also going to be another toy at the end of that cloth,
+p204
+aVand he can pull the cloth towards him and change the toy.
+p205
+aVSo let's see what the baby does.
+p206
+aa(lp207
+V(Video) HG: Two, three. Go! (Music)
+p208
+aVLS: One, two, three, go!
+p209
+aVArthur, I'm going to try again. One, two, three, go!
+p210
+aVYG: Arthur, let me try again, okay?
+p211
+aVOne, two, three, go! (Music)
+p212
+aVLook at that. Remember these toys?
+p213
+aVSee these toys? Yeah, I'm going to put this one over here,
+p214
+aVand I'm going to give this one to you.
+p215
+aVYou can go ahead and play.
+p216
+aVLS: Okay, Laura, but of course, babies love their mommies.
+p217
+aVOf course babies give toys to their mommies
+p218
+aVwhen they can't make them work.
+p219
+aVSo again, the really important question is what happens when we change
+p220
+aVthe statistical data ever so slightly.
+p221
+aVThis time, babies are going to see the toy work and fail in exactly the same order,
+p222
+aVbut we're changing the distribution of evidence.
+p223
+aVThis time, Hyowon is going to succeed once and fail once, and so am I.
+p224
+aVAnd this suggests it doesn't matter who tries this toy, the toy is broken.
+p225
+aVIt doesn't work all the time.
+p226
+aVAgain, the baby's going to have a choice.
+p227
+aVHer mom is right next to her, so she can change the person,
+p228
+aVand there's going to be another toy at the end of the cloth.
+p229
+aVLet's watch what she does.
+p230
+aa(lp231
+V(Video) HG: Two, three, go! (Music)
+p232
+aVLet me try one more time. One, two, three, go!
+p233
+aVHmm.
+p234
+aa(lp235
+VLS: Let me try, Clara.
+p236
+aVOne, two, three, go!
+p237
+aVHmm, let me try again.
+p238
+aVOne, two, three, go! (Music)
+p239
+aVHG: I'm going to put this one over here,
+p240
+aVand I'm going to give this one to you.
+p241
+aVYou can go ahead and play.
+p242
+aV(Applause)
+p243
+aa(lp244
+VLS: Let me show you the experimental results.
+p245
+aVOn the vertical axis, you'll see the distribution
+p246
+aVof children's choices in each condition,
+p247
+aVand you'll see that the distribution of the choices children make
+p248
+aVdepends on the evidence they observe.
+p249
+aVSo in the second year of life,
+p250
+aVbabies can use a tiny bit of statistical data
+p251
+aVto decide between two fundamentally different strategies
+p252
+aVfor acting in the world:
+p253
+aVasking for help and exploring.
+p254
+aVI've just shown you two laboratory experiments
+p255
+aVout of literally hundreds in the field that make similar points,
+p256
+aVbecause the really critical point
+p257
+aVis that children's ability to make rich inferences from sparse data
+p258
+aVunderlies all the species-specific cultural learning that we do.
+p259
+aVChildren learn about new tools from just a few examples.
+p260
+aVThey learn new causal relationships from just a few examples.
+p261
+aVThey even learn new words, in this case in American Sign Language.
+p262
+aa(lp263
+VI want to close with just two points.
+p264
+aVIf you've been following my world, the field of brain and cognitive sciences,
+p265
+aVfor the past few years,
+p266
+aVthree big ideas will have come to your attention.
+p267
+aVThe first is that this is the era of the brain.
+p268
+aVAnd indeed, there have been staggering discoveries in neuroscience:
+p269
+aVlocalizing functionally specialized regions of cortex,
+p270
+aVturning mouse brains transparent,
+p271
+aVactivating neurons with light.
+p272
+aVA second big idea
+p273
+aVis that this is the era of big data and machine learning,
+p274
+aVand machine learning promises to revolutionize our understanding
+p275
+aVof everything from social networks to epidemiology.
+p276
+aVAnd maybe, as it tackles problems of scene understanding
+p277
+aVand natural language processing,
+p278
+aVto tell us something about human cognition.
+p279
+aVAnd the final big idea you'll have heard
+p280
+aVis that maybe it's a good idea we're going to know so much about brains
+p281
+aVand have so much access to big data,
+p282
+aVbecause left to our own devices,
+p283
+aVhumans are fallible, we take shortcuts,
+p284
+aVwe err, we make mistakes,
+p285
+aVwe're biased, and in innumerable ways,
+p286
+aVwe get the world wrong.
+p287
+aVI think these are all important stories,
+p288
+aVand they have a lot to tell us about what it means to be human,
+p289
+aVbut I want you to note that today I told you a very different story.
+p290
+aVIt's a story about minds and not brains,
+p291
+aVand in particular, it's a story about the kinds of computations
+p292
+aVthat uniquely human minds can perform,
+p293
+aVwhich involve rich, structured knowledge and the ability to learn
+p294
+aVfrom small amounts of data, the evidence of just a few examples.
+p295
+aVAnd fundamentally, it's a story about how starting as very small children
+p296
+aVand continuing out all the way to the greatest accomplishments
+p297
+aVof our culture,
+p298
+aVwe get the world right.
+p299
+aa(lp300
+VFolks, human minds do not only learn from small amounts of data.
+p301
+aVHuman minds think of altogether new ideas.
+p302
+aVHuman minds generate research and discovery,
+p303
+aVand human minds generate art and literature and poetry and theater,
+p304
+aVand human minds take care of other humans:
+p305
+aVour old, our young, our sick.
+p306
+aVWe even heal them.
+p307
+aVIn the years to come, we're going to see technological innovations
+p308
+aVbeyond anything I can even envision,
+p309
+aVbut we are very unlikely
+p310
+aVto see anything even approximating the computational power of a human child
+p311
+aVin my lifetime or in yours.
+p312
+aVIf we invest in these most powerful learners and their development,
+p313
+aVin babies and children
+p314
+aVand mothers and fathers
+p315
+aVand caregivers and teachers
+p316
+aVthe ways we invest in our other most powerful and elegant forms
+p317
+aVof technology, engineering and design,
+p318
+aVwe will not just be dreaming of a better future,
+p319
+aVwe will be planning for one.
+p320
+aa(lp321
+VThank you very much.
+p322
+aa(lp323
+V(Applause)
+p324
+aa(lp325
+VChris Anderson: Laura, thank you. I do actually have a question for you.
+p326
+aVFirst of all, the research is insane.
+p327
+aVI mean, who would design an experiment like that? (Laughter)
+p328
+aVI've seen that a couple of times,
+p329
+aVand I still don't honestly believe that that can truly be happening,
+p330
+aVbut other people have done similar experiments; it checks out.
+p331
+aVThe babies really are that genius.
+p332
+aa(lp333
+VLS: You know, they look really impressive in our experiments,
+p334
+aVbut think about what they look like in real life, right?
+p335
+aVIt starts out as a baby.
+p336
+aVEighteen months later, it's talking to you,
+p337
+aVand babies' first words aren't just things like balls and ducks,
+p338
+aVthey're things like "all gone," which refer to disappearance,
+p339
+aVor "uh-oh," which refer to unintentional actions.
+p340
+aVIt has to be that powerful.
+p341
+aVIt has to be much more powerful than anything I showed you.
+p342
+aVThey're figuring out the entire world.
+p343
+aVA four-year-old can talk to you about almost anything.
+p344
+aV(Applause)
+p345
+aa(lp346
+VCA: And if I understand you right, the other key point you're making is,
+p347
+aVwe've been through these years where there's all this talk
+p348
+aVof how quirky and buggy our minds are,
+p349
+aVthat behavioral economics and the whole theories behind that
+p350
+aVthat we're not rational agents.
+p351
+aVYou're really saying that the bigger story is how extraordinary,
+p352
+aVand there really is genius there that is underappreciated.
+p353
+aa(lp354
+VLS: One of my favorite quotes in psychology
+p355
+aVcomes from the social psychologist Solomon Asch,
+p356
+aVand he said the fundamental task of psychology is to remove
+p357
+aVthe veil of self-evidence from things.
+p358
+aVThere are orders of magnitude more decisions you make every day
+p359
+aVthat get the world right.
+p360
+aVYou know about objects and their properties.
+p361
+aVYou know them when they're occluded. You know them in the dark.
+p362
+aVYou can walk through rooms.
+p363
+aVYou can figure out what other people are thinking. You can talk to them.
+p364
+aVYou can navigate space. You know about numbers.
+p365
+aVYou know causal relationships. You know about moral reasoning.
+p366
+aVYou do this effortlessly, so we don't see it,
+p367
+aVbut that is how we get the world right, and it's a remarkable
+p368
+aVand very difficult-to-understand accomplishment.
+p369
+aa(lp370
+VCA: I suspect there are people in the audience who have
+p371
+aVthis view of accelerating technological power
+p372
+aVwho might dispute your statement that never in our lifetimes
+p373
+aVwill a computer do what a three-year-old child can do,
+p374
+aVbut what's clear is that in any scenario,
+p375
+aVour machines have so much to learn from our toddlers.
+p376
+aVLS: I think so. You'll have some machine learning folks up here.
+p377
+aVI mean, you should never bet against babies or chimpanzees
+p378
+aVor technology as a matter of practice,
+p379
+aVbut it's not just a difference in quantity,
+p380
+aVit's a difference in kind.
+p381
+aVWe have incredibly powerful computers,
+p382
+aVand they do do amazingly sophisticated things,
+p383
+aVoften with very big amounts of data.
+p384
+aVHuman minds do, I think, something quite different,
+p385
+aVand I think it's the structured, hierarchical nature of human knowledge
+p386
+aVthat remains a real challenge.
+p387
+aa(lp388
+VCA: Laura Schulz, wonderful food for thought. Thank you so much.
+p389
+aa(lp390
+VLS: Thank you. (Applause)
+p391
+aasS'transcript_micsec'
+p392
+(lp393
+I11000
+aI31000
+aI118000
+aI157000
+aI193000
+aI311000
+aI332000
+aI334000
+aI355000
+aI416000
+aI437000
+aI445000
+aI529000
+aI582000
+aI629000
+aI726000
+aI738000
+aI783000
+aI847000
+aI971000
+aI1042000
+aI1044000
+aI1048000
+aI1069000
+aI1098000
+aI1119000
+aI1158000
+aI1210000
+aI1213000
+asS'talk_meta'
+p394
+(dp395
+S'ratings'
+p396
+(dp397
+S'beautiful'
+p398
+I158
+sS'funny'
+p399
+I93
+sS'inspiring'
+p400
+I150
+sS'ok'
+p401
+I42
+sS'fascinating'
+p402
+I316
+sS'total_count'
+p403
+I1426
+sS'persuasive'
+p404
+I69
+sS'longwinded'
+p405
+I23
+sS'unconvincing'
+p406
+I21
+sS'informative'
+p407
+I401
+sS'jaw-dropping'
+p408
+I58
+sS'ingenious'
+p409
+I75
+sS'obnoxious'
+p410
+I0
+sS'courageous'
+p411
+I6
+sS'confusing'
+p412
+I14
+ssS'author'
+p413
+VLaura_Schulz;
+p414
+sS'url'
+p415
+S'https://www.ted.com/talks/laura_schulz_the_surprisingly_logical_minds_of_babies'
+p416
+sS'vidlen'
+p417
+I1218
+sS'totalviews'
+p418
+I1627336
+sS'title'
+p419
+VThe surprisingly logical minds of babies
+p420
+sS'downloadlink'
+p421
+Vhttps://download.ted.com/talks/LauraSchulz_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p422
+sS'datepublished'
+p423
+cdatetime
+datetime
+p424
+(S'\x07\xdf\x06\x02\n:\t\x00\x00\x00'
+tRp425
+sS'datefilmed'
+p426
+g424
+(S'\x07\xdf\x06\x02\n:\t\x00\x00\x00'
+tRp427
+sS'alldata_JSON'
+p428
+S'{"viewed_count": 1627336, "speakers": [{"description": "Cognitive scientist", "firstname": "Laura", "title": "", "lastname": "Schulz", "middleinitial": "", "whylisten": "  <p> MIT Early Childhood Cognition Lab lead investigator Laura Schulz studies learning in early childhood. Her research bridges computational models of cognitive development and behavioral studies in order to understand the origins of inquiry and discovery. </p>   <p> Working in play labs, children&rsquo;s museums, and a recently-launched citizen science website, Schultz is reshaping how we view young children&rsquo;s perceptions of the world around them. Some of the surprising results of her research: before the age of four, children expect hidden causes when events happen probabilistically, use simple experiments to distinguish causal hypotheses, and trade off learning from instruction and exploration.</p>  ", "slug": "laura_schulz", "whotheyare": "Developmental behavior studies spearheaded by Laura Schulz are changing our notions of how children learn. ", "whatotherssay": "\\u201c[Infant behavior] studies are also changing the way we think about child development. Laura Schulz, an associate professor of cognitive sciences at the Massachusetts Institute of Technology, describes it as an \\u2018infant revolution\\u2019 in science. \\u201d", "id": 2415, "photo_url": "https://pe.tedcdn.com/images/ted/49d1df83c11e82299d57517fb6294b5567ac782f_254x191.jpg"}], "current_talk": 2265, "description": "How do babies learn so much from so little so quickly? In a fun, experiment-filled talk, cognitive scientist Laura Schulz shows how our young ones make decisions with a surprisingly strong sense of logic, well before they can talk.", "language": "en", "url": "https://www.ted.com/talks/laura_schulz_the_surprisingly_logical_minds_of_babies", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 145362764}, "podcast-low-en": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28062737}, "podcast-high": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 145367333}, "180k": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27814308}, "64k": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10023556}, "1500k": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 225831415}, "450k": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69273277}, "podcast-regular": {"uri": "https://download.ted.com/talks/LauraSchulz_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69388475}, "950k": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 145375249}, "audio-podcast": {"uri": "https://download.ted.com/talks/LauraSchulz_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 12515571}, "podcast-light": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10156990}, "320k": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49235352}, "600k": {"uri": "https://download.ted.com/talks/LauraSchulz_2015-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 92536647}}}, "comments": {"count": 92, "id": 26885, "talk_id": 2265}, "slug": "laura_schulz_the_surprisingly_logical_minds_of_babies", "threadId": 26885, "talks": [{"event": "TED2015", "player_talks": [{"event": "TED2015", "slug": "laura_schulz_the_surprisingly_logical_minds_of_babies", "filmed": 1425945600, "targeting": {"event": "TED2015", "tag": "behavioral economics,brain,children,cognitive science,data,education,mind,physiology,science,youth", "id": 2265, "talk": "laura_schulz_the_surprisingly_logical_minds_of_babies", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "The surprisingly logical minds of babies", "postAdDuration": "0.83", "published": 1433257089, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b6187cbb01f39c3a29428434b9194fe217041452_2880x1620.jpg?quality=89&w=600", "name": "Laura Schulz: The surprisingly logical minds of babies", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["behavioral economics", "brain", "children", "cognitive science", "data", "education", "mind", "physiology", "science", "youth"], "speaker": "Laura Schulz", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1218, "id": 2265, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/LauraSchulz_2015-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2015", "tag": "behavioral economics,brain,children,cognitive science,data,education,mind,physiology,science,youth", "id": 2265, "talk": "laura_schulz_the_surprisingly_logical_minds_of_babies", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2265.json", "stream": "https://hls.ted.com/talks/2265.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2015%26id%3D2265%26tag%3Dbehavioral%2Beconomics%2Cbrain%2Cchildren%2Ccognitive%2Bscience%2Cdata%2Ceducation%2Cmind%2Cphysiology%2Cscience%2Cyouth%26talk%3Dlaura_schulz_the_surprisingly_logical_minds_of_babies%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/laura_schulz_the_surprisingly_logical_minds_of_babies"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b6187cbb01f39c3a29428434b9194fe217041452_2880x1620.jpg?q=50&w=15", "duration": 1218, "id": 2265, "ratings": [{"count": 158, "id": 1, "name": "Beautiful"}, {"count": 93, "id": 7, "name": "Funny"}, {"count": 401, "id": 8, "name": "Informative"}, {"count": 316, "id": 22, "name": "Fascinating"}, {"count": 58, "id": 23, "name": "Jaw-dropping"}, {"count": 150, "id": 10, "name": "Inspiring"}, {"count": 75, "id": 9, "name": "Ingenious"}, {"count": 14, "id": 2, "name": "Confusing"}, {"count": 23, "id": 11, "name": "Longwinded"}, {"count": 21, "id": 21, "name": "Unconvincing"}, {"count": 69, "id": 24, "name": "Persuasive"}, {"count": 42, "id": 25, "name": "OK"}, {"count": 6, "id": 3, "name": "Courageous"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Cognitive scientist", "firstname": "Laura", "title": "", "lastname": "Schulz", "middleinitial": "", "whylisten": "  <p> MIT Early Childhood Cognition Lab lead investigator Laura Schulz studies learning in early childhood. Her research bridges computational models of cognitive development and behavioral studies in order to understand the origins of inquiry and discovery. </p>   <p> Working in play labs, children&rsquo;s museums, and a recently-launched citizen science website, Schultz is reshaping how we view young children&rsquo;s perceptions of the world around them. Some of the surprising results of her research: before the age of four, children expect hidden causes when events happen probabilistically, use simple experiments to distinguish causal hypotheses, and trade off learning from instruction and exploration.</p>  ", "slug": "laura_schulz", "whotheyare": "Developmental behavior studies spearheaded by Laura Schulz are changing our notions of how children learn. ", "whatotherssay": "\\u201c[Infant behavior] studies are also changing the way we think about child development. Laura Schulz, an associate professor of cognitive sciences at the Massachusetts Institute of Technology, describes it as an \\u2018infant revolution\\u2019 in science. \\u201d", "id": 2415, "photo_url": "https://pe.tedcdn.com/images/ted/49d1df83c11e82299d57517fb6294b5567ac782f_254x191.jpg"}], "title": "The surprisingly logical minds of babies", "take_action": [], "comments": 26885, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/b6187cbb01f39c3a29428434b9194fe217041452_2880x1620.jpg", "description": "How do babies learn so much from so little so quickly? In a fun, experiment-filled talk, cognitive scientist Laura Schulz shows how our young ones make decisions with a surprisingly strong sense of logic, well before they can talk.", "tags": ["behavioral economics", "brain", "children", "cognitive science", "data", "education", "mind", "physiology", "science", "youth"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/LauraSchulz_2015-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/LauraSchulz_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/LauraSchulz_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/LauraSchulz_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2265, "audioDownload": "https://download.ted.com/talks/LauraSchulz_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2548754, "hero": "https://pe.tedcdn.com/images/ted/fc7831d78e381e4f6b1d37aed55ab455d1d14914_800x600.jpg", "title": "The linguistic genius of babies", "id": 1075, "speaker": "Patricia Kuhl", "duration": 617, "slug": "patricia_kuhl_the_linguistic_genius_of_babies"}, {"viewed_count": 2939794, "hero": "https://pe.tedcdn.com/images/ted/4fc04d101b80bbd73c71c5e6f98f38b5ff0751f0_2880x1620.jpg", "title": "What do babies think?", "id": 1241, "speaker": "Alison Gopnik", "duration": 1109, "slug": "alison_gopnik_what_do_babies_think"}, {"viewed_count": 1806048, "hero": "https://pe.tedcdn.com/images/ted/58dfa89d21c1ed1905337683073cfe355f758ffa_800x600.jpg", "title": "What we learn before we\'re born", "id": 1289, "speaker": "Annie Murphy Paul", "duration": 1006, "slug": "annie_murphy_paul_what_we_learn_before_we_re_born"}, {"viewed_count": 708103, "hero": "https://pe.tedcdn.com/images/ted/144882_800x600.jpg", "title": "A warm embrace that saves lives", "id": 752, "speaker": "Jane Chen", "duration": 286, "slug": "jane_chen_a_warm_embrace_that_saves_lives"}, {"viewed_count": 1491427, "hero": "https://pe.tedcdn.com/images/ted/87910_800x600.jpg", "title": "A full-band beatbox", "id": 544, "speaker": "Naturally 7", "duration": 236, "slug": "naturally_7_jams_fly_baby_with_an_orchestra_of_vocals"}, {"viewed_count": 1399524, "hero": "https://pe.tedcdn.com/images/ted/fcefb83d4caebcc2dd427dd3cd10cd14401f6e60_2880x1620.jpg", "title": "The US needs paid family leave -- for the sake of its future", "id": 2384, "speaker": "Jessica Shortall", "duration": 945, "slug": "jessica_shortall_how_america_fails_new_parents_and_their_babies"}], "recorded_at": "2015-03-10T00:00:00.000+00:00", "slug": "laura_schulz_the_surprisingly_logical_minds_of_babies", "speaker_name": "Laura Schulz", "viewed_count": 1627336, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": [{"timecode": "06:26", "text": "Here I say, \\"You cannot randomly draw three blue balls in a row out of a box of mostly yellow balls.\\" Of course you *could* technically pull out three blue balls in a row randomly but it\'s very unlikely.", "type": "correction", "status": "approved", "published": true}]}], "event": "TED2015", "name": "Laura Schulz: The surprisingly logical minds of babies"}'
+p429
+sS'keywords'
+p430
+(lp431
+Vbehavioral economics
+p432
+aVbrain
+p433
+aVchildren
+p434
+aVcognitive science
+p435
+aVdata
+p436
+aVeducation
+p437
+aVmind
+p438
+aVphysiology
+p439
+aVscience
+p440
+aVyouth
+p441
+asS'datecrawled'
+p442
+g424
+(S'\x07\xe1\n\x17\x04\t\x01\x0b\xd4\xd2'
+tRp443
+sS'id'
+p444
+I2265
+ss.

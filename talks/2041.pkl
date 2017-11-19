@@ -1,0 +1,832 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VOn March 10, 2011,
+p5
+aVI was in Cambridge at the MIT Media Lab
+p6
+aVmeeting with faculty, students and staff,
+p7
+aVand we were trying to figure out whether
+p8
+aVI should be the next director.
+p9
+aa(lp10
+VThat night, at midnight,
+p11
+aVa magnitude 9 earthquake
+p12
+aVhit off of the Pacific coast of Japan.
+p13
+aVMy wife and family were in Japan,
+p14
+aVand as the news started to come in,
+p15
+aVI was panicking.
+p16
+aVI was looking at the news streams
+p17
+aVand listening to the press conferences
+p18
+aVof the government officials
+p19
+aVand the Tokyo Power Company,
+p20
+aVand hearing about this explosion
+p21
+aVat the nuclear reactors
+p22
+aVand this cloud of fallout
+p23
+aVthat was headed towards our house
+p24
+aVwhich was only about 200 kilometers away.
+p25
+aVAnd the people on TV weren't telling us
+p26
+aVanything that we wanted to hear.
+p27
+aVI wanted to know what was going on with the reactor,
+p28
+aVwhat was going on with the radiation,
+p29
+aVwhether my family was in danger.
+p30
+aa(lp31
+VSo I did what instinctively felt like the right thing,
+p32
+aVwhich was to go onto the Internet
+p33
+aVand try to figure out
+p34
+aVif I could take matters into my own hands.
+p35
+aVOn the Net, I found there were a lot of other people
+p36
+aVlike me trying to figure out what was going on,
+p37
+aVand together we sort of loosely formed a group
+p38
+aVand we called it Safecast,
+p39
+aVand we decided we were going to try
+p40
+aVto measure the radiation
+p41
+aVand get the data out to everybody else,
+p42
+aVbecause it was clear that the government
+p43
+aVwasn't going to be doing this for us.
+p44
+aa(lp45
+VThree years later,
+p46
+aVwe have 16 million data points,
+p47
+aVwe have designed our own Geiger counters
+p48
+aVthat you can download the designs
+p49
+aVand plug it into the network.
+p50
+aVWe have an app that shows you
+p51
+aVmost of the radiation in Japan and other parts of the world.
+p52
+aVWe are arguably one of the most successful
+p53
+aVcitizen science projects in the world,
+p54
+aVand we have created
+p55
+aVthe largest open dataset of radiation measurements.
+p56
+aa(lp57
+VAnd the interesting thing here
+p58
+aVis how did \u2014 (Applause) \u2014 Thank you.
+p59
+aVHow did a bunch of amateurs
+p60
+aVwho really didn't know what we were doing
+p61
+aVsomehow come together
+p62
+aVand do what NGOs and the government
+p63
+aVwere completely incapable of doing?
+p64
+aVAnd I would suggest that this has something to do
+p65
+aVwith the Internet. It's not a fluke.
+p66
+aVIt wasn't luck, and it wasn't because it was us.
+p67
+aVIt helped that it was an event
+p68
+aVthat pulled everybody together,
+p69
+aVbut it was a new way of doing things
+p70
+aVthat was enabled by the Internet
+p71
+aVand a lot of the other things that were going on,
+p72
+aVand I want to talk a little bit about
+p73
+aVwhat those new principles are.
+p74
+aa(lp75
+VSo remember before the Internet? (Laughter)
+p76
+aVI call this B.I. Okay?
+p77
+aVSo, in B.I., life was simple.
+p78
+aVThings were Euclidian, Newtonian,
+p79
+aVsomewhat predictable.
+p80
+aVPeople actually tried to predict the future,
+p81
+aVeven the economists.
+p82
+aVAnd then the Internet happened,
+p83
+aVand the world became extremely complex,
+p84
+aVextremely low-cost, extremely fast,
+p85
+aVand those Newtonian laws
+p86
+aVthat we so dearly cherished
+p87
+aVturned out to be just local ordinances,
+p88
+aVand what we found was that in this
+p89
+aVcompletely unpredictable world
+p90
+aVthat most of the people who were surviving
+p91
+aVwere working with sort of a different set of principles,
+p92
+aVand I want to talk a little bit about that.
+p93
+aa(lp94
+VBefore the Internet, if you remember,
+p95
+aVwhen we tried to create services,
+p96
+aVwhat you would do is you'd create
+p97
+aVthe hardware layer and the network layer and the software
+p98
+aVand it would cost millions of dollars
+p99
+aVto do anything that was substantial.
+p100
+aVSo when it costs millions of dollars to do something substantial,
+p101
+aVwhat you would do is you'd get an MBA
+p102
+aVwho would write a plan
+p103
+aVand get the money
+p104
+aVfrom V.C.s or big companies,
+p105
+aVand then you'd hire the designers and the engineers,
+p106
+aVand they'd build the thing.
+p107
+aVThis is the Before Internet, B.I., innovation model.
+p108
+aVWhat happened after the Internet was
+p109
+aVthe cost of innovation went down so much
+p110
+aVbecause the cost of collaboration, the cost of distribution,
+p111
+aVthe cost of communication, and Moore's Law
+p112
+aVmade it so that the cost of trying a new thing
+p113
+aVbecame nearly zero,
+p114
+aVand so you would have Google, Facebook, Yahoo,
+p115
+aVstudents that didn't have permission \u2014
+p116
+aVpermissionless innovation \u2014
+p117
+aVdidn't have permission, didn't have PowerPoints,
+p118
+aVthey just built the thing,
+p119
+aVthen they raised the money,
+p120
+aVand then they sort of figured out a business plan
+p121
+aVand maybe later on they hired some MBAs.
+p122
+aVSo the Internet caused innovation,
+p123
+aVat least in software and services,
+p124
+aVto go from an MBA-driven innovation model
+p125
+aVto a designer-engineer-driven innovation model,
+p126
+aVand it pushed innovation to the edges,
+p127
+aVto the dorm rooms, to the startups,
+p128
+aVaway from the large institutions,
+p129
+aVthe stodgy old institutions that had the power
+p130
+aVand the money and the authority.
+p131
+aVAnd we all know this. We all know this happened on the Internet.
+p132
+aVIt turns out it's happening in other things, too.
+p133
+aVLet me give you some examples.
+p134
+aa(lp135
+VSo at the Media Lab, we don't just do hardware.
+p136
+aVWe do all kinds of things.
+p137
+aVWe do biology, we do hardware,
+p138
+aVand Nicholas Negroponte famously said, "Demo or die,"
+p139
+aVas opposed to "Publish or perish,"
+p140
+aVwhich was the traditional academic way of thinking.
+p141
+aVAnd he often said, the demo only has to work once,
+p142
+aVbecause the primary mode of us impacting the world
+p143
+aVwas through large companies
+p144
+aVbeing inspired by us
+p145
+aVand creating products like the Kindle or Lego Mindstorms.
+p146
+aVBut today, with the ability
+p147
+aVto deploy things into the real world at such low cost,
+p148
+aVI'm changing the motto now,
+p149
+aVand this is the official public statement.
+p150
+aVI'm officially saying, "Deploy or die."
+p151
+aVYou have to get the stuff into the real world
+p152
+aVfor it to really count,
+p153
+aVand sometimes it will be large companies,
+p154
+aVand Nicholas can talk about satellites.
+p155
+aV(Applause)
+p156
+aVThank you.
+p157
+aVBut we should be getting out there ourselves
+p158
+aVand not depending on large institutions to do it for us.
+p159
+aa(lp160
+VSo last year, we sent a bunch of students to Shenzhen,
+p161
+aVand they sat on the factory floors
+p162
+aVwith the innovators in Shenzhen, and it was amazing.
+p163
+aVWhat was happening there
+p164
+aVwas you would have these manufacturing devices,
+p165
+aVand they weren't making prototypes or PowerPoints.
+p166
+aVThey were fiddling with the manufacturing equipment
+p167
+aVand innovating right on the manufacturing equipment.
+p168
+aVThe factory was in the designer,
+p169
+aVand the designer was literally in the factory.
+p170
+aVAnd so what you would do is,
+p171
+aVyou'd go down to the stalls
+p172
+aVand you would see these cell phones.
+p173
+aVSo instead of starting little websites
+p174
+aVlike the kids in Palo Alto do,
+p175
+aVthe kids in Shenzhen make new cell phones.
+p176
+aVThey make new cell phones like kids in Palo Alto
+p177
+aVmake websites,
+p178
+aVand so there's a rainforest
+p179
+aVof innovation going on in the cell phone.
+p180
+aVWhat they do is, they make a cell phone,
+p181
+aVgo down to the stall, they sell some,
+p182
+aVthey look at the other kids' stuff, go up,
+p183
+aVmake a couple thousand more, go down.
+p184
+aVDoesn't this sound like a software thing?
+p185
+aVIt sounds like agile software development,
+p186
+aVA/B testing and iteration,
+p187
+aVand what we thought you could only do with software
+p188
+aVkids in Shenzhen are doing this in hardware.
+p189
+aVMy next fellow, I hope, is going to be
+p190
+aVone of these innovators from Shenzhen.
+p191
+aa(lp192
+VAnd so what you see is
+p193
+aVthat is pushing innovation to the edges.
+p194
+aVWe talk about 3D printers and stuff like that,
+p195
+aVand that's great, but this is Limor.
+p196
+aVShe is one of our favorite graduates,
+p197
+aVand she is standing in front of a Samsung
+p198
+aVTechwin Pick and Place Machine.
+p199
+aVThis thing can put 23,000 components per hour
+p200
+aVonto an electronics board.
+p201
+aVThis is a factory in a box.
+p202
+aVSo what used to take a factory full of workers
+p203
+aVworking by hand
+p204
+aVin this little box in New York,
+p205
+aVshe's able to have effectively \u2014
+p206
+aVShe doesn't actually have to go to Shenzhen
+p207
+aVto do this manufacturing.
+p208
+aVShe can buy this box and she can manufacture it.
+p209
+aVSo manufacturing, the cost of innovation,
+p210
+aVthe cost of prototyping, distribution, manufacturing, hardware,
+p211
+aVis getting so low
+p212
+aVthat innovation is being pushed to the edges
+p213
+aVand students and startups are being able to build it.
+p214
+aVThis is a recent thing, but this will happen
+p215
+aVand this will change
+p216
+aVjust like it did with software.
+p217
+aa(lp218
+VSorona is a DuPont process
+p219
+aVthat uses a genetically engineered microbe
+p220
+aVto turn corn sugar into polyester.
+p221
+aVIt's 30 percent more efficient than the fossil fuel method,
+p222
+aVand it's much better for the environment.
+p223
+aVGenetic engineering and bioengineering
+p224
+aVare creating a whole bunch
+p225
+aVof great new opportunities
+p226
+aVfor chemistry, for computation, for memory.
+p227
+aVWe will probably be doing a lot, obviously doing health things,
+p228
+aVbut we will probably be growing chairs
+p229
+aVand buildings soon.
+p230
+aVThe problem is, Sorona costs about 400 million dollars
+p231
+aVand took seven years to build.
+p232
+aVIt kind of reminds you of the old mainframe days.
+p233
+aVThe thing is, the cost of innovation
+p234
+aVin bioengineering is also going down.
+p235
+aVThis is desktop gene sequencer.
+p236
+aVIt used to cost millions and millions of dollars to sequence genes.
+p237
+aVNow you can do it on a desktop like this,
+p238
+aVand kids can do this in dorm rooms.
+p239
+aVThis is Gen9 gene assembler,
+p240
+aVand so right now when you try to print a gene,
+p241
+aVwhat you do is somebody in a factory
+p242
+aVwith pipettes puts the thing together by hand,
+p243
+aVyou have one error per 100 base pairs,
+p244
+aVand it takes a long time and costs a lot of money.
+p245
+aVThis new device
+p246
+aVassembles genes on a chip,
+p247
+aVand instead of one error per 100 base pairs,
+p248
+aVit's one error per 10,000 base pairs.
+p249
+aVIn this lab, we will have the world's capacity
+p250
+aVof gene printing within a year,
+p251
+aV200 million base pairs a year.
+p252
+aVThis is kind of like when we went
+p253
+aVfrom transistor radios wrapped by hand
+p254
+aVto the Pentium.
+p255
+aVThis is going to become the Pentium of bioengineering,
+p256
+aVpushing bioengineering into the hands
+p257
+aVof dorm rooms and startup companies.
+p258
+aa(lp259
+VSo it's happening in software and in hardware
+p260
+aVand bioengineering,
+p261
+aVand so this is a fundamental new way of thinking about innovation.
+p262
+aVIt's a bottom-up innovation, it's democratic,
+p263
+aVit's chaotic, it's hard to control.
+p264
+aVIt's not bad, but it's very different,
+p265
+aVand I think that the traditional rules that we have
+p266
+aVfor institutions don't work anymore,
+p267
+aVand most of us here
+p268
+aVoperate with a different set of principles.
+p269
+aVOne of my favorite principles is the power of pull,
+p270
+aVwhich is the idea of pulling resources
+p271
+aVfrom the network as you need them
+p272
+aVrather than stocking them in the center
+p273
+aVand controlling everything.
+p274
+aa(lp275
+VSo in the case of the Safecast story,
+p276
+aVI didn't know anything when the earthquake happened,
+p277
+aVbut I was able to find Sean
+p278
+aVwho was the hackerspace community organizer,
+p279
+aVand Peter, the analog hardware hacker
+p280
+aVwho made our first Geiger counter,
+p281
+aVand Dan, who built the Three Mile Island
+p282
+aVmonitoring system after the Three Mile Island meltdown.
+p283
+aVAnd these people I wouldn't have been able to find
+p284
+aVbeforehand and probably were better
+p285
+aVthat I found them just in time from the network.
+p286
+aa(lp287
+VI'm a three-time college dropout,
+p288
+aVso learning over education
+p289
+aVis very near and dear to my heart,
+p290
+aVbut to me, education is what people do to you
+p291
+aVand learning is what you do to yourself.
+p292
+aa(lp293
+V(Applause)
+p294
+aa(lp295
+VAnd it feels like, and I'm biased,
+p296
+aVit feels like they're trying to make you memorize
+p297
+aVthe whole encyclopedia before they let you go out and play,
+p298
+aVand to me, I've got Wikipedia on my cell phone,
+p299
+aVand it feels like they assume
+p300
+aVyou're going to be on top of some mountain
+p301
+aVall by yourself with a number 2 pencil
+p302
+aVtrying to figure out what to do
+p303
+aVwhen in fact you're always going to be connected,
+p304
+aVyou're always going to have friends,
+p305
+aVand you can pull Wikipedia up whenever you need it,
+p306
+aVand what you need to learn is how to learn.
+p307
+aVIn the case of Safecast, a bunch of amateurs
+p308
+aVwhen we started three years ago,
+p309
+aVI would argue that we probably as a group
+p310
+aVknow more than any other organization
+p311
+aVabout how to collect data and publish data
+p312
+aVand do citizen science.
+p313
+aa(lp314
+VCompass over maps.
+p315
+aVSo this one, the idea is that the cost of writing a plan
+p316
+aVor mapping something is getting so expensive
+p317
+aVand it's not very accurate or useful.
+p318
+aVSo in the Safecast story, we knew we needed to collect data,
+p319
+aVwe knew we wanted to publish the data,
+p320
+aVand instead of trying to come up with the exact plan,
+p321
+aVwe first said, oh, let's get Geiger counters.
+p322
+aVOh, they've run out.
+p323
+aVLet's build them. There aren't enough sensors.
+p324
+aVOkay, then we can make a mobile Geiger counter.
+p325
+aVWe can drive around. We can get volunteers.
+p326
+aVWe don't have enough money. Let's Kickstarter it.
+p327
+aVWe could not have planned this whole thing,
+p328
+aVbut by having a very strong compass,
+p329
+aVwe eventually got to where we were going,
+p330
+aVand to me it's very similar to agile software development,
+p331
+aVbut this idea of compasses is very important.
+p332
+aa(lp333
+VSo I think the good news is
+p334
+aVthat even though the world is extremely complex,
+p335
+aVwhat you need to do is very simple.
+p336
+aVI think it's about stopping this notion
+p337
+aVthat you need to plan everything,
+p338
+aVyou need to stock everything,
+p339
+aVand you need to be so prepared,
+p340
+aVand focus on being connected,
+p341
+aValways learning,
+p342
+aVfully aware,
+p343
+aVand super present.
+p344
+aa(lp345
+VSo I don't like the word "futurist."
+p346
+aVI think we should be now-ists,
+p347
+aVlike we are right now.
+p348
+aa(lp349
+VThank you.
+p350
+aa(lp351
+V(Applause)
+p352
+aasS'transcript_micsec'
+p353
+(lp354
+I11000
+aI24000
+aI67000
+aI94000
+aI118000
+aI158000
+aI203000
+aI287000
+aI339000
+aI403000
+aI453000
+aI545000
+aI578000
+aI603000
+aI614000
+aI618000
+aI661000
+aI704000
+aI727000
+aI738000
+aI740000
+asS'talk_meta'
+p355
+(dp356
+S'ratings'
+p357
+(dp358
+S'ingenious'
+p359
+I198
+sS'beautiful'
+p360
+I89
+sS'inspiring'
+p361
+I1276
+sS'ok'
+p362
+I128
+sS'fascinating'
+p363
+I358
+sS'funny'
+p364
+I25
+sS'total_count'
+p365
+I3103
+sS'persuasive'
+p366
+I302
+sS'longwinded'
+p367
+I22
+sS'unconvincing'
+p368
+I21
+sS'informative'
+p369
+I551
+sS'jaw-dropping'
+p370
+I18
+sS'obnoxious'
+p371
+I10
+sS'courageous'
+p372
+I75
+sS'confusing'
+p373
+I30
+ssS'author'
+p374
+VJoi_Ito;
+p375
+sS'url'
+p376
+S'https://www.ted.com/talks/joi_ito_want_to_innovate_become_a_now_ist'
+p377
+sS'vidlen'
+p378
+I751
+sS'totalviews'
+p379
+I2069220
+sS'title'
+p380
+VWant to innovate? Become a "now-ist"
+p381
+sS'downloadlink'
+p382
+Vhttps://download.ted.com/talks/JoiIto_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p383
+sS'datepublished'
+p384
+cdatetime
+datetime
+p385
+(S'\x07\xde\x07\x07\x0b\x1b\x19\x00\x00\x00'
+tRp386
+sS'datefilmed'
+p387
+g385
+(S'\x07\xde\x07\x07\x0b\x1b\x19\x00\x00\x00'
+tRp388
+sS'alldata_JSON'
+p389
+S'{"viewed_count": 2069220, "speakers": [{"description": "Relentless mind", "firstname": "Joi", "title": "", "lastname": "Ito", "middleinitial": "", "whylisten": "<p>Joichi &quot;Joi&quot; Ito is one of those names threaded through the history of the Internet. From his days kickstarting Internet culture in Japan at Digital Garage, his restless curiosity led him to be an early-stage investor in Twitter, Six Apart, Wikia, Flickr, Last.fm, Kickstarter and other Internet companies, and to serve on countless boards and advisory committees around digital culture and Internet freedom.<br />&nbsp;<br />He leads the legendary MIT Media Lab as it heads toward its third decade, and is working on a book with Jeff Howe about nine principles for navigating whatever the changing culture throws at us next. As he told&nbsp;<a href=\\"http://www.wired.com/business/2012/06/resiliency-risk-and-a-good-compass-how-to-survive-the-coming-chaos/\\" target=\\"_blank\\"><em>Wired</em></a>, &quot;The amount of money and the amount of permission that you need to create an idea has decreased dramatically.&quot; So: aim for resilience, not strength; seek risk, not safety. The book is meant to be a compass for a world without maps.</p>", "slug": "joi_ito", "whotheyare": "Joi Ito is the director of the MIT Media Lab.", "whatotherssay": "[His] role at MIT, and as a globetrotting entrepreneurial tech guy, puts [him] in the center of change on a daily basis.", "id": 1776, "photo_url": "https://pe.tedcdn.com/images/ted/8b5e1fdab0f776496a3b87ed1e09ca1d838739a1_254x191.jpg"}], "current_talk": 2041, "description": "\\"Remember before the internet?\\" asks Joi Ito. \\"Remember when people used to try to predict the future?\\" In this engaging talk, the head of the MIT Media Lab skips the future predictions and instead shares a new approach to creating in the moment: building quickly and improving constantly, without waiting for permission or for proof that you have the right idea. This kind of bottom-up innovation is seen in the most fascinating, futuristic projects emerging today, and it starts, he says, with being open and alert to what\'s going on around you right now. Don\'t be a futurist, he suggests: be a now-ist.", "language": "en", "url": "https://www.ted.com/talks/joi_ito_want_to_innovate_become_a_now_ist", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JoiIto_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89339662}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JoiIto_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17295369}, "podcast-high": {"uri": "https://download.ted.com/talks/JoiIto_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89336555}, "180k": {"uri": "https://download.ted.com/talks/JoiIto_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17041880}, "64k": {"uri": "https://download.ted.com/talks/JoiIto_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6152875}, "1500k": {"uri": "https://download.ted.com/talks/JoiIto_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138717467}, "450k": {"uri": "https://download.ted.com/talks/JoiIto_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42544735}, "podcast-regular": {"uri": "https://download.ted.com/talks/JoiIto_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42659935}, "950k": {"uri": "https://download.ted.com/talks/JoiIto_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89344665}, "audio-podcast": {"uri": "https://download.ted.com/talks/JoiIto_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7781395}, "podcast-light": {"uri": "https://download.ted.com/talks/JoiIto_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6286421}, "320k": {"uri": "https://download.ted.com/talks/JoiIto_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30187405}, "600k": {"uri": "https://download.ted.com/talks/JoiIto_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56952017}}}, "comments": {"count": 100, "id": 26658, "talk_id": 2041}, "slug": "joi_ito_want_to_innovate_become_a_now_ist", "threadId": 26658, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "joi_ito_want_to_innovate_become_a_now_ist", "filmed": 1394755200, "targeting": {"event": "TED2014", "tag": "business,creativity,design,engineering,entrepreneur,innovation,investment,natural disaster,nuclear energy,product design,science,technology,telecom", "id": 2041, "talk": "joi_ito_want_to_innovate_become_a_now_ist", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "Want to innovate? Become a \\"now-ist\\"", "postAdDuration": "0.83", "published": 1404746845, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cca9263cb9a8855bc662b4ffd463fd89e3a9e081_2400x1800.jpg?quality=89&w=600", "name": "Joi Ito: Want to innovate? Become a \\"now-ist\\"", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "srp", "endonym": "Crnogorski", "isRtl": false, "ianaCode": "sr", "languageName": "Montenegrin"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "creativity", "design", "engineering", "entrepreneur", "innovation", "investment", "natural disaster", "nuclear energy", "product design", "science", "technology", "telecom"], "speaker": "Joi Ito", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 751, "id": 2041, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JoiIto_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "business,creativity,design,engineering,entrepreneur,innovation,investment,natural disaster,nuclear energy,product design,science,technology,telecom", "id": 2041, "talk": "joi_ito_want_to_innovate_become_a_now_ist", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2041.json", "stream": "https://hls.ted.com/talks/2041.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D2041%26tag%3Dbusiness%2Ccreativity%2Cdesign%2Cengineering%2Centrepreneur%2Cinnovation%2Cinvestment%2Cnatural%2Bdisaster%2Cnuclear%2Benergy%2Cproduct%2Bdesign%2Cscience%2Ctechnology%2Ctelecom%26talk%3Djoi_ito_want_to_innovate_become_a_now_ist%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/joi_ito_want_to_innovate_become_a_now_ist"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cca9263cb9a8855bc662b4ffd463fd89e3a9e081_2400x1800.jpg?q=50&w=15", "duration": 751, "id": 2041, "ratings": [{"count": 1276, "id": 10, "name": "Inspiring"}, {"count": 551, "id": 8, "name": "Informative"}, {"count": 22, "id": 11, "name": "Longwinded"}, {"count": 358, "id": 22, "name": "Fascinating"}, {"count": 302, "id": 24, "name": "Persuasive"}, {"count": 198, "id": 9, "name": "Ingenious"}, {"count": 89, "id": 1, "name": "Beautiful"}, {"count": 18, "id": 23, "name": "Jaw-dropping"}, {"count": 128, "id": 25, "name": "OK"}, {"count": 30, "id": 2, "name": "Confusing"}, {"count": 21, "id": 21, "name": "Unconvincing"}, {"count": 75, "id": 3, "name": "Courageous"}, {"count": 25, "id": 7, "name": "Funny"}, {"count": 10, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Relentless mind", "firstname": "Joi", "title": "", "lastname": "Ito", "middleinitial": "", "whylisten": "<p>Joichi &quot;Joi&quot; Ito is one of those names threaded through the history of the Internet. From his days kickstarting Internet culture in Japan at Digital Garage, his restless curiosity led him to be an early-stage investor in Twitter, Six Apart, Wikia, Flickr, Last.fm, Kickstarter and other Internet companies, and to serve on countless boards and advisory committees around digital culture and Internet freedom.<br />&nbsp;<br />He leads the legendary MIT Media Lab as it heads toward its third decade, and is working on a book with Jeff Howe about nine principles for navigating whatever the changing culture throws at us next. As he told&nbsp;<a href=\\"http://www.wired.com/business/2012/06/resiliency-risk-and-a-good-compass-how-to-survive-the-coming-chaos/\\" target=\\"_blank\\"><em>Wired</em></a>, &quot;The amount of money and the amount of permission that you need to create an idea has decreased dramatically.&quot; So: aim for resilience, not strength; seek risk, not safety. The book is meant to be a compass for a world without maps.</p>", "slug": "joi_ito", "whotheyare": "Joi Ito is the director of the MIT Media Lab.", "whatotherssay": "[His] role at MIT, and as a globetrotting entrepreneurial tech guy, puts [him] in the center of change on a daily basis.", "id": 1776, "photo_url": "https://pe.tedcdn.com/images/ted/8b5e1fdab0f776496a3b87ed1e09ca1d838739a1_254x191.jpg"}], "title": "Want to innovate? Become a \\"now-ist\\"", "take_action": null, "comments": 26658, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/cca9263cb9a8855bc662b4ffd463fd89e3a9e081_2400x1800.jpg", "description": "\\"Remember before the internet?\\" asks Joi Ito. \\"Remember when people used to try to predict the future?\\" In this engaging talk, the head of the MIT Media Lab skips the future predictions and instead shares a new approach to creating in the moment: building quickly and improving constantly, without waiting for permission or for proof that you have the right idea. This kind of bottom-up innovation is seen in the most fascinating, futuristic projects emerging today, and it starts, he says, with being open and alert to what\'s going on around you right now. Don\'t be a futurist, he suggests: be a now-ist.", "tags": ["business", "creativity", "design", "engineering", "entrepreneur", "innovation", "investment", "natural disaster", "nuclear energy", "product design", "science", "technology", "telecom"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "srp", "endonym": "Crnogorski", "isRtl": false, "ianaCode": "sr", "languageName": "Montenegrin"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JoiIto_2014-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JoiIto_2014-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JoiIto_2014-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JoiIto_2014-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JoiIto_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JoiIto_2014-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JoiIto_2014-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JoiIto_2014-low-ru.mp4"}, "pt": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JoiIto_2014-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JoiIto_2014-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JoiIto_2014-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JoiIto_2014-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JoiIto_2014-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JoiIto_2014-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JoiIto_2014-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JoiIto_2014-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JoiIto_2014-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JoiIto_2014-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JoiIto_2014-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JoiIto_2014-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JoiIto_2014-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JoiIto_2014-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JoiIto_2014-low-sr.mp4"}, "mn": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/JoiIto_2014-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JoiIto_2014-low-ko.mp4"}, "srp": {"high": "https://download.ted.com/talks/JoiIto_2014-480p-srp.mp4", "name": "Montenegrin", "low": "https://download.ted.com/talks/JoiIto_2014-low-srp.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JoiIto_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JoiIto_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JoiIto_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2041, "audioDownload": "https://download.ted.com/talks/JoiIto_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1420555, "hero": "https://pe.tedcdn.com/images/ted/137_480x360.jpg", "title": "The era of open innovation", "id": 63, "speaker": "Charles Leadbeater", "duration": 1141, "slug": "charles_leadbeater_on_innovation"}, {"viewed_count": 728258, "hero": "https://pe.tedcdn.com/images/ted/5bff5aa43672271f35a48d7cd74d211ff8b1e22b_800x600.jpg", "title": "We are makers", "id": 1065, "speaker": "Dale Dougherty", "duration": 707, "slug": "dale_dougherty_we_are_makers"}, {"viewed_count": 1623023, "hero": "https://pe.tedcdn.com/images/ted/2335b2e44dc456891306c79c91e11ecc627ea85b_800x600.jpg", "title": "From mach-20 glider to hummingbird drone", "id": 1402, "speaker": "Regina Dugan", "duration": 1501, "slug": "regina_dugan_from_mach_20_glider_to_humming_bird_drone"}, {"viewed_count": 1789235, "hero": "https://pe.tedcdn.com/images/ted/00b50a1e29f6e93682168b681f192db79a196c60_2880x1620.jpg", "title": "How Arduino is open-sourcing imagination", "id": 1491, "speaker": "Massimo Banzi", "duration": 946, "slug": "massimo_banzi_how_arduino_is_open_sourcing_imagination"}, {"viewed_count": 1615595, "hero": "https://pe.tedcdn.com/images/ted/5a28ad774c1c4c20ae23e09581f4d8e75c057777_2880x1620.jpg", "title": "Creative problem-solving in the face of extreme limits", "id": 2167, "speaker": "Navi Radjou", "duration": 985, "slug": "navi_radjou_creative_problem_solving_in_the_face_of_extreme_limits"}, {"viewed_count": 1014356, "hero": "https://pe.tedcdn.com/images/ted/513006b05e2c4a9ed835586ced60716c76ef5094_2880x1620.jpg", "title": "Four principles for the open world", "id": 1492, "speaker": "Don Tapscott", "duration": 1070, "slug": "don_tapscott_four_principles_for_the_open_world_1"}], "recorded_at": "2014-03-14T00:00:00.000+00:00", "slug": "joi_ito_want_to_innovate_become_a_now_ist", "speaker_name": "Joi Ito", "viewed_count": 2069220, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2014", "name": "Joi Ito: Want to innovate? Become a \\"now-ist\\""}'
+p390
+sS'keywords'
+p391
+(lp392
+Vbusiness
+p393
+aVcreativity
+p394
+aVdesign
+p395
+aVengineering
+p396
+aVentrepreneur
+p397
+aVinnovation
+p398
+aVinvestment
+p399
+aVnatural disaster
+p400
+aVnuclear energy
+p401
+aVproduct design
+p402
+aVscience
+p403
+aVtechnology
+p404
+aVtelecom
+p405
+asS'datecrawled'
+p406
+g385
+(S'\x07\xe1\n\x17\x02\x19)\x01R\xe6'
+tRp407
+sS'id'
+p408
+I2041
+ss.

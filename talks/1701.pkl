@@ -1,0 +1,820 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm going to talk about the strategizing brain.
+p5
+aVWe're going to use an unusual combination of tools
+p6
+aVfrom game theory and neuroscience
+p7
+aVto understand how people interact socially when value is on the line.
+p8
+aa(lp9
+VSo game theory is a branch of, originally, applied mathematics,
+p10
+aVused mostly in economics and political science, a little bit in biology,
+p11
+aVthat gives us a mathematical taxonomy of social life
+p12
+aVand it predicts what people are likely to do
+p13
+aVand believe others will do
+p14
+aVin cases where everyone's actions affect everyone else.
+p15
+aVThat's a lot of things: competition, cooperation, bargaining,
+p16
+aVgames like hide-and-seek, and poker.
+p17
+aa(lp18
+VHere's a simple game to get us started.
+p19
+aVEveryone chooses a number from zero to 100,
+p20
+aVwe're going to compute the average of those numbers,
+p21
+aVand whoever's closest to two-thirds of the average wins a fixed prize.
+p22
+aVSo you want to be a little bit below the average number,
+p23
+aVbut not too far below, and everyone else wants to be
+p24
+aVa little bit below the average number as well.
+p25
+aVThink about what you might pick.
+p26
+aVAs you're thinking, this is a toy model of something like
+p27
+aVselling in the stock market during a rising market. Right?
+p28
+aVYou don't want to sell too early, because you miss out on profits,
+p29
+aVbut you don't want to wait too late
+p30
+aVto when everyone else sells, triggering a crash.
+p31
+aVYou want to be a little bit ahead of the competition, but not too far ahead.
+p32
+aVOkay, here's two theories about how people might think about this,
+p33
+aVand then we'll see some data.
+p34
+aVSome of these will sound familiar because you probably are
+p35
+aVthinking that way. I'm using my brain theory to see.
+p36
+aVA lot of people say, "I really don't know what people are going to pick,
+p37
+aVso I think the average will be 50."
+p38
+aVThey're not being really strategic at all.
+p39
+aV"And I'll pick two-thirds of 50. That's 33." That's a start.
+p40
+aVOther people who are a little more sophisticated,
+p41
+aVusing more working memory,
+p42
+aVsay, "I think people will pick 33 because they're going to pick a response to 50,
+p43
+aVand so I'll pick 22, which is two-thirds of 33."
+p44
+aVThey're doing one extra step of thinking, two steps.
+p45
+aVThat's better. And of course, in principle,
+p46
+aVyou could do three, four or more,
+p47
+aVbut it starts to get very difficult.
+p48
+aVJust like in language and other domains, we know that it's hard for people to parse
+p49
+aVvery complex sentences with a kind of recursive structure.
+p50
+aVThis is called a cognitive hierarchy theory, by the way.
+p51
+aVIt's something that I've worked on and a few other people,
+p52
+aVand it indicates a kind of hierarchy along with
+p53
+aVsome assumptions about how many people stop at different steps
+p54
+aVand how the steps of thinking are affected
+p55
+aVby lots of interesting variables and variant people, as we'll see in a minute.
+p56
+aVA very different theory, a much more popular one, and an older one,
+p57
+aVdue largely to John Nash of "A Beautiful Mind" fame,
+p58
+aVis what's called equilibrium analysis.
+p59
+aVSo if you've ever taken a game theory course at any level,
+p60
+aVyou will have learned a little bit about this.
+p61
+aVAn equilibrium is a mathematical state in which everybody
+p62
+aVhas figured out exactly what everyone else will do.
+p63
+aVIt is a very useful concept, but behaviorally,
+p64
+aVit may not exactly explain what people do
+p65
+aVthe first time they play these types of economic games
+p66
+aVor in situations in the outside world.
+p67
+aVIn this case, the equilibrium makes a very bold prediction,
+p68
+aVwhich is everyone wants to be below everyone else,
+p69
+aVtherefore they'll play zero.
+p70
+aa(lp71
+VLet's see what happens. This experiment's been done many, many times.
+p72
+aVSome of the earliest ones were done in the '90s
+p73
+aVby me and Rosemarie Nagel and others.
+p74
+aVThis is a beautiful data set of 9,000 people who wrote in
+p75
+aVto three newspapers and magazines that had a contest.
+p76
+aVThe contest said, send in your numbers
+p77
+aVand whoever is close to two-thirds of the average will win a big prize.
+p78
+aVAnd as you can see, there's so much data here, you can see the spikes very visibly.
+p79
+aVThere's a spike at 33. Those are people doing one step.
+p80
+aVThere is another spike visible at 22.
+p81
+aVAnd notice, by the way, that most people pick numbers right around there.
+p82
+aVThey don't necessarily pick exactly 33 and 22.
+p83
+aVThere's something a little bit noisy around it.
+p84
+aVBut you can see those spikes, and they're there.
+p85
+aVThere's another group of people who seem to have
+p86
+aVa firm grip on equilibrium analysis,
+p87
+aVbecause they're picking zero or one.
+p88
+aVBut they lose, right?
+p89
+aVBecause picking a number that low is actually a bad choice
+p90
+aVif other people aren't doing equilibrium analysis as well.
+p91
+aVSo they're smart, but poor.
+p92
+aa(lp93
+V(Laughter)
+p94
+aa(lp95
+VWhere are these things happening in the brain?
+p96
+aVOne study by Coricelli and Nagel gives a really sharp, interesting answer.
+p97
+aVSo they had people play this game
+p98
+aVwhile they were being scanned in an fMRI,
+p99
+aVand two conditions: in some trials,
+p100
+aVthey're told you're playing another person
+p101
+aVwho's playing right now and we're going to match up
+p102
+aVyour behavior at the end and pay you if you win.
+p103
+aVIn the other trials, they're told, you're playing a computer.
+p104
+aVThey're just choosing randomly.
+p105
+aVSo what you see here is a subtraction
+p106
+aVof areas in which there's more brain activity
+p107
+aVwhen you're playing people compared to playing the computer.
+p108
+aVAnd you see activity in some regions we've seen today,
+p109
+aVmedial prefrontal cortex, dorsomedial, however, up here,
+p110
+aVventromedial prefrontal cortex,
+p111
+aVanterior cingulate, an area that's involved
+p112
+aVin lots of types of conflict resolution, like if you're playing "Simon Says,"
+p113
+aVand also the right and left temporoparietal junction.
+p114
+aVAnd these are all areas which are fairly reliably known
+p115
+aVto be part of what's called a "theory of mind" circuit,
+p116
+aVor "mentalizing circuit."
+p117
+aVThat is, it's a circuit that's used to imagine what other people might do.
+p118
+aVSo these were some of the first studies to see this
+p119
+aVtied in to game theory.
+p120
+aa(lp121
+VWhat happens with these one- and two-step types?
+p122
+aVSo we classify people by what they picked,
+p123
+aVand then we look at the difference between
+p124
+aVplaying humans versus playing computers,
+p125
+aVwhich brain areas are differentially active.
+p126
+aVOn the top you see the one-step players.
+p127
+aVThere's almost no difference.
+p128
+aVThe reason is, they're treating other people like a computer, and the brain is too.
+p129
+aVThe bottom players, you see all the activity in dorsomedial PFC.
+p130
+aVSo we know that those two-step players are doing something differently.
+p131
+aa(lp132
+VNow if you were to step back and say, "What can we do with this information?"
+p133
+aVyou might be able to look at brain activity and say,
+p134
+aV"This person's going to be a good poker player,"
+p135
+aVor, "This person's socially naive,"
+p136
+aVand we might also be able to study things
+p137
+aVlike development of adolescent brains
+p138
+aVonce we have an idea of where this circuitry exists.
+p139
+aa(lp140
+VOkay. Get ready.
+p141
+aVI'm saving you some brain activity,
+p142
+aVbecause you don't need to use your hair detector cells.
+p143
+aVYou should use those cells to think carefully about this game.
+p144
+aVThis is a bargaining game.
+p145
+aVTwo players who are being scanned using EEG electrodes
+p146
+aVare going to bargain over one to six dollars.
+p147
+aVIf they can do it in 10 seconds, they're going to actually earn that money.
+p148
+aVIf 10 seconds goes by and they haven't made a deal, they get nothing.
+p149
+aVThat's kind of a mistake together.
+p150
+aVThe twist is that one player, on the left,
+p151
+aVis informed about how much on each trial there is.
+p152
+aVThey play lots of trials with different amounts each time.
+p153
+aVIn this case, they know there's four dollars.
+p154
+aVThe uninformed player doesn't know,
+p155
+aVbut they know that the informed player knows.
+p156
+aVSo the uninformed player's challenge is to say,
+p157
+aV"Is this guy really being fair
+p158
+aVor are they giving me a very low offer
+p159
+aVin order to get me to think that there's only one or two dollars available to split?"
+p160
+aVin which case they might reject it and not come to a deal.
+p161
+aVSo there's some tension here between trying to get the most money
+p162
+aVbut trying to goad the other player into giving you more.
+p163
+aVAnd the way they bargain is to point on a number line
+p164
+aVthat goes from zero to six dollars,
+p165
+aVand they're bargaining over how much the uninformed player gets,
+p166
+aVand the informed player's going to get the rest.
+p167
+aVSo this is like a management-labor negotiation
+p168
+aVin which the workers don't know how much profits
+p169
+aVthe privately held company has, right,
+p170
+aVand they want to maybe hold out for more money,
+p171
+aVbut the company might want to create the impression
+p172
+aVthat there's very little to split: "I'm giving you the most that I can."
+p173
+aa(lp174
+VFirst some behavior. So a bunch of the subject pairs, they play face to face.
+p175
+aVWe have some other data where they play across computers.
+p176
+aVThat's an interesting difference, as you might imagine.
+p177
+aVBut a bunch of the face-to-face pairs
+p178
+aVagree to divide the money evenly every single time.
+p179
+aVBoring. It's just not interesting neurally.
+p180
+aVIt's good for them. They make a lot of money.
+p181
+aVBut we're interested in, can we say something about
+p182
+aVwhen disagreements occur versus don't occur?
+p183
+aa(lp184
+VSo this is the other group of subjects who often disagree.
+p185
+aVSo they have a chance of \u2014 they bicker and disagree
+p186
+aVand end up with less money.
+p187
+aVThey might be eligible to be on "Real Housewives," the TV show.
+p188
+aVYou see on the left,
+p189
+aVwhen the amount to divide is one, two or three dollars,
+p190
+aVthey disagree about half the time,
+p191
+aVand when the amount is four, five, six, they agree quite often.
+p192
+aVThis turns out to be something that's predicted
+p193
+aVby a very complicated type of game theory
+p194
+aVyou should come to graduate school at CalTech and learn about.
+p195
+aVIt's a little too complicated to explain right now,
+p196
+aVbut the theory tells you that this shape kind of should occur.
+p197
+aVYour intuition might tell you that too.
+p198
+aa(lp199
+VNow I'm going to show you the results from the EEG recording.
+p200
+aVVery complicated. The right brain schematic
+p201
+aVis the uninformed person, and the left is the informed.
+p202
+aVRemember that we scanned both brains at the same time,
+p203
+aVso we can ask about time-synced activity
+p204
+aVin similar or different areas simultaneously,
+p205
+aVjust like if you wanted to study a conversation
+p206
+aVand you were scanning two people talking to each other
+p207
+aVand you'd expect common activity in language regions
+p208
+aVwhen they're actually kind of listening and communicating.
+p209
+aVSo the arrows connect regions that are active at the same time,
+p210
+aVand the direction of the arrows flows
+p211
+aVfrom the region that's active first in time,
+p212
+aVand the arrowhead goes to the region that's active later.
+p213
+aVSo in this case, if you look carefully,
+p214
+aVmost of the arrows flow from right to left.
+p215
+aVThat is, it looks as if the uninformed brain activity
+p216
+aVis happening first,
+p217
+aVand then it's followed by activity in the informed brain.
+p218
+aVAnd by the way, these were trials where their deals were made.
+p219
+aVThis is from the first two seconds.
+p220
+aVWe haven't finished analyzing this data,
+p221
+aVso we're still peeking in, but the hope is
+p222
+aVthat we can say something in the first couple of seconds
+p223
+aVabout whether they'll make a deal or not,
+p224
+aVwhich could be very useful in thinking about avoiding litigation
+p225
+aVand ugly divorces and things like that.
+p226
+aVThose are all cases in which a lot of value is lost
+p227
+aVby delay and strikes.
+p228
+aa(lp229
+VHere's the case where the disagreements occur.
+p230
+aVYou can see it looks different than the one before.
+p231
+aVThere's a lot more arrows.
+p232
+aVThat means that the brains are synced up
+p233
+aVmore closely in terms of simultaneous activity,
+p234
+aVand the arrows flow clearly from left to right.
+p235
+aVThat is, the informed brain seems to be deciding,
+p236
+aV"We're probably not going to make a deal here."
+p237
+aVAnd then later there's activity in the uninformed brain.
+p238
+aa(lp239
+VNext I'm going to introduce you to some relatives.
+p240
+aVThey're hairy, smelly, fast and strong.
+p241
+aVYou might be thinking back to your last Thanksgiving.
+p242
+aVMaybe if you had a chimpanzee with you.
+p243
+aVCharles Darwin and I and you broke off from the family tree
+p244
+aVfrom chimpanzees about five million years ago.
+p245
+aVThey're still our closest genetic kin.
+p246
+aVWe share 98.8 percent of the genes.
+p247
+aVWe share more genes with them than zebras do with horses.
+p248
+aVAnd we're also their closest cousin.
+p249
+aVThey have more genetic relation to us than to gorillas.
+p250
+aVSo how humans and chimpanzees behave differently
+p251
+aVmight tell us a lot about brain evolution.
+p252
+aa(lp253
+VSo this is an amazing memory test
+p254
+aVfrom Nagoya, Japan, Primate Research Institute,
+p255
+aVwhere they've done a lot of this research.
+p256
+aVThis goes back quite a ways. They're interested in working memory.
+p257
+aVThe chimp is going to see, watch carefully,
+p258
+aVthey're going to see 200 milliseconds' exposure
+p259
+aV\u2014 that's fast, that's eight movie frames \u2014
+p260
+aVof numbers one, two, three, four, five.
+p261
+aVThen they disappear and they're replaced by squares,
+p262
+aVand they have to press the squares
+p263
+aVthat correspond to the numbers from low to high
+p264
+aVto get an apple reward.
+p265
+aVLet's see how they can do it.
+p266
+aVThis is a young chimp. The young ones
+p267
+aVare better than the old ones, just like humans.
+p268
+aVAnd they're highly experienced, so they've done this
+p269
+aVthousands and thousands of time.
+p270
+aVObviously there's a big training effect, as you can imagine.
+p271
+aV(Laughter)
+p272
+aVYou can see they're very blasé and kind of effortless.
+p273
+aVNot only can they do it very well, they do it in a sort of lazy way.
+p274
+aVRight? Who thinks you could beat the chimps?
+p275
+aVWrong. (Laughter)
+p276
+aVWe can try. We'll try. Maybe we'll try.
+p277
+aa(lp278
+VOkay, so the next part of this study
+p279
+aVI'm going to go quickly through
+p280
+aVis based on an idea of Tetsuro Matsuzawa.
+p281
+aVHe had a bold idea that \u2014 what he called the cognitive trade-off hypothesis.
+p282
+aVWe know chimps are faster and stronger.
+p283
+aVThey're also very obsessed with status.
+p284
+aVHis thought was, maybe they've preserved brain activities
+p285
+aVand they practice them in development
+p286
+aVthat are really, really important to them
+p287
+aVto negotiate status and to win,
+p288
+aVwhich is something like strategic thinking during competition.
+p289
+aVSo we're going to check that out
+p290
+aVby having the chimps actually play a game
+p291
+aVby touching two touch screens.
+p292
+aVThe chimps are actually interacting with each other through the computers.
+p293
+aVThey're going to press left or right.
+p294
+aVOne chimp is called a matcher.
+p295
+aVThey win if they press left, left,
+p296
+aVlike a seeker finding someone in hide-and-seek, or right, right.
+p297
+aVThe mismatcher wants to mismatch.
+p298
+aVThey want to press the opposite screen of the chimp.
+p299
+aVAnd the rewards are apple cube rewards.
+p300
+aVSo here's how game theorists look at these data.
+p301
+aVThis is a graph of the percentage of times
+p302
+aVthe matcher picked right on the x-axis,
+p303
+aVand the percentage of times they predicted right
+p304
+aVby the mismatcher on the y-axis.
+p305
+aVSo a point here is the behavior by a pair of players,
+p306
+aVone trying to match, one trying to mismatch.
+p307
+aVThe NE square in the middle \u2014 actually NE, CH and QRE \u2014
+p308
+aVthose are three different theories of Nash equilibrium, and others,
+p309
+aVtells you what the theory predicts,
+p310
+aVwhich is that they should match 50-50,
+p311
+aVbecause if you play left too much, for example,
+p312
+aVI can exploit that if I'm the mismatcher by then playing right.
+p313
+aVAnd as you can see, the chimps, each chimp is one triangle,
+p314
+aVare circled around, hovering around that prediction.
+p315
+aa(lp316
+VNow we move the payoffs.
+p317
+aVWe're actually going to make the left, left payoff for the matcher a little bit higher.
+p318
+aVNow they get three apple cubes.
+p319
+aVGame theoretically, that should actually make the mismatcher's behavior shift,
+p320
+aVbecause what happens is, the mismatcher will think,
+p321
+aVoh, this guy's going to go for the big reward,
+p322
+aVand so I'm going to go to the right, make sure he doesn't get it.
+p323
+aVAnd as you can see, their behavior moves up
+p324
+aVin the direction of this change in the Nash equilibrium.
+p325
+aVFinally, we changed the payoffs one more time.
+p326
+aVNow it's four apple cubes,
+p327
+aVand their behavior again moves towards the Nash equilibrium.
+p328
+aVIt's sprinkled around, but if you average the chimps out,
+p329
+aVthey're really, really close, within .01.
+p330
+aVThey're actually closer than any species we've observed.
+p331
+aa(lp332
+VWhat about humans? You think you're smarter than a chimpanzee?
+p333
+aVHere's two human groups in green and blue.
+p334
+aVThey're closer to 50-50. They're not responding to payoffs as closely,
+p335
+aVand also if you study their learning in the game,
+p336
+aVthey aren't as sensitive to previous rewards.
+p337
+aVThe chimps are playing better than the humans,
+p338
+aVbetter in the sense of adhering to game theory.
+p339
+aVAnd these are two different groups of humans
+p340
+aVfrom Japan and Africa. They replicate quite nicely.
+p341
+aVNone of them are close to where the chimps are.
+p342
+aa(lp343
+VSo here are some things we learned today.
+p344
+aVPeople seem to do a limited amount of strategic thinking
+p345
+aVusing theory of mind.
+p346
+aVWe have some preliminary evidence from bargaining
+p347
+aVthat early warning signs in the brain might be used to predict
+p348
+aVwhether there will be a bad disagreement that costs money,
+p349
+aVand chimps are better competitors than humans,
+p350
+aVas judged by game theory.
+p351
+aVThank you.
+p352
+aV(Applause)
+p353
+aasS'transcript_micsec'
+p354
+(lp355
+I11000
+aI21000
+aI44000
+aI176000
+aI228000
+aI230000
+aI289000
+aI311000
+aI326000
+aI406000
+aI430000
+aI464000
+aI537000
+aI557000
+aI590000
+aI653000
+aI741000
+aI776000
+aI801000
+asS'talk_meta'
+p356
+(dp357
+S'ratings'
+p358
+(dp359
+S'ingenious'
+p360
+I40
+sS'funny'
+p361
+I25
+sS'inspiring'
+p362
+I18
+sS'ok'
+p363
+I49
+sS'fascinating'
+p364
+I183
+sS'total_count'
+p365
+I715
+sS'persuasive'
+p366
+I42
+sS'longwinded'
+p367
+I8
+sS'unconvincing'
+p368
+I23
+sS'informative'
+p369
+I234
+sS'beautiful'
+p370
+I7
+sS'jaw-dropping'
+p371
+I15
+sS'obnoxious'
+p372
+I0
+sS'courageous'
+p373
+I1
+sS'confusing'
+p374
+I70
+ssS'author'
+p375
+VColin_Camerer;
+p376
+sS'url'
+p377
+S'https://www.ted.com/talks/colin_camerer_neuroscience_game_theory_monkeys'
+p378
+sS'vidlen'
+p379
+I829
+sS'totalviews'
+p380
+I1360042
+sS'title'
+p381
+VWhen you're making a deal, what's going on in your brain?
+p382
+sS'downloadlink'
+p383
+Vhttps://download.ted.com/talks/ColinCamerer_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p384
+sS'datepublished'
+p385
+cdatetime
+datetime
+p386
+(S'\x07\xdd\x03\x1c\x0b\x03\r\x00\x00\x00'
+tRp387
+sS'datefilmed'
+p388
+g386
+(S'\x07\xdd\x03\x1c\x0b\x03\r\x00\x00\x00'
+tRp389
+sS'alldata_JSON'
+p390
+S'{"viewed_count": 1360042, "speakers": [{"description": "Behavioral economist", "firstname": "Colin", "title": "", "lastname": "Camerer", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.hss.caltech.edu/~camerer/camerer.html\\" target=\\"_blank\\">Colin Camerer</a> focuses on  brain behavior during decision making, strategizing and market trading. He is the Robert Kirby Professor of Behavioral Finance and Economics at the California Institute of Technology. A child prodigy in his youth, Camerer received a B.A. in quantitative studies from Johns Hopkins when he was just 17 and a PhD in decision theory from the University of Chicago Graduate School of Business when he was 22. Camerer&#39;s research departs from previous theory in that it does not assume the mind to be a rational and perfect system, but rather focuses on the limitations of everyday people when they play actual games, and seeks to predict how they will behave in situations that involve strategy. His studies focus on neurological findings from economic experiments in the lab (on humans -- and monkeys!) Camerer is the author of&nbsp;<em><a href=\\"http://geni.us/behavioralgametheory\\" target=\\"_blank\\">Behavioral Game Theory</a>.</em></p>", "slug": "colin_camerer", "whotheyare": "Colin Camerer is a leading behavioral economist who studies the psychological and neural bases of choice and strategic decision-making.", "whatotherssay": "Colin Camerer\'s <em>Behavioral Game Theory</em> is a major achievement. Nothing like it is available thus far. ... [Camerer] has taken the trouble to \'talk through\' hundreds of tricky arguments that elsewhere just get stated mathematically.", "id": 1566, "photo_url": "https://pe.tedcdn.com/images/ted/b3547d3d81da6f03a604f8b2bc6e8e588ec463e2_254x191.jpg"}], "current_talk": 1701, "description": "When two people are trying to make a deal -- whether they\\u2019re competing or cooperating -- what\\u2019s really going on inside their brains? Behavioral economist Colin Camerer shows research that reveals how badly we predict what others are thinking. Bonus: He presents an unexpected study that shows chimpanzees might just be better at it.", "language": "en", "url": "https://www.ted.com/talks/colin_camerer_neuroscience_game_theory_monkeys", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97072836}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19129680}, "podcast-high": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97101772}, "180k": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18885772}, "64k": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6812668}, "1500k": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 151408131}, "450k": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47219347}, "podcast-regular": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47334625}, "950k": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97091759}, "audio-podcast": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8588590}, "podcast-light": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6946200}, "320k": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33505777}, "600k": {"uri": "https://download.ted.com/talks/ColinCamerer_2013X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63174655}}}, "comments": {"count": 80, "id": 19032, "talk_id": 1701}, "slug": "colin_camerer_neuroscience_game_theory_monkeys", "threadId": 19032, "talks": [{"event": "TEDxCaltech", "player_talks": [{"event": "TEDxCaltech", "slug": "colin_camerer_neuroscience_game_theory_monkeys", "filmed": 1358467200, "targeting": {"event": "TEDxCaltech", "tag": "TEDx,behavioral economics,choice,economics,monkeys,neuroscience", "id": 1701, "talk": "colin_camerer_neuroscience_game_theory_monkeys", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "When you\'re making a deal, what\'s going on in your brain?", "postAdDuration": "0.83", "published": 1364482993, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e4ab255d8399a17e0dcf80aeee8718d7b76ac68e_1600x1200.jpg?quality=89&w=600", "name": "Colin Camerer: When you\'re making a deal, what\'s going on in your brain?", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "behavioral economics", "choice", "economics", "monkeys", "neuroscience"], "speaker": "Colin Camerer", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 829, "id": 1701, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ColinCamerer_2013X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxCaltech", "tag": "TEDx,behavioral economics,choice,economics,monkeys,neuroscience", "id": 1701, "talk": "colin_camerer_neuroscience_game_theory_monkeys", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1701.json", "stream": "https://hls.ted.com/talks/1701.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxCaltech%26id%3D1701%26tag%3DTEDx%2Cbehavioral%2Beconomics%2Cchoice%2Ceconomics%2Cmonkeys%2Cneuroscience%26talk%3Dcolin_camerer_neuroscience_game_theory_monkeys%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/colin_camerer_neuroscience_game_theory_monkeys"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e4ab255d8399a17e0dcf80aeee8718d7b76ac68e_1600x1200.jpg?q=50&w=15", "duration": 829, "id": 1701, "ratings": [{"count": 70, "id": 2, "name": "Confusing"}, {"count": 183, "id": 22, "name": "Fascinating"}, {"count": 234, "id": 8, "name": "Informative"}, {"count": 40, "id": 9, "name": "Ingenious"}, {"count": 42, "id": 24, "name": "Persuasive"}, {"count": 49, "id": 25, "name": "OK"}, {"count": 8, "id": 11, "name": "Longwinded"}, {"count": 23, "id": 21, "name": "Unconvincing"}, {"count": 15, "id": 23, "name": "Jaw-dropping"}, {"count": 25, "id": 7, "name": "Funny"}, {"count": 18, "id": 10, "name": "Inspiring"}, {"count": 7, "id": 1, "name": "Beautiful"}, {"count": 1, "id": 3, "name": "Courageous"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Behavioral economist", "firstname": "Colin", "title": "", "lastname": "Camerer", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.hss.caltech.edu/~camerer/camerer.html\\" target=\\"_blank\\">Colin Camerer</a> focuses on  brain behavior during decision making, strategizing and market trading. He is the Robert Kirby Professor of Behavioral Finance and Economics at the California Institute of Technology. A child prodigy in his youth, Camerer received a B.A. in quantitative studies from Johns Hopkins when he was just 17 and a PhD in decision theory from the University of Chicago Graduate School of Business when he was 22. Camerer&#39;s research departs from previous theory in that it does not assume the mind to be a rational and perfect system, but rather focuses on the limitations of everyday people when they play actual games, and seeks to predict how they will behave in situations that involve strategy. His studies focus on neurological findings from economic experiments in the lab (on humans -- and monkeys!) Camerer is the author of&nbsp;<em><a href=\\"http://geni.us/behavioralgametheory\\" target=\\"_blank\\">Behavioral Game Theory</a>.</em></p>", "slug": "colin_camerer", "whotheyare": "Colin Camerer is a leading behavioral economist who studies the psychological and neural bases of choice and strategic decision-making.", "whatotherssay": "Colin Camerer\'s <em>Behavioral Game Theory</em> is a major achievement. Nothing like it is available thus far. ... [Camerer] has taken the trouble to \'talk through\' hundreds of tricky arguments that elsewhere just get stated mathematically.", "id": 1566, "photo_url": "https://pe.tedcdn.com/images/ted/b3547d3d81da6f03a604f8b2bc6e8e588ec463e2_254x191.jpg"}], "title": "When you\'re making a deal, what\'s going on in your brain?", "take_action": null, "comments": 19032, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/e4ab255d8399a17e0dcf80aeee8718d7b76ac68e_1600x1200.jpg", "description": "When two people are trying to make a deal -- whether they\\u2019re competing or cooperating -- what\\u2019s really going on inside their brains? Behavioral economist Colin Camerer shows research that reveals how badly we predict what others are thinking. Bonus: He presents an unexpected study that shows chimpanzees might just be better at it.", "tags": ["TEDx", "behavioral economics", "choice", "economics", "monkeys", "neuroscience"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/ColinCamerer_2013X-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ColinCamerer_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ColinCamerer_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ColinCamerer_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1701, "audioDownload": "https://download.ted.com/talks/ColinCamerer_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 10104430, "hero": "https://pe.tedcdn.com/images/ted/bf2541157cdf5741f11ddea013c19b4ce5201be4_2880x1620.jpg", "title": "The paradox of choice", "id": 93, "speaker": "Barry Schwartz", "duration": 1177, "slug": "barry_schwartz_on_the_paradox_of_choice"}, {"viewed_count": 4988070, "hero": "https://pe.tedcdn.com/images/ted/b0b460f21168896b3f4933b24dd427c64e8ba22c_2880x1620.jpg", "title": "Are we in control of our own decisions?", "id": 548, "speaker": "Dan Ariely", "duration": 1046, "slug": "dan_ariely_asks_are_we_in_control_of_our_own_decisions"}, {"viewed_count": 3110136, "hero": "https://pe.tedcdn.com/images/ted/fd1ebbd085889f33892ea98787e53d6ce789bbc3_2880x1620.jpg", "title": "The art of choosing", "id": 924, "speaker": "Sheena Iyengar", "duration": 1448, "slug": "sheena_iyengar_on_the_art_of_choosing"}, {"viewed_count": 4777354, "hero": "https://pe.tedcdn.com/images/ted/4fb87a3ff55d4cfed46fea777350f350e538484d_2880x1620.jpg", "title": "Your brain on video games", "id": 1618, "speaker": "Daphne Bavelier", "duration": 1077, "slug": "daphne_bavelier_your_brain_on_video_games"}, {"viewed_count": 1027532, "hero": "https://pe.tedcdn.com/images/ted/87897eb99c1b0061cca8f820dfe97a5bdb22d813_1600x1200.jpg", "title": "7 ways games reward the brain", "id": 996, "speaker": "Tom Chatfield", "duration": 988, "slug": "tom_chatfield_7_ways_games_reward_the_brain"}, {"viewed_count": 697147, "hero": "https://pe.tedcdn.com/images/ted/ebc788e8b0cb1fe1309ecf8d171270b4761da04e_1600x1200.jpg", "title": "What we\'re learning from 5,000 brains", "id": 1573, "speaker": "Read Montague", "duration": 803, "slug": "read_montague_what_we_re_learning_from_5_000_brains"}], "recorded_at": "2013-01-18T00:00:00.000+00:00", "slug": "colin_camerer_neuroscience_game_theory_monkeys", "speaker_name": "Colin Camerer", "viewed_count": 1360042, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxCaltech, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxCaltech", "name": "Colin Camerer: When you\'re making a deal, what\'s going on in your brain?"}'
+p391
+sS'keywords'
+p392
+(lp393
+VTEDx
+p394
+aVbehavioral economics
+p395
+aVchoice
+p396
+aVeconomics
+p397
+aVmonkeys
+p398
+aVneuroscience
+p399
+asS'datecrawled'
+p400
+g386
+(S'\x07\xe1\n\x17\x02(\t\tUH'
+tRp401
+sS'id'
+p402
+I1701
+ss.

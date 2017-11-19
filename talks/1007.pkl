@@ -1,0 +1,964 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe've got a real problem with math education right now.
+p5
+aVBasically, no one's very happy.
+p6
+aVThose learning it
+p7
+aVthink it's disconnected,
+p8
+aVuninteresting and hard.
+p9
+aVThose trying to employ them
+p10
+aVthink they don't know enough.
+p11
+aVGovernments realize that it's a big deal for our economies,
+p12
+aVbut don't know how to fix it.
+p13
+aVAnd teachers are also frustrated.
+p14
+aVYet math is more important to the world
+p15
+aVthan at any point in human history.
+p16
+aVSo at one end we've got falling interest
+p17
+aVin education in math,
+p18
+aVand at the other end we've got a more mathematical world,
+p19
+aVa more quantitative world than we ever have had.
+p20
+aa(lp21
+VSo what's the problem, why has this chasm opened up,
+p22
+aVand what can we do to fix it?
+p23
+aVWell actually, I think the answer
+p24
+aVis staring us right in the face:
+p25
+aVUse computers.
+p26
+aVI believe
+p27
+aVthat correctly using computers
+p28
+aVis the silver bullet
+p29
+aVfor making math education work.
+p30
+aVSo to explain that,
+p31
+aVlet me first talk a bit about what math looks like in the real world
+p32
+aVand what it looks like in education.
+p33
+aVSee, in the real world
+p34
+aVmath isn't necessarily done by mathematicians.
+p35
+aVIt's done by geologists,
+p36
+aVengineers, biologists,
+p37
+aVall sorts of different people \u2014
+p38
+aVmodeling and simulation.
+p39
+aVIt's actually very popular.
+p40
+aVBut in education it looks very different \u2014
+p41
+aVdumbed-down problems, lots of calculating,
+p42
+aVmostly by hand.
+p43
+aVLots of things that seem simple
+p44
+aVand not difficult like in the real world,
+p45
+aVexcept if you're learning it.
+p46
+aVAnd another thing about math:
+p47
+aVmath sometimes looks like math \u2014
+p48
+aVlike in this example here \u2014
+p49
+aVand sometimes it doesn't \u2014
+p50
+aVlike "Am I drunk?"
+p51
+aVAnd then you get an answer that's quantitative in the modern world.
+p52
+aVYou wouldn't have expected that a few years back.
+p53
+aVBut now you can find out all about \u2014
+p54
+aVunfortunately, my weight is a little higher than that, but \u2014
+p55
+aVall about what happens.
+p56
+aa(lp57
+VSo let's zoom out a bit and ask,
+p58
+aVwhy are we teaching people math?
+p59
+aVWhat's the point of teaching people math?
+p60
+aVAnd in particular, why are we teaching them math in general?
+p61
+aVWhy is it such an important part of education
+p62
+aVas a sort of compulsory subject?
+p63
+aVWell, I think there are about three reasons:
+p64
+aVtechnical jobs
+p65
+aVso critical to the development of our economies,
+p66
+aVwhat I call "everyday living" \u2014
+p67
+aVto function in the world today,
+p68
+aVyou've got to be pretty quantitative,
+p69
+aVmuch more so than a few years ago:
+p70
+aVfigure out your mortgages,
+p71
+aVbeing skeptical of government statistics, those kinds of things \u2014
+p72
+aVand thirdly, what I would call something like
+p73
+aVlogical mind training, logical thinking.
+p74
+aVOver the years
+p75
+aVwe've put so much in society
+p76
+aVinto being able to process and think logically. It's part of human society.
+p77
+aVIt's very important to learn that
+p78
+aVmath is a great way to do that.
+p79
+aa(lp80
+VSo let's ask another question.
+p81
+aVWhat is math?
+p82
+aVWhat do we mean when we say we're doing math,
+p83
+aVor educating people to do math?
+p84
+aVWell, I think it's about four steps, roughly speaking,
+p85
+aVstarting with posing the right question.
+p86
+aVWhat is it that we want to ask? What is it we're trying to find out here?
+p87
+aVAnd this is the thing most screwed up in the outside world,
+p88
+aVbeyond virtually any other part of doing math.
+p89
+aVPeople ask the wrong question,
+p90
+aVand surprisingly enough, they get the wrong answer,
+p91
+aVfor that reason, if not for others.
+p92
+aVSo the next thing is take that problem
+p93
+aVand turn it from a real world problem
+p94
+aVinto a math problem.
+p95
+aVThat's stage two.
+p96
+aVOnce you've done that, then there's the computation step.
+p97
+aVTurn it from that into some answer
+p98
+aVin a mathematical form.
+p99
+aVAnd of course, math is very powerful at doing that.
+p100
+aVAnd then finally, turn it back to the real world.
+p101
+aVDid it answer the question?
+p102
+aVAnd also verify it \u2014 crucial step.
+p103
+aVNow here's the crazy thing right now.
+p104
+aVIn math education,
+p105
+aVwe're spending about perhaps 80 percent of the time
+p106
+aVteaching people to do step three by hand.
+p107
+aVYet, that's the one step computers can do
+p108
+aVbetter than any human after years of practice.
+p109
+aVInstead, we ought to be using computers
+p110
+aVto do step three
+p111
+aVand using the students to spend much more effort
+p112
+aVon learning how to do steps one, two and four \u2014
+p113
+aVconceptualizing problems, applying them,
+p114
+aVgetting the teacher to run them through how to do that.
+p115
+aa(lp116
+VSee, crucial point here:
+p117
+aVmath is not equal to calculating.
+p118
+aVMath is a much broader subject than calculating.
+p119
+aVNow it's understandable that this has all got intertwined
+p120
+aVover hundreds of years.
+p121
+aVThere was only one way to do calculating and that was by hand.
+p122
+aVBut in the last few decades
+p123
+aVthat has totally changed.
+p124
+aVWe've had the biggest transformation of any ancient subject
+p125
+aVthat I could ever imagine with computers.
+p126
+aVCalculating was typically the limiting step,
+p127
+aVand now often it isn't.
+p128
+aVSo I think in terms of the fact that math
+p129
+aVhas been liberated from calculating.
+p130
+aVBut that math liberation didn't get into education yet.
+p131
+aVSee, I think of calculating, in a sense,
+p132
+aVas the machinery of math.
+p133
+aVIt's the chore.
+p134
+aVIt's the thing you'd like to avoid if you can, like to get a machine to do.
+p135
+aVIt's a means to an end, not an end in itself,
+p136
+aVand automation allows us
+p137
+aVto have that machinery.
+p138
+aVComputers allow us to do that \u2014
+p139
+aVand this is not a small problem by any means.
+p140
+aVI estimated that, just today, across the world,
+p141
+aVwe spent about 106 average world lifetimes
+p142
+aVteaching people how to calculate by hand.
+p143
+aVThat's an amazing amount of human endeavor.
+p144
+aVSo we better be damn sure \u2014
+p145
+aVand by the way, they didn't even have fun doing it, most of them \u2014
+p146
+aVso we better be damn sure
+p147
+aVthat we know why we're doing that
+p148
+aVand it has a real purpose.
+p149
+aa(lp150
+VI think we should be assuming computers
+p151
+aVfor doing the calculating
+p152
+aVand only doing hand calculations where it really makes sense to teach people that.
+p153
+aVAnd I think there are some cases.
+p154
+aVFor example: mental arithmetic.
+p155
+aVI still do a lot of that, mainly for estimating.
+p156
+aVPeople say, "Is such and such true?"
+p157
+aVAnd I'll say, "Hmm, not sure." I'll think about it roughly.
+p158
+aVIt's still quicker to do that and more practical.
+p159
+aVSo I think practicality is one case
+p160
+aVwhere it's worth teaching people by hand.
+p161
+aVAnd then there are certain conceptual things
+p162
+aVthat can also benefit from hand calculating,
+p163
+aVbut I think they're relatively small in number.
+p164
+aVOne thing I often ask about
+p165
+aVis ancient Greek and how this relates.
+p166
+aVSee, the thing we're doing right now
+p167
+aVis we're forcing people to learn mathematics.
+p168
+aVIt's a major subject.
+p169
+aVI'm not for one minute suggesting that, if people are interested in hand calculating
+p170
+aVor in following their own interests
+p171
+aVin any subject however bizarre \u2014
+p172
+aVthey should do that.
+p173
+aVThat's absolutely the right thing,
+p174
+aVfor people to follow their self-interest.
+p175
+aVI was somewhat interested in ancient Greek,
+p176
+aVbut I don't think that we should force the entire population
+p177
+aVto learn a subject like ancient Greek.
+p178
+aVI don't think it's warranted.
+p179
+aVSo I have this distinction between what we're making people do
+p180
+aVand the subject that's sort of mainstream
+p181
+aVand the subject that, in a sense, people might follow with their own interest
+p182
+aVand perhaps even be spiked into doing that.
+p183
+aa(lp184
+VSo what are the issues people bring up with this?
+p185
+aVWell one of them is, they say, you need to get the basics first.
+p186
+aVYou shouldn't use the machine
+p187
+aVuntil you get the basics of the subject.
+p188
+aVSo my usual question is, what do you mean by "basics?"
+p189
+aVBasics of what?
+p190
+aVAre the basics of driving a car
+p191
+aVlearning how to service it, or design it for that matter?
+p192
+aVAre the basics of writing learning how to sharpen a quill?
+p193
+aVI don't think so.
+p194
+aVI think you need to separate the basics of what you're trying to do
+p195
+aVfrom how it gets done
+p196
+aVand the machinery of how it gets done
+p197
+aVand automation allows you to make that separation.
+p198
+aVA hundred years ago, it's certainly true that to drive a car
+p199
+aVyou kind of needed to know a lot about the mechanics of the car
+p200
+aVand how the ignition timing worked and all sorts of things.
+p201
+aVBut automation in cars
+p202
+aVallowed that to separate,
+p203
+aVso driving is now a quite separate subject, so to speak,
+p204
+aVfrom engineering of the car
+p205
+aVor learning how to service it.
+p206
+aVSo automation allows this separation
+p207
+aVand also allows \u2014 in the case of driving,
+p208
+aVand I believe also in the future case of maths \u2014
+p209
+aVa democratized way of doing that.
+p210
+aVIt can be spread across a much larger number of people
+p211
+aVwho can really work with that.
+p212
+aa(lp213
+VSo there's another thing that comes up with basics.
+p214
+aVPeople confuse, in my view,
+p215
+aVthe order of the invention of the tools
+p216
+aVwith the order in which they should use them for teaching.
+p217
+aVSo just because paper was invented before computers,
+p218
+aVit doesn't necessarily mean you get more to the basics of the subject
+p219
+aVby using paper instead of a computer
+p220
+aVto teach mathematics.
+p221
+aVMy daughter gave me a rather nice anecdote on this.
+p222
+aVShe enjoys making what she calls "paper laptops."
+p223
+aV(Laughter)
+p224
+aVSo I asked her one day, "You know, when I was your age,
+p225
+aVI didn't make these.
+p226
+aVWhy do you think that was?"
+p227
+aVAnd after a second or two, carefully reflecting,
+p228
+aVshe said, "No paper?"
+p229
+aV(Laughter)
+p230
+aVIf you were born after computers and paper,
+p231
+aVit doesn't really matter which order you're taught with them in,
+p232
+aVyou just want to have the best tool.
+p233
+aa(lp234
+VSo another one that comes up is "Computers dumb math down."
+p235
+aVThat somehow, if you use a computer,
+p236
+aVit's all mindless button-pushing,
+p237
+aVbut if you do it by hand,
+p238
+aVit's all intellectual.
+p239
+aVThis one kind of annoys me, I must say.
+p240
+aVDo we really believe
+p241
+aVthat the math that most people are doing in school
+p242
+aVpractically today
+p243
+aVis more than applying procedures
+p244
+aVto problems they don't really understand, for reasons they don't get?
+p245
+aVI don't think so.
+p246
+aVAnd what's worse, what they're learning there isn't even practically useful anymore.
+p247
+aVMight have been 50 years ago, but it isn't anymore.
+p248
+aVWhen they're out of education, they do it on a computer.
+p249
+aVJust to be clear, I think computers can really help with this problem,
+p250
+aVactually make it more conceptual.
+p251
+aVNow, of course, like any great tool,
+p252
+aVthey can be used completely mindlessly,
+p253
+aVlike turning everything into a multimedia show,
+p254
+aVlike the example I was shown of solving an equation by hand,
+p255
+aVwhere the computer was the teacher \u2014
+p256
+aVshow the student how to manipulate and solve it by hand.
+p257
+aVThis is just nuts.
+p258
+aVWhy are we using computers to show a student how to solve a problem by hand
+p259
+aVthat the computer should be doing anyway?
+p260
+aVAll backwards.
+p261
+aa(lp262
+VLet me show you
+p263
+aVthat you can also make problems harder to calculate.
+p264
+aVSee, normally in school,
+p265
+aVyou do things like solve quadratic equations.
+p266
+aVBut you see, when you're using a computer,
+p267
+aVyou can just substitute.
+p268
+aVYou can make it a quartic equation. Make it kind of harder, calculating-wise.
+p269
+aVSame principles applied \u2014
+p270
+aVcalculations, harder.
+p271
+aVAnd problems in the real world
+p272
+aVlook nutty and horrible like this.
+p273
+aVThey've got hair all over them.
+p274
+aVThey're not just simple, dumbed-down things that we see in school math.
+p275
+aVAnd think of the outside world.
+p276
+aVDo we really believe that engineering and biology
+p277
+aVand all of these other things
+p278
+aVthat have so benefited from computers and maths
+p279
+aVhave somehow conceptually gotten reduced by using computers?
+p280
+aVI don't think so \u2014 quite the opposite.
+p281
+aVSo the problem we've really got in math education
+p282
+aVis not that computers might dumb it down,
+p283
+aVbut that we have dumbed-down problems right now.
+p284
+aVWell, another issue people bring up
+p285
+aVis somehow that hand calculating procedures
+p286
+aVteach understanding.
+p287
+aVSo if you go through lots of examples,
+p288
+aVyou can get the answer,
+p289
+aVyou can understand how the basics of the system work better.
+p290
+aVI think there is one thing that I think very valid here,
+p291
+aVwhich is that I think understanding procedures and processes is important.
+p292
+aVBut there's a fantastic way to do that in the modern world.
+p293
+aVIt's called programming.
+p294
+aa(lp295
+VProgramming is how most procedures and processes
+p296
+aVget written down these days,
+p297
+aVand it's also a great way
+p298
+aVto engage students much more
+p299
+aVand to check they really understand.
+p300
+aVIf you really want to check you understand math
+p301
+aVthen write a program to do it.
+p302
+aVSo programming is the way I think we should be doing that.
+p303
+aVSo to be clear, what I really am suggesting here
+p304
+aVis we have a unique opportunity
+p305
+aVto make maths both more practical
+p306
+aVand more conceptual, simultaneously.
+p307
+aVI can't think of any other subject where that's recently been possible.
+p308
+aVIt's usually some kind of choice
+p309
+aVbetween the vocational and the intellectual.
+p310
+aVBut I think we can do both at the same time here.
+p311
+aVAnd we open up so many more possibilities.
+p312
+aVYou can do so many more problems.
+p313
+aVWhat I really think we gain from this
+p314
+aVis students getting intuition and experience
+p315
+aVin far greater quantities than they've ever got before.
+p316
+aVAnd experience of harder problems \u2014
+p317
+aVbeing able to play with the math, interact with it,
+p318
+aVfeel it.
+p319
+aVWe want people who can feel the math instinctively.
+p320
+aVThat's what computers allow us to do.
+p321
+aa(lp322
+VAnother thing it allows us to do is reorder the curriculum.
+p323
+aVTraditionally it's been by how difficult it is to calculate,
+p324
+aVbut now we can reorder it
+p325
+aVby how difficult it is to understand the concepts,
+p326
+aVhowever hard the calculating.
+p327
+aVSo calculus has traditionally been taught very late.
+p328
+aVWhy is this?
+p329
+aVWell, it's damn hard doing the calculations, that's the problem.
+p330
+aVBut actually many of the concepts
+p331
+aVare amenable to a much younger age group.
+p332
+aVThis was an example I built for my daughter.
+p333
+aVAnd very, very simple.
+p334
+aVWe were talking about what happens
+p335
+aVwhen you increase the number of sides of a polygon
+p336
+aVto a very large number.
+p337
+aVAnd of course, it turns into a circle.
+p338
+aVAnd by the way, she was also very insistent
+p339
+aVon being able to change the color,
+p340
+aVan important feature for this demonstration.
+p341
+aVYou can see that this is a very early step
+p342
+aVinto limits and differential calculus
+p343
+aVand what happens when you take things to an extreme \u2014
+p344
+aVand very small sides and a very large number of sides.
+p345
+aVVery simple example.
+p346
+aVThat's a view of the world
+p347
+aVthat we don't usually give people for many, many years after this.
+p348
+aVAnd yet, that's a really important practical view of the world.
+p349
+aVSo one of the roadblocks we have
+p350
+aVin moving this agenda forward
+p351
+aVis exams.
+p352
+aVIn the end, if we test everyone by hand in exams,
+p353
+aVit's kind of hard to get the curricula changed
+p354
+aVto a point where they can use computers
+p355
+aVduring the semesters.
+p356
+aa(lp357
+VAnd one of the reasons it's so important \u2014
+p358
+aVso it's very important to get computers in exams.
+p359
+aVAnd then we can ask questions, real questions,
+p360
+aVquestions like, what's the best life insurance policy to get? \u2014
+p361
+aVreal questions that people have in their everyday lives.
+p362
+aVAnd you see, this isn't some dumbed-down model here.
+p363
+aVThis is an actual model where we can be asked to optimize what happens.
+p364
+aVHow many years of protection do I need?
+p365
+aVWhat does that do to the payments
+p366
+aVand to the interest rates and so forth?
+p367
+aVNow I'm not for one minute suggesting it's the only kind of question
+p368
+aVthat should be asked in exams,
+p369
+aVbut I think it's a very important type
+p370
+aVthat right now just gets completely ignored
+p371
+aVand is critical for people's real understanding.
+p372
+aa(lp373
+VSo I believe [there is] critical reform
+p374
+aVwe have to do in computer-based math.
+p375
+aVWe have got to make sure
+p376
+aVthat we can move our economies forward,
+p377
+aVand also our societies,
+p378
+aVbased on the idea that people can really feel mathematics.
+p379
+aVThis isn't some optional extra.
+p380
+aVAnd the country that does this first
+p381
+aVwill, in my view, leapfrog others
+p382
+aVin achieving a new economy even,
+p383
+aVan improved economy,
+p384
+aVan improved outlook.
+p385
+aVIn fact, I even talk about us moving
+p386
+aVfrom what we often call now the "knowledge economy"
+p387
+aVto what we might call a "computational knowledge economy,"
+p388
+aVwhere high-level math is integral to what everyone does
+p389
+aVin the way that knowledge currently is.
+p390
+aVWe can engage so many more students with this,
+p391
+aVand they can have a better time doing it.
+p392
+aVAnd let's understand:
+p393
+aVthis is not an incremental sort of change.
+p394
+aVWe're trying to cross the chasm here
+p395
+aVbetween school math and the real-world math.
+p396
+aVAnd you know if you walk across a chasm,
+p397
+aVyou end up making it worse than if you didn't start at all \u2014
+p398
+aVbigger disaster.
+p399
+aVNo, what I'm suggesting
+p400
+aVis that we should leap off,
+p401
+aVwe should increase our velocity
+p402
+aVso it's high,
+p403
+aVand we should leap off one side and go the other \u2014
+p404
+aVof course, having calculated our differential equation very carefully.
+p405
+aa(lp406
+V(Laughter)
+p407
+aa(lp408
+VSo I want to see
+p409
+aVa completely renewed, changed math curriculum
+p410
+aVbuilt from the ground up,
+p411
+aVbased on computers being there,
+p412
+aVcomputers that are now ubiquitous almost.
+p413
+aVCalculating machines are everywhere
+p414
+aVand will be completely everywhere in a small number of years.
+p415
+aVNow I'm not even sure if we should brand the subject as math,
+p416
+aVbut what I am sure is
+p417
+aVit's the mainstream subject of the future.
+p418
+aVLet's go for it,
+p419
+aVand while we're about it,
+p420
+aVlet's have a bit of fun,
+p421
+aVfor us, for the students and for TED here.
+p422
+aa(lp423
+VThanks.
+p424
+aa(lp425
+V(Applause)
+p426
+aasS'transcript_micsec'
+p427
+(lp428
+I11000
+aI52000
+aI137000
+aI193000
+aI277000
+aI362000
+aI435000
+aI509000
+aI562000
+aI627000
+aI709000
+aI773000
+aI861000
+aI901000
+aI983000
+aI985000
+aI1019000
+aI1021000
+asS'talk_meta'
+p429
+(dp430
+S'ratings'
+p431
+(dp432
+S'ingenious'
+p433
+I296
+sS'funny'
+p434
+I55
+sS'inspiring'
+p435
+I716
+sS'ok'
+p436
+I147
+sS'fascinating'
+p437
+I270
+sS'total_count'
+p438
+I3396
+sS'persuasive'
+p439
+I828
+sS'longwinded'
+p440
+I96
+sS'informative'
+p441
+I523
+sS'beautiful'
+p442
+I49
+sS'jaw-dropping'
+p443
+I69
+sS'obnoxious'
+p444
+I32
+sS'confusing'
+p445
+I27
+sS'courageous'
+p446
+I161
+sS'unconvincing'
+p447
+I127
+ssS'author'
+p448
+VConrad_Wolfram;
+p449
+sS'url'
+p450
+S'https://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers'
+p451
+sS'vidlen'
+p452
+I1039
+sS'totalviews'
+p453
+I1504148
+sS'title'
+p454
+VTeaching kids real math with computers
+p455
+sS'downloadlink'
+p456
+Vhttps://download.ted.com/talks/ConradWolfram_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p457
+sS'datepublished'
+p458
+cdatetime
+datetime
+p459
+(S'\x07\xda\x0b\x0f\n\x03\x00\x00\x00\x00'
+tRp460
+sS'datefilmed'
+p461
+g459
+(S'\x07\xda\x0b\x0f\n\x03\x00\x00\x00\x00'
+tRp462
+sS'alldata_JSON'
+p463
+S'{"viewed_count": 1504148, "speakers": [{"description": "Mathematician", "firstname": "Conrad", "title": "", "lastname": "Wolfram", "middleinitial": "", "whylisten": "<p>Conrad Wolfram is the strategic director of Wolfram Research, where his job, in a nutshell, is <strong>understanding and finding new uses for the Mathematica technology</strong>. Wolfram is especially passionate about finding uses for Mathematica outside of pure computation, using it as a development platform for products that help communicate big ideas. The Demonstrations tool, for instance, makes a compelling case for never writing out another equation -- instead displaying data in interactive, graphical form.</p><p>Wolfram&#39;s work points up the changing nature of math in the past 30 years, as we&#39;ve moved from adding machines to calculators to sophisticated math software, allowing us to achieve <strong>ever more complex computational feats</strong>. But, Wolfram says, many schools are still focused on hand-calculating; using automation, such as a piece of software, to do math is sometimes seen as cheating. This keeps schools from spending the time they need on the new tools of science and mathematics. As they gain significance for everyday living, he suggests, we need to learn to take advantage of these tools and learn to use them young. Learn more at <a href=\\"http://computerbasedmath.org/\\" target=\\"_blank\\">computerbasedmath.org.</a> </p>", "slug": "conrad_wolfram", "whotheyare": "Conrad Wolfram runs the worldwide arm of Wolfram Research, the mathematical lab behind the cutting-edge knowledge engine Wolfram Alpha.", "whatotherssay": "What he\'s saying is that enough time is wasted in math classes on JUST calculation, that often the underlying concept is lost anyway.", "id": 756, "photo_url": "https://pe.tedcdn.com/images/ted/e888333f4d69077af23ecd5c20fd8b83c1d57ed3_254x191.jpg"}], "current_talk": 1007, "description": "From rockets to stock markets, many of humanity\'s most thrilling creations are powered by math. So why do kids lose interest in it? Conrad Wolfram says the part of math we teach -- calculation by hand -- isn\'t just tedious, it\'s mostly irrelevant to real mathematics and the real world. He presents his radical idea: teaching kids math through computer programming.", "language": "en", "url": "https://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120948995}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23814972}, "podcast-high": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 121208633}, "180k": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23742781}, "64k": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8581423}, "1500k": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 189288103}, "450k": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58740518}, "podcast-regular": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59392837}, "950k": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120588924}, "podcast-light": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8686254}, "320k": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41957847}, "600k": {"uri": "https://download.ted.com/talks/ConradWolfram_2010G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78512244}}}, "comments": {"count": 580, "id": 830, "talk_id": 1007}, "slug": "conrad_wolfram_teaching_kids_real_math_with_computers", "threadId": 830, "talks": [{"event": "TEDGlobal 2010", "player_talks": [{"event": "TEDGlobal 2010", "slug": "conrad_wolfram_teaching_kids_real_math_with_computers", "filmed": 1278633600, "targeting": {"event": "TEDGlobal 2010", "tag": "code,computers,education,math,technology", "id": 1007, "talk": "conrad_wolfram_teaching_kids_real_math_with_computers", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "Teaching kids real math with computers", "postAdDuration": "0.83", "published": 1289833380, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/31e1e3ed75cd3ab7fc08818c5d6a78795d609824_800x600.jpg?quality=89&w=600", "name": "Conrad Wolfram: Teaching kids real math with computers", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "is", "endonym": "\\u00cdslenska", "isRtl": false, "ianaCode": "is", "languageName": "Icelandic"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["code", "computers", "education", "math", "technology"], "speaker": "Conrad Wolfram", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1039, "id": 1007, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ConradWolfram_2010G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2010", "tag": "code,computers,education,math,technology", "id": 1007, "talk": "conrad_wolfram_teaching_kids_real_math_with_computers", "year": "2010"}, "metadata": "https://hls.ted.com/talks/1007.json", "stream": "https://hls.ted.com/talks/1007.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2010%26id%3D1007%26tag%3Dcode%2Ccomputers%2Ceducation%2Cmath%2Ctechnology%26talk%3Dconrad_wolfram_teaching_kids_real_math_with_computers%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/31e1e3ed75cd3ab7fc08818c5d6a78795d609824_800x600.jpg?q=50&w=15", "duration": 1039, "id": 1007, "ratings": [{"count": 828, "id": 24, "name": "Persuasive"}, {"count": 523, "id": 8, "name": "Informative"}, {"count": 296, "id": 9, "name": "Ingenious"}, {"count": 716, "id": 10, "name": "Inspiring"}, {"count": 69, "id": 23, "name": "Jaw-dropping"}, {"count": 96, "id": 11, "name": "Longwinded"}, {"count": 127, "id": 21, "name": "Unconvincing"}, {"count": 55, "id": 7, "name": "Funny"}, {"count": 270, "id": 22, "name": "Fascinating"}, {"count": 161, "id": 3, "name": "Courageous"}, {"count": 49, "id": 1, "name": "Beautiful"}, {"count": 27, "id": 2, "name": "Confusing"}, {"count": 32, "id": 26, "name": "Obnoxious"}, {"count": 147, "id": 25, "name": "OK"}], "speakers": [{"description": "Mathematician", "firstname": "Conrad", "title": "", "lastname": "Wolfram", "middleinitial": "", "whylisten": "<p>Conrad Wolfram is the strategic director of Wolfram Research, where his job, in a nutshell, is <strong>understanding and finding new uses for the Mathematica technology</strong>. Wolfram is especially passionate about finding uses for Mathematica outside of pure computation, using it as a development platform for products that help communicate big ideas. The Demonstrations tool, for instance, makes a compelling case for never writing out another equation -- instead displaying data in interactive, graphical form.</p><p>Wolfram&#39;s work points up the changing nature of math in the past 30 years, as we&#39;ve moved from adding machines to calculators to sophisticated math software, allowing us to achieve <strong>ever more complex computational feats</strong>. But, Wolfram says, many schools are still focused on hand-calculating; using automation, such as a piece of software, to do math is sometimes seen as cheating. This keeps schools from spending the time they need on the new tools of science and mathematics. As they gain significance for everyday living, he suggests, we need to learn to take advantage of these tools and learn to use them young. Learn more at <a href=\\"http://computerbasedmath.org/\\" target=\\"_blank\\">computerbasedmath.org.</a> </p>", "slug": "conrad_wolfram", "whotheyare": "Conrad Wolfram runs the worldwide arm of Wolfram Research, the mathematical lab behind the cutting-edge knowledge engine Wolfram Alpha.", "whatotherssay": "What he\'s saying is that enough time is wasted in math classes on JUST calculation, that often the underlying concept is lost anyway.", "id": 756, "photo_url": "https://pe.tedcdn.com/images/ted/e888333f4d69077af23ecd5c20fd8b83c1d57ed3_254x191.jpg"}], "title": "Teaching kids real math with computers", "take_action": null, "comments": 830, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/31e1e3ed75cd3ab7fc08818c5d6a78795d609824_800x600.jpg", "description": "From rockets to stock markets, many of humanity\'s most thrilling creations are powered by math. So why do kids lose interest in it? Conrad Wolfram says the part of math we teach -- calculation by hand -- isn\'t just tedious, it\'s mostly irrelevant to real mathematics and the real world. He presents his radical idea: teaching kids math through computer programming.", "tags": ["code", "computers", "education", "math", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "is", "endonym": "\\u00cdslenska", "isRtl": false, "ianaCode": "is", "languageName": "Icelandic"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-vi.mp4"}, "is": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-is.mp4", "name": "Icelandic", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-is.mp4"}, "it": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/ConradWolfram_2010G-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ConradWolfram_2010G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ConradWolfram_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ConradWolfram_2010G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1007, "audioDownload": null}, "related_talks": [{"viewed_count": 1547609, "hero": "https://pe.tedcdn.com/images/ted/166847_800x600.jpg", "title": "Computing a theory of all knowledge", "id": 843, "speaker": "Stephen Wolfram", "duration": 1198, "slug": "stephen_wolfram_computing_a_theory_of_everything"}, {"viewed_count": 2477863, "hero": "https://pe.tedcdn.com/images/ted/170614_800x600.jpg", "title": "Math class needs a makeover", "id": 855, "speaker": "Dan Meyer", "duration": 699, "slug": "dan_meyer_math_curriculum_makeover"}, {"viewed_count": 2197391, "hero": "https://pe.tedcdn.com/images/ted/a7cc4ad21293eaa7b7c7a330dda600f4ff543fd3_2880x1620.jpg", "title": "Teach statistics before calculus!", "id": 587, "speaker": "Arthur Benjamin", "duration": 178, "slug": "arthur_benjamin_s_formula_for_changing_math_education"}, {"viewed_count": 1621237, "hero": "https://pe.tedcdn.com/images/ted/2d581c7373812177a05cfb1b07464ae3e80f9c67_2880x1620.jpg", "title": "Math is forever", "id": 2186, "speaker": "Eduardo S\\u00e1enz de Cabez\\u00f3n", "duration": 581, "slug": "eduardo_saenz_de_cabezon_math_is_forever"}, {"viewed_count": 1744094, "hero": "https://pe.tedcdn.com/images/ted/4992208e156d7fa0de27c0affa357c6ada9dd230_2880x1620.jpg", "title": "The mathematician who cracked Wall Street", "id": 2323, "speaker": "Jim Simons", "duration": 1383, "slug": "jim_simons_a_rare_interview_with_the_mathematician_who_cracked_wall_street"}, {"viewed_count": 986119, "hero": "https://pe.tedcdn.com/images/ted/b5a6709fd1913ee333964a645d9c8b271ed82da5_1600x1200.jpg", "title": "The self-organizing computer course", "id": 1570, "speaker": "Shimon Schocken", "duration": 985, "slug": "shimon_schocken_the_self_organizing_computer_course"}], "recorded_at": "2010-07-09T00:00:00.000+00:00", "slug": "conrad_wolfram_teaching_kids_real_math_with_computers", "speaker_name": "Conrad Wolfram", "viewed_count": 1504148, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal 2010", "name": "Conrad Wolfram: Teaching kids real math with computers"}'
+p464
+sS'keywords'
+p465
+(lp466
+Vcode
+p467
+aVcomputers
+p468
+aVeducation
+p469
+aVmath
+p470
+aVtechnology
+p471
+asS'datecrawled'
+p472
+g459
+(S'\x07\xe1\n\x17\x03\x1f/\t89'
+tRp473
+sS'id'
+p474
+I1007
+ss.

@@ -1,0 +1,768 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo anyway, who am I?
+p5
+aVI usually say to people, when they say, "What do you do?"
+p6
+aVI say, "I do hardware,"
+p7
+aVbecause it sort of conveniently encompasses everything I do.
+p8
+aVAnd I recently said that to a venture capitalist casually at some
+p9
+aVValley event, to which he replied, "How quaint."
+p10
+aa(lp11
+V(Laughter)
+p12
+aa(lp13
+VAnd I sort of really was dumbstruck.
+p14
+aVAnd I really should have said something smart.
+p15
+aVAnd now I've had a little bit of time to think about it,
+p16
+aVI would have said, "Well, you know,
+p17
+aVif we look at the next 100 years
+p18
+aVand we've seen all these problems in the last few days,
+p19
+aVmost of the big issues \u2014 clean water, clean energy \u2014
+p20
+aVand they're interchangeable in some respects \u2014
+p21
+aVand cleaner, more functional materials \u2014
+p22
+aVthey all look to me to be hardware problems.
+p23
+aVThis doesn't mean we should ignore software,
+p24
+aVor information, or computation."
+p25
+aVAnd that's in fact probably what I'm going to try and tell you about.
+p26
+aa(lp27
+VSo, this talk is going to be about how do we make things
+p28
+aVand what are the new ways that we're going to make things in the future.
+p29
+aVNow, TED sends you a lot of spam if you're a speaker
+p30
+aVabout "do this, do that" and you fill out all these forms,
+p31
+aVand you don't actually know how they're going to describe you,
+p32
+aVand it flashed across my desk that they were going to introduce me as a futurist.
+p33
+aVAnd I've always been nervous about the term "futurist,"
+p34
+aVbecause you seem doomed to failure because you can't really predict it.
+p35
+aVAnd I was laughing about this with the very smart colleagues I have,
+p36
+aVand said, "You know, well, if I have to talk about the future, what is it?"
+p37
+aVAnd George Homsey, a great guy, said, "Oh, the future is amazing.
+p38
+aVIt is so much stranger than you think.
+p39
+aVWe're going to reprogram the bacteria in your gut,
+p40
+aVand we're going to make your poo smell like peppermint."
+p41
+aa(lp42
+V(Laughter)
+p43
+aa(lp44
+VSo, you may think that's sort of really crazy,
+p45
+aVbut there are some pretty amazing things that are happening
+p46
+aVthat make this possible.
+p47
+aVSo, this isn't my work, but it's work of good friends of mine at MIT.
+p48
+aVThis is called the registry of standard biological parts.
+p49
+aVThis is headed by Drew Endy and Tom Knight
+p50
+aVand a few other very, very bright individuals.
+p51
+aVBasically, what they're doing is looking at biology as a programmable system.
+p52
+aVLiterally, think of proteins as subroutines
+p53
+aVthat you can string together to execute a program.
+p54
+aVNow, this is actually becoming such an interesting idea.
+p55
+aVThis is a state diagram. That's an extremely simple computer.
+p56
+aa(lp57
+VThis one is a two-bit counter.
+p58
+aVSo that's essentially the computational equivalent of two light switches.
+p59
+aVAnd this is being built by a group of students at Zurich
+p60
+aVfor a design competition in biology.
+p61
+aVAnd from the results of the same competition last year,
+p62
+aVa University of Texas team of students programmed bacteria
+p63
+aVso that they can detect light and switch on and off.
+p64
+aVSo this is interesting in the sense that you can now
+p65
+aVdo "if-then-for" statements in materials, in structure.
+p66
+aVThis is a pretty interesting trend,
+p67
+aVbecause we used to live in a world where everyone's said glibly,
+p68
+aV"Form follows function," but I think I've sort of grown up in a world
+p69
+aV\u2014 you listened to Neil Gershenfeld yesterday;
+p70
+aVI was in a lab associated with his \u2014 where it's really a world
+p71
+aVwhere information defines form and function.
+p72
+aa(lp73
+VI spent six years thinking about that,
+p74
+aVbut to show you the power of art over science \u2014
+p75
+aVthis is actually one of the cartoons I write. These are called "HowToons."
+p76
+aVI work with a fabulous illustrator called Nick Dragotta.
+p77
+aVTook me six years at MIT,
+p78
+aVand about that many pages to describe what I was doing,
+p79
+aVand it took him one page. And so this is our muse Tucker.
+p80
+aVHe's an interesting little kid \u2014 and his sister, Celine \u2014
+p81
+aVand what he's doing here
+p82
+aVis observing the self-assembly of his Cheerios in his cereal bowl.
+p83
+aVAnd in fact you can program the self-assembly of things,
+p84
+aVso he starts chocolate-dipping edges,
+p85
+aVchanging the hydrophobicity and the hydrophylicity.
+p86
+aVIn theory, if you program those sufficiently,
+p87
+aVyou should be able to do something pretty interesting
+p88
+aVand make a very complex structure.
+p89
+aVIn this case, he's done self-replication of a complex 3D structure.
+p90
+aVAnd that's what I thought about for a long time,
+p91
+aVbecause this is how we currently make things.
+p92
+aVThis is a silicon wafer, and essentially
+p93
+aVthat's just a whole bunch of layers of two-dimensional stuff, sort of layered up.
+p94
+aVThe feature side is \u2014 you know, people will say,
+p95
+aV[unclear] down around about 65 nanometers now.
+p96
+aa(lp97
+VOn the right, that's a radiolara.
+p98
+aVThat's a unicellular organism ubiquitous in the oceans.
+p99
+aVAnd that has feature sizes down to about 20 nanometers,
+p100
+aVand it's a complex 3D structure.
+p101
+aVWe could do a lot more with computers and things generally
+p102
+aVif we knew how to build things this way.
+p103
+aVThe secret to biology is, it builds computation
+p104
+aVinto the way it makes things. So this little thing here, polymerase,
+p105
+aVis essentially a supercomputer designed for replicating DNA.
+p106
+aVAnd the ribosome here is another little computer
+p107
+aVthat helps in the translation of the proteins.
+p108
+aVI thought about this
+p109
+aVin the sense that it's great to build in biological materials,
+p110
+aVbut can we do similar things?
+p111
+aVCan we get self-replicating-type behavior?
+p112
+aVCan we get complex 3D structure automatically assembling
+p113
+aVin inorganic systems?
+p114
+aVBecause there are some advantages to inorganic systems,
+p115
+aVlike higher speed semiconductors, etc.
+p116
+aa(lp117
+VSo, this is some of my work
+p118
+aVon how do you do an autonomously self-replicating system.
+p119
+aVAnd this is sort of Babbage's revenge.
+p120
+aVThese are little mechanical computers.
+p121
+aVThese are five-state state machines.
+p122
+aVSo, that's about three light switches lined up.
+p123
+aVIn a neutral state, they won't bind at all.
+p124
+aVNow, if I make a string of these, a bit string,
+p125
+aVthey will be able to replicate.
+p126
+aVSo we start with white, blue, blue, white.
+p127
+aVThat encodes; that will now copy. From one comes two,
+p128
+aVand then from two comes three.
+p129
+aVAnd so you've got this sort of replicating system.
+p130
+aVIt was work actually by Lionel Penrose,
+p131
+aVfather of Roger Penrose, the tiles guy.
+p132
+aVHe did a lot of this work in the '60s,
+p133
+aVand so a lot of this logic theory lay fallow
+p134
+aVas we went down the digital computer revolution, but it's now coming back.
+p135
+aa(lp136
+VSo now I'm going to show you the hands-free, autonomous self-replication.
+p137
+aVSo we've tracked in the video the input string,
+p138
+aVwhich was green, green, yellow, yellow, green.
+p139
+aVWe set them off on this air hockey table.
+p140
+aVYou know, high science uses air hockey tables \u2014
+p141
+aa(lp142
+V(Laughter)
+p143
+aa(lp144
+V\u2014 and if you watch this thing long enough you get dizzy,
+p145
+aVbut what you're actually seeing is copies of that original string
+p146
+aVemerging from the parts bin that you have here.
+p147
+aVSo we've got autonomous replication of bit strings.
+p148
+aVSo, why would you want to replicate bit strings?
+p149
+aVWell, it turns out biology has this other very interesting meme,
+p150
+aVthat you can take a linear string, which is a convenient thing to copy,
+p151
+aVand you can fold that into an arbitrarily complex 3D structure.
+p152
+aVSo I was trying to, you know, take the engineer's version:
+p153
+aVCan we build a mechanical system in inorganic materials
+p154
+aVthat will do the same thing?
+p155
+aa(lp156
+VSo what I'm showing you here is that we can make a 2D shape \u2014
+p157
+aVthe B \u2014 assemble from a string of components
+p158
+aVthat follow extremely simple rules.
+p159
+aVAnd the whole point of going with the extremely simple rules here,
+p160
+aVand the incredibly simple state machines in the previous design,
+p161
+aVwas that you don't need digital logic to do computation.
+p162
+aVAnd that way you can scale things much smaller than microchips.
+p163
+aVSo you can literally use these as the tiny components in the assembly process.
+p164
+aa(lp165
+VSo, Neil Gershenfeld showed you this video on Wednesday, I believe,
+p166
+aVbut I'll show you again.
+p167
+aVThis is literally the colored sequence of those tiles.
+p168
+aVEach different color has a different magnetic polarity,
+p169
+aVand the sequence is uniquely specifying the structure that is coming out.
+p170
+aVNow, hopefully, those of you who know anything about graph theory
+p171
+aVcan look at that, and that will satisfy you
+p172
+aVthat that can also do arbitrary 3D structure,
+p173
+aVand in fact, you know, I can now take a dog, carve it up
+p174
+aVand then reassemble it so it's a linear string
+p175
+aVthat will fold from a sequence. And now
+p176
+aVI can actually define that three-dimensional object as a sequence of bits.
+p177
+aVSo, you know, it's a pretty interesting world
+p178
+aVwhen you start looking at the world a little bit differently.
+p179
+aVAnd the universe is now a compiler.
+p180
+aVAnd so I'm thinking about, you know, what are the programs
+p181
+aVfor programming the physical universe?
+p182
+aVAnd how do we think about materials and structure,
+p183
+aVsort of as an information and computation problem?
+p184
+aVNot just where you attach a micro-controller to the end point,
+p185
+aVbut that the structure and the mechanisms are the logic, are the computers.
+p186
+aa(lp187
+VHaving totally absorbed this philosophy,
+p188
+aVI started looking at a lot of problems a little differently.
+p189
+aVWith the universe as a computer,
+p190
+aVyou can look at this droplet of water
+p191
+aVas having performed the computations.
+p192
+aVYou set a couple of boundary conditions, like gravity,
+p193
+aVthe surface tension, density, etc., and then you press "execute,"
+p194
+aVand magically, the universe produces you a perfect ball lens.
+p195
+aVSo, this actually applied to the problem
+p196
+aVof \u2014 so there's a half a billion to a billion people in the world
+p197
+aVdon't have access to cheap eyeglasses.
+p198
+aVSo can you make a machine
+p199
+aVthat could make any prescription lens very quickly on site?
+p200
+aVThis is a machine where you literally define a boundary condition.
+p201
+aVIf it's circular, you make a spherical lens.
+p202
+aVIf it's elliptical, you can make an astigmatic lens.
+p203
+aVYou then put a membrane on that and you apply pressure \u2014
+p204
+aVso that's part of the extra program.
+p205
+aVAnd literally with only those two inputs \u2014
+p206
+aVso, the shape of your boundary condition and the pressure \u2014
+p207
+aVyou can define an infinite number of lenses
+p208
+aVthat cover the range of human refractive error,
+p209
+aVfrom minus 12 to plus eight diopters, up to four diopters of cylinder.
+p210
+aVAnd then literally, you now pour on a monomer.
+p211
+aVYou know, I'll do a Julia Childs here.
+p212
+aVThis is three minutes of UV light.
+p213
+aVAnd you reverse the pressure on your membrane
+p214
+aVonce you've cooked it. Pop it out.
+p215
+aVI've seen this video, but I still don't know if it's going to end right.
+p216
+aa(lp217
+V(Laughter)
+p218
+aa(lp219
+VSo you reverse this. This is a very old movie,
+p220
+aVso with the new prototypes, actually both surfaces are flexible,
+p221
+aVbut this will show you the point.
+p222
+aVNow you've finished the lens, you literally pop it out.
+p223
+aVThat's next year's Yves Klein, you know, eyeglasses shape.
+p224
+aVAnd you can see that that has a mild prescription of about minus two diopters.
+p225
+aVAnd as I rotate it against this side shot, you'll see that that has cylinder,
+p226
+aVand that was programmed in \u2014
+p227
+aVliterally into the physics of the system.
+p228
+aVSo, this sort of thinking about structure as computation
+p229
+aVand structure as information leads to other things, like this.
+p230
+aa(lp231
+VThis is something that my people at SQUID Labs
+p232
+aVare working on at the moment, called "electronic rope."
+p233
+aVSo literally, you think about a rope. It has very complex structure in the weave.
+p234
+aVAnd under no load, it's one structure.
+p235
+aVUnder a different load, it's a different structure. And you can actually exploit that
+p236
+aVby putting in a very small number of
+p237
+aVconducting fibers to actually make it a sensor.
+p238
+aVSo this is now a rope that knows the load on the rope
+p239
+aVat any particular point in the rope.
+p240
+aVJust by thinking about the physics of the world,
+p241
+aVmaterials as the computer,
+p242
+aVyou can start to do things like this.
+p243
+aa(lp244
+VI'm going to segue a little here.
+p245
+aVI guess I'm just going to casually tell you the types of things
+p246
+aVthat I think about with this.
+p247
+aVOne thing I'm really interested about this right now is, how,
+p248
+aVif you're really taking this view of the universe as a computer,
+p249
+aVhow do we make things in a very general sense,
+p250
+aVand how might we share the way we make things in a general sense
+p251
+aVthe same way you share open source hardware?
+p252
+aVAnd a lot of talks here have espoused the benefits
+p253
+aVof having lots of people look at problems,
+p254
+aVshare the information and work on those things together.
+p255
+aVSo, a convenient thing about being a human is you move in linear time,
+p256
+aVand unless Lisa Randall changes that,
+p257
+aVwe'll continue to move in linear time.
+p258
+aVSo that means anything you do, or anything you make,
+p259
+aVyou produce a sequence of steps \u2014
+p260
+aVand I think Lego in the '70s nailed this,
+p261
+aVand they did it most elegantly.
+p262
+aVBut they can show you how to build things in sequence.
+p263
+aVSo, I'm thinking about, how can we generalize
+p264
+aVthe way we make all sorts of things,
+p265
+aVso you end up with this sort of guy, right?
+p266
+aVAnd I think this applies across a very broad \u2014 sort of, a lot of concepts.
+p267
+aa(lp268
+VYou know, Cameron Sinclair yesterday said,
+p269
+aV"How do I get everyone to collaborate on design
+p270
+aVglobally to do housing for humanity?"
+p271
+aVAnd if you've seen Amy Smith,
+p272
+aVshe talks about how you get students at MIT
+p273
+aVto work with communities in Haiti.
+p274
+aVAnd I think we have to sort of redefine and rethink
+p275
+aVhow we define structure and materials and assembly things,
+p276
+aVso that we can really share the information
+p277
+aVon how you do those things in a more profound way
+p278
+aVand build on each other's source code for structure.
+p279
+aVI don't know exactly how to do this yet,
+p280
+aVbut, you know, it's something being actively thought about.
+p281
+aa(lp282
+VSo, you know, that leads to questions
+p283
+aVlike, is this a compiler? Is this a sub-routine?
+p284
+aVInteresting things like that.
+p285
+aVMaybe I'm getting a little too abstract, but you know,
+p286
+aVthis is the sort of \u2014 returning to our comic characters \u2014
+p287
+aVthis is sort of the universe, or a different universe view,
+p288
+aVthat I think is going to be very prevalent in the future \u2014
+p289
+aVfrom biotech to materials assembly. It was great to hear Bill Joy.
+p290
+aVThey're starting to invest in materials science,
+p291
+aVbut these are the new things in materials science.
+p292
+aVHow do we put real information and real structure into new ideas,
+p293
+aVand see the world in a different way? And it's not going to be binary code
+p294
+aVthat defines the computers of the universe \u2014
+p295
+aVit's sort of an analog computer.
+p296
+aVBut it's definitely an interesting new worldview.
+p297
+aa(lp298
+VI've gone too far. So that sounds like it's it.
+p299
+aVI've probably got a couple of minutes of questions,
+p300
+aVor I can show \u2014 I think they also said that I do extreme stuff
+p301
+aVin the introduction, so I may have to explain that.
+p302
+aVSo maybe I'll do that with this short video.
+p303
+aa(lp304
+VSo this is actually a 3,000-square-foot kite,
+p305
+aVwhich also happens to be a minimal energy surface.
+p306
+aVSo returning to the droplet, again,
+p307
+aVthinking about the universe in a new way.
+p308
+aVThis is a kite designed by a guy called Dave Kulp.
+p309
+aVAnd why do you want a 3,000-square-foot kite?
+p310
+aVSo that's a kite the size of your house.
+p311
+aVAnd so you want that to tow boats very fast.
+p312
+aVSo I've been working on this a little, also,
+p313
+aVwith a couple of other guys.
+p314
+aVBut, you know, this is another way to look at the \u2014
+p315
+aVif you abstract again,
+p316
+aVthis is a structure that is defined by the physics of the universe.
+p317
+aVYou could just hang it as a bed sheet,
+p318
+aVbut again, the computation of all the physics
+p319
+aVgives you the aerodynamic shape.
+p320
+aVAnd so you can actually sort of almost double your boat speed
+p321
+aVwith systems like that. So that's sort of another interesting aspect of the future.
+p322
+aa(lp323
+V(Applause)
+p324
+aasS'transcript_micsec'
+p325
+(lp326
+I11000
+aI26000
+aI28000
+aI61000
+aI108000
+aI110000
+aI145000
+aI193000
+aI256000
+aI308000
+aI358000
+aI372000
+aI373000
+aI406000
+aI434000
+aI503000
+aI587000
+aI590000
+aI627000
+aI658000
+aI721000
+aI755000
+aI796000
+aI812000
+aI862000
+asS'talk_meta'
+p327
+(dp328
+S'ratings'
+p329
+(dp330
+S'ingenious'
+p331
+I89
+sS'beautiful'
+p332
+I4
+sS'inspiring'
+p333
+I49
+sS'ok'
+p334
+I53
+sS'fascinating'
+p335
+I85
+sS'funny'
+p336
+I3
+sS'total_count'
+p337
+I574
+sS'persuasive'
+p338
+I12
+sS'longwinded'
+p339
+I31
+sS'unconvincing'
+p340
+I22
+sS'informative'
+p341
+I99
+sS'jaw-dropping'
+p342
+I23
+sS'obnoxious'
+p343
+I6
+sS'courageous'
+p344
+I4
+sS'confusing'
+p345
+I94
+ssS'author'
+p346
+VSaul_Griffith;
+p347
+sS'url'
+p348
+S'https://www.ted.com/talks/saul_griffith_on_everyday_inventions'
+p349
+sS'vidlen'
+p350
+I869
+sS'totalviews'
+p351
+I449537
+sS'title'
+p352
+VEveryday inventions
+p353
+sS'downloadlink'
+p354
+Vhttps://download.ted.com/talks/SaulGriffith_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p355
+sS'datepublished'
+p356
+cdatetime
+datetime
+p357
+(S'\x07\xd7\x02\x12\x13\x0b\x00\x00\x00\x00'
+tRp358
+sS'datefilmed'
+p359
+g357
+(S'\x07\xd7\x02\x12\x13\x0b\x00\x00\x00\x00'
+tRp360
+sS'alldata_JSON'
+p361
+S'{"viewed_count": 449537, "speakers": [{"description": "Inventor", "firstname": "Saul", "title": "", "lastname": "Griffith", "middleinitial": "", "whylisten": "<p>Innovator and inventor Saul Griffith has a uniquely open approach to problem solving. Whether he&#39;s devising a way to slash the cost of prescription eyeglasses or teaching science through cartoons, <strong>Griffith makes things and then shares his ideas with the world</strong>.</p><p>A proponent of open-source information, he established <a href=\\"http://www.instructables.com/\\" target=\\"_blank\\">Instructables</a> , an open website  showing how to make an array of incredible objects. <strong>He is the co-founder of numerous companies including <a href=\\"http://www.squid-labs.com/\\" target=\\"_blank\\">Squid Labs</a>, <a href=\\"http://www.lowcosteyeglasses.net/\\" target=\\"_blank\\">Low Cost Eyeglasses</a>, <a href=\\"http://www.potenco.com/\\" target=\\"_blank\\">Potenco</a>  and <a href=\\"http://www.makanipower.com/home.html\\" target=\\"_blank\\">Makani Power</a>, where he is President and Chief Scientist. His companies have invented a myriad of new devices and materials, </strong>such as a &quot;smart&quot; rope that senses its load, or a machine for making low-cost eyeglass lenses through a process inspired by a water droplet. He is a columnist at <a href=\\"http://makezine.com/\\" target=\\"_blank\\"><em>Make </em>magazine</a>  and co-writes <em><a href=\\"http://www.howtoons.com/\\" target=\\"_blank\\">How Toons!</a>  </em>He&#39;s fascinated with materials that assemble themselves, and with taking advantage of those properties to make things quickly and cheaply. </p>", "slug": "saul_griffith", "whotheyare": "Inventor Saul Griffith looks for elegant ways to make real things, from low-cost eyeglasses to a kite that tows boats. His latest projects include open-source inventions and elegant new ways to generate power.", "whatotherssay": "Innovator Saul lets great ideas crash and collide in his head on a daily basis.", "id": 52, "photo_url": "https://pe.tedcdn.com/images/ted/1325_254x191.jpg"}], "current_talk": 48, "description": "Inventor and MacArthur fellow Saul Griffith shares some innovative ideas from his lab -- from \\"smart rope\\" to a house-sized kite for towing large loads.", "language": "en", "url": "https://www.ted.com/talks/saul_griffith_on_everyday_inventions", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 102428238}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20008346}, "podcast-high": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 102433818}, "180k": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19933697}, "64k": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7171804}, "1500k": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 159000468}, "450k": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49449081}, "podcast-regular": {"uri": "https://download.ted.com/talks/SaulGriffith_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49506433}, "950k": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 102327134}, "audio-podcast": {"uri": "https://download.ted.com/talks/SaulGriffith_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3969177}, "podcast-light": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7268296}, "320k": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35256378}, "600k": {"uri": "https://download.ted.com/talks/SaulGriffith_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 65680636}}}, "comments": {"count": 28, "id": 47, "talk_id": 48}, "slug": "saul_griffith_on_everyday_inventions", "threadId": 47, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "saul_griffith_on_everyday_inventions", "filmed": 1140652800, "targeting": {"event": "TED2006", "tag": "MacArthur grant,collaboration,design,innovation,invention,materials,open-source,product design,technology", "id": 48, "talk": "saul_griffith_on_everyday_inventions", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "Everyday inventions", "postAdDuration": "0.83", "published": 1171843860, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/231_480x360.jpg?quality=89&w=600", "name": "Saul Griffith: Everyday inventions", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["MacArthur grant", "collaboration", "design", "innovation", "invention", "materials", "open-source", "product design", "technology"], "speaker": "Saul Griffith", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 869, "id": 48, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SaulGriffith_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "MacArthur grant,collaboration,design,innovation,invention,materials,open-source,product design,technology", "id": 48, "talk": "saul_griffith_on_everyday_inventions", "year": "2006"}, "metadata": "https://hls.ted.com/talks/48.json", "stream": "https://hls.ted.com/talks/48.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D48%26tag%3DMacArthur%2Bgrant%2Ccollaboration%2Cdesign%2Cinnovation%2Cinvention%2Cmaterials%2Copen-source%2Cproduct%2Bdesign%2Ctechnology%26talk%3Dsaul_griffith_on_everyday_inventions%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/saul_griffith_on_everyday_inventions"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/231_480x360.jpg?q=50&w=15", "duration": 869, "id": 48, "ratings": [{"count": 89, "id": 9, "name": "Ingenious"}, {"count": 94, "id": 2, "name": "Confusing"}, {"count": 49, "id": 10, "name": "Inspiring"}, {"count": 31, "id": 11, "name": "Longwinded"}, {"count": 99, "id": 8, "name": "Informative"}, {"count": 85, "id": 22, "name": "Fascinating"}, {"count": 22, "id": 21, "name": "Unconvincing"}, {"count": 4, "id": 3, "name": "Courageous"}, {"count": 12, "id": 24, "name": "Persuasive"}, {"count": 53, "id": 25, "name": "OK"}, {"count": 23, "id": 23, "name": "Jaw-dropping"}, {"count": 4, "id": 1, "name": "Beautiful"}, {"count": 6, "id": 26, "name": "Obnoxious"}, {"count": 3, "id": 7, "name": "Funny"}], "speakers": [{"description": "Inventor", "firstname": "Saul", "title": "", "lastname": "Griffith", "middleinitial": "", "whylisten": "<p>Innovator and inventor Saul Griffith has a uniquely open approach to problem solving. Whether he&#39;s devising a way to slash the cost of prescription eyeglasses or teaching science through cartoons, <strong>Griffith makes things and then shares his ideas with the world</strong>.</p><p>A proponent of open-source information, he established <a href=\\"http://www.instructables.com/\\" target=\\"_blank\\">Instructables</a> , an open website  showing how to make an array of incredible objects. <strong>He is the co-founder of numerous companies including <a href=\\"http://www.squid-labs.com/\\" target=\\"_blank\\">Squid Labs</a>, <a href=\\"http://www.lowcosteyeglasses.net/\\" target=\\"_blank\\">Low Cost Eyeglasses</a>, <a href=\\"http://www.potenco.com/\\" target=\\"_blank\\">Potenco</a>  and <a href=\\"http://www.makanipower.com/home.html\\" target=\\"_blank\\">Makani Power</a>, where he is President and Chief Scientist. His companies have invented a myriad of new devices and materials, </strong>such as a &quot;smart&quot; rope that senses its load, or a machine for making low-cost eyeglass lenses through a process inspired by a water droplet. He is a columnist at <a href=\\"http://makezine.com/\\" target=\\"_blank\\"><em>Make </em>magazine</a>  and co-writes <em><a href=\\"http://www.howtoons.com/\\" target=\\"_blank\\">How Toons!</a>  </em>He&#39;s fascinated with materials that assemble themselves, and with taking advantage of those properties to make things quickly and cheaply. </p>", "slug": "saul_griffith", "whotheyare": "Inventor Saul Griffith looks for elegant ways to make real things, from low-cost eyeglasses to a kite that tows boats. His latest projects include open-source inventions and elegant new ways to generate power.", "whatotherssay": "Innovator Saul lets great ideas crash and collide in his head on a daily basis.", "id": 52, "photo_url": "https://pe.tedcdn.com/images/ted/1325_254x191.jpg"}], "title": "Everyday inventions", "take_action": null, "comments": 47, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/231_480x360.jpg", "description": "Inventor and MacArthur fellow Saul Griffith shares some innovative ideas from his lab -- from \\"smart rope\\" to a house-sized kite for towing large loads.", "tags": ["MacArthur grant", "collaboration", "design", "innovation", "invention", "materials", "open-source", "product design", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-en.mp4"}, "uk": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-uk.mp4"}, "hr": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-hr.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-it.mp4"}, "tr": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-bg.mp4"}, "vi": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-vi.mp4"}, "ro": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SaulGriffith_2006-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SaulGriffith_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SaulGriffith_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SaulGriffith_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 48, "audioDownload": "https://download.ted.com/talks/SaulGriffith_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 698125, "hero": "https://pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg", "title": "Unleash your creativity in a Fab Lab", "id": 90, "speaker": "Neil Gershenfeld", "duration": 1038, "slug": "neil_gershenfeld_on_fab_labs"}, {"viewed_count": 1427402, "hero": "https://pe.tedcdn.com/images/ted/1451_480x360.jpg", "title": "Simple designs to save a life", "id": 2, "speaker": "Amy Smith", "duration": 906, "slug": "amy_smith_shares_simple_lifesaving_design"}, {"viewed_count": 1115667, "hero": "https://pe.tedcdn.com/images/ted/78d02a18ad21ee9032aae5b55690d57f21841ad7_1600x1200.jpg", "title": "Designing objects that tell stories", "id": 266, "speaker": "Yves Behar", "duration": 1063, "slug": "yves_behar_on_designing_objects_that_tell_stories"}, {"viewed_count": 987342, "hero": "https://pe.tedcdn.com/images/ted/0f673186f35d6772f7995b2263fbfad2113da10b_2880x1620.jpg", "title": "Can we make things that make themselves?", "id": 1215, "speaker": "Skylar Tibbits", "duration": 364, "slug": "skylar_tibbits_can_we_make_things_that_make_themselves"}, {"viewed_count": 2458356, "hero": "https://pe.tedcdn.com/images/ted/5067e7078880030b41aea9eb2b6fbddbdedc7728_1600x1200.jpg", "title": "The emergence of \\"4D printing\\"", "id": 1707, "speaker": "Skylar Tibbits", "duration": 502, "slug": "skylar_tibbits_the_emergence_of_4d_printing"}, {"viewed_count": 1547609, "hero": "https://pe.tedcdn.com/images/ted/166847_800x600.jpg", "title": "Computing a theory of all knowledge", "id": 843, "speaker": "Stephen Wolfram", "duration": 1198, "slug": "stephen_wolfram_computing_a_theory_of_everything"}], "recorded_at": "2006-02-23T00:00:00.000+00:00", "slug": "saul_griffith_on_everyday_inventions", "speaker_name": "Saul Griffith", "viewed_count": 449537, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Saul Griffith: Everyday inventions"}'
+p362
+sS'keywords'
+p363
+(lp364
+VMacArthur grant
+p365
+aVcollaboration
+p366
+aVdesign
+p367
+aVinnovation
+p368
+aVinvention
+p369
+aVmaterials
+p370
+aVopen-source
+p371
+aVproduct design
+p372
+aVtechnology
+p373
+asS'datecrawled'
+p374
+g357
+(S'\x07\xe1\n\x17\x021\x1c\tN:'
+tRp375
+sS'id'
+p376
+I48
+ss.

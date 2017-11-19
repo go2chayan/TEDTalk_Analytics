@@ -5,9 +5,11 @@ import numpy as np
 from itertools import product
 from scipy.stats import ttest_ind
 import matplotlib.pyplot as plt
+import nltk
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 from bluemix import parse_sentence_tone
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+#from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 '''
 Dict of talks with highest view count and Lowest view counts
@@ -33,25 +35,16 @@ the same input-output convention. The input is the fullpath of a pickle
 file containing the talk transcript and meta data. The output is a list
 containing the transcripts in a specific format
 '''
-def read_sentences(pklfile):
-    '''
-    Read talk transcripts and tokenize the sentences
-    While tokenizing, it removes sound tags: (Applause), (Laughter) etc.    
-    '''
-    assert os.path.isfile(pklfile),'File not found: '+pklfile
-    data = cp.load(open(pklfile))
-    txt = re.sub('\([a-zA-Z]*?\)','',' '.join(data['talk_transcript']))
-    return sent_tokenize(txt)
-
-def read_utterances(pklfile):
-    '''
-    Similar to read_sentences, but returns utterances instead
-    utternaces is the ways transcripts are written in the pickle file
-    '''
-    assert os.path.isfile(pklfile),'File not found: '+pklfile
-    data = cp.load(open(pklfile))
-    txt = re.sub('\([a-zA-Z]*?\)','','__||__'.join(data['talk_transcript']))
-    return txt.split('__||__')
+#def read_sentences(pklfile):
+#    '''
+#    Read talk transcripts and tokenize the sentences
+#    While tokenizing, it removes sound tags: (Applause), (Laughter) etc.    
+#    '''
+#    assert os.path.isfile(pklfile),'File not found: '+pklfile
+#    data = cp.load(open(pklfile))
+#    txt = re.sub('\([a-zA-Z]*?\)','',' '.join([anitem for apara in \
+#        data['talk_transcript'] for anitem in apara]))
+#    return sent_tokenize(txt)
 
 def read_bluemix(pklfile,sentiment_dir='./bluemix_sentiment/'):
     '''
@@ -59,8 +52,8 @@ def read_bluemix(pklfile,sentiment_dir='./bluemix_sentiment/'):
     Note: DONOT change the name of this function. It is used somewhere
     else in the code
     '''
-    assert os.path.isfile(pklfile),'File not found: '+pklfile
     pklfile = sentiment_dir+pklfile.split('/')[-1]
+    assert os.path.isfile(pklfile),'File not found: '+pklfile
     assert os.path.isfile(pklfile),'Sentiment file not found: '+pklfile+\
         ' \nCheck the sentiment_dir argument'
     data = cp.load(open(pklfile))
@@ -76,11 +69,11 @@ def read_bluemix(pklfile,sentiment_dir='./bluemix_sentiment/'):
 # the functions take a sentence to calculate sentiment and outputs two lists.
 # The first one is a list of sentiments, the second list is the names of the
 # corresponding sentiment.
-analyzer = SentimentIntensityAnalyzer()
-def vadersentiment(asent):
-    results = analyzer.polarity_scores(asent)
-    return [results['neg'],results['neu'],results['pos'],results['compound']],\
-    ['negative','neutral','positive','compound']
+#analyzer = SentimentIntensityAnalyzer()
+#def vadersentiment(asent):
+#    results = analyzer.polarity_scores(asent)
+#    return [results['neg'],results['neu'],results['pos'],results['compound']],\
+#    ['negative','neutral','positive','compound']
 ##############################################################################
 
 class Sentiment_Comparator(object):
@@ -131,8 +124,8 @@ class Sentiment_Comparator(object):
     '''
     def __init__(self,
                 dict_groups,
-                reader,
-                extractor=vadersentiment,
+                reader=read_bluemix,
+                extractor=read_bluemix,
                 inputFolder='./talks/',
                 process=True):
         self.inputpath=inputFolder
@@ -192,7 +185,7 @@ class Sentiment_Comparator(object):
                 self.raw_sentiments[atalk] = np.array(values)
 
     # Changes the self.raw_sentiments to a smoothed version
-    def smoothen_raw_sentiment(self,kernelLen=5.):
+    def smoothen_raw_sentiment(self,kernelLen=5):
         # Get number of columns in sentiment matrix 
         _,n = np.shape(self.raw_sentiments[self.alltalks[0]])
 
@@ -466,8 +459,8 @@ def namefix(astr):
 ############################################################################
 
 def main():
-    comparator = Sentiment_Comparator(hi_lo_files,read_utterances,vadersentiment)
-    #comparator = Sentiment_Comparator(hi_lo_files,read_sentences,vadersentiment)
+    #comparator = Sentiment_Comparator(hi_lo_files,read_utterances,vadersentiment)
+    comparator = Sentiment_Comparator(hi_lo_files)
     grp_avg = comparator.calc_group_mean()
     draw_group_mean_sentiments(grp_avg,
         comparator.column_names)

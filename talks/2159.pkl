@@ -1,0 +1,680 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo over the past few centuries, microscopes have revolutionized our world.
+p5
+aVThey revealed to us a tiny world of objects, life and structures
+p6
+aVthat are too small for us to see with our naked eyes.
+p7
+aVThey are a tremendous contribution to science and technology.
+p8
+aVToday I'd like to introduce you to a new type of microscope,
+p9
+aVa microscope for changes.
+p10
+aVIt doesn't use optics like a regular microscope
+p11
+aVto make small objects bigger,
+p12
+aVbut instead it uses a video camera and image processing
+p13
+aVto reveal to us the tiniest motions and color changes in objects and people,
+p14
+aVchanges that are impossible for us to see with our naked eyes.
+p15
+aVAnd it lets us look at our world in a completely new way.
+p16
+aa(lp17
+VSo what do I mean by color changes?
+p18
+aVOur skin, for example, changes its color very slightly
+p19
+aVwhen the blood flows under it.
+p20
+aVThat change is incredibly subtle,
+p21
+aVwhich is why, when you look at other people,
+p22
+aVwhen you look at the person sitting next to you,
+p23
+aVyou don't see their skin or their face changing color.
+p24
+aVWhen we look at this video of Steve here, it appears to us like a static picture,
+p25
+aVbut once we look at this video through our new, special microscope,
+p26
+aVsuddenly we see a completely different image.
+p27
+aVWhat you see here are small changes in the color of Steve's skin,
+p28
+aVmagnified 100 times so that they become visible.
+p29
+aVWe can actually see a human pulse.
+p30
+aVWe can see how fast Steve's heart is beating,
+p31
+aVbut we can also see the actual way that the blood flows in his face.
+p32
+aVAnd we can do that not just to visualize the pulse,
+p33
+aVbut also to actually  recover our heart rates,
+p34
+aVand measure our heart rates.
+p35
+aVAnd we can do it with regular cameras and without touching the patients.
+p36
+aVSo here you see the pulse and heart rate we extracted from a neonatal baby
+p37
+aVfrom a video we took with a regular DSLR camera,
+p38
+aVand the heart rate measurement we get
+p39
+aVis as accurate as the one you'd get with a standard monitor in a hospital.
+p40
+aVAnd it doesn't even have to be a video we recorded.
+p41
+aVWe can do it essentially with other videos as well.
+p42
+aVSo I just took a short clip from "Batman Begins" here
+p43
+aVjust to show Christian Bale's pulse.
+p44
+aV(Laughter)
+p45
+aVAnd you know, presumably he's wearing makeup,
+p46
+aVthe lighting here is kind of challenging,
+p47
+aVbut still, just from the video, we're able to extract his pulse
+p48
+aVand show it quite well.
+p49
+aa(lp50
+VSo how do we do all that?
+p51
+aVWe basically analyze the changes in the light that are recorded
+p52
+aVat every pixel in the video over time,
+p53
+aVand then we crank up those changes.
+p54
+aVWe make them bigger so that we can see them.
+p55
+aVThe tricky part is that those signals,
+p56
+aVthose changes that we're after, are extremely subtle,
+p57
+aVso we have to be very careful when you try to separate them
+p58
+aVfrom noise that always exists in videos.
+p59
+aVSo we use some clever image processing techniques
+p60
+aVto get a very accurate measurement of the color at each pixel in the video,
+p61
+aVand then the way the color changes over time,
+p62
+aVand then we amplify those changes.
+p63
+aVWe make them bigger to create those types of enhanced videos, or magnified videos,
+p64
+aVthat actually show us those changes.
+p65
+aa(lp66
+VBut it turns out we can do that not just to show tiny changes in color,
+p67
+aVbut also tiny motions,
+p68
+aVand that's because the light that gets recorded in our cameras
+p69
+aVwill change not only if the color of the object changes,
+p70
+aVbut also if the object moves.
+p71
+aVSo this is my daughter when she was about two months old.
+p72
+aVIt's a video I recorded about three years ago.
+p73
+aVAnd as new parents, we all want to make sure our babies are healthy,
+p74
+aVthat they're breathing, that they're alive, of course.
+p75
+aVSo I too got one of those baby monitors
+p76
+aVso that I could see my daughter when she was asleep.
+p77
+aVAnd this is pretty much what you'll see with a standard baby monitor.
+p78
+aVYou can see the baby's sleeping, but  there's not too much information there.
+p79
+aVThere's not too much we can see.
+p80
+aVWouldn't it be better, or more informative, or more useful,
+p81
+aVif instead we could look at the view like this.
+p82
+aVSo here I took the motions and I magnified them 30 times,
+p83
+aVand then I could clearly see that my daughter was indeed alive and breathing.
+p84
+aV(Laughter)
+p85
+aVHere is a side-by-side comparison.
+p86
+aVSo again, in the source video, in the original video,
+p87
+aVthere's not too much we can see,
+p88
+aVbut once we magnify the motions, the breathing becomes much more visible.
+p89
+aVAnd it turns out, there's a lot of phenomena
+p90
+aVwe can reveal and magnify with our new motion microscope.
+p91
+aVWe can see how our veins and arteries are pulsing in our bodies.
+p92
+aVWe can see that our eyes are constantly moving
+p93
+aVin this wobbly motion.
+p94
+aVAnd that's actually my eye,
+p95
+aVand again this video was taken right after my daughter was born,
+p96
+aVso you can see I wasn't getting too much sleep. (Laughter)
+p97
+aVEven when a person is sitting still,
+p98
+aVthere's a lot of information we can extract
+p99
+aVabout their breathing patterns, small facial expressions.
+p100
+aVMaybe we could use those motions
+p101
+aVto tell us something about our thoughts or our emotions.
+p102
+aVWe can also magnify small mechanical movements,
+p103
+aVlike vibrations in engines,
+p104
+aVthat can help engineers detect and diagnose machinery problems,
+p105
+aVor see how our buildings and structures sway in the wind and react to forces.
+p106
+aVThose are all things that our society knows how to measure in various ways,
+p107
+aVbut measuring those motions is one thing,
+p108
+aVand actually seeing those motions as they happen
+p109
+aVis a whole different thing.
+p110
+aa(lp111
+VAnd ever since we discovered this new technology,
+p112
+aVwe made our code available online so that  others could use and experiment with it.
+p113
+aVIt's very simple to use.
+p114
+aVIt can work on your own videos.
+p115
+aVOur collaborators at Quanta Research even created this nice website
+p116
+aVwhere you can upload your videos and process them online,
+p117
+aVso even if you don't have any experience in computer science or programming,
+p118
+aVyou can still very easily experiment with this new microscope.
+p119
+aVAnd I'd like to show you just a couple of examples
+p120
+aVof what others have done with it.
+p121
+aa(lp122
+VSo this video was made by a YouTube user called Tamez85.
+p123
+aVI don't know who that user is,
+p124
+aVbut he, or she, used our code
+p125
+aVto magnify small belly movements during pregnancy.
+p126
+aVIt's kind of creepy.
+p127
+aV(Laughter)
+p128
+aVPeople have used it to magnify pulsing veins in their hands.
+p129
+aVAnd you know it's not real science unless you use guinea pigs,
+p130
+aVand apparently this guinea pig is called Tiffany,
+p131
+aVand this YouTube user claims it is the first rodent on Earth
+p132
+aVthat was motion-magnified.
+p133
+aa(lp134
+VYou can also do some art with it.
+p135
+aVSo this video was sent to me by a design student at Yale.
+p136
+aVShe wanted to see if there's any difference
+p137
+aVin the way her classmates move.
+p138
+aVShe made them all stand still, and then magnified their motions.
+p139
+aVIt's like seeing  still pictures come to life.
+p140
+aVAnd the nice thing with  all those examples
+p141
+aVis that we had nothing to do with them.
+p142
+aVWe just provided this new tool, a new way to look at the world,
+p143
+aVand then people find other interesting, new and creative ways of using it.
+p144
+aa(lp145
+VBut we didn't stop there.
+p146
+aVThis tool not only allows us to look at the world in a new way,
+p147
+aVit also redefines what we can do
+p148
+aVand pushes the limits of what we can do with our cameras.
+p149
+aVSo as scientists, we started wondering,
+p150
+aVwhat other types of physical phenomena produce tiny motions
+p151
+aVthat we could now use our cameras to measure?
+p152
+aVAnd one such phenomenon that we focused on recently is sound.
+p153
+aVSound, as we all know, is basically changes
+p154
+aVin air pressure that travel through the air.
+p155
+aVThose pressure waves hit objects and they create small vibrations in them,
+p156
+aVwhich is how we hear and how we record sound.
+p157
+aVBut it turns out that sound also produces visual motions.
+p158
+aVThose are motions that are not visible to us
+p159
+aVbut are visible to a camera with the right processing.
+p160
+aVSo here are two examples.
+p161
+aVThis is me demonstrating my great singing skills.
+p162
+aV(Singing)
+p163
+aV(Laughter)
+p164
+aVAnd I took a high-speed video of my throat while I was humming.
+p165
+aVAgain, if you stare at that video,
+p166
+aVthere's not too much you'll be able to see,
+p167
+aVbut once we magnify the motions 100 times, we can see all the motions and ripples
+p168
+aVin the neck that are involved in producing the sound.
+p169
+aVThat signal is there in that video.
+p170
+aa(lp171
+VWe also know that singers can break a wine glass
+p172
+aVif they hit the correct note.
+p173
+aVSo here, we're going to play a note
+p174
+aVthat's in the resonance frequency of that glass
+p175
+aVthrough a loudspeaker that's next to it.
+p176
+aVOnce we play that note and magnify the motions 250 times,
+p177
+aVwe can very clearly see  how the glass vibrates
+p178
+aVand resonates in response to the sound.
+p179
+aVIt's not something you're used to seeing every day.
+p180
+aVBut this made us think. It gave us this crazy idea.
+p181
+aVCan we actually invert this process and recover sound from video
+p182
+aVby analyzing the tiny vibrations that sound waves create in objects,
+p183
+aVand essentially convert those back into the sounds that produced them.
+p184
+aVIn this way, we can turn everyday objects into microphones.
+p185
+aa(lp186
+VSo that's exactly what we did.
+p187
+aVSo here's an empty bag of chips that was lying on a table,
+p188
+aVand we're going to turn that  bag of chips into a microphone
+p189
+aVby filming it with a video camera
+p190
+aVand analyzing the tiny motions that sound waves create in it.
+p191
+aVSo here's the sound that we played in the room.
+p192
+aa(lp193
+V(Music: "Mary Had a Little Lamb")
+p194
+aa(lp195
+VAnd this is a high-speed video we recorded of that bag of chips.
+p196
+aVAgain it's playing.
+p197
+aVThere's no chance you'll be able to see anything going on in that video
+p198
+aVjust by looking at it,
+p199
+aVbut here's the sound we were able to recover just by analyzing
+p200
+aVthe tiny motions in that video.
+p201
+aa(lp202
+V(Music: "Mary Had a Little Lamb")
+p203
+aa(lp204
+VI call it \u2014 Thank you.
+p205
+aV(Applause)
+p206
+aVI call it the visual microphone.
+p207
+aVWe actually extract audio signals from video signals.
+p208
+aVAnd just to give you a sense of the scale of the motions here,
+p209
+aVa pretty loud sound will cause that bag of chips to move less than a micrometer.
+p210
+aVThat's one thousandth of a millimeter.
+p211
+aVThat's how tiny the motions are that we are now able to pull out
+p212
+aVjust by observing how light bounces off objects
+p213
+aVand gets recorded by our cameras.
+p214
+aa(lp215
+VWe can recover sounds from other objects, like plants.
+p216
+aa(lp217
+V(Music: "Mary Had a Little Lamb")
+p218
+aa(lp219
+VAnd we can recover speech as well.
+p220
+aVSo here's a person speaking in a room.
+p221
+aa(lp222
+VVoice: Mary had a little lamb whose fleece was white as snow,
+p223
+aVand everywhere that Mary went, that lamb was sure to go.
+p224
+aa(lp225
+VMichael Rubinstein: And here's that speech again recovered
+p226
+aVjust from this video of that same bag of chips.
+p227
+aa(lp228
+VVoice: Mary had a little lamb whose fleece was white as snow,
+p229
+aVand everywhere that Mary went, that lamb was sure to go.
+p230
+aa(lp231
+VMR: We used "Mary Had a Little Lamb"
+p232
+aVbecause those are said to be the first words
+p233
+aVthat Thomas Edison spoke  into his phonograph in 1877.
+p234
+aVIt was one of the first sound recording devices in history.
+p235
+aVIt basically directed the sounds onto a diaphragm
+p236
+aVthat vibrated a needle that essentially engraved the sound on tinfoil
+p237
+aVthat was wrapped around the cylinder.
+p238
+aa(lp239
+VHere's a demonstration of recording and  replaying sound with Edison's phonograph.
+p240
+aa(lp241
+V(Video) Voice: Testing, testing, one two three.
+p242
+aVMary had a little lamb whose fleece was white as snow,
+p243
+aVand everywhere that Mary went, the lamb was sure to go.
+p244
+aVTesting, testing, one two three.
+p245
+aVMary had a little lamb whose fleece was white as snow,
+p246
+aVand everywhere that Mary went, the lamb was sure to go.
+p247
+aa(lp248
+VMR: And now, 137 years later,
+p249
+aVwe're able to get sound in pretty much similar quality
+p250
+aVbut by just watching objects vibrate to sound with cameras,
+p251
+aVand we can even do that when the camera
+p252
+aVis 15 feet away from the object, behind soundproof glass.
+p253
+aa(lp254
+VSo this is the sound that we were  able to recover in that case.
+p255
+aa(lp256
+VVoice: Mary had a little lamb whose fleece was white as snow,
+p257
+aVand everywhere that Mary went, the lamb was sure to go.
+p258
+aa(lp259
+VMR: And of course, surveillance is the first application that comes to mind.
+p260
+aV(Laughter)
+p261
+aVBut it might actually be useful for other things as well.
+p262
+aVMaybe in the future, we'll be able to use it, for example,
+p263
+aVto recover sound across space,
+p264
+aVbecause sound can't travel in space, but light can.
+p265
+aa(lp266
+VWe've only just begun exploring
+p267
+aVother possible uses for this new technology.
+p268
+aVIt lets us see physical processes that we know are there
+p269
+aVbut that we've never been able to see with our own eyes until now.
+p270
+aa(lp271
+VThis is our team.
+p272
+aVEverything I showed you today is a result of a collaboration
+p273
+aVwith this great group of people you see here,
+p274
+aVand I encourage you and welcome you to check out our website,
+p275
+aVtry it out yourself,
+p276
+aVand join us in exploring this world of tiny motions.
+p277
+aa(lp278
+VThank you.
+p279
+aa(lp280
+V(Applause)
+p281
+aasS'transcript_micsec'
+p282
+(lp283
+I12000
+aI59000
+aI157000
+aI200000
+aI330000
+aI359000
+aI393000
+aI423000
+aI492000
+aI537000
+aI553000
+aI561000
+aI574000
+aI591000
+aI626000
+aI630000
+aI638000
+aI642000
+aI651000
+aI657000
+aI666000
+aI688000
+aI694000
+aI716000
+aI734000
+aI738000
+aI748000
+aI767000
+aI779000
+aI793000
+aI795000
+asS'talk_meta'
+p284
+(dp285
+S'ratings'
+p286
+(dp287
+S'ingenious'
+p288
+I987
+sS'beautiful'
+p289
+I128
+sS'inspiring'
+p290
+I605
+sS'ok'
+p291
+I60
+sS'fascinating'
+p292
+I891
+sS'funny'
+p293
+I195
+sS'total_count'
+p294
+I4220
+sS'persuasive'
+p295
+I18
+sS'longwinded'
+p296
+I15
+sS'unconvincing'
+p297
+I3
+sS'informative'
+p298
+I366
+sS'jaw-dropping'
+p299
+I923
+sS'obnoxious'
+p300
+I4
+sS'courageous'
+p301
+I17
+sS'confusing'
+p302
+I8
+ssS'author'
+p303
+VMichael_Rubinstein;
+p304
+sS'url'
+p305
+S'https://www.ted.com/talks/michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide'
+p306
+sS'vidlen'
+p307
+I798
+sS'totalviews'
+p308
+I1956343
+sS'title'
+p309
+VSee invisible motion, hear silent sounds
+p310
+sS'downloadlink'
+p311
+Vhttps://download.ted.com/talks/MichaelRubinstein_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p312
+sS'datepublished'
+p313
+cdatetime
+datetime
+p314
+(S'\x07\xde\x0c\x17\x0b\x1f\x0e\x00\x00\x00'
+tRp315
+sS'datefilmed'
+p316
+g314
+(S'\x07\xde\x0c\x17\x0b\x1f\x0e\x00\x00\x00'
+tRp317
+sS'alldata_JSON'
+p318
+S'{"viewed_count": 1956343, "speakers": [{"description": "Research scientist, Google", "firstname": "Michael", "title": "", "lastname": "Rubinstein", "middleinitial": "", "whylisten": "<p><a href=\\"http://people.csail.mit.edu/mrub/\\" target=\\"_blank\\">Michael Rubinstein</a> zooms in on what we can&#39;t see and mangnifies it by thirty or a hundred times. His &quot;motion microscope,&quot; developed at MIT with Microsoft and Quanta Research, picks up on subtle motion and color changes in videos and blows them up for the naked eye to see. The result: fun, cool, creepy <a href=\\"http://people.csail.mit.edu/mrub/vidmag/#videos\\" target=\\"_blank\\">videos</a>.</p><p> Rubinstein is a research scientist at a new Cambridge-based Google lab for computer vision research. He has a PhD in computer science and electrical engineering from MIT.</p>", "slug": "michael_rubinstein", "whotheyare": "Computer scientist Michael Rubinstein and his team have developed a \\"motion microscope\\" that can show video footage of barely perceivable movements, like breaths and heartbeats.", "whatotherssay": "", "id": 2381, "photo_url": "https://pe.tedcdn.com/images/ted/5a7f055b5e12ce434da16082decb756efa849d83_254x191.jpg"}], "current_talk": 2159, "description": "Meet the \\u201cmotion microscope,\\u201d a video-processing tool that plays up tiny changes in motion and color impossible to see with the naked eye. Video researcher Michael Rubinstein plays us clip after jaw-dropping clip showing how this tech can track an individual\\u2019s pulse and heartbeat simply from a piece of footage. Watch him re-create a conversation by amplifying the movements from sound waves bouncing off a bag of chips. The wow-inspiring and sinister applications of this tech you have to see to believe.", "language": "en", "url": "https://www.ted.com/talks/michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 93403895}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18432700}, "podcast-high": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 93400559}, "180k": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18213780}, "64k": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6573516}, "1500k": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 145496772}, "450k": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45332283}, "podcast-regular": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45741819}, "950k": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 93419308}, "audio-podcast": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8351925}, "podcast-light": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6706132}, "320k": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32217497}, "600k": {"uri": "https://download.ted.com/talks/MichaelRubinstein_2014X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60484314}}}, "comments": {"count": 102, "id": 26778, "talk_id": 2159}, "slug": "michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide", "threadId": 26778, "talks": [{"event": "TEDxBeaconStreet", "player_talks": [{"event": "TEDxBeaconStreet", "slug": "michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide", "filmed": 1415836800, "targeting": {"event": "TEDxBeaconStreet", "tag": "TEDx,demo,film,online video,photography,sight,sound,technology", "id": 2159, "talk": "michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "See invisible motion, hear silent sounds", "postAdDuration": "0.83", "published": 1419352274, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/74844ad902942f63d1ddb276aeb3d44c5bbcbd38_2880x1620.jpg?quality=89&w=600", "name": "Michael Rubinstein: See invisible motion, hear silent sounds", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bn", "endonym": "\\u09ac\\u09be\\u0982\\u09b2\\u09be", "isRtl": false, "ianaCode": "bn", "languageName": "Bengali"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "demo", "film", "online video", "photography", "sight", "sound", "technology"], "speaker": "Michael Rubinstein", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 798, "id": 2159, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MichaelRubinstein_2014X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxBeaconStreet", "tag": "TEDx,demo,film,online video,photography,sight,sound,technology", "id": 2159, "talk": "michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2159.json", "stream": "https://hls.ted.com/talks/2159.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxBeaconStreet%26id%3D2159%26tag%3DTEDx%2Cdemo%2Cfilm%2Conline%2Bvideo%2Cphotography%2Csight%2Csound%2Ctechnology%26talk%3Dmichael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/74844ad902942f63d1ddb276aeb3d44c5bbcbd38_2880x1620.jpg?q=50&w=15", "duration": 798, "id": 2159, "ratings": [{"count": 987, "id": 9, "name": "Ingenious"}, {"count": 366, "id": 8, "name": "Informative"}, {"count": 891, "id": 22, "name": "Fascinating"}, {"count": 923, "id": 23, "name": "Jaw-dropping"}, {"count": 60, "id": 25, "name": "OK"}, {"count": 605, "id": 10, "name": "Inspiring"}, {"count": 8, "id": 2, "name": "Confusing"}, {"count": 128, "id": 1, "name": "Beautiful"}, {"count": 17, "id": 3, "name": "Courageous"}, {"count": 15, "id": 11, "name": "Longwinded"}, {"count": 18, "id": 24, "name": "Persuasive"}, {"count": 195, "id": 7, "name": "Funny"}, {"count": 3, "id": 21, "name": "Unconvincing"}, {"count": 4, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Research scientist, Google", "firstname": "Michael", "title": "", "lastname": "Rubinstein", "middleinitial": "", "whylisten": "<p><a href=\\"http://people.csail.mit.edu/mrub/\\" target=\\"_blank\\">Michael Rubinstein</a> zooms in on what we can&#39;t see and mangnifies it by thirty or a hundred times. His &quot;motion microscope,&quot; developed at MIT with Microsoft and Quanta Research, picks up on subtle motion and color changes in videos and blows them up for the naked eye to see. The result: fun, cool, creepy <a href=\\"http://people.csail.mit.edu/mrub/vidmag/#videos\\" target=\\"_blank\\">videos</a>.</p><p> Rubinstein is a research scientist at a new Cambridge-based Google lab for computer vision research. He has a PhD in computer science and electrical engineering from MIT.</p>", "slug": "michael_rubinstein", "whotheyare": "Computer scientist Michael Rubinstein and his team have developed a \\"motion microscope\\" that can show video footage of barely perceivable movements, like breaths and heartbeats.", "whatotherssay": "", "id": 2381, "photo_url": "https://pe.tedcdn.com/images/ted/5a7f055b5e12ce434da16082decb756efa849d83_254x191.jpg"}], "title": "See invisible motion, hear silent sounds", "take_action": null, "comments": 26778, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/74844ad902942f63d1ddb276aeb3d44c5bbcbd38_2880x1620.jpg", "description": "Meet the \\u201cmotion microscope,\\u201d a video-processing tool that plays up tiny changes in motion and color impossible to see with the naked eye. Video researcher Michael Rubinstein plays us clip after jaw-dropping clip showing how this tech can track an individual\\u2019s pulse and heartbeat simply from a piece of footage. Watch him re-create a conversation by amplifying the movements from sound waves bouncing off a bag of chips. The wow-inspiring and sinister applications of this tech you have to see to believe.", "tags": ["TEDx", "demo", "film", "online video", "photography", "sight", "sound", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bn", "endonym": "\\u09ac\\u09be\\u0982\\u09b2\\u09be", "isRtl": false, "ianaCode": "bn", "languageName": "Bengali"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-hr.mp4"}, "bn": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-bn.mp4", "name": "Bengali", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-bn.mp4"}, "fa": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-uk.mp4"}, "my": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MichaelRubinstein_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MichaelRubinstein_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MichaelRubinstein_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2159, "audioDownload": "https://download.ted.com/talks/MichaelRubinstein_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 4052653, "hero": "https://pe.tedcdn.com/images/ted/2017a955b9e46bb6fdcffb4982210284d4260483_1600x1200.jpg", "title": "Imaging at a trillion frames per second", "id": 1520, "speaker": "Ramesh Raskar", "duration": 662, "slug": "ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second"}, {"viewed_count": 643480, "hero": "https://pe.tedcdn.com/images/ted/106786_800x600.jpg", "title": "Hold your breath for micro-sculpture", "id": 610, "speaker": "Willard Wigan", "duration": 1183, "slug": "willard_wigan_hold_your_breath_for_micro_sculpture"}, {"viewed_count": 1027372, "hero": "https://pe.tedcdn.com/images/ted/c41e33e230ecc8ba49062c647071b39ee247fdf6_1600x1200.jpg", "title": "The beautiful nano details of our world", "id": 1604, "speaker": "Gary Greenberg", "duration": 726, "slug": "gary_greenberg_the_beautiful_nano_details_of_our_world"}, {"viewed_count": 1390982, "hero": "https://pe.tedcdn.com/images/ted/fd3659c1ca071d3125a0ff963a385ebbac0bbde9_2880x1620.jpg", "title": "New video technology that reveals an object\'s hidden properties", "id": 2246, "speaker": "Abe Davis", "duration": 1077, "slug": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties"}, {"viewed_count": 4473271, "hero": "https://pe.tedcdn.com/images/ted/75734_800x600.jpg", "title": "Learning from dirty jobs", "id": 477, "speaker": "Mike Rowe", "duration": 1202, "slug": "mike_rowe_celebrates_dirty_jobs"}, {"viewed_count": 1767551, "hero": "https://pe.tedcdn.com/images/ted/71466_800x600.jpg", "title": "Toy tiles that talk to each other", "id": 457, "speaker": "David Merrill", "duration": 429, "slug": "david_merrill_demos_siftables_the_smart_blocks"}], "recorded_at": "2014-11-13T00:00:00.000+00:00", "slug": "michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide", "speaker_name": "Michael Rubinstein", "viewed_count": 1956343, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxBeaconStreet, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxBeaconStreet", "name": "Michael Rubinstein: See invisible motion, hear silent sounds"}'
+p319
+sS'keywords'
+p320
+(lp321
+VTEDx
+p322
+aVdemo
+p323
+aVfilm
+p324
+aVonline video
+p325
+aVphotography
+p326
+aVsight
+p327
+aVsound
+p328
+aVtechnology
+p329
+asS'datecrawled'
+p330
+g314
+(S'\x07\xe1\n\x17\x03\x0b\x18\x00\xdd|'
+tRp331
+sS'id'
+p332
+I2159
+ss.

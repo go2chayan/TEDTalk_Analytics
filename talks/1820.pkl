@@ -1,0 +1,910 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm going to be showing some of the cybercriminals'
+p5
+aVlatest and nastiest creations.
+p6
+aVSo basically, please don't go and download
+p7
+aVany of the viruses that I show you.
+p8
+aa(lp9
+VSome of you might be wondering what a cybersecurity specialist looks like,
+p10
+aVand I thought I'd give you a quick insight
+p11
+aVinto my career so far.
+p12
+aVIt's a pretty accurate description.
+p13
+aVThis is what someone that specializes
+p14
+aVin malware and hacking looks like.
+p15
+aa(lp16
+VSo today, computer viruses and trojans,
+p17
+aVdesigned to do everything from stealing data
+p18
+aVto watching you in your webcam
+p19
+aVto the theft of billions of dollars.
+p20
+aVSome malicious code today goes as far
+p21
+aVas targeting power, utilities and infrastructure.
+p22
+aa(lp23
+VLet me give you a quick snapshot
+p24
+aVof what malicious code is capable of today.
+p25
+aVRight now, every second, eight new users
+p26
+aVare joining the Internet.
+p27
+aVToday, we will see 250,000 individual new computer viruses.
+p28
+aVWe will see 30,000 new infected websites.
+p29
+aVAnd, just to kind of tear down a myth here,
+p30
+aVlots of people think that when you get infected
+p31
+aVwith a computer virus, it's because you went to a porn site.
+p32
+aVRight? Well, actually, statistically speaking,
+p33
+aVif you only visit porn sites, you're safer.
+p34
+aVPeople normally write that down, by the way. (Laughter)
+p35
+aVActually, about 80 percent of these
+p36
+aVare small business websites getting infected.
+p37
+aa(lp38
+VToday's cybercriminal, what do they look like?
+p39
+aVWell, many of you have the image, don't you,
+p40
+aVof the spotty teenager sitting in a basement,
+p41
+aVhacking away for notoriety.
+p42
+aVBut actually today, cybercriminals
+p43
+aVare wonderfully professional and organized.
+p44
+aVIn fact, they have product adverts.
+p45
+aVYou can go online and buy a hacking service
+p46
+aVto knock your business competitor offline.
+p47
+aVCheck out this one I found.
+p48
+aa(lp49
+V(Video) Man: So you're here for one reason,
+p50
+aVand that reason is
+p51
+aVbecause you need your business competitors,
+p52
+aVrivals, haters, or whatever the reason is, or who,
+p53
+aVthey are to go down.
+p54
+aVWell you, my friend, you've came to the right place.
+p55
+aVIf you want your business competitors to go down,
+p56
+aVwell, they can.
+p57
+aVIf you want your rivals to go offline, well, they will.
+p58
+aVNot only that, we are providing a short-term-to-long-term
+p59
+aVDDOS service or scheduled attack,
+p60
+aVstarting five dollars per hour for small personal websites
+p61
+aVto 10 to 50 dollars per hour.
+p62
+aa(lp63
+VJames Lyne: Now, I did actually pay
+p64
+aVone of these cybercriminals to attack my own website.
+p65
+aVThings got a bit tricky when I tried to expense it at the company.
+p66
+aVTurns out that's not cool.
+p67
+aVBut regardless, it's amazing how many products
+p68
+aVand services are available now to cybercriminals.
+p69
+aVFor example, this testing platform,
+p70
+aVwhich enables the cybercriminals
+p71
+aVto test the quality of their viruses
+p72
+aVbefore they release them on the world.
+p73
+aVFor a small fee, they can upload it
+p74
+aVand make sure everything is good.
+p75
+aa(lp76
+VBut it goes further.
+p77
+aVCybercriminals now have crime packs
+p78
+aVwith business intelligence reporting dashboards
+p79
+aVto manage the distribution of their malicious code.
+p80
+aVThis is the market leader in malware distribution,
+p81
+aVthe Black Hole Exploit Pack,
+p82
+aVresponsible for nearly one third of malware distribution
+p83
+aVin the last couple of quarters.
+p84
+aVIt comes with technical installation guides,
+p85
+aVvideo setup routines,
+p86
+aVand get this, technical support.
+p87
+aVYou can email the cybercriminals and they'll tell you
+p88
+aVhow to set up your illegal hacking server.
+p89
+aa(lp90
+VSo let me show you what malicious code looks like today.
+p91
+aVWhat I've got here is two systems,
+p92
+aVan attacker, which I've made look all Matrix-y and scary,
+p93
+aVand a victim, which you might recognize from home or work.
+p94
+aVNow normally, these would be on different sides
+p95
+aVof the planet or of the Internet,
+p96
+aVbut I've put them side by side
+p97
+aVbecause it makes things much more interesting.
+p98
+aa(lp99
+VNow, there are many ways you can get infected.
+p100
+aVYou will have come in contact with some of them.
+p101
+aVMaybe some of you have received an email
+p102
+aVthat says something like, "Hi, I'm a Nigerian banker,
+p103
+aVand I'd like to give you 53 billion dollars
+p104
+aVbecause I like your face."
+p105
+aVOr funnycats.exe, which rumor has it
+p106
+aVwas quite successful in China's recent campaign against America.
+p107
+aa(lp108
+VNow there are many ways you can get infected.
+p109
+aVI want to show you a couple of my favorites.
+p110
+aVThis is a little USB key.
+p111
+aVNow how do you get a USB key to run in a business?
+p112
+aVWell, you could try looking really cute.
+p113
+aVAwww.
+p114
+aVOr, in my case, awkward and pathetic.
+p115
+aVSo imagine this scenario: I walk into one of your businesses,
+p116
+aVlooking very awkward and pathetic, with a copy of my C.V.
+p117
+aVwhich I've covered in coffee,
+p118
+aVand I ask the receptionist to plug in this USB key
+p119
+aVand print me a new one.
+p120
+aVSo let's have a look here on my victim computer.
+p121
+aVWhat I'm going to do is plug in the USB key.
+p122
+aVAfter a couple of seconds,
+p123
+aVthings start to happen on the computer on their own,
+p124
+aVusually a bad sign.
+p125
+aVThis would, of course, normally happen
+p126
+aVin a couple of seconds, really, really quickly,
+p127
+aVbut I've kind of slowed it down
+p128
+aVso you can actually see the attack occurring.
+p129
+aVMalware is very boring otherwise.
+p130
+aVSo this is writing out the malicious code,
+p131
+aVand a few seconds later, on the left-hand side,
+p132
+aVyou'll see the attacker's screen get some interesting new text.
+p133
+aVNow if I place the mouse cursor over it,
+p134
+aVthis is what we call a command prompt,
+p135
+aVand using this we can navigate around the computer.
+p136
+aVWe can access your documents, your data.
+p137
+aVYou can turn on the webcam.
+p138
+aVThat can be very embarrassing.
+p139
+aVOr just to really prove a point,
+p140
+aVwe can launch programs like my personal favorite,
+p141
+aVthe Windows Calculator.
+p142
+aa(lp143
+VSo isn't it amazing how much control
+p144
+aVthe attackers can get with such a simple operation?
+p145
+aVLet me show you how most malware
+p146
+aVis now distributed today.
+p147
+aVWhat I'm going to do is open up a website
+p148
+aVthat I wrote.
+p149
+aVIt's a terrible website. It's got really awful graphics.
+p150
+aVAnd it's got a comments section here
+p151
+aVwhere we can submit comments to the website.
+p152
+aVMany of you will have used something a bit like this before.
+p153
+aVUnfortunately, when this was implemented,
+p154
+aVthe developer was slightly inebriated
+p155
+aVand managed to forget
+p156
+aVall of the secure coding practices he had learned.
+p157
+aVSo let's imagine that our attacker,
+p158
+aVcalled Evil Hacker just for comedy value,
+p159
+aVinserts something a little nasty.
+p160
+aVThis is a script.
+p161
+aVIt's code which will be interpreted on the webpage.
+p162
+aVSo I'm going to submit this post,
+p163
+aVand then, on my victim computer,
+p164
+aVI'm going to open up the web browser
+p165
+aVand browse to my website,
+p166
+aVwww.incrediblyhacked.com.
+p167
+aVNotice that after a couple of seconds,
+p168
+aVI get redirected.
+p169
+aVThat website address at the top there,
+p170
+aVwhich you can just about see, microshaft.com,
+p171
+aVthe browser crashes as it hits one of these exploit packs,
+p172
+aVand up pops fake antivirus.
+p173
+aVThis is a virus pretending to look like antivirus software,
+p174
+aVand it will go through and it will scan the system,
+p175
+aVhave a look at what its popping up here.
+p176
+aVIt creates some very serious alerts.
+p177
+aVOh look, a child porn proxy server.
+p178
+aVWe really should clean that up.
+p179
+aVWhat's really insulting about this is
+p180
+aVnot only does it provide the attackers with access to your data,
+p181
+aVbut when the scan finishes, they tell you
+p182
+aVin order to clean up the fake viruses,
+p183
+aVyou have to register the product.
+p184
+aVNow I liked it better when viruses were free.
+p185
+aV(Laughter)
+p186
+aVPeople now pay cybercriminals money
+p187
+aVto run viruses,
+p188
+aVwhich I find utterly bizarre.
+p189
+aa(lp190
+VSo anyway, let me change pace a little bit.
+p191
+aVChasing 250,000 pieces of malware a day
+p192
+aVis a massive challenge,
+p193
+aVand those numbers are only growing
+p194
+aVdirectly in proportion to the length of my stress line, you'll note here.
+p195
+aVSo I want to talk to you briefly
+p196
+aVabout a group of hackers we tracked for a year
+p197
+aVand actually found \u2014
+p198
+aVand this is a rare treat in our job.
+p199
+aVNow this was a cross-industry collaboration,
+p200
+aVpeople from Facebook, independent researchers,
+p201
+aVguys from Sophos.
+p202
+aVSo here we have a couple of documents
+p203
+aVwhich our cybercriminals had uploaded
+p204
+aVto a cloud service, kind of like Dropbox or SkyDrive,
+p205
+aVlike many of you might use.
+p206
+aVAt the top, you'll notice a section of source code.
+p207
+aVWhat this would do is send the cybercriminals
+p208
+aVa text message every day telling them how much money
+p209
+aVthey'd made that day,
+p210
+aVso a kind of cybercriminal billings report, if you will.
+p211
+aVIf you look closely, you'll notice a series
+p212
+aVof what are Russian telephone numbers.
+p213
+aVNow that's obviously interesting,
+p214
+aVbecause that gives us a way of finding our cybercriminals.
+p215
+aVDown below, highlighted in red,
+p216
+aVin the other section of source code,
+p217
+aVis this bit "leded:leded."
+p218
+aVThat's a username,
+p219
+aVkind of like you might have on Twitter.
+p220
+aa(lp221
+VSo let's take this a little further.
+p222
+aVThere are a few other interesting pieces
+p223
+aVthe cybercriminals had uploaded.
+p224
+aVLots of you here will use smartphones
+p225
+aVto take photos and post them from the conference.
+p226
+aVAn interesting feature of lots of modern smartphones
+p227
+aVis that when you take a photo,
+p228
+aVit embeds GPS data about where that photo was taken.
+p229
+aVIn fact, I've been spending a lot of time
+p230
+aVon Internet dating sites recently,
+p231
+aVobviously for research purposes,
+p232
+aVand I've noticed that about 60 percent
+p233
+aVof the profile pictures on Internet dating sites
+p234
+aVcontain the GPS coordinates of where the photo was taken,
+p235
+aVwhich is kind of scary
+p236
+aVbecause you wouldn't give out your home address
+p237
+aVto lots of strangers,
+p238
+aVbut we're happy to give away our GPS coordinates
+p239
+aVto plus or minus 15 meters.
+p240
+aVAnd our cybercriminals had done the same thing.
+p241
+aVSo here's a photo which resolves to St. Petersburg.
+p242
+aVWe then deploy the incredibly advanced hacking tool.
+p243
+aVWe used Google.
+p244
+aVUsing the email address, the telephone number
+p245
+aVand the GPS data, on the left you see an advert
+p246
+aVfor a BMW that one of our cybercriminals is selling,
+p247
+aVon the other side an advert for the sale of sphynx kittens.
+p248
+aVOne of these was more stereotypical for me.
+p249
+aVA little more searching, and here's our cybercriminal.
+p250
+aVImagine, these are hardened cybercriminals
+p251
+aVsharing information scarcely.
+p252
+aVImagine what you could find
+p253
+aVabout each of the people in this room.
+p254
+aVA bit more searching through the profile
+p255
+aVand there's a photo of their office.
+p256
+aVThey were working on the third floor.
+p257
+aVAnd you can also see some photos
+p258
+aVfrom his business companion
+p259
+aVwhere he has a taste in a certain kind of image.
+p260
+aVIt turns out he's a member of the Russian Adult Webmasters Federation.
+p261
+aa(lp262
+VBut this is where our investigation starts to slow down.
+p263
+aVThe cybercriminals have locked down their profiles quite well.
+p264
+aVAnd herein is the greatest lesson
+p265
+aVof social media and mobile devices for all of us right now.
+p266
+aVOur friends, our families and our colleagues
+p267
+aVcan break our security even when we do the right things.
+p268
+aVThis is MobSoft, one of the companies
+p269
+aVthat this cybercriminal gang owned,
+p270
+aVand an interesting thing about MobSoft
+p271
+aVis the 50-percent owner of this
+p272
+aVposted a job advert,
+p273
+aVand this job advert matched one of the telephone numbers
+p274
+aVfrom the code earlier.
+p275
+aVThis woman was Maria,
+p276
+aVand Maria is the wife of one of our cybercriminals.
+p277
+aVAnd it's kind of like she went into her social media settings
+p278
+aVand clicked on every option imaginable
+p279
+aVto make herself really, really insecure.
+p280
+aVBy the end of the investigation,
+p281
+aVwhere you can read the full 27-page report at that link,
+p282
+aVwe had photos of the cybercriminals,
+p283
+aVeven the office Christmas party
+p284
+aVwhen they were out on an outing.
+p285
+aVThat's right, cybercriminals do have Christmas parties,
+p286
+aVas it turns out.
+p287
+aVNow you're probably wondering what happened to these guys.
+p288
+aVLet me come back to that in just a minute.
+p289
+aa(lp290
+VI want to change pace to one last little demonstration,
+p291
+aVa technique that is wonderfully simple and basic,
+p292
+aVbut is interesting in exposing how much information
+p293
+aVwe're all giving away,
+p294
+aVand it's relevant because it applies to us as a TED audience.
+p295
+aVThis is normally when people start kind of shuffling in their pockets
+p296
+aVtrying to turn their phones onto airplane mode desperately.
+p297
+aa(lp298
+VMany of you all know about the concept
+p299
+aVof scanning for wireless networks.
+p300
+aVYou do it every time you take out your iPhone or your Blackberry
+p301
+aVand connect to something like TEDAttendees.
+p302
+aVBut what you might not know
+p303
+aVis that you're also beaming out a list of networks
+p304
+aVyou've previously connected to,
+p305
+aVeven when you're not using wireless actively.
+p306
+aVSo I ran a little scan.
+p307
+aVI was relatively inhibited compared to the cybercriminals,
+p308
+aVwho wouldn't be so concerned by law,
+p309
+aVand here you can see my mobile device.
+p310
+aVOkay? So you can see a list of wireless networks.
+p311
+aVTEDAttendees, HyattLB. Where do you think I'm staying?
+p312
+aVMy home network, PrettyFlyForAWifi,
+p313
+aVwhich I think is a great name.
+p314
+aVSophos_Visitors, SANSEMEA, companies I work with.
+p315
+aVLoganwifi, that's in Boston. HiltonLondon.
+p316
+aVCIASurveillanceVan.
+p317
+aVWe called it that at one of our conferences
+p318
+aVbecause we thought that would freak people out,
+p319
+aVwhich is quite fun.
+p320
+aVThis is how geeks party.
+p321
+aa(lp322
+VSo let's make this a little bit more interesting.
+p323
+aVLet's talk about you.
+p324
+aVTwenty-three percent of you have been to Starbucks
+p325
+aVrecently and used the wireless network.
+p326
+aVThings get more interesting.
+p327
+aVForty-six percent of you I could link to a business,
+p328
+aVXYZ Employee network.
+p329
+aVThis isn't an exact science, but it gets pretty accurate.
+p330
+aVSeven hundred and sixty-one of you I could identify a hotel you'd been to recently,
+p331
+aVabsolutely with pinpoint precision somewhere on the globe.
+p332
+aVTwo hundred and thirty-four of you, well, I know where you live.
+p333
+aVYour wireless network name is so unique
+p334
+aVthat I was able to pinpoint it
+p335
+aVusing data available openly on the Internet
+p336
+aVwith no hacking or clever, clever tricks.
+p337
+aVAnd I should mention as well that
+p338
+aVsome of you do use your names,
+p339
+aV"James Lyne's iPhone," for example.
+p340
+aVAnd two percent of you have a tendency to extreme profanity.
+p341
+aa(lp342
+VSo something for you to think about:
+p343
+aVAs we adopt these new applications and mobile devices,
+p344
+aVas we play with these shiny new toys,
+p345
+aVhow much are we trading off convenience
+p346
+aVfor privacy and security?
+p347
+aVNext time you install something,
+p348
+aVlook at the settings and ask yourself,
+p349
+aV"Is this information that I want to share?
+p350
+aVWould someone be able to abuse it?"
+p351
+aa(lp352
+VWe also need to think very carefully
+p353
+aVabout how we develop our future talent pool.
+p354
+aVYou see, technology's changing at a staggering rate,
+p355
+aVand that 250,000 pieces of malware
+p356
+aVwon't stay the same for long.
+p357
+aVThere's a very concerning trend
+p358
+aVthat whilst many people coming out of schools now
+p359
+aVare much more technology-savvy, they know how to use technology,
+p360
+aVfewer and fewer people are following the feeder subjects
+p361
+aVto know how that technology works under the covers.
+p362
+aVIn the U.K., a 60 percent reduction since 2003,
+p363
+aVand there are similar statistics all over the world.
+p364
+aa(lp365
+VWe also need to think about the legal issues in this area.
+p366
+aVThe cybercriminals I talked about,
+p367
+aVdespite theft of millions of dollars,
+p368
+aVactually still haven't been arrested,
+p369
+aVand at this point possibly never will.
+p370
+aVMost laws are national in their implementation,
+p371
+aVdespite cybercrime conventions, where the Internet
+p372
+aVis borderless and international by definition.
+p373
+aVCountries do not agree, which makes this area
+p374
+aVexceptionally challenging from a legal perspective.
+p375
+aa(lp376
+VBut my biggest ask is this:
+p377
+aVYou see, you're going to leave here
+p378
+aVand you're going to see some astonishing stories in the news.
+p379
+aVYou're going to read about malware doing incredible
+p380
+aVand terrifying, scary things.
+p381
+aVHowever, 99 percent of it works
+p382
+aVbecause people fail to do the basics.
+p383
+aVSo my ask is this: Go online,
+p384
+aVfind these simple best practices,
+p385
+aVfind out how to update and patch your computer.
+p386
+aVGet a secure password.
+p387
+aVMake sure you use a different password
+p388
+aVon each of your sites and services online.
+p389
+aVFind these resources. Apply them.
+p390
+aa(lp391
+VThe Internet is a fantastic resource
+p392
+aVfor business, for political expression,
+p393
+aVfor art and for learning.
+p394
+aVHelp me and the security community
+p395
+aVmake life much, much more difficult
+p396
+aVfor cybercriminals.
+p397
+aa(lp398
+VThank you.
+p399
+aa(lp400
+V(Applause)
+p401
+aasS'transcript_micsec'
+p402
+(lp403
+I11000
+aI21000
+aI35000
+aI53000
+aI97000
+aI120000
+aI153000
+aI181000
+aI217000
+aI240000
+aI263000
+aI351000
+aI472000
+aI553000
+aI662000
+aI738000
+aI760000
+aI826000
+aI880000
+aI905000
+aI947000
+aI977000
+aI1018000
+aI1034000
+aI1035000
+asS'talk_meta'
+p404
+(dp405
+S'ratings'
+p406
+(dp407
+S'ingenious'
+p408
+I47
+sS'funny'
+p409
+I135
+sS'inspiring'
+p410
+I97
+sS'ok'
+p411
+I65
+sS'fascinating'
+p412
+I275
+sS'total_count'
+p413
+I1947
+sS'persuasive'
+p414
+I279
+sS'longwinded'
+p415
+I14
+sS'unconvincing'
+p416
+I6
+sS'informative'
+p417
+I814
+sS'beautiful'
+p418
+I41
+sS'jaw-dropping'
+p419
+I110
+sS'obnoxious'
+p420
+I22
+sS'courageous'
+p421
+I25
+sS'confusing'
+p422
+I17
+ssS'author'
+p423
+VJames_Lyne;
+p424
+sS'url'
+p425
+S'https://www.ted.com/talks/james_lyne_everyday_cybercrime_and_what_you_can_do_about_it'
+p426
+sS'vidlen'
+p427
+I1046
+sS'totalviews'
+p428
+I1412554
+sS'title'
+p429
+VEveryday cybercrime -- and what you can do about it
+p430
+sS'downloadlink'
+p431
+Vhttps://download.ted.com/talks/JamesLyne_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p432
+sS'datepublished'
+p433
+cdatetime
+datetime
+p434
+(S'\x07\xdd\t\x10\x0b\x11&\x00\x00\x00'
+tRp435
+sS'datefilmed'
+p436
+g434
+(S'\x07\xdd\t\x10\x0b\x11&\x00\x00\x00'
+tRp437
+sS'alldata_JSON'
+p438
+S'{"viewed_count": 1412554, "speakers": [{"description": "Cybersecurity specialist", "firstname": "James", "title": "", "lastname": "Lyne", "middleinitial": "", "whylisten": "<p>In an ever-expanding world of networked mobile devices, security threats -- and our ignorance of them -- are more widespread than ever. James Lyne of security firm <a href=\\"http://sophos.com\\" target=\\"_blank\\">Sophos</a>  believes that if we continue to ignore basic best practices, security is on a trajectory of failure.<br />&nbsp;<br />A self-described geek, Lyne spends time ripping apart the latest gadgets and software, builds true random number generators out of tinfoil and smoke alarm parts, among other unlikely objects. But his gift lies in his ability to explain complicated concepts and abstract threats to diverse audiences around the world.</p>", "slug": "james_lyne", "whotheyare": "Whether he\\u2019s taking on insecure hotspots, inept passwords, or lax OS designers, James Lyne exposes technology\\u2019s vulnerabilities while elevating the security awareness of everyday users.", "whatotherssay": "", "id": 1472, "photo_url": "https://pe.tedcdn.com/images/ted/911d7a14ee12a1000c7f034b2285c1efc1f36402_254x191.jpg"}], "current_talk": 1820, "description": "How do you pick up a malicious online virus, the kind of malware that snoops on your data and taps your bank account? Often, it\'s through simple things you do each day without thinking twice. James Lyne reminds us that it\'s not only the NSA that\'s watching us, but ever-more-sophisticated cybercriminals, who exploit both weak code and trusting human nature.", "language": "en", "url": "https://www.ted.com/talks/james_lyne_everyday_cybercrime_and_what_you_can_do_about_it", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JamesLyne_2013-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124445404}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JamesLyne_2013-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24031158}, "podcast-high": {"uri": "https://download.ted.com/talks/JamesLyne_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124439121}, "180k": {"uri": "https://download.ted.com/talks/JamesLyne_2013-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23778667}, "64k": {"uri": "https://download.ted.com/talks/JamesLyne_2013-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8565233}, "1500k": {"uri": "https://download.ted.com/talks/JamesLyne_2013-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 193101294}, "450k": {"uri": "https://download.ted.com/talks/JamesLyne_2013-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59256978}, "podcast-regular": {"uri": "https://download.ted.com/talks/JamesLyne_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59372123}, "950k": {"uri": "https://download.ted.com/talks/JamesLyne_2013-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124447091}, "podcast-light": {"uri": "https://download.ted.com/talks/JamesLyne_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8698487}, "320k": {"uri": "https://download.ted.com/talks/JamesLyne_2013-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42098988}, "600k": {"uri": "https://download.ted.com/talks/JamesLyne_2013-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79213491}}}, "comments": {"count": 134, "id": 22073, "talk_id": 1820}, "slug": "james_lyne_everyday_cybercrime_and_what_you_can_do_about_it", "threadId": 22073, "talks": [{"event": "TED2013", "player_talks": [{"event": "TED2013", "slug": "james_lyne_everyday_cybercrime_and_what_you_can_do_about_it", "filmed": 1362009600, "targeting": {"event": "TED2013", "tag": "crime,finance,technology", "id": 1820, "talk": "james_lyne_everyday_cybercrime_and_what_you_can_do_about_it", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "Everyday cybercrime -- and what you can do about it", "postAdDuration": "0.83", "published": 1379344658, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b91bd6615e88fdd6de5685ed9c69ad9b15c8fd3b_1600x1200.jpg?quality=89&w=600", "name": "James Lyne: Everyday cybercrime -- and what you can do about it", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "srp", "endonym": "Crnogorski", "isRtl": false, "ianaCode": "sr", "languageName": "Montenegrin"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["crime", "finance", "technology"], "speaker": "James Lyne", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1046, "id": 1820, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JamesLyne_2013-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2013", "tag": "crime,finance,technology", "id": 1820, "talk": "james_lyne_everyday_cybercrime_and_what_you_can_do_about_it", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1820.json", "stream": "https://hls.ted.com/talks/1820.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2013%26id%3D1820%26tag%3Dcrime%2Cfinance%2Ctechnology%26talk%3Djames_lyne_everyday_cybercrime_and_what_you_can_do_about_it%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/james_lyne_everyday_cybercrime_and_what_you_can_do_about_it"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b91bd6615e88fdd6de5685ed9c69ad9b15c8fd3b_1600x1200.jpg?q=50&w=15", "duration": 1046, "id": 1820, "ratings": [{"count": 814, "id": 8, "name": "Informative"}, {"count": 135, "id": 7, "name": "Funny"}, {"count": 22, "id": 26, "name": "Obnoxious"}, {"count": 279, "id": 24, "name": "Persuasive"}, {"count": 275, "id": 22, "name": "Fascinating"}, {"count": 25, "id": 3, "name": "Courageous"}, {"count": 65, "id": 25, "name": "OK"}, {"count": 110, "id": 23, "name": "Jaw-dropping"}, {"count": 17, "id": 2, "name": "Confusing"}, {"count": 97, "id": 10, "name": "Inspiring"}, {"count": 14, "id": 11, "name": "Longwinded"}, {"count": 47, "id": 9, "name": "Ingenious"}, {"count": 41, "id": 1, "name": "Beautiful"}, {"count": 6, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Cybersecurity specialist", "firstname": "James", "title": "", "lastname": "Lyne", "middleinitial": "", "whylisten": "<p>In an ever-expanding world of networked mobile devices, security threats -- and our ignorance of them -- are more widespread than ever. James Lyne of security firm <a href=\\"http://sophos.com\\" target=\\"_blank\\">Sophos</a>  believes that if we continue to ignore basic best practices, security is on a trajectory of failure.<br />&nbsp;<br />A self-described geek, Lyne spends time ripping apart the latest gadgets and software, builds true random number generators out of tinfoil and smoke alarm parts, among other unlikely objects. But his gift lies in his ability to explain complicated concepts and abstract threats to diverse audiences around the world.</p>", "slug": "james_lyne", "whotheyare": "Whether he\\u2019s taking on insecure hotspots, inept passwords, or lax OS designers, James Lyne exposes technology\\u2019s vulnerabilities while elevating the security awareness of everyday users.", "whatotherssay": "", "id": 1472, "photo_url": "https://pe.tedcdn.com/images/ted/911d7a14ee12a1000c7f034b2285c1efc1f36402_254x191.jpg"}], "title": "Everyday cybercrime -- and what you can do about it", "take_action": null, "comments": 22073, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/b91bd6615e88fdd6de5685ed9c69ad9b15c8fd3b_1600x1200.jpg", "description": "How do you pick up a malicious online virus, the kind of malware that snoops on your data and taps your bank account? Often, it\'s through simple things you do each day without thinking twice. James Lyne reminds us that it\'s not only the NSA that\'s watching us, but ever-more-sophisticated cybercriminals, who exploit both weak code and trusting human nature.", "tags": ["crime", "finance", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "srp", "endonym": "Crnogorski", "isRtl": false, "ianaCode": "sr", "languageName": "Montenegrin"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JamesLyne_2013-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JamesLyne_2013-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JamesLyne_2013-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JamesLyne_2013-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JamesLyne_2013-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JamesLyne_2013-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JamesLyne_2013-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JamesLyne_2013-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JamesLyne_2013-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JamesLyne_2013-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JamesLyne_2013-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JamesLyne_2013-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JamesLyne_2013-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JamesLyne_2013-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JamesLyne_2013-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JamesLyne_2013-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JamesLyne_2013-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JamesLyne_2013-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JamesLyne_2013-low-ko.mp4"}, "srp": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p-srp.mp4", "name": "Montenegrin", "low": "https://download.ted.com/talks/JamesLyne_2013-low-srp.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JamesLyne_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JamesLyne_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JamesLyne_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1820, "audioDownload": null}, "related_talks": [{"viewed_count": 1665429, "hero": "https://pe.tedcdn.com/images/ted/28bced335898ba54d4441809c5b1112ffaf36781_800x600.jpg", "title": "Fighting viruses, defending the net", "id": 1192, "speaker": "Mikko Hypponen", "duration": 1054, "slug": "mikko_hypponen_fighting_viruses_defending_the_net"}, {"viewed_count": 1354372, "hero": "https://pe.tedcdn.com/images/ted/262a2bfc91f472ffd30afc8f2dec594b0670233f_800x600.jpg", "title": "Cracking Stuxnet, a 21st-century cyber weapon", "id": 1107, "speaker": "Ralph Langner", "duration": 640, "slug": "ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon"}, {"viewed_count": 1271767, "hero": "https://pe.tedcdn.com/images/ted/9f06890a2cefbba85fe1f502d11e5b58179a8fb7_800x600.jpg", "title": "Hire the hackers!", "id": 1221, "speaker": "Misha Glenny", "duration": 1119, "slug": "misha_glenny_hire_the_hackers"}, {"viewed_count": 1323574, "hero": "https://pe.tedcdn.com/images/ted/bb8680376dcbdcaa63f8046ea8342d313d92761b_2880x1620.jpg", "title": "Where is cybercrime really coming from?", "id": 2668, "speaker": "Caleb Barlow", "duration": 867, "slug": "caleb_barlow_where_is_cybercrime_really_coming_from"}, {"viewed_count": 1270667, "hero": "https://pe.tedcdn.com/images/ted/fc7b6c0a7974f84b6fd218a3409eb5248d214aad_1600x1200.jpg", "title": "The Internet could crash. We need a Plan B", "id": 1693, "speaker": "Danny Hillis", "duration": 751, "slug": "danny_hillis_the_internet_could_crash_we_need_a_plan_b"}, {"viewed_count": 2135689, "hero": "https://pe.tedcdn.com/images/ted/d7ffad9a704353886a479f2b9acadada4a48855c_2400x1800.jpg", "title": "Hackers: the Internet\'s immune system", "id": 2019, "speaker": "Keren Elazari", "duration": 999, "slug": "keren_elazari_hackers_the_internet_s_immune_system"}], "recorded_at": "2013-02-28T00:00:00.000+00:00", "slug": "james_lyne_everyday_cybercrime_and_what_you_can_do_about_it", "speaker_name": "James Lyne", "viewed_count": 1412554, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2013", "name": "James Lyne: Everyday cybercrime -- and what you can do about it"}'
+p439
+sS'keywords'
+p440
+(lp441
+Vcrime
+p442
+aVfinance
+p443
+aVtechnology
+p444
+asS'datecrawled'
+p445
+g434
+(S'\x07\xe1\n\x17\x00\x01\x08\x0e\xee\x00'
+tRp446
+sS'id'
+p447
+I1820
+ss.

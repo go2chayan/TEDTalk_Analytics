@@ -1,0 +1,434 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VToday I'd like to show you
+p5
+aVthe future of the way we make things.
+p6
+aVI believe that soon our buildings and machines
+p7
+aVwill be self-assembling,
+p8
+aVreplicating and repairing themselves.
+p9
+aVSo I'm going to show you
+p10
+aVwhat I believe is the current state of manufacturing,
+p11
+aVand then compare that to some natural systems.
+p12
+aa(lp13
+VSo in the current state of manufacturing, we have skyscrapers \u2014
+p14
+aVtwo and a half years [of assembly time],
+p15
+aV500,000 to a million parts,
+p16
+aVfairly complex,
+p17
+aVnew, exciting technologies in steel, concrete, glass.
+p18
+aVWe have exciting machines
+p19
+aVthat can take us into space \u2014
+p20
+aVfive years [of assembly time], 2.5 million parts.
+p21
+aa(lp22
+VBut on the other side, if you look at the natural systems,
+p23
+aVwe have proteins
+p24
+aVthat have two million types,
+p25
+aVcan fold in 10,000 nanoseconds,
+p26
+aVor DNA with three billion base pairs
+p27
+aVwe can replicate in roughly an hour.
+p28
+aVSo there's all of this complexity
+p29
+aVin our natural systems,
+p30
+aVbut they're extremely efficient,
+p31
+aVfar more efficient than anything we can build,
+p32
+aVfar more complex than anything we can build.
+p33
+aVThey're far more efficient in terms of energy.
+p34
+aVThey hardly ever make mistakes.
+p35
+aVAnd they can repair themselves for longevity.
+p36
+aa(lp37
+VSo there's something super interesting about natural systems.
+p38
+aVAnd if we can translate that
+p39
+aVinto our built environment,
+p40
+aVthen there's some exciting potential for the way that we build things.
+p41
+aVAnd I think the key to that is self-assembly.
+p42
+aa(lp43
+VSo if we want to utilize self-assembly in our physical environment,
+p44
+aVI think there's four key factors.
+p45
+aVThe first is that we need to decode
+p46
+aVall of the complexity of what we want to build \u2014
+p47
+aVso our buildings and machines.
+p48
+aVAnd we need to decode that into simple sequences \u2014
+p49
+aVbasically the DNA of how our buildings work.
+p50
+aVThen we need programmable parts
+p51
+aVthat can take that sequence
+p52
+aVand use that to fold up, or reconfigure.
+p53
+aVWe need some energy that's going to allow that to activate,
+p54
+aVallow our parts to be able to fold up from the program.
+p55
+aVAnd we need some type of error correction redundancy
+p56
+aVto guarantee that we have successfully built what we want.
+p57
+aa(lp58
+VSo I'm going to show you a number of projects
+p59
+aVthat my colleagues and I at MIT are working on
+p60
+aVto achieve this self-assembling future.
+p61
+aVThe first two are the MacroBot and DeciBot.
+p62
+aVSo these projects are large-scale reconfigurable robots \u2014
+p63
+aV8 ft., 12 ft. long proteins.
+p64
+aVThey're embedded with mechanical electrical devices, sensors.
+p65
+aVYou decode what you want to fold up into,
+p66
+aVinto a sequence of angles \u2014
+p67
+aVso negative 120, negative 120, 0, 0,
+p68
+aV120, negative 120 \u2014 something like that;
+p69
+aVso a sequence of angles, or turns,
+p70
+aVand you send that sequence through the string.
+p71
+aVEach unit takes its message \u2014 so negative 120 \u2014
+p72
+aVit rotates to that, checks if it got there
+p73
+aVand then passes it to its neighbor.
+p74
+aa(lp75
+VSo these are the brilliant scientists,
+p76
+aVengineers, designers that worked on this project.
+p77
+aVAnd I think it really brings to light:
+p78
+aVIs this really scalable?
+p79
+aVI mean, thousands of dollars, lots of man hours
+p80
+aVmade to make this eight-foot robot.
+p81
+aVCan we really scale this up? Can we really embed robotics into every part?
+p82
+aVThe next one questions that
+p83
+aVand looks at passive nature,
+p84
+aVor passively trying to have reconfiguration programmability.
+p85
+aVBut it goes a step further,
+p86
+aVand it tries to have actual computation.
+p87
+aVIt basically embeds the most fundamental building block of computing,
+p88
+aVthe digital logic gate,
+p89
+aVdirectly into your parts.
+p90
+aa(lp91
+VSo this is a NAND gate.
+p92
+aVYou have one tetrahedron which is the gate
+p93
+aVthat's going to do your computing,
+p94
+aVand you have two input tetrahedrons.
+p95
+aVOne of them is the input from the user, as you're building your bricks.
+p96
+aVThe other one is from the previous brick that was placed.
+p97
+aVAnd then it gives you an output in 3D space.
+p98
+aVSo what this means
+p99
+aVis that the user can start plugging in what they want the bricks to do.
+p100
+aVIt computes on what it was doing before
+p101
+aVand what you said you wanted it to do.
+p102
+aVAnd now it starts moving in three-dimensional space \u2014
+p103
+aVso up or down.
+p104
+aVSo on the left-hand side, [1,1] input equals 0 output, which goes down.
+p105
+aVOn the right-hand side,
+p106
+aV[0,0] input is a 1 output, which goes up.
+p107
+aVAnd so what that really means
+p108
+aVis that our structures now contain the blueprints
+p109
+aVof what we want to build.
+p110
+aa(lp111
+VSo they have all of the information embedded in them of what was constructed.
+p112
+aVSo that means that we can have some form of self-replication.
+p113
+aVIn this case I call it self-guided replication,
+p114
+aVbecause your structure contains the exact blueprints.
+p115
+aVIf you have errors, you can replace a part.
+p116
+aVAll the local information is embedded to tell you how to fix it.
+p117
+aVSo you could have something that climbs along and reads it
+p118
+aVand can output at one to one.
+p119
+aVIt's directly embedded; there's no external instructions.
+p120
+aa(lp121
+VSo the last project I'll show is called Biased Chains,
+p122
+aVand it's probably the most exciting example that we have right now
+p123
+aVof passive self-assembly systems.
+p124
+aVSo it takes the reconfigurability
+p125
+aVand programmability
+p126
+aVand makes it a completely passive system.
+p127
+aVSo basically you have a chain of elements.
+p128
+aVEach element is completely identical,
+p129
+aVand they're biased.
+p130
+aVSo each chain, or each element, wants to turn right or left.
+p131
+aVSo as you assemble the chain, you're basically programming it.
+p132
+aVYou're telling each unit if it should turn right or left.
+p133
+aVSo when you shake the chain,
+p134
+aVit then folds up
+p135
+aVinto any configuration that you've programmed in \u2014
+p136
+aVso in this case, a spiral,
+p137
+aVor in this case,
+p138
+aVtwo cubes next to each other.
+p139
+aVSo you can basically program
+p140
+aVany three-dimensional shape \u2014
+p141
+aVor one-dimensional, two-dimensional \u2014 up into this chain completely passively.
+p142
+aa(lp143
+VSo what does this tell us about the future?
+p144
+aVI think that it's telling us
+p145
+aVthat there's new possibilities for self-assembly, replication, repair
+p146
+aVin our physical structures, our buildings, machines.
+p147
+aVThere's new programmability in these parts.
+p148
+aVAnd from that you have new possibilities for computing.
+p149
+aVWe'll have spatial computing.
+p150
+aVImagine if our buildings, our bridges, machines,
+p151
+aVall of our bricks could actually compute.
+p152
+aVThat's amazing parallel and distributed computing power,
+p153
+aVnew design possibilities.
+p154
+aVSo it's exciting potential for this.
+p155
+aVSo I think these projects I've showed here
+p156
+aVare just a tiny step towards this future,
+p157
+aVif we implement these new technologies
+p158
+aVfor a new self-assembling world.
+p159
+aa(lp160
+VThank you.
+p161
+aa(lp162
+V(Applause)
+p163
+aasS'transcript_micsec'
+p164
+(lp165
+I11000
+aI28000
+aI47000
+aI78000
+aI90000
+aI123000
+aI164000
+aI197000
+aI241000
+aI263000
+aI317000
+aI351000
+aI353000
+asS'talk_meta'
+p166
+(dp167
+S'ratings'
+p168
+(dp169
+S'ingenious'
+p170
+I185
+sS'beautiful'
+p171
+I8
+sS'inspiring'
+p172
+I141
+sS'ok'
+p173
+I159
+sS'fascinating'
+p174
+I178
+sS'funny'
+p175
+I5
+sS'total_count'
+p176
+I1341
+sS'persuasive'
+p177
+I29
+sS'longwinded'
+p178
+I35
+sS'informative'
+p179
+I179
+sS'jaw-dropping'
+p180
+I38
+sS'obnoxious'
+p181
+I14
+sS'confusing'
+p182
+I115
+sS'courageous'
+p183
+I15
+sS'unconvincing'
+p184
+I240
+ssS'author'
+p185
+VSkylar_Tibbits;
+p186
+sS'url'
+p187
+S'https://www.ted.com/talks/skylar_tibbits_can_we_make_things_that_make_themselves'
+p188
+sS'vidlen'
+p189
+I364
+sS'totalviews'
+p190
+I987331
+sS'title'
+p191
+VCan we make things that make themselves?
+p192
+sS'downloadlink'
+p193
+Vhttps://download.ted.com/talks/SkylarTibbits_2011U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p194
+sS'datepublished'
+p195
+cdatetime
+datetime
+p196
+(S'\x07\xdb\t\x01\x0b\x1d\x02\x00\x00\x00'
+tRp197
+sS'datefilmed'
+p198
+g196
+(S'\x07\xdb\t\x01\x0b\x1d\x02\x00\x00\x00'
+tRp199
+sS'alldata_JSON'
+p200
+S'{"viewed_count": 987331, "speakers": [{"description": "Inventor", "firstname": "Skylar", "title": "", "lastname": "Tibbits", "middleinitial": "", "whylisten": "<p class=\\"MsoNormal\\">Can we create objects that assemble themselves -- that zip together like a strand of DNA or that have the ability for transformation embedded into them? These are the questions that Skylar Tibbits investigates in his Self-Assembly Lab at MIT, a cross-disciplinary research space where designers, scientists and engineers come together to find ways for disordered parts to become ordered structures.&nbsp;</p>  <p class=\\"MsoNormal\\">A trained architect, designer and computer scientist, Tibbits teaches design studios at MIT&rsquo;s Department of Architecture and co-teaches the seminar &ldquo;How to Make (Almost) Anything&rdquo; at MIT&rsquo;s Media Lab. Before that, he worked at a number of design offices including Zaha Hadid Architects, Asymptote Architecture, SKIII Space Variations and Point b Design. His work has been shown at the Guggenheim Museum and the Beijing Biennale.&nbsp;<br /> <br /> Tibbits has collaborated with a number of influential people over the years, including Neil Gershenfeld and The Center for Bits and Atoms, Erik and Marty Demaine at MIT, Adam Bly at SEED Media Group and Marc Fornes of THEVERYMANY. In 2007, he and Marc Fornes co-curated <a href=\\"http://scriptedbypurpose.wordpress.com/\\">Scriptedbypurpose</a>, the first exhibition focused exclusively on scripted processes within design. Also in 2007, he founded&nbsp;<a href=\\"http://www.sjet.us/\\" target=\\"_blank\\">SJET</a>,&nbsp;a multifaceted practice and research platform for experimental computation and design. SJET crosses disciplines from architecture and design, fabrication, computer science and robotics.</p>", "slug": "skylar_tibbits", "whotheyare": "Skylar Tibbits, a TED Fellow, is an artist and computational architect working on \\"smart\\" components that can assemble themselves.", "whatotherssay": "The big idea is to create objects that can change after they are printed, making them self-adapting. The act of printing is no longer the end of the creative process but merely a waypoint.", "id": 1084, "photo_url": "https://pe.tedcdn.com/images/ted/97712823858f32afe67b1a8a26ceb653345a73f2_254x191.jpg"}], "current_talk": 1215, "description": "MIT researcher Skylar Tibbits works on self-assembly -- the idea that instead of building something (a chair, a skyscraper), we can create materials that build themselves, much the way a strand of DNA zips itself together. It\'s a big concept at early stages; Tibbits shows us three in-the-lab projects that hint at what a self-assembling future might look like.", "language": "en", "url": "https://www.ted.com/talks/skylar_tibbits_can_we_make_things_that_make_themselves", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42393568}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8416998}, "podcast-high": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42396838}, "180k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8318474}, "64k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3010918}, "1500k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 65945512}, "450k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20476472}, "podcast-regular": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20646367}, "950k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42426278}, "audio-podcast": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3905981}, "podcast-light": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3110323}, "320k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14781499}, "600k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2011U-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27594388}}}, "comments": {"count": 156, "id": 6519, "talk_id": 1215}, "slug": "skylar_tibbits_can_we_make_things_that_make_themselves", "threadId": 6519, "talks": [{"event": "TED2011", "player_talks": [{"event": "TED2011", "slug": "skylar_tibbits_can_we_make_things_that_make_themselves", "filmed": 1298505600, "targeting": {"event": "TED2011", "tag": "TED Fellows,design,technology", "id": 1215, "talk": "skylar_tibbits_can_we_make_things_that_make_themselves", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Can we make things that make themselves?", "postAdDuration": "0.83", "published": 1314890942, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0f673186f35d6772f7995b2263fbfad2113da10b_2880x1620.jpg?quality=89&w=600", "name": "Skylar Tibbits: Can we make things that make themselves?", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TED Fellows", "design", "technology"], "speaker": "Skylar Tibbits", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 364, "id": 1215, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SkylarTibbits_2011U-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2011", "tag": "TED Fellows,design,technology", "id": 1215, "talk": "skylar_tibbits_can_we_make_things_that_make_themselves", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1215.json", "stream": "https://hls.ted.com/talks/1215.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2011%26id%3D1215%26tag%3DTED%2BFellows%2Cdesign%2Ctechnology%26talk%3Dskylar_tibbits_can_we_make_things_that_make_themselves%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/skylar_tibbits_can_we_make_things_that_make_themselves"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0f673186f35d6772f7995b2263fbfad2113da10b_2880x1620.jpg?q=50&w=15", "duration": 364, "id": 1215, "ratings": [{"count": 141, "id": 10, "name": "Inspiring"}, {"count": 185, "id": 9, "name": "Ingenious"}, {"count": 179, "id": 8, "name": "Informative"}, {"count": 159, "id": 25, "name": "OK"}, {"count": 178, "id": 22, "name": "Fascinating"}, {"count": 8, "id": 1, "name": "Beautiful"}, {"count": 38, "id": 23, "name": "Jaw-dropping"}, {"count": 240, "id": 21, "name": "Unconvincing"}, {"count": 35, "id": 11, "name": "Longwinded"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 115, "id": 2, "name": "Confusing"}, {"count": 29, "id": 24, "name": "Persuasive"}, {"count": 15, "id": 3, "name": "Courageous"}, {"count": 5, "id": 7, "name": "Funny"}], "speakers": [{"description": "Inventor", "firstname": "Skylar", "title": "", "lastname": "Tibbits", "middleinitial": "", "whylisten": "<p class=\\"MsoNormal\\">Can we create objects that assemble themselves -- that zip together like a strand of DNA or that have the ability for transformation embedded into them? These are the questions that Skylar Tibbits investigates in his Self-Assembly Lab at MIT, a cross-disciplinary research space where designers, scientists and engineers come together to find ways for disordered parts to become ordered structures.&nbsp;</p>  <p class=\\"MsoNormal\\">A trained architect, designer and computer scientist, Tibbits teaches design studios at MIT&rsquo;s Department of Architecture and co-teaches the seminar &ldquo;How to Make (Almost) Anything&rdquo; at MIT&rsquo;s Media Lab. Before that, he worked at a number of design offices including Zaha Hadid Architects, Asymptote Architecture, SKIII Space Variations and Point b Design. His work has been shown at the Guggenheim Museum and the Beijing Biennale.&nbsp;<br /> <br /> Tibbits has collaborated with a number of influential people over the years, including Neil Gershenfeld and The Center for Bits and Atoms, Erik and Marty Demaine at MIT, Adam Bly at SEED Media Group and Marc Fornes of THEVERYMANY. In 2007, he and Marc Fornes co-curated <a href=\\"http://scriptedbypurpose.wordpress.com/\\">Scriptedbypurpose</a>, the first exhibition focused exclusively on scripted processes within design. Also in 2007, he founded&nbsp;<a href=\\"http://www.sjet.us/\\" target=\\"_blank\\">SJET</a>,&nbsp;a multifaceted practice and research platform for experimental computation and design. SJET crosses disciplines from architecture and design, fabrication, computer science and robotics.</p>", "slug": "skylar_tibbits", "whotheyare": "Skylar Tibbits, a TED Fellow, is an artist and computational architect working on \\"smart\\" components that can assemble themselves.", "whatotherssay": "The big idea is to create objects that can change after they are printed, making them self-adapting. The act of printing is no longer the end of the creative process but merely a waypoint.", "id": 1084, "photo_url": "https://pe.tedcdn.com/images/ted/97712823858f32afe67b1a8a26ceb653345a73f2_254x191.jpg"}], "title": "Can we make things that make themselves?", "take_action": null, "comments": 6519, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/0f673186f35d6772f7995b2263fbfad2113da10b_2880x1620.jpg", "description": "MIT researcher Skylar Tibbits works on self-assembly -- the idea that instead of building something (a chair, a skyscraper), we can create materials that build themselves, much the way a strand of DNA zips itself together. It\'s a big concept at early stages; Tibbits shows us three in-the-lab projects that hint at what a self-assembling future might look like.", "tags": ["TED Fellows", "design", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-it.mp4"}, "cs": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-cs.mp4"}, "ar": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-bg.mp4"}, "eu": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-eu.mp4", "name": "Basque", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-eu.mp4"}, "id": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SkylarTibbits_2011U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SkylarTibbits_2011U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SkylarTibbits_2011U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1215, "audioDownload": "https://download.ted.com/talks/SkylarTibbits_2011U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 698103, "hero": "https://pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg", "title": "Unleash your creativity in a Fab Lab", "id": 90, "speaker": "Neil Gershenfeld", "duration": 1038, "slug": "neil_gershenfeld_on_fab_labs"}, {"viewed_count": 412312, "hero": "https://pe.tedcdn.com/images/ted/18024_480x360.jpg", "title": "Playing with DNA that self-assembles", "id": 183, "speaker": "Paul Rothemund", "duration": 299, "slug": "paul_rothemund_casts_a_spell_with_dna"}, {"viewed_count": 1215819, "hero": "https://pe.tedcdn.com/images/ted/17631_480x360.jpg", "title": "Building \\"self-aware\\" robots", "id": 165, "speaker": "Hod Lipson", "duration": 378, "slug": "hod_lipson_builds_self_aware_robots"}, {"viewed_count": 2458338, "hero": "https://pe.tedcdn.com/images/ted/5067e7078880030b41aea9eb2b6fbddbdedc7728_1600x1200.jpg", "title": "The emergence of \\"4D printing\\"", "id": 1707, "speaker": "Skylar Tibbits", "duration": 502, "slug": "skylar_tibbits_the_emergence_of_4d_printing"}, {"viewed_count": 449511, "hero": "https://pe.tedcdn.com/images/ted/231_480x360.jpg", "title": "Everyday inventions", "id": 48, "speaker": "Saul Griffith", "duration": 869, "slug": "saul_griffith_on_everyday_inventions"}, {"viewed_count": 866429, "hero": "https://pe.tedcdn.com/images/ted/6c114e3fddd4ba5d37a8c24deb35a40943219286_1600x1200.jpg", "title": "Building unimaginable shapes", "id": 1519, "speaker": "Michael Hansmeyer", "duration": 667, "slug": "michael_hansmeyer_building_unimaginable_shapes"}], "recorded_at": "2011-02-24T00:00:00.000+00:00", "slug": "skylar_tibbits_can_we_make_things_that_make_themselves", "speaker_name": "Skylar Tibbits", "viewed_count": 987331, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2011", "name": "Skylar Tibbits: Can we make things that make themselves?"}'
+p201
+sS'keywords'
+p202
+(lp203
+VTED Fellows
+p204
+aVdesign
+p205
+aVtechnology
+p206
+asS'datecrawled'
+p207
+g196
+(S'\x07\xe1\n\x17\x00"8\x07[\xd0'
+tRp208
+sS'id'
+p209
+I1215
+ss.

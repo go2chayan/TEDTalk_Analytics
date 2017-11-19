@@ -1,0 +1,520 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VLet's face it:
+p5
+aVDriving is dangerous.
+p6
+aVIt's one of the things that we don't like to think about,
+p7
+aVbut the fact that religious icons and good luck charms
+p8
+aVshow up on dashboards around the world
+p9
+aVbetrays the fact that we know this to be true.
+p10
+aVCar accidents are the leading cause of death
+p11
+aVin people ages 16 to 19 in the United States \u2014
+p12
+aVleading cause of death \u2014
+p13
+aVand 75 percent of these accidents have nothing to do
+p14
+aVwith drugs or alcohol.
+p15
+aa(lp16
+VSo what happens?
+p17
+aVNo one can say for sure, but I remember my first accident.
+p18
+aVI was a young driver out on the highway,
+p19
+aVand the car in front of me, I saw the brake lights go on.
+p20
+aVI'm like, "Okay, all right, this guy is slowing down,
+p21
+aVI'll slow down too."
+p22
+aVI step on the brake.
+p23
+aVBut no, this guy isn't slowing down.
+p24
+aVThis guy is stopping, dead stop, dead stop on the highway.
+p25
+aVIt was just going 65 \u2014 to zero?
+p26
+aVI slammed on the brakes.
+p27
+aVI felt the ABS kick in, and the car is still going,
+p28
+aVand it's not going to stop, and I know it's not going to stop,
+p29
+aVand the air bag deploys, the car is totaled,
+p30
+aVand fortunately, no one was hurt.
+p31
+aVBut I had no idea that car was stopping,
+p32
+aVand I think we can do a lot better than that.
+p33
+aVI think we can transform the driving experience
+p34
+aVby letting our cars talk to each other.
+p35
+aa(lp36
+VI just want you to think a little bit
+p37
+aVabout what the experience of driving is like now.
+p38
+aVGet into your car. Close the door. You're in a glass bubble.
+p39
+aVYou can't really directly sense the world around you.
+p40
+aVYou're in this extended body.
+p41
+aVYou're tasked with navigating it down
+p42
+aVpartially-seen roadways,
+p43
+aVin and amongst other metal giants, at super-human speeds.
+p44
+aVOkay? And all you have to guide you are your two eyes.
+p45
+aVOkay, so that's all you have,
+p46
+aVeyes that weren't really designed for this task,
+p47
+aVbut then people ask you to do things like,
+p48
+aVyou want to make a lane change,
+p49
+aVwhat's the first thing they ask you do?
+p50
+aVTake your eyes off the road. That's right.
+p51
+aVStop looking where you're going, turn,
+p52
+aVcheck your blind spot,
+p53
+aVand drive down the road without looking where you're going.
+p54
+aVYou and everyone else. This is the safe way to drive.
+p55
+aVWhy do we do this? Because we have to,
+p56
+aVwe have to make a choice, do I look here or do I look here?
+p57
+aVWhat's more important?
+p58
+aVAnd usually we do a fantastic job
+p59
+aVpicking and choosing what we attend to on the road.
+p60
+aVBut occasionally we miss something.
+p61
+aVOccasionally we sense something wrong or too late.
+p62
+aVIn countless accidents, the driver says,
+p63
+aV"I didn't see it coming."
+p64
+aVAnd I believe that. I believe that.
+p65
+aVWe can only watch so much.
+p66
+aa(lp67
+VBut the technology exists now that can help us improve that.
+p68
+aVIn the future, with cars exchanging data with each other,
+p69
+aVwe will be able to see not just three cars ahead
+p70
+aVand three cars behind, to the right and left,
+p71
+aVall at the same time, bird's eye view,
+p72
+aVwe will actually be able to see into those cars.
+p73
+aVWe will be able to see the velocity of the car in front of us,
+p74
+aVto see how fast that guy's going or stopping.
+p75
+aVIf that guy's going down to zero, I'll know.
+p76
+aa(lp77
+VAnd with computation and algorithms and predictive models,
+p78
+aVwe will be able to see the future.
+p79
+aVYou may think that's impossible.
+p80
+aVHow can you predict the future? That's really hard.
+p81
+aVActually, no. With cars, it's not impossible.
+p82
+aVCars are three-dimensional objects
+p83
+aVthat have a fixed position and velocity.
+p84
+aVThey travel down roads.
+p85
+aVOften they travel on pre-published routes.
+p86
+aVIt's really not that hard to make reasonable predictions
+p87
+aVabout where a car's going to be in the near future.
+p88
+aVEven if, when you're in your car
+p89
+aVand some motorcyclist comes \u2014 bshoom! \u2014
+p90
+aV85 miles an hour down, lane-splitting \u2014
+p91
+aVI know you've had this experience \u2014
+p92
+aVthat guy didn't "just come out of nowhere."
+p93
+aVThat guy's been on the road probably for the last half hour.
+p94
+aV(Laughter)
+p95
+aVRight? I mean, somebody's seen him.
+p96
+aVTen, 20, 30 miles back, someone's seen that guy,
+p97
+aVand as soon as one car sees that guy
+p98
+aVand puts him on the map, he's on the map \u2014
+p99
+aVposition, velocity,
+p100
+aVgood estimate he'll continue going 85 miles an hour.
+p101
+aVYou'll know, because your car will know, because
+p102
+aVthat other car will have whispered something in his ear,
+p103
+aVlike, "By the way, five minutes,
+p104
+aVmotorcyclist, watch out."
+p105
+aVYou can make reasonable predictions about how cars behave.
+p106
+aVI mean, they're Newtonian objects.
+p107
+aVThat's very nice about them.
+p108
+aa(lp109
+VSo how do we get there?
+p110
+aVWe can start with something as simple
+p111
+aVas sharing our position data between cars,
+p112
+aVjust sharing GPS.
+p113
+aVIf I have a GPS and a camera in my car,
+p114
+aVI have a pretty precise idea of where I am
+p115
+aVand how fast I'm going.
+p116
+aVWith computer vision, I can estimate where
+p117
+aVthe cars around me are, sort of, and where they're going.
+p118
+aVAnd same with the other cars.
+p119
+aVThey can have a precise idea of where they are,
+p120
+aVand sort of a vague idea of where the other cars are.
+p121
+aVWhat happens if two cars share that data,
+p122
+aVif they talk to each other?
+p123
+aVI can tell you exactly what happens.
+p124
+aVBoth models improve.
+p125
+aVEverybody wins.
+p126
+aVProfessor Bob Wang and his team
+p127
+aVhave done computer simulations of what happens
+p128
+aVwhen fuzzy estimates combine, even in light traffic,
+p129
+aVwhen cars just share GPS data,
+p130
+aVand we've moved this research out of the computer simulation
+p131
+aVand into robot test beds that have the actual sensors
+p132
+aVthat are in cars now on these robots:
+p133
+aVstereo cameras, GPS,
+p134
+aVand the two-dimensional laser range finders
+p135
+aVthat are common in backup systems.
+p136
+aVWe also attach a discrete short-range communication radio,
+p137
+aVand the robots talk to each other.
+p138
+aVWhen these robots come at each other,
+p139
+aVthey track each other's position precisely,
+p140
+aVand they can avoid each other.
+p141
+aa(lp142
+VWe're now adding more and more robots into the mix,
+p143
+aVand we encountered some problems.
+p144
+aVOne of the problems, when you get too much chatter,
+p145
+aVit's hard to process all the packets, so you have to prioritize,
+p146
+aVand that's where the predictive model helps you.
+p147
+aVIf your robot cars are all tracking the predicted trajectories,
+p148
+aVyou don't pay as much attention to those packets.
+p149
+aVYou prioritize the one guy
+p150
+aVwho seems to be going a little off course.
+p151
+aVThat guy could be a problem.
+p152
+aVAnd you can predict the new trajectory.
+p153
+aVSo you don't only know that he's going off course, you know how.
+p154
+aVAnd you know which drivers you need to alert to get out of the way.
+p155
+aa(lp156
+VAnd we wanted to do \u2014 how can we best alert everyone?
+p157
+aVHow can these cars whisper, "You need to get out of the way?"
+p158
+aVWell, it depends on two things:
+p159
+aVone, the ability of the car,
+p160
+aVand second the ability of the driver.
+p161
+aVIf one guy has a really great car,
+p162
+aVbut they're on their phone or, you know, doing something,
+p163
+aVthey're not probably in the best position
+p164
+aVto react in an emergency.
+p165
+aVSo we started a separate line of research
+p166
+aVdoing driver state modeling.
+p167
+aVAnd now, using a series of three cameras,
+p168
+aVwe can detect if a driver is looking forward,
+p169
+aVlooking away, looking down, on the phone,
+p170
+aVor having a cup of coffee.
+p171
+aVWe can predict the accident
+p172
+aVand we can predict who, which cars,
+p173
+aVare in the best position to move out of the way
+p174
+aVto calculate the safest route for everyone.
+p175
+aVFundamentally, these technologies exist today.
+p176
+aa(lp177
+VI think the biggest problem that we face
+p178
+aVis our own willingness to share our data.
+p179
+aVI think it's a very disconcerting notion,
+p180
+aVthis idea that our cars will be watching us,
+p181
+aVtalking about us to other cars,
+p182
+aVthat we'll be going down the road in a sea of gossip.
+p183
+aVBut I believe it can be done in a way that protects our privacy,
+p184
+aVjust like right now, when I look at your car from the outside,
+p185
+aVI don't really know about you.
+p186
+aVIf I look at your license plate number,
+p187
+aVI don't really know who you are.
+p188
+aVI believe our cars can talk about us behind our backs.
+p189
+aa(lp190
+V(Laughter)
+p191
+aa(lp192
+VAnd I think it's going to be a great thing.
+p193
+aVI want you to consider for a moment
+p194
+aVif you really don't want the distracted teenager behind you
+p195
+aVto know that you're braking,
+p196
+aVthat you're coming to a dead stop.
+p197
+aVBy sharing our data willingly,
+p198
+aVwe can do what's best for everyone.
+p199
+aa(lp200
+VSo let your car gossip about you.
+p201
+aVIt's going to make the roads a lot safer.
+p202
+aa(lp203
+VThank you.
+p204
+aa(lp205
+V(Applause)
+p206
+aasS'transcript_micsec'
+p207
+(lp208
+I11000
+aI48000
+aI103000
+aI186000
+aI217000
+aI296000
+aI375000
+aI409000
+aI463000
+aI498000
+aI501000
+aI520000
+aI526000
+aI528000
+asS'talk_meta'
+p209
+(dp210
+S'ratings'
+p211
+(dp212
+S'ingenious'
+p213
+I59
+sS'funny'
+p214
+I31
+sS'inspiring'
+p215
+I44
+sS'ok'
+p216
+I66
+sS'fascinating'
+p217
+I39
+sS'total_count'
+p218
+I604
+sS'persuasive'
+p219
+I90
+sS'longwinded'
+p220
+I18
+sS'informative'
+p221
+I110
+sS'beautiful'
+p222
+I5
+sS'jaw-dropping'
+p223
+I11
+sS'obnoxious'
+p224
+I27
+sS'confusing'
+p225
+I3
+sS'courageous'
+p226
+I8
+sS'unconvincing'
+p227
+I93
+ssS'author'
+p228
+VJennifer_Healey;
+p229
+sS'url'
+p230
+S'https://www.ted.com/talks/jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable'
+p231
+sS'vidlen'
+p232
+I540
+sS'totalviews'
+p233
+I826201
+sS'title'
+p234
+VIf cars could talk, accidents might be avoidable
+p235
+sS'downloadlink'
+p236
+Vhttps://download.ted.com/talks/JenniferHealey_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p237
+sS'datepublished'
+p238
+cdatetime
+datetime
+p239
+(S'\x07\xdd\x04\x19\n;&\x00\x00\x00'
+tRp240
+sS'datefilmed'
+p241
+g239
+(S'\x07\xdd\x04\x19\n;&\x00\x00\x00'
+tRp242
+sS'alldata_JSON'
+p243
+S'{"viewed_count": 826201, "speakers": [{"description": "Research scientist", "firstname": "Jennifer", "title": "", "lastname": "Healey", "middleinitial": "", "whylisten": "<p>Jennifer Healey imagines a future where computers and smartphones are capable of being sensitive to human emotions and where cars are able to talk to each other, and thus keep their drivers away from accidents.&nbsp;A scientist at Intel Corporation Research Labs, she researches devices and systems that would allow for these major innovations.</p>    <p>Healey holds PhD from MIT in electrical engineering and computer science. While there, she pioneered &ldquo;Affective Computing&rdquo; with Rosalind Picard and developed the first wearable computer with physiological sensors and a video camera that allows the wearer to track their daily activities and how they feel while doing them. From there, she moved to IBM where she worked on the next generation of multi-modal interactive smartphones and helped architect the &quot;Interaction Mark-Up language&quot; that allows users to switch from voice to speech input seamlessly. </p><p>Healey has also used her interest in embedded devices in the field of healthcare. While an instructor at Harvard Medical School and at Beth Israel Deaconess Medical Center, she worked on new ways to use heart rate to predict cardiac health. She then joined HP Research in Cambridge to further develop wearable sensors for health monitoring and continued this research when she joined Intel Digital Health.</p>", "slug": "jennifer_healey", "whotheyare": "A research scientist at Intel, Jennifer Healey develops the mobile internet devices of the future. ", "whatotherssay": "Intel is backing testing of using sensors, cameras and position location technology in cars along with radio signals to let them \'talk\' to one another when close by, according to Healey.\\r\\nResearch is also being done into letting cars detect when drivers are looking away from the road, perhaps turning their attention to a mobile phone, car radio or cup of coffee.\\r\\n", "id": 1638, "photo_url": "https://pe.tedcdn.com/images/ted/c3bc70a302b8c507fc3e9a52ebcaae29c190fefe_254x191.jpg"}], "current_talk": 1724, "description": "When we drive, we get into a glass bubble, lock the doors and press the accelerator, relying on our eyes to guide us -- even though we can only see the few cars ahead of and behind us. But what if cars could share data with each other about their position and velocity, and use predictive models to calculate the safest routes for everyone on the road? Jennifer Healey imagines a world without car accidents. ", "language": "en", "url": "https://www.ted.com/talks/jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64506021}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12472670}, "podcast-high": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64501583}, "180k": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12248471}, "64k": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4439141}, "1500k": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 99265215}, "450k": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30517586}, "podcast-regular": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30927042}, "950k": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64538609}, "audio-podcast": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5664183}, "podcast-light": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4571838}, "320k": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21683713}, "600k": {"uri": "https://download.ted.com/talks/JenniferHealey_2013S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40750977}}}, "comments": {"count": 162, "id": 19649, "talk_id": 1724}, "slug": "jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable", "threadId": 19649, "talks": [{"event": "TED@Intel", "player_talks": [{"event": "TED@Intel", "slug": "jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable", "filmed": 1365379200, "targeting": {"event": "TED@Intel", "tag": "cars,driverless cars,technology", "id": 1724, "talk": "jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "If cars could talk, accidents might be avoidable", "postAdDuration": "0.83", "published": 1366901978, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4165fdc540500a47d00915eb53de831abd15dd3b_1600x1200.jpg?quality=89&w=600", "name": "Jennifer Healey: If cars could talk, accidents might be avoidable", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "arq", "endonym": "\\u0627\\u0644\\u062f\\u0627\\u0631\\u062c\\u0629 \\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0651\\u0629 \\u0627\\u0644\\u062c\\u0632\\u0627\\u0626\\u0631\\u064a\\u0651\\u0629", "isRtl": false, "ianaCode": "arq", "languageName": "Algerian Arabic"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["cars", "driverless cars", "technology"], "speaker": "Jennifer Healey", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 540, "id": 1724, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JenniferHealey_2013S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED@Intel", "tag": "cars,driverless cars,technology", "id": 1724, "talk": "jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1724.json", "stream": "https://hls.ted.com/talks/1724.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%40Intel%26id%3D1724%26tag%3Dcars%2Cdriverless%2Bcars%2Ctechnology%26talk%3Djennifer_healey_if_cars_could_talk_accidents_might_be_avoidable%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4165fdc540500a47d00915eb53de831abd15dd3b_1600x1200.jpg?q=50&w=15", "duration": 540, "id": 1724, "ratings": [{"count": 11, "id": 23, "name": "Jaw-dropping"}, {"count": 93, "id": 21, "name": "Unconvincing"}, {"count": 18, "id": 11, "name": "Longwinded"}, {"count": 27, "id": 26, "name": "Obnoxious"}, {"count": 66, "id": 25, "name": "OK"}, {"count": 110, "id": 8, "name": "Informative"}, {"count": 31, "id": 7, "name": "Funny"}, {"count": 44, "id": 10, "name": "Inspiring"}, {"count": 90, "id": 24, "name": "Persuasive"}, {"count": 59, "id": 9, "name": "Ingenious"}, {"count": 39, "id": 22, "name": "Fascinating"}, {"count": 5, "id": 1, "name": "Beautiful"}, {"count": 8, "id": 3, "name": "Courageous"}, {"count": 3, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Research scientist", "firstname": "Jennifer", "title": "", "lastname": "Healey", "middleinitial": "", "whylisten": "<p>Jennifer Healey imagines a future where computers and smartphones are capable of being sensitive to human emotions and where cars are able to talk to each other, and thus keep their drivers away from accidents.&nbsp;A scientist at Intel Corporation Research Labs, she researches devices and systems that would allow for these major innovations.</p>    <p>Healey holds PhD from MIT in electrical engineering and computer science. While there, she pioneered &ldquo;Affective Computing&rdquo; with Rosalind Picard and developed the first wearable computer with physiological sensors and a video camera that allows the wearer to track their daily activities and how they feel while doing them. From there, she moved to IBM where she worked on the next generation of multi-modal interactive smartphones and helped architect the &quot;Interaction Mark-Up language&quot; that allows users to switch from voice to speech input seamlessly. </p><p>Healey has also used her interest in embedded devices in the field of healthcare. While an instructor at Harvard Medical School and at Beth Israel Deaconess Medical Center, she worked on new ways to use heart rate to predict cardiac health. She then joined HP Research in Cambridge to further develop wearable sensors for health monitoring and continued this research when she joined Intel Digital Health.</p>", "slug": "jennifer_healey", "whotheyare": "A research scientist at Intel, Jennifer Healey develops the mobile internet devices of the future. ", "whatotherssay": "Intel is backing testing of using sensors, cameras and position location technology in cars along with radio signals to let them \'talk\' to one another when close by, according to Healey.\\r\\nResearch is also being done into letting cars detect when drivers are looking away from the road, perhaps turning their attention to a mobile phone, car radio or cup of coffee.\\r\\n", "id": 1638, "photo_url": "https://pe.tedcdn.com/images/ted/c3bc70a302b8c507fc3e9a52ebcaae29c190fefe_254x191.jpg"}], "title": "If cars could talk, accidents might be avoidable", "take_action": null, "comments": 19649, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/4165fdc540500a47d00915eb53de831abd15dd3b_1600x1200.jpg", "description": "When we drive, we get into a glass bubble, lock the doors and press the accelerator, relying on our eyes to guide us -- even though we can only see the few cars ahead of and behind us. But what if cars could share data with each other about their position and velocity, and use predictive models to calculate the safest routes for everyone on the road? Jennifer Healey imagines a world without car accidents. ", "tags": ["cars", "driverless cars", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "arq", "endonym": "\\u0627\\u0644\\u062f\\u0627\\u0631\\u062c\\u0629 \\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0651\\u0629 \\u0627\\u0644\\u062c\\u0632\\u0627\\u0626\\u0631\\u064a\\u0651\\u0629", "isRtl": false, "ianaCode": "arq", "languageName": "Algerian Arabic"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/JenniferHealey_2013S-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JenniferHealey_2013S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JenniferHealey_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JenniferHealey_2013S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1724, "audioDownload": "https://download.ted.com/talks/JenniferHealey_2013S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2460453, "hero": "https://pe.tedcdn.com/images/ted/1a26621135203e5d4636221967ff1d30e88faa85_800x600.jpg", "title": "Google\'s driverless car", "id": 1109, "speaker": "Sebastian Thrun", "duration": 254, "slug": "sebastian_thrun_google_s_driverless_car"}, {"viewed_count": 735617, "hero": "https://pe.tedcdn.com/images/ted/15e9b94b9856ac969692bfc5515bd7754e26977b_800x600.jpg", "title": "The future race car -- 150mph, and no driver", "id": 1506, "speaker": "Chris Gerdes", "duration": 647, "slug": "chris_gerdes_the_future_race_car_150mph_and_no_driver"}, {"viewed_count": 2062505, "hero": "https://pe.tedcdn.com/images/ted/8a1523f43703309c29b372a29981afc7c5f2977b_2880x1620.jpg", "title": "How a driverless car sees the road", "id": 2291, "speaker": "Chris Urmson", "duration": 929, "slug": "chris_urmson_how_a_driverless_car_sees_the_road"}, {"viewed_count": 762058, "hero": "https://pe.tedcdn.com/images/ted/ccacbbc2009b182b0b3f69fe6329df683695d2d5_2880x1620.jpg", "title": "What moral decisions should driverless cars make?", "id": 2824, "speaker": "Iyad Rahwan", "duration": 815, "slug": "iyad_rahwan_what_moral_decisions_should_driverless_cars_make"}, {"viewed_count": 1601270, "hero": "https://pe.tedcdn.com/images/ted/2296dcfe9b63f0d79bd2505adeba08a27052d953_2880x1620.jpg", "title": "Uber\'s plan to get more people into fewer cars", "id": 2443, "speaker": "Travis Kalanick", "duration": 1158, "slug": "travis_kalanick_uber_s_plan_to_get_more_people_into_fewer_cars"}, {"viewed_count": 802649, "hero": "https://pe.tedcdn.com/images/ted/229d850b073d6d8ba1f20ee937e88f51802a0a8d_800x600.jpg", "title": "A future beyond traffic gridlock", "id": 1174, "speaker": "Bill Ford", "duration": 1008, "slug": "bill_ford_a_future_beyond_traffic_gridlock"}], "recorded_at": "2013-04-08T00:00:00.000+00:00", "slug": "jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable", "speaker_name": "Jennifer Healey", "viewed_count": 826201, "event_badge": null, "event_blurb": "This talk was presented at a TED Institute event given in partnership with Intel. TED editors featured it among our selections on the home page. <a href=\\"/about/programs-initiatives/ted-institute\\">Read more about the TED Institute</a>.", "recommendations": null, "corrections": null}], "event": "TED@Intel", "name": "Jennifer Healey: If cars could talk, accidents might be avoidable"}'
+p244
+sS'keywords'
+p245
+(lp246
+Vcars
+p247
+aVdriverless cars
+p248
+aVtechnology
+p249
+asS'datecrawled'
+p250
+g239
+(S'\x07\xe1\n\x17\x03(\x1b\nWk'
+tRp251
+sS'id'
+p252
+I1724
+ss.

@@ -1,0 +1,554 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VOur emotions influence every aspect of our lives,
+p5
+aVfrom our health and how we learn, to how we do business and make decisions,
+p6
+aVbig ones and small.
+p7
+aVOur emotions also influence how we connect with one another.
+p8
+aVWe've evolved to live in a world like this,
+p9
+aVbut instead, we're living more and more of our lives like this \u2014
+p10
+aVthis is the text message from my daughter last night \u2014
+p11
+aVin a world that's devoid of emotion.
+p12
+aVSo I'm on a mission to change that.
+p13
+aVI want to bring emotions back into our digital experiences.
+p14
+aa(lp15
+VI started on this path 15 years ago.
+p16
+aVI was a computer scientist in Egypt,
+p17
+aVand I had just gotten accepted to a Ph.D. program at Cambridge University.
+p18
+aVSo I did something quite unusual
+p19
+aVfor a young newlywed Muslim Egyptian wife:
+p20
+aVWith the support of my husband, who had to stay in Egypt,
+p21
+aVI packed my bags and I moved to England.
+p22
+aVAt Cambridge, thousands of miles away from home,
+p23
+aVI realized I was spending more hours with my laptop
+p24
+aVthan I did with any other human.
+p25
+aVYet despite this intimacy, my laptop had absolutely no idea how I was feeling.
+p26
+aVIt had no idea if I was happy,
+p27
+aVhaving a bad day, or stressed, confused,
+p28
+aVand so that got frustrating.
+p29
+aVEven worse, as I communicated online with my family back home,
+p30
+aVI felt that all my emotions disappeared in cyberspace.
+p31
+aVI was homesick, I was lonely, and on some days I was actually crying,
+p32
+aVbut all I had to communicate these emotions was this.
+p33
+aV(Laughter)
+p34
+aVToday's technology has lots of I.Q., but no E.Q.;
+p35
+aVlots of cognitive intelligence, but no emotional intelligence.
+p36
+aVSo that got me thinking,
+p37
+aVwhat if our technology could sense our emotions?
+p38
+aVWhat if our devices could sense how we felt and reacted accordingly,
+p39
+aVjust the way an emotionally intelligent friend would?
+p40
+aVThose questions led me and my team
+p41
+aVto create technologies that can read and respond to our emotions,
+p42
+aVand our starting point was the human face.
+p43
+aa(lp44
+VSo our human face happens to be one of the most powerful channels
+p45
+aVthat we all use to communicate social and emotional states,
+p46
+aVeverything from enjoyment, surprise,
+p47
+aVempathy and curiosity.
+p48
+aVIn emotion science, we call each facial muscle movement an action unit.
+p49
+aVSo for example, action unit 12,
+p50
+aVit's not a Hollywood blockbuster,
+p51
+aVit is actually a lip corner pull, which is the main component of a smile.
+p52
+aVTry it everybody. Let's get some smiles going on.
+p53
+aVAnother example is action unit 4. It's the brow furrow.
+p54
+aVIt's when you draw your eyebrows together
+p55
+aVand you create all these textures and wrinkles.
+p56
+aVWe don't like them, but it's a strong indicator of a negative emotion.
+p57
+aVSo we have about 45 of these action units,
+p58
+aVand they combine to express hundreds of emotions.
+p59
+aa(lp60
+VTeaching a computer to read these facial emotions is hard,
+p61
+aVbecause these action units, they can be fast, they're subtle,
+p62
+aVand they combine in many different ways.
+p63
+aVSo take, for example, the smile and the smirk.
+p64
+aVThey look somewhat similar, but they mean very different things.
+p65
+aV(Laughter)
+p66
+aVSo the smile is positive,
+p67
+aVa smirk is often negative.
+p68
+aVSometimes a smirk can make you become famous.
+p69
+aVBut seriously, it's important for a computer to be able
+p70
+aVto tell the difference between the two expressions.
+p71
+aa(lp72
+VSo how do we do that?
+p73
+aVWe give our algorithms
+p74
+aVtens of thousands of examples of people we know to be smiling,
+p75
+aVfrom different ethnicities, ages, genders,
+p76
+aVand we do the same for smirks.
+p77
+aVAnd then, using deep learning,
+p78
+aVthe algorithm looks for all these textures and wrinkles
+p79
+aVand shape changes on our face,
+p80
+aVand basically learns that all smiles have common characteristics,
+p81
+aVall smirks have subtly different characteristics.
+p82
+aVAnd the next time it sees a new face,
+p83
+aVit essentially learns that
+p84
+aVthis face has the same characteristics of a smile,
+p85
+aVand it says, "Aha, I recognize this. This is a smile expression."
+p86
+aa(lp87
+VSo the best way to demonstrate how this technology works
+p88
+aVis to try a live demo,
+p89
+aVso I need a volunteer, preferably somebody with a face.
+p90
+aV(Laughter)
+p91
+aVCloe's going to be our volunteer today.
+p92
+aa(lp93
+VSo over the past five years, we've moved from being a research project at MIT
+p94
+aVto a company,
+p95
+aVwhere my team has worked really hard to make this technology work,
+p96
+aVas we like to say, in the wild.
+p97
+aVAnd we've also shrunk it so that the core emotion engine
+p98
+aVworks on any mobile device with a camera, like this iPad.
+p99
+aVSo let's give this a try.
+p100
+aa(lp101
+VAs you can see, the algorithm has essentially found Cloe's face,
+p102
+aVso it's this white bounding box,
+p103
+aVand it's tracking the main feature points on her face,
+p104
+aVso her eyebrows, her eyes, her mouth and her nose.
+p105
+aVThe question is, can it recognize her expression?
+p106
+aVSo we're going to test the machine.
+p107
+aVSo first of all, give me your poker face. Yep, awesome. (Laughter)
+p108
+aVAnd then as she smiles, this is a genuine smile, it's great.
+p109
+aVSo you can see the green bar go up as she smiles.
+p110
+aVNow that was a big smile.
+p111
+aVCan you try a subtle smile to see if the computer can recognize?
+p112
+aVIt does recognize subtle smiles as well.
+p113
+aVWe've worked really hard to make that happen.
+p114
+aVAnd then eyebrow raised, indicator of surprise.
+p115
+aVBrow furrow, which is an indicator of confusion.
+p116
+aVFrown. Yes, perfect.
+p117
+aVSo these are all the different action units. There's many more of them.
+p118
+aVThis is just a slimmed-down demo.
+p119
+aVBut we call each reading an emotion data point,
+p120
+aVand then they can fire together to portray different emotions.
+p121
+aVSo on the right side of the demo \u2014 look like you're happy.
+p122
+aVSo that's joy. Joy fires up.
+p123
+aVAnd then give me a disgust face.
+p124
+aVTry to remember what it was like when Zayn left One Direction.
+p125
+aV(Laughter)
+p126
+aVYeah, wrinkle your nose. Awesome.
+p127
+aVAnd the valence is actually quite negative, so you must have been a big fan.
+p128
+aVSo valence is how positive or negative an experience is,
+p129
+aVand engagement is how expressive she is as well.
+p130
+aVSo imagine if Cloe had access to this real-time emotion stream,
+p131
+aVand she could share it with anybody she wanted to.
+p132
+aVThank you.
+p133
+aV(Applause)
+p134
+aa(lp135
+VSo, so far, we have amassed 12 billion of these emotion data points.
+p136
+aVIt's the largest emotion database in the world.
+p137
+aVWe've collected it from 2.9 million face videos,
+p138
+aVpeople who have agreed to share their emotions with us,
+p139
+aVand from 75 countries around the world.
+p140
+aVIt's growing every day.
+p141
+aVIt blows my mind away
+p142
+aVthat we can now quantify something as personal as our emotions,
+p143
+aVand we can do it at this scale.
+p144
+aa(lp145
+VSo what have we learned to date?
+p146
+aVGender.
+p147
+aVOur data confirms something that you might suspect.
+p148
+aVWomen are more expressive than men.
+p149
+aVNot only do they smile more, their smiles last longer,
+p150
+aVand we can now really quantify what it is that men and women
+p151
+aVrespond to differently.
+p152
+aVLet's do culture: So in the United States,
+p153
+aVwomen are 40 percent more expressive than men,
+p154
+aVbut curiously, we don't see any difference in the U.K. between men and women.
+p155
+aV(Laughter)
+p156
+aVAge: People who are 50 years and older
+p157
+aVare 25 percent more emotive than younger people.
+p158
+aVWomen in their 20s smile a lot more than men the same age,
+p159
+aVperhaps a necessity for dating.
+p160
+aVBut perhaps what surprised us the most about this data
+p161
+aVis that we happen to be expressive all the time,
+p162
+aVeven when we are sitting in front of our devices alone,
+p163
+aVand it's not just when we're watching cat videos on Facebook.
+p164
+aVWe are expressive when we're emailing, texting, shopping online,
+p165
+aVor even doing our taxes.
+p166
+aa(lp167
+VWhere is this data used today?
+p168
+aVIn understanding how we engage with media,
+p169
+aVso understanding virality and voting behavior;
+p170
+aVand also empowering or emotion-enabling technology,
+p171
+aVand I want to share some examples that are especially close to my heart.
+p172
+aVEmotion-enabled wearable glasses can help individuals
+p173
+aVwho are visually impaired read the faces of others,
+p174
+aVand it can help individuals on the autism spectrum interpret emotion,
+p175
+aVsomething that they really struggle with.
+p176
+aVIn education, imagine if your learning apps
+p177
+aVsense that you're confused and slow down,
+p178
+aVor that you're bored, so it's sped up,
+p179
+aVjust like a great teacher would in a classroom.
+p180
+aVWhat if your wristwatch tracked your mood,
+p181
+aVor your car sensed that you're tired,
+p182
+aVor perhaps your fridge knows that you're stressed,
+p183
+aVso it auto-locks to prevent you from binge eating. (Laughter)
+p184
+aVI would like that, yeah.
+p185
+aVWhat if, when I was in Cambridge,
+p186
+aVI had access to my real-time emotion stream,
+p187
+aVand I could share that with my family back home in a very natural way,
+p188
+aVjust like I would've if we were all in the same room together?
+p189
+aa(lp190
+VI think five years down the line,
+p191
+aVall our devices are going to have an emotion chip,
+p192
+aVand we won't remember what it was like when we couldn't just frown at our device
+p193
+aVand our device would say, "Hmm, you didn't like that, did you?"
+p194
+aVOur biggest challenge is that there are so many applications of this technology,
+p195
+aVmy team and I realize that we can't build them all ourselves,
+p196
+aVso we've made this technology available so that other developers
+p197
+aVcan get building and get creative.
+p198
+aVWe recognize that there are potential risks
+p199
+aVand potential for abuse,
+p200
+aVbut personally, having spent many years doing this,
+p201
+aVI believe that the benefits to humanity
+p202
+aVfrom having emotionally intelligent technology
+p203
+aVfar outweigh the potential for misuse.
+p204
+aVAnd I invite you all to be part of the conversation.
+p205
+aVThe more people who know about this technology,
+p206
+aVthe more we can all have a voice in how it's being used.
+p207
+aVSo as more and more of our lives become digital,
+p208
+aVwe are fighting a losing battle trying to curb our usage of devices
+p209
+aVin order to reclaim our emotions.
+p210
+aVSo what I'm trying to do instead is to bring emotions into our technology
+p211
+aVand make our technologies more responsive.
+p212
+aVSo I want those devices that have separated us
+p213
+aVto bring us back together.
+p214
+aVAnd by humanizing technology, we have this golden opportunity
+p215
+aVto reimagine how we connect with machines,
+p216
+aVand therefore, how we, as human beings,
+p217
+aVconnect with one another.
+p218
+aa(lp219
+VThank you.
+p220
+aa(lp221
+V(Applause)
+p222
+aasS'transcript_micsec'
+p223
+(lp224
+I11000
+aI47000
+aI149000
+aI197000
+aI229000
+aI269000
+aI284000
+aI305000
+aI404000
+aI431000
+aI496000
+aI566000
+aI657000
+aI659000
+asS'talk_meta'
+p225
+(dp226
+S'ratings'
+p227
+(dp228
+S'ingenious'
+p229
+I168
+sS'beautiful'
+p230
+I62
+sS'inspiring'
+p231
+I210
+sS'ok'
+p232
+I100
+sS'fascinating'
+p233
+I338
+sS'funny'
+p234
+I67
+sS'total_count'
+p235
+I1484
+sS'persuasive'
+p236
+I40
+sS'longwinded'
+p237
+I12
+sS'informative'
+p238
+I377
+sS'jaw-dropping'
+p239
+I32
+sS'obnoxious'
+p240
+I16
+sS'confusing'
+p241
+I9
+sS'courageous'
+p242
+I33
+sS'unconvincing'
+p243
+I20
+ssS'author'
+p244
+VRana_el Kaliouby;
+p245
+sS'url'
+p246
+S'https://www.ted.com/talks/rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face'
+p247
+sS'vidlen'
+p248
+I664
+sS'totalviews'
+p249
+I1417428
+sS'title'
+p250
+VThis app knows how you feel -- from the look on your face
+p251
+sS'downloadlink'
+p252
+Vhttps://download.ted.com/talks/RanaelKaliouby_2015W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p253
+sS'datepublished'
+p254
+cdatetime
+datetime
+p255
+(S"\x07\xdf\x06\x0f\x0b.'\x00\x00\x00"
+tRp256
+sS'datefilmed'
+p257
+g255
+(S"\x07\xdf\x06\x0f\x0b.'\x00\x00\x00"
+tRp258
+sS'alldata_JSON'
+p259
+S'{"viewed_count": 1417428, "speakers": [{"description": "Computer scientist", "firstname": "Rana", "title": "", "lastname": "el Kaliouby", "middleinitial": "", "whylisten": "<p>Rana el Kaliouby, chief science officer and co-founder of&nbsp;<a href=\\"http://www.affectiva.com/\\" target=\\"_blank\\">Affectiva</a>, an MIT Media Lab spin-off, is&nbsp;on a mission to bring emotion intelligence to our digital experiences. She&nbsp;leads the company&#39;s emotion analytics team, which is responsible for developing emotion-sensing algorithms and&nbsp;mining the world&#39;s largest emotion data database. So far, they&#39;ve collected 12 billion emotion data points from 2.9 million face videos from volunteers in 75 countries. The company&rsquo;s platform is used by many Fortune Global 100 companies to measure consumer engagement,&nbsp;and is pioneering emotion-enabled digital apps for enterprise, entertainment, video communication and online education.</p><p><em>Entrepreneur</em> magazine called el Kaliouby one of &ldquo;The 7 Most Powerful Women To Watch in 2014,&rdquo; and the <em>MIT Technology Review</em> included her in their list of the &ldquo;Top 35 Innovators Under 35.&rdquo;</p>        ", "slug": "rana_el_kaliouby", "whotheyare": "What if a computer could recognize your facial expression, and react to how you feel? Rana el Kaliouby sees big possibilities in making technology emotionally aware.", "whatotherssay": "Kaliouby has a Ph.D. in computer science, and, like many accomplished coders, she has no trouble with mathematical concepts like Bayesian probability and hidden Markov models. But she is also at ease among people: emotive, warm.", "id": 2533, "photo_url": "https://pe.tedcdn.com/images/ted/de414b319b867763b0479f0502b5584519cd8a77_254x191.jpg"}], "current_talk": 2279, "description": "Our emotions influence every aspect of our lives -- how we learn, how we communicate, how we make decisions. Yet they\\u2019re absent from our digital lives; the devices and apps we interact with have no way of knowing how we feel. Scientist\\u00a0Rana el Kaliouby\\u00a0aims to change that. She demos a powerful new technology that reads your facial expressions and matches them to corresponding emotions.\\u00a0This\\u00a0\\u201cemotion engine\\u201d\\u00a0has big implications, she says, and could change not just how we interact with machines -- but with each other.", "language": "en", "url": "https://www.ted.com/talks/rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79490030}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15398391}, "podcast-high": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79484327}, "180k": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15146201}, "64k": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5474432}, "1500k": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 122892437}, "450k": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37835745}, "podcast-regular": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37951061}, "950k": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79492093}, "audio-podcast": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6989116}, "podcast-light": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5607880}, "320k": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26835463}, "600k": {"uri": "https://download.ted.com/talks/RanaelKaliouby_2015W-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 50674888}}}, "comments": {"count": 95, "id": 26899, "talk_id": 2279}, "slug": "rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face", "threadId": 26899, "talks": [{"event": "TEDWomen 2015", "player_talks": [{"event": "TEDWomen 2015", "slug": "rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face", "filmed": 1432771200, "targeting": {"event": "TEDWomen 2015", "tag": "compassion,computers,psychology,technology", "id": 2279, "talk": "rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "This app knows how you feel -- from the look on your face", "postAdDuration": "0.83", "published": 1434383199, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7942398dd4f5b61691f12872b6e787cf53dec95f_2880x1620.jpg?quality=89&w=600", "name": "Rana el Kaliouby: This app knows how you feel -- from the look on your face", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["compassion", "computers", "psychology", "technology"], "speaker": "Rana el Kaliouby", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 664, "id": 2279, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RanaelKaliouby_2015W-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDWomen 2015", "tag": "compassion,computers,psychology,technology", "id": 2279, "talk": "rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2279.json", "stream": "https://hls.ted.com/talks/2279.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDWomen%2B2015%26id%3D2279%26tag%3Dcompassion%2Ccomputers%2Cpsychology%2Ctechnology%26talk%3Drana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7942398dd4f5b61691f12872b6e787cf53dec95f_2880x1620.jpg?q=50&w=15", "duration": 664, "id": 2279, "ratings": [{"count": 377, "id": 8, "name": "Informative"}, {"count": 168, "id": 9, "name": "Ingenious"}, {"count": 338, "id": 22, "name": "Fascinating"}, {"count": 33, "id": 3, "name": "Courageous"}, {"count": 210, "id": 10, "name": "Inspiring"}, {"count": 40, "id": 24, "name": "Persuasive"}, {"count": 62, "id": 1, "name": "Beautiful"}, {"count": 67, "id": 7, "name": "Funny"}, {"count": 32, "id": 23, "name": "Jaw-dropping"}, {"count": 12, "id": 11, "name": "Longwinded"}, {"count": 100, "id": 25, "name": "OK"}, {"count": 20, "id": 21, "name": "Unconvincing"}, {"count": 9, "id": 2, "name": "Confusing"}, {"count": 16, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Computer scientist", "firstname": "Rana", "title": "", "lastname": "el Kaliouby", "middleinitial": "", "whylisten": "<p>Rana el Kaliouby, chief science officer and co-founder of&nbsp;<a href=\\"http://www.affectiva.com/\\" target=\\"_blank\\">Affectiva</a>, an MIT Media Lab spin-off, is&nbsp;on a mission to bring emotion intelligence to our digital experiences. She&nbsp;leads the company&#39;s emotion analytics team, which is responsible for developing emotion-sensing algorithms and&nbsp;mining the world&#39;s largest emotion data database. So far, they&#39;ve collected 12 billion emotion data points from 2.9 million face videos from volunteers in 75 countries. The company&rsquo;s platform is used by many Fortune Global 100 companies to measure consumer engagement,&nbsp;and is pioneering emotion-enabled digital apps for enterprise, entertainment, video communication and online education.</p><p><em>Entrepreneur</em> magazine called el Kaliouby one of &ldquo;The 7 Most Powerful Women To Watch in 2014,&rdquo; and the <em>MIT Technology Review</em> included her in their list of the &ldquo;Top 35 Innovators Under 35.&rdquo;</p>        ", "slug": "rana_el_kaliouby", "whotheyare": "What if a computer could recognize your facial expression, and react to how you feel? Rana el Kaliouby sees big possibilities in making technology emotionally aware.", "whatotherssay": "Kaliouby has a Ph.D. in computer science, and, like many accomplished coders, she has no trouble with mathematical concepts like Bayesian probability and hidden Markov models. But she is also at ease among people: emotive, warm.", "id": 2533, "photo_url": "https://pe.tedcdn.com/images/ted/de414b319b867763b0479f0502b5584519cd8a77_254x191.jpg"}], "title": "This app knows how you feel -- from the look on your face", "take_action": [{"status": "approved", "start_at": null, "link_url": "http://www.affectiva.com/solutions/apis-sdks/", "eyebrow": null, "end_at": null, "verb": "connect", "published": true, "visible_url": "affectiva.com/sdk", "type": "take_action", "blurb": "**Integrate** emotion analytics into your own app."}], "comments": 26899, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/7942398dd4f5b61691f12872b6e787cf53dec95f_2880x1620.jpg", "description": "Our emotions influence every aspect of our lives -- how we learn, how we communicate, how we make decisions. Yet they\\u2019re absent from our digital lives; the devices and apps we interact with have no way of knowing how we feel. Scientist\\u00a0Rana el Kaliouby\\u00a0aims to change that. She demos a powerful new technology that reads your facial expressions and matches them to corresponding emotions.\\u00a0This\\u00a0\\u201cemotion engine\\u201d\\u00a0has big implications, she says, and could change not just how we interact with machines -- but with each other.", "tags": ["compassion", "computers", "psychology", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-hr.mp4"}, "hu": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-uk.mp4"}, "my": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RanaelKaliouby_2015W-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RanaelKaliouby_2015W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RanaelKaliouby_2015W-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2279, "audioDownload": "https://download.ted.com/talks/RanaelKaliouby_2015W.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1754331, "hero": "https://pe.tedcdn.com/images/ted/1efebe64a094b2ee95cd62eec52ddf2238a92510_2880x1620.jpg", "title": "Can we create new senses for humans?", "id": 2215, "speaker": "David Eagleman", "duration": 1234, "slug": "david_eagleman_can_we_create_new_senses_for_humans"}, {"viewed_count": 2034820, "hero": "https://pe.tedcdn.com/images/ted/fbada01990f86f5afa850cc23a0259fec091f929_2880x1620.jpg", "title": "How we\'re teaching computers to understand pictures", "id": 2218, "speaker": "Fei-Fei Li", "duration": 1078, "slug": "fei_fei_li_how_we_re_teaching_computers_to_understand_pictures"}, {"viewed_count": 4134652, "hero": "https://pe.tedcdn.com/images/ted/6b9f1d8df425700e9c847f0c3574b599bb0208d5_800x600.jpg", "title": "Connected, but alone?", "id": 1409, "speaker": "Sherry Turkle", "duration": 1188, "slug": "sherry_turkle_alone_together"}, {"viewed_count": 4680263, "hero": "https://pe.tedcdn.com/images/ted/f9a5e4cec30e52672b06d6ba2e6da23e65566cab_1600x1200.jpg", "title": "The hidden power of smiling", "id": 1143, "speaker": "Ron Gutman", "duration": 446, "slug": "ron_gutman_the_hidden_power_of_smiling"}, {"viewed_count": 20882218, "hero": "https://pe.tedcdn.com/images/ted/fe29046c9fa0f366a11c507d9daeabd8ed6cb4bd_2880x1620.jpg", "title": "Why we do what we do", "id": 96, "speaker": "Tony Robbins", "duration": 1305, "slug": "tony_robbins_asks_why_we_do_what_we_do"}, {"viewed_count": 886127, "hero": "https://pe.tedcdn.com/images/ted/dbd2137053b8698a43c1a169b1789c9001222ea7_2880x1620.jpg", "title": "How I\'m fighting bias in algorithms", "id": 2705, "speaker": "Joy Buolamwini", "duration": 524, "slug": "joy_buolamwini_how_i_m_fighting_bias_in_algorithms"}], "recorded_at": "2015-05-28T00:00:00.000+00:00", "slug": "rana_el_kaliouby_this_app_knows_how_you_feel_from_the_look_on_your_face", "speaker_name": "Rana el Kaliouby", "viewed_count": 1417428, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Rana el Kaliouby", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Affective Computing", "link_url": "http://www.amazon.com/Affective-Computing-Rosalind-W-Picard/dp/0262161702/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Rosalind W. Picard\\r\\nThe MIT Press, 1997", "position": null, "blurb": "This book introduces the notion of computers that have the ability to recognize, understand and express emotions. It coined the term \\u201caffective computing\\u201d and is what inspired me and many others around the world to get into the space of emotion-aware computers."}, {"is_pdf": false, "headline": "We Know How You Feel", "link_url": "http://www.newyorker.com/magazine/2015/01/19/know-feel", "eyebrow": null, "label": "READ_Article", "note": "Raffi Khatchadourian\\r\\n*The New Yorker*, January 19, 2015", "position": null, "blurb": "This is a great overview of the history of affective computing and its current applications in business and future directions."}, {"is_pdf": false, "headline": "The Expression of the Emotions in Man and Animals", "link_url": "http://www.amazon.com/Expression-Emotions-Man-Animals/dp/1470188880/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Charles Darwin\\r\\nCreateSpace Independent Publishing Platform, 2012", "position": null, "blurb": "This is a seminal work."}, {"is_pdf": false, "headline": "What the Face Reveals", "link_url": "http://www.amazon.com/What-Face-Reveals-Spontaneous-Expression/dp/0195179641/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Paul Ekman and Erika L. Rosenberg\\r\\nOxford University Press, 2005", "position": null, "blurb": "This is an essential reference for all those working in the area of facial analysis and expression. This was the first book I read on facial expressions and is one in a series of Paul Ekman\\u2019s groundbreaking works that have been foundational to a lot of what we do today."}, {"is_pdf": false, "headline": "Mindblindness", "link_url": "http://www.amazon.com/Mindblindness-Essay-Autism-Theory-Mind/dp/026252225X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Simon Baron-Cohen\\r\\nA Bradford Book, 1997", "position": null, "blurb": "This is a must-read on how we mind-read, effortlessly, automatically and mostly unconsciously, all the time. Simon explains how individuals on the autism spectrum are \\u201cmind blind; his work and book inspired my research for building emotion-sensing wearable glasses that help individuals on the autism spectrum read and respond to emotions."}, {"is_pdf": false, "headline": "Descartes\' Error: Emotion, Reason, and the Human Brain", "link_url": "http://www.amazon.com/Descartes-Error-Emotion-Reason-Human/dp/014303622X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Anthony Damasio\\r\\nPenguin Books, 2005", "position": null, "blurb": "This book argues that emotions are not a luxury \\u2014 they are essential to rational thinking and to successful social interactions both in our personal and professional lives. It is a must-read for background and seminal research on why emotions matter."}], "title": "Reading list"}, {"description": "", "rec_items": [{"is_pdf": false, "headline": "Cynthia Breazeal: The rise of personal robots", "link_url": "http://www.ted.com/talks/cynthia_breazeal_the_rise_of_personal_robots?language=en", "eyebrow": null, "label": "WATCH", "note": "TEDWomen 2010", "position": null, "blurb": "This talk lays a vision for personal robots and how they will transform the way we learn, work and play. Cynthia and I first met at MIT Media Lab. I have always admired her work in social robotics and am a big fan of what she\'s doing at Jibo today. There is also a lot of synergies between our work \\u2014 social robots need to have emotion-sensing capabilities to effectively build rapport with a human owner!"}, {"is_pdf": false, "headline": "Her", "link_url": "http://www.herthemovie.com/#/home", "eyebrow": null, "label": "EXPLORE", "note": "Warner Bros., 2013", "position": null, "blurb": "This film takes the idea of an emotionally intelligent device to the extreme! What I find fascinating is how, because this operating system is emotionally intelligent, it persuades its user to do all sorts of things. "}], "title": "Film and video"}], "published": true, "type": "recommendation", "blurb": "Explore these resources on how emotion is changing technology."}, "corrections": []}], "event": "TEDWomen 2015", "name": "Rana el Kaliouby: This app knows how you feel -- from the look on your face"}'
+p260
+sS'keywords'
+p261
+(lp262
+Vcompassion
+p263
+aVcomputers
+p264
+aVpsychology
+p265
+aVtechnology
+p266
+asS'datecrawled'
+p267
+g255
+(S'\x07\xe1\n\x17\x00\x12)\x02"\xe3'
+tRp268
+sS'id'
+p269
+I2279
+ss.

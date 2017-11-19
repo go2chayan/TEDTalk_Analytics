@@ -1,0 +1,1108 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThink about your day for a second.
+p5
+aVYou woke up, felt fresh air on your face as you walked out the door,
+p6
+aVencountered new colleagues and had great discussions,
+p7
+aVand felt in awe when you found something new.
+p8
+aVBut I bet there's something you didn't think about today \u2014
+p9
+aVsomething so close to home
+p10
+aVthat you probably don't think about it very often at all.
+p11
+aVAnd that's that all the sensations, feelings,
+p12
+aVdecisions and actions
+p13
+aVare mediated by the computer in your head
+p14
+aVcalled the brain.
+p15
+aa(lp16
+VNow the brain may not look like much from the outside \u2014
+p17
+aVa couple pounds of pinkish-gray flesh,
+p18
+aVamorphous \u2014
+p19
+aVbut the last hundred years of neuroscience
+p20
+aVhave allowed us to zoom in on the brain,
+p21
+aVand to see the intricacy of what lies within.
+p22
+aVAnd they've told us that this brain
+p23
+aVis an incredibly complicated circuit
+p24
+aVmade out of hundreds of billions of cells called neurons.
+p25
+aVNow unlike a human-designed computer,
+p26
+aVwhere there's a fairly small number of different parts \u2014
+p27
+aVwe know how they work, because we humans designed them \u2014
+p28
+aVthe brain is made out of thousands of different kinds of cells,
+p29
+aVmaybe tens of thousands.
+p30
+aVThey come in different shapes; they're made out of different molecules.
+p31
+aVAnd they project and connect to different brain regions,
+p32
+aVand they also change different ways in different disease states.
+p33
+aa(lp34
+VLet's make it concrete.
+p35
+aVThere's a class of cells,
+p36
+aVa fairly small cell, an inhibitory cell, that quiets its neighbors.
+p37
+aVIt's one of the cells that seems to be atrophied in disorders like schizophrenia.
+p38
+aVIt's called the basket cell.
+p39
+aVAnd this cell is one of the thousands of kinds of cell
+p40
+aVthat we are learning about.
+p41
+aVNew ones are being discovered everyday.
+p42
+aVAs just a second example:
+p43
+aVthese pyramidal cells, large cells,
+p44
+aVthey can span a significant fraction of the brain.
+p45
+aVThey're excitatory.
+p46
+aVAnd these are some of the cells
+p47
+aVthat might be overactive in disorders such as epilepsy.
+p48
+aVEvery one of these cells
+p49
+aVis an incredible electrical device.
+p50
+aVThey receive input from thousands of upstream partners
+p51
+aVand compute their own electrical outputs,
+p52
+aVwhich then, if they pass a certain threshold,
+p53
+aVwill go to thousands of downstream partners.
+p54
+aVAnd this process, which takes just a millisecond or so,
+p55
+aVhappens thousands of times a minute
+p56
+aVin every one of your 100 billion cells,
+p57
+aVas long as you live
+p58
+aVand think and feel.
+p59
+aa(lp60
+VSo how are we going to figure out what this circuit does?
+p61
+aVIdeally, we could go through the circuit
+p62
+aVand turn these different kinds of cell on and off
+p63
+aVand see whether we could figure out
+p64
+aVwhich ones contribute to certain functions
+p65
+aVand which ones go wrong in certain pathologies.
+p66
+aVIf we could activate cells, we could see what powers they can unleash,
+p67
+aVwhat they can initiate and sustain.
+p68
+aVIf we could turn them off,
+p69
+aVthen we could try and figure out what they're necessary for.
+p70
+aVAnd that's a story I'm going to tell you about today.
+p71
+aVAnd honestly, where we've gone through over the last 11 years,
+p72
+aVthrough an attempt to find ways
+p73
+aVof turning circuits and cells and parts and pathways of the brain
+p74
+aVon and off,
+p75
+aVboth to understand the science
+p76
+aVand also to confront some of the issues
+p77
+aVthat face us all as humans.
+p78
+aa(lp79
+VNow before I tell you about the technology,
+p80
+aVthe bad news is that a significant fraction of us in this room,
+p81
+aVif we live long enough,
+p82
+aVwill encounter, perhaps, a brain disorder.
+p83
+aVAlready, a billion people
+p84
+aVhave had some kind of brain disorder
+p85
+aVthat incapacitates them,
+p86
+aVand the numbers don't do it justice though.
+p87
+aVThese disorders \u2014 schizophrenia, Alzheimer's,
+p88
+aVdepression, addiction \u2014
+p89
+aVthey not only steal our time to live, they change who we are.
+p90
+aVThey take our identity and change our emotions
+p91
+aVand change who we are as people.
+p92
+aVNow in the 20th century,
+p93
+aVthere was some hope that was generated
+p94
+aVthrough the development of pharmaceuticals for treating brain disorders,
+p95
+aVand while many drugs have been developed
+p96
+aVthat can alleviate symptoms of brain disorders,
+p97
+aVpractically none of them can be considered to be cured.
+p98
+aVAnd part of that's because we're bathing the brain in the chemical.
+p99
+aVThis elaborate circuit
+p100
+aVmade out of thousands of different kinds of cell
+p101
+aVis being bathed in a substance.
+p102
+aVThat's also why, perhaps, most of the drugs, and not all, on the market
+p103
+aVcan present some kind of serious side effect too.
+p104
+aa(lp105
+VNow some people have gotten some solace
+p106
+aVfrom electrical stimulators that are implanted in the brain.
+p107
+aVAnd for Parkinson's disease,
+p108
+aVCochlear implants,
+p109
+aVthese have indeed been able
+p110
+aVto bring some kind of remedy
+p111
+aVto people with certain kinds of disorder.
+p112
+aVBut electricity also will go in all directions \u2014
+p113
+aVthe path of least resistance,
+p114
+aVwhich is where that phrase, in part, comes from.
+p115
+aVAnd it also will affect normal circuits as well as the abnormal ones that you want to fix.
+p116
+aVSo again, we're sent back to the idea
+p117
+aVof ultra-precise control.
+p118
+aVCould we dial-in information precisely where we want it to go?
+p119
+aa(lp120
+VSo when I started in neuroscience 11 years ago,
+p121
+aVI had trained as an electrical engineer and a physicist,
+p122
+aVand the first thing I thought about was,
+p123
+aVif these neurons are electrical devices,
+p124
+aVall we need to do is to find some way
+p125
+aVof driving those electrical changes at a distance.
+p126
+aVIf we could turn on the electricity in one cell,
+p127
+aVbut not its neighbors,
+p128
+aVthat would give us the tool we need to activate and shut down these different cells,
+p129
+aVfigure out what they do and how they contribute
+p130
+aVto the networks in which they're embedded.
+p131
+aVAnd also it would allow us to have the ultra-precise control we need
+p132
+aVin order to fix the circuit computations
+p133
+aVthat have gone awry.
+p134
+aVNow how are we going to do that?
+p135
+aVWell there are many molecules that exist in nature,
+p136
+aVwhich are able to convert light into electricity.
+p137
+aVYou can think of them as little proteins
+p138
+aVthat are like solar cells.
+p139
+aVIf we can install these molecules in neurons somehow,
+p140
+aVthen these neurons would become electrically drivable with light.
+p141
+aVAnd their neighbors, which don't have the molecule, would not.
+p142
+aVThere's one other magic trick you need to make this all happen,
+p143
+aVand that's the ability to get light into the brain.
+p144
+aVAnd to do that \u2014 the brain doesn't feel pain \u2014 you can put \u2014
+p145
+aVtaking advantage of all the effort
+p146
+aVthat's gone into the Internet and communications and so on \u2014
+p147
+aVoptical fibers connected to lasers
+p148
+aVthat you can use to activate, in animal models for example,
+p149
+aVin pre-clinical studies,
+p150
+aVthese neurons and to see what they do.
+p151
+aa(lp152
+VSo how do we do this?
+p153
+aVAround 2004,
+p154
+aVin collaboration with Gerhard Nagel and Karl Deisseroth,
+p155
+aVthis vision came to fruition.
+p156
+aVThere's a certain alga that swims in the wild,
+p157
+aVand it needs to navigate towards light
+p158
+aVin order to photosynthesize optimally.
+p159
+aVAnd it senses light with a little eye-spot,
+p160
+aVwhich works not unlike how our eye works.
+p161
+aVIn its membrane, or its boundary,
+p162
+aVit contains little proteins
+p163
+aVthat indeed can convert light into electricity.
+p164
+aVSo these molecules are called channelrhodopsins.
+p165
+aVAnd each of these proteins acts just like that solar cell that I told you about.
+p166
+aVWhen blue light hits it, it opens up a little hole
+p167
+aVand allows charged particles to enter the eye-spot,
+p168
+aVand that allows this eye-spot to have an electrical signal
+p169
+aVjust like a solar cell charging up a battery.
+p170
+aa(lp171
+VSo what we need to do is to take these molecules
+p172
+aVand somehow install them in neurons.
+p173
+aVAnd because it's a protein,
+p174
+aVit's encoded for in the DNA of this organism.
+p175
+aVSo all we've got to do is take that DNA,
+p176
+aVput it into a gene therapy vector, like a virus,
+p177
+aVand put it into neurons.
+p178
+aVSo it turned out that this was a very productive time in gene therapy,
+p179
+aVand lots of viruses were coming along.
+p180
+aVSo this turned out to be very simple to do.
+p181
+aVAnd early in the morning one day in the summer of 2004,
+p182
+aVwe gave it a try, and it worked on the first try.
+p183
+aVYou take this DNA and you put it into a neuron.
+p184
+aVThe neuron uses its natural protein-making machinery
+p185
+aVto fabricate these little light-sensitive proteins
+p186
+aVand install them all over the cell,
+p187
+aVlike putting solar panels on a roof,
+p188
+aVand the next thing you know,
+p189
+aVyou have a neuron which can be activated with light.
+p190
+aVSo this is very powerful.
+p191
+aa(lp192
+VOne of the tricks you have to do
+p193
+aVis to figure out how to deliver these genes to the cells that you want
+p194
+aVand not all the other neighbors.
+p195
+aVAnd you can do that; you can tweak the viruses
+p196
+aVso they hit just some cells and not others.
+p197
+aVAnd there's other genetic tricks you can play
+p198
+aVin order to get light-activated cells.
+p199
+aVThis field has now come to be known as optogenetics.
+p200
+aVAnd just as one example of the kind of thing you can do,
+p201
+aVyou can take a complex network,
+p202
+aVuse one of these viruses to deliver the gene
+p203
+aVjust to one kind of cell in this dense network.
+p204
+aVAnd then when you shine light on the entire network,
+p205
+aVjust that cell type will be activated.
+p206
+aa(lp207
+VSo for example, lets sort of consider that basket cell I told you about earlier \u2014
+p208
+aVthe one that's atrophied in schizophrenia
+p209
+aVand the one that is inhibitory.
+p210
+aVIf we can deliver that gene to these cells \u2014
+p211
+aVand they're not going to be altered by the expression of the gene, of course \u2014
+p212
+aVand then flash blue light over the entire brain network,
+p213
+aVjust these cells are going to be driven.
+p214
+aVAnd when the light turns off, these cells go back to normal,
+p215
+aVso they don't seem to be averse against that.
+p216
+aVNot only can you use this to study what these cells do,
+p217
+aVwhat their power is in computing in the brain,
+p218
+aVbut you can also use this to try to figure out \u2014
+p219
+aVwell maybe we could jazz up the activity of these cells,
+p220
+aVif indeed they're atrophied.
+p221
+aa(lp222
+VNow I want to tell you a couple of short stories
+p223
+aVabout how we're using this,
+p224
+aVboth at the scientific, clinical and pre-clinical levels.
+p225
+aVOne of the questions we've confronted
+p226
+aVis, what are the signals in the brain that mediate the sensation of reward?
+p227
+aVBecause if you could find those,
+p228
+aVthose would be some of the signals that could drive learning.
+p229
+aVThe brain will do more of whatever got that reward.
+p230
+aVAnd also these are signals that go awry in disorders such as addiction.
+p231
+aVSo if we could figure out what cells they are,
+p232
+aVwe could maybe find new targets
+p233
+aVfor which drugs could be designed or screened against,
+p234
+aVor maybe places where electrodes could be put in
+p235
+aVfor people who have very severe disability.
+p236
+aVSo to do that, we came up with a very simple paradigm
+p237
+aVin collaboration with the Fiorella group,
+p238
+aVwhere one side of this little box,
+p239
+aVif the animal goes there, the animal gets a pulse of light
+p240
+aVin order to make different cells in the brain sensitive to light.
+p241
+aVSo if these cells can mediate reward,
+p242
+aVthe animal should go there more and more.
+p243
+aVAnd so that's what happens.
+p244
+aa(lp245
+VThis animal's going to go to the right-hand side and poke his nose there,
+p246
+aVand he gets a flash of blue light every time he does that.
+p247
+aVAnd he'll do that hundreds and hundreds of times.
+p248
+aVThese are the dopamine neurons,
+p249
+aVwhich some of you may have heard about, in some of the pleasure centers in the brain.
+p250
+aVNow we've shown that a brief activation of these
+p251
+aVis enough, indeed, to drive learning.
+p252
+aVNow we can generalize the idea.
+p253
+aVInstead of one point in the brain,
+p254
+aVwe can devise devices that span the brain,
+p255
+aVthat can deliver light into three-dimensional patterns \u2014
+p256
+aVarrays of optical fibers,
+p257
+aVeach coupled to its own independent miniature light source.
+p258
+aVAnd then we can try to do things in vivo
+p259
+aVthat have only been done to-date in a dish \u2014
+p260
+aVlike high-throughput screening throughout the entire brain
+p261
+aVfor the signals that can cause certain things to happen.
+p262
+aVOr that could be good clinical targets
+p263
+aVfor treating brain disorders.
+p264
+aa(lp265
+VAnd one story I want to tell you about
+p266
+aVis how can we find targets for treating post-traumatic stress disorder \u2014
+p267
+aVa form of uncontrolled anxiety and fear.
+p268
+aVAnd one of the things that we did
+p269
+aVwas to adopt a very classical model of fear.
+p270
+aVThis goes back to the Pavlovian days.
+p271
+aVIt's called Pavlovian fear conditioning \u2014
+p272
+aVwhere a tone ends with a brief shock.
+p273
+aVThe shock isn't painful, but it's a little annoying.
+p274
+aVAnd over time \u2014 in this case, a mouse,
+p275
+aVwhich is a good animal model, commonly used in such experiments \u2014
+p276
+aVthe animal learns to fear the tone.
+p277
+aVThe animal will react by freezing,
+p278
+aVsort of like a deer in the headlights.
+p279
+aVNow the question is, what targets in the brain can we find
+p280
+aVthat allow us to overcome this fear?
+p281
+aVSo what we do is we play that tone again
+p282
+aVafter it's been associated with fear.
+p283
+aVBut we activate targets in the brain, different ones,
+p284
+aVusing that optical fiber array I told you about in the previous slide,
+p285
+aVin order to try and figure out which targets
+p286
+aVcan cause the brain to overcome that memory of fear.
+p287
+aa(lp288
+VAnd so this brief video
+p289
+aVshows you one of these targets that we're working on now.
+p290
+aVThis is an area in the prefrontal cortex,
+p291
+aVa region where we can use cognition to try to overcome aversive emotional states.
+p292
+aVAnd the animal's going to hear a tone \u2014 and a flash of light occurred there.
+p293
+aVThere's no audio on this, but you can see the animal's freezing.
+p294
+aVThis tone used to mean bad news.
+p295
+aVAnd there's a little clock in the lower left-hand corner,
+p296
+aVso you can see the animal is about two minutes into this.
+p297
+aVAnd now this next clip
+p298
+aVis just eight minutes later.
+p299
+aVAnd the same tone is going to play, and the light is going to flash again.
+p300
+aVOkay, there it goes. Right now.
+p301
+aVAnd now you can see, just 10 minutes into the experiment,
+p302
+aVthat we've equipped the brain by photoactivating this area
+p303
+aVto overcome the expression
+p304
+aVof this fear memory.
+p305
+aa(lp306
+VNow over the last couple of years, we've gone back to the tree of life
+p307
+aVbecause we wanted to find ways to turn circuits in the brain off.
+p308
+aVIf we could do that, this could be extremely powerful.
+p309
+aVIf you can delete cells just for a few milliseconds or seconds,
+p310
+aVyou can figure out what necessary role they play
+p311
+aVin the circuits in which they're embedded.
+p312
+aVAnd we've now surveyed organisms from all over the tree of life \u2014
+p313
+aVevery kingdom of life except for animals, we see slightly differently.
+p314
+aVAnd we found all sorts of molecules, they're called halorhodopsins or archaerhodopsins,
+p315
+aVthat respond to green and yellow light.
+p316
+aVAnd they do the opposite thing of the molecule I told you about before
+p317
+aVwith the blue light activator channelrhodopsin.
+p318
+aa(lp319
+VLet's give an example of where we think this is going to go.
+p320
+aVConsider, for example, a condition like epilepsy,
+p321
+aVwhere the brain is overactive.
+p322
+aVNow if drugs fail in epileptic treatment,
+p323
+aVone of the strategies is to remove part of the brain.
+p324
+aVBut that's obviously irreversible, and there could be side effects.
+p325
+aVWhat if we could just turn off that brain for a brief amount of time,
+p326
+aVuntil the seizure dies away,
+p327
+aVand cause the brain to be restored to its initial state \u2014
+p328
+aVsort of like a dynamical system that's being coaxed down into a stable state.
+p329
+aVSo this animation just tries to explain this concept
+p330
+aVwhere we made these cells sensitive to being turned off with light,
+p331
+aVand we beam light in,
+p332
+aVand just for the time it takes to shut down a seizure,
+p333
+aVwe're hoping to be able to turn it off.
+p334
+aVAnd so we don't have data to show you on this front,
+p335
+aVbut we're very excited about this.
+p336
+aa(lp337
+VNow I want to close on one story,
+p338
+aVwhich we think is another possibility \u2014
+p339
+aVwhich is that maybe these molecules, if you can do ultra-precise control,
+p340
+aVcan be used in the brain itself
+p341
+aVto make a new kind of prosthetic, an optical prosthetic.
+p342
+aVI already told you that electrical stimulators are not uncommon.
+p343
+aVSeventy-five thousand people have Parkinson's deep-brain stimulators implanted.
+p344
+aVMaybe 100,000 people have Cochlear implants,
+p345
+aVwhich allow them to hear.
+p346
+aVThere's another thing, which is you've got to get these genes into cells.
+p347
+aVAnd new hope in gene therapy has been developed
+p348
+aVbecause viruses like the adeno-associated virus,
+p349
+aVwhich probably most of us around this room have,
+p350
+aVand it doesn't have any symptoms,
+p351
+aVwhich have been used in hundreds of patients
+p352
+aVto deliver genes into the brain or the body.
+p353
+aVAnd so far, there have not been serious adverse events
+p354
+aVassociated with the virus.
+p355
+aa(lp356
+VThere's one last elephant in the room, the proteins themselves,
+p357
+aVwhich come from algae and bacteria and fungi,
+p358
+aVand all over the tree of life.
+p359
+aVMost of us don't have fungi or algae in our brains,
+p360
+aVso what is our brain going to do if we put that in?
+p361
+aVAre the cells going to tolerate it? Will the immune system react?
+p362
+aVIn its early days \u2014 these have not been done on humans yet \u2014
+p363
+aVbut we're working on a variety of studies
+p364
+aVto try and examine this,
+p365
+aVand so far we haven't seen overt reactions of any severity
+p366
+aVto these molecules
+p367
+aVor to the illumination of the brain with light.
+p368
+aVSo it's early days, to be upfront, but we're excited about it.
+p369
+aa(lp370
+VI wanted to close with one story,
+p371
+aVwhich we think could potentially
+p372
+aVbe a clinical application.
+p373
+aVNow there are many forms of blindness
+p374
+aVwhere the photoreceptors,
+p375
+aVour light sensors that are in the back of our eye, are gone.
+p376
+aVAnd the retina, of course, is a complex structure.
+p377
+aVNow let's zoom in on it here, so we can see it in more detail.
+p378
+aVThe photoreceptor cells are shown here at the top,
+p379
+aVand then the signals that are detected by the photoreceptors
+p380
+aVare transformed by various computations
+p381
+aVuntil finally that layer of cells at the bottom, the ganglion cells,
+p382
+aVrelay the information to the brain,
+p383
+aVwhere we see that as perception.
+p384
+aVIn many forms of blindness, like retinitis pigmentosa,
+p385
+aVor macular degeneration,
+p386
+aVthe photoreceptor cells have atrophied or been destroyed.
+p387
+aVNow how could you repair this?
+p388
+aVIt's not even clear that a drug could cause this to be restored,
+p389
+aVbecause there's nothing for the drug to bind to.
+p390
+aVOn the other hand, light can still get into the eye.
+p391
+aVThe eye is still transparent and you can get light in.
+p392
+aVSo what if we could just take these channelrhodopsins and other molecules
+p393
+aVand install them on some of these other spare cells
+p394
+aVand convert them into little cameras.
+p395
+aVAnd because there's so many of these cells in the eye,
+p396
+aVpotentially, they could be very high-resolution cameras.
+p397
+aa(lp398
+VSo this is some work that we're doing.
+p399
+aVIt's being led by one of our collaborators,
+p400
+aVAlan Horsager at USC,
+p401
+aVand being sought to be commercialized by a start-up company Eos Neuroscience,
+p402
+aVwhich is funded by the NIH.
+p403
+aVAnd what you see here is a mouse trying to solve a maze.
+p404
+aVIt's a six-arm maze. And there's a bit of water in the maze
+p405
+aVto motivate the mouse to move, or he'll just sit there.
+p406
+aVAnd the goal, of course, of this maze
+p407
+aVis to get out of the water and go to a little platform
+p408
+aVthat's under the lit top port.
+p409
+aVNow mice are smart, so this mouse solves the maze eventually,
+p410
+aVbut he does a brute-force search.
+p411
+aVHe's swimming down every avenue until he finally gets to the platform.
+p412
+aVSo he's not using vision to do it.
+p413
+aVThese different mice are different mutations
+p414
+aVthat recapitulate different kinds of blindness that affect humans.
+p415
+aVAnd so we're being careful in trying to look at these different models
+p416
+aVso we come up with a generalized approach.
+p417
+aa(lp418
+VSo how are we going to solve this?
+p419
+aVWe're going to do exactly what we outlined in the previous slide.
+p420
+aVWe're going to take these blue light photosensors
+p421
+aVand install them on a layer of cells
+p422
+aVin the middle of the retina in the back of the eye
+p423
+aVand convert them into a camera \u2014
+p424
+aVjust like installing solar cells all over those neurons
+p425
+aVto make them light sensitive.
+p426
+aVLight is converted to electricity on them.
+p427
+aVSo this mouse was blind a couple weeks before this experiment
+p428
+aVand received one dose of this photosensitive molecule in a virus.
+p429
+aVAnd now you can see, the animal can indeed avoid walls
+p430
+aVand go to this little platform
+p431
+aVand make cognitive use of its eyes again.
+p432
+aVAnd to point out the power of this:
+p433
+aVthese animals are able to get to that platform
+p434
+aVjust as fast as animals that have seen their entire lives.
+p435
+aVSo this pre-clinical study, I think,
+p436
+aVbodes hope for the kinds of things
+p437
+aVwe're hoping to do in the future.
+p438
+aa(lp439
+VTo close, I want to point out that we're also exploring
+p440
+aVnew business models for this new field of neurotechnology.
+p441
+aVWe're developing these tools,
+p442
+aVbut we share them freely with hundreds of groups all over the world,
+p443
+aVso people can study and try to treat different disorders.
+p444
+aVAnd our hope is that, by figuring out brain circuits
+p445
+aVat a level of abstraction that lets us repair them and engineer them,
+p446
+aVwe can take some of these intractable disorders that I told you about earlier,
+p447
+aVpractically none of which are cured,
+p448
+aVand in the 21st century make them history.
+p449
+aa(lp450
+VThank you.
+p451
+aa(lp452
+V(Applause)
+p453
+aa(lp454
+VJuan Enriquez: So some of the stuff is a little dense.
+p455
+aV(Laughter)
+p456
+aVBut the implications
+p457
+aVof being able to control seizures or epilepsy
+p458
+aVwith light instead of drugs,
+p459
+aVand being able to target those specifically
+p460
+aVis a first step.
+p461
+aVThe second thing that I think I heard you say
+p462
+aVis you can now control the brain in two colors,
+p463
+aVlike an on/off switch.
+p464
+aa(lp465
+VEd Boyden: That's right.
+p466
+aa(lp467
+VJE: Which makes every impulse going through the brain a binary code.
+p468
+aa(lp469
+VEB: Right, yeah.
+p470
+aVSo with blue light, we can drive information, and it's in the form of a one.
+p471
+aVAnd by turning things off, it's more or less a zero.
+p472
+aVSo our hope is to eventually build brain coprocessors
+p473
+aVthat work with the brain
+p474
+aVso we can augment functions in people with disabilities.
+p475
+aa(lp476
+VJE: And in theory, that means that,
+p477
+aVas a mouse feels, smells,
+p478
+aVhears, touches,
+p479
+aVyou can model it out as a string of ones and zeros.
+p480
+aa(lp481
+VEB: Sure, yeah. We're hoping to use this as a way of testing
+p482
+aVwhat neural codes can drive certain behaviors
+p483
+aVand certain thoughts and certain feelings,
+p484
+aVand use that to understand more about the brain.
+p485
+aa(lp486
+VJE: Does that mean that some day you could download memories
+p487
+aVand maybe upload them?
+p488
+aa(lp489
+VEB: Well that's something we're starting to work on very hard.
+p490
+aVWe're now working on some work
+p491
+aVwhere we're trying to tile the brain with recording elements too.
+p492
+aVSo we can record information and then drive information back in \u2014
+p493
+aVsort of computing what the brain needs
+p494
+aVin order to augment its information processing.
+p495
+aa(lp496
+VJE: Well, that might change a couple things. Thank you. (EB: Thank you.)
+p497
+aa(lp498
+V(Applause)
+p499
+aasS'transcript_micsec'
+p500
+(lp501
+I15000
+aI38000
+aI79000
+aI137000
+aI180000
+aI241000
+aI274000
+aI347000
+aI391000
+aI438000
+aI470000
+aI502000
+aI550000
+aI589000
+aI640000
+aI680000
+aI712000
+aI753000
+aI794000
+aI824000
+aI887000
+aI930000
+aI974000
+aI998000
+aI1000000
+aI1013000
+aI1037000
+aI1039000
+aI1042000
+aI1056000
+aI1065000
+aI1074000
+aI1079000
+aI1092000
+aI1095000
+asS'talk_meta'
+p502
+(dp503
+S'ratings'
+p504
+(dp505
+S'ingenious'
+p506
+I385
+sS'beautiful'
+p507
+I23
+sS'inspiring'
+p508
+I155
+sS'ok'
+p509
+I30
+sS'fascinating'
+p510
+I469
+sS'funny'
+p511
+I0
+sS'total_count'
+p512
+I1848
+sS'persuasive'
+p513
+I37
+sS'longwinded'
+p514
+I29
+sS'unconvincing'
+p515
+I7
+sS'informative'
+p516
+I270
+sS'jaw-dropping'
+p517
+I384
+sS'obnoxious'
+p518
+I13
+sS'courageous'
+p519
+I28
+sS'confusing'
+p520
+I18
+ssS'author'
+p521
+VEd_Boyden;
+p522
+sS'url'
+p523
+S'https://www.ted.com/talks/ed_boyden'
+p524
+sS'vidlen'
+p525
+I1104
+sS'totalviews'
+p526
+I936784
+sS'title'
+p527
+VA light switch for neurons
+p528
+sS'downloadlink'
+p529
+Vhttps://download.ted.com/talks/EdBoyden_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p530
+sS'datepublished'
+p531
+cdatetime
+datetime
+p532
+(S'\x07\xdb\x05\x0f\x08\x18\x00\x00\x00\x00'
+tRp533
+sS'datefilmed'
+p534
+g532
+(S'\x07\xdb\x05\x0f\x08\x18\x00\x00\x00\x00'
+tRp535
+sS'alldata_JSON'
+p536
+S'{"viewed_count": 936784, "speakers": [{"description": "Neuroengineer", "firstname": "Ed", "title": "", "lastname": "Boyden", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Ed Boyden leads the Synthetic Neurobiology Group, which develops tools for analyzing and repairing complex biological systems such as the brain. His group applies these tools in a systematic way in order to reveal ground truth scientific understandings of biological systems, which in turn reveal radical new approaches for curing diseases and repairing disabilities. These technologies include expansion microscopy, which enables complex biological systems to be imaged with nanoscale precision, and optogenetic tools, which enable the activation and silencing of neural activity with light (TED Talk:&nbsp;<a href=\\"http://www.ted.com/talks/ed_boyden\\" target=\\"_blank\\">A light switch for neurons</a>).&nbsp;Boyden also co-directs the MIT Center for Neurobiological Engineering, which aims to develop new tools to accelerate neuroscience progress.</p><p class=\\"p1\\">Amongst other recognitions, Boyden has received the Breakthrough Prize in Life Sciences (2016), the BBVA Foundation Frontiers of Knowledge Award (2015), the Carnegie Prize in Mind and Brain Sciences (2015), the Jacob Heskel Gabbay Award (2013), the Grete Lundbeck Brain Prize (2013) and the NIH Director&#39;s Pioneer Award (2013). He was also named to the World Economic Forum Young Scientist list (2013) and the <em>Technology Review World&#39;</em>s &quot;Top 35 Innovators under Age 35&quot; list (2006). His group has hosted hundreds of visitors to learn how to use new biotechnologies and spun out several companies to bring inventions out of his lab and into the world. Boyden received his Ph.D. in neurosciences from Stanford University as a Hertz Fellow, where he discovered that the molecular mechanisms used to store a memory are determined by the content to be learned. Before that, he received three degrees in electrical engineering, computer science and physics from MIT. He has contributed to over 300 peer-reviewed papers, current or pending patents and articles, and he has given over 300 invited talks on his group&#39;s work.</p>", "slug": "ed_boyden", "whotheyare": "Ed Boyden is a professor of biological engineering and brain and cognitive sciences at the MIT Media Lab and the MIT McGovern Institute.", "whatotherssay": "", "id": 890, "photo_url": "https://pe.tedcdn.com/images/ted/fd2c79e1b1a6aa4e9f59f1b4bbb704969bb7e06e_254x191.jpg"}], "current_talk": 1146, "description": "Ed Boyden shows how, by inserting genes for light-sensitive proteins into brain cells, he can selectively activate or de-activate specific neurons with fiber-optic implants. With this unprecedented level of control, he\'s managed to cure mice of analogs of PTSD and certain forms of blindness. On the horizon: neural prosthetics. Session host Juan Enriquez leads a brief post-talk Q&A.", "language": "en", "url": "https://www.ted.com/talks/ed_boyden", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/EdBoyden_2011-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 127881336}, "podcast-low-en": {"uri": "https://download.ted.com/talks/EdBoyden_2011-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25257372}, "podcast-high": {"uri": "https://download.ted.com/talks/EdBoyden_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 127864940}, "180k": {"uri": "https://download.ted.com/talks/EdBoyden_2011-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25003921}, "64k": {"uri": "https://download.ted.com/talks/EdBoyden_2011-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9019957}, "1500k": {"uri": "https://download.ted.com/talks/EdBoyden_2011-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 199938699}, "450k": {"uri": "https://download.ted.com/talks/EdBoyden_2011-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62307411}, "podcast-regular": {"uri": "https://download.ted.com/talks/EdBoyden_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62422680}, "950k": {"uri": "https://download.ted.com/talks/EdBoyden_2011-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 127854740}, "audio-podcast": {"uri": "https://download.ted.com/talks/EdBoyden_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 11297845}, "podcast-light": {"uri": "https://download.ted.com/talks/EdBoyden_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9153356}, "320k": {"uri": "https://download.ted.com/talks/EdBoyden_2011-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44264298}, "600k": {"uri": "https://download.ted.com/talks/EdBoyden_2011-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 83292585}}}, "comments": {"count": 170, "id": 3950, "talk_id": 1146}, "slug": "ed_boyden", "threadId": 3950, "talks": [{"event": "TED2011", "player_talks": [{"event": "TED2011", "slug": "ed_boyden", "filmed": 1299110400, "targeting": {"event": "TED2011", "tag": "brain,neuroscience,science,technology", "id": 1146, "talk": "ed_boyden", "year": "2011"}, "adDuration": "4.00", "external": null, "title": "A light switch for neurons", "postAdDuration": "0.83", "published": 1305462240, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/29fe2e14406be124c2d750736328ef617a156e10_800x600.jpg?quality=89&w=600", "name": "Ed Boyden: A light switch for neurons", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sh", "endonym": "Srpskohrvatski", "isRtl": false, "ianaCode": "sh", "languageName": "Serbo-Croatian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["brain", "neuroscience", "science", "technology"], "speaker": "Ed Boyden", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 1104, "id": 1146, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/EdBoyden_2011-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2011", "tag": "brain,neuroscience,science,technology", "id": 1146, "talk": "ed_boyden", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1146.json", "stream": "https://hls.ted.com/talks/1146.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2011%26id%3D1146%26tag%3Dbrain%2Cneuroscience%2Cscience%2Ctechnology%26talk%3Ded_boyden%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/ed_boyden"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/29fe2e14406be124c2d750736328ef617a156e10_800x600.jpg?q=50&w=15", "duration": 1104, "id": 1146, "ratings": [{"count": 18, "id": 2, "name": "Confusing"}, {"count": 270, "id": 8, "name": "Informative"}, {"count": 469, "id": 22, "name": "Fascinating"}, {"count": 385, "id": 9, "name": "Ingenious"}, {"count": 384, "id": 23, "name": "Jaw-dropping"}, {"count": 155, "id": 10, "name": "Inspiring"}, {"count": 23, "id": 1, "name": "Beautiful"}, {"count": 29, "id": 11, "name": "Longwinded"}, {"count": 30, "id": 25, "name": "OK"}, {"count": 13, "id": 26, "name": "Obnoxious"}, {"count": 37, "id": 24, "name": "Persuasive"}, {"count": 28, "id": 3, "name": "Courageous"}, {"count": 7, "id": 21, "name": "Unconvincing"}, {"count": 0, "id": 7, "name": "Funny"}], "speakers": [{"description": "Neuroengineer", "firstname": "Ed", "title": "", "lastname": "Boyden", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Ed Boyden leads the Synthetic Neurobiology Group, which develops tools for analyzing and repairing complex biological systems such as the brain. His group applies these tools in a systematic way in order to reveal ground truth scientific understandings of biological systems, which in turn reveal radical new approaches for curing diseases and repairing disabilities. These technologies include expansion microscopy, which enables complex biological systems to be imaged with nanoscale precision, and optogenetic tools, which enable the activation and silencing of neural activity with light (TED Talk:&nbsp;<a href=\\"http://www.ted.com/talks/ed_boyden\\" target=\\"_blank\\">A light switch for neurons</a>).&nbsp;Boyden also co-directs the MIT Center for Neurobiological Engineering, which aims to develop new tools to accelerate neuroscience progress.</p><p class=\\"p1\\">Amongst other recognitions, Boyden has received the Breakthrough Prize in Life Sciences (2016), the BBVA Foundation Frontiers of Knowledge Award (2015), the Carnegie Prize in Mind and Brain Sciences (2015), the Jacob Heskel Gabbay Award (2013), the Grete Lundbeck Brain Prize (2013) and the NIH Director&#39;s Pioneer Award (2013). He was also named to the World Economic Forum Young Scientist list (2013) and the <em>Technology Review World&#39;</em>s &quot;Top 35 Innovators under Age 35&quot; list (2006). His group has hosted hundreds of visitors to learn how to use new biotechnologies and spun out several companies to bring inventions out of his lab and into the world. Boyden received his Ph.D. in neurosciences from Stanford University as a Hertz Fellow, where he discovered that the molecular mechanisms used to store a memory are determined by the content to be learned. Before that, he received three degrees in electrical engineering, computer science and physics from MIT. He has contributed to over 300 peer-reviewed papers, current or pending patents and articles, and he has given over 300 invited talks on his group&#39;s work.</p>", "slug": "ed_boyden", "whotheyare": "Ed Boyden is a professor of biological engineering and brain and cognitive sciences at the MIT Media Lab and the MIT McGovern Institute.", "whatotherssay": "", "id": 890, "photo_url": "https://pe.tedcdn.com/images/ted/fd2c79e1b1a6aa4e9f59f1b4bbb704969bb7e06e_254x191.jpg"}], "title": "A light switch for neurons", "take_action": [], "comments": 3950, "more_resources": [{"status": "approved", "start_at": null, "headline": "What if drugs were machines?", "link_url": "http://ideas.ted.com/2014/02/21/red-light-brain-probes-and-the-future-an-enlightening-conversation/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Read a conversation between Ed Boyden and futurist and venture capitalist Juan Enriquez on the brain\'s weird future with technology and medicine."}], "hero": "https://pe.tedcdn.com/images/ted/29fe2e14406be124c2d750736328ef617a156e10_800x600.jpg", "description": "Ed Boyden shows how, by inserting genes for light-sensitive proteins into brain cells, he can selectively activate or de-activate specific neurons with fiber-optic implants. With this unprecedented level of control, he\'s managed to cure mice of analogs of PTSD and certain forms of blindness. On the horizon: neural prosthetics. Session host Juan Enriquez leads a brief post-talk Q&A.", "tags": ["brain", "neuroscience", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sh", "endonym": "Srpskohrvatski", "isRtl": false, "ianaCode": "sh", "languageName": "Serbo-Croatian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/EdBoyden_2011-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/EdBoyden_2011-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/EdBoyden_2011-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/EdBoyden_2011-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/EdBoyden_2011-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/EdBoyden_2011-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/EdBoyden_2011-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/EdBoyden_2011-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/EdBoyden_2011-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/EdBoyden_2011-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/EdBoyden_2011-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/EdBoyden_2011-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/EdBoyden_2011-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/EdBoyden_2011-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/EdBoyden_2011-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/EdBoyden_2011-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/EdBoyden_2011-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/EdBoyden_2011-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/EdBoyden_2011-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/EdBoyden_2011-low-sv.mp4"}, "sh": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p-sh.mp4", "name": "Serbo-Croatian", "low": "https://download.ted.com/talks/EdBoyden_2011-low-sh.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/EdBoyden_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/EdBoyden_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/EdBoyden_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1146, "audioDownload": "https://download.ted.com/talks/EdBoyden_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 614047, "hero": "https://pe.tedcdn.com/images/ted/51f652b9ff6854867d1d7abb2683caf1d8dd22fb_800x600.jpg", "title": "Re-engineering the brain", "id": 1000, "speaker": "Gero Miesenboeck", "duration": 1054, "slug": "gero_miesenboeck"}, {"viewed_count": 1948206, "hero": "https://pe.tedcdn.com/images/ted/138921_800x600.jpg", "title": "The neurons that shaped civilization", "id": 724, "speaker": "Vilayanur Ramachandran", "duration": 463, "slug": "vs_ramachandran_the_neurons_that_shaped_civilization"}, {"viewed_count": 1186940, "hero": "https://pe.tedcdn.com/images/ted/121608_800x600.jpg", "title": "A brain in a supercomputer", "id": 659, "speaker": "Henry Markram", "duration": 890, "slug": "henry_markram_supercomputing_the_brain_s_secrets"}, {"viewed_count": 894621, "hero": "https://pe.tedcdn.com/images/ted/9d94c91442c28bfda8fc51070e63397867e1f787_800x600.jpg", "title": "How to look inside the brain", "id": 1450, "speaker": "Carl Schoonover", "duration": 292, "slug": "carl_schoonover_how_to_look_inside_the_brain"}, {"viewed_count": 1207708, "hero": "https://pe.tedcdn.com/images/ted/b6441a3ec7fe888555c728e011b6bd3650544fb8_800x600.jpg", "title": "How your brain tells you where you are", "id": 1349, "speaker": "Neil Burgess", "duration": 543, "slug": "neil_burgess_how_your_brain_tells_you_where_you_are"}, {"viewed_count": 2179544, "hero": "https://pe.tedcdn.com/images/ted/0fc9a0c0e51919aa2f0efe825dbea9d4480baaf7_2880x1620.jpg", "title": "The brain may be able to repair itself -- with help", "id": 2429, "speaker": "Jocelyne Bloch", "duration": 694, "slug": "jocelyne_bloch_the_brain_may_be_able_to_repair_itself_with_help"}], "recorded_at": "2011-03-03T00:00:00.000+00:00", "slug": "ed_boyden", "speaker_name": "Ed Boyden", "viewed_count": 936784, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2011", "name": "Ed Boyden: A light switch for neurons"}'
+p537
+sS'keywords'
+p538
+(lp539
+Vbrain
+p540
+aVneuroscience
+p541
+aVscience
+p542
+aVtechnology
+p543
+asS'datecrawled'
+p544
+g532
+(S'\x07\xe1\n\x17\x01\x03\x17\n\x1a\xa0'
+tRp545
+sS'id'
+p546
+I1146
+ss.

@@ -1,0 +1,808 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe grew up
+p5
+aVinteracting with the physical objects around us.
+p6
+aVThere are an enormous number of them that we use every day.
+p7
+aVUnlike most of our computing devices,
+p8
+aVthese objects are much more fun to use.
+p9
+aVWhen you talk about objects,
+p10
+aVone other thing automatically comes attached to that thing,
+p11
+aVand that is gestures:
+p12
+aVhow we manipulate these objects,
+p13
+aVhow we use these objects in everyday life.
+p14
+aVWe use gestures not only to interact with these objects,
+p15
+aVbut we also use them to interact with each other.
+p16
+aVA gesture of "Namaste!", maybe, to respect someone, or maybe,
+p17
+aVin India I don't need to teach a kid that this means
+p18
+aV"four runs" in cricket.
+p19
+aVIt comes as a part of our everyday learning.
+p20
+aa(lp21
+VSo, I am very interested, from the beginning,
+p22
+aVhow our knowledge about everyday objects and gestures,
+p23
+aVand how we use these objects,
+p24
+aVcan be leveraged to our interactions with the digital world.
+p25
+aVRather than using a keyboard and mouse,
+p26
+aVwhy can I not use my computer
+p27
+aVin the same way that I interact in the physical world?
+p28
+aa(lp29
+VSo, I started this exploration around eight years back,
+p30
+aVand it literally started with a mouse on my desk.
+p31
+aVRather than using it for my computer, I actually opened it.
+p32
+aVMost of you might be aware that, in those days,
+p33
+aVthe mouse used to come with a ball inside,
+p34
+aVand there were two rollers
+p35
+aVthat actually guide the computer where the ball is moving,
+p36
+aVand, accordingly, where the mouse is moving.
+p37
+aVSo, I was interested in these two rollers,
+p38
+aVand I actually wanted more, so I borrowed another mouse from a friend \u2014
+p39
+aVnever returned to him \u2014
+p40
+aVand I now had four rollers.
+p41
+aVInterestingly, what I did with these rollers is,
+p42
+aVbasically, I took them off of these mouses and then put them in one line.
+p43
+aVIt had some strings and pulleys and some springs.
+p44
+aVWhat I got is basically a gesture-interface device
+p45
+aVthat actually acts as a motion-sensing device
+p46
+aVmade for two dollars.
+p47
+aVSo, here, whatever movement I do in my physical world
+p48
+aVis actually replicated inside the digital world
+p49
+aVjust using this small device that I made, around eight years back,
+p50
+aVin 2000.
+p51
+aa(lp52
+VBecause I was interested in integrating these two worlds,
+p53
+aVI thought of sticky notes.
+p54
+aVI thought, "Why can I not connect
+p55
+aVthe normal interface of a physical sticky note
+p56
+aVto the digital world?"
+p57
+aVA message written on a sticky note to my mom,
+p58
+aVon paper,
+p59
+aVcan come to an SMS,
+p60
+aVor maybe a meeting reminder
+p61
+aVautomatically syncs with my digital calendar \u2014
+p62
+aVa to-do list that automatically syncs with you.
+p63
+aVBut you can also search in the digital world,
+p64
+aVor maybe you can write a query, saying,
+p65
+aV"What is Dr. Smith's address?"
+p66
+aVand this small system actually prints it out \u2014
+p67
+aVso it actually acts like a paper input-output system,
+p68
+aVjust made out of paper.
+p69
+aa(lp70
+VIn another exploration,
+p71
+aVI thought of making a pen that can draw in three dimensions.
+p72
+aVSo, I implemented this pen that can help designers and architects
+p73
+aVnot only think in three dimensions,
+p74
+aVbut they can actually draw,
+p75
+aVso that it's more intuitive to use that way.
+p76
+aa(lp77
+VThen I thought, "Why not make a Google Map,
+p78
+aVbut in the physical world?"
+p79
+aVRather than typing a keyword to find something,
+p80
+aVI put my objects on top of it.
+p81
+aVIf I put a boarding pass, it will show me where the flight gate is.
+p82
+aVA coffee cup will show where you can find more coffee,
+p83
+aVor where you can trash the cup.
+p84
+aa(lp85
+VSo, these were some of the earlier explorations I did
+p86
+aVbecause the goal was to connect these two worlds seamlessly.
+p87
+aVAmong all these experiments,
+p88
+aVthere was one thing in common:
+p89
+aVI was trying to bring a part of the physical world
+p90
+aVto the digital world.
+p91
+aVI was taking some part of the objects,
+p92
+aVor any of the intuitiveness of real life,
+p93
+aVand bringing them to the digital world,
+p94
+aVbecause the goal was to make our computing interfaces more intuitive.
+p95
+aa(lp96
+VBut then I realized that we humans are not actually interested in computing.
+p97
+aVWhat we are interested in is information.
+p98
+aVWe want to know about things.
+p99
+aVWe want to know about dynamic things going around.
+p100
+aa(lp101
+VSo I thought, around last year \u2014 in the beginning of the last year \u2014
+p102
+aVI started thinking, "Why can I not take this approach in the reverse way?"
+p103
+aVMaybe, "How about I take my digital world
+p104
+aVand paint the physical world with that digital information?"
+p105
+aVBecause pixels are actually, right now, confined in these rectangular devices
+p106
+aVthat fit in our pockets.
+p107
+aVWhy can I not remove this confine
+p108
+aVand take that to my everyday objects, everyday life
+p109
+aVso that I don't need to learn the new language
+p110
+aVfor interacting with those pixels?
+p111
+aa(lp112
+VSo, in order to realize this dream,
+p113
+aVI actually thought of putting a big-size projector on my head.
+p114
+aVI think that's why this is called a head-mounted projector, isn't it?
+p115
+aVI took it very literally,
+p116
+aVand took my bike helmet,
+p117
+aVput a little cut over there so that the projector actually fits nicely.
+p118
+aVSo now, what I can do \u2014
+p119
+aVI can augment the world around me with this digital information.
+p120
+aa(lp121
+VBut later,
+p122
+aVI realized that I actually wanted to interact
+p123
+aVwith those digital pixels, also.
+p124
+aVSo I put a small camera over there that acts as a digital eye.
+p125
+aVLater, we moved to a much better,
+p126
+aVconsumer-oriented pendant version of that,
+p127
+aVthat many of you now know as the SixthSense device.
+p128
+aa(lp129
+VBut the most interesting thing about this particular technology
+p130
+aVis that you can carry your digital world with you
+p131
+aVwherever you go.
+p132
+aVYou can start using any surface, any wall around you,
+p133
+aVas an interface.
+p134
+aVThe camera is actually tracking all your gestures.
+p135
+aVWhatever you're doing with your hands,
+p136
+aVit's understanding that gesture.
+p137
+aVAnd, actually, if you see, there are some color markers
+p138
+aVthat in the beginning version we are using with it.
+p139
+aVYou can start painting on any wall.
+p140
+aVYou stop by a wall, and start painting on that wall.
+p141
+aVBut we are not only tracking one finger, here.
+p142
+aVWe are giving you the freedom of using all of both of your hands,
+p143
+aVso you can actually use both of your hands to zoom into or zoom out
+p144
+aVof a map just by pinching all present.
+p145
+aVThe camera is actually doing \u2014 just, getting all the images \u2014
+p146
+aVis doing the edge recognition and also the color recognition
+p147
+aVand so many other small algorithms are going on inside.
+p148
+aVSo, technically, it's a little bit complex,
+p149
+aVbut it gives you an output which is more intuitive to use, in some sense.
+p150
+aa(lp151
+VBut I'm more excited that you can actually take it outside.
+p152
+aVRather than getting your camera out of your pocket,
+p153
+aVyou can just do the gesture of taking a photo,
+p154
+aVand it takes a photo for you.
+p155
+aa(lp156
+V(Applause)
+p157
+aa(lp158
+VThank you.
+p159
+aVAnd later I can find a wall, anywhere,
+p160
+aVand start browsing those photos
+p161
+aVor maybe, "OK, I want to modify this photo a little bit
+p162
+aVand send it as an email to a friend."
+p163
+aVSo, we are looking for an era
+p164
+aVwhere computing will actually merge with the physical world.
+p165
+aVAnd, of course, if you don't have any surface,
+p166
+aVyou can start using your palm for simple operations.
+p167
+aVHere, I'm dialing a phone number just using my hand.
+p168
+aVThe camera is actually not only understanding your hand movements,
+p169
+aVbut, interestingly,
+p170
+aVis also able to understand what objects you are holding in your hand.
+p171
+aa(lp172
+VFor example, in this case,
+p173
+aVthe book cover is matched
+p174
+aVwith so many thousands, or maybe millions of books online,
+p175
+aVand checking out which book it is.
+p176
+aVOnce it has that information,
+p177
+aVit finds out more reviews about that,
+p178
+aVor maybe New York Times has a sound overview on that,
+p179
+aVso you can actually hear, on a physical book,
+p180
+aVa review as sound.
+p181
+aa(lp182
+V(Video) Famous talk at Harvard University \u2014
+p183
+aa(lp184
+VThis was Obama's visit last week to MIT.
+p185
+aa(lp186
+V(Video) And particularly I want to thank two outstanding MIT \u2014
+p187
+aa(lp188
+VPranav Mistry: So, I was seeing the live [video] of his talk,
+p189
+aVoutside, on just a newspaper.
+p190
+aVYour newspaper will show you live weather information
+p191
+aVrather than having it updated.
+p192
+aVYou have to check your computer in order to do that, right?
+p193
+aa(lp194
+V(Applause)
+p195
+aa(lp196
+VWhen I'm going back, I can just use my boarding pass
+p197
+aVto check how much my flight has been delayed,
+p198
+aVbecause at that particular time,
+p199
+aVI'm not feeling like opening my iPhone,
+p200
+aVand checking out a particular icon.
+p201
+aVAnd I think this technology will not only change the way \u2014
+p202
+aa(lp203
+V(Laughter)
+p204
+aa(lp205
+VYes.
+p206
+aVIt will change the way we interact with people, also,
+p207
+aVnot only the physical world.
+p208
+aVThe fun part is, I'm going to the Boston metro,
+p209
+aVand playing a pong game inside the train on the ground, right?
+p210
+aa(lp211
+V(Laughter)
+p212
+aa(lp213
+VAnd I think the imagination is the only limit
+p214
+aVof what you can think of
+p215
+aVwhen this kind of technology merges with real life.
+p216
+aa(lp217
+VBut many of you argue, actually,
+p218
+aVthat all of our work is not only about physical objects.
+p219
+aVWe actually do lots of accounting and paper editing
+p220
+aVand all those kinds of things; what about that?
+p221
+aVAnd many of you are excited about the next-generation tablet computers
+p222
+aVto come out in the market.
+p223
+aa(lp224
+VSo, rather than waiting for that,
+p225
+aVI actually made my own, just using a piece of paper.
+p226
+aVSo, what I did here is remove the camera \u2014
+p227
+aVAll the webcam cameras have a microphone inside the camera.
+p228
+aVI removed the microphone from that,
+p229
+aVand then just pinched that \u2014
+p230
+aVlike I just made a clip out of the microphone \u2014
+p231
+aVand clipped that to a piece of paper, any paper that you found around.
+p232
+aVSo now the sound of the touch
+p233
+aVis getting me when exactly I'm touching the paper.
+p234
+aVBut the camera is actually tracking where my fingers are moving.
+p235
+aa(lp236
+VYou can of course watch movies.
+p237
+aa(lp238
+V(Video) Good afternoon. My name is Russell,
+p239
+aVand I am a Wilderness Explorer in Tribe 54."
+p240
+aa(lp241
+VPM: And you can of course play games.
+p242
+aa(lp243
+V(Car engine)
+p244
+aa(lp245
+VHere, the camera is actually understanding how you're holding the paper
+p246
+aVand playing a car-racing game.
+p247
+aa(lp248
+V(Applause)
+p249
+aa(lp250
+VMany of you already must have thought, OK, you can browse.
+p251
+aVYeah. Of course you can browse to any websites
+p252
+aVor you can do all sorts of computing on a piece of paper
+p253
+aVwherever you need it.
+p254
+aVSo, more interestingly,
+p255
+aVI'm interested in how we can take that in a more dynamic way.
+p256
+aVWhen I come back to my desk, I can just pinch that information
+p257
+aVback to my desktop
+p258
+aVso I can use my full-size computer.
+p259
+aa(lp260
+V(Applause)
+p261
+aa(lp262
+VAnd why only computers? We can just play with papers.
+p263
+aVPaper world is interesting to play with.
+p264
+aVHere, I'm taking a part of a document,
+p265
+aVand putting over here a second part from a second place,
+p266
+aVand I'm actually modifying the information that I have over there.
+p267
+aVYeah. And I say, "OK, this looks nice, let me print it out, that thing."
+p268
+aVSo I now have a print-out of that thing.
+p269
+aVSo the workflow is more intuitive,
+p270
+aVthe way we used to do it maybe 20 years back,
+p271
+aVrather than now switching between these two worlds.
+p272
+aa(lp273
+VSo, as a last thought,
+p274
+aVI think that integrating information to everyday objects
+p275
+aVwill not only help us to get rid of the digital divide,
+p276
+aVthe gap between these two worlds,
+p277
+aVbut will also help us, in some way,
+p278
+aVto stay human,
+p279
+aVto be more connected to our physical world.
+p280
+aVAnd it will actually help us not end up being machines
+p281
+aVsitting in front of other machines.
+p282
+aa(lp283
+VThat's all. Thank you.
+p284
+aa(lp285
+V(Applause)
+p286
+aa(lp287
+VThank you.
+p288
+aa(lp289
+V(Applause)
+p290
+aa(lp291
+VChris Anderson: So, Pranav, first of all, you're a genius.
+p292
+aVThis is incredible, really.
+p293
+aVWhat are you doing with this? Is there a company being planned?
+p294
+aVOr is this research forever, or what?
+p295
+aa(lp296
+VPranav Mistry: So, there are lots of companies,
+p297
+aVsponsor companies of Media Lab interested in taking this ahead
+p298
+aVin one or another way.
+p299
+aVCompanies like mobile-phone operators
+p300
+aVwant to take this in a different way than the NGOs in India,
+p301
+aVthinking, "Why can we only have 'Sixth Sense'?
+p302
+aVWe should have a 'Fifth Sense' for missing-sense people who cannot speak.
+p303
+aVThis technology can be used for them to speak out in a different way
+p304
+aVmaybe a speaker system."
+p305
+aa(lp306
+VCA: What are your own plans? Are you staying at MIT,
+p307
+aVor are you going to do something with this?
+p308
+aa(lp309
+VPM: I'm trying to make this more available to people
+p310
+aVso that anyone can develop their own SixthSense device,
+p311
+aVbecause the hardware is actually not that hard to manufacture
+p312
+aVor hard to make your own.
+p313
+aVWe will provide all the open source software for them,
+p314
+aVmaybe starting next month.
+p315
+aa(lp316
+VCA: Open source? Wow.
+p317
+aa(lp318
+V(Applause)
+p319
+aa(lp320
+VCA: Are you going to come back to India with some of this, at some point?
+p321
+aa(lp322
+VPM: Yeah. Yes, yes, of course.
+p323
+aa(lp324
+VCA: What are your plans? MIT? India?
+p325
+aVHow are you going to split your time going forward?
+p326
+aa(lp327
+VPM: There is a lot of energy here. Lots of learning.
+p328
+aVAll of this work that you have seen is all about my learning in India.
+p329
+aVAnd now, if you see, it's more about the cost-effectiveness:
+p330
+aVthis system costs you $300
+p331
+aVcompared to the $20,000 surface tables, or anything like that.
+p332
+aVOr maybe even the $2 mouse gesture system at that time was costing around $5,000?
+p333
+aVI showed that, at a conference, to President Abdul Kalam, at that time,
+p334
+aVand then he said, "OK, we should use this in Bhabha Atomic Research Centre
+p335
+aVfor some use of that."
+p336
+aVSo I'm excited about how I can bring the technology to the masses
+p337
+aVrather than just keeping that technology in the lab environment.
+p338
+aa(lp339
+V(Applause)
+p340
+aa(lp341
+VCA: Based on the people we've seen at TED,
+p342
+aVI would say you're truly one of the two or three
+p343
+aVbest inventors in the world right now.
+p344
+aVIt's an honor to have you at TED.
+p345
+aVThank you so much.
+p346
+aVThat's fantastic.
+p347
+aa(lp348
+V(Applause)
+p349
+aasS'transcript_micsec'
+p350
+(lp351
+I11000
+aI55000
+aI77000
+aI141000
+aI181000
+aI196000
+aI213000
+aI240000
+aI252000
+aI285000
+aI307000
+aI323000
+aI380000
+aI391000
+aI395000
+aI431000
+aI452000
+aI454000
+aI458000
+aI461000
+aI475000
+aI480000
+aI494000
+aI495000
+aI508000
+aI509000
+aI515000
+aI531000
+aI564000
+aI567000
+aI573000
+aI576000
+aI579000
+aI584000
+aI588000
+aI611000
+aI613000
+aI646000
+aI674000
+aI677000
+aI691000
+aI692000
+aI695000
+aI707000
+aI728000
+aI733000
+aI748000
+aI750000
+aI755000
+aI758000
+aI760000
+aI764000
+aI802000
+aI806000
+aI817000
+asS'talk_meta'
+p352
+(dp353
+S'ratings'
+p354
+(dp355
+S'ingenious'
+p356
+I4748
+sS'beautiful'
+p357
+I762
+sS'inspiring'
+p358
+I4706
+sS'ok'
+p359
+I347
+sS'fascinating'
+p360
+I4418
+sS'funny'
+p361
+I167
+sS'total_count'
+p362
+I27131
+sS'persuasive'
+p363
+I535
+sS'longwinded'
+p364
+I85
+sS'informative'
+p365
+I1914
+sS'jaw-dropping'
+p366
+I8419
+sS'obnoxious'
+p367
+I108
+sS'confusing'
+p368
+I84
+sS'courageous'
+p369
+I666
+sS'unconvincing'
+p370
+I172
+ssS'author'
+p371
+VPranav_Mistry;
+p372
+sS'url'
+p373
+S'https://www.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology'
+p374
+sS'vidlen'
+p375
+I830
+sS'totalviews'
+p376
+I16168044
+sS'title'
+p377
+VThe thrilling potential of SixthSense technology
+p378
+sS'downloadlink'
+p379
+Vhttps://download.ted.com/talks/PranavMistry_2009I.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p380
+sS'datepublished'
+p381
+cdatetime
+datetime
+p382
+(S'\x07\xd9\x0b\x0f\x14\x00\x00\x00\x00\x00'
+tRp383
+sS'datefilmed'
+p384
+g382
+(S'\x07\xd9\x0b\x0f\x14\x00\x00\x00\x00\x00'
+tRp385
+sS'alldata_JSON'
+p386
+S'{"viewed_count": 16168044, "speakers": [{"description": "Director of research, Samsung Research America", "firstname": "Pranav", "title": "", "lastname": "Mistry", "middleinitial": "", "whylisten": "<p>When Pranav Mistry was a PhD student in the Fluid Interfaces Group at MIT&#39;s Media Lab, he worked with lab director Pattie Maes to create some of the most entertaining and thought-provoking interfaces the world had ever seen. And not just computer interfaces, mind you -- these are ways to help the digital and the actual worlds interface. Imagine: intelligent sticky notes, <a href=\\"http://www.pranavmistry.com/projects/quickies/\\" target=\\"_blank\\">Quickies</a>, that can be searched and can send reminders; a <a href=\\"http://ambient.media.mit.edu/projects.php?action=details&amp;id=54\\" target=\\"_blank\\">pen</a>  that draws in 3D; and <a href=\\"http://www.pranavmistry.com/projects/tapuma/\\" target=\\"_blank\\">TaPuMa</a>, a tangible public map that can act as Google of physical world. And of course the legendary <a href=\\"http://www.pranavmistry.com/projects/sixthsense/\\" target=\\"_blank\\">SixthSense</a>, which is now <a href=\\"https://code.google.com/p/sixthsense/\\" target=\\"_blank\\">open sourced</a> </p><p>Before his studies at MIT, he worked with Microsoft as a UX  researcher; he&#39;s a graduate of IIT. Now, as director of research at <a href=\\"http://www.sisa.samsung.com/\\" target=\\"_blank\\">Samsung Research America</a>, Mistry heads the Think Tank Team, an interdisciplinary group of researchers that hunts for new ways to mix digital informational with real-world  interactions. As an example, Mistry launched the company&#39;s smartwatch, the <a href=\\"http://www.bgr.in/manufacturers/samsung/pranav-mistry-is-the-indian-brain-behind-samsungs-galaxy-gear-smartwatch/\\" target=\\"_blank\\">Galaxy Gear</a>, in 2013. </p>", "slug": "pranav_mistry", "whotheyare": "As an MIT grad student, Pranav Mistry invented SixthSense, a wearable device that enables new interactions between the real world and the world of data.", "whatotherssay": "", "id": 417, "photo_url": "https://pe.tedcdn.com/images/ted/76651_254x191.jpg"}], "current_talk": 685, "description": "At TEDIndia, Pranav Mistry demos several tools that help the physical world interact with the world of data -- including a deep look at his SixthSense device and a new, paradigm-shifting paper \\"laptop.\\" In an onstage Q&A, Mistry says he\'ll open-source the software behind SixthSense, to open its possibilities to all.", "language": "en", "url": "https://www.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97118950}, "podcast-low-en": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19048803}, "podcast-high": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97497208}, "180k": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18936401}, "64k": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6817995}, "1500k": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 152111235}, "450k": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46907433}, "podcast-regular": {"uri": "https://download.ted.com/talks/PranavMistry_2009I.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47175908}, "950k": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 96868052}, "audio-podcast": {"uri": "https://download.ted.com/talks/PranavMistry_2009I.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8675684}, "podcast-light": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6922824}, "320k": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33450198}, "600k": {"uri": "https://download.ted.com/talks/PranavMistry_2009I-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62739212}}}, "comments": {"count": 1329, "id": 563, "talk_id": 685}, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology", "threadId": 563, "talks": [{"event": "TEDIndia 2009", "player_talks": [{"event": "TEDIndia 2009", "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology", "filmed": 1257379200, "targeting": {"event": "TEDIndia 2009", "tag": "demo,design,open-source,technology", "id": 685, "talk": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "The thrilling potential of SixthSense technology", "postAdDuration": "0.83", "published": 1258333200, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg?quality=89&w=600", "name": "Pranav Mistry: The thrilling potential of SixthSense technology", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "gu", "endonym": "\\u0a97\\u0ac1\\u0a9c\\u0ab0\\u0abe\\u0aa4\\u0ac0", "isRtl": false, "ianaCode": "gu", "languageName": "Gujarati"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "is", "endonym": "\\u00cdslenska", "isRtl": false, "ianaCode": "is", "languageName": "Icelandic"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kn", "endonym": "\\u0c95\\u0ca8\\u0ccd\\u0ca8\\u0ca1", "isRtl": false, "ianaCode": "kn", "languageName": "Kannada"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "bo", "endonym": "\\u0f56\\u0f7c\\u0f51\\u0f0b\\u0f66\\u0f90\\u0f51\\u0f0b", "isRtl": false, "ianaCode": "bo", "languageName": "Tibetan"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["demo", "design", "open-source", "technology"], "speaker": "Pranav Mistry", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 830, "id": 685, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/PranavMistry_2009I-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDIndia 2009", "tag": "demo,design,open-source,technology", "id": 685, "talk": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology", "year": "2009"}, "metadata": "https://hls.ted.com/talks/685.json", "stream": "https://hls.ted.com/talks/685.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDIndia%2B2009%26id%3D685%26tag%3Ddemo%2Cdesign%2Copen-source%2Ctechnology%26talk%3Dpranav_mistry_the_thrilling_potential_of_sixthsense_technology%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg?q=50&w=15", "duration": 830, "id": 685, "ratings": [{"count": 8419, "id": 23, "name": "Jaw-dropping"}, {"count": 4748, "id": 9, "name": "Ingenious"}, {"count": 4418, "id": 22, "name": "Fascinating"}, {"count": 4706, "id": 10, "name": "Inspiring"}, {"count": 1914, "id": 8, "name": "Informative"}, {"count": 535, "id": 24, "name": "Persuasive"}, {"count": 666, "id": 3, "name": "Courageous"}, {"count": 762, "id": 1, "name": "Beautiful"}, {"count": 172, "id": 21, "name": "Unconvincing"}, {"count": 84, "id": 2, "name": "Confusing"}, {"count": 108, "id": 26, "name": "Obnoxious"}, {"count": 167, "id": 7, "name": "Funny"}, {"count": 85, "id": 11, "name": "Longwinded"}, {"count": 347, "id": 25, "name": "OK"}], "speakers": [{"description": "Director of research, Samsung Research America", "firstname": "Pranav", "title": "", "lastname": "Mistry", "middleinitial": "", "whylisten": "<p>When Pranav Mistry was a PhD student in the Fluid Interfaces Group at MIT&#39;s Media Lab, he worked with lab director Pattie Maes to create some of the most entertaining and thought-provoking interfaces the world had ever seen. And not just computer interfaces, mind you -- these are ways to help the digital and the actual worlds interface. Imagine: intelligent sticky notes, <a href=\\"http://www.pranavmistry.com/projects/quickies/\\" target=\\"_blank\\">Quickies</a>, that can be searched and can send reminders; a <a href=\\"http://ambient.media.mit.edu/projects.php?action=details&amp;id=54\\" target=\\"_blank\\">pen</a>  that draws in 3D; and <a href=\\"http://www.pranavmistry.com/projects/tapuma/\\" target=\\"_blank\\">TaPuMa</a>, a tangible public map that can act as Google of physical world. And of course the legendary <a href=\\"http://www.pranavmistry.com/projects/sixthsense/\\" target=\\"_blank\\">SixthSense</a>, which is now <a href=\\"https://code.google.com/p/sixthsense/\\" target=\\"_blank\\">open sourced</a> </p><p>Before his studies at MIT, he worked with Microsoft as a UX  researcher; he&#39;s a graduate of IIT. Now, as director of research at <a href=\\"http://www.sisa.samsung.com/\\" target=\\"_blank\\">Samsung Research America</a>, Mistry heads the Think Tank Team, an interdisciplinary group of researchers that hunts for new ways to mix digital informational with real-world  interactions. As an example, Mistry launched the company&#39;s smartwatch, the <a href=\\"http://www.bgr.in/manufacturers/samsung/pranav-mistry-is-the-indian-brain-behind-samsungs-galaxy-gear-smartwatch/\\" target=\\"_blank\\">Galaxy Gear</a>, in 2013. </p>", "slug": "pranav_mistry", "whotheyare": "As an MIT grad student, Pranav Mistry invented SixthSense, a wearable device that enables new interactions between the real world and the world of data.", "whatotherssay": "", "id": 417, "photo_url": "https://pe.tedcdn.com/images/ted/76651_254x191.jpg"}], "title": "The thrilling potential of SixthSense technology", "take_action": null, "comments": 563, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "description": "At TEDIndia, Pranav Mistry demos several tools that help the physical world interact with the world of data -- including a deep look at his SixthSense device and a new, paradigm-shifting paper \\"laptop.\\" In an onstage Q&A, Mistry says he\'ll open-source the software behind SixthSense, to open its possibilities to all.", "tags": ["demo", "design", "open-source", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "gu", "endonym": "\\u0a97\\u0ac1\\u0a9c\\u0ab0\\u0abe\\u0aa4\\u0ac0", "isRtl": false, "ianaCode": "gu", "languageName": "Gujarati"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "is", "endonym": "\\u00cdslenska", "isRtl": false, "ianaCode": "is", "languageName": "Icelandic"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kn", "endonym": "\\u0c95\\u0ca8\\u0ccd\\u0ca8\\u0ca1", "isRtl": false, "ianaCode": "kn", "languageName": "Kannada"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "bo", "endonym": "\\u0f56\\u0f7c\\u0f51\\u0f0b\\u0f66\\u0f90\\u0f51\\u0f0b", "isRtl": false, "ianaCode": "bo", "languageName": "Tibetan"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-el.mp4"}, "gu": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-gu.mp4", "name": "Gujarati", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-gu.mp4"}, "en": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-vi.mp4"}, "is": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-is.mp4", "name": "Icelandic", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-is.mp4"}, "it": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-cs.mp4"}, "az": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-az.mp4", "name": "Azerbaijani", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-az.mp4"}, "id": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-pl.mp4"}, "ta": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-ta.mp4", "name": "Tamil", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-ta.mp4"}, "fr": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-hi.mp4"}, "da": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-da.mp4"}, "ja": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-he.mp4"}, "mn": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-ko.mp4"}, "kn": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-kn.mp4", "name": "Kannada", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-kn.mp4"}, "mr": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-mr.mp4"}, "my": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/PranavMistry_2009I-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/PranavMistry_2009I-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/PranavMistry_2009I.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/PranavMistry_2009I-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 685, "audioDownload": "https://download.ted.com/talks/PranavMistry_2009I.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 9774409, "hero": "https://pe.tedcdn.com/images/ted/d98527eb9a28d694fd604228e328a91c0f0e58a8_1600x1200.jpg", "title": "Meet the SixthSense interaction", "id": 481, "speaker": "Pattie Maes + Pranav Mistry", "duration": 522, "slug": "pattie_maes_demos_the_sixth_sense"}, {"viewed_count": 1414085, "hero": "https://pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg", "title": "Shape-shifting tech will change work as we know it", "id": 2410, "speaker": "Sean Follmer", "duration": 562, "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it"}, {"viewed_count": 1779591, "hero": "https://pe.tedcdn.com/images/ted/6bfe8f02c232861849cf6bfe526840bc9de54851_2880x1620.jpg", "title": "Reach into the computer and grab a pixel", "id": 1781, "speaker": "Jinha Lee", "duration": 307, "slug": "jinha_lee_a_tool_that_lets_you_touch_pixels"}, {"viewed_count": 1036818, "hero": "https://pe.tedcdn.com/images/ted/7050fccc4b9b3515903a1fe304017edf282fb5f7_1600x1200.jpg", "title": "The best computer interface? Maybe ... your hands", "id": 1984, "speaker": "James Patten", "duration": 372, "slug": "james_patten_the_best_computer_interface_maybe_your_hands"}, {"viewed_count": 4541027, "hero": "https://pe.tedcdn.com/images/ted/2c78c5f87d19f51a0ff4d3e655cb815360bf8063_1600x1200.jpg", "title": "The radical promise of the multi-touch interface", "id": 65, "speaker": "Jeff Han", "duration": 527, "slug": "jeff_han_demos_his_breakthrough_touchscreen"}, {"viewed_count": 1516360, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}], "recorded_at": "2009-11-05T00:00:00.000+00:00", "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology", "speaker_name": "Pranav Mistry", "viewed_count": 16168044, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDIndia 2009", "name": "Pranav Mistry: The thrilling potential of SixthSense technology"}'
+p387
+sS'keywords'
+p388
+(lp389
+Vdemo
+p390
+aVdesign
+p391
+aVopen-source
+p392
+aVtechnology
+p393
+asS'datecrawled'
+p394
+g382
+(S'\x07\xe1\n\x17\x02\x195\x08\xd5\xff'
+tRp395
+sS'id'
+p396
+I685
+ss.

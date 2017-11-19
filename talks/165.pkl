@@ -1,0 +1,378 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, where are the robots?
+p5
+aVWe've been told for 40 years already that they're coming soon.
+p6
+aVVery soon they'll be doing everything for us.
+p7
+aVThey'll be cooking, cleaning, buying things, shopping, building. But they aren't here.
+p8
+aVMeanwhile, we have illegal immigrants doing all the work,
+p9
+aVbut we don't have any robots.
+p10
+aVSo what can we do about that? What can we say?
+p11
+aVSo I want to give a little bit of a different perspective
+p12
+aVof how we can perhaps look at these things in a little bit of a different way.
+p13
+aVAnd this is an x-ray picture
+p14
+aVof a real beetle, and a Swiss watch, back from '88. You look at that \u2014
+p15
+aVwhat was true then is certainly true today.
+p16
+aVWe can still make the pieces. We can make the right pieces.
+p17
+aVWe can make the circuitry of the right computational power,
+p18
+aVbut we can't actually put them together to make something
+p19
+aVthat will actually work and be as adaptive as these systems.
+p20
+aa(lp21
+VSo let's try to look at it from a different perspective.
+p22
+aVLet's summon the best designer, the mother of all designers.
+p23
+aVLet's see what evolution can do for us.
+p24
+aVSo we threw in \u2014 we created a primordial soup
+p25
+aVwith lots of pieces of robots \u2014 with bars, with motors, with neurons.
+p26
+aVPut them all together, and put all this under kind of natural selection,
+p27
+aVunder mutation, and rewarded things for how well they can move forward.
+p28
+aVA very simple task, and it's interesting to see what kind of things came out of that.
+p29
+aa(lp30
+VSo if you look, you can see a lot of different machines
+p31
+aVcome out of this. They all move around.
+p32
+aVThey all crawl in different ways, and you can see on the right,
+p33
+aVthat we actually made a couple of these things,
+p34
+aVand they work in reality. These are not very fantastic robots,
+p35
+aVbut they evolved to do exactly what we reward them for:
+p36
+aa(lp37
+Vfor moving forward. So that was all done in simulation,
+p38
+aVbut we can also do that on a real machine.
+p39
+aVHere's a physical robot that we actually
+p40
+aVhave a population of brains,
+p41
+aVcompeting, or evolving on the machine.
+p42
+aVIt's like a rodeo show. They all get a ride on the machine,
+p43
+aVand they get rewarded for how fast or how far
+p44
+aVthey can make the machine move forward.
+p45
+aVAnd you can see these robots are not ready
+p46
+aVto take over the world yet, but
+p47
+aVthey gradually learn how to move forward,
+p48
+aVand they do this autonomously.
+p49
+aa(lp50
+VSo in these two examples, we had basically
+p51
+aVmachines that learned how to walk in simulation,
+p52
+aVand also machines that learned how to walk in reality.
+p53
+aVBut I want to show you a different approach,
+p54
+aVand this is this robot over here, which has four legs.
+p55
+aVIt has eight motors, four on the knees and four on the hip.
+p56
+aVIt has also two tilt sensors that tell the machine
+p57
+aVwhich way it's tilting.
+p58
+aa(lp59
+VBut this machine doesn't know what it looks like.
+p60
+aVYou look at it and you see it has four legs,
+p61
+aVthe machine doesn't know if it's a snake, if it's a tree,
+p62
+aVit doesn't have any idea what it looks like,
+p63
+aVbut it's going to try to find that out.
+p64
+aVInitially, it does some random motion,
+p65
+aVand then it tries to figure out what it might look like.
+p66
+aVAnd you're seeing a lot of things passing through its minds,
+p67
+aVa lot of self-models that try to explain the relationship
+p68
+aVbetween actuation and sensing. It then tries to do
+p69
+aVa second action that creates the most disagreement
+p70
+aVamong predictions of these alternative models,
+p71
+aVlike a scientist in a lab. Then it does that
+p72
+aVand tries to explain that, and prune out its self-models.
+p73
+aa(lp74
+VThis is the last cycle, and you can see it's pretty much
+p75
+aVfigured out what its self looks like. And once it has a self-model,
+p76
+aVit can use that to derive a pattern of locomotion.
+p77
+aVSo what you're seeing here are a couple of machines \u2014
+p78
+aVa pattern of locomotion.
+p79
+aVWe were hoping that it wass going to have a kind of evil, spidery walk,
+p80
+aVbut instead it created this pretty lame way of moving forward.
+p81
+aa(lp82
+VBut when you look at that, you have to remember
+p83
+aVthat this machine did not do any physical trials on how to move forward,
+p84
+aVnor did it have a model of itself.
+p85
+aVIt kind of figured out what it looks like, and how to move forward,
+p86
+aVand then actually tried that out.
+p87
+aV(Applause)
+p88
+aa(lp89
+VSo, we'll move forward to a different idea.
+p90
+aVSo that was what happened when we had a couple of \u2014
+p91
+aVthat's what happened when you had a couple of \u2014 OK, OK, OK \u2014
+p92
+aV(Laughter)
+p93
+aV\u2014 they don't like each other. So
+p94
+aVthere's a different robot.
+p95
+aVThat's what happened when the robots actually
+p96
+aVare rewarded for doing something.
+p97
+aVWhat happens if you don't reward them for anything, you just throw them in?
+p98
+aa(lp99
+VSo we have these cubes, like the diagram showed here.
+p100
+aVThe cube can swivel, or flip on its side,
+p101
+aVand we just throw 1,000 of these cubes into a soup \u2014
+p102
+aVthis is in simulation \u2014and don't reward them for anything,
+p103
+aVwe just let them flip. We pump energy into this
+p104
+aVand see what happens in a couple of mutations.
+p105
+aVSo, initially nothing happens, they're just flipping around there.
+p106
+aVBut after a very short while, you can see these blue things
+p107
+aVon the right there begin to take over.
+p108
+aa(lp109
+VThey begin to self-replicate. So in absence of any reward,
+p110
+aVthe intrinsic reward is self-replication.
+p111
+aVAnd we've actually built a couple of these,
+p112
+aVand this is part of a larger robot made out of these cubes.
+p113
+aVIt's an accelerated view, where you can see the robot actually
+p114
+aVcarrying out some of its replication process.
+p115
+aVSo you're feeding it with more material \u2014 cubes in this case \u2014
+p116
+aVand more energy, and it can make another robot.
+p117
+aVSo of course, this is a very crude machine,
+p118
+aVbut we're working on a micro-scale version of these,
+p119
+aVand hopefully the cubes will be like a powder that you pour in.
+p120
+aa(lp121
+VOK, so what can we learn? These robots are of course
+p122
+aVnot very useful in themselves, but they might teach us something
+p123
+aVabout how we can build better robots,
+p124
+aVand perhaps how humans, animals, create self-models and learn.
+p125
+aVAnd one of the things that I think is important
+p126
+aVis that we have to get away from this idea
+p127
+aVof designing the machines manually,
+p128
+aVbut actually let them evolve and learn, like children,
+p129
+aVand perhaps that's the way we'll get there. Thank you.
+p130
+aV(Applause)
+p131
+aasS'transcript_micsec'
+p132
+(lp133
+I11000
+aI67000
+aI98000
+aI116000
+aI149000
+aI174000
+aI211000
+aI234000
+aI257000
+aI284000
+aI311000
+aI343000
+asS'talk_meta'
+p134
+(dp135
+S'ratings'
+p136
+(dp137
+S'ingenious'
+p138
+I297
+sS'funny'
+p139
+I33
+sS'inspiring'
+p140
+I173
+sS'ok'
+p141
+I60
+sS'fascinating'
+p142
+I448
+sS'total_count'
+p143
+I1615
+sS'persuasive'
+p144
+I20
+sS'longwinded'
+p145
+I25
+sS'informative'
+p146
+I278
+sS'beautiful'
+p147
+I31
+sS'jaw-dropping'
+p148
+I106
+sS'obnoxious'
+p149
+I11
+sS'confusing'
+p150
+I42
+sS'courageous'
+p151
+I27
+sS'unconvincing'
+p152
+I64
+ssS'author'
+p153
+VHod_Lipson;
+p154
+sS'url'
+p155
+S'https://www.ted.com/talks/hod_lipson_builds_self_aware_robots'
+p156
+sS'vidlen'
+p157
+I378
+sS'totalviews'
+p158
+I1215836
+sS'title'
+p159
+VBuilding "self-aware" robots
+p160
+sS'downloadlink'
+p161
+Vhttps://download.ted.com/talks/HodLipson_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p162
+sS'datepublished'
+p163
+cdatetime
+datetime
+p164
+(S'\x07\xd7\n\n\x169\x00\x00\x00\x00'
+tRp165
+sS'datefilmed'
+p166
+g164
+(S'\x07\xd7\n\n\x169\x00\x00\x00\x00'
+tRp167
+sS'alldata_JSON'
+p168
+S'{"viewed_count": 1215836, "speakers": [{"description": "Roboticist", "firstname": "Hod", "title": "", "lastname": "Lipson", "middleinitial": "", "whylisten": "<p>To say that Hod Lipson and <a href=\\"http://ccsl.mae.cornell.edu/\\" target=\\"_blank\\">his team at Cornell</a>  build robots is not completely accurate: They may simply set out a pile of virtual robot parts, devise some rules for assembly, and see what the parts build themselves into. They&#39;ve created robots that decide for themselves how they want to walk; <strong>robots that develop a sense of what they look like</strong>; even robots that can, through trial and error, construct other robots just like themselves. </p><p>Working across disciplines -- <strong>physics, computer science, math, biology and several flavors of engineer</strong> -- the team studies techniques for self-assembly and evolution that have great implications for fields such as micro-manufacturing -- allowing tiny pieces to assemble themselves at scales heretofore impossible -- and extreme custom manufacturing (in other words, <a href=\\"http://www.fabathome.org\\" target=\\"_blank\\">3-D printers</a>  for the home). </p><p>His lab&#39;s <a href=\\"http://ccsl.mae.cornell.edu/outreach/\\" target=\\"_blank\\">Outreach</a>  page is a funhouse of tools and instructions, including the amazing <a href=\\"http://ccsl.mae.cornell.edu/outreach/golemathome.htm\\" target=\\"_blank\\">Golem@Home</a>  -- a self-assembling virtual robot who lives in your screensaver. </p>", "slug": "hod_lipson", "whotheyare": "Hod Lipson works at the intersection of engineering and biology, studying robots and the way they \\"behave\\" and evolve. His work has exciting implications for design and manufacturing -- and serves as a window to understand our own behavior and evolution.", "whatotherssay": "", "id": 151, "photo_url": "https://pe.tedcdn.com/images/ted/18046_254x191.jpg"}], "current_talk": 165, "description": "Hod Lipson demonstrates a few of his cool little robots, which have the ability to learn, understand themselves and even self-replicate.", "language": "en", "url": "https://www.ted.com/talks/hod_lipson_builds_self_aware_robots", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/HodLipson_2007-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44053510}, "podcast-low-en": {"uri": "https://download.ted.com/talks/HodLipson_2007-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8775726}, "podcast-high": {"uri": "https://download.ted.com/talks/HodLipson_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43989206}, "180k": {"uri": "https://download.ted.com/talks/HodLipson_2007-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8523879}, "64k": {"uri": "https://download.ted.com/talks/HodLipson_2007-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3095840}, "1500k": {"uri": "https://download.ted.com/talks/HodLipson_2007-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68094170}, "450k": {"uri": "https://download.ted.com/talks/HodLipson_2007-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21404260}, "podcast-regular": {"uri": "https://download.ted.com/talks/HodLipson_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19696815}, "950k": {"uri": "https://download.ted.com/talks/HodLipson_2007-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44054321}, "podcast-light": {"uri": "https://download.ted.com/talks/HodLipson_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3104455}, "320k": {"uri": "https://download.ted.com/talks/HodLipson_2007-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15128128}, "600k": {"uri": "https://download.ted.com/talks/HodLipson_2007-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28797274}}}, "comments": {"count": 242, "id": 149, "talk_id": 165}, "slug": "hod_lipson_builds_self_aware_robots", "threadId": 149, "talks": [{"event": "TED2007", "player_talks": [{"event": "TED2007", "slug": "hod_lipson_builds_self_aware_robots", "filmed": 1173139200, "targeting": {"event": "TED2007", "tag": "AI,cognitive science,demo,design,evolution,robots,technology", "id": 165, "talk": "hod_lipson_builds_self_aware_robots", "year": "2007"}, "adDuration": "3.33", "external": null, "title": "Building \\"self-aware\\" robots", "postAdDuration": "0.83", "published": 1192071420, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/17631_480x360.jpg?quality=89&w=600", "name": "Hod Lipson: Building \\"self-aware\\" robots", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "cognitive science", "demo", "design", "evolution", "robots", "technology"], "speaker": "Hod Lipson", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 378, "id": 165, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/HodLipson_2007-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2007", "tag": "AI,cognitive science,demo,design,evolution,robots,technology", "id": 165, "talk": "hod_lipson_builds_self_aware_robots", "year": "2007"}, "metadata": "https://hls.ted.com/talks/165.json", "stream": "https://hls.ted.com/talks/165.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2007%26id%3D165%26tag%3DAI%2Ccognitive%2Bscience%2Cdemo%2Cdesign%2Cevolution%2Crobots%2Ctechnology%26talk%3Dhod_lipson_builds_self_aware_robots%26year%3D2007&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/hod_lipson_builds_self_aware_robots"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/17631_480x360.jpg?q=50&w=15", "duration": 378, "id": 165, "ratings": [{"count": 278, "id": 8, "name": "Informative"}, {"count": 173, "id": 10, "name": "Inspiring"}, {"count": 448, "id": 22, "name": "Fascinating"}, {"count": 33, "id": 7, "name": "Funny"}, {"count": 64, "id": 21, "name": "Unconvincing"}, {"count": 297, "id": 9, "name": "Ingenious"}, {"count": 42, "id": 2, "name": "Confusing"}, {"count": 27, "id": 3, "name": "Courageous"}, {"count": 25, "id": 11, "name": "Longwinded"}, {"count": 31, "id": 1, "name": "Beautiful"}, {"count": 106, "id": 23, "name": "Jaw-dropping"}, {"count": 60, "id": 25, "name": "OK"}, {"count": 20, "id": 24, "name": "Persuasive"}, {"count": 11, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Roboticist", "firstname": "Hod", "title": "", "lastname": "Lipson", "middleinitial": "", "whylisten": "<p>To say that Hod Lipson and <a href=\\"http://ccsl.mae.cornell.edu/\\" target=\\"_blank\\">his team at Cornell</a>  build robots is not completely accurate: They may simply set out a pile of virtual robot parts, devise some rules for assembly, and see what the parts build themselves into. They&#39;ve created robots that decide for themselves how they want to walk; <strong>robots that develop a sense of what they look like</strong>; even robots that can, through trial and error, construct other robots just like themselves. </p><p>Working across disciplines -- <strong>physics, computer science, math, biology and several flavors of engineer</strong> -- the team studies techniques for self-assembly and evolution that have great implications for fields such as micro-manufacturing -- allowing tiny pieces to assemble themselves at scales heretofore impossible -- and extreme custom manufacturing (in other words, <a href=\\"http://www.fabathome.org\\" target=\\"_blank\\">3-D printers</a>  for the home). </p><p>His lab&#39;s <a href=\\"http://ccsl.mae.cornell.edu/outreach/\\" target=\\"_blank\\">Outreach</a>  page is a funhouse of tools and instructions, including the amazing <a href=\\"http://ccsl.mae.cornell.edu/outreach/golemathome.htm\\" target=\\"_blank\\">Golem@Home</a>  -- a self-assembling virtual robot who lives in your screensaver. </p>", "slug": "hod_lipson", "whotheyare": "Hod Lipson works at the intersection of engineering and biology, studying robots and the way they \\"behave\\" and evolve. His work has exciting implications for design and manufacturing -- and serves as a window to understand our own behavior and evolution.", "whatotherssay": "", "id": 151, "photo_url": "https://pe.tedcdn.com/images/ted/18046_254x191.jpg"}], "title": "Building \\"self-aware\\" robots", "take_action": null, "comments": 149, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/17631_480x360.jpg", "description": "Hod Lipson demonstrates a few of his cool little robots, which have the ability to learn, understand themselves and even self-replicate.", "tags": ["AI", "cognitive science", "demo", "design", "evolution", "robots", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/HodLipson_2007-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/HodLipson_2007-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/HodLipson_2007-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/HodLipson_2007-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/HodLipson_2007-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/HodLipson_2007-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/HodLipson_2007-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/HodLipson_2007-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/HodLipson_2007-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/HodLipson_2007-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/HodLipson_2007-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/HodLipson_2007-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/HodLipson_2007-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/HodLipson_2007-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/HodLipson_2007-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/HodLipson_2007-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/HodLipson_2007-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/HodLipson_2007-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/HodLipson_2007-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/HodLipson_2007-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/HodLipson_2007-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/HodLipson_2007-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/HodLipson_2007-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/HodLipson_2007-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/HodLipson_2007-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/HodLipson_2007-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/HodLipson_2007-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/HodLipson_2007-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/HodLipson_2007-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/HodLipson_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/HodLipson_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/HodLipson_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 165, "audioDownload": null}, "related_talks": [{"viewed_count": 710438, "hero": "https://pe.tedcdn.com/images/ted/197_480x360.jpg", "title": "The sticky wonder of gecko feet", "id": 195, "speaker": "Robert Full", "duration": 1164, "slug": "robert_full_on_animal_movement"}, {"viewed_count": 1120011, "hero": "https://pe.tedcdn.com/images/ted/0aa66122bf487af64e943f4e4c3810fdd4d13c2a_1600x1200.jpg", "title": "Spore, birth of a game", "id": 146, "speaker": "Will Wright", "duration": 997, "slug": "will_wright_makes_toys_that_make_worlds"}, {"viewed_count": 1801268, "hero": "https://pe.tedcdn.com/images/ted/13343_480x360.jpg", "title": "Visualizing the wonder of a living cell", "id": 147, "speaker": "David Bolinsky", "duration": 585, "slug": "david_bolinsky_animates_a_cell"}, {"viewed_count": 1154003, "hero": "https://pe.tedcdn.com/images/ted/3f614c0a546467f66777c847998104c6f185fe99_2880x1620.jpg", "title": "3 principles for creating safer AI", "id": 2781, "speaker": "Stuart Russell", "duration": 1055, "slug": "stuart_russell_how_ai_might_make_us_better_people"}, {"viewed_count": 1623594, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}, {"viewed_count": 604248, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}], "recorded_at": "2007-03-06T00:00:00.000+00:00", "slug": "hod_lipson_builds_self_aware_robots", "speaker_name": "Hod Lipson", "viewed_count": 1215836, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2007", "name": "Hod Lipson: Building \\"self-aware\\" robots"}'
+p169
+sS'keywords'
+p170
+(lp171
+VAI
+p172
+aVcognitive science
+p173
+aVdemo
+p174
+aVdesign
+p175
+aVevolution
+p176
+aVrobots
+p177
+aVtechnology
+p178
+asS'datecrawled'
+p179
+g164
+(S'\x07\xe1\n\x17\x0347\x0b\xfbU'
+tRp180
+sS'id'
+p181
+I165
+ss.

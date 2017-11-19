@@ -1,0 +1,696 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe have historical records that allow us to know how the ancient Greeks dressed,
+p5
+aVhow they lived,
+p6
+aVhow they fought ...
+p7
+aVbut how did they think?
+p8
+aa(lp9
+VOne natural idea is that the deepest aspects of human thought \u2014
+p10
+aVour ability to imagine,
+p11
+aVto be conscious,
+p12
+aVto dream \u2014
+p13
+aVhave always been the same.
+p14
+aVAnother possibility
+p15
+aVis that the social transformations that have shaped our culture
+p16
+aVmay have also changed the structural columns of human thought.
+p17
+aa(lp18
+VWe may all have different opinions about this.
+p19
+aVActually, it's a long-standing philosophical debate.
+p20
+aVBut is this question even amenable to science?
+p21
+aa(lp22
+VHere I'd like to propose
+p23
+aVthat in the same way we can reconstruct how the ancient Greek cities looked
+p24
+aVjust based on a few bricks,
+p25
+aVthat the writings of a culture are the archaeological records,
+p26
+aVthe fossils, of human thought.
+p27
+aa(lp28
+VAnd in fact,
+p29
+aVdoing some form of psychological analysis
+p30
+aVof some of the most ancient books of human culture,
+p31
+aVJulian Jaynes came up in the '70s with a very wild and radical hypothesis:
+p32
+aVthat only 3,000 years ago,
+p33
+aVhumans were what today we would call schizophrenics.
+p34
+aVAnd he made this claim
+p35
+aVbased on the fact that the first humans described in these books
+p36
+aVbehaved consistently,
+p37
+aVin different traditions and in different places of the world,
+p38
+aVas if they were hearing and obeying voices
+p39
+aVthat they perceived as coming from the Gods,
+p40
+aVor from the muses ...
+p41
+aVwhat today we would call hallucinations.
+p42
+aVAnd only then, as time went on,
+p43
+aVthey began to recognize that they were the creators,
+p44
+aVthe owners of these inner voices.
+p45
+aVAnd with this, they gained introspection:
+p46
+aVthe ability to think about their own thoughts.
+p47
+aa(lp48
+VSo Jaynes's theory is that consciousness,
+p49
+aVat least in the way we perceive it today,
+p50
+aVwhere we feel that we are the pilots of our own existence \u2014
+p51
+aVis a quite recent cultural development.
+p52
+aVAnd this theory is quite spectacular,
+p53
+aVbut it has an obvious problem
+p54
+aVwhich is that it's built on just a few and very specific examples.
+p55
+aVSo the question is whether the theory
+p56
+aVthat introspection built up in human history only about 3,000 years ago
+p57
+aVcan be examined in a quantitative and objective manner.
+p58
+aa(lp59
+VAnd the problem of how to go about this is quite obvious.
+p60
+aVIt's not like Plato woke up one day and then he wrote,
+p61
+aV"Hello, I'm Plato,
+p62
+aVand as of today, I have a fully introspective consciousness."
+p63
+aa(lp64
+V(Laughter)
+p65
+aa(lp66
+VAnd this tells us actually what is the essence of the problem.
+p67
+aVWe need to find the emergence of a concept that's never said.
+p68
+aVThe word introspection does not appear a single time
+p69
+aVin the books we want to analyze.
+p70
+aa(lp71
+VSo our way to solve this is to build the space of words.
+p72
+aVThis is a huge space that contains all words
+p73
+aVin such a way that the distance between any two of them
+p74
+aVis indicative of how closely related they are.
+p75
+aVSo for instance,
+p76
+aVyou want the words "dog" and "cat" to be very close together,
+p77
+aVbut the words "grapefruit" and "logarithm" to be very far away.
+p78
+aVAnd this has to be true for any two words within the space.
+p79
+aa(lp80
+VAnd there are different ways that we can construct the space of words.
+p81
+aVOne is just asking the experts,
+p82
+aVa bit like we do with dictionaries.
+p83
+aVAnother possibility
+p84
+aVis following the simple assumption that when two words are related,
+p85
+aVthey tend to appear in the same sentences,
+p86
+aVin the same paragraphs,
+p87
+aVin the same documents,
+p88
+aVmore often than would be expected just by pure chance.
+p89
+aVAnd this simple hypothesis,
+p90
+aVthis simple method,
+p91
+aVwith some computational tricks
+p92
+aVthat have to do with the fact
+p93
+aVthat this is a very complex and high-dimensional space,
+p94
+aVturns out to be quite effective.
+p95
+aa(lp96
+VAnd just to give you a flavor of how well this works,
+p97
+aVthis is the result we get when we analyze this for some familiar words.
+p98
+aVAnd you can see first
+p99
+aVthat words automatically organize into semantic neighborhoods.
+p100
+aVSo you get the fruits, the body parts,
+p101
+aVthe computer parts, the scientific terms and so on.
+p102
+aa(lp103
+VThe algorithm also identifies that we organize concepts in a hierarchy.
+p104
+aVSo for instance,
+p105
+aVyou can see that the scientific terms break down into two subcategories
+p106
+aVof the astronomic and the physics terms.
+p107
+aVAnd then there are very fine things.
+p108
+aVFor instance, the word astronomy,
+p109
+aVwhich seems a bit bizarre where it is,
+p110
+aVis actually exactly where it should be,
+p111
+aVbetween what it is,
+p112
+aVan actual science,
+p113
+aVand between what it describes,
+p114
+aVthe astronomical terms.
+p115
+aa(lp116
+VAnd we could go on and on with this.
+p117
+aVActually, if you stare at this for a while,
+p118
+aVand you just build random trajectories,
+p119
+aVyou will see that it actually feels a bit like doing poetry.
+p120
+aVAnd this is because, in a way,
+p121
+aVwalking in this space is like walking in the mind.
+p122
+aa(lp123
+VAnd the last thing
+p124
+aVis that this algorithm also identifies what are our intuitions,
+p125
+aVof which words should lead in the neighborhood of introspection.
+p126
+aVSo for instance,
+p127
+aVwords such as "self," "guilt," "reason," "emotion,"
+p128
+aVare very close to "introspection,"
+p129
+aVbut other words,
+p130
+aVsuch as "red," "football," "candle," "banana,"
+p131
+aVare just very far away.
+p132
+aa(lp133
+VAnd so once we've built the space,
+p134
+aVthe question of the history of introspection,
+p135
+aVor of the history of any concept
+p136
+aVwhich before could seem abstract and somehow vague,
+p137
+aVbecomes concrete \u2014
+p138
+aVbecomes amenable to quantitative science.
+p139
+aa(lp140
+VAll that we have to do is take the books,
+p141
+aVwe digitize them,
+p142
+aVand we take this stream of words as a trajectory
+p143
+aVand project them into the space,
+p144
+aVand then we ask whether this trajectory spends significant time
+p145
+aVcircling closely to the concept of introspection.
+p146
+aa(lp147
+VAnd with this,
+p148
+aVwe could analyze the history of introspection
+p149
+aVin the ancient Greek tradition,
+p150
+aVfor which we have the best available written record.
+p151
+aVSo what we did is we took all the books \u2014
+p152
+aVwe just ordered them by time \u2014
+p153
+aVfor each book we take the words
+p154
+aVand we project them to the space,
+p155
+aVand then we ask for each word how close it is to introspection,
+p156
+aVand we just average that.
+p157
+aVAnd then we ask whether, as time goes on and on,
+p158
+aVthese books get closer, and closer and closer
+p159
+aVto the concept of introspection.
+p160
+aa(lp161
+VAnd this is exactly what happens in the ancient Greek tradition.
+p162
+aVSo you can see that for the oldest books in the Homeric tradition,
+p163
+aVthere is a small increase with books getting closer to introspection.
+p164
+aVBut about four centuries before Christ,
+p165
+aVthis starts ramping up very rapidly to an almost five-fold increase
+p166
+aVof books getting closer, and closer and closer
+p167
+aVto the concept of introspection.
+p168
+aVAnd one of the nice things about this
+p169
+aVis that now we can ask
+p170
+aVwhether this is also true in a different, independent tradition.
+p171
+aa(lp172
+VSo we just ran this same analysis on the Judeo-Christian tradition,
+p173
+aVand we got virtually the same pattern.
+p174
+aVAgain, you see a small increase for the oldest books in the Old Testament,
+p175
+aVand then it increases much more rapidly
+p176
+aVin the new books of the New Testament.
+p177
+aVAnd then we get the peak of introspection
+p178
+aVin "The Confessions of Saint Augustine,"
+p179
+aVabout four centuries after Christ.
+p180
+aVAnd this was very important,
+p181
+aVbecause Saint Augustine had been recognized by scholars,
+p182
+aVphilologists, historians,
+p183
+aVas one of the founders of introspection.
+p184
+aVActually, some believe him to be the father of modern psychology.
+p185
+aa(lp186
+VSo our algorithm,
+p187
+aVwhich has the virtue of being quantitative,
+p188
+aVof being objective,
+p189
+aVand of course of being extremely fast \u2014
+p190
+aVit just runs in a fraction of a second \u2014
+p191
+aVcan capture some of the most important conclusions
+p192
+aVof this long tradition of investigation.
+p193
+aVAnd this is in a way one of the beauties of science,
+p194
+aVwhich is that now this idea can be translated
+p195
+aVand generalized to a whole lot of different domains.
+p196
+aa(lp197
+VSo in the same way that we asked about the past of human consciousness,
+p198
+aVmaybe the most challenging question we can pose to ourselves
+p199
+aVis whether this can tell us something about the future of our own consciousness.
+p200
+aVTo put it more precisely,
+p201
+aVwhether the words we say today
+p202
+aVcan tell us something of where our minds will be in a few days,
+p203
+aVin a few months
+p204
+aVor a few years from now.
+p205
+aa(lp206
+VAnd in the same way many of us are now wearing sensors
+p207
+aVthat detect our heart rate,
+p208
+aVour respiration,
+p209
+aVour genes,
+p210
+aVon the hopes that this may help us prevent diseases,
+p211
+aVwe can ask whether monitoring and analyzing the words we speak,
+p212
+aVwe tweet, we email, we write,
+p213
+aVcan tell us ahead of time whether something may go wrong with our minds.
+p214
+aVAnd with Guillermo Cecchi,
+p215
+aVwho has been my brother in this adventure,
+p216
+aVwe took on this task.
+p217
+aVAnd we did so by analyzing the recorded speech of 34 young people
+p218
+aVwho were at a high risk of developing schizophrenia.
+p219
+aa(lp220
+VAnd so what we did is, we measured speech at day one,
+p221
+aVand then we asked whether the properties of the speech could predict,
+p222
+aVwithin a window of almost three years,
+p223
+aVthe future development of psychosis.
+p224
+aVBut despite our hopes,
+p225
+aVwe got failure after failure.
+p226
+aVThere was just not enough information in semantics
+p227
+aVto predict the future organization of the mind.
+p228
+aVIt was good enough
+p229
+aVto distinguish between a group of schizophrenics and a control group,
+p230
+aVa bit like we had done for the ancient texts,
+p231
+aVbut not to predict the future onset of psychosis.
+p232
+aa(lp233
+VBut then we realized
+p234
+aVthat maybe the most important thing was not so much what they were saying,
+p235
+aVbut how they were saying it.
+p236
+aVMore specifically,
+p237
+aVit was not in which semantic neighborhoods the words were,
+p238
+aVbut how far and fast they jumped
+p239
+aVfrom one semantic neighborhood to the other one.
+p240
+aVAnd so we came up with this measure,
+p241
+aVwhich we termed semantic coherence,
+p242
+aVwhich essentially measures the persistence of speech within one semantic topic,
+p243
+aVwithin one semantic category.
+p244
+aa(lp245
+VAnd it turned out to be that for this group of 34 people,
+p246
+aVthe algorithm based on semantic coherence could predict,
+p247
+aVwith 100 percent accuracy,
+p248
+aVwho developed psychosis and who will not.
+p249
+aVAnd this was something that could not be achieved \u2014
+p250
+aVnot even close \u2014
+p251
+aVwith all the other existing clinical measures.
+p252
+aa(lp253
+VAnd I remember vividly, while I was working on this,
+p254
+aVI was sitting at my computer
+p255
+aVand I saw a bunch of tweets by Polo \u2014
+p256
+aVPolo had been my first student back in Buenos Aires,
+p257
+aVand at the time he was living in New York.
+p258
+aVAnd there was something in this tweets \u2014
+p259
+aVI could not tell exactly what because nothing was said explicitly \u2014
+p260
+aVbut I got this strong hunch,
+p261
+aVthis strong intuition, that something was going wrong.
+p262
+aVSo I picked up the phone, and I called Polo,
+p263
+aVand in fact he was not feeling well.
+p264
+aVAnd this simple fact,
+p265
+aVthat reading in between the lines,
+p266
+aVI could sense, through words, his feelings,
+p267
+aVwas a simple, but very effective way to help.
+p268
+aa(lp269
+VWhat I tell you today
+p270
+aVis that we're getting close to understanding
+p271
+aVhow we can convert this intuition that we all have,
+p272
+aVthat we all share,
+p273
+aVinto an algorithm.
+p274
+aVAnd in doing so,
+p275
+aVwe may be seeing in the future a very different form of mental health,
+p276
+aVbased on objective, quantitative and automated analysis
+p277
+aVof the words we write,
+p278
+aVof the words we say.
+p279
+aa(lp280
+VGracias.
+p281
+aa(lp282
+V(Applause)
+p283
+aasS'transcript_micsec'
+p284
+(lp285
+I12000
+aI22000
+aI43000
+aI53000
+aI70000
+aI130000
+aI162000
+aI174000
+aI176000
+aI192000
+aI220000
+aI255000
+aI272000
+aI299000
+aI315000
+aI337000
+aI355000
+aI371000
+aI401000
+aI433000
+aI470000
+aI497000
+aI522000
+aI562000
+aI600000
+aI630000
+aI653000
+aI696000
+aI724000
+aI725000
+asS'talk_meta'
+p286
+(dp287
+S'ratings'
+p288
+(dp289
+S'ingenious'
+p290
+I438
+sS'beautiful'
+p291
+I66
+sS'inspiring'
+p292
+I300
+sS'ok'
+p293
+I106
+sS'fascinating'
+p294
+I704
+sS'funny'
+p295
+I13
+sS'total_count'
+p296
+I2641
+sS'persuasive'
+p297
+I109
+sS'longwinded'
+p298
+I28
+sS'informative'
+p299
+I608
+sS'jaw-dropping'
+p300
+I132
+sS'obnoxious'
+p301
+I2
+sS'confusing'
+p302
+I46
+sS'courageous'
+p303
+I45
+sS'unconvincing'
+p304
+I44
+ssS'author'
+p305
+VMariano_Sigman;
+p306
+sS'url'
+p307
+S'https://www.ted.com/talks/mariano_sigman_your_words_may_predict_your_future_mental_health'
+p308
+sS'vidlen'
+p309
+I734
+sS'totalviews'
+p310
+I2310343
+sS'title'
+p311
+VYour words may predict your future mental health
+p312
+sS'downloadlink'
+p313
+Vhttps://download.ted.com/talks/MarianoSigman_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p314
+sS'datepublished'
+p315
+cdatetime
+datetime
+p316
+(S'\x07\xe0\x05\x18\x0b\n&\x00\x00\x00'
+tRp317
+sS'datefilmed'
+p318
+g316
+(S'\x07\xe0\x05\x18\x0b\n&\x00\x00\x00'
+tRp319
+sS'alldata_JSON'
+p320
+S'{"viewed_count": 2310343, "speakers": [{"description": "Neuroscientist", "firstname": "Mariano", "title": "", "lastname": "Sigman", "middleinitial": "", "whylisten": "<p>Mariano Sigman, a physicist by training, is a leading figure in the cognitive neuroscience of learning and decision making. He is the founder of the Integrative Neuroscience Laboratory at the University of Buenos Aires. Sigman was awarded a Human Frontiers Career Development Award, the National Prize of Physics, the Young Investigator Prize of &quot;College de France,&quot; the IBM Scalable Data Analytics Award and is a scholar of the James S. McDonnell Foundation. In 2016 he was made a Laureate of the Pontifical Academy of Sciences.</p>  <p>In <em>The Secret Life of the Mind</em>, Sigman&rsquo;s ambition is to explain the mind so that we can understand ourselves and others more deeply. He shows how we form ideas during our first days of life, how we give shape to our fundamental decisions, how we dream and imagine, why we feel certain emotions, how the brain transforms and how who we are changes with it. Spanning biology, physics, mathematics, psychology, anthropology, linguistics, philosophy and medicine, as well as gastronomy, magic, music, chess, literature and art, The Secret Life of the Mind revolutionizes how neuroscience serves us in our lives, revealing how the infinity of neurons inside our brains manufacture how we perceive, reason, feel, dream and communicate.</p>", "slug": "mariano_sigman", "whotheyare": "In his provocative, mind-bending book \\"The Secret Life of the Mind,\\" neurologist Mariano Sigman reveals his life\\u2019s work exploring the inner workings of the human brain.", "whatotherssay": "Neuroscience has removed some of the opacity of human thought ... raising, to some extent, the curtain.", "id": 2376, "photo_url": "https://pe.tedcdn.com/images/ted/21a1b23e3429e7bfce1efb26838458c90717d53b_254x191.jpg"}], "current_talk": 2510, "description": "Can the way you speak and write today predict your future mental state, even the onset of psychosis? In this fascinating talk, neuroscientist Mariano Sigman reflects on ancient Greece and the origins of introspection to investigate how our words hint at our inner lives and details a word-mapping algorithm that could predict the development of schizophrenia. \\"We may be seeing in the future a very different form of mental health,\\" Sigman says, \\"based on objective, quantitative and automated analysis of the words we write, of the words we say.\\"", "language": "en", "url": "https://www.ted.com/talks/mariano_sigman_your_words_may_predict_your_future_mental_health", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87953092}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17060683}, "podcast-high": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87947242}, "180k": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16820001}, "64k": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6084863}, "1500k": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 136173309}, "450k": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42017024}, "podcast-regular": {"uri": "https://download.ted.com/talks/MarianoSigman_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42132230}, "950k": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87955166}, "audio-podcast": {"uri": "https://download.ted.com/talks/MarianoSigman_2016.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7491704}, "podcast-light": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6218258}, "320k": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29823159}, "600k": {"uri": "https://download.ted.com/talks/MarianoSigman_2016-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56225581}}}, "comments": {"count": 70, "id": 27128, "talk_id": 2510}, "slug": "mariano_sigman_your_words_may_predict_your_future_mental_health", "threadId": 27128, "talks": [{"event": "TED2016", "player_talks": [{"event": "TED2016", "slug": "mariano_sigman_your_words_may_predict_your_future_mental_health", "filmed": 1455753600, "targeting": {"event": "TED2016", "tag": "brain,cognitive science,communication,future,health,identity,language,mental health,mind,neuroscience,science,self,speech,writing", "id": 2510, "talk": "mariano_sigman_your_words_may_predict_your_future_mental_health", "year": "2016"}, "adDuration": "3.33", "external": null, "title": "Your words may predict your future mental health", "postAdDuration": "0.83", "published": 1464102638, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2eea2e8d1e96d595fea04ba72f63185b05f30307_2880x1620.jpg?quality=89&w=600", "name": "Mariano Sigman: Your words may predict your future mental health", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["brain", "cognitive science", "communication", "future", "health", "identity", "language", "mental health", "mind", "neuroscience", "science", "self", "speech", "writing"], "speaker": "Mariano Sigman", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 734, "id": 2510, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MarianoSigman_2016-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2016", "tag": "brain,cognitive science,communication,future,health,identity,language,mental health,mind,neuroscience,science,self,speech,writing", "id": 2510, "talk": "mariano_sigman_your_words_may_predict_your_future_mental_health", "year": "2016"}, "metadata": "https://hls.ted.com/talks/2510.json", "stream": "https://hls.ted.com/talks/2510.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2016%26id%3D2510%26tag%3Dbrain%2Ccognitive%2Bscience%2Ccommunication%2Cfuture%2Chealth%2Cidentity%2Clanguage%2Cmental%2Bhealth%2Cmind%2Cneuroscience%2Cscience%2Cself%2Cspeech%2Cwriting%26talk%3Dmariano_sigman_your_words_may_predict_your_future_mental_health%26year%3D2016&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/mariano_sigman_your_words_may_predict_your_future_mental_health"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2eea2e8d1e96d595fea04ba72f63185b05f30307_2880x1620.jpg?q=50&w=15", "duration": 734, "id": 2510, "ratings": [{"count": 438, "id": 9, "name": "Ingenious"}, {"count": 300, "id": 10, "name": "Inspiring"}, {"count": 704, "id": 22, "name": "Fascinating"}, {"count": 608, "id": 8, "name": "Informative"}, {"count": 28, "id": 11, "name": "Longwinded"}, {"count": 109, "id": 24, "name": "Persuasive"}, {"count": 66, "id": 1, "name": "Beautiful"}, {"count": 44, "id": 21, "name": "Unconvincing"}, {"count": 106, "id": 25, "name": "OK"}, {"count": 132, "id": 23, "name": "Jaw-dropping"}, {"count": 45, "id": 3, "name": "Courageous"}, {"count": 2, "id": 26, "name": "Obnoxious"}, {"count": 46, "id": 2, "name": "Confusing"}, {"count": 13, "id": 7, "name": "Funny"}], "speakers": [{"description": "Neuroscientist", "firstname": "Mariano", "title": "", "lastname": "Sigman", "middleinitial": "", "whylisten": "<p>Mariano Sigman, a physicist by training, is a leading figure in the cognitive neuroscience of learning and decision making. He is the founder of the Integrative Neuroscience Laboratory at the University of Buenos Aires. Sigman was awarded a Human Frontiers Career Development Award, the National Prize of Physics, the Young Investigator Prize of &quot;College de France,&quot; the IBM Scalable Data Analytics Award and is a scholar of the James S. McDonnell Foundation. In 2016 he was made a Laureate of the Pontifical Academy of Sciences.</p>  <p>In <em>The Secret Life of the Mind</em>, Sigman&rsquo;s ambition is to explain the mind so that we can understand ourselves and others more deeply. He shows how we form ideas during our first days of life, how we give shape to our fundamental decisions, how we dream and imagine, why we feel certain emotions, how the brain transforms and how who we are changes with it. Spanning biology, physics, mathematics, psychology, anthropology, linguistics, philosophy and medicine, as well as gastronomy, magic, music, chess, literature and art, The Secret Life of the Mind revolutionizes how neuroscience serves us in our lives, revealing how the infinity of neurons inside our brains manufacture how we perceive, reason, feel, dream and communicate.</p>", "slug": "mariano_sigman", "whotheyare": "In his provocative, mind-bending book \\"The Secret Life of the Mind,\\" neurologist Mariano Sigman reveals his life\\u2019s work exploring the inner workings of the human brain.", "whatotherssay": "Neuroscience has removed some of the opacity of human thought ... raising, to some extent, the curtain.", "id": 2376, "photo_url": "https://pe.tedcdn.com/images/ted/21a1b23e3429e7bfce1efb26838458c90717d53b_254x191.jpg"}], "title": "Your words may predict your future mental health", "take_action": [], "comments": 27128, "more_resources": [{"status": "approved", "start_at": null, "headline": "Automated analysis of free speech predicts psychosis onset in high-risk youths", "link_url": "http://www.nature.com/articles/npjschz201530", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "nature.com", "type": "external_website", "blurb": "In this study published in *Nature*, Mariano Sigman and other researchers aimed to test automated speech analyses combined with Machine Learning to predict later psychosis onset."}], "hero": "https://pe.tedcdn.com/images/ted/2eea2e8d1e96d595fea04ba72f63185b05f30307_2880x1620.jpg", "description": "Can the way you speak and write today predict your future mental state, even the onset of psychosis? In this fascinating talk, neuroscientist Mariano Sigman reflects on ancient Greece and the origins of introspection to investigate how our words hint at our inner lives and details a word-mapping algorithm that could predict the development of schizophrenia. \\"We may be seeing in the future a very different form of mental health,\\" Sigman says, \\"based on objective, quantitative and automated analysis of the words we write, of the words we say.\\"", "tags": ["brain", "cognitive science", "communication", "future", "health", "identity", "language", "mental health", "mind", "neuroscience", "science", "self", "speech", "writing"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-cs.mp4"}, "et": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-et.mp4", "name": "Estonian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-et.mp4"}, "gl": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-th.mp4"}, "te": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-te.mp4", "name": "Telugu", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-te.mp4"}, "pl": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-mk.mp4"}, "uk": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/MarianoSigman_2016-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MarianoSigman_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MarianoSigman_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MarianoSigman_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2510, "audioDownload": "https://download.ted.com/talks/MarianoSigman_2016.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1828816, "hero": "https://pe.tedcdn.com/images/ted/353545d58703d32d2bd05323faa35b2cfc389e42_2880x1620.jpg", "title": "This is your brain on communication", "id": 2495, "speaker": "Uri Hasson", "duration": 891, "slug": "uri_hasson_this_is_your_brain_on_communication"}, {"viewed_count": 1197863, "hero": "https://pe.tedcdn.com/images/ted/1733fa238431c2ae65c5410920b2413c2c4b8171_1600x1200.jpg", "title": "Toward a new understanding of mental illness", "id": 1714, "speaker": "Thomas Insel", "duration": 783, "slug": "thomas_insel_toward_a_new_understanding_of_mental_illness"}, {"viewed_count": 1791392, "hero": "https://pe.tedcdn.com/images/ted/7b2e7e2bac40b3ab6d040991f84b70e2b64a6613_800x600.jpg", "title": "What we learned from 5 million books", "id": 1227, "speaker": "Jean-Baptiste Michel + Erez Lieberman Aiden", "duration": 848, "slug": "what_we_learned_from_5_million_books"}, {"viewed_count": 1768213, "hero": "https://pe.tedcdn.com/images/ted/e1b2c396f435b64c01f9be4df94402e5751d5b90_800x600.jpg", "title": "Different ways of knowing", "id": 1175, "speaker": "Daniel Tammet", "duration": 653, "slug": "daniel_tammet_different_ways_of_knowing"}, {"viewed_count": 2700034, "hero": "https://pe.tedcdn.com/images/ted/55f8352def783a2b3a7f0b8b135a82ac5ae0b2de_1600x1200.jpg", "title": "The illusion of consciousness", "id": 102, "speaker": "Dan Dennett", "duration": 1308, "slug": "dan_dennett_on_our_consciousness"}, {"viewed_count": 1337578, "hero": "https://pe.tedcdn.com/images/ted/8d1b161c99ec62e5df384353f74efb3419f268f1_2880x1620.jpg", "title": "Our shared condition -- consciousness", "id": 1794, "speaker": "John Searle", "duration": 899, "slug": "john_searle_our_shared_condition_consciousness"}], "recorded_at": "2016-02-18T00:00:00.000+00:00", "slug": "mariano_sigman_your_words_may_predict_your_future_mental_health", "speaker_name": "Mariano Sigman", "viewed_count": 2310343, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2016", "name": "Mariano Sigman: Your words may predict your future mental health"}'
+p321
+sS'keywords'
+p322
+(lp323
+Vbrain
+p324
+aVcognitive science
+p325
+aVcommunication
+p326
+aVfuture
+p327
+aVhealth
+p328
+aVidentity
+p329
+aVlanguage
+p330
+aVmental health
+p331
+aVmind
+p332
+aVneuroscience
+p333
+aVscience
+p334
+aVself
+p335
+aVspeech
+p336
+aVwriting
+p337
+asS'datecrawled'
+p338
+g316
+(S'\x07\xe1\n\x17\x03\x1a\x0c\n\x88\xc9'
+tRp339
+sS'id'
+p340
+I2510
+ss.

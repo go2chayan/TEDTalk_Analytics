@@ -1,0 +1,866 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VErez Lieberman Aiden: Everyone knows
+p5
+aVthat a picture is worth a thousand words.
+p6
+aVBut we at Harvard
+p7
+aVwere wondering if this was really true.
+p8
+aV(Laughter)
+p9
+aVSo we assembled a team of experts,
+p10
+aVspanning Harvard, MIT,
+p11
+aVThe American Heritage Dictionary, The Encyclopedia Britannica
+p12
+aVand even our proud sponsors,
+p13
+aVthe Google.
+p14
+aVAnd we cogitated about this
+p15
+aVfor about four years.
+p16
+aVAnd we came to a startling conclusion.
+p17
+aVLadies and gentlemen, a picture is not worth a thousand words.
+p18
+aVIn fact, we found some pictures
+p19
+aVthat are worth 500 billion words.
+p20
+aa(lp21
+VJean-Baptiste Michel: So how did we get to this conclusion?
+p22
+aVSo Erez and I were thinking about ways
+p23
+aVto get a big picture of human culture
+p24
+aVand human history: change over time.
+p25
+aVSo many books actually have been written over the years.
+p26
+aVSo we were thinking, well the best way to learn from them
+p27
+aVis to read all of these millions of books.
+p28
+aVNow of course, if there's a scale for how awesome that is,
+p29
+aVthat has to rank extremely, extremely high.
+p30
+aVNow the problem is there's an X-axis for that,
+p31
+aVwhich is the practical axis.
+p32
+aVThis is very, very low.
+p33
+aa(lp34
+V(Applause)
+p35
+aa(lp36
+VNow people tend to use an alternative approach,
+p37
+aVwhich is to take a few sources and read them very carefully.
+p38
+aVThis is extremely practical, but not so awesome.
+p39
+aVWhat you really want to do
+p40
+aVis to get to the awesome yet practical part of this space.
+p41
+aVSo it turns out there was a company across the river called Google
+p42
+aVwho had started a digitization project a few years back
+p43
+aVthat might just enable this approach.
+p44
+aVThey have digitized millions of books.
+p45
+aVSo what that means is, one could use computational methods
+p46
+aVto read all of the books in a click of a button.
+p47
+aVThat's very practical and extremely awesome.
+p48
+aa(lp49
+VELA: Let me tell you a little bit about where books come from.
+p50
+aVSince time immemorial, there have been authors.
+p51
+aVThese authors have been striving to write books.
+p52
+aVAnd this became considerably easier
+p53
+aVwith the development of the printing press some centuries ago.
+p54
+aVSince then, the authors have won
+p55
+aVon 129 million distinct occasions,
+p56
+aVpublishing books.
+p57
+aVNow if those books are not lost to history,
+p58
+aVthen they are somewhere in a library,
+p59
+aVand many of those books have been getting retrieved from the libraries
+p60
+aVand digitized by Google,
+p61
+aVwhich has scanned 15 million books to date.
+p62
+aa(lp63
+VNow when Google digitizes a book, they put it into a really nice format.
+p64
+aVNow we've got the data, plus we have metadata.
+p65
+aVWe have information about things like where was it published,
+p66
+aVwho was the author, when was it published.
+p67
+aVAnd what we do is go through all of those records
+p68
+aVand exclude everything that's not the highest quality data.
+p69
+aVWhat we're left with
+p70
+aVis a collection of five million books,
+p71
+aV500 billion words,
+p72
+aVa string of characters a thousand times longer
+p73
+aVthan the human genome \u2014
+p74
+aVa text which, when written out,
+p75
+aVwould stretch from here to the Moon and back
+p76
+aV10 times over \u2014
+p77
+aVa veritable shard of our cultural genome.
+p78
+aVOf course what we did
+p79
+aVwhen faced with such outrageous hyperbole ...
+p80
+aV(Laughter)
+p81
+aVwas what any self-respecting researchers
+p82
+aVwould have done.
+p83
+aVWe took a page out of XKCD,
+p84
+aVand we said, "Stand back.
+p85
+aVWe're going to try science."
+p86
+aa(lp87
+V(Laughter)
+p88
+aa(lp89
+VJM: Now of course, we were thinking,
+p90
+aVwell let's just first put the data out there
+p91
+aVfor people to do science to it.
+p92
+aVNow we're thinking, what data can we release?
+p93
+aVWell of course, you want to take the books
+p94
+aVand release the full text of these five million books.
+p95
+aVNow Google, and Jon Orwant in particular,
+p96
+aVtold us a little equation that we should learn.
+p97
+aVSo you have five million, that is, five million authors
+p98
+aVand five million plaintiffs is a massive lawsuit.
+p99
+aVSo, although that would be really, really awesome,
+p100
+aVagain, that's extremely, extremely impractical.
+p101
+aV(Laughter)
+p102
+aa(lp103
+VNow again, we kind of caved in,
+p104
+aVand we did the very practical approach, which was a bit less awesome.
+p105
+aVWe said, well instead of releasing the full text,
+p106
+aVwe're going to release statistics about the books.
+p107
+aVSo take for instance "A gleam of happiness."
+p108
+aVIt's four words; we call that a four-gram.
+p109
+aVWe're going to tell you how many times a particular four-gram
+p110
+aVappeared in books in 1801, 1802, 1803,
+p111
+aVall the way up to 2008.
+p112
+aVThat gives us a time series
+p113
+aVof how frequently this particular sentence was used over time.
+p114
+aVWe do that for all the words and phrases that appear in those books,
+p115
+aVand that gives us a big table of two billion lines
+p116
+aVthat tell us about the way culture has been changing.
+p117
+aa(lp118
+VELA: So those two billion lines,
+p119
+aVwe call them two billion n-grams.
+p120
+aVWhat do they tell us?
+p121
+aVWell the individual n-grams measure cultural trends.
+p122
+aVLet me give you an example.
+p123
+aVLet's suppose that I am thriving,
+p124
+aVthen tomorrow I want to tell you about how well I did.
+p125
+aVAnd so I might say, "Yesterday, I throve."
+p126
+aVAlternatively, I could say, "Yesterday, I thrived."
+p127
+aVWell which one should I use?
+p128
+aVHow to know?
+p129
+aa(lp130
+VAs of about six months ago,
+p131
+aVthe state of the art in this field
+p132
+aVis that you would, for instance,
+p133
+aVgo up to the following psychologist with fabulous hair,
+p134
+aVand you'd say,
+p135
+aV"Steve, you're an expert on the irregular verbs.
+p136
+aVWhat should I do?"
+p137
+aVAnd he'd tell you, "Well most people say thrived,
+p138
+aVbut some people say throve."
+p139
+aVAnd you also knew, more or less,
+p140
+aVthat if you were to go back in time 200 years
+p141
+aVand ask the following statesman with equally fabulous hair,
+p142
+aV(Laughter)
+p143
+aV"Tom, what should I say?"
+p144
+aVHe'd say, "Well, in my day, most people throve,
+p145
+aVbut some thrived."
+p146
+aVSo now what I'm just going to show you is raw data.
+p147
+aVTwo rows from this table of two billion entries.
+p148
+aVWhat you're seeing is year by year frequency
+p149
+aVof "thrived" and "throve" over time.
+p150
+aVNow this is just two
+p151
+aVout of two billion rows.
+p152
+aVSo the entire data set
+p153
+aVis a billion times more awesome than this slide.
+p154
+aa(lp155
+V(Laughter)
+p156
+aa(lp157
+V(Applause)
+p158
+aa(lp159
+VJM: Now there are many other pictures that are worth 500 billion words.
+p160
+aVFor instance, this one.
+p161
+aVIf you just take influenza,
+p162
+aVyou will see peaks at the time where you knew
+p163
+aVbig flu epidemics were killing people around the globe.
+p164
+aa(lp165
+VELA: If you were not yet convinced,
+p166
+aVsea levels are rising,
+p167
+aVso is atmospheric CO2 and global temperature.
+p168
+aa(lp169
+VJM: You might also want to have a look at this particular n-gram,
+p170
+aVand that's to tell Nietzsche that God is not dead,
+p171
+aValthough you might agree that he might need a better publicist.
+p172
+aa(lp173
+V(Laughter)
+p174
+aa(lp175
+VELA: You can get at some pretty abstract concepts with this sort of thing.
+p176
+aVFor instance, let me tell you the history
+p177
+aVof the year 1950.
+p178
+aVPretty much for the vast majority of history,
+p179
+aVno one gave a damn about 1950.
+p180
+aVIn 1700, in 1800, in 1900,
+p181
+aVno one cared.
+p182
+aVThrough the 30s and 40s,
+p183
+aVno one cared.
+p184
+aVSuddenly, in the mid-40s,
+p185
+aVthere started to be a buzz.
+p186
+aVPeople realized that 1950 was going to happen,
+p187
+aVand it could be big.
+p188
+aV(Laughter)
+p189
+aVBut nothing got people interested in 1950
+p190
+aVlike the year 1950.
+p191
+aV(Laughter)
+p192
+aVPeople were walking around obsessed.
+p193
+aVThey couldn't stop talking
+p194
+aVabout all the things they did in 1950,
+p195
+aVall the things they were planning to do in 1950,
+p196
+aVall the dreams of what they wanted to accomplish in 1950.
+p197
+aVIn fact, 1950 was so fascinating
+p198
+aVthat for years thereafter,
+p199
+aVpeople just kept talking about all the amazing things that happened,
+p200
+aVin '51, '52, '53.
+p201
+aVFinally in 1954,
+p202
+aVsomeone woke up and realized
+p203
+aVthat 1950 had gotten somewhat passé.
+p204
+aV(Laughter)
+p205
+aVAnd just like that, the bubble burst.
+p206
+aa(lp207
+V(Laughter)
+p208
+aa(lp209
+VAnd the story of 1950
+p210
+aVis the story of every year that we have on record,
+p211
+aVwith a little twist, because now we've got these nice charts.
+p212
+aVAnd because we have these nice charts, we can measure things.
+p213
+aVWe can say, "Well how fast does the bubble burst?"
+p214
+aVAnd it turns out that we can measure that very precisely.
+p215
+aVEquations were derived, graphs were produced,
+p216
+aVand the net result
+p217
+aVis that we find that the bubble bursts faster and faster
+p218
+aVwith each passing year.
+p219
+aVWe are losing interest in the past more rapidly.
+p220
+aa(lp221
+VJM: Now a little piece of career advice.
+p222
+aVSo for those of you who seek to be famous,
+p223
+aVwe can learn from the 25 most famous political figures,
+p224
+aVauthors, actors and so on.
+p225
+aVSo if you want to become famous early on, you should be an actor,
+p226
+aVbecause then fame starts rising by the end of your 20s \u2014
+p227
+aVyou're still young, it's really great.
+p228
+aVNow if you can wait a little bit, you should be an author,
+p229
+aVbecause then you rise to very great heights,
+p230
+aVlike Mark Twain, for instance: extremely famous.
+p231
+aVBut if you want to reach the very top,
+p232
+aVyou should delay gratification
+p233
+aVand, of course, become a politician.
+p234
+aVSo here you will become famous by the end of your 50s,
+p235
+aVand become very, very famous afterward.
+p236
+aVSo scientists also tend to get famous when they're much older.
+p237
+aVLike for instance, biologists and physics
+p238
+aVtend to be almost as famous as actors.
+p239
+aVOne mistake you should not do is become a mathematician.
+p240
+aV(Laughter)
+p241
+aVIf you do that,
+p242
+aVyou might think, "Oh great. I'm going to do my best work when I'm in my 20s."
+p243
+aVBut guess what, nobody will really care.
+p244
+aa(lp245
+V(Laughter)
+p246
+aa(lp247
+VELA: There are more sobering notes
+p248
+aVamong the n-grams.
+p249
+aVFor instance, here's the trajectory of Marc Chagall,
+p250
+aVan artist born in 1887.
+p251
+aVAnd this looks like the normal trajectory of a famous person.
+p252
+aVHe gets more and more and more famous,
+p253
+aVexcept if you look in German.
+p254
+aVIf you look in German, you see something completely bizarre,
+p255
+aVsomething you pretty much never see,
+p256
+aVwhich is he becomes extremely famous
+p257
+aVand then all of a sudden plummets,
+p258
+aVgoing through a nadir between 1933 and 1945,
+p259
+aVbefore rebounding afterward.
+p260
+aVAnd of course, what we're seeing
+p261
+aVis the fact Marc Chagall was a Jewish artist
+p262
+aVin Nazi Germany.
+p263
+aa(lp264
+VNow these signals
+p265
+aVare actually so strong
+p266
+aVthat we don't need to know that someone was censored.
+p267
+aVWe can actually figure it out
+p268
+aVusing really basic signal processing.
+p269
+aVHere's a simple way to do it.
+p270
+aVWell, a reasonable expectation
+p271
+aVis that somebody's fame in a given period of time
+p272
+aVshould be roughly the average of their fame before
+p273
+aVand their fame after.
+p274
+aVSo that's sort of what we expect.
+p275
+aVAnd we compare that to the fame that we observe.
+p276
+aVAnd we just divide one by the other
+p277
+aVto produce something we call a suppression index.
+p278
+aVIf the suppression index is very, very, very small,
+p279
+aVthen you very well might be being suppressed.
+p280
+aVIf it's very large, maybe you're benefiting from propaganda.
+p281
+aa(lp282
+VJM: Now you can actually look at
+p283
+aVthe distribution of suppression indexes over whole populations.
+p284
+aVSo for instance, here \u2014
+p285
+aVthis suppression index is for 5,000 people
+p286
+aVpicked in English books where there's no known suppression \u2014
+p287
+aVit would be like this, basically tightly centered on one.
+p288
+aVWhat you expect is basically what you observe.
+p289
+aVThis is distribution as seen in Germany \u2014
+p290
+aVvery different, it's shifted to the left.
+p291
+aVPeople talked about it twice less as it should have been.
+p292
+aVBut much more importantly, the distribution is much wider.
+p293
+aVThere are many people who end up on the far left on this distribution
+p294
+aVwho are talked about 10 times fewer than they should have been.
+p295
+aVBut then also many people on the far right
+p296
+aVwho seem to benefit from propaganda.
+p297
+aVThis picture is the hallmark of censorship in the book record.
+p298
+aa(lp299
+VELA: So culturomics
+p300
+aVis what we call this method.
+p301
+aVIt's kind of like genomics.
+p302
+aVExcept genomics is a lens on biology
+p303
+aVthrough the window of the sequence of bases in the human genome.
+p304
+aVCulturomics is similar.
+p305
+aVIt's the application of massive-scale data collection analysis
+p306
+aVto the study of human culture.
+p307
+aVHere, instead of through the lens of a genome,
+p308
+aVthrough the lens of digitized pieces of the historical record.
+p309
+aVThe great thing about culturomics
+p310
+aVis that everyone can do it.
+p311
+aVWhy can everyone do it?
+p312
+aVEveryone can do it because three guys,
+p313
+aVJon Orwant, Matt Gray and Will Brockman over at Google,
+p314
+aVsaw the prototype of the Ngram Viewer,
+p315
+aVand they said, "This is so fun.
+p316
+aVWe have to make this available for people."
+p317
+aVSo in two weeks flat \u2014 the two weeks before our paper came out \u2014
+p318
+aVthey coded up a version of the Ngram Viewer for the general public.
+p319
+aVAnd so you too can type in any word or phrase that you're interested in
+p320
+aVand see its n-gram immediately \u2014
+p321
+aValso browse examples of all the various books
+p322
+aVin which your n-gram appears.
+p323
+aa(lp324
+VJM: Now this was used over a million times on the first day,
+p325
+aVand this is really the best of all the queries.
+p326
+aVSo people want to be their best, put their best foot forward.
+p327
+aVBut it turns out in the 18th century, people didn't really care about that at all.
+p328
+aVThey didn't want to be their best, they wanted to be their beft.
+p329
+aVSo what happened is, of course, this is just a mistake.
+p330
+aVIt's not that strove for mediocrity,
+p331
+aVit's just that the S used to be written differently, kind of like an F.
+p332
+aVNow of course, Google didn't pick this up at the time,
+p333
+aVso we reported this in the science article that we wrote.
+p334
+aVBut it turns out this is just a reminder
+p335
+aVthat, although this is a lot of fun,
+p336
+aVwhen you interpret these graphs, you have to be very careful,
+p337
+aVand you have to adopt the base standards in the sciences.
+p338
+aa(lp339
+VELA: People have been using this for all kinds of fun purposes.
+p340
+aV(Laughter)
+p341
+aVActually, we're not going to have to talk,
+p342
+aVwe're just going to show you all the slides and remain silent.
+p343
+aVThis person was interested in the history of frustration.
+p344
+aVThere's various types of frustration.
+p345
+aVIf you stub your toe, that's a one A "argh."
+p346
+aVIf the planet Earth is annihilated by the Vogons
+p347
+aVto make room for an interstellar bypass,
+p348
+aVthat's an eight A "aaaaaaaargh."
+p349
+aVThis person studies all the "arghs,"
+p350
+aVfrom one through eight A's.
+p351
+aVAnd it turns out
+p352
+aVthat the less-frequent "arghs"
+p353
+aVare, of course, the ones that correspond to things that are more frustrating \u2014
+p354
+aVexcept, oddly, in the early 80s.
+p355
+aVWe think that might have something to do with Reagan.
+p356
+aa(lp357
+V(Laughter)
+p358
+aa(lp359
+VJM: There are many usages of this data,
+p360
+aVbut the bottom line is that the historical record is being digitized.
+p361
+aVGoogle has started to digitize 15 million books.
+p362
+aVThat's 12 percent of all the books that have ever been published.
+p363
+aVIt's a sizable chunk of human culture.
+p364
+aVThere's much more in culture: there's manuscripts, there newspapers,
+p365
+aVthere's things that are not text, like art and paintings.
+p366
+aVThese all happen to be on our computers,
+p367
+aVon computers across the world.
+p368
+aVAnd when that happens, that will transform the way we have
+p369
+aVto understand our past, our present and human culture.
+p370
+aa(lp371
+VThank you very much.
+p372
+aa(lp373
+V(Applause)
+p374
+aasS'transcript_micsec'
+p375
+(lp376
+I15000
+aI62000
+aI89000
+aI92000
+aI123000
+aI153000
+aI212000
+aI214000
+aI243000
+aI274000
+aI299000
+aI359000
+aI361000
+aI365000
+aI376000
+aI384000
+aI393000
+aI395000
+aI472000
+aI474000
+aI504000
+aI554000
+aI557000
+aI595000
+aI634000
+aI671000
+aI726000
+aI762000
+aI808000
+aI810000
+aI837000
+aI839000
+asS'talk_meta'
+p377
+(dp378
+S'ratings'
+p379
+(dp380
+S'ingenious'
+p381
+I605
+sS'funny'
+p382
+I958
+sS'inspiring'
+p383
+I189
+sS'ok'
+p384
+I126
+sS'fascinating'
+p385
+I848
+sS'total_count'
+p386
+I3991
+sS'persuasive'
+p387
+I62
+sS'longwinded'
+p388
+I67
+sS'informative'
+p389
+I694
+sS'beautiful'
+p390
+I44
+sS'jaw-dropping'
+p391
+I172
+sS'obnoxious'
+p392
+I78
+sS'confusing'
+p393
+I43
+sS'courageous'
+p394
+I32
+sS'unconvincing'
+p395
+I73
+ssS'author'
+p396
+VJean-Baptiste_Michel;Erez Lieberman_Aiden;
+p397
+sS'url'
+p398
+S'https://www.ted.com/talks/what_we_learned_from_5_million_books'
+p399
+sS'vidlen'
+p400
+I848
+sS'totalviews'
+p401
+I1791383
+sS'title'
+p402
+VWhat we learned from 5 million books
+p403
+sS'downloadlink'
+p404
+Vhttps://download.ted.com/talks/ErezLiebermanAiden_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p405
+sS'datepublished'
+p406
+cdatetime
+datetime
+p407
+(S'\x07\xdb\t\x14\x0b&8\x00\x00\x00'
+tRp408
+sS'datefilmed'
+p409
+g407
+(S'\x07\xdb\t\x14\x0b&8\x00\x00\x00'
+tRp410
+sS'alldata_JSON'
+p411
+S'{"viewed_count": 1791383, "speakers": [{"description": "Data researcher", "firstname": "Jean-Baptiste", "title": "", "lastname": "Michel", "middleinitial": "", "whylisten": "<p>Jean-Baptiste Michel holds joint academic appointments at Harvard (FQEB Fellow) and Google (Visiting Faculty). His research focusses on using large volumes of data as tools that help better understand the world around us -- from the way diseases progress in patients over years, to the way cultures change in human societies over centuries. With his colleague Erez Lieberman Aiden, Jean-Baptiste is a Founding Director of Harvard&#39;s Cultural Observatory, where their research team pioneers the use of quantitative methods for the study of human culture, language and history. His research was featured on the covers of <em>Science</em> and <em>Nature</em>, on the front pages of the <em>New York Times</em> and the <em>Boston Globe</em>, in <em>The Economist, Wired</em> and many other venues. The online tool he helped create -- <a href=\\"http://ngrams.googlelabs.com/\\" target=\\"_blank\\">ngrams.googlelabs.com</a>  -- was used millions of times to browse cultural trends. Jean-Baptiste is an Engineer from Ecole Polytechnique (Paris), and holds an MS in Applied Mathematics and a PhD in Systems Biology from Harvard. </p>", "slug": "jean_baptiste_michel", "whotheyare": "Jean-Baptiste Michel looks at how we can use large volumes of data to better understand our world.", "whatotherssay": "", "id": 1087, "photo_url": "https://pe.tedcdn.com/images/ted/21b51a2b8e78a17ed3145aed070ef5f5fdb40fd1_254x191.jpg"}, {"description": "Researcher", "firstname": "Erez Lieberman", "title": "", "lastname": "Aiden", "middleinitial": "", "whylisten": "<p>Erez Lieberman Aiden is a fellow at the Harvard Society of Fellows and Visiting Faculty at Google. His research spans many disciplines and has won numerous awards, including recognition for one of the top 20 &quot;Biotech Breakthroughs that will Change Medicine&quot;, by Popular Mechanics; the <a href=\\"http://web.mit.edu/invent/a-winners/a-lieberman-aiden.html\\" target=\\"_blank\\">Lemelson-MIT prize</a>  for the best student inventor at MIT; the American Physical Society&#39;s Award for the Best Doctoral Dissertation in Biological Physics; and membership in Technology Review&#39;s 2009 TR35, recognizing the top 35 innovators under 35. His last three papers -- two with <a href=\\"/speakers/jean_baptiste_michel.html\\" target=\\"_blank\\">JB Michel</a>  -- have all appeared on the cover of <em>Nature</em> and <em>Science</em>.</p>", "slug": "erez_lieberman_aiden", "whotheyare": "Erez Lieberman Aiden pursues a broad range of research interests, spanning genomics, linguistics, mathematics ...", "whatotherssay": "", "id": 1088, "photo_url": "https://pe.tedcdn.com/images/ted/497483e3a7d628f28c23a717b987e8b9a25b6dbd_254x191.jpg"}], "current_talk": 1227, "description": "Have you played with Google Labs\' Ngram Viewer? It\'s an addicting tool that lets you search for words and ideas in a database of 5 million books from across centuries. Erez Lieberman Aiden and Jean-Baptiste Michel show us how it works, and a few of the surprising things we can learn from 500 billion words.", "language": "en", "url": "https://www.ted.com/talks/what_we_learned_from_5_million_books", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 100668037}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19443272}, "podcast-high": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 100663521}, "180k": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19411898}, "64k": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6950339}, "1500k": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 156929700}, "450k": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48159575}, "podcast-regular": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48269551}, "950k": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 100802463}, "audio-podcast": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8778246}, "podcast-light": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7068156}, "320k": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34222491}, "600k": {"uri": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64039395}}}, "comments": {"count": 318, "id": 6956, "talk_id": 1227}, "slug": "what_we_learned_from_5_million_books", "threadId": 6956, "talks": [{"event": "TEDxBoston 2011", "player_talks": [{"event": "TEDxBoston 2011", "slug": "what_we_learned_from_5_million_books", "filmed": 1311465600, "targeting": {"event": "TEDxBoston 2011", "tag": "Google,TEDx,data,design,library,technology,visualizations,writing", "id": 1227, "talk": "what_we_learned_from_5_million_books", "year": "2011"}, "adDuration": "4.00", "external": null, "title": "What we learned from 5 million books", "postAdDuration": "0.83", "published": 1316533136, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7b2e7e2bac40b3ab6d040991f84b70e2b64a6613_800x600.jpg?quality=89&w=600", "name": "Jean-Baptiste Michel + Erez Lieberman Aiden: What we learned from 5 million books", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Google", "TEDx", "data", "design", "library", "technology", "visualizations", "writing"], "speaker": "Jean-Baptiste Michel + Erez Lieberman Aiden", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 848, "id": 1227, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxBoston 2011", "tag": "Google,TEDx,data,design,library,technology,visualizations,writing", "id": 1227, "talk": "what_we_learned_from_5_million_books", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1227.json", "stream": "https://hls.ted.com/talks/1227.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxBoston%2B2011%26id%3D1227%26tag%3DGoogle%2CTEDx%2Cdata%2Cdesign%2Clibrary%2Ctechnology%2Cvisualizations%2Cwriting%26talk%3Dwhat_we_learned_from_5_million_books%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/what_we_learned_from_5_million_books"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7b2e7e2bac40b3ab6d040991f84b70e2b64a6613_800x600.jpg?q=50&w=15", "duration": 848, "id": 1227, "ratings": [{"count": 32, "id": 3, "name": "Courageous"}, {"count": 78, "id": 26, "name": "Obnoxious"}, {"count": 73, "id": 21, "name": "Unconvincing"}, {"count": 67, "id": 11, "name": "Longwinded"}, {"count": 126, "id": 25, "name": "OK"}, {"count": 958, "id": 7, "name": "Funny"}, {"count": 694, "id": 8, "name": "Informative"}, {"count": 605, "id": 9, "name": "Ingenious"}, {"count": 189, "id": 10, "name": "Inspiring"}, {"count": 172, "id": 23, "name": "Jaw-dropping"}, {"count": 848, "id": 22, "name": "Fascinating"}, {"count": 43, "id": 2, "name": "Confusing"}, {"count": 44, "id": 1, "name": "Beautiful"}, {"count": 62, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Data researcher", "firstname": "Jean-Baptiste", "title": "", "lastname": "Michel", "middleinitial": "", "whylisten": "<p>Jean-Baptiste Michel holds joint academic appointments at Harvard (FQEB Fellow) and Google (Visiting Faculty). His research focusses on using large volumes of data as tools that help better understand the world around us -- from the way diseases progress in patients over years, to the way cultures change in human societies over centuries. With his colleague Erez Lieberman Aiden, Jean-Baptiste is a Founding Director of Harvard&#39;s Cultural Observatory, where their research team pioneers the use of quantitative methods for the study of human culture, language and history. His research was featured on the covers of <em>Science</em> and <em>Nature</em>, on the front pages of the <em>New York Times</em> and the <em>Boston Globe</em>, in <em>The Economist, Wired</em> and many other venues. The online tool he helped create -- <a href=\\"http://ngrams.googlelabs.com/\\" target=\\"_blank\\">ngrams.googlelabs.com</a>  -- was used millions of times to browse cultural trends. Jean-Baptiste is an Engineer from Ecole Polytechnique (Paris), and holds an MS in Applied Mathematics and a PhD in Systems Biology from Harvard. </p>", "slug": "jean_baptiste_michel", "whotheyare": "Jean-Baptiste Michel looks at how we can use large volumes of data to better understand our world.", "whatotherssay": "", "id": 1087, "photo_url": "https://pe.tedcdn.com/images/ted/21b51a2b8e78a17ed3145aed070ef5f5fdb40fd1_254x191.jpg"}, {"description": "Researcher", "firstname": "Erez Lieberman", "title": "", "lastname": "Aiden", "middleinitial": "", "whylisten": "<p>Erez Lieberman Aiden is a fellow at the Harvard Society of Fellows and Visiting Faculty at Google. His research spans many disciplines and has won numerous awards, including recognition for one of the top 20 &quot;Biotech Breakthroughs that will Change Medicine&quot;, by Popular Mechanics; the <a href=\\"http://web.mit.edu/invent/a-winners/a-lieberman-aiden.html\\" target=\\"_blank\\">Lemelson-MIT prize</a>  for the best student inventor at MIT; the American Physical Society&#39;s Award for the Best Doctoral Dissertation in Biological Physics; and membership in Technology Review&#39;s 2009 TR35, recognizing the top 35 innovators under 35. His last three papers -- two with <a href=\\"/speakers/jean_baptiste_michel.html\\" target=\\"_blank\\">JB Michel</a>  -- have all appeared on the cover of <em>Nature</em> and <em>Science</em>.</p>", "slug": "erez_lieberman_aiden", "whotheyare": "Erez Lieberman Aiden pursues a broad range of research interests, spanning genomics, linguistics, mathematics ...", "whatotherssay": "", "id": 1088, "photo_url": "https://pe.tedcdn.com/images/ted/497483e3a7d628f28c23a717b987e8b9a25b6dbd_254x191.jpg"}], "title": "What we learned from 5 million books", "take_action": null, "comments": 6956, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/7b2e7e2bac40b3ab6d040991f84b70e2b64a6613_800x600.jpg", "description": "Have you played with Google Labs\' Ngram Viewer? It\'s an addicting tool that lets you search for words and ideas in a database of 5 million books from across centuries. Erez Lieberman Aiden and Jean-Baptiste Michel show us how it works, and a few of the surprising things we can learn from 500 billion words.", "tags": ["Google", "TEDx", "data", "design", "library", "technology", "visualizations", "writing"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-fa.mp4"}, "bs": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-bs.mp4", "name": "Bosnian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-bs.mp4"}, "hu": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-sv.mp4"}, "mk": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ErezLiebermanAiden_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ErezLiebermanAiden_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1227, "audioDownload": "https://download.ted.com/talks/ErezLiebermanAiden_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 447940, "hero": "https://pe.tedcdn.com/images/ted/53153_480x360.jpg", "title": "A free digital library", "id": 346, "speaker": "Brewster Kahle", "duration": 1206, "slug": "brewster_kahle_builds_a_free_digital_library"}, {"viewed_count": 1481538, "hero": "https://pe.tedcdn.com/images/ted/1c3f327a456360b2846b9ee8f15788ef99f93dd8_800x600.jpg", "title": "Visualizing ourselves ... with crowd-sourced data", "id": 1152, "speaker": "Aaron Koblin", "duration": 1098, "slug": "aaron_koblin"}, {"viewed_count": 615100, "hero": "https://pe.tedcdn.com/images/ted/8fd3b09ba1c33ae535853952a86d240ea327ae2f_800x600.jpg", "title": "Building a museum of museums on the web", "id": 1144, "speaker": "Amit Sood", "duration": 335, "slug": "amit_sood_building_a_museum_of_museums_on_the_web"}, {"viewed_count": 1164806, "hero": "https://pe.tedcdn.com/images/ted/2ff057a4bb41b2246c65370cf104a8ffa0dfc75a_2880x1620.jpg", "title": "Old books reborn as art", "id": 2180, "speaker": "Brian Dettmer", "duration": 366, "slug": "brian_dettmer_old_books_reborn_as_intricate_art"}, {"viewed_count": 1454557, "hero": "https://pe.tedcdn.com/images/ted/f0492898d0b7658a39ac9348f555f11e936b5068_2880x1620.jpg", "title": "My year reading a book from every country in the world", "id": 2382, "speaker": "Ann Morgan", "duration": 723, "slug": "ann_morgan_my_year_reading_a_book_from_every_country_in_the_world"}, {"viewed_count": 1765831, "hero": "https://pe.tedcdn.com/images/ted/ec8292db13815de32529bf4568ce76b48a089bc5_2880x1620.jpg", "title": "Designing books is no laughing matter. OK, it is.", "id": 1410, "speaker": "Chip Kidd", "duration": 1036, "slug": "chip_kidd_designing_books_is_no_laughing_matter_ok_it_is"}], "recorded_at": "2011-07-24T00:00:00.000+00:00", "slug": "what_we_learned_from_5_million_books", "speaker_name": "Jean-Baptiste Michel + Erez Lieberman Aiden", "viewed_count": 1791383, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxBoston 2011, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxBoston 2011", "name": "Jean-Baptiste Michel + Erez Lieberman Aiden: What we learned from 5 million books"}'
+p412
+sS'keywords'
+p413
+(lp414
+VGoogle
+p415
+aVTEDx
+p416
+aVdata
+p417
+aVdesign
+p418
+aVlibrary
+p419
+aVtechnology
+p420
+aVvisualizations
+p421
+aVwriting
+p422
+asS'datecrawled'
+p423
+g407
+(S'\x07\xe1\n\x17\x01\x18(\r\x1e\xea'
+tRp424
+sS'id'
+p425
+I1227
+ss.

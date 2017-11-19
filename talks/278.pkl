@@ -1,0 +1,952 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VLast year, I told you the story, in seven minutes, of Project Orion,
+p5
+aVwhich was this very implausible technology
+p6
+aVthat technically could have worked,
+p7
+aVbut it had this one-year political window where it could have happened.
+p8
+aVSo it didn't happen. It was a dream that did not happen.
+p9
+aVThis year I'm going to tell you the story of the birth of digital computing.
+p10
+aVThis was a perfect introduction.
+p11
+aVAnd it's a story that did work. It did happen,
+p12
+aVand the machines are all around us.
+p13
+aVAnd it was a technology that was inevitable.
+p14
+aVIf the people I'm going to tell you the story about,
+p15
+aVif they hadn't done it, somebody else would have.
+p16
+aVSo, it was sort of the right idea at the right time.
+p17
+aa(lp18
+VThis is Barricelli's universe. This is the universe we live in now.
+p19
+aVIt's the universe in which these machines
+p20
+aVare now doing all these things, including changing biology.
+p21
+aVI'm starting the story with the first atomic bomb at Trinity,
+p22
+aVwhich was the Manhattan Project. It was a little bit like TED:
+p23
+aVit brought a whole lot of very smart people together.
+p24
+aVAnd three of the smartest people were
+p25
+aVStan Ulam, Richard Feynman and John von Neumann.
+p26
+aVAnd it was Von Neumann who said, after the bomb,
+p27
+aVhe was working on something much more important than bombs:
+p28
+aVhe's thinking about computers.
+p29
+aVSo, he wasn't only thinking about them; he built one. This is the machine he built.
+p30
+aa(lp31
+V(Laughter)
+p32
+aa(lp33
+VHe built this machine,
+p34
+aVand we had a beautiful demonstration of how this thing really works,
+p35
+aVwith these little bits. And it's an idea that goes way back.
+p36
+aVThe first person to really explain that
+p37
+aVwas Thomas Hobbes, who, in 1651,
+p38
+aVexplained how arithmetic and logic are the same thing,
+p39
+aVand if you want to do artificial thinking and artificial logic,
+p40
+aVyou can do it all with arithmetic.
+p41
+aVHe said you needed addition and subtraction.
+p42
+aVLeibniz, who came a little bit later \u2014 this is 1679 \u2014
+p43
+aVshowed that you didn't even need subtraction.
+p44
+aVYou could do the whole thing with addition.
+p45
+aVHere, we have all the binary arithmetic and logic
+p46
+aVthat drove the computer revolution.
+p47
+aVAnd Leibniz was the first person to really talk about building such a machine.
+p48
+aVHe talked about doing it with marbles,
+p49
+aVhaving gates and what we now call shift registers,
+p50
+aVwhere you shift the gates, drop the marbles down the tracks.
+p51
+aVAnd that's what all these machines are doing,
+p52
+aVexcept, instead of doing it with marbles,
+p53
+aVthey're doing it with electrons.
+p54
+aa(lp55
+VAnd then we jump to Von Neumann, 1945,
+p56
+aVwhen he sort of reinvents the whole same thing.
+p57
+aVAnd 1945, after the war, the electronics existed
+p58
+aVto actually try and build such a machine.
+p59
+aVSo June 1945 \u2014 actually, the bomb hasn't even been dropped yet \u2014
+p60
+aVand Von Neumann is putting together all the theory to actually build this thing,
+p61
+aVwhich also goes back to Turing,
+p62
+aVwho, before that, gave the idea that you could do all this
+p63
+aVwith a very brainless, little, finite state machine,
+p64
+aVjust reading a tape in and reading a tape out.
+p65
+aVThe other sort of genesis of what Von Neumann did
+p66
+aVwas the difficulty of how you would predict the weather.
+p67
+aVLewis Richardson saw how you could do this with a cellular array of people,
+p68
+aVgiving them each a little chunk, and putting it together.
+p69
+aVHere, we have an electrical model illustrating a mind having a will,
+p70
+aVbut capable of only two ideas.
+p71
+aa(lp72
+V(Laughter)
+p73
+aa(lp74
+VAnd that's really the simplest computer.
+p75
+aVIt's basically why you need the qubit,
+p76
+aVbecause it only has two ideas.
+p77
+aa(lp78
+VAnd you put lots of those together,
+p79
+aVyou get the essentials of the modern computer:
+p80
+aVthe arithmetic unit, the central control, the memory,
+p81
+aVthe recording medium, the input and the output.
+p82
+aVBut, there's one catch. This is the fatal \u2014 you know,
+p83
+aVwe saw it in starting these programs up.
+p84
+aVThe instructions which govern this operation
+p85
+aVmust be given in absolutely exhaustive detail.
+p86
+aVSo, the programming has to be perfect, or it won't work.
+p87
+aa(lp88
+VIf you look at the origins of this,
+p89
+aVthe classic history sort of takes it all back to the ENIAC here.
+p90
+aVBut actually, the machine I'm going to tell you about,
+p91
+aVthe Institute for Advanced Study machine, which is way up there,
+p92
+aVreally should be down there. So, I'm trying to revise history,
+p93
+aVand give some of these guys more credit than they've had.
+p94
+aVSuch a computer would open up universes,
+p95
+aVwhich are, at the present, outside the range of any instruments.
+p96
+aVSo it opens up a whole new world, and these people saw it.
+p97
+aVThe guy who was supposed to build this machine
+p98
+aVwas the guy in the middle, Vladimir Zworykin, from RCA.
+p99
+aVRCA, in probably one of the lousiest business decisions
+p100
+aVof all time, decided not to go into computers.
+p101
+aVBut the first meetings, November 1945, were at RCA's offices.
+p102
+aVRCA started this whole thing off, and said, you know,
+p103
+aVtelevisions are the future, not computers.
+p104
+aa(lp105
+VThe essentials were all there \u2014
+p106
+aVall the things that make these machines run.
+p107
+aVVon Neumann, and a logician, and a mathematician from the army
+p108
+aVput this together. Then, they needed a place to build it.
+p109
+aVWhen RCA said no, that's when they decided to build it in Princeton,
+p110
+aVwhere Freeman works at the Institute.
+p111
+aVThat's where I grew up as a kid.
+p112
+aVThat's me, that's my sister Esther, who's talked to you before,
+p113
+aVso we both go back to the birth of this thing.
+p114
+aVThat's Freeman, a long time ago,
+p115
+aVand that was me.
+p116
+aVAnd this is Von Neumann and Morgenstern,
+p117
+aVwho wrote the "Theory of Games."
+p118
+aVAll these forces came together there, in Princeton.
+p119
+aVOppenheimer, who had built the bomb.
+p120
+aVThe machine was actually used mainly for doing bomb calculations.
+p121
+aVAnd Julian Bigelow, who took
+p122
+aVZworkykin's place as the engineer, to actually figure out, using electronics,
+p123
+aVhow you would build this thing. The whole gang of people who came to work on this,
+p124
+aVand women in front, who actually did most of the coding, were the first programmers.
+p125
+aVThese were the prototype geeks, the nerds.
+p126
+aVThey didn't fit in at the Institute.
+p127
+aVThis is a letter from the director, concerned about \u2014
+p128
+aV"especially unfair on the matter of sugar."
+p129
+aa(lp130
+V(Laughter)
+p131
+aa(lp132
+VYou can read the text.
+p133
+aa(lp134
+V(Laughter)
+p135
+aa(lp136
+VThis is hackers getting in trouble for the first time.
+p137
+aa(lp138
+V(Laughter).
+p139
+aa(lp140
+VThese were not theoretical physicists.
+p141
+aVThey were real soldering-gun type guys, and they actually built this thing.
+p142
+aa(lp143
+VAnd we take it for granted now, that each of these machines
+p144
+aVhas billions of transistors, doing billions of cycles per second without failing.
+p145
+aVThey were using vacuum tubes, very narrow, sloppy techniques
+p146
+aVto get actually binary behavior out of these radio vacuum tubes.
+p147
+aVThey actually used 6J6, the common radio tube,
+p148
+aVbecause they found they were more reliable than the more expensive tubes.
+p149
+aVAnd what they did at the Institute was publish every step of the way.
+p150
+aVReports were issued, so that this machine was cloned
+p151
+aVat 15 other places around the world.
+p152
+aVAnd it really was. It was the original microprocessor.
+p153
+aVAll the computers now are copies of that machine.
+p154
+aVThe memory was in cathode ray tubes \u2014
+p155
+aVa whole bunch of spots on the face of the tube \u2014
+p156
+aVvery, very sensitive to electromagnetic disturbances.
+p157
+aVSo, there's 40 of these tubes,
+p158
+aVlike a V-40 engine running the memory.
+p159
+aa(lp160
+V(Laughter)
+p161
+aa(lp162
+VThe input and the output was by teletype tape at first.
+p163
+aVThis is a wire drive, using bicycle wheels.
+p164
+aVThis is the archetype of the hard disk that's in your machine now.
+p165
+aVThen they switched to a magnetic drum.
+p166
+aVThis is modifying IBM equipment,
+p167
+aVwhich is the origins of the whole data-processing industry, later at IBM.
+p168
+aVAnd this is the beginning of computer graphics.
+p169
+aVThe "Graph'g-Beam Turn On." This next slide,
+p170
+aVthat's the \u2014 as far as I know \u2014 the first digital bitmap display, 1954.
+p171
+aa(lp172
+VSo, Von Neumann was already off in a theoretical cloud,
+p173
+aVdoing abstract sorts of studies of how you could build
+p174
+aVreliable machines out of unreliable components.
+p175
+aVThose guys drinking all the tea with sugar in it
+p176
+aVwere writing in their logbooks, trying to get this thing to work, with all
+p177
+aVthese 2,600 vacuum tubes that failed half the time.
+p178
+aVAnd that's what I've been doing, this last six months, is going through the logs.
+p179
+aV"Running time: two minutes. Input, output: 90 minutes."
+p180
+aVThis includes a large amount of human error.
+p181
+aVSo they are always trying to figure out, what's machine error? What's human error?
+p182
+aVWhat's code, what's hardware?
+p183
+aa(lp184
+VThat's an engineer gazing at tube number 36,
+p185
+aVtrying to figure out why the memory's not in focus.
+p186
+aVHe had to focus the memory \u2014 seems OK.
+p187
+aVSo, he had to focus each tube just to get the memory up and running,
+p188
+aVlet alone having, you know, software problems.
+p189
+aa(lp190
+V"No use, went home." (Laughter)
+p191
+aa(lp192
+V"Impossible to follow the damn thing, where's a directory?"
+p193
+aa(lp194
+VSo, already, they're complaining about the manuals:
+p195
+aV"before closing down in disgust ... "
+p196
+aa(lp197
+V"The General Arithmetic: Operating Logs."
+p198
+aVBurning lots of midnight oil.
+p199
+aa(lp200
+V"MANIAC," which became the acronym for the machine,
+p201
+aVMathematical and Numerical Integrator and Calculator, "lost its memory."
+p202
+aa(lp203
+V"MANIAC regained its memory, when the power went off." "Machine or human?"
+p204
+aa(lp205
+V"Aha!" So, they figured out it's a code problem.
+p206
+aa(lp207
+V"Found trouble in code, I hope."
+p208
+aa(lp209
+V"Code error, machine not guilty."
+p210
+aa(lp211
+V"Damn it, I can be just as stubborn as this thing."
+p212
+aa(lp213
+V(Laughter)
+p214
+aa(lp215
+V"And the dawn came." So they ran all night.
+p216
+aVTwenty-four hours a day, this thing was running, mainly running bomb calculations.
+p217
+aa(lp218
+V"Everything up to this point is wasted time." "What's the use? Good night."
+p219
+aa(lp220
+V"Master control off. The hell with it. Way off." (Laughter)
+p221
+aa(lp222
+V"Something's wrong with the air conditioner \u2014
+p223
+aVsmell of burning V-belts in the air."
+p224
+aa(lp225
+V"A short \u2014 do not turn the machine on."
+p226
+aa(lp227
+V"IBM machine putting a tar-like substance on the cards. The tar is from the roof."
+p228
+aVSo they really were working under tough conditions.
+p229
+aa(lp230
+V(Laughter)
+p231
+aa(lp232
+VHere, "A mouse has climbed into the blower
+p233
+aVbehind the regulator rack, set blower to vibrating. Result: no more mouse."
+p234
+aa(lp235
+V(Laughter)
+p236
+aa(lp237
+V"Here lies mouse. Born: ?. Died: 4:50 a.m., May 1953."
+p238
+aa(lp239
+V(Laughter)
+p240
+aa(lp241
+VThere's an inside joke someone has penciled in:
+p242
+aV"Here lies Marston Mouse."
+p243
+aVIf you're a mathematician, you get that,
+p244
+aVbecause Marston was a mathematician who
+p245
+aVobjected to the computer being there.
+p246
+aa(lp247
+V"Picked a lightning bug off the drum." "Running at two kilocycles."
+p248
+aVThat's two thousand cycles per second \u2014
+p249
+aV"yes, I'm chicken" \u2014 so two kilocycles was slow speed.
+p250
+aVThe high speed was 16 kilocycles.
+p251
+aVI don't know if you remember a Mac that was 16 Megahertz,
+p252
+aVthat's slow speed.
+p253
+aa(lp254
+V"I have now duplicated both results.
+p255
+aVHow will I know which is right, assuming one result is correct?
+p256
+aVThis now is the third different output.
+p257
+aVI know when I'm licked."
+p258
+aa(lp259
+V(Laughter)
+p260
+aa(lp261
+V"We've duplicated errors before."
+p262
+aa(lp263
+V"Machine run, fine. Code isn't."
+p264
+aa(lp265
+V"Only happens when the machine is running."
+p266
+aa(lp267
+VAnd sometimes things are okay.
+p268
+aV"Machine a thing of beauty, and a joy forever." "Perfect running."
+p269
+aa(lp270
+V"Parting thought: when there's bigger and better errors, we'll have them."
+p271
+aa(lp272
+VSo, nobody was supposed to know they were actually designing bombs.
+p273
+aVThey're designing hydrogen bombs. But someone in the logbook,
+p274
+aVlate one night, finally drew a bomb.
+p275
+aVSo, that was the result. It was Mike,
+p276
+aVthe first thermonuclear bomb, in 1952.
+p277
+aVThat was designed on that machine,
+p278
+aVin the woods behind the Institute.
+p279
+aa(lp280
+VSo Von Neumann invited a whole gang of weirdos
+p281
+aVfrom all over the world to work on all these problems.
+p282
+aVBarricelli, he came to do what we now call, really, artificial life,
+p283
+aVtrying to see if, in this artificial universe \u2014
+p284
+aVhe was a viral-geneticist, way, way, way ahead of his time.
+p285
+aVHe's still ahead of some of the stuff that's being done now.
+p286
+aVTrying to start an artificial genetic system running in the computer.
+p287
+aVBegan \u2014 his universe started March 3, '53.
+p288
+aVSo it's almost exactly \u2014 it's 50 years ago next Tuesday, I guess.
+p289
+aVAnd he saw everything in terms of \u2014
+p290
+aVhe could read the binary code straight off the machine.
+p291
+aVHe had a wonderful rapport.
+p292
+aVOther people couldn't get the machine running. It always worked for him.
+p293
+aVEven errors were duplicated.
+p294
+aa(lp295
+V(Laughter)
+p296
+aa(lp297
+V"Dr. Barricelli claims machine is wrong, code is right."
+p298
+aa(lp299
+VSo he designed this universe, and ran it.
+p300
+aVWhen the bomb people went home, he was allowed in there.
+p301
+aVHe would run that thing all night long, running these things,
+p302
+aVif anybody remembers Stephen Wolfram,
+p303
+aVwho reinvented this stuff.
+p304
+aVAnd he published it. It wasn't locked up and disappeared.
+p305
+aVIt was published in the literature.
+p306
+aV"If it's that easy to create living organisms, why not create a few yourself?"
+p307
+aVSo, he decided to give it a try,
+p308
+aVto start this artificial biology going in the machines.
+p309
+aVAnd he found all these, sort of \u2014
+p310
+aVit was like a naturalist coming in
+p311
+aVand looking at this tiny, 5,000-byte universe,
+p312
+aVand seeing all these things happening
+p313
+aVthat we see in the outside world, in biology.
+p314
+aVThis is some of the generations of his universe.
+p315
+aVBut they're just going to stay numbers;
+p316
+aVthey're not going to become organisms.
+p317
+aVThey have to have something.
+p318
+aVYou have a genotype and you have to have a phenotype.
+p319
+aVThey have to go out and do something. And he started doing that,
+p320
+aVstarted giving these little numerical organisms things they could play with \u2014
+p321
+aVplaying chess with other machines and so on.
+p322
+aVAnd they did start to evolve.
+p323
+aVAnd he went around the country after that.
+p324
+aVEvery time there was a new, fast machine, he started using it,
+p325
+aVand saw exactly what's happening now.
+p326
+aVThat the programs, instead of being turned off \u2014 when you quit the program,
+p327
+aVyou'd keep running
+p328
+aVand, basically, all the sorts of things like Windows is doing,
+p329
+aVrunning as a multi-cellular organism on many machines,
+p330
+aVhe envisioned all that happening.
+p331
+aVAnd he saw that evolution itself was an intelligent process.
+p332
+aVIt wasn't any sort of creator intelligence,
+p333
+aVbut the thing itself was a giant parallel computation
+p334
+aVthat would have some intelligence.
+p335
+aVAnd he went out of his way to say
+p336
+aVthat he was not saying this was lifelike,
+p337
+aVor a new kind of life.
+p338
+aVIt just was another version of the same thing happening.
+p339
+aVAnd there's really no difference between what he was doing in the computer
+p340
+aVand what nature did billions of years ago.
+p341
+aVAnd could you do it again now?
+p342
+aa(lp343
+VSo, when I went into these archives looking at this stuff, lo and behold,
+p344
+aVthe archivist came up one day, saying,
+p345
+aV"I think we found another box that had been thrown out."
+p346
+aVAnd it was his universe on punch cards.
+p347
+aVSo there it is, 50 years later, sitting there \u2014 sort of suspended animation.
+p348
+aVThat's the instructions for running \u2014
+p349
+aVthis is actually the source code
+p350
+aVfor one of those universes,
+p351
+aVwith a note from the engineers
+p352
+aVsaying they're having some problems.
+p353
+aV"There must be something about this code that you haven't explained yet."
+p354
+aVAnd I think that's really the truth. We still don't understand
+p355
+aVhow these very simple instructions can lead to increasing complexity.
+p356
+aVWhat's the dividing line between
+p357
+aVwhen that is lifelike and when it really is alive?
+p358
+aVThese cards, now, thanks to me showing up, are being saved.
+p359
+aVAnd the question is, should we run them or not?
+p360
+aVYou know, could we get them running?
+p361
+aVDo you want to let it loose on the Internet?
+p362
+aVThese machines would think they \u2014
+p363
+aVthese organisms, if they came back to life now \u2014
+p364
+aVwhether they've died and gone to heaven, there's a universe.
+p365
+aVMy laptop is 10 thousand million times
+p366
+aVthe size of the universe that they lived in when Barricelli quit the project.
+p367
+aa(lp368
+VHe was thinking far ahead, to
+p369
+aVhow this would really grow into a new kind of life.
+p370
+aVAnd that's what's happening!
+p371
+aVWhen Juan Enriquez told us about
+p372
+aVthese 12 trillion bits being transferred back and forth,
+p373
+aVof all this genomics data going to the proteomics lab,
+p374
+aVthat's what Barricelli imagined:
+p375
+aVthat this digital code in these machines
+p376
+aVis actually starting to code \u2014
+p377
+aVit already is coding from nucleic acids.
+p378
+aVWe've been doing that since, you know, since we started PCR
+p379
+aVand synthesizing small strings of DNA.
+p380
+aVAnd real soon, we're actually going to be synthesizing the proteins,
+p381
+aVand, like Steve showed us, that just opens an entirely new world.
+p382
+aa(lp383
+VIt's a world that Von Neumann himself envisioned.
+p384
+aVThis was published after he died: his sort of unfinished notes
+p385
+aVon self-reproducing machines,
+p386
+aVwhat it takes to get the machines sort of jump-started
+p387
+aVto where they begin to reproduce.
+p388
+aVIt took really three people:
+p389
+aVBarricelli had the concept of the code as a living thing;
+p390
+aVVon Neumann saw how you could build the machines \u2014
+p391
+aVthat now, last count, four million
+p392
+aVof these Von Neumann machines is built every 24 hours;
+p393
+aVand Julian Bigelow, who died 10 days ago \u2014
+p394
+aVthis is John Markoff's obituary for him \u2014
+p395
+aVhe was the important missing link,
+p396
+aVthe engineer who came in
+p397
+aVand knew how to put those vacuum tubes together and make it work.
+p398
+aVAnd all our computers have, inside them,
+p399
+aVthe copies of the architecture that he had to just design
+p400
+aVone day, sort of on pencil and paper.
+p401
+aVAnd we owe a tremendous credit to that.
+p402
+aVAnd he explained, in a very generous way,
+p403
+aVthe spirit that brought all these different people to
+p404
+aVthe Institute for Advanced Study in the '40s to do this project,
+p405
+aVand make it freely available with no patents, no restrictions,
+p406
+aVno intellectual property disputes to the rest of the world.
+p407
+aa(lp408
+VThat's the last entry in the logbook
+p409
+aVwhen the machine was shut down, July 1958.
+p410
+aVAnd it's Julian Bigelow who was running it until midnight
+p411
+aVwhen the machine was officially turned off.
+p412
+aVAnd that's the end.
+p413
+aa(lp414
+VThank you very much.
+p415
+aa(lp416
+V(Applause)
+p417
+aasS'transcript_micsec'
+p418
+(lp419
+I15000
+aI54000
+aI93000
+aI97000
+aI153000
+aI204000
+aI205000
+aI212000
+aI237000
+aI285000
+aI355000
+aI356000
+aI357000
+aI363000
+aI367000
+aI372000
+aI379000
+aI432000
+aI433000
+aI466000
+aI500000
+aI513000
+aI515000
+aI518000
+aI524000
+aI529000
+aI534000
+aI540000
+aI543000
+aI545000
+aI548000
+aI551000
+aI556000
+aI562000
+aI567000
+aI571000
+aI576000
+aI578000
+aI585000
+aI586000
+aI592000
+aI597000
+aI604000
+aI605000
+aI615000
+aI632000
+aI642000
+aI644000
+aI646000
+aI649000
+aI651000
+aI659000
+aI663000
+aI679000
+aI723000
+aI724000
+aI727000
+aI840000
+aI910000
+aI954000
+aI1021000
+aI1034000
+aI1036000
+asS'talk_meta'
+p420
+(dp421
+S'ratings'
+p422
+(dp423
+S'ingenious'
+p424
+I41
+sS'funny'
+p425
+I132
+sS'inspiring'
+p426
+I100
+sS'ok'
+p427
+I67
+sS'fascinating'
+p428
+I320
+sS'total_count'
+p429
+I1293
+sS'persuasive'
+p430
+I10
+sS'longwinded'
+p431
+I41
+sS'informative'
+p432
+I412
+sS'beautiful'
+p433
+I38
+sS'jaw-dropping'
+p434
+I55
+sS'obnoxious'
+p435
+I8
+sS'confusing'
+p436
+I31
+sS'courageous'
+p437
+I10
+sS'unconvincing'
+p438
+I28
+ssS'author'
+p439
+VGeorge_Dyson;
+p440
+sS'url'
+p441
+S'https://www.ted.com/talks/george_dyson_at_the_birth_of_the_computer'
+p442
+sS'vidlen'
+p443
+I1038
+sS'totalviews'
+p444
+I842368
+sS'title'
+p445
+VThe birth of the computer
+p446
+sS'downloadlink'
+p447
+Vhttps://download.ted.com/talks/GeorgeDyson_2003.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p448
+sS'datepublished'
+p449
+cdatetime
+datetime
+p450
+(S'\x07\xd8\x06\x0f\x10:\x00\x00\x00\x00'
+tRp451
+sS'datefilmed'
+p452
+g450
+(S'\x07\xd8\x06\x0f\x10:\x00\x00\x00\x00'
+tRp453
+sS'alldata_JSON'
+p454
+S'{"viewed_count": 842368, "speakers": [{"description": "Historian of science", "firstname": "George", "title": "", "lastname": "Dyson", "middleinitial": "", "whylisten": "<p>The development of the Aleutian kayak, its adaptation by Russians in the 18th and 19th centuries, and his own redevelopment of the craft  in the 1970s was chronicled in George Dyson&rsquo;s<em> <a href=\\"http://geni.us/baidarka\\">Baidarka: The Kayak</a></em> of 1986. His 1997 <a href=\\"http://geni.us/darwinamongmachines\\"><em>Darwin Among the Machines: The Evolution of Global Intelligence</em></a> (&ldquo;the last book about the Internet written without the Internet&rdquo;) explored the history and prehistory of digital computing and telecommunications as a manifestation of the convergent destiny of organisms and machines.  </p><p><em><a href=\\"http://geni.us/projectorion\\">Project Orion: The True Story of the Atomic Spaceship</a>,</em> published in 2002, assembled first-person interviews and recently declassified documents to tell the story of a path not taken into space: a nuclear-powered spaceship whose objective was to land a party of 100 people on Mars four years before we landed two people on the Moon. <a href=\\"http://geni.us/turingscathedral\\"><em>Turing&#39;s Cathedral: The Origins of the Digital Universe</em></a>, published in 2012, illuminated the transition from numbers that mean things to numbers that do things in the aftermath of World War II.  </p><p>Dyson&rsquo;s current project, <em>Analogia</em>, is a semi-autobiographical reflection on how analog computation is re-establishing control over the digital world.</p>", "slug": "george_dyson", "whotheyare": "In telling stories of technologies and the individuals who created them, George Dyson takes a clear-eyed view of our scientific past -- while illuminating what lies ahead.", "whatotherssay": "", "id": 197, "photo_url": "https://pe.tedcdn.com/images/ted/30167_254x191.jpg"}], "current_talk": 278, "description": "Historian George Dyson tells stories from the birth of the modern computer -- from its 17th-century origins to the hilarious notebooks of some early computer engineers.", "language": "en", "url": "https://www.ted.com/talks/george_dyson_at_the_birth_of_the_computer", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124025150}, "podcast-low-en": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23907251}, "podcast-high": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 123992942}, "180k": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23844500}, "64k": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8532931}, "1500k": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 193281970}, "450k": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59048297}, "podcast-regular": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59278271}, "950k": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 123836437}, "podcast-light": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8784465}, "320k": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42037601}, "600k": {"uri": "https://download.ted.com/talks/GeorgeDyson_2003-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78625480}}}, "comments": {"count": 85, "id": 252, "talk_id": 278}, "slug": "george_dyson_at_the_birth_of_the_computer", "threadId": 252, "talks": [{"event": "TED2003", "player_talks": [{"event": "TED2003", "slug": "george_dyson_at_the_birth_of_the_computer", "filmed": 1046649600, "targeting": {"event": "TED2003", "tag": "computers,engineering,history,library,military,science,software,technology", "id": 278, "talk": "george_dyson_at_the_birth_of_the_computer", "year": "2003"}, "adDuration": "4.00", "external": null, "title": "The birth of the computer", "postAdDuration": "0.83", "published": 1213563480, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/45621_480x360.jpg?quality=89&w=600", "name": "George Dyson: The birth of the computer", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["computers", "engineering", "history", "library", "military", "science", "software", "technology"], "speaker": "George Dyson", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 1038, "id": 278, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/GeorgeDyson_2003-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2003", "tag": "computers,engineering,history,library,military,science,software,technology", "id": 278, "talk": "george_dyson_at_the_birth_of_the_computer", "year": "2003"}, "metadata": "https://hls.ted.com/talks/278.json", "stream": "https://hls.ted.com/talks/278.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2003%26id%3D278%26tag%3Dcomputers%2Cengineering%2Chistory%2Clibrary%2Cmilitary%2Cscience%2Csoftware%2Ctechnology%26talk%3Dgeorge_dyson_at_the_birth_of_the_computer%26year%3D2003&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/george_dyson_at_the_birth_of_the_computer"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/45621_480x360.jpg?q=50&w=15", "duration": 1038, "id": 278, "ratings": [{"count": 412, "id": 8, "name": "Informative"}, {"count": 320, "id": 22, "name": "Fascinating"}, {"count": 132, "id": 7, "name": "Funny"}, {"count": 67, "id": 25, "name": "OK"}, {"count": 41, "id": 11, "name": "Longwinded"}, {"count": 28, "id": 21, "name": "Unconvincing"}, {"count": 31, "id": 2, "name": "Confusing"}, {"count": 41, "id": 9, "name": "Ingenious"}, {"count": 38, "id": 1, "name": "Beautiful"}, {"count": 100, "id": 10, "name": "Inspiring"}, {"count": 55, "id": 23, "name": "Jaw-dropping"}, {"count": 10, "id": 24, "name": "Persuasive"}, {"count": 10, "id": 3, "name": "Courageous"}, {"count": 8, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Historian of science", "firstname": "George", "title": "", "lastname": "Dyson", "middleinitial": "", "whylisten": "<p>The development of the Aleutian kayak, its adaptation by Russians in the 18th and 19th centuries, and his own redevelopment of the craft  in the 1970s was chronicled in George Dyson&rsquo;s<em> <a href=\\"http://geni.us/baidarka\\">Baidarka: The Kayak</a></em> of 1986. His 1997 <a href=\\"http://geni.us/darwinamongmachines\\"><em>Darwin Among the Machines: The Evolution of Global Intelligence</em></a> (&ldquo;the last book about the Internet written without the Internet&rdquo;) explored the history and prehistory of digital computing and telecommunications as a manifestation of the convergent destiny of organisms and machines.  </p><p><em><a href=\\"http://geni.us/projectorion\\">Project Orion: The True Story of the Atomic Spaceship</a>,</em> published in 2002, assembled first-person interviews and recently declassified documents to tell the story of a path not taken into space: a nuclear-powered spaceship whose objective was to land a party of 100 people on Mars four years before we landed two people on the Moon. <a href=\\"http://geni.us/turingscathedral\\"><em>Turing&#39;s Cathedral: The Origins of the Digital Universe</em></a>, published in 2012, illuminated the transition from numbers that mean things to numbers that do things in the aftermath of World War II.  </p><p>Dyson&rsquo;s current project, <em>Analogia</em>, is a semi-autobiographical reflection on how analog computation is re-establishing control over the digital world.</p>", "slug": "george_dyson", "whotheyare": "In telling stories of technologies and the individuals who created them, George Dyson takes a clear-eyed view of our scientific past -- while illuminating what lies ahead.", "whatotherssay": "", "id": 197, "photo_url": "https://pe.tedcdn.com/images/ted/30167_254x191.jpg"}], "title": "The birth of the computer", "take_action": null, "comments": 252, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/45621_480x360.jpg", "description": "Historian George Dyson tells stories from the birth of the modern computer -- from its 17th-century origins to the hilarious notebooks of some early computer engineers.", "tags": ["computers", "engineering", "history", "library", "military", "science", "software", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-pt-br.mp4"}, "et": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-et.mp4", "name": "Estonian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-et.mp4"}, "es": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/GeorgeDyson_2003-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/GeorgeDyson_2003-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/GeorgeDyson_2003.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/GeorgeDyson_2003-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 278, "audioDownload": null}, "related_talks": [{"viewed_count": 1369000, "hero": "https://pe.tedcdn.com/images/ted/84760000a82ad48289066aeca95e7a776e8f39ef_1200x900.jpg", "title": "The next 5,000 days of the web", "id": 319, "speaker": "Kevin Kelly", "duration": 1174, "slug": "kevin_kelly_on_the_next_5_000_days_of_the_web"}, {"viewed_count": 1532308, "hero": "https://pe.tedcdn.com/images/ted/c77755451ad53291f2891f27dcfde0456292b010_2880x1620.jpg", "title": "How we discovered DNA", "id": 35, "speaker": "James Watson", "duration": 1211, "slug": "james_watson_on_how_he_discovered_dna"}, {"viewed_count": 977631, "hero": "https://pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg", "title": "5 predictions, from 1984", "id": 230, "speaker": "Nicholas Negroponte", "duration": 1523, "slug": "nicholas_negroponte_in_1984_makes_5_predictions"}, {"viewed_count": 1189140, "hero": "https://pe.tedcdn.com/images/ted/32523988c84d9ac1c584b65e634335c238768afe_1600x1200.jpg", "title": "The greatest machine that never was", "id": 1517, "speaker": "John Graham-Cumming", "duration": 734, "slug": "john_graham_cumming_the_greatest_machine_that_never_was"}, {"viewed_count": 1133282, "hero": "https://pe.tedcdn.com/images/ted/0d28c4301c3c7ed0a3790e31231e71e1469524e6_2880x1620.jpg", "title": "Don\'t fear intelligent machines. Work with them", "id": 2787, "speaker": "Garry Kasparov", "duration": 920, "slug": "garry_kasparov_don_t_fear_intelligent_machines_work_with_them"}, {"viewed_count": 1966713, "hero": "https://pe.tedcdn.com/images/ted/7435561605a12023707d418b73c64ccb7d465783_2880x1620.jpg", "title": "The jobs we\'ll lose to machines -- and the ones we won\'t", "id": 2548, "speaker": "Anthony Goldbloom", "duration": 276, "slug": "anthony_goldbloom_the_jobs_we_ll_lose_to_machines_and_the_ones_we_won_t"}], "recorded_at": "2003-03-03T00:00:00.000+00:00", "slug": "george_dyson_at_the_birth_of_the_computer", "speaker_name": "George Dyson", "viewed_count": 842368, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2003", "name": "George Dyson: The birth of the computer"}'
+p455
+sS'keywords'
+p456
+(lp457
+Vcomputers
+p458
+aVengineering
+p459
+aVhistory
+p460
+aVlibrary
+p461
+aVmilitary
+p462
+aVscience
+p463
+aVsoftware
+p464
+aVtechnology
+p465
+asS'datecrawled'
+p466
+g450
+(S'\x07\xe1\n\x17\x04\x03\x14\x00\xdbS'
+tRp467
+sS'id'
+p468
+I278
+ss.

@@ -1,0 +1,542 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+V(Rainforest noises)
+p5
+aa(lp6
+VIn the summer of 2011, as a tourist,
+p7
+aVI visited the rainforests of Borneo for the very first time,
+p8
+aVand as you might imagine,
+p9
+aVit was the overwhelming sounds of the forest that struck me the most.
+p10
+aVThere's this constant cacophony of noise.
+p11
+aVSome things actually do stick out.
+p12
+aVFor example, this here is a big bird, a rhinoceros hornbill.
+p13
+aVThis buzzing is a cicada.
+p14
+aVThis is a family of gibbons.
+p15
+aVIt's actually singing to each other over a great distance.
+p16
+aa(lp17
+VThe place where this was recorded was in fact a gibbon reserve,
+p18
+aVwhich is why you can hear so many of them,
+p19
+aVbut in fact the most important noise that  was coming out of the forest that time
+p20
+aVwas one that I didn't notice,
+p21
+aVand in fact nobody there had actually noticed it.
+p22
+aa(lp23
+VSo, as I said, this was a gibbon reserve.
+p24
+aVThey spend most of their time rehabilitating gibbons,
+p25
+aVbut they also have to spend a lot of their time
+p26
+aVprotecting their area from illegal logging that takes place on the side.
+p27
+aVAnd so if we take the sound of the forest
+p28
+aVand we actually turn down the gibbons, the insects, and the rest,
+p29
+aVin the background, the entire time, in recordings you heard,
+p30
+aVwas the sound of a chainsaw at great distance.
+p31
+aVThey had three full-time guards who were posted around this sanctuary
+p32
+aVwhose job was in fact to guard against illegal logging,
+p33
+aVand one day, we went walking, again as tourists, out into the forest,
+p34
+aVand within five minutes' walk,
+p35
+aVwe stumbled upon somebody who was just sawing a tree down,
+p36
+aVfive minutes' walk, a few hundred meters from the ranger station.
+p37
+aVThey hadn't been able to hear the chainsaws,
+p38
+aVbecause as you heard, the forest is very, very loud.
+p39
+aa(lp40
+VIt struck me as quite unacceptable that in this modern time,
+p41
+aVjust a few hundred meters away  from a ranger station in a sanctuary,
+p42
+aVthat in fact nobody could hear it when someone who has a chainsaw gets fired up.
+p43
+aVIt sounds impossible, but in fact, it was quite true.
+p44
+aa(lp45
+VSo how do we stop illegal logging?
+p46
+aVIt's really tempting, as an engineer, always to come up with a high-tech,
+p47
+aVsuper-crazy high-tech solution,
+p48
+aVbut in fact, you're in the rainforest.
+p49
+aVIt has to be simple, it has to be scalable,
+p50
+aVand so what we also noticed while were there was that
+p51
+aVeverything we needed was already there.
+p52
+aVWe could build a system that would allow us to stop this
+p53
+aVusing what's already there.
+p54
+aa(lp55
+VWho was there? What was  already in the forest?
+p56
+aVWell, we had people.
+p57
+aVWe had this group there that was  dedicated, three full-time guards,
+p58
+aVthat was dedicated to go and stop it,
+p59
+aVbut they just needed to know what was happening out in the forest.
+p60
+aVThe real surprise, this is the big one,
+p61
+aVwas that there was connectivity out in the forest.
+p62
+aVThere was cell phone service way out in the middle of nowhere.
+p63
+aVWe're talking hundreds of kilometers from the nearest road,
+p64
+aVthere's certainly no electricity, but they had very good cell phone service,
+p65
+aVthese people in the towns were on Facebook all the time,
+p66
+aVthey're surfing the web on their phones,
+p67
+aVand this sort of got me thinking that in fact it would be possible
+p68
+aVto use the sounds of the forest,
+p69
+aVpick up the sounds  of chainsaws programmatically,
+p70
+aVbecause people can't hear them,
+p71
+aVand send an alert.
+p72
+aVBut you have to have a device to go up in the trees.
+p73
+aVSo if we can use some device to listen to the sounds of the forest,
+p74
+aVconnect to the cell phone network that's there,
+p75
+aVand send an alert to people on the ground,
+p76
+aVperhaps we could have a solution to this issue for them.
+p77
+aa(lp78
+VBut let's take a moment to talk about saving the rainforest,
+p79
+aVbecause it's something that we've definitely all heard about forever.
+p80
+aVPeople in my generation have heard about saving the rainforest
+p81
+aVsince we were kids,
+p82
+aVand it seems that the message has never changed:
+p83
+aVWe've got to save the rainforest, it's super urgent,
+p84
+aVthis many football fields have been destroyed yesterday.
+p85
+aVand yet here we are today, about half of the rainforest remains,
+p86
+aVand we have potentially more urgent  problems like climate change.
+p87
+aa(lp88
+VBut in fact, this is the little-known fact that I didn't realize at the time:
+p89
+aVDeforestation accounts  for more greenhouse gas
+p90
+aVthan all of the world's planes, trains, cars, trucks and ships combined.
+p91
+aVIt's the second highest contributor to climate change.
+p92
+aVAlso, according to Interpol,
+p93
+aVas much as 90 percent of the logging that takes place in the rainforest
+p94
+aVis illegal logging, like the illegal logging that we saw.
+p95
+aVSo if we can help people in the forest enforce the rules that are there,
+p96
+aVthen in fact we could eat heavily into this 17 percent
+p97
+aVand potentially have a major impact in the short term.
+p98
+aVIt might just be the cheapest, fastest way to fight climate change.
+p99
+aa(lp100
+VAnd so here's the system that we imagine.
+p101
+aVIt looks super high tech.
+p102
+aVThe moment a sound of a chainsaw is heard in the forest,
+p103
+aVthe device picks up the sound of the chainsaw,
+p104
+aVit sends an alert through the standard GSM network that's already there
+p105
+aVto a ranger in the field
+p106
+aVwho can in fact show up in real time and stop the logging.
+p107
+aVIt's no more about going out and finding a tree that's been cut.
+p108
+aVIt's not about seeing  a tree from a satellite
+p109
+aVin an area that's been clear cut,
+p110
+aVit's about real-time intervention.
+p111
+aa(lp112
+VSo I said it was the cheapest and fastest way to do it,
+p113
+aVbut in fact, actually, as you saw, they weren't able to do it,
+p114
+aVso it may not be so cheap and fast.
+p115
+aVBut if the devices in the trees were actually cell phones,
+p116
+aVit could be pretty cheap.
+p117
+aVCell phones are thrown away by the hundreds of millions every year,
+p118
+aVhundreds of millions in the U.S. alone,
+p119
+aVnot counting the rest of the world, which of course we should do,
+p120
+aVbut in fact, cell phones are great.
+p121
+aVThey're full of sensors.
+p122
+aVThey can listen to the sounds of the forest.
+p123
+aVWe do have to protect them.
+p124
+aVWe have to put them in this box that you see here,
+p125
+aVand we do have to power them.
+p126
+aVPowering them is one of the greater engineering challenges
+p127
+aVthat we had to deal with,
+p128
+aVbecause powering a cell phone under a tree canopy,
+p129
+aVany sort of solar power under a tree canopy,
+p130
+aVwas an as-yet-unsolved problem,
+p131
+aVand that's this unique solar panel design that you see here,
+p132
+aVwhich in fact is built also from recycled byproducts of an industrial process.
+p133
+aVThese are strips that are cut down.
+p134
+aa(lp135
+VSo this is me putting it all together
+p136
+aVin my parents' garage, actually.
+p137
+aVThanks very much to them for allowing me to do that.
+p138
+aVAs you can see, this is a device up in a tree.
+p139
+aVWhat you can see from here, perhaps, is that they are pretty well obscured
+p140
+aVup in the tree canopy at a distance.
+p141
+aVThat's important, because although they are able to hear chainsaw noises
+p142
+aVup to a kilometer in the distance,
+p143
+aVallowing them to cover about three square kilometers,
+p144
+aVif someone were to take them, it would make the area unprotected.
+p145
+aa(lp146
+VSo does it actually work?
+p147
+aVWell, to test it, we took it back to Indonesia,
+p148
+aVnot the same place, but another place,
+p149
+aVto another gibbon reserve
+p150
+aVthat was threatened daily by illegal logging.
+p151
+aVOn the very second day, it picked up illegal chainsaw noises.
+p152
+aVWe were able to get a real-time alert.
+p153
+aVI got an email on my phone.
+p154
+aVActually, we had just climbed the tree. Everyone had just gotten back down.
+p155
+aVAll these guys are smoking cigarettes,
+p156
+aVand then I get an email, and they all quiet down,
+p157
+aVand in fact you can hear the chainsaw
+p158
+aVreally, really faint in the background,
+p159
+aVbut no one had noticed it  until that moment.
+p160
+aVAnd so then we took off to actually stop these loggers.
+p161
+aVI was pretty nervous.
+p162
+aVThis is the moment where we've actually arrived close to where the loggers are.
+p163
+aVThis is the moment where you can see where I'm actually regretting
+p164
+aVperhaps the entire endeavor.
+p165
+aVI'm not really sure what's on the other side of this hill.
+p166
+aVThat guy's much braver than I am.
+p167
+aVBut he went, so I had to go, walking up,
+p168
+aVand in fact, he made it over the hill,
+p169
+aVand interrupted the loggers in the act.
+p170
+aVFor them, it was such a surprise \u2014
+p171
+aVthey had never, ever been interrupted before \u2014
+p172
+aVthat it was such an impressive event for them,
+p173
+aVthat we've heard from our partners they have not been back since.
+p174
+aVThey were, in fact, great guys.
+p175
+aVThey showed us how the entire operation works,
+p176
+aVand what they really convinced us on the spot was that
+p177
+aVif you can show up in real time and stop people,
+p178
+aVit's enough of a deterrent they won't come back.
+p179
+aa(lp180
+VSo \u2014
+p181
+aVThank you. (Applause)
+p182
+aa(lp183
+VWord of this spread, possibly because we told a lot of people,
+p184
+aVand in fact, then some really amazing stuff started to happen.
+p185
+aVPeople from around the world started to send us emails, phone calls.
+p186
+aVWhat we saw was that people throughout Asia,
+p187
+aVpeople throughout Africa, people throughout South America,
+p188
+aVthey told us that they could use it too,
+p189
+aVand what's most important,
+p190
+aVwhat we'd found that we thought might be exceptional,
+p191
+aVin the forest there was pretty good cell phone service.
+p192
+aVThat was not exceptional, we were told,
+p193
+aVand that particularly is on the periphery of the forests that are most under threat.
+p194
+aVAnd then something  really amazing happened,
+p195
+aVwhich was that people started sending us their own old cell phones.
+p196
+aVSo in fact what we have now is a system
+p197
+aVwhere we can use people on the ground, people who are already there,
+p198
+aVwho can both improve and use the existing connectivity,
+p199
+aVand we're using old cell phones that are being sent to us
+p200
+aVby people from around the world
+p201
+aVthat want their phones to be doing  something else in their afterlife,
+p202
+aVso to speak.
+p203
+aVAnd if the rest of the device can be completely recycled,
+p204
+aVthen we believe it's an entirely upcycled device.
+p205
+aa(lp206
+VSo again, this didn't come because of any sort of high-tech solution.
+p207
+aVIt just came from using what's already there,
+p208
+aVand I'm thoroughly convinced that if it's not phones,
+p209
+aVthat there's always going to be enough there
+p210
+aVthat you can build similar solutions
+p211
+aVthat can be very effective in new contexts.
+p212
+aa(lp213
+VThank you very much.
+p214
+aa(lp215
+V(Applause)
+p216
+aasS'transcript_micsec'
+p217
+(lp218
+I11000
+aI20000
+aI58000
+aI73000
+aI123000
+aI140000
+aI162000
+aI217000
+aI244000
+aI283000
+aI310000
+aI364000
+aI394000
+aI480000
+aI488000
+aI546000
+aI561000
+aI563000
+asS'talk_meta'
+p219
+(dp220
+S'ratings'
+p221
+(dp222
+S'ingenious'
+p223
+I501
+sS'beautiful'
+p224
+I79
+sS'inspiring'
+p225
+I399
+sS'ok'
+p226
+I67
+sS'fascinating'
+p227
+I220
+sS'funny'
+p228
+I17
+sS'total_count'
+p229
+I1797
+sS'persuasive'
+p230
+I87
+sS'longwinded'
+p231
+I10
+sS'informative'
+p232
+I215
+sS'jaw-dropping'
+p233
+I34
+sS'obnoxious'
+p234
+I3
+sS'confusing'
+p235
+I1
+sS'courageous'
+p236
+I155
+sS'unconvincing'
+p237
+I9
+ssS'author'
+p238
+VTopher_White;
+p239
+sS'url'
+p240
+S'https://www.ted.com/talks/topher_white_what_can_save_the_rainforest_your_used_cell_phone'
+p241
+sS'vidlen'
+p242
+I570
+sS'totalviews'
+p243
+I1248423
+sS'title'
+p244
+VWhat can save the rainforest? Your used cell phone
+p245
+sS'downloadlink'
+p246
+Vhttps://download.ted.com/talks/TopherWhite_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p247
+sS'datepublished'
+p248
+cdatetime
+datetime
+p249
+(S'\x07\xdf\x03\x03\n. \x00\x00\x00'
+tRp250
+sS'datefilmed'
+p251
+g249
+(S'\x07\xdf\x03\x03\n. \x00\x00\x00'
+tRp252
+sS'alldata_JSON'
+p253
+S'{"viewed_count": 1248423, "speakers": [{"description": "Conservation technologist", "firstname": "Topher", "title": "", "lastname": "White", "middleinitial": "", "whylisten": "        <p>In 2012, Topher White founded Rainforest Connection, a startup which converts recycled cell-phones into solar-powered listening devices to monitor and protect remote areas of the rainforest. Now an established NGO, Rainforest Connection has helped stop illegal logging and poaching operations in Sumatra, and the system is being expanded to three more rainforest reserves in Indonesia, the Amazon and Africa.</p> <p>With a background in physics and engineering, White worked as web chief of ITER and co-founded Enthuse, a sports engagement and mobile rewards platform. For Rainforest Connection, he&rsquo;s fashioned a simple device made of discarded cell phones and solar panels that detects and sends alerts when it picks up the sound of chainsaws in protected rainforests, allowing for intervention in real time.</p>", "slug": "topher_white", "whotheyare": "Through his startup Rainforest Connection, Topher White transforms used cell phones into guardians of the rainforest.", "whatotherssay": "", "id": 2296, "photo_url": "https://pe.tedcdn.com/images/ted/ddb0bae6f3d3bcdb51366648928a1d7bbfff73d0_254x191.jpg"}], "current_talk": 2203, "description": "The sounds of the rainforest include: the chirps of birds, the buzz of cicadas, the banter of gibbons. But in the background is the almost-always present sound of a chainsaw, from illegal loggers. Engineer Topher White shares a simple, scalable way to stop this brutal deforestation \\u2014 that starts with your old cell phone.", "language": "en", "url": "https://www.ted.com/talks/topher_white_what_can_save_the_rainforest_your_used_cell_phone", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68818993}, "podcast-low-en": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13273393}, "podcast-high": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68811013}, "180k": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13011549}, "64k": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4715668}, "1500k": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105587845}, "450k": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32572182}, "podcast-regular": {"uri": "https://download.ted.com/talks/TopherWhite_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32859709}, "950k": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68418100}, "audio-podcast": {"uri": "https://download.ted.com/talks/TopherWhite_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6024931}, "podcast-light": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4853084}, "320k": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23102894}, "600k": {"uri": "https://download.ted.com/talks/TopherWhite_2014X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43666250}}}, "comments": {"count": 84, "id": 26822, "talk_id": 2203}, "slug": "topher_white_what_can_save_the_rainforest_your_used_cell_phone", "threadId": 26822, "talks": [{"event": "TEDxCERN", "player_talks": [{"event": "TEDxCERN", "slug": "topher_white_what_can_save_the_rainforest_your_used_cell_phone", "filmed": 1411516800, "targeting": {"event": "TEDxCERN", "tag": "climate change,environment,technology,trees", "id": 2203, "talk": "topher_white_what_can_save_the_rainforest_your_used_cell_phone", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "What can save the rainforest? Your used cell phone", "postAdDuration": "0.83", "published": 1425397592, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/669b823fdebb68cb659363018b74c98be560e139_2880x1620.jpg?quality=89&w=600", "name": "Topher White: What can save the rainforest? Your used cell phone", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["climate change", "environment", "technology", "trees"], "speaker": "Topher White", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 570, "id": 2203, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/TopherWhite_2014X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxCERN", "tag": "climate change,environment,technology,trees", "id": 2203, "talk": "topher_white_what_can_save_the_rainforest_your_used_cell_phone", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2203.json", "stream": "https://hls.ted.com/talks/2203.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxCERN%26id%3D2203%26tag%3Dclimate%2Bchange%2Cenvironment%2Ctechnology%2Ctrees%26talk%3Dtopher_white_what_can_save_the_rainforest_your_used_cell_phone%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/topher_white_what_can_save_the_rainforest_your_used_cell_phone"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/669b823fdebb68cb659363018b74c98be560e139_2880x1620.jpg?q=50&w=15", "duration": 570, "id": 2203, "ratings": [{"count": 501, "id": 9, "name": "Ingenious"}, {"count": 10, "id": 11, "name": "Longwinded"}, {"count": 155, "id": 3, "name": "Courageous"}, {"count": 399, "id": 10, "name": "Inspiring"}, {"count": 220, "id": 22, "name": "Fascinating"}, {"count": 87, "id": 24, "name": "Persuasive"}, {"count": 79, "id": 1, "name": "Beautiful"}, {"count": 34, "id": 23, "name": "Jaw-dropping"}, {"count": 215, "id": 8, "name": "Informative"}, {"count": 9, "id": 21, "name": "Unconvincing"}, {"count": 67, "id": 25, "name": "OK"}, {"count": 17, "id": 7, "name": "Funny"}, {"count": 1, "id": 2, "name": "Confusing"}, {"count": 3, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Conservation technologist", "firstname": "Topher", "title": "", "lastname": "White", "middleinitial": "", "whylisten": "        <p>In 2012, Topher White founded Rainforest Connection, a startup which converts recycled cell-phones into solar-powered listening devices to monitor and protect remote areas of the rainforest. Now an established NGO, Rainforest Connection has helped stop illegal logging and poaching operations in Sumatra, and the system is being expanded to three more rainforest reserves in Indonesia, the Amazon and Africa.</p> <p>With a background in physics and engineering, White worked as web chief of ITER and co-founded Enthuse, a sports engagement and mobile rewards platform. For Rainforest Connection, he&rsquo;s fashioned a simple device made of discarded cell phones and solar panels that detects and sends alerts when it picks up the sound of chainsaws in protected rainforests, allowing for intervention in real time.</p>", "slug": "topher_white", "whotheyare": "Through his startup Rainforest Connection, Topher White transforms used cell phones into guardians of the rainforest.", "whatotherssay": "", "id": 2296, "photo_url": "https://pe.tedcdn.com/images/ted/ddb0bae6f3d3bcdb51366648928a1d7bbfff73d0_254x191.jpg"}], "title": "What can save the rainforest? Your used cell phone", "take_action": null, "comments": 26822, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/669b823fdebb68cb659363018b74c98be560e139_2880x1620.jpg", "description": "The sounds of the rainforest include: the chirps of birds, the buzz of cicadas, the banter of gibbons. But in the background is the almost-always present sound of a chainsaw, from illegal loggers. Engineer Topher White shares a simple, scalable way to stop this brutal deforestation \\u2014 that starts with your old cell phone.", "tags": ["climate change", "environment", "technology", "trees"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/TopherWhite_2014X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/TopherWhite_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/TopherWhite_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/TopherWhite_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2203, "audioDownload": "https://download.ted.com/talks/TopherWhite_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 993179, "hero": "https://pe.tedcdn.com/images/ted/a7efe202d2a1ef4af543b0b3b80bd225bb242157_2400x1800.jpg", "title": "The magic of the Amazon: A river that flows invisibly all around us", "id": 2088, "speaker": "Antonio Donato Nobre", "duration": 1295, "slug": "antonio_donato_nobre_the_magic_of_the_amazon_a_river_that_flows_invisibly_all_around_us"}, {"viewed_count": 403110, "hero": "https://pe.tedcdn.com/images/ted/75594_800x600.jpg", "title": "Conserving the canopy", "id": 476, "speaker": "Nalini Nadkarni", "duration": 990, "slug": "nalini_nadkani_on_conserving_the_canopy"}, {"viewed_count": 1154598, "hero": "https://pe.tedcdn.com/images/ted/7359de0af0e5ad26395051692c0b04a66b33188f_1600x1200.jpg", "title": "The emergent patterns of climate change", "id": 1988, "speaker": "Gavin Schmidt", "duration": 730, "slug": "gavin_schmidt_the_emergent_patterns_of_climate_change"}, {"viewed_count": 2434659, "hero": "https://pe.tedcdn.com/images/ted/14d83c67242cc5b0a9a177dd143071aecdadc89a_2880x1620.jpg", "title": "How trees talk to each other", "id": 2558, "speaker": "Suzanne Simard", "duration": 1099, "slug": "suzanne_simard_how_trees_talk_to_each_other"}, {"viewed_count": 1117974, "hero": "https://pe.tedcdn.com/images/ted/4c2a0a97a31a1e8bc7a05a2ee1835eaa636730e5_2400x1800.jpg", "title": "An engineer\'s vision for tiny forests, everywhere", "id": 2075, "speaker": "Shubhendu Sharma", "duration": 262, "slug": "shubhendu_sharma_an_engineers_vision_for_tiny_forests_everywhere"}, {"viewed_count": 1338338, "hero": "https://pe.tedcdn.com/images/ted/5ccc3bec9cc4e3fe31bd5626b9b82c2687805240_2880x1620.jpg", "title": "How to grow a forest in your backyard", "id": 2546, "speaker": "Shubhendu Sharma", "duration": 551, "slug": "shubhendu_sharma_how_to_grow_a_forest_in_your_backyard"}], "recorded_at": "2014-09-24T00:00:00.000+00:00", "slug": "topher_white_what_can_save_the_rainforest_your_used_cell_phone", "speaker_name": "Topher White", "viewed_count": 1248423, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxCERN, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxCERN", "name": "Topher White: What can save the rainforest? Your used cell phone"}'
+p254
+sS'keywords'
+p255
+(lp256
+Vclimate change
+p257
+aVenvironment
+p258
+aVtechnology
+p259
+aVtrees
+p260
+asS'datecrawled'
+p261
+g249
+(S'\x07\xe1\n\x17\x0041\x02\xa8\xd0'
+tRp262
+sS'id'
+p263
+I2203
+ss.

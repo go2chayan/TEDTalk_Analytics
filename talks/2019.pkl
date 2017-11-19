@@ -1,0 +1,896 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VFour years ago,
+p5
+aVa security researcher,
+p6
+aVor, as most people would call it, a hacker,
+p7
+aVfound a way to literally
+p8
+aVmake ATMs throw money at him.
+p9
+aVHis name was Barnaby Jack,
+p10
+aVand this technique was later called "jackpotting"
+p11
+aVin his honor.
+p12
+aa(lp13
+VI'm here today because I think
+p14
+aVwe actually need hackers.
+p15
+aVBarnaby Jack
+p16
+aVcould have easily turned
+p17
+aVinto a career criminal or James Bond villain
+p18
+aVwith his knowledge,
+p19
+aVbut he chose to show the world
+p20
+aVhis research instead.
+p21
+aVHe believed that sometimes
+p22
+aVyou have to demo a threat
+p23
+aVto spark a solution.
+p24
+aVAnd I feel the same way.
+p25
+aVThat's why I'm here today.
+p26
+aa(lp27
+VWe are often terrified and fascinated
+p28
+aVby the power hackers now have.
+p29
+aVThey scare us.
+p30
+aVBut the choices they make
+p31
+aVhave dramatic outcomes
+p32
+aVthat influence us all.
+p33
+aVSo I am here today because I think we need hackers,
+p34
+aVand in fact, they just might be
+p35
+aVthe immune system for the information age.
+p36
+aVSometimes they make us sick,
+p37
+aVbut they also find those hidden threats
+p38
+aVin our world,
+p39
+aVand they make us fix it.
+p40
+aa(lp41
+VI knew that I might get hacked
+p42
+aVfor giving this talk,
+p43
+aVso let me save you the effort.
+p44
+aVIn true TED fashion,
+p45
+aVhere is my most embarrassing picture.
+p46
+aVBut it would be difficult for you to find me in it,
+p47
+aVbecause I'm the one who looks like a boy
+p48
+aVstanding to the side.
+p49
+aVI was such a nerd back then
+p50
+aVthat even the boys on the Dungeons and Dragons team
+p51
+aVwouldn't let me join.
+p52
+aVThis is who I was,
+p53
+aVbut this is who I wanted to be:
+p54
+aVAngelina Jolie.
+p55
+aVShe portrayed Acid Burn
+p56
+aVin the '95 film "Hackers."
+p57
+aVShe was pretty and she could rollerblade,
+p58
+aVbut being a hacker, that made her powerful.
+p59
+aVAnd I wanted to be just like her,
+p60
+aVso I started spending a lot of time
+p61
+aVon hacker chat rooms and online forums.
+p62
+aVI remember one late night
+p63
+aVI found a bit of PHP code.
+p64
+aVI didn't really know what it did,
+p65
+aVbut I copy-pasted it
+p66
+aVand used it anyway
+p67
+aVto get into a password-protected site
+p68
+aVlike that.
+p69
+aVOpen Sesame.
+p70
+aVIt was a simple trick,
+p71
+aVand I was just a script kiddie back then,
+p72
+aVbut to me, that trick,
+p73
+aVit felt like this,
+p74
+aVlike I had discovered limitless potential
+p75
+aVat my fingertips.
+p76
+aVThis is the rush of power that hackers feel.
+p77
+aVIt's geeks just like me
+p78
+aVdiscovering they have access to superpower,
+p79
+aVone that requires the skill and tenacity
+p80
+aVof their intellect,
+p81
+aVbut thankfully no radioactive spiders.
+p82
+aa(lp83
+VBut with great power
+p84
+aVcomes great responsibility,
+p85
+aVand you all like to think that if we had such powers,
+p86
+aVwe would only use them for good.
+p87
+aVBut what if you could read your ex's emails,
+p88
+aVor add a couple zeros to your bank account.
+p89
+aVWhat would you do then?
+p90
+aVIndeed, many hackers do not resist
+p91
+aVthose temptations,
+p92
+aVand so they are responsible in one way or another
+p93
+aVto billions of dollars lost each year
+p94
+aVto fraud, malware or plain old identity theft,
+p95
+aVwhich is a serious issue.
+p96
+aVBut there are other hackers,
+p97
+aVhackers who just like to break things,
+p98
+aVand it is precisely those hackers
+p99
+aVthat can find the weaker elements in our world
+p100
+aVand make us fix it.
+p101
+aa(lp102
+VThis is what happened last year
+p103
+aVwhen another security researcher
+p104
+aVcalled Kyle Lovett
+p105
+aVdiscovered a gaping hole
+p106
+aVin the design of certain wireless routers
+p107
+aVlike you might have in your home or office.
+p108
+aVHe learned that anyone could remotely connect
+p109
+aVto these devices over the Internet
+p110
+aVand download documents from hard drives
+p111
+aVattached to those routers,
+p112
+aVno password needed.
+p113
+aVHe reported it to the company, of course,
+p114
+aVbut they ignored his report.
+p115
+aVPerhaps they thought universal access
+p116
+aVwas a feature, not a bug,
+p117
+aVuntil two months ago
+p118
+aVwhen a group of hackers used it
+p119
+aVto get into people's files.
+p120
+aVBut they didn't steal anything.
+p121
+aVThey left a note:
+p122
+aVYour router and your documents
+p123
+aVcan be accessed by anyone in the world.
+p124
+aVHere's what you should do to fix it.
+p125
+aVWe hope we helped.
+p126
+aVBy getting into people's files like that,
+p127
+aVyeah, they broke the law,
+p128
+aVbut they also forced that company
+p129
+aVto fix their product.
+p130
+aa(lp131
+VMaking vulnerabilities known to the public
+p132
+aVis a practice called full disclosure
+p133
+aVin the hacker community,
+p134
+aVand it is controversial,
+p135
+aVbut it does make me think of how hackers
+p136
+aVhave an evolving effect on technologies we use
+p137
+aVevery day.
+p138
+aVThis is what Khalil did.
+p139
+aVKhalil is a Palestinian hacker from the West Bank,
+p140
+aVand he found a serious privacy flaw on Facebook
+p141
+aVwhich he attempted to report
+p142
+aVthrough the company's bug bounty program.
+p143
+aVThese are usually great arrangements for companies
+p144
+aVto reward hackers disclosing vulnerabilities
+p145
+aVthey find in their code.
+p146
+aVUnfortunately, due to some miscommunications,
+p147
+aVhis report was not acknowledged.
+p148
+aVFrustrated with the exchange,
+p149
+aVhe took to use his own discovery
+p150
+aVto post on Mark Zuckerberg's wall.
+p151
+aVThis got their attention, all right,
+p152
+aVand they fixed the bug,
+p153
+aVbut because he hadn't reported it properly,
+p154
+aVhe was denied the bounty usually paid out
+p155
+aVfor such discoveries.
+p156
+aVThankfully for Khalil,
+p157
+aVa group of hackers were watching out for him.
+p158
+aVIn fact, they raised more than 13,000 dollars
+p159
+aVto reward him for this discovery,
+p160
+aVraising a vital discussion in the technology industry
+p161
+aVabout how we come up with incentives
+p162
+aVfor hackers to do the right thing.
+p163
+aVBut I think there's a greater story here still.
+p164
+aVEven companies founded by hackers,
+p165
+aVlike Facebook was,
+p166
+aVstill have a complicated relationship
+p167
+aVwhen it comes to hackers.
+p168
+aVAnd so for more conservative organizations,
+p169
+aVit is going to take time and adapting
+p170
+aVin order to embrace hacker culture
+p171
+aVand the creative chaos that it brings with it.
+p172
+aVBut I think it's worth the effort,
+p173
+aVbecause the alternative,
+p174
+aVto blindly fight all hackers,
+p175
+aVis to go against the power you cannot control
+p176
+aVat the cost of stifling innovation
+p177
+aVand regulating knowledge.
+p178
+aVThese are things that will come back and bite you.
+p179
+aa(lp180
+VIt is even more true
+p181
+aVif we go after hackers
+p182
+aVthat are willing to risk their own freedom
+p183
+aVfor ideals like the freedom of the web,
+p184
+aVespecially in times like this, like today even,
+p185
+aVas governments and corporates
+p186
+aVfight to control the Internet.
+p187
+aVI find it astounding
+p188
+aVthat someone from the shadowy corners of cyberspace
+p189
+aVcan become its voice of opposition,
+p190
+aVits last line of defense even,
+p191
+aVperhaps someone like Anonymous,
+p192
+aVthe leading brand of global hacktivism.
+p193
+aVThis universal hacker movement
+p194
+aVneeds no introduction today,
+p195
+aVbut six years ago
+p196
+aVthey were not much more than an Internet subculture
+p197
+aVdedicated to sharing silly pictures of funny cats
+p198
+aVand Internet trolling campaigns.
+p199
+aVTheir moment of transformation was in early 2008
+p200
+aVwhen the Church of Scientology
+p201
+aVattempted to remove certain leaked videos
+p202
+aVfrom appearing on certain websites.
+p203
+aVThis is when Anonymous was forged
+p204
+aVout of the seemingly random collection
+p205
+aVof Internet dwellers.
+p206
+aVIt turns out,
+p207
+aVthe Internet doesn't like it
+p208
+aVwhen you try to remove things from it,
+p209
+aVand it will react with cyberattacks
+p210
+aVand elaborate pranks
+p211
+aVand with a series of organized protests
+p212
+aVall around the world,
+p213
+aVfrom my hometown of Tel Aviv
+p214
+aVto Adelaide, Australia.
+p215
+aVThis proved that Anonymous and this idea
+p216
+aVcan rally the masses from the keyboards
+p217
+aVto the streets,
+p218
+aVand it laid the foundations
+p219
+aVfor dozens of future operations
+p220
+aVagainst perceived injustices
+p221
+aVto their online and offline world.
+p222
+aVSince then, they've gone after many targets.
+p223
+aVThey've uncovered corruption, abuse.
+p224
+aVThey've hacked popes and politicians,
+p225
+aVand I think their effect is larger
+p226
+aVthan simple denial of service attacks
+p227
+aVthat take down websites
+p228
+aVor even leak sensitive documents.
+p229
+aVI think that, like Robin Hood,
+p230
+aVthey are in the business of redistribution,
+p231
+aVbut what they are after isn't your money.
+p232
+aVIt's not your documents. It's your attention.
+p233
+aVThey grab the spotlight for causes they support,
+p234
+aVforcing us to take note,
+p235
+aVacting as a global magnifying glass
+p236
+aVfor issues that we are not as aware of
+p237
+aVbut perhaps we should be.
+p238
+aVThey have been called many names
+p239
+aVfrom criminals to terrorists,
+p240
+aVand I cannot justify their illegal means,
+p241
+aVbut the ideas they fight for
+p242
+aVare ones that matter to us all.
+p243
+aVThe reality is,
+p244
+aVhackers can do a lot more than break things.
+p245
+aVThey can bring people together.
+p246
+aa(lp247
+VAnd if the Internet doesn't like it
+p248
+aVwhen you try to remove things from it,
+p249
+aVjust watch what happens
+p250
+aVwhen you try to shut the Internet down.
+p251
+aVThis took place in Egypt in January 2011,
+p252
+aVand as President Hosni Mubarak
+p253
+aVattempted a desperate move
+p254
+aVto quash the rising revolution on the streets of Cairo,
+p255
+aVhe sent his personal troops
+p256
+aVdown to Egypt's Internet service providers
+p257
+aVand had them physically kill the switch
+p258
+aVon the country's connection to the world overnight.
+p259
+aVFor a government to do a thing like that
+p260
+aVwas unprecedented,
+p261
+aVand for hackers, it made it personal.
+p262
+aVHackers like the Telecomix group
+p263
+aVwere already active on the ground,
+p264
+aVhelping Egyptians bypass censorship
+p265
+aVusing clever workarounds like Morse code
+p266
+aVand ham radio.
+p267
+aVIt was high season for low tech,
+p268
+aVwhich the government couldn't block,
+p269
+aVbut when the Net went completely down,
+p270
+aVTelecomix brought in the big guns.
+p271
+aVThey found European service providers
+p272
+aVthat still had 20-year-old
+p273
+aVanalog dial-up access infrastructure.
+p274
+aVThey opened up 300 of those lines
+p275
+aVfor Egyptians to use,
+p276
+aVserving slow but sweet Internet connection
+p277
+aVfor Egyptians.
+p278
+aVThis worked.
+p279
+aVIt worked so well, in fact,
+p280
+aVone guy even used it to download an episode
+p281
+aVof "How I Met Your Mother."
+p282
+aVBut while Egypt's future is still uncertain,
+p283
+aVwhen the same thing happened in Syria
+p284
+aVjust one year later,
+p285
+aVTelecomix were prepared with those Internet lines,
+p286
+aVand Anonymous,
+p287
+aVthey were perhaps the first international group
+p288
+aVto officially denounce the actions
+p289
+aVof the Syrian military
+p290
+aVby defacing their website.
+p291
+aa(lp292
+VBut with this sort of power,
+p293
+aVit really depends on where you stand,
+p294
+aVbecause one man's hero
+p295
+aVcan be another's villain,
+p296
+aVand so the Syrian Electronic Army
+p297
+aVis a pro-Assad group of hackers
+p298
+aVwho support his contentious regime.
+p299
+aVThey've taken down multiple high-profile targets
+p300
+aVin the past few years,
+p301
+aVincluding the Associated Press's Twitter account,
+p302
+aVin which they posted a message
+p303
+aVabout an attack on the White House
+p304
+aVinjuring President Obama.
+p305
+aVThis tweet was fake, of course,
+p306
+aVbut the resulting drop in the Dow Jones index
+p307
+aVthat day was most certainly not,
+p308
+aVand a lot of people lost a lot of money.
+p309
+aa(lp310
+VThis sort of thing is happening all over the world right now.
+p311
+aVIn conflicts from the Crimean Peninsula
+p312
+aVto Latin America,
+p313
+aVfrom Europe to the United States,
+p314
+aVhackers are a force for social,
+p315
+aVpolitical and military influence.
+p316
+aVAs individuals or in groups,
+p317
+aVvolunteers or military conflicts,
+p318
+aVthere are hackers everywhere.
+p319
+aVThey come from all walks of life,
+p320
+aVethnicities, ideologies and genders, I might add.
+p321
+aVThey are now shaping the world's stage.
+p322
+aVHackers represent an exceptional force for change
+p323
+aVin the 21st century.
+p324
+aVThis is because access to information
+p325
+aVis a critical currency of power,
+p326
+aVone which governments would like to control,
+p327
+aVa thing they attempt to do by setting up
+p328
+aVall-you-can-eat surveillance programs,
+p329
+aVa thing they need hackers for, by the way.
+p330
+aVAnd so the establishment has long had
+p331
+aVa love-hate relationship when it comes to hackers,
+p332
+aVbecause the same people who demonize hacking
+p333
+aValso utilize it at large.
+p334
+aa(lp335
+VTwo years ago,
+p336
+aVI saw General Keith Alexander.
+p337
+aVHe's the NSA director and U.S. cyber commander,
+p338
+aVbut instead of his four star general uniform,
+p339
+aVhe was wearing jeans and a t-shirt.
+p340
+aVThis was at DEF CON,
+p341
+aVthe world's largest hacker conference.
+p342
+aVPerhaps like me, General Alexander
+p343
+aVdidn't see 12,000 criminals that day in Vegas.
+p344
+aVI think he saw untapped potential.
+p345
+aVIn fact, he was there to give a hiring pitch.
+p346
+aV"In this room right here," he said,
+p347
+aV"is the talent our nation needs."
+p348
+aVWell, hackers in the back row replied,
+p349
+aV"Then stop arresting us."
+p350
+aV(Applause)
+p351
+aa(lp352
+VIndeed, for years,
+p353
+aVhackers have been on the wrong side of the fence,
+p354
+aVbut in light of what we know now,
+p355
+aVwho is more watchful of our online world?
+p356
+aVThe rules of the game are not that clear anymore,
+p357
+aVbut hackers are perhaps the only ones
+p358
+aVstill capable of challenging overreaching governments
+p359
+aVand data-hoarding corporates
+p360
+aVon their own playing field.
+p361
+aVTo me, that represents hope.
+p362
+aa(lp363
+VFor the past three decades,
+p364
+aVhackers have done a lot of things,
+p365
+aVbut they have also impacted civil liberties,
+p366
+aVinnovation and Internet freedom,
+p367
+aVso I think it's time we take a good look
+p368
+aVat how we choose to portray them,
+p369
+aVbecause if we keep expecting them to be the bad guys,
+p370
+aVhow can they be the heroes too?
+p371
+aVMy years in the hacker world
+p372
+aVhave made me realize
+p373
+aVboth the problem and the beauty about hackers:
+p374
+aVThey just can't see something broken in the world
+p375
+aVand leave it be.
+p376
+aVThey are compelled
+p377
+aVto either exploit it or try and change it,
+p378
+aVand so they find the vulnerable aspects
+p379
+aVin our rapidly changing world.
+p380
+aVThey make us, they force us to fix things
+p381
+aVor demand something better,
+p382
+aVand I think we need them
+p383
+aVto do just that,
+p384
+aVbecause after all, it is not information
+p385
+aVthat wants to be free, it's us.
+p386
+aa(lp387
+VThank you very much.
+p388
+aa(lp389
+VThank you. (Applause)
+p390
+aa(lp391
+VHack the planet!
+p392
+aasS'transcript_micsec'
+p393
+(lp394
+I11000
+aI33000
+aI63000
+aI100000
+aI200000
+aI246000
+aI307000
+aI437000
+aI614000
+aI726000
+aI773000
+aI846000
+aI892000
+aI922000
+aI985000
+aI988000
+aI991000
+asS'talk_meta'
+p395
+(dp396
+S'ratings'
+p397
+(dp398
+S'beautiful'
+p399
+I161
+sS'funny'
+p400
+I75
+sS'inspiring'
+p401
+I613
+sS'ok'
+p402
+I188
+sS'fascinating'
+p403
+I436
+sS'total_count'
+p404
+I3202
+sS'persuasive'
+p405
+I408
+sS'longwinded'
+p406
+I30
+sS'unconvincing'
+p407
+I33
+sS'informative'
+p408
+I823
+sS'jaw-dropping'
+p409
+I27
+sS'ingenious'
+p410
+I110
+sS'obnoxious'
+p411
+I12
+sS'courageous'
+p412
+I245
+sS'confusing'
+p413
+I41
+ssS'author'
+p414
+VKeren_Elazari;
+p415
+sS'url'
+p416
+S'https://www.ted.com/talks/keren_elazari_hackers_the_internet_s_immune_system'
+p417
+sS'vidlen'
+p418
+I999
+sS'totalviews'
+p419
+I2135695
+sS'title'
+p420
+VHackers: the Internet's immune system
+p421
+sS'downloadlink'
+p422
+Vhttps://download.ted.com/talks/KerenElazari_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p423
+sS'datepublished'
+p424
+cdatetime
+datetime
+p425
+(S'\x07\xde\x06\n\n:,\x00\x00\x00'
+tRp426
+sS'datefilmed'
+p427
+g425
+(S'\x07\xde\x06\n\n:,\x00\x00\x00'
+tRp428
+sS'alldata_JSON'
+p429
+S'{"viewed_count": 2135695, "speakers": [{"description": "Cybersecurity expert", "firstname": "Keren", "title": "", "lastname": "Elazari", "middleinitial": "", "whylisten": "<p>A <a href=\\"http://research.gigaom.com/analyst/keren-elazari/\\" target=\\"_blank\\">GigaOM</a>   analyst and Israeli hacking scene insider, Keren Elazari moves through  business, academic and security circles, researching new technologies  and emerging security threats. Inspired by science fiction in her  teenage years and fuelled by insatiable curiosity, Elazari spent years  investigating the darker corners of cyberspace. </p><p>Today, she  emerges with a new understanding of the hacker underworld. Information  is the new currency of our digital society, and those who can control it  have become powerful actors -- whether they choose to be heroes or  villains. As she says, &quot;Hacking has become a superpower that can  positively impact millions worldwide &ndash; if we learn how to harness it.&rdquo;     </p>", "slug": "keren_elezari", "whotheyare": "Keren Elazari charts the transformation of hackers from cyberpunk protagonists to powerful hacktivists, lone rangers and digital robin hoods who are the unsung heroes of the digital frontier.", "whatotherssay": "Keren is a hacker by heart.", "id": 1789, "photo_url": "https://pe.tedcdn.com/images/ted/cc0f97f28c9f4354c3988a4a154790890a4f0cf4_254x191.jpg"}], "current_talk": 2019, "description": "The beauty of hackers, says cybersecurity expert Keren Elazari, is that they force us to evolve and improve. Yes, some hackers are bad guys, but many are working to fight government corruption and advocate for our rights. By exposing vulnerabilities, they push the Internet to become stronger and healthier, wielding their power to create a better world.", "language": "en", "url": "https://www.ted.com/talks/keren_elazari_hackers_the_internet_s_immune_system", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/KerenElazari_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118843034}, "podcast-low-en": {"uri": "https://download.ted.com/talks/KerenElazari_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22978935}, "podcast-high": {"uri": "https://download.ted.com/talks/KerenElazari_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118833704}, "180k": {"uri": "https://download.ted.com/talks/KerenElazari_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22884607}, "64k": {"uri": "https://download.ted.com/talks/KerenElazari_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8229421}, "1500k": {"uri": "https://download.ted.com/talks/KerenElazari_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 185018606}, "450k": {"uri": "https://download.ted.com/talks/KerenElazari_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56587957}, "podcast-regular": {"uri": "https://download.ted.com/talks/KerenElazari_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56757851}, "950k": {"uri": "https://download.ted.com/talks/KerenElazari_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 118863145}, "audio-podcast": {"uri": "https://download.ted.com/talks/KerenElazari_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10278446}, "podcast-light": {"uri": "https://download.ted.com/talks/KerenElazari_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8328825}, "320k": {"uri": "https://download.ted.com/talks/KerenElazari_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40512439}, "600k": {"uri": "https://download.ted.com/talks/KerenElazari_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 75675455}}}, "comments": {"count": 106, "id": 26574, "talk_id": 2019}, "slug": "keren_elazari_hackers_the_internet_s_immune_system", "threadId": 26574, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "keren_elazari_hackers_the_internet_s_immune_system", "filmed": 1395100800, "targeting": {"event": "TED2014", "tag": "Internet,activism,crime,hack,terrorism", "id": 2019, "talk": "keren_elazari_hackers_the_internet_s_immune_system", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "Hackers: the Internet\'s immune system", "postAdDuration": "0.83", "published": 1402412324, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d7ffad9a704353886a479f2b9acadada4a48855c_2400x1800.jpg?quality=89&w=600", "name": "Keren Elazari: Hackers: the Internet\'s immune system", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "activism", "crime", "hack", "terrorism"], "speaker": "Keren Elazari", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 999, "id": 2019, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/KerenElazari_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "Internet,activism,crime,hack,terrorism", "id": 2019, "talk": "keren_elazari_hackers_the_internet_s_immune_system", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2019.json", "stream": "https://hls.ted.com/talks/2019.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D2019%26tag%3DInternet%2Cactivism%2Ccrime%2Chack%2Cterrorism%26talk%3Dkeren_elazari_hackers_the_internet_s_immune_system%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/keren_elazari_hackers_the_internet_s_immune_system"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d7ffad9a704353886a479f2b9acadada4a48855c_2400x1800.jpg?q=50&w=15", "duration": 999, "id": 2019, "ratings": [{"count": 41, "id": 2, "name": "Confusing"}, {"count": 188, "id": 25, "name": "OK"}, {"count": 823, "id": 8, "name": "Informative"}, {"count": 613, "id": 10, "name": "Inspiring"}, {"count": 408, "id": 24, "name": "Persuasive"}, {"count": 75, "id": 7, "name": "Funny"}, {"count": 436, "id": 22, "name": "Fascinating"}, {"count": 161, "id": 1, "name": "Beautiful"}, {"count": 27, "id": 23, "name": "Jaw-dropping"}, {"count": 245, "id": 3, "name": "Courageous"}, {"count": 110, "id": 9, "name": "Ingenious"}, {"count": 30, "id": 11, "name": "Longwinded"}, {"count": 12, "id": 26, "name": "Obnoxious"}, {"count": 33, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Cybersecurity expert", "firstname": "Keren", "title": "", "lastname": "Elazari", "middleinitial": "", "whylisten": "<p>A <a href=\\"http://research.gigaom.com/analyst/keren-elazari/\\" target=\\"_blank\\">GigaOM</a>   analyst and Israeli hacking scene insider, Keren Elazari moves through  business, academic and security circles, researching new technologies  and emerging security threats. Inspired by science fiction in her  teenage years and fuelled by insatiable curiosity, Elazari spent years  investigating the darker corners of cyberspace. </p><p>Today, she  emerges with a new understanding of the hacker underworld. Information  is the new currency of our digital society, and those who can control it  have become powerful actors -- whether they choose to be heroes or  villains. As she says, &quot;Hacking has become a superpower that can  positively impact millions worldwide &ndash; if we learn how to harness it.&rdquo;     </p>", "slug": "keren_elezari", "whotheyare": "Keren Elazari charts the transformation of hackers from cyberpunk protagonists to powerful hacktivists, lone rangers and digital robin hoods who are the unsung heroes of the digital frontier.", "whatotherssay": "Keren is a hacker by heart.", "id": 1789, "photo_url": "https://pe.tedcdn.com/images/ted/cc0f97f28c9f4354c3988a4a154790890a4f0cf4_254x191.jpg"}], "title": "Hackers: the Internet\'s immune system", "take_action": [], "comments": 26574, "more_resources": [{"status": "approved", "start_at": null, "headline": "Turkey\'s struggle for online freedom", "link_url": "http://blog.ted.com/2014/04/02/turkey-banned-twitter-keren-elazari/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "In the same week that Keren Elazari spoke at TED2014, Turkish authorities shut down Twitter in the lead-up to a hotly contested election. Elazari weighs in."}, {"status": "approved", "start_at": null, "headline": "Hacktivism at the World Cup", "link_url": "http://ideas.ted.com/hacktivism-at-the-world-cup/", "eyebrow": null, "end_at": null, "image_url": "https://tedideas.files.wordpress.com/2014/06/14079518148_848beb4c74_o1.jpg", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Learn how groups like Anonymous used hacking to shed light on the World Cup\'s impact on Brazil\'s poor."}], "hero": "https://pe.tedcdn.com/images/ted/d7ffad9a704353886a479f2b9acadada4a48855c_2400x1800.jpg", "description": "The beauty of hackers, says cybersecurity expert Keren Elazari, is that they force us to evolve and improve. Yes, some hackers are bad guys, but many are working to fight government corruption and advocate for our rights. By exposing vulnerabilities, they push the Internet to become stronger and healthier, wielding their power to create a better world.", "tags": ["Internet", "activism", "crime", "hack", "terrorism"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/KerenElazari_2014-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/KerenElazari_2014-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/KerenElazari_2014-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/KerenElazari_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/KerenElazari_2014-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/KerenElazari_2014-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/KerenElazari_2014-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/KerenElazari_2014-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/KerenElazari_2014-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/KerenElazari_2014-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/KerenElazari_2014-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-ro.mp4"}, "ta": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-ta.mp4", "name": "Tamil", "low": "https://download.ted.com/talks/KerenElazari_2014-low-ta.mp4"}, "fr": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/KerenElazari_2014-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/KerenElazari_2014-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/KerenElazari_2014-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/KerenElazari_2014-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/KerenElazari_2014-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/KerenElazari_2014-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/KerenElazari_2014-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/KerenElazari_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/KerenElazari_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/KerenElazari_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2019, "audioDownload": "https://download.ted.com/talks/KerenElazari_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1271778, "hero": "https://pe.tedcdn.com/images/ted/9f06890a2cefbba85fe1f502d11e5b58179a8fb7_800x600.jpg", "title": "Hire the hackers!", "id": 1221, "speaker": "Misha Glenny", "duration": 1119, "slug": "misha_glenny_hire_the_hackers"}, {"viewed_count": 288366, "hero": "https://pe.tedcdn.com/images/ted/20a5bb362acb312c69d3d17f2c563e2c1b10d438_800x600.jpg", "title": "6 ways to save the internet", "id": 1268, "speaker": "Roger McNamee", "duration": 933, "slug": "roger_mcnamee_six_ways_to_save_the_internet"}, {"viewed_count": 959412, "hero": "https://pe.tedcdn.com/images/ted/250c558c0c61fa283e06b0ee40a19af0e3045c2a_800x600.jpg", "title": "Three types of online attack", "id": 1328, "speaker": "Mikko Hypponen", "duration": 563, "slug": "mikko_hypponen_three_types_of_online_attack"}, {"viewed_count": 851912, "hero": "https://pe.tedcdn.com/images/ted/2f4141eee69cd374f05e8b955cce8219b678b1bb_1600x1200.jpg", "title": "Why good hackers make good citizens", "id": 1933, "speaker": "Catherine Bracy", "duration": 590, "slug": "catherine_bracy_why_good_hackers_make_good_citizens"}, {"viewed_count": 1260644, "hero": "https://pe.tedcdn.com/images/ted/28a3233882ad006a57da361770cec0cbaeab5170_2880x1620.jpg", "title": "Governments don\'t understand cyber warfare. We need hackers", "id": 2398, "speaker": "Rodrigo Bijou", "duration": 568, "slug": "rodrigo_bijou_governments_don_t_understand_cyber_warfare_we_need_hackers"}, {"viewed_count": 1412598, "hero": "https://pe.tedcdn.com/images/ted/b91bd6615e88fdd6de5685ed9c69ad9b15c8fd3b_1600x1200.jpg", "title": "Everyday cybercrime -- and what you can do about it", "id": 1820, "speaker": "James Lyne", "duration": 1046, "slug": "james_lyne_everyday_cybercrime_and_what_you_can_do_about_it"}], "recorded_at": "2014-03-18T00:00:00.000+00:00", "slug": "keren_elazari_hackers_the_internet_s_immune_system", "speaker_name": "Keren Elazari", "viewed_count": 2135695, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Keren Elazari recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Hackers and Painters", "link_url": "http://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Paul Graham\\r\\nO\'Reilly Media, 2010", "position": null, "blurb": "Paul Graham, the founder of [Y Combinator](http://ycombinator.com), wrote this book of essays about the creative aspects of hacker culture.  The essay that really inspired me was the one about [the positive meaning of the word \'hacker.\']( http://www.paulgraham.com/gba.html)"}, {"is_pdf": false, "headline": "Women Who Code", "link_url": "http://www.womenwhocode.com/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "For ladies who are unsure about entering the tech world: Don\\u2019t hesitate! "}], "title": "Inspiration"}, {"description": "", "rec_items": [{"is_pdf": false, "headline": "OWASP", "link_url": "https://www.owasp.org/index.php/Main_Page", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "The Open Web Application Security Project has numerous guides, presentations and, more important, an annual listing of the top 10 security bugs in web applications.  "}, {"is_pdf": false, "headline": "Offensive Security", "link_url": "http://www.offensive-security.com/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "Universities in the UK have started to offer academic programs for ethical hacking \\u2014 hopefully more academic institutions will do so globally.  \\r\\nThere are many online courses and certifications. Personally I hold the CISSP certification by ISC2. There are many options that suit different flavors \\u2014 I like the people at Offensive Security because they support a lot of [open-source community projects](http://www.offensive-security.com/community-projects/), helpful to hackers everywhere. Another hands-on simulator option is the [SANS NetWars](http://www.sans.org/netwars/) series."}, {"is_pdf": false, "headline": "BugCrowd", "link_url": "http://www.Bugcrowd.com", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "Bug bounty programs that companies use to offer rewards for exposed vulnerabilities include [BugCrowd](https://bugcrowd.com), [BugSheet](http://www.bugsheet.com) and [CrowdCurity](https://www.crowdcurity.com/)."}], "title": "Resources to begin a career as a security researcher"}, {"description": "Look for one in your area and you might be surprised!", "rec_items": [{"is_pdf": false, "headline": "DEF CON", "link_url": "https://www.defcon.org/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "The best way to learn more about hacker culture is to attend hacker events. The biggest conference is DEF CON. 22 years and counting! The best event. Check out the site for a lot of hacking resources."}, {"is_pdf": false, "headline": "Security Bsides", "link_url": "http://www.securitybsides.com/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "You can also check out local community events like Security Bsides."}, {"is_pdf": false, "headline": "Hackerspaces", "link_url": "http://hackerspaces.org/wiki/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "There are many hackerspaces around the world, like [NoiseBridge](https://www.noisebridge.net) in San Francisco and [C Base](http://c-base.org) in Berlin. Check out a list of local hackerspaces in your city."}], "title": "Hacker events"}, {"description": "Especially for the aspiring hackers out there, there are many hacking games and challenges that allow you to safely and legally learn about the hacking world.", "rec_items": [{"is_pdf": false, "headline": "National US challenge", "link_url": "http://www.uscyberchallenge.org/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "National UK challenge", "link_url": "https://cybersecuritychallenge.org.uk/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "National Korea challenge", "link_url": "http://codegate.org/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "WeChall", "link_url": "http://www.wechall.net/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "Some independent sites with games and challenges include [WeChall](http://www.wechall.net/), [Hack This Site](http://www.hackthissite.org/), [Can You Hack It](http://canyouhack.it/) and [Security Override](http://securityoverride.org/challenges/)."}, {"is_pdf": false, "headline": "Control-Alt-Hack", "link_url": "http://www.controlalthack.com", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "A card game about hacking."}], "title": "Games and challenges"}], "published": true, "type": "recommendation", "blurb": "The cybersecurity analyst shares reading, resources and games for aspiring hackers."}, "corrections": []}], "event": "TED2014", "name": "Keren Elazari: Hackers: the Internet\'s immune system"}'
+p430
+sS'keywords'
+p431
+(lp432
+VInternet
+p433
+aVactivism
+p434
+aVcrime
+p435
+aVhack
+p436
+aVterrorism
+p437
+asS'datecrawled'
+p438
+g425
+(S'\x07\xe1\n\x17\x01\x1a&\t\x8b\xd9'
+tRp439
+sS'id'
+p440
+I2019
+ss.

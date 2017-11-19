@@ -1,0 +1,896 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VHow can we investigate
+p5
+aVthis flora of viruses that surround us, and aid medicine?
+p6
+aVHow can we turn our cumulative knowledge of virology
+p7
+aVinto a simple, hand-held, single diagnostic assay?
+p8
+aVI want to turn everything we know right now about detecting viruses
+p9
+aVand the spectrum of viruses that are out there
+p10
+aVinto, let's say, a small chip.
+p11
+aa(lp12
+VWhen we started thinking about this project \u2014
+p13
+aVhow we would make a single diagnostic assay
+p14
+aVto screen for all pathogens simultaneously \u2014
+p15
+aVwell, there's some problems with this idea.
+p16
+aVFirst of all, viruses are pretty complex,
+p17
+aVbut they're also evolving very fast.
+p18
+aVThis is a picornavirus.
+p19
+aVPicornaviruses \u2014 these are things that include
+p20
+aVthe common cold and polio, things like this.
+p21
+aVYou're looking at the outside shell of the virus,
+p22
+aVand the yellow color here are those parts of the virus
+p23
+aVthat are evolving very, very fast,
+p24
+aVand the blue parts are not evolving very fast.
+p25
+aVWhen people think about making pan-viral detection reagents,
+p26
+aVusually it's the fast-evolving problem that's an issue,
+p27
+aVbecause how can we detect things if they're always changing?
+p28
+aVBut evolution is a balance:
+p29
+aVwhere you have fast change, you also have ultra-conservation \u2014
+p30
+aVthings that almost never change.
+p31
+aa(lp32
+VAnd so we looked into this a little more carefully,
+p33
+aVand I'm going to show you data now.
+p34
+aVThis is just some stuff you can do on the computer from the desktop.
+p35
+aVI took a bunch of these small picornaviruses,
+p36
+aVlike the common cold, like polio and so on,
+p37
+aVand I just broke them down into small segments.
+p38
+aVAnd so took this first example, which is called coxsackievirus,
+p39
+aVand just break it into small windows.
+p40
+aVAnd I'm coloring these small windows blue
+p41
+aVif another virus shares an identical sequence in its genome
+p42
+aVto that virus.
+p43
+aVThese sequences right up here \u2014
+p44
+aVwhich don't even code for protein, by the way \u2014
+p45
+aVare almost absolutely identical across all of these,
+p46
+aVso I could use this sequence as a marker
+p47
+aVto detect a wide spectrum of viruses,
+p48
+aVwithout having to make something individual.
+p49
+aVNow, over here there's great diversity:
+p50
+aVthat's where things are evolving fast.
+p51
+aVDown here you can see slower evolution: less diversity.
+p52
+aa(lp53
+VNow, by the time we get out here to, let's say,
+p54
+aVacute bee paralysis virus \u2014
+p55
+aVprobably a bad one to have if you're a bee \u2014-
+p56
+aVthis virus shares almost no similarity to coxsackievirus,
+p57
+aVbut I can guarantee you that the sequences that are most conserved
+p58
+aVamong these viruses on the right-hand of the screen
+p59
+aVare in identical regions right up here.
+p60
+aVAnd so we can encapsulate these regions of ultra-conservation
+p61
+aVthrough evolution \u2014 how these viruses evolved \u2014
+p62
+aVby just choosing DNA elements or RNA elements
+p63
+aVin these regions to represent on our chip as detection reagents.
+p64
+aa(lp65
+VOK, so that's what we did, but how are we going to do that?
+p66
+aVWell, for a long time, since I was in graduate school,
+p67
+aVI've been messing around making DNA chips \u2014
+p68
+aVthat is, printing DNA on glass.
+p69
+aVAnd that's what you see here:
+p70
+aVThese little salt spots are just DNA tacked onto glass,
+p71
+aVand so I can put thousands of these on our glass chip
+p72
+aVand use them as a detection reagent.
+p73
+aVWe took our chip over to Hewlett-Packard
+p74
+aVand used their atomic force microscope on one of these spots,
+p75
+aVand this is what you see:
+p76
+aVyou can actually see the strands of DNA lying flat on the glass here.
+p77
+aVSo, what we're doing is just printing DNA on glass \u2014
+p78
+aVlittle flat things \u2014 and these are going to be markers for pathogens.
+p79
+aVOK, I make little robots in lab to make these chips,
+p80
+aVand I'm really big on disseminating technology.
+p81
+aVIf you've got enough money to buy just a Camry,
+p82
+aVyou can build one of these too,
+p83
+aVand so we put a deep how-to guide on the Web, totally free,
+p84
+aVwith basically order-off-the-shelf parts.
+p85
+aVYou can build a DNA array machine in your garage.
+p86
+aVHere's the section on the all-important emergency stop switch.
+p87
+aV(Laughter)
+p88
+aVEvery important machine's got to have a big red button.
+p89
+aVBut really, it's pretty robust.
+p90
+aVYou can actually be making DNA chips in your garage
+p91
+aVand decoding some genetic programs pretty rapidly. It's a lot of fun.
+p92
+aV(Laughter)
+p93
+aa(lp94
+VAnd so what we did \u2014 and this is a really cool project \u2014
+p95
+aVwe just started by making a respiratory virus chip.
+p96
+aVI talked about that \u2014
+p97
+aVyou know, that situation where you go into the clinic
+p98
+aVand you don't get diagnosed?
+p99
+aVWell, we just put basically all the human respiratory viruses
+p100
+aVon one chip, and we threw in herpes virus for good measure \u2014
+p101
+aVI mean, why not?
+p102
+aVThe first thing you do as a scientist is,
+p103
+aVyou make sure stuff works.
+p104
+aVAnd so what we did is, we take tissue culture cells
+p105
+aVand infect them with various viruses,
+p106
+aVand we take the stuff and fluorescently label the nucleic acid,
+p107
+aVthe genetic material that comes out of these tissue culture cells \u2014
+p108
+aVmostly viral stuff \u2014 and stick it on the array to see where it sticks.
+p109
+aVNow, if the DNA sequences match, they'll stick together,
+p110
+aVand so we can look at spots.
+p111
+aVAnd if spots light up, we know there's a certain virus in there.
+p112
+aa(lp113
+VThat's what one of these chips really looks like,
+p114
+aVand these red spots are, in fact, signals coming from the virus.
+p115
+aVAnd each spot represents a different family of virus
+p116
+aVor species of virus.
+p117
+aVAnd so, that's a hard way to look at things,
+p118
+aVso I'm just going to encode things as a little barcode,
+p119
+aVgrouped by family, so you can see the results in a very intuitive way.
+p120
+aVWhat we did is, we took tissue culture cells
+p121
+aVand infected them with adenovirus,
+p122
+aVand you can see this little yellow barcode next to adenovirus.
+p123
+aVAnd, likewise, we infected them with parainfluenza-3 \u2014
+p124
+aVthat's a paramyxovirus \u2014 and you see a little barcode here.
+p125
+aVAnd then we did respiratory syncytial virus.
+p126
+aVThat's the scourge of daycare centers everywhere \u2014
+p127
+aVit's like boogeremia, basically.
+p128
+aV(Laughter)
+p129
+aVYou can see that this barcode is the same family,
+p130
+aVbut it's distinct from parainfluenza-3,
+p131
+aVwhich gives you a very bad cold.
+p132
+aVAnd so we're getting unique signatures, a fingerprint for each virus.
+p133
+aVPolio and rhino: they're in the same family, very close to each other.
+p134
+aVRhino's the common cold, and you all know what polio is,
+p135
+aVand you can see that these signatures are distinct.
+p136
+aVAnd Kaposi's sarcoma-associated herpes virus
+p137
+aVgives a nice signature down here.
+p138
+aVAnd so it is not any one stripe or something
+p139
+aVthat tells me I have a virus of a particular type here;
+p140
+aVit's the barcode that in bulk represents the whole thing.
+p141
+aa(lp142
+VAll right, I can see a rhinovirus \u2014
+p143
+aVand here's the blow-up of the rhinovirus's little barcode \u2014
+p144
+aVbut what about different rhinoviruses?
+p145
+aVHow do I know which rhinovirus I have?
+p146
+aVThere're 102 known variants of the common cold,
+p147
+aVand there're only 102 because people got bored collecting them:
+p148
+aVthere are just new ones every year.
+p149
+aVAnd so, here are four different rhinoviruses,
+p150
+aVand you can see, even with your eye,
+p151
+aVwithout any fancy computer pattern-matching
+p152
+aVrecognition software algorithms,
+p153
+aVthat you can distinguish each one of these barcodes from each other.
+p154
+aa(lp155
+VNow, this is kind of a cheap shot,
+p156
+aVbecause I know what the genetic sequence of all these rhinoviruses is,
+p157
+aVand I in fact designed the chip
+p158
+aVexpressly to be able to tell them apart,
+p159
+aVbut what about rhinoviruses that have never seen a genetic sequencer?
+p160
+aVWe don't know what the sequence is; just pull them out of the field.
+p161
+aVSo, here are four rhinoviruses
+p162
+aVwe never knew anything about \u2014
+p163
+aVno one's ever sequenced them \u2014 and you can also see
+p164
+aVthat you get unique and distinguishable patterns.
+p165
+aVYou can imagine building up some library, whether real or virtual,
+p166
+aVof fingerprints of essentially every virus.
+p167
+aVBut that's, again, shooting fish in a barrel, you know, right?
+p168
+aVYou have tissue culture cells. There are a ton of viruses.
+p169
+aVWhat about real people?
+p170
+aVYou can't control real people, as you probably know.
+p171
+aVYou have no idea what someone's going to cough into a cup,
+p172
+aVand it's probably really complex, right?
+p173
+aVIt could have lots of bacteria, it could have more than one virus,
+p174
+aVand it certainly has host genetic material.
+p175
+aVSo how do we deal with this?
+p176
+aVAnd how do we do the positive control here?
+p177
+aa(lp178
+VWell, it's pretty simple.
+p179
+aVThat's me, getting a nasal lavage.
+p180
+aVAnd the idea is, let's experimentally inoculate people with virus.
+p181
+aVThis is all IRB-approved, by the way; they got paid.
+p182
+aVAnd basically we experimentally inoculate people
+p183
+aVwith the common cold virus.
+p184
+aVOr, even better, let's just take people
+p185
+aVright out of the emergency room \u2014
+p186
+aVundefined, community-acquired respiratory tract infections.
+p187
+aVYou have no idea what walks in through the door.
+p188
+aVSo, let's start off with the positive control first,
+p189
+aVwhere we know the person was healthy.
+p190
+aVThey got a shot of virus up the nose,
+p191
+aVlet's see what happens.
+p192
+aa(lp193
+VDay zero: nothing happening.
+p194
+aVThey're healthy; they're clean \u2014 it's amazing.
+p195
+aVActually, we thought the nasal tract might be full of viruses
+p196
+aVeven when you're walking around healthy.
+p197
+aVIt's pretty clean. If you're healthy, you're pretty healthy.
+p198
+aVDay two: we get a very robust rhinovirus pattern,
+p199
+aVand it's very similar to what we get in the lab
+p200
+aVdoing our tissue culture experiment.
+p201
+aVSo that's great, but again, cheap shot, right?
+p202
+aVWe put a ton of virus up this guy's nose. So \u2014
+p203
+aV(Laughter)
+p204
+aV\u2014 I mean, we wanted it to work. He really had a cold.
+p205
+aVSo, how about the people who walk in off the street?
+p206
+aa(lp207
+VHere are two individuals represented by their anonymous ID codes.
+p208
+aVThey both have rhinoviruses; we've never seen this pattern in lab.
+p209
+aVWe sequenced part of their viruses;
+p210
+aVthey're new rhinoviruses no one's actually even seen.
+p211
+aVRemember, our evolutionary-conserved sequences
+p212
+aVwe're using on this array allow us to detect
+p213
+aVeven novel or uncharacterized viruses,
+p214
+aVbecause we pick what is conserved throughout evolution.
+p215
+aVHere's another guy. You can play the diagnosis game yourself here.
+p216
+aVThese different blocks represent
+p217
+aVthe different viruses in this paramyxovirus family,
+p218
+aVso you can kind of go down the blocks
+p219
+aVand see where the signal is.
+p220
+aVWell, doesn't have canine distemper; that's probably good.
+p221
+aV(Laughter)
+p222
+aVBut by the time you get to block nine,
+p223
+aVyou see that respiratory syncytial virus.
+p224
+aVMaybe they have kids. And then you can see, also,
+p225
+aVthe family member that's related: RSVB is showing up here.
+p226
+aVSo, that's great.
+p227
+aVHere's another individual, sampled on two separate days \u2014
+p228
+aVrepeat visits to the clinic.
+p229
+aVThis individual has parainfluenza-1,
+p230
+aVand you can see that there's a little stripe over here
+p231
+aVfor Sendai virus: that's mouse parainfluenza.
+p232
+aVThe genetic relationships are very close there. That's a lot of fun.
+p233
+aa(lp234
+VSo, we built out the chip.
+p235
+aVWe made a chip that has every known virus ever discovered on it.
+p236
+aVWhy not? Every plant virus, every insect virus, every marine virus.
+p237
+aVEverything that we could get out of GenBank \u2014
+p238
+aVthat is, the national repository of sequences.
+p239
+aVNow we're using this chip. And what are we using it for?
+p240
+aVWell, first of all, when you have a big chip like this,
+p241
+aVyou need a little bit more informatics,
+p242
+aVso we designed the system to do automatic diagnosis.
+p243
+aVAnd the idea is that we simply have virtual patterns,
+p244
+aVbecause we're never going to get samples of every virus \u2014
+p245
+aVit would be virtually impossible. But we can get virtual patterns,
+p246
+aVand compare them to our observed result \u2014
+p247
+aVwhich is a very complex mixture \u2014 and come up with some sort of score
+p248
+aVof how likely it is this is a rhinovirus or something.
+p249
+aVAnd this is what this looks like.
+p250
+aVIf, for example, you used a cell culture
+p251
+aVthat's chronically infected with papilloma,
+p252
+aVyou get a little computer readout here,
+p253
+aVand our algorithm says it's probably papilloma type 18.
+p254
+aVAnd that is, in fact, what these particular cell cultures
+p255
+aVare chronically infected with.
+p256
+aa(lp257
+VSo let's do something a little bit harder.
+p258
+aVWe put the beeper in the clinic.
+p259
+aVWhen somebody shows up, and the hospital doesn't know what to do
+p260
+aVbecause they can't diagnose it, they call us.
+p261
+aVThat's the idea, and we're setting this up in the Bay Area.
+p262
+aVAnd so, this case report happened three weeks ago.
+p263
+aVWe have a 28-year-old healthy woman, no travel history,
+p264
+aV[unclear], doesn't smoke, doesn't drink.
+p265
+aV10-day history of fevers, night sweats, bloody sputum \u2014
+p266
+aVshe's coughing up blood \u2014 muscle pain.
+p267
+aVShe went to the clinic, and they gave her antibiotics
+p268
+aVand then sent her home.
+p269
+aVShe came back after ten days of fever, right? Still has the fever,
+p270
+aVand she's hypoxic \u2014 she doesn't have much oxygen in her lungs.
+p271
+aVThey did a CT scan.
+p272
+aVA normal lung is all sort of dark and black here.
+p273
+aVAll this white stuff \u2014 it's not good.
+p274
+aVThis sort of tree and bud formation indicates there's inflammation;
+p275
+aVthere's likely to be infection.
+p276
+aVOK. So, the patient was treated then
+p277
+aVwith a third-generation cephalosporin antibiotic and doxycycline,
+p278
+aVand on day three, it didn't help: she had progressed to acute failure.
+p279
+aVThey had to intubate her, so they put a tube down her throat
+p280
+aVand they began to mechanically ventilate her.
+p281
+aVShe could no longer breathe for herself.
+p282
+aVWhat to do next? Don't know.
+p283
+aVSwitch antibiotics: so they switched to another antibiotic,
+p284
+aVTamiflu.
+p285
+aVIt's not clear why they thought she had the flu,
+p286
+aVbut they switched to Tamiflu.
+p287
+aa(lp288
+VAnd on day six, they basically threw in the towel.
+p289
+aVYou do an open lung biopsy when you've got no other options.
+p290
+aVThere's an eight percent mortality rate with just doing this procedure,
+p291
+aVand so basically \u2014 and what do they learn from it?
+p292
+aVYou're looking at her open lung biopsy.
+p293
+aVAnd I'm no pathologist, but you can't tell much from this.
+p294
+aVAll you can tell is, there's a lot of swelling: bronchiolitis.
+p295
+aVIt was "unrevealing": that's the pathologist's report.
+p296
+aVAnd so, what did they test her for?
+p297
+aVThey have their own tests, of course,
+p298
+aVand so they tested her for over 70 different assays,
+p299
+aVfor every sort of bacteria and fungus and viral assay
+p300
+aVyou can buy off the shelf:
+p301
+aVSARS, metapneumovirus, HIV, RSV \u2014 all these.
+p302
+aVEverything came back negative, over 100,000 dollars worth of tests.
+p303
+aVI mean, they went to the max for this woman.
+p304
+aa(lp305
+VAnd basically on hospital day eight, that's when they called us.
+p306
+aVThey gave us endotracheal aspirate \u2014
+p307
+aVyou know, a little fluid from the throat,
+p308
+aVfrom this tube that they got down there \u2014 and they gave us this.
+p309
+aVWe put it on the chip; what do we see? Well, we saw parainfluenza-4.
+p310
+aVWell, what the hell's parainfluenza-4?
+p311
+aVNo one tests for parainfluenza-4. No one cares about it.
+p312
+aVIn fact, it's not even really sequenced that much.
+p313
+aVThere's just a little bit of it sequenced.
+p314
+aVThere's almost no epidemiology or studies on it.
+p315
+aVNo one would even consider it,
+p316
+aVbecause no one had a clue that it could cause respiratory failure.
+p317
+aVAnd why is that? Just lore. There's no data \u2014
+p318
+aVno data to support whether it causes severe or mild disease.
+p319
+aVClearly, we have a case of a healthy person that's going down.
+p320
+aa(lp321
+VOK, that's one case report.
+p322
+aVI'm going to tell you one last thing in the last two minutes
+p323
+aVthat's unpublished \u2014 it's going to come out tomorrow \u2014
+p324
+aVand it's an interesting case of how you might use this chip
+p325
+aVto find something new and open a new door.
+p326
+aVProstate cancer. I don't need to give you many statistics
+p327
+aVabout prostate cancer. Most of you already know it:
+p328
+aVthird leading cause of cancer deaths in the U.S.
+p329
+aVLots of risk factors,
+p330
+aVbut there is a genetic predisposition to prostate cancer.
+p331
+aVFor maybe about 10 percent of prostate cancer,
+p332
+aVthere are folks that are predisposed to it.
+p333
+aVAnd the first gene that was mapped in association studies
+p334
+aVfor this, early-onset prostate cancer, was this gene called RNASEL.
+p335
+aVWhat is that? It's an antiviral defense enzyme.
+p336
+aVSo, we're sitting around and thinking,
+p337
+aV"Why would men who have the mutation \u2014
+p338
+aVa defect in an antiviral defense system \u2014 get prostate cancer?
+p339
+aVIt doesn't make sense \u2014 unless, maybe, there's a virus?"
+p340
+aa(lp341
+VSo, we put tumors \u2014- and now we have over 100 tumors \u2014 on our array.
+p342
+aVAnd we know who's got defects in RNASEL and who doesn't.
+p343
+aVAnd I'm showing you the signal from the chip here,
+p344
+aVand I'm showing you for the block of retroviral oligos.
+p345
+aVAnd what I'm telling you here from the signal, is
+p346
+aVthat men who have a mutation in this antiviral defense enzyme,
+p347
+aVand have a tumor, often have \u2014 40 percent of the time \u2014
+p348
+aVa signature which reveals a new retrovirus.
+p349
+aVOK, that's pretty wild. What is it?
+p350
+aVSo, we clone the whole virus.
+p351
+aVFirst of all, I'll tell you that a little automated prediction told us
+p352
+aVit was very similar to a mouse virus.
+p353
+aVBut that doesn't tell us too much,
+p354
+aVso we actually clone the whole thing.
+p355
+aVAnd the viral genome I'm showing you right here?
+p356
+aVIt's a classic gamma retrovirus, but it's totally new;
+p357
+aVno one's ever seen it before.
+p358
+aVIts closest relative is, in fact, from mice,
+p359
+aVand so we would call this a xenotropic retrovirus,
+p360
+aVbecause it's infecting a species other than mice.
+p361
+aVAnd this is a little phylogenetic tree
+p362
+aVto see how it's related to other viruses.
+p363
+aVWe've done it for many patients now,
+p364
+aVand we can say that they're all independent infections.
+p365
+aVThey all have the same virus,
+p366
+aVbut they're different enough that there's reason to believe
+p367
+aVthat they've been independently acquired.
+p368
+aVIs it really in the tissue? And I'll end up with this: yes.
+p369
+aVWe take slices of these biopsies of tumor tissue
+p370
+aVand use material to actually locate the virus,
+p371
+aVand we find cells here with viral particles in them.
+p372
+aVThese guys really do have this virus.
+p373
+aa(lp374
+VDoes this virus cause prostate cancer?
+p375
+aVNothing I'm saying here implies causality. I don't know.
+p376
+aVIs it a link to oncogenesis? I don't know.
+p377
+aVIs it the case that these guys are just more susceptible to viruses?
+p378
+aVCould be. And it might have nothing to do with cancer.
+p379
+aVBut now it's a door.
+p380
+aVWe have a strong association between the presence of this virus
+p381
+aVand a genetic mutation that's been linked to cancer.
+p382
+aVThat's where we're at.
+p383
+aVSo, it opens up more questions than it answers, I'm afraid,
+p384
+aVbut that's what, you know, science is really good at.
+p385
+aVThis was all done by folks in the lab \u2014
+p386
+aVI cannot take credit for most of this.
+p387
+aVThis is a collaboration between myself and Don.
+p388
+aVThis is the guy who started the project in my lab,
+p389
+aVand this is the guy who's been doing prostate stuff.
+p390
+aVThank you very much. (Applause)
+p391
+aasS'transcript_micsec'
+p392
+(lp393
+I11000
+aI35000
+aI85000
+aI137000
+aI170000
+aI243000
+aI286000
+aI356000
+aI383000
+aI435000
+aI470000
+aI500000
+aI563000
+aI617000
+aI693000
+aI736000
+aI777000
+aI832000
+aI920000
+asS'talk_meta'
+p394
+(dp395
+S'ratings'
+p396
+(dp397
+S'ingenious'
+p398
+I185
+sS'beautiful'
+p399
+I4
+sS'inspiring'
+p400
+I42
+sS'ok'
+p401
+I24
+sS'fascinating'
+p402
+I155
+sS'funny'
+p403
+I14
+sS'total_count'
+p404
+I754
+sS'persuasive'
+p405
+I36
+sS'longwinded'
+p406
+I9
+sS'unconvincing'
+p407
+I7
+sS'informative'
+p408
+I143
+sS'jaw-dropping'
+p409
+I109
+sS'obnoxious'
+p410
+I1
+sS'courageous'
+p411
+I5
+sS'confusing'
+p412
+I20
+ssS'author'
+p413
+VJoe_DeRisi;
+p414
+sS'url'
+p415
+S'https://www.ted.com/talks/joe_derisi_hunts_the_next_killer_virus'
+p416
+sS'vidlen'
+p417
+I965
+sS'totalviews'
+p418
+I402583
+sS'title'
+p419
+VSolving medical mysteries
+p420
+sS'downloadlink'
+p421
+Vhttps://download.ted.com/talks/JoeDeRisi_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p422
+sS'datepublished'
+p423
+cdatetime
+datetime
+p424
+(S'\x07\xd9\x01\x1d\x02)\x00\x00\x00\x00'
+tRp425
+sS'datefilmed'
+p426
+g424
+(S'\x07\xd9\x01\x1d\x02)\x00\x00\x00\x00'
+tRp427
+sS'alldata_JSON'
+p428
+S'{"viewed_count": 402583, "speakers": [{"description": "Biochemist", "firstname": "Joe", "title": "", "lastname": "DeRisi", "middleinitial": "", "whylisten": "<p>Joseph DeRisi is a molecular biologist and biochemist, on the hunt for the genomic basis of illness. His lab at UCSF is focused on the cause of malaria, and he&#39;s also poked into SARS, avian flu and other new diseases as they crop up. <strong>His approach combines scientific rigor with a nerd&#39;s boundary-breaking enthusiasm for new techniques</strong> -- one of the qualities that helped him win a MacArthur &quot;genius&quot; grant in 2004. A self-confessed computer geek, DeRisi designed and programmed a groundbreaking tool for finding (and fighting) viruses -- the ViroChip, a DNA microarray that test for the presence of all known viruses in one step.</p> <p>In 2008, DeRisi won the Heinz Award for Technology, the Economy and Employment.</p>", "slug": "joe_derisi", "whotheyare": "Joe DeRisi hunts for the genes that make us sick. At his lab, he works to understand the genome of Plasmodium falciparum, the deadliest form of malaria. ", "whatotherssay": "From now on, I don\\u2019t think there is going to be any new viral epidemic that we will not be able to identify within a few days. It doesn\\u2019t mean you\\u2019ll find a cure right away. But you will be able to separate people who have it from those who don\\u2019t. You can stop it from spreading, if you have a diagnostic.", "id": 403, "photo_url": "https://pe.tedcdn.com/images/ted/68104_254x191.jpg"}], "current_talk": 445, "description": "Biochemist Joe DeRisi talks about amazing new ways to diagnose viruses (and treat the illnesses they cause) using DNA. His work may help us understand malaria, SARS, avian flu -- and the 60 percent of everyday viral infections that go undiagnosed.", "language": "en", "url": "https://www.ted.com/talks/joe_derisi_hunts_the_next_killer_virus", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 112597574}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22219532}, "podcast-high": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113092825}, "180k": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22020464}, "64k": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7929516}, "1500k": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 174844666}, "450k": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55102018}, "podcast-regular": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55500110}, "950k": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 111918798}, "audio-podcast": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5700540}, "podcast-light": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8061971}, "320k": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38965231}, "600k": {"uri": "https://download.ted.com/talks/JoeDeRisi_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73255140}}}, "comments": {"count": 50, "id": 380, "talk_id": 445}, "slug": "joe_derisi_hunts_the_next_killer_virus", "threadId": 380, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "joe_derisi_hunts_the_next_killer_virus", "filmed": 1138838400, "targeting": {"event": "TED2006", "tag": "global issues,illness,medicine,science,technology,virus", "id": 445, "talk": "joe_derisi_hunts_the_next_killer_virus", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "Solving medical mysteries", "postAdDuration": "0.83", "published": 1233214860, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b6813c2c2477a2a97f0b35a7bdeed9a33721bacf_1600x1200.jpg?quality=89&w=600", "name": "Joe DeRisi: Solving medical mysteries", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["global issues", "illness", "medicine", "science", "technology", "virus"], "speaker": "Joe DeRisi", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 965, "id": 445, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JoeDeRisi_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "global issues,illness,medicine,science,technology,virus", "id": 445, "talk": "joe_derisi_hunts_the_next_killer_virus", "year": "2006"}, "metadata": "https://hls.ted.com/talks/445.json", "stream": "https://hls.ted.com/talks/445.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D445%26tag%3Dglobal%2Bissues%2Cillness%2Cmedicine%2Cscience%2Ctechnology%2Cvirus%26talk%3Djoe_derisi_hunts_the_next_killer_virus%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/joe_derisi_hunts_the_next_killer_virus"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b6813c2c2477a2a97f0b35a7bdeed9a33721bacf_1600x1200.jpg?q=50&w=15", "duration": 965, "id": 445, "ratings": [{"count": 36, "id": 24, "name": "Persuasive"}, {"count": 185, "id": 9, "name": "Ingenious"}, {"count": 155, "id": 22, "name": "Fascinating"}, {"count": 20, "id": 2, "name": "Confusing"}, {"count": 143, "id": 8, "name": "Informative"}, {"count": 5, "id": 3, "name": "Courageous"}, {"count": 24, "id": 25, "name": "OK"}, {"count": 9, "id": 11, "name": "Longwinded"}, {"count": 42, "id": 10, "name": "Inspiring"}, {"count": 109, "id": 23, "name": "Jaw-dropping"}, {"count": 4, "id": 1, "name": "Beautiful"}, {"count": 14, "id": 7, "name": "Funny"}, {"count": 1, "id": 26, "name": "Obnoxious"}, {"count": 7, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Biochemist", "firstname": "Joe", "title": "", "lastname": "DeRisi", "middleinitial": "", "whylisten": "<p>Joseph DeRisi is a molecular biologist and biochemist, on the hunt for the genomic basis of illness. His lab at UCSF is focused on the cause of malaria, and he&#39;s also poked into SARS, avian flu and other new diseases as they crop up. <strong>His approach combines scientific rigor with a nerd&#39;s boundary-breaking enthusiasm for new techniques</strong> -- one of the qualities that helped him win a MacArthur &quot;genius&quot; grant in 2004. A self-confessed computer geek, DeRisi designed and programmed a groundbreaking tool for finding (and fighting) viruses -- the ViroChip, a DNA microarray that test for the presence of all known viruses in one step.</p> <p>In 2008, DeRisi won the Heinz Award for Technology, the Economy and Employment.</p>", "slug": "joe_derisi", "whotheyare": "Joe DeRisi hunts for the genes that make us sick. At his lab, he works to understand the genome of Plasmodium falciparum, the deadliest form of malaria. ", "whatotherssay": "From now on, I don\\u2019t think there is going to be any new viral epidemic that we will not be able to identify within a few days. It doesn\\u2019t mean you\\u2019ll find a cure right away. But you will be able to separate people who have it from those who don\\u2019t. You can stop it from spreading, if you have a diagnostic.", "id": 403, "photo_url": "https://pe.tedcdn.com/images/ted/68104_254x191.jpg"}], "title": "Solving medical mysteries", "take_action": [], "comments": 380, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/b6813c2c2477a2a97f0b35a7bdeed9a33721bacf_1600x1200.jpg", "description": "Biochemist Joe DeRisi talks about amazing new ways to diagnose viruses (and treat the illnesses they cause) using DNA. His work may help us understand malaria, SARS, avian flu -- and the 60 percent of everyday viral infections that go undiagnosed.", "tags": ["global issues", "illness", "medicine", "science", "technology", "virus"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-it.mp4"}, "mk": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-mk.mp4"}, "tr": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-bg.mp4"}, "ro": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JoeDeRisi_2006-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JoeDeRisi_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JoeDeRisi_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JoeDeRisi_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 445, "audioDownload": "https://download.ted.com/talks/JoeDeRisi_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1058222, "hero": "https://pe.tedcdn.com/images/ted/80325_800x600.jpg", "title": "The jungle search for viruses", "id": 499, "speaker": "Nathan Wolfe", "duration": 735, "slug": "nathan_wolfe_hunts_for_the_next_aids"}, {"viewed_count": 1439737, "hero": "https://pe.tedcdn.com/images/ted/bd6a41c08b773bcca10fe0b1a78176457dd10081_2880x1620.jpg", "title": "The potential of regenerative medicine", "id": 142, "speaker": "Alan Russell", "duration": 1165, "slug": "alan_russell_on_regenerating_our_bodies"}, {"viewed_count": 446550, "hero": "https://pe.tedcdn.com/images/ted/40964_480x360.jpg", "title": "Can we domesticate germs?", "id": 259, "speaker": "Paul Ewald", "duration": 1071, "slug": "paul_ewald_asks_can_we_domesticate_germs"}, {"viewed_count": 1173908, "hero": "https://pe.tedcdn.com/images/ted/9b844afb65cb94f942a332064978599e6438b1e5_2880x1620.jpg", "title": "How we\'ll fight the next deadly virus", "id": 2425, "speaker": "Pardis Sabeti", "duration": 577, "slug": "pardis_sabeti_how_we_ll_fight_the_next_deadly_virus"}, {"viewed_count": 1506592, "hero": "https://pe.tedcdn.com/images/ted/811cd11327696f4b8a124e4b75fa9aa780a20248_1600x1200.jpg", "title": "Hey science teachers -- make it fun", "id": 1655, "speaker": "Tyler DeWitt", "duration": 680, "slug": "tyler_dewitt_hey_science_teachers_make_it_fun"}, {"viewed_count": 865379, "hero": "https://pe.tedcdn.com/images/ted/506afea303c6c3f92efdfeae0daa3749a32c1c43_800x600.jpg", "title": "Using nature to grow batteries", "id": 1133, "speaker": "Angela Belcher", "duration": 625, "slug": "angela_belcher_using_nature_to_grow_batteries"}], "recorded_at": "2006-02-02T00:00:00.000+00:00", "slug": "joe_derisi_hunts_the_next_killer_virus", "speaker_name": "Joe DeRisi", "viewed_count": 402583, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2006", "name": "Joe DeRisi: Solving medical mysteries"}'
+p429
+sS'keywords'
+p430
+(lp431
+Vglobal issues
+p432
+aVillness
+p433
+aVmedicine
+p434
+aVscience
+p435
+aVtechnology
+p436
+aVvirus
+p437
+asS'datecrawled'
+p438
+g424
+(S'\x07\xe1\n\x17\x02\x10\x17\x088\xb9'
+tRp439
+sS'id'
+p440
+I445
+ss.

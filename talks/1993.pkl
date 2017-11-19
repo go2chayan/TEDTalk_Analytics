@@ -1,0 +1,634 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, I have a feature on my website where every week
+p5
+aVpeople submit hypothetical questions
+p6
+aVfor me to answer,
+p7
+aVand I try to answer them using math, science
+p8
+aVand comics.
+p9
+aa(lp10
+VSo for example, one person asked,
+p11
+aVwhat would happen if you tried to hit a baseball
+p12
+aVpitched at 90 percent of the speed of light?
+p13
+aVSo I did some calculations.
+p14
+aVNow, normally, when an object flies through the air,
+p15
+aVthe air will flow around the object,
+p16
+aVbut in this case, the ball would be going so fast
+p17
+aVthat the air molecules wouldn't have time
+p18
+aVto move out of the way.
+p19
+aVThe ball would smash right into and through them,
+p20
+aVand the collisions with these air molecules
+p21
+aVwould knock away the nitrogen,
+p22
+aVcarbon and hydrogen from the ball,
+p23
+aVfragmenting it off into tiny particles,
+p24
+aVand also triggering waves of thermonuclear fusion
+p25
+aVin the air around it.
+p26
+aVThis would result in a flood of x-rays
+p27
+aVthat would spread out in a bubble
+p28
+aValong with exotic particles,
+p29
+aVplasma inside, centered on the pitcher's mound,
+p30
+aVand that would move away from the pitcher's mound
+p31
+aVslightly faster than the ball.
+p32
+aVNow at this point, about 30 nanoseconds in,
+p33
+aVthe home plate is far enough away
+p34
+aVthat light hasn't had time to reach it,
+p35
+aVwhich means the batter
+p36
+aVstill sees the pitcher about to throw
+p37
+aVand has no idea that anything is wrong.
+p38
+aV(Laughter)
+p39
+aVNow, after 70 nanoseconds,
+p40
+aVthe ball will reach home plate,
+p41
+aVor at least the cloud of expanding plasma
+p42
+aVthat used to be the ball,
+p43
+aVand it will engulf the bat and the batter
+p44
+aVand the plate and the catcher and the umpire
+p45
+aVand start disintegrating them all
+p46
+aVas it also starts to carry them backward
+p47
+aVthrough the backstop, which also starts to disintegrate.
+p48
+aVSo if you were watching this whole thing
+p49
+aVfrom a hill,
+p50
+aVideally, far away,
+p51
+aVwhat you'd see is a bright flash of light
+p52
+aVthat would fade over a few seconds,
+p53
+aVfollowed by a blast wave spreading out,
+p54
+aVshredding trees and houses
+p55
+aVas it moves away from the stadium,
+p56
+aVand then eventually a mushroom cloud
+p57
+aVrising up over the ruined city. (Laughter)
+p58
+aa(lp59
+VSo the Major League Baseball rules
+p60
+aVare a little bit hazy,
+p61
+aVbut \u2014 (Laughter) \u2014 under rule 6.02 and 5.09,
+p62
+aVI think that in this situation,
+p63
+aVthe batter would be considered hit by pitch
+p64
+aVand would be eligible to take first base,
+p65
+aVif it still existed.
+p66
+aa(lp67
+VSo this is the kind of question I answer,
+p68
+aVand I get people writing in with
+p69
+aVa lot of other strange questions.
+p70
+aVI've had someone write and say,
+p71
+aVscientifically speaking, what is the best
+p72
+aVand fastest way to hide a body?
+p73
+aVCan you do this one soon?
+p74
+aVAnd I had someone write in,
+p75
+aVI've had people write in about,
+p76
+aVcan you prove whether or not you can find love again
+p77
+aVafter your heart's broken?
+p78
+aVAnd I've had people send in
+p79
+aVwhat are clearly homework questions
+p80
+aVthey're trying to get me to do for them.
+p81
+aa(lp82
+VBut one week, a couple months ago,
+p83
+aVI got a question that was actually about Google.
+p84
+aVIf all digital data in the world were stored on punch cards,
+p85
+aVhow big would Google's data warehouse be?
+p86
+aVNow, Google's pretty secretive about their operations,
+p87
+aVso no one really knows how much data Google has,
+p88
+aVand in fact, no one really knows how many data centers Google has,
+p89
+aVexcept people at Google itself.
+p90
+aVAnd I've tried, I've met them a few times,
+p91
+aVtried asking them, and they aren't revealing anything.
+p92
+aa(lp93
+VSo I decided to try to figure this out myself.
+p94
+aVThere are a few things that I looked at here.
+p95
+aVI started with money.
+p96
+aVGoogle has to reveal how much they spend,
+p97
+aVin general, and that lets you put some caps
+p98
+aVon how many data centers could they be building,
+p99
+aVbecause a big data center costs a certain amount of money.
+p100
+aVAnd you can also then put a cap on
+p101
+aVhow much of the world hard drive market are they taking up,
+p102
+aVwhich turns out, it's pretty sizable.
+p103
+aVI read a calculation at one point,
+p104
+aVI think Google has a drive failure
+p105
+aVabout every minute or two,
+p106
+aVand they just throw out the hard drive
+p107
+aVand swap in a new one.
+p108
+aVSo they go through a huge number of them.
+p109
+aVAnd so by looking at money,
+p110
+aVyou can get an idea of how many of these centers they have.
+p111
+aVYou can also look at power.
+p112
+aVYou can look at how much electricity they need,
+p113
+aVbecause you need a certain amount of electricity to run the servers,
+p114
+aVand Google is more efficient than most,
+p115
+aVbut they still have some basic requirements,
+p116
+aVand that lets you put a limit
+p117
+aVon the number of servers that they have.
+p118
+aVYou can also look at square footage and see
+p119
+aVof the data centers that you know,
+p120
+aVhow big are they?
+p121
+aVHow much room is that?
+p122
+aVHow many server racks could you fit in there?
+p123
+aVAnd for some data centers,
+p124
+aVyou might get two of these pieces of information.
+p125
+aVYou know how much they spent,
+p126
+aVand they also, say, because they had to contract
+p127
+aVwith the local government
+p128
+aVto get the power provided,
+p129
+aVyou might know what they made a deal to buy,
+p130
+aVso you know how much power it takes.
+p131
+aVThen you can look at the ratios of those numbers,
+p132
+aVand figure out for a data center
+p133
+aVwhere you don't have that information,
+p134
+aVyou can figure out,
+p135
+aVbut maybe you only have one of those,
+p136
+aVyou know the square footage, then you could figure out
+p137
+aVwell, maybe the power is proportional.
+p138
+aVAnd you can do this same thing with a lot of different quantities,
+p139
+aVyou know, with guesses about the total amount of storage,
+p140
+aVthe number of servers, the number of drives per server,
+p141
+aVand in each case using what you know
+p142
+aVto come up with a model that narrows down
+p143
+aVyour guesses for the things that you don't know.
+p144
+aVIt's sort of circling around the number you're trying to get.
+p145
+aVAnd this is a lot of fun.
+p146
+aVThe math is not all that advanced,
+p147
+aVand really it's like nothing more than
+p148
+aVsolving a sudoku puzzle.
+p149
+aa(lp150
+VSo what I did, I went through all of this information,
+p151
+aVspent a day or two researching.
+p152
+aVAnd there are some things I didn't look at.
+p153
+aVYou could always look at the Google
+p154
+aVrecruitment messages that they post.
+p155
+aVThat gives you an idea of where they have people.
+p156
+aVSometimes, when people visit a data center,
+p157
+aVthey'll take a cell-cam photo and post it,
+p158
+aVand they aren't supposed to,
+p159
+aVbut you can learn things about their hardware that way.
+p160
+aVAnd in fact, you can just look at pizza delivery drivers.
+p161
+aVTurns out, they know where all the Google data centers are,
+p162
+aVat least the ones that have people in them.
+p163
+aa(lp164
+VBut I came up with my estimate,
+p165
+aVwhich I felt pretty good about,
+p166
+aVthat was about 10 exabytes of data
+p167
+aVacross all of Google's operations,
+p168
+aVand then another maybe five exabytes or so
+p169
+aVof offline storage in tape drives,
+p170
+aVwhich it turns out Google is
+p171
+aVabout the world's largest consumer of.
+p172
+aa(lp173
+VSo I came up with this estimate, and this is
+p174
+aVa staggering amount of data.
+p175
+aVIt's quite a bit more than any other organization
+p176
+aVin the world has, as far as we know.
+p177
+aVThere's a couple of other contenders,
+p178
+aVespecially everyone always thinks of the NSA.
+p179
+aVBut using some of these same methods,
+p180
+aVwe can look at the NSA's data centers,
+p181
+aVand figure out, you know, we don't know what's going on there,
+p182
+aVbut it's pretty clear that their operation
+p183
+aVis not the size of Google's.
+p184
+aa(lp185
+VAdding all of this up, I came up with
+p186
+aVthe other thing that we can answer, which is,
+p187
+aVhow many punch cards would this take?
+p188
+aVAnd so a punch card can hold
+p189
+aVabout 80 characters,
+p190
+aVand you can fit about 2,000 or so cards into a box,
+p191
+aVand you put them in, say,
+p192
+aVmy home region of New England,
+p193
+aVit would cover the entire region
+p194
+aVup to a depth of a little less than five kilometers,
+p195
+aVwhich is about three times deeper
+p196
+aVthan the glaciers during the last ice age
+p197
+aVabout 20,000 years ago.
+p198
+aa(lp199
+VSo this is impractical, but I think
+p200
+aVthat's about the best answer I could come up with.
+p201
+aVAnd I posted it on my website. I wrote it up.
+p202
+aVAnd I didn't expect to get an answer from Google,
+p203
+aVbecause of course they've been so secretive,
+p204
+aVthey didn't answer of my questions,
+p205
+aVand so I just put it up and said,
+p206
+aVwell, I guess we'll never know.
+p207
+aa(lp208
+VBut then a little while later
+p209
+aVI got a message, a couple weeks later, from Google,
+p210
+aVsaying, hey, someone here has an envelope for you.
+p211
+aVSo I go and get it, open it up,
+p212
+aVand it's punch cards. (Laughter)
+p213
+aVGoogle-branded punch cards.
+p214
+aVAnd on these punch cards, there are a bunch of holes,
+p215
+aVand I said, thank you, thank you,
+p216
+aVokay, so what's on here?
+p217
+aVSo I get some software and start reading it,
+p218
+aVand scan them, and it turns out
+p219
+aVit's a puzzle.
+p220
+aVThere's a bunch of code,
+p221
+aVand I get some friends to help,
+p222
+aVand we crack the code, and then inside that is another code,
+p223
+aVand then there are some equations,
+p224
+aVand then we solve those equations,
+p225
+aVand then finally out pops a message from Google
+p226
+aVwhich is their official answer to my article,
+p227
+aVand it said, "No comment."
+p228
+aV(Laughter) (Applause)
+p229
+aa(lp230
+VAnd I love calculating these kinds of things,
+p231
+aVand it's not that I love doing the math.
+p232
+aVI do a lot of math,
+p233
+aVbut I don't really like math for its own sake.
+p234
+aVWhat I love is that it lets you take
+p235
+aVsome things that you know,
+p236
+aVand just by moving symbols around on a piece of paper,
+p237
+aVfind out something that you didn't know
+p238
+aVthat's very surprising.
+p239
+aVAnd I have a lot of stupid questions,
+p240
+aVand I love that math gives the power
+p241
+aVto answer them sometimes.
+p242
+aa(lp243
+VAnd sometimes not.
+p244
+aVThis is a question I got from a reader,
+p245
+aVan anonymous reader,
+p246
+aVand the subject line just said, "Urgent,"
+p247
+aVand this was the entire email:
+p248
+aV"If people had wheels and could fly,
+p249
+aVhow would we differentiate them from airplanes?"
+p250
+aVUrgent. (Laughter)
+p251
+aa(lp252
+VAnd I think there are some questions
+p253
+aVthat math just cannot answer.
+p254
+aVThank you.
+p255
+aV(Applause)
+p256
+aasS'transcript_micsec'
+p257
+(lp258
+I11000
+aI21000
+aI131000
+aI149000
+aI179000
+aI208000
+aI329000
+aI361000
+aI380000
+aI403000
+aI433000
+aI450000
+aI505000
+aI533000
+aI550000
+asS'talk_meta'
+p259
+(dp260
+S'ratings'
+p261
+(dp262
+S'beautiful'
+p263
+I169
+sS'funny'
+p264
+I1133
+sS'ingenious'
+p265
+I432
+sS'ok'
+p266
+I172
+sS'fascinating'
+p267
+I424
+sS'total_count'
+p268
+I3224
+sS'persuasive'
+p269
+I14
+sS'inspiring'
+p270
+I159
+sS'longwinded'
+p271
+I43
+sS'informative'
+p272
+I508
+sS'jaw-dropping'
+p273
+I60
+sS'obnoxious'
+p274
+I20
+sS'confusing'
+p275
+I48
+sS'courageous'
+p276
+I16
+sS'unconvincing'
+p277
+I26
+ssS'author'
+p278
+VRandall_Munroe;
+p279
+sS'url'
+p280
+S'https://www.ted.com/talks/randall_munroe_comics_that_ask_what_if'
+p281
+sS'vidlen'
+p282
+I569
+sS'totalviews'
+p283
+I2592290
+sS'title'
+p284
+VComics that ask "what if?"
+p285
+sS'downloadlink'
+p286
+Vhttps://download.ted.com/talks/RandallMunroe_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p287
+sS'datepublished'
+p288
+cdatetime
+datetime
+p289
+(S'\x07\xde\x05\x08\n92\x00\x00\x00'
+tRp290
+sS'datefilmed'
+p291
+g289
+(S'\x07\xde\x05\x08\n92\x00\x00\x00'
+tRp292
+sS'alldata_JSON'
+p293
+S'{"viewed_count": 2592290, "speakers": [{"description": "Cartoonist", "firstname": "Randall", "title": "", "lastname": "Munroe", "middleinitial": "", "whylisten": "<p>One of a small group of professional web cartoonists, math obsessive and chronic explainer Randall Munroe dazzles the online world (and racks up millions of monthly page views) with the meaninglessly-named (and occasionally heartbreaking) webcomic <a href=\\"http://xkcd.com/\\" target=\\"_blank\\">xkcd</a>.<br />&nbsp;<br />Munroe&rsquo;s blog <a href=\\"http://what-if.xkcd.com/\\" target=\\"_blank\\">What If?</a>  specializes in cunning answers to, as the <a href=\\"http://www.theatlantic.com/technology/archive/2012/09/a-conversation-with-randall-munroe-the-creator-of-xkcd/262851/\\" target=\\"_blank\\"><em>Atlantic</em></a>  put it, &quot;the kinds of of wonderful and fanciful hypotheticals that might arise when the nerdily inclined get together in bars,&quot; like &ldquo;How fast can you hit a speed bump while driving <a href=\\"http://what-if.xkcd.com/61/\\" target=\\"_blank\\">and live</a>?&rdquo; or &ldquo;What would happen if a hair dryer with continuous power was turned on and put in an airtight 1x1x1 meter box?&rdquo; As he told <em><a href=\\"http://www.maa.org/sites/default/files/pdf/Mathhorizons/MH-Sep2012_XKCD.pdf\\" target=\\"_blank\\">Math Horizons</a>,</em> I really enjoy solving these kinds of things, and it&rsquo;s a bonus if I realize that I can put boxes around it and make it a comic.&quot;</p><p>He is also the author of the book&nbsp;<a href=\\"http://www.amazon.com/Thing-Explainer-Complicated-Stuff-Simple/dp/0544668251\\" target=\\"_blank\\"><em>Thing Explainer: Complicated Stuff in Simple Words</em></a>.&nbsp;</p>", "slug": "randall_munroe", "whotheyare": "Randall Munroe sketches elegant and illuminating explanations of the weird science and math questions that keep geeks awake at night.", "whatotherssay": "Xkcd [sic], a webcomic peopled with lovestruck stick figures, revels in the human side of geekdom ... \\"Xkcd\\" isn\'t an acronym, but in some ways, the comic is itself a language -- a way for people who are unpracticed at talking about their emotions to articulate them.", "id": 1750, "photo_url": "https://pe.tedcdn.com/images/ted/39ed7a878081c94450f50832c692f6fa2e0ef34e_254x191.jpg"}], "current_talk": 1993, "description": "Web cartoonist Randall Munroe answers simple what-if questions (\\"what if you hit a baseball moving at the speed of light?\\") using math, physics, logic and deadpan humor. In this charming talk, a reader\'s question about Google\'s data warehouse leads Munroe down a circuitous path to a hilariously over-detailed answer \\u2014 in which, shhh, you might actually learn something.", "language": "en", "url": "https://www.ted.com/talks/randall_munroe_comics_that_ask_what_if", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67820340}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13162850}, "podcast-high": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67821257}, "180k": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13060597}, "64k": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4713371}, "1500k": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 105479334}, "450k": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32240520}, "podcast-regular": {"uri": "https://download.ted.com/talks/RandallMunroe_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32410415}, "950k": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67850697}, "audio-podcast": {"uri": "https://download.ted.com/talks/RandallMunroe_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5989663}, "podcast-light": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4812776}, "320k": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23142663}, "600k": {"uri": "https://download.ted.com/talks/RandallMunroe_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43259839}}}, "comments": {"count": 117, "id": 26126, "talk_id": 1993}, "slug": "randall_munroe_comics_that_ask_what_if", "threadId": 26126, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "randall_munroe_comics_that_ask_what_if", "filmed": 1395273600, "targeting": {"event": "TED2014", "tag": "Google,art,comedy,computers,data,humor,math,physics,science,science and art", "id": 1993, "talk": "randall_munroe_comics_that_ask_what_if", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "Comics that ask \\"what if?\\"", "postAdDuration": "0.83", "published": 1399561070, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b867da1b6773c92bb7342367fa411d21a0a44018_1600x1200.jpg?quality=89&w=600", "name": "Randall Munroe: Comics that ask \\"what if?\\"", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "eo", "endonym": "Esperanto", "isRtl": false, "ianaCode": "eo", "languageName": "Esperanto"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Google", "art", "comedy", "computers", "data", "humor", "math", "physics", "science", "science and art"], "speaker": "Randall Munroe", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 569, "id": 1993, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RandallMunroe_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "Google,art,comedy,computers,data,humor,math,physics,science,science and art", "id": 1993, "talk": "randall_munroe_comics_that_ask_what_if", "year": "2014"}, "metadata": "https://hls.ted.com/talks/1993.json", "stream": "https://hls.ted.com/talks/1993.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D1993%26tag%3DGoogle%2Cart%2Ccomedy%2Ccomputers%2Cdata%2Chumor%2Cmath%2Cphysics%2Cscience%2Cscience%2Band%2Bart%26talk%3Drandall_munroe_comics_that_ask_what_if%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/randall_munroe_comics_that_ask_what_if"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b867da1b6773c92bb7342367fa411d21a0a44018_1600x1200.jpg?q=50&w=15", "duration": 569, "id": 1993, "ratings": [{"count": 169, "id": 1, "name": "Beautiful"}, {"count": 1133, "id": 7, "name": "Funny"}, {"count": 508, "id": 8, "name": "Informative"}, {"count": 432, "id": 9, "name": "Ingenious"}, {"count": 424, "id": 22, "name": "Fascinating"}, {"count": 159, "id": 10, "name": "Inspiring"}, {"count": 60, "id": 23, "name": "Jaw-dropping"}, {"count": 43, "id": 11, "name": "Longwinded"}, {"count": 172, "id": 25, "name": "OK"}, {"count": 26, "id": 21, "name": "Unconvincing"}, {"count": 14, "id": 24, "name": "Persuasive"}, {"count": 20, "id": 26, "name": "Obnoxious"}, {"count": 48, "id": 2, "name": "Confusing"}, {"count": 16, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Cartoonist", "firstname": "Randall", "title": "", "lastname": "Munroe", "middleinitial": "", "whylisten": "<p>One of a small group of professional web cartoonists, math obsessive and chronic explainer Randall Munroe dazzles the online world (and racks up millions of monthly page views) with the meaninglessly-named (and occasionally heartbreaking) webcomic <a href=\\"http://xkcd.com/\\" target=\\"_blank\\">xkcd</a>.<br />&nbsp;<br />Munroe&rsquo;s blog <a href=\\"http://what-if.xkcd.com/\\" target=\\"_blank\\">What If?</a>  specializes in cunning answers to, as the <a href=\\"http://www.theatlantic.com/technology/archive/2012/09/a-conversation-with-randall-munroe-the-creator-of-xkcd/262851/\\" target=\\"_blank\\"><em>Atlantic</em></a>  put it, &quot;the kinds of of wonderful and fanciful hypotheticals that might arise when the nerdily inclined get together in bars,&quot; like &ldquo;How fast can you hit a speed bump while driving <a href=\\"http://what-if.xkcd.com/61/\\" target=\\"_blank\\">and live</a>?&rdquo; or &ldquo;What would happen if a hair dryer with continuous power was turned on and put in an airtight 1x1x1 meter box?&rdquo; As he told <em><a href=\\"http://www.maa.org/sites/default/files/pdf/Mathhorizons/MH-Sep2012_XKCD.pdf\\" target=\\"_blank\\">Math Horizons</a>,</em> I really enjoy solving these kinds of things, and it&rsquo;s a bonus if I realize that I can put boxes around it and make it a comic.&quot;</p><p>He is also the author of the book&nbsp;<a href=\\"http://www.amazon.com/Thing-Explainer-Complicated-Stuff-Simple/dp/0544668251\\" target=\\"_blank\\"><em>Thing Explainer: Complicated Stuff in Simple Words</em></a>.&nbsp;</p>", "slug": "randall_munroe", "whotheyare": "Randall Munroe sketches elegant and illuminating explanations of the weird science and math questions that keep geeks awake at night.", "whatotherssay": "Xkcd [sic], a webcomic peopled with lovestruck stick figures, revels in the human side of geekdom ... \\"Xkcd\\" isn\'t an acronym, but in some ways, the comic is itself a language -- a way for people who are unpracticed at talking about their emotions to articulate them.", "id": 1750, "photo_url": "https://pe.tedcdn.com/images/ted/39ed7a878081c94450f50832c692f6fa2e0ef34e_254x191.jpg"}], "title": "Comics that ask \\"what if?\\"", "take_action": [], "comments": 26126, "more_resources": [{"status": "approved", "publisher": "Houghton Mifflin Harcourt ", "start_at": null, "author": "Randall Munroe", "headline": "*What If?*", "link_url": "http://www.amazon.com/What-If-Scientific-Hypothetical-Questions/dp/0544272994/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/b2e2402225d3733ee8d9b6f2d598bbb426a9f337_618x803.jpg", "year": "2014", "type": "book", "blurb": null}, {"status": "approved", "start_at": null, "headline": "xkcd", "link_url": "http://xkcd.com/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Explore Randall Munroe\'s webcomic to see his thoughts on everything from investments to escape artists to Walmart."}], "hero": "https://pe.tedcdn.com/images/ted/b867da1b6773c92bb7342367fa411d21a0a44018_1600x1200.jpg", "description": "Web cartoonist Randall Munroe answers simple what-if questions (\\"what if you hit a baseball moving at the speed of light?\\") using math, physics, logic and deadpan humor. In this charming talk, a reader\'s question about Google\'s data warehouse leads Munroe down a circuitous path to a hilariously over-detailed answer \\u2014 in which, shhh, you might actually learn something.", "tags": ["Google", "art", "comedy", "computers", "data", "humor", "math", "physics", "science", "science and art"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "eo", "endonym": "Esperanto", "isRtl": false, "ianaCode": "eo", "languageName": "Esperanto"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-el.mp4"}, "eo": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-eo.mp4", "name": "Esperanto", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-eo.mp4"}, "en": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-bg.mp4"}, "hu": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RandallMunroe_2014-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RandallMunroe_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RandallMunroe_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RandallMunroe_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1993, "audioDownload": "https://download.ted.com/talks/RandallMunroe_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 8396460, "hero": "https://pe.tedcdn.com/images/ted/e982353371ca063e5ffb2ab554ec91de355d29d1_1600x1200.jpg", "title": "A performance of \\"Mathemagic\\"", "id": 199, "speaker": "Arthur Benjamin", "duration": 914, "slug": "arthur_benjamin_does_mathemagic"}, {"viewed_count": 3274346, "hero": "https://pe.tedcdn.com/images/ted/e22e363160add88a32b3e9805dfa52d8f588b879_2880x1620.jpg", "title": "Why is \'x\' the unknown?", "id": 1469, "speaker": "Terry Moore", "duration": 237, "slug": "terry_moore_why_is_x_the_unknown"}, {"viewed_count": 197283, "hero": "https://pe.tedcdn.com/images/ted/f5b4d8fa6f9fdb5172a8363d79dbe9f5d8d5880a_2880x1620.jpg", "title": "How much does a video weigh?", "id": 1723, "speaker": "Michael Stevens", "duration": 441, "slug": "how_much_does_a_video_weigh"}, {"viewed_count": 1463505, "hero": "https://pe.tedcdn.com/images/ted/420_480x360.jpg", "title": "The genesis of Google", "id": 118, "speaker": "Sergey Brin + Larry Page", "duration": 1233, "slug": "sergey_brin_and_larry_page_on_google"}, {"viewed_count": 1404069, "hero": "https://pe.tedcdn.com/images/ted/90eeddc216ca86ad2fbf99d0823a39fe681e7513_2880x1620.jpg", "title": "The moral bias behind your search results", "id": 2369, "speaker": "Andreas Ekstr\\u00f6m", "duration": 558, "slug": "andreas_ekstrom_the_moral_bias_behind_your_search_results"}, {"viewed_count": 894271, "hero": "https://pe.tedcdn.com/images/ted/717615842ba000b4fc62170742b8fd05e82f5fb4_2880x1620.jpg", "title": "The era of blind faith in big data must end", "id": 2845, "speaker": "Cathy O\'Neil", "duration": 798, "slug": "cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end"}], "recorded_at": "2014-03-20T00:00:00.000+00:00", "slug": "randall_munroe_comics_that_ask_what_if", "speaker_name": "Randall Munroe", "viewed_count": 2592290, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2014", "name": "Randall Munroe: Comics that ask \\"what if?\\""}'
+p294
+sS'keywords'
+p295
+(lp296
+VGoogle
+p297
+aVart
+p298
+aVcomedy
+p299
+aVcomputers
+p300
+aVdata
+p301
+aVhumor
+p302
+aVmath
+p303
+aVphysics
+p304
+aVscience
+p305
+aVscience and art
+p306
+asS'datecrawled'
+p307
+g289
+(S'\x07\xe1\n\x17\x03\x180\x04\xb1\x9a'
+tRp308
+sS'id'
+p309
+I1993
+ss.

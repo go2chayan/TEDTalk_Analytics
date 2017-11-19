@@ -1,0 +1,796 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMost of us think of motion as a very visual thing.
+p5
+aVIf I walk across this stage or gesture with my hands while I speak,
+p6
+aVthat motion is something that you can see.
+p7
+aVBut there's a world of important motion that's too subtle for the human eye,
+p8
+aVand over the past few years,
+p9
+aVwe've started to find that cameras
+p10
+aVcan often see this motion even when humans can't.
+p11
+aa(lp12
+VSo let me show you what I mean.
+p13
+aVOn the left here, you see video of a person's wrist,
+p14
+aVand on the right, you see video of a sleeping infant,
+p15
+aVbut if I didn't tell you that these were videos,
+p16
+aVyou might assume that you were looking at two regular images,
+p17
+aVbecause in both cases,
+p18
+aVthese videos appear to be almost completely still.
+p19
+aVBut there's actually a lot of subtle motion going on here,
+p20
+aVand if you were to touch the wrist on the left,
+p21
+aVyou would feel a pulse,
+p22
+aVand if you were to hold the infant on the right,
+p23
+aVyou would feel the rise and fall of her chest
+p24
+aVas she took each breath.
+p25
+aVAnd these motions carry a lot of significance,
+p26
+aVbut they're usually too subtle for us to see,
+p27
+aVso instead, we have to observe them
+p28
+aVthrough direct contact, through touch.
+p29
+aa(lp30
+VBut a few years ago,
+p31
+aVmy colleagues at MIT developed what they call a motion microscope,
+p32
+aVwhich is software that finds these subtle motions in video
+p33
+aVand amplifies them so that they become large enough for us to see.
+p34
+aVAnd so, if we use their software on the left video,
+p35
+aVit lets us see the pulse in this wrist,
+p36
+aVand if we were to count that pulse,
+p37
+aVwe could even figure out this person's heart rate.
+p38
+aVAnd if we used the same software on the right video,
+p39
+aVit lets us see each breath that this infant takes,
+p40
+aVand we can use this as a contact-free way to monitor her breathing.
+p41
+aa(lp42
+VAnd so this technology is really powerful because it takes these phenomena
+p43
+aVthat we normally have to experience through touch
+p44
+aVand it lets us capture them visually and non-invasively.
+p45
+aa(lp46
+VSo a couple years ago, I started working with the folks that created that software,
+p47
+aVand we decided to pursue a crazy idea.
+p48
+aVWe thought, it's cool that we can use software
+p49
+aVto visualize tiny motions like this,
+p50
+aVand you can almost think of it as a way to extend our sense of touch.
+p51
+aVBut what if we could do the same thing with our ability to hear?
+p52
+aVWhat if we could use video to capture the vibrations of sound,
+p53
+aVwhich are just another kind of motion,
+p54
+aVand turn everything that we see into a microphone?
+p55
+aa(lp56
+VNow, this is a bit of a strange idea,
+p57
+aVso let me try to put it in perspective for you.
+p58
+aVTraditional microphones work by converting the motion
+p59
+aVof an internal diaphragm into an electrical signal,
+p60
+aVand that diaphragm is designed to move readily with sound
+p61
+aVso that its motion can be recorded and interpreted as audio.
+p62
+aVBut sound causes all objects to vibrate.
+p63
+aVThose vibrations are just usually too subtle and too fast for us to see.
+p64
+aa(lp65
+VSo what if we record them with a high-speed camera
+p66
+aVand then use software to extract tiny motions
+p67
+aVfrom our high-speed video,
+p68
+aVand analyze those motions to figure out what sounds created them?
+p69
+aVThis would let us turn visible objects into visual microphones from a distance.
+p70
+aVAnd so we tried this out,
+p71
+aVand here's one of our experiments,
+p72
+aVwhere we took this potted plant that you see on the right
+p73
+aVand we filmed it with a high-speed camera
+p74
+aVwhile a nearby loudspeaker played this sound.
+p75
+aa(lp76
+V(Music: "Mary Had a Little Lamb")
+p77
+aa(lp78
+VAnd so here's the video that we recorded,
+p79
+aVand we recorded it at thousands of frames per second,
+p80
+aVbut even if you look very closely,
+p81
+aVall you'll see are some leaves
+p82
+aVthat are pretty much just sitting there doing nothing,
+p83
+aVbecause our sound only moved those leaves by about a micrometer.
+p84
+aVThat's one ten-thousandth of a centimeter,
+p85
+aVwhich spans somewhere between a hundredth and a thousandth
+p86
+aVof a pixel in this image.
+p87
+aVSo you can squint all you want,
+p88
+aVbut motion that small is pretty much perceptually invisible.
+p89
+aVBut it turns out that something can be perceptually invisible
+p90
+aVand still be numerically significant,
+p91
+aVbecause with the right algorithms,
+p92
+aVwe can take this silent, seemingly still video
+p93
+aVand we can recover this sound.
+p94
+aa(lp95
+V(Music: "Mary Had a Little Lamb")
+p96
+aa(lp97
+V(Applause)
+p98
+aa(lp99
+VSo how is this possible?
+p100
+aVHow can we get so much information out of so little motion?
+p101
+aVWell, let's say that those leaves move by just a single micrometer,
+p102
+aVand let's say that that shifts our image by just a thousandth of a pixel.
+p103
+aVThat may not seem like much,
+p104
+aVbut a single frame of video
+p105
+aVmay have hundreds of thousands of pixels in it,
+p106
+aVand so if we combine all of the tiny motions that we see
+p107
+aVfrom across that entire image,
+p108
+aVthen suddenly a thousandth of a pixel
+p109
+aVcan start to add up to something pretty significant.
+p110
+aa(lp111
+VOn a personal note, we were pretty psyched when we figured this out.
+p112
+aV(Laughter)
+p113
+aVBut even with the right algorithm,
+p114
+aVwe were still missing a pretty important piece of the puzzle.
+p115
+aVYou see, there are a lot of factors that affect when and how well
+p116
+aVthis technique will work.
+p117
+aVThere's the object and how far away it is;
+p118
+aVthere's the camera and the lens that you use;
+p119
+aVhow much light is shining on the object and how loud your sound is.
+p120
+aVAnd even with the right algorithm,
+p121
+aVwe had to be very careful with our early experiments,
+p122
+aVbecause if we got any of these factors wrong,
+p123
+aVthere was no way to tell what the problem was.
+p124
+aVWe would just get noise back.
+p125
+aVAnd so a lot of our early experiments looked like this.
+p126
+aVAnd so here I am,
+p127
+aVand on the bottom left, you can kind of see our high-speed camera,
+p128
+aVwhich is pointed at a bag of chips,
+p129
+aVand the whole thing is lit by these bright lamps.
+p130
+aVAnd like I said, we had to be very careful in these early experiments,
+p131
+aVso this is how it went down.
+p132
+aa(lp133
+V(Video) Abe Davis: Three, two, one, go.
+p134
+aVMary had a little lamb! Little lamb! Little lamb!
+p135
+aa(lp136
+V(Laughter)
+p137
+aa(lp138
+VAD: So this experiment looks completely ridiculous.
+p139
+aV(Laughter)
+p140
+aVI mean, I'm screaming at a bag of chips \u2014
+p141
+aV(Laughter) \u2014
+p142
+aVand we're blasting it with so much light,
+p143
+aVwe literally melted the first bag we tried this on. (Laughter)
+p144
+aVBut ridiculous as this experiment looks,
+p145
+aVit was actually really important,
+p146
+aVbecause we were able to recover this sound.
+p147
+aa(lp148
+V(Audio) Mary had a little lamb! Little lamb! Little lamb!
+p149
+aa(lp150
+V(Applause)
+p151
+aa(lp152
+VAD: And this was really significant,
+p153
+aVbecause it was the first time we recovered intelligible human speech
+p154
+aVfrom silent video of an object.
+p155
+aVAnd so it gave us this point of reference,
+p156
+aVand gradually we could start to modify the experiment,
+p157
+aVusing different objects or moving the object further away,
+p158
+aVusing less light or quieter sounds.
+p159
+aVAnd we analyzed all of these experiments
+p160
+aVuntil we really understood the limits of our technique,
+p161
+aVbecause once we understood those limits,
+p162
+aVwe could figure out how to push them.
+p163
+aa(lp164
+VAnd that led to experiments like this one,
+p165
+aVwhere again, I'm going to speak to a bag of chips,
+p166
+aVbut this time we've moved our camera about 15 feet away,
+p167
+aVoutside, behind a soundproof window,
+p168
+aVand the whole thing is lit by only natural sunlight.
+p169
+aVAnd so here's the video that we captured.
+p170
+aVAnd this is what things sounded like from inside, next to the bag of chips.
+p171
+aa(lp172
+V(Audio) Mary had a little lamb whose fleece was white as snow,
+p173
+aVand everywhere that Mary went, that lamb was sure to go.
+p174
+aa(lp175
+VAD: And here's what we were able to recover from our silent video
+p176
+aVcaptured outside behind that window.
+p177
+aa(lp178
+V(Audio) Mary had a little lamb whose fleece was white as snow,
+p179
+aVand everywhere that Mary went, that lamb was sure to go.
+p180
+aa(lp181
+V(Applause)
+p182
+aa(lp183
+VAD: And there are other ways that we can push these limits as well.
+p184
+aVSo here's a quieter experiment
+p185
+aVwhere we filmed some earphones plugged into a laptop computer,
+p186
+aVand in this case, our goal was to recover the music that was playing on that laptop
+p187
+aVfrom just silent video
+p188
+aVof these two little plastic earphones,
+p189
+aVand we were able to do this so well
+p190
+aVthat I could even Shazam our results.
+p191
+aV(Laughter)
+p192
+aa(lp193
+V(Music: "Under Pressure" by Queen)
+p194
+aa(lp195
+V(Applause)
+p196
+aa(lp197
+VAnd we can also push things by changing the hardware that we use.
+p198
+aVBecause the experiments I've shown you so far
+p199
+aVwere done with a camera, a high-speed camera,
+p200
+aVthat can record video about a 100 times faster
+p201
+aVthan most cell phones,
+p202
+aVbut we've also found a way to use this technique
+p203
+aVwith more regular cameras,
+p204
+aVand we do that by taking advantage of what's called a rolling shutter.
+p205
+aVYou see, most cameras record images one row at a time,
+p206
+aVand so if an object moves during the recording of a single image,
+p207
+aVthere's a slight time delay between each row,
+p208
+aVand this causes slight artifacts
+p209
+aVthat get coded into each frame of a video.
+p210
+aVAnd so what we found is that by analyzing these artifacts,
+p211
+aVwe can actually recover sound using a modified version of our algorithm.
+p212
+aVSo here's an experiment we did
+p213
+aVwhere we filmed a bag of candy
+p214
+aVwhile a nearby loudspeaker played
+p215
+aVthe same "Mary Had a Little Lamb" music from before,
+p216
+aVbut this time, we used just a regular store-bought camera,
+p217
+aVand so in a second, I'll play for you the sound that we recovered,
+p218
+aVand it's going to sound distorted this time,
+p219
+aVbut listen and see if you can still recognize the music.
+p220
+aa(lp221
+V(Audio: "Mary Had a Little Lamb")
+p222
+aa(lp223
+VAnd so, again, that sounds distorted,
+p224
+aVbut what's really amazing here is that we were able to do this
+p225
+aVwith something that you could literally run out
+p226
+aVand pick up at a Best Buy.
+p227
+aa(lp228
+VSo at this point,
+p229
+aVa lot of people see this work,
+p230
+aVand they immediately think about surveillance.
+p231
+aVAnd to be fair,
+p232
+aVit's not hard to imagine how you might use this technology to spy on someone.
+p233
+aVBut keep in mind that there's already a lot of very mature technology
+p234
+aVout there for surveillance.
+p235
+aVIn fact, people have been using lasers
+p236
+aVto eavesdrop on objects from a distance for decades.
+p237
+aVBut what's really new here,
+p238
+aVwhat's really different,
+p239
+aVis that now we have a way to picture the vibrations of an object,
+p240
+aVwhich gives us a new lens through which to look at the world,
+p241
+aVand we can use that lens
+p242
+aVto learn not just about forces like sound that cause an object to vibrate,
+p243
+aVbut also about the object itself.
+p244
+aa(lp245
+VAnd so I want to take a step back
+p246
+aVand think about how that might change the ways that we use video,
+p247
+aVbecause we usually use video to look at things,
+p248
+aVand I've just shown you how we can use it
+p249
+aVto listen to things.
+p250
+aVBut there's another important way that we learn about the world:
+p251
+aVthat's by interacting with it.
+p252
+aVWe push and pull and poke and prod things.
+p253
+aVWe shake things and see what happens.
+p254
+aVAnd that's something that video still won't let us do,
+p255
+aVat least not traditionally.
+p256
+aVSo I want to show you some new work,
+p257
+aVand this is based on an idea I had just a few months ago,
+p258
+aVso this is actually the first time I've shown it to a public audience.
+p259
+aVAnd the basic idea is that we're going to use the vibrations in a video
+p260
+aVto capture objects in a way that will let us interact with them
+p261
+aVand see how they react to us.
+p262
+aa(lp263
+VSo here's an object,
+p264
+aVand in this case, it's a wire figure in the shape of a human,
+p265
+aVand we're going to film that object with just a regular camera.
+p266
+aVSo there's nothing special about this camera.
+p267
+aVIn fact, I've actually done this with my cell phone before.
+p268
+aVBut we do want to see the object vibrate,
+p269
+aVso to make that happen,
+p270
+aVwe're just going to bang a little bit on the surface where it's resting
+p271
+aVwhile we record this video.
+p272
+aa(lp273
+VSo that's it: just five seconds of regular video,
+p274
+aVwhile we bang on this surface,
+p275
+aVand we're going to use the vibrations in that video
+p276
+aVto learn about the structural and material properties of our object,
+p277
+aVand we're going to use that information to create something new and interactive.
+p278
+aVAnd so here's what we've created.
+p279
+aVAnd it looks like a regular image,
+p280
+aVbut this isn't an image, and it's not a video,
+p281
+aVbecause now I can take my mouse
+p282
+aVand I can start interacting with the object.
+p283
+aVAnd so what you see here
+p284
+aVis a simulation of how this object
+p285
+aVwould respond to new forces that we've never seen before,
+p286
+aVand we created it from just five seconds of regular video.
+p287
+aa(lp288
+V(Applause)
+p289
+aa(lp290
+VAnd so this is a really powerful way to look at the world,
+p291
+aVbecause it lets us predict how objects will respond
+p292
+aVto new situations,
+p293
+aVand you could imagine, for instance, looking at an old bridge
+p294
+aVand wondering what would happen, how would that bridge hold up
+p295
+aVif I were to drive my car across it.
+p296
+aVAnd that's a question that you probably want to answer
+p297
+aVbefore you start driving across that bridge.
+p298
+aVAnd of course, there are going to be limitations to this technique,
+p299
+aVjust like there were with the visual microphone,
+p300
+aVbut we found that it works in a lot of situations
+p301
+aVthat you might not expect,
+p302
+aVespecially if you give it longer videos.
+p303
+aa(lp304
+VSo for example, here's a video that I captured
+p305
+aVof a bush outside of my apartment,
+p306
+aVand I didn't do anything to this bush,
+p307
+aVbut by capturing a minute-long video,
+p308
+aVa gentle breeze caused enough vibrations
+p309
+aVthat we could learn enough about this bush to create this simulation.
+p310
+aV(Applause)
+p311
+aVAnd so you could imagine giving this to a film director,
+p312
+aVand letting him control, say,
+p313
+aVthe strength and direction of wind in a shot after it's been recorded.
+p314
+aVOr, in this case, we pointed our camera at a hanging curtain,
+p315
+aVand you can't even see any motion in this video,
+p316
+aVbut by recording a two-minute-long video,
+p317
+aVnatural air currents in this room
+p318
+aVcreated enough subtle, imperceptible motions and vibrations
+p319
+aVthat we could learn enough to create this simulation.
+p320
+aa(lp321
+VAnd ironically,
+p322
+aVwe're kind of used to having this kind of interactivity
+p323
+aVwhen it comes to virtual objects,
+p324
+aVwhen it comes to video games and 3D models,
+p325
+aVbut to be able to capture this information from real objects in the real world
+p326
+aVusing just simple, regular video,
+p327
+aVis something new that has a lot of potential.
+p328
+aa(lp329
+VSo here are the amazing people who worked with me on these projects.
+p330
+aV(Applause)
+p331
+aa(lp332
+VAnd what I've shown you today is only the beginning.
+p333
+aVWe've just started to scratch the surface
+p334
+aVof what you can do with this kind of imaging,
+p335
+aVbecause it gives us a new way
+p336
+aVto capture our surroundings with common, accessible technology.
+p337
+aVAnd so looking to the future,
+p338
+aVit's going to be really exciting to explore
+p339
+aVwhat this can tell us about the world.
+p340
+aa(lp341
+VThank you.
+p342
+aa(lp343
+V(Applause)
+p344
+aasS'transcript_micsec'
+p345
+(lp346
+I12000
+aI39000
+aI89000
+aI127000
+aI140000
+aI175000
+aI205000
+aI241000
+aI250000
+aI303000
+aI311000
+aI321000
+aI357000
+aI422000
+aI431000
+aI436000
+aI459000
+aI464000
+aI468000
+aI501000
+aI528000
+aI538000
+aI545000
+aI554000
+aI561000
+aI588000
+aI600000
+aI605000
+aI678000
+aI696000
+aI710000
+aI755000
+aI810000
+aI838000
+aI898000
+aI908000
+aI946000
+aI1007000
+aI1029000
+aI1043000
+aI1065000
+aI1066000
+asS'talk_meta'
+p347
+(dp348
+S'ratings'
+p349
+(dp350
+S'ingenious'
+p351
+I393
+sS'beautiful'
+p352
+I39
+sS'inspiring'
+p353
+I457
+sS'ok'
+p354
+I28
+sS'fascinating'
+p355
+I533
+sS'funny'
+p356
+I17
+sS'total_count'
+p357
+I2105
+sS'persuasive'
+p358
+I16
+sS'longwinded'
+p359
+I15
+sS'unconvincing'
+p360
+I1
+sS'informative'
+p361
+I211
+sS'jaw-dropping'
+p362
+I379
+sS'obnoxious'
+p363
+I6
+sS'courageous'
+p364
+I6
+sS'confusing'
+p365
+I4
+ssS'author'
+p366
+VAbe_Davis;
+p367
+sS'url'
+p368
+S'https://www.ted.com/talks/abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties'
+p369
+sS'vidlen'
+p370
+I1077
+sS'totalviews'
+p371
+I1390982
+sS'title'
+p372
+VNew video technology that reveals an object's hidden properties
+p373
+sS'downloadlink'
+p374
+Vhttps://download.ted.com/talks/AbeDavis_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p375
+sS'datepublished'
+p376
+cdatetime
+datetime
+p377
+(S'\x07\xdf\x05\x05\x0b\x0f\x01\x00\x00\x00'
+tRp378
+sS'datefilmed'
+p379
+g377
+(S'\x07\xdf\x05\x05\x0b\x0f\x01\x00\x00\x00'
+tRp380
+sS'alldata_JSON'
+p381
+S'{"viewed_count": 1390982, "speakers": [{"description": "Computer scientist", "firstname": "Abe", "title": "", "lastname": "Davis", "middleinitial": "", "whylisten": "  <p> MIT PhD student, computer vision wizard and rap artist Abe Davis has co-created the world&rsquo;s most improbable audio instrument. &nbsp;In 2014, Davis and his collaborators debuted the &ldquo;visual microphone,&rdquo; an algorithm that samples the sympathetic vibrations of ordinary objects (such as a potato chip bag) from ordinary high-speed video footage and transduces them into intelligible audio tracks.</p>   <p> Davis is also the author of Caperture, a 3D-imaging app designed to create and share 3D images on any compatible smartphone.</p>  ", "slug": "abe_davis", "whotheyare": "Computer vision expert Abe Davis pioneers methods to extract audio from silent digital videos, even footage shot on ordinary consumer cameras.", "whatotherssay": "\\u201cImagine someone listening in to your private conversation by filming the bag of chips sitting on the other side of the room. Oddly specific, I know, but researchers at MIT did just that: They\'ve created an algorithm that can reconstruct sound (and even intelligible speech) with the tiny vibrations it causes on video.\\u201d ", "id": 2436, "photo_url": "https://pe.tedcdn.com/images/ted/837bae320f94bc5a5675d28261e69beb9c3ef327_254x191.jpg"}], "current_talk": 2246, "description": "Subtle motion happens around us all the time, including tiny vibrations caused by sound. New technology shows that we can pick up on these vibrations and actually re-create sound and conversations just from a video of a seemingly still object. But now Abe Davis takes it one step further: Watch him demo software that lets anyone interact with these hidden properties, just from a simple video.", "language": "en", "url": "https://www.ted.com/talks/abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AbeDavis_2015-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 127619234}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AbeDavis_2015-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24866413}, "podcast-high": {"uri": "https://download.ted.com/talks/AbeDavis_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 127621164}, "180k": {"uri": "https://download.ted.com/talks/AbeDavis_2015-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24624974}, "64k": {"uri": "https://download.ted.com/talks/AbeDavis_2015-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8906677}, "1500k": {"uri": "https://download.ted.com/talks/AbeDavis_2015-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 198978256}, "450k": {"uri": "https://download.ted.com/talks/AbeDavis_2015-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61356002}, "podcast-regular": {"uri": "https://download.ted.com/talks/AbeDavis_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61471185}, "950k": {"uri": "https://download.ted.com/talks/AbeDavis_2015-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 127611178}, "audio-podcast": {"uri": "https://download.ted.com/talks/AbeDavis_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 11055846}, "podcast-light": {"uri": "https://download.ted.com/talks/AbeDavis_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9039995}, "320k": {"uri": "https://download.ted.com/talks/AbeDavis_2015-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43592021}, "600k": {"uri": "https://download.ted.com/talks/AbeDavis_2015-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 81969685}}}, "comments": {"count": 104, "id": 26866, "talk_id": 2246}, "slug": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties", "threadId": 26866, "talks": [{"event": "TED2015", "player_talks": [{"event": "TED2015", "slug": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties", "filmed": 1426550400, "targeting": {"event": "TED2015", "tag": "computers,software,technology", "id": 2246, "talk": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "New video technology that reveals an object\'s hidden properties", "postAdDuration": "0.83", "published": 1430838901, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fd3659c1ca071d3125a0ff963a385ebbac0bbde9_2880x1620.jpg?quality=89&w=600", "name": "Abe Davis: New video technology that reveals an object\'s hidden properties", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["computers", "software", "technology"], "speaker": "Abe Davis", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1077, "id": 2246, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AbeDavis_2015-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2015", "tag": "computers,software,technology", "id": 2246, "talk": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2246.json", "stream": "https://hls.ted.com/talks/2246.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2015%26id%3D2246%26tag%3Dcomputers%2Csoftware%2Ctechnology%26talk%3Dabe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/fd3659c1ca071d3125a0ff963a385ebbac0bbde9_2880x1620.jpg?q=50&w=15", "duration": 1077, "id": 2246, "ratings": [{"count": 457, "id": 10, "name": "Inspiring"}, {"count": 533, "id": 22, "name": "Fascinating"}, {"count": 379, "id": 23, "name": "Jaw-dropping"}, {"count": 393, "id": 9, "name": "Ingenious"}, {"count": 15, "id": 11, "name": "Longwinded"}, {"count": 16, "id": 24, "name": "Persuasive"}, {"count": 211, "id": 8, "name": "Informative"}, {"count": 6, "id": 3, "name": "Courageous"}, {"count": 39, "id": 1, "name": "Beautiful"}, {"count": 28, "id": 25, "name": "OK"}, {"count": 6, "id": 26, "name": "Obnoxious"}, {"count": 17, "id": 7, "name": "Funny"}, {"count": 4, "id": 2, "name": "Confusing"}, {"count": 1, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Computer scientist", "firstname": "Abe", "title": "", "lastname": "Davis", "middleinitial": "", "whylisten": "  <p> MIT PhD student, computer vision wizard and rap artist Abe Davis has co-created the world&rsquo;s most improbable audio instrument. &nbsp;In 2014, Davis and his collaborators debuted the &ldquo;visual microphone,&rdquo; an algorithm that samples the sympathetic vibrations of ordinary objects (such as a potato chip bag) from ordinary high-speed video footage and transduces them into intelligible audio tracks.</p>   <p> Davis is also the author of Caperture, a 3D-imaging app designed to create and share 3D images on any compatible smartphone.</p>  ", "slug": "abe_davis", "whotheyare": "Computer vision expert Abe Davis pioneers methods to extract audio from silent digital videos, even footage shot on ordinary consumer cameras.", "whatotherssay": "\\u201cImagine someone listening in to your private conversation by filming the bag of chips sitting on the other side of the room. Oddly specific, I know, but researchers at MIT did just that: They\'ve created an algorithm that can reconstruct sound (and even intelligible speech) with the tiny vibrations it causes on video.\\u201d ", "id": 2436, "photo_url": "https://pe.tedcdn.com/images/ted/837bae320f94bc5a5675d28261e69beb9c3ef327_254x191.jpg"}], "title": "New video technology that reveals an object\'s hidden properties", "take_action": [], "comments": 26866, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/fd3659c1ca071d3125a0ff963a385ebbac0bbde9_2880x1620.jpg", "description": "Subtle motion happens around us all the time, including tiny vibrations caused by sound. New technology shows that we can pick up on these vibrations and actually re-create sound and conversations just from a video of a seemingly still object. But now Abe Davis takes it one step further: Watch him demo software that lets anyone interact with these hidden properties, just from a simple video.", "tags": ["computers", "software", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AbeDavis_2015-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AbeDavis_2015-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AbeDavis_2015-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AbeDavis_2015-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AbeDavis_2015-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AbeDavis_2015-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AbeDavis_2015-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AbeDavis_2015-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AbeDavis_2015-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/AbeDavis_2015-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AbeDavis_2015-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AbeDavis_2015-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AbeDavis_2015-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AbeDavis_2015-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AbeDavis_2015-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AbeDavis_2015-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/AbeDavis_2015-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AbeDavis_2015-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AbeDavis_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AbeDavis_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AbeDavis_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2246, "audioDownload": "https://download.ted.com/talks/AbeDavis_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1956343, "hero": "https://pe.tedcdn.com/images/ted/74844ad902942f63d1ddb276aeb3d44c5bbcbd38_2880x1620.jpg", "title": "See invisible motion, hear silent sounds", "id": 2159, "speaker": "Michael Rubinstein", "duration": 798, "slug": "michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide"}, {"viewed_count": 1498934, "hero": "https://pe.tedcdn.com/images/ted/ffcb1942eeea2e2abfe0c67ff3e96f07a6bd25d6_2880x1620.jpg", "title": "How virtual reality can create the ultimate empathy machine", "id": 2228, "speaker": "Chris Milk", "duration": 616, "slug": "chris_milk_how_virtual_reality_can_create_the_ultimate_empathy_machine"}, {"viewed_count": 1481551, "hero": "https://pe.tedcdn.com/images/ted/1c3f327a456360b2846b9ee8f15788ef99f93dd8_800x600.jpg", "title": "Visualizing ourselves ... with crowd-sourced data", "id": 1152, "speaker": "Aaron Koblin", "duration": 1098, "slug": "aaron_koblin"}, {"viewed_count": 1767551, "hero": "https://pe.tedcdn.com/images/ted/71466_800x600.jpg", "title": "Toy tiles that talk to each other", "id": 457, "speaker": "David Merrill", "duration": 429, "slug": "david_merrill_demos_siftables_the_smart_blocks"}, {"viewed_count": 4473271, "hero": "https://pe.tedcdn.com/images/ted/75734_800x600.jpg", "title": "Learning from dirty jobs", "id": 477, "speaker": "Mike Rowe", "duration": 1202, "slug": "mike_rowe_celebrates_dirty_jobs"}, {"viewed_count": 4052653, "hero": "https://pe.tedcdn.com/images/ted/2017a955b9e46bb6fdcffb4982210284d4260483_1600x1200.jpg", "title": "Imaging at a trillion frames per second", "id": 1520, "speaker": "Ramesh Raskar", "duration": 662, "slug": "ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second"}], "recorded_at": "2015-03-17T00:00:00.000+00:00", "slug": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties", "speaker_name": "Abe Davis", "viewed_count": 1390982, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Abe Davis recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Interactive Dynamic Video", "link_url": "https://www.youtube.com/watch?v=4f09VdXex3A", "eyebrow": null, "label": "WATCH", "note": "YouTube\\r\\nAbe Davis", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Pokemon GO and Interactive Dynamic Video", "link_url": "https://www.youtube.com/watch?v=9f1fCCb3hVg", "eyebrow": null, "label": "WATCH", "note": "YouTube\\r\\nAbe Davis", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Vibrations bring still photos to life", "link_url": "http://www.bbc.com/news/technology-36966949", "eyebrow": null, "label": "READ_Article", "note": "BBC, 2016", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Reach in and touch objects in videos with \\u201cInteractive Dynamic Video\\u201d", "link_url": "http://news.mit.edu/2016/touching-objects-in-videos-with-interactive-dynamic-video-0802", "eyebrow": null, "label": "READ_Article", "note": "Adam Conner-Simons, Rachel Gordon\\r\\nMIT, 2016", "position": null, "blurb": ""}], "title": ""}], "published": true, "type": "recommendation", "blurb": "Check out more resources on dynamic augmented reality."}, "corrections": []}], "event": "TED2015", "name": "Abe Davis: New video technology that reveals an object\'s hidden properties"}'
+p382
+sS'keywords'
+p383
+(lp384
+Vcomputers
+p385
+aVsoftware
+p386
+aVtechnology
+p387
+asS'datecrawled'
+p388
+g377
+(S'\x07\xe1\n\x17\x03\t\x0c\x05b\xe5'
+tRp389
+sS'id'
+p390
+I2246
+ss.

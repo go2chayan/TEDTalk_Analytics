@@ -1,0 +1,334 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhat I want to talk to you about today is
+p5
+aVvirtual worlds, digital globes, the 3-D Web, the Metaverse.
+p6
+aVWhat does this all mean for us?
+p7
+aVWhat it means is the Web is going to become an exciting place again.
+p8
+aVIt's going to become super exciting as we transform
+p9
+aVto this highly immersive and interactive world.
+p10
+aVWith graphics, computing power, low latencies,
+p11
+aVthese types of applications and possibilities
+p12
+aVare going to stream rich data into your lives.
+p13
+aVSo the Virtual Earth initiative, and other types of these initiatives,
+p14
+aVare all about extending our current search metaphor.
+p15
+aa(lp16
+VWhen you think about it, we're so constrained by browsing the Web,
+p17
+aVremembering URLs, saving favorites.
+p18
+aVAs we move to search, we rely on the relevance rankings,
+p19
+aVthe Web matching, the index crawling.
+p20
+aVBut we want to use our brain!
+p21
+aVWe want to navigate, explore, discover information.
+p22
+aVIn order to do that, we have to put you as a user back in the driver's seat.
+p23
+aVWe need cooperation between you and the computing network and the computer.
+p24
+aa(lp25
+VSo what better way to put you back in the driver's seat
+p26
+aVthan to put you in the real world that you interact in every day?
+p27
+aVWhy not leverage the learnings that you've been learning your entire life?
+p28
+aVSo Virtual Earth is about starting off
+p29
+aVcreating the first digital representation, comprehensive, of the entire world.
+p30
+aVWhat we want to do is mix in all types of data.
+p31
+aVTag it. Attribute it. Metadata. Get the community to add local depth,
+p32
+aVglobal perspective, local knowledge.
+p33
+aVSo when you think about this problem,
+p34
+aVwhat an enormous undertaking. Where do you begin?
+p35
+aVWell, we collect data from satellites, from airplanes,
+p36
+aVfrom ground vehicles, from people.
+p37
+aVThis process is an engineering problem,
+p38
+aVa mechanical problem, a logistical problem, an operational problem.
+p39
+aa(lp40
+VHere is an example of our aerial camera.
+p41
+aVThis is panchromatic. It's actually four color cones.
+p42
+aVIn addition, it's multi-spectral.
+p43
+aVWe collect four gigabits per second of data,
+p44
+aVif you can imagine that kind of data stream coming down.
+p45
+aVThat's equivalent to a constellation of 12 satellites at highest res capacity.
+p46
+aVWe fly these airplanes at 5,000 feet in the air.
+p47
+aVYou can see the camera on the front. We collect multiple viewpoints,
+p48
+aVvantage points, angles, textures. We bring all that data back in.
+p49
+aa(lp50
+VWe sit here \u2014 you know, think about the ground vehicles, the human scale \u2014
+p51
+aVwhat do you see in person? We need to capture that up close
+p52
+aVto establish that what it's like-type experience.
+p53
+aVI bet many of you have seen the Apple commercials,
+p54
+aVkind of poking at the PC for their brilliance and simplicity.
+p55
+aVSo a little unknown secret is \u2014
+p56
+aVdid you see the one with the guy, he's got the Web cam?
+p57
+aVThe poor PC guy. They're duct taping his head. They're just wrapping it on him.
+p58
+aVWell, a little unknown secret is his brother actually works on the Virtual Earth team.
+p59
+aV(Laughter). So they've got a little bit of a sibling rivalry thing going on here.
+p60
+aVBut let me tell you \u2014 it doesn't affect his day job.
+p61
+aa(lp62
+VWe think a lot of good can come from this technology.
+p63
+aVThis was after Katrina. We were the first commercial fleet of airplanes
+p64
+aVto be cleared into the disaster impact zone.
+p65
+aVWe flew the area. We imaged it. We sent in people. We took pictures of interiors,
+p66
+aVdisaster areas. We helped with the first responders, the search and rescue.
+p67
+aVOften the first time anyone saw what happened to their house was on Virtual Earth.
+p68
+aVWe made it all freely available on the Web, just to \u2014
+p69
+aVit was obviously our chance of helping out with the cause.
+p70
+aa(lp71
+VWhen we think about how all this comes together,
+p72
+aVit's all about software, algorithms and math.
+p73
+aVYou know, we capture this imagery but to build the 3-D models
+p74
+aVwe need to do geo-positioning. We need to do geo-registering of the images.
+p75
+aVWe have to bundle adjust them. Find tie points.
+p76
+aVExtract geometry from the images.
+p77
+aVThis process is a very calculated process.
+p78
+aVIn fact, it was always done manual.
+p79
+aVHollywood would spend millions of dollars to do a small urban corridor
+p80
+aVfor a movie because they'd have to do it manually.
+p81
+aVThey'd drive the streets with lasers called LIDAR.
+p82
+aVThey'd collected information with photos. They'd manually build each building.
+p83
+aVWe do this all through software, algorithms and math \u2014
+p84
+aVa highly automated pipeline creating these cities.
+p85
+aVWe took a decimal point off what it cost to build these cities,
+p86
+aVand that's how we're going to be able to scale this out and make this reality a dream.
+p87
+aa(lp88
+VWe think about the user interface.
+p89
+aVWhat does it mean to look at it from multiple perspectives?
+p90
+aVAn ortho-view, a nadir-view. How do you keep the precision of the fidelity of the imagery
+p91
+aVwhile maintaining the fluidity of the model?
+p92
+aVI'll wrap up by showing you the \u2014
+p93
+aVthis is a brand-new peek I haven't really shown into the lab area of Virtual Earth.
+p94
+aVWhat we're doing is \u2014 people like this a lot,
+p95
+aVthis bird's eye imagery we work with. It's this high resolution data.
+p96
+aVBut what we've found is they like the fluidity of the 3-D model.
+p97
+aVA child can navigate with an Xbox controller or a game controller.
+p98
+aa(lp99
+VSo here what we're trying to do is we bring the picture and project it into the 3-D model space.
+p100
+aVYou can see all types of resolution. From here, I can slowly pan the image over.
+p101
+aVI can get the next image. I can blend and transition.
+p102
+aVBy doing this I don't lose the original detail. In fact, I might be recording history.
+p103
+aVThe freshness, the capacity. I can turn this image.
+p104
+aVI can look at it from multiple viewpoints and angles.
+p105
+aa(lp106
+VWhat we're trying to do is build a virtual world.
+p107
+aVWe hope that we can make computing a user model you're familiar with,
+p108
+aVand really derive insights from you, from all different directions.
+p109
+aVI thank you very much for your time.
+p110
+aV(Applause)
+p111
+aasS'transcript_micsec'
+p112
+(lp113
+I11000
+aI59000
+aI85000
+aI137000
+aI169000
+aI210000
+aI240000
+aI290000
+aI324000
+aI349000
+asS'talk_meta'
+p114
+(dp115
+S'ratings'
+p116
+(dp117
+S'ingenious'
+p118
+I44
+sS'beautiful'
+p119
+I16
+sS'inspiring'
+p120
+I16
+sS'ok'
+p121
+I43
+sS'fascinating'
+p122
+I54
+sS'funny'
+p123
+I3
+sS'total_count'
+p124
+I409
+sS'persuasive'
+p125
+I4
+sS'longwinded'
+p126
+I17
+sS'unconvincing'
+p127
+I34
+sS'informative'
+p128
+I61
+sS'jaw-dropping'
+p129
+I81
+sS'obnoxious'
+p130
+I14
+sS'courageous'
+p131
+I9
+sS'confusing'
+p132
+I13
+ssS'author'
+p133
+VStephen_Lawler;
+p134
+sS'url'
+p135
+S'https://www.ted.com/talks/stephen_lawler_tours_microsoft_virtual_earth'
+p136
+sS'vidlen'
+p137
+I370
+sS'totalviews'
+p138
+I309603
+sS'title'
+p139
+VTour Microsoft's Virtual Earth
+p140
+sS'downloadlink'
+p141
+Vhttps://download.ted.com/talks/StephenLawler_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p142
+sS'datepublished'
+p143
+cdatetime
+datetime
+p144
+(S'\x07\xd7\x06\x14\x05$\x00\x00\x00\x00'
+tRp145
+sS'datefilmed'
+p146
+g144
+(S'\x07\xd7\x06\x14\x05$\x00\x00\x00\x00'
+tRp147
+sS'alldata_JSON'
+p148
+S'{"viewed_count": 309603, "speakers": [{"description": "General manager of Microsoft\'s Virtual Earth", "firstname": "Stephen", "title": "", "lastname": "Lawler", "middleinitial": "", "whylisten": "<p>Microsoft&#39;s Stephen Lawler offers a tour of <a href=\\"http://local.live.com/\\" target=\\"_blank\\">Virtual Earth</a>  that not only reveals the power and potential of the software itself, but also gives a global glimpse of <strong>the new virtual frontier of digital globes</strong>, the 3D Web and the metaverse.<br /><br />Lawler also explores <strong>the enormous effort it takes to create the fluid blending and shifting between the multiple view</strong>s and resolutions of Virtual Earth. From the satellites and airplanes that gather photo data for a top-down view to the ground vehicles and headgear-wearing pedestrians who canvas the ground for an eye-level perspective -- all of it represents a monumental effort of logistics and mechanics.</p>", "slug": "stephen_lawler", "whotheyare": "Stephen Lawler and the Virtual Earth team have created an addictively interactive 3D world that is poised to reinvent our view of advertising, gaming, weather/traffic reporting, instant messaging and more.", "whatotherssay": "The cool bird\'s-eye views were enough of a draw in the previous version, but the 3D is downright addictive. This probably would be enough to please most people even without the local search, maps, and wealth of extra features.", "id": 121, "photo_url": "https://pe.tedcdn.com/images/ted/10982_254x191.jpg"}], "current_talk": 139, "description": "Microsoft\'s Stephen Lawler gives a whirlwind tour of Virtual Earth, moving up, down and through its hyper-real cityscapes with dazzlingly fluidity, a remarkable feat that requires staggering amounts of data to bring into focus.", "language": "en", "url": "https://www.ted.com/talks/stephen_lawler_tours_microsoft_virtual_earth", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/StephenLawler_2007-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43092098}, "podcast-low-en": {"uri": "https://download.ted.com/talks/StephenLawler_2007-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8614447}, "podcast-high": {"uri": "https://download.ted.com/talks/StephenLawler_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43115381}, "180k": {"uri": "https://download.ted.com/talks/StephenLawler_2007-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8519950}, "64k": {"uri": "https://download.ted.com/talks/StephenLawler_2007-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3067417}, "1500k": {"uri": "https://download.ted.com/talks/StephenLawler_2007-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67198948}, "450k": {"uri": "https://download.ted.com/talks/StephenLawler_2007-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20974699}, "podcast-regular": {"uri": "https://download.ted.com/talks/StephenLawler_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21144594}, "950k": {"uri": "https://download.ted.com/talks/StephenLawler_2007-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43144821}, "podcast-light": {"uri": "https://download.ted.com/talks/StephenLawler_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3166822}, "320k": {"uri": "https://download.ted.com/talks/StephenLawler_2007-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15119062}, "600k": {"uri": "https://download.ted.com/talks/StephenLawler_2007-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28261655}}}, "comments": {"count": 22, "id": 125, "talk_id": 139}, "slug": "stephen_lawler_tours_microsoft_virtual_earth", "threadId": 125, "talks": [{"event": "TED2007", "player_talks": [{"event": "TED2007", "slug": "stephen_lawler_tours_microsoft_virtual_earth", "filmed": 1172880000, "targeting": {"event": "TED2007", "tag": "design,map,microsoft,technology,virtual reality", "id": 139, "talk": "stephen_lawler_tours_microsoft_virtual_earth", "year": "2007"}, "adDuration": "3.33", "external": null, "title": "Tour Microsoft\'s Virtual Earth", "postAdDuration": "0.83", "published": 1182332160, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/10978_480x360.jpg?quality=89&w=600", "name": "Stephen Lawler: Tour Microsoft\'s Virtual Earth", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["design", "map", "microsoft", "technology", "virtual reality"], "speaker": "Stephen Lawler", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 370, "id": 139, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/StephenLawler_2007-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2007", "tag": "design,map,microsoft,technology,virtual reality", "id": 139, "talk": "stephen_lawler_tours_microsoft_virtual_earth", "year": "2007"}, "metadata": "https://hls.ted.com/talks/139.json", "stream": "https://hls.ted.com/talks/139.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2007%26id%3D139%26tag%3Ddesign%2Cmap%2Cmicrosoft%2Ctechnology%2Cvirtual%2Breality%26talk%3Dstephen_lawler_tours_microsoft_virtual_earth%26year%3D2007&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/stephen_lawler_tours_microsoft_virtual_earth"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/10978_480x360.jpg?q=50&w=15", "duration": 370, "id": 139, "ratings": [{"count": 34, "id": 21, "name": "Unconvincing"}, {"count": 13, "id": 2, "name": "Confusing"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 44, "id": 9, "name": "Ingenious"}, {"count": 16, "id": 1, "name": "Beautiful"}, {"count": 17, "id": 11, "name": "Longwinded"}, {"count": 16, "id": 10, "name": "Inspiring"}, {"count": 61, "id": 8, "name": "Informative"}, {"count": 54, "id": 22, "name": "Fascinating"}, {"count": 81, "id": 23, "name": "Jaw-dropping"}, {"count": 4, "id": 24, "name": "Persuasive"}, {"count": 43, "id": 25, "name": "OK"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 3, "id": 7, "name": "Funny"}], "speakers": [{"description": "General manager of Microsoft\'s Virtual Earth", "firstname": "Stephen", "title": "", "lastname": "Lawler", "middleinitial": "", "whylisten": "<p>Microsoft&#39;s Stephen Lawler offers a tour of <a href=\\"http://local.live.com/\\" target=\\"_blank\\">Virtual Earth</a>  that not only reveals the power and potential of the software itself, but also gives a global glimpse of <strong>the new virtual frontier of digital globes</strong>, the 3D Web and the metaverse.<br /><br />Lawler also explores <strong>the enormous effort it takes to create the fluid blending and shifting between the multiple view</strong>s and resolutions of Virtual Earth. From the satellites and airplanes that gather photo data for a top-down view to the ground vehicles and headgear-wearing pedestrians who canvas the ground for an eye-level perspective -- all of it represents a monumental effort of logistics and mechanics.</p>", "slug": "stephen_lawler", "whotheyare": "Stephen Lawler and the Virtual Earth team have created an addictively interactive 3D world that is poised to reinvent our view of advertising, gaming, weather/traffic reporting, instant messaging and more.", "whatotherssay": "The cool bird\'s-eye views were enough of a draw in the previous version, but the 3D is downright addictive. This probably would be enough to please most people even without the local search, maps, and wealth of extra features.", "id": 121, "photo_url": "https://pe.tedcdn.com/images/ted/10982_254x191.jpg"}], "title": "Tour Microsoft\'s Virtual Earth", "take_action": null, "comments": 125, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/10978_480x360.jpg", "description": "Microsoft\'s Stephen Lawler gives a whirlwind tour of Virtual Earth, moving up, down and through its hyper-real cityscapes with dazzlingly fluidity, a remarkable feat that requires staggering amounts of data to bring into focus.", "tags": ["design", "map", "microsoft", "technology", "virtual reality"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/StephenLawler_2007-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/StephenLawler_2007-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/StephenLawler_2007-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/StephenLawler_2007-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/StephenLawler_2007-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/StephenLawler_2007-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/StephenLawler_2007-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/StephenLawler_2007-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/StephenLawler_2007-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/StephenLawler_2007-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/StephenLawler_2007-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/StephenLawler_2007-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/StephenLawler_2007-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/StephenLawler_2007-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/StephenLawler_2007-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/StephenLawler_2007-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/StephenLawler_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/StephenLawler_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/StephenLawler_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 139, "audioDownload": null}, "related_talks": [{"viewed_count": 5494625, "hero": "https://pe.tedcdn.com/images/ted/5a2028327d0f131b820d1e8b042bb482ddc66db1_1600x1200.jpg", "title": "Free or cheap Wii Remote hacks", "id": 245, "speaker": "Johnny Lee", "duration": 340, "slug": "johnny_lee_demos_wii_remote_hacks"}, {"viewed_count": 4778590, "hero": "https://pe.tedcdn.com/images/ted/5824aa5b8d490ed3863ee1f8c26731a6ebbfcefe_1600x1200.jpg", "title": "How PhotoSynth can connect the world\'s images", "id": 129, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 450, "slug": "blaise_aguera_y_arcas_demos_photosynth"}, {"viewed_count": 1481050, "hero": "https://pe.tedcdn.com/images/ted/8186_480x360.jpg", "title": "Rethink the desktop with BumpTop", "id": 131, "speaker": "Anand Agarawala", "duration": 279, "slug": "anand_agarawala_demos_his_bumptop_desktop"}, {"viewed_count": 1721912, "hero": "https://pe.tedcdn.com/images/ted/149547_800x600.jpg", "title": "Augmented-reality maps", "id": 766, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 465, "slug": "blaise_aguera"}, {"viewed_count": 556704, "hero": "https://pe.tedcdn.com/images/ted/61000_640x480.jpg", "title": "Life in Second Life", "id": 410, "speaker": "Philip Rosedale", "duration": 1711, "slug": "the_inspiration_of_second_life"}, {"viewed_count": 697077, "hero": "https://pe.tedcdn.com/images/ted/436bcf78e4406a81d162e90015032c45330e9ef3_1600x1200.jpg", "title": "Online video -- annotated, remixed and popped", "id": 1581, "speaker": "Ryan Merkley", "duration": 265, "slug": "ryan_merkley_online_video_annotated_remixed_and_popped"}], "recorded_at": "2007-03-03T00:00:00.000+00:00", "slug": "stephen_lawler_tours_microsoft_virtual_earth", "speaker_name": "Stephen Lawler", "viewed_count": 309603, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2007", "name": "Stephen Lawler: Tour Microsoft\'s Virtual Earth"}'
+p149
+sS'keywords'
+p150
+(lp151
+Vdesign
+p152
+aVmap
+p153
+aVmicrosoft
+p154
+aVtechnology
+p155
+aVvirtual reality
+p156
+asS'datecrawled'
+p157
+g144
+(S"\x07\xe1\n\x17\x02\x04;\x0b\xbb'"
+tRp158
+sS'id'
+p159
+I139
+ss.

@@ -1,0 +1,1242 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VChris Anderson: This is such a strange thing.
+p5
+aVYour software, Linux, is in millions of computers,
+p6
+aVit probably powers much of the Internet.
+p7
+aVAnd I think that there are, like,
+p8
+aVa billion and a half active Android devices out there.
+p9
+aVYour software is in every single one of them.
+p10
+aVIt's kind of amazing.
+p11
+aVYou must have some amazing software headquarters driving all this.
+p12
+aVThat's what I thought \u2014 and I was shocked when I saw a picture of it.
+p13
+aVI mean, this is \u2014
+p14
+aVthis is the Linux world headquarters.
+p15
+aa(lp16
+V(Laughter)
+p17
+aa(lp18
+V(Applause)
+p19
+aa(lp20
+VLinus Torvalds: It really doesn't look like much.
+p21
+aVAnd I have to say,
+p22
+aVthe most interesting part in this picture,
+p23
+aVthat people mostly react to,
+p24
+aVis the walking desk.
+p25
+aVIt is the most interesting part in my office
+p26
+aVand I'm not actually using it anymore.
+p27
+aVAnd I think the two things are related.
+p28
+aa(lp29
+VThe way I work is ...
+p30
+aVI want to not have external stimulation.
+p31
+aVYou can kind of see, on the walls are this light green.
+p32
+aVI'm told that at mental institutions they use that on the walls.
+p33
+aa(lp34
+V(Laughter)
+p35
+aa(lp36
+VIt's like a calming color,
+p37
+aVit's not something that really stimulates you.
+p38
+aa(lp39
+VWhat you can't see is the computer here, you only see the screen,
+p40
+aVbut the main thing I worry about in my computer is \u2014
+p41
+aVit doesn't have to be big and powerful, although I like that \u2014
+p42
+aVit really has to be completely silent.
+p43
+aVI know people who work for Google
+p44
+aVand they have their own small data center at home,
+p45
+aVand I don't do that.
+p46
+aVMy office is the most boring office you'll ever see.
+p47
+aVAnd I sit there alone in the quiet.
+p48
+aVIf the cat comes up,
+p49
+aVit sits in my lap.
+p50
+aVAnd I want to hear the cat purring,
+p51
+aVnot the sound of the fans in the computer.
+p52
+aa(lp53
+VCA: So this is astonishing,
+p54
+aVbecause working this way,
+p55
+aVyou're able to run this vast technology empire \u2014
+p56
+aVit is an empire \u2014
+p57
+aVso that's an amazing testament to the power of open source.
+p58
+aa(lp59
+VTell us how you got to understand open source
+p60
+aVand how it lead to the development of Linux.
+p61
+aa(lp62
+VLT: I mean, I still work alone.
+p63
+aVReally \u2014 I work alone in my house,
+p64
+aVoften in my bathrobe.
+p65
+aVWhen a photographer shows up, I dress up,
+p66
+aVso I have clothes on.
+p67
+aa(lp68
+V(Laughter)
+p69
+aa(lp70
+VAnd that's how I've always worked.
+p71
+aVI mean, this was how I started Linux, too.
+p72
+aVI did not start Linux as a collaborative project.
+p73
+aVI started it as one in a series of many projects
+p74
+aVI had done at the time for myself,
+p75
+aVpartly because I needed the end result,
+p76
+aVbut even more because I just enjoyed programming.
+p77
+aVSo it was about the end of the journey,
+p78
+aVwhich, 25 years later, we still have not reached.
+p79
+aVBut it was really about the fact that I was looking for a project on my own
+p80
+aVand there was no open source, really, on my radar at all.
+p81
+aa(lp82
+VAnd what happened is ...
+p83
+aVthe project grows and becomes something you want to show off to people.
+p84
+aVReally, this is more of a, "Wow, look at what I did!"
+p85
+aVAnd trust me \u2014 it was not that great back then.
+p86
+aVI made it publicly available,
+p87
+aVand it wasn't even open source at that point.
+p88
+aVAt that point it was source that was open, but there was no intention
+p89
+aVbehind using the kind of open-source methodology that we think of today
+p90
+aVto improve it.
+p91
+aVIt was more like,
+p92
+aV"Look, I've been working on this for half a year,
+p93
+aVI'd love to have comments."
+p94
+aa(lp95
+VAnd other people approached me.
+p96
+aVAt the University of Helsinki,
+p97
+aVI had a friend who was one of the open source \u2014
+p98
+aVit was called mainly "free software" back then \u2014
+p99
+aVand he actually introduced me to the notion that, hey,
+p100
+aVyou can use these open-source licenses that had been around.
+p101
+aVAnd I thought about it for a while.
+p102
+aVI was actually worried about the whole commercial interests coming in.
+p103
+aVI mean, that's one of the worries I think most people who start out have,
+p104
+aVis that they worry about somebody taking advantage of their work, right?
+p105
+aVAnd I decided, "What the hell?"
+p106
+aVAnd \u2014
+p107
+aa(lp108
+VCA: And then at some point,
+p109
+aVsomeone contributed some code that you thought,
+p110
+aV"Wow, that really is interesting, I would not have thought of that.
+p111
+aVThis could actually improve this."
+p112
+aa(lp113
+VLT: It didn't even start by people contributing code,
+p114
+aVit was more that people started contributing ideas.
+p115
+aVAnd just the fact that somebody else takes a look at your project \u2014
+p116
+aVand I'm sure it's true of other things, too,
+p117
+aVbut it's definitely true in code \u2014
+p118
+aVis that somebody else takes an interest in your code,
+p119
+aVlooks at it enough to actually give you feedback
+p120
+aVand give you ideas.
+p121
+aVThat was a huge thing for me.
+p122
+aa(lp123
+VI was 21 at the time, so I was young,
+p124
+aVbut I had already programmed for half my life, basically.
+p125
+aVAnd every project before that had been completely personal
+p126
+aVand it was a revelation when people just started commenting,
+p127
+aVstarted giving feedback on your code.
+p128
+aVAnd even before they started giving code back,
+p129
+aVthat was, I think, one of the big moments where I said,
+p130
+aV"I love other people!"
+p131
+aVDon't get me wrong \u2014
+p132
+aVI'm actually not a people person.
+p133
+aa(lp134
+V(Laughter)
+p135
+aa(lp136
+VI don't really love other people \u2014
+p137
+aa(lp138
+V(Laughter)
+p139
+aa(lp140
+VBut I love computers,
+p141
+aVI love interacting with other people on email,
+p142
+aVbecause it kind of gives you that buffer.
+p143
+aVBut I do love other people who comment and get involved in my project.
+p144
+aVAnd it made it so much more.
+p145
+aa(lp146
+VCA: So was there a moment when you saw what was being built
+p147
+aVand it suddenly started taking off,
+p148
+aVand you thought, "Wait a sec, this actually could be something huge,
+p149
+aVnot just a personal project that I'm getting nice feedback on,
+p150
+aVbut a kind of explosive development in the whole technology world"?
+p151
+aa(lp152
+VLT: Not really.
+p153
+aVI mean, the big point for me, really, was not when it was becoming huge,
+p154
+aVit was when it was becoming little.
+p155
+aVThe big point for me was not being alone
+p156
+aVand having 10, maybe 100 people being involved \u2014
+p157
+aVthat was a big point.
+p158
+aVThen everything else was very gradual.
+p159
+aVGoing from 100 people to a million people is not a big deal \u2014 to me.
+p160
+aVWell, I mean, maybe it is if you're \u2014
+p161
+aa(lp162
+V(Laughter)
+p163
+aa(lp164
+VIf you want to sell your result then it's a huge deal \u2014
+p165
+aVdon't get me wrong.
+p166
+aVBut if you're interested in the technology
+p167
+aVand you're interested in the project,
+p168
+aVthe big part was getting the community.
+p169
+aVThen the community grew gradually.
+p170
+aVAnd there's actually not a single point where I went like,
+p171
+aV"Wow, that just took off!" because it \u2014
+p172
+aVI mean \u2014 it took a long time, relatively.
+p173
+aa(lp174
+VCA: So all the technologists that I talk to really credit you
+p175
+aVwith massively changing their work.
+p176
+aVAnd it's not just Linux,
+p177
+aVit's this thing called Git,
+p178
+aVwhich is this management system for software development.
+p179
+aVTell us briefly about that and your role in that.
+p180
+aa(lp181
+VLT: So one of the issues we had,
+p182
+aVand this took a while to start to appear,
+p183
+aVis when you ...
+p184
+aVWhen you grow from having 10 people or 100 people working on a project
+p185
+aVto having 10,000 people, which \u2014
+p186
+aVI mean, right now we're in the situation where just on the kernel,
+p187
+aVwe have 1,000 people involved in every single release
+p188
+aVand that's every two months, roughly two or three months.
+p189
+aVSome of those people don't do a lot.
+p190
+aVThere's a lot of people who make small, small changes.
+p191
+aa(lp192
+VBut to maintain this,
+p193
+aVthe scale changes how you have to maintain it.
+p194
+aVAnd we went through a lot of pain.
+p195
+aVAnd there are whole projects that do only source-code maintenance.
+p196
+aVCVS is the one that used to be the most commonly used,
+p197
+aVand I hated CVS with a passion and refused to touch it
+p198
+aVand tried something else that was radical and interesting
+p199
+aVand everybody else hated.
+p200
+aa(lp201
+VCA: (Laughs)
+p202
+aa(lp203
+VLT: And we were in this bad spot,
+p204
+aVwhere we had thousands of people who wanted to participate,
+p205
+aVbut in many ways, I was the kind of break point,
+p206
+aVwhere I could not scale to the point
+p207
+aVwhere I could work with thousands of people.
+p208
+aa(lp209
+VSo Git is my second big project,
+p210
+aVwhich was only created for me to maintain my first big project.
+p211
+aVAnd this is literally how I work.
+p212
+aVI don't code for \u2014
+p213
+aVwell, I do code for fun \u2014
+p214
+aVbut I want to code for something meaningful
+p215
+aVso every single project I've ever done has been something I needed
+p216
+aVand \u2014
+p217
+aa(lp218
+VCA: So really, both Linux and Git kind of arose
+p219
+aValmost as an unintended consequence
+p220
+aVof your desire not to have to work with too many people.
+p221
+aa(lp222
+VLT: Absolutely. Yes.
+p223
+aa(lp224
+V(Laughter)
+p225
+aa(lp226
+VCA: That's amazing. LT: Yeah.
+p227
+aa(lp228
+V(Applause)
+p229
+aa(lp230
+VAnd yet, you're the man who's transformed technology
+p231
+aVnot just once but twice,
+p232
+aVand we have to try and understand why it is.
+p233
+aVYou've given us some clues, but ...
+p234
+aVHere's a picture of you as a kid, with a Rubik's Cube.
+p235
+aVYou mentioned that you've been programming since you were like 10 or 11,
+p236
+aVhalf your life.
+p237
+aa(lp238
+VWere you this sort of computer genius, you know, übernerd,
+p239
+aVwere you the star at school who could do everything?
+p240
+aVWhat were you like as a kid?
+p241
+aa(lp242
+VLT: Yeah, I think I was the prototypical nerd.
+p243
+aVI mean, I was ...
+p244
+aVI was not a people person back then.
+p245
+aVThat's my younger brother.
+p246
+aVI was clearly more interested in the Rubik's Cube
+p247
+aVthan my younger brother.
+p248
+aa(lp249
+V(Laughter)
+p250
+aa(lp251
+VMy younger sister, who's not in the picture,
+p252
+aVwhen we had family meetings \u2014
+p253
+aVand it's not a huge family, but I have, like, a couple of cousins \u2014
+p254
+aVshe would prep me beforehand.
+p255
+aVLike, before I stepped into the room she would say,
+p256
+aV"OK. That's so-and-so ..."
+p257
+aVBecause I was not \u2014
+p258
+aVI was a geek.
+p259
+aVI was into computers,
+p260
+aVI was into math,
+p261
+aVI was into physics.
+p262
+aVI was good at that.
+p263
+aVI don't think I was particularly exceptional.
+p264
+aVApparently, my sister said
+p265
+aVthat my biggest exceptional quality was that I would not let go.
+p266
+aa(lp267
+VCA: OK, so let's go there, because that's interesting.
+p268
+aVYou would not let go.
+p269
+aVSo that's not about being a geek and being smart,
+p270
+aVthat's about being ... stubborn?
+p271
+aa(lp272
+VLT: That's about being stubborn.
+p273
+aVThat's about, like,
+p274
+aVjust starting something
+p275
+aVand not saying, "OK, I'm done, let's do something else \u2014
+p276
+aVLook: shiny!"
+p277
+aa(lp278
+VAnd I notice that in many other parts in my life, too.
+p279
+aVI lived in Silicon Valley for seven years.
+p280
+aVAnd I worked for the same company, in Silicon Valley,
+p281
+aVfor the whole time.
+p282
+aVThat is unheard of.
+p283
+aVThat's not how Silicon Valley works.
+p284
+aVThe whole point of Silicon Valley is that people jump between jobs
+p285
+aVto kind of mix up the pot.
+p286
+aVAnd that's not the kind of person I am.
+p287
+aa(lp288
+VCA: But during the actual development of Linux itself,
+p289
+aVthat stubbornness sometimes brought you in conflict with other people.
+p290
+aVTalk about that a bit.
+p291
+aVWas that essential to sort of maintain the quality of what was being built?
+p292
+aVHow would you describe what happened?
+p293
+aa(lp294
+VLT: I don't know if it's essential.
+p295
+aVGoing back to the "I'm not a people person," \u2014
+p296
+aVsometimes I'm also ...
+p297
+aVshall we say,
+p298
+aV"myopic" when it comes to other people's feelings,
+p299
+aVand that sometimes makes you say things that hurt other people.
+p300
+aVAnd I'm not proud of that.
+p301
+aa(lp302
+V(Applause)
+p303
+aa(lp304
+VBut, at the same time, it's \u2014
+p305
+aVI get people who tell me that I should be nice.
+p306
+aVAnd then when I try to explain to them that maybe you're nice,
+p307
+aVmaybe you should be more aggressive,
+p308
+aVthey see that as me being not nice.
+p309
+aa(lp310
+V(Laughter)
+p311
+aa(lp312
+VWhat I'm trying to say is we are different.
+p313
+aVI'm not a people person;
+p314
+aVit's not something I'm particularly proud of,
+p315
+aVbut it's part of me.
+p316
+aVAnd one of the things I really like about open source
+p317
+aVis it really allows different people to work together.
+p318
+aVWe don't have to like each other \u2014
+p319
+aVand sometimes we really don't like each other.
+p320
+aVReally \u2014 I mean, there are very, very heated arguments.
+p321
+aVBut you can, actually, you can find things that \u2014
+p322
+aVyou don't even agree to disagree,
+p323
+aVit's just that you're interested in really different things.
+p324
+aa(lp325
+VAnd coming back to the point where I said earlier
+p326
+aVthat I was afraid of commercial people taking advantage of your work,
+p327
+aVit turned out, and very quickly turned out,
+p328
+aVthat those commercial people were lovely, lovely people.
+p329
+aVAnd they did all the things that I was not at all interested in doing,
+p330
+aVand they had completely different goals.
+p331
+aVAnd they used open source in ways that I just did not want to go.
+p332
+aVBut because it was open source they could do it,
+p333
+aVand it actually works really beautifully together.
+p334
+aa(lp335
+VAnd I actually think it works the same way.
+p336
+aVYou need to have the people-people, the communicators,
+p337
+aVthe warm and friendly people
+p338
+aVwho like \u2014
+p339
+aa(lp340
+V(Laughter)
+p341
+aa(lp342
+Vreally want to hug you and get you into the community.
+p343
+aVBut that's not everybody.
+p344
+aVAnd that's not me.
+p345
+aVI care about the technology.
+p346
+aVThere are people who care about the UI.
+p347
+aVI can't do UI to save my life.
+p348
+aVI mean, if I was stranded on an island
+p349
+aVand the only way to get off that island was the make a pretty UI,
+p350
+aVI'd die there.
+p351
+aa(lp352
+V(Laughter)
+p353
+aa(lp354
+VSo there's different kinds of people,
+p355
+aVand I'm not making excuses, I'm trying to explain.
+p356
+aa(lp357
+VCA: Now, when we talked last week,
+p358
+aVyou talked about some other trait that you have,
+p359
+aVwhich I found really interesting.
+p360
+aVIt's this idea called taste.
+p361
+aa(lp362
+VAnd I've just got a couple of images here.
+p363
+aVI think this is an example of not particularly good taste in code,
+p364
+aVand this one is better taste,
+p365
+aVwhich one can immediately see.
+p366
+aVWhat is the difference between these two?
+p367
+aa(lp368
+VLT: So this is \u2014
+p369
+aVHow many people here actually have coded?
+p370
+aa(lp371
+VCA: Oh my goodness.
+p372
+aa(lp373
+VLT: So I guarantee you,
+p374
+aVeverybody who raised their hand,
+p375
+aVthey have done what's called a singly-linked list.
+p376
+aVAnd it's taught \u2014
+p377
+aVThis, the first not very good taste approach,
+p378
+aVis basically how it's taught to be done when you start out coding.
+p379
+aVAnd you don't have to understand the code.
+p380
+aa(lp381
+VThe most interesting part to me
+p382
+aVis the last if statement.
+p383
+aVBecause what happens in a singly-linked list \u2014
+p384
+aVthis is trying to remove an existing entry from a list \u2014
+p385
+aVand there's a difference between if it's the first entry
+p386
+aVor whether it's an entry in the middle.
+p387
+aVBecause if it's the first entry,
+p388
+aVyou have to change the pointer to the first entry.
+p389
+aVIf it's in the middle,
+p390
+aVyou have to change the pointer of a previous entry.
+p391
+aVSo they're two completely different cases.
+p392
+aa(lp393
+VCA: And that's better.
+p394
+aa(lp395
+VLT: And this is better.
+p396
+aVIt does not have the if statement.
+p397
+aVAnd it doesn't really matter \u2014
+p398
+aVI don't want you understand why it doesn't have the if statement,
+p399
+aVbut I want you to understand
+p400
+aVthat sometimes you can see a problem in a different way
+p401
+aVand rewrite it so that a special case goes away
+p402
+aVand becomes the normal case.
+p403
+aVAnd that's good code.
+p404
+aVBut this is simple code.
+p405
+aVThis is CS 101.
+p406
+aVThis is not important \u2014 although, details are important.
+p407
+aa(lp408
+VTo me, the sign of people I really want to work with
+p409
+aVis that they have good taste, which is how ...
+p410
+aVI sent you this stupid example
+p411
+aVthat is not relevant because it's too small.
+p412
+aVGood taste is much bigger than this.
+p413
+aVGood taste is about really seeing the big patterns
+p414
+aVand kind of instinctively knowing what's the right way to do things.
+p415
+aa(lp416
+VCA: OK, so we're putting the pieces together here now.
+p417
+aVYou have taste,
+p418
+aVin a way that's meaningful to software people.
+p419
+aVYou're \u2014
+p420
+aa(lp421
+V(Laughter)
+p422
+aa(lp423
+VLT: I think it was meaningful to some people here.
+p424
+aa(lp425
+VCA: You're a very smart computer coder,
+p426
+aVand you're hellish stubborn.
+p427
+aVBut there must be something else.
+p428
+aVI mean, you've changed the future.
+p429
+aVYou must have the ability of these grand visions of the future.
+p430
+aVYou're a visionary, right?
+p431
+aa(lp432
+VLT: I've actually felt slightly uncomfortable at TED
+p433
+aVfor the last two days,
+p434
+aVbecause there's a lot of vision going on, right?
+p435
+aVAnd I am not a visionary.
+p436
+aVI do not have a five-year plan.
+p437
+aVI'm an engineer.
+p438
+aVAnd I think it's really \u2014
+p439
+aVI mean \u2014 I'm perfectly happy with all the people
+p440
+aVwho are walking around and just staring at the clouds
+p441
+aVand looking at the stars and saying, "I want to go there."
+p442
+aVBut I'm looking at the ground,
+p443
+aVand I want to fix the pothole that's right in front of me
+p444
+aVbefore I fall in.
+p445
+aVThis is the kind of person I am.
+p446
+aa(lp447
+V(Cheers)
+p448
+aa(lp449
+V(Applause)
+p450
+aa(lp451
+VCA: So you spoke to me last week about these two guys.
+p452
+aVWho are they and how do you relate to them?
+p453
+aa(lp454
+VLT: Well, so this is kind of cliché in technology,
+p455
+aVthe whole Tesla versus Edison,
+p456
+aVwhere Tesla is seen as the visionary scientist and crazy idea man.
+p457
+aVAnd people love Tesla.
+p458
+aVI mean, there are people who name their companies after him.
+p459
+aa(lp460
+V(Laughter)
+p461
+aa(lp462
+VThe other person there is Edison,
+p463
+aVwho is actually often vilified for being kind of pedestrian
+p464
+aVand is \u2014
+p465
+aVI mean, his most famous quote is,
+p466
+aV"Genius is one percent inspiration and 99 percent perspiration."
+p467
+aVAnd I'm in the Edison camp,
+p468
+aVeven if people don't always like him.
+p469
+aVBecause if you actually compare the two,
+p470
+aVTesla has kind of this mind grab these days,
+p471
+aVbut who actually changed the world?
+p472
+aVEdison may not have been a nice person,
+p473
+aVhe did a lot of things \u2014
+p474
+aVhe was maybe not so intellectual,
+p475
+aVnot so visionary.
+p476
+aVBut I think I'm more of an Edison than a Tesla.
+p477
+aa(lp478
+VCA: So our theme at TED this week is dreams \u2014
+p479
+aVbig, bold, audacious dreams.
+p480
+aVYou're really the antidote to that.
+p481
+aa(lp482
+VLT: I'm trying to dial it down a bit, yes.
+p483
+aa(lp484
+VCA: That's good.
+p485
+aa(lp486
+V(Laughter)
+p487
+aVWe embrace you, we embrace you.
+p488
+aa(lp489
+VCompanies like Google and many others have made, arguably,
+p490
+aVlike, billions of dollars out of your software.
+p491
+aVDoes that piss you off?
+p492
+aa(lp493
+VLT: No.
+p494
+aVNo, it doesn't piss me off for several reasons.
+p495
+aVAnd one of them is, I'm doing fine.
+p496
+aVI'm really doing fine.
+p497
+aa(lp498
+VBut the other reason is \u2014
+p499
+aVI mean, without doing the whole open source and really letting go thing,
+p500
+aVLinux would never have been what it is.
+p501
+aVAnd it's brought experiences I don't really enjoy, public talking,
+p502
+aVbut at the same time, this is an experience.
+p503
+aVTrust me.
+p504
+aVSo there's a lot of things going on that make me a very happy man
+p505
+aVand thinking I did the right choices.
+p506
+aa(lp507
+VCA: Is the open source idea \u2014
+p508
+aVthis is, I think we'll end here \u2014
+p509
+aVis the open source idea fully realized now in the world,
+p510
+aVor is there more that it could go,
+p511
+aVare there more things that it could do?
+p512
+aa(lp513
+VLT: So, I'm of two minds there.
+p514
+aVI think one reason open source works so well in code
+p515
+aVis that at the end of the day,
+p516
+aVcode tends to be somewhat black and white.
+p517
+aVThere's often a fairly good way to decide,
+p518
+aVthis is done correctly and this is not done well.
+p519
+aVCode either works or it doesn't,
+p520
+aVwhich means that there's less room for arguments.
+p521
+aVAnd we have arguments despite this, right?
+p522
+aVIn many other areas \u2014
+p523
+aVI mean, people have talked about open politics and things like that \u2014
+p524
+aVand it's really hard sometimes to say
+p525
+aVthat, yes, you can apply the same principles in some other areas
+p526
+aVjust because the black and white turns into not just gray,
+p527
+aVbut different colors.
+p528
+aa(lp529
+VSo, obviously open source in science is making a comeback.
+p530
+aVScience was there first.
+p531
+aVBut then science ended up being pretty closed,
+p532
+aVwith very expensive journals and some of that going on.
+p533
+aVAnd open source is making a comeback in science,
+p534
+aVwith things like arXiv and open journals.
+p535
+aVWikipedia changed the world, too.
+p536
+aVSo there are other examples,
+p537
+aVI'm sure there are more to come.
+p538
+aa(lp539
+VCA: But you're not a visionary,
+p540
+aVand so it's not up to you to name them.
+p541
+aa(lp542
+VLT: No.
+p543
+aa(lp544
+V(Laughter)
+p545
+aa(lp546
+VIt's up to you guys to make them, right?
+p547
+aa(lp548
+VCA: Exactly.
+p549
+aa(lp550
+VLinus Torvalds,
+p551
+aVthank you for Linux, thank you for the Internet,
+p552
+aVthank you for all those Android phones.
+p553
+aa(lp554
+VThank you for coming here to TED and revealing so much of yourself.
+p555
+aa(lp556
+VLT: Thank you.
+p557
+aa(lp558
+V(Applause)
+p559
+aasS'transcript_micsec'
+p560
+(lp561
+I12000
+aI42000
+aI44000
+aI48000
+aI68000
+aI86000
+aI88000
+aI94000
+aI132000
+aI144000
+aI152000
+aI162000
+aI164000
+aI200000
+aI239000
+aI283000
+aI292000
+aI316000
+aI345000
+aI348000
+aI351000
+aI352000
+aI368000
+aI384000
+aI410000
+aI411000
+aI432000
+aI449000
+aI480000
+aI510000
+aI511000
+aI526000
+aI548000
+aI557000
+aI558000
+aI559000
+aI561000
+aI562000
+aI582000
+aI591000
+aI605000
+aI606000
+aI646000
+aI656000
+aI669000
+aI696000
+aI713000
+aI737000
+aI738000
+aI757000
+aI759000
+aI792000
+aI821000
+aI829000
+aI831000
+aI851000
+aI852000
+aI857000
+aI864000
+aI879000
+aI884000
+aI886000
+aI903000
+aI932000
+aI933000
+aI960000
+aI983000
+aI992000
+aI994000
+aI998000
+aI1012000
+aI1041000
+aI1042000
+aI1044000
+aI1051000
+aI1067000
+aI1070000
+aI1116000
+aI1122000
+aI1124000
+aI1125000
+aI1130000
+aI1136000
+aI1143000
+aI1169000
+aI1183000
+aI1235000
+aI1264000
+aI1268000
+aI1269000
+aI1270000
+aI1272000
+aI1273000
+aI1279000
+aI1282000
+aI1283000
+asS'talk_meta'
+p562
+(dp563
+S'ratings'
+p564
+(dp565
+S'beautiful'
+p566
+I131
+sS'funny'
+p567
+I208
+sS'inspiring'
+p568
+I691
+sS'ok'
+p569
+I107
+sS'fascinating'
+p570
+I370
+sS'total_count'
+p571
+I2459
+sS'persuasive'
+p572
+I55
+sS'longwinded'
+p573
+I58
+sS'unconvincing'
+p574
+I4
+sS'informative'
+p575
+I547
+sS'jaw-dropping'
+p576
+I30
+sS'ingenious'
+p577
+I119
+sS'obnoxious'
+p578
+I5
+sS'courageous'
+p579
+I116
+sS'confusing'
+p580
+I18
+ssS'author'
+p581
+VLinus_Torvalds;
+p582
+sS'url'
+p583
+S'https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux'
+p584
+sS'vidlen'
+p585
+I1290
+sS'totalviews'
+p586
+I2479824
+sS'title'
+p587
+VThe mind behind Linux
+p588
+sS'downloadlink'
+p589
+Vhttps://download.ted.com/talks/LinusTorvalds_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p590
+sS'datepublished'
+p591
+cdatetime
+datetime
+p592
+(S'\x07\xe0\x04\x08\x0c\x00\x1d\x00\x00\x00'
+tRp593
+sS'datefilmed'
+p594
+g592
+(S'\x07\xe0\x04\x08\x0c\x00\x1d\x00\x00\x00'
+tRp595
+sS'alldata_JSON'
+p596
+S'{"viewed_count": 2479824, "speakers": [{"description": "Software engineer", "firstname": "Linus", "title": "", "lastname": "Torvalds", "middleinitial": "", "whylisten": "<p>Fascinated by the economy and elegance of experimental operating system Minix, computer scientist Linus Torvalds wrote an operating system kernel and shared it with independent programmers. The system that they fleshed out and released in 1994 -- Linux -- was remarkable not only for its utility and efficiency but also for the collaboration of its community.   </p><p>Now enjoying mainstream respectability (and the support of the computer industry), Linux runs on the servers of Amazon, Google, and much of the wired world. As the sole arbiter of code for the Linux Foundation (which he characteristically downplays by saying &ldquo;the only power I have is to say &lsquo;no&rsquo;&rdquo;), Torvalds quietly inspires open-source projects worldwide.</p>", "slug": "linus_torvalds", "whotheyare": "In 1991, Linus Torvalds shared the Linux kernel with a few computer hobbyists. The operating system they built reshaped the software industry.", "whatotherssay": "[Torvalds has] been as instrumental in retooling the production lines of the modern economy as Henry Ford was 100 years earlier.", "id": 2890, "photo_url": "https://pe.tedcdn.com/images/ted/e8dec68b5990b2b0e5d76b513b75cee14304fc4c_254x191.jpg"}], "current_talk": 2464, "description": "Linus Torvalds transformed technology twice -- first with the Linux kernel, which helps power the Internet, and again with Git, the source code management system used by developers worldwide. In a rare interview with TED Curator Chris Anderson, Torvalds discusses with remarkable openness the personality traits that prompted his unique philosophy of work, engineering and life. \\"I am not a visionary, I\'m an engineer,\\" Torvalds says. \\"I\'m perfectly happy with all the people who are walking around and just staring at the clouds ... but I\'m looking at the ground, and I want to fix the pothole that\'s right in front of me before I fall in.\\"", "language": "en", "url": "https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 154022903}, "podcast-low-en": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29737366}, "podcast-high": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 153983883}, "180k": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29480397}, "64k": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10676232}, "1500k": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 239377528}, "450k": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73375267}, "podcast-regular": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73490407}, "950k": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 153991858}, "audio-podcast": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 13228194}, "podcast-light": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10809704}, "320k": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 52170862}, "600k": {"uri": "https://download.ted.com/talks/LinusTorvalds_2016-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97975839}}}, "comments": {"count": 149, "id": 27082, "talk_id": 2464}, "slug": "linus_torvalds_the_mind_behind_linux", "threadId": 27082, "talks": [{"event": "TED2016", "player_talks": [{"event": "TED2016", "slug": "linus_torvalds_the_mind_behind_linux", "filmed": 1455667200, "targeting": {"event": "TED2016", "tag": "Internet,code,communication,computers,data,engineering,interview,invention,programming,technology,web", "id": 2464, "talk": "linus_torvalds_the_mind_behind_linux", "year": "2016"}, "adDuration": "3.33", "external": null, "title": "The mind behind Linux", "postAdDuration": "0.83", "published": 1460131229, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d560e7d7d695293217875d2db6fbb35b31fc1991_2880x1620.jpg?quality=89&w=600", "name": "Linus Torvalds: The mind behind Linux", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "code", "communication", "computers", "data", "engineering", "interview", "invention", "programming", "technology", "web"], "speaker": "Linus Torvalds", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1290, "id": 2464, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/LinusTorvalds_2016-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2016", "tag": "Internet,code,communication,computers,data,engineering,interview,invention,programming,technology,web", "id": 2464, "talk": "linus_torvalds_the_mind_behind_linux", "year": "2016"}, "metadata": "https://hls.ted.com/talks/2464.json", "stream": "https://hls.ted.com/talks/2464.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2016%26id%3D2464%26tag%3DInternet%2Ccode%2Ccommunication%2Ccomputers%2Cdata%2Cengineering%2Cinterview%2Cinvention%2Cprogramming%2Ctechnology%2Cweb%26talk%3Dlinus_torvalds_the_mind_behind_linux%26year%3D2016&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d560e7d7d695293217875d2db6fbb35b31fc1991_2880x1620.jpg?q=50&w=15", "duration": 1290, "id": 2464, "ratings": [{"count": 58, "id": 11, "name": "Longwinded"}, {"count": 547, "id": 8, "name": "Informative"}, {"count": 691, "id": 10, "name": "Inspiring"}, {"count": 370, "id": 22, "name": "Fascinating"}, {"count": 208, "id": 7, "name": "Funny"}, {"count": 131, "id": 1, "name": "Beautiful"}, {"count": 107, "id": 25, "name": "OK"}, {"count": 18, "id": 2, "name": "Confusing"}, {"count": 119, "id": 9, "name": "Ingenious"}, {"count": 116, "id": 3, "name": "Courageous"}, {"count": 55, "id": 24, "name": "Persuasive"}, {"count": 4, "id": 21, "name": "Unconvincing"}, {"count": 30, "id": 23, "name": "Jaw-dropping"}, {"count": 5, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Software engineer", "firstname": "Linus", "title": "", "lastname": "Torvalds", "middleinitial": "", "whylisten": "<p>Fascinated by the economy and elegance of experimental operating system Minix, computer scientist Linus Torvalds wrote an operating system kernel and shared it with independent programmers. The system that they fleshed out and released in 1994 -- Linux -- was remarkable not only for its utility and efficiency but also for the collaboration of its community.   </p><p>Now enjoying mainstream respectability (and the support of the computer industry), Linux runs on the servers of Amazon, Google, and much of the wired world. As the sole arbiter of code for the Linux Foundation (which he characteristically downplays by saying &ldquo;the only power I have is to say &lsquo;no&rsquo;&rdquo;), Torvalds quietly inspires open-source projects worldwide.</p>", "slug": "linus_torvalds", "whotheyare": "In 1991, Linus Torvalds shared the Linux kernel with a few computer hobbyists. The operating system they built reshaped the software industry.", "whatotherssay": "[Torvalds has] been as instrumental in retooling the production lines of the modern economy as Henry Ford was 100 years earlier.", "id": 2890, "photo_url": "https://pe.tedcdn.com/images/ted/e8dec68b5990b2b0e5d76b513b75cee14304fc4c_254x191.jpg"}], "title": "The mind behind Linux", "take_action": null, "comments": 27082, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/d560e7d7d695293217875d2db6fbb35b31fc1991_2880x1620.jpg", "description": "Linus Torvalds transformed technology twice -- first with the Linux kernel, which helps power the Internet, and again with Git, the source code management system used by developers worldwide. In a rare interview with TED Curator Chris Anderson, Torvalds discusses with remarkable openness the personality traits that prompted his unique philosophy of work, engineering and life. \\"I am not a visionary, I\'m an engineer,\\" Torvalds says. \\"I\'m perfectly happy with all the people who are walking around and just staring at the clouds ... but I\'m looking at the ground, and I want to fix the pothole that\'s right in front of me before I fall in.\\"", "tags": ["Internet", "code", "communication", "computers", "data", "engineering", "interview", "invention", "programming", "technology", "web"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-bg.mp4"}, "hu": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/LinusTorvalds_2016-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/LinusTorvalds_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/LinusTorvalds_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/LinusTorvalds_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2464, "audioDownload": "https://download.ted.com/talks/LinusTorvalds_2016.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1270675, "hero": "https://pe.tedcdn.com/images/ted/fc7b6c0a7974f84b6fd218a3409eb5248d214aad_1600x1200.jpg", "title": "The Internet could crash. We need a Plan B", "id": 1693, "speaker": "Danny Hillis", "duration": 751, "slug": "danny_hillis_the_internet_could_crash_we_need_a_plan_b"}, {"viewed_count": 1932863, "hero": "https://pe.tedcdn.com/images/ted/8a688129c4d6b700b4581a83626d73bfd8fc9691_2880x1620.jpg", "title": "Why do ambitious women have flat heads?", "id": 2223, "speaker": "Dame Stephanie Shirley", "duration": 819, "slug": "dame_stephanie_shirley_why_do_ambitious_women_have_flat_heads"}, {"viewed_count": 1058268, "hero": "https://pe.tedcdn.com/images/ted/39a923a807cd8dfac8bfcd867963ebf99c3be2fd_2400x1800.jpg", "title": "A Magna Carta for the web", "id": 2061, "speaker": "Tim Berners-Lee", "duration": 403, "slug": "tim_berners_lee_a_magna_carta_for_the_web"}, {"viewed_count": 1247441, "hero": "https://pe.tedcdn.com/images/ted/39d58abd56cf9edd6936f4f42119a15e65692dc1_1600x1200.jpg", "title": "How the Internet will (one day) transform government", "id": 1546, "speaker": "Clay Shirky", "duration": 1112, "slug": "clay_shirky_how_the_internet_will_one_day_transform_government"}, {"viewed_count": 1750657, "hero": "https://pe.tedcdn.com/images/ted/f31f296ffb6902d226e403e6431713cf37629b55_1600x1200.jpg", "title": "Let\'s teach kids to code", "id": 1657, "speaker": "Mitch Resnick", "duration": 1008, "slug": "mitch_resnick_let_s_teach_kids_to_code"}, {"viewed_count": 1789223, "hero": "https://pe.tedcdn.com/images/ted/00b50a1e29f6e93682168b681f192db79a196c60_2880x1620.jpg", "title": "How Arduino is open-sourcing imagination", "id": 1491, "speaker": "Massimo Banzi", "duration": 946, "slug": "massimo_banzi_how_arduino_is_open_sourcing_imagination"}], "recorded_at": "2016-02-17T00:00:00.000+00:00", "slug": "linus_torvalds_the_mind_behind_linux", "speaker_name": "Linus Torvalds", "viewed_count": 2479824, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2016", "name": "Linus Torvalds: The mind behind Linux"}'
+p597
+sS'keywords'
+p598
+(lp599
+VInternet
+p600
+aVcode
+p601
+aVcommunication
+p602
+aVcomputers
+p603
+aVdata
+p604
+aVengineering
+p605
+aVinterview
+p606
+aVinvention
+p607
+aVprogramming
+p608
+aVtechnology
+p609
+aVweb
+p610
+asS'datecrawled'
+p611
+g592
+(S'\x07\xe1\n\x17\x01\x02\x16\x03\xf4*'
+tRp612
+sS'id'
+p613
+I2464
+ss.

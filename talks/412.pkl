@@ -1,0 +1,268 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIn 1962, Buckminster Fuller
+p5
+aVpresented the particularly audacious proposal for the Geoscope.
+p6
+aVIt was a 200-foot diameter geodesic sphere
+p7
+aVto be suspended over the East River in New York City, in full view of the United Nations.
+p8
+aVIt was a big idea, for sure, and it was one that he felt could truly inform
+p9
+aVand deeply affect the decision making of this body
+p10
+aVthrough animations of global data, trends
+p11
+aVand other information regarding the globe, on this sphere.
+p12
+aVAnd today, 45 years later,
+p13
+aVwe clearly have no less need for this kind of clarity and perspective,
+p14
+aVbut what we do have is improved technology.
+p15
+aa(lp16
+VToday we don't need one million light bulbs to create a spherical display.
+p17
+aVWe can use LEDs.
+p18
+aVLEDs are smaller, they're cheaper, they're longer lasting, they're more efficient.
+p19
+aVMost importantly for this, they're faster.
+p20
+aVAnd this speed, combined with today's high-performance micro-controllers,
+p21
+aVallows us to actually simulate, in this piece,
+p22
+aVover 17,000 LEDs \u2014 using just 64.
+p23
+aVAnd the way this happens is through the phenomenon of persistence of vision.
+p24
+aVBut as this ring rotates at about 1,700 rpm \u2014 that's 28 times per second.
+p25
+aVThe equator's speed is actually about 60 miles per hour.
+p26
+aVThere are four on-board micro-controllers
+p27
+aVthat, each time this ring rotates
+p28
+aVit, as it passes the rear of the display,
+p29
+aVit picks up a position signal.
+p30
+aVAnd from that, the on-board micro-controllers
+p31
+aVcan extrapolate the position of the ring at all points around the revolution
+p32
+aVand display arbitrary bitmap images and animations.
+p33
+aa(lp34
+VBut this is really just the beginning.
+p35
+aVIn addition to higher resolution versions of this display,
+p36
+aVmy father and I are working on a new patent-pending design
+p37
+aVfor a fully volumetric display using the same phenomenon.
+p38
+aVIt achieves this by rotating LEDs about two axes.
+p39
+aVSo as you can see here, this is a, eleven-inch diameter circuit board.
+p40
+aVThese blocks represent LEDs.
+p41
+aVAnd so you could see that as this disc rotates about this axis,
+p42
+aVit will create a disc of light that we can control.
+p43
+aVThat's nothing new: that's a propeller clock;
+p44
+aVthat's the rims that you can buy for your car.
+p45
+aVBut what is new is that, when we rotate this disc about this axis,
+p46
+aVthis disc of light actually becomes a sphere of light.
+p47
+aVAnd so we can control that with micro-controllers
+p48
+aVand create a fully volumetric, three-dimensional display with just 256 LEDs.
+p49
+aa(lp50
+VNow this piece is currently in process \u2014
+p51
+aVdue out in May \u2014 but what we've done is we've put together a small demo,
+p52
+aVjust to show the geometric translation of points into a sphere.
+p53
+aVI've got a little video to show you,
+p54
+aVbut keep in mind that this is with no electronic control,
+p55
+aVand this is also with only four LEDs.
+p56
+aVThis is actually only about 1.5 percent of what the final display will be in May.
+p57
+aVSo, take a look.
+p58
+aVAnd here you can see it's rotating about the vertical axis only, creating circles.
+p59
+aVAnd then, as the other axis kicks in,
+p60
+aVthose actually blur into a volume.
+p61
+aVAnd the shutter speed of the camera
+p62
+aVactually makes it slightly less effective in this case.
+p63
+aa(lp64
+VBut this piece is due out in May.
+p65
+aVIt'll be on display at the Interactive Telecommunications Spring Show
+p66
+aVin Greenwich Village in New York City \u2014 that's open to the public,
+p67
+aVdefinitely invite you all to come and attend \u2014 it's a fantastic show.
+p68
+aVThere are hundreds of student innovators with fantastic projects.
+p69
+aVThis piece, actually, will be on display
+p70
+aVdown in the Sierra Simulcast Lounge
+p71
+aVin the breaks between now and the end of the show.
+p72
+aVSo I'd love to talk to you all, and invite you
+p73
+aVto come down and take a closer look.
+p74
+aVIt's an honor to be here. Thanks very much.
+p75
+aa(lp76
+V(Applause)
+p77
+aasS'transcript_micsec'
+p78
+(lp79
+I12000
+aI53000
+aI108000
+aI156000
+aI199000
+aI226000
+asS'talk_meta'
+p80
+(dp81
+S'ratings'
+p82
+(dp83
+S'ingenious'
+p84
+I102
+sS'beautiful'
+p85
+I42
+sS'inspiring'
+p86
+I35
+sS'ok'
+p87
+I90
+sS'fascinating'
+p88
+I83
+sS'funny'
+p89
+I2
+sS'total_count'
+p90
+I493
+sS'persuasive'
+p91
+I6
+sS'longwinded'
+p92
+I5
+sS'unconvincing'
+p93
+I33
+sS'informative'
+p94
+I51
+sS'jaw-dropping'
+p95
+I24
+sS'obnoxious'
+p96
+I0
+sS'courageous'
+p97
+I2
+sS'confusing'
+p98
+I18
+ssS'author'
+p99
+VNick_Sears;
+p100
+sS'url'
+p101
+S'https://www.ted.com/talks/nick_sears_demos_the_orb'
+p102
+sS'vidlen'
+p103
+I238
+sS'totalviews'
+p104
+I458097
+sS'title'
+p105
+VDemo: The Orb
+p106
+sS'downloadlink'
+p107
+Vhttps://download.ted.com/talks/NickSears_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p108
+sS'datepublished'
+p109
+cdatetime
+datetime
+p110
+(S'\x07\xd8\x0c\x04\x14\x00\x00\x00\x00\x00'
+tRp111
+sS'datefilmed'
+p112
+g110
+(S'\x07\xd8\x0c\x04\x14\x00\x00\x00\x00\x00'
+tRp113
+sS'alldata_JSON'
+p114
+S'{"viewed_count": 458097, "speakers": [{"description": "Inventor", "firstname": "Nick", "title": "", "lastname": "Sears", "middleinitial": "", "whylisten": "<p>Nick Sears is a classic tinkerer -- his resume&nbsp; lists jobs that run the gamut from writing a mobile messaging framework to building a DC-DC switching voltage regulator. Along with his dad, Ron Sears, he&#39;s got <strong>a pretty neat father-son project</strong> going on: the Orb. </p><p>It&#39;s inspired by Buckminster Fuller&#39;s 1962 proposal for the Geoscope, which called for &quot;a 200-foot-diameter sphere covered with 10 million computer-controlled light sources to be suspended over the East River in full view of the United Nations.&quot; But <strong>by making the sphere spin, the Sears realized, they could use persistence of vision and LEDs</strong> to create a bright display with a three-dimensional effect using far fewer light sources.</p><p>Sears is now a student in the Interactive Telecommunications Program at NYU. He and his father presented the Orb version 2 at Coachella in 2008 and continue to tinker with it.</p>", "slug": "nick_sears_1", "whotheyare": "Working with his father, Ron Sears, Nick Sears is designing and building the Orb, a rotating LED display that uses persistence of vision to produce moving images in 3D space.", "whatotherssay": "", "id": 353, "photo_url": "https://pe.tedcdn.com/images/ted/61199_254x191.jpg"}], "current_talk": 412, "description": "Inventor Nick Sears demos the first generation of the Orb, a rotating persistence-of-vision display that creates glowing 3D images. A short, cool tale of invention.", "language": "en", "url": "https://www.ted.com/talks/nick_sears_demos_the_orb", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/NickSears_2007-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27236043}, "podcast-low-en": {"uri": "https://download.ted.com/talks/NickSears_2007-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5461005}, "podcast-high": {"uri": "https://download.ted.com/talks/NickSears_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27206270}, "180k": {"uri": "https://download.ted.com/talks/NickSears_2007-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5362748}, "64k": {"uri": "https://download.ted.com/talks/NickSears_2007-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 1944699}, "1500k": {"uri": "https://download.ted.com/talks/NickSears_2007-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42268553}, "450k": {"uri": "https://download.ted.com/talks/NickSears_2007-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13133722}, "podcast-regular": {"uri": "https://download.ted.com/talks/NickSears_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13303613}, "950k": {"uri": "https://download.ted.com/talks/NickSears_2007-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27235714}, "podcast-light": {"uri": "https://download.ted.com/talks/NickSears_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2044100}, "320k": {"uri": "https://download.ted.com/talks/NickSears_2007-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9533130}, "600k": {"uri": "https://download.ted.com/talks/NickSears_2007-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17834066}}}, "comments": {"count": 19, "id": 350, "talk_id": 412}, "slug": "nick_sears_demos_the_orb", "threadId": 350, "talks": [{"event": "TED2007", "player_talks": [{"event": "TED2007", "slug": "nick_sears_demos_the_orb", "filmed": 1172880000, "targeting": {"event": "TED2007", "tag": "animation,demo,design,entertainment,invention,technology", "id": 412, "talk": "nick_sears_demos_the_orb", "year": "2007"}, "adDuration": "3.33", "external": null, "title": "Demo: The Orb", "postAdDuration": "0.83", "published": 1228438800, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/61190_800x600.jpg?quality=89&w=600", "name": "Nick Sears: Demo: The Orb", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["animation", "demo", "design", "entertainment", "invention", "technology"], "speaker": "Nick Sears", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 238, "id": 412, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/NickSears_2007-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2007", "tag": "animation,demo,design,entertainment,invention,technology", "id": 412, "talk": "nick_sears_demos_the_orb", "year": "2007"}, "metadata": "https://hls.ted.com/talks/412.json", "stream": "https://hls.ted.com/talks/412.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2007%26id%3D412%26tag%3Danimation%2Cdemo%2Cdesign%2Centertainment%2Cinvention%2Ctechnology%26talk%3Dnick_sears_demos_the_orb%26year%3D2007&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/nick_sears_demos_the_orb"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/61190_800x600.jpg?q=50&w=15", "duration": 238, "id": 412, "ratings": [{"count": 102, "id": 9, "name": "Ingenious"}, {"count": 90, "id": 25, "name": "OK"}, {"count": 83, "id": 22, "name": "Fascinating"}, {"count": 35, "id": 10, "name": "Inspiring"}, {"count": 24, "id": 23, "name": "Jaw-dropping"}, {"count": 42, "id": 1, "name": "Beautiful"}, {"count": 6, "id": 24, "name": "Persuasive"}, {"count": 18, "id": 2, "name": "Confusing"}, {"count": 51, "id": 8, "name": "Informative"}, {"count": 33, "id": 21, "name": "Unconvincing"}, {"count": 5, "id": 11, "name": "Longwinded"}, {"count": 2, "id": 7, "name": "Funny"}, {"count": 2, "id": 3, "name": "Courageous"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Inventor", "firstname": "Nick", "title": "", "lastname": "Sears", "middleinitial": "", "whylisten": "<p>Nick Sears is a classic tinkerer -- his resume&nbsp; lists jobs that run the gamut from writing a mobile messaging framework to building a DC-DC switching voltage regulator. Along with his dad, Ron Sears, he&#39;s got <strong>a pretty neat father-son project</strong> going on: the Orb. </p><p>It&#39;s inspired by Buckminster Fuller&#39;s 1962 proposal for the Geoscope, which called for &quot;a 200-foot-diameter sphere covered with 10 million computer-controlled light sources to be suspended over the East River in full view of the United Nations.&quot; But <strong>by making the sphere spin, the Sears realized, they could use persistence of vision and LEDs</strong> to create a bright display with a three-dimensional effect using far fewer light sources.</p><p>Sears is now a student in the Interactive Telecommunications Program at NYU. He and his father presented the Orb version 2 at Coachella in 2008 and continue to tinker with it.</p>", "slug": "nick_sears_1", "whotheyare": "Working with his father, Ron Sears, Nick Sears is designing and building the Orb, a rotating LED display that uses persistence of vision to produce moving images in 3D space.", "whatotherssay": "", "id": 353, "photo_url": "https://pe.tedcdn.com/images/ted/61199_254x191.jpg"}], "title": "Demo: The Orb", "take_action": null, "comments": 350, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/61190_800x600.jpg", "description": "Inventor Nick Sears demos the first generation of the Orb, a rotating persistence-of-vision display that creates glowing 3D images. A short, cool tale of invention.", "tags": ["animation", "demo", "design", "entertainment", "invention", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/NickSears_2007-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/NickSears_2007-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/NickSears_2007-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/NickSears_2007-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/NickSears_2007-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/NickSears_2007-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/NickSears_2007-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/NickSears_2007-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/NickSears_2007-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/NickSears_2007-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/NickSears_2007-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/NickSears_2007-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/NickSears_2007-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/NickSears_2007-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/NickSears_2007-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/NickSears_2007-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/NickSears_2007-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/NickSears_2007-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/NickSears_2007-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/NickSears_2007-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/NickSears_2007-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/NickSears_2007-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/NickSears_2007-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/NickSears_2007-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/NickSears_2007-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/NickSears_2007-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/NickSears_2007-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/NickSears_2007-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/NickSears_2007-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/NickSears_2007-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/NickSears_2007-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/NickSears_2007-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/NickSears_2007-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/NickSears_2007-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/NickSears_2007-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/NickSears_2007-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/NickSears_2007-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/NickSears_2007-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/NickSears_2007-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/NickSears_2007-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/NickSears_2007-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/NickSears_2007-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/NickSears_2007-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/NickSears_2007-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/NickSears_2007-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/NickSears_2007-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/NickSears_2007-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/NickSears_2007-low-sr.mp4"}, "sq": {"name": "Albanian", "low": "https://download.ted.com/talks/NickSears_2007-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/NickSears_2007-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/NickSears_2007-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/NickSears_2007-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/NickSears_2007-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/NickSears_2007-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/NickSears_2007-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/NickSears_2007-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/NickSears_2007-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/NickSears_2007-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/NickSears_2007.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/NickSears_2007-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 412, "audioDownload": null}, "related_talks": [{"viewed_count": 1481048, "hero": "https://pe.tedcdn.com/images/ted/8186_480x360.jpg", "title": "Rethink the desktop with BumpTop", "id": 131, "speaker": "Anand Agarawala", "duration": 279, "slug": "anand_agarawala_demos_his_bumptop_desktop"}, {"viewed_count": 4778587, "hero": "https://pe.tedcdn.com/images/ted/5824aa5b8d490ed3863ee1f8c26731a6ebbfcefe_1600x1200.jpg", "title": "How PhotoSynth can connect the world\'s images", "id": 129, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 450, "slug": "blaise_aguera_y_arcas_demos_photosynth"}, {"viewed_count": 1073602, "hero": "https://pe.tedcdn.com/images/ted/87286_800x600.jpg", "title": "Anti-gravity sculpture", "id": 534, "speaker": "Tom Shannon", "duration": 715, "slug": "tom_shannon_s_magnetic_sculpture"}, {"viewed_count": 977615, "hero": "https://pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg", "title": "5 predictions, from 1984", "id": 230, "speaker": "Nicholas Negroponte", "duration": 1523, "slug": "nicholas_negroponte_in_1984_makes_5_predictions"}, {"viewed_count": 1516356, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}, {"viewed_count": 1226903, "hero": "https://pe.tedcdn.com/images/ted/7bc7813215ad701161bf50a332b1ae7d2d6b17d6_800x600.jpg", "title": "The weird, wonderful world of bioluminescence", "id": 1149, "speaker": "Edith Widder", "duration": 765, "slug": "edith_widder_the_weird_and_wonderful_world_of_bioluminescence"}], "recorded_at": "2007-03-03T00:00:00.000+00:00", "slug": "nick_sears_demos_the_orb", "speaker_name": "Nick Sears", "viewed_count": 458097, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2007", "name": "Nick Sears: Demo: The Orb"}'
+p115
+sS'keywords'
+p116
+(lp117
+Vanimation
+p118
+aVdemo
+p119
+aVdesign
+p120
+aVentertainment
+p121
+aVinvention
+p122
+aVtechnology
+p123
+asS'datecrawled'
+p124
+g110
+(S'\x07\xe1\n\x17\x00)0\r\xaf^'
+tRp125
+sS'id'
+p126
+I412
+ss.

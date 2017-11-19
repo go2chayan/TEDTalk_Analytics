@@ -1,0 +1,758 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe live in a very complex environment:
+p5
+aVcomplexity and dynamism
+p6
+aVand patterns of evidence
+p7
+aVfrom satellite photographs, from videos.
+p8
+aVYou can even see it outside your window.
+p9
+aVIt's endlessly complex, but somehow familiar,
+p10
+aVbut the patterns kind of repeat,
+p11
+aVbut they never repeat exactly.
+p12
+aVIt's a huge challenge to understand.
+p13
+aVThe patterns that you see
+p14
+aVare there at all of the different scales,
+p15
+aVbut you can't chop it into one little bit and say,
+p16
+aV"Oh, well let me just make a smaller climate."
+p17
+aVI can't use the normal products of reductionism
+p18
+aVto get a smaller and smaller thing that I can study
+p19
+aVin a laboratory and say, "Oh,
+p20
+aVnow that's something I now understand."
+p21
+aVIt's the whole or it's nothing.
+p22
+aa(lp23
+VThe different scales that give you
+p24
+aVthese kinds of patterns
+p25
+aVrange over an enormous range of magnitude,
+p26
+aVroughly 14 orders of magnitude,
+p27
+aVfrom the small microscopic particles
+p28
+aVthat seed clouds
+p29
+aVto the size of the planet itself,
+p30
+aVfrom 10 to the minus six
+p31
+aVto 10 to the eight,
+p32
+aV14 orders of spatial magnitude.
+p33
+aVIn time, from milliseconds to millennia,
+p34
+aVagain around 14 orders of magnitude.
+p35
+aa(lp36
+VWhat does that mean?
+p37
+aVOkay, well if you think about how
+p38
+aVyou can calculate these things,
+p39
+aVyou can take what you can see,
+p40
+aVokay, I'm going to chop it up
+p41
+aVinto lots of little boxes,
+p42
+aVand that's the result of physics, right?
+p43
+aVAnd if I think about a weather model,
+p44
+aVthat spans about five orders of magnitude,
+p45
+aVfrom the planet to a few kilometers,
+p46
+aVand the time scale
+p47
+aVfrom a few minutes to 10 days, maybe a month.
+p48
+aVWe're interested in more than that.
+p49
+aVWe're interested in the climate.
+p50
+aVThat's years, that's millennia,
+p51
+aVand we need to go to even smaller scales.
+p52
+aVThe stuff that we can't resolve,
+p53
+aVthe sub-scale processes,
+p54
+aVwe need to approximate in some way.
+p55
+aVThat is a huge challenge.
+p56
+aVClimate models in the 1990s
+p57
+aVtook an even smaller chunk of that,
+p58
+aVonly about three orders of magnitude.
+p59
+aVClimate models in the 2010s,
+p60
+aVkind of what we're working with now,
+p61
+aVfour orders of magnitude.
+p62
+aVWe have 14 to go,
+p63
+aVand we're increasing our capability
+p64
+aVof simulating those at about
+p65
+aVone extra order of magnitude every decade.
+p66
+aVOne extra order of magnitude in space
+p67
+aVis 10,000 times more calculations.
+p68
+aVAnd we keep adding more things,
+p69
+aVmore questions to these different models.
+p70
+aa(lp71
+VSo what does a climate model look like?
+p72
+aVThis is an old climate model, admittedly,
+p73
+aVa punch card, a single line of Fortran code.
+p74
+aVWe no longer use punch cards.
+p75
+aVWe do still use Fortran.
+p76
+aVNew-fangled ideas like C
+p77
+aVreally haven't had a big impact
+p78
+aVon the climate modeling community.
+p79
+aa(lp80
+VBut how do we go about doing it?
+p81
+aVHow do we go from that complexity that you saw
+p82
+aVto a line of code?
+p83
+aVWe do it one piece at a time.
+p84
+aVThis is a picture of sea ice
+p85
+aVtaken flying over the Arctic.
+p86
+aVWe can look at all of the different equations
+p87
+aVthat go into making the ice grow
+p88
+aVor melt or change shape.
+p89
+aVWe can look at the fluxes.
+p90
+aVWe can look at the rate at which
+p91
+aVsnow turns to ice, and we can code that.
+p92
+aVWe can encapsulate that in code.
+p93
+aVThese models are around
+p94
+aVa million lines of code at this point,
+p95
+aVand growing by tens of thousands of lines of code
+p96
+aVevery year.
+p97
+aa(lp98
+VSo you can look at that piece,
+p99
+aVbut you can look at the other pieces too.
+p100
+aVWhat happens when you have clouds?
+p101
+aVWhat happens when clouds form,
+p102
+aVwhen they dissipate, when they rain out?
+p103
+aVThat's another piece.
+p104
+aVWhat happens when we have radiation
+p105
+aVcoming from the sun, going through the atmosphere,
+p106
+aVbeing absorbed and reflected?
+p107
+aVWe can code each of those very small pieces as well.
+p108
+aVThere are other pieces:
+p109
+aVthe winds changing the ocean currents.
+p110
+aVWe can talk about the role of vegetation
+p111
+aVin transporting water from the soils
+p112
+aVback into the atmosphere.
+p113
+aVAnd each of these different elements
+p114
+aVwe can encapsulate and put into a system.
+p115
+aVEach of those pieces ends up adding to the whole.
+p116
+aa(lp117
+VAnd you get something like this.
+p118
+aVYou get a beautiful representation
+p119
+aVof what's going on in the climate system,
+p120
+aVwhere each and every one of those
+p121
+aVemergent patterns that you can see,
+p122
+aVthe swirls in the Southern Ocean,
+p123
+aVthe tropical cyclone in the Gulf of Mexico,
+p124
+aVand there's two more that are going to pop up
+p125
+aVin the Pacific at any point now,
+p126
+aVthose rivers of atmospheric water,
+p127
+aVall of those are emergent properties
+p128
+aVthat come from the interactions
+p129
+aVof all of those small-scale processes I mentioned.
+p130
+aVThere's no code that says,
+p131
+aV"Do a wiggle in the Southern Ocean."
+p132
+aVThere's no code that says, "Have two
+p133
+aVtropical cyclones that spin around each other."
+p134
+aVAll of those things are emergent properties.
+p135
+aa(lp136
+VThis is all very good. This is all great.
+p137
+aVBut what we really want to know
+p138
+aVis what happens to these emergent properties
+p139
+aVwhen we kick the system?
+p140
+aVWhen something changes, what happens to those properties?
+p141
+aVAnd there's lots of different ways to kick the system.
+p142
+aVThere are wobbles in the Earth's orbit
+p143
+aVover hundreds of thousands of years
+p144
+aVthat change the climate.
+p145
+aVThere are changes in the solar cycles,
+p146
+aVevery 11 years and longer, that change the climate.
+p147
+aVBig volcanoes go off and change the climate.
+p148
+aVChanges in biomass burning, in smoke,
+p149
+aVin aerosol particles, all of those things
+p150
+aVchange the climate.
+p151
+aVThe ozone hole changed the climate.
+p152
+aVDeforestation changes the climate
+p153
+aVby changing the surface properties
+p154
+aVand how water is evaporated
+p155
+aVand moved around in the system.
+p156
+aVContrails change the climate
+p157
+aVby creating clouds where there were none before,
+p158
+aVand of course greenhouse gases change the system.
+p159
+aa(lp160
+VEach of these different kicks
+p161
+aVprovides us with a target
+p162
+aVto evaluate whether we understand
+p163
+aVsomething about this system.
+p164
+aVSo we can go to look at
+p165
+aVwhat model skill is.
+p166
+aVNow I use the word "skill" advisedly:
+p167
+aVModels are not right or wrong; they're always wrong.
+p168
+aVThey're always approximations.
+p169
+aVThe question you have to ask
+p170
+aVis whether a model tells you more information
+p171
+aVthan you would have had otherwise.
+p172
+aVIf it does, it's skillful.
+p173
+aVThis is the impact of the ozone hole
+p174
+aVon sea level pressure, so low pressure, high pressures,
+p175
+aVaround the southern oceans, around Antarctica.
+p176
+aVThis is observed data.
+p177
+aVThis is modeled data.
+p178
+aVThere's a good match
+p179
+aVbecause we understand the physics
+p180
+aVthat controls the temperatures in the stratosphere
+p181
+aVand what that does to the winds
+p182
+aVaround the southern oceans.
+p183
+aa(lp184
+VWe can look at other examples.
+p185
+aVThe eruption of Mount Pinatubo in 1991
+p186
+aVput an enormous amount of aerosols, small particles,
+p187
+aVinto the stratosphere.
+p188
+aVThat changed the radiation balance of the whole planet.
+p189
+aVThere was less energy coming in than there was before,
+p190
+aVso that cooled the planet,
+p191
+aVand those red lines and those green lines,
+p192
+aVthose are the differences between what we expected
+p193
+aVand what actually happened.
+p194
+aVThe models are skillful,
+p195
+aVnot just in the global mean,
+p196
+aVbut also in the regional patterns.
+p197
+aa(lp198
+VI could go through a dozen more examples:
+p199
+aVthe skill associated with solar cycles,
+p200
+aVchanging the ozone in the stratosphere;
+p201
+aVthe skill associated with orbital changes
+p202
+aVover 6,000 years.
+p203
+aVWe can look at that too, and the models are skillful.
+p204
+aVThe models are skillful in response to the ice sheets
+p205
+aV20,000 years ago.
+p206
+aVThe models are skillful
+p207
+aVwhen it comes to the 20th-century trends
+p208
+aVover the decades.
+p209
+aVModels are successful at modeling
+p210
+aVlake outbursts into the North Atlantic
+p211
+aV8,000 years ago.
+p212
+aVAnd we can get a good match to the data.
+p213
+aa(lp214
+VEach of these different targets,
+p215
+aVeach of these different evaluations,
+p216
+aVleads us to add more scope
+p217
+aVto these models,
+p218
+aVand leads us to more and more
+p219
+aVcomplex situations that we can ask
+p220
+aVmore and more interesting questions,
+p221
+aVlike, how does dust from the Sahara,
+p222
+aVthat you can see in the orange,
+p223
+aVinteract with tropical cyclones in the Atlantic?
+p224
+aVHow do organic aerosols from biomass burning,
+p225
+aVwhich you can see in the red dots,
+p226
+aVintersect with clouds and rainfall patterns?
+p227
+aVHow does pollution, which you can see
+p228
+aVin the white wisps of sulfate pollution in Europe,
+p229
+aVhow does that affect the temperatures at the surface
+p230
+aVand the sunlight that you get at the surface?
+p231
+aa(lp232
+VWe can look at this across the world.
+p233
+aVWe can look at the pollution from China.
+p234
+aVWe can look at the impacts of storms
+p235
+aVon sea salt particles in the atmosphere.
+p236
+aVWe can see the combination
+p237
+aVof all of these different things
+p238
+aVhappening all at once,
+p239
+aVand we can ask much more interesting questions.
+p240
+aVHow do air pollution and climate coexist?
+p241
+aVCan we change things
+p242
+aVthat affect air pollution and climate at the same time?
+p243
+aVThe answer is yes.
+p244
+aa(lp245
+VSo this is a history of the 20th century.
+p246
+aVThe first one is the model.
+p247
+aVThe weather is a little bit different
+p248
+aVto what actually happened.
+p249
+aVThe second one are the observations.
+p250
+aVAnd we're going through the 1930s.
+p251
+aVThere's variability, there are things going on,
+p252
+aVbut it's all kind of in the noise.
+p253
+aVAs you get towards the 1970s,
+p254
+aVthings are going to start to change.
+p255
+aVThey're going to start to look more similar,
+p256
+aVand by the time you get to the 2000s,
+p257
+aVyou're already seeing the patterns of global warming,
+p258
+aVboth in the observations and in the model.
+p259
+aa(lp260
+VWe know what happened over the 20th century.
+p261
+aVRight? We know that it's gotten warmer.
+p262
+aVWe know where it's gotten warmer.
+p263
+aVAnd if you ask the models why did that happen,
+p264
+aVand you say, okay, well, yes,
+p265
+aVbasically it's because of the carbon dioxide
+p266
+aVwe put into the atmosphere.
+p267
+aVWe have a very good match
+p268
+aVup until the present day.
+p269
+aa(lp270
+VBut there's one key reason why we look at models,
+p271
+aVand that's because of this phrase here.
+p272
+aVBecause if we had observations of the future,
+p273
+aVwe obviously would trust them more than models,
+p274
+aVBut unfortunately,
+p275
+aVobservations of the future are not available at this time.
+p276
+aa(lp277
+VSo when we go out into the future, there's a difference.
+p278
+aVThe future is unknown, the future is uncertain,
+p279
+aVand there are choices.
+p280
+aVHere are the choices that we have.
+p281
+aVWe can do some work to mitigate
+p282
+aVthe emissions of carbon dioxide into the atmosphere.
+p283
+aVThat's the top one.
+p284
+aVWe can do more work
+p285
+aVto really bring it down
+p286
+aVso that by the end of the century,
+p287
+aVit's not much more than there is now.
+p288
+aVOr we can just leave it to fate
+p289
+aVand continue on
+p290
+aVwith a business-as-usual type of attitude.
+p291
+aVThe differences between these choices
+p292
+aVcan't be answered by looking at models.
+p293
+aa(lp294
+VThere's a great phrase
+p295
+aVthat Sherwood Rowland,
+p296
+aVwho won the Nobel Prize for the chemistry
+p297
+aVthat led to ozone depletion,
+p298
+aVwhen he was accepting his Nobel Prize,
+p299
+aVhe asked this question:
+p300
+aV"What is the use of having developed a science
+p301
+aVwell enough to make predictions if, in the end,
+p302
+aVall we're willing to do is stand around
+p303
+aVand wait for them to come true?"
+p304
+aVThe models are skillful,
+p305
+aVbut what we do with the information from those models
+p306
+aVis totally up to you.
+p307
+aa(lp308
+VThank you.
+p309
+aa(lp310
+V(Applause)
+p311
+aasS'transcript_micsec'
+p312
+(lp313
+I11000
+aI62000
+aI91000
+aI165000
+aI186000
+aI224000
+aI270000
+aI317000
+aI374000
+aI429000
+aI458000
+aI494000
+aI541000
+aI575000
+aI607000
+aI625000
+aI644000
+aI687000
+aI719000
+aI721000
+asS'talk_meta'
+p314
+(dp315
+S'ratings'
+p316
+(dp317
+S'ingenious'
+p318
+I46
+sS'beautiful'
+p319
+I59
+sS'inspiring'
+p320
+I113
+sS'ok'
+p321
+I59
+sS'fascinating'
+p322
+I194
+sS'funny'
+p323
+I1
+sS'total_count'
+p324
+I1360
+sS'persuasive'
+p325
+I244
+sS'longwinded'
+p326
+I24
+sS'informative'
+p327
+I510
+sS'jaw-dropping'
+p328
+I27
+sS'obnoxious'
+p329
+I17
+sS'confusing'
+p330
+I19
+sS'courageous'
+p331
+I31
+sS'unconvincing'
+p332
+I16
+ssS'author'
+p333
+VGavin_Schmidt;
+p334
+sS'url'
+p335
+S'https://www.ted.com/talks/gavin_schmidt_the_emergent_patterns_of_climate_change'
+p336
+sS'vidlen'
+p337
+I730
+sS'totalviews'
+p338
+I1154611
+sS'title'
+p339
+VThe emergent patterns of climate change
+p340
+sS'downloadlink'
+p341
+Vhttps://download.ted.com/talks/GavinSchmidt_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p342
+sS'datepublished'
+p343
+cdatetime
+datetime
+p344
+(S'\x07\xde\x05\x01\x0b\x02\x12\x00\x00\x00'
+tRp345
+sS'datefilmed'
+p346
+g344
+(S'\x07\xde\x05\x01\x0b\x02\x12\x00\x00\x00'
+tRp347
+sS'alldata_JSON'
+p348
+S'{"viewed_count": 1154611, "speakers": [{"description": "Climate scientist", "firstname": "Gavin", "title": "", "lastname": "Schmidt", "middleinitial": "", "whylisten": "Gavin Schmidt is a climate scientist at Columbia University&#39;s Earth Institute and is Deputy Chief at the NASA Goddard Institute for Space Studies. He works on understanding past, present and future climate change, using ever-more refined models and data sets to explore how the planet&#39;s climate behaves over time.<br />&nbsp;<br />Schmidt is also deeply committed to communicating science to the general public. As a contributing editor at RealClimate.org, he helps make sure general readers have access to the basics of climate science, and works to bring the newest data and models into the public discussion around one of the most pressing issues of our time. He has worked with the American Museum of Natural History and the  New York Academy of Sciences on education and public outreach, and he is the author of <a href=\\"http://www.picturingclimatechange.com/\\" target=\\"_blank\\"><em>Climate Change: Picturing the Science</em></a>, with Josh Wolfe.", "slug": "gavin_schmidt", "whotheyare": "What goes into a climate model? Gavin Schmidt looks at how we use past and present data to model potential futures.", "whatotherssay": "It is expected that there will be discrepancies between models and observations. However, why these arise and what one should conclude from them are interesting and more subtle than most people realize. Indeed, such discrepancies are the classic way we learn something new.", "id": 1782, "photo_url": "https://pe.tedcdn.com/images/ted/4c0d3c69e73087287f3f730a7f3770eb26607514_254x191.jpg"}], "current_talk": 1988, "description": "You can\'t understand climate change in pieces, says climate scientist Gavin Schmidt. It\'s the whole, or it\'s nothing. In this illuminating talk, he explains how he studies the big picture of climate change with mesmerizing models that illustrate the endlessly complex interactions of small-scale environmental events.", "language": "en", "url": "https://www.ted.com/talks/gavin_schmidt_the_emergent_patterns_of_climate_change", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87001398}, "podcast-low-en": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16846356}, "podcast-high": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86993024}, "180k": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16747993}, "64k": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6029353}, "1500k": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 135289220}, "450k": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41392527}, "podcast-regular": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41562421}, "950k": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87022465}, "audio-podcast": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7593319}, "podcast-light": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6128757}, "320k": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29664905}, "600k": {"uri": "https://download.ted.com/talks/GavinSchmidt_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55434003}}}, "comments": {"count": 143, "id": 25971, "talk_id": 1988}, "slug": "gavin_schmidt_the_emergent_patterns_of_climate_change", "threadId": 25971, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "gavin_schmidt_the_emergent_patterns_of_climate_change", "filmed": 1394582400, "targeting": {"event": "TED2014", "tag": "algorithm,botany,climate change,code,computers,data,ecology,environment,future,green,math,pollution,prediction,science,visualizations,water,weather", "id": 1988, "talk": "gavin_schmidt_the_emergent_patterns_of_climate_change", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "The emergent patterns of climate change", "postAdDuration": "0.83", "published": 1398956538, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7359de0af0e5ad26395051692c0b04a66b33188f_1600x1200.jpg?quality=89&w=600", "name": "Gavin Schmidt: The emergent patterns of climate change", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["algorithm", "botany", "climate change", "code", "computers", "data", "ecology", "environment", "future", "green", "math", "pollution", "prediction", "science", "visualizations", "water", "weather"], "speaker": "Gavin Schmidt", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 730, "id": 1988, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/GavinSchmidt_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "algorithm,botany,climate change,code,computers,data,ecology,environment,future,green,math,pollution,prediction,science,visualizations,water,weather", "id": 1988, "talk": "gavin_schmidt_the_emergent_patterns_of_climate_change", "year": "2014"}, "metadata": "https://hls.ted.com/talks/1988.json", "stream": "https://hls.ted.com/talks/1988.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D1988%26tag%3Dalgorithm%2Cbotany%2Cclimate%2Bchange%2Ccode%2Ccomputers%2Cdata%2Cecology%2Cenvironment%2Cfuture%2Cgreen%2Cmath%2Cpollution%2Cprediction%2Cscience%2Cvisualizations%2Cwater%2Cweather%26talk%3Dgavin_schmidt_the_emergent_patterns_of_climate_change%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/gavin_schmidt_the_emergent_patterns_of_climate_change"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7359de0af0e5ad26395051692c0b04a66b33188f_1600x1200.jpg?q=50&w=15", "duration": 730, "id": 1988, "ratings": [{"count": 510, "id": 8, "name": "Informative"}, {"count": 46, "id": 9, "name": "Ingenious"}, {"count": 194, "id": 22, "name": "Fascinating"}, {"count": 59, "id": 1, "name": "Beautiful"}, {"count": 31, "id": 3, "name": "Courageous"}, {"count": 113, "id": 10, "name": "Inspiring"}, {"count": 244, "id": 24, "name": "Persuasive"}, {"count": 59, "id": 25, "name": "OK"}, {"count": 16, "id": 21, "name": "Unconvincing"}, {"count": 24, "id": 11, "name": "Longwinded"}, {"count": 17, "id": 26, "name": "Obnoxious"}, {"count": 1, "id": 7, "name": "Funny"}, {"count": 27, "id": 23, "name": "Jaw-dropping"}, {"count": 19, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Climate scientist", "firstname": "Gavin", "title": "", "lastname": "Schmidt", "middleinitial": "", "whylisten": "Gavin Schmidt is a climate scientist at Columbia University&#39;s Earth Institute and is Deputy Chief at the NASA Goddard Institute for Space Studies. He works on understanding past, present and future climate change, using ever-more refined models and data sets to explore how the planet&#39;s climate behaves over time.<br />&nbsp;<br />Schmidt is also deeply committed to communicating science to the general public. As a contributing editor at RealClimate.org, he helps make sure general readers have access to the basics of climate science, and works to bring the newest data and models into the public discussion around one of the most pressing issues of our time. He has worked with the American Museum of Natural History and the  New York Academy of Sciences on education and public outreach, and he is the author of <a href=\\"http://www.picturingclimatechange.com/\\" target=\\"_blank\\"><em>Climate Change: Picturing the Science</em></a>, with Josh Wolfe.", "slug": "gavin_schmidt", "whotheyare": "What goes into a climate model? Gavin Schmidt looks at how we use past and present data to model potential futures.", "whatotherssay": "It is expected that there will be discrepancies between models and observations. However, why these arise and what one should conclude from them are interesting and more subtle than most people realize. Indeed, such discrepancies are the classic way we learn something new.", "id": 1782, "photo_url": "https://pe.tedcdn.com/images/ted/4c0d3c69e73087287f3f730a7f3770eb26607514_254x191.jpg"}], "title": "The emergent patterns of climate change", "take_action": [], "comments": 25971, "more_resources": [{"status": "approved", "publisher": "W. W. Norton & Company", "start_at": null, "author": "Gavin Schmidt and Joshua Wolfe", "headline": "*Climate Change: Picturing the Science*", "link_url": "http://www.amazon.com/gp/product/0393331253/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/f86e5474a41b95d28be07500180393b0fb1fd27c_576x715.jpg", "year": "2009", "type": "book", "blurb": null}, {"status": "approved", "start_at": null, "headline": "4 animations that show what\'s really going on with the climate", "link_url": "http://ideas.ted.com/2014/05/02/just-what-is-going-on-in-this-climate-of-ours/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Check out Gavin Schmidt\'s climate models, designed to help explain what\\u2019s going on in the world at large."}], "hero": "https://pe.tedcdn.com/images/ted/7359de0af0e5ad26395051692c0b04a66b33188f_1600x1200.jpg", "description": "You can\'t understand climate change in pieces, says climate scientist Gavin Schmidt. It\'s the whole, or it\'s nothing. In this illuminating talk, he explains how he studies the big picture of climate change with mesmerizing models that illustrate the endlessly complex interactions of small-scale environmental events.", "tags": ["algorithm", "botany", "climate change", "code", "computers", "data", "ecology", "environment", "future", "green", "math", "pollution", "prediction", "science", "visualizations", "water", "weather"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-pl.mp4"}, "fr": {"name": "French", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-fr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-fr-ca.mp4"}, "de": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/GavinSchmidt_2014-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/GavinSchmidt_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/GavinSchmidt_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/GavinSchmidt_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1988, "audioDownload": "https://download.ted.com/talks/GavinSchmidt_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 3208762, "hero": "https://pe.tedcdn.com/images/ted/a2194b4ef5170bd9e9b086c5053e09cdf3545960_2880x1620.jpg", "title": "Averting the climate crisis", "id": 1, "speaker": "Al Gore", "duration": 977, "slug": "al_gore_on_averting_climate_crisis"}, {"viewed_count": 918571, "hero": "https://pe.tedcdn.com/images/ted/113028_800x600.jpg", "title": "Time-lapse proof of extreme ice loss", "id": 628, "speaker": "James Balog", "duration": 1162, "slug": "james_balog_time_lapse_proof_of_extreme_ice_loss"}, {"viewed_count": 1251870, "hero": "https://pe.tedcdn.com/images/ted/3d552c9054e770953216a6b5aab1b748b3e5f823_2880x1620.jpg", "title": "Why I must speak out about climate change", "id": 1380, "speaker": "James Hansen", "duration": 1071, "slug": "james_hansen_why_i_must_speak_out_about_climate_change"}, {"viewed_count": 960135, "hero": "https://pe.tedcdn.com/images/ted/07284d43b7d248835825748dc24c63e4b83478c9_2880x1620.jpg", "title": "Can clouds buy us more time to solve climate change?", "id": 2816, "speaker": "Kate Marvel", "duration": 787, "slug": "kate_marvel_can_clouds_buy_us_more_time_to_solve_climate_change"}, {"viewed_count": 890663, "hero": "https://pe.tedcdn.com/images/ted/2412c9764c6b9bed2d9bd55ec7a6b9e540297839_1600x1200.jpg", "title": "A critical look at geoengineering against climate change", "id": 192, "speaker": "David Keith", "duration": 958, "slug": "david_keith_s_surprising_ideas_on_climate_change"}, {"viewed_count": 935176, "hero": "https://pe.tedcdn.com/images/ted/195010_800x600.jpg", "title": "Let the environment guide our development", "id": 945, "speaker": "Johan Rockstrom", "duration": 1090, "slug": "johan_rockstrom_let_the_environment_guide_our_development"}], "recorded_at": "2014-03-12T00:00:00.000+00:00", "slug": "gavin_schmidt_the_emergent_patterns_of_climate_change", "speaker_name": "Gavin Schmidt", "viewed_count": 1154611, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Gavin Schmidt recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "The Physics of Climate Modeling", "link_url": "http://scitation.aip.org/content/aip/magazine/physicstoday/article/60/1/10.1063/1.2709569", "eyebrow": null, "label": "READ_Article", "note": "Gavin Schmidt\\r\\n*Physics Today*, January 2007", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The Secret Life of Scientists and Engineers: Gavin Schmidt", "link_url": "http://www.pbs.org/wgbh/nova/blogs/secretlife/environmental-science/gavin-schmidt/", "eyebrow": null, "label": "WATCH", "note": "*Nova*, 2010", "position": null, "blurb": ""}], "title": "reading list\\r\\n"}], "published": true, "type": "recommendation", "blurb": "The climate scientist shares further resources on how to make sense of rising temperatures and sea levels."}, "corrections": []}], "event": "TED2014", "name": "Gavin Schmidt: The emergent patterns of climate change"}'
+p349
+sS'keywords'
+p350
+(lp351
+Valgorithm
+p352
+aVbotany
+p353
+aVclimate change
+p354
+aVcode
+p355
+aVcomputers
+p356
+aVdata
+p357
+aVecology
+p358
+aVenvironment
+p359
+aVfuture
+p360
+aVgreen
+p361
+aVmath
+p362
+aVpollution
+p363
+aVprediction
+p364
+aVscience
+p365
+aVvisualizations
+p366
+aVwater
+p367
+aVweather
+p368
+asS'datecrawled'
+p369
+g344
+(S'\x07\xe1\n\x17\x03\x07\x06\x05\xf6\xa4'
+tRp370
+sS'id'
+p371
+I1988
+ss.

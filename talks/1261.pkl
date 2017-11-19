@@ -1,0 +1,1226 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm a neuroscientist.
+p5
+aVAnd in neuroscience,
+p6
+aVwe have to deal with many difficult questions about the brain.
+p7
+aVBut I want to start with the easiest question
+p8
+aVand the question you really should have all asked yourselves at some point in your life,
+p9
+aVbecause it's a fundamental question
+p10
+aVif we want to understand brain function.
+p11
+aVAnd that is, why do we and other animals
+p12
+aVhave brains?
+p13
+aVNot all species on our planet have brains,
+p14
+aVso if we want to know what the brain is for,
+p15
+aVlet's think about why we evolved one.
+p16
+aVNow you may reason that we have one
+p17
+aVto perceive the world or to think,
+p18
+aVand that's completely wrong.
+p19
+aVIf you think about this question for any length of time,
+p20
+aVit's blindingly obvious why we have a brain.
+p21
+aVWe have a brain for one reason and one reason only,
+p22
+aVand that's to produce adaptable and complex movements.
+p23
+aVThere is no other reason to have a brain.
+p24
+aVThink about it.
+p25
+aVMovement is the only way you have
+p26
+aVof affecting the world around you.
+p27
+aVNow that's not quite true. There's one other way, and that's through sweating.
+p28
+aVBut apart from that,
+p29
+aVeverything else goes through contractions of muscles.
+p30
+aa(lp31
+VSo think about communication \u2014
+p32
+aVspeech, gestures, writing, sign language \u2014
+p33
+aVthey're all mediated through contractions of your muscles.
+p34
+aVSo it's really important to remember
+p35
+aVthat sensory, memory and cognitive processes are all important,
+p36
+aVbut they're only important
+p37
+aVto either drive or suppress future movements.
+p38
+aVThere can be no evolutionary advantage
+p39
+aVto laying down memories of childhood
+p40
+aVor perceiving the color of a rose
+p41
+aVif it doesn't affect the way you're going to move later in life.
+p42
+aa(lp43
+VNow for those who don't believe this argument,
+p44
+aVwe have trees and grass on our planet without the brain,
+p45
+aVbut the clinching evidence is this animal here \u2014
+p46
+aVthe humble sea squirt.
+p47
+aVRudimentary animal, has a nervous system,
+p48
+aVswims around in the ocean in its juvenile life.
+p49
+aVAnd at some point of its life,
+p50
+aVit implants on a rock.
+p51
+aVAnd the first thing it does in implanting on that rock, which it never leaves,
+p52
+aVis to digest its own brain and nervous system
+p53
+aVfor food.
+p54
+aVSo once you don't need to move,
+p55
+aVyou don't need the luxury of that brain.
+p56
+aVAnd this animal is often taken
+p57
+aVas an analogy to what happens at universities
+p58
+aVwhen professors get tenure,
+p59
+aVbut that's a different subject.
+p60
+aa(lp61
+V(Applause)
+p62
+aa(lp63
+VSo I am a movement chauvinist.
+p64
+aVI believe movement is the most important function of the brain \u2014
+p65
+aVdon't let anyone tell you that it's not true.
+p66
+aVNow if movement is so important,
+p67
+aVhow well are we doing
+p68
+aVunderstanding how the brain controls movement?
+p69
+aVAnd the answer is we're doing extremely poorly; it's a very hard problem.
+p70
+aVBut we can look at how well we're doing
+p71
+aVby thinking about how well we're doing building machines
+p72
+aVwhich can do what humans can do.
+p73
+aa(lp74
+VThink about the game of chess.
+p75
+aVHow well are we doing determining what piece to move where?
+p76
+aVIf you pit Garry Kasparov here, when he's not in jail,
+p77
+aVagainst IBM's Deep Blue,
+p78
+aVwell the answer is IBM's Deep Blue will occasionally win.
+p79
+aVAnd I think if IBM's Deep Blue played anyone in this room, it would win every time.
+p80
+aVThat problem is solved.
+p81
+aVWhat about the problem
+p82
+aVof picking up a chess piece,
+p83
+aVdexterously manipulating it and putting it back down on the board?
+p84
+aVIf you put a five year-old child's dexterity against the best robots of today,
+p85
+aVthe answer is simple:
+p86
+aVthe child wins easily.
+p87
+aVThere's no competition at all.
+p88
+aa(lp89
+VNow why is that top problem so easy
+p90
+aVand the bottom problem so hard?
+p91
+aVOne reason is a very smart five year-old
+p92
+aVcould tell you the algorithm for that top problem \u2014
+p93
+aVlook at all possible moves to the end of the game
+p94
+aVand choose the one that makes you win.
+p95
+aVSo it's a very simple algorithm.
+p96
+aVNow of course there are other moves,
+p97
+aVbut with vast computers we approximate
+p98
+aVand come close to the optimal solution.
+p99
+aVWhen it comes to being dexterous,
+p100
+aVit's not even clear what the algorithm is you have to solve to be dexterous.
+p101
+aVAnd we'll see you have to both perceive and act on the world,
+p102
+aVwhich has a lot of problems.
+p103
+aa(lp104
+VBut let me show you cutting-edge robotics.
+p105
+aVNow a lot of robotics is very impressive,
+p106
+aVbut manipulation robotics is really just in the dark ages.
+p107
+aVSo this is the end of a Ph.D. project
+p108
+aVfrom one of the best robotics institutes.
+p109
+aVAnd the student has trained this robot
+p110
+aVto pour this water into a glass.
+p111
+aVIt's a hard problem because the water sloshes about, but it can do it.
+p112
+aVBut it doesn't do it with anything like the agility of a human.
+p113
+aVNow if you want this robot to do a different task,
+p114
+aVthat's another three-year Ph.D. program.
+p115
+aVThere is no generalization at all
+p116
+aVfrom one task to another in robotics.
+p117
+aa(lp118
+VNow we can compare this
+p119
+aVto cutting-edge human performance.
+p120
+aVSo what I'm going to show you is Emily Fox
+p121
+aVwinning the world record for cup stacking.
+p122
+aVNow the Americans in the audience will know all about cup stacking.
+p123
+aVIt's a high school sport
+p124
+aVwhere you have 12 cups you have to stack and unstack
+p125
+aVagainst the clock in a prescribed order.
+p126
+aVAnd this is her getting the world record in real time.
+p127
+aV(Laughter)
+p128
+aV(Applause)
+p129
+aVAnd she's pretty happy.
+p130
+aVWe have no idea what is going on inside her brain when she does that,
+p131
+aVand that's what we'd like to know.
+p132
+aa(lp133
+VSo in my group, what we try to do
+p134
+aVis reverse engineer how humans control movement.
+p135
+aVAnd it sounds like an easy problem.
+p136
+aVYou send a command down, it causes muscles to contract.
+p137
+aVYour arm or body moves,
+p138
+aVand you get sensory feedback from vision, from skin, from muscles and so on.
+p139
+aVThe trouble is
+p140
+aVthese signals are not the beautiful signals you want them to be.
+p141
+aVSo one thing that makes controlling movement difficult
+p142
+aVis, for example, sensory feedback is extremely noisy.
+p143
+aVNow by noise, I do not mean sound.
+p144
+aVWe use it in the engineering and neuroscience sense
+p145
+aVmeaning a random noise corrupting a signal.
+p146
+aVSo the old days before digital radio when you were tuning in your radio
+p147
+aVand you heard "crrcckkk" on the station you wanted to hear,
+p148
+aVthat was the noise.
+p149
+aVBut more generally, this noise is something that corrupts the signal.
+p150
+aa(lp151
+VSo for example, if you put your hand under a table
+p152
+aVand try to localize it with your other hand,
+p153
+aVyou can be off by several centimeters
+p154
+aVdue to the noise in sensory feedback.
+p155
+aVSimilarly, when you put motor output on movement output,
+p156
+aVit's extremely noisy.
+p157
+aVForget about trying to hit the bull's eye in darts,
+p158
+aVjust aim for the same spot over and over again.
+p159
+aVYou have a huge spread due to movement variability.
+p160
+aVAnd more than that, the outside world, or task,
+p161
+aVis both ambiguous and variable.
+p162
+aVThe teapot could be full, it could be empty.
+p163
+aVIt changes over time.
+p164
+aVSo we work in a whole sensory movement task soup of noise.
+p165
+aa(lp166
+VNow this noise is so great
+p167
+aVthat society places a huge premium
+p168
+aVon those of us who can reduce the consequences of noise.
+p169
+aVSo if you're lucky enough to be able to knock a small white ball
+p170
+aVinto a hole several hundred yards away using a long metal stick,
+p171
+aVour society will be willing to reward you
+p172
+aVwith hundreds of millions of dollars.
+p173
+aa(lp174
+VNow what I want to convince you of
+p175
+aVis the brain also goes through a lot of effort
+p176
+aVto reduce the negative consequences
+p177
+aVof this sort of noise and variability.
+p178
+aVAnd to do that, I'm going to tell you about a framework
+p179
+aVwhich is very popular in statistics and machine learning of the last 50 years
+p180
+aVcalled Bayesian decision theory.
+p181
+aVAnd it's more recently a unifying way
+p182
+aVto think about how the brain deals with uncertainty.
+p183
+aVAnd the fundamental idea is you want to make inferences and then take actions.
+p184
+aa(lp185
+VSo let's think about the inference.
+p186
+aVYou want to generate beliefs about the world.
+p187
+aVSo what are beliefs?
+p188
+aVBeliefs could be: where are my arms in space?
+p189
+aVAm I looking at a cat or a fox?
+p190
+aVBut we're going to represent beliefs with probabilities.
+p191
+aVSo we're going to represent a belief
+p192
+aVwith a number between zero and one \u2014
+p193
+aVzero meaning I don't believe it at all, one means I'm absolutely certain.
+p194
+aVAnd numbers in between give you the gray levels of uncertainty.
+p195
+aVAnd the key idea to Bayesian inference
+p196
+aVis you have two sources of information
+p197
+aVfrom which to make your inference.
+p198
+aVYou have data,
+p199
+aVand data in neuroscience is sensory input.
+p200
+aVSo I have sensory input, which I can take in to make beliefs.
+p201
+aVBut there's another source of information, and that's effectively prior knowledge.
+p202
+aVYou accumulate knowledge throughout your life in memories.
+p203
+aVAnd the point about Bayesian decision theory
+p204
+aVis it gives you the mathematics
+p205
+aVof the optimal way to combine
+p206
+aVyour prior knowledge with your sensory evidence
+p207
+aVto generate new beliefs.
+p208
+aa(lp209
+VAnd I've put the formula up there.
+p210
+aVI'm not going to explain what that formula is, but it's very beautiful.
+p211
+aVAnd it has real beauty and real explanatory power.
+p212
+aVAnd what it really says, and what you want to estimate,
+p213
+aVis the probability of different beliefs
+p214
+aVgiven your sensory input.
+p215
+aVSo let me give you an intuitive example.
+p216
+aVImagine you're learning to play tennis
+p217
+aVand you want to decide where the ball is going to bounce
+p218
+aVas it comes over the net towards you.
+p219
+aVThere are two sources of information
+p220
+aVBayes' rule tells you.
+p221
+aVThere's sensory evidence \u2014 you can use visual information auditory information,
+p222
+aVand that might tell you it's going to land in that red spot.
+p223
+aVBut you know that your senses are not perfect,
+p224
+aVand therefore there's some variability of where it's going to land
+p225
+aVshown by that cloud of red,
+p226
+aVrepresenting numbers between 0.5 and maybe 0.1.
+p227
+aa(lp228
+VThat information is available in the current shot,
+p229
+aVbut there's another source of information
+p230
+aVnot available on the current shot,
+p231
+aVbut only available by repeated experience in the game of tennis,
+p232
+aVand that's that the ball doesn't bounce
+p233
+aVwith equal probability over the court during the match.
+p234
+aVIf you're playing against a very good opponent,
+p235
+aVthey may distribute it in that green area,
+p236
+aVwhich is the prior distribution,
+p237
+aVmaking it hard for you to return.
+p238
+aVNow both these sources of information carry important information.
+p239
+aVAnd what Bayes' rule says
+p240
+aVis that I should multiply the numbers on the red by the numbers on the green
+p241
+aVto get the numbers of the yellow, which have the ellipses,
+p242
+aVand that's my belief.
+p243
+aVSo it's the optimal way of combining information.
+p244
+aa(lp245
+VNow I wouldn't tell you all this if it wasn't that a few years ago,
+p246
+aVwe showed this is exactly what people do
+p247
+aVwhen they learn new movement skills.
+p248
+aVAnd what it means
+p249
+aVis we really are Bayesian inference machines.
+p250
+aVAs we go around, we learn about statistics of the world and lay that down,
+p251
+aVbut we also learn
+p252
+aVabout how noisy our own sensory apparatus is,
+p253
+aVand then combine those
+p254
+aVin a real Bayesian way.
+p255
+aa(lp256
+VNow a key part to the Bayesian is this part of the formula.
+p257
+aVAnd what this part really says
+p258
+aVis I have to predict the probability
+p259
+aVof different sensory feedbacks
+p260
+aVgiven my beliefs.
+p261
+aVSo that really means I have to make predictions of the future.
+p262
+aVAnd I want to convince you the brain does make predictions
+p263
+aVof the sensory feedback it's going to get.
+p264
+aVAnd moreover, it profoundly changes your perceptions
+p265
+aVby what you do.
+p266
+aVAnd to do that, I'll tell you
+p267
+aVabout how the brain deals with sensory input.
+p268
+aVSo you send a command out,
+p269
+aVyou get sensory feedback back,
+p270
+aVand that transformation is governed
+p271
+aVby the physics of your body and your sensory apparatus.
+p272
+aa(lp273
+VBut you can imagine looking inside the brain.
+p274
+aVAnd here's inside the brain.
+p275
+aVYou might have a little predictor, a neural simulator,
+p276
+aVof the physics of your body and your senses.
+p277
+aVSo as you send a movement command down,
+p278
+aVyou tap a copy of that off
+p279
+aVand run it into your neural simulator
+p280
+aVto anticipate the sensory consequences of your actions.
+p281
+aVSo as I shake this ketchup bottle,
+p282
+aVI get some true sensory feedback as the function of time in the bottom row.
+p283
+aVAnd if I've got a good predictor, it predicts the same thing.
+p284
+aa(lp285
+VWell why would I bother doing that?
+p286
+aVI'm going to get the same feedback anyway.
+p287
+aVWell there's good reasons.
+p288
+aVImagine, as I shake the ketchup bottle,
+p289
+aVsomeone very kindly comes up to me and taps it on the back for me.
+p290
+aVNow I get an extra source of sensory information
+p291
+aVdue to that external act.
+p292
+aVSo I get two sources.
+p293
+aVI get you tapping on it, and I get me shaking it,
+p294
+aVbut from my senses' point of view,
+p295
+aVthat is combined together into one source of information.
+p296
+aa(lp297
+VNow there's good reason to believe
+p298
+aVthat you would want to be able to distinguish external events from internal events.
+p299
+aVBecause external events are actually much more behaviorally relevant
+p300
+aVthan feeling everything that's going on inside my body.
+p301
+aVSo one way to reconstruct that
+p302
+aVis to compare the prediction \u2014
+p303
+aVwhich is only based on your movement commands \u2014
+p304
+aVwith the reality.
+p305
+aVAny discrepancy should hopefully be external.
+p306
+aVSo as I go around the world,
+p307
+aVI'm making predictions of what I should get, subtracting them off.
+p308
+aVEverything left over is external to me.
+p309
+aa(lp310
+VWhat evidence is there for this?
+p311
+aVWell there's one very clear example
+p312
+aVwhere a sensation generated by myself feels very different
+p313
+aVthen if generated by another person.
+p314
+aVAnd so we decided the most obvious place to start
+p315
+aVwas with tickling.
+p316
+aVIt's been known for a long time, you can't tickle yourself
+p317
+aVas well as other people can.
+p318
+aVBut it hasn't really been shown, it's because you have a neural simulator,
+p319
+aVsimulating your own body
+p320
+aVand subtracting off that sense.
+p321
+aVSo we can bring the experiments of the 21st century
+p322
+aVby applying robotic technologies to this problem.
+p323
+aVAnd in effect, what we have is some sort of stick in one hand attached to a robot,
+p324
+aVand they're going to move that back and forward.
+p325
+aVAnd then we're going to track that with a computer
+p326
+aVand use it to control another robot,
+p327
+aVwhich is going to tickle their palm with another stick.
+p328
+aVAnd then we're going to ask them to rate a bunch of things
+p329
+aVincluding ticklishness.
+p330
+aa(lp331
+VI'll show you just one part of our study.
+p332
+aVAnd here I've taken away the robots,
+p333
+aVbut basically people move with their right arm sinusoidally back and forward.
+p334
+aVAnd we replay that to the other hand with a time delay.
+p335
+aVEither no time delay,
+p336
+aVin which case light would just tickle your palm,
+p337
+aVor with a time delay of two-tenths of three-tenths of a second.
+p338
+aVSo the important point here
+p339
+aVis the right hand always does the same things \u2014 sinusoidal movement.
+p340
+aVThe left hand always is the same and puts sinusoidal tickle.
+p341
+aVAll we're playing with is a tempo causality.
+p342
+aVAnd as we go from naught to 0.1 second,
+p343
+aVit becomes more ticklish.
+p344
+aVAs you go from 0.1 to 0.2,
+p345
+aVit becomes more ticklish at the end.
+p346
+aVAnd by 0.2 of a second,
+p347
+aVit's equivalently ticklish
+p348
+aVto the robot that just tickled you without you doing anything.
+p349
+aVSo whatever is responsible for this cancellation
+p350
+aVis extremely tightly coupled with tempo causality.
+p351
+aVAnd based on this illustration, we really convinced ourselves in the field
+p352
+aVthat the brain's making precise predictions
+p353
+aVand subtracting them off from the sensations.
+p354
+aa(lp355
+VNow I have to admit, these are the worst studies my lab has ever run.
+p356
+aVBecause the tickle sensation on the palm comes and goes,
+p357
+aVyou need large numbers of subjects
+p358
+aVwith these stars making them significant.
+p359
+aVSo we were looking for a much more objective way
+p360
+aVto assess this phenomena.
+p361
+aVAnd in the intervening years I had two daughters.
+p362
+aVAnd one thing you notice about children in backseats of cars on long journeys,
+p363
+aVthey get into fights \u2014
+p364
+aVwhich started with one of them doing something to the other, the other retaliating.
+p365
+aVIt quickly escalates.
+p366
+aVAnd children tend to get into fights which escalate in terms of force.
+p367
+aVNow when I screamed at my children to stop,
+p368
+aVsometimes they would both say to me
+p369
+aVthe other person hit them harder.
+p370
+aa(lp371
+VNow I happen to know my children don't lie,
+p372
+aVso I thought, as a neuroscientist,
+p373
+aVit was important how I could explain
+p374
+aVhow they were telling inconsistent truths.
+p375
+aVAnd we hypothesize based on the tickling study
+p376
+aVthat when one child hits another,
+p377
+aVthey generate the movement command.
+p378
+aVThey predict the sensory consequences and subtract it off.
+p379
+aVSo they actually think they've hit the person less hard than they have \u2014
+p380
+aVrather like the tickling.
+p381
+aVWhereas the passive recipient
+p382
+aVdoesn't make the prediction, feels the full blow.
+p383
+aVSo if they retaliate with the same force,
+p384
+aVthe first person will think it's been escalated.
+p385
+aa(lp386
+VSo we decided to test this in the lab.
+p387
+aV(Laughter)
+p388
+aVNow we don't work with children, we don't work with hitting,
+p389
+aVbut the concept is identical.
+p390
+aVWe bring in two adults. We tell them they're going to play a game.
+p391
+aVAnd so here's player one and player two sitting opposite to each other.
+p392
+aVAnd the game is very simple.
+p393
+aVWe started with a motor
+p394
+aVwith a little lever, a little force transfuser.
+p395
+aVAnd we use this motor to apply force down to player one's fingers
+p396
+aVfor three seconds and then it stops.
+p397
+aVAnd that player's been told, remember the experience of that force
+p398
+aVand use your other finger
+p399
+aVto apply the same force
+p400
+aVdown to the other subject's finger through a force transfuser \u2014 and they do that.
+p401
+aVAnd player two's been told, remember the experience of that force.
+p402
+aVUse your other hand to apply the force back down.
+p403
+aVAnd so they take it in turns
+p404
+aVto apply the force they've just experienced back and forward.
+p405
+aa(lp406
+VBut critically,
+p407
+aVthey're briefed about the rules of the game in separate rooms.
+p408
+aVSo they don't know the rules the other person's playing by.
+p409
+aVAnd what we've measured
+p410
+aVis the force as a function of terms.
+p411
+aVAnd if we look at what we start with,
+p412
+aVa quarter of a Newton there, a number of turns,
+p413
+aVperfect would be that red line.
+p414
+aVAnd what we see in all pairs of subjects is this \u2014
+p415
+aVa 70 percent escalation in force
+p416
+aVon each go.
+p417
+aVSo it really suggests, when you're doing this \u2014
+p418
+aVbased on this study and others we've done \u2014
+p419
+aVthat the brain is canceling the sensory consequences
+p420
+aVand underestimating the force it's producing.
+p421
+aVSo it re-shows the brain makes predictions
+p422
+aVand fundamentally changes the precepts.
+p423
+aVSo we've made inferences, we've done predictions,
+p424
+aVnow we have to generate actions.
+p425
+aVAnd what Bayes' rule says is, given my beliefs,
+p426
+aVthe action should in some sense be optimal.
+p427
+aa(lp428
+VBut we've got a problem.
+p429
+aVTasks are symbolic \u2014 I want to drink, I want to dance \u2014
+p430
+aVbut the movement system has to contract 600 muscles
+p431
+aVin a particular sequence.
+p432
+aVAnd there's a big gap
+p433
+aVbetween the task and the movement system.
+p434
+aVSo it could be bridged in infinitely many different ways.
+p435
+aVSo think about just a point to point movement.
+p436
+aVI could choose these two paths
+p437
+aVout of an infinite number of paths.
+p438
+aVHaving chosen a particular path,
+p439
+aVI can hold my hand on that path
+p440
+aVas infinitely many different joint configurations.
+p441
+aVAnd I can hold my arm in a particular joint configuration
+p442
+aVeither very stiff or very relaxed.
+p443
+aVSo I have a huge amount of choice to make.
+p444
+aVNow it turns out, we are extremely stereotypical.
+p445
+aVWe all move the same way pretty much.
+p446
+aa(lp447
+VAnd so it turns out we're so stereotypical,
+p448
+aVour brains have got dedicated neural circuitry
+p449
+aVto decode this stereotyping.
+p450
+aVSo if I take some dots
+p451
+aVand set them in motion with biological motion,
+p452
+aVyour brain's circuitry would understand instantly what's going on.
+p453
+aVNow this is a bunch of dots moving.
+p454
+aVYou will know what this person is doing,
+p455
+aVwhether happy, sad, old, young \u2014 a huge amount of information.
+p456
+aVIf these dots were cars going on a racing circuit,
+p457
+aVyou would have absolutely no idea what's going on.
+p458
+aa(lp459
+VSo why is it
+p460
+aVthat we move the particular ways we do?
+p461
+aVWell let's think about what really happens.
+p462
+aVMaybe we don't all quite move the same way.
+p463
+aVMaybe there's variation in the population.
+p464
+aVAnd maybe those who move better than others
+p465
+aVhave got more chance of getting their children into the next generation.
+p466
+aVSo in evolutionary scales, movements get better.
+p467
+aVAnd perhaps in life, movements get better through learning.
+p468
+aa(lp469
+VSo what is it about a movement which is good or bad?
+p470
+aVImagine I want to intercept this ball.
+p471
+aVHere are two possible paths to that ball.
+p472
+aVWell if I choose the left-hand path,
+p473
+aVI can work out the forces required
+p474
+aVin one of my muscles as a function of time.
+p475
+aVBut there's noise added to this.
+p476
+aVSo what I actually get, based on this lovely, smooth, desired force,
+p477
+aVis a very noisy version.
+p478
+aVSo if I pick the same command through many times,
+p479
+aVI will get a different noisy version each time, because noise changes each time.
+p480
+aVSo what I can show you here
+p481
+aVis how the variability of the movement will evolve
+p482
+aVif I choose that way.
+p483
+aVIf I choose a different way of moving \u2014 on the right for example \u2014
+p484
+aVthen I'll have a different command, different noise,
+p485
+aVplaying through a noisy system, very complicated.
+p486
+aVAll we can be sure of is the variability will be different.
+p487
+aVIf I move in this particular way,
+p488
+aVI end up with a smaller variability across many movements.
+p489
+aVSo if I have to choose between those two,
+p490
+aVI would choose the right one because it's less variable.
+p491
+aa(lp492
+VAnd the fundamental idea
+p493
+aVis you want to plan your movements
+p494
+aVso as to minimize the negative consequence of the noise.
+p495
+aVAnd one intuition to get
+p496
+aVis actually the amount of noise or variability I show here
+p497
+aVgets bigger as the force gets bigger.
+p498
+aVSo you want to avoid big forces as one principle.
+p499
+aVSo we've shown that using this,
+p500
+aVwe can explain a huge amount of data \u2014
+p501
+aVthat exactly people are going about their lives planning movements
+p502
+aVso as to minimize negative consequences of noise.
+p503
+aa(lp504
+VSo I hope I've convinced you the brain is there
+p505
+aVand evolved to control movement.
+p506
+aVAnd it's an intellectual challenge to understand how we do that.
+p507
+aVBut it's also relevant
+p508
+aVfor disease and rehabilitation.
+p509
+aVThere are many diseases which effect movement.
+p510
+aVAnd hopefully if we understand how we control movement,
+p511
+aVwe can apply that to robotic technology.
+p512
+aVAnd finally, I want to remind you,
+p513
+aVwhen you see animals do what look like very simple tasks,
+p514
+aVthe actual complexity of what is going on inside their brain
+p515
+aVis really quite dramatic.
+p516
+aa(lp517
+VThank you very much.
+p518
+aa(lp519
+V(Applause)
+p520
+aa(lp521
+VChris Anderson: Quick question for you, Dan.
+p522
+aVSo you're a movement \u2014 (DW: Chauvinist.) \u2014 chauvinist.
+p523
+aVDoes that mean that you think that the other things we think our brains are about \u2014
+p524
+aVthe dreaming, the yearning, the falling in love and all these things \u2014
+p525
+aVare a kind of side show, an accident?
+p526
+aa(lp527
+VDW: No, no, actually I think they're all important
+p528
+aVto drive the right movement behavior to get reproduction in the end.
+p529
+aVSo I think people who study sensation or memory
+p530
+aVwithout realizing why you're laying down memories of childhood.
+p531
+aVThe fact that we forget most of our childhood, for example,
+p532
+aVis probably fine, because it doesn't effect our movements later in life.
+p533
+aVYou only need to store things which are really going to effect movement.
+p534
+aa(lp535
+VCA: So you think that people thinking about the brain, and consciousness generally,
+p536
+aVcould get real insight
+p537
+aVby saying, where does movement play in this game?
+p538
+aa(lp539
+VDW: So people have found out for example
+p540
+aVthat studying vision in the absence of realizing why you have vision
+p541
+aVis a mistake.
+p542
+aVYou have to study vision with the realization
+p543
+aVof how the movement system is going to use vision.
+p544
+aVAnd it uses it very differently once you think about it that way.
+p545
+aa(lp546
+VCA: Well that was quite fascinating. Thank you very much indeed.
+p547
+aa(lp548
+V(Applause)
+p549
+aasS'transcript_micsec'
+p550
+(lp551
+I11000
+aI70000
+aI97000
+aI135000
+aI137000
+aI158000
+aI192000
+aI220000
+aI251000
+aI294000
+aI334000
+aI365000
+aI383000
+aI407000
+aI459000
+aI502000
+aI538000
+aI560000
+aI596000
+aI622000
+aI647000
+aI676000
+aI720000
+aI775000
+aI810000
+aI839000
+aI884000
+aI930000
+aI970000
+aI997000
+aI1018000
+aI1070000
+aI1096000
+aI1122000
+aI1124000
+aI1132000
+aI1147000
+aI1166000
+aI1173000
+aI1185000
+aI1188000
+asS'talk_meta'
+p552
+(dp553
+S'ratings'
+p554
+(dp555
+S'beautiful'
+p556
+I45
+sS'funny'
+p557
+I108
+sS'ingenious'
+p558
+I187
+sS'ok'
+p559
+I59
+sS'fascinating'
+p560
+I680
+sS'total_count'
+p561
+I2298
+sS'persuasive'
+p562
+I206
+sS'inspiring'
+p563
+I139
+sS'longwinded'
+p564
+I75
+sS'informative'
+p565
+I584
+sS'jaw-dropping'
+p566
+I70
+sS'obnoxious'
+p567
+I17
+sS'confusing'
+p568
+I60
+sS'courageous'
+p569
+I12
+sS'unconvincing'
+p570
+I56
+ssS'author'
+p571
+VDaniel_Wolpert;
+p572
+sS'url'
+p573
+S'https://www.ted.com/talks/daniel_wolpert_the_real_reason_for_brains'
+p574
+sS'vidlen'
+p575
+I1199
+sS'totalviews'
+p576
+I1743796
+sS'title'
+p577
+VThe real reason for brains
+p578
+sS'downloadlink'
+p579
+Vhttps://download.ted.com/talks/DanielWolpert_2011G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p580
+sS'datepublished'
+p581
+cdatetime
+datetime
+p582
+(S'\x07\xdb\x0b\x03\n7\x1e\x00\x00\x00'
+tRp583
+sS'datefilmed'
+p584
+g582
+(S'\x07\xdb\x0b\x03\n7\x1e\x00\x00\x00'
+tRp585
+sS'alldata_JSON'
+p586
+S'{"viewed_count": 1743796, "speakers": [{"description": "Movement expert", "firstname": "Daniel", "title": "", "lastname": "Wolpert", "middleinitial": "", "whylisten": "<p>Consider your hand. You use it to lift things, to balance yourself, to give and take, to sense the world. It has a range of interacting degrees of freedom, and it interacts with many different objects under a variety of environmental conditions. And for most of us, it all just works. At his lab in the Engineering department at Cambridge, Daniel Wolpert and his team are studying why, looking to understand the computations underlying the brain&#39;s sensorimotor control of the body. <br /><br />As he says, &quot;I believe that to understand movement is to understand the whole brain. And therefore it&rsquo;s important to remember when you are studying memory, cognition, sensory processing, they&rsquo;re there for a reason, and that reason is action.&rdquo;&nbsp; Movement is the only way we have of interacting with the world, whether foraging for food or attracting a waiter&#39;s attention. Indeed, all communication, including speech, sign language, gestures and writing, is mediated via the motor system. Taking this viewpoint, and using computational and robotic techniques as well as virtual reality systems, Wolpert and his team research the purpose of the human brain and the way it determines future actions.</p><p>&nbsp;</p><p>&nbsp;</p>", "slug": "daniel_wolpert", "whotheyare": "A neuroscientist and engineer, Daniel Wolpert studies how the brain controls the body.", "whatotherssay": "A recurrent theme in Wolpert\\u2019s research is that \\u201cThe more we know about how the body acts, the more we know about how the brain thinks.\\u201d", "id": 1036, "photo_url": "https://pe.tedcdn.com/images/ted/72864c7e09c0866e7e3e3a3049daef7c890cc38e_254x191.jpg"}], "current_talk": 1261, "description": "Neuroscientist Daniel Wolpert starts from a surprising premise: the brain evolved, not to think or feel, but to control movement. In this entertaining, data-rich talk he gives us a glimpse into how the brain creates the grace and agility of human motion.", "language": "en", "url": "https://www.ted.com/talks/daniel_wolpert_the_real_reason_for_brains", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139731698}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27505326}, "podcast-high": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139587214}, "180k": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27380056}, "64k": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9849033}, "1500k": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 218159243}, "450k": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67872933}, "podcast-regular": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68141410}, "950k": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139351347}, "audio-podcast": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 12260625}, "podcast-light": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9953864}, "320k": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48386628}, "600k": {"uri": "https://download.ted.com/talks/DanielWolpert_2011G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 90747706}}}, "comments": {"count": 250, "id": 8052, "talk_id": 1261}, "slug": "daniel_wolpert_the_real_reason_for_brains", "threadId": 8052, "talks": [{"event": "TEDGlobal 2011", "player_talks": [{"event": "TEDGlobal 2011", "slug": "daniel_wolpert_the_real_reason_for_brains", "filmed": 1310515200, "targeting": {"event": "TEDGlobal 2011", "tag": "AI,biology,biomechanics,brain,cognitive science,consciousness,decision-making,engineering,evolution,math,neuroscience,robots,science", "id": 1261, "talk": "daniel_wolpert_the_real_reason_for_brains", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "The real reason for brains", "postAdDuration": "0.83", "published": 1320332130, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/794a93b76d7c657c2eb52e229c4b20e583615e06_1600x1200.jpg?quality=89&w=600", "name": "Daniel Wolpert: The real reason for brains", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "biology", "biomechanics", "brain", "cognitive science", "consciousness", "decision-making", "engineering", "evolution", "math", "neuroscience", "robots", "science"], "speaker": "Daniel Wolpert", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1199, "id": 1261, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DanielWolpert_2011G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2011", "tag": "AI,biology,biomechanics,brain,cognitive science,consciousness,decision-making,engineering,evolution,math,neuroscience,robots,science", "id": 1261, "talk": "daniel_wolpert_the_real_reason_for_brains", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1261.json", "stream": "https://hls.ted.com/talks/1261.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2011%26id%3D1261%26tag%3DAI%2Cbiology%2Cbiomechanics%2Cbrain%2Ccognitive%2Bscience%2Cconsciousness%2Cdecision-making%2Cengineering%2Cevolution%2Cmath%2Cneuroscience%2Crobots%2Cscience%26talk%3Ddaniel_wolpert_the_real_reason_for_brains%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/daniel_wolpert_the_real_reason_for_brains"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/794a93b76d7c657c2eb52e229c4b20e583615e06_1600x1200.jpg?q=50&w=15", "duration": 1199, "id": 1261, "ratings": [{"count": 680, "id": 22, "name": "Fascinating"}, {"count": 584, "id": 8, "name": "Informative"}, {"count": 108, "id": 7, "name": "Funny"}, {"count": 45, "id": 1, "name": "Beautiful"}, {"count": 75, "id": 11, "name": "Longwinded"}, {"count": 206, "id": 24, "name": "Persuasive"}, {"count": 187, "id": 9, "name": "Ingenious"}, {"count": 17, "id": 26, "name": "Obnoxious"}, {"count": 56, "id": 21, "name": "Unconvincing"}, {"count": 59, "id": 25, "name": "OK"}, {"count": 60, "id": 2, "name": "Confusing"}, {"count": 70, "id": 23, "name": "Jaw-dropping"}, {"count": 139, "id": 10, "name": "Inspiring"}, {"count": 12, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Movement expert", "firstname": "Daniel", "title": "", "lastname": "Wolpert", "middleinitial": "", "whylisten": "<p>Consider your hand. You use it to lift things, to balance yourself, to give and take, to sense the world. It has a range of interacting degrees of freedom, and it interacts with many different objects under a variety of environmental conditions. And for most of us, it all just works. At his lab in the Engineering department at Cambridge, Daniel Wolpert and his team are studying why, looking to understand the computations underlying the brain&#39;s sensorimotor control of the body. <br /><br />As he says, &quot;I believe that to understand movement is to understand the whole brain. And therefore it&rsquo;s important to remember when you are studying memory, cognition, sensory processing, they&rsquo;re there for a reason, and that reason is action.&rdquo;&nbsp; Movement is the only way we have of interacting with the world, whether foraging for food or attracting a waiter&#39;s attention. Indeed, all communication, including speech, sign language, gestures and writing, is mediated via the motor system. Taking this viewpoint, and using computational and robotic techniques as well as virtual reality systems, Wolpert and his team research the purpose of the human brain and the way it determines future actions.</p><p>&nbsp;</p><p>&nbsp;</p>", "slug": "daniel_wolpert", "whotheyare": "A neuroscientist and engineer, Daniel Wolpert studies how the brain controls the body.", "whatotherssay": "A recurrent theme in Wolpert\\u2019s research is that \\u201cThe more we know about how the body acts, the more we know about how the brain thinks.\\u201d", "id": 1036, "photo_url": "https://pe.tedcdn.com/images/ted/72864c7e09c0866e7e3e3a3049daef7c890cc38e_254x191.jpg"}], "title": "The real reason for brains", "take_action": null, "comments": 8052, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/794a93b76d7c657c2eb52e229c4b20e583615e06_1600x1200.jpg", "description": "Neuroscientist Daniel Wolpert starts from a surprising premise: the brain evolved, not to think or feel, but to control movement. In this entertaining, data-rich talk he gives us a glimpse into how the brain creates the grace and agility of human motion.", "tags": ["AI", "biology", "biomechanics", "brain", "cognitive science", "consciousness", "decision-making", "engineering", "evolution", "math", "neuroscience", "robots", "science"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/DanielWolpert_2011G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DanielWolpert_2011G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DanielWolpert_2011G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DanielWolpert_2011G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1261, "audioDownload": "https://download.ted.com/talks/DanielWolpert_2011G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 583226, "hero": "https://pe.tedcdn.com/images/ted/49376_480x360.jpg", "title": "A computer that works like the brain", "id": 320, "speaker": "Kwabena Boahen", "duration": 982, "slug": "kwabena_boahen_on_a_computer_that_works_like_the_brain"}, {"viewed_count": 710436, "hero": "https://pe.tedcdn.com/images/ted/197_480x360.jpg", "title": "The sticky wonder of gecko feet", "id": 195, "speaker": "Robert Full", "duration": 1164, "slug": "robert_full_on_animal_movement"}, {"viewed_count": 1353317, "hero": "https://pe.tedcdn.com/images/ted/0d23d809b8a38da31d52f77111a7199fb4587083_800x600.jpg", "title": "Suddenly, my body", "id": 1205, "speaker": "Eve Ensler", "duration": 778, "slug": "eve_ensler"}, {"viewed_count": 1233592, "hero": "https://pe.tedcdn.com/images/ted/9759b9b5b08c13a29a320b10ea37110f439795c4_1600x1200.jpg", "title": "A monkey that controls a robot with its thoughts. No, really.", "id": 1671, "speaker": "Miguel Nicolelis", "duration": 895, "slug": "miguel_nicolelis_a_monkey_that_controls_a_robot_with_its_thoughts_no_really"}, {"viewed_count": 1244189, "hero": "https://pe.tedcdn.com/images/ted/37ae7aee4c35e4468af16b031eb243350016bdec_2880x1620.jpg", "title": "Growing evidence of brain plasticity", "id": 526, "speaker": "Michael Merzenich", "duration": 1387, "slug": "michael_merzenich_on_the_elastic_brain"}, {"viewed_count": 1922118, "hero": "https://pe.tedcdn.com/images/ted/b4b4b1887a890ba5efc98b4d4fe20d6b55fe6dbd_2880x1620.jpg", "title": "What happens in your brain when you pay attention?", "id": 2798, "speaker": "Mehdi Ordikhani-Seyedlar", "duration": 392, "slug": "mehdi_ordikhani_seyedlar_what_happens_in_your_brain_when_you_pay_attention"}], "recorded_at": "2011-07-13T00:00:00.000+00:00", "slug": "daniel_wolpert_the_real_reason_for_brains", "speaker_name": "Daniel Wolpert", "viewed_count": 1743796, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal 2011", "name": "Daniel Wolpert: The real reason for brains"}'
+p587
+sS'keywords'
+p588
+(lp589
+VAI
+p590
+aVbiology
+p591
+aVbiomechanics
+p592
+aVbrain
+p593
+aVcognitive science
+p594
+aVconsciousness
+p595
+aVdecision-making
+p596
+aVengineering
+p597
+aVevolution
+p598
+aVmath
+p599
+aVneuroscience
+p600
+aVrobots
+p601
+aVscience
+p602
+asS'datecrawled'
+p603
+g582
+(S'\x07\xe1\n\x17\x03\x182\x0c\x14\xfe'
+tRp604
+sS'id'
+p605
+I1261
+ss.

@@ -1,0 +1,978 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VAbout 10 years ago, I took on the task to teach global development
+p5
+aVto Swedish undergraduate students.
+p6
+aVThat was after having spent about 20 years
+p7
+aVtogether with African institutions studying hunger in Africa,
+p8
+aVso I was sort of expected to know a little about the world.
+p9
+aVAnd I started in our medical university, Karolinska Institute,
+p10
+aVan undergraduate course called Global Health.
+p11
+aVBut when you get that opportunity, you get a little nervous.
+p12
+aVI thought, these students coming to us
+p13
+aVactually have the highest grade you can get in Swedish college systems \u2014
+p14
+aVso I thought, maybe they know everything I'm going to teach them about.
+p15
+aVSo I did a pre-test when they came.
+p16
+aVAnd one of the questions from which I learned a lot was this one:
+p17
+aV"Which country has the highest child mortality of these five pairs?"
+p18
+aa(lp19
+VI put them together, so that in each pair of country,
+p20
+aVone has twice the child mortality of the other.
+p21
+aVAnd this means that it's much bigger a difference
+p22
+aVthan the uncertainty of the data.
+p23
+aVI won't put you at a test here, but it's Turkey,
+p24
+aVwhich is highest there, Poland, Russia, Pakistan and South Africa.
+p25
+aVAnd these were the results of the Swedish students.
+p26
+aVI did it so I got the confidence interval, which is pretty narrow, and I got happy,
+p27
+aVof course: a 1.8 right answer out of five possible.
+p28
+aVThat means that there was a place for a professor of international health
+p29
+aVand for my course.
+p30
+aa(lp31
+V(Laughter)
+p32
+aa(lp33
+VBut one late night, when I was compiling the report,
+p34
+aVI really realized my discovery.
+p35
+aVI have shown that Swedish top students
+p36
+aVknow statistically significantly less about the world than the chimpanzees.
+p37
+aa(lp38
+V(Laughter)
+p39
+aa(lp40
+VBecause the chimpanzee would score half right
+p41
+aVif I gave them two bananas with Sri Lanka and Turkey.
+p42
+aVThey would be right half of the cases. But the students are not there.
+p43
+aVThe problem for me was not ignorance; it was preconceived ideas.
+p44
+aa(lp45
+VI did also an unethical study
+p46
+aVof the professors of the Karolinska Institute,
+p47
+aVthat hands out the Nobel Prize in Medicine,
+p48
+aVand they are on par with the chimpanzee there.
+p49
+aa(lp50
+V(Laughter)
+p51
+aa(lp52
+VThis is where I realized that there was really a need to communicate,
+p53
+aVbecause the data of what's happening in the world
+p54
+aVand the child health of every country is very well aware.
+p55
+aa(lp56
+VWe did this software which displays it like this:
+p57
+aVevery bubble here is a country.
+p58
+aVThis country over here is China.
+p59
+aVThis is India.
+p60
+aVThe size of the bubble is the population,
+p61
+aVand on this axis here, I put fertility rate.
+p62
+aVBecause my students, what they said
+p63
+aVwhen they looked upon the world, and I asked them,
+p64
+aV"What do you really think about the world?"
+p65
+aVWell, I first discovered that the textbook was Tintin, mainly.
+p66
+aa(lp67
+V(Laughter)
+p68
+aa(lp69
+VAnd they said, "The world is still 'we' and 'them.'
+p70
+aVAnd 'we' is Western world and 'them' is Third World."
+p71
+aV"And what do you mean with Western world?" I said.
+p72
+aV"Well, that's long life and small family,
+p73
+aVand Third World is short life and large family."
+p74
+aa(lp75
+VSo this is what I could display here.
+p76
+aVI put fertility rate here: number of children per woman:
+p77
+aVone, two, three, four, up to about eight children per woman.
+p78
+aVWe have very good data since 1962 \u2014 1960 about \u2014
+p79
+aVon the size of families in all countries.
+p80
+aVThe error margin is narrow.
+p81
+aVHere, I put life expectancy at birth,
+p82
+aVfrom 30 years in some countries up to about 70 years.
+p83
+aVAnd 1962, there was really a group of countries here
+p84
+aVthat was industrialized countries,
+p85
+aVand they had small families and long lives.
+p86
+aVAnd these were the developing countries:
+p87
+aVthey had large families and they had relatively short lives.
+p88
+aVNow, what has happened since 1962? We want to see the change.
+p89
+aVAre the students right? Is it still two types of countries?
+p90
+aVOr have these developing countries got smaller families and they live here?
+p91
+aVOr have they got longer lives and live up there?
+p92
+aa(lp93
+VLet's see. We stopped the world then.
+p94
+aVThis is all U.N. statistics that have been available.
+p95
+aVHere we go. Can you see there?
+p96
+aVIt's China there, moving against better health there, improving there.
+p97
+aVAll the green Latin American countries are moving towards smaller families.
+p98
+aVYour yellow ones here are the Arabic countries,
+p99
+aVand they get longer life, but not larger families.
+p100
+aVThe Africans are the green here. They still remain here.
+p101
+aVThis is India; Indonesia is moving on pretty fast.
+p102
+aa(lp103
+V(Laughter)
+p104
+aa(lp105
+VIn the '80s here, you have Bangladesh still among the African countries.
+p106
+aVBut now, Bangladesh \u2014 it's a miracle that happens in the '80s:
+p107
+aVthe imams start to promote family planning.
+p108
+aVThey move up into that corner.
+p109
+aVAnd in the '90s, we have the terrible HIV epidemic
+p110
+aVthat takes down the life expectancy of the African countries
+p111
+aVand all the rest of them move up into the corner,
+p112
+aVwhere we have long lives and small family, and we have a completely new world.
+p113
+aa(lp114
+V(Applause)
+p115
+aa(lp116
+V(Applause ends)
+p117
+aa(lp118
+VLet me make a comparison directly
+p119
+aVbetween the United States of America and Vietnam.
+p120
+aV1964.
+p121
+aVAmerica had small families and long life;
+p122
+aVVietnam had large families and short lives.
+p123
+aVAnd this is what happens:
+p124
+aVthe data during the war indicate that even with all the death,
+p125
+aVthere was an improvement of life expectancy.
+p126
+aVBy the end of the year, the family planning started in Vietnam;
+p127
+aVthey went for smaller families.
+p128
+aVAnd the United States up there is getting for longer life,
+p129
+aVkeeping family size.
+p130
+aVAnd in the '80s now, they give up Communist planning
+p131
+aVand they go for market economy,
+p132
+aVand it moves faster even than social life.
+p133
+aVAnd today, we have in Vietnam
+p134
+aVthe same life expectancy and the same family size
+p135
+aVhere in Vietnam, 2003,
+p136
+aVas in United States, 1974, by the end of the war.
+p137
+aVIf we don't look in the data,
+p138
+aVI think we all underestimate the tremendous change in Asia,
+p139
+aVwhich was in social change before we saw the economical change.
+p140
+aa(lp141
+VLet's move over to another way here in which we could display
+p142
+aVthe distribution in the world of the income.
+p143
+aVThis is the world distribution of income of people.
+p144
+aVOne dollar, 10 dollars or 100 dollars per day.
+p145
+aVThere's no gap between rich and poor any longer. This is a myth.
+p146
+aVThere's a little hump here.
+p147
+aVBut there are people all the way.
+p148
+aVAnd if we look where the income ends up,
+p149
+aVthis is 100 percent the world's annual income.
+p150
+aVAnd the richest 20 percent,
+p151
+aVthey take out of that about 74 percent.
+p152
+aVAnd the poorest 20 percent, they take about two percent.
+p153
+aVAnd this shows that the concept of developing countries
+p154
+aVis extremely doubtful.
+p155
+aVWe think about aid,
+p156
+aVlike these people here giving aid to these people here.
+p157
+aVBut in the middle, we have most of the world population,
+p158
+aVand they have now 24 percent of the income.
+p159
+aa(lp160
+VWe heard it in other forms. And who are these?
+p161
+aVWhere are the different countries? I can show you Africa.
+p162
+aVThis is Africa.
+p163
+aV10% the world population, most in poverty.
+p164
+aVThis is OECD.
+p165
+aVThe rich country. The country club of the U.N.
+p166
+aVAnd they are over here on this side. Quite an overlap between Africa and OECD.
+p167
+aVAnd this is Latin America.
+p168
+aVIt has everything on this Earth, from the poorest to the richest
+p169
+aVin Latin America.
+p170
+aVAnd on top of that, we can put East Europe,
+p171
+aVwe can put East Asia, and we put South Asia.
+p172
+aa(lp173
+VAnd how did it look like if we go back in time,
+p174
+aVto about 1970?
+p175
+aVThen there was more of a hump.
+p176
+aVAnd we have most who lived in absolute poverty were Asians.
+p177
+aVThe problem in the world was the poverty in Asia.
+p178
+aVAnd if I now let the world move forward,
+p179
+aVyou will see that while population increases,
+p180
+aVthere are hundreds of millions in Asia getting out of poverty
+p181
+aVand some others getting into poverty,
+p182
+aVand this is the pattern we have today.
+p183
+aVAnd the best projection from the World Bank
+p184
+aVis that this will happen,
+p185
+aVand we will not have a divided world.
+p186
+aVWe'll have most people in the middle.
+p187
+aa(lp188
+VOf course it's a logarithmic scale here,
+p189
+aVbut our concept of economy is growth with percent.
+p190
+aVWe look upon it as a possibility of percentile increase.
+p191
+aVIf I change this, and take GDP per capita instead of family income,
+p192
+aVand I turn these individual data
+p193
+aVinto regional data of gross domestic product,
+p194
+aVand I take the regions down here,
+p195
+aVthe size of the bubble is still the population.
+p196
+aVAnd you have the OECD there, and you have sub-Saharan Africa there,
+p197
+aVand we take off the Arab states there,
+p198
+aVcoming both from Africa and from Asia, and we put them separately,
+p199
+aVand we can expand this axis, and I can give it a new dimension here,
+p200
+aVby adding the social values there, child survival.
+p201
+aVNow I have money on that axis,
+p202
+aVand I have the possibility of children to survive there.
+p203
+aVIn some countries, 99.7% of children survive to five years of age;
+p204
+aVothers, only 70.
+p205
+aVAnd here, it seems, there is a gap between OECD,
+p206
+aVLatin America, East Europe, East Asia,
+p207
+aVArab states, South Asia and sub-Saharan Africa.
+p208
+aVThe linearity is very strong between child survival and money.
+p209
+aa(lp210
+VBut let me split sub-Saharan Africa.
+p211
+aVHealth is there and better health is up there.
+p212
+aVI can go here and I can split sub-Saharan Africa into its countries.
+p213
+aVAnd when it burst,
+p214
+aVthe size of its country bubble is the size of the population.
+p215
+aVSierra Leone down there. Mauritius is up there.
+p216
+aVMauritius was the first country
+p217
+aVto get away with trade barriers, and they could sell their sugar \u2014
+p218
+aVthey could sell their textiles \u2014
+p219
+aVon equal terms as the people in Europe and North America.
+p220
+aa(lp221
+VThere's a huge difference between Africa. And Ghana is here in the middle.
+p222
+aVIn Sierra Leone, humanitarian aid.
+p223
+aVHere in Uganda, development aid.
+p224
+aVHere, time to invest; there, you can go for a holiday.
+p225
+aVIt's a tremendous variation within Africa
+p226
+aVwhich we rarely often make \u2014 that it's equal everything.
+p227
+aVI can split South Asia here. India's the big bubble in the middle.
+p228
+aVBut a huge difference between Afghanistan and Sri Lanka.
+p229
+aVI can split Arab states. How are they?
+p230
+aVSame climate, same culture, same religion \u2014 huge difference.
+p231
+aVEven between neighbors.
+p232
+aVYemen, civil war.
+p233
+aVUnited Arab Emirates, money, which was quite equally and well used.
+p234
+aVNot as the myth is.
+p235
+aVAnd that includes all the children of the foreign workers
+p236
+aVwho are in the country.
+p237
+aa(lp238
+VData is often better than you think. Many people say data is bad.
+p239
+aVThere is an uncertainty margin, but we can see the difference here:
+p240
+aVCambodia, Singapore.
+p241
+aVThe differences are much bigger than the weakness of the data.
+p242
+aVEast Europe: Soviet economy for a long time,
+p243
+aVbut they come out after 10 years very, very differently.
+p244
+aVAnd there is Latin America.
+p245
+aVToday, we don't have to go to Cuba
+p246
+aVto find a healthy country in Latin America.
+p247
+aVChile will have a lower child mortality than Cuba within some few years from now.
+p248
+aVHere, we have high-income countries in the OECD.
+p249
+aa(lp250
+VAnd we get the whole pattern here of the world,
+p251
+aVwhich is more or less like this.
+p252
+aVAnd if we look at it, how the world looks,
+p253
+aVin 1960, it starts to move.
+p254
+aVThis is Mao Tse-tung. He brought health to China.
+p255
+aVAnd then he died.
+p256
+aVAnd then Deng Xiaoping came and brought money to China,
+p257
+aVand brought them into the mainstream again.
+p258
+aVAnd we have seen how countries move in different directions like this,
+p259
+aVso it's sort of difficult to get an example country
+p260
+aVwhich shows the pattern of the world.
+p261
+aa(lp262
+VBut I would like to bring you back to about here, at 1960.
+p263
+aVI would like to compare
+p264
+aVSouth Korea, which is this one, with Brazil, which is this one.
+p265
+aVThe label went away for me here.
+p266
+aVAnd I would like to compare Uganda, which is there.
+p267
+aVAnd I can run it forward, like this.
+p268
+aVAnd you can see how South Korea is making a very, very fast advancement,
+p269
+aVwhereas Brazil is much slower.
+p270
+aa(lp271
+VAnd if we move back again, here, and we put on trails on them, like this,
+p272
+aVyou can see again that the speed of development
+p273
+aVis very, very different,
+p274
+aVand the countries are moving more or less in the same rate as money and health,
+p275
+aVbut it seems you can move much faster
+p276
+aVif you are healthy first than if you are wealthy first.
+p277
+aVAnd to show that, you can put on the way of United Arab Emirates.
+p278
+aVThey came from here, a mineral country.
+p279
+aVThey cached all the oil; they got all the money;
+p280
+aVbut health cannot be bought at the supermarket.
+p281
+aVYou have to invest in health. You have to get kids into schooling.
+p282
+aVYou have to train health staff. You have to educate the population.
+p283
+aVAnd Sheikh Zayed did that in a fairly good way.
+p284
+aVIn spite of falling oil prices, he brought this country up here.
+p285
+aVSo we've got a much more mainstream appearance of the world,
+p286
+aVwhere all countries tend to use their money
+p287
+aVbetter than they used in the past.
+p288
+aa(lp289
+VNow, this is, more or less, if you look at the average data of the countries \u2014
+p290
+aVthey are like this.
+p291
+aVNow that's dangerous, to use average data,
+p292
+aVbecause there is such a lot of difference within countries.
+p293
+aVSo if I go and look here, we can see that Uganda today
+p294
+aVis where South Korea was in 1960.
+p295
+aVIf I split Uganda, there's quite a difference within Uganda.
+p296
+aVThese are the quintiles of Uganda.
+p297
+aVThe richest 20 percent of Ugandans are there.
+p298
+aVThe poorest are down there.
+p299
+aVIf I split South Africa, it's like this.
+p300
+aVAnd if I go down and look at Niger,
+p301
+aVwhere there was such a terrible famine, lastly, it's like this.
+p302
+aVThe 20 percent poorest of Niger is out here,
+p303
+aVand the 20 percent richest of South Africa is there,
+p304
+aVand yet we tend to discuss
+p305
+aVon what solutions there should be in Africa.
+p306
+aVEverything in this world exists in Africa.
+p307
+aVAnd you can't discuss universal access to HIV [medicine]
+p308
+aVfor that quintile up here with the same strategy as down here.
+p309
+aVThe improvement of the world must be highly contextualized,
+p310
+aVand it's not relevant to have it on regional level.
+p311
+aVWe must be much more detailed.
+p312
+aVWe find that students get very excited when they can use this.
+p313
+aa(lp314
+VAnd even more, policy makers and the corporate sectors
+p315
+aVwould like to see how the world is changing.
+p316
+aVNow, why doesn't this take place?
+p317
+aVWhy are we not using the data we have?
+p318
+aVWe have data in the United Nations, in the national statistical agencies
+p319
+aVand in universities and other non-governmental organizations.
+p320
+aVBecause the data is hidden down in the databases.
+p321
+aVAnd the public is there, and the Internet is there,
+p322
+aVbut we have still not used it effectively.
+p323
+aa(lp324
+VAll that information we saw changing in the world
+p325
+aVdoes not include publicly-funded statistics.
+p326
+aVThere are some web pages like this, you know,
+p327
+aVbut they take some nourishment down from the databases,
+p328
+aVbut people put prices on them, stupid passwords and boring statistics.
+p329
+aa(lp330
+V(Laughter)
+p331
+aa(lp332
+VAnd this won't work.
+p333
+aa(lp334
+V(Applause)
+p335
+aa(lp336
+VSo what is needed? We have the databases.
+p337
+aVIt's not the new database you need.
+p338
+aVWe have wonderful design tools, and more and more are added up here.
+p339
+aVSo we started a nonprofit venture
+p340
+aVwhich, linking data to design, we called Gapminder,
+p341
+aVfrom the London Underground,
+p342
+aVwhere they warn you, "mind the gap."
+p343
+aVSo we thought Gapminder was appropriate.
+p344
+aVAnd we started to write software which could link the data like this.
+p345
+aVAnd it wasn't that difficult.
+p346
+aVIt took some person years, and we have produced animations.
+p347
+aVYou can take a data set and put it there.
+p348
+aVWe are liberating U.N. data, some few U.N. organization.
+p349
+aa(lp350
+VSome countries accept that their databases can go out on the world,
+p351
+aVbut what we really need is, of course, a search function.
+p352
+aVA search function where we can copy the data up to a searchable format
+p353
+aVand get it out in the world.
+p354
+aVAnd what do we hear when we go around?
+p355
+aVI've done anthropology on the main statistical units.
+p356
+aVEveryone says, "It's impossible. This can't be done.
+p357
+aVOur information is so peculiar in detail,
+p358
+aVso that cannot be searched as others can be searched.
+p359
+aVWe cannot give the data free to the students,
+p360
+aVfree to the entrepreneurs of the world."
+p361
+aa(lp362
+VBut this is what we would like to see, isn't it?
+p363
+aVThe publicly-funded data is down here.
+p364
+aVAnd we would like flowers to grow out on the Net.
+p365
+aVAnd one of the crucial points is to make them searchable,
+p366
+aVand then people can use the different design tool to animate it there.
+p367
+aVAnd I have pretty good news for you.
+p368
+aVI have good news that the present,
+p369
+aVnew Head of U.N. Statistics, he doesn't say it's impossible.
+p370
+aVHe only says, "We can't do it."
+p371
+aa(lp372
+V(Laughter)
+p373
+aa(lp374
+VAnd that's a quite clever guy, huh?
+p375
+aa(lp376
+V(Laughter)
+p377
+aa(lp378
+VSo we can see a lot happening in data in the coming years.
+p379
+aVWe will be able to look at income distributions in completely new ways.
+p380
+aVThis is the income distribution of China, 1970.
+p381
+aVThis is the income distribution of the United States, 1970.
+p382
+aVAlmost no overlap.
+p383
+aVAnd what has happened?
+p384
+aVWhat has happened is this:
+p385
+aVthat China is growing, it's not so equal any longer,
+p386
+aVand it's appearing here, overlooking the United States.
+p387
+aVAlmost like a ghost, isn't it?
+p388
+aa(lp389
+V(Laughter)
+p390
+aa(lp391
+VIt's pretty scary.
+p392
+aa(lp393
+V(Laughter)
+p394
+aa(lp395
+VBut I think it's very important to have all this information.
+p396
+aVWe need really to see it.
+p397
+aVAnd instead of looking at this,
+p398
+aVI would like to end up by showing the Internet users per 1,000.
+p399
+aVIn this software, we access about 500 variables
+p400
+aVfrom all the countries quite easily.
+p401
+aVIt takes some time to change for this,
+p402
+aVbut on the axises, you can quite easily get any variable you would like to have.
+p403
+aVAnd the thing would be to get up the databases free,
+p404
+aVto get them searchable, and with a second click,
+p405
+aVto get them into the graphic formats, where you can instantly understand them.
+p406
+aVNow, statisticians don't like it,
+p407
+aVbecause they say that this will not show the reality;
+p408
+aVwe have to have statistical, analytical methods.
+p409
+aVBut this is hypothesis-generating.
+p410
+aa(lp411
+VI end now with the world.
+p412
+aVThere, the Internet is coming.
+p413
+aVThe number of Internet users are going up like this.
+p414
+aVThis is the GDP per capita.
+p415
+aVAnd it's a new technology coming in, but then amazingly,
+p416
+aVhow well it fits to the economy of the countries.
+p417
+aVThat's why the $100 computer will be so important.
+p418
+aVBut it's a nice tendency.
+p419
+aVIt's as if the world is flattening off, isn't it?
+p420
+aVThese countries are lifting more than the economy
+p421
+aVand will be very interesting to follow this over the year,
+p422
+aVas I would like you to be able to do with all the publicly funded data.
+p423
+aa(lp424
+VThank you very much.
+p425
+aa(lp426
+V(Applause)
+p427
+aasS'transcript_micsec'
+p428
+(lp429
+I11000
+aI57000
+aI91000
+aI92000
+aI107000
+aI109000
+aI122000
+aI132000
+aI135000
+aI145000
+aI173000
+aI174000
+aI189000
+aI237000
+aI262000
+aI263000
+aI288000
+aI299000
+aI301000
+aI364000
+aI425000
+aI461000
+aI497000
+aI568000
+aI599000
+aI648000
+aI681000
+aI716000
+aI755000
+aI814000
+aI893000
+aI919000
+aI937000
+aI938000
+aI939000
+aI942000
+aI979000
+aI1012000
+aI1038000
+aI1042000
+aI1044000
+aI1046000
+aI1080000
+aI1082000
+aI1083000
+aI1088000
+aI1145000
+aI1177000
+aI1179000
+asS'talk_meta'
+p430
+(dp431
+S'ratings'
+p432
+(dp433
+S'ingenious'
+p434
+I3229
+sS'funny'
+p435
+I1403
+sS'inspiring'
+p436
+I2914
+sS'ok'
+p437
+I249
+sS'fascinating'
+p438
+I4624
+sS'total_count'
+p439
+I25762
+sS'persuasive'
+p440
+I2549
+sS'longwinded'
+p441
+I113
+sS'unconvincing'
+p442
+I67
+sS'informative'
+p443
+I5469
+sS'beautiful'
+p444
+I953
+sS'jaw-dropping'
+p445
+I3740
+sS'obnoxious'
+p446
+I61
+sS'courageous'
+p447
+I318
+sS'confusing'
+p448
+I73
+ssS'author'
+p449
+VHans_Rosling;
+p450
+sS'url'
+p451
+S'https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen'
+p452
+sS'vidlen'
+p453
+I1190
+sS'totalviews'
+p454
+I12072039
+sS'title'
+p455
+VThe best stats you've ever seen
+p456
+sS'downloadlink'
+p457
+Vhttps://download.ted.com/talks/HansRosling_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p458
+sS'datepublished'
+p459
+cdatetime
+datetime
+p460
+(S'\x07\xd6\x06\x1b\x10&\x00\x00\x00\x00'
+tRp461
+sS'datefilmed'
+p462
+g460
+(S'\x07\xd6\x06\x1b\x10&\x00\x00\x00\x00'
+tRp463
+sS'alldata_JSON'
+p464
+S'{"viewed_count": 12072039, "speakers": [{"description": "Global health expert; data visionary", "firstname": "Hans", "title": "", "lastname": "Rosling", "middleinitial": "", "whylisten": "<p>Even the most worldly and well-traveled among us will have their perspectives shifted by Hans Rosling. A professor of global health at Sweden&#39;s <a href=\\"http://ki.se/ki/jsp/polopoly.jsp?d=130&amp;l=en\\" target=\\"_blank\\">Karolinska Institute</a>, his current work focuses on dispelling common myths about the so-called developing world, which (he points out) is no longer worlds away from the West. In fact, most of the Third World is on the same trajectory toward health and prosperity, and many countries are moving twice as fast as the west did.<br /><br />What sets Rosling apart isn&#39;t just his apt observations of broad social and economic trends, but the stunning way he presents them. Guaranteed: You&#39;ve never seen data presented like this. By any logic, a presentation that tracks global health and poverty trends should be, in a word: boring. But in Rosling&#39;s hands, data sings. Trends come to life. And the big picture &mdash; usually hazy at best &mdash; snaps into sharp focus. <br /><br />Rosling&#39;s presentations are grounded in solid statistics (often drawn from United Nations data), illustrated by the visualization software he developed. The animations transform development statistics into moving bubbles and flowing curves that make global trends clear, intuitive and even playful. During his legendary presentations, Rosling takes this one step farther, narrating the animations with a sportscaster&#39;s flair. <br /><br />Rosling developed the breakthrough software behind his visualizations through his nonprofit <a href=\\"http://www.gapminder.org/\\" target=\\"_blank\\">Gapminder</a>, founded with his son and daughter-in-law. The free software &mdash; which can be loaded with any data &mdash; was purchased by Google in March 2007. (Rosling met the Google founders at TED.)<br /><br />Rosling began his wide-ranging career as a physician, spending many years in rural Africa tracking a rare paralytic disease (which he named konzo) and discovering its cause: hunger and badly processed cassava. He co-founded M&eacute;decins sans Fronti&egrave;rs (Doctors without Borders) Sweden, wrote a textbook on global health, and as a professor at the Karolinska Institut in Stockholm initiated key international research collaborations. He&#39;s also personally argued with many heads of state, including Fidel Castro. <br /><br />As if all this weren&#39;t enough, the irrepressible Rosling is also an accomplished sword-swallower &mdash; a skill he demonstrated at TED2007.<br /><br /><br /> </p>", "slug": "hans_rosling", "whotheyare": "In Hans Rosling\\u2019s hands, data sings. Global trends in health and economics come to vivid life. And the big picture of global development\\u2014with some surprisingly good news\\u2014snaps into sharp focus.", "whatotherssay": "Rosling believes that making information more accessible has the potential to change the quality of the information itself.", "id": 90, "photo_url": "https://pe.tedcdn.com/images/ted/2bd4d0cfff0c3a3306650768c2f988e154db7042_254x191.jpg"}], "current_talk": 92, "description": "You\'ve never seen data presented like this. With the drama and urgency of a sportscaster, statistics guru Hans Rosling debunks myths about the so-called \\"developing world.\\"", "language": "en", "url": "https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/HansRosling_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138950800}, "podcast-low-en": {"uri": "https://download.ted.com/talks/HansRosling_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27387198}, "podcast-high": {"uri": "https://download.ted.com/talks/HansRosling_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139200613}, "180k": {"uri": "https://download.ted.com/talks/HansRosling_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27156257}, "64k": {"uri": "https://download.ted.com/talks/HansRosling_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9792457}, "1500k": {"uri": "https://download.ted.com/talks/HansRosling_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 215785658}, "450k": {"uri": "https://download.ted.com/talks/HansRosling_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67917669}, "podcast-regular": {"uri": "https://download.ted.com/talks/HansRosling_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68190698}, "950k": {"uri": "https://download.ted.com/talks/HansRosling_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138151392}, "podcast-light": {"uri": "https://download.ted.com/talks/HansRosling_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10308744}, "320k": {"uri": "https://download.ted.com/talks/HansRosling_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48110615}, "600k": {"uri": "https://download.ted.com/talks/HansRosling_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 90207459}}}, "comments": {"count": 593, "id": 89, "talk_id": 92}, "slug": "hans_rosling_shows_the_best_stats_you_ve_ever_seen", "threadId": 89, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "hans_rosling_shows_the_best_stats_you_ve_ever_seen", "filmed": 1140566400, "targeting": {"event": "TED2006", "tag": "Africa,Asia,Google,demo,economics,global development,global issues,health,math,statistics,visualizations", "id": 92, "talk": "hans_rosling_shows_the_best_stats_you_ve_ever_seen", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "The best stats you\'ve ever seen", "postAdDuration": "0.83", "published": 1151440680, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e80b905b26a61aba089bd928fc4c2bd4180e836e_2880x1620.jpg?quality=89&w=600", "name": "Hans Rosling: The best stats you\'ve ever seen", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bn", "endonym": "\\u09ac\\u09be\\u0982\\u09b2\\u09be", "isRtl": false, "ianaCode": "bn", "languageName": "Bengali"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "is", "endonym": "\\u00cdslenska", "isRtl": false, "ianaCode": "is", "languageName": "Icelandic"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kn", "endonym": "\\u0c95\\u0ca8\\u0ccd\\u0ca8\\u0ca1", "isRtl": false, "ianaCode": "kn", "languageName": "Kannada"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "ml", "endonym": "\\u0d2e\\u0d32\\u0d2f\\u0d3e\\u0d33\\u0d02", "isRtl": false, "ianaCode": "ml", "languageName": "Malayalam"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sw", "endonym": "Kiswahili", "isRtl": false, "ianaCode": "sw", "languageName": "Swahili"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "ur", "endonym": "\\u0627\\u064f\\u0631\\u062f\\u064f\\u0648", "isRtl": true, "ianaCode": "ur", "languageName": "Urdu"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Africa", "Asia", "Google", "demo", "economics", "global development", "global issues", "health", "math", "statistics", "visualizations"], "speaker": "Hans Rosling", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1190, "id": 92, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/HansRosling_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "Africa,Asia,Google,demo,economics,global development,global issues,health,math,statistics,visualizations", "id": 92, "talk": "hans_rosling_shows_the_best_stats_you_ve_ever_seen", "year": "2006"}, "metadata": "https://hls.ted.com/talks/92.json", "stream": "https://hls.ted.com/talks/92.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D92%26tag%3DAfrica%2CAsia%2CGoogle%2Cdemo%2Ceconomics%2Cglobal%2Bdevelopment%2Cglobal%2Bissues%2Chealth%2Cmath%2Cstatistics%2Cvisualizations%26talk%3Dhans_rosling_shows_the_best_stats_you_ve_ever_seen%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e80b905b26a61aba089bd928fc4c2bd4180e836e_2880x1620.jpg?q=50&w=15", "duration": 1190, "id": 92, "ratings": [{"count": 3229, "id": 9, "name": "Ingenious"}, {"count": 1403, "id": 7, "name": "Funny"}, {"count": 953, "id": 1, "name": "Beautiful"}, {"count": 318, "id": 3, "name": "Courageous"}, {"count": 113, "id": 11, "name": "Longwinded"}, {"count": 73, "id": 2, "name": "Confusing"}, {"count": 67, "id": 21, "name": "Unconvincing"}, {"count": 5469, "id": 8, "name": "Informative"}, {"count": 2914, "id": 10, "name": "Inspiring"}, {"count": 4624, "id": 22, "name": "Fascinating"}, {"count": 3740, "id": 23, "name": "Jaw-dropping"}, {"count": 2549, "id": 24, "name": "Persuasive"}, {"count": 249, "id": 25, "name": "OK"}, {"count": 61, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Global health expert; data visionary", "firstname": "Hans", "title": "", "lastname": "Rosling", "middleinitial": "", "whylisten": "<p>Even the most worldly and well-traveled among us will have their perspectives shifted by Hans Rosling. A professor of global health at Sweden&#39;s <a href=\\"http://ki.se/ki/jsp/polopoly.jsp?d=130&amp;l=en\\" target=\\"_blank\\">Karolinska Institute</a>, his current work focuses on dispelling common myths about the so-called developing world, which (he points out) is no longer worlds away from the West. In fact, most of the Third World is on the same trajectory toward health and prosperity, and many countries are moving twice as fast as the west did.<br /><br />What sets Rosling apart isn&#39;t just his apt observations of broad social and economic trends, but the stunning way he presents them. Guaranteed: You&#39;ve never seen data presented like this. By any logic, a presentation that tracks global health and poverty trends should be, in a word: boring. But in Rosling&#39;s hands, data sings. Trends come to life. And the big picture &mdash; usually hazy at best &mdash; snaps into sharp focus. <br /><br />Rosling&#39;s presentations are grounded in solid statistics (often drawn from United Nations data), illustrated by the visualization software he developed. The animations transform development statistics into moving bubbles and flowing curves that make global trends clear, intuitive and even playful. During his legendary presentations, Rosling takes this one step farther, narrating the animations with a sportscaster&#39;s flair. <br /><br />Rosling developed the breakthrough software behind his visualizations through his nonprofit <a href=\\"http://www.gapminder.org/\\" target=\\"_blank\\">Gapminder</a>, founded with his son and daughter-in-law. The free software &mdash; which can be loaded with any data &mdash; was purchased by Google in March 2007. (Rosling met the Google founders at TED.)<br /><br />Rosling began his wide-ranging career as a physician, spending many years in rural Africa tracking a rare paralytic disease (which he named konzo) and discovering its cause: hunger and badly processed cassava. He co-founded M&eacute;decins sans Fronti&egrave;rs (Doctors without Borders) Sweden, wrote a textbook on global health, and as a professor at the Karolinska Institut in Stockholm initiated key international research collaborations. He&#39;s also personally argued with many heads of state, including Fidel Castro. <br /><br />As if all this weren&#39;t enough, the irrepressible Rosling is also an accomplished sword-swallower &mdash; a skill he demonstrated at TED2007.<br /><br /><br /> </p>", "slug": "hans_rosling", "whotheyare": "In Hans Rosling\\u2019s hands, data sings. Global trends in health and economics come to vivid life. And the big picture of global development\\u2014with some surprisingly good news\\u2014snaps into sharp focus.", "whatotherssay": "Rosling believes that making information more accessible has the potential to change the quality of the information itself.", "id": 90, "photo_url": "https://pe.tedcdn.com/images/ted/2bd4d0cfff0c3a3306650768c2f988e154db7042_254x191.jpg"}], "title": "The best stats you\'ve ever seen", "take_action": null, "comments": 89, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/e80b905b26a61aba089bd928fc4c2bd4180e836e_2880x1620.jpg", "description": "You\'ve never seen data presented like this. With the drama and urgency of a sportscaster, statistics guru Hans Rosling debunks myths about the so-called \\"developing world.\\"", "tags": ["Africa", "Asia", "Google", "demo", "economics", "global development", "global issues", "health", "math", "statistics", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bn", "endonym": "\\u09ac\\u09be\\u0982\\u09b2\\u09be", "isRtl": false, "ianaCode": "bn", "languageName": "Bengali"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "is", "endonym": "\\u00cdslenska", "isRtl": false, "ianaCode": "is", "languageName": "Icelandic"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kn", "endonym": "\\u0c95\\u0ca8\\u0ccd\\u0ca8\\u0ca1", "isRtl": false, "ianaCode": "kn", "languageName": "Kannada"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "ml", "endonym": "\\u0d2e\\u0d32\\u0d2f\\u0d3e\\u0d33\\u0d02", "isRtl": false, "ianaCode": "ml", "languageName": "Malayalam"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sw", "endonym": "Kiswahili", "isRtl": false, "ianaCode": "sw", "languageName": "Swahili"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "ur", "endonym": "\\u0627\\u064f\\u0631\\u062f\\u064f\\u0648", "isRtl": true, "ianaCode": "ur", "languageName": "Urdu"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/HansRosling_2006-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/HansRosling_2006-low-en.mp4"}, "sw": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-sw.mp4", "name": "Swahili", "low": "https://download.ted.com/talks/HansRosling_2006-low-sw.mp4"}, "is": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-is.mp4", "name": "Icelandic", "low": "https://download.ted.com/talks/HansRosling_2006-low-is.mp4"}, "it": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/HansRosling_2006-low-it.mp4"}, "sv": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/HansRosling_2006-low-sv.mp4"}, "ar": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/HansRosling_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/HansRosling_2006-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/HansRosling_2006-low-cs.mp4"}, "az": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-az.mp4", "name": "Azerbaijani", "low": "https://download.ted.com/talks/HansRosling_2006-low-az.mp4"}, "id": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/HansRosling_2006-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/HansRosling_2006-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/HansRosling_2006-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/HansRosling_2006-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/HansRosling_2006-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/HansRosling_2006-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/HansRosling_2006-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/HansRosling_2006-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/HansRosling_2006-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/HansRosling_2006-low-th.mp4"}, "vi": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/HansRosling_2006-low-vi.mp4"}, "ro": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/HansRosling_2006-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/HansRosling_2006-low-pl.mp4"}, "ta": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ta.mp4", "name": "Tamil", "low": "https://download.ted.com/talks/HansRosling_2006-low-ta.mp4"}, "fr": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/HansRosling_2006-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/HansRosling_2006-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/HansRosling_2006-low-hr.mp4"}, "bn": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-bn.mp4", "name": "Bengali", "low": "https://download.ted.com/talks/HansRosling_2006-low-bn.mp4"}, "de": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/HansRosling_2006-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/HansRosling_2006-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/HansRosling_2006-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/HansRosling_2006-low-hi.mp4"}, "bs": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-bs.mp4", "name": "Bosnian", "low": "https://download.ted.com/talks/HansRosling_2006-low-bs.mp4"}, "fi": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/HansRosling_2006-low-fi.mp4"}, "da": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/HansRosling_2006-low-da.mp4"}, "ja": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/HansRosling_2006-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/HansRosling_2006-low-he.mp4"}, "te": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-te.mp4", "name": "Telugu", "low": "https://download.ted.com/talks/HansRosling_2006-low-te.mp4"}, "ml": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ml.mp4", "name": "Malayalam", "low": "https://download.ted.com/talks/HansRosling_2006-low-ml.mp4"}, "mn": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/HansRosling_2006-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/HansRosling_2006-low-ko.mp4"}, "kn": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-kn.mp4", "name": "Kannada", "low": "https://download.ted.com/talks/HansRosling_2006-low-kn.mp4"}, "mk": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/HansRosling_2006-low-mk.mp4"}, "ur": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-ur.mp4", "name": "Urdu", "low": "https://download.ted.com/talks/HansRosling_2006-low-ur.mp4"}, "sk": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/HansRosling_2006-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/HansRosling_2006-low-uk.mp4"}, "sr": {"high": "https://download.ted.com/talks/HansRosling_2006-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/HansRosling_2006-low-sr.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/HansRosling_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/HansRosling_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/HansRosling_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 92, "audioDownload": null}, "related_talks": [{"viewed_count": 1360388, "hero": "https://pe.tedcdn.com/images/ted/afc9b259845ec1b543419871e10753d4d9044fda_2400x1800.jpg", "title": "Own your body\'s data", "id": 2056, "speaker": "Talithia Williams", "duration": 1023, "slug": "talithia_williams_own_your_body_s_data"}, {"viewed_count": 1717810, "hero": "https://pe.tedcdn.com/images/ted/9e003b0a822daba702608136e73f7be001b6b2f2_2880x1620.jpg", "title": "A visual history of human knowledge", "id": 2296, "speaker": "Manuel Lima", "duration": 769, "slug": "manuel_lima_a_visual_history_of_human_knowledge"}, {"viewed_count": 1481937, "hero": "https://pe.tedcdn.com/images/ted/111517_800x600.jpg", "title": "Let my dataset change your mindset", "id": 620, "speaker": "Hans Rosling", "duration": 1196, "slug": "hans_rosling_at_state"}, {"viewed_count": 742016, "hero": "https://pe.tedcdn.com/images/ted/205077_800x600.jpg", "title": "The good news of the decade? We\'re winning the war against child mortality", "id": 974, "speaker": "Hans Rosling", "duration": 934, "slug": "hans_rosling_the_good_news_of_the_decade"}, {"viewed_count": 3257262, "hero": "https://pe.tedcdn.com/images/ted/bf09302366bde885c86350145b87cd2b265f1f12_1600x1200.jpg", "title": "New insights on poverty", "id": 140, "speaker": "Hans Rosling", "duration": 1137, "slug": "hans_rosling_reveals_new_insights_on_poverty"}, {"viewed_count": 2967726, "hero": "https://pe.tedcdn.com/images/ted/b26e09ddd0ffeb774cd3eee2a24424c4ed542677_2880x1620.jpg", "title": "Global population growth, box by box", "id": 912, "speaker": "Hans Rosling", "duration": 604, "slug": "hans_rosling_on_global_population_growth"}], "recorded_at": "2006-02-22T00:00:00.000+00:00", "slug": "hans_rosling_shows_the_best_stats_you_ve_ever_seen", "speaker_name": "Hans Rosling", "viewed_count": 12072039, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Hans Rosling: The best stats you\'ve ever seen"}'
+p465
+sS'keywords'
+p466
+(lp467
+VAfrica
+p468
+aVAsia
+p469
+aVGoogle
+p470
+aVdemo
+p471
+aVeconomics
+p472
+aVglobal development
+p473
+aVglobal issues
+p474
+aVhealth
+p475
+aVmath
+p476
+aVstatistics
+p477
+aVvisualizations
+p478
+asS'datecrawled'
+p479
+g460
+(S'\x07\xe1\n\x17\x00\x12+\x08[\x84'
+tRp480
+sS'id'
+p481
+I92
+ss.

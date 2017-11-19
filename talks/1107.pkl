@@ -1,0 +1,644 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThe idea behind the Stuxnet computer worm
+p5
+aVis actually quite simple.
+p6
+aVWe don't want Iran to get the bomb.
+p7
+aVTheir major asset for developing nuclear weapons
+p8
+aVis the Natanz uranium enrichment facility.
+p9
+aVThe gray boxes that you see,
+p10
+aVthese are real-time control systems.
+p11
+aVNow if we manage to compromise these systems
+p12
+aVthat control drive speeds and valves,
+p13
+aVwe can actually cause a lot of problems
+p14
+aVwith the centrifuge.
+p15
+aVThe gray boxes don't run Windows software;
+p16
+aVthey are a completely different technology.
+p17
+aVBut if we manage
+p18
+aVto place a good Windows virus
+p19
+aVon a notebook
+p20
+aVthat is used by a maintenance engineer
+p21
+aVto configure this gray box,
+p22
+aVthen we are in business.
+p23
+aVAnd this is the plot behind Stuxnet.
+p24
+aa(lp25
+VSo we start with a Windows dropper.
+p26
+aVThe payload goes onto the gray box,
+p27
+aVdamages the centrifuge,
+p28
+aVand the Iranian nuclear program is delayed \u2014
+p29
+aVmission accomplished.
+p30
+aVThat's easy, huh?
+p31
+aVI want to tell you how we found that out.
+p32
+aVWhen we started our research on Stuxnet six months ago,
+p33
+aVit was completely unknown what the purpose of this thing was.
+p34
+aVThe only thing that was known
+p35
+aVis it's very, very complex on the Windows part, the dropper part,
+p36
+aVused multiple zero-day vulnerabilities.
+p37
+aVAnd it seemed to want to do something
+p38
+aVwith these gray boxes, these real-time control systems.
+p39
+aVSo that got our attention,
+p40
+aVand we started a lab project
+p41
+aVwhere we infected our environment with Stuxnet
+p42
+aVand checked this thing out.
+p43
+aVAnd then some very funny things happened.
+p44
+aVStuxnet behaved like a lab rat
+p45
+aVthat didn't like our cheese \u2014
+p46
+aVsniffed, but didn't want to eat.
+p47
+aVDidn't make sense to me.
+p48
+aVAnd after we experimented with different flavors of cheese,
+p49
+aVI realized, well, this is a directed attack.
+p50
+aVIt's completely directed.
+p51
+aVThe dropper is prowling actively
+p52
+aVon the gray box
+p53
+aVif a specific configuration is found,
+p54
+aVand even if the actual program code that it's trying to infect
+p55
+aVis actually running on that target.
+p56
+aVAnd if not, Stuxnet does nothing.
+p57
+aa(lp58
+VSo that really got my attention,
+p59
+aVand we started to work on this
+p60
+aVnearly around the clock,
+p61
+aVbecause I thought, "Well, we don't know what the target is.
+p62
+aVIt could be, let's say for example,
+p63
+aVa U.S. power plant,
+p64
+aVor a chemical plant in Germany.
+p65
+aVSo we better find out what the target is soon."
+p66
+aVSo we extracted and decompiled
+p67
+aVthe attack code,
+p68
+aVand we discovered that it's structured in two digital bombs \u2014
+p69
+aVa smaller one and a bigger one.
+p70
+aVAnd we also saw that they are very professionally engineered
+p71
+aVby people who obviously had all insider information.
+p72
+aVThey knew all the bits and bites
+p73
+aVthat they had to attack.
+p74
+aVThey probably even know the shoe size of the operator.
+p75
+aVSo they know everything.
+p76
+aa(lp77
+VAnd if you have heard that the dropper of Stuxnet
+p78
+aVis complex and high-tech,
+p79
+aVlet me tell you this:
+p80
+aVthe payload is rocket science.
+p81
+aVIt's way above everything
+p82
+aVthat we have ever seen before.
+p83
+aVHere you see a sample of this actual attack code.
+p84
+aVWe are talking about \u2014
+p85
+aVaround about 15,000 lines of code.
+p86
+aVLooks pretty much like old-style assembly language.
+p87
+aVAnd I want to tell you how we were able
+p88
+aVto make sense out of this code.
+p89
+aVSo what we were looking for is, first of all, system function calls,
+p90
+aVbecause we know what they do.
+p91
+aa(lp92
+VAnd then we were looking for timers and data structures
+p93
+aVand trying to relate them to the real world \u2014
+p94
+aVto potential real world targets.
+p95
+aVSo we do need target theories
+p96
+aVthat we can prove or disprove.
+p97
+aVIn order to get target theories,
+p98
+aVwe remember
+p99
+aVthat it's definitely hardcore sabotage,
+p100
+aVit must be a high-value target
+p101
+aVand it is most likely located in Iran,
+p102
+aVbecause that's where most of the infections had been reported.
+p103
+aVNow you don't find several thousand targets in that area.
+p104
+aVIt basically boils down
+p105
+aVto the Bushehr nuclear power plant
+p106
+aVand to the Natanz fuel enrichment plant.
+p107
+aa(lp108
+VSo I told my assistant,
+p109
+aV"Get me a list of all centrifuge and power plant experts from our client base."
+p110
+aVAnd I phoned them up and picked their brain
+p111
+aVin an effort to match their expertise
+p112
+aVwith what we found in code and data.
+p113
+aVAnd that worked pretty well.
+p114
+aVSo we were able to associate
+p115
+aVthe small digital warhead
+p116
+aVwith the rotor control.
+p117
+aVThe rotor is that moving part within the centrifuge,
+p118
+aVthat black object that you see.
+p119
+aVAnd if you manipulate the speed of this rotor,
+p120
+aVyou are actually able to crack the rotor
+p121
+aVand eventually even have the centrifuge explode.
+p122
+aVWhat we also saw
+p123
+aVis that the goal of the attack
+p124
+aVwas really to do it slowly and creepy \u2014
+p125
+aVobviously in an effort
+p126
+aVto drive maintenance engineers crazy,
+p127
+aVthat they would not be able to figure this out quickly.
+p128
+aa(lp129
+VThe big digital warhead \u2014 we had a shot at this
+p130
+aVby looking very closely
+p131
+aVat data and data structures.
+p132
+aVSo for example, the number 164
+p133
+aVreally stands out in that code;
+p134
+aVyou can't overlook it.
+p135
+aVI started to research scientific literature
+p136
+aVon how these centrifuges
+p137
+aVare actually built in Natanz
+p138
+aVand found they are structured
+p139
+aVin what is called a cascade,
+p140
+aVand each cascade holds 164 centrifuges.
+p141
+aVSo that made sense, that was a match.
+p142
+aa(lp143
+VAnd it even got better.
+p144
+aVThese centrifuges in Iran
+p145
+aVare subdivided into 15, what is called, stages.
+p146
+aVAnd guess what we found in the attack code?
+p147
+aVAn almost identical structure.
+p148
+aVSo again, that was a real good match.
+p149
+aVAnd this gave us very high confidence for what we were looking at.
+p150
+aVNow don't get me wrong here, it didn't go like this.
+p151
+aVThese results have been obtained
+p152
+aVover several weeks of really hard labor.
+p153
+aVAnd we often went into just a dead end
+p154
+aVand had to recover.
+p155
+aa(lp156
+VAnyway, so we figured out
+p157
+aVthat both digital warheads
+p158
+aVwere actually aiming at one and the same target,
+p159
+aVbut from different angles.
+p160
+aVThe small warhead is taking one cascade,
+p161
+aVand spinning up the rotors and slowing them down,
+p162
+aVand the big warhead
+p163
+aVis talking to six cascades
+p164
+aVand manipulating valves.
+p165
+aVSo in all, we are very confident
+p166
+aVthat we have actually determined what the target is.
+p167
+aVIt is Natanz, and it is only Natanz.
+p168
+aVSo we don't have to worry
+p169
+aVthat other targets
+p170
+aVmight be hit by Stuxnet.
+p171
+aa(lp172
+VHere's some very cool stuff that we saw \u2014
+p173
+aVreally knocked my socks off.
+p174
+aVDown there is the gray box,
+p175
+aVand on the top you see the centrifuges.
+p176
+aVNow what this thing does
+p177
+aVis it intercepts the input values from sensors \u2014
+p178
+aVso for example, from pressure sensors
+p179
+aVand vibration sensors \u2014
+p180
+aVand it provides legitimate program code,
+p181
+aVwhich is still running during the attack,
+p182
+aVwith fake input data.
+p183
+aVAnd as a matter of fact, this fake input data
+p184
+aVis actually prerecorded by Stuxnet.
+p185
+aVSo it's just like from the Hollywood movies
+p186
+aVwhere during the heist,
+p187
+aVthe observation camera is fed with prerecorded video.
+p188
+aVThat's cool, huh?
+p189
+aa(lp190
+VThe idea here is obviously
+p191
+aVnot only to fool the operators in the control room.
+p192
+aVIt actually is much more dangerous and aggressive.
+p193
+aVThe idea
+p194
+aVis to circumvent a digital safety system.
+p195
+aVWe need digital safety systems
+p196
+aVwhere a human operator could not act quick enough.
+p197
+aVSo for example, in a power plant,
+p198
+aVwhen your big steam turbine gets too over speed,
+p199
+aVyou must open relief valves within a millisecond.
+p200
+aVObviously, this cannot be done by a human operator.
+p201
+aVSo this is where we need digital safety systems.
+p202
+aVAnd when they are compromised,
+p203
+aVthen real bad things can happen.
+p204
+aVYour plant can blow up.
+p205
+aVAnd neither your operators nor your safety system will notice it.
+p206
+aVThat's scary.
+p207
+aa(lp208
+VBut it gets worse.
+p209
+aVAnd this is very important, what I'm going to say.
+p210
+aVThink about this:
+p211
+aVthis attack is generic.
+p212
+aVIt doesn't have anything to do, in specifics,
+p213
+aVwith centrifuges,
+p214
+aVwith uranium enrichment.
+p215
+aVSo it would work as well, for example,
+p216
+aVin a power plant
+p217
+aVor in an automobile factory.
+p218
+aVIt is generic.
+p219
+aVAnd you don't have \u2014 as an attacker \u2014
+p220
+aVyou don't have to deliver this payload
+p221
+aVby a USB stick,
+p222
+aVas we saw it in the case of Stuxnet.
+p223
+aVYou could also use conventional worm technology for spreading.
+p224
+aVJust spread it as wide as possible.
+p225
+aVAnd if you do that,
+p226
+aVwhat you end up with
+p227
+aVis a cyber weapon of mass destruction.
+p228
+aVThat's the consequence
+p229
+aVthat we have to face.
+p230
+aVSo unfortunately,
+p231
+aVthe biggest number of targets for such attacks
+p232
+aVare not in the Middle East.
+p233
+aVThey're in the United States and Europe and in Japan.
+p234
+aVSo all of the green areas,
+p235
+aVthese are your target-rich environments.
+p236
+aVWe have to face the consequences,
+p237
+aVand we better start to prepare right now.
+p238
+aa(lp239
+VThanks.
+p240
+aa(lp241
+V(Applause)
+p242
+aa(lp243
+VChris Anderson: I've got a question.
+p244
+aVRalph, it's been quite widely reported
+p245
+aVthat people assume that Mossad
+p246
+aVis the main entity behind this.
+p247
+aVIs that your opinion?
+p248
+aa(lp249
+VRalph Langner: Okay, you really want to hear that?
+p250
+aVYeah. Okay.
+p251
+aVMy opinion is that the Mossad is involved,
+p252
+aVbut that the leading force is not Israel.
+p253
+aVSo the leading force behind that
+p254
+aVis the cyber superpower.
+p255
+aVThere is only one,
+p256
+aVand that's the United States \u2014
+p257
+aVfortunately, fortunately.
+p258
+aVBecause otherwise,
+p259
+aVour problems would even be bigger.
+p260
+aa(lp261
+VCA: Thank you for scaring the living daylights out of us. Thank you, Ralph.
+p262
+aa(lp263
+V(Applause)
+p264
+aasS'transcript_micsec'
+p265
+(lp266
+I11000
+aI64000
+aI150000
+aI195000
+aI229000
+aI267000
+aI316000
+aI345000
+aI377000
+aI410000
+aI451000
+aI496000
+aI577000
+aI579000
+aI585000
+aI598000
+aI624000
+aI628000
+asS'talk_meta'
+p267
+(dp268
+S'ratings'
+p269
+(dp270
+S'ingenious'
+p271
+I145
+sS'funny'
+p272
+I13
+sS'inspiring'
+p273
+I30
+sS'ok'
+p274
+I64
+sS'fascinating'
+p275
+I311
+sS'total_count'
+p276
+I1775
+sS'persuasive'
+p277
+I134
+sS'longwinded'
+p278
+I27
+sS'unconvincing'
+p279
+I29
+sS'informative'
+p280
+I505
+sS'beautiful'
+p281
+I11
+sS'jaw-dropping'
+p282
+I355
+sS'obnoxious'
+p283
+I16
+sS'courageous'
+p284
+I82
+sS'confusing'
+p285
+I53
+ssS'author'
+p286
+VRalph_Langner;
+p287
+sS'url'
+p288
+S'https://www.ted.com/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon'
+p289
+sS'vidlen'
+p290
+I640
+sS'totalviews'
+p291
+I1354400
+sS'title'
+p292
+VCracking Stuxnet, a 21st-century cyber weapon
+p293
+sS'downloadlink'
+p294
+Vhttps://download.ted.com/talks/RalphLangner_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p295
+sS'datepublished'
+p296
+cdatetime
+datetime
+p297
+(S'\x07\xdb\x03\x1d\t\x0c\x00\x00\x00\x00'
+tRp298
+sS'datefilmed'
+p299
+g297
+(S'\x07\xdb\x03\x1d\t\x0c\x00\x00\x00\x00'
+tRp300
+sS'alldata_JSON'
+p301
+S'{"viewed_count": 1354400, "speakers": [{"description": "Security consultant", "firstname": "Ralph", "title": "", "lastname": "Langner", "middleinitial": "", "whylisten": "<p>Ralph Langner heads Langner, an independent cyber-security firm that specializes in control systems -- electronic devices that monitor and regulate other devices, such as manufacturing equipment. These devices&#39; deep connection to the infrastructure that runs our cities and countries has made them, increasingly, the targets of an emerging, highly sophisticated type of cyber-warfare. And since 2010, when the Stuxnet computer worm first reared its head, Langner has stood squarely in the middle of the battlefield.</p><p>As part of a global effort to decode the mysterious program, Langner and his team analyzed Stuxnet&#39;s data structures, and revealed what he believes to be its ultimate intent: the control system software known to run centrifuges in nuclear facilities -- specifically, facilities in Iran. Further analysis by Langner uncovered what seem to be Stuxnet&#39;s shocking origins, which he revealed in <a href=\\"/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon.html\\" target=\\"_blank\\">his TED2011 talk</a>. (PS: <a href=\\"http://arstechnica.com/tech-policy/2012/06/confirmed-us-israel-created-stuxnet-lost-control-of-it/\\" target=\\"_blank\\">He was right</a>.)</p>", "slug": "ralph_langner", "whotheyare": "Ralph Langner is a German control system security consultant. He has received worldwide recognition for his analysis of the Stuxnet malware.", "whatotherssay": "", "id": 960, "photo_url": "https://pe.tedcdn.com/images/ted/168c2505a3d76faeccdf7d419cc61092b8b25046_254x191.jpg"}], "current_talk": 1107, "description": "When first discovered in 2010, the Stuxnet computer worm posed a baffling puzzle. Beyond its sophistication loomed a more troubling mystery: its purpose. Ralph Langner and team helped crack the code that revealed this digital warhead\'s final target. In a fascinating look inside cyber-forensics, he explains how -- and makes a bold (and, it turns out, correct) guess at its shocking origins.", "language": "en", "url": "https://www.ted.com/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RalphLangner_2011-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74139757}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RalphLangner_2011-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14712283}, "podcast-high": {"uri": "https://download.ted.com/talks/RalphLangner_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74124939}, "180k": {"uri": "https://download.ted.com/talks/RalphLangner_2011-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14613796}, "64k": {"uri": "https://download.ted.com/talks/RalphLangner_2011-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5255740}, "1500k": {"uri": "https://download.ted.com/talks/RalphLangner_2011-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116116558}, "450k": {"uri": "https://download.ted.com/talks/RalphLangner_2011-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36101622}, "podcast-regular": {"uri": "https://download.ted.com/talks/RalphLangner_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36271516}, "950k": {"uri": "https://download.ted.com/talks/RalphLangner_2011-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74154380}, "audio-podcast": {"uri": "https://download.ted.com/talks/RalphLangner_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6655629}, "podcast-light": {"uri": "https://download.ted.com/talks/RalphLangner_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5355144}, "320k": {"uri": "https://download.ted.com/talks/RalphLangner_2011-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25906526}, "600k": {"uri": "https://download.ted.com/talks/RalphLangner_2011-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48411184}}}, "comments": {"count": 214, "id": 2640, "talk_id": 1107}, "slug": "ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon", "threadId": 2640, "talks": [{"event": "TED2011", "player_talks": [{"event": "TED2011", "slug": "ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon", "filmed": 1299110400, "targeting": {"event": "TED2011", "tag": "Iran,computers,government,nuclear energy,science,technology,war", "id": 1107, "talk": "ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Cracking Stuxnet, a 21st-century cyber weapon", "postAdDuration": "0.83", "published": 1301404320, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/262a2bfc91f472ffd30afc8f2dec594b0670233f_800x600.jpg?quality=89&w=600", "name": "Ralph Langner: Cracking Stuxnet, a 21st-century cyber weapon", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Iran", "computers", "government", "nuclear energy", "science", "technology", "war"], "speaker": "Ralph Langner", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 640, "id": 1107, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RalphLangner_2011-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2011", "tag": "Iran,computers,government,nuclear energy,science,technology,war", "id": 1107, "talk": "ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1107.json", "stream": "https://hls.ted.com/talks/1107.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2011%26id%3D1107%26tag%3DIran%2Ccomputers%2Cgovernment%2Cnuclear%2Benergy%2Cscience%2Ctechnology%2Cwar%26talk%3Dralph_langner_cracking_stuxnet_a_21st_century_cyberweapon%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/262a2bfc91f472ffd30afc8f2dec594b0670233f_800x600.jpg?q=50&w=15", "duration": 640, "id": 1107, "ratings": [{"count": 53, "id": 2, "name": "Confusing"}, {"count": 27, "id": 11, "name": "Longwinded"}, {"count": 505, "id": 8, "name": "Informative"}, {"count": 311, "id": 22, "name": "Fascinating"}, {"count": 355, "id": 23, "name": "Jaw-dropping"}, {"count": 145, "id": 9, "name": "Ingenious"}, {"count": 134, "id": 24, "name": "Persuasive"}, {"count": 64, "id": 25, "name": "OK"}, {"count": 29, "id": 21, "name": "Unconvincing"}, {"count": 82, "id": 3, "name": "Courageous"}, {"count": 16, "id": 26, "name": "Obnoxious"}, {"count": 30, "id": 10, "name": "Inspiring"}, {"count": 13, "id": 7, "name": "Funny"}, {"count": 11, "id": 1, "name": "Beautiful"}], "speakers": [{"description": "Security consultant", "firstname": "Ralph", "title": "", "lastname": "Langner", "middleinitial": "", "whylisten": "<p>Ralph Langner heads Langner, an independent cyber-security firm that specializes in control systems -- electronic devices that monitor and regulate other devices, such as manufacturing equipment. These devices&#39; deep connection to the infrastructure that runs our cities and countries has made them, increasingly, the targets of an emerging, highly sophisticated type of cyber-warfare. And since 2010, when the Stuxnet computer worm first reared its head, Langner has stood squarely in the middle of the battlefield.</p><p>As part of a global effort to decode the mysterious program, Langner and his team analyzed Stuxnet&#39;s data structures, and revealed what he believes to be its ultimate intent: the control system software known to run centrifuges in nuclear facilities -- specifically, facilities in Iran. Further analysis by Langner uncovered what seem to be Stuxnet&#39;s shocking origins, which he revealed in <a href=\\"/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon.html\\" target=\\"_blank\\">his TED2011 talk</a>. (PS: <a href=\\"http://arstechnica.com/tech-policy/2012/06/confirmed-us-israel-created-stuxnet-lost-control-of-it/\\" target=\\"_blank\\">He was right</a>.)</p>", "slug": "ralph_langner", "whotheyare": "Ralph Langner is a German control system security consultant. He has received worldwide recognition for his analysis of the Stuxnet malware.", "whatotherssay": "", "id": 960, "photo_url": "https://pe.tedcdn.com/images/ted/168c2505a3d76faeccdf7d419cc61092b8b25046_254x191.jpg"}], "title": "Cracking Stuxnet, a 21st-century cyber weapon", "take_action": [], "comments": 2640, "more_resources": [{"status": "approved", "start_at": null, "headline": "To Kill a Centrifuge", "link_url": "http://www.langner.com/en/wp-content/uploads/2013/11/To-kill-a-centrifuge.pdf", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Ralph Langner delves into 21st-century cyber forensics in an extensive report published on his site."}], "hero": "https://pe.tedcdn.com/images/ted/262a2bfc91f472ffd30afc8f2dec594b0670233f_800x600.jpg", "description": "When first discovered in 2010, the Stuxnet computer worm posed a baffling puzzle. Beyond its sophistication loomed a more troubling mystery: its purpose. Ralph Langner and team helped crack the code that revealed this digital warhead\'s final target. In a fascinating look inside cyber-forensics, he explains how -- and makes a bold (and, it turns out, correct) guess at its shocking origins.", "tags": ["Iran", "computers", "government", "nuclear energy", "science", "technology", "war"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RalphLangner_2011-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RalphLangner_2011-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RalphLangner_2011-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RalphLangner_2011-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RalphLangner_2011-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RalphLangner_2011-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RalphLangner_2011-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RalphLangner_2011-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RalphLangner_2011-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RalphLangner_2011-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/RalphLangner_2011-low-fr-ca.mp4"}, "lt": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RalphLangner_2011-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RalphLangner_2011-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RalphLangner_2011-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RalphLangner_2011-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/RalphLangner_2011-low-da.mp4"}, "fi": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/RalphLangner_2011-low-fi.mp4"}, "hu": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RalphLangner_2011-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RalphLangner_2011-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RalphLangner_2011-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/RalphLangner_2011-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RalphLangner_2011-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RalphLangner_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RalphLangner_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RalphLangner_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1107, "audioDownload": "https://download.ted.com/talks/RalphLangner_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 749200, "hero": "https://pe.tedcdn.com/images/ted/82468_800x600.jpg", "title": "A prediction for the future of Iran", "id": 507, "speaker": "Bruce Bueno de Mesquita", "duration": 1145, "slug": "bruce_bueno_de_mesquita_predicts_iran_s_future"}, {"viewed_count": 1464521, "hero": "https://pe.tedcdn.com/images/ted/81787_800x600.jpg", "title": "Military robots and the future of war", "id": 504, "speaker": "P.W. Singer", "duration": 965, "slug": "pw_singer_on_robots_of_war"}, {"viewed_count": 671190, "hero": "https://pe.tedcdn.com/images/ted/414c7fc5b55ac6204b19cec54724e337f6f8c0f0_1600x1200.jpg", "title": "How to survive a nuclear attack", "id": 344, "speaker": "Irwin Redlener", "duration": 1518, "slug": "irwin_redlener_warns_of_nuclear_terrorism"}, {"viewed_count": 474411, "hero": "https://pe.tedcdn.com/images/ted/936b0ce34f35ad688995ebb3211275fc8744d7b8_800x600.jpg", "title": "How cyberattacks threaten real-world peace", "id": 1250, "speaker": "Guy-Philippe Goldstein", "duration": 564, "slug": "guy_philippe_goldstein_how_cyberattacks_threaten_real_world_peace"}, {"viewed_count": 905797, "hero": "https://pe.tedcdn.com/images/ted/8d9b1b48279a10e1ce62389fbe37fbc7c2cb66be_2880x1620.jpg", "title": "The world doesn\'t need more nuclear weapons", "id": 2650, "speaker": "Erika Gregory", "duration": 899, "slug": "erika_gregory_the_world_doesn_t_need_more_nuclear_weapons"}, {"viewed_count": 1022390, "hero": "https://pe.tedcdn.com/images/ted/dfa9208099b4ccc394db436eb4ff2fc0fd18e911_2400x1800.jpg", "title": "The 1s and 0s behind cyber warfare", "id": 2035, "speaker": "Chris Domas", "duration": 1005, "slug": "chris_domas_the_1s_and_0s_behind_cyber_warfare"}], "recorded_at": "2011-03-03T00:00:00.000+00:00", "slug": "ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon", "speaker_name": "Ralph Langner", "viewed_count": 1354400, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2011", "name": "Ralph Langner: Cracking Stuxnet, a 21st-century cyber weapon"}'
+p302
+sS'keywords'
+p303
+(lp304
+VIran
+p305
+aVcomputers
+p306
+aVgovernment
+p307
+aVnuclear energy
+p308
+aVscience
+p309
+aVtechnology
+p310
+aVwar
+p311
+asS'datecrawled'
+p312
+g297
+(S'\x07\xe1\n\x17\x03+\x06\x0ex\xaa'
+tRp313
+sS'id'
+p314
+I1107
+ss.

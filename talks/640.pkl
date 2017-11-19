@@ -1,0 +1,1060 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMy name is Jonathan Zittrain,
+p5
+aVand in my recent work I've been a bit of a pessimist.
+p6
+aVSo I thought this morning I would try to be the optimist,
+p7
+aVand give reason to hope
+p8
+aVfor the future of the Internet
+p9
+aVby drawing upon its present.
+p10
+aa(lp11
+VNow, it may seem like there is less hope today than there was before.
+p12
+aVPeople are less kind. There is less trust around.
+p13
+aVI don't know. As a simple example,
+p14
+aVwe could run a test here.
+p15
+aVHow many people have ever hitchhiked?
+p16
+aVI know. How many people have hitchhiked
+p17
+aVwithin the past 10 years?
+p18
+aVRight. So what has changed?
+p19
+aVIt's not better public transportation.
+p20
+aVSo that's one reason to think that we might be
+p21
+aVdeclensionists, going in the wrong direction.
+p22
+aa(lp23
+VBut I want to give you three examples
+p24
+aVto try to say that the trend line
+p25
+aVis in fact in the other direction,
+p26
+aVand it's the Internet helping it along.
+p27
+aVSo example number one: the Internet itself.
+p28
+aVThese are three of the founders of the Internet.
+p29
+aVThey were actually high school classmates together
+p30
+aVat the same high school in suburban Los Angles in the 1960s.
+p31
+aVYou might have had a French club or a Debate club.
+p32
+aVThey had a "Let's build a global network" club,
+p33
+aVand it worked out very well.
+p34
+aa(lp35
+VThey are pictured here for their 25th anniversary
+p36
+aVNewsweek retrospective on the Internet.
+p37
+aVAnd as you can tell,
+p38
+aVthey are basically goof balls.
+p39
+aVThey had one great limitation
+p40
+aVand one great freedom
+p41
+aVas they tried to conceive of a global network.
+p42
+aVThe limitation was that they didn't have any money.
+p43
+aVNo particular amount of capital to invest,
+p44
+aVof the sort that for a physical network
+p45
+aVyou might need for trucks and people
+p46
+aVand a hub to move packages around overnight.
+p47
+aVThey had none of that.
+p48
+aa(lp49
+VBut they had an amazing freedom,
+p50
+aVwhich was they didn't have to make any money from it.
+p51
+aVThe Internet has no business plan, never did.
+p52
+aVNo CEO,
+p53
+aVno firm responsible, singly, for building it.
+p54
+aVInstead, it's folks getting together
+p55
+aVto do something for fun,
+p56
+aVrather than because they were told to,
+p57
+aVor because they were expecting to make a mint off of it.
+p58
+aa(lp59
+VThat ethos led to a network architecture,
+p60
+aVa structure that was unlike
+p61
+aVother digital networks then or since.
+p62
+aVSo unusual, in fact,
+p63
+aVthat it was said that it's not clear the Internet could work.
+p64
+aVAs late as 1992, IBM was known to say
+p65
+aVyou couldn't possibly build a corporate network
+p66
+aVusing Internet Protocol.
+p67
+aVAnd even some Internet engineers today say
+p68
+aVthe whole thing is a pilot project and the jury is still out.
+p69
+aV(Laughter)
+p70
+aa(lp71
+VThat's why the mascot of Internet engineering,
+p72
+aVif it had one, is said to be the bumblebee.
+p73
+aVBecause the fur-to-wingspan ratio of the bumblebee
+p74
+aVis far too large for it to be able to fly.
+p75
+aVAnd yet, mysteriously, somehow the bee flies.
+p76
+aVI'm pleased to say that, thanks to massive government funding,
+p77
+aVabout three years ago we finally figured out
+p78
+aVhow bees fly.
+p79
+aV(Laughter)
+p80
+aVIt's very complicated, but it turns out they
+p81
+aVflap their wings very quickly.
+p82
+aV(Laughter)
+p83
+aa(lp84
+VSo what is this bizarre architecture configuration
+p85
+aVthat makes the network sing and be so unusual?
+p86
+aVWell, to move data around
+p87
+aVfrom one place to another \u2014 again, it's not like a package courier.
+p88
+aVIt's more like a mosh pit.
+p89
+aV(Laughter)
+p90
+aVImagine, you being part of a network
+p91
+aVwhere, you're maybe at a sporting event,
+p92
+aVand you're sitting in rows like this,
+p93
+aVand somebody asks for a beer,
+p94
+aVand it gets handed at the aisle.
+p95
+aVAnd your neighborly duty
+p96
+aVis to pass the beer along,
+p97
+aVat risk to your own trousers,
+p98
+aVto get it to the destination.
+p99
+aa(lp100
+VNo one pays you to do this.
+p101
+aVIt's just part of your neighborly duty.
+p102
+aVAnd, in a way, that's exactly how packets move around the Internet,
+p103
+aVsometimes in as many as 25 or 30 hops,
+p104
+aVwith the intervening entities
+p105
+aVthat are passing the data around
+p106
+aVhaving no particular contractual or legal obligation
+p107
+aVto the original sender
+p108
+aVor to the receiver.
+p109
+aa(lp110
+VNow, of course, in a mosh pit it's hard to specify a destination.
+p111
+aVYou need a lot of trust,
+p112
+aVbut it's not like, "I'm trying to get to Pensacola, please."
+p113
+aVSo the Internet needs addressing and directions.
+p114
+aVIt turns out there is no one overall map of the Internet.
+p115
+aVInstead, again, it is as if we are all sitting together in a theater,
+p116
+aVbut we can only see amidst the fog
+p117
+aVthe people immediately around us.
+p118
+aVSo what do we do to figure out who is where?
+p119
+aVWe turn to the person on the right,
+p120
+aVand we tell that person what we see on our left,
+p121
+aVand vice versa.
+p122
+aVAnd they can lather, rinse, repeat. And before you know it,
+p123
+aVyou have a general sense of where everything is.
+p124
+aa(lp125
+VThis is how Internet addressing and routing actually work.
+p126
+aVThis is a system that relies on kindness and trust,
+p127
+aVwhich also makes it very delicate and vulnerable.
+p128
+aVIn rare but striking instances,
+p129
+aVa single lie told by just one entity
+p130
+aVin this honeycomb
+p131
+aVcan lead to real trouble.
+p132
+aa(lp133
+VSo, for example, last year,
+p134
+aVthe government of Pakistan
+p135
+aVasked its Internet service providers there
+p136
+aVto prevent citizens of Pakistan from seeing YouTube.
+p137
+aVThere was a video there that the government did not like
+p138
+aVand they wanted to make sure it was blocked.
+p139
+aVThis is a common occurrence. Governments everywhere
+p140
+aVare often trying to block
+p141
+aVand filter and censor content on the Internet.
+p142
+aa(lp143
+VWell this one ISP in Pakistan
+p144
+aVchose to effectuate the block for its subscribers
+p145
+aVin a rather unusual way.
+p146
+aVIt advertised \u2014
+p147
+aVthe way that you might be asked, if you were part of the Internet,
+p148
+aVto declare what you see near you \u2014 it advertised
+p149
+aVthat near it, in fact, it had suddenly awakened to find
+p150
+aVthat it was YouTube.
+p151
+aV"That's right," it said, "I am YouTube."
+p152
+aVWhich meant that packets of data
+p153
+aVfrom subscribers going to YouTube
+p154
+aVstopped at the ISP, since they thought they were already there,
+p155
+aVand the ISP threw them away unopened
+p156
+aVbecause the point was to block it.
+p157
+aa(lp158
+VBut it didn't stop there.
+p159
+aVYou see, that announcement
+p160
+aVwent one click out,
+p161
+aVwhich got reverberated, one click out.
+p162
+aVAnd it turns out that as you look
+p163
+aVat the postmortem of this event,
+p164
+aVyou have at one moment
+p165
+aVperfectly working YouTube.
+p166
+aVThen, at moment number two,
+p167
+aVyou have the fake announcement go out.
+p168
+aVAnd within two minutes,
+p169
+aVit reverberates around
+p170
+aVand YouTube is blocked everywhere in the world.
+p171
+aVIf you were sitting in Oxford, England, trying to get to YouTube,
+p172
+aVyour packets were going to Pakistan
+p173
+aVand they weren't coming back.
+p174
+aa(lp175
+VNow just think about that.
+p176
+aVOne of the most popular websites in the world,
+p177
+aVrun by the most powerful company in the world,
+p178
+aVand there was nothing that YouTube or Google
+p179
+aVwere particularly privileged to do about it.
+p180
+aVAnd yet, somehow, within about two hours,
+p181
+aVthe problem was fixed.
+p182
+aVHow did this happen?
+p183
+aa(lp184
+VWell, for a big clue, we turn to NANOG.
+p185
+aVThe North American Network Operators Group,
+p186
+aVa group of people who,
+p187
+aVon a beautiful day outside,
+p188
+aVenter into a windowless room,
+p189
+aVat their terminals
+p190
+aVreading email and messages
+p191
+aVin fixed proportion font, like this,
+p192
+aVand they talk about networks.
+p193
+aVAnd some of them are mid-level employees at Internet service providers
+p194
+aVaround the world.
+p195
+aVAnd here is the message where one of them says,
+p196
+aV"Looks like we've got a live one. We have a hijacking of YouTube!
+p197
+aVThis is not a drill. It's not just the cluelessness
+p198
+aVof YouTube engineers. I promise.
+p199
+aVSomething is up in Pakistan."
+p200
+aVAnd they came together to help find the problem and fix it.
+p201
+aa(lp202
+VSo it's kind of like if your house catches on fire.
+p203
+aVThe bad news is there is no fire brigade.
+p204
+aVThe good news is random people apparate from nowhere,
+p205
+aVput out the fire and leave without expecting payment or praise.
+p206
+aV(Applause)
+p207
+aVI was trying to think of the right model to describe
+p208
+aVthis form of random acts of kindness
+p209
+aVby geeky strangers.
+p210
+aV(Laughter)
+p211
+aVYou know, it's just like the hail goes out
+p212
+aVand people are ready to help.
+p213
+aVAnd it turns out this model is everywhere, once you start looking for it.
+p214
+aa(lp215
+VExample number two: Wikipedia.
+p216
+aVIf a man named Jimbo came up to you in 2001
+p217
+aVand said, "I've got a great idea! We start with seven articles
+p218
+aVthat anybody can edit anything, at any time,
+p219
+aVand we'll get a great encyclopedia! Eh?"
+p220
+aVRight. Dumbest idea ever.
+p221
+aV(Laughter)
+p222
+aVIn fact, Wikipedia is an idea so profoundly stupid
+p223
+aVthat even Jimbo never had it.
+p224
+aa(lp225
+VJimbo's idea was for Nupedia.
+p226
+aVIt was going to be totally traditional. He would pay people money
+p227
+aVbecause he was feeling like a good guy,
+p228
+aVand the money would go to the people
+p229
+aVand they would write the articles.
+p230
+aVThe wiki was introduced
+p231
+aVso others could make suggestions on edits \u2014
+p232
+aVas almost an afterthought, a back room.
+p233
+aVAnd then it turns out the back room grew
+p234
+aVto encompass the entire project.
+p235
+aa(lp236
+VAnd today, Wikipedia is so ubiquitous
+p237
+aVthat you can now find it on Chinese restaurant menus.
+p238
+aV(Laughter)
+p239
+aVI am not making this up.
+p240
+aV(Laughter)
+p241
+aVI have a theory I can explain later.
+p242
+aVSuffice it to say for now that I prefer my Wikipedia
+p243
+aVstir-fried with pimentos.
+p244
+aV(Laughter)
+p245
+aa(lp246
+VBut now, Wikipedia doesn't just spontaneously work.
+p247
+aVHow does it really work? It turns out
+p248
+aVthere is a back room that is kind of windowless,
+p249
+aVmetaphorically speaking.
+p250
+aVAnd there are a bunch of people who, on a sunny day,
+p251
+aVwould rather be inside
+p252
+aVand monitoring this, the administrator's notice board,
+p253
+aVitself a wiki page that anyone can edit.
+p254
+aVAnd you just bring your problems to the page.
+p255
+aVIt's reminiscent of the description of history
+p256
+aVas "one damn thing after another," right?
+p257
+aa(lp258
+VNumber one: "Tendentious editing by user Andyvphil."
+p259
+aVApologies, Andyvphil, if you're here today.
+p260
+aVI'm not taking sides.
+p261
+aV"Anon attacking me for reverting."
+p262
+aVHere is my favorite: "A long story."
+p263
+aV(Laughter)
+p264
+aVIt turns out there are more people checking this page for problems
+p265
+aVand wanting to solve them
+p266
+aVthan there are problems arising on the page.
+p267
+aa(lp268
+VAnd that's what keeps Wikipedia afloat.
+p269
+aVAt all times, Wikipedia is approximately
+p270
+aV45 minutes away from utter destruction. Right?
+p271
+aVThere are spambots crawling it, trying to turn every article
+p272
+aVinto an ad for a Rolex watch.
+p273
+aV(Laughter)
+p274
+aVIt's this thin geeky line
+p275
+aVthat keeps it going.
+p276
+aVNot because it's a job,
+p277
+aVnot because it's a career,
+p278
+aVbut because it's a calling.
+p279
+aVIt's something they feel impelled to do
+p280
+aVbecause they care about it.
+p281
+aa(lp282
+VThey even gather together in such groups
+p283
+aVas the Counter-Vandalism Unit \u2014
+p284
+aV"Civility, Maturity, Responsibility" \u2014
+p285
+aVto just clean up the pages.
+p286
+aVIt does make you wonder if there were, for instance,
+p287
+aVa massive, extremely popular Star Trek convention one weekend,
+p288
+aVwho would be minding the store?
+p289
+aV(Laughter)
+p290
+aa(lp291
+VSo what we see \u2014
+p292
+aV(Laughter)
+p293
+aVwhat we see in this phenomenon
+p294
+aVis something that the crazed, late traffic engineer
+p295
+aVHans Monderman discovered in the Netherlands,
+p296
+aVand here in South Kensington, that sometimes
+p297
+aVif you remove some of the external rules and signs and everything else,
+p298
+aVyou can actually end up
+p299
+aVwith a safer environment in which people can function,
+p300
+aVand one in which they are more human with each other.
+p301
+aVThey're realizing that they
+p302
+aVhave to take responsibility for what they do.
+p303
+aVAnd Wikipedia has embraced this.
+p304
+aa(lp305
+VSome of you may remember Star Wars Kid,
+p306
+aVthe poor teenager who filmed himself with a golf ball retriever,
+p307
+aVacting as if it were a light saber.
+p308
+aVThe film, without his permission or even knowledge at first,
+p309
+aVfound its way onto the Internet.
+p310
+aVHugely viral video. Extremely popular.
+p311
+aVTotally mortifying to him.
+p312
+aa(lp313
+VNow, it being encyclopedic and all,
+p314
+aVWikipedia had to do an article about Star Wars Kid.
+p315
+aVEvery article on Wikipedia has a corresponding discussion page,
+p316
+aVand on the discussion page
+p317
+aVthey had extensive argument among the Wikipedians
+p318
+aVas to whether to have his real name
+p319
+aVfeatured in the article.
+p320
+aVYou could see arguments on both sides.
+p321
+aVHere is just a snapshot of some of them.
+p322
+aVThey eventually decided \u2014
+p323
+aVnot unanimously by any means \u2014
+p324
+aVnot to include his real name,
+p325
+aVdespite the fact that nearly all media reports did.
+p326
+aVThey just didn't think it was the right thing to do.
+p327
+aVIt was an act of kindness.
+p328
+aa(lp329
+VAnd to this day, the page for Star Wars Kid
+p330
+aVhas a warning right at the top
+p331
+aVthat says you are not to put his real name on the page.
+p332
+aVIf you do, it will be removed immediately,
+p333
+aVremoved by people who may have disagreed with the original decision,
+p334
+aVbut respect the outcome
+p335
+aVand work to make it stay
+p336
+aVbecause they believe in something bigger than their own opinion.
+p337
+aVAs a lawyer, I've got to say these guys are inventing the law
+p338
+aVand stare decisis and stuff like that as they go along.
+p339
+aa(lp340
+VNow, this isn't just limited to Wikipedia.
+p341
+aVWe see it on blogs all over the place.
+p342
+aVI mean, this is a 2005 Business Week cover.
+p343
+aVWow. Blogs are going to change your business.
+p344
+aVI know they look silly. And sure they look silly.
+p345
+aVThey start off on all sorts of goofy projects.
+p346
+aa(lp347
+VThis is my favorite goofy blog:
+p348
+aVCatsthatlooklikehitler.com.
+p349
+aV(Laughter)
+p350
+aVYou send in a picture of your cat
+p351
+aVif it looks like Hitler.
+p352
+aV(Laughter)
+p353
+aVYeah, I know. Number four, it's like, can you imagine
+p354
+aVcoming home to that cat everyday?
+p355
+aV(Laughter)
+p356
+aa(lp357
+VBut then, you can see the same kind of whimsy
+p358
+aVapplied to people.
+p359
+aVSo this is a blog devoted to unfortunate portraiture.
+p360
+aVThis one says, "Bucolic meadow with split-rail fence.
+p361
+aVIs that an animal carcass behind her?"
+p362
+aV(Laughter)
+p363
+aVYou're like, "You know? I think that's an animal carcass
+p364
+aVbehind her."
+p365
+aa(lp366
+VAnd it's one after the other.
+p367
+aVBut then you hit this one. Image removed at request of owner.
+p368
+aVThat's it. Image removed at request of owner.
+p369
+aVIt turns out that somebody lampooned here
+p370
+aVwrote to the snarky guy that does the site,
+p371
+aVnot with a legal threat, not with an offer of payment,
+p372
+aVbut just said, "Hey, would you mind?"
+p373
+aVThe person said, "No, that's fine."
+p374
+aa(lp375
+VI believe we can build architectures online
+p376
+aVto make such human requests
+p377
+aVthat much easier to do,
+p378
+aVto make it possible for all of us to see
+p379
+aVthat the data we encounter online
+p380
+aVis just stuff on which to click and paste and copy and forward
+p381
+aVthat actually represents human emotion
+p382
+aVand endeavor and impact,
+p383
+aVand to be able to have an ethical moment
+p384
+aVwhere we decide how we want to treat it.
+p385
+aa(lp386
+VI even think it can go into the real world.
+p387
+aVWe can end up, as we get in a world with more censors \u2014
+p388
+aVeverywhere there is something filming you, maybe putting it online \u2014
+p389
+aVto be able to have a little clip you could wear
+p390
+aVthat says, "You know, I'd rather not."
+p391
+aVAnd then have technology
+p392
+aVthat the person taking the photo will know later,
+p393
+aVthis person requested to be contacted
+p394
+aVbefore this goes anywhere big,
+p395
+aVif you don't mind.
+p396
+aVAnd that person taking the photo can make a decision
+p397
+aVabout how and whether to respect it.
+p398
+aa(lp399
+VIn the real world, we see filtering of this sort
+p400
+aVtaking place in Pakistan.
+p401
+aVAnd we now have means that we can build, like this system,
+p402
+aVso that people can report the filtering as they encounter it.
+p403
+aVAnd it's no longer just a "I don't know. I couldn't get there. I guess I'll move on,"
+p404
+aVbut suddenly a collective consciousness
+p405
+aVabout what is blocked and censored
+p406
+aVwhere online.
+p407
+aVIn fact, talk about technology imitating life
+p408
+aVimitating tech, or maybe it's the other way around.
+p409
+aa(lp410
+VAn NYU researcher here took little cardboard robots
+p411
+aVwith smiley faces on them,
+p412
+aVand a motor that just drove them forward
+p413
+aVand a flag sticking out the back
+p414
+aVwith a desired destination.
+p415
+aVIt said, "Can you help me get there?"
+p416
+aVReleased it on the streets of Manhattan.
+p417
+aV(Laughter)
+p418
+aVThey'll fund anything these days.
+p419
+aVHere is the chart of over 43 people
+p420
+aVhelping to steer the robot that could not steer
+p421
+aVand get it on its way, from one corner
+p422
+aVfrom one corner of Washington Square Park
+p423
+aVto another.
+p424
+aa(lp425
+VThat leads to example number three: hitchhiking.
+p426
+aVI'm not so sure hitchhiking is dead.
+p427
+aVWhy? There is the Craigslist rideshare board.
+p428
+aVIf it were called the Craigslist hitchhiking board,
+p429
+aVtumbleweeds would be blowing through it.
+p430
+aVBut it's the rideshare board, and it's basically the same thing.
+p431
+aVNow why are people using it?
+p432
+aVI don't know. Maybe they think that, uh, killers don't plan ahead?
+p433
+aV(Laughter)
+p434
+aVNo. I think the actual answer is
+p435
+aVthat once you reframe it,
+p436
+aVonce you get out of one set of stale expectations
+p437
+aVfrom a failed project that had its day,
+p438
+aVbut now, for whatever reason, is tarnished,
+p439
+aVyou can actually rekindle the kind of human kindness and sharing
+p440
+aVthat something like this on Craigslist represents.
+p441
+aa(lp442
+VAnd then you can highlight it
+p443
+aVinto something like,
+p444
+aVyes, CouchSurfing.org.
+p445
+aVCouchSurfing: one guy's idea
+p446
+aVto, at last, put together people who are going somewhere far away
+p447
+aVand would like to sleep on a stranger's couch for free,
+p448
+aVwith people who live far away,
+p449
+aVand would like someone they don't know to sleep on their couch for free.
+p450
+aVIt's a brilliant idea.
+p451
+aVIt's a bee that, yes, flies.
+p452
+aa(lp453
+VAmazing how many successful couch surfings there have been.
+p454
+aVAnd if you're wondering, no, there have been no known fatalities
+p455
+aVassociated with CouchSurfing.
+p456
+aVAlthough, to be sure, the reputation system, at the moment,
+p457
+aVworks that you leave your report after the couch surfing experience,
+p458
+aVso there may be some selection bias there.
+p459
+aV(Laughter)
+p460
+aa(lp461
+VSo, my urging, my thought,
+p462
+aVis that the Internet isn't just a pile of information.
+p463
+aVIt's not a noun. It's a verb.
+p464
+aVAnd when you go on it,
+p465
+aVif you listen and see carefully and closely enough,
+p466
+aVwhat you will discover
+p467
+aVis that that information
+p468
+aVis saying something to you.
+p469
+aVWhat it's saying to you is what we heard yesterday,
+p470
+aVDemosthenes was saying to us.
+p471
+aVIt's saying, "Let's march." Thank you very much.
+p472
+aV(Applause)
+p473
+aasS'transcript_micsec'
+p474
+(lp475
+I11000
+aI27000
+aI66000
+aI98000
+aI133000
+aI160000
+aI191000
+aI226000
+aI263000
+aI287000
+aI327000
+aI348000
+aI371000
+aI407000
+aI444000
+aI465000
+aI508000
+aI547000
+aI574000
+aI595000
+aI621000
+aI649000
+aI673000
+aI705000
+aI728000
+aI765000
+aI785000
+aI821000
+aI850000
+aI865000
+aI888000
+aI908000
+aI928000
+aI955000
+aI985000
+aI1014000
+aI1048000
+aI1097000
+aI1127000
+aI1149000
+asS'talk_meta'
+p476
+(dp477
+S'ratings'
+p478
+(dp479
+S'ingenious'
+p480
+I68
+sS'funny'
+p481
+I364
+sS'inspiring'
+p482
+I434
+sS'ok'
+p483
+I47
+sS'fascinating'
+p484
+I251
+sS'total_count'
+p485
+I1750
+sS'persuasive'
+p486
+I156
+sS'longwinded'
+p487
+I16
+sS'informative'
+p488
+I237
+sS'beautiful'
+p489
+I64
+sS'jaw-dropping'
+p490
+I40
+sS'obnoxious'
+p491
+I12
+sS'confusing'
+p492
+I9
+sS'courageous'
+p493
+I30
+sS'unconvincing'
+p494
+I22
+ssS'author'
+p495
+VJonathan_Zittrain;
+p496
+sS'url'
+p497
+S'https://www.ted.com/talks/jonathan_zittrain_the_web_is_a_random_act_of_kindness'
+p498
+sS'vidlen'
+p499
+I1191
+sS'totalviews'
+p500
+I720809
+sS'title'
+p501
+VThe Web as random acts of kindness
+p502
+sS'downloadlink'
+p503
+Vhttps://download.ted.com/talks/JonathanZittrain_2009G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p504
+sS'datepublished'
+p505
+cdatetime
+datetime
+p506
+(S'\x07\xd9\t\x14\x15\x00\x00\x00\x00\x00'
+tRp507
+sS'datefilmed'
+p508
+g506
+(S'\x07\xd9\t\x14\x15\x00\x00\x00\x00\x00'
+tRp509
+sS'alldata_JSON'
+p510
+S'{"viewed_count": 720809, "speakers": [{"description": "Net watchdog", "firstname": "Jonathan", "title": "", "lastname": "Zittrain", "middleinitial": "", "whylisten": "<p>The increasing proliferation of &quot;tethered&quot; devices, from iPhones to Xboxes, is only one of countless threats to the freewheeling Internet as we know it. There&#39;s also spam, malware, misguided legislation and a drift away from what Internet law expert Jonathan Zittrain calls &quot;generativity&quot; -- a system&#39;s receptivity to unanticipated (and innovative) change instigated by myriad users. <br /><br />Harvard law professor Zittrain, as an investigator for the OpenNet initiative and co-founder of Harvard&#39;s Berkman Center for Internet and Society, has long studied the legal, technological and world-shaking aspects of quickly morphing virtual terrains. He performed the first large-scale tests of Internet filtering in China and Saudi Arabia in 2002. His initiatives include projects to fight malware (StopBadware) and ChillingEffects, a site designed to support open content by tracking legal threats to individual users.</p>", "slug": "jonathan_zittrain", "whotheyare": "Jonathan Zittrain wants to make sure the electronic frontier stays open -- and he\'s looking to the Internet\'s millions of users for its salvation.", "whatotherssay": "Zittrain\'s book, The Future of the Internet and How to Stop It, sounds ... a klaxon calling to arms everyone who believes that platforms open to user innovation should rule the world, not tethered, sterile appliances that are controlled only by their designers.", "id": 493, "photo_url": "https://pe.tedcdn.com/images/ted/117053_254x191.jpg"}], "current_talk": 640, "description": "Feeling like the world is becoming less friendly? Social theorist Jonathan Zittrain begs to differ. The Internet, he suggests, is made up of millions of disinterested acts of kindness, curiosity and trust.", "language": "en", "url": "https://www.ted.com/talks/jonathan_zittrain_the_web_is_a_random_act_of_kindness", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139732928}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27278812}, "podcast-high": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 150560297}, "180k": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27015343}, "64k": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9742976}, "1500k": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 218465203}, "450k": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67295004}, "podcast-regular": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78416194}, "950k": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139315505}, "audio-podcast": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 12093967}, "podcast-light": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20714047}, "320k": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47851619}, "600k": {"uri": "https://download.ted.com/talks/JonathanZittrain_2009G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89912895}}}, "comments": {"count": 96, "id": 522, "talk_id": 640}, "slug": "jonathan_zittrain_the_web_is_a_random_act_of_kindness", "threadId": 522, "talks": [{"event": "TEDGlobal 2009", "player_talks": [{"event": "TEDGlobal 2009", "slug": "jonathan_zittrain_the_web_is_a_random_act_of_kindness", "filmed": 1248220800, "targeting": {"event": "TEDGlobal 2009", "tag": "Internet,culture,law,technology,web,wikipedia", "id": 640, "talk": "jonathan_zittrain_the_web_is_a_random_act_of_kindness", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "The Web as random acts of kindness", "postAdDuration": "0.83", "published": 1253494800, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/117051_800x600.jpg?quality=89&w=600", "name": "Jonathan Zittrain: The Web as random acts of kindness", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "culture", "law", "technology", "web", "wikipedia"], "speaker": "Jonathan Zittrain", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1191, "id": 640, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JonathanZittrain_2009G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2009", "tag": "Internet,culture,law,technology,web,wikipedia", "id": 640, "talk": "jonathan_zittrain_the_web_is_a_random_act_of_kindness", "year": "2009"}, "metadata": "https://hls.ted.com/talks/640.json", "stream": "https://hls.ted.com/talks/640.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2009%26id%3D640%26tag%3DInternet%2Cculture%2Claw%2Ctechnology%2Cweb%2Cwikipedia%26talk%3Djonathan_zittrain_the_web_is_a_random_act_of_kindness%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jonathan_zittrain_the_web_is_a_random_act_of_kindness"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/117051_800x600.jpg?q=50&w=15", "duration": 1191, "id": 640, "ratings": [{"count": 22, "id": 21, "name": "Unconvincing"}, {"count": 237, "id": 8, "name": "Informative"}, {"count": 364, "id": 7, "name": "Funny"}, {"count": 156, "id": 24, "name": "Persuasive"}, {"count": 251, "id": 22, "name": "Fascinating"}, {"count": 68, "id": 9, "name": "Ingenious"}, {"count": 12, "id": 26, "name": "Obnoxious"}, {"count": 9, "id": 2, "name": "Confusing"}, {"count": 64, "id": 1, "name": "Beautiful"}, {"count": 30, "id": 3, "name": "Courageous"}, {"count": 47, "id": 25, "name": "OK"}, {"count": 16, "id": 11, "name": "Longwinded"}, {"count": 40, "id": 23, "name": "Jaw-dropping"}, {"count": 434, "id": 10, "name": "Inspiring"}], "speakers": [{"description": "Net watchdog", "firstname": "Jonathan", "title": "", "lastname": "Zittrain", "middleinitial": "", "whylisten": "<p>The increasing proliferation of &quot;tethered&quot; devices, from iPhones to Xboxes, is only one of countless threats to the freewheeling Internet as we know it. There&#39;s also spam, malware, misguided legislation and a drift away from what Internet law expert Jonathan Zittrain calls &quot;generativity&quot; -- a system&#39;s receptivity to unanticipated (and innovative) change instigated by myriad users. <br /><br />Harvard law professor Zittrain, as an investigator for the OpenNet initiative and co-founder of Harvard&#39;s Berkman Center for Internet and Society, has long studied the legal, technological and world-shaking aspects of quickly morphing virtual terrains. He performed the first large-scale tests of Internet filtering in China and Saudi Arabia in 2002. His initiatives include projects to fight malware (StopBadware) and ChillingEffects, a site designed to support open content by tracking legal threats to individual users.</p>", "slug": "jonathan_zittrain", "whotheyare": "Jonathan Zittrain wants to make sure the electronic frontier stays open -- and he\'s looking to the Internet\'s millions of users for its salvation.", "whatotherssay": "Zittrain\'s book, The Future of the Internet and How to Stop It, sounds ... a klaxon calling to arms everyone who believes that platforms open to user innovation should rule the world, not tethered, sterile appliances that are controlled only by their designers.", "id": 493, "photo_url": "https://pe.tedcdn.com/images/ted/117053_254x191.jpg"}], "title": "The Web as random acts of kindness", "take_action": [], "comments": 522, "more_resources": [{"status": "approved", "publisher": "Yale University Press", "start_at": null, "author": "Jonathan Zittrain", "headline": "*The Future of the Internet and How to Stop It*", "link_url": "http://www.amazon.com/Future-Internet---How-Stop/dp/0300151241/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/5912fb9c843ef9000572de8b770b19ad8f71cc6a_450x689.jpg", "year": "2009", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/117051_800x600.jpg", "description": "Feeling like the world is becoming less friendly? Social theorist Jonathan Zittrain begs to differ. The Internet, he suggests, is made up of millions of disinterested acts of kindness, curiosity and trust.", "tags": ["Internet", "culture", "law", "technology", "web", "wikipedia"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-bg.mp4"}, "es": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-hy.mp4"}, "de": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-de.mp4"}, "ja": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-mk.mp4"}, "uk": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JonathanZittrain_2009G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JonathanZittrain_2009G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JonathanZittrain_2009G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 640, "audioDownload": "https://download.ted.com/talks/JonathanZittrain_2009G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1115239, "hero": "https://pe.tedcdn.com/images/ted/24d2cdd703346a33bc9d7e6be0b4c9bdc9dd4b9a_1600x1200.jpg", "title": "The birth of Wikipedia", "id": 37, "speaker": "Jimmy Wales", "duration": 1201, "slug": "jimmy_wales_on_the_birth_of_wikipedia"}, {"viewed_count": 2097882, "hero": "https://pe.tedcdn.com/images/ted/2cc6d3a7f29dff9bb21d734f462bb07e8457a2ca_1600x1200.jpg", "title": "The surprising decline in violence", "id": 163, "speaker": "Steven Pinker", "duration": 1155, "slug": "steven_pinker_on_the_myth_of_violence"}, {"viewed_count": 1902381, "hero": "https://pe.tedcdn.com/images/ted/01726ef3620b97fcc2a664e1339c6602785123f7_1600x1200.jpg", "title": "Laws that choke creativity", "id": 187, "speaker": "Lawrence Lessig", "duration": 1136, "slug": "larry_lessig_says_the_law_is_strangling_creativity"}, {"viewed_count": 1270674, "hero": "https://pe.tedcdn.com/images/ted/fc7b6c0a7974f84b6fd218a3409eb5248d214aad_1600x1200.jpg", "title": "The Internet could crash. We need a Plan B", "id": 1693, "speaker": "Danny Hillis", "duration": 751, "slug": "danny_hillis_the_internet_could_crash_we_need_a_plan_b"}, {"viewed_count": 431621, "hero": "https://pe.tedcdn.com/images/ted/117223_800x600.jpg", "title": "How the Net aids dictatorships", "id": 641, "speaker": "Evgeny Morozov", "duration": 713, "slug": "evgeny_morozov_is_the_internet_what_orwell_feared"}, {"viewed_count": 1823310, "hero": "https://pe.tedcdn.com/images/ted/387_480x360.jpg", "title": "If I controlled the Internet", "id": 26, "speaker": "Rives", "duration": 247, "slug": "rives_controls_the_internet"}], "recorded_at": "2009-07-22T00:00:00.000+00:00", "slug": "jonathan_zittrain_the_web_is_a_random_act_of_kindness", "speaker_name": "Jonathan Zittrain", "viewed_count": 720809, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2009", "name": "Jonathan Zittrain: The Web as random acts of kindness"}'
+p511
+sS'keywords'
+p512
+(lp513
+VInternet
+p514
+aVculture
+p515
+aVlaw
+p516
+aVtechnology
+p517
+aVweb
+p518
+aVwikipedia
+p519
+asS'datecrawled'
+p520
+g506
+(S'\x07\xe1\n\x17\x0004\t\xa4\xe7'
+tRp521
+sS'id'
+p522
+I640
+ss.

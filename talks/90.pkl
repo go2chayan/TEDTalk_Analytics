@@ -1,0 +1,858 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThis meeting has really been about a digital revolution,
+p5
+aVbut I'd like to argue that it's done; we won.
+p6
+aVWe've had a digital revolution but we don't need to keep having it.
+p7
+aVAnd I'd like to look after that,
+p8
+aVto look what comes after the digital revolution.
+p9
+aVSo, let me start projecting forward.
+p10
+aVThese are some projects I'm involved in today at MIT,
+p11
+aVlooking what comes after computers.
+p12
+aa(lp13
+VThis first one, Internet Zero, up here \u2014 this is a web server
+p14
+aVthat has the cost and complexity of an RFID tag \u2014
+p15
+aVabout a dollar \u2014 that can go in every light bulb and doorknob,
+p16
+aVand this is getting commercialized very quickly.
+p17
+aVAnd what's interesting about it isn't the cost;
+p18
+aVit's the way it encodes the Internet.
+p19
+aVIt uses a kind of a Morse code for the Internet
+p20
+aVso you could send it optically; you can communicate acoustically
+p21
+aVthrough a power line, through RF.
+p22
+aVIt takes the original principle of the Internet,
+p23
+aVwhich is inter-networking computers,
+p24
+aVand now lets devices inter-network.
+p25
+aVThat we can take the whole idea that gave birth to the Internet
+p26
+aVand bring it down to the physical world in this Internet Zero,
+p27
+aVthis internet of devices.
+p28
+aa(lp29
+VSo this is the next step from there to here,
+p30
+aVand this is getting commercialized today.
+p31
+aVA step after that is a project on fungible computers.
+p32
+aVFungible goods in economics can be extended and traded.
+p33
+aVSo, half as much grain is half as much useful,
+p34
+aVbut half a baby or half a computer is less useful than
+p35
+aVa whole baby or a whole computer,
+p36
+aVand we've been trying to make computers that work that way.
+p37
+aVSo, what you see in the background is a prototype.
+p38
+aVThis was from a thesis of a student, Bill Butow, now at Intel,
+p39
+aVwho wondered why, instead of making bigger and bigger chips,
+p40
+aVyou don't make small chips, put them in a viscous medium,
+p41
+aVand pour out computing by the pound or by the square inch.
+p42
+aVAnd that's what you see here.
+p43
+aVOn the left was postscript being rendered by a conventional computer;
+p44
+aVon the right is postscript being rendered from the first prototype
+p45
+aVwe made, but there's no frame buffer, IO processor,
+p46
+aVany of that stuff \u2014 it's just this material.
+p47
+aVUnlike this screen where the dots are placed carefully,
+p48
+aVthis is a raw material.
+p49
+aVIf you add twice as much of it, you have twice as much display.
+p50
+aVIf you shoot a gun through the middle, nothing happens.
+p51
+aVIf you need more resource, you just apply more computer.
+p52
+aa(lp53
+VSo, that's the step after this \u2014 of computing as a raw material.
+p54
+aVThat's still conventional bits, the step after that is \u2014
+p55
+aVthis is an earlier prototype in the lab;
+p56
+aVthis is high-speed video slowed down.
+p57
+aVNow, integrating chemistry in computation, where the bits are bubbles.
+p58
+aVThis is showing making bits, this is showing \u2014
+p59
+aVonce again, slowed down so you can see it,
+p60
+aVbits interacting to do logic and multiplexing and de-multiplexing.
+p61
+aVSo, now we can compute that the output arranges material
+p62
+aVas well as information. And, ultimately, these are some slides
+p63
+aVfrom an early project I did, computing where the bits are stored
+p64
+aVquantum-mechanically in the nuclei of atoms, so
+p65
+aVprograms rearrange the nuclear structure of molecules.
+p66
+aVAll of these are in the lab pushing further and further and further,
+p67
+aVnot as metaphor but literally integrating bits and atoms,
+p68
+aVand they lead to the following recognition.
+p69
+aa(lp70
+VWe all know we've had a digital revolution, but what is that?
+p71
+aVWell, Shannon took us, in the '40s, from here to here:
+p72
+aVfrom a telephone being a speaker wire that degraded with distance
+p73
+aVto the Internet. And he proved the first threshold theorem, that shows
+p74
+aVif you add information and remove it to a signal,
+p75
+aVyou can compute perfectly with an imperfect device.
+p76
+aVAnd that's when we got the Internet.
+p77
+aVVon Neumann, in the '50s, did the same thing for computing;
+p78
+aVhe showed you can have an unreliable computer but restore its state
+p79
+aVto make it perfect. This was the last great analog computer at MIT:
+p80
+aVa differential analyzer, and the more you ran it,
+p81
+aVthe worse the answer got.
+p82
+aa(lp83
+VAfter Von Neumann, we have the Pentium, where the billionth transistor
+p84
+aVis as reliable as the first one.
+p85
+aVBut all our fabrication is down in this lower left corner.
+p86
+aVA state-of-the-art airplane factory rotating metal wax at fixed metal,
+p87
+aVor you maybe melt some plastic. A 10-billion-dollar chip fab
+p88
+aVuses a process a village artisan would recognize \u2014
+p89
+aVyou spread stuff around and bake it.
+p90
+aVAll the intelligence is external to the system;
+p91
+aVthe materials don't have information.
+p92
+aVYesterday you heard about molecular biology,
+p93
+aVwhich fundamentally computes to build.
+p94
+aVIt's an information processing system.
+p95
+aVWe've had digital revolutions in communication and computation,
+p96
+aVbut precisely the same idea, precisely the same math
+p97
+aVShannon and Von Neuman did, hasn't yet come out
+p98
+aVto the physical world. So, inspired by that,
+p99
+aVcolleagues in this program \u2014 the Center for Bits and Atoms
+p100
+aVat MIT \u2014 which is a group of people, like me,
+p101
+aVwho never understood the boundary between physical science
+p102
+aVand computer science. I would even go further and say
+p103
+aVcomputer science is one of the worst things that ever happened
+p104
+aVto either computers or to science \u2014
+p105
+aV(Laughter)
+p106
+aV\u2014 because the canon \u2014 computer science \u2014
+p107
+aVmany of them are great but the canon of computer science
+p108
+aVprematurely froze a model of computation
+p109
+aVbased on technology that was available in 1950,
+p110
+aVand nature's a much more powerful computer than that.
+p111
+aa(lp112
+VSo, you'll hear, tomorrow, from Saul Griffith. He was one of the
+p113
+aVfirst students to emerge from this program.
+p114
+aVWe started to figure out how you can compute to fabricate.
+p115
+aVThis was just a proof of principle he did of tiles
+p116
+aVthat interact magnetically, where you write a code,
+p117
+aVmuch like protein folding, that specifies their structure.
+p118
+aVSo, there's no feedback to a tool metrology;
+p119
+aVthe material itself codes for its structure in just the same ways
+p120
+aVthat protein are fabricated. So, you can, for example, do that.
+p121
+aVYou can do other things. That's in 2D. It works in 3D.
+p122
+aVThe video on the upper right \u2014 I won't show for time \u2014
+p123
+aVshows self-replication, templating so something can make something
+p124
+aVthat can make something, and we're doing that now over, maybe,
+p125
+aVnine orders of magnitude. Those ideas have been used to show
+p126
+aVthe best fidelity and direct rate DNA to make an organism,
+p127
+aVin functionalizing nanoclusters with peptide tails
+p128
+aVthat code for their assembly \u2014 so, much like the magnets,
+p129
+aVbut now on nanometer scales.
+p130
+aVLaser micro-machining: essentially 3D printers that digitally fabricate
+p131
+aVfunctional systems, all the way up to building buildings,
+p132
+aVnot by having blueprints,
+p133
+aVbut having the parts code for the structure of the building.
+p134
+aa(lp135
+VSo, these are early examples in the lab of emerging technologies
+p136
+aVto digitize fabrication. Computers that don't control tools
+p137
+aVbut computers that are tools, where the output of a program
+p138
+aVrearranges atoms as well as bits.
+p139
+aVNow, to do that \u2014 with your tax dollars, thank you \u2014
+p140
+aVI bought all these machines. We made a modest proposal
+p141
+aVto the NSF. We wanted to be able to make anything on any length scale,
+p142
+aVall in one place, because you can't segregate digital fabrication
+p143
+aVby a discipline or a length scale.
+p144
+aVSo we put together focused nano beam writers
+p145
+aVand supersonic water jet cutters and excimer micro-machining systems.
+p146
+aa(lp147
+VBut I had a problem. Once I had all these machines,
+p148
+aVI was spending too much time teaching students to use them.
+p149
+aVSo I started teaching a class, modestly called,
+p150
+aV"How To Make Almost Anything." And that wasn't meant to be provocative;
+p151
+aVit was just for a few research students.
+p152
+aVBut the first day of class looked like this.
+p153
+aVYou know, hundreds of people came in begging,
+p154
+aVall my life I've been waiting for this class; I'll do anything to do it.
+p155
+aVThen they'd ask, can you teach it at MIT? It seems too useful?
+p156
+aVAnd then the next \u2014
+p157
+aV(Laughter)
+p158
+aV\u2014 surprising thing was they weren't there to do research.
+p159
+aVThey were there because they wanted to make stuff.
+p160
+aVThey had no conventional technical background.
+p161
+aVAt the end of a semester they integrated their skills.
+p162
+aa(lp163
+VI'll show an old video. Kelly was a sculptor, and this is what she did
+p164
+aVwith her semester project.
+p165
+aa(lp166
+V(Video): Kelly: Hi, I'm Kelly and this is my scream buddy.
+p167
+aVDo you ever find yourself in a situation
+p168
+aVwhere you really have to scream, but you can't because you're at work,
+p169
+aVor you're in a classroom, or you're watching your children,
+p170
+aVor you're in any number of situations where it's just not permitted?
+p171
+aVWell, scream buddy is a portable space for screaming.
+p172
+aVWhen a user screams into scream buddy, their scream is silenced.
+p173
+aVIt is also recorded for later release where, when and how
+p174
+aVthe user chooses.
+p175
+aV(Scream)
+p176
+aV(Laughter) (Applause)
+p177
+aa(lp178
+VSo, Einstein would like this.
+p179
+aVThis student made a web browser for parrots \u2014
+p180
+aVlets parrots surf the Net and talk to other parrots.
+p181
+aVThis student's made an alarm clock you wrestle
+p182
+aVto prove you're awake; this is one that defends \u2014
+p183
+aVa dress that defends your personal space.
+p184
+aVThis isn't technology for communication;
+p185
+aVit's technology to prevent it.
+p186
+aVThis is a device that lets you see your music.
+p187
+aVThis is a student who made a machine that makes machines,
+p188
+aVand he made it by making Lego bricks that do the computing.
+p189
+aVJust year after year \u2014 and I finally realized
+p190
+aVthe students were showing the killer app of personal fabrication
+p191
+aVis products for a market of one person.
+p192
+aVYou don't need this for what you can get in Wal-Mart;
+p193
+aVyou need this for what makes you unique.
+p194
+aVKen Olsen famously said, nobody needs a computer in the home.
+p195
+aVBut you don't use it for inventory and payroll;
+p196
+aVDEC is now twice bankrupt. You don't need personal fabrication
+p197
+aVin the home to buy what you can buy because you can buy it.
+p198
+aVYou need it for what makes you unique, just like personalization.
+p199
+aVSo, with that, in turn, 20 million dollars today does this;
+p200
+aV20 years from now we'll make Star Trek replicators that make anything.
+p201
+aVThe students hijacked all the machines I bought to do personal fabrication.
+p202
+aa(lp203
+VToday, when you spend that much of your money,
+p204
+aVthere's a government requirement to do outreach, which often means
+p205
+aVclasses at a local school, a website \u2014 stuff that's just not that exciting.
+p206
+aVSo, I made a deal with my NSF program managers that
+p207
+aVinstead of talking about it, I'd give people the tools.
+p208
+aVThis wasn't meant to be provocative or important,
+p209
+aVbut we put together these Fab Labs. It's about 20,000 dollars in equipment
+p210
+aVthat approximate both what the 20 million dollars does and where it's going.
+p211
+aVA laser cutter to do press-fit assembly with 3D from 2D,
+p212
+aVa sign cutter to plot in copper to do electromagnetics,
+p213
+aVa micron scale,
+p214
+aVnumerically-controlled milling machine for precise structures,
+p215
+aVprogramming tools for less than a dollar,
+p216
+aV100-nanosecond microcontrollers. It lets you work from microns
+p217
+aVand microseconds on up, and they exploded around the world.
+p218
+aVThis wasn't scheduled, but they went from inner-city Boston
+p219
+aVto Pobal in India, to Secondi-Takoradi on Ghana's coast
+p220
+aVto Soshanguve in a township in South Africa,
+p221
+aVto the far north of Norway, uncovering, or helping uncover,
+p222
+aVfor all the attention to the digital divide,
+p223
+aVwe would find unused computers in all these places.
+p224
+aVA farmer in a rural village \u2014 a kid needs to measure and modify
+p225
+aVthe world, not just get information about it on a screen.
+p226
+aVThat there's really a fabrication and an instrumentation divide
+p227
+aVbigger than the digital divide.
+p228
+aVAnd the way you close it is not IT for the masses but IT development for the masses.
+p229
+aa(lp230
+VSo, in place after place
+p231
+aVwe saw this same progression: that we'd open one of these Fab Labs,
+p232
+aVwhere we didn't \u2014 this is too crazy to think of.
+p233
+aVWe didn't think this up, that we would get pulled to these places;
+p234
+aVwe'd open it. The first step was just empowerment.
+p235
+aVYou can see it in their face, just this joy of, I can do it.
+p236
+aVThis is a girl in inner-city Boston who had just done a high-tech
+p237
+aVon-demand craft sale in the inner city community center.
+p238
+aVIt goes on from there to serious hands-on technical education
+p239
+aVinformally, out of schools. In Ghana we had set up one of these labs.
+p240
+aVWe designed a network sensor, and kids would show up
+p241
+aVand refuse to leave the lab.
+p242
+aVThere was a girl who insisted we stay late at night \u2014
+p243
+aV(Video): Kids: I love the Fab Lab.
+p244
+aV\u2014 her first night in the lab because she was going to make the sensor.
+p245
+aVSo she insisted on fabbing the board, learning how to stuff it,
+p246
+aVlearning how to program it. She didn't really know
+p247
+aVwhat she was doing or why she was doing it, but she knew
+p248
+aVshe just had to do it. There was something electric about it.
+p249
+aVThis is late at, you know, 11 o'clock at night
+p250
+aVand I think I was the only person surprised when what she built
+p251
+aVworked the first time.
+p252
+aVAnd I've shown this to engineers at big companies, and they say
+p253
+aVthey can't do this. Any one thing she's doing, they can do better,
+p254
+aVbut it's distributed over many people and many sites
+p255
+aVand they can't do in an afternoon
+p256
+aVwhat this little girl in rural Ghana is doing.
+p257
+aV(Video): Girl: My name is Valentina Kofi; I am eight years old.
+p258
+aVI made a stacking board.
+p259
+aVAnd, again, that was just for the joy of it.
+p260
+aa(lp261
+VThen these labs started doing serious problem solving \u2014
+p262
+aVinstrumentation for agriculture in India,
+p263
+aVsteam turbines for energy conversion in Ghana,
+p264
+aVhigh-gain antennas in thin client computers.
+p265
+aVAnd then, in turn, businesses started to grow,
+p266
+aVlike making these antennas.
+p267
+aVAnd finally, the lab started doing invention.
+p268
+aVWe're learning more from them than we're giving them.
+p269
+aVI was showing my kids in a Fab Lab how to use it.
+p270
+aVThey invented a way to do a construction kit out of a cardboard box \u2014
+p271
+aVwhich, as you see up there, that's becoming a business \u2014
+p272
+aVbut their design was better than Saul's design at MIT,
+p273
+aVso there's now three students at MIT doing their theses on
+p274
+aVscaling the work of eight-year-old children
+p275
+aVbecause they had better designs.
+p276
+aVReal invention is happening in these labs.
+p277
+aa(lp278
+VAnd I still kept \u2014 so, in the last year I've been spending time with
+p279
+aVheads of state and generals and tribal chiefs who all want this,
+p280
+aVand I keep saying, but this isn't the real thing.
+p281
+aVWait, like, 20 years and then we'll be done.
+p282
+aVAnd I finally got what's been going on. This is Kernigan and Ritchie
+p283
+aVinventing UNIX on a PDP.
+p284
+aVPDPs came between mainframes and minicomputers.
+p285
+aVThey were tens of thousands of dollars, hard to use,
+p286
+aVbut they brought computing down to work groups,
+p287
+aVand everything we do today happened there.
+p288
+aVThese Fab Labs are the cost and complexity of a PDP.
+p289
+aVThe projection of digital fabrication
+p290
+aVisn't a projection for the future; we are now in the PDP era.
+p291
+aVWe talked in hushed tones about the great discoveries then.
+p292
+aVIt was very chaotic, it wasn't, sort of, clear what was going on.
+p293
+aVIn the same sense we are now, today, in the minicomputer era
+p294
+aVof digital fabrication.
+p295
+aVThe only problem with that is it breaks everybody's boundaries.
+p296
+aa(lp297
+VIn DC, I go to every agency that wants to talk, you know;
+p298
+aVin the Bay Area, I go to every organization you can think of \u2014
+p299
+aVthey all want to talk about it, but it breaks
+p300
+aVtheir organizational boundaries. In fact, it's illegal for them,
+p301
+aVin many cases, to equip ordinary people to create
+p302
+aVrather than consume technology.
+p303
+aVAnd that problem is so severe that the ultimate invention
+p304
+aVcoming from this community surprised me:
+p305
+aVit's the social engineering. That the lab in far north of Norway \u2014
+p306
+aVthis is so far north its satellite dishes look at the ground
+p307
+aVrather than the sky because that's where the satellites are \u2014
+p308
+aVthe lab outgrew the little barn that it was in.
+p309
+aVIt was there because they wanted to find animals in the mountains
+p310
+aVbut it outgrew it, so they built this extraordinary village for the lab.
+p311
+aVThis isn't a university; it's not a company. It's essentially
+p312
+aVa village for invention; it's a village for the outliers in society,
+p313
+aVand those have been growing up around these Fab Labs
+p314
+aVall around the world.
+p315
+aa(lp316
+VSo this program has split into an NGO foundation,
+p317
+aVa Fab Foundation to support the scaling, a micro VC fund.
+p318
+aVThe person who runs it nicely describes it as
+p319
+aV"machines that make machines need businesses that make businesses:"
+p320
+aVit's a cross between micro-finance and VC to do fan-out,
+p321
+aVand then the research partnerships back at MIT for what's
+p322
+aVmaking it possible.
+p323
+aa(lp324
+VSo I'd like to leave you with two thoughts.
+p325
+aVThere's been a sea change in aid, from top-down mega-projects
+p326
+aVto bottom-up, grassroots, micro-finance investing in the roots,
+p327
+aVso that everybody's got that that's what works.
+p328
+aVBut we still look at technology as top-down mega-projects.
+p329
+aVComputing, communication, energy for the rest of the planet
+p330
+aVare these top-down mega-projects.
+p331
+aVIf this room full of heroes is just clever enough,
+p332
+aVyou can solve the problems.
+p333
+aVThe message coming from the Fab Labs is that
+p334
+aVthe other five billion people on the planet
+p335
+aVaren't just technical sinks; they're sources.
+p336
+aVThe real opportunity is to harness the inventive power of the world
+p337
+aVto locally design and produce solutions to local problems.
+p338
+aVI thought that's the projection 20 years hence into the future,
+p339
+aVbut it's where we are today.
+p340
+aVIt breaks every organizational boundary we can think of.
+p341
+aVThe hardest thing at this point is the social engineering
+p342
+aVand the organizational engineering, but it's here today.
+p343
+aa(lp344
+VAnd, finally, any talk like this on the future of computing
+p345
+aVis required to show Moore's law, but my favorite version \u2014
+p346
+aVthis is Gordon Moore's original one from his original paper \u2014
+p347
+aVand what's happened is, year after year after year,
+p348
+aVwe've scaled and we've scaled and we've scaled
+p349
+aVand we've scaled, and we've scaled and we've scaled,
+p350
+aVand we've scaled and we've scaled,
+p351
+aVand there's this looming bug of what's going to happen
+p352
+aVat the end of Moore's law; this ultimate bug is coming.
+p353
+aVBut we're coming to appreciate, is the transition from 2D to 3D,
+p354
+aVfrom programming bits to programming atoms,
+p355
+aVturns the ends of Moore's law scaling from the ultimate bug
+p356
+aVto the ultimate feature.
+p357
+aVSo, we're just at the edge of this digital revolution in fabrication,
+p358
+aVwhere the output of computation programs the physical world.
+p359
+aVSo, together, these two projects answer questions
+p360
+aVI hadn't asked carefully. The class at MIT shows the killer app
+p361
+aVfor personal fabrication in the developed world
+p362
+aVis technology for a market of one: personal expression in technology
+p363
+aVthat touches a passion unlike anything I've seen in technology
+p364
+aVfor a very long time.
+p365
+aVAnd the killer app for the rest of the planet is the instrumentation
+p366
+aVand the fabrication divide: people locally developing solutions
+p367
+aVto local problems. Thank you.
+p368
+aasS'transcript_micsec'
+p369
+(lp370
+I11000
+aI37000
+aI76000
+aI139000
+aI187000
+aI222000
+aI296000
+aI362000
+aI405000
+aI440000
+aI446000
+aI509000
+aI572000
+aI651000
+aI749000
+aI788000
+aI835000
+aI885000
+aI906000
+aI958000
+asS'talk_meta'
+p371
+(dp372
+S'ratings'
+p373
+(dp374
+S'ingenious'
+p375
+I156
+sS'funny'
+p376
+I11
+sS'inspiring'
+p377
+I188
+sS'ok'
+p378
+I10
+sS'fascinating'
+p379
+I172
+sS'total_count'
+p380
+I927
+sS'persuasive'
+p381
+I42
+sS'longwinded'
+p382
+I21
+sS'unconvincing'
+p383
+I12
+sS'informative'
+p384
+I111
+sS'beautiful'
+p385
+I26
+sS'jaw-dropping'
+p386
+I105
+sS'obnoxious'
+p387
+I9
+sS'courageous'
+p388
+I9
+sS'confusing'
+p389
+I55
+ssS'author'
+p390
+VNeil_Gershenfeld;
+p391
+sS'url'
+p392
+S'https://www.ted.com/talks/neil_gershenfeld_on_fab_labs'
+p393
+sS'vidlen'
+p394
+I1038
+sS'totalviews'
+p395
+I698126
+sS'title'
+p396
+VUnleash your creativity in a Fab Lab
+p397
+sS'downloadlink'
+p398
+Vhttps://download.ted.com/talks/NeilGershenfeld_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p399
+sS'datepublished'
+p400
+cdatetime
+datetime
+p401
+(S'\x07\xd7\x02\x12\x13\x0b\x00\x00\x00\x00'
+tRp402
+sS'datefilmed'
+p403
+g401
+(S'\x07\xd7\x02\x12\x13\x0b\x00\x00\x00\x00'
+tRp404
+sS'alldata_JSON'
+p405
+S'{"viewed_count": 698126, "speakers": [{"description": "Physicist, personal fab pioneer", "firstname": "Neil", "title": "", "lastname": "Gershenfeld", "middleinitial": "", "whylisten": "<p>MIT&#39;s Neil Gershenfeld is redefining the boundaries between the digital and analog worlds. The digital revolution is over, Gershenfeld says. We won. What comes next? His <a href=\\"http://cba.mit.edu/\\" target=\\"_blank\\">Center for Bits and Atoms</a>  has developed quite a few answers, including Internet 0, a tiny web server that fits into lightbulbs and doorknobs, networking the physical world in previously unimaginable ways.</p><p>But Gershenfeld is best known as a pioneer in personal fabrication -- small-scale manufacturing enabled by digital technologies, which gives people the tools to build literally anything they can imagine. His famous <a href=\\"http://fab.cba.mit.edu/\\" target=\\"_blank\\">Fab Lab</a>  is immensely popular among students at MIT, who crowd Gershenfeld&#39;s classes. But the concept is potentially life-altering in the developing world, where a Fab Lab  with just $20,000 worth of laser cutters, milling machines and soldering irons can transform a community, helping people harness their creativity to build tools, replacement parts and essential products unavailable in the local market. Read more in <a href=\\"http://geni.us/fabrevolution\\" target=\\"_blank\\"><em>Fab: The Coming Revolution on Your Desktop</em></a>.</p>  ", "slug": "neil_gershenfeld", "whotheyare": "As Director of MIT\\u2019s Center for Bits and Atoms, Neil Gershenfeld explores the boundaries between the digital and physical worlds.", "whatotherssay": "Neil Gershenfeld\'s celebrated, visionary FabLab at the Massachusetts Institute of Technology enables anybody to design and execute one-of-a-kind objects complete with brains.", "id": 88, "photo_url": "https://pe.tedcdn.com/images/ted/05383a3cc6e156a8572785a7aa21468bc8023efc_254x191.jpg"}], "current_talk": 90, "description": "MIT professor Neil Gershenfeld talks about his Fab Lab -- a low-cost lab that lets people build things they need using digital and analog tools. It\'s a simple idea with powerful results.", "language": "en", "url": "https://www.ted.com/talks/neil_gershenfeld_on_fab_labs", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 121270847}, "podcast-low-en": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23872940}, "podcast-high": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 121652749}, "180k": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23812106}, "64k": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8522162}, "1500k": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 189567301}, "450k": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59026468}, "podcast-regular": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59495270}, "950k": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 121173032}, "audio-podcast": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6234715}, "podcast-light": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9012452}, "320k": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42096609}, "600k": {"uri": "https://download.ted.com/talks/NeilGershenfeld_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78645849}}}, "comments": {"count": 64, "id": 87, "talk_id": 90}, "slug": "neil_gershenfeld_on_fab_labs", "threadId": 87, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "neil_gershenfeld_on_fab_labs", "filmed": 1138838400, "targeting": {"event": "TED2006", "tag": "code,computers,culture,education,engineering,invention,materials,science,social change,technology", "id": 90, "talk": "neil_gershenfeld_on_fab_labs", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "Unleash your creativity in a Fab Lab", "postAdDuration": "0.83", "published": 1171843860, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg?quality=89&w=600", "name": "Neil Gershenfeld: Unleash your creativity in a Fab Lab", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}], "nativeLanguage": "en", "tags": ["code", "computers", "culture", "education", "engineering", "invention", "materials", "science", "social change", "technology"], "speaker": "Neil Gershenfeld", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1038, "id": 90, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/NeilGershenfeld_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "code,computers,culture,education,engineering,invention,materials,science,social change,technology", "id": 90, "talk": "neil_gershenfeld_on_fab_labs", "year": "2006"}, "metadata": "https://hls.ted.com/talks/90.json", "stream": "https://hls.ted.com/talks/90.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D90%26tag%3Dcode%2Ccomputers%2Cculture%2Ceducation%2Cengineering%2Cinvention%2Cmaterials%2Cscience%2Csocial%2Bchange%2Ctechnology%26talk%3Dneil_gershenfeld_on_fab_labs%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/neil_gershenfeld_on_fab_labs"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg?q=50&w=15", "duration": 1038, "id": 90, "ratings": [{"count": 156, "id": 9, "name": "Ingenious"}, {"count": 11, "id": 7, "name": "Funny"}, {"count": 55, "id": 2, "name": "Confusing"}, {"count": 26, "id": 1, "name": "Beautiful"}, {"count": 111, "id": 8, "name": "Informative"}, {"count": 188, "id": 10, "name": "Inspiring"}, {"count": 172, "id": 22, "name": "Fascinating"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 21, "id": 11, "name": "Longwinded"}, {"count": 12, "id": 21, "name": "Unconvincing"}, {"count": 105, "id": 23, "name": "Jaw-dropping"}, {"count": 42, "id": 24, "name": "Persuasive"}, {"count": 9, "id": 26, "name": "Obnoxious"}, {"count": 10, "id": 25, "name": "OK"}], "speakers": [{"description": "Physicist, personal fab pioneer", "firstname": "Neil", "title": "", "lastname": "Gershenfeld", "middleinitial": "", "whylisten": "<p>MIT&#39;s Neil Gershenfeld is redefining the boundaries between the digital and analog worlds. The digital revolution is over, Gershenfeld says. We won. What comes next? His <a href=\\"http://cba.mit.edu/\\" target=\\"_blank\\">Center for Bits and Atoms</a>  has developed quite a few answers, including Internet 0, a tiny web server that fits into lightbulbs and doorknobs, networking the physical world in previously unimaginable ways.</p><p>But Gershenfeld is best known as a pioneer in personal fabrication -- small-scale manufacturing enabled by digital technologies, which gives people the tools to build literally anything they can imagine. His famous <a href=\\"http://fab.cba.mit.edu/\\" target=\\"_blank\\">Fab Lab</a>  is immensely popular among students at MIT, who crowd Gershenfeld&#39;s classes. But the concept is potentially life-altering in the developing world, where a Fab Lab  with just $20,000 worth of laser cutters, milling machines and soldering irons can transform a community, helping people harness their creativity to build tools, replacement parts and essential products unavailable in the local market. Read more in <a href=\\"http://geni.us/fabrevolution\\" target=\\"_blank\\"><em>Fab: The Coming Revolution on Your Desktop</em></a>.</p>  ", "slug": "neil_gershenfeld", "whotheyare": "As Director of MIT\\u2019s Center for Bits and Atoms, Neil Gershenfeld explores the boundaries between the digital and physical worlds.", "whatotherssay": "Neil Gershenfeld\'s celebrated, visionary FabLab at the Massachusetts Institute of Technology enables anybody to design and execute one-of-a-kind objects complete with brains.", "id": 88, "photo_url": "https://pe.tedcdn.com/images/ted/05383a3cc6e156a8572785a7aa21468bc8023efc_254x191.jpg"}], "title": "Unleash your creativity in a Fab Lab", "take_action": null, "comments": 87, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg", "description": "MIT professor Neil Gershenfeld talks about his Fab Lab -- a low-cost lab that lets people build things they need using digital and analog tools. It\'s a simple idea with powerful results.", "tags": ["code", "computers", "culture", "education", "engineering", "invention", "materials", "science", "social change", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-el.mp4"}, "fr": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-nl.mp4"}, "ru": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-ru.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-zh-tw.mp4"}, "ko": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-it.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-bg.mp4"}, "ro": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/NeilGershenfeld_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/NeilGershenfeld_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/NeilGershenfeld_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 90, "audioDownload": "https://download.ted.com/talks/NeilGershenfeld_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1427405, "hero": "https://pe.tedcdn.com/images/ted/1451_480x360.jpg", "title": "Simple designs to save a life", "id": 2, "speaker": "Amy Smith", "duration": 906, "slug": "amy_smith_shares_simple_lifesaving_design"}, {"viewed_count": 449537, "hero": "https://pe.tedcdn.com/images/ted/231_480x360.jpg", "title": "Everyday inventions", "id": 48, "speaker": "Saul Griffith", "duration": 869, "slug": "saul_griffith_on_everyday_inventions"}, {"viewed_count": 400658, "hero": "https://pe.tedcdn.com/images/ted/46407_480x360.jpg", "title": "One Laptop per Child, two years on", "id": 288, "speaker": "Nicholas Negroponte", "duration": 1000, "slug": "nicholas_negroponte_on_one_laptop_per_child_two_years_on"}, {"viewed_count": 1005333, "hero": "https://pe.tedcdn.com/images/ted/092f184f6625c2aeef10949c8d7b2aa14ba4132b_2880x1620.jpg", "title": "Meet the inventor of the electronic spreadsheet", "id": 2664, "speaker": "Dan Bricklin", "duration": 720, "slug": "dan_bricklin_meet_the_inventor_of_the_electronic_spreadsheet"}, {"viewed_count": 986118, "hero": "https://pe.tedcdn.com/images/ted/b5a6709fd1913ee333964a645d9c8b271ed82da5_1600x1200.jpg", "title": "The self-organizing computer course", "id": 1570, "speaker": "Shimon Schocken", "duration": 985, "slug": "shimon_schocken_the_self_organizing_computer_course"}, {"viewed_count": 1516362, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}], "recorded_at": "2006-02-02T00:00:00.000+00:00", "slug": "neil_gershenfeld_on_fab_labs", "speaker_name": "Neil Gershenfeld", "viewed_count": 698126, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Neil Gershenfeld: Unleash your creativity in a Fab Lab"}'
+p406
+sS'keywords'
+p407
+(lp408
+Vcode
+p409
+aVcomputers
+p410
+aVculture
+p411
+aVeducation
+p412
+aVengineering
+p413
+aVinvention
+p414
+aVmaterials
+p415
+aVscience
+p416
+aVsocial change
+p417
+aVtechnology
+p418
+asS'datecrawled'
+p419
+g401
+(S'\x07\xe1\n\x17\x027#\x01\x1eQ'
+tRp420
+sS'id'
+p421
+I90
+ss.

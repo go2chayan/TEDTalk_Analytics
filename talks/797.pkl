@@ -1,0 +1,982 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIf you think about the phone \u2014
+p5
+aVand Intel has tested
+p6
+aVa lot of the things I'm going to show you,
+p7
+aVover the last 10 years,
+p8
+aVin about 600 elderly households \u2014
+p9
+aV300 in Ireland, and 300 in Portland \u2014
+p10
+aVtrying to understand: How do we measure
+p11
+aVand monitor behavior
+p12
+aVin a medically meaningful way?
+p13
+aa(lp14
+VAnd if you think about the phone, right,
+p15
+aVit's something that we can use for some incredible ways
+p16
+aVto help people actually take the right medication at the right time.
+p17
+aVWe're testing these kinds of simple
+p18
+aVsensor-network technologies in the home
+p19
+aVso that any phone that a senior is already comfortable with
+p20
+aVcan help them deal with their medications.
+p21
+aVAnd a lot of what they do is they pick up the phone,
+p22
+aVand it's our system whispering to them which pill they need to take,
+p23
+aVand they fake like they're having a conversation with a friend.
+p24
+aVAnd they're not embarrassed by a meds caddy that's ugly,
+p25
+aVthat sits on their kitchen table and says,
+p26
+aV"I'm old. I'm frail."
+p27
+aVIt's surreptitious technology
+p28
+aVthat's helping them do a simple task
+p29
+aVof taking the right pill at the right time.
+p30
+aa(lp31
+VNow, we also do some pretty amazing things with these phones.
+p32
+aVBecause that moment when you answer the phone
+p33
+aVis a cognitive test every time that you do it.
+p34
+aVThink about it, all right? I'm going to answer the phone three different times.
+p35
+aV"Hello? Hey."
+p36
+aVAll right? That's the first time.
+p37
+aV"Hello? Uh, hey."
+p38
+aV"Hello? Uh, who?
+p39
+aVOh, hey."
+p40
+aVAll right? Very big differences
+p41
+aVbetween the way I answered the phone the three times.
+p42
+aVAnd as we monitor phone usage
+p43
+aVby seniors over a long period of time,
+p44
+aVdown to the tenths of a microsecond,
+p45
+aVthat recognition moment
+p46
+aVof whether they can figure out that person on the other end
+p47
+aVis a friend and we start talking to them immediately,
+p48
+aVor they do a lot of what's called trouble talk,
+p49
+aVwhere they're like, "Wait, who is this? Oh." Right?
+p50
+aVWaiting for that recognition moment
+p51
+aVmay be the best early indicator of the onset of dementia
+p52
+aVthan anything that shows up clinically today.
+p53
+aa(lp54
+VWe call these behavioral markers.
+p55
+aVThere's lots of others. Is the person going to the phone
+p56
+aVas quickly, when it rings, as they used to?
+p57
+aVIs it a hearing problem or is it a physicality problem?
+p58
+aVHas their voice gotten more quiet? We're doing a lot of work with people
+p59
+aVwith Alzheimer's and particularly with Parkinson's,
+p60
+aVwhere that quiet voice that sometimes shows up with Parkinson's patients
+p61
+aVmay be the best early indicator
+p62
+aVof Parkinson's five to 10 years before it shows up clinically.
+p63
+aVBut those subtle changes in your voice over a long period of time
+p64
+aVare hard for you or your spouse to notice until it becomes so extreme
+p65
+aVand your voice has become so quiet.
+p66
+aa(lp67
+VSo, sensors are looking at that kind of voice.
+p68
+aVWhen you pick up the phone,
+p69
+aVhow much tremor are you having,
+p70
+aVand what is that like, and what is that trend like over a period of time?
+p71
+aVAre you having more trouble dialing the phone than you used to?
+p72
+aVIs it a dexterity problem? Is it the onset of arthritis?
+p73
+aVAre you using the phone? Are you socializing less than you used to?
+p74
+aVAnd looking at that pattern. And what does that decline in social health
+p75
+aVmean, as a kind of a vital sign of the future?
+p76
+aVAnd then wow, what a radical idea,
+p77
+aVwe \u2014 except in the United States \u2014
+p78
+aVmight be able to use this newfangled technology
+p79
+aVto actually interact with a nurse or a doctor on the other end of the line.
+p80
+aVWow, what a great day that will be
+p81
+aVonce we're allowed to actually do those kinds of things.
+p82
+aa(lp83
+VSo, these are what I would call behavioral markers.
+p84
+aVAnd it's the whole field that we've been trying to work on
+p85
+aVfor the last 10 years at Intel.
+p86
+aVHow do you put simple disruptive technologies,
+p87
+aVand the first of five phrases that I'm going to talk about in this talk?
+p88
+aVBehavioral markers matter.
+p89
+aVHow do we change behavior?
+p90
+aVHow do we measure changes in behavior
+p91
+aVin a meaningful way that's going to help us with
+p92
+aVprevention of disease, early onset of disease,
+p93
+aVand tracking the progression of disease over a long period of time?
+p94
+aa(lp95
+VNow, why would Intel let me
+p96
+aVspend a lot of time and money, over the last 10 years,
+p97
+aVtrying to understand the needs of seniors
+p98
+aVand start thinking about these kinds of behavioral markers?
+p99
+aVThis is some of the field work that we've done.
+p100
+aVWe have now lived with 1,000 elderly households
+p101
+aVin 20 countries over the last 10 years.
+p102
+aVWe study people in Rochester, New York.
+p103
+aVWe go live with them in the winter
+p104
+aVbecause what they do in the winter,
+p105
+aVand their access to healthcare, and how much they socialize,
+p106
+aVis very different than in the summer.
+p107
+aVIf they have a hip fracture we go with them
+p108
+aVand we study their entire discharge experience.
+p109
+aVIf they have a family member who is a key part of their care network,
+p110
+aVwe fly and study them as well.
+p111
+aa(lp112
+VSo, we study the holistic health experience
+p113
+aVof 1,000 seniors over the last 10 years
+p114
+aVin 20 different countries.
+p115
+aVWhy is Intel willing to fund that?
+p116
+aVIt's because of the second slogan that I want to talk about.
+p117
+aVTen years ago, when I started trying to convince Intel
+p118
+aVto let me go start looking at disruptive technologies
+p119
+aVthat could help with independent living,
+p120
+aVthis is what I called it: "Y2K + 10."
+p121
+aa(lp122
+VYou know, back in 2000,
+p123
+aVwe were all so obsessed with paying attention
+p124
+aVto the aging of our computers,
+p125
+aVand whether or not they were going to survive
+p126
+aVthe tick of the clock from 1999 to 2000,
+p127
+aVthat we missed a moment that only demographers were paying attention to.
+p128
+aVIt was right around New Years.
+p129
+aVAnd that switchover,
+p130
+aVwhen we had the larger number of older people on the planet,
+p131
+aVfor the first time than younger people.
+p132
+aVFor the first time in human history \u2014 and barring aliens landing
+p133
+aVor some major other pandemic,
+p134
+aVthat's the expectation from demographers, going forward.
+p135
+aa(lp136
+VAnd 10 years ago it seemed like I had a lot of time
+p137
+aVto convince Intel to work on this. Right?
+p138
+aVY2K + 10 was coming,
+p139
+aVthe baby boomers starting to retire.
+p140
+aVWell folks, it's like we know these demographics here.
+p141
+aVThis is a map of the entire world.
+p142
+aVIt's like the lights are on,
+p143
+aVbut nobody's home on this demographic
+p144
+aVY2K + 10 problem. Right?
+p145
+aVI mean we sort of get it here, but we don't get it here,
+p146
+aVand we're not doing anything about it.
+p147
+aa(lp148
+VThe health reform bill is largely ignoring
+p149
+aVthe realities of the age wave that's coming,
+p150
+aVand the implications for what we need to do to change
+p151
+aVnot only how we pay for care,
+p152
+aVbut deliver care in some radically different ways.
+p153
+aVAnd in fact, it's upon us.
+p154
+aVI mean you probably saw these headlines. This is Catherine Casey
+p155
+aVwho is the first boomer to actually get Social Security.
+p156
+aVThat actually occurred this year. She took early retirement.
+p157
+aVShe was born one second after midnight in 1946.
+p158
+aVA retired school teacher,
+p159
+aVthere she is with a Social Security administrator.
+p160
+aVThe first boomer actually, we didn't even wait till 2011, next year.
+p161
+aVWe're already starting to see early retirement occur this year.
+p162
+aa(lp163
+VAll right, so it's here. This Y2K + 10 problem is at our door.
+p164
+aVThis is 50 tsunamis scheduled on the calendar,
+p165
+aVbut somehow we can't sort of marshal our government
+p166
+aVand innovative forces to sort of get out in front of it
+p167
+aVand do something about it. We'll wait until
+p168
+aVit's more of a catastrophe, and react,
+p169
+aVas opposed to prepare for it.
+p170
+aVSo, one of the reasons it's so
+p171
+aVchallenging to prepare for this Y2K problem
+p172
+aVis, I want to argue, we have what I would call
+p173
+aVmainframe poisoning.
+p174
+aa(lp175
+VAndy Grove, about six or seven years ago,
+p176
+aVhe doesn't even know or remember this, in a Fortune Magazine article
+p177
+aVhe used the phrase "mainframe healthcare,"
+p178
+aVand I've been extending and expanding this.
+p179
+aVHe saw it written down somewhere. He's like, "Eric that's a really cool concept."
+p180
+aVI was like, "Actually it was your idea. You said it in a Fortune Magazine article.
+p181
+aVI just extended it."
+p182
+aVYou know, this is the mainframe.
+p183
+aa(lp184
+VThis mentality of traveling to
+p185
+aVand timesharing large, expensive healthcare systems
+p186
+aVactually began in 1787.
+p187
+aVThis is the first general hospital in Vienna.
+p188
+aVAnd actually the second general hospital in Vienna,
+p189
+aVin about 1850, was where we started to build out
+p190
+aVan entire curriculum for teaching med students specialties.
+p191
+aVAnd it's a place in which we started developing
+p192
+aVarchitecture that literally divided the body,
+p193
+aVand divided care into departments and compartments.
+p194
+aVAnd it was reflected in our architecture,
+p195
+aVit was reflected in the way that we taught students,
+p196
+aVand this mainframe mentality persists today.
+p197
+aa(lp198
+VNow, I'm not anti-hospital.
+p199
+aVWith my own healthcare problems, I've taken drug therapies,
+p200
+aVI've traveled to this hospital and others, many, many times.
+p201
+aVBut we worship the high hospital on a hill. Right?
+p202
+aVAnd this is mainframe healthcare.
+p203
+aVAnd just as 30 years ago
+p204
+aVwe couldn't conceive that we would have the power
+p205
+aVof a mainframe computer that took up a room this size
+p206
+aVin our purses and on our belts,
+p207
+aVthat we're carrying around in our cell phone today,
+p208
+aVand suddenly, computing,
+p209
+aVthat used to be an expert driven system,
+p210
+aVit was a personal system that we all owned as part of our daily lives \u2014
+p211
+aVthat shift from mainframe to personal computing
+p212
+aVis what we have to do for healthcare.
+p213
+aVWe have to shift from this mainframe mentality of healthcare
+p214
+aVto a personal model of healthcare.
+p215
+aa(lp216
+VWe are obsessed with this way of thinking.
+p217
+aVWhen Intel does surveys all around the world and we say,
+p218
+aV"Quick response: healthcare."
+p219
+aVThe first word that comes up is "doctor."
+p220
+aVThe second that comes up is "hospital." And the third is "illness" or "sickness." Right?
+p221
+aVWe are wired, in our imagination, to think about healthcare
+p222
+aVand healthcare innovation as something
+p223
+aVthat goes into that place.
+p224
+aVOur entire health reform discussion right now,
+p225
+aVhealth I.T., when we talk with policy makers,
+p226
+aVequals "How are we going to get doctors using
+p227
+aVelectronic medical records in the mainframe?"
+p228
+aVWe're not thinking about
+p229
+aVhow do we shift from the mainframe to the home.
+p230
+aVAnd the problem with this is
+p231
+aVthe way we conceive healthcare. Right?
+p232
+aa(lp233
+VThis is a very reactive, crisis-driven system.
+p234
+aVWe're doing 15-minute exams with patients.
+p235
+aVIt's population-based.
+p236
+aVWe collect a bunch of biological information in this artificial setting,
+p237
+aVand we fix them up, like Humpty-Dumpty all over again,
+p238
+aVand send them home,
+p239
+aVand hope \u2014 we might hand them a brochure, maybe an interactive website \u2014
+p240
+aVthat they do as asked and don't come back into the mainframe.
+p241
+aa(lp242
+VAnd the problem is we can't afford it today, folks.
+p243
+aVWe can't afford mainframe healthcare today to include the uninsured.
+p244
+aVAnd now we want to do a double-double
+p245
+aVof the age wave coming through?
+p246
+aVBusiness as usual in healthcare is broken and we've got to do something different.
+p247
+aVWe've got to focus on the home.
+p248
+aa(lp249
+VWe've got to focus on a personal healthcare paradigm
+p250
+aVthat moves care to the home. How do we be more proactive,
+p251
+aVprevention-driven?
+p252
+aVHow do we collect vital signs and other kinds of information 24 by 7?
+p253
+aVHow do we get a personal baseline about what's going to work for you?
+p254
+aVHow do we collect not just biological data
+p255
+aVbut behavioral data, psychological data,
+p256
+aVrelational data, in and on and around the home?
+p257
+aVAnd how do we drive compliance to be a customized care plan
+p258
+aVthat uses all this great technology that's around us
+p259
+aVto change our behavior?
+p260
+aVThat's what we need to do for our personal health model.
+p261
+aa(lp262
+VI want to give you a couple of examples. This is Mimi
+p263
+aVfrom one of our studies \u2014
+p264
+aVin her 90s, had to move out of her home
+p265
+aVbecause her family was worried about falls.
+p266
+aVRaise your hand if you had a serious fall
+p267
+aVin your household, or any of your loved ones,
+p268
+aVyour parents or so forth. Right?
+p269
+aVClassic. Hip fracture often leads to institutionalization of a senior.
+p270
+aVThis is what was happening to Mimi; the family was worried about it,
+p271
+aVmoved her out of her own home into an assisted living facility.
+p272
+aVShe tripped over her oxygen tank.
+p273
+aa(lp274
+VMany people in this generation won't press the button,
+p275
+aVeven if they have an alert call system, because they don't want to bother anybody,
+p276
+aVeven though they've been paying 30 dollars a month.
+p277
+aVBoomers will press the button. Trust me.
+p278
+aVThey're going to be pressing that button non-stop. Right?
+p279
+aa(lp280
+VMimi broke her pelvis, lay all night, all morning,
+p281
+aVfinally somebody came in and found her,
+p282
+aVsent her to the hospital.
+p283
+aVThey fixed her back up. She was never going to be able to move back
+p284
+aVinto the assisted living. They put her into the nursing home unit.
+p285
+aVFirst night in the nursing home unit where she had been
+p286
+aVin the same assisted living facility, moved her from one bed to another,
+p287
+aVkind of threw her, rebroke her pelvis,
+p288
+aVsent her back to the hospital that she had just come from,
+p289
+aVno one read the chart, put her on Tylenol,
+p290
+aVwhich she is allergic to, broke out, got bedsores,
+p291
+aVbasically, had heart problems, and died
+p292
+aVfrom the fall and the complications and the errors that were there.
+p293
+aa(lp294
+VNow, the most frightening thing about this is
+p295
+aVthis is my wife's grandmother.
+p296
+aVNow, I'm Eric Dishman. I speak English,
+p297
+aVI work for Intel, I make a good salary,
+p298
+aVI'm smart about falls and fall-related injuries \u2014
+p299
+aVit's an area of research that I work on.
+p300
+aVI have access to senators and CEOs.
+p301
+aVI can't stop this from happening.
+p302
+aVWhat happens if you don't have money, you don't speak English
+p303
+aVor don't have the kind of access
+p304
+aVto deal with these kinds of problems that inevitably occur?
+p305
+aVHow do we actually prevent the vast majority of falls
+p306
+aVfrom ever occurring in the first place?
+p307
+aa(lp308
+VLet me give you a quick example of work that we're doing
+p309
+aVto try to do exactly that.
+p310
+aVI've been wearing a little technology that we call Shimmer.
+p311
+aVIt's a research platform.
+p312
+aVIt has accelerometry. You can plug in a three-lead ECG.
+p313
+aVThere is all kinds of sort of plug-and-play
+p314
+aVkind of Legos that you can do to capture, in the wild,
+p315
+aVin the real world,
+p316
+aVthings like tremor, gait,
+p317
+aVstride length and those kinds of things.
+p318
+aa(lp319
+VThe problem is, our understanding of falls today,
+p320
+aVlike Mimi, is get a survey in the mail three months after you fell,
+p321
+aVfrom the State, saying, "What were you doing when you fell?"
+p322
+aVThat's sort of the state of the art.
+p323
+aVBut with something like Shimmer, or we have something called the Magic Carpet,
+p324
+aVembedded sensors in carpet, or camera-based systems
+p325
+aVthat we borrowed from sports medicine,
+p326
+aVwe're starting for the first time in those 600 elderly households
+p327
+aVto collect actual kinematic motion data
+p328
+aVto understand: What are the subtle changes that are occurring
+p329
+aVthat can show us that mom has become risk at falls?
+p330
+aa(lp331
+VAnd most often we can do two interventions,
+p332
+aVfix the meds mix.
+p333
+aVI'm a qualitative researcher, but when I look at these data streams coming in
+p334
+aVfrom these homes, I can look at the data and tell you the day
+p335
+aVthat some doctor prescribed them something that nobody else
+p336
+aVknew that they were on, because we see the changes
+p337
+aVin their patterns in the household. Right?
+p338
+aVThese discoveries of behavioral markers,
+p339
+aVand behavioral changes
+p340
+aVare game changing, and like the discovery of the microscope
+p341
+aVbecause of our collecting data streams that we've actually never done before.
+p342
+aa(lp343
+VThis is an example in our TRIL Clinic in Ireland
+p344
+aVof \u2014 actually what you're seeing is
+p345
+aVshe's looking at data,
+p346
+aVin this picture, from the Magic Carpet.
+p347
+aVSo, we have a little carpet that you can look at your amount of postural sway,
+p348
+aVand look at the changes in your postural sway over many months.
+p349
+aVHere's what some of this data might look like.
+p350
+aVThis is actually sensor firings.
+p351
+aa(lp352
+VThese are two different subjects in our study.
+p353
+aVIt's about a year's worth of data.
+p354
+aVThe color represents different rooms they are in the house.
+p355
+aVThis person on the left is living in their own home.
+p356
+aVThis person on the right is actually living in an assisted living facility.
+p357
+aVI know this because look at how punctuated meal time is
+p358
+aVwhen they are no longer in their particular rooms here. Right?
+p359
+aVNow, this doesn't mean that much to you.
+p360
+aVBut when we look at these cycles of data
+p361
+aVover a longer period of time \u2014 and we're looking at everything from
+p362
+aVmotion around different rooms in the house,
+p363
+aVto sort of micro-motions that Shimmer picks up,
+p364
+aVabout gait and stride length \u2014 these streams of data
+p365
+aVare starting to tell us things about behavioral patterns
+p366
+aVthat we've never understood before.
+p367
+aa(lp368
+VYou can go to ORCATech.org \u2014
+p369
+aVit has nothing to do with whales, it's the Oregon Center for Aging and Technology \u2014
+p370
+aVto see more about that.
+p371
+aVThe problem is, Intel is still one of the largest
+p372
+aVfunders in the world
+p373
+aVof independent living technology research.
+p374
+aVI'm not bragging about how much we fund;
+p375
+aVit's how little anyone else actually pays attention
+p376
+aVto aging and funds innovation on aging,
+p377
+aVchronic disease management and independent living in the home.
+p378
+aa(lp379
+VSo, my mantra here, my fourth slogan is:
+p380
+aV10,000 households or bust.
+p381
+aVWe need to drive
+p382
+aVa national, if not international, Framingham-type heart study
+p383
+aVof independent living technologies,
+p384
+aVwhere we have 10,000 elderly connected households
+p385
+aVwith broadband, full medical characterization,
+p386
+aVand a platform by which we can start to experiment
+p387
+aVand turn these from 20-household anecdotal studies
+p388
+aVthat the universities fund,
+p389
+aVto large clinical trials that prove out the value of these technologies.
+p390
+aVSo, 10,000 households or bust.
+p391
+aVThese are just some of the households that we've done in the Intel studies.
+p392
+aa(lp393
+VMy fifth and final phrase:
+p394
+aVI have tried for two years,
+p395
+aVand there were moments when we were quite close,
+p396
+aVto make this healthcare reform bill be about reform
+p397
+aVfrom something and to something,
+p398
+aVfrom a mainframe model
+p399
+aVto a personal health model,
+p400
+aVor to mean something more than just a debate
+p401
+aVabout the public option and how we're going to finance.
+p402
+aVIt doesn't matter how we finance healthcare.
+p403
+aVWe're going to figure something out
+p404
+aVfor the next 10 years, and try it.
+p405
+aVNo matter who pays for it,
+p406
+aVwe better start doing care in a fundamentally different way
+p407
+aVand treating the home and the patient
+p408
+aVand the family member and the caregivers
+p409
+aVas part of these coordinated care teams
+p410
+aVand using disruptive technologies that are already here
+p411
+aVto do care in some pretty fundamental different ways.
+p412
+aa(lp413
+VThe president needs to stand up and say,
+p414
+aVat the end of a healthcare reform debate,
+p415
+aV"Our goal as a country is to move 50 percent of care
+p416
+aVout of institutions, clinics, hospitals and nursing homes,
+p417
+aVto the home, in 10 years."
+p418
+aVIt's achievable. We should do it economically,
+p419
+aVwe should do it morally,
+p420
+aVand we should do it for quality of life.
+p421
+aVBut there is no goal within this health reform.
+p422
+aVIt's just a mess today.
+p423
+aa(lp424
+VSo, you know, that's my last message to you.
+p425
+aVHow do we set a going-to-the-moon goal
+p426
+aVof dealing with the Y2K +10 problem that's coming?
+p427
+aVIt's not that innovation and technology is going to be the
+p428
+aVmagic pill that cures all, but it's going to be part of the solution.
+p429
+aVAnd if we don't create a personal health movement,
+p430
+aVsomething that we're all aiming towards in reform,
+p431
+aVthen we're going to move nowhere.
+p432
+aVSo, I hope you'll turn this conference into that kind of movement forward.
+p433
+aVThanks very much.
+p434
+aV(Applause)
+p435
+aasS'transcript_micsec'
+p436
+(lp437
+I15000
+aI34000
+aI69000
+aI127000
+aI159000
+aI199000
+aI225000
+aI261000
+aI282000
+aI313000
+aI340000
+aI376000
+aI403000
+aI422000
+aI456000
+aI499000
+aI536000
+aI556000
+aI572000
+aI602000
+aI628000
+aI640000
+aI672000
+aI705000
+aI727000
+aI759000
+aI786000
+aI804000
+aI840000
+aI864000
+aI899000
+aI944000
+aI968000
+asS'talk_meta'
+p438
+(dp439
+S'ratings'
+p440
+(dp441
+S'ingenious'
+p442
+I68
+sS'funny'
+p443
+I3
+sS'inspiring'
+p444
+I116
+sS'ok'
+p445
+I24
+sS'fascinating'
+p446
+I62
+sS'total_count'
+p447
+I729
+sS'persuasive'
+p448
+I202
+sS'longwinded'
+p449
+I16
+sS'informative'
+p450
+I145
+sS'beautiful'
+p451
+I0
+sS'jaw-dropping'
+p452
+I28
+sS'obnoxious'
+p453
+I14
+sS'confusing'
+p454
+I4
+sS'courageous'
+p455
+I28
+sS'unconvincing'
+p456
+I19
+ssS'author'
+p457
+VEric_Dishman;
+p458
+sS'url'
+p459
+S'https://www.ted.com/talks/eric_dishman_take_health_care_off_the_mainframe'
+p460
+sS'vidlen'
+p461
+I1001
+sS'totalviews'
+p462
+I385955
+sS'title'
+p463
+VTake health care off the mainframe
+p464
+sS'downloadlink'
+p465
+Vhttps://download.ted.com/talks/EricDishman_2009P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p466
+sS'datepublished'
+p467
+cdatetime
+datetime
+p468
+(S'\x07\xda\x03\x10\x05\x04\x00\x00\x00\x00'
+tRp469
+sS'datefilmed'
+p470
+g468
+(S'\x07\xda\x03\x10\x05\x04\x00\x00\x00\x00'
+tRp471
+sS'alldata_JSON'
+p472
+S'{"viewed_count": 385955, "speakers": [{"description": "Social scientist", "firstname": "Eric", "title": "", "lastname": "Dishman", "middleinitial": "", "whylisten": "<p>Eric Dishman is an Intel Fellow and general manager of Intel&#39;s Health Strategy &amp; Solutions Group. He founded the product  research and innovation team responsible for driving Intel&rsquo;s worldwide  healthcare research, new product innovation, strategic planning, and  health policy and standards activities.</p>  <p>Dishman is recognized globally for driving healthcare reform through  home and community-based technologies and services, with a focus on  enabling independent living for seniors. His work has been featured in <em>The New York Times</em>, <em>Washington Post</em> and <em>Businessweek</em>, and <em>The Wall  Street Journal</em> named him one of &ldquo;12 People Who Are Changing Your  Retirement.&rdquo; He has delivered keynotes on independent living for events  such as the annual Consumer Electronics Show, the IAHSA International  Conference and the National Governors Association. He has published  numerous articles on independent living technologies and co-authored  government reports on health information technologies and health reform.</p>  <p>He has co-founded organizations devoted to advancing independent  living, including the Technology Research for Independent Living Centre,  the Center for Aging Services Technologies, the Everyday Technologies  for Alzheimer&rsquo;s Care program, and the Oregon Center for Aging &amp;  Technology.</p>", "slug": "eric_dishman", "whotheyare": "Eric Dishman does health care research for Intel -- studying how new technology can solve big problems in the system for the sick, the aging and, well, all of us.", "whatotherssay": "\'All of health care is based on one idea from the 1850s,\' says social scientist Eric Dishman, Intel\'s director of health innovation. \'That it has to be delivered in a face-to-face setting.\' His research on aging is behind evolving systems to provide more effective home care. His goal is to enable 50% of care in the U.S. to be delivered in the home by 2020.", "id": 679, "photo_url": "https://pe.tedcdn.com/images/ted/156796_254x191.jpg"}], "current_talk": 797, "description": "At TEDMED, Eric Dishman makes a bold argument: The US health care system is like computing circa 1959, tethered to big, unwieldy central systems: hospitals, doctors, nursing homes. As our aging population booms, it\'s imperative, he says, to create personal, networked, home-based health care for all.", "language": "en", "url": "https://www.ted.com/talks/eric_dishman_take_health_care_off_the_mainframe", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/EricDishman_2009P-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116369727}, "podcast-low-en": {"uri": "https://download.ted.com/talks/EricDishman_2009P-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22919007}, "podcast-high": {"uri": "https://download.ted.com/talks/EricDishman_2009P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116595270}, "180k": {"uri": "https://download.ted.com/talks/EricDishman_2009P-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22683008}, "64k": {"uri": "https://download.ted.com/talks/EricDishman_2009P-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8179636}, "1500k": {"uri": "https://download.ted.com/talks/EricDishman_2009P-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 181997819}, "450k": {"uri": "https://download.ted.com/talks/EricDishman_2009P-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56403987}, "podcast-regular": {"uri": "https://download.ted.com/talks/EricDishman_2009P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56737645}, "950k": {"uri": "https://download.ted.com/talks/EricDishman_2009P-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116348384}, "audio-podcast": {"uri": "https://download.ted.com/talks/EricDishman_2009P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10205415}, "podcast-light": {"uri": "https://download.ted.com/talks/EricDishman_2009P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8313647}, "320k": {"uri": "https://download.ted.com/talks/EricDishman_2009P-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40135964}, "600k": {"uri": "https://download.ted.com/talks/EricDishman_2009P-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 75202243}}}, "comments": {"count": 82, "id": 656, "talk_id": 797}, "slug": "eric_dishman_take_health_care_off_the_mainframe", "threadId": 656, "talks": [{"event": "TEDMED 2009", "player_talks": [{"event": "TEDMED 2009", "slug": "eric_dishman_take_health_care_off_the_mainframe", "filmed": 1257897600, "targeting": {"event": "TEDMED 2009", "tag": "business,health,health care,science,technology", "id": 797, "talk": "eric_dishman_take_health_care_off_the_mainframe", "year": "2009"}, "adDuration": "4.00", "external": null, "title": "Take health care off the mainframe", "postAdDuration": "0.83", "published": 1268730240, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/156795_800x600.jpg?quality=89&w=600", "name": "Eric Dishman: Take health care off the mainframe", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "nativeLanguage": "en", "tags": ["business", "health", "health care", "science", "technology"], "speaker": "Eric Dishman", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 1001, "id": 797, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/EricDishman_2009P-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDMED 2009", "tag": "business,health,health care,science,technology", "id": 797, "talk": "eric_dishman_take_health_care_off_the_mainframe", "year": "2009"}, "metadata": "https://hls.ted.com/talks/797.json", "stream": "https://hls.ted.com/talks/797.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDMED%2B2009%26id%3D797%26tag%3Dbusiness%2Chealth%2Chealth%2Bcare%2Cscience%2Ctechnology%26talk%3Deric_dishman_take_health_care_off_the_mainframe%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/eric_dishman_take_health_care_off_the_mainframe"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/156795_800x600.jpg?q=50&w=15", "duration": 1001, "id": 797, "ratings": [{"count": 16, "id": 11, "name": "Longwinded"}, {"count": 19, "id": 21, "name": "Unconvincing"}, {"count": 24, "id": 25, "name": "OK"}, {"count": 116, "id": 10, "name": "Inspiring"}, {"count": 202, "id": 24, "name": "Persuasive"}, {"count": 62, "id": 22, "name": "Fascinating"}, {"count": 145, "id": 8, "name": "Informative"}, {"count": 28, "id": 23, "name": "Jaw-dropping"}, {"count": 68, "id": 9, "name": "Ingenious"}, {"count": 28, "id": 3, "name": "Courageous"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 4, "id": 2, "name": "Confusing"}, {"count": 3, "id": 7, "name": "Funny"}, {"count": 0, "id": 1, "name": "Beautiful"}], "speakers": [{"description": "Social scientist", "firstname": "Eric", "title": "", "lastname": "Dishman", "middleinitial": "", "whylisten": "<p>Eric Dishman is an Intel Fellow and general manager of Intel&#39;s Health Strategy &amp; Solutions Group. He founded the product  research and innovation team responsible for driving Intel&rsquo;s worldwide  healthcare research, new product innovation, strategic planning, and  health policy and standards activities.</p>  <p>Dishman is recognized globally for driving healthcare reform through  home and community-based technologies and services, with a focus on  enabling independent living for seniors. His work has been featured in <em>The New York Times</em>, <em>Washington Post</em> and <em>Businessweek</em>, and <em>The Wall  Street Journal</em> named him one of &ldquo;12 People Who Are Changing Your  Retirement.&rdquo; He has delivered keynotes on independent living for events  such as the annual Consumer Electronics Show, the IAHSA International  Conference and the National Governors Association. He has published  numerous articles on independent living technologies and co-authored  government reports on health information technologies and health reform.</p>  <p>He has co-founded organizations devoted to advancing independent  living, including the Technology Research for Independent Living Centre,  the Center for Aging Services Technologies, the Everyday Technologies  for Alzheimer&rsquo;s Care program, and the Oregon Center for Aging &amp;  Technology.</p>", "slug": "eric_dishman", "whotheyare": "Eric Dishman does health care research for Intel -- studying how new technology can solve big problems in the system for the sick, the aging and, well, all of us.", "whatotherssay": "\'All of health care is based on one idea from the 1850s,\' says social scientist Eric Dishman, Intel\'s director of health innovation. \'That it has to be delivered in a face-to-face setting.\' His research on aging is behind evolving systems to provide more effective home care. His goal is to enable 50% of care in the U.S. to be delivered in the home by 2020.", "id": 679, "photo_url": "https://pe.tedcdn.com/images/ted/156796_254x191.jpg"}], "title": "Take health care off the mainframe", "take_action": null, "comments": 656, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/156795_800x600.jpg", "description": "At TEDMED, Eric Dishman makes a bold argument: The US health care system is like computing circa 1959, tethered to big, unwieldy central systems: hospitals, doctors, nursing homes. As our aging population booms, it\'s imperative, he says, to create personal, networked, home-based health care for all.", "tags": ["business", "health", "health care", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/EricDishman_2009P-low-el.mp4"}, "fr": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/EricDishman_2009P-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/EricDishman_2009P-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/EricDishman_2009P-low-nl.mp4"}, "ru": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/EricDishman_2009P-low-ru.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/EricDishman_2009P-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/EricDishman_2009P-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/EricDishman_2009P-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/EricDishman_2009P-low-it.mp4"}, "tr": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/EricDishman_2009P-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/EricDishman_2009P-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/EricDishman_2009P-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/EricDishman_2009P-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/EricDishman_2009P-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/EricDishman_2009P-low-bg.mp4"}, "ro": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/EricDishman_2009P-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/EricDishman_2009P-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/EricDishman_2009P-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/EricDishman_2009P-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/EricDishman_2009P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/EricDishman_2009P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/EricDishman_2009P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 797, "audioDownload": "https://download.ted.com/talks/EricDishman_2009P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 3298416, "hero": "https://pe.tedcdn.com/images/ted/71994797fda57ea0039fefb37e2f2ebe1adc00c6_2880x1620.jpg", "title": "A roadmap to end aging", "id": 39, "speaker": "Aubrey de Grey", "duration": 1365, "slug": "aubrey_de_grey_says_we_can_avoid_aging"}, {"viewed_count": 1439756, "hero": "https://pe.tedcdn.com/images/ted/bd6a41c08b773bcca10fe0b1a78176457dd10081_2880x1620.jpg", "title": "The potential of regenerative medicine", "id": 142, "speaker": "Alan Russell", "duration": 1165, "slug": "alan_russell_on_regenerating_our_bodies"}, {"viewed_count": 844853, "hero": "https://pe.tedcdn.com/images/ted/c0694f2a60d1de3e606ab3c8f368ef037b39766d_1600x1200.jpg", "title": "Health care should be a team sport", "id": 1711, "speaker": "Eric Dishman", "duration": 959, "slug": "eric_dishman_health_care_should_be_a_team_sport"}, {"viewed_count": 1411665, "hero": "https://pe.tedcdn.com/images/ted/9238ca0d06f68e5d8127c5c0236ea4d5ae8ea55d_2400x1800.jpg", "title": "What makes us get sick? Look upstream", "id": 2076, "speaker": "Rishi Manchanda", "duration": 1093, "slug": "rishi_manchanda_what_makes_us_get_sick_look_upstream"}, {"viewed_count": 850370, "hero": "https://pe.tedcdn.com/images/ted/1a0462e7dfad0c4e30f5e2c74dfb31673e376b80_1600x1200.jpg", "title": "What doctors can learn from each other", "id": 1873, "speaker": "Stefan Larsson", "duration": 776, "slug": "stefan_larsson_what_doctors_can_learn_from_each_other"}, {"viewed_count": 986910, "hero": "https://pe.tedcdn.com/images/ted/d798dd0eb6c1d0dd5d42b9cf1cc74d4dca3bffc1_800x600.jpg", "title": "What if our healthcare system kept us healthy?", "id": 1475, "speaker": "Rebecca Onie", "duration": 994, "slug": "rebecca_onie_what_if_our_healthcare_system_kept_us_healthy"}], "recorded_at": "2009-11-11T00:00:00.000+00:00", "slug": "eric_dishman_take_health_care_off_the_mainframe", "speaker_name": "Eric Dishman", "viewed_count": 385955, "event_badge": null, "event_blurb": "This video was produced by TEDMED. TED\'s editors featured it among our daily selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDMED 2009", "name": "Eric Dishman: Take health care off the mainframe"}'
+p473
+sS'keywords'
+p474
+(lp475
+Vbusiness
+p476
+aVhealth
+p477
+aVhealth care
+p478
+aVscience
+p479
+aVtechnology
+p480
+asS'datecrawled'
+p481
+g468
+(S'\x07\xe1\n\x17\x027 \x00\xc3\xc0'
+tRp482
+sS'id'
+p483
+I797
+ss.

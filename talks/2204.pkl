@@ -1,0 +1,644 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VTwenty-five years ago, scientists at CERN created the World Wide Web.
+p5
+aVSince then, the Internet has transformed  the way we communicate,
+p6
+aVthe way we do business, and even the way we live.
+p7
+aVIn many ways,
+p8
+aVthe ideas that gave birth to Google, Facebook, Twitter, and so many others,
+p9
+aVhave now really transformed our lives,
+p10
+aVand this has brought us many real benefits such as a more connected society.
+p11
+aVHowever, there are also some downsides to this.
+p12
+aVToday, the average person has an astounding amount
+p13
+aVof personal information online,
+p14
+aVand we add to this online information every single time we post on Facebook,
+p15
+aVeach time we search on Google,
+p16
+aVand each time we send an email.
+p17
+aa(lp18
+VNow, many of us probably think,
+p19
+aVwell, one email, there's nothing in there, right?
+p20
+aVBut if you consider a year's worth of emails,
+p21
+aVor maybe even a lifetime of email,
+p22
+aVcollectively, this tells a lot.
+p23
+aVIt tells where we have been, who we have met,
+p24
+aVand in many ways, even what we're thinking about.
+p25
+aVAnd the more scary part about this is our data now lasts forever,
+p26
+aVso your data can and will outlive you.
+p27
+aVWhat has happened is that we've largely lost control over our data
+p28
+aVand also our privacy.
+p29
+aa(lp30
+VSo this year, as the web turns 25,
+p31
+aVit's very important for us to take a moment
+p32
+aVand think about the implications of this.
+p33
+aVWe have to really think.
+p34
+aVWe've lost privacy, yes,
+p35
+aVbut actually what we've also lost is the idea of privacy itself.
+p36
+aVIf you think about it,
+p37
+aVmost of us here today probably remember  what life was like before the Internet,
+p38
+aVbut today, there's a new generation
+p39
+aVthat is being taught from a very young age to share everything online,
+p40
+aVand this is a generation that is not  going to remember when data was private.
+p41
+aVSo we keep going down this road, 20 years from now,
+p42
+aVthe word 'privacy' is going to have a completely different meaning
+p43
+aVfrom what it means to you and I.
+p44
+aa(lp45
+VSo, it's time for us  to take a moment and think,
+p46
+aVis there anything we can do about this?
+p47
+aVAnd I believe there is.
+p48
+aa(lp49
+VLet's take a look at one of the most widely used forms of communication
+p50
+aVin the world today: email.
+p51
+aVBefore the invention of email, we largely communicated using letters,
+p52
+aVand the process was quite simple.
+p53
+aVYou would first start by writing your message on a piece of paper,
+p54
+aVthen you would place it into a sealed envelope,
+p55
+aVand from there, you would go ahead and send it
+p56
+aVafter you put a stamp and address on it.
+p57
+aVUnfortunately, today,
+p58
+aVwhen we actually send an email, we're not sending a letter.
+p59
+aVWhat you are sending, in many ways, is actually a postcard,
+p60
+aVand it's a postcard in the sense that everybody that sees it
+p61
+aVfrom the time it leaves your computer to when it gets to the recipient
+p62
+aVcan actually read the entire contents.
+p63
+aa(lp64
+VSo, the solution to this has been known for some time,
+p65
+aVand there's many attempts to do it.
+p66
+aVThe most basic solution is to use encryption,
+p67
+aVand the idea is quite simple.
+p68
+aVFirst, you encrypt the connection
+p69
+aVbetween your computer and the email server.
+p70
+aVThen, you also encrypt the data as it sits on the server itself.
+p71
+aVBut there's a problem with this,
+p72
+aVand that is, the email servers also hold the encryption keys,
+p73
+aVso now you have a really big lock with a key placed right next to it.
+p74
+aVBut not only that, any government could lawfully ask for
+p75
+aVand get the key to your data,
+p76
+aVand this is all without you being aware of it.
+p77
+aa(lp78
+VSo the way we fix this problem is actually relatively easy, in principle:
+p79
+aVYou give everybody their own keys,
+p80
+aVand then you make sure the server doesn't actually have the keys.
+p81
+aVThis seems like common sense, right?
+p82
+aVSo the question that comes up is, why hasn't this been done yet?
+p83
+aa(lp84
+VWell, if we really think about it,
+p85
+aVwe see that the business model of the Internet today
+p86
+aVreally isn't compatible with privacy.
+p87
+aVJust take a look at some of the biggest names on the web,
+p88
+aVand you see that advertising plays a huge role.
+p89
+aVIn fact, this year alone, advertising is 137 billion dollars,
+p90
+aVand to optimize the ads that are shown to us,
+p91
+aVcompanies have to know everything about us.
+p92
+aVThey need to know where we live,
+p93
+aVhow old we are, what we like, what we don't like,
+p94
+aVand anything else they can get their hands on.
+p95
+aVAnd if you think about it,
+p96
+aVthe best way to get this information is really just to invade our privacy.
+p97
+aVSo these companies aren't going to give us our privacy.
+p98
+aVIf we want to have privacy online,
+p99
+aVwhat we have to do is we've got to go out and get it ourselves.
+p100
+aa(lp101
+VFor many years, when it came to email,
+p102
+aVthe only solution was something known as PGP,
+p103
+aVwhich was quite complicated and only accessible to the tech-savvy.
+p104
+aVHere's a diagram that basically shows
+p105
+aVthe process for encrypting and decrypting messages.
+p106
+aVSo needless to say, this is not a solution for everybody,
+p107
+aVand this actually is part of the problem,
+p108
+aVbecause if you think about communication,
+p109
+aVby definition, it involves having someone to communicate with.
+p110
+aVSo while PGP does a great job of what it's designed to do,
+p111
+aVfor the people out there who can't understand how to use it,
+p112
+aVthe option to communicate privately simply does not exist.
+p113
+aVAnd this is a problem that we need to solve.
+p114
+aVSo if we want to have privacy online,
+p115
+aVthe only way we can succeed is if we get the whole world on board,
+p116
+aVand this is only possible if we bring down the barrier to entry.
+p117
+aVI think this is actually the key challenge that lies in the tech community.
+p118
+aVWhat we really have to do is work and make privacy more accessible.
+p119
+aa(lp120
+VSo last summer, when the Edward Snowden story came out,
+p121
+aVseveral colleagues and I decided to see if we could make this happen.
+p122
+aVAt that time, we were working at the European Organization for Nuclear Research
+p123
+aVat the world's largest particle collider, which collides protons, by the way.
+p124
+aVWe were all scientists, so we used our scientific creativity
+p125
+aVand came up with a very creative name for our project:
+p126
+aVProtonMail. (Laughter)
+p127
+aVMany startups these days actually begin in people's garages
+p128
+aVor people's basements.
+p129
+aVWe were a bit different.
+p130
+aVWe started out at the CERN cafeteria,
+p131
+aVwhich actually is great, because look,
+p132
+aVyou have all the food and water you could ever want.
+p133
+aVBut even better than this is that every day
+p134
+aVbetween 12 p.m. and 2 p.m., free of charge,
+p135
+aVthe CERN cafeteria comes with several thousand scientists and engineers,
+p136
+aVand these guys basically know the answers to everything.
+p137
+aVSo it was in this environment that we began working.
+p138
+aVWhat we actually want to do is we want to take your email
+p139
+aVand turn it into something that looks more like this,
+p140
+aVbut more importantly, we want to do it in a way
+p141
+aVthat you can't even tell that it's happened.
+p142
+aVSo to do this, we actually need a combination of technology
+p143
+aVand also design.
+p144
+aa(lp145
+VSo how do we go about doing something like this?
+p146
+aVWell, it's probably a good idea not to put the keys on the server.
+p147
+aVSo what we do is we generate encryption keys on your computer,
+p148
+aVand we don't generate a single key, but actually a pair of keys,
+p149
+aVso there's an RSA private key and an RSA public key,
+p150
+aVand these keys are mathematically connected.
+p151
+aa(lp152
+VSo let's have a look and see how this works
+p153
+aVwhen multiple people communicate.
+p154
+aVSo here we have Bob and Alice, who want to communicate privately.
+p155
+aVSo the key challenge is to take Bob's message
+p156
+aVand to get it to Alice in such a way that the server cannot read that message.
+p157
+aVSo what we have to do is we have to encrypt it
+p158
+aVbefore it even leaves Bob's computer,
+p159
+aVand one of the tricks is, we encrypt it using the public key from Alice.
+p160
+aVNow this encrypted data is sent through the server to Alice,
+p161
+aVand because the message was encrypted using Alice's public key,
+p162
+aVthe only key that can now decrypt it is a private key that belongs to Alice,
+p163
+aVand it turns out Alice is the only person that actually has this key.
+p164
+aVSo we've now accomplished the objective,
+p165
+aVwhich is to get the message from Bob to Alice
+p166
+aVwithout the server being able to read what's going on.
+p167
+aa(lp168
+VActually, what I've shown here is a highly simplified picture.
+p169
+aVThe reality is much more complex
+p170
+aVand it requires a lot of software that looks a bit like this.
+p171
+aVAnd that's actually the key design challenge:
+p172
+aVHow do we take all this complexity, all this software,
+p173
+aVand implement it in a way that the user cannot see it.
+p174
+aVI think with ProtonMail, we have gotten pretty close to doing this.
+p175
+aa(lp176
+VSo let's see how it works in practice.
+p177
+aVHere, we've got Bob and Alice again,
+p178
+aVwho also want to communicate securely.
+p179
+aVThey simply create accounts on ProtonMail,
+p180
+aVwhich is quite simple and takes a few moments,
+p181
+aVand all the key encryption and generation
+p182
+aVis happening automatically in the background
+p183
+aVas Bob is creating his account.
+p184
+aVOnce his account is created, he just clicks "compose,"
+p185
+aVand now he can write his email like he does today.
+p186
+aVSo he fills in his information,
+p187
+aVand then after that,  all he has to do is click "send,"
+p188
+aVand just like that, without understanding cryptography,
+p189
+aVand without doing anything different from how he writes email today,
+p190
+aVBob has just sent an encrypted message.
+p191
+aa(lp192
+VWhat we have here is really just the first step,
+p193
+aVbut it shows that with improving technology,
+p194
+aVprivacy doesn't have to be difficult, it doesn't have to be disruptive.
+p195
+aVIf we change the goal from maximizing  ad revenue to protecting data,
+p196
+aVwe can actually make it accessible.
+p197
+aVNow, I know a question on everybody's minds is,
+p198
+aVokay, protecting privacy, this is a great goal,
+p199
+aVbut can you actually do this
+p200
+aVwithout the tons of money that advertisements give you?
+p201
+aVAnd I think the answer is actually yes,
+p202
+aVbecause today, we've reached a point
+p203
+aVwhere people around the world really understand how important privacy is,
+p204
+aVand when you have that, anything is possible.
+p205
+aVEarlier this year,
+p206
+aVProtonMail actually had so many users  that we ran out of resources,
+p207
+aVand when this happened, our community of users got together
+p208
+aVand donated half a million dollars.
+p209
+aVSo this is just an example of what can happen
+p210
+aVwhen you bring the community together towards a common goal.
+p211
+aVWe can also leverage the world.
+p212
+aVRight now,
+p213
+aVwe have a quarter of a million people that have signed up for ProtonMail,
+p214
+aVand these people come from everywhere,
+p215
+aVand this really shows that privacy
+p216
+aVis not just an American or a European issue,
+p217
+aVit's a global issue that impacts all of us.
+p218
+aVIt's something that we really have to pay attention to going forward.
+p219
+aa(lp220
+VSo what do we have to do to solve this problem?
+p221
+aVWell, first of all,
+p222
+aVwe need to support a different business model for the Internet,
+p223
+aVone that does not rely entirely on advertisements
+p224
+aVfor revenue and for growth.
+p225
+aVWe actually need to build a new Internet
+p226
+aVwhere our privacy and our ability  to control our data is first and foremost.
+p227
+aVBut even more importantly,
+p228
+aVwe have to build an Internet  where privacy is no longer just an option
+p229
+aVbut is also the default.
+p230
+aa(lp231
+VWe have done the first step with ProtonMail,
+p232
+aVbut this is really just the first step in a very, very long journey.
+p233
+aVThe good news I can share with you guys today,
+p234
+aVthe exciting news, is that we're not traveling alone.
+p235
+aVThe movement to protect people's privacy and freedom online
+p236
+aVis really gaining momentum,
+p237
+aVand today, there are dozens of projects from all around the world
+p238
+aVwho are working together to improve our privacy.
+p239
+aVThese projects protect things from our chat to voice communications,
+p240
+aValso our file storage, our online search,
+p241
+aVour online browsing, and many other things.
+p242
+aVAnd these projects are not backed by billions of dollars in advertising,
+p243
+aVbut they've found support really from the people,
+p244
+aVfrom private individuals like you and I from all over the world.
+p245
+aa(lp246
+VThis really matters, because ultimately,
+p247
+aVprivacy depends on each and every one of us,
+p248
+aVand we have to protect it now because our online data
+p249
+aVis more than just a collection of ones and zeros.
+p250
+aVIt's actually a lot more than that.
+p251
+aVIt's our lives, our personal stories,
+p252
+aVour friends, our families,
+p253
+aVand in many ways, also our hopes and our aspirations.
+p254
+aVWe need to spend time now to really protect our right
+p255
+aVto share this only with people that we want to share this with,
+p256
+aVbecause without this, we simply can't have a free society.
+p257
+aVSo now's the time for us to collectively stand up and say,
+p258
+aVyes, we do want to live in a world with online privacy,
+p259
+aVand yes, we can work together to turn this vision into a reality.
+p260
+aa(lp261
+VThank you.
+p262
+aa(lp263
+V(Applause)
+p264
+aasS'transcript_micsec'
+p265
+(lp266
+I12000
+aI55000
+aI88000
+aI129000
+aI137000
+aI176000
+aI212000
+aI229000
+aI273000
+aI328000
+aI397000
+aI419000
+aI471000
+aI493000
+aI532000
+aI604000
+aI634000
+aI676000
+aI718000
+aI720000
+asS'talk_meta'
+p267
+(dp268
+S'ratings'
+p269
+(dp270
+S'ingenious'
+p271
+I216
+sS'funny'
+p272
+I12
+sS'inspiring'
+p273
+I157
+sS'ok'
+p274
+I85
+sS'fascinating'
+p275
+I191
+sS'total_count'
+p276
+I1925
+sS'persuasive'
+p277
+I228
+sS'longwinded'
+p278
+I22
+sS'informative'
+p279
+I819
+sS'beautiful'
+p280
+I34
+sS'jaw-dropping'
+p281
+I18
+sS'obnoxious'
+p282
+I7
+sS'confusing'
+p283
+I13
+sS'courageous'
+p284
+I72
+sS'unconvincing'
+p285
+I51
+ssS'author'
+p286
+VAndy_Yen;
+p287
+sS'url'
+p288
+S'https://www.ted.com/talks/andy_yen_think_your_email_s_private_think_again'
+p289
+sS'vidlen'
+p290
+I729
+sS'totalviews'
+p291
+I1583829
+sS'title'
+p292
+VThink your email's private? Think again
+p293
+sS'downloadlink'
+p294
+Vhttps://download.ted.com/talks/AndyYen_2014G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p295
+sS'datepublished'
+p296
+cdatetime
+datetime
+p297
+(S'\x07\xdf\x03\x05\x0b\x00\x05\x00\x00\x00'
+tRp298
+sS'datefilmed'
+p299
+g297
+(S'\x07\xdf\x03\x05\x0b\x00\x05\x00\x00\x00'
+tRp300
+sS'alldata_JSON'
+p301
+S'{"viewed_count": 1583829, "speakers": [{"description": "Secure email developer", "firstname": "Andy", "title": "", "lastname": "Yen", "middleinitial": "", "whylisten": "Andy Yen is a scientist at CERN. With two colleagues, Wei Sun and Jason Stockman, he co-founded ProtonMail, an encrypted email startup based in Geneva, Switzerland, that seeks to make secure email accessible. The group aims to advance internet security and protect online privacy rights by making it possible for everyone to incorporate encryption into their everyday communication. <br /><br />A physicist and economist by training, since 2010 Andy has been part of the ATLAS experiment at CERN, where his research focus has been on searches for supersymmetric particles. He is translating his experience in large-scale computing to build the infrastructure that is used to run ProtonMail.", "slug": "andy_yen", "whotheyare": "Andy Yen is building an encrypted email program that lets everyone benefit from private communication.", "whatotherssay": "It\'s clear that we are under observation by both governments and corporations, and we can\'t just sit on the sidelines -- privacy is too important for democracy. We are computer scientists, we can do something, so we decided to try.", "id": 2030, "photo_url": "https://pe.tedcdn.com/images/ted/232ee5d32ed51cf5a9996b0fb0e7eef030e304eb_254x191.jpg"}], "current_talk": 2204, "description": "Sending an email message is like sending a postcard, says scientist Andy Yen in this thought-provoking talk: Anyone can read it. Yet encryption, the technology that protects the privacy of email communication, does exist. It\'s just that until now it has been difficult to install and a hassle to use. Showing a demo of an email program he designed with colleagues at CERN, Yen argues that encryption can be made simple to the point of becoming the default option, providing true email privacy to all.", "language": "en", "url": "https://www.ted.com/talks/andy_yen_think_your_email_s_private_think_again", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AndyYen_2014G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87249491}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AndyYen_2014G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16892001}, "podcast-high": {"uri": "https://download.ted.com/talks/AndyYen_2014G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87242757}, "180k": {"uri": "https://download.ted.com/talks/AndyYen_2014G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16643980}, "64k": {"uri": "https://download.ted.com/talks/AndyYen_2014G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6008916}, "1500k": {"uri": "https://download.ted.com/talks/AndyYen_2014G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 135038956}, "450k": {"uri": "https://download.ted.com/talks/AndyYen_2014G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41560373}, "podcast-regular": {"uri": "https://download.ted.com/talks/AndyYen_2014G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41675603}, "950k": {"uri": "https://download.ted.com/talks/AndyYen_2014G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87250599}, "audio-podcast": {"uri": "https://download.ted.com/talks/AndyYen_2014G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7570856}, "podcast-light": {"uri": "https://download.ted.com/talks/AndyYen_2014G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6142390}, "320k": {"uri": "https://download.ted.com/talks/AndyYen_2014G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29484653}, "600k": {"uri": "https://download.ted.com/talks/AndyYen_2014G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55629594}}}, "comments": {"count": 121, "id": 26823, "talk_id": 2204}, "slug": "andy_yen_think_your_email_s_private_think_again", "threadId": 26823, "talks": [{"event": "TEDGlobal 2014", "player_talks": [{"event": "TEDGlobal 2014", "slug": "andy_yen_think_your_email_s_private_think_again", "filmed": 1412726400, "targeting": {"event": "TEDGlobal 2014", "tag": "Internet,Surveillance,communication,privacy,security,technology,web", "id": 2204, "talk": "andy_yen_think_your_email_s_private_think_again", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "Think your email\'s private? Think again", "postAdDuration": "0.83", "published": 1425571205, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f4792554f556e73baab114a2d7b27876bd8ae9c6_2880x1620.jpg?quality=89&w=600", "name": "Andy Yen: Think your email\'s private? Think again", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "Surveillance", "communication", "privacy", "security", "technology", "web"], "speaker": "Andy Yen", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 729, "id": 2204, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AndyYen_2014G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2014", "tag": "Internet,Surveillance,communication,privacy,security,technology,web", "id": 2204, "talk": "andy_yen_think_your_email_s_private_think_again", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2204.json", "stream": "https://hls.ted.com/talks/2204.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2014%26id%3D2204%26tag%3DInternet%2CSurveillance%2Ccommunication%2Cprivacy%2Csecurity%2Ctechnology%2Cweb%26talk%3Dandy_yen_think_your_email_s_private_think_again%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/andy_yen_think_your_email_s_private_think_again"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f4792554f556e73baab114a2d7b27876bd8ae9c6_2880x1620.jpg?q=50&w=15", "duration": 729, "id": 2204, "ratings": [{"count": 819, "id": 8, "name": "Informative"}, {"count": 216, "id": 9, "name": "Ingenious"}, {"count": 191, "id": 22, "name": "Fascinating"}, {"count": 12, "id": 7, "name": "Funny"}, {"count": 22, "id": 11, "name": "Longwinded"}, {"count": 51, "id": 21, "name": "Unconvincing"}, {"count": 34, "id": 1, "name": "Beautiful"}, {"count": 85, "id": 25, "name": "OK"}, {"count": 228, "id": 24, "name": "Persuasive"}, {"count": 157, "id": 10, "name": "Inspiring"}, {"count": 13, "id": 2, "name": "Confusing"}, {"count": 7, "id": 26, "name": "Obnoxious"}, {"count": 72, "id": 3, "name": "Courageous"}, {"count": 18, "id": 23, "name": "Jaw-dropping"}], "speakers": [{"description": "Secure email developer", "firstname": "Andy", "title": "", "lastname": "Yen", "middleinitial": "", "whylisten": "Andy Yen is a scientist at CERN. With two colleagues, Wei Sun and Jason Stockman, he co-founded ProtonMail, an encrypted email startup based in Geneva, Switzerland, that seeks to make secure email accessible. The group aims to advance internet security and protect online privacy rights by making it possible for everyone to incorporate encryption into their everyday communication. <br /><br />A physicist and economist by training, since 2010 Andy has been part of the ATLAS experiment at CERN, where his research focus has been on searches for supersymmetric particles. He is translating his experience in large-scale computing to build the infrastructure that is used to run ProtonMail.", "slug": "andy_yen", "whotheyare": "Andy Yen is building an encrypted email program that lets everyone benefit from private communication.", "whatotherssay": "It\'s clear that we are under observation by both governments and corporations, and we can\'t just sit on the sidelines -- privacy is too important for democracy. We are computer scientists, we can do something, so we decided to try.", "id": 2030, "photo_url": "https://pe.tedcdn.com/images/ted/232ee5d32ed51cf5a9996b0fb0e7eef030e304eb_254x191.jpg"}], "title": "Think your email\'s private? Think again", "take_action": [], "comments": 26823, "more_resources": [{"status": "approved", "start_at": null, "headline": "Why we should all care about encryption. Really.", "link_url": "http://ideas.ted.com/why-we-should-all-care-about-encryption-really/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Andy Yen argues that privacy is a fundamental right that should not be squandered in the name of security."}], "hero": "https://pe.tedcdn.com/images/ted/f4792554f556e73baab114a2d7b27876bd8ae9c6_2880x1620.jpg", "description": "Sending an email message is like sending a postcard, says scientist Andy Yen in this thought-provoking talk: Anyone can read it. Yet encryption, the technology that protects the privacy of email communication, does exist. It\'s just that until now it has been difficult to install and a hassle to use. Showing a demo of an email program he designed with colleagues at CERN, Yen argues that encryption can be made simple to the point of becoming the default option, providing true email privacy to all.", "tags": ["Internet", "Surveillance", "communication", "privacy", "security", "technology", "web"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AndyYen_2014G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AndyYen_2014G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AndyYen_2014G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-it.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/AndyYen_2014G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AndyYen_2014G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AndyYen_2014G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AndyYen_2014G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AndyYen_2014G-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/AndyYen_2014G-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AndyYen_2014G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AndyYen_2014G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/AndyYen_2014G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AndyYen_2014G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AndyYen_2014G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AndyYen_2014G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/AndyYen_2014G-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AndyYen_2014G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AndyYen_2014G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AndyYen_2014G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/AndyYen_2014G-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/AndyYen_2014G-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AndyYen_2014G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AndyYen_2014G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AndyYen_2014G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AndyYen_2014G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2204, "audioDownload": "https://download.ted.com/talks/AndyYen_2014G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 890776, "hero": "https://pe.tedcdn.com/images/ted/630d123572ec57fd0a35a1b15016cf4a3d1ec40f_1600x1200.jpg", "title": "Protecting Twitter users (sometimes from themselves)", "id": 1958, "speaker": "Del Harvey", "duration": 559, "slug": "del_harvey_the_strangeness_of_scale_at_twitter"}, {"viewed_count": 1475955, "hero": "https://pe.tedcdn.com/images/ted/5cc6ecdd1e519b5ca5b9ef32c11f1d7f180bbbf0_2400x1800.jpg", "title": "What\\u2019s wrong with your pa$$w0rd?", "id": 2030, "speaker": "Lorrie Faith Cranor", "duration": 1061, "slug": "lorrie_faith_cranor_what_s_wrong_with_your_pa_w0rd"}, {"viewed_count": 1832121, "hero": "https://pe.tedcdn.com/images/ted/362eb0e4bebcaeaaa4c4f05da5a5154919471656_2880x1620.jpg", "title": "The small and surprisingly dangerous detail the police track about you", "id": 2149, "speaker": "Catherine Crump", "duration": 354, "slug": "catherine_crump_the_small_and_surprisingly_dangerous_detail_the_police_track_about_you"}, {"viewed_count": 1960213, "hero": "https://pe.tedcdn.com/images/ted/6992aa456af79721f493686c804324356781ddea_2880x1620.jpg", "title": "Why privacy matters", "id": 2106, "speaker": "Glenn Greenwald", "duration": 1237, "slug": "glenn_greenwald_why_privacy_matters"}, {"viewed_count": 1265951, "hero": "https://pe.tedcdn.com/images/ted/05717986c9c5cd865d11bd48849f5a5bea90a922_2880x1620.jpg", "title": "How to practice safe sexting", "id": 2685, "speaker": "Amy Adele Hasinoff", "duration": 865, "slug": "amy_adele_hasinoff_how_to_practice_safe_sexting"}, {"viewed_count": 1312301, "hero": "https://pe.tedcdn.com/images/ted/455ebe6c262d8f567e288fcda788a28def875400_1600x1200.jpg", "title": "What will a future without secrets look like?", "id": 1848, "speaker": "Alessandro Acquisti", "duration": 900, "slug": "alessandro_acquisti_why_privacy_matters"}], "recorded_at": "2014-10-08T00:00:00.000+00:00", "slug": "andy_yen_think_your_email_s_private_think_again", "speaker_name": "Andy Yen", "viewed_count": 1583829, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Andy Yen recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Carry On", "link_url": "http://www.amazon.com/Carry-Sound-Advice-Schneier-Security/dp/1118790812/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Bruce Schneier\\r\\nWiley, 2013", "position": null, "blurb": "Schneier is a security expert of the modern age and his book is the quintessential primer into privacy and international surveillance. *Carry On* gives intriguing insight into the inherent security vulnerabilities that need to be addressed as society is woven into the Internet. As a collection of short essays, the book is an excellent introduction for anybody who would like to learn more about Internet privacy and surveillance on a global scale."}, {"is_pdf": false, "headline": "Privacy and Big Data", "link_url": "http://www.amazon.com/Privacy-Big-Data-Terence-Craig/dp/1449305008/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Terence Craig and Mary E. Ludloff\\r\\nO\'Reilly Media, 2011", "position": null, "blurb": "Although *Privacy and Big Data* is a quick read, it adds perspective to the privacy discourse at hand in Europe and North America. Craig and Ludloff approach the book with an intersectional methodology, drawing on philosophy, privacy policy and international affairs to assemble a well-written overview of the situation."}, {"is_pdf": false, "headline": "Nothing to Hide", "link_url": "http://www.amazon.com/Nothing-Hide-Tradeoff-between-Security/dp/0300172338/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Daniel J. Solove\\r\\nYale University Press, 2013", "position": null, "blurb": "*Nothing to Hide* is a must-read for those who want to explore the battle between privacy and security. Solove investigates all facets of modern surveillance efforts and disassembles the assumptions and arguments used to fuel the government surveillance apparatus. With his unique insight into the national security debate, Solove\'s book does a great job of explaining the threats to privacy posed by intrusive government surveillance."}], "title": "Reading list"}], "published": true, "type": "recommendation", "blurb": "Read three books to learn more about how the Internet affects privacy."}, "corrections": []}], "event": "TEDGlobal 2014", "name": "Andy Yen: Think your email\'s private? Think again"}'
+p302
+sS'keywords'
+p303
+(lp304
+VInternet
+p305
+aVSurveillance
+p306
+aVcommunication
+p307
+aVprivacy
+p308
+aVsecurity
+p309
+aVtechnology
+p310
+aVweb
+p311
+asS'datecrawled'
+p312
+g297
+(S'\x07\xe1\n\x17\x009\x06\r\x01\xc9'
+tRp313
+sS'id'
+p314
+I2204
+ss.

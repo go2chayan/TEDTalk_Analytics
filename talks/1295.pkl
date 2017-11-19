@@ -1,0 +1,1100 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VHow many of you had to fill out a web form
+p5
+aVwhere you've been asked to read
+p6
+aVa distorted sequence of characters like this?
+p7
+aVHow many of you found it really annoying?
+p8
+aa(lp9
+V(Laughter)
+p10
+aa(lp11
+VOK, outstanding. So I invented that.
+p12
+aa(lp13
+V(Laughter)
+p14
+aa(lp15
+VOr I was one of the people who did it.
+p16
+aVThat thing is called a CAPTCHA.
+p17
+aVAnd it is there to make sure you, the entity filling out the form,
+p18
+aVare a human and not a computer program
+p19
+aVthat was written to submit the form millions of times.
+p20
+aVThe reason it works is because humans, at least non-visually-impaired humans,
+p21
+aVhave no trouble reading these distorted characters,
+p22
+aVwhereas programs can't do it as well yet.
+p23
+aVIn the case of Ticketmaster,
+p24
+aVthe reason you have to type these characters
+p25
+aVis to prevent scalpers from writing a program
+p26
+aVthat can buy millions of tickets, two at a time.
+p27
+aa(lp28
+VCAPTCHAs are used all over the Internet.
+p29
+aVAnd since they're used so often,
+p30
+aVa lot of times the sequence of random characters shown to the user
+p31
+aVis not so fortunate.
+p32
+aVSo this is an example from the Yahoo registration page.
+p33
+aVThe random characters that happened to be shown to the user
+p34
+aVwere W, A, I, T, which, of course, spell a word.
+p35
+aVBut the best part is the message
+p36
+aVthat the Yahoo help desk got about 20 minutes later.
+p37
+aa(lp38
+V[Help! I've been waiting for over 20 minutes and nothing happens.]
+p39
+aa(lp40
+V(Laughter)
+p41
+aa(lp42
+VThis person thought they needed to wait.
+p43
+aVThis, of course, is not as bad as this poor person.
+p44
+aa(lp45
+V(Laughter)
+p46
+aa(lp47
+VCAPTCHA Project is something that we did at Carnegie Melllon over 10 years ago,
+p48
+aVand it's been used everywhere.
+p49
+aVLet me now tell you about a project that we did a few years later,
+p50
+aVwhich is sort of the next evolution of CAPTCHA.
+p51
+aVThis is a project that we call reCAPTCHA,
+p52
+aVwhich is something that we started here at Carnegie Mellon,
+p53
+aVthen we turned it into a start-up company.
+p54
+aVAnd then about a year and a half ago, Google actually acquired this company.
+p55
+aa(lp56
+VLet me tell you what this project started.
+p57
+aVThis project started from the following realization:
+p58
+aVIt turns out that approximately 200 million CAPTCHAs
+p59
+aVare typed everyday by people around the world.
+p60
+aVWhen I first heard this, I was quite proud of myself.
+p61
+aVI thought, look at the impact my research has had.
+p62
+aVBut then I started feeling bad.
+p63
+aVHere's the thing: each time you type a CAPTCHA,
+p64
+aVessentially, you waste 10 seconds of your time.
+p65
+aVAnd if you multiply that by 200 million,
+p66
+aVyou get that humanity is wasting about 500,000 hours every day
+p67
+aVtyping these annoying CAPTCHAs.
+p68
+aa(lp69
+V(Laughter)
+p70
+aa(lp71
+VSo then I started feeling bad.
+p72
+aa(lp73
+V(Laughter)
+p74
+aa(lp75
+VAnd then I started thinking, of course, we can't just get rid of CAPTCHAs,
+p76
+aVbecause the security of the web depends on them.
+p77
+aVBut then I started thinking, can we use this effort
+p78
+aVfor something that is good for humanity?
+p79
+aVSo see, here's the thing.
+p80
+aVWhile you're typing a CAPTCHA, during those 10 seconds,
+p81
+aVyour brain is doing something amazing.
+p82
+aVYour brain is doing something that computers cannot yet do.
+p83
+aVSo can we get you to do useful work for those 10 seconds?
+p84
+aVIs there some humongous problem that we cannot yet get computers to solve,
+p85
+aVyet we can split into tiny 10-second chunks
+p86
+aVsuch that each time somebody solves a CAPTCHA,
+p87
+aVthey solve a little bit of this problem?
+p88
+aVAnd the answer to that is "yes," and this is what we're doing now.
+p89
+aa(lp90
+VNowadays, while you're typing a CAPTCHA,
+p91
+aVnot only are you authenticating yourself as a human,
+p92
+aVbut in addition you're helping us to digitize books.
+p93
+aVLet me explain how this works.
+p94
+aVThere's a lot of projects trying to digitize books.
+p95
+aVGoogle has one. The Internet Archive has one.
+p96
+aVAmazon, with the Kindle, is trying to digitize books.
+p97
+aVBasically, the way this works is you start with an old book.
+p98
+aVYou've seen those things, right?
+p99
+aVLike a book?
+p100
+aa(lp101
+V(Laughter)
+p102
+aa(lp103
+VSo you start with a book and then you scan it.
+p104
+aa(lp105
+VNow, scanning a book
+p106
+aVis like taking a digital photograph of every page.
+p107
+aVIt gives you an image for every page.
+p108
+aVThis is an image with text for every page of the book.
+p109
+aVThe next step in the process is that the computer needs to be able
+p110
+aVto decipher the words in this image.
+p111
+aVThat's using a technology called OCR, for optical character recognition,
+p112
+aVwhich takes a picture of text
+p113
+aVand tries to figure out what text is in there.
+p114
+aVNow, the problem is that OCR is not perfect.
+p115
+aVEspecially for older books
+p116
+aVwhere the ink has faded and the pages have turned yellow,
+p117
+aVOCR cannot recognize a lot of the words.
+p118
+aVFor things that were written more than 50 years ago,
+p119
+aVthe computer cannot recognize about 30 percent of the words.
+p120
+aVSo now we're taking all of the words that the computer cannot recognize
+p121
+aVand we're getting people to read them for us
+p122
+aVwhile they're typing a CAPTCHA on the Internet.
+p123
+aa(lp124
+VSo the next time you type a CAPTCHA, these words that you're typing
+p125
+aVare actually words from books that are being digitized
+p126
+aVthat the computer could not recognize.
+p127
+aVThe reason we have two words nowadays instead of one
+p128
+aVis because one of the words
+p129
+aVis a word that the system just got out of a book,
+p130
+aVit didn't know what it was and it's going to present it to you.
+p131
+aVBut since it doesn't know the answer, it cannot grade it.
+p132
+aVSo we give you another word,
+p133
+aVfor which the system does know the answer.
+p134
+aVWe don't tell you which one's which and we say, please type both.
+p135
+aVAnd if you type the correct word
+p136
+aVfor the one for which the system knows the answer,
+p137
+aVit assumes you are human
+p138
+aVand it also gets some confidence that you typed the other word correctly.
+p139
+aVAnd if we repeat this process to 10 different people
+p140
+aVand they agree on what the new word is,
+p141
+aVthen we get one more word digitized accurately.
+p142
+aa(lp143
+VSo this is how the system works.
+p144
+aVAnd since we released it about three or four years ago,
+p145
+aVa lot of websites have started switching from the old CAPTCHA,
+p146
+aVwhere people wasted their time,
+p147
+aVto the new CAPTCHA where people are helping to digitize books.
+p148
+aVSo every time you buy tickets on Ticketmaster,
+p149
+aVyou help to digitize a book.
+p150
+aVFacebook: Every time you add a friend or poke somebody,
+p151
+aVyou help to digitize a book.
+p152
+aVTwitter and about 350,000 other sites are all using reCAPTCHA.
+p153
+aVAnd the number of sites that are using reCAPTCHA is so high
+p154
+aVthat the number of words we're digitizing per day is really large.
+p155
+aVIt's about 100 million a day,
+p156
+aVwhich is the equivalent of about two and a half million books a year.
+p157
+aVAnd this is all being done one word at a time
+p158
+aVby just people typing CAPTCHAs on the Internet.
+p159
+aa(lp160
+V(Applause)
+p161
+aa(lp162
+VNow, of course,
+p163
+aVsince we're doing so many words per day,
+p164
+aVfunny things can happen.
+p165
+aVThis is especially true because now we're giving people
+p166
+aVtwo randomly chosen English words next to each other.
+p167
+aVSo funny things can happen.
+p168
+aVFor example, we presented this word.
+p169
+aVIt's the word "Christians"; there's nothing wrong with it.
+p170
+aVBut if you present it along with another randomly chosen word,
+p171
+aVbad things can happen.
+p172
+aVSo we get this.
+p173
+aa(lp174
+V[bad Christians]
+p175
+aa(lp176
+VBut it's even worse, because the website where we showed this
+p177
+aVactually happened to be called The Embassy of the Kingdom of God.
+p178
+aa(lp179
+V(Laughter)
+p180
+aa(lp181
+VOops.
+p182
+aa(lp183
+V(Laughter)
+p184
+aa(lp185
+VHere's another really bad one.
+p186
+aVJohnEdwards.com
+p187
+aa(lp188
+V[Damn liberal]
+p189
+aa(lp190
+V(Laughter)
+p191
+aa(lp192
+VSo we keep on insulting people left and right everyday.
+p193
+aVOf course, we're not just insulting people.
+p194
+aVHere's the thing. Since we're presenting two randomly chosen words,
+p195
+aVinteresting things can happen.
+p196
+aVSo this actually has given rise to a really big Internet meme
+p197
+aVthat tens of thousands of people have participated in,
+p198
+aVwhich is called CAPTCHA art.
+p199
+aVI'm sure some of you have heard about it.
+p200
+aVHere's how it works.
+p201
+aVImagine you're using the Internet and you see a CAPTCHA
+p202
+aVthat you think is somewhat peculiar,
+p203
+aVlike this CAPTCHA.
+p204
+aa(lp205
+V[invisible toaster]
+p206
+aa(lp207
+VWhat you're supposed to do is you take a screenshot of it.
+p208
+aVThen of course, you fill out the CAPTCHA because you help us digitize a book.
+p209
+aVBut first you take a screenshot
+p210
+aVand then you draw something that is related to it.
+p211
+aa(lp212
+V(Laughter)
+p213
+aa(lp214
+VThat's how it works.
+p215
+aa(lp216
+V(Laughter)
+p217
+aa(lp218
+VThere are tens of thousands of these.
+p219
+aVSome of them are very cute.
+p220
+aa(lp221
+V[clenched it]
+p222
+aa(lp223
+V(Laughter)
+p224
+aa(lp225
+VSome of them are funnier.
+p226
+aa(lp227
+V[stoned Founders]
+p228
+aa(lp229
+V(Laughter)
+p230
+aa(lp231
+VAnd some of them, like paleontological shvisle ...
+p232
+aa(lp233
+V(Laughter)
+p234
+aa(lp235
+Vthey contain Snoop Dogg.
+p236
+aa(lp237
+V(Laughter)
+p238
+aa(lp239
+VOK, so this is my favorite number of reCAPTCHA.
+p240
+aVSo this is the favorite thing that I like about this whole project.
+p241
+aVThis is the number of distinct people
+p242
+aVthat have helped us digitize at least one word out of a book through reCAPTCHA:
+p243
+aV750 million, a little over 10 percent of the world's population,
+p244
+aVhas helped us digitize human knowledge.
+p245
+aVAnd it is numbers like these that motivate my research agenda.
+p246
+aVSo the question that motivates my research is the following:
+p247
+aVIf you look at humanity's large-scale achievements,
+p248
+aVthese really big things
+p249
+aVthat humanity has gotten together and done historically \u2014
+p250
+aVlike, for example, building the pyramids of Egypt
+p251
+aVor the Panama Canal
+p252
+aVor putting a man on the Moon \u2014
+p253
+aVthere is a curious fact about them,
+p254
+aVand it is that they were all done with about the same number of people.
+p255
+aVIt's weird; they were all done with about 100,000 people.
+p256
+aVAnd the reason for that is because, before the Internet,
+p257
+aVcoordinating more than 100,000 people,
+p258
+aVlet alone paying them, was essentially impossible.
+p259
+aVBut now with the Internet, I've just shown you a project
+p260
+aVwhere we've gotten 750 million people to help us digitize human knowledge.
+p261
+aVSo the question that motivates my research is,
+p262
+aVif we can put a man on the Moon with 100,000,
+p263
+aVwhat can we do with 100 million?
+p264
+aa(lp265
+VSo based on this question,
+p266
+aVwe've had a lot of different projects that we've been working on.
+p267
+aVLet me tell you about one that I'm most excited about.
+p268
+aVThis is something that we've been semiquietly working on
+p269
+aVfor the last year and a half or so.
+p270
+aVIt hasn't yet been launched. It's called Duolingo.
+p271
+aVSince it hasn't been launched, shhh!
+p272
+aa(lp273
+V(Laughter)
+p274
+aa(lp275
+VYeah, I can trust you'll do that.
+p276
+aVSo this is the project. Here's how it started.
+p277
+aVIt started with me posing a question to my graduate student, Severin Hacker.
+p278
+aVOK, that's Severin Hacker.
+p279
+aVSo I posed the question to my graduate student.
+p280
+aVBy the way, you did hear me correctly; his last name is Hacker.
+p281
+aa(lp282
+V(Laughter)
+p283
+aa(lp284
+VSo I posed this question to him: How can we get 100 million people
+p285
+aVtranslating the web into every major language for free?
+p286
+aVThere's a lot of things to say about this question.
+p287
+aVFirst of all, translating the web.
+p288
+aVRight now, the web is partitioned into multiple languages.
+p289
+aVA large fraction of it is in English.
+p290
+aVIf you don't know English, you can't access it.
+p291
+aVBut there's large fractions in other different languages,
+p292
+aVand if you don't know them, you can't access it.
+p293
+aVSo I would like to translate all of the web,
+p294
+aVor at least most of it, into every major language.
+p295
+aVThat's what I would like to do.
+p296
+aa(lp297
+VNow, some of you may say, why can't we use computers to translate?
+p298
+aVMachine translation is starting to translate
+p299
+aVsome sentences here and there.
+p300
+aVWhy can't we use it to translate the web?
+p301
+aVThe problem with that is it's not yet good enough
+p302
+aVand it probably won't be for the next 15 to 20 years.
+p303
+aVIt makes a lot of mistakes. Even when it doesn't,
+p304
+aVsince it makes so many mistakes, you don't know whether to trust it or not.
+p305
+aa(lp306
+VSo let me show you an example
+p307
+aVof something that was translated with a machine.
+p308
+aVActually, it was a forum post.
+p309
+aVIt was somebody who was trying to ask a question about JavaScript.
+p310
+aVIt was translated from Japanese into English.
+p311
+aVSo I'll just let you read.
+p312
+aVThis person starts apologizing
+p313
+aVfor the fact that it's translated with a computer.
+p314
+aVSo the next sentence is going to be the preamble to the question.
+p315
+aVSo he's just explaining something.
+p316
+aVRemember, it's a question about JavaScript.
+p317
+aa(lp318
+V[At often, the goat-time install a error is vomit.]
+p319
+aa(lp320
+V(Laughter)
+p321
+aa(lp322
+VThen comes the first part of the question.
+p323
+aa(lp324
+V[How many times like the wind, a pole, and the dragon?]
+p325
+aa(lp326
+V(Laughter)
+p327
+aa(lp328
+VThen comes my favorite part of the question.
+p329
+aa(lp330
+V[This insult to father's stones?]
+p331
+aa(lp332
+V(Laughter)
+p333
+aa(lp334
+VAnd then comes the ending,
+p335
+aVwhich is my favorite part of the whole thing.
+p336
+aa(lp337
+V[Please apologize for your stupidity. There are a many thank you.]
+p338
+aa(lp339
+V(Laughter)
+p340
+aa(lp341
+VOK, so computer translation, not yet good enough.
+p342
+aVSo back to the question.
+p343
+aVSo we need people to translate the whole web.
+p344
+aVSo now the next question you may have is,
+p345
+aVwell, why can't we just pay people to do this?
+p346
+aVWe could pay professional translators to translate the whole web.
+p347
+aVWe could do that.
+p348
+aVUnfortunately, it would be extremely expensive.
+p349
+aVFor example, translating a tiny fraction of the whole web, Wikipedia,
+p350
+aVinto one other language, Spanish.
+p351
+aVOK? Wikipedia exists in Spanish,
+p352
+aVbut it's very small compared to the size of English.
+p353
+aVIt's about 20 percent of the size of English.
+p354
+aVIf we wanted to translate the other 80 percent into Spanish,
+p355
+aVit would cost at least 50 million dollars \u2014
+p356
+aVand this is even at the most exploited, outsourcing country out there.
+p357
+aVSo it would be very expensive.
+p358
+aVSo what we want to do is, we want to get 100 million people
+p359
+aVtranslating the web into every major language for free.
+p360
+aa(lp361
+VIf this is what you want to do, you quickly realize
+p362
+aVyou're going to run into two big hurdles, two big obstacles.
+p363
+aVThe first one is a lack of bilinguals.
+p364
+aVSo I don't even know
+p365
+aVif there exists 100 million people out there using the web
+p366
+aVwho are bilingual enough to help us translate.
+p367
+aVThat's a big problem.
+p368
+aVThe other problem you're going to run into is a lack of motivation.
+p369
+aVHow are we going to motivate people to actually translate the web for free?
+p370
+aVNormally, you have to pay people to do this.
+p371
+aVSo how are we going to motivate them to do it for free?
+p372
+aVWhen we were starting to think about this, we were blocked by these two things.
+p373
+aVBut then we realized, there's a way
+p374
+aVto solve both these problems with the same solution.
+p375
+aVTo kill two birds with one stone.
+p376
+aVAnd that is to transform language translation
+p377
+aVinto something that millions of people want to do
+p378
+aVand that also helps with the problem of lack of bilinguals,
+p379
+aVand that is language education.
+p380
+aa(lp381
+VSo it turns out that today,
+p382
+aVthere are over 1.2 billion people learning a foreign language.
+p383
+aVPeople really want to learn a foreign language.
+p384
+aVAnd it's not just because they're being forced to do so in school.
+p385
+aVIn the US alone, there are over five million people
+p386
+aVwho have paid over $500 for software to learn a new language.
+p387
+aVSo people really want to learn a new language.
+p388
+aVSo what we've been working on for the last year and a half
+p389
+aVis a new website \u2014 it's called Duolingo \u2014
+p390
+aVwhere the basic idea is people learn a new language for free
+p391
+aVwhile simultaneously translating the web.
+p392
+aVAnd so basically, they're learning by doing.
+p393
+aa(lp394
+VSo the way this works
+p395
+aVis whenever you're a just a beginner, we give you very simple sentences.
+p396
+aVThere's a lot of very simple sentences on the web.
+p397
+aVWe give you very simple sentences along with what each word means.
+p398
+aVAnd as you translate them
+p399
+aVand as you see how other people translate them,
+p400
+aVyou start learning the language.
+p401
+aVAnd as you get more advanced,
+p402
+aVwe give you more complex sentences to translate.
+p403
+aVBut at all times, you're learning by doing.
+p404
+aa(lp405
+VNow, the crazy thing about this method is that it actually really works.
+p406
+aVPeople are really learning a language.
+p407
+aVWe're mostly done building it and now we're testing it.
+p408
+aVPeople really can learn a language with it.
+p409
+aVAnd they learn it about as well as the leading language learning software.
+p410
+aVSo people really do learn a language.
+p411
+aVAnd not only do they learn it as well, but actually it's more interesting.
+p412
+aVBecause with Duolingo, people are learning with real content.
+p413
+aVAs opposed to learning with made-up sentences,
+p414
+aVpeople are learning with real content, which is inherently interesting.
+p415
+aVSo people really do learn a language.
+p416
+aa(lp417
+VBut perhaps more surprisingly,
+p418
+aVthe translations that we get from people using the site,
+p419
+aVeven though they're just beginners,
+p420
+aVthe translations that we get
+p421
+aVare as accurate as those of professional language translators,
+p422
+aVwhich is very surprising.
+p423
+aVSo let me show you one example.
+p424
+aVThis is a sentence that was translated from German into English.
+p425
+aVThe top is the German. The middle is an English translation
+p426
+aVthat was done by a professional translator
+p427
+aVwho we paid 20 cents a word for this translation.
+p428
+aVAnd the bottom is a translation by users of Duolingo,
+p429
+aVnone of whom knew any German before they started using the site.
+p430
+aVIf you can see, it's pretty much perfect.
+p431
+aVOf course, we play a trick here
+p432
+aVto make the translations as good as professional language translators.
+p433
+aVWe combine the translations of multiple beginners
+p434
+aVto get the quality of a single professional translator.
+p435
+aa(lp436
+VNow, even though we're combining the translations,
+p437
+aVthe site actually can translate pretty fast.
+p438
+aVSo let me show you,
+p439
+aVthis is our estimates of how fast we could translate Wikipedia
+p440
+aVfrom English into Spanish.
+p441
+aVRemember, this is 50 million dollars' worth of value.
+p442
+aVSo if we wanted to translate Wikipedia into Spanish,
+p443
+aVwe could do it in five weeks with 100,000 active users.
+p444
+aVAnd we could do it in about 80 hours with a million active users.
+p445
+aVSince all the projects my group has worked on so far
+p446
+aVhave gotten millions of users,
+p447
+aVwe're hopeful that we'll be able to translate extremely fast.
+p448
+aa(lp449
+VNow, the thing that I'm most excited about with Duolingo
+p450
+aVis I think this provides a fair business model for language education.
+p451
+aVSo here's the thing:
+p452
+aVThe current business model for language education
+p453
+aVis the student pays,
+p454
+aVand in particular, the student pays Rosetta Stone 500 dollars.
+p455
+aa(lp456
+V(Laughter)
+p457
+aa(lp458
+VThat's the current business model.
+p459
+aVThe problem with this business model
+p460
+aVis that 95 percent of the world's population doesn't have 500 dollars.
+p461
+aVSo it's extremely unfair towards the poor.
+p462
+aVThis is totally biased towards the rich.
+p463
+aVNow, see, in Duolingo,
+p464
+aVbecause while you learn, you're actually creating value,
+p465
+aVyou're translating stuff \u2014
+p466
+aVwhich, for example, we could charge somebody for translations,
+p467
+aVso this is how we could monetize this.
+p468
+aVSince people are creating value while they're learning,
+p469
+aVthey don't have to pay with their money, they pay with their time.
+p470
+aVBut the magical thing here
+p471
+aVis that is time that would have had to have been spent anyways
+p472
+aVlearning the language.
+p473
+aVSo the nice thing about Duolingo
+p474
+aVis, I think, it provides a fair business model \u2014
+p475
+aVone that doesn't discriminate against poor people.
+p476
+aa(lp477
+VSo here's the site. Thank you.
+p478
+aa(lp479
+V(Applause)
+p480
+aa(lp481
+VWe haven't yet launched,
+p482
+aVbut if you go there, you can sign up to be part of our private beta,
+p483
+aVwhich is probably going to start in three or four weeks.
+p484
+aVWe haven't yet launched it.
+p485
+aa(lp486
+VBy the way, I'm the one talking here,
+p487
+aVbut Duolingo is the work of a really awesome team,
+p488
+aa(lp489
+Vsome of whom are here. So thank you.
+p490
+aa(lp491
+V(Applause)
+p492
+aasS'transcript_micsec'
+p493
+(lp494
+I11000
+aI18000
+aI19000
+aI21000
+aI23000
+aI50000
+aI71000
+aI74000
+aI79000
+aI83000
+aI86000
+aI107000
+aI134000
+aI135000
+aI136000
+aI138000
+aI173000
+aI195000
+aI196000
+aI199000
+aI241000
+aI283000
+aI321000
+aI328000
+aI351000
+aI352000
+aI358000
+aI360000
+aI361000
+aI365000
+aI368000
+aI369000
+aI374000
+aI401000
+aI402000
+aI413000
+aI414000
+aI415000
+aI417000
+aI422000
+aI423000
+aI425000
+aI426000
+aI428000
+aI432000
+aI435000
+aI437000
+aI439000
+aI442000
+aI505000
+aI521000
+aI522000
+aI538000
+aI539000
+aI568000
+aI589000
+aI613000
+aI616000
+aI621000
+aI625000
+aI628000
+aI632000
+aI634000
+aI636000
+aI640000
+aI644000
+aI647000
+aI649000
+aI695000
+aI744000
+aI776000
+aI797000
+aI827000
+aI869000
+aI900000
+aI915000
+aI917000
+aI958000
+aI960000
+aI968000
+aI978000
+aI982000
+aI984000
+asS'talk_meta'
+p495
+(dp496
+S'ratings'
+p497
+(dp498
+S'ingenious'
+p499
+I1445
+sS'funny'
+p500
+I325
+sS'inspiring'
+p501
+I960
+sS'ok'
+p502
+I31
+sS'fascinating'
+p503
+I688
+sS'total_count'
+p504
+I4619
+sS'persuasive'
+p505
+I161
+sS'longwinded'
+p506
+I4
+sS'informative'
+p507
+I473
+sS'beautiful'
+p508
+I53
+sS'jaw-dropping'
+p509
+I421
+sS'obnoxious'
+p510
+I8
+sS'confusing'
+p511
+I2
+sS'courageous'
+p512
+I40
+sS'unconvincing'
+p513
+I8
+ssS'author'
+p514
+VLuis_von Ahn;
+p515
+sS'url'
+p516
+S'https://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration'
+p517
+sS'vidlen'
+p518
+I999
+sS'totalviews'
+p519
+I1488862
+sS'title'
+p520
+VMassive-scale online collaboration
+p521
+sS'downloadlink'
+p522
+Vhttps://download.ted.com/talks/LuisVonAhn_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p523
+sS'datepublished'
+p524
+cdatetime
+datetime
+p525
+(S"\x07\xdb\x0c\x06\x0c'\x04\x00\x00\x00"
+tRp526
+sS'datefilmed'
+p527
+g525
+(S"\x07\xdb\x0c\x06\x0c'\x04\x00\x00\x00"
+tRp528
+sS'alldata_JSON'
+p529
+S'{"viewed_count": 1488862, "speakers": [{"description": "Computer scientist", "firstname": "Luis", "title": "", "lastname": "von Ahn", "middleinitial": "", "whylisten": "<p>Louis von Ahn is an associate professor of Computer Science at Carnegie Mellon University, and he&#39;s at the forefront of the crowdsourcing craze. His work takes advantage of the evergrowing Web-connected population to acheive collaboration in unprecedented numbers. His projects aim to leverage the crowd for human good. His company reCAPTCHA, sold to Google in 2009, digitizes human knowledge (books), one word at a time. His new project is Duolingo, which aims to get 100 million people translating the Web in every major language. </p>", "slug": "luis_von_ahn", "whotheyare": "Luis von Ahn builds systems that combine humans and computers to solve large-scale problems that neither can solve alone.", "whatotherssay": "", "id": 1117, "photo_url": "https://pe.tedcdn.com/images/ted/ad6b235c4f94b2ede358a8f0b2a6e1de1cb1f920_254x191.jpg"}], "current_talk": 1295, "description": "After re-purposing CAPTCHA so each human-typed response helps digitize books, Luis von Ahn wondered how else to use small contributions by many on the Internet for greater good. In this talk, he shares how his ambitious new project, Duolingo, will help millions learn a new language while translating the web quickly and accurately -- all for free.", "language": "en", "url": "https://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115795961}, "podcast-low-en": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22865827}, "podcast-high": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115758846}, "180k": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22631808}, "64k": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8161944}, "1500k": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 180437707}, "450k": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56289631}, "podcast-regular": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56699051}, "950k": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115777587}, "audio-podcast": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10265650}, "podcast-light": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8294538}, "320k": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40041417}, "600k": {"uri": "https://download.ted.com/talks/LuisVonAhn_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 75066533}}}, "comments": {"count": 308, "id": 8935, "talk_id": 1295}, "slug": "luis_von_ahn_massive_scale_online_collaboration", "threadId": 8935, "talks": [{"event": "TEDxCMU", "player_talks": [{"event": "TEDxCMU", "slug": "luis_von_ahn_massive_scale_online_collaboration", "filmed": 1301788800, "targeting": {"event": "TEDxCMU", "tag": "Internet,TEDx,collaboration,computers,language,technology,wikipedia", "id": 1295, "talk": "luis_von_ahn_massive_scale_online_collaboration", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Massive-scale online collaboration", "postAdDuration": "0.83", "published": 1323193144, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cc4e62fb426a8abf08f4d5b771b348089705d2c4_2880x1620.jpg?quality=89&w=600", "name": "Luis von Ahn: Massive-scale online collaboration", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh", "endonym": "\\u4e2d\\u6587 (\\u7cb5\\u8a9e)", "isRtl": false, "ianaCode": "zh", "languageName": "Chinese, Yue"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "TEDx", "collaboration", "computers", "language", "technology", "wikipedia"], "speaker": "Luis von Ahn", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 999, "id": 1295, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/LuisVonAhn_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxCMU", "tag": "Internet,TEDx,collaboration,computers,language,technology,wikipedia", "id": 1295, "talk": "luis_von_ahn_massive_scale_online_collaboration", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1295.json", "stream": "https://hls.ted.com/talks/1295.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxCMU%26id%3D1295%26tag%3DInternet%2CTEDx%2Ccollaboration%2Ccomputers%2Clanguage%2Ctechnology%2Cwikipedia%26talk%3Dluis_von_ahn_massive_scale_online_collaboration%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cc4e62fb426a8abf08f4d5b771b348089705d2c4_2880x1620.jpg?q=50&w=15", "duration": 999, "id": 1295, "ratings": [{"count": 960, "id": 10, "name": "Inspiring"}, {"count": 688, "id": 22, "name": "Fascinating"}, {"count": 1445, "id": 9, "name": "Ingenious"}, {"count": 325, "id": 7, "name": "Funny"}, {"count": 421, "id": 23, "name": "Jaw-dropping"}, {"count": 473, "id": 8, "name": "Informative"}, {"count": 31, "id": 25, "name": "OK"}, {"count": 40, "id": 3, "name": "Courageous"}, {"count": 53, "id": 1, "name": "Beautiful"}, {"count": 161, "id": 24, "name": "Persuasive"}, {"count": 8, "id": 21, "name": "Unconvincing"}, {"count": 2, "id": 2, "name": "Confusing"}, {"count": 8, "id": 26, "name": "Obnoxious"}, {"count": 4, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Computer scientist", "firstname": "Luis", "title": "", "lastname": "von Ahn", "middleinitial": "", "whylisten": "<p>Louis von Ahn is an associate professor of Computer Science at Carnegie Mellon University, and he&#39;s at the forefront of the crowdsourcing craze. His work takes advantage of the evergrowing Web-connected population to acheive collaboration in unprecedented numbers. His projects aim to leverage the crowd for human good. His company reCAPTCHA, sold to Google in 2009, digitizes human knowledge (books), one word at a time. His new project is Duolingo, which aims to get 100 million people translating the Web in every major language. </p>", "slug": "luis_von_ahn", "whotheyare": "Luis von Ahn builds systems that combine humans and computers to solve large-scale problems that neither can solve alone.", "whatotherssay": "", "id": 1117, "photo_url": "https://pe.tedcdn.com/images/ted/ad6b235c4f94b2ede358a8f0b2a6e1de1cb1f920_254x191.jpg"}], "title": "Massive-scale online collaboration", "take_action": [{"status": "approved", "start_at": null, "link_url": "http://www.duolingo.com/ ", "eyebrow": null, "end_at": null, "verb": "learn", "published": true, "visible_url": "duolingo.com", "type": "take_action", "blurb": "**Learn** a new language with Duolingo, a free, collaborative online tool.\\r\\n"}], "comments": 8935, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/cc4e62fb426a8abf08f4d5b771b348089705d2c4_2880x1620.jpg", "description": "After re-purposing CAPTCHA so each human-typed response helps digitize books, Luis von Ahn wondered how else to use small contributions by many on the Internet for greater good. In this talk, he shares how his ambitious new project, Duolingo, will help millions learn a new language while translating the web quickly and accurately -- all for free.", "tags": ["Internet", "TEDx", "collaboration", "computers", "language", "technology", "wikipedia"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh", "endonym": "\\u4e2d\\u6587 (\\u7cb5\\u8a9e)", "isRtl": false, "ianaCode": "zh", "languageName": "Chinese, Yue"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-en.mp4"}, "zh": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-zh.mp4", "name": "Chinese, Yue", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-zh.mp4"}, "vi": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-zh-cn.mp4"}, "tr": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-fr-ca.mp4"}, "th": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-sq.mp4"}, "sk": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/LuisVonAhn_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/LuisVonAhn_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/LuisVonAhn_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1295, "audioDownload": "https://download.ted.com/talks/LuisVonAhn_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1481528, "hero": "https://pe.tedcdn.com/images/ted/1c3f327a456360b2846b9ee8f15788ef99f93dd8_800x600.jpg", "title": "Visualizing ourselves ... with crowd-sourced data", "id": 1152, "speaker": "Aaron Koblin", "duration": 1098, "slug": "aaron_koblin"}, {"viewed_count": 1139279, "hero": "https://pe.tedcdn.com/images/ted/1c82493a6f6e64750d43b1f6e301549bc466f117_2880x1620.jpg", "title": "After your final status update", "id": 1201, "speaker": "Adam Ostrow", "duration": 329, "slug": "adam_ostrow_after_your_final_status_update"}, {"viewed_count": 957513, "hero": "https://pe.tedcdn.com/images/ted/d383deee25fb6a51e5df6f8b83c753b393a9ac6b_1600x1200.jpg", "title": "How cognitive surplus will change the world", "id": 896, "speaker": "Clay Shirky", "duration": 787, "slug": "clay_shirky_how_cognitive_surplus_will_change_the_world"}, {"viewed_count": 1454546, "hero": "https://pe.tedcdn.com/images/ted/f0492898d0b7658a39ac9348f555f11e936b5068_2880x1620.jpg", "title": "My year reading a book from every country in the world", "id": 2382, "speaker": "Ann Morgan", "duration": 723, "slug": "ann_morgan_my_year_reading_a_book_from_every_country_in_the_world"}, {"viewed_count": 2216814, "hero": "https://pe.tedcdn.com/images/ted/9a10f8cd1117ae6f89462bc4f84ea8cfffa9f734_2880x1620.jpg", "title": "4 reasons to learn a new language", "id": 2595, "speaker": "John McWhorter", "duration": 601, "slug": "john_mcwhorter_4_reasons_to_learn_a_new_language"}, {"viewed_count": 2194507, "hero": "https://pe.tedcdn.com/images/ted/a0e809d8e0296630786284a24efab02ad0dcf31d_1600x1200.jpg", "title": "Txtng is killing language. JK!!!", "id": 1718, "speaker": "John McWhorter", "duration": 828, "slug": "john_mcwhorter_txtng_is_killing_language_jk"}], "recorded_at": "2011-04-03T00:00:00.000+00:00", "slug": "luis_von_ahn_massive_scale_online_collaboration", "speaker_name": "Luis von Ahn", "viewed_count": 1488862, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxCMU, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": []}], "event": "TEDxCMU", "name": "Luis von Ahn: Massive-scale online collaboration"}'
+p530
+sS'keywords'
+p531
+(lp532
+VInternet
+p533
+aVTEDx
+p534
+aVcollaboration
+p535
+aVcomputers
+p536
+aVlanguage
+p537
+aVtechnology
+p538
+aVwikipedia
+p539
+asS'datecrawled'
+p540
+g525
+(S'\x07\xe1\n\x17\x00\x04\x1b\x0f-?'
+tRp541
+sS'id'
+p542
+I1295
+ss.

@@ -1,0 +1,1144 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo I want to talk today about an idea. It's a big idea.
+p5
+aVActually, I think it'll eventually
+p6
+aVbe seen as probably the single biggest idea
+p7
+aVthat's emerged in the past century.
+p8
+aVIt's the idea of computation.
+p9
+aVNow, of course, that idea has brought us
+p10
+aVall of the computer technology we have today and so on.
+p11
+aVBut there's actually a lot more to computation than that.
+p12
+aVIt's really a very deep, very powerful, very fundamental idea,
+p13
+aVwhose effects we've only just begun to see.
+p14
+aa(lp15
+VWell, I myself have spent the past 30 years of my life
+p16
+aVworking on three large projects
+p17
+aVthat really try to take the idea of computation seriously.
+p18
+aVSo I started off at a young age as a physicist
+p19
+aVusing computers as tools.
+p20
+aVThen, I started drilling down,
+p21
+aVthinking about the computations I might want to do,
+p22
+aVtrying to figure out what primitives they could be built up from
+p23
+aVand how they could be automated as much as possible.
+p24
+aVEventually, I created a whole structure
+p25
+aVbased on symbolic programming and so on
+p26
+aVthat let me build Mathematica.
+p27
+aVAnd for the past 23 years, at an increasing rate,
+p28
+aVwe've been pouring more and more ideas
+p29
+aVand capabilities and so on into Mathematica,
+p30
+aVand I'm happy to say that that's led to many good things
+p31
+aVin R & D and education,
+p32
+aVlots of other areas.
+p33
+aVWell, I have to admit, actually,
+p34
+aVthat I also had a very selfish reason for building Mathematica:
+p35
+aVI wanted to use it myself,
+p36
+aVa bit like Galileo got to use his telescope
+p37
+aV400 years ago.
+p38
+aVBut I wanted to look not at the astronomical universe,
+p39
+aVbut at the computational universe.
+p40
+aa(lp41
+VSo we normally think of programs as being
+p42
+aVcomplicated things that we build
+p43
+aVfor very specific purposes.
+p44
+aVBut what about the space of all possible programs?
+p45
+aVHere's a representation of a really simple program.
+p46
+aVSo, if we run this program,
+p47
+aVthis is what we get.
+p48
+aVVery simple.
+p49
+aVSo let's try changing the rule
+p50
+aVfor this program a little bit.
+p51
+aVNow we get another result,
+p52
+aVstill very simple.
+p53
+aVTry changing it again.
+p54
+aVYou get something a little bit more complicated.
+p55
+aVBut if we keep running this for a while,
+p56
+aVwe find out that although the pattern we get is very intricate,
+p57
+aVit has a very regular structure.
+p58
+aVSo the question is: Can anything else happen?
+p59
+aVWell, we can do a little experiment.
+p60
+aVLet's just do a little mathematical experiment, try and find out.
+p61
+aa(lp62
+VLet's just run all possible programs
+p63
+aVof the particular type that we're looking at.
+p64
+aVThey're called cellular automata.
+p65
+aVYou can see a lot of diversity in the behavior here.
+p66
+aVMost of them do very simple things,
+p67
+aVbut if you look along all these different pictures,
+p68
+aVat rule number 30,
+p69
+aVyou start to see something interesting going on.
+p70
+aVSo let's take a closer look
+p71
+aVat rule number 30 here.
+p72
+aVSo here it is.
+p73
+aVWe're just following this very simple rule at the bottom here,
+p74
+aVbut we're getting all this amazing stuff.
+p75
+aVIt's not at all what we're used to,
+p76
+aVand I must say that, when I first saw this,
+p77
+aVit came as a huge shock to my intuition.
+p78
+aVAnd, in fact, to understand it,
+p79
+aVI eventually had to create
+p80
+aVa whole new kind of science.
+p81
+aa(lp82
+V(Laughter)
+p83
+aa(lp84
+VThis science is different, more general,
+p85
+aVthan the mathematics-based science that we've had
+p86
+aVfor the past 300 or so years.
+p87
+aVYou know, it's always seemed like a big mystery:
+p88
+aVhow nature, seemingly so effortlessly,
+p89
+aVmanages to produce so much
+p90
+aVthat seems to us so complex.
+p91
+aVWell, I think we've found its secret:
+p92
+aVIt's just sampling what's out there in the computational universe
+p93
+aVand quite often getting things like Rule 30
+p94
+aVor like this.
+p95
+aVAnd knowing that starts to explain
+p96
+aVa lot of long-standing mysteries in science.
+p97
+aVIt also brings up new issues, though,
+p98
+aVlike computational irreducibility.
+p99
+aVI mean, we're used to having science let us predict things,
+p100
+aVbut something like this
+p101
+aVis fundamentally irreducible.
+p102
+aVThe only way to find its outcome
+p103
+aVis, effectively, just to watch it evolve.
+p104
+aVIt's connected to, what I call,
+p105
+aVthe principle of computational equivalence,
+p106
+aVwhich tells us that even incredibly simple systems
+p107
+aVcan do computations as sophisticated as anything.
+p108
+aVIt doesn't take lots of technology or biological evolution
+p109
+aVto be able to do arbitrary computation;
+p110
+aVjust something that happens, naturally,
+p111
+aVall over the place.
+p112
+aVThings with rules as simple as these can do it.
+p113
+aVWell, this has deep implications
+p114
+aVabout the limits of science,
+p115
+aVabout predictability and controllability
+p116
+aVof things like biological processes or economies,
+p117
+aVabout intelligence in the universe,
+p118
+aVabout questions like free will
+p119
+aVand about creating technology.
+p120
+aa(lp121
+VYou know, in working on this science for many years,
+p122
+aVI kept wondering,
+p123
+aV"What will be its first killer app?"
+p124
+aVWell, ever since I was a kid,
+p125
+aVI'd been thinking about systematizing knowledge
+p126
+aVand somehow making it computable.
+p127
+aVPeople like Leibniz had wondered about that too
+p128
+aV300 years earlier.
+p129
+aVBut I'd always assumed that to make progress,
+p130
+aVI'd essentially have to replicate a whole brain.
+p131
+aVWell, then I got to thinking:
+p132
+aVThis scientific paradigm of mine suggests something different \u2014
+p133
+aVand, by the way, I've now got
+p134
+aVhuge computation capabilities in Mathematica,
+p135
+aVand I'm a CEO with some worldly resources
+p136
+aVto do large, seemingly crazy, projects \u2014
+p137
+aVSo I decided to just try to see
+p138
+aVhow much of the systematic knowledge that's out there in the world
+p139
+aVwe could make computable.
+p140
+aa(lp141
+VSo, it's been a big, very complex project,
+p142
+aVwhich I was not sure was going to work at all.
+p143
+aVBut I'm happy to say it's actually going really well.
+p144
+aVAnd last year we were able
+p145
+aVto release the first website version
+p146
+aVof Wolfram Alpha.
+p147
+aVIts purpose is to be a serious knowledge engine
+p148
+aVthat computes answers to questions.
+p149
+aVSo let's give it a try.
+p150
+aVLet's start off with something really easy.
+p151
+aVHope for the best.
+p152
+aVVery good. Okay.
+p153
+aVSo far so good.
+p154
+aV(Laughter)
+p155
+aVLet's try something a little bit harder.
+p156
+aVLet's do
+p157
+aVsome mathy thing,
+p158
+aVand with luck it'll work out the answer
+p159
+aVand try and tell us some interesting things
+p160
+aVthings about related math.
+p161
+aVWe could ask it something about the real world.
+p162
+aVLet's say \u2014 I don't know \u2014
+p163
+aVwhat's the GDP of Spain?
+p164
+aVAnd it should be able to tell us that.
+p165
+aVNow we could compute something related to this,
+p166
+aVlet's say ... the GDP of Spain
+p167
+aVdivided by, I don't know,
+p168
+aVthe \u2014 hmmm ...
+p169
+aVlet's say the revenue of Microsoft.
+p170
+aa(lp171
+V(Laughter)
+p172
+aa(lp173
+VThe idea is that we can just type this in,
+p174
+aVthis kind of question in, however we think of it.
+p175
+aVSo let's try asking a question,
+p176
+aVlike a health related question.
+p177
+aVSo let's say we have a lab finding that ...
+p178
+aVyou know, we have an LDL level of 140
+p179
+aVfor a male aged 50.
+p180
+aVSo let's type that in, and now Wolfram Alpha
+p181
+aVwill go and use available public health data
+p182
+aVand try and figure out
+p183
+aVwhat part of the population that corresponds to and so on.
+p184
+aVOr let's try asking about, I don't know,
+p185
+aVthe International Space Station.
+p186
+aa(lp187
+VAnd what's happening here is that
+p188
+aVWolfram Alpha is not just looking up something;
+p189
+aVit's computing, in real time,
+p190
+aVwhere the International Space Station is right now at this moment,
+p191
+aVhow fast it's going, and so on.
+p192
+aVSo Wolfram Alpha knows about lots and lots of kinds of things.
+p193
+aVIt's got, by now,
+p194
+aVpretty good coverage of everything you might find
+p195
+aVin a standard reference library.
+p196
+aVBut the goal is to go much further
+p197
+aVand, very broadly, to democratize
+p198
+aVall of this knowledge,
+p199
+aVand to try and be an authoritative
+p200
+aVsource in all areas.
+p201
+aVTo be able to compute answers to specific questions that people have,
+p202
+aVnot by searching what other people
+p203
+aVmay have written down before,
+p204
+aVbut by using built in knowledge
+p205
+aVto compute fresh new answers to specific questions.
+p206
+aa(lp207
+VNow, of course, Wolfram Alpha
+p208
+aVis a monumentally huge, long-term project
+p209
+aVwith lots and lots of challenges.
+p210
+aVFor a start, one has to curate a zillion
+p211
+aVdifferent sources of facts and data,
+p212
+aVand we built quite a pipeline of Mathematica automation
+p213
+aVand human domain experts for doing this.
+p214
+aVBut that's just the beginning.
+p215
+aVGiven raw facts or data
+p216
+aVto actually answer questions,
+p217
+aVone has to compute:
+p218
+aVone has to implement all those methods and models
+p219
+aVand algorithms and so on
+p220
+aVthat science and other areas have built up over the centuries.
+p221
+aVWell, even starting from Mathematica,
+p222
+aVthis is still a huge amount of work.
+p223
+aVSo far, there are about 8 million lines
+p224
+aVof Mathematica code in Wolfram Alpha
+p225
+aVbuilt by experts from many, many different fields.
+p226
+aa(lp227
+VWell, a crucial idea of Wolfram Alpha
+p228
+aVis that you can just ask it questions
+p229
+aVusing ordinary human language,
+p230
+aVwhich means that we've got to be able to take
+p231
+aVall those strange utterances that people type into the input field
+p232
+aVand understand them.
+p233
+aVAnd I must say that I thought that step
+p234
+aVmight just be plain impossible.
+p235
+aVTwo big things happened:
+p236
+aVFirst, a bunch of new ideas about linguistics
+p237
+aVthat came from studying the computational universe;
+p238
+aVand second, the realization that having actual computable knowledge
+p239
+aVcompletely changes how one can
+p240
+aVset about understanding language.
+p241
+aVAnd, of course, now
+p242
+aVwith Wolfram Alpha actually out in the wild,
+p243
+aVwe can learn from its actual usage.
+p244
+aVAnd, in fact, there's been
+p245
+aVan interesting coevolution that's been going on
+p246
+aVbetween Wolfram Alpha
+p247
+aVand its human users,
+p248
+aVand it's really encouraging.
+p249
+aVRight now, if we look at web queries,
+p250
+aVmore than 80 percent of them get handled successfully the first time.
+p251
+aVAnd if you look at things like the iPhone app,
+p252
+aVthe fraction is considerably larger.
+p253
+aVSo, I'm pretty pleased with it all.
+p254
+aa(lp255
+VBut, in many ways,
+p256
+aVwe're still at the very beginning with Wolfram Alpha.
+p257
+aVI mean, everything is scaling up very nicely
+p258
+aVand we're getting more confident.
+p259
+aVYou can expect to see Wolfram Alpha technology
+p260
+aVshowing up in more and more places,
+p261
+aVworking both with this kind of public data, like on the website,
+p262
+aVand with private knowledge
+p263
+aVfor people and companies and so on.
+p264
+aVYou know, I've realized that Wolfram Alpha actually gives one
+p265
+aVa whole new kind of computing
+p266
+aVthat one can call knowledge-based computing,
+p267
+aVin which one's starting not just from raw computation,
+p268
+aVbut from a vast amount of built-in knowledge.
+p269
+aVAnd when one does that, one really changes
+p270
+aVthe economics of delivering computational things,
+p271
+aVwhether it's on the web or elsewhere.
+p272
+aa(lp273
+VYou know, we have a fairly interesting situation right now.
+p274
+aVOn the one hand, we have Mathematica,
+p275
+aVwith its sort of precise, formal language
+p276
+aVand a huge network
+p277
+aVof carefully designed capabilities
+p278
+aVable to get a lot done in just a few lines.
+p279
+aVLet me show you a couple of examples here.
+p280
+aVSo here's a trivial piece of Mathematica programming.
+p281
+aVHere's something where we're sort of
+p282
+aVintegrating a bunch of different capabilities here.
+p283
+aVHere we'll just create, in this line,
+p284
+aVa little user interface that allows us to
+p285
+aVdo something fun there.
+p286
+aVIf you go on, that's a slightly more complicated program
+p287
+aVthat's now doing all sorts of algorithmic things
+p288
+aVand creating user interface and so on.
+p289
+aVBut it's something that is very precise stuff.
+p290
+aVIt's a precise specification with a precise formal language
+p291
+aVthat causes Mathematica to know what to do here.
+p292
+aa(lp293
+VThen on the other hand, we have Wolfram Alpha,
+p294
+aVwith all the messiness of the world
+p295
+aVand human language and so on built into it.
+p296
+aVSo what happens when you put these things together?
+p297
+aVI think it's actually rather wonderful.
+p298
+aVWith Wolfram Alpha inside Mathematica,
+p299
+aVyou can, for example, make precise programs
+p300
+aVthat call on real world data.
+p301
+aVHere's a real simple example.
+p302
+aVYou can also just sort of give vague input
+p303
+aVand then try and have Wolfram Alpha
+p304
+aVfigure out what you're talking about.
+p305
+aVLet's try this here.
+p306
+aVBut actually I think the most exciting thing about this
+p307
+aVis that it really gives one the chance
+p308
+aVto democratize programming.
+p309
+aVI mean, anyone will be able to say what they want in plain language.
+p310
+aVThen, the idea is that Wolfram Alpha will be able to figure out
+p311
+aVwhat precise pieces of code
+p312
+aVcan do what they're asking for
+p313
+aVand then show them examples that will let them pick what they need
+p314
+aVto build up bigger and bigger, precise programs.
+p315
+aVSo, sometimes, Wolfram Alpha
+p316
+aVwill be able to do the whole thing immediately
+p317
+aVand just give back a whole big program that you can then compute with.
+p318
+aVHere's a big website
+p319
+aVwhere we've been collecting lots of educational
+p320
+aVand other demonstrations about lots of kinds of things.
+p321
+aVI'll show you one example here.
+p322
+aVThis is just an example of one of these computable documents.
+p323
+aVThis is probably a fairly small
+p324
+aVpiece of Mathematica code
+p325
+aVthat's able to be run here.
+p326
+aa(lp327
+VOkay. Let's zoom out again.
+p328
+aVSo, given our new kind of science,
+p329
+aVis there a general way to use it to make technology?
+p330
+aVSo, with physical materials,
+p331
+aVwe're used to going around the world
+p332
+aVand discovering that particular materials
+p333
+aVare useful for particular
+p334
+aVtechnological purposes.
+p335
+aVWell, it turns out we can do very much the same kind of thing
+p336
+aVin the computational universe.
+p337
+aVThere's an inexhaustible supply of programs out there.
+p338
+aVThe challenge is to see how to
+p339
+aVharness them for human purposes.
+p340
+aVSomething like Rule 30, for example,
+p341
+aVturns out to be a really good randomness generator.
+p342
+aVOther simple programs are good models
+p343
+aVfor processes in the natural or social world.
+p344
+aVAnd, for example, Wolfram Alpha and Mathematica
+p345
+aVare actually now full of algorithms
+p346
+aVthat we discovered by searching the computational universe.
+p347
+aVAnd, for example, this \u2014 if we go back here \u2014
+p348
+aVthis has become surprisingly popular
+p349
+aVamong composers
+p350
+aVfinding musical forms by searching the computational universe.
+p351
+aVIn a sense, we can use the computational universe
+p352
+aVto get mass customized creativity.
+p353
+aVI'm hoping we can, for example,
+p354
+aVuse that even to get Wolfram Alpha
+p355
+aVto routinely do invention and discovery on the fly,
+p356
+aVand to find all sorts of wonderful stuff
+p357
+aVthat no engineer
+p358
+aVand no process of incremental evolution would ever come up with.
+p359
+aa(lp360
+VWell, so, that leads to kind of an ultimate question:
+p361
+aVCould it be that someplace out there in the computational universe
+p362
+aVwe might find our physical universe?
+p363
+aVPerhaps there's even some quite simple rule,
+p364
+aVsome simple program for our universe.
+p365
+aVWell, the history of physics would have us believe
+p366
+aVthat the rule for the universe must be pretty complicated.
+p367
+aVBut in the computational universe,
+p368
+aVwe've now seen how rules that are incredibly simple
+p369
+aVcan produce incredibly rich and complex behavior.
+p370
+aVSo could that be what's going on with our whole universe?
+p371
+aVIf the rules for the universe are simple,
+p372
+aVit's kind of inevitable that they have to be
+p373
+aVvery abstract and very low level;
+p374
+aVoperating, for example, far below
+p375
+aVthe level of space or time,
+p376
+aVwhich makes it hard to represent things.
+p377
+aVBut in at least a large class of cases,
+p378
+aVone can think of the universe as being
+p379
+aVlike some kind of network,
+p380
+aVwhich, when it gets big enough,
+p381
+aVbehaves like continuous space
+p382
+aVin much the same way as having lots of molecules
+p383
+aVcan behave like a continuous fluid.
+p384
+aVWell, then the universe has to evolve by applying
+p385
+aVlittle rules that progressively update this network.
+p386
+aVAnd each possible rule, in a sense,
+p387
+aVcorresponds to a candidate universe.
+p388
+aa(lp389
+VActually, I haven't shown these before,
+p390
+aVbut here are a few of the candidate universes
+p391
+aVthat I've looked at.
+p392
+aVSome of these are hopeless universes,
+p393
+aVcompletely sterile,
+p394
+aVwith other kinds of pathologies like no notion of space,
+p395
+aVno notion of time, no matter,
+p396
+aVother problems like that.
+p397
+aVBut the exciting thing that I've found in the last few years
+p398
+aVis that you actually don't have to go very far
+p399
+aVin the computational universe
+p400
+aVbefore you start finding candidate universes
+p401
+aVthat aren't obviously not our universe.
+p402
+aVHere's the problem:
+p403
+aVAny serious candidate for our universe
+p404
+aVis inevitably full of computational irreducibility.
+p405
+aVWhich means that it is irreducibly difficult
+p406
+aVto find out how it will really behave,
+p407
+aVand whether it matches our physical universe.
+p408
+aVA few years ago, I was pretty excited to discover
+p409
+aVthat there are candidate universes with incredibly simple rules
+p410
+aVthat successfully reproduce special relativity,
+p411
+aVand even general relativity and gravitation,
+p412
+aVand at least give hints of quantum mechanics.
+p413
+aVSo, will we find the whole of physics?
+p414
+aVI don't know for sure,
+p415
+aVbut I think at this point it's sort of
+p416
+aValmost embarrassing not to at least try.
+p417
+aa(lp418
+VNot an easy project.
+p419
+aVOne's got to build a lot of technology.
+p420
+aVOne's got to build a structure that's probably
+p421
+aVat least as deep as existing physics.
+p422
+aVAnd I'm not sure what the best way to organize the whole thing is.
+p423
+aVBuild a team, open it up, offer prizes and so on.
+p424
+aVBut I'll tell you, here today,
+p425
+aVthat I'm committed to seeing this project done,
+p426
+aVto see if, within this decade,
+p427
+aVwe can finally hold in our hands
+p428
+aVthe rule for our universe
+p429
+aVand know where our universe lies
+p430
+aVin the space of all possible universes ...
+p431
+aVand be able to type into Wolfram Alpha, "the theory of the universe,"
+p432
+aVand have it tell us.
+p433
+aa(lp434
+V(Laughter)
+p435
+aa(lp436
+VSo I've been working on the idea of computation
+p437
+aVnow for more than 30 years,
+p438
+aVbuilding tools and methods and turning intellectual ideas
+p439
+aVinto millions of lines of code
+p440
+aVand grist for server farms and so on.
+p441
+aVWith every passing year,
+p442
+aVI realize how much more powerful
+p443
+aVthe idea of computation really is.
+p444
+aVIt's taken us a long way already,
+p445
+aVbut there's so much more to come.
+p446
+aVFrom the foundations of science
+p447
+aVto the limits of technology
+p448
+aVto the very definition of the human condition,
+p449
+aVI think computation is destined to be
+p450
+aVthe defining idea of our future.
+p451
+aa(lp452
+VThank you.
+p453
+aa(lp454
+V(Applause)
+p455
+aa(lp456
+VChris Anderson: That was astonishing.
+p457
+aVStay here. I've got a question.
+p458
+aa(lp459
+V(Applause)
+p460
+aa(lp461
+VSo, that was, fair to say, an astonishing talk.
+p462
+aVAre you able to say in a sentence or two
+p463
+aVhow this type of thinking
+p464
+aVcould integrate at some point
+p465
+aVto things like string theory or the kind of things that people think of
+p466
+aVas the fundamental explanations of the universe?
+p467
+aa(lp468
+VStephen Wolfram: Well, the parts of physics
+p469
+aVthat we kind of know to be true,
+p470
+aVthings like the standard model of physics:
+p471
+aVwhat I'm trying to do better reproduce the standard model of physics
+p472
+aVor it's simply wrong.
+p473
+aVThe things that people have tried to do in the last 25 years or so
+p474
+aVwith string theory and so on
+p475
+aVhave been an interesting exploration
+p476
+aVthat has tried to get back to the standard model,
+p477
+aVbut hasn't quite gotten there.
+p478
+aVMy guess is that some great simplifications of what I'm doing
+p479
+aVmay actually have considerable resonance
+p480
+aVwith what's been done in string theory,
+p481
+aVbut that's a complicated math thing
+p482
+aVthat I don't yet know how it's going to work out.
+p483
+aa(lp484
+VCA: Benoit Mandelbrot is in the audience.
+p485
+aVHe also has shown how complexity
+p486
+aVcan arise out of a simple start.
+p487
+aVDoes your work relate to his?
+p488
+aa(lp489
+VSW: I think so.
+p490
+aVI view Benoit Mandelbrot's work
+p491
+aVas one of the founding contributions
+p492
+aVto this kind of area.
+p493
+aVBenoit has been particularly interested
+p494
+aVin nested patterns, in fractals and so on,
+p495
+aVwhere the structure is something
+p496
+aVthat's kind of tree-like,
+p497
+aVand where there's sort of a big branch that makes little branches
+p498
+aVand even smaller branches and so on.
+p499
+aVThat's one of the ways
+p500
+aVthat you get towards true complexity.
+p501
+aVI think things like the Rule 30 cellular automaton
+p502
+aVget us to a different level.
+p503
+aVIn fact, in a very precise way, they get us to a different level
+p504
+aVbecause they seem to be things that are
+p505
+aVcapable of complexity
+p506
+aVthat's sort of as great as complexity can ever get ...
+p507
+aa(lp508
+VI could go on about this at great length, but I won't. (Laughter) (Applause)
+p509
+aa(lp510
+VCA: Stephen Wolfram, thank you.
+p511
+aa(lp512
+V(Applause)
+p513
+aasS'transcript_micsec'
+p514
+(lp515
+I12000
+aI37000
+aI97000
+aI145000
+aI187000
+aI189000
+aI281000
+aI325000
+aI393000
+aI395000
+aI426000
+aI474000
+aI519000
+aI583000
+aI624000
+aI677000
+aI763000
+aI841000
+aI908000
+aI979000
+aI1013000
+aI1016000
+aI1047000
+aI1049000
+aI1063000
+aI1067000
+aI1073000
+aI1090000
+aI1126000
+aI1134000
+aI1180000
+aI1183000
+aI1185000
+asS'talk_meta'
+p516
+(dp517
+S'ratings'
+p518
+(dp519
+S'ingenious'
+p520
+I596
+sS'beautiful'
+p521
+I91
+sS'inspiring'
+p522
+I403
+sS'ok'
+p523
+I73
+sS'fascinating'
+p524
+I781
+sS'funny'
+p525
+I14
+sS'total_count'
+p526
+I3330
+sS'persuasive'
+p527
+I101
+sS'longwinded'
+p528
+I68
+sS'informative'
+p529
+I334
+sS'jaw-dropping'
+p530
+I476
+sS'obnoxious'
+p531
+I74
+sS'confusing'
+p532
+I129
+sS'courageous'
+p533
+I94
+sS'unconvincing'
+p534
+I96
+ssS'author'
+p535
+VStephen_Wolfram;
+p536
+sS'url'
+p537
+S'https://www.ted.com/talks/stephen_wolfram_computing_a_theory_of_everything'
+p538
+sS'vidlen'
+p539
+I1198
+sS'totalviews'
+p540
+I1547601
+sS'title'
+p541
+VComputing a theory of all knowledge
+p542
+sS'downloadlink'
+p543
+Vhttps://download.ted.com/talks/StephenWolfram_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p544
+sS'datepublished'
+p545
+cdatetime
+datetime
+p546
+(S'\x07\xda\x04\x1b\x04\x1e\x00\x00\x00\x00'
+tRp547
+sS'datefilmed'
+p548
+g546
+(S'\x07\xda\x04\x1b\x04\x1e\x00\x00\x00\x00'
+tRp549
+sS'alldata_JSON'
+p550
+S'{"viewed_count": 1547601, "speakers": [{"description": "Scientist, inventor", "firstname": "Stephen", "title": "", "lastname": "Wolfram", "middleinitial": "", "whylisten": "<p>Stephen Wolfram published his first scientific paper at the age of 15, and received his PhD in theoretical physics from Caltech by the age of 20. Having started to use computers in 1973, Wolfram rapidly became <strong>a leader in the emerging field of scientific computing</strong>.<br /><br />In 1981 Wolfram became the youngest recipient of a MacArthur Prize Fellowship. He then set out on an ambitious new direction in science aimed at understanding the origins of complexity in nature. Wolfram&#39;s first key idea was to use computer experiments to study the behavior of <strong>simple computer programs known as cellular automata</strong>. This allowed him to make a series of startling discoveries about the origins of complexity.<br /><br />Wolfram founded the first research center and the first journal in the field, Complex Systems, and began the development of Mathematica. Wolfram Research soon became a world leader in the software industry -- widely recognized for excellence in both technology and business.<br /><br />Following the release of Mathematica Version 2 in 1991, Wolfram began to divide his time between Mathematica development and scientific research. Building on his work from the mid-1980s, and now with Mathematica as a tool, Wolfram made a rapid succession of major new discoveries, which he described in his book,&nbsp;<a href=\\"http://geni.us/newkindofscience\\" target=\\"_blank\\"><em>A New Kind of Science</em></a>.<br /><br />Building on Mathematica, <em>A New Kind of Science</em>, and the success of Wolfram Research, Wolfram recently launched <a href=\\"http://www.wolframalpha.com/\\" target=\\"_blank\\">Wolfram|Alpha</a>  -- an ambitious, long-term project <strong>to make as much of the world&#39;s knowledge as possible computable</strong>, and accessible to everyone.</p>", "slug": "stephen_wolfram", "whotheyare": "Stephen Wolfram is the creator of Mathematica and Wolfram|Alpha, the author of <em>A New Kind of Science</em>, and the founder and CEO of Wolfram Research.", "whatotherssay": "Whether or not Wolfram\'s revolution ultimately gives us the keys to the universe, his new science is absolutely awe-inspiring.", "id": 655, "photo_url": "https://pe.tedcdn.com/images/ted/166844_254x191.jpg"}], "current_talk": 843, "description": "Stephen Wolfram, creator of Mathematica, talks about his quest to make all knowledge computational -- able to be searched, processed and manipulated. His new search engine, Wolfram Alpha, has no lesser goal than to model and explain the physics underlying the universe.", "language": "en", "url": "https://www.ted.com/talks/stephen_wolfram_computing_a_theory_of_everything", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138893895}, "podcast-low-en": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27415724}, "podcast-high": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138904548}, "180k": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27319568}, "64k": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9815595}, "1500k": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 217771231}, "450k": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67598338}, "podcast-regular": {"uri": "https://download.ted.com/talks/StephenWolfram_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67768234}, "950k": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138933987}, "audio-podcast": {"uri": "https://download.ted.com/talks/StephenWolfram_2010.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 12210831}, "podcast-light": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9915001}, "320k": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48345518}, "600k": {"uri": "https://download.ted.com/talks/StephenWolfram_2010-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 90350222}}}, "comments": {"count": 278, "id": 691, "talk_id": 843}, "slug": "stephen_wolfram_computing_a_theory_of_everything", "threadId": 691, "talks": [{"event": "TED2010", "player_talks": [{"event": "TED2010", "slug": "stephen_wolfram_computing_a_theory_of_everything", "filmed": 1265932800, "targeting": {"event": "TED2010", "tag": "String theory,biology,complexity,computers,math,physics,science,simplicity", "id": 843, "talk": "stephen_wolfram_computing_a_theory_of_everything", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "Computing a theory of all knowledge", "postAdDuration": "0.83", "published": 1272357000, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/166847_800x600.jpg?quality=89&w=600", "name": "Stephen Wolfram: Computing a theory of all knowledge", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["String theory", "biology", "complexity", "computers", "math", "physics", "science", "simplicity"], "speaker": "Stephen Wolfram", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1198, "id": 843, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/StephenWolfram_2010-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2010", "tag": "String theory,biology,complexity,computers,math,physics,science,simplicity", "id": 843, "talk": "stephen_wolfram_computing_a_theory_of_everything", "year": "2010"}, "metadata": "https://hls.ted.com/talks/843.json", "stream": "https://hls.ted.com/talks/843.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2010%26id%3D843%26tag%3DString%2Btheory%2Cbiology%2Ccomplexity%2Ccomputers%2Cmath%2Cphysics%2Cscience%2Csimplicity%26talk%3Dstephen_wolfram_computing_a_theory_of_everything%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/stephen_wolfram_computing_a_theory_of_everything"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/166847_800x600.jpg?q=50&w=15", "duration": 1198, "id": 843, "ratings": [{"count": 476, "id": 23, "name": "Jaw-dropping"}, {"count": 596, "id": 9, "name": "Ingenious"}, {"count": 781, "id": 22, "name": "Fascinating"}, {"count": 129, "id": 2, "name": "Confusing"}, {"count": 403, "id": 10, "name": "Inspiring"}, {"count": 96, "id": 21, "name": "Unconvincing"}, {"count": 68, "id": 11, "name": "Longwinded"}, {"count": 74, "id": 26, "name": "Obnoxious"}, {"count": 94, "id": 3, "name": "Courageous"}, {"count": 334, "id": 8, "name": "Informative"}, {"count": 101, "id": 24, "name": "Persuasive"}, {"count": 91, "id": 1, "name": "Beautiful"}, {"count": 73, "id": 25, "name": "OK"}, {"count": 14, "id": 7, "name": "Funny"}], "speakers": [{"description": "Scientist, inventor", "firstname": "Stephen", "title": "", "lastname": "Wolfram", "middleinitial": "", "whylisten": "<p>Stephen Wolfram published his first scientific paper at the age of 15, and received his PhD in theoretical physics from Caltech by the age of 20. Having started to use computers in 1973, Wolfram rapidly became <strong>a leader in the emerging field of scientific computing</strong>.<br /><br />In 1981 Wolfram became the youngest recipient of a MacArthur Prize Fellowship. He then set out on an ambitious new direction in science aimed at understanding the origins of complexity in nature. Wolfram&#39;s first key idea was to use computer experiments to study the behavior of <strong>simple computer programs known as cellular automata</strong>. This allowed him to make a series of startling discoveries about the origins of complexity.<br /><br />Wolfram founded the first research center and the first journal in the field, Complex Systems, and began the development of Mathematica. Wolfram Research soon became a world leader in the software industry -- widely recognized for excellence in both technology and business.<br /><br />Following the release of Mathematica Version 2 in 1991, Wolfram began to divide his time between Mathematica development and scientific research. Building on his work from the mid-1980s, and now with Mathematica as a tool, Wolfram made a rapid succession of major new discoveries, which he described in his book,&nbsp;<a href=\\"http://geni.us/newkindofscience\\" target=\\"_blank\\"><em>A New Kind of Science</em></a>.<br /><br />Building on Mathematica, <em>A New Kind of Science</em>, and the success of Wolfram Research, Wolfram recently launched <a href=\\"http://www.wolframalpha.com/\\" target=\\"_blank\\">Wolfram|Alpha</a>  -- an ambitious, long-term project <strong>to make as much of the world&#39;s knowledge as possible computable</strong>, and accessible to everyone.</p>", "slug": "stephen_wolfram", "whotheyare": "Stephen Wolfram is the creator of Mathematica and Wolfram|Alpha, the author of <em>A New Kind of Science</em>, and the founder and CEO of Wolfram Research.", "whatotherssay": "Whether or not Wolfram\'s revolution ultimately gives us the keys to the universe, his new science is absolutely awe-inspiring.", "id": 655, "photo_url": "https://pe.tedcdn.com/images/ted/166844_254x191.jpg"}], "title": "Computing a theory of all knowledge", "take_action": [{"status": "approved", "start_at": null, "link_url": "http://www.wolframalpha.com/", "eyebrow": null, "end_at": null, "verb": "join", "published": true, "visible_url": "wolframalpha.com", "type": "take_action", "blurb": "**Join** the quest to compute everything \\u2014\\u00a0try the Wolfram Alpha Computational Knowledge Engine for yourself.\\r\\n"}, {"status": "approved", "start_at": null, "link_url": "http://www.wolframalpha.com/facebook/", "eyebrow": null, "end_at": null, "verb": "sign_up", "published": true, "visible_url": "wolframalpha.com/facebook", "type": "take_action", "blurb": "**Sign up** for Wolfram Alpha\'s Facebook Analytics project to see personalized visualizations of your activity on the social network."}], "comments": 691, "more_resources": [{"status": "approved", "publisher": "Wolfram Media", "start_at": null, "author": "Stephen Wolfram", "headline": "*A New Kind of Science*", "link_url": "http://www.amazon.com/New-Kind-Science-Stephen-Wolfram/dp/1579550088/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/41c87cc9e42351249de4cfd9249e20116d8fd828_466x581.jpg", "year": "2002", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/166847_800x600.jpg", "description": "Stephen Wolfram, creator of Mathematica, talks about his quest to make all knowledge computational -- able to be searched, processed and manipulated. His new search engine, Wolfram Alpha, has no lesser goal than to model and explain the physics underlying the universe.", "tags": ["String theory", "biology", "complexity", "computers", "math", "physics", "science", "simplicity"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/StephenWolfram_2010-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/StephenWolfram_2010-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/StephenWolfram_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/StephenWolfram_2010-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 843, "audioDownload": "https://download.ted.com/talks/StephenWolfram_2010.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1498447, "hero": "https://pe.tedcdn.com/images/ted/56101_480x360.jpg", "title": "An 8-dimensional model of the universe", "id": 371, "speaker": "Garrett Lisi", "duration": 1286, "slug": "garrett_lisi_on_his_theory_of_everything"}, {"viewed_count": 1187019, "hero": "https://pe.tedcdn.com/images/ted/21474_480x360.jpg", "title": "Beauty, truth and ... physics?", "id": 194, "speaker": "Murray Gell-Mann", "duration": 962, "slug": "murray_gell_mann_on_beauty_and_truth_in_physics"}, {"viewed_count": 1186938, "hero": "https://pe.tedcdn.com/images/ted/121608_800x600.jpg", "title": "A brain in a supercomputer", "id": 659, "speaker": "Henry Markram", "duration": 890, "slug": "henry_markram_supercomputing_the_brain_s_secrets"}, {"viewed_count": 8706629, "hero": "https://pe.tedcdn.com/images/ted/9cc7d7673d8d59197905479a94233bf03ac7a96d_800x600.jpg", "title": "Questioning the universe", "id": 242, "speaker": "Stephen Hawking", "duration": 612, "slug": "stephen_hawking_asks_big_questions_about_the_universe"}, {"viewed_count": 261291, "hero": "https://pe.tedcdn.com/images/ted/58247_640x480.jpg", "title": "Science and democracy", "id": 394, "speaker": "Lee Smolin", "duration": 745, "slug": "lee_smolin_on_science_and_democracy"}, {"viewed_count": 3359818, "hero": "https://pe.tedcdn.com/images/ted/8acc0db27ae36bff8f46e0d0a88da0f333224b4c_1600x1200.jpg", "title": "Is our universe the only universe?", "id": 1426, "speaker": "Brian Greene", "duration": 1307, "slug": "brian_greene_why_is_our_universe_fine_tuned_for_life"}], "recorded_at": "2010-02-12T00:00:00.000+00:00", "slug": "stephen_wolfram_computing_a_theory_of_everything", "speaker_name": "Stephen Wolfram", "viewed_count": 1547601, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Stephen Wolfram recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Publications, writings and speeches", "link_url": "http://www.stephenwolfram.com/publications/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "This is where I keep the latest details on my thoughts and projects."}, {"is_pdf": false, "headline": "Wolfram Research", "link_url": "http://www.wolfram.com/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "Everything you ever need to know about the company I\'ve been building since 1987."}, {"is_pdf": false, "headline": "Wolfram Language", "link_url": "http://reference.wolfram.com/language", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "More about my quest to inject computation into everything."}, {"is_pdf": false, "headline": "Wolfram Foundation ", "link_url": "http://wolframfoundation.org", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "Our nonprofit organization for outreach efforts, education research and entrepreneurship."}], "title": "Reading list"}], "published": true, "type": "recommendation", "blurb": "The inventor shares the best ways to find out more about his lifelong pursuit to add computation to just about everything."}, "corrections": []}], "event": "TED2010", "name": "Stephen Wolfram: Computing a theory of all knowledge"}'
+p551
+sS'keywords'
+p552
+(lp553
+VString theory
+p554
+aVbiology
+p555
+aVcomplexity
+p556
+aVcomputers
+p557
+aVmath
+p558
+aVphysics
+p559
+aVscience
+p560
+aVsimplicity
+p561
+asS'datecrawled'
+p562
+g546
+(S'\x07\xe1\n\x17\x00\x17;\x0c`2'
+tRp563
+sS'id'
+p564
+I843
+ss.

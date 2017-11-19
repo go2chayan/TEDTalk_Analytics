@@ -1,0 +1,766 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhen we think of Nepal,
+p5
+aVwe tend to think of the snow-capped mountains
+p6
+aVof the Himalayas,
+p7
+aVthe crystal-clear still waters of its alpine lakes,
+p8
+aVor the huge expanse of its grasslands.
+p9
+aVWhat some of us may not realize
+p10
+aVis that in the Himalayan foothills,
+p11
+aVwhere the climate is much warmer
+p12
+aVand the landscape much greener,
+p13
+aVthere lives a great diversity of wildlife,
+p14
+aVincluding the one-horned rhinoceros,
+p15
+aVthe Asian elephant
+p16
+aVand the Bengal tiger.
+p17
+aVBut unfortunately, these animals
+p18
+aVare under constant threat from poachers
+p19
+aVwho hunt and kill them for their body parts.
+p20
+aVTo stop the killing of these animals,
+p21
+aVbattalions of soldiers and rangers
+p22
+aVare sent to protect Nepal's national parks,
+p23
+aVbut that is not an easy task,
+p24
+aVbecause these soldiers have to patrol
+p25
+aVthousands of hectares of forests on foot
+p26
+aVor elephant backs.
+p27
+aVIt is also risky for these soldiers
+p28
+aVwhen they get into gunfights with poachers,
+p29
+aVand therefore Nepal is always looking
+p30
+aVfor new ways to help with protecting the forests
+p31
+aVand wildlife.
+p32
+aa(lp33
+VWell recently, Nepal acquired a new tool
+p34
+aVin the fight against wildlife crime,
+p35
+aVand these are drones,
+p36
+aVor more specifically, conservation drones.
+p37
+aVFor about a year now, my colleagues and I
+p38
+aVhave been building drones for Nepal
+p39
+aVand training the park protection personnel
+p40
+aVon the use of these drones.
+p41
+aVNot only does a drone give you
+p42
+aVa bird's-eye view of the landscape,
+p43
+aVbut it also allows you to capture detailed,
+p44
+aVhigh-resolution images of objects on the ground.
+p45
+aVThis, for example, is a pair of rhinoceros
+p46
+aVtaking a cooling bath on a hot summer day
+p47
+aVin the lowlands of Nepal.
+p48
+aVNow we believe that drones have
+p49
+aVtremendous potential,
+p50
+aVnot only for combating wildlife crime,
+p51
+aVbut also for monitoring the health
+p52
+aVof these wildlife populations.
+p53
+aa(lp54
+VSo what is a drone?
+p55
+aVWell, the kind of drone I'm talking about
+p56
+aVis simply a model aircraft
+p57
+aVfitted with an autopilot system,
+p58
+aVand this autopilot unit contains a tiny computer,
+p59
+aVa GPS, a compass, a barometric altimeter
+p60
+aVand a few other sensors.
+p61
+aVNow a drone like this
+p62
+aVis meant to carry a useful payload,
+p63
+aVsuch as a video camera
+p64
+aVor a photographic camera.
+p65
+aVIt also requires a software that allows the user
+p66
+aVto program a mission,
+p67
+aVto tell the drone where to go.
+p68
+aa(lp69
+VNow people I talk to are often surprised
+p70
+aVwhen they hear that these are the only
+p71
+aVfour components that make a conservation drone,
+p72
+aVbut they are even more surprised
+p73
+aVwhen I tell them how affordable these components are.
+p74
+aVThe facts is, a conservation drone
+p75
+aVdoesn't cost very much more than
+p76
+aVa good laptop computer
+p77
+aVor a decent pair of binoculars.
+p78
+aa(lp79
+VSo now that you've built your own conservation drone,
+p80
+aVyou probably want to go fly it,
+p81
+aVbut how does one fly a drone?
+p82
+aVWell, actually, you don't,
+p83
+aVbecause the drone flies itself.
+p84
+aVAll you have to do is to program a mission
+p85
+aVto tell the drone where to fly.
+p86
+aVBut you simply do that by clicking on
+p87
+aVa few way points on the Google Maps interface
+p88
+aVusing the open-source software.
+p89
+aVThose missions could be as simple
+p90
+aVas just a few way points,
+p91
+aVor they could be slightly longer and more complicated,
+p92
+aVto fly along a river system.
+p93
+aVSometimes, we fly the drone in a lawnmower-type pattern
+p94
+aVand take pictures of that area,
+p95
+aVand those pictures can be processed
+p96
+aVto produce a map of that forest.
+p97
+aVOther researchers might want to fly the drone
+p98
+aValong the boundaries of a forest
+p99
+aVto watch out for poachers or people
+p100
+aVwho might be trying to enter the forest illegally.
+p101
+aa(lp102
+VNow whatever your mission is,
+p103
+aVonce you've programmed it,
+p104
+aVyou simply upload it to the autopilot system,
+p105
+aVbring your drone to the field,
+p106
+aVand launch it simply by tossing it in the air.
+p107
+aVAnd often we'll go about this mission
+p108
+aVtaking pictures or videos along the way,
+p109
+aVand usually at that point,
+p110
+aVwe will go grab ourselves a cup of coffee,
+p111
+aVsit back, and relax for the next few minutes,
+p112
+aValthough some of us sit back and panic for the next few minutes
+p113
+aVworrying that the drone will not return.
+p114
+aVUsually it does, and when it does,
+p115
+aVit even lands automatically.
+p116
+aa(lp117
+VSo what can we do with a conservation drone?
+p118
+aVWell, when we built our first prototype drone,
+p119
+aVour main objective was to fly it over
+p120
+aVa remote rainforest in North Sumatra, Indonesia,
+p121
+aVto look for the nest of a species of great ape
+p122
+aVknown as the orangutan.
+p123
+aVThe reason we wanted to do that was because
+p124
+aVwe needed to know how many individuals
+p125
+aVof this species are still left in that forest.
+p126
+aVNow the traditional method of surveying
+p127
+aVfor orangutans is to walk the forest on foot
+p128
+aVcarrying heavy equipment
+p129
+aVand to use a pair of binoculars to look up in the treetops
+p130
+aVwhere you might find an orangutan or its nest.
+p131
+aVNow as you can imagine,
+p132
+aVthat is a very time-consuming, labor-intensive,
+p133
+aVand costly process,
+p134
+aVso we were hoping that drones
+p135
+aVcould significantly reduce the cost of surveying
+p136
+aVfor orangutan populations in Indonesia
+p137
+aVand elsewhere in Southeast Asia.
+p138
+aVSo we were very excited when we captured
+p139
+aVour first pair of orangutan nests on camera.
+p140
+aVAnd this is it; this is the first ever picture
+p141
+aVof orangutan nests taken with a drone.
+p142
+aVSince then we have taken pictures
+p143
+aVof dozens of these nests
+p144
+aVfrom around various parts of Southeast Asia,
+p145
+aVand we're now working with computer scientists
+p146
+aVto develop algorithms that can automatically count
+p147
+aVthe number of nests from the thousands
+p148
+aVof photos we've collected so far.
+p149
+aa(lp150
+VBut nests are not the only objects
+p151
+aVthese drones can detect.
+p152
+aVThis is a wild orangutan
+p153
+aVhappily feeding on top of a palm tree,
+p154
+aVseemingly oblivious to our drone that was flying overhead,
+p155
+aVnot once but several times.
+p156
+aVWe've also taken pictures of other animals
+p157
+aVincluding forest buffalos in Gabon,
+p158
+aVelephants, and even turtle nests.
+p159
+aa(lp160
+VBut besides taking pictures of just the animals themselves,
+p161
+aVwe also take pictures of the habitats these animals live in,
+p162
+aVbecause we want to keep track
+p163
+aVof the health of these habitats.
+p164
+aVSometimes, we zoom out a little
+p165
+aVand look at other things that might be happening
+p166
+aVin the landscape.
+p167
+aVThis is an oil palm plantation in Sumatra.
+p168
+aVNow oil palm is a major driver of deforestation
+p169
+aVin that part of the world,
+p170
+aVso we wanted to use this new drone technology
+p171
+aVto keep track of the spread of these plantations
+p172
+aVin Southeast Asia.
+p173
+aVBut drones could also be used to keep track of
+p174
+aVillegal logging activities.
+p175
+aVThis is a recently logged forest,
+p176
+aVagain in Sumatra.
+p177
+aVYou could even still see the processed
+p178
+aVwooden planks left on the ground.
+p179
+aa(lp180
+VBut perhaps the most exciting part
+p181
+aVabout taking pictures from the air is
+p182
+aVwe could later stitch these pictures together
+p183
+aVusing special software to create a map
+p184
+aVof the entire landscape, and this map
+p185
+aVgives us crucial information
+p186
+aVfor monitoring land use change,
+p187
+aVto let us know where and when plantations might be expanding,
+p188
+aVwhere forests might be contracting,
+p189
+aVor where fires might be breaking out.
+p190
+aVAerial images could also be processed
+p191
+aVto produce three-dimensional
+p192
+aVcomputer models of forests.
+p193
+aVNow these models are not just visually appealing,
+p194
+aVbut they are also geometrically accurate,
+p195
+aVwhich means researchers can now measure
+p196
+aVthe distance between trees,
+p197
+aVcalculate surface area, the volume of vegetation,
+p198
+aVand so on, all of which are important information
+p199
+aVfor monitoring the health of these forests.
+p200
+aVRecently, we've also begun experimenting
+p201
+aVwith thermal imaging cameras.
+p202
+aVNow these cameras can detect
+p203
+aVheat-emitting objects from the ground,
+p204
+aVand therefore they are very useful for detecting poachers or their campfires at night.
+p205
+aa(lp206
+VSo I've told you quite a lot about
+p207
+aVwhat conservation drones are,
+p208
+aVhow you might operate one of these drones,
+p209
+aVand what a drone could do for you.
+p210
+aVI will now tell you where conservation drones
+p211
+aVare being used around the world.
+p212
+aVWe built our first prototype drones in Switzerland.
+p213
+aVWe brought a few of these to Indonesia
+p214
+aVfor the first few test flights.
+p215
+aVSince then, we've been building drones
+p216
+aVfor our collaborators from around the world,
+p217
+aVand these include fellow biologists
+p218
+aVand partners from major conservation organizations.
+p219
+aa(lp220
+VPerhaps the best and most rewarding part
+p221
+aVabout working with these collaborators
+p222
+aVis the feedback they give us
+p223
+aVon how to improve our drones.
+p224
+aVBuilding drones for us is
+p225
+aVa constant work in progress.
+p226
+aVWe are constantly trying to improve them in terms of
+p227
+aVtheir range, their ruggedness,
+p228
+aVand the amount of payload they can carry.
+p229
+aVWe also work with collaborators
+p230
+aVto discover new ways of using these drones.
+p231
+aVFor example, camera traps are a common tool
+p232
+aVused by biologists to take pictures of shy animals
+p233
+aVhiding in the forests,
+p234
+aVbut these are motion-activated cameras,
+p235
+aVso they snap a picture every time an animal
+p236
+aVcrosses their path.
+p237
+aVBut the problem with camera traps
+p238
+aVis that the researcher has to go back to the forest
+p239
+aVevery so often to retrieve those images,
+p240
+aVand that takes a lot of time,
+p241
+aVespecially if there are dozens
+p242
+aVor hundreds of these cameras placed in the forest.
+p243
+aVNow a drone could be designed to perform the task
+p244
+aVmuch more efficiently.
+p245
+aVThis drone, carrying a special sensor,
+p246
+aVcould be flown over the forest
+p247
+aVand remotely download these images
+p248
+aVfrom wi-fi\u2013enabled cameras.
+p249
+aa(lp250
+VRadio collars are another tool
+p251
+aVthat's commonly used by biologists.
+p252
+aVNow these collars are put onto animals.
+p253
+aVThey transmit a radio signal which allows
+p254
+aVthe researcher to track the movements of these animals across the landscape.
+p255
+aVBut the traditional way of tracking animals
+p256
+aVis pretty ridiculous,
+p257
+aVbecause it requires the researcher to be walking
+p258
+aVon the ground carrying a huge and cumbersome radio antenna,
+p259
+aVnot unlike those old TV antennae we used to have
+p260
+aVon our rooftops. Some of us still do.
+p261
+aVA drone could be used to do the same job
+p262
+aVmuch more efficiently.
+p263
+aVWhy not equip a drone
+p264
+aVwith a scanning radio receiver,
+p265
+aVfly that over the forest canopy
+p266
+aVin a certain pattern
+p267
+aVwhich would allow the user or the operator
+p268
+aVto triangulate the location
+p269
+aVof these radio-collared animals remotely
+p270
+aVwithout having to step foot in the forest.
+p271
+aa(lp272
+VA third and perhaps most exciting way
+p273
+aVof using these drones
+p274
+aVis to fly them to a really remote,
+p275
+aVnever-explored-before rainforest
+p276
+aVsomewhere hidden in the tropics,
+p277
+aVand parachute down a tiny spy microphone
+p278
+aVthat would allow us to eavesdrop on the calls
+p279
+aVof mammals, birds, amphibians,
+p280
+aVthe Yeti, the Sasquatch, Bigfoot, whatever.
+p281
+aVThat would give us biologists
+p282
+aVa pretty good idea of what animals
+p283
+aVmight be living in those forests.
+p284
+aa(lp285
+VAnd finally, I would like to show you
+p286
+aVthe latest version of our conservation drone.
+p287
+aVThe MAJA drone has a wingspan
+p288
+aVof about two meters.
+p289
+aVIt weighs only about two kilograms,
+p290
+aVbut it can carry half its weight.
+p291
+aVIt is a fully autonomous system.
+p292
+aVDuring its mission, it can even transmit
+p293
+aVa live video feed back to a ground station laptop,
+p294
+aVwhich allows the user
+p295
+aVto see what the drone is seeing in real time.
+p296
+aVIt carries a variety of sensors,
+p297
+aVand the photo quality of some of these sensors
+p298
+aVcan be as high as one to two centimeters per pixel.
+p299
+aVThis drone can stay in the air for 40 to 60 minutes,
+p300
+aVwhich gives it a range of up to 50 kilometers.
+p301
+aVThat is quite sufficient for most
+p302
+aVof our conservation applications.
+p303
+aa(lp304
+VNow, conservation drones began as
+p305
+aVa crazy idea from two biologists
+p306
+aVwho are just deeply passionate about this technology.
+p307
+aVAnd we believe, strongly believe,
+p308
+aVthat drones can and will be a game changer
+p309
+aVfor conservation research and applications.
+p310
+aVWe've had our fair share of skeptics and critics
+p311
+aVwho thought that we were just fooling around with toy planes.
+p312
+aVAnd in a way, they are right.
+p313
+aVI mean, let's be honest,
+p314
+aVdrones are the ultimate toys for boys.
+p315
+aVBut at the same time, we've also gotten to know
+p316
+aVmany wonderful colleagues and collaborators
+p317
+aVwho share our vision
+p318
+aVand see the potential of conservation drones.
+p319
+aVTo us, it is obvious that conservation biologists
+p320
+aVand practitioners should make full use
+p321
+aVof every available tool, including drones,
+p322
+aVin our fight to save the last remaining forests
+p323
+aVand wildlife of this planet.
+p324
+aa(lp325
+VThank you.
+p326
+aa(lp327
+V(Applause)
+p328
+aasS'transcript_micsec'
+p329
+(lp330
+I12000
+aI79000
+aI129000
+aI163000
+aI186000
+aI240000
+aI275000
+aI362000
+aI386000
+aI435000
+aI504000
+aI535000
+aI609000
+aI664000
+aI695000
+aI742000
+aI795000
+aI797000
+asS'talk_meta'
+p331
+(dp332
+S'ratings'
+p333
+(dp334
+S'ingenious'
+p335
+I115
+sS'beautiful'
+p336
+I10
+sS'inspiring'
+p337
+I109
+sS'ok'
+p338
+I5
+sS'fascinating'
+p339
+I100
+sS'funny'
+p340
+I8
+sS'total_count'
+p341
+I546
+sS'persuasive'
+p342
+I56
+sS'longwinded'
+p343
+I2
+sS'unconvincing'
+p344
+I0
+sS'informative'
+p345
+I122
+sS'jaw-dropping'
+p346
+I9
+sS'obnoxious'
+p347
+I0
+sS'courageous'
+p348
+I10
+sS'confusing'
+p349
+I0
+ssS'author'
+p350
+VLian Pin_Koh;
+p351
+sS'url'
+p352
+S'https://www.ted.com/talks/lian_pin_koh_a_drone_s_eye_view_of_conservation'
+p353
+sS'vidlen'
+p354
+I810
+sS'totalviews'
+p355
+I601054
+sS'title'
+p356
+VA drone's-eye view of conservation
+p357
+sS'downloadlink'
+p358
+Vhttps://download.ted.com/talks/LianPinKoh_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p359
+sS'datepublished'
+p360
+cdatetime
+datetime
+p361
+(S'\x07\xdd\x0b\x12\x0b\x00\x00\x00\x00\x00'
+tRp362
+sS'datefilmed'
+p363
+g361
+(S'\x07\xdd\x0b\x12\x0b\x00\x00\x00\x00\x00'
+tRp364
+sS'alldata_JSON'
+p365
+S'{"viewed_count": 601054, "speakers": [{"description": "Drones ecologist", "firstname": "Lian Pin", "title": "", "lastname": "Koh", "middleinitial": "", "whylisten": "<p>Lian Pin Koh is a relentless tinkerer and science fiction movie geek, though most know him as an environmental scientist. His dreams of combining these interests led him to cofound, with colleague Serge Wich, the site&nbsp;<a href=\\"http://conservationdrones.org/\\" target=\\"_blank\\">ConservationDrones.org</a>, a project dedicated to gathering intelligence on forests and wildlife through the use of low-cost unmanned flying machines.</p><p>Ground surveys are expensive, and are not conducted at a sufficient frequency. Furthermore, some remote tropical forests have never been really surveyed for biodiversity. Koh&#39;s machines have already collected valuable information in Sumatra, Congo, Gabon, and Madagascar.</p><p>He is an assistant professor of applied ecology and conservation at the ETH Zurich.</p>", "slug": "lian_pin_koh", "whotheyare": "Lian Pin Koh expands conservation efforts by championing the use of low-cost autonomous aerial vehicles.", "whatotherssay": "Although it\'s still the \\"dawn of drone ecology,\\" as one innovator calls it, these unmanned aerial vehicles are already skimming over Indonesia\'s jungle canopy to photograph orangutans, protecting rhinos in Nepal and studying invasive aquatic plants in Florida... A conservation drone pioneer, Lian Pin Koh of the Swiss Federal Institute of Technology, says the idea came to him after another sweaty, jungle slog in Sabah, Malaysia, hauling heavy equipment for his field work.", "id": 1586, "photo_url": "https://pe.tedcdn.com/images/ted/b560a12029a3adbe32a231a5cbb697a4d96a71ac_254x191.jpg"}], "current_talk": 1872, "description": "Ecologist Lian Pin Koh makes a persuasive case for using drones to protect the world\'s forests and wildlife. These lightweight autonomous flying vehicles can track animals in their natural habitat, monitor the health of rainforests, even combat crime by detecting poachers via thermal imaging. Added bonus? They\'re also entirely affordable.", "language": "en", "url": "https://www.ted.com/talks/lian_pin_koh_a_drone_s_eye_view_of_conservation", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94903353}, "podcast-low-en": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18673537}, "podcast-high": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94906540}, "180k": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18562401}, "64k": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6681482}, "1500k": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 148083427}, "450k": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45965403}, "podcast-regular": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46233878}, "950k": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94670675}, "audio-podcast": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8362370}, "podcast-light": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6786315}, "320k": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32784398}, "600k": {"uri": "https://download.ted.com/talks/LianPinKoh_2013G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61489014}}}, "comments": {"count": 138, "id": 23253, "talk_id": 1872}, "slug": "lian_pin_koh_a_drone_s_eye_view_of_conservation", "threadId": 23253, "talks": [{"event": "TEDGlobal 2013", "player_talks": [{"event": "TEDGlobal 2013", "slug": "lian_pin_koh_a_drone_s_eye_view_of_conservation", "filmed": 1370908800, "targeting": {"event": "TEDGlobal 2013", "tag": "animals,drones,global issues,sustainability", "id": 1872, "talk": "lian_pin_koh_a_drone_s_eye_view_of_conservation", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "A drone\'s-eye view of conservation", "postAdDuration": "0.83", "published": 1384790400, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/28a78879a36a4905f74535526fd11c0177d8ca61_1600x1200.jpg?quality=89&w=600", "name": "Lian Pin Koh: A drone\'s-eye view of conservation", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["animals", "drones", "global issues", "sustainability"], "speaker": "Lian Pin Koh", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 810, "id": 1872, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/LianPinKoh_2013G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2013", "tag": "animals,drones,global issues,sustainability", "id": 1872, "talk": "lian_pin_koh_a_drone_s_eye_view_of_conservation", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1872.json", "stream": "https://hls.ted.com/talks/1872.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2013%26id%3D1872%26tag%3Danimals%2Cdrones%2Cglobal%2Bissues%2Csustainability%26talk%3Dlian_pin_koh_a_drone_s_eye_view_of_conservation%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/lian_pin_koh_a_drone_s_eye_view_of_conservation"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/28a78879a36a4905f74535526fd11c0177d8ca61_1600x1200.jpg?q=50&w=15", "duration": 810, "id": 1872, "ratings": [{"count": 115, "id": 9, "name": "Ingenious"}, {"count": 122, "id": 8, "name": "Informative"}, {"count": 100, "id": 22, "name": "Fascinating"}, {"count": 56, "id": 24, "name": "Persuasive"}, {"count": 109, "id": 10, "name": "Inspiring"}, {"count": 10, "id": 3, "name": "Courageous"}, {"count": 10, "id": 1, "name": "Beautiful"}, {"count": 2, "id": 11, "name": "Longwinded"}, {"count": 9, "id": 23, "name": "Jaw-dropping"}, {"count": 8, "id": 7, "name": "Funny"}, {"count": 5, "id": 25, "name": "OK"}, {"count": 0, "id": 2, "name": "Confusing"}, {"count": 0, "id": 21, "name": "Unconvincing"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Drones ecologist", "firstname": "Lian Pin", "title": "", "lastname": "Koh", "middleinitial": "", "whylisten": "<p>Lian Pin Koh is a relentless tinkerer and science fiction movie geek, though most know him as an environmental scientist. His dreams of combining these interests led him to cofound, with colleague Serge Wich, the site&nbsp;<a href=\\"http://conservationdrones.org/\\" target=\\"_blank\\">ConservationDrones.org</a>, a project dedicated to gathering intelligence on forests and wildlife through the use of low-cost unmanned flying machines.</p><p>Ground surveys are expensive, and are not conducted at a sufficient frequency. Furthermore, some remote tropical forests have never been really surveyed for biodiversity. Koh&#39;s machines have already collected valuable information in Sumatra, Congo, Gabon, and Madagascar.</p><p>He is an assistant professor of applied ecology and conservation at the ETH Zurich.</p>", "slug": "lian_pin_koh", "whotheyare": "Lian Pin Koh expands conservation efforts by championing the use of low-cost autonomous aerial vehicles.", "whatotherssay": "Although it\'s still the \\"dawn of drone ecology,\\" as one innovator calls it, these unmanned aerial vehicles are already skimming over Indonesia\'s jungle canopy to photograph orangutans, protecting rhinos in Nepal and studying invasive aquatic plants in Florida... A conservation drone pioneer, Lian Pin Koh of the Swiss Federal Institute of Technology, says the idea came to him after another sweaty, jungle slog in Sabah, Malaysia, hauling heavy equipment for his field work.", "id": 1586, "photo_url": "https://pe.tedcdn.com/images/ted/b560a12029a3adbe32a231a5cbb697a4d96a71ac_254x191.jpg"}], "title": "A drone\'s-eye view of conservation", "take_action": [], "comments": 23253, "more_resources": [{"status": "approved", "start_at": null, "headline": "Drones: will they save us or destroy us?", "link_url": "http://ideas.ted.com/drones-will-they-save-us-or-destroy-us/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Read about the developments and advancements that could potentially help -- or harm."}], "hero": "https://pe.tedcdn.com/images/ted/28a78879a36a4905f74535526fd11c0177d8ca61_1600x1200.jpg", "description": "Ecologist Lian Pin Koh makes a persuasive case for using drones to protect the world\'s forests and wildlife. These lightweight autonomous flying vehicles can track animals in their natural habitat, monitor the health of rainforests, even combat crime by detecting poachers via thermal imaging. Added bonus? They\'re also entirely affordable.", "tags": ["animals", "drones", "global issues", "sustainability"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/LianPinKoh_2013G-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/LianPinKoh_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/LianPinKoh_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/LianPinKoh_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1872, "audioDownload": "https://download.ted.com/talks/LianPinKoh_2013G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 403118, "hero": "https://pe.tedcdn.com/images/ted/75594_800x600.jpg", "title": "Conserving the canopy", "id": 476, "speaker": "Nalini Nadkarni", "duration": 990, "slug": "nalini_nadkani_on_conserving_the_canopy"}, {"viewed_count": 728268, "hero": "https://pe.tedcdn.com/images/ted/5bff5aa43672271f35a48d7cd74d211ff8b1e22b_800x600.jpg", "title": "We are makers", "id": 1065, "speaker": "Dale Dougherty", "duration": 707, "slug": "dale_dougherty_we_are_makers"}, {"viewed_count": 1104445, "hero": "https://pe.tedcdn.com/images/ted/126194_800x600.jpg", "title": "Architecture that repairs itself?", "id": 667, "speaker": "Rachel Armstrong", "duration": 452, "slug": "rachel_armstrong_architecture_that_repairs_itself"}, {"viewed_count": 1910089, "hero": "https://pe.tedcdn.com/images/ted/b15f33c6694783ada082bb6afc53b762cd014d2f_1600x1200.jpg", "title": "The kill decision shouldn\'t belong to a robot", "id": 1766, "speaker": "Daniel Suarez", "duration": 800, "slug": "daniel_suarez_the_kill_decision_shouldn_t_belong_to_a_robot"}, {"viewed_count": 1303209, "hero": "https://pe.tedcdn.com/images/ted/c5b34633c771fdd970e027ef01dda942dc9a11c4_2880x1620.jpg", "title": "The coolest animal you know nothing about ... and how we can save it", "id": 2367, "speaker": "Patr\\u00edcia Medici", "duration": 692, "slug": "patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it"}, {"viewed_count": 1206030, "hero": "https://pe.tedcdn.com/images/ted/606ddad42a977bc81fcc3f2ba033bc4706e584ca_1600x1200.jpg", "title": "Meet the robots for humanity", "id": 1875, "speaker": "Henry Evans and Chad Jenkins", "duration": 621, "slug": "henry_evans_and_chad_jenkins_meet_the_robots_for_humanity"}], "recorded_at": "2013-06-11T00:00:00.000+00:00", "slug": "lian_pin_koh_a_drone_s_eye_view_of_conservation", "speaker_name": "Lian Pin Koh", "viewed_count": 601054, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2013", "name": "Lian Pin Koh: A drone\'s-eye view of conservation"}'
+p366
+sS'keywords'
+p367
+(lp368
+Vanimals
+p369
+aVdrones
+p370
+aVglobal issues
+p371
+aVsustainability
+p372
+asS'datecrawled'
+p373
+g361
+(S'\x07\xe1\n\x17\x03\x001\x05\xc6\x87'
+tRp374
+sS'id'
+p375
+I1872
+ss.

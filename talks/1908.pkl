@@ -1,0 +1,936 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMy job is to design, build and study robots that communicate with people.
+p5
+aVBut this story doesn't start with robotics at all, it starts with animation.
+p6
+aVWhen I first saw Pixar's "Luxo Jr.,"
+p7
+aVI was amazed by how much emotion they could put
+p8
+aVinto something as trivial as a desk lamp.
+p9
+aVI mean, look at them \u2014 at the end of this movie,
+p10
+aVyou actually feel something for two pieces of furniture.
+p11
+aa(lp12
+V(Laughter)
+p13
+aa(lp14
+VAnd I said, I have to learn how to do this.
+p15
+aVSo I made a really bad career decision.
+p16
+aa(lp17
+V(Laughter)
+p18
+aa(lp19
+VAnd that's what my mom was like when I did it.
+p20
+aa(lp21
+V(Laughter)
+p22
+aa(lp23
+VI left a very cozy tech job in Israel at a nice software company
+p24
+aVand I moved to New York to study animation.
+p25
+aVAnd there I lived
+p26
+aVin a collapsing apartment building in Harlem with roommates.
+p27
+aVI'm not using this phrase metaphorically \u2014
+p28
+aVthe ceiling actually collapsed one day in our living room.
+p29
+aVWhenever they did news stories about building violations in New York,
+p30
+aVthey would put the report in front of our building,
+p31
+aVas kind of, like, a backdrop to show how bad things are.
+p32
+aa(lp33
+VAnyway, during the day, I went to school
+p34
+aVand at night I would sit and draw frame by frame of pencil animation.
+p35
+aVAnd I learned two surprising lessons.
+p36
+aVOne of them was that when you want to arouse emotions,
+p37
+aVit doesn't matter so much how something looks;
+p38
+aVit's all in the motion, in the timing of how the thing moves.
+p39
+aVAnd the second was something one of our teachers told us.
+p40
+aVHe actually did the weasel in "Ice Age."
+p41
+aVAnd he said, "As an animator, you're not a director \u2014 you're an actor."
+p42
+aVSo, if you want to find the right motion for a character,
+p43
+aVdon't think about it \u2014 go use your body to find it.
+p44
+aVStand in front of a mirror, act it out in front of a camera \u2014
+p45
+aVwhatever you need \u2014 and then put it back in your character.
+p46
+aa(lp47
+VA year later I found myself at MIT in the Robotic Life Group.
+p48
+aVIt was one of the first groups researching the relationships
+p49
+aVbetween humans and robots.
+p50
+aVAnd I still had this dream to make an actual, physical Luxo Jr. lamp.
+p51
+aVBut I found that robots didn't move at all in this engaging way
+p52
+aVthat I was used to from my animation studies.
+p53
+aVInstead, they were all \u2014 how should I put it \u2014
+p54
+aVthey were all kind of robotic.
+p55
+aV(Laughter)
+p56
+aVAnd I thought, what if I took whatever I learned in animation school,
+p57
+aVand used that to design my robotic desk lamp.
+p58
+aVSo I went and designed frame by frame
+p59
+aVto try to make this robot as graceful and engaging as possible.
+p60
+aVAnd here when you see the robot interacting with me on a desktop \u2014
+p61
+aVand I'm actually redesigning the robot,
+p62
+aVso, unbeknownst to itself,
+p63
+aVit's kind of digging its own grave by helping me.
+p64
+aa(lp65
+V(Laughter)
+p66
+aa(lp67
+VI wanted it to be less of a mechanical structure giving me light,
+p68
+aVand more of a helpful, kind of quiet apprentice
+p69
+aVthat's always there when you need it and doesn't really interfere.
+p70
+aVAnd when, for example, I'm looking for a battery that I can't find,
+p71
+aVin a subtle way, it'll show me where the battery is.
+p72
+aVSo you can see my confusion here.
+p73
+aVI'm not an actor.
+p74
+aVAnd I want you to notice how the same mechanical structure
+p75
+aVcan, at one point, just by the way it moves,
+p76
+aVseem gentle and caring and in the other case,
+p77
+aVseem violent and confrontational.
+p78
+aVAnd it's the same structure, just the motion is different.
+p79
+aVActor: "You want to know something? Well, you want to know something?
+p80
+aVHe was already dead!
+p81
+aVJust laying there, eyes glazed over!"
+p82
+aa(lp83
+V(Laughter)
+p84
+aa(lp85
+VBut, moving in a graceful way is just one building block
+p86
+aVof this whole structure called human-robot interaction.
+p87
+aVI was, at the time, doing my PhD, I was working on human-robot teamwork,
+p88
+aVteams of humans and robots working together.
+p89
+aVI was studying the engineering,
+p90
+aVthe psychology, the philosophy of teamwork,
+p91
+aVand at the same time,
+p92
+aVI found myself in my own kind of teamwork situation,
+p93
+aVwith a good friend of mine, who's actually here.
+p94
+aVAnd in that situation, we can easily imagine robots
+p95
+aVin the near future being there with us.
+p96
+aVIt was after a Passover Seder.
+p97
+aVWe were folding up a lot of folding chairs,
+p98
+aVand I was amazed at how quickly we found our own rhythm.
+p99
+aVEverybody did their own part, we didn't have to divide our tasks.
+p100
+aVWe didn't have to communicate verbally about this \u2014
+p101
+aVit all just happened.
+p102
+aa(lp103
+VAnd I thought, humans and robots don't look at all like this.
+p104
+aVWhen humans and robots interact, it's much more like a chess game:
+p105
+aVthe human does a thing, the robot analyzes whatever the human did,
+p106
+aVthe robot decides what to do next, plans it and does it.
+p107
+aVThen the human waits, until it's their turn again.
+p108
+aVSo it's much more like a chess game, and that makes sense,
+p109
+aVbecause chess is great for mathematicians and computer scientists.
+p110
+aVIt's all about information, analysis, decision-making and planning.
+p111
+aa(lp112
+VBut I wanted my robot to be less of a chess player,
+p113
+aVand more like a doer
+p114
+aVthat just clicks and works together.
+p115
+aVSo I made my second horrible career choice:
+p116
+aVI decided to study acting for a semester.
+p117
+aVI took off from the PhD, I went to acting classes.
+p118
+aVI actually participated in a play \u2014
+p119
+aVI hope there\u2019s no video of that around still.
+p120
+aa(lp121
+V(Laughter)
+p122
+aa(lp123
+VAnd I got every book I could find about acting,
+p124
+aVincluding one from the 19th century that I got from the library.
+p125
+aVAnd I was really amazed, because my name was the second name on the list \u2014
+p126
+aVthe previous name was in 1889.
+p127
+aa(lp128
+V(Laughter)
+p129
+aa(lp130
+VAnd this book was kind of waiting for 100 years
+p131
+aVto be rediscovered for robotics.
+p132
+aVAnd this book shows actors
+p133
+aVhow to move every muscle in the body
+p134
+aVto match every kind of emotion that they want to express.
+p135
+aa(lp136
+VBut the real revelation was when I learned about method acting.
+p137
+aVIt became very popular in the 20th century.
+p138
+aVAnd method acting said
+p139
+aVyou don't have to plan every muscle in your body;
+p140
+aVinstead, you have to use your body to find the right movement.
+p141
+aVYou have to use your sense memory to reconstruct the emotions
+p142
+aVand kind of think with your body to find the right expression \u2014
+p143
+aVimprovise, play off your scene partner.
+p144
+aVAnd this came at the same time
+p145
+aVas I was reading about this trend in cognitive psychology,
+p146
+aVcalled embodied cognition, which also talks about the same ideas.
+p147
+aVWe use our bodies to think;
+p148
+aVwe don't just think with our brains and use our bodies to move,
+p149
+aVbut our bodies feed back into our brain
+p150
+aVto generate the way that we behave.
+p151
+aa(lp152
+VAnd it was like a lightning bolt.
+p153
+aVI went back to my office,
+p154
+aVI wrote this paper, which I never really published,
+p155
+aVcalled "Acting Lessons for Artificial Intelligence."
+p156
+aVAnd I even took another month
+p157
+aVto do what was then the first theater play
+p158
+aVwith a human and a robot acting together.
+p159
+aVThat's what you saw before with the actors.
+p160
+aVAnd I thought:
+p161
+aVHow can we make an artificial intelligence model \u2014
+p162
+aVa computer, computational model \u2014
+p163
+aVthat will model some of these ideas of improvisation,
+p164
+aVof taking risks, of taking chances,
+p165
+aVeven of making mistakes?
+p166
+aVMaybe it can make for better robotic teammates.
+p167
+aVSo I worked for quite a long time on these models
+p168
+aVand I implemented them on a number of robots.
+p169
+aa(lp170
+VHere you can see a very early example
+p171
+aVwith the robots trying to use this embodied artificial intelligence
+p172
+aVto try to match my movements as closely as possible.
+p173
+aVIt's sort of like a game.
+p174
+aVLet's look at it.
+p175
+aVYou can see when I psych it out, it gets fooled.
+p176
+aVAnd it's a little bit like what you might see actors do
+p177
+aVwhen they try to mirror each other
+p178
+aVto find the right synchrony between them.
+p179
+aVAnd then, I did another experiment,
+p180
+aVand I got people off the street to use the robotic desk lamp,
+p181
+aVand try out this idea of embodied artificial intelligence.
+p182
+aVSo, I actually used two kinds of brains for the same robot.
+p183
+aa(lp184
+VThe robot is the same lamp that you saw,
+p185
+aVand I put two brains in it.
+p186
+aVFor one half of the people,
+p187
+aVI put in a brain that's kind of the traditional,
+p188
+aVcalculated robotic brain.
+p189
+aVIt waits for its turn, it analyzes everything, it plans.
+p190
+aVLet's call it the calculated brain.
+p191
+aVThe other got more the stage actor, risk-taker brain.
+p192
+aVLet's call it the adventurous brain.
+p193
+aVIt sometimes acts without knowing everything it has to know.
+p194
+aVIt sometimes makes mistakes and corrects them.
+p195
+aVAnd I had them do this very tedious task that took almost 20 minutes,
+p196
+aVand they had to work together,
+p197
+aVsomehow simulating, like, a factory job
+p198
+aVof repetitively doing the same thing.
+p199
+aVWhat I found is that people actually loved the adventurous robot.
+p200
+aVThey thought it was more intelligent,
+p201
+aVmore committed, a better member of the team,
+p202
+aVcontributed to the success of the team more.
+p203
+aVThey even called it "he" and "she,"
+p204
+aVwhereas people with the calculated brain
+p205
+aVcalled it "it," and nobody ever called it "he" or "she."
+p206
+aVWhen they talked about it after the task, with the adventurous brain,
+p207
+aVthey said, "By the end, we were good friends and high-fived mentally."
+p208
+aVWhatever that means.
+p209
+aa(lp210
+V(Laughter)
+p211
+aa(lp212
+VSounds painful.
+p213
+aVWhereas the people with the calculated brain
+p214
+aVsaid it was just like a lazy apprentice.
+p215
+aVIt only did what it was supposed to do and nothing more,
+p216
+aVwhich is almost what people expect robots to do,
+p217
+aVso I was surprised that people had higher expectations of robots
+p218
+aVthan what anybody in robotics thought robots should be doing.
+p219
+aVAnd in a way, I thought, maybe it's time \u2014
+p220
+aVjust like method acting changed the way people thought
+p221
+aVabout acting in the 19th century,
+p222
+aVfrom going from the very calculated, planned way of behaving,
+p223
+aVto a more intuitive, risk-taking, embodied way of behaving \u2014
+p224
+aVmaybe it's time for robots to have the same kind of revolution.
+p225
+aa(lp226
+VA few years later, I was at my next research job at Georgia Tech in Atlanta,
+p227
+aVand I was working in a group dealing with robotic musicians.
+p228
+aVAnd I thought, music: that's the perfect place
+p229
+aVto look at teamwork, coordination, timing, improvisation \u2014
+p230
+aVand we just got this robot playing marimba.
+p231
+aVAnd the marimba, for everybody like me,
+p232
+aVit was this huge, wooden xylophone.
+p233
+aVAnd when I was looking at this,
+p234
+aVI looked at other works in human-robot improvisation \u2014
+p235
+aVyes, there are other works in human-robot improvisation \u2014
+p236
+aVand they were also a little bit like a chess game.
+p237
+aVThe human would play,
+p238
+aVthe robot analyzed what was played,
+p239
+aVand would improvise their own part.
+p240
+aVSo, this is what musicians called a call-and-response interaction,
+p241
+aVand it also fits very well robots and artificial intelligence.
+p242
+aVBut I thought, if I use the same ideas I used in the theater play
+p243
+aVand in the teamwork studies,
+p244
+aVmaybe I can make the robots jam together like a band.
+p245
+aVEverybody's riffing off each other, nobody is stopping for a moment.
+p246
+aVAnd so I tried to do the same things, this time with music,
+p247
+aVwhere the robot doesn't really know what it's about to play,
+p248
+aVit just sort of moves its body and uses opportunities to play,
+p249
+aVand does what my jazz teacher when I was 17 taught me.
+p250
+aVShe said, when you improvise,
+p251
+aVsometimes you don't know what you're doing, and you still do it.
+p252
+aVSo I tried to make a robot that doesn't actually know what it's doing,
+p253
+aVbut is still doing it.
+p254
+aVSo let's look at a few seconds from this performance,
+p255
+aVwhere the robot listens to the human musician
+p256
+aVand improvises.
+p257
+aVAnd then, look how the human musician also responds
+p258
+aVto what the robot is doing
+p259
+aVand picking up from its behavior,
+p260
+aVand at some point can even be surprised by what the robot came up with.
+p261
+aa(lp262
+V(Music)
+p263
+aa(lp264
+V(Music ends)
+p265
+aa(lp266
+V(Applause)
+p267
+aa(lp268
+VBeing a musician is not just about making notes,
+p269
+aVotherwise nobody would ever go see a live show.
+p270
+aVMusicians also communicate with their bodies,
+p271
+aVwith other band members, with the audience,
+p272
+aVthey use their bodies to express the music.
+p273
+aVAnd I thought, we already have a robot musician on stage,
+p274
+aVwhy not make it be a full-fledged musician?
+p275
+aVAnd I started designing a socially expressive head
+p276
+aVfor the robot.
+p277
+aVThe head doesn\u2019t actually touch the marimba,
+p278
+aVit just expresses what the music is like.
+p279
+aVThese are some napkin sketches from a bar in Atlanta
+p280
+aVthat was dangerously located exactly halfway
+p281
+aVbetween my lab and my home.
+p282
+aVSo I spent, I would say, on average, three to four hours a day there.
+p283
+aVI think.
+p284
+aa(lp285
+V(Laughter)
+p286
+aa(lp287
+VAnd I went back to my animation tools and tried to figure out
+p288
+aVnot just what a robotic musician would look like,
+p289
+aVbut especially what a robotic musician would move like,
+p290
+aVto sort of show that it doesn't like what the other person is playing \u2014
+p291
+aVand maybe show whatever beat it's feeling at the moment.
+p292
+aa(lp293
+VSo we ended up actually getting the money to build this robot, which was nice.
+p294
+aVI'm going to show you now the same kind of performance,
+p295
+aVthis time with a socially expressive head.
+p296
+aVAnd notice one thing \u2014
+p297
+aVhow the robot is really showing us
+p298
+aVthe beat it's picking up from the human,
+p299
+aVwhile also giving the human a sense that the robot knows what it's doing.
+p300
+aVAnd also how it changes the way it moves
+p301
+aVas soon as it starts its own solo.
+p302
+aa(lp303
+V(Music)
+p304
+aa(lp305
+VNow it's looking at me, showing that it's listening.
+p306
+aa(lp307
+V(Music)
+p308
+aa(lp309
+VNow look at the final chord of the piece again.
+p310
+aVAnd this time the robot communicates with its body
+p311
+aVwhen it's busy doing its own thing,
+p312
+aVand when it's ready to coordinate the final chord with me.
+p313
+aa(lp314
+V(Music)
+p315
+aa(lp316
+V(Music ending)
+p317
+aa(lp318
+V(Final chord)
+p319
+aa(lp320
+V(Applause)
+p321
+aa(lp322
+VThanks.
+p323
+aVI hope you see
+p324
+aVhow much this part of the body that doesn't touch the instrument
+p325
+aVactually helps with the musical performance.
+p326
+aVAnd at some point \u2014 we are in Atlanta,
+p327
+aVso obviously some rapper will come into our lab at some point \u2014
+p328
+aVand we had this rapper come in and do a little jam with the robot.
+p329
+aVHere you can see the robot basically responding to the beat.
+p330
+aVNotice two things:
+p331
+aVone, how irresistible it is to join the robot while it's moving its head.
+p332
+aVYou kind of want to move your own head when it does it.
+p333
+aVAnd second, even though the rapper is really focused on his iPhone,
+p334
+aVas soon as the robot turns to him, he turns back.
+p335
+aVSo even though it's just in the periphery of his vision,
+p336
+aVin the corner of his eye, it's very powerful.
+p337
+aVAnd the reason is that we can't ignore
+p338
+aVphysical things moving in our environment.
+p339
+aVWe are wired for that.
+p340
+aVSo if you have a problem \u2014
+p341
+aVmaybe your partner is looking at their iPhone or smartphone too much \u2014
+p342
+aVyou might want to have a robot there to get their attention.
+p343
+aa(lp344
+V(Laughter)
+p345
+aa(lp346
+V(Music)
+p347
+aa(lp348
+V(Music ends)
+p349
+aa(lp350
+V(Applause)
+p351
+aa(lp352
+VJust to introduce the last robot that we've worked on,
+p353
+aVit came out of something surprising that we found:
+p354
+aVSome point people didn't care about the robot being intelligent,
+p355
+aVable to improvise and listen,
+p356
+aVand do all these embodied intelligence things that I spent years developing.
+p357
+aVThey really liked that the robot was enjoying the music.
+p358
+aa(lp359
+V(Laughter)
+p360
+aa(lp361
+VAnd they didn't say the robot was moving to the music,
+p362
+aVthey said "enjoying" the music.
+p363
+aVAnd we thought, why don't we take this idea,
+p364
+aVand I designed a new piece of furniture.
+p365
+aVThis time it wasn't a desk lamp, it was a speaker dock,
+p366
+aVone of those things you plug your smartphone in.
+p367
+aVAnd I thought,
+p368
+aVwhat would happen if your speaker dock didn't just play the music for you,
+p369
+aVbut would actually enjoy it, too?
+p370
+aVAnd so again, here are some animation tests from an early stage.
+p371
+aa(lp372
+V(Laughter)
+p373
+aa(lp374
+VAnd this is what the final product looked like.
+p375
+aa(lp376
+V(Music)
+p377
+aa(lp378
+V(Music ends)
+p379
+aa(lp380
+VSo, a lot of bobbing heads.
+p381
+aa(lp382
+V(Applause)
+p383
+aa(lp384
+VA lot of bobbing heads in the audience,
+p385
+aVso we can still see robots influence people.
+p386
+aVAnd it's not just fun and games.
+p387
+aa(lp388
+VI think one of the reasons I care so much
+p389
+aVabout robots that use their body to communicate
+p390
+aVand use their body to move is \u2014
+p391
+aVI'm going to let you in on a little secret we roboticists are hiding \u2014
+p392
+aVis that every one of you is going to be living with a robot
+p393
+aVat some point in your life.
+p394
+aVSomewhere in your future, there will be a robot in your life.
+p395
+aVIf not in yours, your children's lives.
+p396
+aVAnd I want these robots to be more fluent, more engaging, more graceful
+p397
+aVthan currently they seem to be.
+p398
+aVAnd for that I think maybe robots need to be less like chess players
+p399
+aVand more like stage actors and more like musicians.
+p400
+aVMaybe they should be able to take chances and improvise.
+p401
+aVMaybe they should be able to anticipate what you're about to do.
+p402
+aVMaybe they even need to be able to make mistakes and correct them,
+p403
+aVbecause in the end, we are human.
+p404
+aVAnd maybe as humans, robots that are a little less than perfect
+p405
+aVare just perfect for us.
+p406
+aa(lp407
+VThank you.
+p408
+aa(lp409
+V(Applause)
+p410
+aasS'transcript_micsec'
+p411
+(lp412
+I11000
+aI33000
+aI34000
+aI39000
+aI40000
+aI42000
+aI44000
+aI67000
+aI107000
+aI153000
+aI155000
+aI208000
+aI209000
+aI248000
+aI272000
+aI293000
+aI294000
+aI305000
+aI306000
+aI317000
+aI354000
+aI391000
+aI431000
+aI491000
+aI493000
+aI530000
+aI624000
+aI666000
+aI670000
+aI675000
+aI712000
+aI713000
+aI729000
+aI751000
+aI755000
+aI758000
+aI780000
+aI793000
+aI800000
+aI805000
+aI806000
+aI811000
+aI869000
+aI870000
+aI885000
+aI889000
+aI896000
+aI914000
+aI915000
+aI940000
+aI942000
+aI957000
+aI977000
+aI980000
+aI983000
+aI986000
+aI994000
+aI1042000
+aI1043000
+asS'talk_meta'
+p413
+(dp414
+S'ratings'
+p415
+(dp416
+S'ingenious'
+p417
+I388
+sS'funny'
+p418
+I239
+sS'inspiring'
+p419
+I327
+sS'ok'
+p420
+I44
+sS'fascinating'
+p421
+I630
+sS'total_count'
+p422
+I2139
+sS'persuasive'
+p423
+I65
+sS'longwinded'
+p424
+I10
+sS'informative'
+p425
+I113
+sS'beautiful'
+p426
+I123
+sS'jaw-dropping'
+p427
+I150
+sS'obnoxious'
+p428
+I1
+sS'confusing'
+p429
+I4
+sS'courageous'
+p430
+I24
+sS'unconvincing'
+p431
+I21
+ssS'author'
+p432
+VGuy_Hoffman;
+p433
+sS'url'
+p434
+S'https://www.ted.com/talks/guy_hoffman_robots_with_soul'
+p435
+sS'vidlen'
+p436
+I1058
+sS'totalviews'
+p437
+I2940598
+sS'title'
+p438
+VRobots with "soul"
+p439
+sS'downloadlink'
+p440
+Vhttps://download.ted.com/talks/GuyHoffman_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p441
+sS'datepublished'
+p442
+cdatetime
+datetime
+p443
+(S'\x07\xde\x01\x11\x0b(\x0c\x00\x00\x00'
+tRp444
+sS'datefilmed'
+p445
+g443
+(S'\x07\xde\x01\x11\x0b(\x0c\x00\x00\x00'
+tRp446
+sS'alldata_JSON'
+p447
+S'{"viewed_count": 2940598, "speakers": [{"description": "Roboticist", "firstname": "Guy", "title": "", "lastname": "Hoffman", "middleinitial": "", "whylisten": "<p>As co-director of the IDC Media Invention Lab, Guy Hoffman researches robots with soul. He explores the humanity of robots -- how they think, feel, act, and move, as they interact with humans. He and his team staged the world&rsquo;s first human-robot theater piece, as well as the<a href=\\"http://www.cnn.com/2010/TECH/04/29/robot.musician/index.html\\" target=\\"_blank\\"> first human-robot jazz duet</a>,&nbsp;improv and all.</p> <p>Hoffman&rsquo;s work has been named one of TIME Magazine&rsquo;s Best Inventions of the Year, and in 2010 and 2012, he was listed as one of Israel&rsquo;s most promising researchers under 40.</p>", "slug": "guy_hoffman", "whotheyare": "Can robots and humans interact the way that human beings interact with each other? Guy Hoffman researches embodied cognition and intelligence in robots. ", "whatotherssay": "", "id": 1746, "photo_url": "https://pe.tedcdn.com/images/ted/8c88cbfc20111993559f49416edb3ad3fb9a59d1_254x191.jpg"}], "current_talk": 1908, "description": "What kind of robots does an animator /  jazz musician / roboticist make? Playful, reactive, curious ones. Guy Hoffman shows demo film of his family of unusual robots -- including two musical bots that like to jam with humans.", "language": "en", "url": "https://www.ted.com/talks/guy_hoffman_robots_with_soul", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126431376}, "podcast-low-en": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24328263}, "podcast-high": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126256172}, "180k": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24061834}, "64k": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8678326}, "1500k": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 195198906}, "450k": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59945460}, "podcast-regular": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60233230}, "950k": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 125862928}, "audio-podcast": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10822579}, "podcast-light": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8815738}, "320k": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42623962}, "600k": {"uri": "https://download.ted.com/talks/GuyHoffman_2013X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 80119988}}}, "comments": {"count": 137, "id": 24479, "talk_id": 1908}, "slug": "guy_hoffman_robots_with_soul", "threadId": 24479, "talks": [{"event": "TEDxJaffa 2013", "player_talks": [{"event": "TEDxJaffa 2013", "slug": "guy_hoffman_robots_with_soul", "filmed": 1381795200, "targeting": {"event": "TEDxJaffa 2013", "tag": "AI,TEDx,entertainment,jazz,music,robots,technology", "id": 1908, "talk": "guy_hoffman_robots_with_soul", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "Robots with \\"soul\\"", "postAdDuration": "0.83", "published": 1389976812, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b63f9749fe41465874b0d969b2ffb1ad7e989976_1600x1200.jpg?quality=89&w=600", "name": "Guy Hoffman: Robots with \\"soul\\"", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "TEDx", "entertainment", "jazz", "music", "robots", "technology"], "speaker": "Guy Hoffman", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1058, "id": 1908, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/GuyHoffman_2013X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxJaffa 2013", "tag": "AI,TEDx,entertainment,jazz,music,robots,technology", "id": 1908, "talk": "guy_hoffman_robots_with_soul", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1908.json", "stream": "https://hls.ted.com/talks/1908.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxJaffa%2B2013%26id%3D1908%26tag%3DAI%2CTEDx%2Centertainment%2Cjazz%2Cmusic%2Crobots%2Ctechnology%26talk%3Dguy_hoffman_robots_with_soul%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/guy_hoffman_robots_with_soul"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b63f9749fe41465874b0d969b2ffb1ad7e989976_1600x1200.jpg?q=50&w=15", "duration": 1058, "id": 1908, "ratings": [{"count": 630, "id": 22, "name": "Fascinating"}, {"count": 239, "id": 7, "name": "Funny"}, {"count": 65, "id": 24, "name": "Persuasive"}, {"count": 327, "id": 10, "name": "Inspiring"}, {"count": 150, "id": 23, "name": "Jaw-dropping"}, {"count": 388, "id": 9, "name": "Ingenious"}, {"count": 123, "id": 1, "name": "Beautiful"}, {"count": 113, "id": 8, "name": "Informative"}, {"count": 24, "id": 3, "name": "Courageous"}, {"count": 10, "id": 11, "name": "Longwinded"}, {"count": 44, "id": 25, "name": "OK"}, {"count": 1, "id": 26, "name": "Obnoxious"}, {"count": 21, "id": 21, "name": "Unconvincing"}, {"count": 4, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Roboticist", "firstname": "Guy", "title": "", "lastname": "Hoffman", "middleinitial": "", "whylisten": "<p>As co-director of the IDC Media Invention Lab, Guy Hoffman researches robots with soul. He explores the humanity of robots -- how they think, feel, act, and move, as they interact with humans. He and his team staged the world&rsquo;s first human-robot theater piece, as well as the<a href=\\"http://www.cnn.com/2010/TECH/04/29/robot.musician/index.html\\" target=\\"_blank\\"> first human-robot jazz duet</a>,&nbsp;improv and all.</p> <p>Hoffman&rsquo;s work has been named one of TIME Magazine&rsquo;s Best Inventions of the Year, and in 2010 and 2012, he was listed as one of Israel&rsquo;s most promising researchers under 40.</p>", "slug": "guy_hoffman", "whotheyare": "Can robots and humans interact the way that human beings interact with each other? Guy Hoffman researches embodied cognition and intelligence in robots. ", "whatotherssay": "", "id": 1746, "photo_url": "https://pe.tedcdn.com/images/ted/8c88cbfc20111993559f49416edb3ad3fb9a59d1_254x191.jpg"}], "title": "Robots with \\"soul\\"", "take_action": null, "comments": 24479, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/b63f9749fe41465874b0d969b2ffb1ad7e989976_1600x1200.jpg", "description": "What kind of robots does an animator /  jazz musician / roboticist make? Playful, reactive, curious ones. Guy Hoffman shows demo film of his family of unusual robots -- including two musical bots that like to jam with humans.", "tags": ["AI", "TEDx", "entertainment", "jazz", "music", "robots", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "az", "endonym": "Az\\u0259rbaycan dili", "isRtl": false, "ianaCode": "az", "languageName": "Azerbaijani"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-cs.mp4"}, "az": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-az.mp4", "name": "Azerbaijani", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-az.mp4"}, "es": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-ru.mp4"}, "pt": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/GuyHoffman_2013X-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/GuyHoffman_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/GuyHoffman_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/GuyHoffman_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1908, "audioDownload": "https://download.ted.com/talks/GuyHoffman_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1197521, "hero": "https://pe.tedcdn.com/images/ted/adea691a43c5c4487f6c195fa3dd4f0b6ba2dddd_1600x1200.jpg", "title": "Dance, tiny robots!", "id": 1677, "speaker": "Bruno Maisonnier", "duration": 189, "slug": "bruno_maisonnier_dance_tiny_robots"}, {"viewed_count": 560446, "hero": "https://pe.tedcdn.com/images/ted/5270397cbd7609dc200d59ddf7df4bf627d4d0ac_800x600.jpg", "title": "Meet Rezero, the dancing ballbot", "id": 1281, "speaker": "P\\u00e9ter Fankhauser", "duration": 316, "slug": "peter_fankhauser_meet_rezero_the_dancing_ballbot"}, {"viewed_count": 909803, "hero": "https://pe.tedcdn.com/images/ted/122437_800x600.jpg", "title": "Robots that \\"show emotion\\"", "id": 657, "speaker": "David Hanson", "duration": 297, "slug": "david_hanson_robots_that_relate_to_you"}, {"viewed_count": 604238, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}, {"viewed_count": 4257261, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}, {"viewed_count": 1623251, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}], "recorded_at": "2013-10-15T00:00:00.000+00:00", "slug": "guy_hoffman_robots_with_soul", "speaker_name": "Guy Hoffman", "viewed_count": 2940598, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxJaffa 2013, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxJaffa 2013", "name": "Guy Hoffman: Robots with \\"soul\\""}'
+p448
+sS'keywords'
+p449
+(lp450
+VAI
+p451
+aVTEDx
+p452
+aVentertainment
+p453
+aVjazz
+p454
+aVmusic
+p455
+aVrobots
+p456
+aVtechnology
+p457
+asS'datecrawled'
+p458
+g443
+(S'\x07\xe1\n\x17\x00\x06\x0e\x02\xf1\x8d'
+tRp459
+sS'id'
+p460
+I1908
+ss.

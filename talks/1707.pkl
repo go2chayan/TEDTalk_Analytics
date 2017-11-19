@@ -1,0 +1,472 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThis is me building a prototype
+p5
+aVfor six hours straight.
+p6
+aVThis is slave labor to my own project.
+p7
+aVThis is what the DIY and maker movements really look like.
+p8
+aVAnd this is an analogy for today's construction and manufacturing world
+p9
+aVwith brute-force assembly techniques.
+p10
+aVAnd this is exactly why I started studying
+p11
+aVhow to program physical materials to build themselves.
+p12
+aa(lp13
+VBut there is another world.
+p14
+aVToday at the micro- and nanoscales,
+p15
+aVthere's an unprecedented revolution happening.
+p16
+aVAnd this is the ability to program physical and biological materials
+p17
+aVto change shape, change properties
+p18
+aVand even compute outside of silicon-based matter.
+p19
+aVThere's even a software called cadnano
+p20
+aVthat allows us to design three-dimensional shapes
+p21
+aVlike nano robots or drug delivery systems
+p22
+aVand use DNA to self-assemble those functional structures.
+p23
+aa(lp24
+VBut if we look at the human scale,
+p25
+aVthere's massive problems that aren't being addressed
+p26
+aVby those nanoscale technologies.
+p27
+aVIf we look at construction and manufacturing,
+p28
+aVthere's major inefficiencies, energy consumption
+p29
+aVand excessive labor techniques.
+p30
+aVIn infrastructure, let's just take one example.
+p31
+aVTake piping.
+p32
+aVIn water pipes, we have fixed-capacity water pipes
+p33
+aVthat have fixed flow rates, except for expensive pumps and valves.
+p34
+aVWe bury them in the ground.
+p35
+aVIf anything changes \u2014 if the environment changes,
+p36
+aVthe ground moves, or demand changes \u2014
+p37
+aVwe have to start from scratch and take them out and replace them.
+p38
+aa(lp39
+VSo I'd like to propose that we can combine those two worlds,
+p40
+aVthat we can combine the world of the nanoscale programmable adaptive materials
+p41
+aVand the built environment.
+p42
+aVAnd I don't mean automated machines.
+p43
+aVI don't just mean smart machines that replace humans.
+p44
+aVBut I mean programmable materials that build themselves.
+p45
+aVAnd that's called self-assembly,
+p46
+aVwhich is a process by which disordered parts build an ordered structure
+p47
+aVthrough only local interaction.
+p48
+aa(lp49
+VSo what do we need if we want to do this at the human scale?
+p50
+aVWe need a few simple ingredients.
+p51
+aVThe first ingredient is materials and geometry,
+p52
+aVand that needs to be tightly coupled with the energy source.
+p53
+aVAnd you can use passive energy \u2014
+p54
+aVso heat, shaking, pneumatics, gravity, magnetics.
+p55
+aVAnd then you need smartly designed interactions.
+p56
+aVAnd those interactions allow for error correction,
+p57
+aVand they allow the shapes to go from one state to another state.
+p58
+aa(lp59
+VSo now I'm going to show you a number of projects that we've built,
+p60
+aVfrom one-dimensional, two-dimensional, three-dimensional
+p61
+aVand even four-dimensional systems.
+p62
+aVSo in one-dimensional systems \u2014
+p63
+aVthis is a project called the self-folding proteins.
+p64
+aVAnd the idea is that you take the three-dimensional structure of a protein \u2014
+p65
+aVin this case it's the crambin protein \u2014
+p66
+aVyou take the backbone \u2014 so no cross-linking, no environmental interactions \u2014
+p67
+aVand you break that down into a series of components.
+p68
+aVAnd then we embed elastic.
+p69
+aVAnd when I throw this up into the air and catch it,
+p70
+aVit has the full three-dimensional structure of the protein, all of the intricacies.
+p71
+aVAnd this gives us a tangible model
+p72
+aVof the three-dimensional protein and how it folds
+p73
+aVand all of the intricacies of the geometry.
+p74
+aVSo we can study this as a physical, intuitive model.
+p75
+aVAnd we're also translating that into two-dimensional systems \u2014
+p76
+aVso flat sheets that can self-fold into three-dimensional structures.
+p77
+aa(lp78
+VIn three dimensions, we did a project last year at TEDGlobal
+p79
+aVwith Autodesk and Arthur Olson
+p80
+aVwhere we looked at autonomous parts \u2014
+p81
+aVso individual parts not pre-connected that can come together on their own.
+p82
+aVAnd we built 500 of these glass beakers.
+p83
+aVThey had different molecular structures inside
+p84
+aVand different colors that could be mixed and matched.
+p85
+aVAnd we gave them away to all the TEDsters.
+p86
+aVAnd so these became intuitive models
+p87
+aVto understand how molecular self-assembly works at the human scale.
+p88
+aVThis is the polio virus.
+p89
+aVYou shake it hard and it breaks apart.
+p90
+aVAnd then you shake it randomly
+p91
+aVand it starts to error correct and built the structure on its own.
+p92
+aVAnd this is demonstrating that through random energy,
+p93
+aVwe can build non-random shapes.
+p94
+aa(lp95
+VWe even demonstrated that we can do this at a much larger scale.
+p96
+aVLast year at TED Long Beach,
+p97
+aVwe built an installation that builds installations.
+p98
+aVThe idea was, could we self-assemble furniture-scale objects?
+p99
+aVSo we built a large rotating chamber,
+p100
+aVand people would come up and spin the chamber faster or slower,
+p101
+aVadding energy to the system
+p102
+aVand getting an intuitive understanding of how self-assembly works
+p103
+aVand how we could use this
+p104
+aVas a macroscale construction or manufacturing technique for products.
+p105
+aa(lp106
+VSo remember, I said 4D.
+p107
+aVSo today for the first time, we're unveiling a new project,
+p108
+aVwhich is a collaboration with Stratasys,
+p109
+aVand it's called 4D printing.
+p110
+aVThe idea behind 4D printing
+p111
+aVis that you take multi-material 3D printing \u2014
+p112
+aVso you can deposit multiple materials \u2014
+p113
+aVand you add a new capability,
+p114
+aVwhich is transformation,
+p115
+aVthat right off the bed,
+p116
+aVthe parts can transform from one shape to another shape directly on their own.
+p117
+aVAnd this is like robotics without wires or motors.
+p118
+aVSo you completely print this part,
+p119
+aVand it can transform into something else.
+p120
+aa(lp121
+VWe also worked with Autodesk on a software they're developing called Project Cyborg.
+p122
+aVAnd this allows us to simulate this self-assembly behavior
+p123
+aVand try to optimize which parts are folding when.
+p124
+aVBut most importantly, we can use this same software
+p125
+aVfor the design of nanoscale self-assembly systems
+p126
+aVand human scale self-assembly systems.
+p127
+aVThese are parts being printed with multi-material properties.
+p128
+aVHere's the first demonstration.
+p129
+aVA single strand dipped in water
+p130
+aVthat completely self-folds on its own
+p131
+aVinto the letters M I T.
+p132
+aVI'm biased.
+p133
+aVThis is another part, single strand, dipped in a bigger tank
+p134
+aVthat self-folds into a cube, a three-dimensional structure, on its own.
+p135
+aVSo no human interaction.
+p136
+aVAnd we think this is the first time
+p137
+aVthat a program and transformation
+p138
+aVhas been embedded directly into the materials themselves.
+p139
+aVAnd it also might just be the manufacturing technique
+p140
+aVthat allows us to produce more adaptive infrastructure in the future.
+p141
+aa(lp142
+VSo I know you're probably thinking,
+p143
+aVokay, that's cool, but how do we use any of this stuff for the built environment?
+p144
+aVSo I've started a lab at MIT,
+p145
+aVand it's called the Self-Assembly Lab.
+p146
+aVAnd we're dedicated to trying to develop programmable materials
+p147
+aVfor the built environment.
+p148
+aVAnd we think there's a few key sectors
+p149
+aVthat have fairly near-term applications.
+p150
+aVOne of those is in extreme environments.
+p151
+aVThese are scenarios where it's difficult to build,
+p152
+aVour current construction techniques don't work,
+p153
+aVit's too large, it's too dangerous, it's expensive, too many parts.
+p154
+aVAnd space is a great example of that.
+p155
+aVWe're trying to design new scenarios for space
+p156
+aVthat have fully reconfigurable and self-assembly structures
+p157
+aVthat can go from highly functional systems from one to another.
+p158
+aa(lp159
+VLet's go back to infrastructure.
+p160
+aVIn infrastructure, we're working with a company out of Boston called Geosyntec.
+p161
+aVAnd we're developing a new paradigm for piping.
+p162
+aVImagine if water pipes could expand or contract
+p163
+aVto change capacity or change flow rate,
+p164
+aVor maybe even undulate like peristaltics to move the water themselves.
+p165
+aVSo this isn't expensive pumps or valves.
+p166
+aVThis is a completely programmable and adaptive pipe on its own.
+p167
+aa(lp168
+VSo I want to remind you today
+p169
+aVof the harsh realities of assembly in our world.
+p170
+aVThese are complex things built with complex parts
+p171
+aVthat come together in complex ways.
+p172
+aVSo I would like to invite you from whatever industry you're from
+p173
+aVto join us in reinventing and reimagining the world,
+p174
+aVhow things come together from the nanoscale to the human scale,
+p175
+aVso that we can go from a world like this
+p176
+aVto a world that's more like this.
+p177
+aa(lp178
+VThank you.
+p179
+aa(lp180
+V(Applause)
+p181
+aasS'transcript_micsec'
+p182
+(lp183
+I11000
+aI40000
+aI69000
+aI108000
+aI136000
+aI163000
+aI220000
+aI264000
+aI293000
+aI327000
+aI386000
+aI427000
+aI453000
+aI491000
+aI493000
+asS'talk_meta'
+p184
+(dp185
+S'ratings'
+p186
+(dp187
+S'ingenious'
+p188
+I286
+sS'beautiful'
+p189
+I16
+sS'inspiring'
+p190
+I184
+sS'ok'
+p191
+I72
+sS'fascinating'
+p192
+I355
+sS'funny'
+p193
+I7
+sS'total_count'
+p194
+I1510
+sS'persuasive'
+p195
+I41
+sS'longwinded'
+p196
+I22
+sS'informative'
+p197
+I253
+sS'jaw-dropping'
+p198
+I152
+sS'obnoxious'
+p199
+I9
+sS'confusing'
+p200
+I20
+sS'courageous'
+p201
+I8
+sS'unconvincing'
+p202
+I85
+ssS'author'
+p203
+VSkylar_Tibbits;
+p204
+sS'url'
+p205
+S'https://www.ted.com/talks/skylar_tibbits_the_emergence_of_4d_printing'
+p206
+sS'vidlen'
+p207
+I502
+sS'totalviews'
+p208
+I2458356
+sS'title'
+p209
+VThe emergence of "4D printing"
+p210
+sS'downloadlink'
+p211
+Vhttps://download.ted.com/talks/SkylarTibbits_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p212
+sS'datepublished'
+p213
+cdatetime
+datetime
+p214
+(S'\x07\xdd\x04\x04\n8\x15\x00\x00\x00'
+tRp215
+sS'datefilmed'
+p216
+g214
+(S'\x07\xdd\x04\x04\n8\x15\x00\x00\x00'
+tRp217
+sS'alldata_JSON'
+p218
+S'{"viewed_count": 2458356, "speakers": [{"description": "Inventor", "firstname": "Skylar", "title": "", "lastname": "Tibbits", "middleinitial": "", "whylisten": "<p class=\\"MsoNormal\\">Can we create objects that assemble themselves -- that zip together like a strand of DNA or that have the ability for transformation embedded into them? These are the questions that Skylar Tibbits investigates in his Self-Assembly Lab at MIT, a cross-disciplinary research space where designers, scientists and engineers come together to find ways for disordered parts to become ordered structures.&nbsp;</p>  <p class=\\"MsoNormal\\">A trained architect, designer and computer scientist, Tibbits teaches design studios at MIT&rsquo;s Department of Architecture and co-teaches the seminar &ldquo;How to Make (Almost) Anything&rdquo; at MIT&rsquo;s Media Lab. Before that, he worked at a number of design offices including Zaha Hadid Architects, Asymptote Architecture, SKIII Space Variations and Point b Design. His work has been shown at the Guggenheim Museum and the Beijing Biennale.&nbsp;<br /> <br /> Tibbits has collaborated with a number of influential people over the years, including Neil Gershenfeld and The Center for Bits and Atoms, Erik and Marty Demaine at MIT, Adam Bly at SEED Media Group and Marc Fornes of THEVERYMANY. In 2007, he and Marc Fornes co-curated <a href=\\"http://scriptedbypurpose.wordpress.com/\\">Scriptedbypurpose</a>, the first exhibition focused exclusively on scripted processes within design. Also in 2007, he founded&nbsp;<a href=\\"http://www.sjet.us/\\" target=\\"_blank\\">SJET</a>,&nbsp;a multifaceted practice and research platform for experimental computation and design. SJET crosses disciplines from architecture and design, fabrication, computer science and robotics.</p>", "slug": "skylar_tibbits", "whotheyare": "Skylar Tibbits, a TED Fellow, is an artist and computational architect working on \\"smart\\" components that can assemble themselves.", "whatotherssay": "The big idea is to create objects that can change after they are printed, making them self-adapting. The act of printing is no longer the end of the creative process but merely a waypoint.", "id": 1084, "photo_url": "https://pe.tedcdn.com/images/ted/97712823858f32afe67b1a8a26ceb653345a73f2_254x191.jpg"}], "current_talk": 1707, "description": "3D printing has grown in sophistication since the late 1970s; TED Fellow Skylar Tibbits is shaping the next development, which he calls 4D printing, where the fourth dimension is time. This emerging technology will allow us to print objects that then reshape themselves or self-assemble over time. Think: a printed cube that folds before your eyes, or a printed pipe able to sense the need to expand or contract. ", "language": "en", "url": "https://www.ted.com/talks/skylar_tibbits_the_emergence_of_4d_printing", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58486019}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11642676}, "podcast-high": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58480889}, "180k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11393127}, "64k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4136097}, "1500k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 90510367}, "450k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28489565}, "podcast-regular": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28604751}, "950k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58470911}, "audio-podcast": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5219584}, "podcast-light": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4269620}, "320k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20178810}, "600k": {"uri": "https://download.ted.com/talks/SkylarTibbits_2013U-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38233498}}}, "comments": {"count": 208, "id": 19162, "talk_id": 1707}, "slug": "skylar_tibbits_the_emergence_of_4d_printing", "threadId": 19162, "talks": [{"event": "TED2013", "player_talks": [{"event": "TED2013", "slug": "skylar_tibbits_the_emergence_of_4d_printing", "filmed": 1361750400, "targeting": {"event": "TED2013", "tag": "TED Fellows,design,industrial design,technology", "id": 1707, "talk": "skylar_tibbits_the_emergence_of_4d_printing", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "The emergence of \\"4D printing\\"", "postAdDuration": "0.83", "published": 1365087381, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/5067e7078880030b41aea9eb2b6fbddbdedc7728_1600x1200.jpg?quality=89&w=600", "name": "Skylar Tibbits: The emergence of \\"4D printing\\"", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TED Fellows", "design", "industrial design", "technology"], "speaker": "Skylar Tibbits", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 502, "id": 1707, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SkylarTibbits_2013U-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2013", "tag": "TED Fellows,design,industrial design,technology", "id": 1707, "talk": "skylar_tibbits_the_emergence_of_4d_printing", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1707.json", "stream": "https://hls.ted.com/talks/1707.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2013%26id%3D1707%26tag%3DTED%2BFellows%2Cdesign%2Cindustrial%2Bdesign%2Ctechnology%26talk%3Dskylar_tibbits_the_emergence_of_4d_printing%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/skylar_tibbits_the_emergence_of_4d_printing"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/5067e7078880030b41aea9eb2b6fbddbdedc7728_1600x1200.jpg?q=50&w=15", "duration": 502, "id": 1707, "ratings": [{"count": 286, "id": 9, "name": "Ingenious"}, {"count": 253, "id": 8, "name": "Informative"}, {"count": 355, "id": 22, "name": "Fascinating"}, {"count": 152, "id": 23, "name": "Jaw-dropping"}, {"count": 184, "id": 10, "name": "Inspiring"}, {"count": 85, "id": 21, "name": "Unconvincing"}, {"count": 72, "id": 25, "name": "OK"}, {"count": 41, "id": 24, "name": "Persuasive"}, {"count": 9, "id": 26, "name": "Obnoxious"}, {"count": 20, "id": 2, "name": "Confusing"}, {"count": 16, "id": 1, "name": "Beautiful"}, {"count": 8, "id": 3, "name": "Courageous"}, {"count": 7, "id": 7, "name": "Funny"}, {"count": 22, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Inventor", "firstname": "Skylar", "title": "", "lastname": "Tibbits", "middleinitial": "", "whylisten": "<p class=\\"MsoNormal\\">Can we create objects that assemble themselves -- that zip together like a strand of DNA or that have the ability for transformation embedded into them? These are the questions that Skylar Tibbits investigates in his Self-Assembly Lab at MIT, a cross-disciplinary research space where designers, scientists and engineers come together to find ways for disordered parts to become ordered structures.&nbsp;</p>  <p class=\\"MsoNormal\\">A trained architect, designer and computer scientist, Tibbits teaches design studios at MIT&rsquo;s Department of Architecture and co-teaches the seminar &ldquo;How to Make (Almost) Anything&rdquo; at MIT&rsquo;s Media Lab. Before that, he worked at a number of design offices including Zaha Hadid Architects, Asymptote Architecture, SKIII Space Variations and Point b Design. His work has been shown at the Guggenheim Museum and the Beijing Biennale.&nbsp;<br /> <br /> Tibbits has collaborated with a number of influential people over the years, including Neil Gershenfeld and The Center for Bits and Atoms, Erik and Marty Demaine at MIT, Adam Bly at SEED Media Group and Marc Fornes of THEVERYMANY. In 2007, he and Marc Fornes co-curated <a href=\\"http://scriptedbypurpose.wordpress.com/\\">Scriptedbypurpose</a>, the first exhibition focused exclusively on scripted processes within design. Also in 2007, he founded&nbsp;<a href=\\"http://www.sjet.us/\\" target=\\"_blank\\">SJET</a>,&nbsp;a multifaceted practice and research platform for experimental computation and design. SJET crosses disciplines from architecture and design, fabrication, computer science and robotics.</p>", "slug": "skylar_tibbits", "whotheyare": "Skylar Tibbits, a TED Fellow, is an artist and computational architect working on \\"smart\\" components that can assemble themselves.", "whatotherssay": "The big idea is to create objects that can change after they are printed, making them self-adapting. The act of printing is no longer the end of the creative process but merely a waypoint.", "id": 1084, "photo_url": "https://pe.tedcdn.com/images/ted/97712823858f32afe67b1a8a26ceb653345a73f2_254x191.jpg"}], "title": "The emergence of \\"4D printing\\"", "take_action": null, "comments": 19162, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/5067e7078880030b41aea9eb2b6fbddbdedc7728_1600x1200.jpg", "description": "3D printing has grown in sophistication since the late 1970s; TED Fellow Skylar Tibbits is shaping the next development, which he calls 4D printing, where the fourth dimension is time. This emerging technology will allow us to print objects that then reshape themselves or self-assemble over time. Think: a printed cube that folds before your eyes, or a printed pipe able to sense the need to expand or contract. ", "tags": ["TED Fellows", "design", "industrial design", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SkylarTibbits_2013U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SkylarTibbits_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SkylarTibbits_2013U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1707, "audioDownload": "https://download.ted.com/talks/SkylarTibbits_2013U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 987342, "hero": "https://pe.tedcdn.com/images/ted/0f673186f35d6772f7995b2263fbfad2113da10b_2880x1620.jpg", "title": "Can we make things that make themselves?", "id": 1215, "speaker": "Skylar Tibbits", "duration": 364, "slug": "skylar_tibbits_can_we_make_things_that_make_themselves"}, {"viewed_count": 1215833, "hero": "https://pe.tedcdn.com/images/ted/17631_480x360.jpg", "title": "Building \\"self-aware\\" robots", "id": 165, "speaker": "Hod Lipson", "duration": 378, "slug": "hod_lipson_builds_self_aware_robots"}, {"viewed_count": 698126, "hero": "https://pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg", "title": "Unleash your creativity in a Fab Lab", "id": 90, "speaker": "Neil Gershenfeld", "duration": 1038, "slug": "neil_gershenfeld_on_fab_labs"}, {"viewed_count": 449537, "hero": "https://pe.tedcdn.com/images/ted/231_480x360.jpg", "title": "Everyday inventions", "id": 48, "speaker": "Saul Griffith", "duration": 869, "slug": "saul_griffith_on_everyday_inventions"}, {"viewed_count": 1618386, "hero": "https://pe.tedcdn.com/images/ted/a4817b9887ab589f58ea7258b3e4cecbafa126c2_2880x1620.jpg", "title": "Design at the intersection of technology and biology", "id": 2344, "speaker": "Neri Oxman", "duration": 1056, "slug": "neri_oxman_design_at_the_intersection_of_technology_and_biology"}, {"viewed_count": 866435, "hero": "https://pe.tedcdn.com/images/ted/6c114e3fddd4ba5d37a8c24deb35a40943219286_1600x1200.jpg", "title": "Building unimaginable shapes", "id": 1519, "speaker": "Michael Hansmeyer", "duration": 667, "slug": "michael_hansmeyer_building_unimaginable_shapes"}], "recorded_at": "2013-02-25T00:00:00.000+00:00", "slug": "skylar_tibbits_the_emergence_of_4d_printing", "speaker_name": "Skylar Tibbits", "viewed_count": 2458356, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2013", "name": "Skylar Tibbits: The emergence of \\"4D printing\\""}'
+p219
+sS'keywords'
+p220
+(lp221
+VTED Fellows
+p222
+aVdesign
+p223
+aVindustrial design
+p224
+aVtechnology
+p225
+asS'datecrawled'
+p226
+g214
+(S'\x07\xe1\n\x17\x024"\x02\xac\xcd'
+tRp227
+sS'id'
+p228
+I1707
+ss.

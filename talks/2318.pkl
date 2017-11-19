@@ -1,0 +1,506 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VOver a million people are killed each year in disasters.
+p5
+aVTwo and a half million people will be permanently disabled or displaced,
+p6
+aVand the communities will take 20 to 30 years to recover
+p7
+aVand billions of economic losses.
+p8
+aa(lp9
+VIf you can reduce the initial response by one day,
+p10
+aVyou can reduce the overall recovery
+p11
+aVby a thousand days, or three years.
+p12
+aVSee how that works?
+p13
+aVIf the initial responders can get in, save lives,
+p14
+aVmitigate whatever flooding danger there is,
+p15
+aVthat means the other groups can get in
+p16
+aVto restore the water, the roads, the electricity,
+p17
+aVwhich means then the construction people, the insurance agents,
+p18
+aVall of them can get in to rebuild the houses,
+p19
+aVwhich then means you can restore the economy,
+p20
+aVand maybe even make it better and more resilient to the next disaster.
+p21
+aVA major insurance company told me
+p22
+aVthat if they can get a homeowner's claim processed one day earlier,
+p23
+aVit'll make a difference of six months
+p24
+aVin that person getting their home repaired.
+p25
+aa(lp26
+VAnd that's why I do disaster robotics \u2014
+p27
+aVbecause robots can make a disaster go away faster.
+p28
+aa(lp29
+VNow, you've already seen a couple of these.
+p30
+aVThese are the UAVs.
+p31
+aVThese are two types of UAVs:
+p32
+aVa rotorcraft, or hummingbird;
+p33
+aVa fixed-wing, a hawk.
+p34
+aVAnd they're used extensively since 2005 \u2014
+p35
+aVHurricane Katrina.
+p36
+aVLet me show you how this hummingbird, this rotorcraft, works.
+p37
+aVFantastic for structural engineers.
+p38
+aVBeing able to see damage from angles you can't get from binoculars on the ground
+p39
+aVor from a satellite image,
+p40
+aVor anything flying at a higher angle.
+p41
+aVBut it's not just structural engineers and insurance people who need this.
+p42
+aVYou've got things like this fixed-wing, this hawk.
+p43
+aVNow, this hawk can be used for geospatial surveys.
+p44
+aVThat's where you're pulling imagery together
+p45
+aVand getting 3D reconstruction.
+p46
+aa(lp47
+VWe used both of these at the Oso mudslides up in Washington State,
+p48
+aVbecause the big problem
+p49
+aVwas geospatial and hydrological understanding of the disaster \u2014
+p50
+aVnot the search and rescue.
+p51
+aVThe search and rescue teams had it under control
+p52
+aVand knew what they were doing.
+p53
+aVThe bigger problem was that river and mudslide might wipe them out
+p54
+aVand flood the responders.
+p55
+aVAnd not only was it challenging to the responders and property damage,
+p56
+aVit's also putting at risk the future of salmon fishing
+p57
+aValong that part of Washington State.
+p58
+aVSo they needed to understand what was going on.
+p59
+aVIn seven hours, going from Arlington,
+p60
+aVdriving from the Incident Command Post to the site, flying the UAVs,
+p61
+aVprocessing the data, driving back to Arlington command post \u2014
+p62
+aVseven hours.
+p63
+aVWe gave them in seven hours data that they could take
+p64
+aVonly two to three days to get any other way \u2014
+p65
+aVand at higher resolution.
+p66
+aVIt's a game changer.
+p67
+aa(lp68
+VAnd don't just think about the UAVs.
+p69
+aVI mean, they are sexy \u2014 but remember,
+p70
+aV80 percent of the world's population lives by water,
+p71
+aVand that means our critical infrastructure is underwater \u2014
+p72
+aVthe parts that we can't get to, like the bridges and things like that.
+p73
+aVAnd that's why we have unmanned marine vehicles,
+p74
+aVone type of which you've already met, which is SARbot, a square dolphin.
+p75
+aVIt goes underwater and uses sonar.
+p76
+aVWell, why are marine vehicles so important
+p77
+aVand why are they very, very important?
+p78
+aVThey get overlooked.
+p79
+aVThink about the Japanese tsunami \u2014
+p80
+aV400 miles of coastland totally devastated,
+p81
+aVtwice the amount of coastland devastated by Hurricane Katrina in the United States.
+p82
+aVYou're talking about your bridges, your pipelines, your ports \u2014 wiped out.
+p83
+aVAnd if you don't have a port,
+p84
+aVyou don't have a way to get in enough relief supplies
+p85
+aVto support a population.
+p86
+aVThat was a huge problem at the Haiti earthquake.
+p87
+aVSo we need marine vehicles.
+p88
+aa(lp89
+VNow, let's look at a viewpoint from the SARbot
+p90
+aVof what they were seeing.
+p91
+aVWe were working on a fishing port.
+p92
+aVWe were able to reopen that fishing port, using her sonar, in four hours.
+p93
+aVThat fishing port was told it was going to be six months
+p94
+aVbefore they could get a manual team of divers in,
+p95
+aVand it was going to take the divers two weeks.
+p96
+aVThey were going to miss the fall fishing season,
+p97
+aVwhich was the major economy for that part, which is kind of like their Cape Cod.
+p98
+aVUMVs, very important.
+p99
+aa(lp100
+VBut you know, all the robots I've shown you have been small,
+p101
+aVand that's because robots don't do things that people do.
+p102
+aVThey go places people can't go.
+p103
+aVAnd a great example of that is Bujold.
+p104
+aVUnmanned ground vehicles are particularly small,
+p105
+aVso Bujold \u2014
+p106
+aa(lp107
+V(Laughter)
+p108
+aa(lp109
+VSay hello to Bujold.
+p110
+aa(lp111
+V(Laughter)
+p112
+aa(lp113
+VBujold was used extensively at the World Trade Center
+p114
+aVto go through Towers 1, 2 and 4.
+p115
+aVYou're climbing into the rubble, rappelling down, going deep in spaces.
+p116
+aVAnd just to see the World Trade Center from Bujold's viewpoint, look at this.
+p117
+aVYou're talking about a disaster where you can't fit a person or a dog \u2014
+p118
+aVand it's on fire.
+p119
+aVThe only hope of getting to a survivor way in the basement,
+p120
+aVyou have to go through things that are on fire.
+p121
+aVIt was so hot, on one of the robots, the tracks began to melt and come off.
+p122
+aVRobots don't replace people or dogs,
+p123
+aVor hummingbirds or hawks or dolphins.
+p124
+aVThey do things new.
+p125
+aVThey assist the responders, the experts, in new and innovative ways.
+p126
+aa(lp127
+VThe biggest problem is not making the robots smaller, though.
+p128
+aVIt's not making them more heat-resistant.
+p129
+aVIt's not making more sensors.
+p130
+aVThe biggest problem is the data, the informatics,
+p131
+aVbecause these people need to get the right data at the right time.
+p132
+aa(lp133
+VSo wouldn't it be great if we could have experts immediately access the robots
+p134
+aVwithout having to waste any time of driving to the site,
+p135
+aVso whoever's there, use their robots over the Internet.
+p136
+aVWell, let's think about that.
+p137
+aVLet's think about a chemical train derailment in a rural county.
+p138
+aVWhat are the odds that the experts, your chemical engineer,
+p139
+aVyour railroad transportation engineers,
+p140
+aVhave been trained on whatever UAV that particular county happens to have?
+p141
+aVProbably, like, none.
+p142
+aVSo we're using these kinds of interfaces
+p143
+aVto allow people to use the robots without knowing what robot they're using,
+p144
+aVor even if they're using a robot or not.
+p145
+aVWhat the robots give you, what they give the experts, is data.
+p146
+aa(lp147
+VThe problem becomes: who gets what data when?
+p148
+aVOne thing to do is to ship all the information to everybody
+p149
+aVand let them sort it out.
+p150
+aVWell, the problem with that is it overwhelms the networks,
+p151
+aVand worse yet, it overwhelms the cognitive abilities
+p152
+aVof each of the people trying to get that one nugget of information
+p153
+aVthey need to make the decision that's going to make the difference.
+p154
+aVSo we need to think about those kinds of challenges.
+p155
+aVSo it's the data.
+p156
+aa(lp157
+VGoing back to the World Trade Center,
+p158
+aVwe tried to solve that problem by just recording the data from Bujold
+p159
+aVonly when she was deep in the rubble,
+p160
+aVbecause that's what the USAR team said they wanted.
+p161
+aVWhat we didn't know at the time
+p162
+aVwas that the civil engineers would have loved,
+p163
+aVneeded the data as we recorded the box beams, the serial numbers,
+p164
+aVthe locations, as we went into the rubble.
+p165
+aVWe lost valuable data.
+p166
+aVSo the challenge is getting all the data
+p167
+aVand getting it to the right people.
+p168
+aa(lp169
+VNow, here's another reason.
+p170
+aVWe've learned that some buildings \u2014
+p171
+aVthings like schools, hospitals, city halls \u2014
+p172
+aVget inspected four times by different agencies
+p173
+aVthroughout the response phases.
+p174
+aVNow, we're looking, if we can get the data from the robots to share,
+p175
+aVnot only can we do things like compress that sequence of phases
+p176
+aVto shorten the response time,
+p177
+aVbut now we can begin to do the response in parallel.
+p178
+aVEverybody can see the data.
+p179
+aVWe can shorten it that way.
+p180
+aa(lp181
+VSo really, "disaster robotics" is a misnomer.
+p182
+aVIt's not about the robots.
+p183
+aVIt's about the data.
+p184
+aa(lp185
+V(Applause)
+p186
+aa(lp187
+VSo my challenge to you:
+p188
+aVthe next time you hear about a disaster,
+p189
+aVlook for the robots.
+p190
+aVThey may be underground, they may be underwater,
+p191
+aVthey may be in the sky,
+p192
+aVbut they should be there.
+p193
+aVLook for the robots,
+p194
+aVbecause robots are coming to the rescue.
+p195
+aa(lp196
+V(Applause)
+p197
+aasS'transcript_micsec'
+p198
+(lp199
+I11000
+aI30000
+aI81000
+aI89000
+aI134000
+aI190000
+aI248000
+aI277000
+aI294000
+aI295000
+aI297000
+aI300000
+aI347000
+aI363000
+aI409000
+aI439000
+aI470000
+aI502000
+aI511000
+aI514000
+aI531000
+asS'talk_meta'
+p200
+(dp201
+S'ratings'
+p202
+(dp203
+S'ingenious'
+p204
+I43
+sS'funny'
+p205
+I13
+sS'inspiring'
+p206
+I31
+sS'ok'
+p207
+I64
+sS'fascinating'
+p208
+I93
+sS'total_count'
+p209
+I534
+sS'persuasive'
+p210
+I36
+sS'longwinded'
+p211
+I7
+sS'unconvincing'
+p212
+I17
+sS'informative'
+p213
+I185
+sS'beautiful'
+p214
+I8
+sS'jaw-dropping'
+p215
+I8
+sS'obnoxious'
+p216
+I14
+sS'courageous'
+p217
+I9
+sS'confusing'
+p218
+I6
+ssS'author'
+p219
+VRobin_Murphy;
+p220
+sS'url'
+p221
+S'https://www.ted.com/talks/robin_murphy_these_robots_come_to_the_rescue_after_a_disaster'
+p222
+sS'vidlen'
+p223
+I539
+sS'totalviews'
+p224
+I990259
+sS'title'
+p225
+VThese robots come to the rescue after a disaster
+p226
+sS'downloadlink'
+p227
+Vhttps://download.ted.com/talks/RobinMurphy_2015W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p228
+sS'datepublished'
+p229
+cdatetime
+datetime
+p230
+(S'\x07\xdf\x08\x1b\x0b\x00\x02\x00\x00\x00'
+tRp231
+sS'datefilmed'
+p232
+g230
+(S'\x07\xdf\x08\x1b\x0b\x00\x02\x00\x00\x00'
+tRp233
+sS'alldata_JSON'
+p234
+S'{"viewed_count": 990259, "speakers": [{"description": "Disaster roboticist", "firstname": "Robin", "title": "", "lastname": "Murphy", "middleinitial": "", "whylisten": "<p> Robin Murphy imagines how robots can do tasks no human could amid scenes of disaster hard to imagine, from the World  Trade Center disaster to Hurricane Katrina to the Fukushima Daiichi  nuclear emergency. In her recent book,&nbsp;<a href=\\"http://geni.us/disasterrobotics\\" target=\\"_blank\\"><em>Disaster Robotics</em></a><em>,</em> she lays out her research into the problem, which pulls together artificial intelligence, robotics and human-robot interaction.</p><p>At  Texas A&amp;M, Murphy is the director of the Center for Robot-Assisted Search and  Rescue and the Center for Emergency Informatics. She also co-founded the IEEE Robotics and Automation Society&rsquo;s Technical Committee on Safety Security and Rescue Robotics and its annual conference. Her field work, combined with technology transfer and research community-building activities, led to her receiving the 2014 ACM Eugene L. Lawler Award for Humanitarian Contributions within Computer Science and Informatics.</p>", "slug": "robin_murphy", "whotheyare": "Robin Murphy researches robots -- ground, aerial and marine -- that can help out during disasters.", "whatotherssay": "", "id": 2540, "photo_url": "https://pe.tedcdn.com/images/ted/22310e07f281ffd0bdf13739a72e70aaa21fdb59_254x191.jpg"}], "current_talk": 2318, "description": "When disaster strikes, who\'s first on the scene? More and more, it\\u2019s a robot. In her lab, Robin Murphy builds robots that fly, tunnel, swim and crawl through disaster scenes, helping firefighters and rescue workers save more lives safely -- and help communities return to normal up to three years faster.", "language": "en", "url": "https://www.ted.com/talks/robin_murphy_these_robots_come_to_the_rescue_after_a_disaster", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63214064}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12540267}, "podcast-high": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63221649}, "180k": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12288740}, "64k": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4446612}, "1500k": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 98181952}, "450k": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30794921}, "podcast-regular": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30910229}, "950k": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63211498}, "audio-podcast": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5691871}, "podcast-light": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4580127}, "320k": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21803394}, "600k": {"uri": "https://download.ted.com/talks/RobinMurphy_2015W-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41297507}}}, "comments": {"count": 31, "id": 26938, "talk_id": 2318}, "slug": "robin_murphy_these_robots_come_to_the_rescue_after_a_disaster", "threadId": 26938, "talks": [{"event": "TEDWomen 2015", "player_talks": [{"event": "TEDWomen 2015", "slug": "robin_murphy_these_robots_come_to_the_rescue_after_a_disaster", "filmed": 1432771200, "targeting": {"event": "TEDWomen 2015", "tag": "disaster relief,engineering,natural disaster,robots,technology", "id": 2318, "talk": "robin_murphy_these_robots_come_to_the_rescue_after_a_disaster", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "These robots come to the rescue after a disaster", "postAdDuration": "0.83", "published": 1440687602, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/366ebe1ea6814d45aae5cda773ab491397094ada_2880x1620.jpg?quality=89&w=600", "name": "Robin Murphy: These robots come to the rescue after a disaster", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["disaster relief", "engineering", "natural disaster", "robots", "technology"], "speaker": "Robin Murphy", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 539, "id": 2318, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RobinMurphy_2015W-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDWomen 2015", "tag": "disaster relief,engineering,natural disaster,robots,technology", "id": 2318, "talk": "robin_murphy_these_robots_come_to_the_rescue_after_a_disaster", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2318.json", "stream": "https://hls.ted.com/talks/2318.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDWomen%2B2015%26id%3D2318%26tag%3Ddisaster%2Brelief%2Cengineering%2Cnatural%2Bdisaster%2Crobots%2Ctechnology%26talk%3Drobin_murphy_these_robots_come_to_the_rescue_after_a_disaster%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/robin_murphy_these_robots_come_to_the_rescue_after_a_disaster"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/366ebe1ea6814d45aae5cda773ab491397094ada_2880x1620.jpg?q=50&w=15", "duration": 539, "id": 2318, "ratings": [{"count": 185, "id": 8, "name": "Informative"}, {"count": 93, "id": 22, "name": "Fascinating"}, {"count": 36, "id": 24, "name": "Persuasive"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 43, "id": 9, "name": "Ingenious"}, {"count": 64, "id": 25, "name": "OK"}, {"count": 31, "id": 10, "name": "Inspiring"}, {"count": 6, "id": 2, "name": "Confusing"}, {"count": 7, "id": 11, "name": "Longwinded"}, {"count": 17, "id": 21, "name": "Unconvincing"}, {"count": 13, "id": 7, "name": "Funny"}, {"count": 8, "id": 1, "name": "Beautiful"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 8, "id": 23, "name": "Jaw-dropping"}], "speakers": [{"description": "Disaster roboticist", "firstname": "Robin", "title": "", "lastname": "Murphy", "middleinitial": "", "whylisten": "<p> Robin Murphy imagines how robots can do tasks no human could amid scenes of disaster hard to imagine, from the World  Trade Center disaster to Hurricane Katrina to the Fukushima Daiichi  nuclear emergency. In her recent book,&nbsp;<a href=\\"http://geni.us/disasterrobotics\\" target=\\"_blank\\"><em>Disaster Robotics</em></a><em>,</em> she lays out her research into the problem, which pulls together artificial intelligence, robotics and human-robot interaction.</p><p>At  Texas A&amp;M, Murphy is the director of the Center for Robot-Assisted Search and  Rescue and the Center for Emergency Informatics. She also co-founded the IEEE Robotics and Automation Society&rsquo;s Technical Committee on Safety Security and Rescue Robotics and its annual conference. Her field work, combined with technology transfer and research community-building activities, led to her receiving the 2014 ACM Eugene L. Lawler Award for Humanitarian Contributions within Computer Science and Informatics.</p>", "slug": "robin_murphy", "whotheyare": "Robin Murphy researches robots -- ground, aerial and marine -- that can help out during disasters.", "whatotherssay": "", "id": 2540, "photo_url": "https://pe.tedcdn.com/images/ted/22310e07f281ffd0bdf13739a72e70aaa21fdb59_254x191.jpg"}], "title": "These robots come to the rescue after a disaster", "take_action": [{"status": "approved", "start_at": "2016-01-21T20:00:00.000-05:00", "link_url": "https://www.gofundme.com/Friends-of-CRASAR", "eyebrow": null, "end_at": "2016-02-05T20:00:00.000-05:00", "verb": "volunteer", "published": true, "visible_url": "gofundme.com", "type": "take_action", "blurb": "**Help fund** the Center for Robot-Assisted Search and Rescue in it\'s upcoming mission to rescue drowning refugees in Greece.  "}], "comments": 26938, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/366ebe1ea6814d45aae5cda773ab491397094ada_2880x1620.jpg", "description": "When disaster strikes, who\'s first on the scene? More and more, it\\u2019s a robot. In her lab, Robin Murphy builds robots that fly, tunnel, swim and crawl through disaster scenes, helping firefighters and rescue workers save more lives safely -- and help communities return to normal up to three years faster.", "tags": ["disaster relief", "engineering", "natural disaster", "robots", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-fr-ca.mp4"}, "th": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-hr.mp4"}, "fa": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-uk.mp4"}, "mr": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/RobinMurphy_2015W-low-mr.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RobinMurphy_2015W-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RobinMurphy_2015W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RobinMurphy_2015W-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2318, "audioDownload": "https://download.ted.com/talks/RobinMurphy_2015W.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 4257289, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}, {"viewed_count": 814720, "hero": "https://pe.tedcdn.com/images/ted/39b48aeef9bbd8d2a9b55e93ee03c027e2a8f891_2880x1620.jpg", "title": "How to step up in the face of disaster", "id": 1545, "speaker": "Caitria + Morgan O\'Neill", "duration": 563, "slug": "caitria_and_morgan_o_neill_how_to_step_up_in_the_face_of_disaster"}, {"viewed_count": 320418, "hero": "https://pe.tedcdn.com/images/ted/e7cc6c4a8cda284a39cdf394da43144016b87ed6_1600x1200.jpg", "title": "When bad engineering makes a natural disaster even worse", "id": 978, "speaker": "Peter Haas", "duration": 510, "slug": "peter_haas_haiti_s_disaster_of_engineering"}, {"viewed_count": 1623428, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}, {"viewed_count": 1368443, "hero": "https://pe.tedcdn.com/images/ted/87f82eddb91d2c806ebb11465d846c47f481902c_2880x1620.jpg", "title": "The future of flying robots", "id": 2346, "speaker": "Vijay Kumar", "duration": 789, "slug": "vijay_kumar_the_future_of_flying_robots"}, {"viewed_count": 604243, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}], "recorded_at": "2015-05-28T00:00:00.000+00:00", "slug": "robin_murphy_these_robots_come_to_the_rescue_after_a_disaster", "speaker_name": "Robin Murphy", "viewed_count": 990259, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDWomen 2015", "name": "Robin Murphy: These robots come to the rescue after a disaster"}'
+p235
+sS'keywords'
+p236
+(lp237
+Vdisaster relief
+p238
+aVengineering
+p239
+aVnatural disaster
+p240
+aVrobots
+p241
+aVtechnology
+p242
+asS'datecrawled'
+p243
+g230
+(S'\x07\xe1\n\x17\x02\n\x11\x01gs'
+tRp244
+sS'id'
+p245
+I2318
+ss.

@@ -1,0 +1,410 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWell we all know the World Wide Web
+p5
+aVhas absolutely transformed publishing, broadcasting,
+p6
+aVcommerce and social connectivity,
+p7
+aVbut where did it all come from?
+p8
+aVAnd I'll quote three people:
+p9
+aVVannevar Bush, Doug Engelbart and Tim Berners-Lee.
+p10
+aVSo let's just run through these guys.
+p11
+aa(lp12
+VThis is Vannevar Bush.
+p13
+aVVannevar Bush was the U.S. government's chief scientific adviser during the war.
+p14
+aVAnd in 1945,
+p15
+aVhe published an article in a magazine called Atlantic Monthly.
+p16
+aVAnd the article was called "As We May Think."
+p17
+aVAnd what Vannevar Bush was saying
+p18
+aVwas the way we use information is broken.
+p19
+aVWe don't work in terms of libraries
+p20
+aVand catalog systems and so forth.
+p21
+aVThe brain works by association.
+p22
+aVWith one item in its thought, it snaps instantly to the next item.
+p23
+aVAnd the way information is structured
+p24
+aVis totally incapable of keeping up with this process.
+p25
+aa(lp26
+VAnd so he suggested a machine,
+p27
+aVand he called it the memex.
+p28
+aVAnd the memex would link information,
+p29
+aVone piece of information to a related piece of information and so forth.
+p30
+aVNow this was in 1945.
+p31
+aVA computer in those days
+p32
+aVwas something the secret services used to use for code breaking.
+p33
+aVAnd nobody knew anything about it.
+p34
+aVSo this was before the computer was invented.
+p35
+aVAnd he proposed this machine called the memex.
+p36
+aVAnd he had a platform where you linked information to other information,
+p37
+aVand then you could call it up at will.
+p38
+aa(lp39
+VSo spinning forward,
+p40
+aVone of the guys who read this article was a guy called Doug Engelbart,
+p41
+aVand he was a U.S. Air Force officer.
+p42
+aVAnd he was reading it in their library in the Far East.
+p43
+aVAnd he was so inspired by this article,
+p44
+aVit kind of directed the rest of his life.
+p45
+aVAnd by the mid-60s, he was able to put this into action
+p46
+aVwhen he worked at the Stanford Research Lab in California.
+p47
+aVHe built a system.
+p48
+aVThe system was designed to augment human intelligence, it was called.
+p49
+aVAnd in a premonition of today's world
+p50
+aVof cloud computing and softwares of service,
+p51
+aVhis system was called NLS
+p52
+aVfor oN-Line System.
+p53
+aa(lp54
+VAnd this is Doug Engelbart.
+p55
+aVHe was giving a presentation at the Fall Joint Computer Conference
+p56
+aVin 1968.
+p57
+aVWhat he showed \u2014
+p58
+aVhe sat on a stage like this, and he demonstrated this system.
+p59
+aVHe had his head mic like I've got.
+p60
+aVAnd he works this system.
+p61
+aVAnd you can see, he's working between documents
+p62
+aVand graphics and so forth.
+p63
+aVAnd he's driving it all
+p64
+aVwith this platform here,
+p65
+aVwith a five-finger keyboard
+p66
+aVand the world's first computer mouse,
+p67
+aVwhich he specially designed in order to do this system.
+p68
+aVSo this is where the mouse came from as well.
+p69
+aa(lp70
+VSo this is Doug Engelbart.
+p71
+aVThe trouble with Doug Engelbart's system
+p72
+aVwas that the computers in those days cost several million pounds.
+p73
+aVSo for a personal computer,
+p74
+aVa few million pounds was like having a personal jet plane;
+p75
+aVit wasn't really very practical.
+p76
+aa(lp77
+VBut spin on to the 80s
+p78
+aVwhen personal computers did arrive,
+p79
+aVthen there was room for this kind of system on personal computers.
+p80
+aVAnd my company, OWL
+p81
+aVbuilt a system called Guide for the Apple Macintosh.
+p82
+aVAnd we delivered the world's first hypertext system.
+p83
+aVAnd this began to get a head of steam.
+p84
+aVApple introduced a thing called HyperCard,
+p85
+aVand they made a bit of a fuss about it.
+p86
+aVThey had a 12-page supplement in the Wall Street Journal the day it launched.
+p87
+aVThe magazines started to cover it.
+p88
+aVByte magazine and Communications at the ACM
+p89
+aVhad special issues covering hypertext.
+p90
+aVWe developed a PC version of this product
+p91
+aVas well as the Macintosh version.
+p92
+aVAnd our PC version became quite mature.
+p93
+aa(lp94
+VThese are some examples of this system in action in the late 80s.
+p95
+aVYou were able to deliver documents, were able to do it over networks.
+p96
+aVWe developed a system such
+p97
+aVthat it had a markup language based on html.
+p98
+aVWe called it hml: hypertext markup language.
+p99
+aVAnd the system was capable of doing
+p100
+aVvery, very large documentation systems over computer networks.
+p101
+aa(lp102
+VSo I took this system to a trade show in Versailles near Paris
+p103
+aVin late November 1990.
+p104
+aVAnd I was approached by a nice young man called Tim Berners-Lee
+p105
+aVwho said, "Are you Ian Ritchie?" and I said, "Yeah."
+p106
+aVAnd he said, "I need to talk to you."
+p107
+aVAnd he told me about his proposed system called the World Wide Web.
+p108
+aVAnd I thought, well, that's got a pretentious name,
+p109
+aVespecially since the whole system ran on his computer in his office.
+p110
+aVBut he was completely convinced that his World Wide Web
+p111
+aVwould take over the world one day.
+p112
+aVAnd he tried to persuade me to write the browser for it,
+p113
+aVbecause his system didn't have any graphics or fonts or layout or anything;
+p114
+aVit was just plain text.
+p115
+aVI thought, well, you know, interesting,
+p116
+aVbut a guy from CERN, he's not going to do this.
+p117
+aVSo we didn't do it.
+p118
+aa(lp119
+VIn the next couple of years,
+p120
+aVthe hypertext community didn't recognize him either.
+p121
+aVIn 1992, his paper was rejected for the Hypertext Conference.
+p122
+aVIn 1993,
+p123
+aVthere was a table at the conference in Seattle,
+p124
+aVand a guy called Marc Andreessen
+p125
+aVwas demonstrating his little browser for the World Wide Web.
+p126
+aVAnd I saw it, and I thought, yep, that's it.
+p127
+aVAnd the very next year, in 1994, we had the conference here in Edinburgh,
+p128
+aVand I had no opposition in having Tim Berners-Lee as the keynote speaker.
+p129
+aa(lp130
+VSo that puts me in pretty illustrious company.
+p131
+aVThere was a guy called Dick Rowe
+p132
+aVwho was at Decca Records and turned down The Beatles.
+p133
+aVThere was a guy called Gary Kildall
+p134
+aVwho went flying his plane
+p135
+aVwhen IBM came looking for an operating system
+p136
+aVfor the IBM PC,
+p137
+aVand he wasn't there, so they went back to see Bill Gates.
+p138
+aVAnd the 12 publishers
+p139
+aVwho turned down J.K. Rowling's Harry Potter, I guess.
+p140
+aa(lp141
+VOn the other hand, there's Marc Andreessen
+p142
+aVwho wrote the world's first browser for the World Wide Web.
+p143
+aVAnd according to Fortune magazine,
+p144
+aVhe's worth 700 million dollars.
+p145
+aVBut is he happy?
+p146
+aa(lp147
+V(Laughter)
+p148
+aa(lp149
+V(Applause)
+p150
+aasS'transcript_micsec'
+p151
+(lp152
+I11000
+aI28000
+aI61000
+aI88000
+aI122000
+aI155000
+aI168000
+aI205000
+aI225000
+aI265000
+aI291000
+aI312000
+aI322000
+aI324000
+asS'talk_meta'
+p153
+(dp154
+S'ratings'
+p155
+(dp156
+S'beautiful'
+p157
+I3
+sS'funny'
+p158
+I159
+sS'inspiring'
+p159
+I36
+sS'ok'
+p160
+I67
+sS'fascinating'
+p161
+I51
+sS'total_count'
+p162
+I567
+sS'persuasive'
+p163
+I2
+sS'longwinded'
+p164
+I8
+sS'informative'
+p165
+I165
+sS'jaw-dropping'
+p166
+I11
+sS'ingenious'
+p167
+I3
+sS'obnoxious'
+p168
+I11
+sS'confusing'
+p169
+I5
+sS'courageous'
+p170
+I20
+sS'unconvincing'
+p171
+I26
+ssS'author'
+p172
+VIan_Ritchie;
+p173
+sS'url'
+p174
+S'https://www.ted.com/talks/ian_ritchie_the_day_i_turned_down_tim_berners_lee'
+p175
+sS'vidlen'
+p176
+I341
+sS'totalviews'
+p177
+I578717
+sS'title'
+p178
+VThe day I turned down Tim Berners-Lee
+p179
+sS'downloadlink'
+p180
+Vhttps://download.ted.com/talks/IanRitchie_2011G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p181
+sS'datepublished'
+p182
+cdatetime
+datetime
+p183
+(S'\x07\xdb\n\x0c\x0b\x11\x0b\x00\x00\x00'
+tRp184
+sS'datefilmed'
+p185
+g183
+(S'\x07\xdb\n\x0c\x0b\x11\x0b\x00\x00\x00'
+tRp186
+sS'alldata_JSON'
+p187
+S'{"viewed_count": 578717, "speakers": [{"description": "Software entrepreneur", "firstname": "Ian", "title": "", "lastname": "Ritchie", "middleinitial": "", "whylisten": "<p>Ian Ritchie is chair of <a href=\\"http://www.iomart.com/\\" target=\\"_blank\\">iomart plc.</a> and several other computer and learning businesses, including Computer Application Services Ltd., the Interactive Design Institute and Caspian Learning Ltd. He is co-chair of the Scottish Science Advisory Council, a board member of the Edinburgh International Science Festival and the chair of Our Dynamic Earth, the Edinburgh Science Centre. </p><p>Ritchie founded and managed Office Workstations Limited (OWL) in Edinburgh in 1984 and its subsidiary OWL International Inc. in Seattle from 1985. OWL became the first and largest supplier of Hypertext/Hypermedia authoring tools (a forerunner to the World Wide Web) for personal computers based on its Guide product. OWL&#39;s customers used its systems to implement large interactive multimedia documentation systems in industry sectors such as automobile, defence, publishing, finance, and education. OWL was sold to Matsushita Electrical Industrial (Panasonic) of Japan in December 1989. He is the author of <em>New Media Publishing: Opportunities from the digital revolution</em> (1996).</p><p>He was awarded a CBE in the 2003 New Years Honours list for services to  enterprise and education; he is a Fellow of the Royal Academy of  Engineering; a Fellow of the Royal Society of Edinburgh; and a Fellow  and a past-President of the British Computer Society (1998-99).&nbsp; </p>", "slug": "ian_ritchie", "whotheyare": "Ian Ritchie ", "whatotherssay": "", "id": 1093, "photo_url": "https://pe.tedcdn.com/images/ted/0b117eb3cf69c7c13a66106f2119746330de45b3_254x191.jpg"}], "current_talk": 1244, "description": "Imagine it\'s late 1990, and you\'ve just met a nice young man named Tim Berners-Lee, who starts telling you about his proposed system called the World Wide Web. Ian Ritchie was there. And ... he didn\'t buy it. A short story about information, connectivity and learning from mistakes.", "language": "en", "url": "https://www.ted.com/talks/ian_ritchie_the_day_i_turned_down_tim_berners_lee", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40763442}, "podcast-low-en": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7975710}, "podcast-high": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38811777}, "180k": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7738973}, "64k": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2831472}, "1500k": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63747246}, "450k": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19776427}, "podcast-regular": {"uri": "https://download.ted.com/talks/IanRitchie_2011G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20512649}, "950k": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40844575}, "audio-podcast": {"uri": "https://download.ted.com/talks/IanRitchie_2011G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3597896}, "podcast-light": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3071664}, "320k": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13933343}, "600k": {"uri": "https://download.ted.com/talks/IanRitchie_2011G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26699161}}}, "comments": {"count": 58, "id": 7507, "talk_id": 1244}, "slug": "ian_ritchie_the_day_i_turned_down_tim_berners_lee", "threadId": 7507, "talks": [{"event": "TEDGlobal 2011", "player_talks": [{"event": "TEDGlobal 2011", "slug": "ian_ritchie_the_day_i_turned_down_tim_berners_lee", "filmed": 1310342400, "targeting": {"event": "TEDGlobal 2011", "tag": "business,history,technology,web", "id": 1244, "talk": "ian_ritchie_the_day_i_turned_down_tim_berners_lee", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "The day I turned down Tim Berners-Lee", "postAdDuration": "0.83", "published": 1318432631, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cf355319b2494d2591e339378c3f837691bb7520_800x600.jpg?quality=89&w=600", "name": "Ian Ritchie: The day I turned down Tim Berners-Lee", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "ur", "endonym": "\\u0627\\u064f\\u0631\\u062f\\u064f\\u0648", "isRtl": true, "ianaCode": "ur", "languageName": "Urdu"}, {"languageCode": "uz", "endonym": "O\'zbek", "isRtl": false, "ianaCode": "uz", "languageName": "Uzbek"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "history", "technology", "web"], "speaker": "Ian Ritchie", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 341, "id": 1244, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/IanRitchie_2011G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2011", "tag": "business,history,technology,web", "id": 1244, "talk": "ian_ritchie_the_day_i_turned_down_tim_berners_lee", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1244.json", "stream": "https://hls.ted.com/talks/1244.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2011%26id%3D1244%26tag%3Dbusiness%2Chistory%2Ctechnology%2Cweb%26talk%3Dian_ritchie_the_day_i_turned_down_tim_berners_lee%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/ian_ritchie_the_day_i_turned_down_tim_berners_lee"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cf355319b2494d2591e339378c3f837691bb7520_800x600.jpg?q=50&w=15", "duration": 341, "id": 1244, "ratings": [{"count": 51, "id": 22, "name": "Fascinating"}, {"count": 36, "id": 10, "name": "Inspiring"}, {"count": 159, "id": 7, "name": "Funny"}, {"count": 165, "id": 8, "name": "Informative"}, {"count": 67, "id": 25, "name": "OK"}, {"count": 8, "id": 11, "name": "Longwinded"}, {"count": 26, "id": 21, "name": "Unconvincing"}, {"count": 11, "id": 26, "name": "Obnoxious"}, {"count": 20, "id": 3, "name": "Courageous"}, {"count": 5, "id": 2, "name": "Confusing"}, {"count": 3, "id": 1, "name": "Beautiful"}, {"count": 11, "id": 23, "name": "Jaw-dropping"}, {"count": 2, "id": 24, "name": "Persuasive"}, {"count": 3, "id": 9, "name": "Ingenious"}], "speakers": [{"description": "Software entrepreneur", "firstname": "Ian", "title": "", "lastname": "Ritchie", "middleinitial": "", "whylisten": "<p>Ian Ritchie is chair of <a href=\\"http://www.iomart.com/\\" target=\\"_blank\\">iomart plc.</a> and several other computer and learning businesses, including Computer Application Services Ltd., the Interactive Design Institute and Caspian Learning Ltd. He is co-chair of the Scottish Science Advisory Council, a board member of the Edinburgh International Science Festival and the chair of Our Dynamic Earth, the Edinburgh Science Centre. </p><p>Ritchie founded and managed Office Workstations Limited (OWL) in Edinburgh in 1984 and its subsidiary OWL International Inc. in Seattle from 1985. OWL became the first and largest supplier of Hypertext/Hypermedia authoring tools (a forerunner to the World Wide Web) for personal computers based on its Guide product. OWL&#39;s customers used its systems to implement large interactive multimedia documentation systems in industry sectors such as automobile, defence, publishing, finance, and education. OWL was sold to Matsushita Electrical Industrial (Panasonic) of Japan in December 1989. He is the author of <em>New Media Publishing: Opportunities from the digital revolution</em> (1996).</p><p>He was awarded a CBE in the 2003 New Years Honours list for services to  enterprise and education; he is a Fellow of the Royal Academy of  Engineering; a Fellow of the Royal Society of Edinburgh; and a Fellow  and a past-President of the British Computer Society (1998-99).&nbsp; </p>", "slug": "ian_ritchie", "whotheyare": "Ian Ritchie ", "whatotherssay": "", "id": 1093, "photo_url": "https://pe.tedcdn.com/images/ted/0b117eb3cf69c7c13a66106f2119746330de45b3_254x191.jpg"}], "title": "The day I turned down Tim Berners-Lee", "take_action": null, "comments": 7507, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/cf355319b2494d2591e339378c3f837691bb7520_800x600.jpg", "description": "Imagine it\'s late 1990, and you\'ve just met a nice young man named Tim Berners-Lee, who starts telling you about his proposed system called the World Wide Web. Ian Ritchie was there. And ... he didn\'t buy it. A short story about information, connectivity and learning from mistakes.", "tags": ["business", "history", "technology", "web"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "ur", "endonym": "\\u0627\\u064f\\u0631\\u062f\\u064f\\u0648", "isRtl": true, "ianaCode": "ur", "languageName": "Urdu"}, {"languageCode": "uz", "endonym": "O\'zbek", "isRtl": false, "ianaCode": "uz", "languageName": "Uzbek"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-ru.mp4", "name": "Russian"}, "nl": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-ro.mp4", "name": "Romanian"}, "pl": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-he.mp4"}, "uz": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-uz.mp4", "name": "Uzbek", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-uz.mp4"}, "sr": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-ko.mp4"}, "ur": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-ur.mp4", "name": "Urdu", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-ur.mp4"}, "sk": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/IanRitchie_2011G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/IanRitchie_2011G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/IanRitchie_2011G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/IanRitchie_2011G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1244, "audioDownload": "https://download.ted.com/talks/IanRitchie_2011G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1360554, "hero": "https://pe.tedcdn.com/images/ted/77260_800x600.jpg", "title": "The next web", "id": 484, "speaker": "Tim Berners-Lee", "duration": 983, "slug": "tim_berners_lee_on_the_next_web"}, {"viewed_count": 1368981, "hero": "https://pe.tedcdn.com/images/ted/84760000a82ad48289066aeca95e7a776e8f39ef_1200x900.jpg", "title": "The next 5,000 days of the web", "id": 319, "speaker": "Kevin Kelly", "duration": 1174, "slug": "kevin_kelly_on_the_next_5_000_days_of_the_web"}, {"viewed_count": 720813, "hero": "https://pe.tedcdn.com/images/ted/117051_800x600.jpg", "title": "The Web as random acts of kindness", "id": 640, "speaker": "Jonathan Zittrain", "duration": 1191, "slug": "jonathan_zittrain_the_web_is_a_random_act_of_kindness"}, {"viewed_count": 1005329, "hero": "https://pe.tedcdn.com/images/ted/092f184f6625c2aeef10949c8d7b2aa14ba4132b_2880x1620.jpg", "title": "Meet the inventor of the electronic spreadsheet", "id": 2664, "speaker": "Dan Bricklin", "duration": 720, "slug": "dan_bricklin_meet_the_inventor_of_the_electronic_spreadsheet"}, {"viewed_count": 243298, "hero": "https://pe.tedcdn.com/images/ted/52bd7d723ba468873a754d813e34988baaf5cab3_2400x1800.jpg", "title": "My journey in design", "id": 427, "speaker": "John Maeda", "duration": 1026, "slug": "john_maeda_on_design"}, {"viewed_count": 2208073, "hero": "https://pe.tedcdn.com/images/ted/4707d8e88ba824e4a9ad05ee2446d93576117d21_2880x1620.jpg", "title": "The wonderful and terrifying implications of computers that can learn", "id": 2155, "speaker": "Jeremy Howard", "duration": 1185, "slug": "jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn"}], "recorded_at": "2011-07-11T00:00:00.000+00:00", "slug": "ian_ritchie_the_day_i_turned_down_tim_berners_lee", "speaker_name": "Ian Ritchie", "viewed_count": 578717, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal 2011", "name": "Ian Ritchie: The day I turned down Tim Berners-Lee"}'
+p188
+sS'keywords'
+p189
+(lp190
+Vbusiness
+p191
+aVhistory
+p192
+aVtechnology
+p193
+aVweb
+p194
+asS'datecrawled'
+p195
+g183
+(S"\x07\xe1\n\x17\x02'\x06\x08i,"
+tRp196
+sS'id'
+p197
+I1244
+ss.

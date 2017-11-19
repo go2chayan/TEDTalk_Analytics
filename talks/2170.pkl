@@ -1,0 +1,386 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMy students and I work on very tiny robots.
+p5
+aVNow, you can think of these as robotic versions
+p6
+aVof something that you're all very familiar with: an ant.
+p7
+aVWe all know that ants and other insects at this size scale
+p8
+aVcan do some pretty incredible things.
+p9
+aVWe've all seen a group of ants, or some version of that,
+p10
+aVcarting off your potato chip at a picnic, for example.
+p11
+aa(lp12
+VBut what are the real challenges of engineering these ants?
+p13
+aVWell, first of all, how do we get the capabilities of an ant
+p14
+aVin a robot at the same size scale?
+p15
+aVWell, first we need to figure out how to make them move
+p16
+aVwhen they're so small.
+p17
+aVWe need mechanisms like legs and efficient motors
+p18
+aVin order to support that locomotion,
+p19
+aVand we need the sensors, power and control
+p20
+aVin order to pull everything together in a semi-intelligent ant robot.
+p21
+aVAnd finally, to make these things really functional,
+p22
+aVwe want a lot of them working together in order to do bigger things.
+p23
+aa(lp24
+VSo I'll start with mobility.
+p25
+aVInsects move around amazingly well.
+p26
+aVThis video is from UC Berkeley.
+p27
+aVIt shows a cockroach moving over incredibly rough terrain
+p28
+aVwithout tipping over,
+p29
+aVand it's able to do this because its legs are a combination of rigid materials,
+p30
+aVwhich is what we traditionally use to make robots,
+p31
+aVand soft materials.
+p32
+aVJumping is another really interesting way to get around when you're very small.
+p33
+aVSo these insects store energy in a spring and release that really quickly
+p34
+aVto get the high power they need to jump out of water, for example.
+p35
+aa(lp36
+VSo one of the big contributions from my lab
+p37
+aVhas been to combine rigid and soft materials
+p38
+aVin very, very small mechanisms.
+p39
+aVSo this jumping mechanism is about four millimeters on a side,
+p40
+aVso really tiny.
+p41
+aVThe hard material here is silicon, and the soft material is silicone rubber.
+p42
+aVAnd the basic idea is that we're going to compress this,
+p43
+aVstore energy in the springs, and then release it to jump.
+p44
+aVSo there's no motors on board this right now, no power.
+p45
+aVThis is actuated with a method that we call in my lab
+p46
+aV"graduate student with tweezers." (Laughter)
+p47
+aVSo what you'll see in the next video
+p48
+aVis this guy doing amazingly well for its jumps.
+p49
+aVSo this is Aaron, the graduate student in question, with the tweezers,
+p50
+aVand what you see is this  four-millimeter-sized mechanism
+p51
+aVjumping almost 40 centimeters high.
+p52
+aVThat's almost 100 times its own length.
+p53
+aVAnd it survives, bounces on the table,
+p54
+aVit's incredibly robust, and of course survives quite well until we lose it
+p55
+aVbecause it's very tiny.
+p56
+aa(lp57
+VUltimately, though, we want to add motors to this too,
+p58
+aVand we have students in the lab working on millimeter-sized motors
+p59
+aVto eventually integrate onto small, autonomous robots.
+p60
+aVBut in order to look at mobility and locomotion at this size scale to start,
+p61
+aVwe're cheating and using magnets.
+p62
+aVSo this shows what would eventually be part of a micro-robot leg,
+p63
+aVand you can see the silicone rubber joints
+p64
+aVand there's an embedded magnet that's being moved around
+p65
+aVby an external magnetic field.
+p66
+aa(lp67
+VSo this leads to the robot that I showed you earlier.
+p68
+aVThe really interesting thing that this robot can help us figure out
+p69
+aVis how insects move at this scale.
+p70
+aVWe have a really good model for how everything
+p71
+aVfrom a cockroach up to an elephant moves.
+p72
+aVWe all move in this  kind of bouncy way when we run.
+p73
+aVBut when I'm really small,  the forces between my feet and the ground
+p74
+aVare going to affect my locomotion a lot more than my mass,
+p75
+aVwhich is what causes that bouncy motion.
+p76
+aVSo this guy doesn't work quite yet,
+p77
+aVbut we do have slightly larger versions that do run around.
+p78
+aVSo this is about a centimeter cubed, a centimeter on a side, so very tiny,
+p79
+aVand we've gotten this to run about 10 body lengths per second,
+p80
+aVso 10 centimeters per second.
+p81
+aVIt's pretty quick for a little, small guy,
+p82
+aVand that's really only limited  by our test setup.
+p83
+aVBut this gives you some idea of how it works right now.
+p84
+aVWe can also make 3D-printed versions  of this that can climb over obstacles,
+p85
+aVa lot like the cockroach that you saw earlier.
+p86
+aa(lp87
+VBut ultimately we want to add everything onboard the robot.
+p88
+aVWe want sensing, power, control, actuation all together,
+p89
+aVand not everything needs to be bio-inspired.
+p90
+aVSo this robot's about the size of a Tic Tac.
+p91
+aVAnd in this case, instead of magnets or muscles to move this around,
+p92
+aVwe use rockets.
+p93
+aVSo this is a micro-fabricated energetic material,
+p94
+aVand we can create tiny pixels of this,
+p95
+aVand we can put one of these pixels on the belly of this robot,
+p96
+aVand this robot, then, is going to jump when it senses an increase in light.
+p97
+aa(lp98
+VSo the next video is one of my favorites.
+p99
+aVSo you have this 300-milligram robot
+p100
+aVjumping about eight centimeters in the air.
+p101
+aVIt's only four by four by seven millimeters in size.
+p102
+aVAnd you'll see a big flash at the beginning
+p103
+aVwhen the energetic is set off,
+p104
+aVand the robot tumbling through the air.
+p105
+aVSo there was that big flash,
+p106
+aVand you can see the robot jumping up through the air.
+p107
+aVSo there's no tethers on this, no wires connecting to this.
+p108
+aVEverything is onboard, and it jumped in response
+p109
+aVto the student just flicking on a desk lamp next to it.
+p110
+aa(lp111
+VSo I think you can imagine all the cool things that we could do
+p112
+aVwith robots that can run and crawl and jump and roll at this size scale.
+p113
+aVImagine the rubble that you get after  a natural disaster like an earthquake.
+p114
+aVImagine these small robots running through that rubble
+p115
+aVto look for survivors.
+p116
+aVOr imagine a lot of small robots running around a bridge
+p117
+aVin order to inspect it and make sure it's safe
+p118
+aVso you don't get collapses like this,
+p119
+aVwhich happened outside of  Minneapolis in 2007.
+p120
+aVOr just imagine what you could do
+p121
+aVif you had robots that could swim through your blood.
+p122
+aVRight? "Fantastic Voyage," Isaac Asimov.
+p123
+aVOr they could operate without having to cut you open in the first place.
+p124
+aVOr we could radically change the way we build things
+p125
+aVif we have our tiny robots work the same way that termites do,
+p126
+aVand they build these incredible eight-meter-high mounds,
+p127
+aVeffectively well ventilated apartment buildings for other termites
+p128
+aVin Africa and Australia.
+p129
+aa(lp130
+VSo I think I've given you some of the possibilities
+p131
+aVof what we can do with these small robots.
+p132
+aVAnd we've made some advances so far, but there's still a long way to go,
+p133
+aVand hopefully some of you can contribute to that destination.
+p134
+aa(lp135
+VThanks very much.
+p136
+aa(lp137
+V(Applause)
+p138
+aasS'transcript_micsec'
+p139
+(lp140
+I11000
+aI33000
+aI64000
+aI97000
+aI152000
+aI177000
+aI230000
+aI263000
+aI294000
+aI348000
+aI360000
+aI362000
+asS'talk_meta'
+p141
+(dp142
+S'ratings'
+p143
+(dp144
+S'ingenious'
+p145
+I168
+sS'beautiful'
+p146
+I21
+sS'inspiring'
+p147
+I154
+sS'ok'
+p148
+I48
+sS'fascinating'
+p149
+I231
+sS'funny'
+p150
+I12
+sS'total_count'
+p151
+I1033
+sS'persuasive'
+p152
+I14
+sS'longwinded'
+p153
+I14
+sS'informative'
+p154
+I276
+sS'jaw-dropping'
+p155
+I57
+sS'obnoxious'
+p156
+I5
+sS'confusing'
+p157
+I3
+sS'courageous'
+p158
+I3
+sS'unconvincing'
+p159
+I27
+ssS'author'
+p160
+VSarah_Bergbreiter;
+p161
+sS'url'
+p162
+S'https://www.ted.com/talks/sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice'
+p163
+sS'vidlen'
+p164
+I366
+sS'totalviews'
+p165
+I1471802
+sS'title'
+p166
+VWhy I make robots the size of a grain of rice
+p167
+sS'downloadlink'
+p168
+Vhttps://download.ted.com/talks/SarahBergbreiter_2014Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p169
+sS'datepublished'
+p170
+cdatetime
+datetime
+p171
+(S'\x07\xdf\x01\x15\x0b1\t\x00\x00\x00'
+tRp172
+sS'datefilmed'
+p173
+g171
+(S'\x07\xdf\x01\x15\x0b1\t\x00\x00\x00'
+tRp174
+sS'alldata_JSON'
+p175
+S'{"viewed_count": 1471802, "speakers": [{"description": "Microroboticist", "firstname": "Sarah", "title": "", "lastname": "Bergbreiter", "middleinitial": "", "whylisten": "<p>Sarah Bergbreiter runs the Maryland Microrobotics Laboratory at the University of Maryland, where she develops innovative technologies that could advance medicine, consumer electronics and other sciences. She joined the university in 2008 as an assistant professor of mechanical engineering. </p><p>Having received her B.S.E degree in electrical engineering from Princeton, she worked on her M.S. and Ph.D. at Berkeley, which is where she focused on microrobotics. She has received multiple awards for her work, including the DARPA Young Faculty Award in 2008 and the Presidential Early Career Award for Scientists in 2013.</p>", "slug": "sarah_bergbreiter", "whotheyare": "Sarah Bergbreiter packs advanced technologies into tiny robots that can overcome obstacles 80 times their height. ", "whatotherssay": "", "id": 2312, "photo_url": "https://pe.tedcdn.com/images/ted/1b35f09b9b4437cd84a835258aeb35025588c514_254x191.jpg"}], "current_talk": 2170, "description": "By studying the movement and bodies of insects such as ants, Sarah Bergbreiter and her team build incredibly robust, super teeny, mechanical versions of creepy crawlies \\u2026 and then they add rockets. See their jaw-dropping developments in micro-robotics, and hear about three ways we might use these little helpers in the future.", "language": "en", "url": "https://www.ted.com/talks/sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44180558}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8603475}, "podcast-high": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44178339}, "180k": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8353176}, "64k": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3035268}, "1500k": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67883127}, "450k": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20995358}, "podcast-regular": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21110584}, "950k": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44186358}, "audio-podcast": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4022129}, "podcast-light": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3168670}, "320k": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14817825}, "600k": {"uri": "https://download.ted.com/talks/SarahBergbreiter_2014Y-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28262822}}}, "comments": {"count": 49, "id": 26789, "talk_id": 2170}, "slug": "sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice", "threadId": 26789, "talks": [{"event": "TEDYouth 2014", "player_talks": [{"event": "TEDYouth 2014", "slug": "sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice", "filmed": 1416009600, "targeting": {"event": "TEDYouth 2014", "tag": "TEDYouth,engineering,robots,technology", "id": 2170, "talk": "sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "Why I make robots the size of a grain of rice", "postAdDuration": "0.83", "published": 1421858949, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9d04978903c66e24b46aa67af8a9ecd448332a48_2880x1620.jpg?quality=89&w=600", "name": "Sarah Bergbreiter: Why I make robots the size of a grain of rice", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDYouth", "engineering", "robots", "technology"], "speaker": "Sarah Bergbreiter", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 366, "id": 2170, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SarahBergbreiter_2014Y-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDYouth 2014", "tag": "TEDYouth,engineering,robots,technology", "id": 2170, "talk": "sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2170.json", "stream": "https://hls.ted.com/talks/2170.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDYouth%2B2014%26id%3D2170%26tag%3DTEDYouth%2Cengineering%2Crobots%2Ctechnology%26talk%3Dsarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/9d04978903c66e24b46aa67af8a9ecd448332a48_2880x1620.jpg?q=50&w=15", "duration": 366, "id": 2170, "ratings": [{"count": 276, "id": 8, "name": "Informative"}, {"count": 154, "id": 10, "name": "Inspiring"}, {"count": 57, "id": 23, "name": "Jaw-dropping"}, {"count": 168, "id": 9, "name": "Ingenious"}, {"count": 231, "id": 22, "name": "Fascinating"}, {"count": 48, "id": 25, "name": "OK"}, {"count": 27, "id": 21, "name": "Unconvincing"}, {"count": 21, "id": 1, "name": "Beautiful"}, {"count": 14, "id": 11, "name": "Longwinded"}, {"count": 12, "id": 7, "name": "Funny"}, {"count": 14, "id": 24, "name": "Persuasive"}, {"count": 3, "id": 2, "name": "Confusing"}, {"count": 5, "id": 26, "name": "Obnoxious"}, {"count": 3, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Microroboticist", "firstname": "Sarah", "title": "", "lastname": "Bergbreiter", "middleinitial": "", "whylisten": "<p>Sarah Bergbreiter runs the Maryland Microrobotics Laboratory at the University of Maryland, where she develops innovative technologies that could advance medicine, consumer electronics and other sciences. She joined the university in 2008 as an assistant professor of mechanical engineering. </p><p>Having received her B.S.E degree in electrical engineering from Princeton, she worked on her M.S. and Ph.D. at Berkeley, which is where she focused on microrobotics. She has received multiple awards for her work, including the DARPA Young Faculty Award in 2008 and the Presidential Early Career Award for Scientists in 2013.</p>", "slug": "sarah_bergbreiter", "whotheyare": "Sarah Bergbreiter packs advanced technologies into tiny robots that can overcome obstacles 80 times their height. ", "whatotherssay": "", "id": 2312, "photo_url": "https://pe.tedcdn.com/images/ted/1b35f09b9b4437cd84a835258aeb35025588c514_254x191.jpg"}], "title": "Why I make robots the size of a grain of rice", "take_action": null, "comments": 26789, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/9d04978903c66e24b46aa67af8a9ecd448332a48_2880x1620.jpg", "description": "By studying the movement and bodies of insects such as ants, Sarah Bergbreiter and her team build incredibly robust, super teeny, mechanical versions of creepy crawlies \\u2026 and then they add rockets. See their jaw-dropping developments in micro-robotics, and hear about three ways we might use these little helpers in the future.", "tags": ["TEDYouth", "engineering", "robots", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-fa.mp4", "name": "Persian"}, "hu": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-uk.mp4"}, "my": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SarahBergbreiter_2014Y-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SarahBergbreiter_2014Y.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SarahBergbreiter_2014Y-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2170, "audioDownload": "https://download.ted.com/talks/SarahBergbreiter_2014Y.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1197544, "hero": "https://pe.tedcdn.com/images/ted/adea691a43c5c4487f6c195fa3dd4f0b6ba2dddd_1600x1200.jpg", "title": "Dance, tiny robots!", "id": 1677, "speaker": "Bruno Maisonnier", "duration": 189, "slug": "bruno_maisonnier_dance_tiny_robots"}, {"viewed_count": 1068084, "hero": "https://pe.tedcdn.com/images/ted/d5d8a98861dcc5ee45ddc721bec6cf00005aafc6_2400x1800.jpg", "title": "The rise of personal robots", "id": 1070, "speaker": "Cynthia Breazeal", "duration": 844, "slug": "cynthia_breazeal_the_rise_of_personal_robots"}, {"viewed_count": 10319639, "hero": "https://pe.tedcdn.com/images/ted/e15213155418fc82875680062821e32eccd30a5f_1600x1200.jpg", "title": "The astounding athletic power of quadcopters", "id": 1764, "speaker": "Raffaello D\'Andrea", "duration": 968, "slug": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters"}, {"viewed_count": 4257313, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}, {"viewed_count": 1932111, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "title": "My seven species of robot -- and how we created them", "id": 820, "speaker": "Dennis Hong", "duration": 955, "slug": "dennis_hong_my_seven_species_of_robot"}, {"viewed_count": 1623567, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}], "recorded_at": "2014-11-15T00:00:00.000+00:00", "slug": "sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice", "speaker_name": "Sarah Bergbreiter", "viewed_count": 1471802, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDYouth 2014", "name": "Sarah Bergbreiter: Why I make robots the size of a grain of rice"}'
+p176
+sS'keywords'
+p177
+(lp178
+VTEDYouth
+p179
+aVengineering
+p180
+aVrobots
+p181
+aVtechnology
+p182
+asS'datecrawled'
+p183
+g171
+(S'\x07\xe1\n\x17\x03\x1f,\tz\xa3'
+tRp184
+sS'id'
+p185
+I2170
+ss.

@@ -1,0 +1,482 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VA computer is an incredibly powerful means
+p5
+aVof creative expression,
+p6
+aVbut for the most part,
+p7
+aVthat expression is confined to the screens
+p8
+aVof our laptops and mobile phones.
+p9
+aVAnd I'd like to tell you a story about
+p10
+aVbringing this power of the computer
+p11
+aVto move things around and interact with us
+p12
+aVoff of the screen and into the physical world
+p13
+aVin which we live.
+p14
+aa(lp15
+VA few years ago, I got a call from
+p16
+aVa luxury fashion store called Barneys New York,
+p17
+aVand the next thing I knew,
+p18
+aVI was designing storefront kinetic sculptures
+p19
+aVfor their window displays.
+p20
+aa(lp21
+VThis one's called "The Chase."
+p22
+aVThere are two pairs of shoes,
+p23
+aVa man's pair and a woman's pair,
+p24
+aVand they play out this slow, tense chase
+p25
+aVaround the window
+p26
+aVin which the man scoots up behind the woman
+p27
+aVand gets in her personal space,
+p28
+aVand then she moves away.
+p29
+aVEach of the shoes has magnets in it,
+p30
+aVand there are magnets underneath the table
+p31
+aVthat move the shoes around.
+p32
+aa(lp33
+VMy friend Andy Cavatorta was building
+p34
+aVa robotic harp for Bjork's Biophilia tour
+p35
+aVand I wound up building the electronics
+p36
+aVand motion control software
+p37
+aVto make the harps move and play music.
+p38
+aVThe harp has four separate pendulums,
+p39
+aVand each pendulum has 11 strings,
+p40
+aVso the harp swings on its axis and also rotates
+p41
+aVin order to play different musical notes,
+p42
+aVand the harps are all networked together
+p43
+aVso that they can play the right notes
+p44
+aVat the right time in the music.
+p45
+aa(lp46
+VI built an interactive chemistry exhibit
+p47
+aVat the Museum of Science and Industry in Chicago,
+p48
+aVand this exhibit lets people use physical objects
+p49
+aVto grab chemical elements off of the periodic table
+p50
+aVand bring them together to cause
+p51
+aVchemical reactions to happen.
+p52
+aVAnd the museum noticed that people
+p53
+aVwere spending a lot of time with this exhibit,
+p54
+aVand a researcher from a science education center
+p55
+aVin Australia decided to study this exhibit
+p56
+aVand try to figure out what was going on.
+p57
+aVAnd she found that the physical objects
+p58
+aVthat people were using were helping people
+p59
+aVunderstand how to use the exhibit,
+p60
+aVand were helping people learn in a social way.
+p61
+aa(lp62
+VAnd when you think about it, this makes a lot of sense,
+p63
+aVthat using specialized physical objects
+p64
+aVwould help people use an interface more easily.
+p65
+aVI mean, our hands and our minds are optimized
+p66
+aVto think about and interact with tangible objects.
+p67
+aVThink about which you find easier to use,
+p68
+aVa physical keyboard or an onscreen keyboard
+p69
+aVlike on a phone?
+p70
+aa(lp71
+VBut the thing that struck me
+p72
+aVabout all of these different projects
+p73
+aVis that they really had to be built from scratch,
+p74
+aVdown to the level of the electronics
+p75
+aVand the printed circuit boards and
+p76
+aVall the mechanisms all the way up to the software.
+p77
+aVI wanted to create something
+p78
+aVwhere we could move objects under computer control
+p79
+aVand create interactions around that idea
+p80
+aVwithout having to go through this process
+p81
+aVof building something from scratch
+p82
+aVevery single time.
+p83
+aa(lp84
+VSo my first attempt at this
+p85
+aVwas at the MIT Media Lab
+p86
+aVwith Professor Hiroshi Ishii,
+p87
+aVand we built this array of
+p88
+aV512 different electromagnets,
+p89
+aVand together they were able to move objects around
+p90
+aVon top of their surface.
+p91
+aVBut the problem with this
+p92
+aVwas that these magnets
+p93
+aVcost over 10,000 dollars.
+p94
+aVAlthough each one was pretty small,
+p95
+aValtogether they weighed so much
+p96
+aVthat the table that they were on
+p97
+aVstarted to sag.
+p98
+aVSo I wanted to build something
+p99
+aVwhere you could have this kind of interaction
+p100
+aVon any tabletop surface.
+p101
+aa(lp102
+VSo to explore this idea,
+p103
+aVI built an army of small robots,
+p104
+aVand each of these robots has what are called omni wheels.
+p105
+aVThey're these special wheels
+p106
+aVthat can move equally easily in all directions,
+p107
+aVand when you couple these robots
+p108
+aVwith a video projector,
+p109
+aVyou have these physical tools
+p110
+aVfor interacting with digital information.
+p111
+aVSo here's an example of what I mean.
+p112
+aVThis is a video editing application
+p113
+aVwhere all of the controls
+p114
+aVfor manipulating the video are physical.
+p115
+aVSo if we want to tweak the color,
+p116
+aVwe just enter the color mode,
+p117
+aVand then we get three different dials
+p118
+aVfor tweaking the color,
+p119
+aVor if we want to adjust the audio,
+p120
+aVthen we get two different dials for that, these physical objects.
+p121
+aVSo here the left and right channel stay in sync,
+p122
+aVbut if we want to, we can override that
+p123
+aVby grabbing both of them at the same time.
+p124
+aVSo the idea is that we get the speed
+p125
+aVand efficiency benefits of using these physical dials
+p126
+aVtogether with the flexibility and versatility
+p127
+aVof a system that's designed in software.
+p128
+aa(lp129
+VAnd this is a mapping application
+p130
+aVfor disaster response.
+p131
+aVSo you have these physical objects
+p132
+aVthat represent police, fire and rescue,
+p133
+aVand a dispatcher can grab them
+p134
+aVand place them on the map
+p135
+aVto tell those units where to go,
+p136
+aVand then the position of the units on the map
+p137
+aVgets synced up with the position
+p138
+aVof those units in the real world.
+p139
+aa(lp140
+VThis is a video chat application.
+p141
+aVIt's amazing how much emotion you can convey
+p142
+aVwith just a few simple movements
+p143
+aVof a physical object.
+p144
+aa(lp145
+VWith this interface, we open up a huge array of possibilities
+p146
+aVin between traditional board games
+p147
+aVand arcade games,
+p148
+aVwhere the physical possibilities of interaction
+p149
+aVmake so many different styles of play possible.
+p150
+aa(lp151
+VBut one of the areas that I'm most excited
+p152
+aVabout using this platform for
+p153
+aVis applying it to problems that are difficult
+p154
+aVfor computers or people to solve alone.
+p155
+aVOne example of those is protein folding.
+p156
+aVSo here we have an interface
+p157
+aVwhere we have physical handles onto a protein,
+p158
+aVand we can grab those handles
+p159
+aVand try to move the protein and try to fold it in different ways.
+p160
+aVAnd if we move it in a way that doesn't really make sense
+p161
+aVwith the underlying molecular simulation,
+p162
+aVwe get this physical feedback where we can
+p163
+aVactually feel these physical handles
+p164
+aVpulling back against us.
+p165
+aVSo feeling what's going on
+p166
+aVinside a molecular simulation
+p167
+aVis a whole different level of interaction.
+p168
+aa(lp169
+VSo we're just beginning to explore
+p170
+aVwhat's possible when we use software
+p171
+aVto control the movement
+p172
+aVof objects in our environment.
+p173
+aVMaybe this is the computer of the future.
+p174
+aVThere's no touchscreen.
+p175
+aVThere's no technology visible at all.
+p176
+aVBut when we want to have a video chat
+p177
+aVor play a game
+p178
+aVor lay out the slides to our next TED Talk,
+p179
+aVthe objects on the table come alive.
+p180
+aa(lp181
+VThank you.
+p182
+aa(lp183
+V(Applause)
+p184
+aasS'transcript_micsec'
+p185
+(lp186
+I11000
+aI32000
+aI42000
+aI62000
+aI90000
+aI125000
+aI146000
+aI170000
+aI200000
+aI258000
+aI279000
+aI287000
+aI299000
+aI338000
+aI362000
+aI364000
+asS'talk_meta'
+p187
+(dp188
+S'ratings'
+p189
+(dp190
+S'ingenious'
+p191
+I387
+sS'funny'
+p192
+I33
+sS'inspiring'
+p193
+I232
+sS'ok'
+p194
+I60
+sS'fascinating'
+p195
+I328
+sS'total_count'
+p196
+I1390
+sS'persuasive'
+p197
+I22
+sS'longwinded'
+p198
+I3
+sS'informative'
+p199
+I141
+sS'beautiful'
+p200
+I45
+sS'jaw-dropping'
+p201
+I87
+sS'obnoxious'
+p202
+I0
+sS'confusing'
+p203
+I19
+sS'courageous'
+p204
+I15
+sS'unconvincing'
+p205
+I18
+ssS'author'
+p206
+VJames_Patten;
+p207
+sS'url'
+p208
+S'https://www.ted.com/talks/james_patten_the_best_computer_interface_maybe_your_hands'
+p209
+sS'vidlen'
+p210
+I372
+sS'totalviews'
+p211
+I1036821
+sS'title'
+p212
+VThe best computer interface? Maybe ... your hands
+p213
+sS'downloadlink'
+p214
+Vhttps://download.ted.com/talks/JamesPatten_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p215
+sS'datepublished'
+p216
+cdatetime
+datetime
+p217
+(S'\x07\xde\x04\x18\x0b\x145\x00\x00\x00'
+tRp218
+sS'datefilmed'
+p219
+g217
+(S'\x07\xde\x04\x18\x0b\x145\x00\x00\x00'
+tRp220
+sS'alldata_JSON'
+p221
+S'{"viewed_count": 1036821, "speakers": [{"description": "Interaction designer", "firstname": "James", "title": "", "lastname": "Patten", "middleinitial": "", "whylisten": "<p>James Patten is an interaction designer, inventor and visual artist working at the intersection of the physical and digital worlds. Patten is a&nbsp;<a href=\\"http://fellows.ted.com/profiles/james-patten\\" target=\\"_blank\\">TED Fellow</a> and the founder and principal of the design firm Patten Studio, where his clients have included&nbsp;<a href=\\"http://blog.ted.com/2012/12/10/ted-fellow-helped-bjork-create-30-foot-harp-for-biophilia-tour/\\" target=\\"_blank\\">Bj&ouml;rk</a>, Barneys New York, General Electric, Steelcase and Autodesk. Patten earned his doctorate at the MIT Media Lab where he studied in the Tangible Media Group under Hiroshi Ishii. His work has been exhibited or performed in venues such as the Museum of Modern Art, the Transmediale festival in Berlin, the Museo Guggenheim Bilbao and the Ars Electronica Center in Linz, Austria. Patten&#39;s work has been recognized in several international design competitions including the International Design Magazine&#39;s Annual Design Review, and the International Design Excellence Awards.&nbsp;<a href=\\"http://blog.ted.com/2013/12/19/a-biologist-an-engineer-a-designer-and-a-musical-robot-builder-walk-into-a-room-not-a-joke-its-their-office/\\" target=\\"_blank\\">Tour his Brooklyn workshop</a>.</p>", "slug": "james_patten", "whotheyare": "James Patten, a TED Fellow, imagines new ways for us to play with computers.", "whatotherssay": "", "id": 1866, "photo_url": "https://pe.tedcdn.com/images/ted/d46e8b47c3a5a8fb6e14040f6c8568b610f8c027_254x191.jpg"}], "current_talk": 1984, "description": "\\"The computer is an incredibly powerful means of creative expression,\\" says designer and TED Fellow James Patten. But right now, we interact with computers, mainly, by typing and tapping. In this nifty talk and demo, Patten imagines a more visceral, physical way to bring your thoughts and ideas to life in the digital world, taking the computer interface off the screen and putting it into your hands.", "language": "en", "url": "https://www.ted.com/talks/james_patten_the_best_computer_interface_maybe_your_hands", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43341435}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8664349}, "podcast-high": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43336089}, "180k": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8563780}, "64k": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3090647}, "1500k": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67596909}, "450k": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21067430}, "podcast-regular": {"uri": "https://download.ted.com/talks/JamesPatten_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21237334}, "950k": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43365520}, "podcast-light": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3190061}, "320k": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15190747}, "600k": {"uri": "https://download.ted.com/talks/JamesPatten_2013U-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28378658}}}, "comments": {"count": 57, "id": 25935, "talk_id": 1984}, "slug": "james_patten_the_best_computer_interface_maybe_your_hands", "threadId": 25935, "talks": [{"event": "TED Fellows Retreat 2013", "player_talks": [{"event": "TED Fellows Retreat 2013", "slug": "james_patten_the_best_computer_interface_maybe_your_hands", "filmed": 1376956800, "targeting": {"event": "TED Fellows Retreat 2013", "tag": "Senses,TED Fellows,computers,design,interface design,programming", "id": 1984, "talk": "james_patten_the_best_computer_interface_maybe_your_hands", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "The best computer interface? Maybe ... your hands", "postAdDuration": "0.83", "published": 1398352853, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7050fccc4b9b3515903a1fe304017edf282fb5f7_1600x1200.jpg?quality=89&w=600", "name": "James Patten: The best computer interface? Maybe ... your hands", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Senses", "TED Fellows", "computers", "design", "interface design", "programming"], "speaker": "James Patten", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 372, "id": 1984, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JamesPatten_2013U-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED Fellows Retreat 2013", "tag": "Senses,TED Fellows,computers,design,interface design,programming", "id": 1984, "talk": "james_patten_the_best_computer_interface_maybe_your_hands", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1984.json", "stream": "https://hls.ted.com/talks/1984.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%2BFellows%2BRetreat%2B2013%26id%3D1984%26tag%3DSenses%2CTED%2BFellows%2Ccomputers%2Cdesign%2Cinterface%2Bdesign%2Cprogramming%26talk%3Djames_patten_the_best_computer_interface_maybe_your_hands%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/james_patten_the_best_computer_interface_maybe_your_hands"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7050fccc4b9b3515903a1fe304017edf282fb5f7_1600x1200.jpg?q=50&w=15", "duration": 372, "id": 1984, "ratings": [{"count": 387, "id": 9, "name": "Ingenious"}, {"count": 328, "id": 22, "name": "Fascinating"}, {"count": 87, "id": 23, "name": "Jaw-dropping"}, {"count": 33, "id": 7, "name": "Funny"}, {"count": 232, "id": 10, "name": "Inspiring"}, {"count": 141, "id": 8, "name": "Informative"}, {"count": 45, "id": 1, "name": "Beautiful"}, {"count": 18, "id": 21, "name": "Unconvincing"}, {"count": 22, "id": 24, "name": "Persuasive"}, {"count": 15, "id": 3, "name": "Courageous"}, {"count": 19, "id": 2, "name": "Confusing"}, {"count": 60, "id": 25, "name": "OK"}, {"count": 3, "id": 11, "name": "Longwinded"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Interaction designer", "firstname": "James", "title": "", "lastname": "Patten", "middleinitial": "", "whylisten": "<p>James Patten is an interaction designer, inventor and visual artist working at the intersection of the physical and digital worlds. Patten is a&nbsp;<a href=\\"http://fellows.ted.com/profiles/james-patten\\" target=\\"_blank\\">TED Fellow</a> and the founder and principal of the design firm Patten Studio, where his clients have included&nbsp;<a href=\\"http://blog.ted.com/2012/12/10/ted-fellow-helped-bjork-create-30-foot-harp-for-biophilia-tour/\\" target=\\"_blank\\">Bj&ouml;rk</a>, Barneys New York, General Electric, Steelcase and Autodesk. Patten earned his doctorate at the MIT Media Lab where he studied in the Tangible Media Group under Hiroshi Ishii. His work has been exhibited or performed in venues such as the Museum of Modern Art, the Transmediale festival in Berlin, the Museo Guggenheim Bilbao and the Ars Electronica Center in Linz, Austria. Patten&#39;s work has been recognized in several international design competitions including the International Design Magazine&#39;s Annual Design Review, and the International Design Excellence Awards.&nbsp;<a href=\\"http://blog.ted.com/2013/12/19/a-biologist-an-engineer-a-designer-and-a-musical-robot-builder-walk-into-a-room-not-a-joke-its-their-office/\\" target=\\"_blank\\">Tour his Brooklyn workshop</a>.</p>", "slug": "james_patten", "whotheyare": "James Patten, a TED Fellow, imagines new ways for us to play with computers.", "whatotherssay": "", "id": 1866, "photo_url": "https://pe.tedcdn.com/images/ted/d46e8b47c3a5a8fb6e14040f6c8568b610f8c027_254x191.jpg"}], "title": "The best computer interface? Maybe ... your hands", "take_action": null, "comments": 25935, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/7050fccc4b9b3515903a1fe304017edf282fb5f7_1600x1200.jpg", "description": "\\"The computer is an incredibly powerful means of creative expression,\\" says designer and TED Fellow James Patten. But right now, we interact with computers, mainly, by typing and tapping. In this nifty talk and demo, Patten imagines a more visceral, physical way to bring your thoughts and ideas to life in the digital world, taking the computer interface off the screen and putting it into your hands.", "tags": ["Senses", "TED Fellows", "computers", "design", "interface design", "programming"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-pt.mp4", "name": "Portuguese"}, "zh-tw": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-he.mp4"}, "sr": {"name": "Serbian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-uk.mp4"}, "my": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/JamesPatten_2013U-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JamesPatten_2013U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JamesPatten_2013U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JamesPatten_2013U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1984, "audioDownload": null}, "related_talks": [{"viewed_count": 977625, "hero": "https://pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg", "title": "5 predictions, from 1984", "id": 230, "speaker": "Nicholas Negroponte", "duration": 1523, "slug": "nicholas_negroponte_in_1984_makes_5_predictions"}, {"viewed_count": 1516362, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}, {"viewed_count": 9774416, "hero": "https://pe.tedcdn.com/images/ted/d98527eb9a28d694fd604228e328a91c0f0e58a8_1600x1200.jpg", "title": "Meet the SixthSense interaction", "id": 481, "speaker": "Pattie Maes + Pranav Mistry", "duration": 522, "slug": "pattie_maes_demos_the_sixth_sense"}, {"viewed_count": 1414089, "hero": "https://pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg", "title": "Shape-shifting tech will change work as we know it", "id": 2410, "speaker": "Sean Follmer", "duration": 562, "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it"}, {"viewed_count": 1779593, "hero": "https://pe.tedcdn.com/images/ted/6bfe8f02c232861849cf6bfe526840bc9de54851_2880x1620.jpg", "title": "Reach into the computer and grab a pixel", "id": 1781, "speaker": "Jinha Lee", "duration": 307, "slug": "jinha_lee_a_tool_that_lets_you_touch_pixels"}, {"viewed_count": 16168069, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}], "recorded_at": "2013-08-20T00:00:00.000+00:00", "slug": "james_patten_the_best_computer_interface_maybe_your_hands", "speaker_name": "James Patten", "viewed_count": 1036821, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED Fellows Retreat 2013", "name": "James Patten: The best computer interface? Maybe ... your hands"}'
+p222
+sS'keywords'
+p223
+(lp224
+VSenses
+p225
+aVTED Fellows
+p226
+aVcomputers
+p227
+aVdesign
+p228
+aVinterface design
+p229
+aVprogramming
+p230
+asS'datecrawled'
+p231
+g217
+(S"\x07\xe1\n\x17\x028'\x01$_"
+tRp232
+sS'id'
+p233
+I1984
+ss.

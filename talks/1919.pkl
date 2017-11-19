@@ -1,0 +1,598 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VFive years ago, I was a Ph.D. student
+p5
+aVliving two lives.
+p6
+aVIn one, I used NASA supercomputers
+p7
+aVto design next-generation spacecraft,
+p8
+aVand in the other I was a data scientist
+p9
+aVlooking for potential smugglers
+p10
+aVof sensitive nuclear technologies.
+p11
+aVAs a data scientist, I did a lot of analyses,
+p12
+aVmostly of facilities,
+p13
+aVindustrial facilities around the world.
+p14
+aVAnd I was always looking for a better canvas
+p15
+aVto tie these all together.
+p16
+aVAnd one day, I was thinking about how
+p17
+aVall data has a location,
+p18
+aVand I realized that the answer
+p19
+aVhad been staring me in the face.
+p20
+aVAlthough I was a satellite engineer,
+p21
+aVI hadn't thought about using satellite imagery
+p22
+aVin my work.
+p23
+aa(lp24
+VNow, like most of us, I'd been online,
+p25
+aVI'd see my house, so I thought,
+p26
+aVI'll hop in there and I'll start looking up
+p27
+aVsome of these facilities.
+p28
+aVAnd what I found really surprised me.
+p29
+aVThe pictures that I was finding
+p30
+aVwere years out of date,
+p31
+aVand because of that,
+p32
+aVit had relatively little relevance
+p33
+aVto the work that I was doing today.
+p34
+aVBut I was intrigued.
+p35
+aVI mean, satellite imagery is pretty amazing stuff.
+p36
+aVThere are millions and millions of sensors
+p37
+aVsurrounding us today,
+p38
+aVbut there's still so much we don't know on a daily basis.
+p39
+aVHow much oil is stored in all of China?
+p40
+aVHow much corn is being produced?
+p41
+aVHow many ships are in all of our world's ports?
+p42
+aVNow, in theory, all of these questions
+p43
+aVcould be answered by imagery,
+p44
+aVbut not if it's old.
+p45
+aVAnd if this data was so valuable,
+p46
+aVthen how come I couldn't get my hands
+p47
+aVon more recent pictures?
+p48
+aa(lp49
+VSo the story begins over 50 years ago
+p50
+aVwith the launch of the first generation
+p51
+aVof U.S. government photo reconnaissance satellites.
+p52
+aVAnd today, there's a handful
+p53
+aVof the great, great grandchildren
+p54
+aVof these early Cold War machines
+p55
+aVwhich are now operated by private companies
+p56
+aVand from which the vast majority of satellite imagery
+p57
+aVthat you and I see on a daily basis comes.
+p58
+aVDuring this period, launching things into space,
+p59
+aVjust the rocket to get the satellite up there,
+p60
+aVhas cost hundreds of millions of dollars each,
+p61
+aVand that's created tremendous pressure
+p62
+aVto launch things infrequently
+p63
+aVand to make sure that when you do,
+p64
+aVyou cram as much functionality in there as possible.
+p65
+aVAll of this has only made satellites
+p66
+aVbigger and bigger and bigger
+p67
+aVand more expensive,
+p68
+aVnow nearly a billion, with a b, dollars per copy.
+p69
+aVBecause they are so expensive,
+p70
+aVthere aren't very many of them.
+p71
+aVBecause there aren't very many of them,
+p72
+aVthe pictures that we see on a daily basis
+p73
+aVtend to be old.
+p74
+aa(lp75
+VI think a lot of people actually understand this anecdotally,
+p76
+aVbut in order to visualize just how sparsely
+p77
+aVour planet is collected,
+p78
+aVsome friends and I put together a dataset
+p79
+aVof the 30 million pictures that have been gathered
+p80
+aVby these satellites between 2000 and 2010.
+p81
+aVAs you can see in blue, huge areas of our world
+p82
+aVare barely seen, less than once a year,
+p83
+aVand even the areas that are seen most frequently,
+p84
+aVthose in red, are seen at best once a quarter.
+p85
+aVNow as aerospace engineering grad students,
+p86
+aVthis chart cried out to us as a challenge.
+p87
+aVWhy do these things have to be so expensive?
+p88
+aVDoes a single satellite really have to cost
+p89
+aVthe equivalent of three 747 jumbo jets?
+p90
+aVWasn't there a way to build a smaller,
+p91
+aVsimpler, new satellite design that could enable
+p92
+aVmore timely imaging?
+p93
+aa(lp94
+VI realize that it does sound a little bit crazy
+p95
+aVthat we were going to go out and just
+p96
+aVbegin designing satellites,
+p97
+aVbut fortunately we had help.
+p98
+aVIn the late 1990s, a couple of professors
+p99
+aVproposed a concept for radically reducing the price
+p100
+aVof putting things in space.
+p101
+aVThis was hitchhiking small satellites
+p102
+aValongside much larger satellites.
+p103
+aVThis dropped the cost of putting objects up there
+p104
+aVby over a factor of 100,
+p105
+aVand suddenly we could afford to experiment,
+p106
+aVto take a little bit of risk,
+p107
+aVand to realize a lot of innovation.
+p108
+aVAnd a new generation of engineers and scientists,
+p109
+aVmostly out of universities,
+p110
+aVbegan launching these very small,
+p111
+aVbreadbox-sized satellites called CubeSats.
+p112
+aVAnd these were built with electronics obtained
+p113
+aVfrom RadioShack instead of Lockheed Martin.
+p114
+aa(lp115
+VNow it was using the lessons learned from these early missions
+p116
+aVthat my friends and I began a series of sketches
+p117
+aVof our own satellite design.
+p118
+aVAnd I can't remember a specific day
+p119
+aVwhere we made a conscious decision
+p120
+aVthat we were actually going to go out and build these things,
+p121
+aVbut once we got that idea in our minds
+p122
+aVof the world as a dataset,
+p123
+aVof being able to capture millions of data points
+p124
+aVon a daily basis describing the global economy,
+p125
+aVof being able to unearth billions of connections
+p126
+aVbetween them that had never before been found,
+p127
+aVit just seemed boring
+p128
+aVto go work on anything else.
+p129
+aa(lp130
+VAnd so we moved into a cramped,
+p131
+aVwindowless office in Palo Alto,
+p132
+aVand began working to take our design
+p133
+aVfrom the drawing board into the lab.
+p134
+aVThe first major question we had to tackle
+p135
+aVwas just how big to build this thing.
+p136
+aVIn space, size drives cost,
+p137
+aVand we had worked with these very small,
+p138
+aVbreadbox-sized satellites in school,
+p139
+aVbut as we began to better understand the laws of physics,
+p140
+aVwe found that the quality of pictures
+p141
+aVthose satellites could take was very limited,
+p142
+aVbecause the laws of physics dictate
+p143
+aVthat the best picture you can take through a telescope
+p144
+aVis a function of the diameter of that telescope,
+p145
+aVand these satellites had a very small,
+p146
+aVvery constrained volume.
+p147
+aVAnd we found that the best picture we would
+p148
+aVhave been able to get looked something like this.
+p149
+aVAlthough this was the low-cost option,
+p150
+aVquite frankly it was just too blurry
+p151
+aVto see the things that make satellite imagery valuable.
+p152
+aVSo about three or four weeks later,
+p153
+aVwe met a group of engineers randomly
+p154
+aVwho had worked on the first
+p155
+aVprivate imaging satellite ever developed,
+p156
+aVand they told us that back in the 1970s,
+p157
+aVthe U.S. government had found a powerful
+p158
+aVoptimal tradeoff \u2014
+p159
+aVthat in taking pictures at right about one meter resolution,
+p160
+aVbeing able to see objects one meter in size,
+p161
+aVthey had found that they could not just get very high-quality images,
+p162
+aVbut get a lot of them at an affordable price.
+p163
+aVFrom our own computer simulations,
+p164
+aVwe quickly found that one meter really was
+p165
+aVthe minimum viable product
+p166
+aVto be able to see the drivers of our global economy,
+p167
+aVfor the first time, being able to count
+p168
+aVthe ships and cars and shipping containers and trucks
+p169
+aVthat move around our world on a daily basis,
+p170
+aVwhile conveniently still not being able to see individuals.
+p171
+aVWe had found our compromise.
+p172
+aVWe would have to build something larger
+p173
+aVthan the original breadbox,
+p174
+aVnow more like a mini-fridge,
+p175
+aVbut we still wouldn't have to build a pickup truck.
+p176
+aVSo now we had our constraint.
+p177
+aVThe laws of physics dictated
+p178
+aVthe absolute minimum-sized telescope that we could build.
+p179
+aa(lp180
+VWhat came next was making the rest of the satellite
+p181
+aVas small and as simple as possible,
+p182
+aVbasically a flying telescope with four walls
+p183
+aVand a set of electronics smaller than a phone book
+p184
+aVthat used less power than a 100 watt lightbulb.
+p185
+aVThe big challenge became actually taking
+p186
+aVthe pictures through that telescope.
+p187
+aVTraditional imaging satellites use a line scanner,
+p188
+aVsimilar to a Xerox machine,
+p189
+aVand as they traverse the Earth, they take pictures,
+p190
+aVscanning row by row by row
+p191
+aVto build the complete image.
+p192
+aVNow people use these because they get a lot of light,
+p193
+aVwhich means less of the noise you see
+p194
+aVin a low-cost cell phone image.
+p195
+aVThe problem with them is they require
+p196
+aVvery sophisticated pointing.
+p197
+aVYou have to stay focused on a 50-centimeter target
+p198
+aVfrom over 600 miles away
+p199
+aVwhile moving at more than seven kilometers a second,
+p200
+aVwhich requires an awesome degree of complexity.
+p201
+aVSo instead, we turned to a new generation of video sensors,
+p202
+aVoriginally created for use in night vision goggles.
+p203
+aVInstead of taking a single, high quality image,
+p204
+aVwe could take a videostream
+p205
+aVof individually noisier frames,
+p206
+aVbut then we could recombine
+p207
+aVall of those frames together
+p208
+aVinto very high-quality images
+p209
+aVusing sophisticated pixel processing techniques
+p210
+aVhere on the ground,
+p211
+aVat a cost of one one hundredth a traditional system.
+p212
+aVAnd we applied this technique
+p213
+aVto many of the other systems on the satellite as well,
+p214
+aVand day by day, our design evolved
+p215
+aVfrom CAD to prototypes
+p216
+aVto production units.
+p217
+aa(lp218
+VA few short weeks ago,
+p219
+aVwe packed up SkySat 1,
+p220
+aVput our signatures on it,
+p221
+aVand waved goodbye for the last time on Earth.
+p222
+aVToday, it's sitting in its final launch configuration
+p223
+aVready to blast off in a few short weeks.
+p224
+aVAnd soon, we'll turn our attention to launching
+p225
+aVa constellation of 24 or more of these satellites
+p226
+aVand beginning to build the scalable analytics
+p227
+aVthat will allow us to unearth the insights
+p228
+aVin the petabytes of data we will collect.
+p229
+aa(lp230
+VSo why do all of this? Why build these satellites?
+p231
+aVWell, it turns out imaging satellites
+p232
+aVhave a unique ability to provide global transparency,
+p233
+aVand providing that transparency on a timely basis
+p234
+aVis simply an idea whose time has come.
+p235
+aVWe see ourselves as pioneers of a new frontier,
+p236
+aVand beyond economic data,
+p237
+aVunlocking the human story, moment by moment.
+p238
+aVFor a data scientist
+p239
+aVthat just happened to go to space camp as a kid,
+p240
+aVit just doesn't get much better than that.
+p241
+aa(lp242
+VThank you.
+p243
+aa(lp244
+V(Applause)
+p245
+aasS'transcript_micsec'
+p246
+(lp247
+I11000
+aI55000
+aI109000
+aI169000
+aI221000
+aI271000
+aI305000
+aI422000
+aI512000
+aI539000
+aI571000
+aI574000
+asS'talk_meta'
+p248
+(dp249
+S'ratings'
+p250
+(dp251
+S'ingenious'
+p252
+I93
+sS'funny'
+p253
+I14
+sS'inspiring'
+p254
+I52
+sS'ok'
+p255
+I29
+sS'fascinating'
+p256
+I84
+sS'total_count'
+p257
+I476
+sS'persuasive'
+p258
+I9
+sS'longwinded'
+p259
+I9
+sS'informative'
+p260
+I136
+sS'beautiful'
+p261
+I11
+sS'jaw-dropping'
+p262
+I16
+sS'obnoxious'
+p263
+I4
+sS'confusing'
+p264
+I1
+sS'courageous'
+p265
+I8
+sS'unconvincing'
+p266
+I10
+ssS'author'
+p267
+VDan_Berkenstock;
+p268
+sS'url'
+p269
+S'https://www.ted.com/talks/dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it'
+p270
+sS'vidlen'
+p271
+I584
+sS'totalviews'
+p272
+I837647
+sS'title'
+p273
+VThe world is one big dataset. Now, how to photograph it ...
+p274
+sS'downloadlink'
+p275
+Vhttps://download.ted.com/talks/DanBerkenstock_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p276
+sS'datepublished'
+p277
+cdatetime
+datetime
+p278
+(S'\x07\xde\x02\x04\x0b\x00-\x00\x00\x00'
+tRp279
+sS'datefilmed'
+p280
+g278
+(S'\x07\xde\x02\x04\x0b\x00-\x00\x00\x00'
+tRp281
+sS'alldata_JSON'
+p282
+S'{"viewed_count": 837647, "speakers": [{"description": "Satellite designer", "firstname": "Dan", "title": "", "lastname": "Berkenstock", "middleinitial": "", "whylisten": "<p>Dan Berkenstock is an entrepreneur and engineer from Chicago, who fell into a classic tale of Silicon Valley innovation while taking a graduate entrepreneurship course at Stanford. That class led him and some others to found Skybox Imaging, of which Berkenstock is now executive vice president and chief product officer.</p><p>Skybox&#39;s mission is simple, if bold: they&#39;re working to design and launch small satellites that &quot;hitchhike&quot; to space in an effort to revolutionize the satellite imaging business. In 2013, SkySat-1, the first such satellite, was launched and is now beaming back images that are high-enough resolution to show the real-time state of global commerce. The idea: to &quot;revolutionize the ways that consumers, businesses, and governments make  decisions in their day-to-day lives.&quot;</p>  <p>In a previous life, Berkenstock worked in the Advanced Supercomputing Division at NASA&#39;s Ames Research Center, and also worked as a  counterproliferation analyst at Lawrence Livermore National Laboratory,  where he focused on trying to find and thwart potential potential smugglers of nuclear technologies. He is currently on leave from the Ph.D. program in aeronautics and astronautics at Stanford University.</p>", "slug": "dan_berkenstock", "whotheyare": "Dan Berkenstock and his team at Skybox Imaging are rethinking how to take photographs from space.", "whatotherssay": "The secret to the low cost of Skybox\'s satellites is their size: each one is about as big as a large trash can, rather than a minivan. With smaller, more modern components than those typical in the conservative aerospace industry, they\'re cheaper to build, and less expensive rockets can be used to launch them. Skybox is hoping to recoup the cost of the constellation by expanding the market for fresh satellite imagery beyond the government and the military. Berkenstock is working on tools for storing and classifying pe\\u00adtabytes of data -- tools that financial analysts, for example, could use to get daily counts of the cars in the parking lots at thousands of retail location.", "id": 1795, "photo_url": "https://pe.tedcdn.com/images/ted/f73fbc5ac3246933c71979e4ce86a8428ca2aa07_254x191.jpg"}], "current_talk": 1919, "description": "We\'re all familiar with satellite imagery, but what we might not know is that much of it is out of date. That\'s because satellites are big and expensive, so there aren\'t that many of them up in space. As he explains in this fascinating talk, Dan Berkenstock and his team came up with a different solution, designing a cheap, lightweight satellite with a radically new approach to photographing what\'s going on on Earth.", "language": "en", "url": "https://www.ted.com/talks/dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68298806}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13537953}, "podcast-high": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68283927}, "180k": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13437880}, "64k": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4840818}, "1500k": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 107069149}, "450k": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33153400}, "podcast-regular": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33323302}, "950k": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68313360}, "audio-podcast": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6125246}, "podcast-light": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4940230}, "320k": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23802970}, "600k": {"uri": "https://download.ted.com/talks/DanBerkenstock_2013S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44474323}}}, "comments": {"count": 36, "id": 24775, "talk_id": 1919}, "slug": "dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it", "threadId": 24775, "talks": [{"event": "TED@BCG San Francisco", "player_talks": [{"event": "TED@BCG San Francisco", "slug": "dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it", "filmed": 1383091200, "targeting": {"event": "TED@BCG San Francisco", "tag": "map,space,technology", "id": 1919, "talk": "dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "The world is one big dataset. Now, how to photograph it ...", "postAdDuration": "0.83", "published": 1391529645, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/df79640770a6974c2178e1708747a144c43ca7d1_1600x1200.jpg?quality=89&w=600", "name": "Dan Berkenstock: The world is one big dataset. Now, how to photograph it ...", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["map", "space", "technology"], "speaker": "Dan Berkenstock", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 584, "id": 1919, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DanBerkenstock_2013S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED@BCG San Francisco", "tag": "map,space,technology", "id": 1919, "talk": "dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1919.json", "stream": "https://hls.ted.com/talks/1919.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%40BCG%2BSan%2BFrancisco%26id%3D1919%26tag%3Dmap%2Cspace%2Ctechnology%26talk%3Ddan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/df79640770a6974c2178e1708747a144c43ca7d1_1600x1200.jpg?q=50&w=15", "duration": 584, "id": 1919, "ratings": [{"count": 136, "id": 8, "name": "Informative"}, {"count": 29, "id": 25, "name": "OK"}, {"count": 93, "id": 9, "name": "Ingenious"}, {"count": 8, "id": 3, "name": "Courageous"}, {"count": 16, "id": 23, "name": "Jaw-dropping"}, {"count": 84, "id": 22, "name": "Fascinating"}, {"count": 52, "id": 10, "name": "Inspiring"}, {"count": 9, "id": 24, "name": "Persuasive"}, {"count": 14, "id": 7, "name": "Funny"}, {"count": 4, "id": 26, "name": "Obnoxious"}, {"count": 9, "id": 11, "name": "Longwinded"}, {"count": 10, "id": 21, "name": "Unconvincing"}, {"count": 11, "id": 1, "name": "Beautiful"}, {"count": 1, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Satellite designer", "firstname": "Dan", "title": "", "lastname": "Berkenstock", "middleinitial": "", "whylisten": "<p>Dan Berkenstock is an entrepreneur and engineer from Chicago, who fell into a classic tale of Silicon Valley innovation while taking a graduate entrepreneurship course at Stanford. That class led him and some others to found Skybox Imaging, of which Berkenstock is now executive vice president and chief product officer.</p><p>Skybox&#39;s mission is simple, if bold: they&#39;re working to design and launch small satellites that &quot;hitchhike&quot; to space in an effort to revolutionize the satellite imaging business. In 2013, SkySat-1, the first such satellite, was launched and is now beaming back images that are high-enough resolution to show the real-time state of global commerce. The idea: to &quot;revolutionize the ways that consumers, businesses, and governments make  decisions in their day-to-day lives.&quot;</p>  <p>In a previous life, Berkenstock worked in the Advanced Supercomputing Division at NASA&#39;s Ames Research Center, and also worked as a  counterproliferation analyst at Lawrence Livermore National Laboratory,  where he focused on trying to find and thwart potential potential smugglers of nuclear technologies. He is currently on leave from the Ph.D. program in aeronautics and astronautics at Stanford University.</p>", "slug": "dan_berkenstock", "whotheyare": "Dan Berkenstock and his team at Skybox Imaging are rethinking how to take photographs from space.", "whatotherssay": "The secret to the low cost of Skybox\'s satellites is their size: each one is about as big as a large trash can, rather than a minivan. With smaller, more modern components than those typical in the conservative aerospace industry, they\'re cheaper to build, and less expensive rockets can be used to launch them. Skybox is hoping to recoup the cost of the constellation by expanding the market for fresh satellite imagery beyond the government and the military. Berkenstock is working on tools for storing and classifying pe\\u00adtabytes of data -- tools that financial analysts, for example, could use to get daily counts of the cars in the parking lots at thousands of retail location.", "id": 1795, "photo_url": "https://pe.tedcdn.com/images/ted/f73fbc5ac3246933c71979e4ce86a8428ca2aa07_254x191.jpg"}], "title": "The world is one big dataset. Now, how to photograph it ...", "take_action": [], "comments": 24775, "more_resources": [{"status": "approved", "start_at": null, "headline": "There\'s more to the small Skybox satellite than meets the eye. Much, much more", "link_url": "http://ideas.ted.com/theres-more-to-the-small-skybox-satellite-than-meets-the-eye-much-much-more/", "eyebrow": null, "end_at": null, "image_url": "https://tedideas.files.wordpress.com/2014/02/skysat1turkey.png", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Read more about Skybox imaging technology."}], "hero": "https://pe.tedcdn.com/images/ted/df79640770a6974c2178e1708747a144c43ca7d1_1600x1200.jpg", "description": "We\'re all familiar with satellite imagery, but what we might not know is that much of it is out of date. That\'s because satellites are big and expensive, so there aren\'t that many of them up in space. As he explains in this fascinating talk, Dan Berkenstock and his team came up with a different solution, designing a cheap, lightweight satellite with a radically new approach to photographing what\'s going on on Earth.", "tags": ["map", "space", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DanBerkenstock_2013S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DanBerkenstock_2013S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DanBerkenstock_2013S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1919, "audioDownload": "https://download.ted.com/talks/DanBerkenstock_2013S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 623952, "hero": "https://pe.tedcdn.com/images/ted/158868_800x600.jpg", "title": "Why we need to go back to Mars", "id": 804, "speaker": "Joel Levine", "duration": 974, "slug": "joel_levine"}, {"viewed_count": 855076, "hero": "https://pe.tedcdn.com/images/ted/95995_800x600.jpg", "title": "Life in Biosphere 2", "id": 573, "speaker": "Jane Poynter", "duration": 953, "slug": "jane_poynter_life_in_biosphere_2"}, {"viewed_count": 1721910, "hero": "https://pe.tedcdn.com/images/ted/149547_800x600.jpg", "title": "Augmented-reality maps", "id": 766, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 465, "slug": "blaise_aguera"}, {"viewed_count": 1706225, "hero": "https://pe.tedcdn.com/images/ted/67d7f2aea88544ae4a18367cf997ea4f487b54ac_2880x1620.jpg", "title": "Tiny satellites show us the Earth as it changes in near-real-time", "id": 1982, "speaker": "Will Marshall", "duration": 481, "slug": "will_marshall_teeny_tiny_satellites_that_photograph_the_entire_planet_every_day"}, {"viewed_count": 970233, "hero": "https://pe.tedcdn.com/images/ted/76451cbf9527b6415dfba664e2bcda44915aea1b_2880x1620.jpg", "title": "Let\'s clean up the space junk orbiting Earth", "id": 2639, "speaker": "Natalie Panek", "duration": 615, "slug": "natalie_panek_let_s_clean_up_the_space_junk_orbiting_earth"}, {"viewed_count": 3979049, "hero": "https://pe.tedcdn.com/images/ted/200758_800x600.jpg", "title": "Where good ideas come from", "id": 961, "speaker": "Steven Johnson", "duration": 1065, "slug": "steven_johnson_where_good_ideas_come_from"}], "recorded_at": "2013-10-30T00:00:00.000+00:00", "slug": "dan_berkenstock_the_world_is_one_big_dataset_now_how_to_photograph_it", "speaker_name": "Dan Berkenstock", "viewed_count": 837647, "event_badge": null, "event_blurb": "This talk was presented at a TED Institute event given in partnership with BCG. TED editors featured it among our selections on the home page. <a href=\\"/about/programs-initiatives/ted-institute\\">Read more about the TED Institute</a>.", "recommendations": null, "corrections": []}], "event": "TED@BCG San Francisco", "name": "Dan Berkenstock: The world is one big dataset. Now, how to photograph it ..."}'
+p283
+sS'keywords'
+p284
+(lp285
+Vmap
+p286
+aVspace
+p287
+aVtechnology
+p288
+asS'datecrawled'
+p289
+g278
+(S'\x07\xe1\n\x17\x00(\x14\n\x95@'
+tRp290
+sS'id'
+p291
+I1919
+ss.

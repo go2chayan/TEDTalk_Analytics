@@ -1,0 +1,1084 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VCharles Van Doren, who was later a senior editor of Britannica,
+p5
+aVsaid the ideal encyclopedia should be radical \u2014
+p6
+aVit should stop being safe.
+p7
+aVBut if you know anything about the history of Britannica since 1962,
+p8
+aVit was anything but radical:
+p9
+aVstill a very completely safe, stodgy type of encyclopedia.
+p10
+aVWikipedia, on the other hand, begins with a very radical idea,
+p11
+aVand that's for all of us to imagine a world
+p12
+aVin which every single person on the planet
+p13
+aVis given free access to the sum of all human knowledge.
+p14
+aa(lp15
+VAnd that's what we're doing.
+p16
+aVSo Wikipedia \u2014
+p17
+aVyou just saw the little demonstration of it \u2014
+p18
+aVit's a freely licensed encyclopedia.
+p19
+aVIt's written by thousands of volunteers
+p20
+aVall over the world in many, many languages.
+p21
+aVIt's written using wiki software \u2014
+p22
+aVwhich is the type of software he just demonstrated \u2014
+p23
+aVso anyone can quickly edit and save,
+p24
+aVand it goes live on the Internet immediately.
+p25
+aVAnd everything about Wikipedia is managed by virtually an all-volunteer staff.
+p26
+aVSo when Yochai is talking about new methods of organization,
+p27
+aVhe's exactly describing Wikipedia.
+p28
+aVAnd what I'm going to do today
+p29
+aVis tell you a little bit more about how it really works on the inside.
+p30
+aa(lp31
+VSo Wikipedia's owned by the Wikimedia Foundation,
+p32
+aVwhich I founded,
+p33
+aVa nonprofit organization.
+p34
+aVAnd our goal, the core aim of the Wikimedia Foundation,
+p35
+aVis to get a free encyclopedia to every single person on the planet.
+p36
+aVAnd so, if you think about what that means,
+p37
+aVit means a lot more than just building a cool website.
+p38
+aVWe're really interested in all the issues of the digital divide,
+p39
+aVpoverty worldwide,
+p40
+aVempowering people everywhere to have the information that they need
+p41
+aVto make good decisions.
+p42
+aVAnd so we're going to have to do a lot of work
+p43
+aVthat goes beyond just the Internet.
+p44
+aVAnd so that's a big part of why we've chosen the free licensing model,
+p45
+aVbecause that empowers local entrepreneurs or anyone who wants to \u2014
+p46
+aVthey can take our content and do anything they like with it \u2014
+p47
+aVyou can copy it, redistribute it \u2014
+p48
+aVand you can do it commercially or non-commercially.
+p49
+aa(lp50
+VSo there's a lot of opportunities that are going to arise around Wikipedia
+p51
+aVall over the world.
+p52
+aVWe're funded by donations from the public,
+p53
+aVand one of the more interesting things about that
+p54
+aVis how little money it actually takes to run Wikipedia.
+p55
+aVSo Yochai showed you the graph of what the cost of a printing press was.
+p56
+aVAnd I'm going to tell you what the cost of Wikipedia is.
+p57
+aVBut first, I'll show you how big it is.
+p58
+aVSo we've got over 600,000 articles in English.
+p59
+aVWe've got two million total articles across many, many different languages.
+p60
+aVThe biggest languages are German, Japanese, French \u2014
+p61
+aVall the Western-European languages are quite big.
+p62
+aVBut only around one-third of all of our traffic to our web
+p63
+aVclusters to the English Wikipedia,
+p64
+aVwhich is surprising to a lot of people.
+p65
+aVA lot of people think in a very English-centric way on the Internet,
+p66
+aVbut for us, we're truly global.
+p67
+aVWe're in many, many languages.
+p68
+aVHow popular we've gotten to be \u2014 we're a top-50 website
+p69
+aVand we're more popular than the New York Times.
+p70
+aVSo this is where we get to Yochai's discussion.
+p71
+aa(lp72
+VThis shows the growth of Wikipedia \u2014 we're the blue line there \u2014
+p73
+aVand this is the New York Times over there.
+p74
+aVAnd what's interesting about this
+p75
+aVis the New York Times website is a huge, enormous corporate operation
+p76
+aVwith I have no idea how many hundreds of employees.
+p77
+aVWe have exactly one employee,
+p78
+aVand that employee is our lead software developer.
+p79
+aVAnd he's only been our employee since January 2005,
+p80
+aVall the other growth before that ...
+p81
+aVSo the servers are managed by a ragtag band of volunteers.
+p82
+aVAll the editing is done by volunteers.
+p83
+aVAnd the way that we're organized
+p84
+aVis not like any traditional organization you can imagine.
+p85
+aVPeople are always asking, "Well, who's in charge of this?"
+p86
+aVor "Who does that?"
+p87
+aVAnd the answer is: anybody who wants to pitch in.
+p88
+aVIt's a very unusual and chaotic thing.
+p89
+aVWe've got over 90 servers now in three locations.
+p90
+aVThese are managed by volunteer system administrators who are online.
+p91
+aVI can go online any time of the day or night
+p92
+aVand see eight to 10 people waiting for me
+p93
+aVto ask a question or something, anything about the servers.
+p94
+aVYou could never afford to do this in a company.
+p95
+aVYou could never afford
+p96
+aVto have a standby crew of people 24 hours a day
+p97
+aVand do what we're doing at Wikipedia.
+p98
+aa(lp99
+VSo we're doing around 1.4 billion page views monthly,
+p100
+aVso it's really gotten to be a huge thing.
+p101
+aVAnd everything is managed by the volunteers.
+p102
+aVAnd the total monthly cost for our bandwidth is about 5,000 dollars.
+p103
+aVAnd that's essentially our main cost.
+p104
+aVWe could actually do without the employee.
+p105
+aVWe hired Brian because he was working part-time for two years
+p106
+aVand full-time at Wikipedia,
+p107
+aVso we actually hired him,
+p108
+aVso he could get a life and go to the movies sometimes.
+p109
+aVSo the big question when you've got this really chaotic organization is,
+p110
+aVwhy isn't it all rubbish?
+p111
+aVWhy is the website as good as it is?
+p112
+aa(lp113
+VFirst of all, how good is it?
+p114
+aVWell, it's pretty good.
+p115
+aVIt isn't perfect,
+p116
+aVbut it's much better than you would expect,
+p117
+aVgiven our completely chaotic model.
+p118
+aVSo when you saw him make a ridiculous edit to the page about me,
+p119
+aVyou think, "Oh, this is obviously just going to degenerate into rubbish."
+p120
+aVBut when we've seen quality tests \u2014
+p121
+aVand there haven't been enough of these yet
+p122
+aVand I'm really encouraging people to do more,
+p123
+aVcomparing Wikipedia to traditional things \u2014
+p124
+aVwe win hands down.
+p125
+aa(lp126
+VSo a German magazine compared German Wikipedia,
+p127
+aVwhich is much, much smaller than English,
+p128
+aVto Microsoft Encarta and to Brockhaus multimedial,
+p129
+aVand we won across the board.
+p130
+aVThey hired experts to come and look at articles and compare the quality,
+p131
+aVand we were very pleased with that result.
+p132
+aa(lp133
+VSo a lot of people have heard about the Wikipedia Bush-Kerry controversy.
+p134
+aVThe media has covered this somewhat extensively.
+p135
+aVIt started out with an article in Red Herring.
+p136
+aVThe reporters called me up and they \u2014
+p137
+aVI mean, I have to say they spelled my name right,
+p138
+aVbut they really wanted to say the Bush-Kerry election is so contentious,
+p139
+aVit's tearing apart the Wikipedia community.
+p140
+aVAnd so they quote me as saying,
+p141
+aV"They're the most contentious in the history of Wikipedia."
+p142
+aVWhat I actually said is they're not contentious at all.
+p143
+aVSo it's a slight misquote.
+p144
+aa(lp145
+V(Laughter)
+p146
+aa(lp147
+VThe articles were edited quite heavily.
+p148
+aVAnd it is true that we did have to lock the articles
+p149
+aVon a couple of occasions.
+p150
+aVTime magazine recently reported that
+p151
+aV"Extreme action sometimes has to be taken,
+p152
+aVand Wales locked the entries on Kerry and Bush for most of 2004."
+p153
+aVThis came after I told the reporter that we had to lock it for \u2014
+p154
+aVoccasionally a little bit here and there.
+p155
+aVSo the truth in general is that the kinds of controversies
+p156
+aVthat you would probably think we have within the Wikipedia community
+p157
+aVare not really controversies at all.
+p158
+aa(lp159
+VArticles on controversial topics are edited a lot,
+p160
+aVbut they don't cause much controversy within the community.
+p161
+aVAnd the reason for this is that most people understand the need for neutrality.
+p162
+aVThe real struggle is not between the right and the left \u2014
+p163
+aVthat's where most people assume \u2014
+p164
+aVbut it's between the party of the thoughtful
+p165
+aVand the party of the jerks.
+p166
+aVAnd no side of the political spectrum
+p167
+aVhas a monopoly on either of those qualities.
+p168
+aVThe actual truth about the specific Bush-Kerry incident
+p169
+aVis that the Bush-Kerry articles
+p170
+aVwere locked less than one percent of the time in 2004,
+p171
+aVand it wasn't because they were contentious;
+p172
+aVit was just because there was routine vandalism \u2014
+p173
+aVwhich happens sometimes even on stage ...
+p174
+aa(lp175
+V(Laughter)
+p176
+aa(lp177
+VSometimes even reporters have reported to me that they vandalized Wikipedia
+p178
+aVand were amazed that it was fixed so quickly.
+p179
+aVAnd I said \u2014 you know, I always say, please don't do that.
+p180
+aVThat's not a good thing.
+p181
+aVSo how do we do this?
+p182
+aVHow do we manage the quality control?
+p183
+aVHow does it work?
+p184
+aa(lp185
+VSo there's a few elements,
+p186
+aVmostly social policies and some elements of the software.
+p187
+aVSo the biggest and the most important thing
+p188
+aVis our neutral point of view policy.
+p189
+aVThis is something that I set down, from the very beginning,
+p190
+aVas a core principle of the community that's completely not debatable.
+p191
+aVIt's a social concept of cooperation,
+p192
+aVso we don't talk a lot about truth and objectivity.
+p193
+aVThe reason for this is if we say
+p194
+aVwe're only going to write the "truth" about some topic,
+p195
+aVthat doesn't do us a damn bit of good of figuring out what to write,
+p196
+aVbecause I don't agree with you about what's the truth.
+p197
+aVBut we have this jargon term of neutrality,
+p198
+aVwhich has its own long history within the community,
+p199
+aVwhich basically says, any time there's a controversial issue,
+p200
+aVWikipedia itself should not take a stand on the issue.
+p201
+aVWe should merely report on what reputable parties have said about it.
+p202
+aVSo this neutrality policy is really important for us
+p203
+aVbecause it empowers a community that is very diverse
+p204
+aVto come together and actually get some work done.
+p205
+aa(lp206
+VSo we have very diverse contributors
+p207
+aVin terms of political, religious, cultural backgrounds.
+p208
+aVBy having this firm neutrality policy,
+p209
+aVwhich is non-negotiable from the beginning,
+p210
+aVwe ensure that people can work together
+p211
+aVand that the entries don't become simply a war
+p212
+aVback and forth between the left and the right.
+p213
+aVIf you engage in that type of behavior, you'll be asked to leave the community.
+p214
+aa(lp215
+VSo, real-time peer review.
+p216
+aVEvery single change on the site goes to the "Recent changes" page.
+p217
+aVSo as soon as he made his change, it went to the "Recent changes" page.
+p218
+aVThat recent changes page was also fed into an IRC channel,
+p219
+aVwhich is an Internet chat channel
+p220
+aVthat people are monitoring with various software tools.
+p221
+aVAnd people can get RSS feeds \u2014
+p222
+aVthey can get email notifications of changes.
+p223
+aVAnd then users can set up their own personal watch list.
+p224
+aVSo my page is on quite a few volunteers' watch lists,
+p225
+aVbecause it is sometimes vandalized.
+p226
+aVAnd therefore, what happens is someone will notice the change very quickly,
+p227
+aVand then they'll just simply revert the change.
+p228
+aa(lp229
+VThere's a "new pages feed," for example,
+p230
+aVso you can go to a certain page of Wikipedia
+p231
+aVand see every new page as it's created.
+p232
+aVThis is really important
+p233
+aVbecause a lot of new pages are just garbage that has to be deleted,
+p234
+aVyou know, "ASDFASDF."
+p235
+aVBut also, that's some of the most interesting and fun things,
+p236
+aVsome of the new articles.
+p237
+aVPeople will start an article on some interesting topic,
+p238
+aVother people will find that intriguing
+p239
+aVand jump in and help and make it much better.
+p240
+aa(lp241
+VSo we do have edits by anonymous users,
+p242
+aVwhich is one of the most controversial and intriguing things about Wikipedia.
+p243
+aVSo, Chris was able to do his change \u2014 he didn't have to log in or anything;
+p244
+aVhe just went on the website and made a change.
+p245
+aVBut it turns out that only about 18 percent
+p246
+aVof all the edits to the website
+p247
+aVare done by anonymous users.
+p248
+aVAnd that's a really important thing to understand:
+p249
+aVthe vast majority of the edits that go on on the website
+p250
+aVare from a very close-knit community of maybe 600 to 1,000 people
+p251
+aVwho are in constant communication.
+p252
+aVAnd we have over 40 IRC channels, 40 mailing lists.
+p253
+aVAll these people know each other.
+p254
+aVThey communicate. We have off-line meetings.
+p255
+aa(lp256
+VThese are the people who are doing the bulk of the site,
+p257
+aVand they are, in a sense, semi-professionals at what they're doing.
+p258
+aVThe standards we set for ourselves
+p259
+aVare equal to or higher than professional standards of quality.
+p260
+aVWe don't always meet those standards, but that's what we're striving for.
+p261
+aa(lp262
+VAnd so that tight community is who really cares for the site,
+p263
+aVand these are some of the smartest people I've ever met.
+p264
+aVIt's my job to say that, but it's actually true.
+p265
+aVThe type of people who were drawn to writing an encyclopedia for fun
+p266
+aVtend to be pretty smart people.
+p267
+aa(lp268
+VThe tools and the software: there's lots of tools that allow us \u2014
+p269
+aVallow us, meaning the community \u2014
+p270
+aVto self-monitor and to monitor all the work.
+p271
+aVThis is an example of a page history on "flat Earth,"
+p272
+aVand you can see some changes that were made.
+p273
+aVWhat's nice about this page is you can immediately take a look at this
+p274
+aVand see, "OK, I understand now."
+p275
+aVWhen somebody goes and looks at \u2014
+p276
+aVthey see that someone, an anonymous IP number,
+p277
+aVmade an edit to my page.
+p278
+aVThat sounds suspicious. Who is this person?
+p279
+aVSomebody looks at it \u2014
+p280
+aVthey can immediately see highlighted in red
+p281
+aVall of the changes that took place \u2014
+p282
+aVto see, OK, well, these words have changed, things like this.
+p283
+aVSo that's one tool that we can use
+p284
+aVto very quickly monitor the history of a page.
+p285
+aa(lp286
+VAnother thing that we do within the community
+p287
+aVis we leave everything very open-ended.
+p288
+aVMost of the social rules and the methods of work
+p289
+aVare left completely open-ended in the software.
+p290
+aVAll of that stuff is just on Wiki pages.
+p291
+aVAnd so there's nothing in the software that enforces the rules.
+p292
+aVThe example I've got up here is the Votes for Deletion page.
+p293
+aVSo, I mentioned earlier, people type "ASDFASDF" \u2014
+p294
+aVit needs to be deleted.
+p295
+aVCases like that, the administrators just delete it.
+p296
+aVThere's no reason to have a big argument about it.
+p297
+aVBut you can imagine there's a lot of other areas where the question is,
+p298
+aVis this notable enough to go in an encyclopedia?
+p299
+aVIs the information verifiable? Is it a hoax? Is it true? Is it what?
+p300
+aVSo we needed a social method for figuring out the answer to this.
+p301
+aVAnd so the method that arose organically within the community
+p302
+aVis the Votes For Deletion page.
+p303
+aVAnd in the particular example we have here,
+p304
+aVit's a film, "Twisted Issues,"
+p305
+aVand the first person says,
+p306
+aV"Now this is supposedly a film. It fails the Google test miserably."
+p307
+aVThe Google test is you look in Google and see if it's there,
+p308
+aVbecause if something's not even in Google, it probably doesn't exist at all.
+p309
+aVIt's not a perfect rule,
+p310
+aVbut it's a nice starting point for quick research.
+p311
+aVSo somebody says, "Delete it, please. Delete it \u2014 it's not notable."
+p312
+aVAnd then somebody says, "Wait, I found it. I found it in a book,
+p313
+aV'Film Threat Video Guide: the 20 Underground Films You Must See.'"
+p314
+aVSo the next persons says, "Clean it up."
+p315
+aVSomebody says, "I've found it on IMDB. Keep, keep, keep."
+p316
+aa(lp317
+VAnd what's interesting about this is that the software is \u2014
+p318
+aVthese votes are just text typed into a page.
+p319
+aVThis is not really a vote so much as it is a dialogue.
+p320
+aVNow it is true that at the end of the day,
+p321
+aVan administrator can go through here and take a look at this and say,
+p322
+aV"OK, 18 deletes, two keeps: we'll delete it."
+p323
+aVBut in other cases, this could be 18 deletes and two keeps,
+p324
+aVand we would keep it, because if those last two keeps say,
+p325
+aV"Wait a minute. Nobody else saw this but I found it in a book,
+p326
+aVand I found a link to a page that describes it,
+p327
+aVand I'm going to clean it up tomorrow, so please don't delete it,"
+p328
+aVthen it would survive.
+p329
+aa(lp330
+VAnd it also matters who the people are who are voting.
+p331
+aVLike I say, it's a tight-knit community.
+p332
+aVDown here at the bottom, "Keep, real movie," RickK.
+p333
+aVRickK is a very famous Wikipedian who does an enormous amount of work
+p334
+aVwith vandalism, hoaxes and votes for deletion.
+p335
+aVHis voice carries a lot of weight within the community
+p336
+aVbecause he knows what he's doing.
+p337
+aVSo how is all this governed?
+p338
+aVPeople really want to know about administrators, things like that.
+p339
+aVSo the Wikipedia governance model, the governance of the community,
+p340
+aVis a very confusing, but workable mix of consensus \u2014
+p341
+aVmeaning we try not to vote on the content of articles,
+p342
+aVbecause the majority view is not necessarily neutral \u2014
+p343
+aVsome amount of democracy \u2014
+p344
+aVall of the administrators \u2014
+p345
+aVthese are the people who have the ability to delete pages.
+p346
+aVThat doesn't mean that they have the right to delete pages.
+p347
+aVThey still have to follow all the rules \u2014 but they're elected by the community.
+p348
+aa(lp349
+VSometimes people \u2014 random trolls on the Internet \u2014
+p350
+aVlike to accuse me of handpicking the administrators
+p351
+aVto bias the content of the encyclopedia.
+p352
+aVI always laugh at this, because I have no idea how they're elected, actually.
+p353
+aVThere's a certain amount of aristocracy.
+p354
+aVYou got a hint of that when I mentioned, like,
+p355
+aVRickK's voice would carry a lot more weight
+p356
+aVthan someone we don't know.
+p357
+aa(lp358
+VI give this talk sometimes with Angela,
+p359
+aVwho was just re-elected to the board from the community \u2014
+p360
+aVto the Board of the Foundation,
+p361
+aVwith more than twice the votes of the person who didn't make it.
+p362
+aVAnd I always embarrass her because I say,
+p363
+aV"Well, Angela, for example,
+p364
+aVcould get away with doing absolutely anything within Wikipedia,
+p365
+aVbecause she's so admired and so powerful."
+p366
+aVBut the irony is, of course, that Angela can do this because she's the one person
+p367
+aVwho you know would never, ever break any rules of Wikipedia.
+p368
+aVAnd I also like to say she's the only person
+p369
+aVwho actually knows all the rules of Wikipedia, so ...
+p370
+aVAnd then there's monarchy,
+p371
+aVand that's my role on the community, so ...
+p372
+aa(lp373
+V(Laughter)
+p374
+aa(lp375
+VI was describing this in Berlin once,
+p376
+aVand the next day in the newspaper the headline said,
+p377
+aV"I am the Queen of England."
+p378
+aa(lp379
+V(Laughter)
+p380
+aa(lp381
+VAnd that's not exactly what I said, but \u2014
+p382
+aa(lp383
+V(Laughter)
+p384
+aa(lp385
+Vthe point is my role in the community \u2014
+p386
+aVWithin the free software world, there's been a long-standing tradition
+p387
+aVof the "benevolent dictator" model.
+p388
+aVSo if you look at most of the major free software projects,
+p389
+aVthey have one single person in charge
+p390
+aVwho everyone agrees is the benevolent dictator.
+p391
+aVWell, I don't like the term "benevolent dictator,"
+p392
+aVand I don't think that it's my job or my role in the world of ideas
+p393
+aVto be the dictator of the future of all human knowledge
+p394
+aVcompiled by the world.
+p395
+aVIt just isn't appropriate.
+p396
+aVBut there is a need still for a certain amount of monarchy,
+p397
+aVa certain amount of \u2014
+p398
+aVsometimes we have to make a decision
+p399
+aVand we don't want to get bogged down too heavily
+p400
+aVin formal decision-making processes.
+p401
+aa(lp402
+VSo as an example of how this can be important:
+p403
+aVwe recently had a situation where a neo-Nazi website discovered Wikipedia,
+p404
+aVand they said, "Oh, well, this is horrible,
+p405
+aVthis Jewish conspiracy of a website,
+p406
+aVand we're going to get certain articles deleted that we don't like.
+p407
+aVAnd we see they have a voting process, so we're going to send \u2014
+p408
+aVwe have 40,000 members and we're going to send them over
+p409
+aVand they're all going to vote and get these pages deleted."
+p410
+aVWell, they managed to get 18 people to show up.
+p411
+aVThat's neo-Nazi math for you.
+p412
+aVThey always think they've got 40,000 members when they've got 18.
+p413
+aVBut they managed to get 18 people to come and vote in a fairly absurd way
+p414
+aVto delete a perfectly valid article.
+p415
+aVOf course, the vote ended up being about 85 to 18,
+p416
+aVso there was no real danger to our democratic processes.
+p417
+aVOn the other hand, people said, "But what are we going to do?
+p418
+aVI mean, this could happen.
+p419
+aVWhat if some group gets really seriously organized
+p420
+aVand comes in and wants to vote?"
+p421
+aVThen I said, "Well, fuck it, we'll just change the rules."
+p422
+aVThat's my job in the community:
+p423
+aVto say we won't allow our openness and freedom
+p424
+aVto undermine the quality of the content.
+p425
+aVAnd so, as long as people trust me in my role,
+p426
+aVthen that's a valid place for me.
+p427
+aVOf course, because of the free licensing,
+p428
+aVif I do a bad job, the volunteers are more than happy to take and leave \u2014
+p429
+aVI can't tell anyone what to do.
+p430
+aa(lp431
+VSo the final point here is that to understand how Wikipedia works,
+p432
+aVit's important to understand that our wiki model is the way we work,
+p433
+aVbut we are not fanatical web anarchists.
+p434
+aVIn fact, we're very flexible about the social methodology,
+p435
+aVbecause ultimately, the passion of the community
+p436
+aVis for the quality of the work,
+p437
+aVnot necessarily for the process that we use to generate it.
+p438
+aa(lp439
+VThank you.
+p440
+aa(lp441
+V(Applause)
+p442
+aa(lp443
+VBen Saunders: Yeah, hi, Ben Saunders.
+p444
+aVJimmy, you mentioned impartiality being a key to Wikipedia's success.
+p445
+aVIt strikes me that much of the textbooks that are used to educate our children
+p446
+aVare inherently biased.
+p447
+aVHave you found Wikipedia being used by teachers
+p448
+aVand how do you see Wikipedia changing education?
+p449
+aa(lp450
+VJimmy Wales: Yeah, so, a lot of teachers are beginning to use Wikipedia.
+p451
+aVThere's a media storyline about Wikipedia, which I think is false.
+p452
+aVIt builds on the storyline of bloggers versus newspapers.
+p453
+aVAnd the storyline is, there's this crazy thing, Wikipedia,
+p454
+aVbut academics hate it and teachers hate it.
+p455
+aVAnd that turns out to not be true.
+p456
+aVThe last time I got an email from a journalist saying,
+p457
+aV"Why do academics hate Wikipedia?"
+p458
+aVI sent it from my Harvard email address
+p459
+aVbecause I was recently appointed a fellow there.
+p460
+aVAnd I said, "Well, they don't all hate it."
+p461
+aa(lp462
+V(Laughter)
+p463
+aa(lp464
+VBut I think there's going to be huge impacts.
+p465
+aVAnd we actually have a project that I'm personally really excited about,
+p466
+aVwhich is the Wikibooks project,
+p467
+aVwhich is an effort to create textbooks in all the languages.
+p468
+aVAnd that's a much bigger project.
+p469
+aVIt's going to take 20 years or so to come to fruition.
+p470
+aa(lp471
+VBut part of that is to fulfill our mission
+p472
+aVof giving an encyclopedia to every single person on the planet.
+p473
+aVWe don't mean we're going to Spam them with AOL-style CDs.
+p474
+aVWe mean we're going to give them a tool that they can use.
+p475
+aVAnd for a lot of people in the world,
+p476
+aVif I give you an encyclopedia that's written at a university level,
+p477
+aVit doesn't do you any good without a whole host of literacy materials
+p478
+aVto build you up to the point where you can actually use it.
+p479
+aVThe Wikibooks project is an effort to do that.
+p480
+aVAnd I think that we're going to see \u2014 it may not even come from us;
+p481
+aVthere's all kinds of innovation going on.
+p482
+aVBut freely licensed textbooks are the next big thing in education.
+p483
+aasS'transcript_micsec'
+p484
+(lp485
+I11000
+aI39000
+aI78000
+aI123000
+aI187000
+aI260000
+aI294000
+aI320000
+aI338000
+aI370000
+aI372000
+aI403000
+aI446000
+aI447000
+aI465000
+aI521000
+aI542000
+aI581000
+aI604000
+aI639000
+aI655000
+aI669000
+aI707000
+aI789000
+aI824000
+aI875000
+aI893000
+aI929000
+aI931000
+aI938000
+aI939000
+aI942000
+aI943000
+aI986000
+aI1065000
+aI1087000
+aI1088000
+aI1092000
+aI1112000
+aI1144000
+aI1145000
+aI1162000
+asS'talk_meta'
+p486
+(dp487
+S'ratings'
+p488
+(dp489
+S'beautiful'
+p490
+I104
+sS'ingenious'
+p491
+I170
+sS'inspiring'
+p492
+I277
+sS'ok'
+p493
+I68
+sS'fascinating'
+p494
+I181
+sS'funny'
+p495
+I19
+sS'total_count'
+p496
+I1574
+sS'persuasive'
+p497
+I73
+sS'longwinded'
+p498
+I46
+sS'unconvincing'
+p499
+I14
+sS'informative'
+p500
+I481
+sS'jaw-dropping'
+p501
+I54
+sS'obnoxious'
+p502
+I11
+sS'courageous'
+p503
+I63
+sS'confusing'
+p504
+I13
+ssS'author'
+p505
+VJimmy_Wales;
+p506
+sS'url'
+p507
+S'https://www.ted.com/talks/jimmy_wales_on_the_birth_of_wikipedia'
+p508
+sS'vidlen'
+p509
+I1201
+sS'totalviews'
+p510
+I1115239
+sS'title'
+p511
+VThe birth of Wikipedia
+p512
+sS'downloadlink'
+p513
+Vhttps://download.ted.com/talks/JimmyWales_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p514
+sS'datepublished'
+p515
+cdatetime
+datetime
+p516
+(S'\x07\xd6\x08\x14\x14\x0b\x00\x00\x00\x00'
+tRp517
+sS'datefilmed'
+p518
+g516
+(S'\x07\xd6\x08\x14\x14\x0b\x00\x00\x00\x00'
+tRp519
+sS'alldata_JSON'
+p520
+S'{"viewed_count": 1115239, "speakers": [{"description": "Founder of Wikipedia", "firstname": "Jimmy", "title": "", "lastname": "Wales", "middleinitial": "", "whylisten": "<p>Jimmy Wales went from betting on interest rates and foreign-currency fluctuations (as an option trader) to betting on the willingness of people to share their knowledge. That&#39;s how <strong><a href=\\"http://www.wikipedia.org/\\" target=\\"_blank\\">Wikipedia</a>, imagined in 2001, became one of the most-referenced, most-used repositories of knowledge on the planet</strong>, with more than four and a half million articles in English (compared with the <a href=\\"http://www.britannica.com/\\" target=\\"_blank\\"><em>Britannica</em></a>&#39;s 80,000) and millions in dozens of other languages, all freely available. <br /><br />The &quot;wiki&quot; in the name refers to software that allows anyone with Internet access to add, delete or edit entries. This has led to controversies about the reliability of the information, prompting the <a href=\\"http://wikimediafoundation.org/wiki/Home\\" target=\\"_blank\\">Wikimedia Foundation</a>  to set tighter rules for editors, while still keeping <a href=\\"http://www.wikipedia.org/\\" target=\\"_blank\\">Wikipedia</a>  open-source. <strong>One thing is certain: <a href=\\"http://www.wikipedia.org/\\" target=\\"_blank\\">Wikipedia</a>  will never be finished.</strong> In the meantime Wales has started working on Wikiasari, a wiki-style search engine.</p>", "slug": "jimmy_wales", "whotheyare": "With a vision for a free online encyclopedia, Wales assembled legions of volunteer contributors, gave them tools for collaborating, and created the self-organizing, self-correcting, ever-expanding, multilingual encyclopedia of the future.", "whatotherssay": "Wikipedia represents a belief in the supremacy of reason and the goodness of others. ... From the respectful clash of opposing viewpoints and the combined wisdom of the many, something resembling the truth will emerge. Most of the time.", "id": 37, "photo_url": "https://pe.tedcdn.com/images/ted/1332_253x190.jpg"}], "current_talk": 37, "description": "Jimmy Wales recalls how he assembled \\"a ragtag band of volunteers,\\" gave them tools for collaborating and created Wikipedia, the self-organizing, self-correcting, never-finished online encyclopedia.", "language": "en", "url": "https://www.ted.com/talks/jimmy_wales_on_the_birth_of_wikipedia", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 140429725}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27581752}, "podcast-high": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 140419448}, "180k": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27382237}, "64k": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9854056}, "1500k": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 219862265}, "450k": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68401860}, "podcast-regular": {"uri": "https://download.ted.com/talks/JimmyWales_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 68291316}, "950k": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139753907}, "audio-podcast": {"uri": "https://download.ted.com/talks/JimmyWales_2005G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4681530}, "podcast-light": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9986405}, "320k": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48441470}, "600k": {"uri": "https://download.ted.com/talks/JimmyWales_2005G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 90959272}}}, "comments": {"count": 84, "id": 36, "talk_id": 37}, "slug": "jimmy_wales_on_the_birth_of_wikipedia", "threadId": 36, "talks": [{"event": "TEDGlobal 2005", "player_talks": [{"event": "TEDGlobal 2005", "slug": "jimmy_wales_on_the_birth_of_wikipedia", "filmed": 1121299200, "targeting": {"event": "TEDGlobal 2005", "tag": "business,collaboration,culture,invention,media,open-source,technology,wikipedia", "id": 37, "talk": "jimmy_wales_on_the_birth_of_wikipedia", "year": "2005"}, "adDuration": "3.33", "external": null, "title": "The birth of Wikipedia", "postAdDuration": "0.83", "published": 1156119060, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/24d2cdd703346a33bc9d7e6be0b4c9bdc9dd4b9a_1600x1200.jpg?quality=89&w=600", "name": "Jimmy Wales: The birth of Wikipedia", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "collaboration", "culture", "invention", "media", "open-source", "technology", "wikipedia"], "speaker": "Jimmy Wales", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1201, "id": 37, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JimmyWales_2005G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2005", "tag": "business,collaboration,culture,invention,media,open-source,technology,wikipedia", "id": 37, "talk": "jimmy_wales_on_the_birth_of_wikipedia", "year": "2005"}, "metadata": "https://hls.ted.com/talks/37.json", "stream": "https://hls.ted.com/talks/37.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2005%26id%3D37%26tag%3Dbusiness%2Ccollaboration%2Cculture%2Cinvention%2Cmedia%2Copen-source%2Ctechnology%2Cwikipedia%26talk%3Djimmy_wales_on_the_birth_of_wikipedia%26year%3D2005&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jimmy_wales_on_the_birth_of_wikipedia"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/24d2cdd703346a33bc9d7e6be0b4c9bdc9dd4b9a_1600x1200.jpg?q=50&w=15", "duration": 1201, "id": 37, "ratings": [{"count": 104, "id": 1, "name": "Beautiful"}, {"count": 13, "id": 2, "name": "Confusing"}, {"count": 46, "id": 11, "name": "Longwinded"}, {"count": 170, "id": 9, "name": "Ingenious"}, {"count": 63, "id": 3, "name": "Courageous"}, {"count": 481, "id": 8, "name": "Informative"}, {"count": 277, "id": 10, "name": "Inspiring"}, {"count": 181, "id": 22, "name": "Fascinating"}, {"count": 19, "id": 7, "name": "Funny"}, {"count": 73, "id": 24, "name": "Persuasive"}, {"count": 68, "id": 25, "name": "OK"}, {"count": 11, "id": 26, "name": "Obnoxious"}, {"count": 54, "id": 23, "name": "Jaw-dropping"}, {"count": 14, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Founder of Wikipedia", "firstname": "Jimmy", "title": "", "lastname": "Wales", "middleinitial": "", "whylisten": "<p>Jimmy Wales went from betting on interest rates and foreign-currency fluctuations (as an option trader) to betting on the willingness of people to share their knowledge. That&#39;s how <strong><a href=\\"http://www.wikipedia.org/\\" target=\\"_blank\\">Wikipedia</a>, imagined in 2001, became one of the most-referenced, most-used repositories of knowledge on the planet</strong>, with more than four and a half million articles in English (compared with the <a href=\\"http://www.britannica.com/\\" target=\\"_blank\\"><em>Britannica</em></a>&#39;s 80,000) and millions in dozens of other languages, all freely available. <br /><br />The &quot;wiki&quot; in the name refers to software that allows anyone with Internet access to add, delete or edit entries. This has led to controversies about the reliability of the information, prompting the <a href=\\"http://wikimediafoundation.org/wiki/Home\\" target=\\"_blank\\">Wikimedia Foundation</a>  to set tighter rules for editors, while still keeping <a href=\\"http://www.wikipedia.org/\\" target=\\"_blank\\">Wikipedia</a>  open-source. <strong>One thing is certain: <a href=\\"http://www.wikipedia.org/\\" target=\\"_blank\\">Wikipedia</a>  will never be finished.</strong> In the meantime Wales has started working on Wikiasari, a wiki-style search engine.</p>", "slug": "jimmy_wales", "whotheyare": "With a vision for a free online encyclopedia, Wales assembled legions of volunteer contributors, gave them tools for collaborating, and created the self-organizing, self-correcting, ever-expanding, multilingual encyclopedia of the future.", "whatotherssay": "Wikipedia represents a belief in the supremacy of reason and the goodness of others. ... From the respectful clash of opposing viewpoints and the combined wisdom of the many, something resembling the truth will emerge. Most of the time.", "id": 37, "photo_url": "https://pe.tedcdn.com/images/ted/1332_253x190.jpg"}], "title": "The birth of Wikipedia", "take_action": [{"status": "approved", "start_at": null, "link_url": "http://en.wikipedia.org/wiki/Wikipedia:Introduction", "eyebrow": null, "end_at": null, "verb": "participate", "published": true, "visible_url": "wikipedia.org", "type": "take_action", "blurb": "**Participate** in Wikipedia. Contribute to the world\'s largest open-source encyclopedia."}], "comments": 36, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/24d2cdd703346a33bc9d7e6be0b4c9bdc9dd4b9a_1600x1200.jpg", "description": "Jimmy Wales recalls how he assembled \\"a ragtag band of volunteers,\\" gave them tools for collaborating and created Wikipedia, the self-organizing, self-correcting, never-finished online encyclopedia.", "tags": ["business", "collaboration", "culture", "invention", "media", "open-source", "technology", "wikipedia"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-uk.mp4"}, "my": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/JimmyWales_2005G-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JimmyWales_2005G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JimmyWales_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JimmyWales_2005G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 37, "audioDownload": "https://download.ted.com/talks/JimmyWales_2005G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 720809, "hero": "https://pe.tedcdn.com/images/ted/117051_800x600.jpg", "title": "The Web as random acts of kindness", "id": 640, "speaker": "Jonathan Zittrain", "duration": 1191, "slug": "jonathan_zittrain_the_web_is_a_random_act_of_kindness"}, {"viewed_count": 346285, "hero": "https://pe.tedcdn.com/images/ted/371_480x360.jpg", "title": "The Web as a city", "id": 362, "speaker": "Steven Johnson", "duration": 990, "slug": "steven_johnson_on_the_web_as_a_city"}, {"viewed_count": 1488868, "hero": "https://pe.tedcdn.com/images/ted/cc4e62fb426a8abf08f4d5b771b348089705d2c4_2880x1620.jpg", "title": "Massive-scale online collaboration", "id": 1295, "speaker": "Luis von Ahn", "duration": 999, "slug": "luis_von_ahn_massive_scale_online_collaboration"}, {"viewed_count": 757484, "hero": "https://pe.tedcdn.com/images/ted/38680_480x360.jpg", "title": "The new open-source economics", "id": 247, "speaker": "Yochai Benkler", "duration": 1072, "slug": "yochai_benkler_on_the_new_open_source_economics"}, {"viewed_count": 656421, "hero": "https://pe.tedcdn.com/images/ted/153652_800x600.jpg", "title": "Is Pivot a turning point for web exploration?", "id": 783, "speaker": "Gary Flake", "duration": 385, "slug": "gary_flake_is_pivot_a_turning_point_for_web_exploration"}, {"viewed_count": 4071658, "hero": "https://pe.tedcdn.com/images/ted/0f550197b90f20147576a51962258dc5ac7ac82d_800x600.jpg", "title": "Beware online \\"filter bubbles\\"", "id": 1091, "speaker": "Eli Pariser", "duration": 544, "slug": "eli_pariser_beware_online_filter_bubbles"}], "recorded_at": "2005-07-14T00:00:00.000+00:00", "slug": "jimmy_wales_on_the_birth_of_wikipedia", "speaker_name": "Jimmy Wales", "viewed_count": 1115239, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2005", "name": "Jimmy Wales: The birth of Wikipedia"}'
+p521
+sS'keywords'
+p522
+(lp523
+Vbusiness
+p524
+aVcollaboration
+p525
+aVculture
+p526
+aVinvention
+p527
+aVmedia
+p528
+aVopen-source
+p529
+aVtechnology
+p530
+aVwikipedia
+p531
+asS'datecrawled'
+p532
+g516
+(S'\x07\xe1\n\x17\x00:\x02\x06\xde}'
+tRp533
+sS'id'
+p534
+I37
+ss.

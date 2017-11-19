@@ -1,0 +1,456 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo why do we learn mathematics?
+p5
+aVEssentially, for three reasons:
+p6
+aVcalculation,
+p7
+aVapplication,
+p8
+aVand last, and unfortunately least
+p9
+aVin terms of the time we give it,
+p10
+aVinspiration.
+p11
+aa(lp12
+VMathematics is the science of patterns,
+p13
+aVand we study it to learn how to think logically,
+p14
+aVcritically and creatively,
+p15
+aVbut too much of the mathematics that we learn in school
+p16
+aVis not effectively motivated,
+p17
+aVand when our students ask,
+p18
+aV"Why are we learning this?"
+p19
+aVthen they often hear that they'll need it
+p20
+aVin an upcoming math class or on a future test.
+p21
+aVBut wouldn't it be great
+p22
+aVif every once in a while we did mathematics
+p23
+aVsimply because it was fun or beautiful
+p24
+aVor because it excited the mind?
+p25
+aVNow, I know many people have not
+p26
+aVhad the opportunity to see how this can happen,
+p27
+aVso let me give you a quick example
+p28
+aVwith my favorite collection of numbers,
+p29
+aVthe Fibonacci numbers. (Applause)
+p30
+aa(lp31
+VYeah! I already have Fibonacci fans here.
+p32
+aVThat's great.
+p33
+aa(lp34
+VNow these numbers can be appreciated
+p35
+aVin many different ways.
+p36
+aVFrom the standpoint of calculation,
+p37
+aVthey're as easy to understand
+p38
+aVas one plus one, which is two.
+p39
+aVThen one plus two is three,
+p40
+aVtwo plus three is five, three plus five is eight,
+p41
+aVand so on.
+p42
+aVIndeed, the person we call Fibonacci
+p43
+aVwas actually named Leonardo of Pisa,
+p44
+aVand these numbers appear in his book "Liber Abaci,"
+p45
+aVwhich taught the Western world
+p46
+aVthe methods of arithmetic that we use today.
+p47
+aVIn terms of applications,
+p48
+aVFibonacci numbers appear in nature
+p49
+aVsurprisingly often.
+p50
+aVThe number of petals on a flower
+p51
+aVis typically a Fibonacci number,
+p52
+aVor the number of spirals on a sunflower
+p53
+aVor a pineapple
+p54
+aVtends to be a Fibonacci number as well.
+p55
+aa(lp56
+VIn fact, there are many more applications of Fibonacci numbers,
+p57
+aVbut what I find most inspirational about them
+p58
+aVare the beautiful number patterns they display.
+p59
+aVLet me show you one of my favorites.
+p60
+aVSuppose you like to square numbers,
+p61
+aVand frankly, who doesn't? (Laughter)
+p62
+aa(lp63
+VLet's look at the squares
+p64
+aVof the first few Fibonacci numbers.
+p65
+aVSo one squared is one,
+p66
+aVtwo squared is four, three squared is nine,
+p67
+aVfive squared is 25, and so on.
+p68
+aVNow, it's no surprise
+p69
+aVthat when you add consecutive Fibonacci numbers,
+p70
+aVyou get the next Fibonacci number. Right?
+p71
+aVThat's how they're created.
+p72
+aVBut you wouldn't expect anything special
+p73
+aVto happen when you add the squares together.
+p74
+aVBut check this out.
+p75
+aVOne plus one gives us two,
+p76
+aVand one plus four gives us five.
+p77
+aVAnd four plus nine is 13,
+p78
+aVnine plus 25 is 34,
+p79
+aVand yes, the pattern continues.
+p80
+aa(lp81
+VIn fact, here's another one.
+p82
+aVSuppose you wanted to look at
+p83
+aVadding the squares of the first few Fibonacci numbers.
+p84
+aVLet's see what we get there.
+p85
+aVSo one plus one plus four is six.
+p86
+aVAdd nine to that, we get 15.
+p87
+aVAdd 25, we get 40.
+p88
+aVAdd 64, we get 104.
+p89
+aVNow look at those numbers.
+p90
+aVThose are not Fibonacci numbers,
+p91
+aVbut if you look at them closely,
+p92
+aVyou'll see the Fibonacci numbers
+p93
+aVburied inside of them.
+p94
+aa(lp95
+VDo you see it? I'll show it to you.
+p96
+aVSix is two times three, 15 is three times five,
+p97
+aV40 is five times eight,
+p98
+aVtwo, three, five, eight, who do we appreciate?
+p99
+aa(lp100
+V(Laughter)
+p101
+aa(lp102
+VFibonacci! Of course.
+p103
+aa(lp104
+VNow, as much fun as it is to discover these patterns,
+p105
+aVit's even more satisfying to understand
+p106
+aVwhy they are true.
+p107
+aVLet's look at that last equation.
+p108
+aVWhy should the squares of one, one, two, three, five and eight
+p109
+aVadd up to eight times 13?
+p110
+aVI'll show you by drawing a simple picture.
+p111
+aVWe'll start with a one-by-one square
+p112
+aVand next to that put another one-by-one square.
+p113
+aVTogether, they form a one-by-two rectangle.
+p114
+aVBeneath that, I'll put a two-by-two square,
+p115
+aVand next to that, a three-by-three square,
+p116
+aVbeneath that, a five-by-five square,
+p117
+aVand then an eight-by-eight square,
+p118
+aVcreating one giant rectangle, right?
+p119
+aa(lp120
+VNow let me ask you a simple question:
+p121
+aVwhat is the area of the rectangle?
+p122
+aVWell, on the one hand,
+p123
+aVit's the sum of the areas
+p124
+aVof the squares inside it, right?
+p125
+aVJust as we created it.
+p126
+aVIt's one squared plus one squared
+p127
+aVplus two squared plus three squared
+p128
+aVplus five squared plus eight squared. Right?
+p129
+aVThat's the area.
+p130
+aVOn the other hand, because it's a rectangle,
+p131
+aVthe area is equal to its height times its base,
+p132
+aVand the height is clearly eight,
+p133
+aVand the base is five plus eight,
+p134
+aVwhich is the next Fibonacci number, 13. Right?
+p135
+aVSo the area is also eight times 13.
+p136
+aVSince we've correctly calculated the area
+p137
+aVtwo different ways,
+p138
+aVthey have to be the same number,
+p139
+aVand that's why the squares of one, one, two, three, five and eight
+p140
+aVadd up to eight times 13.
+p141
+aa(lp142
+VNow, if we continue this process,
+p143
+aVwe'll generate rectangles of the form 13 by 21,
+p144
+aV21 by 34, and so on.
+p145
+aa(lp146
+VNow check this out.
+p147
+aVIf you divide 13 by eight,
+p148
+aVyou get 1.625.
+p149
+aVAnd if you divide the larger number by the smaller number,
+p150
+aVthen these ratios get closer and closer
+p151
+aVto about 1.618,
+p152
+aVknown to many people as the Golden Ratio,
+p153
+aVa number which has fascinated mathematicians,
+p154
+aVscientists and artists for centuries.
+p155
+aa(lp156
+VNow, I show all this to you because,
+p157
+aVlike so much of mathematics,
+p158
+aVthere's a beautiful side to it
+p159
+aVthat I fear does not get enough attention
+p160
+aVin our schools.
+p161
+aVWe spend lots of time learning about calculation,
+p162
+aVbut let's not forget about application,
+p163
+aVincluding, perhaps, the most important application of all,
+p164
+aVlearning how to think.
+p165
+aa(lp166
+VIf I could summarize this in one sentence,
+p167
+aVit would be this:
+p168
+aVMathematics is not just solving for x,
+p169
+aVit's also figuring out why.
+p170
+aa(lp171
+VThank you very much.
+p172
+aa(lp173
+V(Applause)
+p174
+aasS'transcript_micsec'
+p175
+(lp176
+I11000
+aI27000
+aI69000
+aI72000
+aI119000
+aI135000
+aI173000
+aI201000
+aI212000
+aI213000
+aI215000
+aI257000
+aI309000
+aI318000
+aI341000
+aI362000
+aI372000
+aI374000
+asS'talk_meta'
+p177
+(dp178
+S'ratings'
+p179
+(dp180
+S'beautiful'
+p181
+I452
+sS'funny'
+p182
+I234
+sS'inspiring'
+p183
+I800
+sS'ok'
+p184
+I194
+sS'fascinating'
+p185
+I1059
+sS'total_count'
+p186
+I4288
+sS'persuasive'
+p187
+I128
+sS'longwinded'
+p188
+I17
+sS'informative'
+p189
+I920
+sS'jaw-dropping'
+p190
+I116
+sS'ingenious'
+p191
+I243
+sS'obnoxious'
+p192
+I37
+sS'confusing'
+p193
+I20
+sS'courageous'
+p194
+I34
+sS'unconvincing'
+p195
+I34
+ssS'author'
+p196
+VArthur_Benjamin;
+p197
+sS'url'
+p198
+S'https://www.ted.com/talks/arthur_benjamin_the_magic_of_fibonacci_numbers'
+p199
+sS'vidlen'
+p200
+I384
+sS'totalviews'
+p201
+I4429668
+sS'title'
+p202
+VThe magic of Fibonacci numbers
+p203
+sS'downloadlink'
+p204
+Vhttps://download.ted.com/talks/ArthurBenjamin_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p205
+sS'datepublished'
+p206
+cdatetime
+datetime
+p207
+(S'\x07\xdd\x0b\x08\x0b\x01\x01\x00\x00\x00'
+tRp208
+sS'datefilmed'
+p209
+g207
+(S'\x07\xdd\x0b\x08\x0b\x01\x01\x00\x00\x00'
+tRp210
+sS'alldata_JSON'
+p211
+S'{"viewed_count": 4429668, "speakers": [{"description": "Mathemagician", "firstname": "Arthur", "title": "", "lastname": "Benjamin", "middleinitial": "", "whylisten": "<p>Arthur Benjamin makes numbers dance. In his day job, he&#39;s a professor of math at Harvey Mudd College; in his other day job, he&#39;s a &quot;Mathemagician,&quot; taking the stage in his tuxedo to perform high-speed mental calculations, memorizations and other astounding math stunts. It&#39;s part of his drive to teach math and mental agility in interesting ways, following in the footsteps of such heroes as <a href=\\"http://en.wikipedia.org/wiki/Martin_Gardner\\" target=\\"_blank\\">Martin Gardner</a>.  </p><p>Benjamin is the co-author, with <a href=\\"/index.php/speakers/view/id/23\\" target=\\"_blank\\">Michael Shermer</a>, of <em><a href=\\"http://geni.us/secretsofmentalmath\\" target=\\"_blank\\">Secrets of Mental Math</a></em> (which shares his secrets for rapid mental calculation), as well as the co-author of the <a href=\\"http://www.maa.org/\\" target=\\"_blank\\">MAA</a>  award-winning <em><a href=\\"http://geni.us/proofsthatcount\\" target=\\"_blank\\">Proofs That Really Count: The Art of Combinatorial Proof</a></em>. For a glimpse of his broad approach to math, see the list of <a href=\\"http://www.math.hmc.edu/~benjamin/talks.html\\" target=\\"_blank\\">research talks</a>  on his website, which seesaws between high-level math (such as his &quot;Vandermonde&#39;s Determinant and Fibonacci SAWs,&quot; presented at MIT in 2004) and engaging math talks for the rest of us (&quot;An Amazing Mathematical Card Trick&quot;). </p>", "slug": "arthur_benjamin", "whotheyare": "Using daring displays of algorithmic trickery, lightning calculator and number wizard Arthur Benjamin mesmerizes audiences with mathematical mystery and beauty.", "whatotherssay": "Mathematics can be a difficult and perhaps puzzling subject for many. But watch in amazement as one of the world\\u2019s fastest human calculators shows his ability to turn math into magic.", "id": 177, "photo_url": "https://pe.tedcdn.com/images/ted/ad5b91e6aa89e07e8ce56f4894c47f3cbb3b8e4f_254x191.jpg"}], "current_talk": 1862, "description": "Math is logical, functional and just ... awesome. Mathemagician Arthur Benjamin explores hidden properties of that weird and wonderful set of numbers, the Fibonacci series. (And reminds you that mathematics can be inspiring, too!)", "language": "en", "url": "https://www.ted.com/talks/arthur_benjamin_the_magic_of_fibonacci_numbers", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45830243}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8980123}, "podcast-high": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45822338}, "180k": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8718425}, "64k": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3177850}, "1500k": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69930947}, "450k": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21940726}, "podcast-regular": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22228346}, "950k": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45411142}, "audio-podcast": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 2716528}, "podcast-light": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3315179}, "320k": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15525860}, "600k": {"uri": "https://download.ted.com/talks/ArthurBenjamin_2013G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29499425}}}, "comments": {"count": 325, "id": 23105, "talk_id": 1862}, "slug": "arthur_benjamin_the_magic_of_fibonacci_numbers", "threadId": 23105, "talks": [{"event": "TEDGlobal 2013", "player_talks": [{"event": "TEDGlobal 2013", "slug": "arthur_benjamin_the_magic_of_fibonacci_numbers", "filmed": 1370995200, "targeting": {"event": "TEDGlobal 2013", "tag": "entertainment,magic,math", "id": 1862, "talk": "arthur_benjamin_the_magic_of_fibonacci_numbers", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "The magic of Fibonacci numbers", "postAdDuration": "0.83", "published": 1383926461, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f7a1545bc99cab07fd7400e3fb96312702955d9b_1600x1200.jpg?quality=89&w=600", "name": "Arthur Benjamin: The magic of Fibonacci numbers", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "gu", "endonym": "\\u0a97\\u0ac1\\u0a9c\\u0ab0\\u0abe\\u0aa4\\u0ac0", "isRtl": false, "ianaCode": "gu", "languageName": "Gujarati"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "ml", "endonym": "\\u0d2e\\u0d32\\u0d2f\\u0d3e\\u0d33\\u0d02", "isRtl": false, "ianaCode": "ml", "languageName": "Malayalam"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["entertainment", "magic", "math"], "speaker": "Arthur Benjamin", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 384, "id": 1862, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ArthurBenjamin_2013G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2013", "tag": "entertainment,magic,math", "id": 1862, "talk": "arthur_benjamin_the_magic_of_fibonacci_numbers", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1862.json", "stream": "https://hls.ted.com/talks/1862.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2013%26id%3D1862%26tag%3Dentertainment%2Cmagic%2Cmath%26talk%3Darthur_benjamin_the_magic_of_fibonacci_numbers%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/arthur_benjamin_the_magic_of_fibonacci_numbers"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f7a1545bc99cab07fd7400e3fb96312702955d9b_1600x1200.jpg?q=50&w=15", "duration": 384, "id": 1862, "ratings": [{"count": 920, "id": 8, "name": "Informative"}, {"count": 1059, "id": 22, "name": "Fascinating"}, {"count": 37, "id": 26, "name": "Obnoxious"}, {"count": 800, "id": 10, "name": "Inspiring"}, {"count": 128, "id": 24, "name": "Persuasive"}, {"count": 234, "id": 7, "name": "Funny"}, {"count": 194, "id": 25, "name": "OK"}, {"count": 34, "id": 21, "name": "Unconvincing"}, {"count": 452, "id": 1, "name": "Beautiful"}, {"count": 243, "id": 9, "name": "Ingenious"}, {"count": 116, "id": 23, "name": "Jaw-dropping"}, {"count": 17, "id": 11, "name": "Longwinded"}, {"count": 34, "id": 3, "name": "Courageous"}, {"count": 20, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Mathemagician", "firstname": "Arthur", "title": "", "lastname": "Benjamin", "middleinitial": "", "whylisten": "<p>Arthur Benjamin makes numbers dance. In his day job, he&#39;s a professor of math at Harvey Mudd College; in his other day job, he&#39;s a &quot;Mathemagician,&quot; taking the stage in his tuxedo to perform high-speed mental calculations, memorizations and other astounding math stunts. It&#39;s part of his drive to teach math and mental agility in interesting ways, following in the footsteps of such heroes as <a href=\\"http://en.wikipedia.org/wiki/Martin_Gardner\\" target=\\"_blank\\">Martin Gardner</a>.  </p><p>Benjamin is the co-author, with <a href=\\"/index.php/speakers/view/id/23\\" target=\\"_blank\\">Michael Shermer</a>, of <em><a href=\\"http://geni.us/secretsofmentalmath\\" target=\\"_blank\\">Secrets of Mental Math</a></em> (which shares his secrets for rapid mental calculation), as well as the co-author of the <a href=\\"http://www.maa.org/\\" target=\\"_blank\\">MAA</a>  award-winning <em><a href=\\"http://geni.us/proofsthatcount\\" target=\\"_blank\\">Proofs That Really Count: The Art of Combinatorial Proof</a></em>. For a glimpse of his broad approach to math, see the list of <a href=\\"http://www.math.hmc.edu/~benjamin/talks.html\\" target=\\"_blank\\">research talks</a>  on his website, which seesaws between high-level math (such as his &quot;Vandermonde&#39;s Determinant and Fibonacci SAWs,&quot; presented at MIT in 2004) and engaging math talks for the rest of us (&quot;An Amazing Mathematical Card Trick&quot;). </p>", "slug": "arthur_benjamin", "whotheyare": "Using daring displays of algorithmic trickery, lightning calculator and number wizard Arthur Benjamin mesmerizes audiences with mathematical mystery and beauty.", "whatotherssay": "Mathematics can be a difficult and perhaps puzzling subject for many. But watch in amazement as one of the world\\u2019s fastest human calculators shows his ability to turn math into magic.", "id": 177, "photo_url": "https://pe.tedcdn.com/images/ted/ad5b91e6aa89e07e8ce56f4894c47f3cbb3b8e4f_254x191.jpg"}], "title": "The magic of Fibonacci numbers", "take_action": [], "comments": 23105, "more_resources": [{"status": "approved", "publisher": "Three Rivers Press", "start_at": null, "author": "Arthur Benjamin and Michael Shermer", "headline": "*Secrets of Mental Math: The Mathemagician\'s Guide to Lightning Calculation and Amazing Math Tricks*", "link_url": "http://www.amazon.com/Secrets-Mental-Math-Mathemagicians-Calculation/dp/0307338401/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://tedcdnpe-a.akamaihd.net/images/ted/2b90e0be829cf9105ed152072a0d11a426e0c21e_450x701.jpg", "year": "2006", "type": "book", "blurb": null}, {"status": "approved", "publisher": "Basic Books", "start_at": null, "author": "Arthur Benjamin", "headline": "*The Magic of Math: Solving for x and Figuring Out Why*", "link_url": "http://www.amazon.com/Magic-Math-Solving-Figuring-Out/dp/0465054722/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://tedcdnpe-a.akamaihd.net/images/ted/101b0aaef0e96bcdda0f2a3bdf393266b2324ca7_450x682.jpg", "year": "2015", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/f7a1545bc99cab07fd7400e3fb96312702955d9b_1600x1200.jpg", "description": "Math is logical, functional and just ... awesome. Mathemagician Arthur Benjamin explores hidden properties of that weird and wonderful set of numbers, the Fibonacci series. (And reminds you that mathematics can be inspiring, too!)", "tags": ["entertainment", "magic", "math"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "gu", "endonym": "\\u0a97\\u0ac1\\u0a9c\\u0ab0\\u0abe\\u0aa4\\u0ac0", "isRtl": false, "ianaCode": "gu", "languageName": "Gujarati"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "ml", "endonym": "\\u0d2e\\u0d32\\u0d2f\\u0d3e\\u0d33\\u0d02", "isRtl": false, "ianaCode": "ml", "languageName": "Malayalam"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-el.mp4"}, "gu": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-gu.mp4", "name": "Gujarati", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-gu.mp4"}, "en": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ca.mp4", "name": "Catalan"}, "it": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-fr-ca.mp4"}, "lt": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-pl.mp4"}, "ta": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ta.mp4", "name": "Tamil", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ta.mp4"}, "fr": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-bg.mp4"}, "uk": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-sl.mp4"}, "hr": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-da.mp4", "name": "Danish"}, "fa": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-fa.mp4"}, "bs": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-bs.mp4", "name": "Bosnian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-bs.mp4"}, "hu": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-he.mp4"}, "ml": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ml.mp4", "name": "Malayalam", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ml.mp4"}, "sq": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-sq.mp4"}, "mn": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-sk.mp4"}, "ms": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-ms.mp4", "name": "Malay", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-ms.mp4"}, "sr": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-sr.mp4"}, "my": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ArthurBenjamin_2013G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ArthurBenjamin_2013G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ArthurBenjamin_2013G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1862, "audioDownload": "https://download.ted.com/talks/ArthurBenjamin_2013G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 8396446, "hero": "https://pe.tedcdn.com/images/ted/e982353371ca063e5ffb2ab554ec91de355d29d1_1600x1200.jpg", "title": "A performance of \\"Mathemagic\\"", "id": 199, "speaker": "Arthur Benjamin", "duration": 914, "slug": "arthur_benjamin_does_mathemagic"}, {"viewed_count": 2197378, "hero": "https://pe.tedcdn.com/images/ted/a7cc4ad21293eaa7b7c7a330dda600f4ff543fd3_2880x1620.jpg", "title": "Teach statistics before calculus!", "id": 587, "speaker": "Arthur Benjamin", "duration": 178, "slug": "arthur_benjamin_s_formula_for_changing_math_education"}, {"viewed_count": 2022902, "hero": "https://pe.tedcdn.com/images/ted/65ee8a1f72e612d4af2d625d050077f18248a33b_1600x1200.jpg", "title": "Why I fell in love with monster prime numbers", "id": 1811, "speaker": "Adam Spencer", "duration": 1037, "slug": "adam_spencer_why_i_fell_in_love_with_monster_prime_numbers"}, {"viewed_count": 1637560, "hero": "https://pe.tedcdn.com/images/ted/4d02262a103b0cb3723737ea154dd9f83ca37003_2880x1620.jpg", "title": "What\'s so sexy about math?", "id": 2518, "speaker": "C\\u00e9dric Villani", "duration": 983, "slug": "cedric_villani_what_s_so_sexy_about_math"}, {"viewed_count": 1934618, "hero": "https://pe.tedcdn.com/images/ted/b419d8fdf4dbe8513fb3b5079278b183466ad79d_2880x1620.jpg", "title": "Math is the hidden secret to understanding the world", "id": 2620, "speaker": "Roger Antonsen", "duration": 1024, "slug": "roger_antonsen_math_is_the_hidden_secret_to_understanding_the_world"}, {"viewed_count": 1621232, "hero": "https://pe.tedcdn.com/images/ted/2d581c7373812177a05cfb1b07464ae3e80f9c67_2880x1620.jpg", "title": "Math is forever", "id": 2186, "speaker": "Eduardo S\\u00e1enz de Cabez\\u00f3n", "duration": 581, "slug": "eduardo_saenz_de_cabezon_math_is_forever"}], "recorded_at": "2013-06-12T00:00:00.000+00:00", "slug": "arthur_benjamin_the_magic_of_fibonacci_numbers", "speaker_name": "Arthur Benjamin", "viewed_count": 4429668, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2013", "name": "Arthur Benjamin: The magic of Fibonacci numbers"}'
+p212
+sS'keywords'
+p213
+(lp214
+Ventertainment
+p215
+aVmagic
+p216
+aVmath
+p217
+asS'datecrawled'
+p218
+g207
+(S'\x07\xe1\n\x17\x02-\x0f\x0c7+'
+tRp219
+sS'id'
+p220
+I1862
+ss.

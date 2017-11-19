@@ -1,0 +1,540 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm thrilled to be here tonight
+p5
+aVto share with you something we've been working on
+p6
+aVfor over two years,
+p7
+aVand it's in the area of additive manufacturing,
+p8
+aValso known as 3D printing.
+p9
+aa(lp10
+VYou see this object here.
+p11
+aVIt looks fairly simple, but it's quite complex at the same time.
+p12
+aVIt's a set of concentric geodesic structures
+p13
+aVwith linkages between each one.
+p14
+aVIn its context, it is not manufacturable by traditional manufacturing techniques.
+p15
+aVIt has a symmetry such that you can't injection mold it.
+p16
+aVYou can't even manufacture it through milling.
+p17
+aVThis is a job for a 3D printer,
+p18
+aVbut most 3D printers would take between three and 10 hours to fabricate it,
+p19
+aVand we're going to take the risk tonight to try to fabricate it onstage
+p20
+aVduring this 10-minute talk.
+p21
+aVWish us luck.
+p22
+aa(lp23
+VNow, 3D printing is actually a misnomer.
+p24
+aVIt's actually 2D printing over and over again,
+p25
+aVand it in fact uses the technologies associated with 2D printing.
+p26
+aVThink about inkjet printing where you lay down ink on a page to make letters,
+p27
+aVand then do that over and over again to build up a three-dimensional object.
+p28
+aVIn microelectronics, they use something
+p29
+aVcalled lithography to do the same sort of thing,
+p30
+aVto make the transistors and integrated circuits
+p31
+aVand build up a structure several times.
+p32
+aVThese are all 2D printing technologies.
+p33
+aa(lp34
+VNow, I'm a chemist, a material scientist too,
+p35
+aVand my co-inventors are also material scientists,
+p36
+aVone a chemist, one a physicist,
+p37
+aVand we began to be interested in 3D printing.
+p38
+aVAnd very often, as you know, new ideas are often simple connections
+p39
+aVbetween people with different experiences in different communities,
+p40
+aVand that's our story.
+p41
+aa(lp42
+VNow, we were inspired
+p43
+aVby the "Terminator 2" scene for T-1000,
+p44
+aVand we thought, why couldn't a 3D printer operate in this fashion,
+p45
+aVwhere you have an object arise out of a puddle
+p46
+aVin essentially real time
+p47
+aVwith essentially no waste
+p48
+aVto make a great object?
+p49
+aVOkay, just like the movies.
+p50
+aVAnd could we be inspired by Hollywood
+p51
+aVand come up with ways to actually try to get this to work?
+p52
+aVAnd that was our challenge.
+p53
+aVAnd our approach would be, if we could do this,
+p54
+aVthen we could fundamentally address the three issues holding back 3D printing
+p55
+aVfrom being a manufacturing process.
+p56
+aa(lp57
+VOne, 3D printing takes forever.
+p58
+aVThere are mushrooms that grow faster than 3D printed parts. (Laughter)
+p59
+aVThe layer by layer process
+p60
+aVleads to defects in mechanical properties,
+p61
+aVand if we could grow continuously, we could eliminate those defects.
+p62
+aVAnd in fact, if we could grow really fast, we could also start using materials
+p63
+aVthat are self-curing, and we could have amazing properties.
+p64
+aVSo if we could pull this off, imitate Hollywood,
+p65
+aVwe could in fact address 3D manufacturing.
+p66
+aa(lp67
+VOur approach is to use some standard knowledge
+p68
+aVin polymer chemistry
+p69
+aVto harness light and oxygen to grow parts continuously.
+p70
+aVLight and oxygen work in different ways.
+p71
+aVLight can take a resin and convert it to a solid,
+p72
+aVcan convert a liquid to a solid.
+p73
+aVOxygen inhibits that process.
+p74
+aVSo light and oxygen are polar opposites from one another
+p75
+aVfrom a chemical point of view,
+p76
+aVand if we can control spatially the light and oxygen,
+p77
+aVwe could control this process.
+p78
+aVAnd we refer to this as CLIP. [Continuous Liquid Interface Production.]
+p79
+aVIt has three functional components.
+p80
+aVOne, it has a reservoir that holds the puddle,
+p81
+aVjust like the T-1000.
+p82
+aVAt the bottom of the reservoir is a special window.
+p83
+aVI'll come back to that.
+p84
+aVIn addition, it has a stage that will lower into the puddle
+p85
+aVand pull the object out of the liquid.
+p86
+aVThe third component is a digital light projection system
+p87
+aVunderneath the reservoir,
+p88
+aVilluminating with light in the ultraviolet region.
+p89
+aa(lp90
+VNow, the key is that this window in the bottom of this reservoir,
+p91
+aVit's a composite, it's a very special window.
+p92
+aVIt's not only transparent to light but it's permeable to oxygen.
+p93
+aVIt's got characteristics like a contact lens.
+p94
+aVSo we can see how the process works.
+p95
+aVYou can start to see that as you lower a stage in there,
+p96
+aVin a traditional process, with an oxygen-impermeable window,
+p97
+aVyou make a two-dimensional pattern
+p98
+aVand you end up gluing that onto the window with a traditional window,
+p99
+aVand so in order to introduce the next layer, you have to separate it,
+p100
+aVintroduce new resin, reposition it,
+p101
+aVand do this process over and over again.
+p102
+aVBut with our very special window,
+p103
+aVwhat we're able to do is, with oxygen coming through the bottom
+p104
+aVas light hits it,
+p105
+aVthat oxygen inhibits the reaction,
+p106
+aVand we form a dead zone.
+p107
+aVThis dead zone is on the order of tens of microns thick,
+p108
+aVso that's two or three diameters of a red blood cell,
+p109
+aVright at the window interface that remains a liquid,
+p110
+aVand we pull this object up,
+p111
+aVand as we talked about in a Science paper,
+p112
+aVas we change the oxygen content, we can change the dead zone thickness.
+p113
+aVAnd so we have a number of key variables that we control: oxygen content,
+p114
+aVthe light, the light intensity, the dose to cure,
+p115
+aVthe viscosity, the geometry,
+p116
+aVand we use very sophisticated software to control this process.
+p117
+aa(lp118
+VThe result is pretty staggering.
+p119
+aVIt's 25 to 100 times faster than traditional 3D printers,
+p120
+aVwhich is game-changing.
+p121
+aVIn addition, as our ability to deliver liquid to that interface,
+p122
+aVwe can go 1,000 times faster I believe,
+p123
+aVand that in fact opens up the opportunity for generating a lot of heat,
+p124
+aVand as a chemical engineer, I get very excited at heat transfer
+p125
+aVand the idea that we might one day have water-cooled 3D printers,
+p126
+aVbecause they're going so fast.
+p127
+aVIn addition, because we're growing things, we eliminate the layers,
+p128
+aVand the parts are monolithic.
+p129
+aVYou don't see the surface structure.
+p130
+aVYou have molecularly smooth surfaces.
+p131
+aVAnd the mechanical properties of most parts made in a 3D printer
+p132
+aVare notorious for having properties that depend on the orientation
+p133
+aVwith which how you printed it, because of the layer-like structure.
+p134
+aVBut when you grow objects like this,
+p135
+aVthe properties are invariant with the print direction.
+p136
+aVThese look like injection-molded parts,
+p137
+aVwhich is very different than traditional 3D manufacturing.
+p138
+aVIn addition, we're able to throw
+p139
+aVthe entire polymer chemistry textbook at this,
+p140
+aVand we're able to design chemistries that can give rise to the properties
+p141
+aVyou really want in a 3D-printed object.
+p142
+aa(lp143
+V(Applause)
+p144
+aa(lp145
+VThere it is. That's great.
+p146
+aVYou always take the risk that something like this won't work onstage, right?
+p147
+aa(lp148
+VBut we can have materials with great mechanical properties.
+p149
+aVFor the first time, we can have elastomers
+p150
+aVthat are high elasticity or high dampening.
+p151
+aVThink about vibration control or great sneakers, for example.
+p152
+aVWe can make materials that have incredible strength,
+p153
+aVhigh strength-to-weight ratio, really strong materials,
+p154
+aVreally great elastomers,
+p155
+aVso throw that in the audience there.
+p156
+aVSo great material properties.
+p157
+aa(lp158
+VAnd so the opportunity now, if you actually make a part
+p159
+aVthat has the properties to be a final part,
+p160
+aVand you do it in game-changing speeds,
+p161
+aVyou can actually transform manufacturing.
+p162
+aVRight now, in manufacturing, what happens is,
+p163
+aVthe so-called digital thread in digital manufacturing.
+p164
+aVWe go from a CAD drawing, a design, to a prototype to manufacturing.
+p165
+aVOften, the digital thread is broken right at prototype,
+p166
+aVbecause you can't go all the way to manufacturing
+p167
+aVbecause most parts don't have the properties to be a final part.
+p168
+aVWe now can connect the digital thread
+p169
+aVall the way from design to prototyping to manufacturing,
+p170
+aVand that opportunity really opens up all sorts of things,
+p171
+aVfrom better fuel-efficient cars dealing with great lattice properties
+p172
+aVwith high strength-to-weight ratio,
+p173
+aVnew turbine blades, all sorts of wonderful things.
+p174
+aa(lp175
+VThink about if you need a stent in an emergency situation,
+p176
+aVinstead of the doctor pulling off a stent out of the shelf
+p177
+aVthat was just standard sizes,
+p178
+aVhaving a stent that's designed for you, for your own anatomy
+p179
+aVwith your own tributaries,
+p180
+aVprinted in an emergency situation in real time out of the properties
+p181
+aVsuch that the stent could go away after 18 months: really-game changing.
+p182
+aVOr digital dentistry, and making these kinds of structures
+p183
+aVeven while you're in the dentist chair.
+p184
+aVAnd look at the structures that my students are making
+p185
+aVat the University of North Carolina.
+p186
+aVThese are amazing microscale structures.
+p187
+aa(lp188
+VYou know, the world is really good at nano-fabrication.
+p189
+aVMoore's Law has driven things from 10 microns and below.
+p190
+aVWe're really good at that,
+p191
+aVbut it's actually very hard to make things from 10 microns to 1,000 microns,
+p192
+aVthe mesoscale.
+p193
+aVAnd subtractive techniques from the silicon industry
+p194
+aVcan't do that very well.
+p195
+aVThey can't etch wafers that well.
+p196
+aVBut this process is so gentle,
+p197
+aVwe can grow these objects up from the bottom
+p198
+aVusing additive manufacturing
+p199
+aVand make amazing things in tens of seconds,
+p200
+aVopening up new sensor technologies,
+p201
+aVnew drug delivery techniques,
+p202
+aVnew lab-on-a-chip applications, really game-changing stuff.
+p203
+aa(lp204
+VSo the opportunity of making a part in real time
+p205
+aVthat has the properties to be a final part
+p206
+aVreally opens up 3D manufacturing,
+p207
+aVand for us, this is very exciting, because this really is owning
+p208
+aVthe intersection between hardware, software and molecular science,
+p209
+aVand I can't wait to see what designers and engineers around the world
+p210
+aVare going to be able to do with this great tool.
+p211
+aa(lp212
+VThanks for listening.
+p213
+aa(lp214
+V(Applause)
+p215
+aasS'transcript_micsec'
+p216
+(lp217
+I11000
+aI23000
+aI67000
+aI101000
+aI124000
+aI169000
+aI205000
+aI273000
+aI357000
+aI438000
+aI440000
+aI449000
+aI474000
+aI528000
+aI567000
+aI606000
+aI633000
+aI635000
+asS'talk_meta'
+p218
+(dp219
+S'ratings'
+p220
+(dp221
+S'ingenious'
+p222
+I547
+sS'beautiful'
+p223
+I50
+sS'inspiring'
+p224
+I291
+sS'ok'
+p225
+I54
+sS'fascinating'
+p226
+I469
+sS'funny'
+p227
+I19
+sS'total_count'
+p228
+I2482
+sS'persuasive'
+p229
+I45
+sS'longwinded'
+p230
+I4
+sS'unconvincing'
+p231
+I14
+sS'informative'
+p232
+I574
+sS'jaw-dropping'
+p233
+I380
+sS'obnoxious'
+p234
+I4
+sS'courageous'
+p235
+I20
+sS'confusing'
+p236
+I11
+ssS'author'
+p237
+VJoseph_DeSimone;
+p238
+sS'url'
+p239
+S'https://www.ted.com/talks/joe_desimone_what_if_3d_printing_was_25x_faster'
+p240
+sS'vidlen'
+p241
+I645
+sS'totalviews'
+p242
+I2515611
+sS'title'
+p243
+VWhat if 3D printing was 100x faster?
+p244
+sS'downloadlink'
+p245
+Vhttps://download.ted.com/talks/JosephDeSimone_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p246
+sS'datepublished'
+p247
+cdatetime
+datetime
+p248
+(S'\x07\xdf\x03\x13\x0e%"\x00\x00\x00'
+tRp249
+sS'datefilmed'
+p250
+g248
+(S'\x07\xdf\x03\x13\x0e%"\x00\x00\x00'
+tRp251
+sS'alldata_JSON'
+p252
+S'{"viewed_count": 2515611, "speakers": [{"description": "Chemist, inventor", "firstname": "Joseph", "title": "", "lastname": "DeSimone", "middleinitial": "", "whylisten": "<p>Joseph DeSimone is a scholar, inventor and serial entrepreneur. A longtime professor at UNC-Chapel Hill, he&#39;s taken leave to become the CEO at Carbon3D, the Silicon Valley 3D printing company he co-founded in 2013. DeSimone, an innovative polymer chemist, has made breakthrough  contributions in fluoropolymer synthesis, colloid science,  nano-biomaterials, green chemistry and most recently 3D printing. His company&#39;s Continuous Liquid Interface Production (CLIP) suggests a breakthrough way to make 3D parts. </p><p>Read the paper in <em><a href=\\"http://www.sciencemag.org/content/347/6228/1349.abstract\\" target=\\"_blank\\">Science</a></em>. Authors: John R. Tumbleston, David Shirvanyants, , Nikita Ermoshkin, Rima Janusziewicz, Ashley R. Johnson, David Kelly, Kai Chen, Robert Pinschmidt, Jason P. Rolland, Alexander Ermoshkin, Edward T. Samulsk. </p><p>DeSimone is one of less than twenty individuals who have been elected to all three branches of the National Academies: Institute of Medicine (2014), National Academy of Sciences (2012) and the National Academy of Engineering (2005), and in 2008 he won the $500,000 Lemelson-MIT Prize for Invention and Innovation. He&#39;s the co-founder of several companies, including Micell Technologies, Bioabsorbable Vascular Solutions, Liquidia Technologies and Carbon3D. </p>", "slug": "joseph_desimone", "whotheyare": "The CEO of Carbon3D, Joseph DeSimone has made breakthrough contributions to the field of 3D printing.", "whatotherssay": "", "id": 2457, "photo_url": "https://pe.tedcdn.com/images/ted/28112f9f45745ce586efda47204b26cde106a2d0_254x191.jpg"}], "current_talk": 2216, "description": "What we think of as 3D printing, says Joseph DeSimone, is really just 2D printing over and over ... slowly. Onstage at TED2015, he unveils a bold new technique -- inspired, yes, by Terminator 2 -- that\'s 25 to 100 times faster, and creates smooth, strong parts. Could it finally help to fulfill the tremendous promise of 3D printing?", "language": "en", "url": "https://www.ted.com/talks/joe_desimone_what_if_3d_printing_was_25x_faster", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 77146694}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14961066}, "podcast-high": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 77145249}, "180k": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14718029}, "64k": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5324051}, "1500k": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119233273}, "450k": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36779849}, "podcast-regular": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36895066}, "950k": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 77153379}, "audio-podcast": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6743558}, "podcast-light": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5457515}, "320k": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26081215}, "600k": {"uri": "https://download.ted.com/talks/JosephDeSimone_2015-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49256400}}}, "comments": {"count": 71, "id": 26836, "talk_id": 2216}, "slug": "joe_desimone_what_if_3d_printing_was_25x_faster", "threadId": 26836, "talks": [{"event": "TED2015", "player_talks": [{"event": "TED2015", "slug": "joe_desimone_what_if_3d_printing_was_25x_faster", "filmed": 1426464000, "targeting": {"event": "TED2015", "tag": "demo,design,manufacturing,technology", "id": 2216, "talk": "joe_desimone_what_if_3d_printing_was_25x_faster", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "What if 3D printing was 100x faster?", "postAdDuration": "0.83", "published": 1426790254, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2ef806c0d21c3c82ad49f3735e599b8233f804d5_2880x1620.jpg?quality=89&w=600", "name": "Joseph DeSimone: What if 3D printing was 100x faster?", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["demo", "design", "manufacturing", "technology"], "speaker": "Joseph DeSimone", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 645, "id": 2216, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JosephDeSimone_2015-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2015", "tag": "demo,design,manufacturing,technology", "id": 2216, "talk": "joe_desimone_what_if_3d_printing_was_25x_faster", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2216.json", "stream": "https://hls.ted.com/talks/2216.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2015%26id%3D2216%26tag%3Ddemo%2Cdesign%2Cmanufacturing%2Ctechnology%26talk%3Djoe_desimone_what_if_3d_printing_was_25x_faster%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/joe_desimone_what_if_3d_printing_was_25x_faster"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2ef806c0d21c3c82ad49f3735e599b8233f804d5_2880x1620.jpg?q=50&w=15", "duration": 645, "id": 2216, "ratings": [{"count": 574, "id": 8, "name": "Informative"}, {"count": 547, "id": 9, "name": "Ingenious"}, {"count": 380, "id": 23, "name": "Jaw-dropping"}, {"count": 469, "id": 22, "name": "Fascinating"}, {"count": 50, "id": 1, "name": "Beautiful"}, {"count": 20, "id": 3, "name": "Courageous"}, {"count": 291, "id": 10, "name": "Inspiring"}, {"count": 45, "id": 24, "name": "Persuasive"}, {"count": 19, "id": 7, "name": "Funny"}, {"count": 54, "id": 25, "name": "OK"}, {"count": 4, "id": 26, "name": "Obnoxious"}, {"count": 4, "id": 11, "name": "Longwinded"}, {"count": 11, "id": 2, "name": "Confusing"}, {"count": 14, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Chemist, inventor", "firstname": "Joseph", "title": "", "lastname": "DeSimone", "middleinitial": "", "whylisten": "<p>Joseph DeSimone is a scholar, inventor and serial entrepreneur. A longtime professor at UNC-Chapel Hill, he&#39;s taken leave to become the CEO at Carbon3D, the Silicon Valley 3D printing company he co-founded in 2013. DeSimone, an innovative polymer chemist, has made breakthrough  contributions in fluoropolymer synthesis, colloid science,  nano-biomaterials, green chemistry and most recently 3D printing. His company&#39;s Continuous Liquid Interface Production (CLIP) suggests a breakthrough way to make 3D parts. </p><p>Read the paper in <em><a href=\\"http://www.sciencemag.org/content/347/6228/1349.abstract\\" target=\\"_blank\\">Science</a></em>. Authors: John R. Tumbleston, David Shirvanyants, , Nikita Ermoshkin, Rima Janusziewicz, Ashley R. Johnson, David Kelly, Kai Chen, Robert Pinschmidt, Jason P. Rolland, Alexander Ermoshkin, Edward T. Samulsk. </p><p>DeSimone is one of less than twenty individuals who have been elected to all three branches of the National Academies: Institute of Medicine (2014), National Academy of Sciences (2012) and the National Academy of Engineering (2005), and in 2008 he won the $500,000 Lemelson-MIT Prize for Invention and Innovation. He&#39;s the co-founder of several companies, including Micell Technologies, Bioabsorbable Vascular Solutions, Liquidia Technologies and Carbon3D. </p>", "slug": "joseph_desimone", "whotheyare": "The CEO of Carbon3D, Joseph DeSimone has made breakthrough contributions to the field of 3D printing.", "whatotherssay": "", "id": 2457, "photo_url": "https://pe.tedcdn.com/images/ted/28112f9f45745ce586efda47204b26cde106a2d0_254x191.jpg"}], "title": "What if 3D printing was 100x faster?", "take_action": [], "comments": 26836, "more_resources": [{"status": "approved", "start_at": null, "headline": "The science of a speedy 3D printer", "link_url": "http://www.sciencemag.org/content/347/6228/1349.abstract", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Access Joseph DeSimone\'s paper in *Science* on his \\"continuous liquid interface production\\" technology."}], "hero": "https://pe.tedcdn.com/images/ted/2ef806c0d21c3c82ad49f3735e599b8233f804d5_2880x1620.jpg", "description": "What we think of as 3D printing, says Joseph DeSimone, is really just 2D printing over and over ... slowly. Onstage at TED2015, he unveils a bold new technique -- inspired, yes, by Terminator 2 -- that\'s 25 to 100 times faster, and creates smooth, strong parts. Could it finally help to fulfill the tremendous promise of 3D printing?", "tags": ["demo", "design", "manufacturing", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-hr.mp4"}, "hu": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-sr.mp4"}, "mn": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-uk.mp4"}, "mr": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-mr.mp4"}, "my": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/JosephDeSimone_2015-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JosephDeSimone_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JosephDeSimone_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JosephDeSimone_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2216, "audioDownload": "https://download.ted.com/talks/JosephDeSimone_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 269400, "hero": "https://pe.tedcdn.com/images/ted/a8b91d61708170180654eee378196da920aff138_800x600.jpg", "title": "The world\'s smallest 3D printer", "id": 1299, "speaker": "Klaus Stadlmann", "duration": 508, "slug": "klaus_stadlmann_the_world_s_smallest_3d_printer"}, {"viewed_count": 2792007, "hero": "https://pe.tedcdn.com/images/ted/d7ee00a74fde2812cb5257308d11afca68f81429_1600x1200.jpg", "title": "Printing a human kidney", "id": 1088, "speaker": "Anthony Atala", "duration": 1044, "slug": "anthony_atala_printing_a_human_kidney"}, {"viewed_count": 2458346, "hero": "https://pe.tedcdn.com/images/ted/5067e7078880030b41aea9eb2b6fbddbdedc7728_1600x1200.jpg", "title": "The emergence of \\"4D printing\\"", "id": 1707, "speaker": "Skylar Tibbits", "duration": 502, "slug": "skylar_tibbits_the_emergence_of_4d_printing"}, {"viewed_count": 1589145, "hero": "https://pe.tedcdn.com/images/ted/38b98852807933c323ae04a4fbc6a2974fc57029_2880x1620.jpg", "title": "Forget shopping. Soon you\'ll download your new clothes", "id": 2388, "speaker": "Danit Peleg", "duration": 380, "slug": "danit_peleg_forget_shopping_soon_you_ll_download_your_new_clothes"}, {"viewed_count": 2531228, "hero": "https://pe.tedcdn.com/images/ted/63a0888240fb2364a32f3ace0499aac036ee83ef_2400x1800.jpg", "title": "What\'s next in 3D printing", "id": 2026, "speaker": "Avi Reichental", "duration": 544, "slug": "avi_reichental_what_s_next_in_3d_printing"}, {"viewed_count": 1618373, "hero": "https://pe.tedcdn.com/images/ted/a4817b9887ab589f58ea7258b3e4cecbafa126c2_2880x1620.jpg", "title": "Design at the intersection of technology and biology", "id": 2344, "speaker": "Neri Oxman", "duration": 1056, "slug": "neri_oxman_design_at_the_intersection_of_technology_and_biology"}], "recorded_at": "2015-03-16T00:00:00.000+00:00", "slug": "joe_desimone_what_if_3d_printing_was_25x_faster", "speaker_name": "Joseph DeSimone", "viewed_count": 2515611, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2015", "name": "Joseph DeSimone: What if 3D printing was 100x faster?"}'
+p253
+sS'keywords'
+p254
+(lp255
+Vdemo
+p256
+aVdesign
+p257
+aVmanufacturing
+p258
+aVtechnology
+p259
+asS'datecrawled'
+p260
+g248
+(S'\x07\xe1\n\x17\x01\x17%\x0e\xb4\xcc'
+tRp261
+sS'id'
+p262
+I2216
+ss.

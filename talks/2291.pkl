@@ -1,0 +1,824 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo in 1885, Karl Benz invented the automobile.
+p5
+aVLater that year, he took it out for the first public test drive,
+p6
+aVand \u2014 true story \u2014 crashed into a wall.
+p7
+aVFor the last 130 years,
+p8
+aVwe've been working around that least reliable part of the car, the driver.
+p9
+aVWe've made the car stronger.
+p10
+aVWe've added seat belts, we've added air bags,
+p11
+aVand in the last decade, we've actually started trying to make the car smarter
+p12
+aVto fix that bug, the driver.
+p13
+aa(lp14
+VNow, today I'm going to talk to you a little bit about the difference
+p15
+aVbetween patching around the problem with driver assistance systems
+p16
+aVand actually having fully self-driving cars
+p17
+aVand what they can do for the world.
+p18
+aVI'm also going to talk to you a little bit about our car
+p19
+aVand allow you to see how it sees the world and how it reacts and what it does,
+p20
+aVbut first I'm going to talk a little bit about the problem.
+p21
+aVAnd it's a big problem:
+p22
+aV1.2 million people are killed on the world's roads every year.
+p23
+aVIn America alone, 33,000 people are killed each year.
+p24
+aVTo put that in perspective,
+p25
+aVthat's the same as a 737 falling out of the sky every working day.
+p26
+aVIt's kind of unbelievable.
+p27
+aVCars are sold to us like this,
+p28
+aVbut really, this is what driving's like.
+p29
+aVRight? It's not sunny, it's rainy,
+p30
+aVand you want to do anything other than drive.
+p31
+aVAnd the reason why is this:
+p32
+aVTraffic is getting worse.
+p33
+aVIn America, between 1990 and 2010,
+p34
+aVthe vehicle miles traveled increased by 38 percent.
+p35
+aVWe grew by six percent of roads,
+p36
+aVso it's not in your brains.
+p37
+aVTraffic really is substantially worse than it was not very long ago.
+p38
+aa(lp39
+VAnd all of this has a very human cost.
+p40
+aVSo if you take the average commute time in America, which is about 50 minutes,
+p41
+aVyou multiply that by the 120 million workers we have,
+p42
+aVthat turns out to be about six billion minutes
+p43
+aVwasted in commuting every day.
+p44
+aVNow, that's a big number, so let's put it in perspective.
+p45
+aVYou take that six billion minutes
+p46
+aVand you divide it by the average life expectancy of a person,
+p47
+aVthat turns out to be 162 lifetimes
+p48
+aVspent every day, wasted,
+p49
+aVjust getting from A to B.
+p50
+aVIt's unbelievable.
+p51
+aVAnd then, there are those of us who don't have the privilege
+p52
+aVof sitting in traffic.
+p53
+aVSo this is Steve.
+p54
+aVHe's an incredibly capable guy,
+p55
+aVbut he just happens to be blind,
+p56
+aVand that means instead of a 30-minute drive to work in the morning,
+p57
+aVit's a two-hour ordeal of piecing together bits of public transit
+p58
+aVor asking friends and family for a ride.
+p59
+aVHe doesn't have that same freedom that you and I have to get around.
+p60
+aVWe should do something about that.
+p61
+aa(lp62
+VNow, conventional wisdom would say
+p63
+aVthat we'll just take these driver assistance systems
+p64
+aVand we'll kind of push them and incrementally improve them,
+p65
+aVand over time, they'll turn into self-driving cars.
+p66
+aVWell, I'm here to tell you that's like me saying
+p67
+aVthat if I work really hard at jumping, one day I'll be able to fly.
+p68
+aVWe actually need to do something a little different.
+p69
+aVAnd so I'm going to talk to you about three different ways
+p70
+aVthat self-driving systems are different than driver assistance systems.
+p71
+aVAnd I'm going to start with some of our own experience.
+p72
+aa(lp73
+VSo back in 2013,
+p74
+aVwe had the first test of a self-driving car
+p75
+aVwhere we let regular people use it.
+p76
+aVWell, almost regular \u2014 they were 100 Googlers,
+p77
+aVbut they weren't working on the project.
+p78
+aVAnd we gave them the car and we allowed them to use it in their daily lives.
+p79
+aVBut unlike a real self-driving car, this one had a big asterisk with it:
+p80
+aVThey had to pay attention,
+p81
+aVbecause this was an experimental vehicle.
+p82
+aVWe tested it a lot, but it could still fail.
+p83
+aVAnd so we gave them two hours of training,
+p84
+aVwe put them in the car, we let them use it,
+p85
+aVand what we heard back was something awesome,
+p86
+aVas someone trying to bring a product into the world.
+p87
+aVEvery one of them told us they loved it.
+p88
+aVIn fact, we had a Porsche driver who came in and told us on the first day,
+p89
+aV"This is completely stupid. What are we thinking?"
+p90
+aVBut at the end of it, he said, "Not only should I have it,
+p91
+aVeveryone else should have it, because people are terrible drivers."
+p92
+aVSo this was music to our ears,
+p93
+aVbut then we started to look at what the people inside the car were doing,
+p94
+aVand this was eye-opening.
+p95
+aVNow, my favorite story is this gentleman
+p96
+aVwho looks down at his phone and realizes the battery is low,
+p97
+aVso he turns around like this in the car and digs around in his backpack,
+p98
+aVpulls out his laptop,
+p99
+aVputs it on the seat,
+p100
+aVgoes in the back again,
+p101
+aVdigs around, pulls out the charging cable for his phone,
+p102
+aVfutzes around, puts it into the laptop, puts it on the phone.
+p103
+aVSure enough, the phone is charging.
+p104
+aVAll the time he's been doing 65 miles per hour down the freeway.
+p105
+aVRight? Unbelievable.
+p106
+aVSo we thought about this and we said, it's kind of obvious, right?
+p107
+aVThe better the technology gets,
+p108
+aVthe less reliable the driver is going to get.
+p109
+aVSo by just making the cars incrementally smarter,
+p110
+aVwe're probably not going to see the wins we really need.
+p111
+aa(lp112
+VLet me talk about something a little technical for a moment here.
+p113
+aVSo we're looking at this graph, and along the bottom
+p114
+aVis how often does the car apply the brakes when it shouldn't.
+p115
+aVYou can ignore most of that axis,
+p116
+aVbecause if you're driving around town, and the car starts stopping randomly,
+p117
+aVyou're never going to buy that car.
+p118
+aVAnd the vertical axis is how often the car is going to apply the brakes
+p119
+aVwhen it's supposed to to help you avoid an accident.
+p120
+aVNow, if we look at the bottom left corner here,
+p121
+aVthis is your classic car.
+p122
+aVIt doesn't apply the brakes for you, it doesn't do anything goofy,
+p123
+aVbut it also doesn't get you out of an accident.
+p124
+aVNow, if we want to bring a driver assistance system into a car,
+p125
+aVsay with collision mitigation braking,
+p126
+aVwe're going to put some package of technology on there,
+p127
+aVand that's this curve, and it's going to have some operating properties,
+p128
+aVbut it's never going to avoid all of the accidents,
+p129
+aVbecause it doesn't have that capability.
+p130
+aVBut we'll pick some place along the curve here,
+p131
+aVand maybe it avoids half of accidents that the human driver misses,
+p132
+aVand that's amazing, right?
+p133
+aVWe just reduced accidents on our roads by a factor of two.
+p134
+aVThere are now 17,000 less people dying every year in America.
+p135
+aa(lp136
+VBut if we want a self-driving car,
+p137
+aVwe need a technology curve that looks like this.
+p138
+aVWe're going to have to put more sensors in the vehicle,
+p139
+aVand we'll pick some operating point up here
+p140
+aVwhere it basically never gets into a crash.
+p141
+aVThey'll happen, but very low frequency.
+p142
+aVNow you and I could look at this and we could argue
+p143
+aVabout whether it's incremental, and I could say something like "80-20 rule,"
+p144
+aVand it's really hard to move up to that new curve.
+p145
+aVBut let's look at it from a different direction for a moment.
+p146
+aVSo let's look at how often the technology has to do the right thing.
+p147
+aVAnd so this green dot up here is a driver assistance system.
+p148
+aVIt turns out that human drivers
+p149
+aVmake mistakes that lead to traffic accidents
+p150
+aVabout once every 100,000 miles in America.
+p151
+aVIn contrast, a self-driving system is probably making decisions
+p152
+aVabout 10 times per second,
+p153
+aVso order of magnitude,
+p154
+aVthat's about 1,000 times per mile.
+p155
+aVSo if you compare the distance between these two,
+p156
+aVit's about 10 to the eighth, right?
+p157
+aVEight orders of magnitude.
+p158
+aVThat's like comparing how fast I run
+p159
+aVto the speed of light.
+p160
+aVIt doesn't matter how hard I train, I'm never actually going to get there.
+p161
+aVSo there's a pretty big gap there.
+p162
+aa(lp163
+VAnd then finally, there's how the system can handle uncertainty.
+p164
+aVSo this pedestrian here might be stepping into the road, might not be.
+p165
+aVI can't tell, nor can any of our algorithms,
+p166
+aVbut in the case of a driver assistance system,
+p167
+aVthat means it can't take action, because again,
+p168
+aVif it presses the brakes unexpectedly, that's completely unacceptable.
+p169
+aVWhereas a self-driving system can look at that pedestrian and say,
+p170
+aVI don't know what they're about to do,
+p171
+aVslow down, take a better look, and then react appropriately after that.
+p172
+aa(lp173
+VSo it can be much safer than a driver assistance system can ever be.
+p174
+aVSo that's enough about the differences between the two.
+p175
+aVLet's spend some time talking about how the car sees the world.
+p176
+aa(lp177
+VSo this is our vehicle.
+p178
+aVIt starts by understanding where it is in the world,
+p179
+aVby taking a map and its sensor data and aligning the two,
+p180
+aVand then we layer on top of that what it sees in the moment.
+p181
+aVSo here, all the purple boxes you can see are other vehicles on the road,
+p182
+aVand the red thing on the side over there is a cyclist,
+p183
+aVand up in the distance, if you look really closely,
+p184
+aVyou can see some cones.
+p185
+aVThen we know where the car is in the moment,
+p186
+aVbut we have to do better than that: we have to predict what's going to happen.
+p187
+aVSo here the pickup truck in top right is about to make a left lane change
+p188
+aVbecause the road in front of it is closed,
+p189
+aVso it needs to get out of the way.
+p190
+aVKnowing that one pickup truck is great,
+p191
+aVbut we really need to know what everybody's thinking,
+p192
+aVso it becomes quite a complicated problem.
+p193
+aVAnd then given that, we can figure out how the car should respond in the moment,
+p194
+aVso what trajectory it should follow, how quickly it should slow down or speed up.
+p195
+aVAnd then that all turns into just following a path:
+p196
+aVturning the steering wheel left or right, pressing the brake or gas.
+p197
+aVIt's really just two numbers at the end of the day.
+p198
+aVSo how hard can it really be?
+p199
+aa(lp200
+VBack when we started in 2009,
+p201
+aVthis is what our system looked like.
+p202
+aVSo you can see our car in the middle and the other boxes on the road,
+p203
+aVdriving down the highway.
+p204
+aVThe car needs to understand where it is and roughly where the other vehicles are.
+p205
+aVIt's really a geometric understanding of the world.
+p206
+aVOnce we started driving on neighborhood and city streets,
+p207
+aVthe problem becomes a whole new level of difficulty.
+p208
+aVYou see pedestrians crossing in front of us, cars crossing in front of us,
+p209
+aVgoing every which way,
+p210
+aVthe traffic lights, crosswalks.
+p211
+aVIt's an incredibly complicated problem by comparison.
+p212
+aVAnd then once you have that problem solved,
+p213
+aVthe vehicle has to be able to deal with construction.
+p214
+aVSo here are the cones on the left forcing it to drive to the right,
+p215
+aVbut not just construction in isolation, of course.
+p216
+aVIt has to deal with other people moving through that construction zone as well.
+p217
+aVAnd of course, if anyone's breaking the rules, the police are there
+p218
+aVand the car has to understand that that flashing light on the top of the car
+p219
+aVmeans that it's not just a car, it's actually a police officer.
+p220
+aVSimilarly, the orange box on the side here,
+p221
+aVit's a school bus,
+p222
+aVand we have to treat that differently as well.
+p223
+aa(lp224
+VWhen we're out on the road, other people have expectations:
+p225
+aVSo, when a cyclist puts up their arm,
+p226
+aVit means they're expecting the car to yield to them and make room for them
+p227
+aVto make a lane change.
+p228
+aVAnd when a police officer stood in the road,
+p229
+aVour vehicle should understand that this means stop,
+p230
+aVand when they signal to go, we should continue.
+p231
+aa(lp232
+VNow, the way we accomplish this is by sharing data between the vehicles.
+p233
+aVThe first, most crude model of this
+p234
+aVis when one vehicle sees a construction zone,
+p235
+aVhaving another know about it so it can be in the correct lane
+p236
+aVto avoid some of the difficulty.
+p237
+aVBut we actually have a much deeper understanding of this.
+p238
+aVWe could take all of the data that the cars have seen over time,
+p239
+aVthe hundreds of thousands of pedestrians, cyclists,
+p240
+aVand vehicles that have been out there
+p241
+aVand understand what they look like
+p242
+aVand use that to infer what other vehicles should look like
+p243
+aVand other pedestrians should look like.
+p244
+aVAnd then, even more importantly, we could take from that a model
+p245
+aVof how we expect them to move through the world.
+p246
+aVSo here the yellow box is a pedestrian crossing in front of us.
+p247
+aVHere the blue box is a cyclist and we anticipate
+p248
+aVthat they're going to nudge out and around the car to the right.
+p249
+aVHere there's a cyclist coming down the road
+p250
+aVand we know they're going to continue to drive down the shape of the road.
+p251
+aVHere somebody makes a right turn,
+p252
+aVand in a moment here, somebody's going to make a U-turn in front of us,
+p253
+aVand we can anticipate that behavior and respond safely.
+p254
+aa(lp255
+VNow, that's all well and good for things that we've seen,
+p256
+aVbut of course, you encounter lots of things that you haven't
+p257
+aVseen in the world before.
+p258
+aVAnd so just a couple of months ago,
+p259
+aVour vehicles were driving through Mountain View,
+p260
+aVand this is what we encountered.
+p261
+aVThis is a woman in an electric wheelchair
+p262
+aVchasing a duck in circles on the road. (Laughter)
+p263
+aVNow it turns out, there is nowhere in the DMV handbook
+p264
+aVthat tells you how to deal with that,
+p265
+aVbut our vehicles were able to encounter that,
+p266
+aVslow down, and drive safely.
+p267
+aVNow, we don't have to deal with just ducks.
+p268
+aVWatch this bird fly across in front of us. The car reacts to that.
+p269
+aVHere we're dealing with a cyclist
+p270
+aVthat you would never expect to see anywhere other than Mountain View.
+p271
+aVAnd of course, we have to deal with drivers,
+p272
+aVeven the very small ones.
+p273
+aVWatch to the right as someone jumps out of this truck at us.
+p274
+aVAnd now, watch the left as the car with the green box decides
+p275
+aVhe needs to make a right turn at the last possible moment.
+p276
+aVHere, as we make a lane change, the car to our left decides
+p277
+aVit wants to as well.
+p278
+aVAnd here, we watch a car blow through a red light
+p279
+aVand yield to it.
+p280
+aVAnd similarly, here, a cyclist blowing through that light as well.
+p281
+aVAnd of course, the vehicle responds safely.
+p282
+aVAnd of course, we have people who do I don't know what
+p283
+aVsometimes on the road, like this guy pulling out between two self-driving cars.
+p284
+aVYou have to ask, "What are you thinking?"
+p285
+aV(Laughter)
+p286
+aa(lp287
+VNow, I just fire-hosed you with a lot of stuff there,
+p288
+aVso I'm going to break one of these down pretty quickly.
+p289
+aVSo what we're looking at is the scene with the cyclist again,
+p290
+aVand you might notice in the bottom, we can't actually see the cyclist yet,
+p291
+aVbut the car can: it's that little blue box up there,
+p292
+aVand that comes from the laser data.
+p293
+aVAnd that's not actually really easy to understand,
+p294
+aVso what I'm going to do is I'm going to turn that laser data and look at it,
+p295
+aVand if you're really good at looking at laser data, you can see
+p296
+aVa few dots on the curve there,
+p297
+aVright there, and that blue box is that cyclist.
+p298
+aVNow as our light is red,
+p299
+aVthe cyclist's light has turned yellow already,
+p300
+aVand if you squint, you can see that in the imagery.
+p301
+aVBut the cyclist, we see, is going to proceed through the intersection.
+p302
+aVOur light has now turned green, his is solidly red,
+p303
+aVand we now anticipate that this bike is going to come all the way across.
+p304
+aVUnfortunately the other drivers next to us were not paying as much attention.
+p305
+aVThey started to pull forward, and fortunately for everyone,
+p306
+aVthis cyclists reacts, avoids,
+p307
+aVand makes it through the intersection.
+p308
+aVAnd off we go.
+p309
+aa(lp310
+VNow, as you can see, we've made some pretty exciting progress,
+p311
+aVand at this point we're pretty convinced
+p312
+aVthis technology is going to come to market.
+p313
+aVWe do three million miles of testing in our simulators every single day,
+p314
+aVso you can imagine the experience that our vehicles have.
+p315
+aVWe are looking forward to having this technology on the road,
+p316
+aVand we think the right path is to go through the self-driving
+p317
+aVrather than driver assistance approach
+p318
+aVbecause the urgency is so large.
+p319
+aVIn the time I have given this talk today,
+p320
+aV34 people have died on America's roads.
+p321
+aa(lp322
+VHow soon can we bring it out?
+p323
+aVWell, it's hard to say because it's a really complicated problem,
+p324
+aVbut these are my two boys.
+p325
+aVMy oldest son is 11, and that means in four and a half years,
+p326
+aVhe's going to be able to get his driver's license.
+p327
+aVMy team and I are committed to making sure that doesn't happen.
+p328
+aa(lp329
+VThank you.
+p330
+aa(lp331
+V(Laughter) (Applause)
+p332
+aVChris Anderson: Chris, I've got a question for you.
+p333
+aa(lp334
+VChris Urmson: Sure.
+p335
+aa(lp336
+VCA: So certainly, the mind of your cars is pretty mind-boggling.
+p337
+aVOn this debate between driver-assisted and fully driverless \u2014
+p338
+aVI mean, there's a real debate going on out there right now.
+p339
+aVSo some of the companies, for example, Tesla,
+p340
+aVare going the driver-assisted route.
+p341
+aVWhat you're saying is that that's kind of going to be a dead end
+p342
+aVbecause you can't just keep improving that route and get to fully driverless
+p343
+aVat some point, and then a driver is going to say, "This feels safe,"
+p344
+aVand climb into the back, and something ugly will happen.
+p345
+aa(lp346
+VCU: Right. No, that's exactly right, and it's not to say
+p347
+aVthat the driver assistance systems aren't going to be incredibly valuable.
+p348
+aVThey can save a lot of lives in the interim,
+p349
+aVbut to see the transformative opportunity to help someone like Steve get around,
+p350
+aVto really get to the end case in safety,
+p351
+aVto have the opportunity to change our cities
+p352
+aVand move parking out and get rid of these urban craters we call parking lots,
+p353
+aVit's the only way to go.
+p354
+aa(lp355
+VCA: We will be tracking your progress with huge interest.
+p356
+aVThanks so much, Chris. CU: Thank you. (Applause)
+p357
+aasS'transcript_micsec'
+p358
+(lp359
+I11000
+aI40000
+aI109000
+aI168000
+aI197000
+aI299000
+aI361000
+aI430000
+aI458000
+aI468000
+aI529000
+aI589000
+aI608000
+aI664000
+aI747000
+aI805000
+aI835000
+aI853000
+aI855000
+aI862000
+aI865000
+aI898000
+aI920000
+asS'talk_meta'
+p360
+(dp361
+S'ratings'
+p362
+(dp363
+S'beautiful'
+p364
+I98
+sS'ingenious'
+p365
+I162
+sS'inspiring'
+p366
+I183
+sS'ok'
+p367
+I64
+sS'fascinating'
+p368
+I433
+sS'funny'
+p369
+I39
+sS'total_count'
+p370
+I1803
+sS'persuasive'
+p371
+I106
+sS'longwinded'
+p372
+I14
+sS'informative'
+p373
+I571
+sS'jaw-dropping'
+p374
+I85
+sS'obnoxious'
+p375
+I1
+sS'confusing'
+p376
+I13
+sS'courageous'
+p377
+I16
+sS'unconvincing'
+p378
+I18
+ssS'author'
+p379
+VChris_Urmson;
+p380
+sS'url'
+p381
+S'https://www.ted.com/talks/chris_urmson_how_a_driverless_car_sees_the_road'
+p382
+sS'vidlen'
+p383
+I929
+sS'totalviews'
+p384
+I2062446
+sS'title'
+p385
+VHow a driverless car sees the road
+p386
+sS'downloadlink'
+p387
+Vhttps://download.ted.com/talks/ChrisUrmson_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p388
+sS'datepublished'
+p389
+cdatetime
+datetime
+p390
+(S'\x07\xdf\x06\x1a\x0b\x0e\x00\x00\x00\x00'
+tRp391
+sS'datefilmed'
+p392
+g390
+(S'\x07\xdf\x06\x1a\x0b\x0e\x00\x00\x00\x00'
+tRp393
+sS'alldata_JSON'
+p394
+S'{"viewed_count": 2062446, "speakers": [{"description": "Roboticist", "firstname": "Chris", "title": "", "lastname": "Urmson", "middleinitial": "", "whylisten": "<p>Since 2009, Chris Urmson has headed up Google&rsquo;s self-driving car program. So far, the team&rsquo;s vehicles have driven over three quarters of a million miles. While early models included a driverless Prius that TEDsters got to test- ... um, -not-drive in 2011, more and more the team is building vehicles from the ground up, custom-made to go driverless. </p><p> Prior to joining Google, Umson was on the faculty of the Robotics Institute at Carnegie Mellon University, where his research focused on motion planning and perception for robotic vehicles. During his time at Carnegie Mellon, he served as Director of Technology for the team that won the 2007 DARPA Urban Challenge.</p>    ", "slug": "chris_urmson", "whotheyare": "Chris Umson is the Director of Self-Driving Cars at Google[x].", "whatotherssay": "With these vehicles, the user doesn\\u2019t have to worry about the minutia. They worry about where they\\u2019re going and what they\\u2019re doing along the way.", "id": 2465, "photo_url": "https://pe.tedcdn.com/images/ted/612685c723bb4d0004be392741ad2a0c93e8e803_254x191.jpg"}], "current_talk": 2291, "description": "Statistically, the least reliable part of the car is ... the driver. In 2015, Chris Urmson was head of Google\'s driverless car program, one of several efforts to remove humans from the driver\'s seat. He shares fascinating footage that shows how the car sees the road and makes autonomous decisions about what to do next.", "language": "en", "url": "https://www.ted.com/talks/chris_urmson_how_a_driverless_car_sees_the_road", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110970066}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21443763}, "podcast-high": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110963704}, "180k": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21194774}, "64k": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7641146}, "1500k": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 172034672}, "450k": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 52832875}, "podcast-regular": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 52948119}, "950k": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110971733}, "audio-podcast": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 9643669}, "podcast-light": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7774587}, "320k": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37520087}, "600k": {"uri": "https://download.ted.com/talks/ChrisUrmson_2015-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 70652950}}}, "comments": {"count": 189, "id": 26911, "talk_id": 2291}, "slug": "chris_urmson_how_a_driverless_car_sees_the_road", "threadId": 26911, "talks": [{"event": "TED2015", "player_talks": [{"event": "TED2015", "slug": "chris_urmson_how_a_driverless_car_sees_the_road", "filmed": 1426464000, "targeting": {"event": "TED2015", "tag": "cars,driverless cars,technology,transportation", "id": 2291, "talk": "chris_urmson_how_a_driverless_car_sees_the_road", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "How a driverless car sees the road", "postAdDuration": "0.83", "published": 1435331640, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a1523f43703309c29b372a29981afc7c5f2977b_2880x1620.jpg?quality=89&w=600", "name": "Chris Urmson: How a driverless car sees the road", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["cars", "driverless cars", "technology", "transportation"], "speaker": "Chris Urmson", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 929, "id": 2291, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ChrisUrmson_2015-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2015", "tag": "cars,driverless cars,technology,transportation", "id": 2291, "talk": "chris_urmson_how_a_driverless_car_sees_the_road", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2291.json", "stream": "https://hls.ted.com/talks/2291.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2015%26id%3D2291%26tag%3Dcars%2Cdriverless%2Bcars%2Ctechnology%2Ctransportation%26talk%3Dchris_urmson_how_a_driverless_car_sees_the_road%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/chris_urmson_how_a_driverless_car_sees_the_road"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8a1523f43703309c29b372a29981afc7c5f2977b_2880x1620.jpg?q=50&w=15", "duration": 929, "id": 2291, "ratings": [{"count": 571, "id": 8, "name": "Informative"}, {"count": 98, "id": 1, "name": "Beautiful"}, {"count": 433, "id": 22, "name": "Fascinating"}, {"count": 183, "id": 10, "name": "Inspiring"}, {"count": 85, "id": 23, "name": "Jaw-dropping"}, {"count": 106, "id": 24, "name": "Persuasive"}, {"count": 162, "id": 9, "name": "Ingenious"}, {"count": 39, "id": 7, "name": "Funny"}, {"count": 18, "id": 21, "name": "Unconvincing"}, {"count": 14, "id": 11, "name": "Longwinded"}, {"count": 64, "id": 25, "name": "OK"}, {"count": 16, "id": 3, "name": "Courageous"}, {"count": 1, "id": 26, "name": "Obnoxious"}, {"count": 13, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Roboticist", "firstname": "Chris", "title": "", "lastname": "Urmson", "middleinitial": "", "whylisten": "<p>Since 2009, Chris Urmson has headed up Google&rsquo;s self-driving car program. So far, the team&rsquo;s vehicles have driven over three quarters of a million miles. While early models included a driverless Prius that TEDsters got to test- ... um, -not-drive in 2011, more and more the team is building vehicles from the ground up, custom-made to go driverless. </p><p> Prior to joining Google, Umson was on the faculty of the Robotics Institute at Carnegie Mellon University, where his research focused on motion planning and perception for robotic vehicles. During his time at Carnegie Mellon, he served as Director of Technology for the team that won the 2007 DARPA Urban Challenge.</p>    ", "slug": "chris_urmson", "whotheyare": "Chris Umson is the Director of Self-Driving Cars at Google[x].", "whatotherssay": "With these vehicles, the user doesn\\u2019t have to worry about the minutia. They worry about where they\\u2019re going and what they\\u2019re doing along the way.", "id": 2465, "photo_url": "https://pe.tedcdn.com/images/ted/612685c723bb4d0004be392741ad2a0c93e8e803_254x191.jpg"}], "title": "How a driverless car sees the road", "take_action": null, "comments": 26911, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/8a1523f43703309c29b372a29981afc7c5f2977b_2880x1620.jpg", "description": "Statistically, the least reliable part of the car is ... the driver. In 2015, Chris Urmson was head of Google\'s driverless car program, one of several efforts to remove humans from the driver\'s seat. He shares fascinating footage that shows how the car sees the road and makes autonomous decisions about what to do next.", "tags": ["cars", "driverless cars", "technology", "transportation"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-th.mp4"}, "pl": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ChrisUrmson_2015-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ChrisUrmson_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ChrisUrmson_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ChrisUrmson_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2291, "audioDownload": "https://download.ted.com/talks/ChrisUrmson_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2460394, "hero": "https://pe.tedcdn.com/images/ted/1a26621135203e5d4636221967ff1d30e88faa85_800x600.jpg", "title": "Google\'s driverless car", "id": 1109, "speaker": "Sebastian Thrun", "duration": 254, "slug": "sebastian_thrun_google_s_driverless_car"}, {"viewed_count": 706315, "hero": "https://pe.tedcdn.com/images/ted/8dd859696a6c640e7ee3c0feaa3d3d16f647334b_800x600.jpg", "title": "Making a car for blind drivers", "id": 1158, "speaker": "Dennis Hong", "duration": 548, "slug": "dennis_hong_making_a_car_for_blind_drivers"}, {"viewed_count": 928763, "hero": "https://pe.tedcdn.com/images/ted/f5cdecc9ae7a5f2472047e17c233d68e7d172264_1600x1200.jpg", "title": "New York\'s streets? Not so mean any more", "id": 1838, "speaker": "Janette Sadik-Khan", "duration": 842, "slug": "janette_sadik_khan_new_york_s_streets_not_so_mean_any_more"}, {"viewed_count": 735598, "hero": "https://pe.tedcdn.com/images/ted/15e9b94b9856ac969692bfc5515bd7754e26977b_800x600.jpg", "title": "The future race car -- 150mph, and no driver", "id": 1506, "speaker": "Chris Gerdes", "duration": 647, "slug": "chris_gerdes_the_future_race_car_150mph_and_no_driver"}, {"viewed_count": 826180, "hero": "https://pe.tedcdn.com/images/ted/4165fdc540500a47d00915eb53de831abd15dd3b_1600x1200.jpg", "title": "If cars could talk, accidents might be avoidable", "id": 1724, "speaker": "Jennifer Healey", "duration": 540, "slug": "jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable"}, {"viewed_count": 802636, "hero": "https://pe.tedcdn.com/images/ted/229d850b073d6d8ba1f20ee937e88f51802a0a8d_800x600.jpg", "title": "A future beyond traffic gridlock", "id": 1174, "speaker": "Bill Ford", "duration": 1008, "slug": "bill_ford_a_future_beyond_traffic_gridlock"}], "recorded_at": "2015-03-16T00:00:00.000+00:00", "slug": "chris_urmson_how_a_driverless_car_sees_the_road", "speaker_name": "Chris Urmson", "viewed_count": 2062446, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2015", "name": "Chris Urmson: How a driverless car sees the road"}'
+p395
+sS'keywords'
+p396
+(lp397
+Vcars
+p398
+aVdriverless cars
+p399
+aVtechnology
+p400
+aVtransportation
+p401
+asS'datecrawled'
+p402
+g390
+(S'\x07\xe1\n\x17\x00/\x06\x032\xc6'
+tRp403
+sS'id'
+p404
+I2291
+ss.

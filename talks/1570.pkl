@@ -1,0 +1,766 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, this is my grandfather,
+p5
+aVSalman Schocken,
+p6
+aVwho was born into a poor and uneducated family
+p7
+aVwith six children to feed,
+p8
+aVand when he was 14 years old, he was forced to
+p9
+aVdrop out of school in order to help put bread on the table.
+p10
+aVHe never went back to school.
+p11
+aVInstead, he went on to build a glittering empire
+p12
+aVof department stores.
+p13
+aVSalman was the consummate perfectionist,
+p14
+aVand every one of his stores was a jewel
+p15
+aVof Bauhaus architecture.
+p16
+aVHe was also the ultimate self-learner,
+p17
+aVand like everything else, he did it in grand style.
+p18
+aVHe surrounded himself with an entourage
+p19
+aVof young, unknown scholars like Martin Buber
+p20
+aVand Shai Agnon and Franz Kafka,
+p21
+aVand he paid each one of them a monthly salary
+p22
+aVso that they could write in peace.
+p23
+aa(lp24
+VAnd yet, in the late '30s, Salman saw what's coming.
+p25
+aVHe fled Germany, together with his family,
+p26
+aVleaving everything else behind.
+p27
+aVHis department stores confiscated,
+p28
+aVhe spent the rest of his life in a relentless pursuit
+p29
+aVof art and culture.
+p30
+aVThis high school dropout
+p31
+aVdied at the age of 82,
+p32
+aVa formidable intellectual, cofounder and first CEO
+p33
+aVof the Hebrew University of Jerusalem,
+p34
+aVand founder of Schocken Books,
+p35
+aVan acclaimed imprint that was later acquired
+p36
+aVby Random House.
+p37
+aVSuch is the power of self-study.
+p38
+aa(lp39
+VAnd these are my parents.
+p40
+aVThey too did not enjoy the privilege of college education.
+p41
+aVThey were too busy building a family and a country.
+p42
+aVAnd yet, just like Salman, they were lifelong,
+p43
+aVtenacious self-learners, and our home was stacked
+p44
+aVwith thousands of books, records and artwork.
+p45
+aVI remember quite vividly my father telling me
+p46
+aVthat when everyone in the neighborhood will have a TV set,
+p47
+aVthen we'll buy a normal F.M. radio. (Laughter)
+p48
+aa(lp49
+VAnd that's me,
+p50
+aVI was going to say holding my first abacus,
+p51
+aVbut actually holding what my father would consider
+p52
+aVan ample substitute to an iPad. (Laughter)
+p53
+aVSo one thing that I took from home is this notion
+p54
+aVthat educators don't necessarily have to teach.
+p55
+aVInstead, they can provide an environment and resources
+p56
+aVthat tease out your natural ability to learn on your own.
+p57
+aVSelf-study, self-exploration, self-empowerment:
+p58
+aVthese are the virtues of a great education.
+p59
+aa(lp60
+VSo I'd like to share with you a story about a self-study,
+p61
+aVself-empowering computer science course
+p62
+aVthat I built, together with my brilliant colleague Noam Nisan.
+p63
+aVAs you can see from the pictures, both Noam and I
+p64
+aVhad an early fascination with first principles,
+p65
+aVand over the years, as our knowledge of
+p66
+aVscience and technology became more sophisticated,
+p67
+aVthis early awe with the basics
+p68
+aVhas only intensified.
+p69
+aVSo it's not surprising that, about 12 years ago, when
+p70
+aVNoam and I were already computer science professors,
+p71
+aVwe were equally frustrated by the same phenomenon.
+p72
+aVAs computers became increasingly more complex,
+p73
+aVour students were losing the forest for the trees,
+p74
+aVand indeed, it is impossible to connect
+p75
+aVwith the soul of the machine if you interact
+p76
+aVwith a black box P.C. or a Mac which is shrouded
+p77
+aVby numerous layers of closed, proprietary software.
+p78
+aVSo Noam and I had this insight that if we want our students
+p79
+aVto understand how computers work,
+p80
+aVand understand it in the marrow of their bones,
+p81
+aVthen perhaps the best way to go about it
+p82
+aVis to have them build a complete, working,
+p83
+aVgeneral-purpose, useful computer, hardware and software,
+p84
+aVfrom the ground up, from first principles.
+p85
+aa(lp86
+VNow, we had to start somewhere, and so Noam and I
+p87
+aVdecided to base our cathedral, so to speak,
+p88
+aVon the simplest possible building block,
+p89
+aVwhich is something called NAND.
+p90
+aVIt is nothing more than a trivial logic gate
+p91
+aVwith four input-output states.
+p92
+aVSo we now start this journey by telling our students
+p93
+aVthat God gave us NAND \u2014 (Laughter) \u2014
+p94
+aVand told us to build a computer, and when we asked how,
+p95
+aVGod said, "One step at a time."
+p96
+aVAnd then, following this advice, we start
+p97
+aVwith this lowly, humble NAND gate,
+p98
+aVand we walk our students through an elaborate sequence
+p99
+aVof projects in which they gradually build a chip set,
+p100
+aVa hardware platform, an assembler, a virtual machine,
+p101
+aVa basic operating system and a compiler
+p102
+aVfor a simple, Java-like language that we call "JACK."
+p103
+aVThe students celebrate the end of this tour de force
+p104
+aVby using JACK to write all sorts of cool games
+p105
+aVlike Pong, Snake and Tetris.
+p106
+aVYou can imagine the tremendous joy of playing
+p107
+aVwith a Tetris game that you wrote in JACK
+p108
+aVand then compiled into machine language in a compiler
+p109
+aVthat you wrote also, and then seeing the result
+p110
+aVrunning on a machine that you built starting
+p111
+aVwith nothing more than a few thousand NAND gates.
+p112
+aVIt's a tremendous personal triumph of going
+p113
+aVfrom first principles all the way to a fantastically complex
+p114
+aVand useful system.
+p115
+aa(lp116
+VNoam and I worked five years to facilitate
+p117
+aVthis ascent and to create the tools and infrastructure
+p118
+aVthat will enable students to build it in one semester.
+p119
+aVAnd this is the great team that helped us make it happen.
+p120
+aVThe trick was to decompose the computer's construction
+p121
+aVinto numerous stand-alone modules,
+p122
+aVeach of which could be individually specified,
+p123
+aVbuilt and unit-tested in isolation from the rest of the project.
+p124
+aVAnd from day one, Noam and I decided to put
+p125
+aVall these building blocks freely available in open source
+p126
+aVon the Web.
+p127
+aVSo chip specifications, APIs, project descriptions,
+p128
+aVsoftware tools, hardware simulators, CPU emulators,
+p129
+aVstacks of hundreds of slides, lectures \u2014
+p130
+aVwe laid out everything on the Web
+p131
+aVand invited the world to come over,
+p132
+aVtake whatever they need,
+p133
+aVand do whatever they want with it.
+p134
+aa(lp135
+VAnd then something fascinating happened.
+p136
+aVThe world came.
+p137
+aVAnd in short order, thousands of people
+p138
+aVwere building our machine.
+p139
+aVAnd NAND2Tetris became one of the first
+p140
+aVmassive, open, online courses,
+p141
+aValthough seven years ago we had no idea that what
+p142
+aVwe were doing is called MOOCs.
+p143
+aVWe just observed how self-organized courses
+p144
+aVwere kind of spontaneously spawning
+p145
+aVout of our materials.
+p146
+aVFor example, Pramode C.E.,
+p147
+aVan engineer from Kerala, India,
+p148
+aVhas organized groups of self-learners
+p149
+aVwho build our computer under his good guidance.
+p150
+aVAnd Parag Shah, another engineer, from Mumbai,
+p151
+aVhas unbundled our projects into smaller,
+p152
+aVmore manageable bites that he now serves
+p153
+aVin his pioneering do-it-yourself computer science program.
+p154
+aa(lp155
+VThe people who are attracted to these courses
+p156
+aVtypically have a hacker mentality.
+p157
+aVThey want to figure out how things work,
+p158
+aVand they want to do it in groups,
+p159
+aVlike this hackers club in Washington, D.C.,
+p160
+aVthat uses our materials to offer community courses.
+p161
+aVAnd because these materials are widely available
+p162
+aVand open-source, different people take them
+p163
+aVto very different and unpredictable directions.
+p164
+aVFor example, Yu Fangmin, from Guangzhou,
+p165
+aVhas used FPGA technology
+p166
+aVto build our computer and show others how to do the same
+p167
+aVusing a video clip, and Ben Craddock developed
+p168
+aVa very nice computer game that unfolds
+p169
+aVinside our CPU architecture, which is quite a complex
+p170
+aV3D maze that Ben developed
+p171
+aVusing the Minecraft 3D simulator engine.
+p172
+aVThe Minecraft community went bananas over this project,
+p173
+aVand Ben became an instant media celebrity.
+p174
+aa(lp175
+VAnd indeed, for quite a few people,
+p176
+aVtaking this NAND2Tetris pilgrimage, if you will,
+p177
+aVhas turned into a life-changing experience.
+p178
+aVFor example, take Dan Rounds, who is a music
+p179
+aVand math major from East Lansing, Michigan.
+p180
+aVA few weeks ago, Dan posted a victorious post
+p181
+aVon our website, and I'd like to read it to you.
+p182
+aVSo here's what Dan said.
+p183
+aa(lp184
+V"I did the coursework because understanding computers
+p185
+aVis important to me, just like literacy and numeracy,
+p186
+aVand I made it through. I never worked harder on anything,
+p187
+aVnever been challenged to this degree.
+p188
+aVBut given what I now feel capable of doing,
+p189
+aVI would certainly do it again.
+p190
+aVTo anyone considering NAND2Tetris,
+p191
+aVit's a tough journey, but you'll be profoundly changed."
+p192
+aa(lp193
+VSo Dan demonstrates the many self-learners
+p194
+aVwho take this course off the Web, on their own traction,
+p195
+aVon their own initiative, and it's quite amazing because
+p196
+aVthese people cannot care less about
+p197
+aVgrades.
+p198
+aVThey are doing it because of one motivation only.
+p199
+aVThey have a tremendous passion to learn.
+p200
+aa(lp201
+VAnd with that in mind,
+p202
+aVI'd like to say a few words about traditional college grading.
+p203
+aVI'm sick of it.
+p204
+aVWe are obsessed with grades
+p205
+aVbecause we are obsessed with data,
+p206
+aVand yet grading takes away all the fun from failing,
+p207
+aVand a huge part of education
+p208
+aVis about failing.
+p209
+aVCourage, according to Churchill,
+p210
+aVis the ability to go from one defeat to another
+p211
+aVwithout losing enthusiasm. (Laughter)
+p212
+aVAnd [Joyce] said that mistakes
+p213
+aVare the portals of discovery.
+p214
+aVAnd yet we don't tolerate mistakes,
+p215
+aVand we worship grades.
+p216
+aVSo we collect your B pluses and your A minuses
+p217
+aVand we aggregate them into a number like 3.4,
+p218
+aVwhich is stamped on your forehead
+p219
+aVand sums up who you are.
+p220
+aVWell, in my opinion, we went too far with this nonsense,
+p221
+aVand grading became degrading.
+p222
+aa(lp223
+VSo with that, I'd like to say a few words about upgrading,
+p224
+aVand share with you a glimpse from my current project,
+p225
+aVwhich is different from the previous one,
+p226
+aVbut it shares exactly the same characteristics
+p227
+aVof self-learning, learning by doing,
+p228
+aVself-exploration and community-building,
+p229
+aVand this project deals with K-12 math education,
+p230
+aVbeginning with early age math,
+p231
+aVand we do it on tablets because we believe that
+p232
+aVmath, like anything else, should be taught hands on.
+p233
+aa(lp234
+VSo here's what we do. Basically, we developed
+p235
+aVnumerous mobile apps, every one of them explaining
+p236
+aVa particular concept in math.
+p237
+aVSo for example, let's take area.
+p238
+aVWhen you deal with a concept like area \u2014
+p239
+aVwell, we also provide a set of tools that the child
+p240
+aVis invited to experiment with in order to learn.
+p241
+aVSo if area is what interests us, then one thing
+p242
+aVwhich is natural to do is to tile the area
+p243
+aVof this particular shape and simply count
+p244
+aVhow many tiles it takes to cover it completely.
+p245
+aVAnd this little exercise here gives you a first
+p246
+aVgood insight of the notion of area.
+p247
+aa(lp248
+VMoving along, what about the area of this figure?
+p249
+aVWell, if you try to tile it, it doesn't work too well, does it.
+p250
+aVSo instead, you can experiment
+p251
+aVwith these different tools here by some process
+p252
+aVof guided trial and error,
+p253
+aVand at some point you will discover that one thing
+p254
+aVthat you can do among several legitimate transformations
+p255
+aVis the following one. You can cut the figure,
+p256
+aVyou can rearrange the parts, you can glue them
+p257
+aVand then proceed to tile just like we did before.
+p258
+aV(Applause)
+p259
+aVNow this particular transformation
+p260
+aVdid not change the area of the original figure,
+p261
+aVso a six-year-old who plays with this
+p262
+aVhas just discovered a clever algorithm
+p263
+aVto compute the area of any given parallelogram.
+p264
+aa(lp265
+VWe don't replace teachers, by the way.
+p266
+aVWe believe that teachers should be empowered, not replaced.
+p267
+aa(lp268
+VMoving along, what about the area of a triangle?
+p269
+aVSo after some guided trial and error,
+p270
+aVthe child will discover, with or without help,
+p271
+aVthat he or she can duplicate the original figure
+p272
+aVand then take the result, transpose it,
+p273
+aVglue it to the original and then proceed [with] what we did before:
+p274
+aVcut, rearrange, paste \u2014 oops\u2014 paste and glue,
+p275
+aVand tile.
+p276
+aVNow this transformation has doubled the area
+p277
+aVof the original figure, and therefore we have just learned
+p278
+aVthat the area of the triangle equals the area of this rectangle
+p279
+aVdivided by two.
+p280
+aVBut we discovered it by self-exploration.
+p281
+aa(lp282
+VSo, in addition to learning some useful geometry,
+p283
+aVthe child has been exposed to some pretty sophisticated
+p284
+aVscience strategies, like reduction,
+p285
+aVwhich is the art of
+p286
+aVtransforming a complex problem into a simple one,
+p287
+aVor generalization, which is at the heart
+p288
+aVof any scientific discipline,
+p289
+aVor the fact that some properties are invariant
+p290
+aVunder some transformations.
+p291
+aVAnd all this is something that a very young child
+p292
+aVcan pick up using such mobile apps.
+p293
+aVSo presently, we are doing the following:
+p294
+aVFirst of all, we are decomposing the K-12 math curriculum
+p295
+aVinto numerous such apps.
+p296
+aVAnd because we cannot do it on our own,
+p297
+aVwe've developed a very fancy authoring tool
+p298
+aVthat any author, any parent or actually anyone
+p299
+aVwho has an interest in math education,
+p300
+aVcan use this authoring tool to develop similar apps
+p301
+aVon tablets without programming.
+p302
+aVAnd finally, we are putting together an adaptive ecosystem
+p303
+aVthat will match different learners
+p304
+aVwith different apps according to their evolving learning style.
+p305
+aa(lp306
+VThe driving force behind this project
+p307
+aVis my colleague Shmulik London,
+p308
+aVand, you see, just like
+p309
+aVSalman did about 90 years ago,
+p310
+aVthe trick is to surround yourself with brilliant people,
+p311
+aVbecause at the end,
+p312
+aVit's all about people.
+p313
+aVAnd a few years ago, I was walking in Tel Aviv
+p314
+aVand I saw this graffiti on a wall,
+p315
+aVand I found it so compelling
+p316
+aVthat by now I preach it to my students,
+p317
+aVand I'd like to try to preach it to you.
+p318
+aVNow, I don't know how many people here are familiar
+p319
+aVwith the term "mensch."
+p320
+aVIt basically means to be human
+p321
+aVand to do the right thing.
+p322
+aVAnd with that, what this graffiti says is,
+p323
+aV"High-tech schmigh-tech.
+p324
+aVThe most important thing is to be a mensch." (Laughter)
+p325
+aVThank you. (Applause)
+p326
+aV(Applause)
+p327
+aasS'transcript_micsec'
+p328
+(lp329
+I14000
+aI73000
+aI113000
+aI148000
+aI181000
+aI260000
+aI355000
+aI415000
+aI467000
+aI526000
+aI551000
+aI574000
+aI601000
+aI657000
+aI693000
+aI737000
+aI788000
+aI793000
+aI841000
+aI919000
+asS'talk_meta'
+p330
+(dp331
+S'ratings'
+p332
+(dp333
+S'ingenious'
+p334
+I202
+sS'beautiful'
+p335
+I34
+sS'inspiring'
+p336
+I408
+sS'ok'
+p337
+I31
+sS'fascinating'
+p338
+I172
+sS'funny'
+p339
+I8
+sS'total_count'
+p340
+I1246
+sS'persuasive'
+p341
+I111
+sS'longwinded'
+p342
+I11
+sS'informative'
+p343
+I157
+sS'jaw-dropping'
+p344
+I56
+sS'obnoxious'
+p345
+I5
+sS'confusing'
+p346
+I2
+sS'courageous'
+p347
+I36
+sS'unconvincing'
+p348
+I13
+ssS'author'
+p349
+VShimon_Schocken;
+p350
+sS'url'
+p351
+S'https://www.ted.com/talks/shimon_schocken_the_self_organizing_computer_course'
+p352
+sS'vidlen'
+p353
+I985
+sS'totalviews'
+p354
+I986108
+sS'title'
+p355
+VThe self-organizing computer course
+p356
+sS'downloadlink'
+p357
+Vhttps://download.ted.com/talks/ShimonSchocken_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p358
+sS'datepublished'
+p359
+cdatetime
+datetime
+p360
+(S'\x07\xdc\n\x04\x0b\x00/\x00\x00\x00'
+tRp361
+sS'datefilmed'
+p362
+g360
+(S'\x07\xdc\n\x04\x0b\x00/\x00\x00\x00'
+tRp363
+sS'alldata_JSON'
+p364
+S'{"viewed_count": 986108, "speakers": [{"description": "Computer Scientist, Educator", "firstname": "Shimon", "title": "", "lastname": "Schocken", "middleinitial": "", "whylisten": "<p>Shimon Schocken is a former dean at <a href=\\"http://portal.idc.ac.il/en/Main/homepage/Pages/homepage.aspx\\" target=\\"_blank\\">Interdisciplinary Center (IDC) Herzliya</a>, a new Israeli private university which he helped found in 1995. He&#39;s also taught at NYU, Harvard and Stanford. Together with Noam Nisan he developed a freely available, open-source, self-paced program for learning applied computer science: <a href=\\"http://www1.idc.ac.il/tecs/\\" target=\\"_blank\\">The Elements of Computing Systems</a>. Offered in 2005, this led to one of the first successful open online courses. Now, courses based on the approach are offered by traditional universities as well as in crowd-sourced settings, and have been taken freely by thousands of self-learners over the web. Registration, lecture and project schedules are managed by volunteer course coordinators, and student questions are answered by the course alumni community. </p><p><br />His current project focuses on developing instructional materials for early-age math education, which he thinks can be transformed using low-cost tablet computers. He uses his other life passion, mountain biking, to teach adolescent  boys in Israel\\u02bcs juvenile detention centers valuable life lessons  through challenging bike rides in remote locations. He was co-organizer  and program chair of&nbsp;<a href=\\"http://www.tedxtelaviv.com/\\" target=\\"_blank\\">TEDxTelAviv 2010</a>.</p>", "slug": "shimon_schocken", "whotheyare": "Shimon Schocken is a computer science professor and dedicated educator.", "whatotherssay": "Thank you\\ufeff so much sir, for making this freely accessible. We students from developing countries really need this kind of stuff.", "id": 868, "photo_url": "https://pe.tedcdn.com/images/ted/dd5c89877c055dae2ed02e5954fec7059e1cbd18_254x191.jpg"}], "current_talk": 1570, "description": "Shimon Schocken and Noam Nisan developed a curriculum for their students to build a computer, piece by piece. When they put the course online -- giving away the tools, simulators, chip specifications and other building blocks -- they were surprised that thousands jumped at the opportunity to learn, working independently as well as organizing their own classes in the first Massive Open Online Course (MOOC). A call to forget about grades and tap into the self-motivation to learn.", "language": "en", "url": "https://www.ted.com/talks/shimon_schocken_the_self_organizing_computer_course", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115167204}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22599973}, "podcast-high": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115162186}, "180k": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22480501}, "64k": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8102011}, "1500k": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 179831431}, "450k": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55703907}, "podcast-regular": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55972385}, "950k": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114926318}, "audio-podcast": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10051451}, "podcast-light": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8206843}, "320k": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39719988}, "600k": {"uri": "https://download.ted.com/talks/ShimonSchocken_2012G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74453223}}}, "comments": {"count": 94, "id": 15361, "talk_id": 1570}, "slug": "shimon_schocken_the_self_organizing_computer_course", "threadId": 15361, "talks": [{"event": "TEDGlobal 2012", "player_talks": [{"event": "TEDGlobal 2012", "slug": "shimon_schocken_the_self_organizing_computer_course", "filmed": 1340668800, "targeting": {"event": "TEDGlobal 2012", "tag": "code,computers,education,open-source,technology", "id": 1570, "talk": "shimon_schocken_the_self_organizing_computer_course", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "The self-organizing computer course", "postAdDuration": "0.83", "published": 1349362847, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b5a6709fd1913ee333964a645d9c8b271ed82da5_1600x1200.jpg?quality=89&w=600", "name": "Shimon Schocken: The self-organizing computer course", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["code", "computers", "education", "open-source", "technology"], "speaker": "Shimon Schocken", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 985, "id": 1570, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ShimonSchocken_2012G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2012", "tag": "code,computers,education,open-source,technology", "id": 1570, "talk": "shimon_schocken_the_self_organizing_computer_course", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1570.json", "stream": "https://hls.ted.com/talks/1570.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2012%26id%3D1570%26tag%3Dcode%2Ccomputers%2Ceducation%2Copen-source%2Ctechnology%26talk%3Dshimon_schocken_the_self_organizing_computer_course%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/shimon_schocken_the_self_organizing_computer_course"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b5a6709fd1913ee333964a645d9c8b271ed82da5_1600x1200.jpg?q=50&w=15", "duration": 985, "id": 1570, "ratings": [{"count": 56, "id": 23, "name": "Jaw-dropping"}, {"count": 408, "id": 10, "name": "Inspiring"}, {"count": 111, "id": 24, "name": "Persuasive"}, {"count": 31, "id": 25, "name": "OK"}, {"count": 157, "id": 8, "name": "Informative"}, {"count": 202, "id": 9, "name": "Ingenious"}, {"count": 172, "id": 22, "name": "Fascinating"}, {"count": 11, "id": 11, "name": "Longwinded"}, {"count": 13, "id": 21, "name": "Unconvincing"}, {"count": 34, "id": 1, "name": "Beautiful"}, {"count": 36, "id": 3, "name": "Courageous"}, {"count": 8, "id": 7, "name": "Funny"}, {"count": 5, "id": 26, "name": "Obnoxious"}, {"count": 2, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Computer Scientist, Educator", "firstname": "Shimon", "title": "", "lastname": "Schocken", "middleinitial": "", "whylisten": "<p>Shimon Schocken is a former dean at <a href=\\"http://portal.idc.ac.il/en/Main/homepage/Pages/homepage.aspx\\" target=\\"_blank\\">Interdisciplinary Center (IDC) Herzliya</a>, a new Israeli private university which he helped found in 1995. He&#39;s also taught at NYU, Harvard and Stanford. Together with Noam Nisan he developed a freely available, open-source, self-paced program for learning applied computer science: <a href=\\"http://www1.idc.ac.il/tecs/\\" target=\\"_blank\\">The Elements of Computing Systems</a>. Offered in 2005, this led to one of the first successful open online courses. Now, courses based on the approach are offered by traditional universities as well as in crowd-sourced settings, and have been taken freely by thousands of self-learners over the web. Registration, lecture and project schedules are managed by volunteer course coordinators, and student questions are answered by the course alumni community. </p><p><br />His current project focuses on developing instructional materials for early-age math education, which he thinks can be transformed using low-cost tablet computers. He uses his other life passion, mountain biking, to teach adolescent  boys in Israel\\u02bcs juvenile detention centers valuable life lessons  through challenging bike rides in remote locations. He was co-organizer  and program chair of&nbsp;<a href=\\"http://www.tedxtelaviv.com/\\" target=\\"_blank\\">TEDxTelAviv 2010</a>.</p>", "slug": "shimon_schocken", "whotheyare": "Shimon Schocken is a computer science professor and dedicated educator.", "whatotherssay": "Thank you\\ufeff so much sir, for making this freely accessible. We students from developing countries really need this kind of stuff.", "id": 868, "photo_url": "https://pe.tedcdn.com/images/ted/dd5c89877c055dae2ed02e5954fec7059e1cbd18_254x191.jpg"}], "title": "The self-organizing computer course", "take_action": [{"status": "approved", "start_at": null, "link_url": "http://www.nand2tetris.org/", "eyebrow": null, "end_at": null, "verb": "learn", "published": true, "visible_url": "nand2tetris.org", "type": "take_action", "blurb": "**Learn** how to build a general-purpose computer system with these software tools and project materials."}], "comments": 15361, "more_resources": [{"status": "approved", "publisher": "The MIT Press", "start_at": null, "author": "Noam Nisan and Shimon Schocken", "headline": "*The Elements of Computing Systems*", "link_url": "http://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/e5f4716ef10e4c35403e0dc469713185c6498858_450x506.jpg", "year": "2005", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/b5a6709fd1913ee333964a645d9c8b271ed82da5_1600x1200.jpg", "description": "Shimon Schocken and Noam Nisan developed a curriculum for their students to build a computer, piece by piece. When they put the course online -- giving away the tools, simulators, chip specifications and other building blocks -- they were surprised that thousands jumped at the opportunity to learn, working independently as well as organizing their own classes in the first Massive Open Online Course (MOOC). A call to forget about grades and tap into the self-motivation to learn.", "tags": ["code", "computers", "education", "open-source", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p-sk.mp4", "name": "Slovak"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ShimonSchocken_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ShimonSchocken_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ShimonSchocken_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1570, "audioDownload": "https://download.ted.com/talks/ShimonSchocken_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2314249, "hero": "https://pe.tedcdn.com/images/ted/a512e584f64e2a30945af3c91101253c92a874fa_1600x1200.jpg", "title": "What we\'re learning from online education", "id": 1531, "speaker": "Daphne Koller", "duration": 1240, "slug": "daphne_koller_what_we_re_learning_from_online_education"}, {"viewed_count": 1496508, "hero": "https://pe.tedcdn.com/images/ted/20665_480x360.jpg", "title": "Kids can teach themselves", "id": 175, "speaker": "Sugata Mitra", "duration": 1259, "slug": "sugata_mitra_shows_how_kids_teach_themselves"}, {"viewed_count": 542501, "hero": "https://pe.tedcdn.com/images/ted/fc67f4a42d37703a44c24063adf3bf799ebf83ca_800x600.jpg", "title": "What a bike ride can teach you", "id": 1009, "speaker": "Shimon Schocken", "duration": 946, "slug": "shimon_schocken_s_rides_of_hope"}, {"viewed_count": 698112, "hero": "https://pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg", "title": "Unleash your creativity in a Fab Lab", "id": 90, "speaker": "Neil Gershenfeld", "duration": 1038, "slug": "neil_gershenfeld_on_fab_labs"}, {"viewed_count": 1504144, "hero": "https://pe.tedcdn.com/images/ted/31e1e3ed75cd3ab7fc08818c5d6a78795d609824_800x600.jpg", "title": "Teaching kids real math with computers", "id": 1007, "speaker": "Conrad Wolfram", "duration": 1039, "slug": "conrad_wolfram_teaching_kids_real_math_with_computers"}, {"viewed_count": 1005306, "hero": "https://pe.tedcdn.com/images/ted/092f184f6625c2aeef10949c8d7b2aa14ba4132b_2880x1620.jpg", "title": "Meet the inventor of the electronic spreadsheet", "id": 2664, "speaker": "Dan Bricklin", "duration": 720, "slug": "dan_bricklin_meet_the_inventor_of_the_electronic_spreadsheet"}], "recorded_at": "2012-06-26T00:00:00.000+00:00", "slug": "shimon_schocken_the_self_organizing_computer_course", "speaker_name": "Shimon Schocken", "viewed_count": 986108, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2012", "name": "Shimon Schocken: The self-organizing computer course"}'
+p365
+sS'keywords'
+p366
+(lp367
+Vcode
+p368
+aVcomputers
+p369
+aVeducation
+p370
+aVopen-source
+p371
+aVtechnology
+p372
+asS'datecrawled'
+p373
+g360
+(S'\x07\xe1\n\x17\x01\r)\n\x00z'
+tRp374
+sS'id'
+p375
+I1570
+ss.

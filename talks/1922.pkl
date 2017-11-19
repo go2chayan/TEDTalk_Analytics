@@ -1,0 +1,722 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIntelligence \u2014 what is it?
+p5
+aVIf we take a look back at the history
+p6
+aVof how intelligence has been viewed,
+p7
+aVone seminal example has been
+p8
+aVEdsger Dijkstra's famous quote that
+p9
+aV"the question of whether a machine can think
+p10
+aVis about as interesting
+p11
+aVas the question of whether a submarine
+p12
+aVcan swim."
+p13
+aVNow, Edsger Dijkstra, when he wrote this,
+p14
+aVintended it as a criticism
+p15
+aVof the early pioneers of computer science,
+p16
+aVlike Alan Turing.
+p17
+aVHowever, if you take a look back
+p18
+aVand think about what have been
+p19
+aVthe most empowering innovations
+p20
+aVthat enabled us to build
+p21
+aVartificial machines that swim
+p22
+aVand artificial machines that [fly],
+p23
+aVyou find that it was only through understanding
+p24
+aVthe underlying physical mechanisms
+p25
+aVof swimming and flight
+p26
+aVthat we were able to build these machines.
+p27
+aVAnd so, several years ago,
+p28
+aVI undertook a program to try to understand
+p29
+aVthe fundamental physical mechanisms
+p30
+aVunderlying intelligence.
+p31
+aa(lp32
+VLet's take a step back.
+p33
+aVLet's first begin with a thought experiment.
+p34
+aVPretend that you're an alien race
+p35
+aVthat doesn't know anything about Earth biology
+p36
+aVor Earth neuroscience or Earth intelligence,
+p37
+aVbut you have amazing telescopes
+p38
+aVand you're able to watch the Earth,
+p39
+aVand you have amazingly long lives,
+p40
+aVso you're able to watch the Earth
+p41
+aVover millions, even billions of years.
+p42
+aVAnd you observe a really strange effect.
+p43
+aVYou observe that, over the course of the millennia,
+p44
+aVEarth is continually bombarded with asteroids
+p45
+aVup until a point,
+p46
+aVand that at some point,
+p47
+aVcorresponding roughly to our year, 2000 AD,
+p48
+aVasteroids that are on
+p49
+aVa collision course with the Earth
+p50
+aVthat otherwise would have collided
+p51
+aVmysteriously get deflected
+p52
+aVor they detonate before they can hit the Earth.
+p53
+aVNow of course, as earthlings,
+p54
+aVwe know the reason would be
+p55
+aVthat we're trying to save ourselves.
+p56
+aVWe're trying to prevent an impact.
+p57
+aVBut if you're an alien race
+p58
+aVwho doesn't know any of this,
+p59
+aVdoesn't have any concept of Earth intelligence,
+p60
+aVyou'd be forced to put together
+p61
+aVa physical theory that explains how,
+p62
+aVup until a certain point in time,
+p63
+aVasteroids that would demolish the surface of a planet
+p64
+aVmysteriously stop doing that.
+p65
+aVAnd so I claim that this is the same question
+p66
+aVas understanding the physical nature of intelligence.
+p67
+aa(lp68
+VSo in this program that I undertook several years ago,
+p69
+aVI looked at a variety of different threads
+p70
+aVacross science, across a variety of disciplines,
+p71
+aVthat were pointing, I think,
+p72
+aVtowards a single, underlying mechanism
+p73
+aVfor intelligence.
+p74
+aVIn cosmology, for example,
+p75
+aVthere have been a variety of different threads of evidence
+p76
+aVthat our universe appears to be finely tuned
+p77
+aVfor the development of intelligence,
+p78
+aVand, in particular, for the development
+p79
+aVof universal states
+p80
+aVthat maximize the diversity of possible futures.
+p81
+aVIn game play, for example, in Go \u2014
+p82
+aVeveryone remembers in 1997
+p83
+aVwhen IBM's Deep Blue beat  Garry Kasparov at chess \u2014
+p84
+aVfewer people are aware
+p85
+aVthat in the past 10 years or so,
+p86
+aVthe game of Go,
+p87
+aVarguably a much more challenging game
+p88
+aVbecause it has a much higher branching factor,
+p89
+aVhas also started to succumb
+p90
+aVto computer game players
+p91
+aVfor the same reason:
+p92
+aVthe best techniques right now for computers playing Go
+p93
+aVare techniques that try to maximize future options
+p94
+aVduring game play.
+p95
+aVFinally, in robotic motion planning,
+p96
+aVthere have been a variety of recent techniques
+p97
+aVthat have tried to take advantage
+p98
+aVof abilities of robots to maximize
+p99
+aVfuture freedom of action
+p100
+aVin order to accomplish complex tasks.
+p101
+aVAnd so, taking all of these different threads
+p102
+aVand putting them together,
+p103
+aVI asked, starting several years ago,
+p104
+aVis there an underlying mechanism for intelligence
+p105
+aVthat we can factor out
+p106
+aVof all of these different threads?
+p107
+aVIs there a single equation for intelligence?
+p108
+aa(lp109
+VAnd the answer, I believe, is yes. ["F = T \u2207 S\u03c4"]
+p110
+aVWhat you're seeing is probably
+p111
+aVthe closest equivalent to an E = mc²
+p112
+aVfor intelligence that I've seen.
+p113
+aVSo what you're seeing here
+p114
+aVis a statement of correspondence
+p115
+aVthat intelligence is a force, F,
+p116
+aVthat acts so as to maximize future freedom of action.
+p117
+aVIt acts to maximize future freedom of action,
+p118
+aVor keep options open,
+p119
+aVwith some strength T,
+p120
+aVwith the diversity of possible accessible futures, S,
+p121
+aVup to some future time horizon, tau.
+p122
+aVIn short, intelligence doesn't like to get trapped.
+p123
+aVIntelligence tries to maximize future freedom of action
+p124
+aVand keep options open.
+p125
+aVAnd so, given this one equation,
+p126
+aVit's natural to ask, so what can you do with this?
+p127
+aVHow predictive is it?
+p128
+aVDoes it predict human-level intelligence?
+p129
+aVDoes it predict artificial intelligence?
+p130
+aVSo I'm going to show you now a video
+p131
+aVthat will, I think, demonstrate
+p132
+aVsome of the amazing applications
+p133
+aVof just this single equation.
+p134
+aa(lp135
+V(Video) Narrator: Recent research in cosmology
+p136
+aVhas suggested that universes that produce
+p137
+aVmore disorder, or "entropy," over their lifetimes
+p138
+aVshould tend to have more favorable conditions
+p139
+aVfor the existence of intelligent beings such as ourselves.
+p140
+aVBut what if that tentative cosmological connection
+p141
+aVbetween entropy and intelligence
+p142
+aVhints at a deeper relationship?
+p143
+aVWhat if intelligent behavior doesn't just correlate
+p144
+aVwith the production of long-term entropy,
+p145
+aVbut actually emerges directly from it?
+p146
+aVTo find out, we developed a software engine
+p147
+aVcalled Entropica, designed to maximize
+p148
+aVthe production of long-term entropy
+p149
+aVof any system that it finds itself in.
+p150
+aVAmazingly, Entropica was able to pass
+p151
+aVmultiple animal intelligence tests, play human games,
+p152
+aVand even earn money trading stocks,
+p153
+aVall without being instructed to do so.
+p154
+aVHere are some examples of Entropica in action.
+p155
+aa(lp156
+VJust like a human standing upright without falling over,
+p157
+aVhere we see Entropica
+p158
+aVautomatically balancing a pole using a cart.
+p159
+aVThis behavior is remarkable in part
+p160
+aVbecause we never gave Entropica a goal.
+p161
+aVIt simply decided on its own to balance the pole.
+p162
+aVThis balancing ability will have appliactions
+p163
+aVfor humanoid robotics
+p164
+aVand human assistive technologies.
+p165
+aVJust as some animals can use objects
+p166
+aVin their environments as tools
+p167
+aVto reach into narrow spaces,
+p168
+aVhere we see that Entropica,
+p169
+aVagain on its own initiative,
+p170
+aVwas able to move a large disk representing an animal
+p171
+aVaround so as to cause a small disk,
+p172
+aVrepresenting a tool, to reach into a confined space
+p173
+aVholding a third disk
+p174
+aVand release the third disk from its initially fixed position.
+p175
+aVThis tool use ability will have applications
+p176
+aVfor smart manufacturing and agriculture.
+p177
+aVIn addition, just as some other animals
+p178
+aVare able to cooperate by pulling opposite ends of a rope
+p179
+aVat the same time to release food,
+p180
+aVhere we see that Entropica is able to accomplish
+p181
+aVa model version of that task.
+p182
+aVThis cooperative ability has interesting implications
+p183
+aVfor economic planning and a variety of other fields.
+p184
+aa(lp185
+VEntropica is broadly applicable
+p186
+aVto a variety of domains.
+p187
+aVFor example, here we see it successfully
+p188
+aVplaying a game of pong against itself,
+p189
+aVillustrating its potential for gaming.
+p190
+aVHere we see Entropica orchestrating
+p191
+aVnew connections on a social network
+p192
+aVwhere friends are constantly falling out of touch
+p193
+aVand successfully keeping the network well connected.
+p194
+aVThis same network orchestration ability
+p195
+aValso has applications in health care,
+p196
+aVenergy, and intelligence.
+p197
+aVHere we see Entropica directing the paths
+p198
+aVof a fleet of ships,
+p199
+aVsuccessfully discovering and utilizing the Panama Canal
+p200
+aVto globally extend its reach from the Atlantic
+p201
+aVto the Pacific.
+p202
+aVBy the same token, Entropica
+p203
+aVis broadly applicable to problems
+p204
+aVin autonomous defense, logistics and transportation.
+p205
+aa(lp206
+VFinally, here we see Entropica
+p207
+aVspontaneously discovering and executing
+p208
+aVa buy-low, sell-high strategy
+p209
+aVon a simulated range traded stock,
+p210
+aVsuccessfully growing assets under management
+p211
+aVexponentially.
+p212
+aVThis risk management ability
+p213
+aVwill have broad applications in finance
+p214
+aVand insurance.
+p215
+aa(lp216
+VAlex Wissner-Gross: So what you've just seen
+p217
+aVis that a variety of signature human intelligent
+p218
+aVcognitive behaviors
+p219
+aVsuch as tool use and walking upright
+p220
+aVand social cooperation
+p221
+aVall follow from a single equation,
+p222
+aVwhich drives a system
+p223
+aVto maximize its future freedom of action.
+p224
+aa(lp225
+VNow, there's a profound irony here.
+p226
+aVGoing back to the beginning
+p227
+aVof the usage of the term robot,
+p228
+aVthe play "RUR,"
+p229
+aVthere was always a concept
+p230
+aVthat if we developed machine intelligence,
+p231
+aVthere would be a cybernetic revolt.
+p232
+aVThe machines would rise up against us.
+p233
+aVOne major consequence of this work
+p234
+aVis that maybe all of these decades,
+p235
+aVwe've had the whole concept of cybernetic revolt
+p236
+aVin reverse.
+p237
+aVIt's not that machines first become intelligent
+p238
+aVand then megalomaniacal
+p239
+aVand try to take over the world.
+p240
+aVIt's quite the opposite,
+p241
+aVthat the urge to take control
+p242
+aVof all possible futures
+p243
+aVis a more fundamental principle
+p244
+aVthan that of intelligence,
+p245
+aVthat general intelligence may in fact emerge
+p246
+aVdirectly from this sort of control-grabbing,
+p247
+aVrather than vice versa.
+p248
+aa(lp249
+VAnother important consequence is goal seeking.
+p250
+aVI'm often asked, how does the ability to seek goals
+p251
+aVfollow from this sort of framework?
+p252
+aVAnd the answer is, the ability to seek goals
+p253
+aVwill follow directly from this
+p254
+aVin the following sense:
+p255
+aVjust like you would travel through a tunnel,
+p256
+aVa bottleneck in your future path space,
+p257
+aVin order to achieve many other
+p258
+aVdiverse objectives later on,
+p259
+aVor just like you would invest
+p260
+aVin a financial security,
+p261
+aVreducing your short-term liquidity
+p262
+aVin order to increase your wealth over the long term,
+p263
+aVgoal seeking emerges directly
+p264
+aVfrom a long-term drive
+p265
+aVto increase future freedom of action.
+p266
+aa(lp267
+VFinally, Richard Feynman, famous physicist,
+p268
+aVonce wrote that if human civilization were destroyed
+p269
+aVand you could pass only a single concept
+p270
+aVon to our descendants
+p271
+aVto help them rebuild civilization,
+p272
+aVthat concept should be
+p273
+aVthat all matter around us
+p274
+aVis made out of tiny elements
+p275
+aVthat attract each other when they're far apart
+p276
+aVbut repel each other when they're close together.
+p277
+aVMy equivalent of that statement
+p278
+aVto pass on to descendants
+p279
+aVto help them build artificial intelligences
+p280
+aVor to help them understand human intelligence,
+p281
+aVis the following:
+p282
+aVIntelligence should be viewed
+p283
+aVas a physical process
+p284
+aVthat tries to maximize future freedom of action
+p285
+aVand avoid constraints in its own future.
+p286
+aa(lp287
+VThank you very much.
+p288
+aa(lp289
+V(Applause)
+p290
+aasS'transcript_micsec'
+p291
+(lp292
+I11000
+aI83000
+aI176000
+aI276000
+aI345000
+aI393000
+aI457000
+aI505000
+aI525000
+aI546000
+aI609000
+aI651000
+aI696000
+aI697000
+asS'talk_meta'
+p293
+(dp294
+S'ratings'
+p295
+(dp296
+S'ingenious'
+p297
+I267
+sS'beautiful'
+p298
+I30
+sS'inspiring'
+p299
+I195
+sS'ok'
+p300
+I164
+sS'fascinating'
+p301
+I467
+sS'funny'
+p302
+I7
+sS'total_count'
+p303
+I2590
+sS'persuasive'
+p304
+I105
+sS'longwinded'
+p305
+I146
+sS'informative'
+p306
+I456
+sS'jaw-dropping'
+p307
+I118
+sS'obnoxious'
+p308
+I48
+sS'confusing'
+p309
+I188
+sS'courageous'
+p310
+I33
+sS'unconvincing'
+p311
+I366
+ssS'author'
+p312
+VAlex_Wissner-Gross;
+p313
+sS'url'
+p314
+S'https://www.ted.com/talks/alex_wissner_gross_a_new_equation_for_intelligence'
+p315
+sS'vidlen'
+p316
+I708
+sS'totalviews'
+p317
+I1982349
+sS'title'
+p318
+VA new equation for intelligence
+p319
+sS'downloadlink'
+p320
+Vhttps://download.ted.com/talks/AlexWissnerGross_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p321
+sS'datepublished'
+p322
+cdatetime
+datetime
+p323
+(S'\x07\xde\x02\x06\x0b\x05"\x00\x00\x00'
+tRp324
+sS'datefilmed'
+p325
+g323
+(S'\x07\xde\x02\x06\x0b\x05"\x00\x00\x00'
+tRp326
+sS'alldata_JSON'
+p327
+S'{"viewed_count": 1982349, "speakers": [{"description": "Scientist, entrepreneur, inventor", "firstname": "Alex", "title": "", "lastname": "Wissner-Gross", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.alexwg.org/\\" target=\\"_blank\\">Alex Wissner-Gross</a>  is a serial big-picture thinker. He applies physics and computer science principles to a wide variety of topics, like human intelligence, climate change and financial trading. </p><p>Lately Wissner-Gross started wondering: Why have we searched for so long to understand intelligence? Can it really be this elusive? His <a href=\\"http://www.alexwg.org/publications/PhysRevLett_110-168702.pdf\\" target=\\"_\\">latest work</a> posits that intelligence can indeed be defined physically, as a dynamic force, rather than a static property. He explains intelligence in terms of causal entropic forces, ultimately defining it as &quot;a force to maximize future freedom of action.&quot; </p><p>Wissner-Gross is a fellow at the Harvard Institute for Applied Computational Science and a research affiliate at the MIT Media Lab. He has a Ph.D. in physics from Harvard and bachelor&#39;s degrees in physics, electrical science and engineering, and mathematics from MIT.</p>", "slug": "alex_wissner_gross", "whotheyare": "Alex Wissner-Gross applies science and engineering principles to big (and diverse) questions, like: \\"What is the equation for intelligence?\\" and \\"What\'s the best way to raise awareness about climate change?\\"", "whatotherssay": "", "id": 1797, "photo_url": "https://pe.tedcdn.com/images/ted/e81f349fab9b215347514db598bfcf327bc2ed3c_254x191.jpg"}], "current_talk": 1922, "description": "Is there an equation for intelligence? Yes. It\'s F = T \\u2207 S\\u03c4. In a fascinating and informative talk, physicist and computer scientist Alex Wissner-Gross explains what in the world that means.", "language": "en", "url": "https://www.ted.com/talks/alex_wissner_gross_a_new_equation_for_intelligence", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 84504654}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16323458}, "podcast-high": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 84504165}, "180k": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16204568}, "64k": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5839779}, "1500k": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 131397317}, "450k": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40185371}, "podcast-regular": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40459984}, "950k": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 84250888}, "audio-podcast": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7380954}, "podcast-light": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5939614}, "320k": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28662993}, "600k": {"uri": "https://download.ted.com/talks/AlexWissnerGross_2013X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53474432}}}, "comments": {"count": 317, "id": 24801, "talk_id": 1922}, "slug": "alex_wissner_gross_a_new_equation_for_intelligence", "threadId": 24801, "talks": [{"event": "TEDxBeaconStreet", "player_talks": [{"event": "TEDxBeaconStreet", "slug": "alex_wissner_gross_a_new_equation_for_intelligence", "filmed": 1385424000, "targeting": {"event": "TEDxBeaconStreet", "tag": "AI,TEDx,brain,cognitive science,cosmos,engineering,extraterrestrial life,future,gaming,intelligence,machine learning,math,mind,neuroscience,physics,programming,robots,science,software,universe", "id": 1922, "talk": "alex_wissner_gross_a_new_equation_for_intelligence", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "A new equation for intelligence", "postAdDuration": "0.83", "published": 1391702734, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/15af4df75aba589bfcd57c1e72b572e24067bc29_1600x1200.jpg?quality=89&w=600", "name": "Alex Wissner-Gross: A new equation for intelligence", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "TEDx", "brain", "cognitive science", "cosmos", "engineering", "extraterrestrial life", "future", "gaming", "intelligence", "machine learning", "math", "mind", "neuroscience", "physics", "programming", "robots", "science", "software", "universe"], "speaker": "Alex Wissner-Gross", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 708, "id": 1922, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AlexWissnerGross_2013X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxBeaconStreet", "tag": "AI,TEDx,brain,cognitive science,cosmos,engineering,extraterrestrial life,future,gaming,intelligence,machine learning,math,mind,neuroscience,physics,programming,robots,science,software,universe", "id": 1922, "talk": "alex_wissner_gross_a_new_equation_for_intelligence", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1922.json", "stream": "https://hls.ted.com/talks/1922.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxBeaconStreet%26id%3D1922%26tag%3DAI%2CTEDx%2Cbrain%2Ccognitive%2Bscience%2Ccosmos%2Cengineering%2Cextraterrestrial%2Blife%2Cfuture%2Cgaming%2Cintelligence%2Cmachine%2Blearning%2Cmath%2Cmind%2Cneuroscience%2Cphysics%2Cprogramming%2Crobots%2Cscience%2Csoftware%2Cuniverse%26talk%3Dalex_wissner_gross_a_new_equation_for_intelligence%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/alex_wissner_gross_a_new_equation_for_intelligence"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/15af4df75aba589bfcd57c1e72b572e24067bc29_1600x1200.jpg?q=50&w=15", "duration": 708, "id": 1922, "ratings": [{"count": 188, "id": 2, "name": "Confusing"}, {"count": 146, "id": 11, "name": "Longwinded"}, {"count": 366, "id": 21, "name": "Unconvincing"}, {"count": 267, "id": 9, "name": "Ingenious"}, {"count": 467, "id": 22, "name": "Fascinating"}, {"count": 164, "id": 25, "name": "OK"}, {"count": 456, "id": 8, "name": "Informative"}, {"count": 118, "id": 23, "name": "Jaw-dropping"}, {"count": 105, "id": 24, "name": "Persuasive"}, {"count": 195, "id": 10, "name": "Inspiring"}, {"count": 30, "id": 1, "name": "Beautiful"}, {"count": 48, "id": 26, "name": "Obnoxious"}, {"count": 33, "id": 3, "name": "Courageous"}, {"count": 7, "id": 7, "name": "Funny"}], "speakers": [{"description": "Scientist, entrepreneur, inventor", "firstname": "Alex", "title": "", "lastname": "Wissner-Gross", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.alexwg.org/\\" target=\\"_blank\\">Alex Wissner-Gross</a>  is a serial big-picture thinker. He applies physics and computer science principles to a wide variety of topics, like human intelligence, climate change and financial trading. </p><p>Lately Wissner-Gross started wondering: Why have we searched for so long to understand intelligence? Can it really be this elusive? His <a href=\\"http://www.alexwg.org/publications/PhysRevLett_110-168702.pdf\\" target=\\"_\\">latest work</a> posits that intelligence can indeed be defined physically, as a dynamic force, rather than a static property. He explains intelligence in terms of causal entropic forces, ultimately defining it as &quot;a force to maximize future freedom of action.&quot; </p><p>Wissner-Gross is a fellow at the Harvard Institute for Applied Computational Science and a research affiliate at the MIT Media Lab. He has a Ph.D. in physics from Harvard and bachelor&#39;s degrees in physics, electrical science and engineering, and mathematics from MIT.</p>", "slug": "alex_wissner_gross", "whotheyare": "Alex Wissner-Gross applies science and engineering principles to big (and diverse) questions, like: \\"What is the equation for intelligence?\\" and \\"What\'s the best way to raise awareness about climate change?\\"", "whatotherssay": "", "id": 1797, "photo_url": "https://pe.tedcdn.com/images/ted/e81f349fab9b215347514db598bfcf327bc2ed3c_254x191.jpg"}], "title": "A new equation for intelligence", "take_action": [], "comments": 24801, "more_resources": [{"status": "approved", "start_at": null, "headline": "The deep connection between entropy and intelligence", "link_url": "http://www.alexwg.org/publications/PhysRevLett_110-168702.pdf", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Read Alex Wissner-Gross\' academic paper \\"Causal Entropic Forces\\" to find out more about his research in physics and computer science."}], "hero": "https://pe.tedcdn.com/images/ted/15af4df75aba589bfcd57c1e72b572e24067bc29_1600x1200.jpg", "description": "Is there an equation for intelligence? Yes. It\'s F = T \\u2207 S\\u03c4. In a fascinating and informative talk, physicist and computer scientist Alex Wissner-Gross explains what in the world that means.", "tags": ["AI", "TEDx", "brain", "cognitive science", "cosmos", "engineering", "extraterrestrial life", "future", "gaming", "intelligence", "machine learning", "math", "mind", "neuroscience", "physics", "programming", "robots", "science", "software", "universe"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-ru.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AlexWissnerGross_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AlexWissnerGross_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AlexWissnerGross_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1922, "audioDownload": "https://download.ted.com/talks/AlexWissnerGross_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1379272, "hero": "https://pe.tedcdn.com/images/ted/dfc244d5b81ab35ce80a3c4f19877b23f8be7a27_2880x1620.jpg", "title": "How brain science will change computing", "id": 125, "speaker": "Jeff Hawkins", "duration": 1211, "slug": "jeff_hawkins_on_how_brain_science_will_change_computing"}, {"viewed_count": 912784, "hero": "https://pe.tedcdn.com/images/ted/93148_800x600.jpg", "title": "A university for the coming singularity", "id": 560, "speaker": "Ray Kurzweil", "duration": 527, "slug": "ray_kurzweil_announces_singularity_university"}, {"viewed_count": 911098, "hero": "https://pe.tedcdn.com/images/ted/86685_800x600.jpg", "title": "The mathematics of war", "id": 532, "speaker": "Sean Gourley", "duration": 439, "slug": "sean_gourley_on_the_mathematics_of_war"}, {"viewed_count": 2897672, "hero": "https://pe.tedcdn.com/images/ted/a693e3148df55358b76a30436f1accb09d1e2616_2880x1620.jpg", "title": "What happens when our computers get smarter than we are?", "id": 2243, "speaker": "Nick Bostrom", "duration": 991, "slug": "nick_bostrom_what_happens_when_our_computers_get_smarter_than_we_are"}, {"viewed_count": 2700718, "hero": "https://pe.tedcdn.com/images/ted/eda8b85771e90749c3e3e072c3f319417713ee92_2880x1620.jpg", "title": "Can we build AI without losing control over it?", "id": 2592, "speaker": "Sam Harris", "duration": 867, "slug": "sam_harris_can_we_build_ai_without_losing_control_over_it"}, {"viewed_count": 1384938, "hero": "https://pe.tedcdn.com/images/ted/e6b332a04f02523d85d3758f4db1aa2c29d4cd8c_2880x1620.jpg", "title": "Don\'t fear superintelligent AI", "id": 2689, "speaker": "Grady Booch", "duration": 620, "slug": "grady_booch_don_t_fear_superintelligence"}], "recorded_at": "2013-11-26T00:00:00.000+00:00", "slug": "alex_wissner_gross_a_new_equation_for_intelligence", "speaker_name": "Alex Wissner-Gross", "viewed_count": 1982349, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxBeaconStreet, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": []}], "event": "TEDxBeaconStreet", "name": "Alex Wissner-Gross: A new equation for intelligence"}'
+p328
+sS'keywords'
+p329
+(lp330
+VAI
+p331
+aVTEDx
+p332
+aVbrain
+p333
+aVcognitive science
+p334
+aVcosmos
+p335
+aVengineering
+p336
+aVextraterrestrial life
+p337
+aVfuture
+p338
+aVgaming
+p339
+aVintelligence
+p340
+aVmachine learning
+p341
+aVmath
+p342
+aVmind
+p343
+aVneuroscience
+p344
+aVphysics
+p345
+aVprogramming
+p346
+aVrobots
+p347
+aVscience
+p348
+aVsoftware
+p349
+aVuniverse
+p350
+asS'datecrawled'
+p351
+g323
+(S'\x07\xe1\n\x17\x00-&\x02\xa78'
+tRp352
+sS'id'
+p353
+I1922
+ss.

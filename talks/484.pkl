@@ -1,0 +1,878 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VTime flies.
+p5
+aVIt's actually almost 20 years ago
+p6
+aVwhen I wanted to reframe the way we use information,
+p7
+aVthe way we work together: I invented the World Wide Web.
+p8
+aVNow, 20 years on, at TED,
+p9
+aVI want to ask your help in a new reframing.
+p10
+aa(lp11
+VSo going back to 1989,
+p12
+aVI wrote a memo suggesting the global hypertext system.
+p13
+aVNobody really did anything with it, pretty much.
+p14
+aVBut 18 months later \u2014 this is how innovation happens \u2014
+p15
+aV18 months later, my boss said I could do it on the side,
+p16
+aVas a sort of a play project,
+p17
+aVkick the tires of a new computer we'd got.
+p18
+aVAnd so he gave me the time to code it up.
+p19
+aVSo I basically roughed out what HTML should look like:
+p20
+aVhypertext protocol, HTTP;
+p21
+aVthe idea of URLs, these names for things
+p22
+aVwhich started with HTTP.
+p23
+aVI wrote the code and put it out there.
+p24
+aa(lp25
+VWhy did I do it?
+p26
+aVWell, it was basically frustration.
+p27
+aVI was frustrated \u2014 I was working as a software engineer
+p28
+aVin this huge, very exciting lab,
+p29
+aVlots of people coming from all over the world.
+p30
+aVThey brought all sorts of different computers with them.
+p31
+aVThey had all sorts of different data formats,
+p32
+aVall sorts, all kinds of documentation systems.
+p33
+aVSo that, in all that diversity,
+p34
+aVif I wanted to figure out how to build something
+p35
+aVout of a bit of this and a bit of this,
+p36
+aVeverything I looked into, I had to connect to some new machine,
+p37
+aVI had to learn to run some new program,
+p38
+aVI would find the information I wanted in some new data format.
+p39
+aVAnd these were all incompatible.
+p40
+aVIt was just very frustrating.
+p41
+aVThe frustration was all this unlocked potential.
+p42
+aa(lp43
+VIn fact, on all these discs there were documents.
+p44
+aVSo if you just imagined them all
+p45
+aVbeing part of some big, virtual documentation system in the sky,
+p46
+aVsay on the Internet,
+p47
+aVthen life would be so much easier.
+p48
+aVWell, once you've had an idea like that it kind of gets under your skin
+p49
+aVand even if people don't read your memo \u2014
+p50
+aVactually he did, it was found after he died, his copy.
+p51
+aVHe had written, "Vague, but exciting," in pencil, in the corner.
+p52
+aa(lp53
+V(Laughter)
+p54
+aa(lp55
+VBut in general it was difficult \u2014 it was really difficult to explain
+p56
+aVwhat the web was like.
+p57
+aVIt's difficult to explain to people now that it was difficult then.
+p58
+aVBut then \u2014 OK, when TED started, there was no web
+p59
+aVso things like "click" didn't have the same meaning.
+p60
+aVI can show somebody a piece of hypertext,
+p61
+aVa page which has got links,
+p62
+aVand we click on the link and bing \u2014 there'll be another hypertext page.
+p63
+aVNot impressive.
+p64
+aVYou know, we've seen that \u2014 we've got things on hypertext on CD-ROMs.
+p65
+aVWhat was difficult was to get them to imagine:
+p66
+aVso, imagine that that link could have gone
+p67
+aVto virtually any document you could imagine.
+p68
+aVAlright, that is the leap that was very difficult for people to make.
+p69
+aVWell, some people did.
+p70
+aVSo yeah, it was difficult to explain, but there was a grassroots movement.
+p71
+aVAnd that is what has made it most fun.
+p72
+aVThat has been the most exciting thing,
+p73
+aVnot the technology, not the things people have done with it,
+p74
+aVbut actually the community, the spirit of all these people
+p75
+aVgetting together, sending the emails.
+p76
+aVThat's what it was like then.
+p77
+aa(lp78
+VDo you know what? It's funny, but right now it's kind of like that again.
+p79
+aVI asked everybody, more or less, to put their documents \u2014
+p80
+aVI said, "Could you put your documents on this web thing?"
+p81
+aVAnd you did.
+p82
+aVThanks.
+p83
+aVIt's been a blast, hasn't it?
+p84
+aVI mean, it has been quite interesting
+p85
+aVbecause we've found out that the things that happen with the web
+p86
+aVreally sort of blow us away.
+p87
+aVThey're much more than we'd originally imagined
+p88
+aVwhen we put together the little, initial website
+p89
+aVthat we started off with.
+p90
+aVNow, I want you to put your data on the web.
+p91
+aVTurns out that there is still huge unlocked potential.
+p92
+aVThere is still a huge frustration
+p93
+aVthat people have because we haven't got data on the web as data.
+p94
+aa(lp95
+VWhat do you mean, "data"? What's the difference \u2014 documents, data?
+p96
+aVWell, documents you read, OK?
+p97
+aVMore or less, you read them, you can follow links from them, and that's it.
+p98
+aVData \u2014 you can do all kinds of stuff with a computer.
+p99
+aVWho was here or has otherwise seen Hans Rosling's talk?
+p100
+aVOne of the great \u2014 yes a lot of people have seen it \u2014
+p101
+aVone of the great TED Talks.
+p102
+aVHans put up this presentation
+p103
+aVin which he showed, for various different countries, in various different colors \u2014
+p104
+aVhe showed income levels on one axis
+p105
+aVand he showed infant mortality, and he shot this thing animated through time.
+p106
+aVSo, he'd taken this data and made a presentation
+p107
+aVwhich just shattered a lot of myths that people had
+p108
+aVabout the economics in the developing world.
+p109
+aa(lp110
+VHe put up a slide a little bit like this.
+p111
+aVIt had underground all the data
+p112
+aVOK, data is brown and boxy and boring,
+p113
+aVand that's how we think of it, isn't it?
+p114
+aVBecause data you can't naturally use by itself
+p115
+aVBut in fact, data drives a huge amount of what happens in our lives
+p116
+aVand it happens because somebody takes that data and does something with it.
+p117
+aVIn this case, Hans had put the data together
+p118
+aVhe had found from all kinds of United Nations websites and things.
+p119
+aVHe had put it together,
+p120
+aVcombined it into something more interesting than the original pieces
+p121
+aVand then he'd put it into this software,
+p122
+aVwhich I think his son developed, originally,
+p123
+aVand produces this wonderful presentation.
+p124
+aVAnd Hans made a point
+p125
+aVof saying, "Look, it's really important to have a lot of data."
+p126
+aVAnd I was happy to see that at the party last night
+p127
+aVthat he was still saying, very forcibly, "It's really important to have a lot of data."
+p128
+aa(lp129
+VSo I want us now to think about
+p130
+aVnot just two pieces of data being connected, or six like he did,
+p131
+aVbut I want to think about a world where everybody has put data on the web
+p132
+aVand so virtually everything you can imagine is on the web
+p133
+aVand then calling that linked data.
+p134
+aVThe technology is linked data, and it's extremely simple.
+p135
+aVIf you want to put something on the web there are three rules:
+p136
+aVfirst thing is that those HTTP names \u2014
+p137
+aVthose things that start with "http:" \u2014
+p138
+aVwe're using them not just for documents now,
+p139
+aVwe're using them for things that the documents are about.
+p140
+aVWe're using them for people, we're using them for places,
+p141
+aVwe're using them for your products, we're using them for events.
+p142
+aVAll kinds of conceptual things, they have names now that start with HTTP.
+p143
+aa(lp144
+VSecond rule, if I take one of these HTTP names and I look it up
+p145
+aVand I do the web thing with it and I fetch the data
+p146
+aVusing the HTTP protocol from the web,
+p147
+aVI will get back some data in a standard format
+p148
+aVwhich is kind of useful data that somebody might like to know
+p149
+aVabout that thing, about that event.
+p150
+aVWho's at the event? Whatever it is about that person,
+p151
+aVwhere they were born, things like that.
+p152
+aVSo the second rule is I get important information back.
+p153
+aa(lp154
+VThird rule is that when I get back that information
+p155
+aVit's not just got somebody's height and weight and when they were born,
+p156
+aVit's got relationships.
+p157
+aVData is relationships.
+p158
+aVInterestingly, data is relationships.
+p159
+aVThis person was born in Berlin; Berlin is in Germany.
+p160
+aVAnd when it has relationships, whenever it expresses a relationship
+p161
+aVthen the other thing that it's related to
+p162
+aVis given one of those names that starts HTTP.
+p163
+aVSo, I can go ahead and look that thing up.
+p164
+aVSo I look up a person \u2014 I can look up then the city where they were born; then
+p165
+aVI can look up the region it's in, and the town it's in,
+p166
+aVand the population of it, and so on.
+p167
+aVSo I can browse this stuff.
+p168
+aa(lp169
+VSo that's it, really.
+p170
+aVThat is linked data.
+p171
+aVI wrote an article entitled "Linked Data" a couple of years ago
+p172
+aVand soon after that, things started to happen.
+p173
+aVThe idea of linked data is that we get lots and lots and lots
+p174
+aVof these boxes that Hans had,
+p175
+aVand we get lots and lots and lots of things sprouting.
+p176
+aVIt's not just a whole lot of other plants.
+p177
+aVIt's not just a root supplying a plant,
+p178
+aVbut for each of those plants, whatever it is \u2014
+p179
+aVa presentation, an analysis, somebody's looking for patterns in the data \u2014
+p180
+aVthey get to look at all the data
+p181
+aVand they get it connected together,
+p182
+aVand the really important thing about data
+p183
+aVis the more things you have to connect together, the more powerful it is.
+p184
+aa(lp185
+VSo, linked data.
+p186
+aVThe meme went out there.
+p187
+aVAnd, pretty soon Chris Bizer at the Freie Universitat in Berlin
+p188
+aVwho was one of the first people to put interesting things up,
+p189
+aVhe noticed that Wikipedia \u2014
+p190
+aVyou know Wikipedia, the online encyclopedia
+p191
+aVwith lots and lots of interesting documents in it.
+p192
+aVWell, in those documents, there are little squares, little boxes.
+p193
+aVAnd in most information boxes, there's data.
+p194
+aVSo he wrote a program to take the data, extract it from Wikipedia,
+p195
+aVand put it into a blob of linked data
+p196
+aVon the web, which he called dbpedia.
+p197
+aVDbpedia is represented by the blue blob in the middle of this slide
+p198
+aVand if you actually go and look up Berlin,
+p199
+aVyou'll find that there are other blobs of data
+p200
+aVwhich also have stuff about Berlin, and they're linked together.
+p201
+aVSo if you pull the data from dbpedia about Berlin,
+p202
+aVyou'll end up pulling up these other things as well.
+p203
+aVAnd the exciting thing is it's starting to grow.
+p204
+aVThis is just the grassroots stuff again, OK?
+p205
+aa(lp206
+VLet's think about data for a bit.
+p207
+aVData comes in fact in lots and lots of different forms.
+p208
+aVThink of the diversity of the web. It's a really important thing
+p209
+aVthat the web allows you to put all kinds of data up there.
+p210
+aVSo it is with data. I could talk about all kinds of data.
+p211
+aVWe could talk about government data, enterprise data is really important,
+p212
+aVthere's scientific data, there's personal data,
+p213
+aVthere's weather data, there's data about events,
+p214
+aVthere's data about talks, and there's news and there's all kinds of stuff.
+p215
+aVI'm just going to mention a few of them
+p216
+aVso that you get the idea of the diversity of it,
+p217
+aVso that you also see how much unlocked potential.
+p218
+aa(lp219
+VLet's start with government data.
+p220
+aVBarack Obama said in a speech,
+p221
+aVthat he \u2014 American government data would be available on the Internet
+p222
+aVin accessible formats.
+p223
+aVAnd I hope that they will put it up as linked data.
+p224
+aVThat's important. Why is it important?
+p225
+aVNot just for transparency, yeah transparency in government is important,
+p226
+aVbut that data \u2014 this is the data from all the government departments
+p227
+aVThink about how much of that data is about how life is lived in America.
+p228
+aVIt's actual useful. It's got value.
+p229
+aVI can use it in my company.
+p230
+aVI could use it as a kid to do my homework.
+p231
+aVSo we're talking about making the place, making the world run better
+p232
+aVby making this data available.
+p233
+aa(lp234
+VIn fact if you're responsible \u2014 if you know about some data
+p235
+aVin a government department, often you find that
+p236
+aVthese people, they're very tempted to keep it \u2014
+p237
+aVHans calls it database hugging.
+p238
+aVYou hug your database, you don't want to let it go
+p239
+aVuntil you've made a beautiful website for it.
+p240
+aVWell, I'd like to suggest that rather \u2014
+p241
+aVyes, make a beautiful website,
+p242
+aVwho am I to say don't make a beautiful website?
+p243
+aVMake a beautiful website, but first
+p244
+aVgive us the unadulterated data,
+p245
+aVwe want the data.
+p246
+aVWe want unadulterated data.
+p247
+aVOK, we have to ask for raw data now.
+p248
+aVAnd I'm going to ask you to practice that, OK?
+p249
+aVCan you say "raw"?
+p250
+aa(lp251
+VAudience: Raw.
+p252
+aa(lp253
+VTim Berners-Lee: Can you say "data"?
+p254
+aa(lp255
+VAudience: Data.
+p256
+aa(lp257
+VTBL: Can you say "now"?
+p258
+aa(lp259
+VAudience: Now!
+p260
+aa(lp261
+VTBL: Alright, "raw data now"!
+p262
+aa(lp263
+VAudience: Raw data now!
+p264
+aa(lp265
+VPractice that. It's important because you have no idea the number of excuses
+p266
+aVpeople come up with to hang onto their data
+p267
+aVand not give it to you, even though you've paid for it as a taxpayer.
+p268
+aVAnd it's not just America. It's all over the world.
+p269
+aVAnd it's not just governments, of course \u2014 it's enterprises as well.
+p270
+aa(lp271
+VSo I'm just going to mention a few other thoughts on data.
+p272
+aVHere we are at TED, and all the time we are very conscious
+p273
+aVof the huge challenges that human society has right now \u2014
+p274
+aVcuring cancer, understanding the brain for Alzheimer's,
+p275
+aVunderstanding the economy to make it a little bit more stable,
+p276
+aVunderstanding how the world works.
+p277
+aVThe people who are going to solve those \u2014 the scientists \u2014
+p278
+aVthey have half-formed ideas in their head,
+p279
+aVthey try to communicate those over the web.
+p280
+aVBut a lot of the state of knowledge of the human race at the moment
+p281
+aVis on databases, often sitting in their computers,
+p282
+aVand actually, currently not shared.
+p283
+aa(lp284
+VIn fact, I'll just go into one area \u2014
+p285
+aVif you're looking at Alzheimer's, for example,
+p286
+aVdrug discovery \u2014 there is a whole lot of linked data which is just coming out
+p287
+aVbecause scientists in that field realize
+p288
+aVthis is a great way of getting out of those silos,
+p289
+aVbecause they had their genomics data in one database
+p290
+aVin one building, and they had their protein data in another.
+p291
+aVNow, they are sticking it onto \u2014 linked data \u2014
+p292
+aVand now they can ask the sort of question, that you probably wouldn't ask,
+p293
+aVI wouldn't ask \u2014 they would.
+p294
+aVWhat proteins are involved in signal transduction
+p295
+aVand also related to pyramidal neurons?
+p296
+aVWell, you take that mouthful and you put it into Google.
+p297
+aVOf course, there's no page on the web which has answered that question
+p298
+aVbecause nobody has asked that question before.
+p299
+aVYou get 223,000 hits \u2014
+p300
+aVno results you can use.
+p301
+aVYou ask the linked data \u2014 which they've now put together \u2014
+p302
+aV32 hits, each of which is a protein which has those properties
+p303
+aVand you can look at.
+p304
+aVThe power of being able to ask those questions, as a scientist \u2014
+p305
+aVquestions which actually bridge across different disciplines \u2014
+p306
+aVis really a complete sea change.
+p307
+aVIt's very very important.
+p308
+aVScientists are totally stymied at the moment \u2014
+p309
+aVthe power of the data that other scientists have collected is locked up
+p310
+aVand we need to get it unlocked so we can tackle those huge problems.
+p311
+aa(lp312
+VNow if I go on like this, you'll think that all the data comes from huge institutions
+p313
+aVand has nothing to do with you.
+p314
+aVBut, that's not true.
+p315
+aVIn fact, data is about our lives.
+p316
+aVYou just \u2014 you log on to your social networking site,
+p317
+aVyour favorite one, you say, "This is my friend."
+p318
+aVBing! Relationship. Data.
+p319
+aVYou say, "This photograph, it's about \u2014 it depicts this person. "
+p320
+aVBing! That's data. Data, data, data.
+p321
+aVEvery time you do things on the social networking site,
+p322
+aVthe social networking site is taking data and using it \u2014 re-purposing it \u2014
+p323
+aVand using it to make other people's lives more interesting on the site.
+p324
+aVBut, when you go to another linked data site \u2014
+p325
+aVand let's say this is one about travel,
+p326
+aVand you say, "I want to send this photo to all the people in that group,"
+p327
+aVyou can't get over the walls.
+p328
+aVThe Economist wrote an article about it, and lots of people have blogged about it \u2014
+p329
+aVtremendous frustration.
+p330
+aVThe way to break down the silos is to get inter-operability
+p331
+aVbetween social networking sites.
+p332
+aVWe need to do that with linked data.
+p333
+aa(lp334
+VOne last type of data I'll talk about, maybe it's the most exciting.
+p335
+aVBefore I came down here, I looked it up on OpenStreetMap
+p336
+aVThe OpenStreetMap's a map, but it's also a Wiki.
+p337
+aVZoom in and that square thing is a theater \u2014 which we're in right now \u2014
+p338
+aVThe Terrace Theater. It didn't have a name on it.
+p339
+aVSo I could go into edit mode, I could select the theater,
+p340
+aVI could add down at the bottom the name, and I could save it back.
+p341
+aVAnd now if you go back to the OpenStreetMap. org,
+p342
+aVand you find this place, you will find that The Terrace Theater has got a name.
+p343
+aVI did that. Me!
+p344
+aVI did that to the map. I just did that!
+p345
+aVI put that up on there. Hey, you know what?
+p346
+aVIf I \u2014 that street map is all about everybody doing their bit
+p347
+aVand it creates an incredible resource
+p348
+aVbecause everybody else does theirs.
+p349
+aVAnd that is what linked data is all about.
+p350
+aVIt's about people doing their bit
+p351
+aVto produce a little bit, and it all connecting.
+p352
+aVThat's how linked data works.
+p353
+aVYou do your bit. Everybody else does theirs.
+p354
+aVYou may not have lots of data which you have yourself to put on there
+p355
+aVbut you know to demand it.
+p356
+aVAnd we've practiced that.
+p357
+aa(lp358
+VSo, linked data \u2014 it's huge.
+p359
+aVI've only told you a very small number of things
+p360
+aVThere are data in every aspect of our lives,
+p361
+aVevery aspect of work and pleasure,
+p362
+aVand it's not just about the number of places where data comes,
+p363
+aVit's about connecting it together.
+p364
+aVAnd when you connect data together, you get power
+p365
+aVin a way that doesn't happen just with the web, with documents.
+p366
+aVYou get this really huge power out of it.
+p367
+aVSo, we're at the stage now
+p368
+aVwhere we have to do this \u2014 the people who think it's a great idea.
+p369
+aVAnd all the people \u2014 and I think there's a lot of people at TED who do things because \u2014
+p370
+aVeven though there's not an immediate return on the investment
+p371
+aVbecause it will only really pay off when everybody else has done it \u2014
+p372
+aVthey'll do it because they're the sort of person who just does things
+p373
+aVwhich would be good if everybody else did them.
+p374
+aVOK, so it's called linked data.
+p375
+aVI want you to make it.
+p376
+aVI want you to demand it.
+p377
+aVAnd I think it's an idea worth spreading.
+p378
+aa(lp379
+VThanks.
+p380
+aa(lp381
+V(Applause)
+p382
+aasS'transcript_micsec'
+p383
+(lp384
+I11000
+aI30000
+aI70000
+aI114000
+aI141000
+aI143000
+aI204000
+aI243000
+aI289000
+aI343000
+aI385000
+aI410000
+aI450000
+aI489000
+aI543000
+aI580000
+aI617000
+aI655000
+aI656000
+aI657000
+aI658000
+aI659000
+aI660000
+aI662000
+aI664000
+aI679000
+aI716000
+aI789000
+aI843000
+aI909000
+aI967000
+aI968000
+asS'talk_meta'
+p385
+(dp386
+S'ratings'
+p387
+(dp388
+S'beautiful'
+p389
+I44
+sS'funny'
+p390
+I27
+sS'inspiring'
+p391
+I459
+sS'ok'
+p392
+I161
+sS'fascinating'
+p393
+I217
+sS'total_count'
+p394
+I2299
+sS'persuasive'
+p395
+I296
+sS'longwinded'
+p396
+I77
+sS'informative'
+p397
+I503
+sS'jaw-dropping'
+p398
+I88
+sS'ingenious'
+p399
+I218
+sS'obnoxious'
+p400
+I31
+sS'confusing'
+p401
+I44
+sS'courageous'
+p402
+I79
+sS'unconvincing'
+p403
+I55
+ssS'author'
+p404
+VTim_Berners-Lee;
+p405
+sS'url'
+p406
+S'https://www.ted.com/talks/tim_berners_lee_on_the_next_web'
+p407
+sS'vidlen'
+p408
+I983
+sS'totalviews'
+p409
+I1360566
+sS'title'
+p410
+VThe next web
+p411
+sS'downloadlink'
+p412
+Vhttps://download.ted.com/talks/TimBernersLee_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p413
+sS'datepublished'
+p414
+cdatetime
+datetime
+p415
+(S'\x07\xd9\x03\x0c\x15\x00\x00\x00\x00\x00'
+tRp416
+sS'datefilmed'
+p417
+g415
+(S'\x07\xd9\x03\x0c\x15\x00\x00\x00\x00\x00'
+tRp418
+sS'alldata_JSON'
+p419
+S'{"viewed_count": 1360566, "speakers": [{"description": "Inventor", "firstname": "Tim", "title": "", "lastname": "Berners-Lee", "middleinitial": "", "whylisten": "<p>In the 1980s, scientists at CERN were asking themselves how massive, complex, collaborative projects -- like the fledgling LHC -- could be orchestrated and tracked. Tim Berners-Lee, then a contractor, answered by inventing the World Wide Web. This global system of hypertext documents, linked through the Internet, brought about a massive cultural shift ushered in by the new tech and content it made possible: AOL, eBay, Wikipedia, TED.com...</p><p>Berners-Lee is now director of the World Wide Web Consortium (W3C), which maintains standards for the Web and continues to refine its design. Recently he has envisioned a &quot;Semantic Web&quot; -- an evolved version of the same system that recognizes the meaning of the information it carries. He&#39;s the 3Com Founders Professor of Engineering in the School of Engineering with a joint appointment in the Department of Electrical Engineering and Computer Science at the Laboratory for Computer Science and Artificial Intelligence (CSAIL) at the MIT, where he also heads the Decentralized Information Group (DIG). He is also a Professor in the Electronics and Computer Science Department at the University of Southampton, UK. </p>", "slug": "tim_berners_lee", "whotheyare": "Tim Berners-Lee invented the World Wide Web. He leads the World Wide Web Consortium (W3C), overseeing the Web\'s standards and development.", "whatotherssay": "It\'s hard to overstate the impact of the global system he created. It\'s almost Gutenbergian.", "id": 338, "photo_url": "https://pe.tedcdn.com/images/ted/77261_254x191.jpg"}], "current_talk": 484, "description": "20 years ago, Tim Berners-Lee invented the World Wide Web. For his next project, he\'s building a web for open, linked data that could do for numbers what the Web did for words, pictures, video: unlock our data and reframe the way we use it together.", "language": "en", "url": "https://www.ted.com/talks/tim_berners_lee_on_the_next_web", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113285972}, "podcast-low-en": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22445125}, "podcast-high": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 127022165}, "180k": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22352248}, "64k": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8034476}, "1500k": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 177665355}, "450k": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55268856}, "podcast-regular": {"uri": "https://download.ted.com/talks/TimBernersLee_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69189134}, "950k": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 113301222}, "audio-podcast": {"uri": "https://download.ted.com/talks/TimBernersLee_2009.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10071297}, "podcast-light": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21884264}, "320k": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39566613}, "600k": {"uri": "https://download.ted.com/talks/TimBernersLee_2009-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73933379}}}, "comments": {"count": 180, "id": 407, "talk_id": 484}, "slug": "tim_berners_lee_on_the_next_web", "threadId": 407, "talks": [{"event": "TED2009", "player_talks": [{"event": "TED2009", "slug": "tim_berners_lee_on_the_next_web", "filmed": 1233792000, "targeting": {"event": "TED2009", "tag": "business,communication,design,invention,technology,web", "id": 484, "talk": "tim_berners_lee_on_the_next_web", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "The next web", "postAdDuration": "0.83", "published": 1236906000, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/77260_800x600.jpg?quality=89&w=600", "name": "Tim Berners-Lee: The next web", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "communication", "design", "invention", "technology", "web"], "speaker": "Tim Berners-Lee", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 983, "id": 484, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/TimBernersLee_2009-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2009", "tag": "business,communication,design,invention,technology,web", "id": 484, "talk": "tim_berners_lee_on_the_next_web", "year": "2009"}, "metadata": "https://hls.ted.com/talks/484.json", "stream": "https://hls.ted.com/talks/484.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2009%26id%3D484%26tag%3Dbusiness%2Ccommunication%2Cdesign%2Cinvention%2Ctechnology%2Cweb%26talk%3Dtim_berners_lee_on_the_next_web%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/tim_berners_lee_on_the_next_web"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/77260_800x600.jpg?q=50&w=15", "duration": 983, "id": 484, "ratings": [{"count": 503, "id": 8, "name": "Informative"}, {"count": 161, "id": 25, "name": "OK"}, {"count": 296, "id": 24, "name": "Persuasive"}, {"count": 459, "id": 10, "name": "Inspiring"}, {"count": 55, "id": 21, "name": "Unconvincing"}, {"count": 77, "id": 11, "name": "Longwinded"}, {"count": 44, "id": 2, "name": "Confusing"}, {"count": 217, "id": 22, "name": "Fascinating"}, {"count": 31, "id": 26, "name": "Obnoxious"}, {"count": 79, "id": 3, "name": "Courageous"}, {"count": 88, "id": 23, "name": "Jaw-dropping"}, {"count": 44, "id": 1, "name": "Beautiful"}, {"count": 27, "id": 7, "name": "Funny"}, {"count": 218, "id": 9, "name": "Ingenious"}], "speakers": [{"description": "Inventor", "firstname": "Tim", "title": "", "lastname": "Berners-Lee", "middleinitial": "", "whylisten": "<p>In the 1980s, scientists at CERN were asking themselves how massive, complex, collaborative projects -- like the fledgling LHC -- could be orchestrated and tracked. Tim Berners-Lee, then a contractor, answered by inventing the World Wide Web. This global system of hypertext documents, linked through the Internet, brought about a massive cultural shift ushered in by the new tech and content it made possible: AOL, eBay, Wikipedia, TED.com...</p><p>Berners-Lee is now director of the World Wide Web Consortium (W3C), which maintains standards for the Web and continues to refine its design. Recently he has envisioned a &quot;Semantic Web&quot; -- an evolved version of the same system that recognizes the meaning of the information it carries. He&#39;s the 3Com Founders Professor of Engineering in the School of Engineering with a joint appointment in the Department of Electrical Engineering and Computer Science at the Laboratory for Computer Science and Artificial Intelligence (CSAIL) at the MIT, where he also heads the Decentralized Information Group (DIG). He is also a Professor in the Electronics and Computer Science Department at the University of Southampton, UK. </p>", "slug": "tim_berners_lee", "whotheyare": "Tim Berners-Lee invented the World Wide Web. He leads the World Wide Web Consortium (W3C), overseeing the Web\'s standards and development.", "whatotherssay": "It\'s hard to overstate the impact of the global system he created. It\'s almost Gutenbergian.", "id": 338, "photo_url": "https://pe.tedcdn.com/images/ted/77261_254x191.jpg"}], "title": "The next web", "take_action": [], "comments": 407, "more_resources": [{"status": "approved", "start_at": null, "headline": "What we\'ve learned from 20 years of the web", "link_url": "http://blog.ted.com/2013/04/30/as-we-celebrate-20-years-of-the-world-wide-web-lessons-from-tim-berners-lee/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "The web left its teen years behind in 2013. Here, some lessons on how the Internet has reframed how we use information \\u2014 and how we work."}], "hero": "https://pe.tedcdn.com/images/ted/77260_800x600.jpg", "description": "20 years ago, Tim Berners-Lee invented the World Wide Web. For his next project, he\'s building a web for open, linked data that could do for numbers what the Web did for words, pictures, video: unlock our data and reframe the way we use it together.", "tags": ["business", "communication", "design", "invention", "technology", "web"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-bg.mp4"}, "uk": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-uk.mp4"}, "de": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-ko.mp4"}, "ms": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p-ms.mp4", "name": "Malay", "low": "https://download.ted.com/talks/TimBernersLee_2009-low-ms.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/TimBernersLee_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/TimBernersLee_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/TimBernersLee_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 484, "audioDownload": "https://download.ted.com/talks/TimBernersLee_2009.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 12072248, "hero": "https://pe.tedcdn.com/images/ted/e80b905b26a61aba089bd928fc4c2bd4180e836e_2880x1620.jpg", "title": "The best stats you\'ve ever seen", "id": 92, "speaker": "Hans Rosling", "duration": 1190, "slug": "hans_rosling_shows_the_best_stats_you_ve_ever_seen"}, {"viewed_count": 1093262, "hero": "https://pe.tedcdn.com/images/ted/9ca3922cace721320cd2b5de1f5761f7a75b2010_2880x1620.jpg", "title": "How we can find ourselves in data", "id": 2727, "speaker": "Giorgia Lupi", "duration": 673, "slug": "giorgia_lupi_how_we_can_find_ourselves_in_data"}, {"viewed_count": 1176417, "hero": "https://pe.tedcdn.com/images/ted/96044392dd7eea4410a92f4c5d499b888e607653_2880x1620.jpg", "title": "The human insights missing from big data", "id": 2818, "speaker": "Tricia Wang", "duration": 972, "slug": "tricia_wang_the_human_insights_missing_from_big_data"}, {"viewed_count": 1473511, "hero": "https://pe.tedcdn.com/images/ted/9447af46e476fc16f72c2b583db397f73f82a803_2880x1620.jpg", "title": "How to use data to make a hit TV show", "id": 2403, "speaker": "Sebastian Wernicke", "duration": 745, "slug": "sebastian_wernicke_how_to_use_data_to_make_a_hit_tv_show"}, {"viewed_count": 1318760, "hero": "https://pe.tedcdn.com/images/ted/c08e045faca0cd007e468e7950e6ef5433c3f44c_2880x1620.jpg", "title": "Big data is better data", "id": 2094, "speaker": "Kenneth Cukier", "duration": 951, "slug": "kenneth_cukier_big_data_is_better_data"}, {"viewed_count": 682332, "hero": "https://pe.tedcdn.com/images/ted/154673_800x600.jpg", "title": "The year open data went worldwide", "id": 788, "speaker": "Tim Berners-Lee", "duration": 333, "slug": "tim_berners_lee_the_year_open_data_went_worldwide"}], "recorded_at": "2009-02-05T00:00:00.000+00:00", "slug": "tim_berners_lee_on_the_next_web", "speaker_name": "Tim Berners-Lee", "viewed_count": 1360566, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Tim Berners-Lee recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "data.gov.uk", "link_url": "http://data.gov.uk/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "This began as an initiative back in 2009. Now, [data.gov.uk](http://data.gov.uk/) contains more than 9,000 UK government datasets. "}, {"is_pdf": false, "headline": "data.gov", "link_url": "http://www.data.gov", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "This website is the US government\'s equivalent resource to [data.gov.uk](http://data.gov.uk). It includes more than 85,000 datasets and includes tools for those interested in playing around with data."}, {"is_pdf": false, "headline": "G8 Open Data Charter and Technical Annex", "link_url": "https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex", "eyebrow": null, "label": "READ_Article", "note": "G8 Summit 2013", "position": null, "blurb": "Charter signed by G8 leaders on June 17, 2013."}, {"is_pdf": false, "headline": "Facts Are Sacred", "link_url": "http://www.amazon.com/books/dp/0571301614/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Simon Rogers \\r\\nFaber & Faber, 2013", "position": null, "blurb": "Data-related book by the editor of guardian.co.uk/data."}, {"is_pdf": false, "headline": "Guides to the Open Data Initiative", "link_url": "http://theodi.org/guides", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "Not sure what open data actually is? Wonder how open data might affect you? Curious how to make the business case for open data? Check out these handy guides from the Open Data Institute."}, {"is_pdf": false, "headline": "World Wide Web Foundation\\r\\n", "link_url": "http://www.webfoundation.org", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "I established the World Wide Web Foundation in 2009 to tackle the fundamental obstacles to realizing my vision of an open web that is available, usable and valuable for everyone."}, {"is_pdf": false, "headline": "W3C", "link_url": "http://www.w3.org", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "The World Wide Web Consortium (W3C) is an international group where member organizations, a full-time staff and the public work together to develop web standards. Together with CEO Jeffrey Jaffe, the organization and I are on a mission to lead the web to its full potential."}, {"is_pdf": false, "headline": "The Web Index", "link_url": "https://thewebindex.org", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "The Web Index is designed and produced by the World Wide Web Foundation. It is the world\\u2019s first measure of the web\\u2019s contribution to development and human rights globally in countries across the world. By compiling data across many different dimensions and making it freely available, the Web Index will help deepen and broaden our understanding of how countries can maximize the impact of this powerful tool. It will eventually allow for comparisons of trends over time and the benchmarking of performance across countries, continuously improving our understanding of the web\\u2019s value for humanity."}, {"is_pdf": false, "headline": "Web We Want\\r\\n", "link_url": "https://webwewant.org", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "I launched this campaign at a UN gathering in Geneva. [Web We Want](https://webwewant.org/) seeks to engage millions of people across the world to help set a positive agenda for Internet users."}, {"is_pdf": false, "headline": "Open Data Research Network", "link_url": "http://opendataresearch.org\\r\\n", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "This collaborative initiative is coordinated by the World Wide Web Foundation with support from the International Development Research Centre (IDRC). It exists to connect open data-focused researchers from across the world, bring together information and news relating to research into the implementation and impacts of open data initiatives, and host research projects into open data. The network has a number of projects: \\"[Emerging Impacts of Open Data in Developing Countries](http://www.opendataresearch.org/emergingimpacts)\\u201d is a multi-country, multi-year study to examine how open data is being used differently around the developing world; the \\u201c[Open Data Barometer] (http://www.opendataresearch.org/project/2013/odb)\\u201d is a multi-dimensional look at the spread of open government data policy and practice across the world."}, {"is_pdf": false, "headline": "Open Contracting Data Standard", "link_url": "http://www.open-contracting.org/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "The development of a common standard for the disclosure of contracting data is a key pillar of the work to promote disclosure and participation in public contracting \\u2014 empowering citizens around the world to hold their governments to account for the estimated $9.5 trillion they spend each year through contracts. The [Open Contracting Data Standard](http://www.open-contracting.org/open_contracting_data_standards) will be essential to advancing the objective of achieving a new norm in which all public contracting is open. Its development comes as a result of a collaboration between the Open Contracting Partnership and the World Wide Web Foundation, supported by a grant from the Omidyar Network."}, {"is_pdf": false, "headline": "Long Live the Web: A Call for Continued Open Standards and Neutrality", "link_url": "http://www.scientificamerican.com/article/long-live-the-web/\\r\\n", "eyebrow": null, "label": "READ_Article", "note": "Tim Berners-Lee\\r\\n*Scientific American*, December 2010", "position": null, "blurb": ""}], "title": "Reading List"}], "published": true, "type": "recommendation", "blurb": "12 key resources on open data from the \\"father of the World Wide Web.\\""}, "corrections": []}], "event": "TED2009", "name": "Tim Berners-Lee: The next web"}'
+p420
+sS'keywords'
+p421
+(lp422
+Vbusiness
+p423
+aVcommunication
+p424
+aVdesign
+p425
+aVinvention
+p426
+aVtechnology
+p427
+aVweb
+p428
+asS'datecrawled'
+p429
+g415
+(S'\x07\xe1\n\x17\x04\x01.\x06l\xba'
+tRp430
+sS'id'
+p431
+I484
+ss.

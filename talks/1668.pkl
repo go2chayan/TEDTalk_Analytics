@@ -1,0 +1,602 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+V"When the crisis came,
+p5
+aVthe serious limitations of existing economic and financial models
+p6
+aVimmediately became apparent."
+p7
+aV"There is also a strong belief, which I share,
+p8
+aVthat bad or oversimplistic and overconfident economics
+p9
+aVhelped create the crisis."
+p10
+aa(lp11
+VNow, you've probably all heard of similar criticism
+p12
+aVcoming from people who are skeptical of capitalism.
+p13
+aVBut this is different.
+p14
+aVThis is coming from the heart of finance.
+p15
+aVThe first quote is from Jean-Claude Trichet
+p16
+aVwhen he was governor of the European Central Bank.
+p17
+aVThe second quote is from the head of the UK Financial Services Authority.
+p18
+aVAre these people implying
+p19
+aVthat we don't understand the economic systems
+p20
+aVthat drive our modern societies?
+p21
+aVIt gets worse.
+p22
+aV"We spend billions of dollars
+p23
+aVtrying to understand the origins of the universe,
+p24
+aVwhile we still don't understand the conditions for a stable society,
+p25
+aVa functioning economy, or peace."
+p26
+aa(lp27
+VWhat's happening here? How can this be possible?
+p28
+aVDo we really understand more about the fabric of reality
+p29
+aVthan we do about the fabric which emerges from our human interactions?
+p30
+aVUnfortunately, the answer is yes.
+p31
+aVBut there's an intriguing solution
+p32
+aVwhich is coming from what is known as the science of complexity.
+p33
+aa(lp34
+VTo explain what this means and what this thing is,
+p35
+aVplease let me quickly take a couple of steps back.
+p36
+aVI ended up in physics by accident.
+p37
+aVIt was a random encounter when I was young,
+p38
+aVand since then, I've often wondered about the amazing success of physics
+p39
+aVin describing the reality we wake up in every day.
+p40
+aVIn a nutshell, you can think of physics as follows.
+p41
+aVSo you take a chunk of reality you want to understand
+p42
+aVand you translate it into mathematics.
+p43
+aVYou encode it into equations.
+p44
+aVThen, predictions can be made and tested.
+p45
+aVWe're actually really lucky that this works,
+p46
+aVbecause no one really knows why the thoughts in our heads
+p47
+aVshould actually relate to the fundamental workings of the universe.
+p48
+aVDespite the success, physics has its limits.
+p49
+aVAs Dirk Helbing pointed out in the last quote,
+p50
+aVwe don't really understand the complexity that relates to us, that surrounds us.
+p51
+aVThis paradox is what got me interested in complex systems.
+p52
+aVSo these are systems which are made up
+p53
+aVof many interconnected or interacting parts:
+p54
+aVswarms of birds or fish,
+p55
+aVant colonies, ecosystems, brains, financial markets.
+p56
+aVThese are just a few examples.
+p57
+aa(lp58
+VInterestingly, complex systems are very hard to map
+p59
+aVinto mathematical equations,
+p60
+aVso the usual physics approach doesn't really work here.
+p61
+aVSo what do we know about complex systems?
+p62
+aVWell, it turns out that what looks like complex behavior from the outside
+p63
+aVis actually the result of a few simple rules of interaction.
+p64
+aVThis means you can forget about the equations
+p65
+aVand just start to understand the system
+p66
+aVby looking at the interactions,
+p67
+aVso you can actually forget about the equations
+p68
+aVand you just start to look at the interactions.
+p69
+aVAnd it gets even better, because most complex systems
+p70
+aVhave this amazing property called emergence.
+p71
+aVSo this means that the system as a whole suddenly starts to show a behavior
+p72
+aVwhich cannot be understood or predicted
+p73
+aVby looking at the components of the system.
+p74
+aVSo the whole is literally more than the sum of its parts.
+p75
+aVAnd all of this also means
+p76
+aVthat you can forget about the individual parts of the system,
+p77
+aVhow complex they are.
+p78
+aVSo if it's a cell or a termite or a bird,
+p79
+aVyou just focus on the rules of interaction.
+p80
+aa(lp81
+VAs a result, networks are ideal representations of complex systems.
+p82
+aVThe nodes in the network are the system's components,
+p83
+aVand the links are given by the interactions.
+p84
+aVSo what equations are for physics,
+p85
+aVcomplex networks are for the study of complex systems.
+p86
+aa(lp87
+VThis approach has been very successfully applied
+p88
+aVto many complex systems in physics, biology,
+p89
+aVcomputer science, the social sciences,
+p90
+aVbut what about economics?
+p91
+aVWhere are economic networks?
+p92
+aVThis is a surprising and prominent gap in the literature.
+p93
+aVThe study we published last year, called "The Network of Global Corporate Control,"
+p94
+aVwas the first extensive analysis of economic networks.
+p95
+aVThe study went viral on the Internet
+p96
+aVand it attracted a lot of attention from the international media.
+p97
+aVThis is quite remarkable, because, again, why did no one look at this before?
+p98
+aVSimilar data has been around for quite some time.
+p99
+aa(lp100
+VWhat we looked at in detail was ownership networks.
+p101
+aVSo here the nodes are companies, people, governments, foundations, etc.
+p102
+aVAnd the links represent the shareholding relations,
+p103
+aVso shareholder A has x percent of the shares in company B.
+p104
+aVAnd we also assign a value to the company given by the operating revenue.
+p105
+aVSo ownership networks reveal the patterns of shareholding relations.
+p106
+aVIn this little example, you can see a few financial institutions
+p107
+aVwith some of the many links highlighted.
+p108
+aa(lp109
+VNow, you may think that no one looked at this before
+p110
+aVbecause ownership networks are really, really boring to study.
+p111
+aVWell, as ownership is related to control,
+p112
+aVas I shall explain later,
+p113
+aVlooking at ownership networks
+p114
+aVactually can give you answers to questions like,
+p115
+aVwho are the key players?
+p116
+aVHow are they organized? Are they isolated?
+p117
+aVAre they interconnected?
+p118
+aVAnd what is the overall distribution of control?
+p119
+aVIn other words, who controls the world?
+p120
+aVI think this is an interesting question.
+p121
+aa(lp122
+VAnd it has implications for systemic risk.
+p123
+aVThis is a measure of how vulnerable a system is overall.
+p124
+aVA high degree of interconnectivity can be bad for stability,
+p125
+aVbecause then the stress can spread through the system like an epidemic.
+p126
+aa(lp127
+VScientists have sometimes criticized economists
+p128
+aVwho believe ideas and concepts are more important than empirical data,
+p129
+aVbecause a foundational guideline in science is:
+p130
+aVLet the data speak. OK. Let's do that.
+p131
+aa(lp132
+VSo we started with a database containing 13 million ownership relations from 2007.
+p133
+aVThis is a lot of data, and because we wanted to find out
+p134
+aV"who rules the world,"
+p135
+aVwe decided to focus on transnational corporations,
+p136
+aVor "TNCs," for short.
+p137
+aVThese are companies that operate in more than one country,
+p138
+aVand we found 43,000.
+p139
+aVIn the next step, we built the network around these companies,
+p140
+aVso we took all the TNCs' shareholders,
+p141
+aVand the shareholders' shareholders, etc.,
+p142
+aVall the way upstream, and we did the same downstream,
+p143
+aVand ended up with a network containing 600,000 nodes
+p144
+aVand one million links.
+p145
+aVThis is the TNC network which we analyzed.
+p146
+aa(lp147
+VAnd it turns out to be structured as follows.
+p148
+aVSo you have a periphery and a center
+p149
+aVwhich contains about 75 percent of all the players,
+p150
+aVand in the center, there's this tiny but dominant core
+p151
+aVwhich is made up of highly interconnected companies.
+p152
+aVTo give you a better picture,
+p153
+aVthink about a metropolitan area.
+p154
+aVSo you have the suburbs and the periphery,
+p155
+aVyou have a center, like a financial district,
+p156
+aVthen the core will be something like
+p157
+aVthe tallest high-rise building in the center.
+p158
+aVAnd we already see signs of organization going on here.
+p159
+aV36 percent of the TNCs are in the core only,
+p160
+aVbut they make up 95 percent of the total operating revenue of all TNCs.
+p161
+aa(lp162
+VOK, so now we analyzed the structure,
+p163
+aVso how does this relate to the control?
+p164
+aVWell, ownership gives voting rights to shareholders.
+p165
+aVThis is the normal notion of control.
+p166
+aVAnd there are different models
+p167
+aVwhich allow you to compute the control you get from ownership.
+p168
+aVIf you have more than 50 percent of the shares in a company,
+p169
+aVyou get control,
+p170
+aVbut usually, it depends on the relative distribution of shares.
+p171
+aVAnd the network really matters.
+p172
+aVAbout 10 years ago, Mr. Tronchetti Provera
+p173
+aVhad ownership and control in a small company,
+p174
+aVwhich had ownership and control in a bigger company.
+p175
+aVYou get the idea.
+p176
+aVThis ended up giving him control in Telecom Italia with a leverage of 26.
+p177
+aVSo this means that, with each euro he invested,
+p178
+aVhe was able to move 26 euros of market value
+p179
+aVthrough the chain of ownership relations.
+p180
+aa(lp181
+VNow what we actually computed in our study was the control over the TNCs' value.
+p182
+aVThis allowed us to assign a degree of influence to each shareholder.
+p183
+aVThis is very much in the sense of Max Weber's idea of potential power,
+p184
+aVwhich is the probability of imposing one's own will
+p185
+aVdespite the opposition of others.
+p186
+aa(lp187
+VIf you want to compute the flow in an ownership network,
+p188
+aVthis is what you have to do.
+p189
+aVIt's actually not that hard to understand.
+p190
+aVLet me explain by giving you this analogy.
+p191
+aVSo think about water flowing in pipes, where the pipes have different thickness.
+p192
+aVSo similarly, the control is flowing in the ownership networks
+p193
+aVand is accumulating at the nodes.
+p194
+aVSo what did we find after computing all this network control?
+p195
+aVWell, it turns out that the 737 top shareholders
+p196
+aVhave the potential to collectively control 80 percent of the TNCs' value.
+p197
+aVNow remember, we started out with 600,000 nodes,
+p198
+aVso these 737 top players make up a bit more than 0.1 percent.
+p199
+aVThey're mostly financial institutions in the US and the UK.
+p200
+aVAnd it gets even more extreme.
+p201
+aVThere are 146 top players in the core,
+p202
+aVand they together have the potential to collectively control
+p203
+aV40 percent of the TNCs' value.
+p204
+aa(lp205
+VWhat should you take home from all of this?
+p206
+aVWell, the high degree of control you saw is very extreme by any standard.
+p207
+aVThe high degree of interconnectivity of the top players in the core
+p208
+aVcould pose a significant systemic risk to the global economy.
+p209
+aVAnd we could easily reproduce the TNC network
+p210
+aVwith a few simple rules.
+p211
+aVThis means that its structure is probably the result of self-organization.
+p212
+aVIt's an emergent property which depends on the rules of interaction in the system,
+p213
+aVso it's probably not the result of a top-down approach
+p214
+aVlike a global conspiracy.
+p215
+aa(lp216
+VOur study "is an impression of the moon's surface.
+p217
+aVIt's not a street map."
+p218
+aVSo you should take the exact numbers in our study with a grain of salt,
+p219
+aVyet it "gave us a tantalizing glimpse of a brave new world of finance."
+p220
+aVWe hope to have opened the door for more such research in this direction,
+p221
+aVso the remaining unknown terrain will be charted in the future.
+p222
+aVAnd this is slowly starting.
+p223
+aVWe're seeing the emergence of long-term and highly-funded programs
+p224
+aVwhich aim at understanding our networked world
+p225
+aVfrom a complexity point of view.
+p226
+aVBut this journey has only just begun,
+p227
+aVso we will have to wait before we see the first results.
+p228
+aa(lp229
+VNow there is still a big problem, in my opinion.
+p230
+aVIdeas relating to finance, economics, politics, society,
+p231
+aVare very often tainted by people's personal ideologies.
+p232
+aVI really hope that this complexity perspective
+p233
+aVallows for some common ground to be found.
+p234
+aVIt would be really great if it has the power
+p235
+aVto help end the gridlock created by conflicting ideas,
+p236
+aVwhich appears to be paralyzing our globalized world.
+p237
+aVReality is so complex, we need to move away from dogma.
+p238
+aVBut this is just my own personal ideology.
+p239
+aa(lp240
+VThank you.
+p241
+aa(lp242
+V(Applause)
+p243
+aasS'transcript_micsec'
+p244
+(lp245
+I12000
+aI34000
+aI85000
+aI106000
+aI188000
+aI264000
+aI288000
+aI334000
+aI374000
+aI407000
+aI429000
+aI443000
+aI488000
+aI537000
+aI598000
+aI623000
+aI699000
+aI743000
+aI788000
+aI833000
+aI835000
+asS'talk_meta'
+p246
+(dp247
+S'ratings'
+p248
+(dp249
+S'ingenious'
+p250
+I177
+sS'funny'
+p251
+I7
+sS'inspiring'
+p252
+I102
+sS'ok'
+p253
+I122
+sS'fascinating'
+p254
+I292
+sS'total_count'
+p255
+I1966
+sS'persuasive'
+p256
+I203
+sS'longwinded'
+p257
+I89
+sS'unconvincing'
+p258
+I63
+sS'informative'
+p259
+I569
+sS'beautiful'
+p260
+I23
+sS'jaw-dropping'
+p261
+I138
+sS'obnoxious'
+p262
+I20
+sS'courageous'
+p263
+I85
+sS'confusing'
+p264
+I76
+ssS'author'
+p265
+VJames B._Glattfelder;
+p266
+sS'url'
+p267
+S'https://www.ted.com/talks/james_b_glattfelder_who_controls_the_world'
+p268
+sS'vidlen'
+p269
+I850
+sS'totalviews'
+p270
+I2542851
+sS'title'
+p271
+VWho controls the world?
+p272
+sS'downloadlink'
+p273
+Vhttps://download.ted.com/talks/JamesBGlattfelder_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p274
+sS'datepublished'
+p275
+cdatetime
+datetime
+p276
+(S'\x07\xdd\x02\r\x0b\x00\x1f\x00\x00\x00'
+tRp277
+sS'datefilmed'
+p278
+g276
+(S'\x07\xdd\x02\r\x0b\x00\x1f\x00\x00\x00'
+tRp279
+sS'alldata_JSON'
+p280
+S'{"viewed_count": 2542851, "speakers": [{"description": "Complex systems theorist", "firstname": "James B.", "title": "", "lastname": "Glattfelder", "middleinitial": "", "whylisten": "<p>First a physicist and then a researcher at a Swiss hedge fund, James B. Glattfelder found himself amazed by the level of understanding we have in regards to the physical world and universe around us. He wondered: how can we move toward a similar understanding of human society?</p>  <p>This question led him to the study of complex systems, a subject he now holds a Ph.D in from the Swiss Federal Institute of Technology. Glattfelder is co-head of quantitative research at Olsen Ltd in Zurich, an FX investment manager focusing on market-stabilizing algorithms. In 2011, he co-authored the study &ldquo;<a href=\\"http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0025995\\" target=\\"_blank\\">The Network of Global Corporate Control</a>,&rdquo; which went viral in the international media and sparked many controversial discussions. The study looked at the architecture of ownership across the globe, and computed a level of control exerted by each international player. The study revealed that less than 1% of all the players in the global economy are part of a highly interconnected and powerful core which, because of the high levels of overlap, leaves the economy vulnerable.</p> <p>In his free time, Glattfelder enjoys snowboarding, rock climbing, surfing and listening to electronic music.&nbsp;</p>", "slug": "james_b_glattfelder", "whotheyare": "James B. Glattfelder aims to give us a richer, data-driven understanding of the people and interactions that control our global economy. He does this not to push an ideology -- but with the hopes of making the world a better place.", "whatotherssay": "As protests against financial power sweep the world this week, science may have confirmed the protesters\' worst fears. An analysis of the relationships between 43,000 transnational corporations has identified a relatively small group of companies, mainly banks, with disproportionate power over the global economy ... The study, by a trio of complex systems theorists at the Swiss Federal Institute of Technology in Zurich, is the first to go beyond ideology to empirically identify such a network of power.", "id": 1541, "photo_url": "https://pe.tedcdn.com/images/ted/de3e0a608b7f913bd4e64c7cefe0ef94599cc108_254x191.jpg"}], "current_talk": 1668, "description": "James Glattfelder studies complexity: how an interconnected system -- say, a swarm of birds -- is more than the sum of its parts. And complexity theory, it turns out, can reveal a lot about how the world economy works. Glattfelder shares a groundbreaking study of how control flows through the global economy, and how concentration of power in the hands of a shockingly small number leaves us all vulnerable.", "language": "en", "url": "https://www.ted.com/talks/james_b_glattfelder_who_controls_the_world", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101196341}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19511706}, "podcast-high": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101201797}, "180k": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19246010}, "64k": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6948095}, "1500k": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 156182454}, "450k": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48033739}, "podcast-regular": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48321544}, "950k": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 100808568}, "audio-podcast": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8748465}, "podcast-light": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7085602}, "320k": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34125725}, "600k": {"uri": "https://download.ted.com/talks/JamesBGlattfelder_2012X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64249143}}}, "comments": {"count": 301, "id": 18039, "talk_id": 1668}, "slug": "james_b_glattfelder_who_controls_the_world", "threadId": 18039, "talks": [{"event": "TEDxZurich 2012", "player_talks": [{"event": "TEDxZurich 2012", "slug": "james_b_glattfelder_who_controls_the_world", "filmed": 1351123200, "targeting": {"event": "TEDxZurich 2012", "tag": "TEDx,business,complexity,data,economics,global issues,inequality", "id": 1668, "talk": "james_b_glattfelder_who_controls_the_world", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "Who controls the world?", "postAdDuration": "0.83", "published": 1360771231, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2a46d8d424ce31486b5ebb8278ade834cd6aefe7_1600x1200.jpg?quality=89&w=600", "name": "James B. Glattfelder: Who controls the world?", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "be", "endonym": "\\u0411\\u0435\\u043b\\u0430\\u0440\\u0443\\u0441\\u043a\\u0430\\u044f \\u043c\\u043e\\u0432\\u0430", "isRtl": false, "ianaCode": "be", "languageName": "Belarusian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "business", "complexity", "data", "economics", "global issues", "inequality"], "speaker": "James B. Glattfelder", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 850, "id": 1668, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JamesBGlattfelder_2012X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxZurich 2012", "tag": "TEDx,business,complexity,data,economics,global issues,inequality", "id": 1668, "talk": "james_b_glattfelder_who_controls_the_world", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1668.json", "stream": "https://hls.ted.com/talks/1668.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxZurich%2B2012%26id%3D1668%26tag%3DTEDx%2Cbusiness%2Ccomplexity%2Cdata%2Ceconomics%2Cglobal%2Bissues%2Cinequality%26talk%3Djames_b_glattfelder_who_controls_the_world%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/james_b_glattfelder_who_controls_the_world"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2a46d8d424ce31486b5ebb8278ade834cd6aefe7_1600x1200.jpg?q=50&w=15", "duration": 850, "id": 1668, "ratings": [{"count": 138, "id": 23, "name": "Jaw-dropping"}, {"count": 203, "id": 24, "name": "Persuasive"}, {"count": 177, "id": 9, "name": "Ingenious"}, {"count": 292, "id": 22, "name": "Fascinating"}, {"count": 569, "id": 8, "name": "Informative"}, {"count": 85, "id": 3, "name": "Courageous"}, {"count": 102, "id": 10, "name": "Inspiring"}, {"count": 76, "id": 2, "name": "Confusing"}, {"count": 89, "id": 11, "name": "Longwinded"}, {"count": 7, "id": 7, "name": "Funny"}, {"count": 63, "id": 21, "name": "Unconvincing"}, {"count": 122, "id": 25, "name": "OK"}, {"count": 20, "id": 26, "name": "Obnoxious"}, {"count": 23, "id": 1, "name": "Beautiful"}], "speakers": [{"description": "Complex systems theorist", "firstname": "James B.", "title": "", "lastname": "Glattfelder", "middleinitial": "", "whylisten": "<p>First a physicist and then a researcher at a Swiss hedge fund, James B. Glattfelder found himself amazed by the level of understanding we have in regards to the physical world and universe around us. He wondered: how can we move toward a similar understanding of human society?</p>  <p>This question led him to the study of complex systems, a subject he now holds a Ph.D in from the Swiss Federal Institute of Technology. Glattfelder is co-head of quantitative research at Olsen Ltd in Zurich, an FX investment manager focusing on market-stabilizing algorithms. In 2011, he co-authored the study &ldquo;<a href=\\"http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0025995\\" target=\\"_blank\\">The Network of Global Corporate Control</a>,&rdquo; which went viral in the international media and sparked many controversial discussions. The study looked at the architecture of ownership across the globe, and computed a level of control exerted by each international player. The study revealed that less than 1% of all the players in the global economy are part of a highly interconnected and powerful core which, because of the high levels of overlap, leaves the economy vulnerable.</p> <p>In his free time, Glattfelder enjoys snowboarding, rock climbing, surfing and listening to electronic music.&nbsp;</p>", "slug": "james_b_glattfelder", "whotheyare": "James B. Glattfelder aims to give us a richer, data-driven understanding of the people and interactions that control our global economy. He does this not to push an ideology -- but with the hopes of making the world a better place.", "whatotherssay": "As protests against financial power sweep the world this week, science may have confirmed the protesters\' worst fears. An analysis of the relationships between 43,000 transnational corporations has identified a relatively small group of companies, mainly banks, with disproportionate power over the global economy ... The study, by a trio of complex systems theorists at the Swiss Federal Institute of Technology in Zurich, is the first to go beyond ideology to empirically identify such a network of power.", "id": 1541, "photo_url": "https://pe.tedcdn.com/images/ted/de3e0a608b7f913bd4e64c7cefe0ef94599cc108_254x191.jpg"}], "title": "Who controls the world?", "take_action": [], "comments": 18039, "more_resources": [{"status": "approved", "publisher": "Springer", "start_at": null, "author": "James B. Glattfelder", "headline": "*Decoding Complexity*", "link_url": "http://www.amazon.com/Decoding-Complexity-Uncovering-Patterns-Economic/dp/3642334237/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/8bbbc9d011d29458dbc3072e0b7567c5d275f374_438x664.jpg", "year": "2012", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/2a46d8d424ce31486b5ebb8278ade834cd6aefe7_1600x1200.jpg", "description": "James Glattfelder studies complexity: how an interconnected system -- say, a swarm of birds -- is more than the sum of its parts. And complexity theory, it turns out, can reveal a lot about how the world economy works. Glattfelder shares a groundbreaking study of how control flows through the global economy, and how concentration of power in the hands of a shockingly small number leaves us all vulnerable.", "tags": ["TEDx", "business", "complexity", "data", "economics", "global issues", "inequality"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "be", "endonym": "\\u0411\\u0435\\u043b\\u0430\\u0440\\u0443\\u0441\\u043a\\u0430\\u044f \\u043c\\u043e\\u0432\\u0430", "isRtl": false, "ianaCode": "be", "languageName": "Belarusian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-vi.mp4"}, "it": {"name": "Italian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-zh-tw.mp4"}, "lv": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-lv.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-fr-ca.mp4"}, "lt": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-pl.mp4"}, "be": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-be.mp4", "name": "Belarusian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-be.mp4"}, "fr": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JamesBGlattfelder_2012X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JamesBGlattfelder_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JamesBGlattfelder_2012X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1668, "audioDownload": "https://download.ted.com/talks/JamesBGlattfelder_2012X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1160551, "hero": "https://pe.tedcdn.com/images/ted/864a77c75e66fbac4c49afd3c7e45a17ec522c91_800x600.jpg", "title": "Simplifying complexity", "id": 1006, "speaker": "Eric Berlow", "duration": 222, "slug": "eric_berlow_how_complexity_leads_to_simplicity"}, {"viewed_count": 2512633, "hero": "https://pe.tedcdn.com/images/ted/a148d40e8e14c96fab2092c7838cfbc719b23815_800x600.jpg", "title": "How economic inequality harms societies", "id": 1253, "speaker": "Richard Wilkinson", "duration": 1014, "slug": "richard_wilkinson"}, {"viewed_count": 1635157, "hero": "https://pe.tedcdn.com/images/ted/2a0622d03c2b2a6c673657a5b72ca83b0f48212e_2400x1800.jpg", "title": "Beware, fellow plutocrats, the pitchforks are coming", "id": 2055, "speaker": "Nick Hanauer", "duration": 1222, "slug": "nick_hanauer_beware_fellow_plutocrats_the_pitchforks_are_coming"}, {"viewed_count": 1339641, "hero": "https://pe.tedcdn.com/images/ted/169816_800x600.jpg", "title": "The hidden influence of social networks", "id": 852, "speaker": "Nicholas Christakis", "duration": 1259, "slug": "nicholas_christakis_the_hidden_influence_of_social_networks"}, {"viewed_count": 571406, "hero": "https://pe.tedcdn.com/images/ted/199262_800x600.jpg", "title": "How social networks predict epidemics", "id": 958, "speaker": "Nicholas Christakis", "duration": 1074, "slug": "nicholas_christakis_how_social_networks_predict_epidemics"}, {"viewed_count": 2502849, "hero": "https://pe.tedcdn.com/images/ted/4c6dfc9fa9e4e7b966a9cb04791be03a9b3eb359_2880x1620.jpg", "title": "Got a wicked problem? First, tell me how you make toast", "id": 2179, "speaker": "Tom Wujec", "duration": 541, "slug": "tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast"}], "recorded_at": "2012-10-25T00:00:00.000+00:00", "slug": "james_b_glattfelder_who_controls_the_world", "speaker_name": "James B. Glattfelder", "viewed_count": 2542851, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxZurich 2012, an independent event. TED editors featured it among our selections on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "James Glattfelder recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "The Network of Global Corporate Control", "link_url": "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0025995", "eyebrow": null, "label": "READ_Article", "note": "Stefania Vitali et al.\\r\\n*PLOS One*, October 26, 2011", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Don\'t Follow the Leader\\r\\n", "link_url": "http://www.huffingtonpost.com/costa-michailidis/leadership-skills_b_2803858.html", "eyebrow": null, "label": "READ_Article", "note": "*The Huffington Post*\\r\\nCosta Michailidis, March 7, 2013", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "To Navigate Economic Storms, We Need Better Forecasting", "link_url": "http://www.newscientist.com/article/mg21228425.400-to-navigate-economic-storms-we-need-better-forecasting.html", "eyebrow": null, "label": "READ_Article", "note": "Andy Haldane\\r\\n*New Scientist*, December 13, 2011", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The 147 Companies that Sort of Control Sort of Everything", "link_url": "http://www.forbes.com/sites/bruceupbin/2011/11/21/the-147-companies-that-sort-of-control-sort-of-everything-full-list-revealed/", "eyebrow": null, "label": "READ_Article", "note": "Bruce Upbin\\r\\n*Forbes*, November 21, 2011", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Revealed: The capitalist network that runs the world", "link_url": "http://www.newscientist.com/article/mg21228354.500-revealed--the-capitalist-network-that-runs-the-world.html", "eyebrow": null, "label": "READ_Article", "note": "Andy Coghlan and Debora MacKenzie\\r\\n*New Scientist*, October 24, 2011", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "James Glattfelder: How to build an economic system we actually understand", "link_url": "https://www.youtube.com/watch?v=0llRJwA0ahA", "eyebrow": null, "label": "WATCH", "note": "*Wired* Money Talk, 2014", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Response to: The network of global corporate control ", "link_url": "http://j-node.blogspot.ch/2011/08/network-of-global-corporate-control.html", "eyebrow": null, "label": "READ_Article", "note": "j-node, August 23, 2011", "position": null, "blurb": ""}, {"is_pdf": true, "headline": "Ownership networks and corporate control: Mapping economic power in a\\r\\nglobalized world", "link_url": "http://www.sg.ethz.ch/media/medialibrary/2013/12/james_glatteth-2007-02.pdf", "eyebrow": null, "label": "READ_Article", "note": "James B. Glattfelder\\r\\nETH Zurich, 2010", "position": null, "blurb": ""}], "title": "reading list"}], "published": true, "type": "recommendation", "blurb": "The complexity theorist shares further reading on the fundamental principles that run our economy."}, "corrections": [{"timecode": "03:49", "text": "I unfortunately lost my train of thought, which results in the cut here. What I wanted to say:\\r\\n\\"This means you can forget about the equations and just start to understand the system by looking at the interactions. You can then understand the complex system by simulating it in a computer. As an example, you need three simple rules to simulate swarming behavior: Move in the same direction as your neighbor, stay close to your neighbor, but avoid collisions. If you think this is no big deal, think again. No one saw this coming. And to this day no one really knows why this is the way things are. It\'s as if reality is giving us a big help in understanding how stuff works. Like the \'miracle\' I mentioned before, those equations mirror the workings of the universe. And it gets even better, because most complex systems have this amazing property called emergence. So this means that the system as a whole suddenly starts to show a behavior which cannot be understood or predicted by looking at the components of the system.\\"", "type": "correction", "status": "approved", "published": true}, {"timecode": "08:11", "text": "I misspoke when I said, \\"Thirty-six percent of the TNCs are in the core only ... .\\" Instead, I meant to say, \\"Thirty-six percent of the TNCs are in the *center* only.\\"", "type": "correction", "status": "approved", "published": true}]}], "event": "TEDxZurich 2012", "name": "James B. Glattfelder: Who controls the world?"}'
+p281
+sS'keywords'
+p282
+(lp283
+VTEDx
+p284
+aVbusiness
+p285
+aVcomplexity
+p286
+aVdata
+p287
+aVeconomics
+p288
+aVglobal issues
+p289
+aVinequality
+p290
+asS'datecrawled'
+p291
+g276
+(S'\x07\xe1\n\x17\x01\x14\x1d\x01M%'
+tRp292
+sS'id'
+p293
+I1668
+ss.

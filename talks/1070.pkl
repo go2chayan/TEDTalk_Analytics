@@ -1,0 +1,860 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VEver since I was a little girl
+p5
+aVseeing "Star Wars" for the first time,
+p6
+aVI've been fascinated by this idea
+p7
+aVof personal robots.
+p8
+aVAnd as a little girl,
+p9
+aVI loved the idea of a robot that interacted with us
+p10
+aVmuch more like a helpful, trusted sidekick \u2014
+p11
+aVsomething that would delight us, enrich our lives
+p12
+aVand help us save a galaxy or two.
+p13
+aVI knew robots like that didn't really exist,
+p14
+aVbut I knew I wanted to build them.
+p15
+aa(lp16
+VSo 20 years pass \u2014
+p17
+aVI am now a graduate student at MIT
+p18
+aVstudying artificial intelligence,
+p19
+aVthe year is 1997,
+p20
+aVand NASA has just landed the first robot on Mars.
+p21
+aVBut robots are still not in our home, ironically.
+p22
+aVAnd I remember thinking about
+p23
+aVall the reasons why that was the case.
+p24
+aVBut one really struck me.
+p25
+aVRobotics had really been about interacting with things,
+p26
+aVnot with people \u2014
+p27
+aVcertainly not in a social way that would be natural for us
+p28
+aVand would really help people accept robots
+p29
+aVinto our daily lives.
+p30
+aVFor me, that was the white space; that's what robots could not do yet.
+p31
+aVAnd so that year, I started to build this robot, Kismet,
+p32
+aVthe world's first social robot.
+p33
+aVThree years later \u2014
+p34
+aVa lot of programming,
+p35
+aVworking with other graduate students in the lab \u2014
+p36
+aVKismet was ready to start interacting with people.
+p37
+aa(lp38
+V(Video) Scientist: I want to show you something.
+p39
+aa(lp40
+VKismet: (Nonsense)
+p41
+aa(lp42
+VScientist: This is a watch that my girlfriend gave me.
+p43
+aa(lp44
+VKismet: (Nonsense)
+p45
+aa(lp46
+VScientist: Yeah, look, it's got a little blue light in it too.
+p47
+aVI almost lost it this week.
+p48
+aa(lp49
+VCynthia Breazeal: So Kismet interacted with people
+p50
+aVlike kind of a non-verbal child or pre-verbal child,
+p51
+aVwhich I assume was fitting because it was really the first of its kind.
+p52
+aVIt didn't speak language, but it didn't matter.
+p53
+aVThis little robot was somehow able
+p54
+aVto tap into something deeply social within us \u2014
+p55
+aVand with that, the promise of an entirely new way
+p56
+aVwe could interact with robots.
+p57
+aa(lp58
+VSo over the past several years
+p59
+aVI've been continuing to explore this interpersonal dimension of robots,
+p60
+aVnow at the media lab
+p61
+aVwith my own team of incredibly talented students.
+p62
+aVAnd one of my favorite robots is Leonardo.
+p63
+aVWe developed Leonardo in collaboration with Stan Winston Studio.
+p64
+aVAnd so I want to show you a special moment for me of Leo.
+p65
+aVThis is Matt Berlin interacting with Leo,
+p66
+aVintroducing Leo to a new object.
+p67
+aVAnd because it's new, Leo doesn't really know what to make of it.
+p68
+aVBut sort of like us, he can actually learn about it
+p69
+aVfrom watching Matt's reaction.
+p70
+aa(lp71
+V(Video) Matt Berlin: Hello, Leo.
+p72
+aVLeo, this is Cookie Monster.
+p73
+aVCan you find Cookie Monster?
+p74
+aVLeo, Cookie Monster is very bad.
+p75
+aVHe's very bad, Leo.
+p76
+aVCookie Monster is very, very bad.
+p77
+aVHe's a scary monster.
+p78
+aVHe wants to get your cookies.
+p79
+aa(lp80
+V(Laughter)
+p81
+aa(lp82
+VCB: All right, so Leo and Cookie
+p83
+aVmight have gotten off to a little bit of a rough start,
+p84
+aVbut they get along great now.
+p85
+aa(lp86
+VSo what I've learned
+p87
+aVthrough building these systems
+p88
+aVis that robots are actually
+p89
+aVa really intriguing social technology,
+p90
+aVwhere it's actually their ability
+p91
+aVto push our social buttons
+p92
+aVand to interact with us like a partner
+p93
+aVthat is a core part of their functionality.
+p94
+aVAnd with that shift in thinking, we can now start to imagine
+p95
+aVnew questions, new possibilities for robots
+p96
+aVthat we might not have thought about otherwise.
+p97
+aVBut what do I mean when I say "push our social buttons?"
+p98
+aVWell, one of the things that we've learned
+p99
+aVis that, if we design these robots to communicate with us
+p100
+aVusing the same body language,
+p101
+aVthe same sort of non-verbal cues that people use \u2014
+p102
+aVlike Nexi, our humanoid robot, is doing here \u2014
+p103
+aVwhat we find is that people respond to robots
+p104
+aVa lot like they respond to people.
+p105
+aVPeople use these cues to determine things like how persuasive someone is,
+p106
+aVhow likable, how engaging,
+p107
+aVhow trustworthy.
+p108
+aVIt turns out it's the same for robots.
+p109
+aa(lp110
+VIt's turning out now
+p111
+aVthat robots are actually becoming a really interesting new scientific tool
+p112
+aVto understand human behavior.
+p113
+aVTo answer questions like, how is it that, from a brief encounter,
+p114
+aVwe're able to make an estimate of how trustworthy another person is?
+p115
+aVMimicry's believed to play a role, but how?
+p116
+aVIs it the mimicking of particular gestures that matters?
+p117
+aVIt turns out it's really hard
+p118
+aVto learn this or understand this from watching people
+p119
+aVbecause when we interact we do all of these cues automatically.
+p120
+aVWe can't carefully control them because they're subconscious for us.
+p121
+aVBut with the robot, you can.
+p122
+aa(lp123
+VAnd so in this video here \u2014
+p124
+aVthis is a video taken from David DeSteno's lab at Northeastern University.
+p125
+aVHe's a psychologist we've been collaborating with.
+p126
+aVThere's actually a scientist carefully controlling Nexi's cues
+p127
+aVto be able to study this question.
+p128
+aVAnd the bottom line is \u2014 the reason why this works is
+p129
+aVbecause it turns out people just behave like people
+p130
+aVeven when interacting with a robot.
+p131
+aVSo given that key insight,
+p132
+aVwe can now start to imagine
+p133
+aVnew kinds of applications for robots.
+p134
+aVFor instance, if robots do respond to our non-verbal cues,
+p135
+aVmaybe they would be a cool, new communication technology.
+p136
+aVSo imagine this:
+p137
+aVWhat about a robot accessory for your cellphone?
+p138
+aVYou call your friend, she puts her handset in a robot,
+p139
+aVand, bam! You're a MeBot \u2014
+p140
+aVyou can make eye contact, you can talk with your friends,
+p141
+aVyou can move around, you can gesture \u2014
+p142
+aVmaybe the next best thing to really being there, or is it?
+p143
+aa(lp144
+VTo explore this question,
+p145
+aVmy student, Siggy Adalgeirsson, did a study
+p146
+aVwhere we brought human participants, people, into our lab
+p147
+aVto do a collaborative task
+p148
+aVwith a remote collaborator.
+p149
+aVThe task involved things
+p150
+aVlike looking at a set of objects on the table,
+p151
+aVdiscussing them in terms of their importance and relevance to performing a certain task \u2014
+p152
+aVthis ended up being a survival task \u2014
+p153
+aVand then rating them in terms
+p154
+aVof how valuable and important they thought they were.
+p155
+aVThe remote collaborator was an experimenter from our group
+p156
+aVwho used one of three different technologies
+p157
+aVto interact with the participants.
+p158
+aVThe first was just the screen.
+p159
+aVThis is just like video conferencing today.
+p160
+aVThe next was to add mobility \u2014 so, have the screen on a mobile base.
+p161
+aVThis is like, if you're familiar with any of the telepresence robots today \u2014
+p162
+aVthis is mirroring that situation.
+p163
+aVAnd then the fully expressive MeBot.
+p164
+aa(lp165
+VSo after the interaction,
+p166
+aVwe asked people to rate their quality of interaction
+p167
+aVwith the technology, with a remote collaborator
+p168
+aVthrough this technology, in a number of different ways.
+p169
+aVWe looked at psychological involvement \u2014
+p170
+aVhow much empathy did you feel for the other person?
+p171
+aVWe looked at overall engagement.
+p172
+aVWe looked at their desire to cooperate.
+p173
+aVAnd this is what we see when they use just the screen.
+p174
+aVIt turns out, when you add mobility \u2014 the ability to roll around the table \u2014
+p175
+aVyou get a little more of a boost.
+p176
+aVAnd you get even more of a boost when you add the full expression.
+p177
+aVSo it seems like this physical, social embodiment
+p178
+aVactually really makes a difference.
+p179
+aa(lp180
+VNow let's try to put this into a little bit of context.
+p181
+aVToday we know that families are living further and further apart,
+p182
+aVand that definitely takes a toll on family relationships
+p183
+aVand family bonds over distance.
+p184
+aVFor me, I have three young boys,
+p185
+aVand I want them to have a really good relationship
+p186
+aVwith their grandparents.
+p187
+aVBut my parents live thousands of miles away,
+p188
+aVso they just don't get to see each other that often.
+p189
+aVWe try Skype, we try phone calls,
+p190
+aVbut my boys are little \u2014 they don't really want to talk;
+p191
+aVthey want to play.
+p192
+aVSo I love the idea of thinking about robots
+p193
+aVas a new kind of distance-play technology.
+p194
+aVI imagine a time not too far from now \u2014
+p195
+aVmy mom can go to her computer,
+p196
+aVopen up a browser and jack into a little robot.
+p197
+aVAnd as grandma-bot,
+p198
+aVshe can now play, really play,
+p199
+aVwith my sons, with her grandsons,
+p200
+aVin the real world with his real toys.
+p201
+aVI could imagine grandmothers being able to do social-plays
+p202
+aVwith their granddaughters, with their friends,
+p203
+aVand to be able to share all kinds of other activities around the house,
+p204
+aVlike sharing a bedtime story.
+p205
+aVAnd through this technology,
+p206
+aVbeing able to be an active participant
+p207
+aVin their grandchildren's lives
+p208
+aVin a way that's not possible today.
+p209
+aa(lp210
+VLet's think about some other domains,
+p211
+aVlike maybe health.
+p212
+aVSo in the United States today,
+p213
+aVover 65 percent of people are either overweight or obese,
+p214
+aVand now it's a big problem with our children as well.
+p215
+aVAnd we know that as you get older in life,
+p216
+aVif you're obese when you're younger, that can lead to chronic diseases
+p217
+aVthat not only reduce your quality of life,
+p218
+aVbut are a tremendous economic burden on our health care system.
+p219
+aVBut if robots can be engaging,
+p220
+aVif we like to cooperate with robots,
+p221
+aVif robots are persuasive,
+p222
+aVmaybe a robot can help you
+p223
+aVmaintain a diet and exercise program,
+p224
+aVmaybe they can help you manage your weight.
+p225
+aVSort of like a digital Jiminy \u2014
+p226
+aVas in the well-known fairy tale \u2014
+p227
+aVa kind of friendly, supportive presence that's always there
+p228
+aVto be able to help you make the right decision
+p229
+aVin the right way at the right time
+p230
+aVto help you form healthy habits.
+p231
+aVSo we actually explored this idea in our lab.
+p232
+aa(lp233
+VThis is a robot, Autom.
+p234
+aVCory Kidd developed this robot for his doctoral work.
+p235
+aVAnd it was designed to be a robot diet-and-exercise coach.
+p236
+aVIt had a couple of simple non-verbal skills it could do.
+p237
+aVIt could make eye contact with you.
+p238
+aVIt could share information looking down at a screen.
+p239
+aVYou'd use a screen interface to enter information,
+p240
+aVlike how many calories you ate that day,
+p241
+aVhow much exercise you got.
+p242
+aVAnd then it could help track that for you.
+p243
+aVAnd the robot spoke with a synthetic voice
+p244
+aVto engage you in a coaching dialogue
+p245
+aVmodeled after trainers
+p246
+aVand patients and so forth.
+p247
+aVAnd it would build a working alliance with you
+p248
+aVthrough that dialogue.
+p249
+aVIt could help you set goals and track your progress,
+p250
+aVand it would help motivate you.
+p251
+aa(lp252
+VSo an interesting question is,
+p253
+aVdoes the social embodiment really matter? Does it matter that it's a robot?
+p254
+aVIs it really just the quality of advice and information that matters?
+p255
+aVTo explore that question,
+p256
+aVwe did a study in the Boston area
+p257
+aVwhere we put one of three interventions in people's homes
+p258
+aVfor a period of several weeks.
+p259
+aVOne case was the robot you saw there, Autom.
+p260
+aVAnother was a computer that ran the same touch-screen interface,
+p261
+aVran exactly the same dialogues.
+p262
+aVThe quality of advice was identical.
+p263
+aVAnd the third was just a pen and paper log,
+p264
+aVbecause that's the standard intervention you typically get
+p265
+aVwhen you start a diet-and-exercise program.
+p266
+aa(lp267
+VSo one of the things we really wanted to look at
+p268
+aVwas not how much weight people lost,
+p269
+aVbut really how long they interacted with the robot.
+p270
+aVBecause the challenge is not losing weight, it's actually keeping it off.
+p271
+aVAnd the longer you could interact with one of these interventions,
+p272
+aVwell that's indicative, potentially, of longer-term success.
+p273
+aVSo the first thing I want to look at is how long,
+p274
+aVhow long did people interact with these systems.
+p275
+aVIt turns out that people interacted with the robot
+p276
+aVsignificantly more,
+p277
+aVeven though the quality of the advice was identical to the computer.
+p278
+aVWhen it asked people to rate it on terms of the quality of the working alliance,
+p279
+aVpeople rated the robot higher
+p280
+aVand they trusted the robot more.
+p281
+aV(Laughter)
+p282
+aVAnd when you look at emotional engagement,
+p283
+aVit was completely different.
+p284
+aVPeople would name the robots.
+p285
+aVThey would dress the robots.
+p286
+aV(Laughter)
+p287
+aVAnd even when we would come up to pick up the robots at the end of the study,
+p288
+aVthey would come out to the car and say good-bye to the robots.
+p289
+aVThey didn't do this with a computer.
+p290
+aa(lp291
+VThe last thing I want to talk about today
+p292
+aVis the future of children's media.
+p293
+aVWe know that kids spend a lot of time behind screens today,
+p294
+aVwhether it's television or computer games or whatnot.
+p295
+aVMy sons, they love the screen. They love the screen.
+p296
+aVBut I want them to play; as a mom, I want them to play,
+p297
+aVlike, real-world play.
+p298
+aVAnd so I have a new project in my group I wanted to present to you today
+p299
+aVcalled Playtime Computing
+p300
+aVthat's really trying to think about how we can take
+p301
+aVwhat's so engaging about digital media
+p302
+aVand literally bring it off the screen
+p303
+aVinto the real world of the child,
+p304
+aVwhere it can take on many of the properties of real-world play.
+p305
+aVSo here's the first exploration of this idea,
+p306
+aVwhere characters can be physical or virtual,
+p307
+aVand where the digital content
+p308
+aVcan literally come off the screen
+p309
+aVinto the world and back.
+p310
+aVI like to think of this
+p311
+aVas the Atari Pong
+p312
+aVof this blended-reality play.
+p313
+aa(lp314
+VBut we can push this idea further.
+p315
+aVWhat if \u2014
+p316
+aV(Game) Nathan: Here it comes. Yay!
+p317
+aVCB: \u2014 the character itself could come into your world?
+p318
+aVIt turns out that kids love it
+p319
+aVwhen the character becomes real and enters into their world.
+p320
+aVAnd when it's in their world,
+p321
+aVthey can relate to it and play with it in a way
+p322
+aVthat's fundamentally different from how they play with it on the screen.
+p323
+aVAnother important idea is this notion
+p324
+aVof persistence of character across realities.
+p325
+aVSo changes that children make in the real world
+p326
+aVneed to translate to the virtual world.
+p327
+aVSo here, Nathan has changed the letter A to the number 2.
+p328
+aVYou can imagine maybe these symbols
+p329
+aVgive the characters special powers when it goes into the virtual world.
+p330
+aVSo they are now sending the character back into that world.
+p331
+aVAnd now it's got number power.
+p332
+aa(lp333
+VAnd then finally, what I've been trying to do here
+p334
+aVis create a really immersive experience for kids,
+p335
+aVwhere they really feel like they are part of that story,
+p336
+aVa part of that experience.
+p337
+aVAnd I really want to spark their imaginations
+p338
+aVthe way mine was sparked as a little girl watching "Star Wars."
+p339
+aVBut I want to do more than that.
+p340
+aVI actually want them to create those experiences.
+p341
+aVI want them to be able to literally build their imagination
+p342
+aVinto these experiences and make them their own.
+p343
+aVSo we've been exploring a lot of ideas
+p344
+aVin telepresence and mixed reality
+p345
+aVto literally allow kids to project their ideas into this space
+p346
+aVwhere other kids can interact with them
+p347
+aVand build upon them.
+p348
+aVI really want to come up with new ways of children's media
+p349
+aVthat foster creativity and learning and innovation.
+p350
+aVI think that's very, very important.
+p351
+aa(lp352
+VSo this is a new project.
+p353
+aVWe've invited a lot of kids into this space,
+p354
+aVand they think it's pretty cool.
+p355
+aVBut I can tell you, the thing that they love the most
+p356
+aVis the robot.
+p357
+aVWhat they care about is the robot.
+p358
+aVRobots touch something deeply human within us.
+p359
+aVAnd so whether they're helping us
+p360
+aVto become creative and innovative,
+p361
+aVor whether they're helping us
+p362
+aVto feel more deeply connected despite distance,
+p363
+aVor whether they are our trusted sidekick
+p364
+aVwho's helping us attain our personal goals
+p365
+aVin becoming our highest and best selves,
+p366
+aVfor me, robots are all about people.
+p367
+aa(lp368
+VThank you.
+p369
+aa(lp370
+V(Applause)
+p371
+aasS'transcript_micsec'
+p372
+(lp373
+I11000
+aI38000
+aI86000
+aI88000
+aI90000
+aI93000
+aI95000
+aI100000
+aI120000
+aI149000
+aI188000
+aI190000
+aI198000
+aI249000
+aI279000
+aI329000
+aI377000
+aI410000
+aI474000
+aI522000
+aI560000
+aI594000
+aI650000
+aI704000
+aI748000
+aI792000
+aI826000
+aI828000
+asS'talk_meta'
+p374
+(dp375
+S'ratings'
+p376
+(dp377
+S'beautiful'
+p378
+I51
+sS'ingenious'
+p379
+I196
+sS'inspiring'
+p380
+I290
+sS'ok'
+p381
+I123
+sS'fascinating'
+p382
+I366
+sS'funny'
+p383
+I48
+sS'total_count'
+p384
+I1758
+sS'persuasive'
+p385
+I115
+sS'longwinded'
+p386
+I53
+sS'informative'
+p387
+I264
+sS'jaw-dropping'
+p388
+I73
+sS'obnoxious'
+p389
+I35
+sS'confusing'
+p390
+I14
+sS'courageous'
+p391
+I18
+sS'unconvincing'
+p392
+I112
+ssS'author'
+p393
+VCynthia_Breazeal;
+p394
+sS'url'
+p395
+S'https://www.ted.com/talks/cynthia_breazeal_the_rise_of_personal_robots'
+p396
+sS'vidlen'
+p397
+I844
+sS'totalviews'
+p398
+I1068082
+sS'title'
+p399
+VThe rise of personal robots
+p400
+sS'downloadlink'
+p401
+Vhttps://download.ted.com/talks/CynthiaBreazeal_2010W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p402
+sS'datepublished'
+p403
+cdatetime
+datetime
+p404
+(S'\x07\xdb\x02\x08\n1\x00\x00\x00\x00'
+tRp405
+sS'datefilmed'
+p406
+g404
+(S'\x07\xdb\x02\x08\n1\x00\x00\x00\x00'
+tRp407
+sS'alldata_JSON'
+p408
+S'{"viewed_count": 1068082, "speakers": [{"description": "Roboticist ", "firstname": "Cynthia", "title": "", "lastname": "Breazeal", "middleinitial": "", "whylisten": "<p>Cynthia Breazeal founded and directs the Personal Robots Group at MIT&rsquo;s Media Lab. Her research focuses on developing the principles and technologies for building personal robots that are socially intelligent&mdash;that interact and communicate with people in human-centric terms, work with humans as peers, and learn from people as an apprentice.</p><p>She has developed some of the world&rsquo;s most famous robotic creatures, ranging from small hexapod robots to highly expressive humanoids, including the social robot Kismet and the expressive robot Leonardo. Her recent work investigates the impact of social robots on helping people of all ages to achieve personal goals that contribute to quality of life, in domains such as physical performance, learning and education, health, and family communication and play over distance.</p>", "slug": "cynthia_breazeal", "whotheyare": "At MIT, Cynthia Breazeal and her team are building robots with social intelligence that communicate and learn the same way people do. \\r\\n", "whatotherssay": "Breazeal is attracted to inventing because it is hands-on and real-world. \\"I would much rather build something and interact with it than philosophize about it,\\" she says. \\"Or philosophize about someone else doing it.\\" But at the same time, she has used robotics to explore some subtle intellectual issues. \\r\\n", "id": 817, "photo_url": "https://pe.tedcdn.com/images/ted/da5e95a342f1298e95acf3eb20ef28652010f82c_254x191.jpg"}], "current_talk": 1070, "description": "Cynthia Breazeal wonders: Why can we use robots on Mars, but not in our living rooms? The key, she says, is in training robots to interact with people. Now she dreams up and builds robots that teach, learn -- and play. Watch for amazing demo footage of a new interactive game for kids.", "language": "en", "url": "https://www.ted.com/talks/cynthia_breazeal_the_rise_of_personal_robots", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97717711}, "podcast-low-en": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19329690}, "podcast-high": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97647876}, "180k": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19119269}, "64k": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6904463}, "1500k": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 152511642}, "450k": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47558275}, "podcast-regular": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47967829}, "950k": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 97666485}, "audio-podcast": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8674903}, "podcast-light": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7036864}, "320k": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33787654}, "600k": {"uri": "https://download.ted.com/talks/CynthiaBreazeal_2010W-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63367215}}}, "comments": {"count": 189, "id": 883, "talk_id": 1070}, "slug": "cynthia_breazeal_the_rise_of_personal_robots", "threadId": 883, "talks": [{"event": "TEDWomen 2010", "player_talks": [{"event": "TEDWomen 2010", "slug": "cynthia_breazeal_the_rise_of_personal_robots", "filmed": 1291766400, "targeting": {"event": "TEDWomen 2010", "tag": "AI,body language,business,communication,design,entertainment,robots,technology", "id": 1070, "talk": "cynthia_breazeal_the_rise_of_personal_robots", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "The rise of personal robots", "postAdDuration": "0.83", "published": 1297180140, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d5d8a98861dcc5ee45ddc721bec6cf00005aafc6_2400x1800.jpg?quality=89&w=600", "name": "Cynthia Breazeal: The rise of personal robots", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "body language", "business", "communication", "design", "entertainment", "robots", "technology"], "speaker": "Cynthia Breazeal", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 844, "id": 1070, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/CynthiaBreazeal_2010W-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDWomen 2010", "tag": "AI,body language,business,communication,design,entertainment,robots,technology", "id": 1070, "talk": "cynthia_breazeal_the_rise_of_personal_robots", "year": "2010"}, "metadata": "https://hls.ted.com/talks/1070.json", "stream": "https://hls.ted.com/talks/1070.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDWomen%2B2010%26id%3D1070%26tag%3DAI%2Cbody%2Blanguage%2Cbusiness%2Ccommunication%2Cdesign%2Centertainment%2Crobots%2Ctechnology%26talk%3Dcynthia_breazeal_the_rise_of_personal_robots%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/cynthia_breazeal_the_rise_of_personal_robots"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d5d8a98861dcc5ee45ddc721bec6cf00005aafc6_2400x1800.jpg?q=50&w=15", "duration": 844, "id": 1070, "ratings": [{"count": 115, "id": 24, "name": "Persuasive"}, {"count": 264, "id": 8, "name": "Informative"}, {"count": 290, "id": 10, "name": "Inspiring"}, {"count": 366, "id": 22, "name": "Fascinating"}, {"count": 51, "id": 1, "name": "Beautiful"}, {"count": 112, "id": 21, "name": "Unconvincing"}, {"count": 123, "id": 25, "name": "OK"}, {"count": 53, "id": 11, "name": "Longwinded"}, {"count": 73, "id": 23, "name": "Jaw-dropping"}, {"count": 196, "id": 9, "name": "Ingenious"}, {"count": 35, "id": 26, "name": "Obnoxious"}, {"count": 14, "id": 2, "name": "Confusing"}, {"count": 48, "id": 7, "name": "Funny"}, {"count": 18, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Roboticist ", "firstname": "Cynthia", "title": "", "lastname": "Breazeal", "middleinitial": "", "whylisten": "<p>Cynthia Breazeal founded and directs the Personal Robots Group at MIT&rsquo;s Media Lab. Her research focuses on developing the principles and technologies for building personal robots that are socially intelligent&mdash;that interact and communicate with people in human-centric terms, work with humans as peers, and learn from people as an apprentice.</p><p>She has developed some of the world&rsquo;s most famous robotic creatures, ranging from small hexapod robots to highly expressive humanoids, including the social robot Kismet and the expressive robot Leonardo. Her recent work investigates the impact of social robots on helping people of all ages to achieve personal goals that contribute to quality of life, in domains such as physical performance, learning and education, health, and family communication and play over distance.</p>", "slug": "cynthia_breazeal", "whotheyare": "At MIT, Cynthia Breazeal and her team are building robots with social intelligence that communicate and learn the same way people do. \\r\\n", "whatotherssay": "Breazeal is attracted to inventing because it is hands-on and real-world. \\"I would much rather build something and interact with it than philosophize about it,\\" she says. \\"Or philosophize about someone else doing it.\\" But at the same time, she has used robotics to explore some subtle intellectual issues. \\r\\n", "id": 817, "photo_url": "https://pe.tedcdn.com/images/ted/da5e95a342f1298e95acf3eb20ef28652010f82c_254x191.jpg"}], "title": "The rise of personal robots", "take_action": null, "comments": 883, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/d5d8a98861dcc5ee45ddc721bec6cf00005aafc6_2400x1800.jpg", "description": "Cynthia Breazeal wonders: Why can we use robots on Mars, but not in our living rooms? The key, she says, is in training robots to interact with people. Now she dreams up and builds robots that teach, learn -- and play. Watch for amazing demo footage of a new interactive game for kids.", "tags": ["AI", "body language", "business", "communication", "design", "entertainment", "robots", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/CynthiaBreazeal_2010W-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/CynthiaBreazeal_2010W.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/CynthiaBreazeal_2010W-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1070, "audioDownload": "https://download.ted.com/talks/CynthiaBreazeal_2010W.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 604243, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}, {"viewed_count": 909810, "hero": "https://pe.tedcdn.com/images/ted/122437_800x600.jpg", "title": "Robots that \\"show emotion\\"", "id": 657, "speaker": "David Hanson", "duration": 297, "slug": "david_hanson_robots_that_relate_to_you"}, {"viewed_count": 760403, "hero": "https://pe.tedcdn.com/images/ted/2f8bd657fb5e99e575ec030ddd925a8a782724e5_800x600.jpg", "title": "Silicon-based comedy", "id": 1058, "speaker": "Heather Knight", "duration": 364, "slug": "heather_knight_silicon_based_comedy"}, {"viewed_count": 1623426, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}, {"viewed_count": 4257287, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}, {"viewed_count": 361781, "hero": "https://pe.tedcdn.com/images/ted/a710062b9b3f44fbc3ad37ab4b8e78a70ee54231_800x600.jpg", "title": "4 lessons from robots about being human", "id": 1459, "speaker": "Ken Goldberg", "duration": 1029, "slug": "ken_goldberg_4_lessons_from_robots_about_being_human"}], "recorded_at": "2010-12-08T00:00:00.000+00:00", "slug": "cynthia_breazeal_the_rise_of_personal_robots", "speaker_name": "Cynthia Breazeal", "viewed_count": 1068082, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDWomen 2010", "name": "Cynthia Breazeal: The rise of personal robots"}'
+p409
+sS'keywords'
+p410
+(lp411
+VAI
+p412
+aVbody language
+p413
+aVbusiness
+p414
+aVcommunication
+p415
+aVdesign
+p416
+aVentertainment
+p417
+aVrobots
+p418
+aVtechnology
+p419
+asS'datecrawled'
+p420
+g404
+(S'\x07\xe1\n\x17\x02\x03;\x07\xaaH'
+tRp421
+sS'id'
+p422
+I1070
+ss.

@@ -1,0 +1,458 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe look around the media, as we see on the news from Iraq,
+p5
+aVAfghanistan, Sierra Leone,
+p6
+aVand the conflict seems incomprehensible to us.
+p7
+aVAnd that's certainly how it seemed to me when I started this project.
+p8
+aVBut as a physicist,
+p9
+aVI thought, well if you give me some data,
+p10
+aVI could maybe understand this. You know, give us a go.
+p11
+aa(lp12
+VSo as a naive New Zealander
+p13
+aVI thought, well I'll go to the Pentagon.
+p14
+aVCan you get me some information?
+p15
+aV(Laughter)
+p16
+aVNo. So I had to think a little harder.
+p17
+aVAnd I was watching the news one night in Oxford.
+p18
+aVAnd I looked down at the chattering heads on my channel of choice.
+p19
+aVAnd I saw that there was information there.
+p20
+aVThere was data within the streams of news that we consume.
+p21
+aVAll this noise around us actually has information.
+p22
+aVSo what I started thinking was,
+p23
+aVperhaps there is something like open source intelligence here.
+p24
+aVIf we can get enough of these streams of information together,
+p25
+aVwe can perhaps start to understand the war.
+p26
+aa(lp27
+VSo this is exactly what I did. We started bringing a team together,
+p28
+aVan interdisciplinary team of scientists,
+p29
+aVof economists, mathematicians.
+p30
+aVWe brought these guys together and we started to try and solve this.
+p31
+aVWe did it in three steps.
+p32
+aVThe first step we did was to collect. We did 130 different sources of information \u2014
+p33
+aVfrom NGO reports to newspapers and cable news.
+p34
+aVWe brought this raw data in and we filtered it.
+p35
+aVWe extracted the key bits on information to build the database.
+p36
+aVThat database contained
+p37
+aVthe timing of attacks,
+p38
+aVthe location, the size and the weapons used.
+p39
+aVIt's all in the streams of information we consume daily,
+p40
+aVwe just have to know how to pull it out.
+p41
+aVAnd once we had this we could start doing some cool stuff.
+p42
+aVWhat if we were to look at the distribution of the sizes of attacks?
+p43
+aVWhat would that tell us?
+p44
+aa(lp45
+VSo we started doing this. And you can see here
+p46
+aVon the horizontal axis
+p47
+aVyou've got the number of people killed in an attack
+p48
+aVor the size of the attack.
+p49
+aVAnd on the vertical axis you've got the number of attacks.
+p50
+aVSo we plot data for sample on this.
+p51
+aVYou see some sort of random distribution \u2014
+p52
+aVperhaps 67 attacks, one person was killed,
+p53
+aVor 47 attacks where seven people were killed.
+p54
+aVWe did this exact same thing for Iraq.
+p55
+aVAnd we didn't know, for Iraq what we were going to find.
+p56
+aVIt turns out what we found was pretty surprising.
+p57
+aVYou take all of the conflict,
+p58
+aVall of the chaos, all of the noise,
+p59
+aVand out of that
+p60
+aVcomes this precise mathematical distribution
+p61
+aVof the way attacks are ordered in this conflict.
+p62
+aVThis blew our mind.
+p63
+aVWhy should a conflict like Iraq have this
+p64
+aVas its fundamental signature?
+p65
+aVWhy should there be order in war?
+p66
+aVWe didn't really understand that.
+p67
+aVWe thought maybe there is something special about Iraq.
+p68
+aVSo we looked at a few more conflicts.
+p69
+aVWe looked at Colombia, we looked at Afghanistan,
+p70
+aVand we looked at Senegal.
+p71
+aa(lp72
+VAnd the same pattern emerged in each conflict.
+p73
+aVThis wasn't supposed to happen.
+p74
+aVThese are different wars, with different religious factions,
+p75
+aVdifferent political factions, and different socioeconomic problems.
+p76
+aVAnd yet the fundamental patterns underlying them
+p77
+aVare the same.
+p78
+aVSo we went a little wider.
+p79
+aVWe looked around the world at all the data we could get our hands on.
+p80
+aVFrom Peru to Indonesia,
+p81
+aVwe studied this same pattern again.
+p82
+aVAnd we found that not only
+p83
+aVwere the distributions these straight lines,
+p84
+aVbut the slope of these lines, they clustered around
+p85
+aVthis value of alpha equals 2.5.
+p86
+aVAnd we could generate an equation
+p87
+aVthat could predict the likelihood of an attack.
+p88
+aVWhat we're saying here
+p89
+aVis the probability of an attack killing X number of people
+p90
+aVin a country like Iraq
+p91
+aVis equal to a constant, times the size of that attack,
+p92
+aVraised to the power of negative alpha.
+p93
+aVAnd negative alpha is the slope of that line I showed you before.
+p94
+aa(lp95
+VSo what?
+p96
+aVThis is data, statistics. What does it tell us about these conflicts?
+p97
+aVThat was a challenge we had to face as physicists.
+p98
+aVHow do we explain this?
+p99
+aVAnd what we really found was that alpha,
+p100
+aVif we think about it, is the organizational
+p101
+aVstructure of the insurgency.
+p102
+aVAlpha is the distribution of the sizes of attacks,
+p103
+aVwhich is really the distribution
+p104
+aVof the group strength carrying out the attacks.
+p105
+aVSo we look at a process of group dynamics:
+p106
+aVcoalescence and fragmentation,
+p107
+aVgroups coming together, groups breaking apart.
+p108
+aVAnd we start running the numbers on this. Can we simulate it?
+p109
+aVCan we create the kind of patterns that we're seeing
+p110
+aVin places like Iraq?
+p111
+aVTurns out we kind of do a reasonable job.
+p112
+aVWe can run these simulations.
+p113
+aVWe can recreate this using a process of group dynamics
+p114
+aVto explain the patterns that we see
+p115
+aVall around the conflicts around the world.
+p116
+aa(lp117
+VSo what's going on?
+p118
+aVWhy should these different \u2014 seemingly different conflicts
+p119
+aVhave the same patterns?
+p120
+aVNow what I believe is going on is that
+p121
+aVthe insurgent forces, they evolve over time. They adapt.
+p122
+aVAnd it turns out there is only one solution
+p123
+aVto fight a much stronger enemy.
+p124
+aVAnd if you don't find that solution as an insurgent force,
+p125
+aVyou don't exist.
+p126
+aVSo every insurgent force that is ongoing,
+p127
+aVevery conflict that is ongoing,
+p128
+aVit's going to look something like this.
+p129
+aVAnd that is what we think is happening.
+p130
+aa(lp131
+VTaking it forward, how do we change it?
+p132
+aVHow do we end a war like Iraq?
+p133
+aVWhat does it look like?
+p134
+aVAlpha is the structure. It's got a stable state at 2.5.
+p135
+aVThis is what wars look like when they continue.
+p136
+aVWe've got to change that.
+p137
+aVWe can push it up:
+p138
+aVthe forces become more fragmented;
+p139
+aVthere is more of them, but they are weaker.
+p140
+aVOr we push it down:
+p141
+aVthey're more robust; there is less groups;
+p142
+aVbut perhaps you can sit and talk to them.
+p143
+aa(lp144
+VSo this graph here, I'm going to show you now.
+p145
+aVNo one has seen this before. This is literally
+p146
+aVstuff that we've come through last week.
+p147
+aVAnd we see the evolution of Alpha through time.
+p148
+aVWe see it start. And we see it grow up to the stable state
+p149
+aVthe wars around the world look like.
+p150
+aVAnd it stays there through the invasion of Fallujah
+p151
+aVuntil the Samarra bombings in the
+p152
+aVIraqi elections of '06.
+p153
+aVAnd the system gets perturbed. It moves upwards
+p154
+aVto a fragmented state.
+p155
+aVThis is when the surge happens.
+p156
+aVAnd depending on who you ask,
+p157
+aVthe surge was supposed to push it up even further.
+p158
+aVThe opposite happened.
+p159
+aVThe groups became stronger.
+p160
+aVThey became more robust.
+p161
+aVAnd so I'm thinking, right, great, it's going to keep going down.
+p162
+aVWe can talk to them. We can get a solution. The opposite happened.
+p163
+aVIt's moved up again. The groups are more fragmented.
+p164
+aVAnd this tells me one of two things.
+p165
+aVEither we're back where we started
+p166
+aVand the surge has had no effect;
+p167
+aVor finally the groups have been fragmented to the extent
+p168
+aVthat we can start to think about maybe moving out.
+p169
+aVI don't know what the answer is to that.
+p170
+aVBut I know that we should be looking at the structure of the insurgency
+p171
+aVto answer that question.
+p172
+aVThank you.
+p173
+aV(Applause)
+p174
+aasS'transcript_micsec'
+p175
+(lp176
+I11000
+aI32000
+aI71000
+aI115000
+aI178000
+aI240000
+aI295000
+aI327000
+aI358000
+asS'talk_meta'
+p177
+(dp178
+S'ratings'
+p179
+(dp180
+S'ingenious'
+p181
+I231
+sS'beautiful'
+p182
+I15
+sS'inspiring'
+p183
+I45
+sS'ok'
+p184
+I130
+sS'fascinating'
+p185
+I366
+sS'funny'
+p186
+I7
+sS'total_count'
+p187
+I2009
+sS'persuasive'
+p188
+I123
+sS'longwinded'
+p189
+I22
+sS'informative'
+p190
+I401
+sS'jaw-dropping'
+p191
+I107
+sS'obnoxious'
+p192
+I31
+sS'confusing'
+p193
+I141
+sS'courageous'
+p194
+I42
+sS'unconvincing'
+p195
+I348
+ssS'author'
+p196
+VSean_Gourley;
+p197
+sS'url'
+p198
+S'https://www.ted.com/talks/sean_gourley_on_the_mathematics_of_war'
+p199
+sS'vidlen'
+p200
+I439
+sS'totalviews'
+p201
+I911099
+sS'title'
+p202
+VThe mathematics of war
+p203
+sS'downloadlink'
+p204
+Vhttps://download.ted.com/talks/SeanGourley_2009U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p205
+sS'datepublished'
+p206
+cdatetime
+datetime
+p207
+(S'\x07\xd9\x05\x03\x15\x00\x00\x00\x00\x00'
+tRp208
+sS'datefilmed'
+p209
+g207
+(S'\x07\xd9\x05\x03\x15\x00\x00\x00\x00\x00'
+tRp210
+sS'alldata_JSON'
+p211
+S'{"viewed_count": 911099, "speakers": [{"description": "Physicist and military theorist", "firstname": "Sean", "title": "", "lastname": "Gourley", "middleinitial": "", "whylisten": "<p>Sean Gourley&#39;s twin passions are physics (working on nanoscale blue-light lasers and self-assembled quantum nanowires) and politics (he once ran for a national elected office back home in New Zealand).</p><p>A Rhodes scholar, he&#39;s spent the past five years working at Oxford on complex adaptive systems and collective intelligent systems -- basically, <strong>using data to understand the nature of human conflict</strong>. As he puts it, &quot;This research has taken me all over the world from the Pentagon, to the House of Lords, the United Nations and most recently to Iraq&quot;. Originally from New Zealand, he now lives in San Francisco, where he is the co-founder and CTO of Quid which is building a global intelligence platform. He&#39;s a 2009 TED Fellow.</p><p>In December 2009, Gourley and his team&#39;s research was published in the scientific journal <a href=\\"http://www.nature.com/nature/journal/v462/n7275/full/nature08631.html\\" target=\\"_blank\\"><em>Nature</em></a>. He is co-founder and CTO of Quid.</p>", "slug": "sean_gourley", "whotheyare": "Sean Gourley, trained as a physicist, has turned his scientific mind to analyzing data about a messier topic: modern war and conflict. He is a TED Fellow.", "whatotherssay": "", "id": 440, "photo_url": "https://pe.tedcdn.com/images/ted/86686_254x191.jpg"}], "current_talk": 532, "description": "By analyzing raw data on violent incidents in the Iraq war and others, Sean Gourley and his team claim to have found a surprisingly strong mathematical relationship linking the fatality and frequency of attacks.", "language": "en", "url": "https://www.ted.com/talks/sean_gourley_on_the_mathematics_of_war", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51305354}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10167487}, "podcast-high": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51301708}, "180k": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10057819}, "64k": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3640953}, "1500k": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 80765726}, "450k": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24958328}, "podcast-regular": {"uri": "https://download.ted.com/talks/SeanGourley_2009U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25232941}, "950k": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51048431}, "podcast-light": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3740784}, "320k": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17818394}, "600k": {"uri": "https://download.ted.com/talks/SeanGourley_2009U-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33187714}}}, "comments": {"count": 142, "id": 443, "talk_id": 532}, "slug": "sean_gourley_on_the_mathematics_of_war", "threadId": 443, "talks": [{"event": "TED2009", "player_talks": [{"event": "TED2009", "slug": "sean_gourley_on_the_mathematics_of_war", "filmed": 1233792000, "targeting": {"event": "TED2009", "tag": "TED Fellows,math,physics,war", "id": 532, "talk": "sean_gourley_on_the_mathematics_of_war", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "The mathematics of war", "postAdDuration": "0.83", "published": 1241398800, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/86685_800x600.jpg?quality=89&w=600", "name": "Sean Gourley: The mathematics of war", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TED Fellows", "math", "physics", "war"], "speaker": "Sean Gourley", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 439, "id": 532, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SeanGourley_2009U-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2009", "tag": "TED Fellows,math,physics,war", "id": 532, "talk": "sean_gourley_on_the_mathematics_of_war", "year": "2009"}, "metadata": "https://hls.ted.com/talks/532.json", "stream": "https://hls.ted.com/talks/532.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2009%26id%3D532%26tag%3DTED%2BFellows%2Cmath%2Cphysics%2Cwar%26talk%3Dsean_gourley_on_the_mathematics_of_war%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/sean_gourley_on_the_mathematics_of_war"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/86685_800x600.jpg?q=50&w=15", "duration": 439, "id": 532, "ratings": [{"count": 401, "id": 8, "name": "Informative"}, {"count": 348, "id": 21, "name": "Unconvincing"}, {"count": 42, "id": 3, "name": "Courageous"}, {"count": 366, "id": 22, "name": "Fascinating"}, {"count": 130, "id": 25, "name": "OK"}, {"count": 231, "id": 9, "name": "Ingenious"}, {"count": 45, "id": 10, "name": "Inspiring"}, {"count": 107, "id": 23, "name": "Jaw-dropping"}, {"count": 123, "id": 24, "name": "Persuasive"}, {"count": 22, "id": 11, "name": "Longwinded"}, {"count": 141, "id": 2, "name": "Confusing"}, {"count": 31, "id": 26, "name": "Obnoxious"}, {"count": 15, "id": 1, "name": "Beautiful"}, {"count": 7, "id": 7, "name": "Funny"}], "speakers": [{"description": "Physicist and military theorist", "firstname": "Sean", "title": "", "lastname": "Gourley", "middleinitial": "", "whylisten": "<p>Sean Gourley&#39;s twin passions are physics (working on nanoscale blue-light lasers and self-assembled quantum nanowires) and politics (he once ran for a national elected office back home in New Zealand).</p><p>A Rhodes scholar, he&#39;s spent the past five years working at Oxford on complex adaptive systems and collective intelligent systems -- basically, <strong>using data to understand the nature of human conflict</strong>. As he puts it, &quot;This research has taken me all over the world from the Pentagon, to the House of Lords, the United Nations and most recently to Iraq&quot;. Originally from New Zealand, he now lives in San Francisco, where he is the co-founder and CTO of Quid which is building a global intelligence platform. He&#39;s a 2009 TED Fellow.</p><p>In December 2009, Gourley and his team&#39;s research was published in the scientific journal <a href=\\"http://www.nature.com/nature/journal/v462/n7275/full/nature08631.html\\" target=\\"_blank\\"><em>Nature</em></a>. He is co-founder and CTO of Quid.</p>", "slug": "sean_gourley", "whotheyare": "Sean Gourley, trained as a physicist, has turned his scientific mind to analyzing data about a messier topic: modern war and conflict. He is a TED Fellow.", "whatotherssay": "", "id": 440, "photo_url": "https://pe.tedcdn.com/images/ted/86686_254x191.jpg"}], "title": "The mathematics of war", "take_action": null, "comments": 443, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/86685_800x600.jpg", "description": "By analyzing raw data on violent incidents in the Iraq war and others, Sean Gourley and his team claim to have found a surprisingly strong mathematical relationship linking the fatality and frequency of attacks.", "tags": ["TED Fellows", "math", "physics", "war"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/SeanGourley_2009U-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SeanGourley_2009U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SeanGourley_2009U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SeanGourley_2009U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 532, "audioDownload": null}, "related_talks": [{"viewed_count": 749184, "hero": "https://pe.tedcdn.com/images/ted/82468_800x600.jpg", "title": "A prediction for the future of Iran", "id": 507, "speaker": "Bruce Bueno de Mesquita", "duration": 1145, "slug": "bruce_bueno_de_mesquita_predicts_iran_s_future"}, {"viewed_count": 12072100, "hero": "https://pe.tedcdn.com/images/ted/e80b905b26a61aba089bd928fc4c2bd4180e836e_2880x1620.jpg", "title": "The best stats you\'ve ever seen", "id": 92, "speaker": "Hans Rosling", "duration": 1190, "slug": "hans_rosling_shows_the_best_stats_you_ve_ever_seen"}, {"viewed_count": 308857, "hero": "https://pe.tedcdn.com/images/ted/249b094b159985d31d48ec26a5a947d4bb7ac4c1_800x600.jpg", "title": "The path to ending ethnic conflicts", "id": 1003, "speaker": "Stefan Wolff", "duration": 1055, "slug": "stefan_wolff_the_path_to_ending_ethnic_conflicts"}, {"viewed_count": 1141858, "hero": "https://pe.tedcdn.com/images/ted/199_480x360.jpg", "title": "Let\'s rethink America\'s military strategy", "id": 33, "speaker": "Thomas Barnett", "duration": 1402, "slug": "thomas_barnett_draws_a_new_map_for_peace"}, {"viewed_count": 1962446, "hero": "https://pe.tedcdn.com/images/ted/d5c01b453252bc8506ed16a6cd97e21597263f0c_2880x1620.jpg", "title": "The surprising way groups like ISIS stay in power", "id": 2309, "speaker": "Benedetta Berti", "duration": 338, "slug": "benedetta_berti_the_surprising_way_groups_like_isis_stay_in_power"}, {"viewed_count": 982541, "hero": "https://pe.tedcdn.com/images/ted/2973ebdecf9c4e04a6bc6316a364e6942047352d_2880x1620.jpg", "title": "3 ways to fix a broken news industry", "id": 2687, "speaker": "Lara Setrakian", "duration": 517, "slug": "lara_setrakian_3_ways_to_fix_a_broken_news_industry"}], "recorded_at": "2009-02-05T00:00:00.000+00:00", "slug": "sean_gourley_on_the_mathematics_of_war", "speaker_name": "Sean Gourley", "viewed_count": 911099, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2009", "name": "Sean Gourley: The mathematics of war"}'
+p212
+sS'keywords'
+p213
+(lp214
+VTED Fellows
+p215
+aVmath
+p216
+aVphysics
+p217
+aVwar
+p218
+asS'datecrawled'
+p219
+g207
+(S'\x07\xe1\n\x17\x01\x08\x0f\x00%\xa0'
+tRp220
+sS'id'
+p221
+I532
+ss.

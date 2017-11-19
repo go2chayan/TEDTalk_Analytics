@@ -1,0 +1,640 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VHi there.
+p5
+aVI'm going to be talking a little bit about
+p6
+aVmusic, machines and life.
+p7
+aVOr, more specifically,
+p8
+aVwhat we learned from the creation of a very large and complicated machine
+p9
+aVfor a music video.
+p10
+aVSome of you may recognize this image.
+p11
+aVThis is the opening frame of the video that we created.
+p12
+aVWe'll be showing the video at the end,
+p13
+aVbut before we do, I want to talk a little bit about
+p14
+aVwhat it is that they wanted.
+p15
+aa(lp16
+VNow, when we first started talking to OK Go \u2014
+p17
+aVthe name of the song is "This Too Shall Pass" \u2014
+p18
+aVwe were really excited because
+p19
+aVthey expressed interest in building a machine that they could dance with.
+p20
+aVAnd we were very excited about this
+p21
+aVbecause, of course,
+p22
+aVthey have a history of dancing with machines.
+p23
+aVThey're responsible for this video, "Here It Goes Again."
+p24
+aV50-million-plus views on YouTube.
+p25
+aVFour guys dancing on treadmills,
+p26
+aVno cuts, just a static camera.
+p27
+aVA fantastically viral and wonderful video.
+p28
+aVSo we were really excited about working with them.
+p29
+aVAnd we sort of started talking about what it is that they wanted.
+p30
+aVAnd they explained that they wanted
+p31
+aVkind of a Rube Goldberg machine.
+p32
+aa(lp33
+VNow, for those of you who don't know,
+p34
+aVa Rube Goldberg machine
+p35
+aVis a complicated contraption,
+p36
+aVan incredibly over-engineered piece of machinery
+p37
+aVthat accomplishes a relatively simple task.
+p38
+aVSo we were excited by this idea,
+p39
+aVand we started talking about
+p40
+aVexactly what it would look like.
+p41
+aVAnd we came up with some parameters, because,
+p42
+aVyou know, building a Rube Goldberg machine
+p43
+aVhas limitations,
+p44
+aVbut it also is pretty wide open.
+p45
+aa(lp46
+VAnd we wanted to make sure that we did something
+p47
+aVthat would work for a music video.
+p48
+aVSo we came up with a list of requirements,
+p49
+aVthe "10 commandments,"
+p50
+aVand they were, in order of ascending difficulty:
+p51
+aVThe first is "No magic."
+p52
+aVEverything that happened on screen had to be
+p53
+aVvery easily understood by a typical viewer.
+p54
+aVThe rule of thumb was that, if my mother couldn't understand it,
+p55
+aVthen we couldn't use it in the video.
+p56
+aVThey wanted band integration,
+p57
+aVthat is, the machine acting upon the band members,
+p58
+aVspecifically not the other way around.
+p59
+aVThey wanted the machine action to follow the song feeling.
+p60
+aVSo as the song picks up emotion,
+p61
+aVso should the machine
+p62
+aVget grander in its process.
+p63
+aVThey wanted us to make use of the space.
+p64
+aVSo we have this 10,000-square-foot warehouse we were using,
+p65
+aVdivided between two floors.
+p66
+aVIt included an exterior loading dock.
+p67
+aVWe used all of that, including a giant hole in the floor
+p68
+aVthat we actually descended the camera and cameraman through.
+p69
+aVThey wanted it messy, and we were happy to oblige.
+p70
+aVThe machine itself would start the music.
+p71
+aVSo the machine would get started,
+p72
+aVit would travel some distance,
+p73
+aVreacting along the way,
+p74
+aVhit play on an iPod or a tape deck
+p75
+aVor something that would start playback.
+p76
+aVAnd the machine would maintain synchronization throughout.
+p77
+aVAnd speaking of synchronization,
+p78
+aVthey wanted it to sync to the rhythm
+p79
+aVand to hit specific beats along the way.
+p80
+aVOkay. (Laughter)
+p81
+aVThey wanted it to end precisely on time.
+p82
+aVOkay, so now the start to finish timing has to be perfect.
+p83
+aVAnd they wanted the music to drop out
+p84
+aVat a certain point in the video
+p85
+aVand actual live audio from the machine
+p86
+aVto play part of the song.
+p87
+aVAnd as if that wasn't enough,
+p88
+aVall of these incredibly complicating things, right,
+p89
+aVthey wanted it in one shot.
+p90
+aa(lp91
+V(Laughter)
+p92
+aa(lp93
+V(Applause)
+p94
+aa(lp95
+VOkay.
+p96
+aVSo, just some statistics
+p97
+aVabout what we went through in the process.
+p98
+aVThe machine itself has
+p99
+aV89 distinct interactions.
+p100
+aVIt took us 85 takes
+p101
+aVto get it on film
+p102
+aVto our satisfaction.
+p103
+aVOf those 85 takes,
+p104
+aVonly three actually successfully completed their run.
+p105
+aVWe destroyed two pianos
+p106
+aVand 10 televisions in the process.
+p107
+aVWe went to Home Depot well over a hundred times.
+p108
+aV(Laughter)
+p109
+aVAnd we lost one high-heeled shoe
+p110
+aVwhen one of our engineers, Heather Knight,
+p111
+aVleft her high-heeled shoe \u2014 after a nice dinner,
+p112
+aVand returned back to the build \u2014
+p113
+aVand left it in a pile of stuff.
+p114
+aVAnd another engineer thought, "Well, that would be a really good thing to use"
+p115
+aVand ended up using it as a really nice trigger.
+p116
+aVAnd it's actually in the machine.
+p117
+aa(lp118
+VSo what did we learn from all of this?
+p119
+aVWell, having completed this,
+p120
+aVwe have the opportunity to step back and reflect
+p121
+aVon some of the things.
+p122
+aVAnd we learned that small stuff stinks.
+p123
+aVLittle balls in wooden tracks
+p124
+aVare really susceptible to
+p125
+aVhumidity and temperature and a little bit of dust,
+p126
+aVand they fall out of the tracks,
+p127
+aVthe exact angles makes it hard to get right.
+p128
+aVAnd yet, a bowling ball will always follow the same path.
+p129
+aVIt doesn't matter what temperature it is,
+p130
+aVdoesn't matter what's in its way;
+p131
+aVit will pretty much get where it needs to go.
+p132
+aVBut as much as the small stuff stinks, we needed somewhere to start,
+p133
+aVso that we would have somewhere to go.
+p134
+aVAnd so you have to start with it. You have to focus on it.
+p135
+aVSmall stuff stinks,
+p136
+aVbut, of course, it's essential, right?
+p137
+aa(lp138
+VWhat else? Planning is incredibly important.
+p139
+aV(Laughter)
+p140
+aVYou know, we spent a lot of time ideating
+p141
+aVand even building some of these things.
+p142
+aVIt's been said that, "No battle plan
+p143
+aVsurvives contact with the enemy."
+p144
+aVI think our enemy was physics \u2014
+p145
+aV(Laughter)
+p146
+aVand she's a cruel mistress.
+p147
+aVOften, we had to pull things out as a result
+p148
+aVbecause of timing or aesthetics or whatever.
+p149
+aVAnd so while planning is important, so is flexibility.
+p150
+aVThese are all things that ended up
+p151
+aVnot making it into the final machine.
+p152
+aVSo also, put reliable stuff last,
+p153
+aVthe stuff that's going to run every time.
+p154
+aVAgain, small to large is relevant here.
+p155
+aVThe little Lego car in the beginning of the video
+p156
+aVreferences the big, real car
+p157
+aVnear the end of the video.
+p158
+aVThe big, real car works every time; there's no problem about it.
+p159
+aVThe little one had a tendency to try to run off the track
+p160
+aVand that's a problem.
+p161
+aVBut you don't want to have to reset the whole machine
+p162
+aVbecause the Lego car at the end doesn't work, right.
+p163
+aVSo you put that up front so that, if it fails,
+p164
+aVat least you know
+p165
+aVyou don't have to reset the whole thing.
+p166
+aa(lp167
+VLife can be
+p168
+aVmessy.
+p169
+aVThere were incredibly difficult moments in the building of this thing.
+p170
+aVMonths were spent in this tiny, cold warehouse.
+p171
+aVAnd the wonderful elation that we had
+p172
+aVwhen we finally completed it.
+p173
+aVSo it's important to remember that whether it's good or it's bad,
+p174
+aV"This Too Shall Pass."
+p175
+aa(lp176
+VThank you very much.
+p177
+aa(lp178
+V(Applause)
+p179
+aVAnd now to introduce
+p180
+aa(lp181
+Vtheir music video,
+p182
+aVwe have OK Go.
+p183
+aa(lp184
+VOK Go: An introduction. Hello TEDxUSC.
+p185
+aVWe are OK Go.
+p186
+aVWhat are we doing? Oh, just hanging out with our Grammy. What what!
+p187
+aVIt think we can do better than this. Hello TEDxUSC.
+p188
+aVWe are OK Go. Have you read the "Natural Curiosity Cabinet?"
+p189
+aVI mean, "Curiosity" \u2014 excuse me.
+p190
+aVLet me start again.
+p191
+aVWe need some more ridiculous things besides "The Cabinet of Natural Curiosities."
+p192
+aVTim's sundial hat.
+p193
+aVHave you seen the new work they've done to the Waltz Towers?
+p194
+aVSorry, start again.
+p195
+aV(Barking)
+p196
+aVDogs.
+p197
+aVHello, TEDxUSC. We are OK Go,
+p198
+aVand this our new video, "This Too Shall Pass."
+p199
+aV[unclear]
+p200
+aVKay, we can still do one better I think, yeah.
+p201
+aVThat one's pretty good. It's getting better.
+p202
+aa(lp203
+V(Music)
+p204
+aa(lp205
+V\u266b You know you can't keep letting it get you down \u266b
+p206
+aa(lp207
+V\u266b And you can't keep dragging that dead weight around \u266b
+p208
+aa(lp209
+V\u266b If there ain't all that much to lug around \u266b
+p210
+aa(lp211
+V\u266b Better run like hell when you hit the ground \u266b
+p212
+aa(lp213
+V\u266b When the morning comes \u266b
+p214
+aa(lp215
+V\u266b When the morning comes \u266b
+p216
+aa(lp217
+V\u266b You can't stop these kids from dancing \u266b
+p218
+aa(lp219
+V\u266b Why would you want to? \u266b
+p220
+aa(lp221
+V\u266b Especially when you're already getting yours \u266b
+p222
+aa(lp223
+V\u266b Cuz if your mind don't move and your knees don't bend \u266b
+p224
+aa(lp225
+V\u266b Well don't go blaming the kids again \u266b
+p226
+aa(lp227
+V\u266b When the morning comes \u266b
+p228
+aa(lp229
+V\u266b When the morning comes \u266b
+p230
+aa(lp231
+V\u266b When the morning comes \u266b
+p232
+aa(lp233
+V\u266b When the morning comes \u266b
+p234
+aa(lp235
+V\u266b When the morning comes \u266b
+p236
+aa(lp237
+V\u266b When the morning comes \u266b
+p238
+aa(lp239
+V\u266b Let it go \u266b
+p240
+aa(lp241
+V\u266b This too shall pass \u266b
+p242
+aa(lp243
+V\u266b Let it go \u266b
+p244
+aa(lp245
+V\u266b This too shall pass \u266b
+p246
+aa(lp247
+V\u266b You know you can't keep letting it get you down \u266b
+p248
+aa(lp249
+V\u266b No, you can't keep letting it get you down \u266b
+p250
+aa(lp251
+V\u266b Let it go \u266b
+p252
+aa(lp253
+V\u266b This too shall pass \u266b
+p254
+aa(lp255
+V\u266b When the morning comes \u266b
+p256
+aa(lp257
+V\u266b When the morning comes \u266b
+p258
+aa(lp259
+V\u266b When the morning comes \u266b
+p260
+aa(lp261
+V\u266b When the morning comes \u266b
+p262
+aa(lp263
+V(Cheering)
+p264
+aasS'transcript_micsec'
+p265
+(lp266
+I11000
+aI38000
+aI77000
+aI106000
+aI212000
+aI214000
+aI219000
+aI271000
+aI312000
+aI379000
+aI400000
+aI402000
+aI410000
+aI414000
+aI480000
+aI497000
+aI500000
+aI509000
+aI512000
+aI520000
+aI526000
+aI532000
+aI535000
+aI537000
+aI544000
+aI547000
+aI555000
+aI561000
+aI567000
+aI573000
+aI576000
+aI579000
+aI590000
+aI594000
+aI602000
+aI606000
+aI614000
+aI617000
+aI626000
+aI630000
+aI636000
+aI642000
+aI648000
+aI660000
+aI669000
+asS'talk_meta'
+p267
+(dp268
+S'ratings'
+p269
+(dp270
+S'beautiful'
+p271
+I95
+sS'funny'
+p272
+I300
+sS'ingenious'
+p273
+I337
+sS'ok'
+p274
+I72
+sS'fascinating'
+p275
+I188
+sS'total_count'
+p276
+I1450
+sS'persuasive'
+p277
+I9
+sS'inspiring'
+p278
+I114
+sS'longwinded'
+p279
+I31
+sS'informative'
+p280
+I28
+sS'jaw-dropping'
+p281
+I208
+sS'obnoxious'
+p282
+I21
+sS'confusing'
+p283
+I7
+sS'courageous'
+p284
+I24
+sS'unconvincing'
+p285
+I16
+ssS'author'
+p286
+VAdam_Sadowsky;
+p287
+sS'url'
+p288
+S'https://www.ted.com/talks/adam_sadowsky_engineers_a_viral_music_video'
+p289
+sS'vidlen'
+p290
+I868
+sS'totalviews'
+p291
+I1061950
+sS'title'
+p292
+VHow to engineer a viral music video
+p293
+sS'downloadlink'
+p294
+Vhttps://download.ted.com/talks/AdamSadowsky_2010X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p295
+sS'datepublished'
+p296
+cdatetime
+datetime
+p297
+(S'\x07\xda\x06\x04\x05\x0c\x00\x00\x00\x00'
+tRp298
+sS'datefilmed'
+p299
+g297
+(S'\x07\xda\x06\x04\x05\x0c\x00\x00\x00\x00'
+tRp300
+sS'alldata_JSON'
+p301
+S'{"viewed_count": 1061950, "speakers": [{"description": "Creative entrepreneur ", "firstname": "Adam", "title": "", "lastname": "Sadowsky", "middleinitial": "", "whylisten": "<p>Adam Sadowsky is the <strong>president of <a href=\\"http://syynlabs.com/\\">Syyn Labs</a> -- a collective of talented people that bring aesthetics and engineering together to create really nifty interactive art.</strong> Syyn Labs is responsible for a potpourri of interesting gizmos, from augmented reality namebadges to sound-reactive fire sculpture, but are best known for the huge Rube Goldberg machine created for OK Go&#39;s music video <a href=\\"http://www.okgo.net/2010/03/01/this-too-shall-pass-world-premiere/\\">&quot;This Too Shall Pass&quot;</a> that instantly went viral via YouTube. <br /><br />In addition to engineering interactive art, <strong>Sadowsky serves as COO for the popular <a href=\\"http://www.mindshare.la/\\">Mindshare LA events</a></strong>, where people across disciplines come together every month to share ideas (thought up while the founders were at TED2005).&nbsp; He is also the co-founder and vice president of the <a href=\\"http://www.ibdsf.com/\\">IBD Foundation</a>, providing support to people with Crohn&rsquo;s Disease and Ulcerative Colitis, having been diagnosed with the latter in 1984. Sadowsky has also worked in software, product design, video games, genetics research, online auctions and <strong>even had quite a successful acting stint, sharing the TV screen with both Jason Bateman and Matthew Perry</strong>.</p> ", "slug": "adam_sadowsky", "whotheyare": "As the president of Syyn Labs, Adam Sadowsky merges art and technology to create interactive projects big and small. ", "whatotherssay": "", "id": 718, "photo_url": "https://pe.tedcdn.com/images/ted/88292bb75a8c1f41ff4daa311f62aee037ce1020_254x191.jpg"}], "current_talk": 877, "description": "The band OK Go dreamed up the idea of a massive Rube Goldberg machine for their next music video -- and Adam Sadowsky\'s team was charged with building it. He tells the story of the effort and engineering behind their labyrinthine creation that quickly became the YouTube sensation \\"This Too Shall Pass.\\"", "language": "en", "url": "https://www.ted.com/talks/adam_sadowsky_engineers_a_viral_music_video", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 82565303}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15902153}, "podcast-high": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 82964765}, "180k": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15705022}, "64k": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5663138}, "1500k": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126421102}, "450k": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39433840}, "podcast-regular": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39807778}, "950k": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 81832845}, "audio-podcast": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7235185}, "podcast-light": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6279850}, "320k": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27799766}, "600k": {"uri": "https://download.ted.com/talks/AdamSadowsky_2010X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 52387352}}}, "comments": {"count": 142, "id": 721, "talk_id": 877}, "slug": "adam_sadowsky_engineers_a_viral_music_video", "threadId": 721, "talks": [{"event": "TEDxUSC", "player_talks": [{"event": "TEDxUSC", "slug": "adam_sadowsky_engineers_a_viral_music_video", "filmed": 1271116800, "targeting": {"event": "TEDxUSC", "tag": "TEDx,engineering,entertainment,music,physics", "id": 877, "talk": "adam_sadowsky_engineers_a_viral_music_video", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "How to engineer a viral music video", "postAdDuration": "0.83", "published": 1275642720, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f3a95f7b415f4c0cb82754ea0bcfe6feca3b8cdc_2880x1620.jpg?quality=89&w=600", "name": "Adam Sadowsky: How to engineer a viral music video", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "engineering", "entertainment", "music", "physics"], "speaker": "Adam Sadowsky", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 868, "id": 877, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AdamSadowsky_2010X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxUSC", "tag": "TEDx,engineering,entertainment,music,physics", "id": 877, "talk": "adam_sadowsky_engineers_a_viral_music_video", "year": "2010"}, "metadata": "https://hls.ted.com/talks/877.json", "stream": "https://hls.ted.com/talks/877.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxUSC%26id%3D877%26tag%3DTEDx%2Cengineering%2Centertainment%2Cmusic%2Cphysics%26talk%3Dadam_sadowsky_engineers_a_viral_music_video%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/adam_sadowsky_engineers_a_viral_music_video"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f3a95f7b415f4c0cb82754ea0bcfe6feca3b8cdc_2880x1620.jpg?q=50&w=15", "duration": 868, "id": 877, "ratings": [{"count": 300, "id": 7, "name": "Funny"}, {"count": 16, "id": 21, "name": "Unconvincing"}, {"count": 188, "id": 22, "name": "Fascinating"}, {"count": 208, "id": 23, "name": "Jaw-dropping"}, {"count": 72, "id": 25, "name": "OK"}, {"count": 95, "id": 1, "name": "Beautiful"}, {"count": 28, "id": 8, "name": "Informative"}, {"count": 337, "id": 9, "name": "Ingenious"}, {"count": 24, "id": 3, "name": "Courageous"}, {"count": 114, "id": 10, "name": "Inspiring"}, {"count": 31, "id": 11, "name": "Longwinded"}, {"count": 21, "id": 26, "name": "Obnoxious"}, {"count": 7, "id": 2, "name": "Confusing"}, {"count": 9, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Creative entrepreneur ", "firstname": "Adam", "title": "", "lastname": "Sadowsky", "middleinitial": "", "whylisten": "<p>Adam Sadowsky is the <strong>president of <a href=\\"http://syynlabs.com/\\">Syyn Labs</a> -- a collective of talented people that bring aesthetics and engineering together to create really nifty interactive art.</strong> Syyn Labs is responsible for a potpourri of interesting gizmos, from augmented reality namebadges to sound-reactive fire sculpture, but are best known for the huge Rube Goldberg machine created for OK Go&#39;s music video <a href=\\"http://www.okgo.net/2010/03/01/this-too-shall-pass-world-premiere/\\">&quot;This Too Shall Pass&quot;</a> that instantly went viral via YouTube. <br /><br />In addition to engineering interactive art, <strong>Sadowsky serves as COO for the popular <a href=\\"http://www.mindshare.la/\\">Mindshare LA events</a></strong>, where people across disciplines come together every month to share ideas (thought up while the founders were at TED2005).&nbsp; He is also the co-founder and vice president of the <a href=\\"http://www.ibdsf.com/\\">IBD Foundation</a>, providing support to people with Crohn&rsquo;s Disease and Ulcerative Colitis, having been diagnosed with the latter in 1984. Sadowsky has also worked in software, product design, video games, genetics research, online auctions and <strong>even had quite a successful acting stint, sharing the TV screen with both Jason Bateman and Matthew Perry</strong>.</p> ", "slug": "adam_sadowsky", "whotheyare": "As the president of Syyn Labs, Adam Sadowsky merges art and technology to create interactive projects big and small. ", "whatotherssay": "", "id": 718, "photo_url": "https://pe.tedcdn.com/images/ted/88292bb75a8c1f41ff4daa311f62aee037ce1020_254x191.jpg"}], "title": "How to engineer a viral music video", "take_action": null, "comments": 721, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/f3a95f7b415f4c0cb82754ea0bcfe6feca3b8cdc_2880x1620.jpg", "description": "The band OK Go dreamed up the idea of a massive Rube Goldberg machine for their next music video -- and Adam Sadowsky\'s team was charged with building it. He tells the story of the effort and engineering behind their labyrinthine creation that quickly became the YouTube sensation \\"This Too Shall Pass.\\"", "tags": ["TEDx", "engineering", "entertainment", "music", "physics"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-ja.mp4"}, "sq": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AdamSadowsky_2010X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AdamSadowsky_2010X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AdamSadowsky_2010X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 877, "audioDownload": "https://download.ted.com/talks/AdamSadowsky_2010X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2160734, "hero": "https://pe.tedcdn.com/images/ted/e6e4ef87a73bd253bd522e0b65e4f8bcafcd2dfe_800x600.jpg", "title": "Why videos go viral", "id": 1371, "speaker": "Kevin Allocca", "duration": 440, "slug": "kevin_allocca_why_videos_go_viral"}, {"viewed_count": 1703984, "hero": "https://pe.tedcdn.com/images/ted/81942_800x600.jpg", "title": "My obsession with objects and the stories they tell", "id": 488, "speaker": "Adam Savage", "duration": 938, "slug": "adam_savage_s_obsessions"}, {"viewed_count": 1538578, "hero": "https://pe.tedcdn.com/images/ted/d668e6a644727df5d286001007b40dfd3a12936d_800x600.jpg", "title": "The genius puppetry behind War Horse", "id": 1108, "speaker": "Handspring Puppet Co.", "duration": 1091, "slug": "handpring_puppet_co_the_genius_puppetry_behind_war_horse"}, {"viewed_count": 682157, "hero": "https://pe.tedcdn.com/images/ted/401_480x360.jpg", "title": "Moving sculpture", "id": 267, "speaker": "Arthur Ganson", "duration": 944, "slug": "arthur_ganson_makes_moving_sculpture"}, {"viewed_count": 1966609, "hero": "https://pe.tedcdn.com/images/ted/7435561605a12023707d418b73c64ccb7d465783_2880x1620.jpg", "title": "The jobs we\'ll lose to machines -- and the ones we won\'t", "id": 2548, "speaker": "Anthony Goldbloom", "duration": 276, "slug": "anthony_goldbloom_the_jobs_we_ll_lose_to_machines_and_the_ones_we_won_t"}, {"viewed_count": 1133138, "hero": "https://pe.tedcdn.com/images/ted/0d28c4301c3c7ed0a3790e31231e71e1469524e6_2880x1620.jpg", "title": "Don\'t fear intelligent machines. Work with them", "id": 2787, "speaker": "Garry Kasparov", "duration": 920, "slug": "garry_kasparov_don_t_fear_intelligent_machines_work_with_them"}], "recorded_at": "2010-04-13T00:00:00.000+00:00", "slug": "adam_sadowsky_engineers_a_viral_music_video", "speaker_name": "Adam Sadowsky", "viewed_count": 1061950, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxUSC, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxUSC", "name": "Adam Sadowsky: How to engineer a viral music video"}'
+p302
+sS'keywords'
+p303
+(lp304
+VTEDx
+p305
+aVengineering
+p306
+aVentertainment
+p307
+aVmusic
+p308
+aVphysics
+p309
+asS'datecrawled'
+p310
+g297
+(S'\x07\xe1\n\x17\x01\x1c/\x03\x0eb'
+tRp311
+sS'id'
+p312
+I877
+ss.

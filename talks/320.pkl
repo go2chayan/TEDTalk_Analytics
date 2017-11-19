@@ -1,0 +1,776 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI got my first computer when I was a teenager growing up in Accra,
+p5
+aVand it was a really cool device.
+p6
+aVYou could play games with it. You could program it in BASIC.
+p7
+aVAnd I was fascinated.
+p8
+aVSo I went into the library to figure out how did this thing work.
+p9
+aVI read about how the CPU is constantly shuffling data back and forth
+p10
+aVbetween the memory, the RAM and the ALU,
+p11
+aVthe arithmetic and logic unit.
+p12
+aVAnd I thought to myself, this CPU really has to work like crazy
+p13
+aVjust to keep all this data moving through the system.
+p14
+aa(lp15
+VBut nobody was really worried about this.
+p16
+aVWhen computers were first introduced,
+p17
+aVthey were said to be a million times faster than neurons.
+p18
+aVPeople were really excited. They thought they would soon outstrip
+p19
+aVthe capacity of the brain.
+p20
+aVThis is a quote, actually, from Alan Turing:
+p21
+aV"In 30 years, it will be as easy to ask a computer a question
+p22
+aVas to ask a person."
+p23
+aVThis was in 1946. And now, in 2007, it's still not true.
+p24
+aVAnd so, the question is, why aren't we really seeing
+p25
+aVthis kind of power in computers that we see in the brain?
+p26
+aa(lp27
+VWhat people didn't realize, and I'm just beginning to realize right now,
+p28
+aVis that we pay a huge price for the speed
+p29
+aVthat we claim is a big advantage of these computers.
+p30
+aVLet's take a look at some numbers.
+p31
+aVThis is Blue Gene, the fastest computer in the world.
+p32
+aVIt's got 120,000 processors; they can basically process
+p33
+aV10 quadrillion bits of information per second.
+p34
+aVThat's 10 to the sixteenth. And they consume one and a half megawatts of power.
+p35
+aVSo that would be really great, if you could add that
+p36
+aVto the production capacity in Tanzania.
+p37
+aVIt would really boost the economy.
+p38
+aVJust to go back to the States,
+p39
+aVif you translate the amount of power or electricity
+p40
+aVthis computer uses to the amount of households in the States,
+p41
+aVyou get 1,200 households in the U.S.
+p42
+aVThat's how much power this computer uses.
+p43
+aa(lp44
+VNow, let's compare this with the brain.
+p45
+aVThis is a picture of, actually Rory Sayres' girlfriend's brain.
+p46
+aVRory is a graduate student at Stanford.
+p47
+aVHe studies the brain using MRI, and he claims that
+p48
+aVthis is the most beautiful brain that he has ever scanned.
+p49
+aV(Laughter)
+p50
+aVSo that's true love, right there.
+p51
+aVNow, how much computation does the brain do?
+p52
+aVI estimate 10 to the 16 bits per second,
+p53
+aVwhich is actually about very similar to what Blue Gene does.
+p54
+aVSo that's the question. The question is, how much \u2014
+p55
+aVthey are doing a similar amount of processing, similar amount of data \u2014
+p56
+aVthe question is how much energy or electricity does the brain use?
+p57
+aVAnd it's actually as much as your laptop computer:
+p58
+aVit's just 10 watts.
+p59
+aVSo what we are doing right now with computers
+p60
+aVwith the energy consumed by 1,200 houses,
+p61
+aVthe brain is doing with the energy consumed by your laptop.
+p62
+aa(lp63
+VSo the question is, how is the brain able to achieve this kind of efficiency?
+p64
+aVAnd let me just summarize. So the bottom line:
+p65
+aVthe brain processes information using 100,000 times less energy
+p66
+aVthan we do right now with this computer technology that we have.
+p67
+aVHow is the brain able to do this?
+p68
+aVLet's just take a look about how the brain works,
+p69
+aVand then I'll compare that with how computers work.
+p70
+aVSo, this clip is from the PBS series, "The Secret Life of the Brain."
+p71
+aVIt shows you these cells that process information.
+p72
+aVThey are called neurons.
+p73
+aVThey send little pulses of electricity down their processes to each other,
+p74
+aVand where they contact each other, those little pulses
+p75
+aVof electricity can jump from one neuron to the other.
+p76
+aVThat process is called a synapse.
+p77
+aVYou've got this huge network of cells interacting with each other \u2014
+p78
+aVabout 100 million of them,
+p79
+aVsending about 10 quadrillion of these pulses around every second.
+p80
+aVAnd that's basically what's going on in your brain right now as you're watching this.
+p81
+aa(lp82
+VHow does that compare with the way computers work?
+p83
+aVIn the computer, you have all the data
+p84
+aVgoing through the central processing unit,
+p85
+aVand any piece of data basically has to go through that bottleneck,
+p86
+aVwhereas in the brain, what you have is these neurons,
+p87
+aVand the data just really flows through a network of connections
+p88
+aVamong the neurons. There's no bottleneck here.
+p89
+aVIt's really a network in the literal sense of the word.
+p90
+aVThe net is doing the work in the brain.
+p91
+aVIf you just look at these two pictures,
+p92
+aVthese kind of words pop into your mind.
+p93
+aVThis is serial and it's rigid \u2014 it's like cars on a freeway,
+p94
+aVeverything has to happen in lockstep \u2014
+p95
+aVwhereas this is parallel and it's fluid.
+p96
+aVInformation processing is very dynamic and adaptive.
+p97
+aa(lp98
+VSo I'm not the first to figure this out. This is a quote from Brian Eno:
+p99
+aV"the problem with computers is that there is not enough Africa in them."
+p100
+aV(Laughter)
+p101
+aVBrian actually said this in 1995.
+p102
+aVAnd nobody was listening then,
+p103
+aVbut now people are beginning to listen
+p104
+aVbecause there's a pressing, technological problem that we face.
+p105
+aVAnd I'll just take you through that a little bit in the next few slides.
+p106
+aa(lp107
+VThis is \u2014 it's actually really this remarkable convergence
+p108
+aVbetween the devices that we use to compute in computers,
+p109
+aVand the devices that our brains use to compute.
+p110
+aVThe devices that computers use are what's called a transistor.
+p111
+aVThis electrode here, called the gate, controls the flow of current
+p112
+aVfrom the source to the drain \u2014 these two electrodes.
+p113
+aVAnd that current, electrical current,
+p114
+aVis carried by electrons, just like in your house and so on.
+p115
+aVAnd what you have here is, when you actually turn on the gate,
+p116
+aVyou get an increase in the amount of current, and you get a steady flow of current.
+p117
+aVAnd when you turn off the gate, there's no current flowing through the device.
+p118
+aVYour computer uses this presence of current to represent a one,
+p119
+aVand the absence of current to represent a zero.
+p120
+aa(lp121
+VNow, what's happening is that as transistors are getting smaller and smaller and smaller,
+p122
+aVthey no longer behave like this.
+p123
+aVIn fact, they are starting to behave like the device that neurons use to compute,
+p124
+aVwhich is called an ion channel.
+p125
+aVAnd this is a little protein molecule.
+p126
+aVI mean, neurons have thousands of these.
+p127
+aVAnd it sits in the membrane of the cell and it's got a pore in it.
+p128
+aVAnd these are individual potassium ions
+p129
+aVthat are flowing through that pore.
+p130
+aVNow, this pore can open and close.
+p131
+aVBut, when it's open, because these ions have to line up
+p132
+aVand flow through, one at a time, you get a kind of sporadic, not steady \u2014
+p133
+aVit's a sporadic flow of current.
+p134
+aVAnd even when you close the pore \u2014 which neurons can do,
+p135
+aVthey can open and close these pores to generate electrical activity \u2014
+p136
+aVeven when it's closed, because these ions are so small,
+p137
+aVthey can actually sneak through, a few can sneak through at a time.
+p138
+aVSo, what you have is that when the pore is open,
+p139
+aVyou get some current sometimes.
+p140
+aVThese are your ones, but you've got a few zeros thrown in.
+p141
+aVAnd when it's closed, you have a zero,
+p142
+aVbut you have a few ones thrown in.
+p143
+aa(lp144
+VNow, this is starting to happen in transistors.
+p145
+aVAnd the reason why that's happening is that, right now, in 2007 \u2014
+p146
+aVthe technology that we are using \u2014 a transistor is big enough
+p147
+aVthat several electrons can flow through the channel simultaneously, side by side.
+p148
+aVIn fact, there's about 12 electrons can all be flowing this way.
+p149
+aVAnd that means that a transistor corresponds
+p150
+aVto about 12 ion channels in parallel.
+p151
+aVNow, in a few years time, by 2015, we will shrink transistors so much.
+p152
+aVThis is what Intel does to keep adding more cores onto the chip.
+p153
+aVOr your memory sticks that you have now can carry one gigabyte
+p154
+aVof stuff on them \u2014 before, it was 256.
+p155
+aVTransistors are getting smaller to allow this to happen,
+p156
+aVand technology has really benefitted from that.
+p157
+aa(lp158
+VBut what's happening now is that in 2015, the transistor is going to become so small,
+p159
+aVthat it corresponds to only one electron at a time
+p160
+aVcan flow through that channel,
+p161
+aVand that corresponds to a single ion channel.
+p162
+aVAnd you start having the same kind of traffic jams that you have in the ion channel.
+p163
+aVThe current will turn on and off at random,
+p164
+aVeven when it's supposed to be on.
+p165
+aVAnd that means your computer is going to get
+p166
+aVits ones and zeros mixed up, and that's going to crash your machine.
+p167
+aa(lp168
+VSo, we are at the stage where we
+p169
+aVdon't really know how to compute with these kinds of devices.
+p170
+aVAnd the only kind of thing \u2014 the only thing we know right now
+p171
+aVthat can compute with these kinds of devices are the brain.
+p172
+aa(lp173
+VOK, so a computer picks a specific item of data from memory,
+p174
+aVit sends it into the processor or the ALU,
+p175
+aVand then it puts the result back into memory.
+p176
+aVThat's the red path that's highlighted.
+p177
+aVThe way brains work, I told you all, you have got all these neurons.
+p178
+aVAnd the way they represent information is
+p179
+aVthey break up that data into little pieces
+p180
+aVthat are represented by pulses and different neurons.
+p181
+aVSo you have all these pieces of data
+p182
+aVdistributed throughout the network.
+p183
+aVAnd then the way that you process that data to get a result
+p184
+aVis that you translate this pattern of activity into a new pattern of activity,
+p185
+aVjust by it flowing through the network.
+p186
+aVSo you set up these connections
+p187
+aVsuch that the input pattern just flows
+p188
+aVand generates the output pattern.
+p189
+aa(lp190
+VWhat you see here is that there's these redundant connections.
+p191
+aVSo if this piece of data or this piece of the data gets clobbered,
+p192
+aVit doesn't show up over here, these two pieces can activate the missing part
+p193
+aVwith these redundant connections.
+p194
+aVSo even when you go to these crappy devices
+p195
+aVwhere sometimes you want a one and you get a zero, and it doesn't show up,
+p196
+aVthere's redundancy in the network
+p197
+aVthat can actually recover the missing information.
+p198
+aVIt makes the brain inherently robust.
+p199
+aVWhat you have here is a system where you store data locally.
+p200
+aVAnd it's brittle, because each of these steps has to be flawless,
+p201
+aVotherwise you lose that data, whereas in the brain, you have a system
+p202
+aVthat stores data in a distributed way, and it's robust.
+p203
+aa(lp204
+VWhat I want to basically talk about is my dream,
+p205
+aVwhich is to build a computer that works like the brain.
+p206
+aVThis is something that we've been working on for the last couple of years.
+p207
+aVAnd I'm going to show you a system that we designed
+p208
+aVto model the retina,
+p209
+aVwhich is a piece of brain that lines the inside of your eyeball.
+p210
+aVWe didn't do this by actually writing code, like you do in a computer.
+p211
+aVIn fact, the processing that happens
+p212
+aVin that little piece of brain is very similar
+p213
+aVto the kind of processing that computers
+p214
+aVdo when they stream video over the Internet.
+p215
+aVThey want to compress the information \u2014
+p216
+aVthey just want to send the changes, what's new in the image, and so on \u2014
+p217
+aVand that is how your eyeball
+p218
+aVis able to squeeze all that information down to your optic nerve,
+p219
+aVto send to the rest of the brain.
+p220
+aa(lp221
+VInstead of doing this in software, or doing those kinds of algorithms,
+p222
+aVwe went and talked to neurobiologists
+p223
+aVwho have actually reverse engineered that piece of brain that's called the retina.
+p224
+aVAnd they figured out all the different cells,
+p225
+aVand they figured out the network, and we just took that network
+p226
+aVand we used it as the blueprint for the design of a silicon chip.
+p227
+aVSo now the neurons are represented by little nodes or circuits on the chip,
+p228
+aVand the connections among the neurons are represented, actually modeled by transistors.
+p229
+aVAnd these transistors are behaving essentially
+p230
+aVjust like ion channels behave in the brain.
+p231
+aVIt will give you the same kind of robust architecture that I described.
+p232
+aa(lp233
+VHere is actually what our artificial eye looks like.
+p234
+aVThe retina chip that we designed sits behind this lens here.
+p235
+aVAnd the chip \u2014 I'm going to show you a video
+p236
+aVthat the silicon retina put out of its output
+p237
+aVwhen it was looking at Kareem Zaghloul,
+p238
+aVwho's the student who designed this chip.
+p239
+aVLet me explain what you're going to see, OK,
+p240
+aVbecause it's putting out different kinds of information,
+p241
+aVit's not as straightforward as a camera.
+p242
+aVThe retina chip extracts four different kinds of information.
+p243
+aVIt extracts regions with dark contrast,
+p244
+aVwhich will show up on the video as red.
+p245
+aVAnd it extracts regions with white or light contrast,
+p246
+aVwhich will show up on the video as green.
+p247
+aa(lp248
+VThis is Kareem's dark eyes
+p249
+aVand that's the white background that you see here.
+p250
+aVAnd then it also extracts movement.
+p251
+aVWhen Kareem moves his head to the right,
+p252
+aVyou will see this blue activity there;
+p253
+aVit represents regions where the contrast is increasing in the image,
+p254
+aVthat's where it's going from dark to light.
+p255
+aVAnd you also see this yellow activity,
+p256
+aVwhich represents regions where contrast is decreasing;
+p257
+aVit's going from light to dark.
+p258
+aVAnd these four types of information \u2014
+p259
+aVyour optic nerve has about a million fibers in it,
+p260
+aVand 900,000 of those fibers
+p261
+aVsend these four types of information.
+p262
+aVSo we are really duplicating the kind of signals that you have on the optic nerve.
+p263
+aa(lp264
+VWhat you notice here is that these snapshots
+p265
+aVtaken from the output of the retina chip are very sparse, right?
+p266
+aVIt doesn't light up green everywhere in the background,
+p267
+aVonly on the edges, and then in the hair, and so on.
+p268
+aVAnd this is the same thing you see
+p269
+aVwhen people compress video to send: they want to make it very sparse,
+p270
+aVbecause that file is smaller. And this is what the retina is doing,
+p271
+aVand it's doing it just with the circuitry, and how this network of neurons
+p272
+aVthat are interacting in there, which we've captured on the chip.
+p273
+aa(lp274
+VBut the point that I want to make \u2014 I'll show you up here.
+p275
+aVSo this image here is going to look like these ones,
+p276
+aVbut here I'll show you that we can reconstruct the image,
+p277
+aVso, you know, you can almost recognize Kareem in that top part there.
+p278
+aVAnd so, here you go.
+p279
+aVYes, so that's the idea.
+p280
+aVWhen you stand still, you just see the light and dark contrasts.
+p281
+aVBut when it's moving back and forth,
+p282
+aVthe retina picks up these changes.
+p283
+aVAnd that's why, you know, when you're sitting here
+p284
+aVand something happens in your background,
+p285
+aVyou merely move your eyes to it.
+p286
+aVThere are these cells that detect change
+p287
+aVand you move your attention to it.
+p288
+aVSo those are very important for catching somebody
+p289
+aVwho's trying to sneak up on you.
+p290
+aa(lp291
+VLet me just end by saying that this is what happens
+p292
+aVwhen you put Africa in a piano, OK.
+p293
+aVThis is a steel drum here that has been modified,
+p294
+aVand that's what happens when you put Africa in a piano.
+p295
+aVAnd what I would like us to do is put Africa in the computer,
+p296
+aVand come up with a new kind of computer
+p297
+aVthat will generate thought, imagination, be creative and things like that.
+p298
+aVThank you.
+p299
+aV(Applause)
+p300
+aa(lp301
+VChris Anderson: Question for you, Kwabena.
+p302
+aVDo you put together in your mind the work you're doing,
+p303
+aVthe future of Africa, this conference \u2014
+p304
+aVwhat connections can we make, if any, between them?
+p305
+aa(lp306
+VKwabena Boahen: Yes, like I said at the beginning,
+p307
+aVI got my first computer when I was a teenager, growing up in Accra.
+p308
+aVAnd I had this gut reaction that this was the wrong way to do it.
+p309
+aVIt was very brute force; it was very inelegant.
+p310
+aVI don't think that I would've had that reaction,
+p311
+aVif I'd grown up reading all this science fiction,
+p312
+aVhearing about RD2D2, whatever it was called, and just \u2014 you know,
+p313
+aVbuying into this hype about computers.
+p314
+aVI was coming at it from a different perspective,
+p315
+aVwhere I was bringing that different perspective
+p316
+aVto bear on the problem.
+p317
+aVAnd I think a lot of people in Africa have this different perspective,
+p318
+aVand I think that's going to impact technology.
+p319
+aVAnd that's going to impact how it's going to evolve.
+p320
+aVAnd I think you're going to be able to see, use that infusion,
+p321
+aVto come up with new things,
+p322
+aVbecause you're coming from a different perspective.
+p323
+aVI think we can contribute. We can dream like everybody else.
+p324
+aa(lp325
+VCA: Thanks Kwabena, that was really interesting.
+p326
+aVThank you.
+p327
+aa(lp328
+V(Applause)
+p329
+aasS'transcript_micsec'
+p330
+(lp331
+I11000
+aI51000
+aI91000
+aI144000
+aI201000
+aI258000
+aI301000
+aI333000
+aI387000
+aI461000
+aI508000
+aI535000
+aI548000
+aI591000
+aI633000
+aI684000
+aI724000
+aI765000
+aI806000
+aI833000
+aI880000
+aI905000
+aI917000
+aI964000
+aI967000
+asS'talk_meta'
+p332
+(dp333
+S'ratings'
+p334
+(dp335
+S'ingenious'
+p336
+I148
+sS'beautiful'
+p337
+I19
+sS'inspiring'
+p338
+I114
+sS'ok'
+p339
+I102
+sS'fascinating'
+p340
+I211
+sS'funny'
+p341
+I15
+sS'total_count'
+p342
+I1100
+sS'persuasive'
+p343
+I54
+sS'longwinded'
+p344
+I40
+sS'unconvincing'
+p345
+I46
+sS'informative'
+p346
+I256
+sS'jaw-dropping'
+p347
+I26
+sS'obnoxious'
+p348
+I10
+sS'courageous'
+p349
+I28
+sS'confusing'
+p350
+I31
+ssS'author'
+p351
+VKwabena_Boahen;
+p352
+sS'url'
+p353
+S'https://www.ted.com/talks/kwabena_boahen_on_a_computer_that_works_like_the_brain'
+p354
+sS'vidlen'
+p355
+I982
+sS'totalviews'
+p356
+I583219
+sS'title'
+p357
+VA computer that works like the brain
+p358
+sS'downloadlink'
+p359
+Vhttps://download.ted.com/talks/KwabenaBoahen_2007G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p360
+sS'datepublished'
+p361
+cdatetime
+datetime
+p362
+(S'\x07\xd8\x07\x1e\x01\x1c\x00\x00\x00\x00'
+tRp363
+sS'datefilmed'
+p364
+g362
+(S'\x07\xd8\x07\x1e\x01\x1c\x00\x00\x00\x00'
+tRp365
+sS'alldata_JSON'
+p366
+S'{"viewed_count": 583219, "speakers": [{"description": "Bioengineer", "firstname": "Kwabena", "title": "", "lastname": "Boahen", "middleinitial": "", "whylisten": "<p>Kwabena Boahen is the principal investigator at the Brains in Silicon lab at Stanford. He writes of himself: </p><p>Being a scientist at heart, I want to understand how cognition arises from neuronal properties. Being an engineer by training, <strong>I am using silicon integrated circuits to emulate the way neurons compute</strong>, linking the seemingly disparate fields of electronics and computer science with neurobiology and medicine.</p><p>My group&#39;s contributions to the field of neuromorphic engineering include <strong>a <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pdf/06_ZaghloulBoahenJNE06.pdf\\">silicon retina</a> that could be used to give the blind sight</strong> and a <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pdf/02_conf_NIPS_Topo.pdf\\">self-organizing chip</a> that emulates the way the developing brain wires itself up. Our work is widely recognized, with over <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pubs.html\\">sixty publications</a>, including a <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pdf/05_journ_SciAm_NeurmorphChips.pdf\\">cover story</a> in the May 2005 issue of <em>Scientific American</em>. <br /> <br /> My current research interest is building a simulation platform that will enable the cortex&#39;s inner workings to be modeled in detail. While progress has been made linking neuronal properties to brain rhythms, the task of scaling up these models to link neuronal properties to cognition still remains. Making the supercomputer-performance required affordable is the goal of our <a href=\\"http://www.stanford.edu/group/brainsinsilicon/goals.html\\">Neurogrid</a> project. <strong>It is at the vanguard of a profound shift in computing</strong>, away from the sequential, step-by-step Von Neumann machine towards a parallel, interconnected architecture more like the brain.</p>", "slug": "kwabena_boahen", "whotheyare": "Kwabena Boahen wants to understand how brains work -- and to build a computer that works like the brain by reverse-engineering the nervous system. His group at Stanford is developing Neurogrid, a hardware platform that will emulate the cortex\\u2019s inner workings.", "whatotherssay": "", "id": 263, "photo_url": "https://pe.tedcdn.com/images/ted/49862_254x191.jpg"}], "current_talk": 320, "description": "Researcher Kwabena Boahen is looking for ways to mimic the brain\'s supercomputing powers in silicon -- because the messy, redundant processes inside our heads actually make for a small, light, superfast computer.", "language": "en", "url": "https://www.ted.com/talks/kwabena_boahen_on_a_computer_that_works_like_the_brain", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114519419}, "podcast-low-en": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22449246}, "podcast-high": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114961049}, "180k": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22328385}, "64k": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8057652}, "1500k": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 180023352}, "450k": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55342738}, "podcast-regular": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55512998}, "950k": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114343440}, "audio-podcast": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5828481}, "podcast-light": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8152005}, "320k": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39524930}, "600k": {"uri": "https://download.ted.com/talks/KwabenaBoahen_2007G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73747113}}}, "comments": {"count": 93, "id": 279, "talk_id": 320}, "slug": "kwabena_boahen_on_a_computer_that_works_like_the_brain", "threadId": 279, "talks": [{"event": "TEDGlobal 2007", "player_talks": [{"event": "TEDGlobal 2007", "slug": "kwabena_boahen_on_a_computer_that_works_like_the_brain", "filmed": 1181088000, "targeting": {"event": "TEDGlobal 2007", "tag": "brain,complexity,computers,design,engineering,science,technology,visualizations", "id": 320, "talk": "kwabena_boahen_on_a_computer_that_works_like_the_brain", "year": "2007"}, "adDuration": "3.33", "external": null, "title": "A computer that works like the brain", "postAdDuration": "0.83", "published": 1217395680, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/49376_480x360.jpg?quality=89&w=600", "name": "Kwabena Boahen: A computer that works like the brain", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["brain", "complexity", "computers", "design", "engineering", "science", "technology", "visualizations"], "speaker": "Kwabena Boahen", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 982, "id": 320, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/KwabenaBoahen_2007G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2007", "tag": "brain,complexity,computers,design,engineering,science,technology,visualizations", "id": 320, "talk": "kwabena_boahen_on_a_computer_that_works_like_the_brain", "year": "2007"}, "metadata": "https://hls.ted.com/talks/320.json", "stream": "https://hls.ted.com/talks/320.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2007%26id%3D320%26tag%3Dbrain%2Ccomplexity%2Ccomputers%2Cdesign%2Cengineering%2Cscience%2Ctechnology%2Cvisualizations%26talk%3Dkwabena_boahen_on_a_computer_that_works_like_the_brain%26year%3D2007&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/kwabena_boahen_on_a_computer_that_works_like_the_brain"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/49376_480x360.jpg?q=50&w=15", "duration": 982, "id": 320, "ratings": [{"count": 28, "id": 3, "name": "Courageous"}, {"count": 256, "id": 8, "name": "Informative"}, {"count": 54, "id": 24, "name": "Persuasive"}, {"count": 148, "id": 9, "name": "Ingenious"}, {"count": 211, "id": 22, "name": "Fascinating"}, {"count": 114, "id": 10, "name": "Inspiring"}, {"count": 31, "id": 2, "name": "Confusing"}, {"count": 19, "id": 1, "name": "Beautiful"}, {"count": 102, "id": 25, "name": "OK"}, {"count": 40, "id": 11, "name": "Longwinded"}, {"count": 15, "id": 7, "name": "Funny"}, {"count": 46, "id": 21, "name": "Unconvincing"}, {"count": 10, "id": 26, "name": "Obnoxious"}, {"count": 26, "id": 23, "name": "Jaw-dropping"}], "speakers": [{"description": "Bioengineer", "firstname": "Kwabena", "title": "", "lastname": "Boahen", "middleinitial": "", "whylisten": "<p>Kwabena Boahen is the principal investigator at the Brains in Silicon lab at Stanford. He writes of himself: </p><p>Being a scientist at heart, I want to understand how cognition arises from neuronal properties. Being an engineer by training, <strong>I am using silicon integrated circuits to emulate the way neurons compute</strong>, linking the seemingly disparate fields of electronics and computer science with neurobiology and medicine.</p><p>My group&#39;s contributions to the field of neuromorphic engineering include <strong>a <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pdf/06_ZaghloulBoahenJNE06.pdf\\">silicon retina</a> that could be used to give the blind sight</strong> and a <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pdf/02_conf_NIPS_Topo.pdf\\">self-organizing chip</a> that emulates the way the developing brain wires itself up. Our work is widely recognized, with over <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pubs.html\\">sixty publications</a>, including a <a href=\\"http://www.stanford.edu/group/brainsinsilicon/pdf/05_journ_SciAm_NeurmorphChips.pdf\\">cover story</a> in the May 2005 issue of <em>Scientific American</em>. <br /> <br /> My current research interest is building a simulation platform that will enable the cortex&#39;s inner workings to be modeled in detail. While progress has been made linking neuronal properties to brain rhythms, the task of scaling up these models to link neuronal properties to cognition still remains. Making the supercomputer-performance required affordable is the goal of our <a href=\\"http://www.stanford.edu/group/brainsinsilicon/goals.html\\">Neurogrid</a> project. <strong>It is at the vanguard of a profound shift in computing</strong>, away from the sequential, step-by-step Von Neumann machine towards a parallel, interconnected architecture more like the brain.</p>", "slug": "kwabena_boahen", "whotheyare": "Kwabena Boahen wants to understand how brains work -- and to build a computer that works like the brain by reverse-engineering the nervous system. His group at Stanford is developing Neurogrid, a hardware platform that will emulate the cortex\\u2019s inner workings.", "whatotherssay": "", "id": 263, "photo_url": "https://pe.tedcdn.com/images/ted/49862_254x191.jpg"}], "title": "A computer that works like the brain", "take_action": null, "comments": 279, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/49376_480x360.jpg", "description": "Researcher Kwabena Boahen is looking for ways to mimic the brain\'s supercomputing powers in silicon -- because the messy, redundant processes inside our heads actually make for a small, light, superfast computer.", "tags": ["brain", "complexity", "computers", "design", "engineering", "science", "technology", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-bg.mp4"}, "nl": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-nl.mp4"}, "hr": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-hr.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-it.mp4"}, "tr": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-ar.mp4"}, "en": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-en.mp4"}, "es": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-es.mp4"}, "uk": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-uk.mp4"}, "vi": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-vi.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-pt-br.mp4"}, "ro": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/KwabenaBoahen_2007G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/KwabenaBoahen_2007G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/KwabenaBoahen_2007G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 320, "audioDownload": "https://download.ted.com/talks/KwabenaBoahen_2007G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1379272, "hero": "https://pe.tedcdn.com/images/ted/dfc244d5b81ab35ce80a3c4f19877b23f8be7a27_2880x1620.jpg", "title": "How brain science will change computing", "id": 125, "speaker": "Jeff Hawkins", "duration": 1211, "slug": "jeff_hawkins_on_how_brain_science_will_change_computing"}, {"viewed_count": 3969057, "hero": "https://pe.tedcdn.com/images/ted/ca8d90c65e9e596127b720b648a07dfd2ea45e7d_2880x1620.jpg", "title": "3 clues to understanding your brain", "id": 184, "speaker": "VS Ramachandran", "duration": 1414, "slug": "vilayanur_ramachandran_on_your_mind"}, {"viewed_count": 21350976, "hero": "https://pe.tedcdn.com/images/ted/eefe30d20338d800bdc70a09dc0f6007e7355a74_2880x1620.jpg", "title": "My stroke of insight", "id": 229, "speaker": "Jill Bolte Taylor", "duration": 1099, "slug": "jill_bolte_taylor_s_powerful_stroke_of_insight"}, {"viewed_count": 1921796, "hero": "https://pe.tedcdn.com/images/ted/b4b4b1887a890ba5efc98b4d4fe20d6b55fe6dbd_2880x1620.jpg", "title": "What happens in your brain when you pay attention?", "id": 2798, "speaker": "Mehdi Ordikhani-Seyedlar", "duration": 392, "slug": "mehdi_ordikhani_seyedlar_what_happens_in_your_brain_when_you_pay_attention"}, {"viewed_count": 1429781, "hero": "https://pe.tedcdn.com/images/ted/a0b606d64fd75a0e13e60fef5b1289dd3423f762_2880x1620.jpg", "title": "How computers are learning to be creative", "id": 2533, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 1054, "slug": "blaise_aguera_y_arcas_how_computers_are_learning_to_be_creative"}, {"viewed_count": 2471616, "hero": "https://pe.tedcdn.com/images/ted/f8443ec450dd71d590ea1b0f7b9470dd5665b15b_2880x1620.jpg", "title": "What is so special about the human brain?", "id": 1879, "speaker": "Suzana Herculano-Houzel", "duration": 811, "slug": "suzana_herculano_houzel_what_is_so_special_about_the_human_brain"}], "recorded_at": "2007-06-06T00:00:00.000+00:00", "slug": "kwabena_boahen_on_a_computer_that_works_like_the_brain", "speaker_name": "Kwabena Boahen", "viewed_count": 583219, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal 2007", "name": "Kwabena Boahen: A computer that works like the brain"}'
+p367
+sS'keywords'
+p368
+(lp369
+Vbrain
+p370
+aVcomplexity
+p371
+aVcomputers
+p372
+aVdesign
+p373
+aVengineering
+p374
+aVscience
+p375
+aVtechnology
+p376
+aVvisualizations
+p377
+asS'datecrawled'
+p378
+g362
+(S'\x07\xe1\n\x17\x00-.\x05\x90\x97'
+tRp379
+sS'id'
+p380
+I320
+ss.

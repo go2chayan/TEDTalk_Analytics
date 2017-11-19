@@ -1,0 +1,494 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VEveryone is both a learner
+p5
+aVand a teacher.
+p6
+aVThis is me being inspired
+p7
+aVby my first tutor,
+p8
+aVmy mom,
+p9
+aVand this is me teaching
+p10
+aVIntroduction to Artificial Intelligence
+p11
+aVto 200 students
+p12
+aVat Stanford University.
+p13
+aa(lp14
+VNow the students and I
+p15
+aVenjoyed the class,
+p16
+aVbut it occurred to me
+p17
+aVthat while the subject matter
+p18
+aVof the class is advanced
+p19
+aVand modern,
+p20
+aVthe teaching technology isn't.
+p21
+aVIn fact, I use basically
+p22
+aVthe same technology as
+p23
+aVthis 14th-century classroom.
+p24
+aVNote the textbook,
+p25
+aVthe sage on the stage,
+p26
+aVand the sleeping guy
+p27
+aVin the back. (Laughter)
+p28
+aVJust like today.
+p29
+aa(lp30
+VSo my co-teacher,
+p31
+aVSebastian Thrun, and I thought,
+p32
+aVthere must be a better way.
+p33
+aVWe challenged ourselves
+p34
+aVto create an online class
+p35
+aVthat would be equal or better
+p36
+aVin quality to our Stanford class,
+p37
+aVbut to bring it to anyone
+p38
+aVin the world for free.
+p39
+aa(lp40
+VWe announced the class on July 29th,
+p41
+aVand within two weeks, 50,000 people
+p42
+aVhad signed up for it.
+p43
+aVAnd that grew to 160,000 students
+p44
+aVfrom 209 countries.
+p45
+aVWe were thrilled to have
+p46
+aVthat kind of audience,
+p47
+aVand just a bit terrified that we
+p48
+aVhadn't finished preparing the class yet. (Laughter)
+p49
+aa(lp50
+VSo we got to work.
+p51
+aVWe studied what others had done,
+p52
+aVwhat we could copy and what we could change.
+p53
+aVBenjamin Bloom had showed
+p54
+aVthat one-on-one tutoring works best,
+p55
+aVso that's what we tried to emulate,
+p56
+aVlike with me and my mom,
+p57
+aVeven though we knew
+p58
+aVit would be one-on-thousands.
+p59
+aVHere, an overhead video camera
+p60
+aVis recording me as I'm talking
+p61
+aVand drawing on a piece of paper.
+p62
+aa(lp63
+VA student said, "This class felt
+p64
+aVlike sitting in a bar
+p65
+aVwith a really smart friend
+p66
+aVwho's explaining something
+p67
+aVyou haven't grasped, but are about to."
+p68
+aVAnd that's exactly what we were aiming for.
+p69
+aa(lp70
+VNow, from Khan Academy, we saw
+p71
+aVthat short 10-minute videos
+p72
+aVworked much better than trying
+p73
+aVto record an hour-long lecture
+p74
+aVand put it on the small-format screen.
+p75
+aVWe decided to go even shorter
+p76
+aVand more interactive.
+p77
+aVOur typical video is two minutes,
+p78
+aVsometimes shorter, never more
+p79
+aVthan six, and then we pause for
+p80
+aVa quiz question, to make it
+p81
+aVfeel like one-on-one tutoring.
+p82
+aVHere, I'm explaining how a computer uses
+p83
+aVthe grammar of English
+p84
+aVto parse sentences, and here,
+p85
+aVthere's a pause and the student
+p86
+aVhas to reflect, understand what's going on
+p87
+aVand check the right boxes
+p88
+aVbefore they can continue.
+p89
+aa(lp90
+VStudents learn best when
+p91
+aVthey're actively practicing.
+p92
+aVWe wanted to engage them, to have them grapple
+p93
+aVwith ambiguity and guide them to synthesize
+p94
+aVthe key ideas themselves.
+p95
+aVWe mostly avoid questions
+p96
+aVlike, "Here's a formula, now
+p97
+aVtell me the value of Y
+p98
+aVwhen X is equal to two."
+p99
+aVWe preferred open-ended questions.
+p100
+aa(lp101
+VOne student wrote, "Now I'm seeing
+p102
+aVBayes networks and examples of
+p103
+aVgame theory everywhere I look."
+p104
+aVAnd I like that kind of response.
+p105
+aVThat's just what we were going for.
+p106
+aVWe didn't want students to memorize the formulas;
+p107
+aVwe wanted to change the way
+p108
+aVthey looked at the world.
+p109
+aVAnd we succeeded.
+p110
+aVOr, I should say, the students succeeded.
+p111
+aa(lp112
+VAnd it's a little bit ironic
+p113
+aVthat we set about to disrupt traditional education,
+p114
+aVand in doing so, we ended up
+p115
+aVmaking our online class
+p116
+aVmuch more like a traditional college class
+p117
+aVthan other online classes.
+p118
+aVMost online classes, the videos are always available.
+p119
+aVYou can watch them any time you want.
+p120
+aVBut if you can do it any time,
+p121
+aVthat means you can do it tomorrow,
+p122
+aVand if you can do it tomorrow,
+p123
+aVwell, you may not ever
+p124
+aVget around to it. (Laughter)
+p125
+aa(lp126
+VSo we brought back the innovation
+p127
+aVof having due dates. (Laughter)
+p128
+aVYou could watch the videos
+p129
+aVany time you wanted during the week,
+p130
+aVbut at the end of the week,
+p131
+aVyou had to get the homework done.
+p132
+aVThis motivated the students to keep going, and it also
+p133
+aVmeant that everybody was working
+p134
+aVon the same thing at the same time,
+p135
+aVso if you went into a discussion forum,
+p136
+aVyou could get an answer from a peer within minutes.
+p137
+aVNow, I'll show you some of the forums, most of which
+p138
+aVwere self-organized by the students themselves.
+p139
+aa(lp140
+VFrom Daphne Koller and Andrew Ng, we learned
+p141
+aVthe concept of "flipping" the classroom.
+p142
+aVStudents watched the videos
+p143
+aVon their own, and then they
+p144
+aVcome together to discuss them.
+p145
+aVFrom Eric Mazur, I learned about peer instruction,
+p146
+aVthat peers can be the best teachers,
+p147
+aVbecause they're the ones
+p148
+aVthat remember what it's like to not understand.
+p149
+aVSebastian and I have forgotten some of that.
+p150
+aVOf course, we couldn't have
+p151
+aVa classroom discussion with
+p152
+aVtens of thousands of students,
+p153
+aVso we encouraged and nurtured these online forums.
+p154
+aa(lp155
+VAnd finally, from Teach For America,
+p156
+aVI learned that a class is not
+p157
+aVprimarily about information.
+p158
+aVMore important is motivation and determination.
+p159
+aVIt was crucial that the students see
+p160
+aVthat we're working hard for them and
+p161
+aVthey're all supporting each other.
+p162
+aa(lp163
+VNow, the class ran 10 weeks,
+p164
+aVand in the end, about half of the 160,000 students watched
+p165
+aVat least one video each week,
+p166
+aVand over 20,000 finished all the homework,
+p167
+aVputting in 50 to 100 hours.
+p168
+aVThey got this statement of accomplishment.
+p169
+aa(lp170
+VSo what have we learned?
+p171
+aVWell, we tried some old ideas
+p172
+aVand some new and put them together,
+p173
+aVbut there are more ideas to try.
+p174
+aVSebastian's teaching another class now.
+p175
+aVI'll do one in the fall.
+p176
+aVStanford Coursera, Udacity, MITx
+p177
+aVand others have more classes coming.
+p178
+aVIt's a really exciting time.
+p179
+aa(lp180
+VBut to me, the most exciting
+p181
+aVpart of it is the data that we're gathering.
+p182
+aVWe're gathering thousands
+p183
+aVof interactions per student per class,
+p184
+aVbillions of interactions altogether,
+p185
+aVand now we can start analyzing that,
+p186
+aVand when we learn from that,
+p187
+aVdo experimentations,
+p188
+aVthat's when the real revolution will come.
+p189
+aVAnd you'll be able to see the results from
+p190
+aVa new generation of amazing students.
+p191
+aV(Applause)
+p192
+aasS'transcript_micsec'
+p193
+(lp194
+I12000
+aI27000
+aI56000
+aI73000
+aI93000
+aI116000
+aI127000
+aI164000
+aI183000
+aI201000
+aI228000
+aI254000
+aI286000
+aI300000
+aI314000
+aI333000
+asS'talk_meta'
+p195
+(dp196
+S'ratings'
+p197
+(dp198
+S'beautiful'
+p199
+I17
+sS'ingenious'
+p200
+I124
+sS'inspiring'
+p201
+I305
+sS'ok'
+p202
+I34
+sS'fascinating'
+p203
+I108
+sS'funny'
+p204
+I7
+sS'total_count'
+p205
+I941
+sS'persuasive'
+p206
+I90
+sS'longwinded'
+p207
+I1
+sS'informative'
+p208
+I195
+sS'jaw-dropping'
+p209
+I24
+sS'obnoxious'
+p210
+I0
+sS'confusing'
+p211
+I1
+sS'courageous'
+p212
+I31
+sS'unconvincing'
+p213
+I4
+ssS'author'
+p214
+VPeter_Norvig;
+p215
+sS'url'
+p216
+S'https://www.ted.com/talks/peter_norvig_the_100_000_student_classroom'
+p217
+sS'vidlen'
+p218
+I371
+sS'totalviews'
+p219
+I1059875
+sS'title'
+p220
+VThe 100,000-student classroom
+p221
+sS'downloadlink'
+p222
+Vhttps://download.ted.com/talks/PeterNorvig_2012U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p223
+sS'datepublished'
+p224
+cdatetime
+datetime
+p225
+(S'\x07\xdc\x06\x15\x0b"\x15\x00\x00\x00'
+tRp226
+sS'datefilmed'
+p227
+g225
+(S'\x07\xdc\x06\x15\x0b"\x15\x00\x00\x00'
+tRp228
+sS'alldata_JSON'
+p229
+S'{"viewed_count": 1059875, "speakers": [{"description": "Computer scientist", "firstname": "Peter", "title": "", "lastname": "Norvig", "middleinitial": "", "whylisten": "<p>Peter Norvig is a computer scientist and expert in both artificial intelligence and online search. Currently the Director of Research at Google Inc., Norvig was responsible for maintaining and improving the engine&#39;s core web search algorithms from 2002 to 2005. Prior to his work at Google, Norvig was NASA&#39;s chief computer scientist.</p><p>A fellow of the American Association for Artificial Intelligence and the author of the book <a href=\\"http://aima.cs.berkeley.edu/\\" target=\\"_blank\\"><em>Artificial Intelligence: A Modern Approach</em></a>, Norvig (along with Sebastian Thrun) taught the Stanford University class &quot;Introduction to Artificial Intelligence,&quot; which was made available to anyone in the world. More than 160,000 students from 209 countries enrolled.</p><p>Norvig is also known for penning the <a href=\\"http://norvig.com/pal1txt.html\\" target=\\"_blank\\">world&#39;s longest palindromic sentence</a>.</p>", "slug": "peter_norvig", "whotheyare": "Peter Norvig is a leading American computer scientist, expert on artificial intelligence and the Director of Research at Google Inc.", "whatotherssay": "", "id": 1379, "photo_url": "https://pe.tedcdn.com/images/ted/c1f4928909884a195cec529054d8084f38575010_254x191.jpg"}], "current_talk": 1487, "description": "In the fall of 2011 Peter Norvig taught a class with Sebastian Thrun on artificial intelligence at Stanford attended by 175 students in situ -- and over 100,000 via an interactive webcast. He shares what he learned about teaching to a global classroom.", "language": "en", "url": "https://www.ted.com/talks/peter_norvig_the_100_000_student_classroom", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42888264}, "podcast-low-en": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8574893}, "podcast-high": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42886626}, "180k": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8477105}, "64k": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3060229}, "1500k": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66877440}, "450k": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20841181}, "podcast-regular": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21011085}, "950k": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42916057}, "audio-podcast": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3960480}, "podcast-light": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3159643}, "320k": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15026649}, "600k": {"uri": "https://download.ted.com/talks/PeterNorvig_2012U-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28087188}}}, "comments": {"count": 104, "id": 13650, "talk_id": 1487}, "slug": "peter_norvig_the_100_000_student_classroom", "threadId": 13650, "talks": [{"event": "TED2012", "player_talks": [{"event": "TED2012", "slug": "peter_norvig_the_100_000_student_classroom", "filmed": 1330387200, "targeting": {"event": "TED2012", "tag": "Internet,computers,education,global issues", "id": 1487, "talk": "peter_norvig_the_100_000_student_classroom", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "The 100,000-student classroom", "postAdDuration": "0.83", "published": 1340292861, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/a018b6b3ef70c28e54e7ed31190fa37d19a6842a_2880x1620.jpg?quality=89&w=600", "name": "Peter Norvig: The 100,000-student classroom", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "computers", "education", "global issues"], "speaker": "Peter Norvig", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 371, "id": 1487, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/PeterNorvig_2012U-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2012", "tag": "Internet,computers,education,global issues", "id": 1487, "talk": "peter_norvig_the_100_000_student_classroom", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1487.json", "stream": "https://hls.ted.com/talks/1487.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2012%26id%3D1487%26tag%3DInternet%2Ccomputers%2Ceducation%2Cglobal%2Bissues%26talk%3Dpeter_norvig_the_100_000_student_classroom%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/peter_norvig_the_100_000_student_classroom"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/a018b6b3ef70c28e54e7ed31190fa37d19a6842a_2880x1620.jpg?q=50&w=15", "duration": 371, "id": 1487, "ratings": [{"count": 305, "id": 10, "name": "Inspiring"}, {"count": 90, "id": 24, "name": "Persuasive"}, {"count": 195, "id": 8, "name": "Informative"}, {"count": 34, "id": 25, "name": "OK"}, {"count": 17, "id": 1, "name": "Beautiful"}, {"count": 108, "id": 22, "name": "Fascinating"}, {"count": 124, "id": 9, "name": "Ingenious"}, {"count": 31, "id": 3, "name": "Courageous"}, {"count": 24, "id": 23, "name": "Jaw-dropping"}, {"count": 4, "id": 21, "name": "Unconvincing"}, {"count": 7, "id": 7, "name": "Funny"}, {"count": 1, "id": 2, "name": "Confusing"}, {"count": 1, "id": 11, "name": "Longwinded"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Computer scientist", "firstname": "Peter", "title": "", "lastname": "Norvig", "middleinitial": "", "whylisten": "<p>Peter Norvig is a computer scientist and expert in both artificial intelligence and online search. Currently the Director of Research at Google Inc., Norvig was responsible for maintaining and improving the engine&#39;s core web search algorithms from 2002 to 2005. Prior to his work at Google, Norvig was NASA&#39;s chief computer scientist.</p><p>A fellow of the American Association for Artificial Intelligence and the author of the book <a href=\\"http://aima.cs.berkeley.edu/\\" target=\\"_blank\\"><em>Artificial Intelligence: A Modern Approach</em></a>, Norvig (along with Sebastian Thrun) taught the Stanford University class &quot;Introduction to Artificial Intelligence,&quot; which was made available to anyone in the world. More than 160,000 students from 209 countries enrolled.</p><p>Norvig is also known for penning the <a href=\\"http://norvig.com/pal1txt.html\\" target=\\"_blank\\">world&#39;s longest palindromic sentence</a>.</p>", "slug": "peter_norvig", "whotheyare": "Peter Norvig is a leading American computer scientist, expert on artificial intelligence and the Director of Research at Google Inc.", "whatotherssay": "", "id": 1379, "photo_url": "https://pe.tedcdn.com/images/ted/c1f4928909884a195cec529054d8084f38575010_254x191.jpg"}], "title": "The 100,000-student classroom", "take_action": [{"status": "approved", "start_at": null, "link_url": "https://www.udacity.com/", "eyebrow": null, "end_at": null, "verb": "join", "published": true, "visible_url": "udacity.com", "type": "take_action", "blurb": "**Join** the online education movement. Take a course or teach a course at Udacity, edX, Coursera or Google\'s Course Builder."}], "comments": 13650, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/a018b6b3ef70c28e54e7ed31190fa37d19a6842a_2880x1620.jpg", "description": "In the fall of 2011 Peter Norvig taught a class with Sebastian Thrun on artificial intelligence at Stanford attended by 175 students in situ -- and over 100,000 via an interactive webcast. He shares what he learned about teaching to a global classroom.", "tags": ["Internet", "computers", "education", "global issues"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "ms", "endonym": "Bahasa melayu", "isRtl": false, "ianaCode": "ms", "languageName": "Malay"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-bg.mp4"}, "uk": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-uk.mp4"}, "hr": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-hr.mp4", "name": "Croatian"}, "de": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-sq.mp4"}, "mn": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-sk.mp4"}, "ms": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-ms.mp4", "name": "Malay", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-ms.mp4"}, "sl": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-sl.mp4"}, "my": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/PeterNorvig_2012U-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/PeterNorvig_2012U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/PeterNorvig_2012U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/PeterNorvig_2012U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1487, "audioDownload": "https://download.ted.com/talks/PeterNorvig_2012U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 4636608, "hero": "https://pe.tedcdn.com/images/ted/7ea7feb720e36b5335b32dfb6036e530d85b9fc3_800x600.jpg", "title": "Let\'s use video to reinvent education", "id": 1090, "speaker": "Sal Khan", "duration": 1227, "slug": "salman_khan_let_s_use_video_to_reinvent_education"}, {"viewed_count": 912785, "hero": "https://pe.tedcdn.com/images/ted/93148_800x600.jpg", "title": "A university for the coming singularity", "id": 560, "speaker": "Ray Kurzweil", "duration": 527, "slug": "ray_kurzweil_announces_singularity_university"}, {"viewed_count": 2314247, "hero": "https://pe.tedcdn.com/images/ted/a512e584f64e2a30945af3c91101253c92a874fa_1600x1200.jpg", "title": "What we\'re learning from online education", "id": 1531, "speaker": "Daphne Koller", "duration": 1240, "slug": "daphne_koller_what_we_re_learning_from_online_education"}, {"viewed_count": 1084470, "hero": "https://pe.tedcdn.com/images/ted/a26c7c92140aec2d6679d94f7cdd0e7371505c65_1600x1200.jpg", "title": "Why massive open online courses (still) matter", "id": 1913, "speaker": "Anant Agarwal", "duration": 919, "slug": "anant_agarwal_why_massively_open_online_courses_still_matter"}, {"viewed_count": 2270892, "hero": "https://pe.tedcdn.com/images/ted/3835fef688def1e83ec53df17421b3c7092b0366_2880x1620.jpg", "title": "Let\'s teach for mastery -- not test scores", "id": 2579, "speaker": "Sal Khan", "duration": 649, "slug": "sal_khan_let_s_teach_for_mastery_not_test_scores"}, {"viewed_count": 5140303, "hero": "https://pe.tedcdn.com/images/ted/11bbb81480a529077b7bf1532025795686a2db7d_2400x1800.jpg", "title": "An ultra-low-cost college degree", "id": 2050, "speaker": "Shai Reshef", "duration": 648, "slug": "shai_reshef_a_tuition_free_college_degree"}], "recorded_at": "2012-02-28T00:00:00.000+00:00", "slug": "peter_norvig_the_100_000_student_classroom", "speaker_name": "Peter Norvig", "viewed_count": 1059875, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2012", "name": "Peter Norvig: The 100,000-student classroom"}'
+p230
+sS'keywords'
+p231
+(lp232
+VInternet
+p233
+aVcomputers
+p234
+aVeducation
+p235
+aVglobal issues
+p236
+asS'datecrawled'
+p237
+g225
+(S'\x07\xe1\n\x17\x01\x0b.\x06&\xfe'
+tRp238
+sS'id'
+p239
+I1487
+ss.

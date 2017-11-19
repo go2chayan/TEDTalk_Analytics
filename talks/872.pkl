@@ -1,0 +1,868 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe're 25, 26 years after
+p5
+aVthe advent of the Macintosh,
+p6
+aVwhich was an astoundingly seminal event
+p7
+aVin the history
+p8
+aVof human-machine interface
+p9
+aVand in computation in general.
+p10
+aVIt fundamentally changed the way
+p11
+aVthat people thought about computation,
+p12
+aVthought about computers,
+p13
+aVhow they used them and who and how many people were able to use them.
+p14
+aVIt was such a radical change, in fact,
+p15
+aVthat the early Macintosh development team
+p16
+aVin '82, '83, '84
+p17
+aVhad to write an entirely new operating system from the ground up.
+p18
+aVNow, this is an interesting little message,
+p19
+aVand it's a lesson that has since, I think,
+p20
+aVbeen forgotten or lost or something,
+p21
+aVand that is, namely, that the OS is the interface.
+p22
+aVThe interface is the OS.
+p23
+aVIt's like the land and the king (i.e. Arthur) they're inseparable, they are one.
+p24
+aVAnd to write a new operating system was not a capricious matter.
+p25
+aVIt wasn't just a matter of tuning up some graphics routines.
+p26
+aVThere were no graphics routines. There were no mouse drivers.
+p27
+aVSo it was a necessity.
+p28
+aa(lp29
+VBut in the quarter-century since then,
+p30
+aVwe've seen all of the fundamental
+p31
+aVsupporting technologies go berserk.
+p32
+aVSo memory capacity and disk capacity
+p33
+aVhave been multiplied by something between 10,000 and a million.
+p34
+aVSame thing for processor speeds.
+p35
+aVNetworks, we didn't have networks at all
+p36
+aVat the time of the Macintosh's introduction,
+p37
+aVand that has become the single most salient aspect
+p38
+aVof how we live with computers.
+p39
+aVAnd, of course, graphics: Today
+p40
+aV84 dollars and 97 cents at Best Buy
+p41
+aVbuys you more graphics power
+p42
+aVthan you could have gotten for a million bucks from SGI only a decade ago.
+p43
+aVSo we've got that incredible ramp-up.
+p44
+aVThen, on the side, we've got the Web
+p45
+aVand, increasingly, the cloud,
+p46
+aVwhich is fantastic,
+p47
+aVbut also \u2014 in the regard in which an interface is fundamental \u2014
+p48
+aVkind of a distraction.
+p49
+aVSo we've forgotten to invent new interfaces.
+p50
+aVCertainly we've seen in recent years a lot of change in that regard,
+p51
+aVand people are starting to wake up about that.
+p52
+aVSo what happens next? Where do we go from there?
+p53
+aa(lp54
+VThe problem, as we see it,
+p55
+aVhas to do with a single, simple word: "space,"
+p56
+aVor a single, simple phrase:
+p57
+aV"real world geometry."
+p58
+aVComputers and the programming languages
+p59
+aVthat we talk to them in, that we teach them in,
+p60
+aVare hideously insensate when it comes to space.
+p61
+aVThey don't understand real world space.
+p62
+aVIt's a funny thing because the rest of us occupy it quite frequently and quite well.
+p63
+aVThey also don't understand time, but that's a matter for a separate talk.
+p64
+aa(lp65
+VSo what happens if you start to
+p66
+aVexplain space to them?
+p67
+aVOne thing you might get is something like the Luminous Room.
+p68
+aVThe Luminous Room is a system
+p69
+aVin which it's considered that
+p70
+aVinput and output spaces are co-located.
+p71
+aVThat's a strangely simple,
+p72
+aVand yet unexplored idea, right?
+p73
+aVWhen you use a mouse, your hand is down here on the mouse pad.
+p74
+aVIt's not even on the same plane as what you're talking about:
+p75
+aVThe pixels are up on the display.
+p76
+aVSo here was a room in which all the walls, floors, ceilings,
+p77
+aVpets, potted plants, whatever was in there,
+p78
+aVwere capable, not only of display but of sensing as well.
+p79
+aVAnd that means input and output are in the same space
+p80
+aVenabling stuff like this.
+p81
+aVThat's a digital storage in a physical container.
+p82
+aVThe contract is the same
+p83
+aVas with real word objects in real world containers.
+p84
+aVHas to come back out, whatever you put in.
+p85
+aVThis little design experiment
+p86
+aVthat was a small office here knew a few other tricks as well.
+p87
+aVIf you presented it with a chess board,
+p88
+aVit tried to figure out what you might mean by that.
+p89
+aVAnd if there was nothing for them to do,
+p90
+aVthe chess pieces eventually got bored
+p91
+aVand hopped away.
+p92
+aa(lp93
+VThe academics who were overseeing this work
+p94
+aVthought that that was too frivolous,
+p95
+aVso we built deadly serious applications
+p96
+aVlike this optics prototyping workbench
+p97
+aVin which a toothpaste cap on a cardboard box
+p98
+aVbecomes a laser.
+p99
+aVThe beam splitters and lenses are represented by physical objects,
+p100
+aVand the system projects down the laser beam path.
+p101
+aVSo you've got an interface that has no interface.
+p102
+aVYou operate the world as you operate the real world,
+p103
+aVwhich is to say, with your hands.
+p104
+aVSimilarly, a digital wind tunnel with digital wind
+p105
+aVflowing from right to left \u2014
+p106
+aVnot that remarkable in a sense; we didn't invent the mathematics.
+p107
+aVBut if you displayed that on a CRT or flat panel display,
+p108
+aVit would be meaningless to hold up an arbitrary object,
+p109
+aVa real world object in that.
+p110
+aVHere, the real world merges with the simulation.
+p111
+aa(lp112
+VAnd finally, to pull out all the stops,
+p113
+aVthis is a system called Urp, for urban planners,
+p114
+aVin which we give architects and urban planners back
+p115
+aVthe models that we confiscated
+p116
+aVwhen we insisted that they use CAD systems.
+p117
+aVAnd we make the machine meet them half way.
+p118
+aVIt projects down digital shadows, as you see here.
+p119
+aVAnd if you introduce tools like this inverse clock,
+p120
+aVthen you can control the sun's position in the sky.
+p121
+aVThat's 8 a.m. shadows.
+p122
+aVThey get a little shorter at 9 a.m.
+p123
+aVThere you are, swinging the sun around.
+p124
+aVShort shadows at noon and so forth.
+p125
+aVAnd we built up a series of tools like this.
+p126
+aVThere are inter-shadowing studies
+p127
+aVthat children can operate,
+p128
+aVeven though they don't know anything about urban planning:
+p129
+aVTo move a building, you simply reach out your hand and you move the building.
+p130
+aVA material wand makes the building
+p131
+aVinto a sort of Frank Gehry thing that reflects light in all directions.
+p132
+aVAre you blinding passers by and motorists on the freeways?
+p133
+aVA zoning tool connects distant structures, a building and a roadway.
+p134
+aVAre you going to get sued by the zoning commission? And so forth.
+p135
+aVNow, if these ideas seem familiar
+p136
+aVor perhaps even a little dated,
+p137
+aVthat's great; they should seem familiar.
+p138
+aa(lp139
+VThis work is 15 years old.
+p140
+aVThis stuff was undertaken at MIT and the Media Lab
+p141
+aVunder the incredible direction of Professor Hiroshi Ishii,
+p142
+aVdirector of the Tangible Media Group.
+p143
+aVBut it was that work that was seen
+p144
+aVby Alex McDowell,
+p145
+aVone of the world's legendary production designers.
+p146
+aVBut Alex was preparing a little, sort of obscure, indie, arthouse film
+p147
+aVcalled "Minority Report" for Steven Spielberg,
+p148
+aVand invited us to come out from MIT
+p149
+aVand design the interfaces
+p150
+aVthat would appear in that film.
+p151
+aVAnd the great thing about it was
+p152
+aVthat Alex was so dedicated to the idea of verisimilitude,
+p153
+aVthe idea that the putative 2054
+p154
+aVthat we were painting in the film be believable,
+p155
+aVthat he allowed us to take on that design work
+p156
+aVas if it were an R&D effort.
+p157
+aVAnd the result is sort of
+p158
+aVgratifyingly perpetual.
+p159
+aVPeople still reference those sequences in "Minority Report"
+p160
+aVwhen they talk about new UI design.
+p161
+aVSo this led full circle, in a strange way,
+p162
+aVto build these ideas into what we believe
+p163
+aVis the necessary future of human machine interface:
+p164
+aVthe Spatial Operating Environment, we call it.
+p165
+aa(lp166
+VSo here we have a bunch of stuff, some images.
+p167
+aVAnd, using a hand,
+p168
+aVwe can actually exercise six degrees of freedom,
+p169
+aVsix degrees of navigational control.
+p170
+aVAnd it's fun to fly through Mr. Beckett's eye.
+p171
+aVAnd you can come back out
+p172
+aVthrough the scary orangutan.
+p173
+aVAnd that's all well and good.
+p174
+aVLet's do something a little more difficult.
+p175
+aVHere, we have a whole bunch of disparate images.
+p176
+aVWe can fly around them.
+p177
+aVSo navigation is a fundamental issue.
+p178
+aVYou have to be able to navigate in 3D.
+p179
+aVMuch of what we want computers to help us with in the first place
+p180
+aVis inherently spatial.
+p181
+aVAnd the part that isn't spatial can often be spatialized
+p182
+aVto allow our wetware to make greater sense of it.
+p183
+aVNow we can distribute this stuff in many different ways.
+p184
+aVSo we can throw it out like that. Let's reset it.
+p185
+aVWe can organize it this way.
+p186
+aa(lp187
+VAnd, of course, it's not just about navigation,
+p188
+aVbut about manipulation as well.
+p189
+aVSo if we don't like stuff,
+p190
+aVor we're intensely curious about
+p191
+aVErnst Haeckel's scientific falsifications,
+p192
+aVwe can pull them out like that.
+p193
+aVAnd then if it's time for analysis, we can pull back a little bit
+p194
+aVand ask for a different distribution.
+p195
+aVLet's just come down a bit
+p196
+aVand fly around.
+p197
+aVSo that's a different way to look at stuff.
+p198
+aVIf you're of a more analytical nature
+p199
+aVthen you might want, actually, to look at this
+p200
+aVas a color histogram.
+p201
+aVSo now we've got the stuff color-sorted,
+p202
+aVangle maps onto color.
+p203
+aVAnd now, if we want to select stuff,
+p204
+aV3D, space,
+p205
+aVthe idea that we're tracking hands in real space
+p206
+aVbecomes really important because we can reach in,
+p207
+aVnot in 2D, not in fake 2D, but in actual 3D.
+p208
+aVHere are some selection planes.
+p209
+aVAnd we'll perform this Boolean operation
+p210
+aVbecause we really love yellow and tapirs on green grass.
+p211
+aa(lp212
+VSo, from there to the world of real work.
+p213
+aVHere's a logistics system,
+p214
+aVa small piece of one that we're currently building.
+p215
+aVThere're a lot of elements.
+p216
+aVAnd one thing that's very important is to combine traditional tabular data
+p217
+aVwith three-dimensional and geospatial information.
+p218
+aVSo here's a familiar place.
+p219
+aVAnd we'll bring this back here for a second.
+p220
+aVMaybe select a little bit of that.
+p221
+aVAnd bring out this graph.
+p222
+aVAnd we should, now,
+p223
+aVbe able to fly in here
+p224
+aVand have a closer look.
+p225
+aVThese are logistics elements
+p226
+aVthat are scattered across the United States.
+p227
+aa(lp228
+VOne thing that three-dimensional interactions
+p229
+aVand the general idea of imbuing
+p230
+aVcomputation with space affords you
+p231
+aVis a final destruction of that unfortunate
+p232
+aVone-to-one pairing between human beings and computers.
+p233
+aVThat's the old way, that's the old mantra:
+p234
+aVone machine, one human, one mouse, one screen.
+p235
+aVWell, that doesn't really cut it anymore.
+p236
+aVIn the real world, we have people who collaborate;
+p237
+aVwe have people who have to work together,
+p238
+aVand we have many different displays.
+p239
+aVAnd we might want to look at these various images.
+p240
+aVWe might want to ask for some help.
+p241
+aa(lp242
+VThe author of this new pointing device
+p243
+aVis sitting over there,
+p244
+aVso I can pull this from there to there.
+p245
+aVThese are unrelated machines, right?
+p246
+aVSo the computation is space soluble and network soluble.
+p247
+aVSo I'm going to leave that over there
+p248
+aVbecause I have a question for Paul.
+p249
+aVPaul is the designer of this wand, and maybe its easiest
+p250
+aVfor him to come over here and tell me in person what's going on.
+p251
+aVSo let me get some of these out of the way.
+p252
+aVLet's pull this apart:
+p253
+aVI'll go ahead and explode it.
+p254
+aVKevin, can you help?
+p255
+aVLet me see if I can help us find the circuit board.
+p256
+aVMind you, it's a sort of gratuitous field-stripping exercise,
+p257
+aVbut we do it in the lab all the time.
+p258
+aVAll right.
+p259
+aVSo collaborative work, whether it's immediately co-located
+p260
+aVor distant and distinct, is always important.
+p261
+aVAnd again, that stuff
+p262
+aVneeds to be undertaken in the context of space.
+p263
+aa(lp264
+VAnd finally, I'd like to leave you with a glimpse
+p265
+aVthat takes us back to the world of imagery.
+p266
+aVThis is a system called TAMPER,
+p267
+aVwhich is a slightly whimsical look
+p268
+aVat what the future of editing
+p269
+aVand media manipulation systems might be.
+p270
+aVWe at Oblong believe that media should be
+p271
+aVaccessible in much more fine-grained form.
+p272
+aVSo we have a large number of movies
+p273
+aVstuck inside here.
+p274
+aVAnd let's just pick out a few elements.
+p275
+aVWe can zip through them
+p276
+aVas a possibility.
+p277
+aVWe can grab elements off the front,
+p278
+aVwhere upon they reanimate, come to life,
+p279
+aVand drag them down onto the table here.
+p280
+aVWe'll go over to Jacques Tati here
+p281
+aVand grab our blue friend
+p282
+aVand put him down on the table as well.
+p283
+aVWe may need more than one.
+p284
+aVAnd we probably need,
+p285
+aVwell, we probably need a cowboy
+p286
+aVto be quite honest.
+p287
+aV(Laughter)
+p288
+aVYeah, let's
+p289
+aVtake that one.
+p290
+aV(Laughter)
+p291
+aVYou see, cowboys and French farce people
+p292
+aVdon't go well together, and the system knows that.
+p293
+aa(lp294
+VLet me leave with one final thought,
+p295
+aVand that is that
+p296
+aVone of the greatest English language writers
+p297
+aVof the last three decades
+p298
+aVsuggested that great art is always a gift.
+p299
+aVAnd he wasn't talking about whether the novel costs 24.95 [dollars],
+p300
+aVor whether you have to spring 70 million bucks
+p301
+aVto buy the stolen Vermeer;
+p302
+aVhe was talking about the circumstances of its creation
+p303
+aVand of its existence.
+p304
+aVAnd I think that it's time that we asked
+p305
+aVfor the same from technology.
+p306
+aVTechnology is capable of
+p307
+aVexpressing and being imbued with
+p308
+aVa certain generosity,
+p309
+aVand we need to demand that, in fact.
+p310
+aVFor some of this kind of technology,
+p311
+aVground center is
+p312
+aVa combination of design, which is crucially important.
+p313
+aVWe can't have advances in technology any longer
+p314
+aVunless design is integrated from the very start.
+p315
+aVAnd, as well, as of efficacy, agency.
+p316
+aVWe're, as human beings, the creatures that create,
+p317
+aVand we should make sure that our machines aid us in that task
+p318
+aVand are built in that same image.
+p319
+aa(lp320
+VSo I will leave you with that. Thank you.
+p321
+aa(lp322
+V(Applause)
+p323
+aa(lp324
+VChris Anderson: So to ask the obvious question \u2014
+p325
+aVactually this is from Bill Gates \u2014
+p326
+aVwhen? (John Underkoffler: When?)
+p327
+aVCA: When real? When for us, not just in a lab and on a stage?
+p328
+aVCan it be for every man, or is this just for corporations and movie producers?
+p329
+aa(lp330
+VJU: No, it has to be for every human being.
+p331
+aVThat's our goal entirely.
+p332
+aVWe won't have succeeded
+p333
+aVunless we take that next big step.
+p334
+aVI mean it's been 25 years.
+p335
+aVCan there really be only one interface? There can't.
+p336
+aa(lp337
+VCA: But does that mean that, at your desk or in your home,
+p338
+aVyou need projectors, cameras?
+p339
+aVYou know, how can it work?
+p340
+aa(lp341
+VJU: No, this stuff will be built into the bezel of every display.
+p342
+aVIt'll be built into architecture.
+p343
+aVThe gloves go away in a matter of months or years.
+p344
+aVSo this is the inevitability about it.
+p345
+aa(lp346
+VCA: So, in your mind, five years time,
+p347
+aVsomeone can buy this as part of
+p348
+aVa standard computer interface?
+p349
+aa(lp350
+VJU: I think in five years time when you buy a computer,
+p351
+aVyou'll get this.
+p352
+aa(lp353
+VCA: Well that's cool.
+p354
+aV(Applause)
+p355
+aVThe world has a habit of surprising us as to how these things are actually used.
+p356
+aVWhat do you think, what in your mind is the first killer app for this?
+p357
+aa(lp358
+VJU: That's a good question, and we ask ourselves that every day.
+p359
+aVAt the moment, our early-adopter customers \u2014
+p360
+aVand these systems are deployed out in the real world \u2014
+p361
+aVdo all the big data intensive, data heavy problems with it.
+p362
+aVSo, whether it's logistics and supply chain management
+p363
+aVor natural gas and resource extraction,
+p364
+aVfinancial services, pharmaceuticals, bioinformatics,
+p365
+aVthose are the topics right now, but that's not a killer app.
+p366
+aVAnd I understand what you're asking.
+p367
+aa(lp368
+VCA: C'mon, c'mon. Martial arts, games. C'mon.
+p369
+aV(Laughter)
+p370
+aVJohn, thank you for making science-fiction real.
+p371
+aa(lp372
+VJU: It's been a great pleasure.
+p373
+aVThank you to you all.
+p374
+aa(lp375
+V(Applause)
+p376
+aasS'transcript_micsec'
+p377
+(lp378
+I11000
+aI66000
+aI122000
+aI145000
+aI209000
+aI254000
+aI319000
+aI388000
+aI437000
+aI510000
+aI556000
+aI589000
+aI655000
+aI731000
+aI792000
+aI794000
+aI809000
+aI824000
+aI836000
+aI843000
+aI852000
+aI858000
+aI863000
+aI875000
+aI899000
+aI906000
+aI910000
+asS'talk_meta'
+p379
+(dp380
+S'ratings'
+p381
+(dp382
+S'ingenious'
+p383
+I428
+sS'beautiful'
+p384
+I72
+sS'inspiring'
+p385
+I294
+sS'ok'
+p386
+I112
+sS'fascinating'
+p387
+I479
+sS'funny'
+p388
+I7
+sS'total_count'
+p389
+I2431
+sS'persuasive'
+p390
+I59
+sS'longwinded'
+p391
+I42
+sS'informative'
+p392
+I203
+sS'jaw-dropping'
+p393
+I514
+sS'obnoxious'
+p394
+I14
+sS'confusing'
+p395
+I44
+sS'courageous'
+p396
+I24
+sS'unconvincing'
+p397
+I139
+ssS'author'
+p398
+VJohn_Underkoffler;
+p399
+sS'url'
+p400
+S'https://www.ted.com/talks/john_underkoffler_drive_3d_data_with_a_gesture'
+p401
+sS'vidlen'
+p402
+I922
+sS'totalviews'
+p403
+I1516358
+sS'title'
+p404
+VPointing to the future of UI
+p405
+sS'downloadlink'
+p406
+Vhttps://download.ted.com/talks/JohnUnderkoffler_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p407
+sS'datepublished'
+p408
+cdatetime
+datetime
+p409
+(S'\x07\xda\x06\x01\x04(\x00\x00\x00\x00'
+tRp410
+sS'datefilmed'
+p411
+g409
+(S'\x07\xda\x06\x01\x04(\x00\x00\x00\x00'
+tRp412
+sS'alldata_JSON'
+p413
+S'{"viewed_count": 1516358, "speakers": [{"description": "Interface designer", "firstname": "John", "title": "", "lastname": "Underkoffler", "middleinitial": "", "whylisten": "<p>When Tom Cruise put on his data glove and started whooshing through video clips of future crimes, how many of us felt the stirrings of geek lust? This iconic scene in <em>Minority Report</em> <strong>marked a change in popular thinking about interfaces</strong> -- showing how sexy it could be to use natural gestures, without keyboard, mouse or command line.<br />&nbsp;<br />John Underkoffler led the team that came up with this interface, called the g-speak Spatial Operating Environment. His company, Oblong Industries, was founded to move g-speak into the real world. Oblong is building <strong>apps for aerospace, bioinformatics, video editing and more</strong>. But the big vision is ubiquity: g-speak on every laptop, every desktop, every microwave oven, TV, dashboard. &quot;It has to be like this,&quot; he says. &quot;We all of us every day feel that. We build starting there. We want to change it all.&quot;<br />&nbsp;<br />Before founding Oblong, Underkoffler spent 15 years at MIT&#39;s Media Laboratory, working in holography, animation and visualization techniques, and building the I/O Bulb and Luminous Room Systems.</p>", "slug": "john_underkoffler", "whotheyare": "Remember the data interface from Minority Report? Well, it\'s real, John Underkoffler invented it -- as a point-and-touch interface called g-speak -- and it\'s about to change the way we interact with data.", "whatotherssay": "We\'re not finished until all the computers in the world work like this.", "id": 596, "photo_url": "https://pe.tedcdn.com/images/ted/174125_254x191.jpg"}], "current_talk": 872, "description": "Minority Report science adviser and inventor John Underkoffler demos g-speak -- the real-life version of the film\'s eye-popping, tai chi-meets-cyberspace computer interface. Is this how tomorrow\'s computers will be controlled?", "language": "en", "url": "https://www.ted.com/talks/john_underkoffler_drive_3d_data_with_a_gesture", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109398339}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21142081}, "podcast-high": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109428014}, "180k": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21052036}, "64k": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7570212}, "1500k": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 170239321}, "450k": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 52040647}, "podcast-regular": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 52210545}, "950k": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109484494}, "audio-podcast": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 9503658}, "podcast-light": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7669620}, "320k": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37259000}, "600k": {"uri": "https://download.ted.com/talks/JohnUnderkoffler_2010-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69623874}}}, "comments": {"count": 227, "id": 717, "talk_id": 872}, "slug": "john_underkoffler_drive_3d_data_with_a_gesture", "threadId": 717, "talks": [{"event": "TED2010", "player_talks": [{"event": "TED2010", "slug": "john_underkoffler_drive_3d_data_with_a_gesture", "filmed": 1265846400, "targeting": {"event": "TED2010", "tag": "computers,design,film,interface design,invention,technology,visualizations", "id": 872, "talk": "john_underkoffler_drive_3d_data_with_a_gesture", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "Pointing to the future of UI", "postAdDuration": "0.83", "published": 1275381600, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/174124_800x600.jpg?quality=89&w=600", "name": "John Underkoffler: Pointing to the future of UI", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["computers", "design", "film", "interface design", "invention", "technology", "visualizations"], "speaker": "John Underkoffler", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 922, "id": 872, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JohnUnderkoffler_2010-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2010", "tag": "computers,design,film,interface design,invention,technology,visualizations", "id": 872, "talk": "john_underkoffler_drive_3d_data_with_a_gesture", "year": "2010"}, "metadata": "https://hls.ted.com/talks/872.json", "stream": "https://hls.ted.com/talks/872.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2010%26id%3D872%26tag%3Dcomputers%2Cdesign%2Cfilm%2Cinterface%2Bdesign%2Cinvention%2Ctechnology%2Cvisualizations%26talk%3Djohn_underkoffler_drive_3d_data_with_a_gesture%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/john_underkoffler_drive_3d_data_with_a_gesture"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/174124_800x600.jpg?q=50&w=15", "duration": 922, "id": 872, "ratings": [{"count": 479, "id": 22, "name": "Fascinating"}, {"count": 203, "id": 8, "name": "Informative"}, {"count": 294, "id": 10, "name": "Inspiring"}, {"count": 514, "id": 23, "name": "Jaw-dropping"}, {"count": 428, "id": 9, "name": "Ingenious"}, {"count": 139, "id": 21, "name": "Unconvincing"}, {"count": 72, "id": 1, "name": "Beautiful"}, {"count": 112, "id": 25, "name": "OK"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 42, "id": 11, "name": "Longwinded"}, {"count": 44, "id": 2, "name": "Confusing"}, {"count": 24, "id": 3, "name": "Courageous"}, {"count": 59, "id": 24, "name": "Persuasive"}, {"count": 7, "id": 7, "name": "Funny"}], "speakers": [{"description": "Interface designer", "firstname": "John", "title": "", "lastname": "Underkoffler", "middleinitial": "", "whylisten": "<p>When Tom Cruise put on his data glove and started whooshing through video clips of future crimes, how many of us felt the stirrings of geek lust? This iconic scene in <em>Minority Report</em> <strong>marked a change in popular thinking about interfaces</strong> -- showing how sexy it could be to use natural gestures, without keyboard, mouse or command line.<br />&nbsp;<br />John Underkoffler led the team that came up with this interface, called the g-speak Spatial Operating Environment. His company, Oblong Industries, was founded to move g-speak into the real world. Oblong is building <strong>apps for aerospace, bioinformatics, video editing and more</strong>. But the big vision is ubiquity: g-speak on every laptop, every desktop, every microwave oven, TV, dashboard. &quot;It has to be like this,&quot; he says. &quot;We all of us every day feel that. We build starting there. We want to change it all.&quot;<br />&nbsp;<br />Before founding Oblong, Underkoffler spent 15 years at MIT&#39;s Media Laboratory, working in holography, animation and visualization techniques, and building the I/O Bulb and Luminous Room Systems.</p>", "slug": "john_underkoffler", "whotheyare": "Remember the data interface from Minority Report? Well, it\'s real, John Underkoffler invented it -- as a point-and-touch interface called g-speak -- and it\'s about to change the way we interact with data.", "whatotherssay": "We\'re not finished until all the computers in the world work like this.", "id": 596, "photo_url": "https://pe.tedcdn.com/images/ted/174125_254x191.jpg"}], "title": "Pointing to the future of UI", "take_action": null, "comments": 717, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "description": "Minority Report science adviser and inventor John Underkoffler demos g-speak -- the real-life version of the film\'s eye-popping, tai chi-meets-cyberspace computer interface. Is this how tomorrow\'s computers will be controlled?", "tags": ["computers", "design", "film", "interface design", "invention", "technology", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-de.mp4"}, "ja": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JohnUnderkoffler_2010-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JohnUnderkoffler_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JohnUnderkoffler_2010-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 872, "audioDownload": "https://download.ted.com/talks/JohnUnderkoffler_2010.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1779579, "hero": "https://pe.tedcdn.com/images/ted/6bfe8f02c232861849cf6bfe526840bc9de54851_2880x1620.jpg", "title": "Reach into the computer and grab a pixel", "id": 1781, "speaker": "Jinha Lee", "duration": 307, "slug": "jinha_lee_a_tool_that_lets_you_touch_pixels"}, {"viewed_count": 1036814, "hero": "https://pe.tedcdn.com/images/ted/7050fccc4b9b3515903a1fe304017edf282fb5f7_1600x1200.jpg", "title": "The best computer interface? Maybe ... your hands", "id": 1984, "speaker": "James Patten", "duration": 372, "slug": "james_patten_the_best_computer_interface_maybe_your_hands"}, {"viewed_count": 1067486, "hero": "https://pe.tedcdn.com/images/ted/97d3d86749ad26995caa55948e45c525f453746e_1600x1200.jpg", "title": "Art that craves your attention", "id": 1921, "speaker": "Aparna Rao", "duration": 536, "slug": "aparna_rao_art_that_craves_your_attention"}, {"viewed_count": 977622, "hero": "https://pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg", "title": "5 predictions, from 1984", "id": 230, "speaker": "Nicholas Negroponte", "duration": 1523, "slug": "nicholas_negroponte_in_1984_makes_5_predictions"}, {"viewed_count": 4541020, "hero": "https://pe.tedcdn.com/images/ted/2c78c5f87d19f51a0ff4d3e655cb815360bf8063_1600x1200.jpg", "title": "The radical promise of the multi-touch interface", "id": 65, "speaker": "Jeff Han", "duration": 527, "slug": "jeff_han_demos_his_breakthrough_touchscreen"}, {"viewed_count": 1414077, "hero": "https://pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg", "title": "Shape-shifting tech will change work as we know it", "id": 2410, "speaker": "Sean Follmer", "duration": 562, "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it"}], "recorded_at": "2010-02-11T00:00:00.000+00:00", "slug": "john_underkoffler_drive_3d_data_with_a_gesture", "speaker_name": "John Underkoffler", "viewed_count": 1516358, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2010", "name": "John Underkoffler: Pointing to the future of UI"}'
+p414
+sS'keywords'
+p415
+(lp416
+Vcomputers
+p417
+aVdesign
+p418
+aVfilm
+p419
+aVinterface design
+p420
+aVinvention
+p421
+aVtechnology
+p422
+aVvisualizations
+p423
+asS'datecrawled'
+p424
+g409
+(S'\x07\xe1\n\x17\x01\x15\x18\x01\xfa_'
+tRp425
+sS'id'
+p426
+I872
+ss.

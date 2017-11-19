@@ -1,0 +1,1626 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe all make decisions every day; we want to know
+p5
+aVwhat the right thing is to do \u2014 in domains from the financial
+p6
+aVto the gastronomic to the professional to the romantic.
+p7
+aVAnd surely, if somebody could really tell us how to do
+p8
+aVexactly the right thing at all possible times,
+p9
+aVthat would be a tremendous gift.
+p10
+aa(lp11
+VIt turns out that, in fact, the world was given this gift in 1738
+p12
+aVby a Dutch polymath named Daniel Bernoulli.
+p13
+aVAnd what I want to talk to you about today is what that gift is,
+p14
+aVand I also want to explain to you why it is
+p15
+aVthat it hasn't made a damn bit of difference.
+p16
+aa(lp17
+VNow, this is Bernoulli's gift. This is a direct quote.
+p18
+aVAnd if it looks like Greek to you, it's because, well, it's Greek.
+p19
+aVBut the simple English translation \u2014 much less precise,
+p20
+aVbut it captures the gist of what Bernoulli had to say \u2014 was this:
+p21
+aVThe expected value of any of our actions \u2014
+p22
+aVthat is, the goodness that we can count on getting \u2014
+p23
+aVis the product of two simple things:
+p24
+aVthe odds that this action will allow us to gain something,
+p25
+aVand the value of that gain to us.
+p26
+aa(lp27
+VIn a sense, what Bernoulli was saying is,
+p28
+aVif we can estimate and multiply these two things,
+p29
+aVwe will always know precisely how we should behave.
+p30
+aa(lp31
+VNow, this simple equation, even for those of you
+p32
+aVwho don't like equations, is something that you're quite used to.
+p33
+aVHere's an example: if I were to tell you, let's play
+p34
+aVa little coin toss game, and I'm going to flip a coin,
+p35
+aVand if it comes up heads, I'm going to pay you 10 dollars,
+p36
+aVbut you have to pay four dollars for the privilege of playing with me,
+p37
+aVmost of you would say, sure, I'll take that bet. Because you know
+p38
+aVthat the odds of you winning are one half, the gain if you do is 10 dollars,
+p39
+aVthat multiplies to five, and that's more
+p40
+aVthan I'm charging you to play. So, the answer is, yes.
+p41
+aVThis is what statisticians technically call a damn fine bet.
+p42
+aa(lp43
+VNow, the idea is simple when we're applying it to coin tosses,
+p44
+aVbut in fact, it's not very simple in everyday life.
+p45
+aVPeople are horrible at estimating both of these things,
+p46
+aVand that's what I want to talk to you about today.
+p47
+aa(lp48
+VThere are two kinds of errors people make when trying to decide
+p49
+aVwhat the right thing is to do, and those are
+p50
+aVerrors in estimating the odds that they're going to succeed,
+p51
+aVand errors in estimating the value of their own success.
+p52
+aVNow, let me talk about the first one first.
+p53
+aVCalculating odds would seem to be something rather easy:
+p54
+aVthere are six sides to a die, two sides to a coin, 52 cards in a deck.
+p55
+aVYou all know what the likelihood is of pulling the ace of spades
+p56
+aVor of flipping a heads.
+p57
+aVBut as it turns out, this is not a very easy idea to apply
+p58
+aVin everyday life. That's why Americans spend more \u2014
+p59
+aVI should say, lose more \u2014 gambling
+p60
+aVthan on all other forms of entertainment combined.
+p61
+aVThe reason is, this isn't how people do odds.
+p62
+aa(lp63
+VThe way people figure odds
+p64
+aVrequires that we first talk a bit about pigs.
+p65
+aVNow, the question I'm going to put to you is whether you think
+p66
+aVthere are more dogs or pigs on leashes
+p67
+aVobserved in any particular day in Oxford.
+p68
+aVAnd of course, you all know that the answer is dogs.
+p69
+aVAnd the way that you know that the answer is dogs is
+p70
+aVyou quickly reviewed in memory the times
+p71
+aVyou've seen dogs and pigs on leashes.
+p72
+aVIt was very easy to remember seeing dogs,
+p73
+aVnot so easy to remember pigs. And each one of you assumed
+p74
+aVthat if dogs on leashes came more quickly to your mind,
+p75
+aVthen dogs on leashes are more probable.
+p76
+aVThat's not a bad rule of thumb, except when it is.
+p77
+aa(lp78
+VSo, for example, here's a word puzzle.
+p79
+aVAre there more four-letter English words
+p80
+aVwith R in the third place or R in the first place?
+p81
+aVWell, you check memory very briefly, make a quick scan,
+p82
+aVand it's awfully easy to say to yourself, Ring, Rang, Rung,
+p83
+aVand very hard to say to yourself, Pare, Park: they come more slowly.
+p84
+aVBut in fact, there are many more words in the English language
+p85
+aVwith R in the third than the first place.
+p86
+aVThe reason words with R in the third place come slowly to your mind
+p87
+aVisn't because they're improbable, unlikely or infrequent.
+p88
+aVIt's because the mind recalls words by their first letter.
+p89
+aVYou kind of shout out the sound, S \u2014 and the word comes.
+p90
+aVIt's like the dictionary;
+p91
+aVit's hard to look things up by the third letter.
+p92
+aVSo, this is an example of how this idea that
+p93
+aVthe quickness with which things come to mind
+p94
+aVcan give you a sense of their probability \u2014
+p95
+aa(lp96
+Vhow this idea could lead you astray. It's not just puzzles, though.
+p97
+aVFor example, when Americans are asked to estimate the odds
+p98
+aVthat they will die in a variety of interesting ways \u2014
+p99
+aVthese are estimates of number of deaths per year
+p100
+aVper 200 million U.S. citizens.
+p101
+aVAnd these are just ordinary people like yourselves who are asked
+p102
+aVto guess how many people die from tornado, fireworks, asthma, drowning, etc.
+p103
+aVCompare these to the actual numbers.
+p104
+aa(lp105
+VNow, you see a very interesting pattern here, which is first of all,
+p106
+aVtwo things are vastly over-estimated, namely tornadoes and fireworks.
+p107
+aVTwo things are vastly underestimated:
+p108
+aVdying by drowning and dying by asthma. Why?
+p109
+aVWhen was the last time that you picked up a newspaper
+p110
+aVand the headline was, "Boy dies of Asthma?"
+p111
+aVIt's not interesting because it's so common.
+p112
+aVIt's very easy for all of us to bring to mind instances
+p113
+aVof news stories or newsreels where we've seen
+p114
+aVtornadoes devastating cities, or some poor schmuck
+p115
+aVwho's blown his hands off with a firework on the Fourth of July.
+p116
+aVDrownings and asthma deaths don't get much coverage.
+p117
+aVThey don't come quickly to mind, and as a result,
+p118
+aVwe vastly underestimate them.
+p119
+aa(lp120
+VIndeed, this is kind of like the Sesame Street game
+p121
+aVof "Which thing doesn't belong?" And you're right to say
+p122
+aVit's the swimming pool that doesn't belong, because the swimming pool
+p123
+aVis the only thing on this slide that's actually very dangerous.
+p124
+aVThe way that more of you are likely to die than the combination
+p125
+aVof all three of the others that you see on the slide.
+p126
+aa(lp127
+VThe lottery is an excellent example, of course \u2014 an excellent test-case
+p128
+aVof people's ability to compute probabilities.
+p129
+aVAnd economists \u2014 forgive me, for those of you who play the lottery \u2014
+p130
+aVbut economists, at least among themselves, refer to the lottery
+p131
+aVas a stupidity tax, because the odds of getting any payoff
+p132
+aVby investing your money in a lottery ticket
+p133
+aVare approximately equivalent to flushing the money
+p134
+aVdirectly down the toilet \u2014 which, by the way,
+p135
+aVdoesn't require that you actually go to the store and buy anything.
+p136
+aa(lp137
+VWhy in the world would anybody ever play the lottery?
+p138
+aVWell, there are many answers, but one answer surely is,
+p139
+aVwe see a lot of winners. Right? When this couple wins the lottery,
+p140
+aVor Ed McMahon shows up at your door with this giant check \u2014
+p141
+aVhow the hell do you cash things that size, I don't know.
+p142
+aVWe see this on TV; we read about it in the paper.
+p143
+aVWhen was the last time that you saw extensive interviews
+p144
+aVwith everybody who lost?
+p145
+aVIndeed, if we required that television stations run
+p146
+aVa 30-second interview with each loser
+p147
+aVevery time they interview a winner, the 100 million losers
+p148
+aVin the last lottery would require nine-and-a-half years
+p149
+aVof your undivided attention just to watch them say,
+p150
+aV"Me? I lost." "Me? I lost."
+p151
+aVNow, if you watch nine-and-a-half years of television \u2014
+p152
+aVno sleep, no potty breaks \u2014 and you saw loss after loss after loss,
+p153
+aVand then at the end there's 30 seconds of, "and I won,"
+p154
+aVthe likelihood that you would play the lottery is very small.
+p155
+aa(lp156
+VLook, I can prove this to you: here's a little lottery.
+p157
+aVThere's 10 tickets in this lottery.
+p158
+aVNine of them have been sold to these individuals.
+p159
+aVIt costs you a dollar to buy the ticket and, if you win,
+p160
+aVyou get 20 bucks. Is this a good bet?
+p161
+aVWell, Bernoulli tells us it is.
+p162
+aVThe expected value of this lottery is two dollars;
+p163
+aVthis is a lottery in which you should invest your money.
+p164
+aVAnd most people say, "OK, I'll play."
+p165
+aa(lp166
+VNow, a slightly different version of this lottery:
+p167
+aVimagine that the nine tickets are all owned
+p168
+aVby one fat guy named Leroy.
+p169
+aVLeroy has nine tickets; there's one left.
+p170
+aVDo you want it? Most people won't play this lottery.
+p171
+aVNow, you can see the odds of winning haven't changed,
+p172
+aVbut it's now fantastically easy to imagine who's going to win.
+p173
+aVIt's easy to see Leroy getting the check, right?
+p174
+aVYou can't say to yourself, "I'm as likely to win as anybody,"
+p175
+aVbecause you're not as likely to win as Leroy.
+p176
+aVThe fact that all those tickets are owned by one guy
+p177
+aVchanges your decision to play,
+p178
+aVeven though it does nothing whatsoever to the odds.
+p179
+aa(lp180
+VNow, estimating odds, as difficult as it may seem, is a piece of cake
+p181
+aVcompared to trying to estimate value:
+p182
+aVtrying to say what something is worth, how much we'll enjoy it,
+p183
+aVhow much pleasure it will give us.
+p184
+aVI want to talk now about errors in value.
+p185
+aVHow much is this Big Mac worth? Is it worth 25 dollars?
+p186
+aVMost of you have the intuition that it's not \u2014
+p187
+aVyou wouldn't pay that for it.
+p188
+aa(lp189
+VBut in fact, to decide whether a Big Mac is worth 25 dollars requires
+p190
+aVthat you ask one, and only one question, which is:
+p191
+aVWhat else can I do with 25 dollars?
+p192
+aVIf you've ever gotten on one of those long-haul flights to Australia
+p193
+aVand realized that they're not going to serve you any food,
+p194
+aVbut somebody in the row in front of you has just opened
+p195
+aVthe McDonald's bag, and the smell of golden arches
+p196
+aVis wafting over the seat, you think,
+p197
+aVI can't do anything else with this 25 dollars for 16 hours.
+p198
+aVI can't even set it on fire \u2014 they took my cigarette lighter!
+p199
+aVSuddenly, 25 dollars for a Big Mac might be a good deal.
+p200
+aa(lp201
+VOn the other hand, if you're visiting an underdeveloped country,
+p202
+aVand 25 dollars buys you a gourmet meal, it's exorbitant for a Big Mac.
+p203
+aVWhy were you all sure that the answer to the question was no,
+p204
+aVbefore I'd even told you anything about the context?
+p205
+aVBecause most of you compared the price of this Big Mac
+p206
+aVto the price you're used to paying. Rather than asking,
+p207
+aV"What else can I do with my money," comparing this investment
+p208
+aVto other possible investments, you compared to the past.
+p209
+aVAnd this is a systematic error people make.
+p210
+aVWhat you knew is, you paid three dollars in the past; 25 is outrageous.
+p211
+aa(lp212
+VThis is an error, and I can prove it to you by showing
+p213
+aVthe kinds of irrationalities to which it leads.
+p214
+aVFor example, this is, of course,
+p215
+aVone of the most delicious tricks in marketing,
+p216
+aVis to say something used to be higher,
+p217
+aVand suddenly it seems like a very good deal.
+p218
+aVWhen people are asked about these two different jobs:
+p219
+aVa job where you make 60K, then 50K, then 40K,
+p220
+aVa job where you're getting a salary cut each year,
+p221
+aVand one in which you're getting a salary increase,
+p222
+aVpeople like the second job better than the first, despite the fact
+p223
+aVthey're all told they make much less money. Why?
+p224
+aVBecause they had the sense that declining wages are worse
+p225
+aVthan rising wages, even when the total amount of wages is higher
+p226
+aVin the declining period. Here's another nice example.
+p227
+aa(lp228
+VHere's a $2,000 Hawaiian vacation package; it's now on sale for 1,600.
+p229
+aVAssuming you wanted to go to Hawaii, would you buy this package?
+p230
+aVMost people say they would. Here's a slightly different story:
+p231
+aV$2,000 Hawaiian vacation package is now on sale for 700 dollars,
+p232
+aVso you decide to mull it over for a week.
+p233
+aVBy the time you get to the ticket agency, the best fares are gone \u2014
+p234
+aVthe package now costs 1,500. Would you buy it? Most people say, no.
+p235
+aVWhy? Because it used to cost 700, and there's no way I'm paying 1,500
+p236
+aVfor something that was 700 last week.
+p237
+aa(lp238
+VThis tendency to compare to the past
+p239
+aVis causing people to pass up the better deal. In other words,
+p240
+aVa good deal that used to be a great deal is not nearly as good
+p241
+aVas an awful deal that was once a horrible deal.
+p242
+aa(lp243
+VHere's another example of how comparing to the past
+p244
+aVcan befuddle our decisions.
+p245
+aVImagine that you're going to the theater.
+p246
+aVYou're on your way to the theater.
+p247
+aVIn your wallet you have a ticket, for which you paid 20 dollars.
+p248
+aVYou also have a 20-dollar bill.
+p249
+aVWhen you arrive at the theater,
+p250
+aVyou discover that somewhere along the way you've lost the ticket.
+p251
+aVWould you spend your remaining money on replacing it?
+p252
+aVMost people answer, no.
+p253
+aVNow, let's just change one thing in this scenario.
+p254
+aVYou're on your way to the theater,
+p255
+aVand in your wallet you have two 20-dollar bills.
+p256
+aVWhen you arrive you discover you've lost one of them.
+p257
+aVWould you spend your remaining 20 dollars on a ticket?
+p258
+aVWell, of course, I went to the theater to see the play.
+p259
+aVWhat does the loss of 20 dollars along the way have to do?
+p260
+aa(lp261
+VNow, just in case you're not getting it,
+p262
+aVhere's a schematic of what happened, OK?
+p263
+aV(Laughter)
+p264
+aVAlong the way, you lost something.
+p265
+aVIn both cases, it was a piece of paper.
+p266
+aVIn one case, it had a U.S. president on it; in the other case it didn't.
+p267
+aVWhat the hell difference should it make?
+p268
+aVThe difference is that when you lost the ticket you say to yourself,
+p269
+aVI'm not paying twice for the same thing.
+p270
+aVYou compare the cost of the play now \u2014 40 dollars \u2014
+p271
+aVto the cost that it used to have \u2014 20 dollars \u2014 and you say it's a bad deal.
+p272
+aVComparing with the past causes many of the problems
+p273
+aVthat behavioral economists and psychologists identify
+p274
+aVin people's attempts to assign value.
+p275
+aVBut even when we compare with the possible, instead of the past,
+p276
+aVwe still make certain kinds of mistakes.
+p277
+aVAnd I'm going to show you one or two of them.
+p278
+aa(lp279
+VOne of the things we know about comparison:
+p280
+aVthat when we compare one thing to the other, it changes its value.
+p281
+aVSo in 1992, this fellow, George Bush, for those of us who were
+p282
+aVkind of on the liberal side of the political spectrum,
+p283
+aVdidn't seem like such a great guy.
+p284
+aVSuddenly, we're almost longing for him to return.
+p285
+aV(Laughter)
+p286
+aVThe comparison changes how we evaluate him.
+p287
+aa(lp288
+VNow, retailers knew this long before anybody else did, of course,
+p289
+aVand they use this wisdom to help you \u2014
+p290
+aVspare you the undue burden of money.
+p291
+aVAnd so a retailer, if you were to go into a wine shop
+p292
+aVand you had to buy a bottle of wine,
+p293
+aVand you see them here for eight, 27 and 33 dollars, what would you do?
+p294
+aVMost people don't want the most expensive,
+p295
+aVthey don't want the least expensive.
+p296
+aVSo, they will opt for the item in the middle.
+p297
+aVIf you're a smart retailer, then, you will put a very expensive item
+p298
+aVthat nobody will ever buy on the shelf,
+p299
+aVbecause suddenly the $33 wine doesn't look as expensive in comparison.
+p300
+aa(lp301
+VSo I'm telling you something you already knew:
+p302
+aVnamely, that comparison changes the value of things.
+p303
+aVHere's why that's a problem:
+p304
+aVthe problem is that when you get that $33 bottle of wine home,
+p305
+aVit won't matter what it used to be sitting on the shelf next to.
+p306
+aVThe comparisons we make when we are appraising value,
+p307
+aVwhere we're trying to estimate how much we'll like things,
+p308
+aVare not the same comparisons we'll be making when we consume them.
+p309
+aVThis problem of shifting comparisons can bedevil
+p310
+aVour attempts to make rational decisions.
+p311
+aa(lp312
+VLet me just give you an example.
+p313
+aVI have to show you something from my own lab, so let me sneak this in.
+p314
+aVThese are subjects coming to an experiment to be asked
+p315
+aVthe simplest of all questions:
+p316
+aVHow much will you enjoy eating potato chips one minute from now?
+p317
+aVThey're sitting in a room with potato chips in front of them.
+p318
+aVFor some of the subjects, sitting in the far corner of a room
+p319
+aVis a box of Godiva chocolates, and for others is a can of Spam.
+p320
+aVIn fact, these items that are sitting in the room change
+p321
+aVhow much the subjects think they're going to enjoy the potato chips.
+p322
+aVNamely, those who are looking at Spam
+p323
+aVthink potato chips are going to be quite tasty;
+p324
+aVthose who are looking at Godiva chocolate
+p325
+aVthink they won't be nearly so tasty.
+p326
+aVOf course, what happens when they eat the potato chips?
+p327
+aVWell, look, you didn't need a psychologist to tell you that
+p328
+aVwhen you have a mouthful of greasy, salty, crispy, delicious snacks,
+p329
+aVwhat's sitting in the corner of the room
+p330
+aVmakes not a damn bit of difference to your gustatory experience.
+p331
+aVNonetheless, their predictions are perverted by a comparison
+p332
+aVthat then does not carry through and change their experience.
+p333
+aa(lp334
+VYou've all experienced this yourself, even if you've never come
+p335
+aVinto our lab to eat potato chips. So here's a question:
+p336
+aVYou want to buy a car stereo.
+p337
+aVThe dealer near your house sells this particular stereo for 200 dollars,
+p338
+aVbut if you drive across town, you can get it for 100 bucks.
+p339
+aVSo would you drive to get 50 percent off, saving 100 dollars?
+p340
+aVMost people say they would.
+p341
+aVThey can't imagine buying it for twice the price
+p342
+aVwhen, with one trip across town, they can get it for half off.
+p343
+aa(lp344
+VNow, let's imagine instead you wanted to buy a car that had a stereo,
+p345
+aVand the dealer near your house had it for 31,000.
+p346
+aVBut if you drove across town, you could get it for 30,900.
+p347
+aVWould you drive to get it? At this point, 0.003 savings \u2014 the 100 dollars.
+p348
+aVMost people say, no, I'm going to schlep across town
+p349
+aVto save 100 bucks on the purchase of a car?
+p350
+aa(lp351
+VThis kind of thinking drives economists crazy, and it should.
+p352
+aVBecause this 100 dollars that you save \u2014 hello! \u2014
+p353
+aVdoesn't know where it came from.
+p354
+aVIt doesn't know what you saved it on.
+p355
+aVWhen you go to buy groceries with it, it doesn't go,
+p356
+aVI'm the money saved on the car stereo, or,
+p357
+aVI'm the dumb money saved on the car. It's money.
+p358
+aVAnd if a drive across town is worth 100 bucks, it's worth 100 bucks
+p359
+aVno matter what you're saving it on. People don't think that way.
+p360
+aVThat's why they don't know whether their mutual fund manager
+p361
+aVis taking 0.1 percent or 0.15 percent of their investment,
+p362
+aVbut they clip coupons to save one dollar off of toothpaste.
+p363
+aa(lp364
+VNow, you can see, this is the problem of shifting comparisons,
+p365
+aVbecause what you're doing is, you're comparing the 100 bucks
+p366
+aVto the purchase that you're making,
+p367
+aVbut when you go to spend that money you won't be making that comparison.
+p368
+aVYou've all had this experience.
+p369
+aa(lp370
+VIf you're an American, for example, you've probably traveled in France.
+p371
+aVAnd at some point you may have met a couple
+p372
+aVfrom your own hometown, and you thought,
+p373
+aV"Oh, my God, these people are so warm. They're so nice to me.
+p374
+aVI mean, compared to all these people who hate me
+p375
+aVwhen I try to speak their language and hate me more when I don't,
+p376
+aVthese people are just wonderful." And so you tour France with them,
+p377
+aVand then you get home and you invite them over for dinner,
+p378
+aVand what do you find?
+p379
+aVCompared to your regular friends,
+p380
+aVthey are boring and dull, right? Because in this new context,
+p381
+aVthe comparison is very, very different. In fact, you find yourself
+p382
+aVdisliking them enough almost to qualify for French citizenship.
+p383
+aa(lp384
+VNow, you have exactly the same problem when you shop for a stereo.
+p385
+aVYou go to the stereo store, you see two sets of speakers \u2014
+p386
+aVthese big, boxy, monoliths, and these little, sleek speakers,
+p387
+aVand you play them, and you go, you know, I do hear a difference:
+p388
+aVthe big ones sound a little better.
+p389
+aVAnd so you buy them, and you bring them home,
+p390
+aVand you entirely violate the décor of your house.
+p391
+aVAnd the problem, of course, is that this comparison you made in the store
+p392
+aVis a comparison you'll never make again.
+p393
+aVWhat are the odds that years later you'll turn on the stereo and go,
+p394
+aV"Sounds so much better than those little ones,"
+p395
+aVwhich you can't even remember hearing.
+p396
+aa(lp397
+VThe problem of shifting comparisons is even more difficult
+p398
+aVwhen these choices are arrayed over time.
+p399
+aVPeople have a lot of trouble making decisions
+p400
+aVabout things that will happen at different points in time.
+p401
+aVAnd what psychologists and behavioral economists have discovered
+p402
+aVis that by and large people use two simple rules.
+p403
+aVSo let me give you one very easy problem, a second very easy problem
+p404
+aVand then a third, hard, problem.
+p405
+aa(lp406
+VHere's the first easy problem:
+p407
+aVYou can have 60 dollars now or 50 dollars now. Which would you prefer?
+p408
+aVThis is what we call a one-item IQ test, OK?
+p409
+aVAll of us, I hope, prefer more money, and the reason is,
+p410
+aVwe believe more is better than less.
+p411
+aa(lp412
+VHere's the second problem:
+p413
+aVYou can have 60 dollars today or 60 dollars in a month. Which would you prefer?
+p414
+aVAgain, an easy decision,
+p415
+aVbecause we all know that now is better than later.
+p416
+aVWhat's hard in our decision-making is when these two rules conflict.
+p417
+aVFor example, when you're offered 50 dollars now or 60 dollars in a month.
+p418
+aVThis typifies a lot of situations in life in which you will gain
+p419
+aVby waiting, but you have to be patient.
+p420
+aVWhat do we know? What do people do in these kinds of situations?
+p421
+aVWell, by and large people are enormously impatient.
+p422
+aVThat is, they require interest rates in the hundred
+p423
+aVor thousands of percents in order to delay gratification
+p424
+aVand wait until next month for the extra 10 dollars.
+p425
+aVMaybe that isn't so remarkable, but what is remarkable is
+p426
+aVhow easy it is to make this impatience go away by simply changing
+p427
+aVwhen the delivery of these monetary units will happen.
+p428
+aVImagine that you can have 50 dollars in a year \u2014 that's 12 months \u2014
+p429
+aVor 60 dollars in 13 months.
+p430
+aVWhat do we find now?
+p431
+aVPeople are gladly willing to wait: as long as they're waiting 12,
+p432
+aVthey might as well wait 13.
+p433
+aa(lp434
+VWhat makes this dynamic inconsistency happen?
+p435
+aVComparison. Troubling comparison. Let me show you.
+p436
+aa(lp437
+VThis is just a graph showing the results that I just suggested
+p438
+aVyou would show if I gave you time to respond, which is,
+p439
+aVpeople find that the subjective value of 50 is higher
+p440
+aVthan the subjective value of 60 when they'll be delivered in now
+p441
+aVor one month, respectively \u2014 a 30-day delay \u2014
+p442
+aVbut they show the reverse pattern when you push the entire decision
+p443
+aVoff into the future a year.
+p444
+aVNow, why in the world do you get this pattern of results?
+p445
+aa(lp446
+VThese guys can tell us.
+p447
+aVWhat you see here are two lads,
+p448
+aVone of them larger than the other: the fireman and the fiddler.
+p449
+aVThey are going to recede towards the vanishing point in the horizon,
+p450
+aVand I want you to notice two things.
+p451
+aVAt no point will the fireman look taller than the fiddler. No point.
+p452
+aVHowever, the difference between them seems to be getting smaller.
+p453
+aVFirst it's an inch in your view, then it's a quarter-inch,
+p454
+aVthen a half-inch, and then finally they go off the edge of the earth.
+p455
+aa(lp456
+VHere are the results of what I just showed you.
+p457
+aVThis is the subjective height \u2014
+p458
+aVthe height you saw of these guys at various points.
+p459
+aVAnd I want you to see that two things are true.
+p460
+aVOne, the farther away they are, the smaller they look;
+p461
+aVand two, the fireman is always bigger than the fiddler.
+p462
+aVBut watch what happens when we make some of them disappear. Right.
+p463
+aVAt a very close distance, the fiddler looks taller than the fireman,
+p464
+aVbut at a far distance
+p465
+aVtheir normal, their true, relations are preserved.
+p466
+aVAs Plato said, what space is to size, time is to value.
+p467
+aVThese are the results of the hard problem I gave you:
+p468
+aV60 now or 50 in a month?
+p469
+aVAnd these are subjective values,
+p470
+aVand what you can see is, our two rules are preserved.
+p471
+aa(lp472
+VPeople always think more is better than less:
+p473
+aV60 is always better than 50,
+p474
+aVand they always think now is better than later:
+p475
+aVthe bars on this side are higher than the bars on this side.
+p476
+aVWatch what happens when we drop some out.
+p477
+aVSuddenly we have the dynamic inconsistency that puzzled us.
+p478
+aVWe have the tendency for people to go for 50 dollars now
+p479
+aVover waiting a month, but not if that decision is far in the future.
+p480
+aVNotice something interesting that this implies \u2014 namely, that
+p481
+aVwhen people get to the future, they will change their minds.
+p482
+aVThat is, as that month 12 approaches, you will say,
+p483
+aVwhat was I thinking, waiting an extra month for 60 dollars?
+p484
+aVI'll take the 50 dollars now.
+p485
+aa(lp486
+VWell, the question with which I'd like to end is this:
+p487
+aVIf we're so damn stupid, how did we get to the moon?
+p488
+aVBecause I could go on for about two hours with evidence
+p489
+aVof people's inability to estimate odds and inability to estimate value.
+p490
+aa(lp491
+VThe answer to this question, I think, is an answer you've already heard
+p492
+aVin some of the talks, and I dare say you will hear again:
+p493
+aVnamely, that our brains were evolved for a very different world
+p494
+aVthan the one in which we are living.
+p495
+aVThey were evolved for a world
+p496
+aVin which people lived in very small groups,
+p497
+aVrarely met anybody who was terribly different from themselves,
+p498
+aVhad rather short lives in which there were few choices
+p499
+aVand the highest priority was to eat and mate today.
+p500
+aa(lp501
+VBernoulli's gift, Bernoulli's little formula, allows us, it tells us
+p502
+aVhow we should think in a world for which nature never designed us.
+p503
+aVThat explains why we are so bad at using it, but it also explains
+p504
+aVwhy it is so terribly important that we become good, fast.
+p505
+aVWe are the only species on this planet
+p506
+aVthat has ever held its own fate in its hands.
+p507
+aVWe have no significant predators,
+p508
+aVwe're the masters of our physical environment;
+p509
+aVthe things that normally cause species to become extinct
+p510
+aVare no longer any threat to us.
+p511
+aVThe only thing \u2014 the only thing \u2014 that can destroy us and doom us
+p512
+aVare our own decisions.
+p513
+aVIf we're not here in 10,000 years, it's going to be because
+p514
+aVwe could not take advantage of the gift given to us
+p515
+aVby a young Dutch fellow in 1738,
+p516
+aVbecause we underestimated the odds of our future pains
+p517
+aVand overestimated the value of our present pleasures.
+p518
+aa(lp519
+VThank you.
+p520
+aV(Applause)
+p521
+aa(lp522
+VChris Anderson: That was remarkable.
+p523
+aVWe have time for some questions for Dan Gilbert. One and two.
+p524
+aa(lp525
+VBill Lyell: Would you say that this mechanism
+p526
+aVis in part how terrorism actually works to frighten us,
+p527
+aVand is there some way that we could counteract that?
+p528
+aa(lp529
+VDan Gilbert: I actually was consulting recently
+p530
+aVwith the Department of Homeland Security, which generally believes
+p531
+aVthat American security dollars should go to making borders safer.
+p532
+aVI tried to point out to them that terrorism was a name
+p533
+aVbased on people's psychological reaction to a set of events,
+p534
+aVand that if they were concerned about terrorism they might ask
+p535
+aVwhat causes terror and how can we stop people from being terrified,
+p536
+aVrather than \u2014 not rather than, but in addition to
+p537
+aVstopping the atrocities that we're all concerned about.
+p538
+aVSurely the kinds of play that at least American media give to \u2014
+p539
+aVand forgive me, but in raw numbers these are very tiny accidents.
+p540
+aVWe already know, for example, in the United States,
+p541
+aVmore people have died as a result of not taking airplanes \u2014
+p542
+aVbecause they were scared \u2014 and driving on highways,
+p543
+aVthan were killed in 9/11. OK?
+p544
+aVIf I told you that there was a plague
+p545
+aVthat was going to kill 15,000 Americans next year,
+p546
+aVyou might be alarmed if you didn't find out it was the flu.
+p547
+aVThese are small-scale accidents, and we should be wondering
+p548
+aVwhether they should get the kind of play,
+p549
+aVthe kind of coverage, that they do.
+p550
+aVSurely that causes people to overestimate the likelihood
+p551
+aVthat they'll be hurt in these various ways,
+p552
+aVand gives power to the very people who want to frighten us.
+p553
+aa(lp554
+VCA: Dan, I'd like to hear more on this. So, you're saying
+p555
+aVthat our response to terror is, I mean, it's a form of mental bug?
+p556
+aVTalk more about it.
+p557
+aa(lp558
+VDG: It's out-sized. I mean, look.
+p559
+aVIf Australia disappears tomorrow,
+p560
+aVterror is probably the right response.
+p561
+aVThat's an awful large lot of very nice people. On the other hand,
+p562
+aVwhen a bus blows up and 30 people are killed,
+p563
+aVmore people than that were killed
+p564
+aVby not using their seatbelts in the same country.
+p565
+aVIs terror the right response?
+p566
+aa(lp567
+VCA: What causes the bug? Is it the drama of the event \u2014
+p568
+aVthat it's so spectacular?
+p569
+aVIs it the fact that it's an intentional attack by, quote, outsiders?
+p570
+aVWhat is it?
+p571
+aa(lp572
+VDG: Yes. It's a number of things, and you hit on several of them.
+p573
+aVFirst, it's a human agent trying to kill us \u2014
+p574
+aVit's not a tree falling on us by accident.
+p575
+aVSecond, these are enemies who may want to strike and hurt us again.
+p576
+aVPeople are being killed for no reason instead of good reason \u2014
+p577
+aVas if there's good reason, but sometimes people think there are.
+p578
+aVSo there are a number of things that together
+p579
+aVmake this seem like a fantastic event, but let's not play down
+p580
+aVthe fact that newspapers sell when people see something in it
+p581
+aVthey want to read. So there's a large role here played by the media,
+p582
+aVwho want these things to be
+p583
+aVas spectacular as they possibly can.
+p584
+aa(lp585
+VCA: I mean, what would it take to persuade our culture to downplay it?
+p586
+aa(lp587
+VDG: Well, go to Israel. You know,
+p588
+aVgo to Israel. And a mall blows up,
+p589
+aVand then everybody's unhappy about it, and an hour-and-a-half later \u2014
+p590
+aVat least when I was there, and I was 150 feet from the mall
+p591
+aVwhen it blew up \u2014 I went back to my hotel
+p592
+aVand the wedding that was planned was still going on.
+p593
+aVAnd as the Israeli mother said,
+p594
+aVshe said, "We never let them win by stopping weddings."
+p595
+aVI mean, this is a society that has learned \u2014
+p596
+aVand there are others too \u2014 that has learned to live
+p597
+aVwith a certain amount of terrorism and not be quite as upset by it,
+p598
+aVshall I say, as those of us who have not had many terror attacks.
+p599
+aa(lp600
+VCA: But is there a rational fear that actually,
+p601
+aVthe reason we're frightened about this is because we think that
+p602
+aVthe Big One is to come?
+p603
+aa(lp604
+VDG: Yes, of course. So, if we knew that this was the worst attack
+p605
+aVthere would ever be, there might be more and more buses of 30 people \u2014
+p606
+aVwe would probably not be nearly so frightened.
+p607
+aVI don't want to say \u2014 please, I'm going to get quoted somewhere
+p608
+aVas saying, "Terrorism is fine and we shouldn't be so distressed."
+p609
+aVThat's not my point at all.
+p610
+aVWhat I'm saying is that, surely, rationally,
+p611
+aVour distress about things that happen, about threats,
+p612
+aVshould be roughly proportional to the size of those threats
+p613
+aVand threats to come.
+p614
+aVI think in the case of terrorism, it isn't.
+p615
+aVAnd many of the things we've heard about from our speakers today \u2014
+p616
+aVhow many people do you know got up and said,
+p617
+aVPoverty! I can't believe what poverty is doing to us.
+p618
+aVPeople get up in the morning; they don't care about poverty.
+p619
+aVIt's not making headlines, it's not making news, it's not flashy.
+p620
+aVThere are no guns going off.
+p621
+aVI mean, if you had to solve one of these problems, Chris,
+p622
+aVwhich would you solve? Terrorism or poverty?
+p623
+aV(Laughter)
+p624
+aV(Applause)
+p625
+aVThat's a tough one.
+p626
+aa(lp627
+VCA: There's no question.
+p628
+aVPoverty, by an order of magnitude, a huge order of magnitude,
+p629
+aVunless someone can show that there's, you know,
+p630
+aVterrorists with a nuke are really likely to come.
+p631
+aVThe latest I've read, seen, thought
+p632
+aVis that it's incredibly hard for them to do that.
+p633
+aVIf that turns out to be wrong, we all look silly,
+p634
+aVbut with poverty it's a bit \u2014
+p635
+aa(lp636
+VDG: Even if that were true, still more people die from poverty.
+p637
+aa(lp638
+VCA: We've evolved to get all excited
+p639
+aVabout these dramatic attacks. Is that because in the past,
+p640
+aVin the ancient past, we just didn't understand things like disease
+p641
+aVand systems that cause poverty and so forth,
+p642
+aVand so it made no sense for us as a species to put any energy
+p643
+aVinto worrying about those things?
+p644
+aVPeople died; so be it.
+p645
+aVBut if you got attacked, that was something you could do something about.
+p646
+aVAnd so we evolved these responses.
+p647
+aVIs that what happened?
+p648
+aa(lp649
+VDG: Well, you know, the people who are most skeptical
+p650
+aVabout leaping to evolutionary explanations for everything
+p651
+aVare the evolutionary psychologists themselves.
+p652
+aVMy guess is that there's nothing quite that specific
+p653
+aVin our evolutionary past. But rather, if you're looking for
+p654
+aVan evolutionary explanation, you might say
+p655
+aVthat most organisms are neo-phobic \u2014 that is, they're a little scared
+p656
+aVof stuff that's new and different.
+p657
+aVAnd there's a good reason to be,
+p658
+aVbecause old stuff didn't eat you. Right?
+p659
+aVAny animal you see that you've seen before is less likely
+p660
+aVto be a predator than one that you've never seen before.
+p661
+aVSo, you know, when a school bus is blown up and we've never seen this before,
+p662
+aVour general tendency is to orient towards
+p663
+aVthat which is new and novel is activated.
+p664
+aVI don't think it's quite as specific a mechanism
+p665
+aVas the one you alluded to, but maybe a more fundamental one underlying it.
+p666
+aa(lp667
+VJay Walker: You know, economists love to talk about
+p668
+aVthe stupidity of people who buy lottery tickets. But I suspect
+p669
+aVyou're making the exact same error you're accusing those people of,
+p670
+aVwhich is the error of value.
+p671
+aVI know, because I've interviewed
+p672
+aVabout 1,000 lottery buyers over the years.
+p673
+aVIt turns out that the value of buying a lottery ticket is not winning.
+p674
+aVThat's what you think it is. All right?
+p675
+aVThe average lottery buyer buys about 150 tickets a year,
+p676
+aVso the buyer knows full well that he or she is going to lose,
+p677
+aVand yet she buys 150 tickets a year. Why is that?
+p678
+aVIt's not because she is stupid or he is stupid.
+p679
+aVIt's because the anticipation of possibly winning
+p680
+aVreleases serotonin in the brain, and actually provides a good feeling
+p681
+aVuntil the drawing indicates you've lost.
+p682
+aVOr, to put it another way, for the dollar investment,
+p683
+aVyou can have a much better feeling than flushing the money
+p684
+aVdown the toilet, which you cannot have a good feeling from.
+p685
+aVNow, economists tend to \u2014
+p686
+aV(Applause)
+p687
+aV\u2014 economists tend to view the world
+p688
+aVthrough their own lenses, which is:
+p689
+aVthis is just a bunch of stupid people.
+p690
+aVAnd as a result, many people look at economists as stupid people.
+p691
+aVAnd so fundamentally, the reason we got to the moon is,
+p692
+aVwe didn't listen to the economists. Thank you very much.
+p693
+aV(Applause)
+p694
+aa(lp695
+VDG: Well, no, it's a great point. It remains to be seen
+p696
+aVwhether the joy of anticipation is exactly equaled
+p697
+aVby the amount of disappointment after the lottery. Because remember,
+p698
+aVpeople who didn't buy tickets don't feel awful the next day either,
+p699
+aVeven though they don't feel great during the drawing.
+p700
+aVI would disagree that people know they're not going to win.
+p701
+aVI think they think it's unlikely, but it could happen,
+p702
+aVwhich is why they prefer that to the flushing.
+p703
+aVBut certainly I see your point: that there can be
+p704
+aVsome utility to buying a lottery ticket other than winning.
+p705
+aVNow, I think there's many good reasons not to listen to economists.
+p706
+aVThat isn't one of them, for me, but there's many others.
+p707
+aa(lp708
+VCA: Last question.
+p709
+aa(lp710
+VAubrey de Grey: My name's Aubrey de Grey, from Cambridge.
+p711
+aVI work on the thing that kills more people than anything else kills \u2014
+p712
+aVI work on aging \u2014 and I'm interested in doing something about it,
+p713
+aVas we'll all hear tomorrow.
+p714
+aVI very much resonate with what you're saying,
+p715
+aVbecause it seems to me that the problem
+p716
+aVwith getting people interested in doing anything about aging
+p717
+aVis that by the time aging is about to kill you it looks like cancer
+p718
+aVor heart disease or whatever. Do you have any advice?
+p719
+aV(Laughter)
+p720
+aa(lp721
+VDG: For you or for them?
+p722
+aa(lp723
+VAdG: In persuading them.
+p724
+aa(lp725
+VDG: Ah, for you in persuading them.
+p726
+aVWell, it's notoriously difficult to get people to be farsighted.
+p727
+aVBut one thing that psychologists have tried that seems to work
+p728
+aVis to get people to imagine the future more vividly.
+p729
+aVOne of the problems with making decisions about the far future
+p730
+aVand the near future is that we imagine the near future
+p731
+aVmuch more vividly than the far future.
+p732
+aVTo the extent that you can equalize the amount of detail
+p733
+aVthat people put into the mental representations
+p734
+aVof near and far future, people begin to make decisions
+p735
+aVabout the two in the same way.
+p736
+aVSo, would you like to have an extra 100,000 dollars when you're 65
+p737
+aVis a question that's very different than,
+p738
+aVimagine who you'll be when you're 65: will you be living,
+p739
+aVwhat will you look like, how much hair will you have,
+p740
+aVwho will you be living with.
+p741
+aVOnce we have all the details of that imaginary scenario,
+p742
+aVsuddenly we feel like it might be important to save
+p743
+aVso that that guy has a little retirement money.
+p744
+aVBut these are tricks around the margins.
+p745
+aVI think in general you're battling a very fundamental human tendency,
+p746
+aVwhich is to say, "I'm here today,
+p747
+aVand so now is more important than later."
+p748
+aa(lp749
+VCA: Dan, thank you. Members of the audience,
+p750
+aVthat was a fantastic session. Thank you.
+p751
+aV(Applause)
+p752
+aasS'transcript_micsec'
+p753
+(lp754
+I11000
+aI29000
+aI46000
+aI78000
+aI86000
+aI123000
+aI136000
+aI182000
+aI220000
+aI270000
+aI294000
+aI336000
+aI355000
+aI383000
+aI437000
+aI459000
+aI493000
+aI517000
+aI550000
+aI583000
+aI626000
+aI658000
+aI671000
+aI711000
+aI758000
+aI783000
+aI816000
+aI851000
+aI913000
+aI939000
+aI959000
+aI996000
+aI1010000
+aI1047000
+aI1079000
+aI1101000
+aI1116000
+aI1181000
+aI1188000
+aI1213000
+aI1241000
+aI1285000
+aI1324000
+aI1339000
+aI1364000
+aI1425000
+aI1436000
+aI1444000
+aI1455000
+aI1524000
+aI1531000
+aI1552000
+aI1561000
+aI1596000
+aI1602000
+aI1632000
+aI1639000
+aI1697000
+aI1719000
+aI1726000
+aI1748000
+aI1794000
+aI1873000
+aI1909000
+aI1911000
+aI1938000
+aI1939000
+aI1940000
+aI2001000
+asS'talk_meta'
+p755
+(dp756
+S'ratings'
+p757
+(dp758
+S'ingenious'
+p759
+I339
+sS'funny'
+p760
+I442
+sS'inspiring'
+p761
+I545
+sS'ok'
+p762
+I135
+sS'fascinating'
+p763
+I1402
+sS'total_count'
+p764
+I5701
+sS'persuasive'
+p765
+I888
+sS'longwinded'
+p766
+I86
+sS'unconvincing'
+p767
+I53
+sS'informative'
+p768
+I1408
+sS'beautiful'
+p769
+I61
+sS'jaw-dropping'
+p770
+I216
+sS'obnoxious'
+p771
+I29
+sS'courageous'
+p772
+I53
+sS'confusing'
+p773
+I44
+ssS'author'
+p774
+VDan_Gilbert;
+p775
+sS'url'
+p776
+S'https://www.ted.com/talks/dan_gilbert_researches_happiness'
+p777
+sS'vidlen'
+p778
+I2018
+sS'totalviews'
+p779
+I3744864
+sS'title'
+p780
+VWhy we make bad decisions
+p781
+sS'downloadlink'
+p782
+Vhttps://download.ted.com/talks/DanGilbert_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p783
+sS'datepublished'
+p784
+cdatetime
+datetime
+p785
+(S'\x07\xd8\x0c\x10\x02 \x00\x00\x00\x00'
+tRp786
+sS'datefilmed'
+p787
+g785
+(S'\x07\xd8\x0c\x10\x02 \x00\x00\x00\x00'
+tRp788
+sS'alldata_JSON'
+p789
+S'{"viewed_count": 3744864, "speakers": [{"description": "Psychologist; happiness expert", "firstname": "Dan", "title": "", "lastname": "Gilbert", "middleinitial": "", "whylisten": "<p>Dan Gilbert believes that, in our ardent, lifelong pursuit of happiness, most of us have the wrong map. In the same way that optical illusions fool our eyes -- and fool everyone&#39;s eyes in the same way -- Gilbert argues that <strong>our brains systematically misjudge what will make us happy</strong>. And these quirks in our cognition make humans very poor predictors of our own bliss.<br /><br />The premise of his current research -- that our assumptions about what will make us happy are often wrong -- is supported with clinical research drawn from psychology and neuroscience. But his delivery is what sets him apart. His engaging -- and often hilarious -- style pokes fun at typical human behavior and invokes pop-culture references everyone can relate to. This winning style translates also to Gilbert&#39;s writing, which is <strong>lucid, approachable and laugh-out-loud funny</strong>. The immensely readable <em><a href=\\"http://www.randomhouse.com/kvpa/gilbert/\\" target=\\"_blank\\">Stumbling on Happiness</a>,</em> published in 2006, became a <em>New York Times</em> bestseller and has been translated into 20 languages.<br /><br />In fact, the title of his book could be drawn from his own life. At 19, he was a high school dropout with dreams of writing science fiction. When a creative writing class at his community college was full, he enrolled in the only available course: psychology. He found his passion there, earned a doctorate in social psychology in 1985 at Princeton, and has since won a Guggenheim Fellowship and the Phi Beta Kappa teaching prize for his work at Harvard. He has written essays and articles for <em>The New York Times, Time</em> and even <a href=\\"http://wjh-www.harvard.edu/~dtg/STARBUCKS%20CUP.pdf\\" target=\\"_blank\\">Starbucks</a>, while <strong>continuing his research into happiness at his <a href=\\"http://wjh-www.harvard.edu/~dtg/gilbert.htm\\" target=\\"_blank\\">Hedonic Psychology Laboratory</a>.</strong></p>", "slug": "dan_gilbert", "whotheyare": "Harvard psychologist Dan Gilbert says our beliefs about what will make us happy are often wrong -- a premise he supports with intriguing research, and explains in his accessible and unexpectedly funny book, <em>Stumbling on Happiness.</em>", "whatotherssay": "Gilbert\'s elbow-in-the-ribs social-science humor is actually funny. ... But underneath the goofball brilliance, [he] has a serious argument to make about why human beings are forever wrongly predicting what will make them happy.", "id": 94, "photo_url": "https://pe.tedcdn.com/images/ted/1990_254x191.jpg"}], "current_talk": 420, "description": "Dan Gilbert presents research and data from his exploration of happiness -- sharing some surprising tests and experiments that you can also try on yourself. Watch through to the end for a sparkling Q&A with some familiar TED faces.", "language": "en", "url": "https://www.ted.com/talks/dan_gilbert_researches_happiness", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 234243177}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46101256}, "podcast-high": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 234270970}, "180k": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46031642}, "64k": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16513698}, "1500k": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 366558156}, "450k": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114123330}, "podcast-regular": {"uri": "https://download.ted.com/talks/DanGilbert_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114180687}, "950k": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 234164281}, "audio-podcast": {"uri": "https://download.ted.com/talks/DanGilbert_2005G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5047897}, "podcast-light": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16610195}, "320k": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 81357443}, "600k": {"uri": "https://download.ted.com/talks/DanGilbert_2005G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 151798793}}}, "comments": {"count": 230, "id": 357, "talk_id": 420}, "slug": "dan_gilbert_researches_happiness", "threadId": 357, "talks": [{"event": "TEDGlobal 2005", "player_talks": [{"event": "TEDGlobal 2005", "slug": "dan_gilbert_researches_happiness", "filmed": 1120694400, "targeting": {"event": "TEDGlobal 2005", "tag": "TED Brain Trust,brain,choice,culture,entertainment,goal-setting,happiness,psychology,self,society", "id": 420, "talk": "dan_gilbert_researches_happiness", "year": "2005"}, "adDuration": "3.33", "external": null, "title": "Why we make bad decisions", "postAdDuration": "0.83", "published": 1229412720, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/62760_800x600.jpg?quality=89&w=600", "name": "Dan Gilbert: Why we make bad decisions", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TED Brain Trust", "brain", "choice", "culture", "entertainment", "goal-setting", "happiness", "psychology", "self", "society"], "speaker": "Dan Gilbert", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 2018, "id": 420, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DanGilbert_2005G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2005", "tag": "TED Brain Trust,brain,choice,culture,entertainment,goal-setting,happiness,psychology,self,society", "id": 420, "talk": "dan_gilbert_researches_happiness", "year": "2005"}, "metadata": "https://hls.ted.com/talks/420.json", "stream": "https://hls.ted.com/talks/420.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2005%26id%3D420%26tag%3DTED%2BBrain%2BTrust%2Cbrain%2Cchoice%2Cculture%2Centertainment%2Cgoal-setting%2Chappiness%2Cpsychology%2Cself%2Csociety%26talk%3Ddan_gilbert_researches_happiness%26year%3D2005&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/dan_gilbert_researches_happiness"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/62760_800x600.jpg?q=50&w=15", "duration": 2018, "id": 420, "ratings": [{"count": 1402, "id": 22, "name": "Fascinating"}, {"count": 888, "id": 24, "name": "Persuasive"}, {"count": 442, "id": 7, "name": "Funny"}, {"count": 1408, "id": 8, "name": "Informative"}, {"count": 216, "id": 23, "name": "Jaw-dropping"}, {"count": 545, "id": 10, "name": "Inspiring"}, {"count": 44, "id": 2, "name": "Confusing"}, {"count": 339, "id": 9, "name": "Ingenious"}, {"count": 86, "id": 11, "name": "Longwinded"}, {"count": 53, "id": 21, "name": "Unconvincing"}, {"count": 29, "id": 26, "name": "Obnoxious"}, {"count": 61, "id": 1, "name": "Beautiful"}, {"count": 53, "id": 3, "name": "Courageous"}, {"count": 135, "id": 25, "name": "OK"}], "speakers": [{"description": "Psychologist; happiness expert", "firstname": "Dan", "title": "", "lastname": "Gilbert", "middleinitial": "", "whylisten": "<p>Dan Gilbert believes that, in our ardent, lifelong pursuit of happiness, most of us have the wrong map. In the same way that optical illusions fool our eyes -- and fool everyone&#39;s eyes in the same way -- Gilbert argues that <strong>our brains systematically misjudge what will make us happy</strong>. And these quirks in our cognition make humans very poor predictors of our own bliss.<br /><br />The premise of his current research -- that our assumptions about what will make us happy are often wrong -- is supported with clinical research drawn from psychology and neuroscience. But his delivery is what sets him apart. His engaging -- and often hilarious -- style pokes fun at typical human behavior and invokes pop-culture references everyone can relate to. This winning style translates also to Gilbert&#39;s writing, which is <strong>lucid, approachable and laugh-out-loud funny</strong>. The immensely readable <em><a href=\\"http://www.randomhouse.com/kvpa/gilbert/\\" target=\\"_blank\\">Stumbling on Happiness</a>,</em> published in 2006, became a <em>New York Times</em> bestseller and has been translated into 20 languages.<br /><br />In fact, the title of his book could be drawn from his own life. At 19, he was a high school dropout with dreams of writing science fiction. When a creative writing class at his community college was full, he enrolled in the only available course: psychology. He found his passion there, earned a doctorate in social psychology in 1985 at Princeton, and has since won a Guggenheim Fellowship and the Phi Beta Kappa teaching prize for his work at Harvard. He has written essays and articles for <em>The New York Times, Time</em> and even <a href=\\"http://wjh-www.harvard.edu/~dtg/STARBUCKS%20CUP.pdf\\" target=\\"_blank\\">Starbucks</a>, while <strong>continuing his research into happiness at his <a href=\\"http://wjh-www.harvard.edu/~dtg/gilbert.htm\\" target=\\"_blank\\">Hedonic Psychology Laboratory</a>.</strong></p>", "slug": "dan_gilbert", "whotheyare": "Harvard psychologist Dan Gilbert says our beliefs about what will make us happy are often wrong -- a premise he supports with intriguing research, and explains in his accessible and unexpectedly funny book, <em>Stumbling on Happiness.</em>", "whatotherssay": "Gilbert\'s elbow-in-the-ribs social-science humor is actually funny. ... But underneath the goofball brilliance, [he] has a serious argument to make about why human beings are forever wrongly predicting what will make them happy.", "id": 94, "photo_url": "https://pe.tedcdn.com/images/ted/1990_254x191.jpg"}], "title": "Why we make bad decisions", "take_action": null, "comments": 357, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/62760_800x600.jpg", "description": "Dan Gilbert presents research and data from his exploration of happiness -- sharing some surprising tests and experiments that you can also try on yourself. Watch through to the end for a sparkling Q&A with some familiar TED faces.", "tags": ["TED Brain Trust", "brain", "choice", "culture", "entertainment", "goal-setting", "happiness", "psychology", "self", "society"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/DanGilbert_2005G-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DanGilbert_2005G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DanGilbert_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DanGilbert_2005G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 420, "audioDownload": "https://download.ted.com/talks/DanGilbert_2005G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 7341584, "hero": "https://pe.tedcdn.com/images/ted/71aec3246b3aebe6d284668935080bda4fa8b41a_1600x1200.jpg", "title": "The habits of happiness", "id": 191, "speaker": "Matthieu Ricard", "duration": 1254, "slug": "matthieu_ricard_on_the_habits_of_happiness"}, {"viewed_count": 14824698, "hero": "https://pe.tedcdn.com/images/ted/016a827cc0757092a0439ab2a63feca8655b6c29_1600x1200.jpg", "title": "The surprising science of happiness", "id": 97, "speaker": "Dan Gilbert", "duration": 1276, "slug": "dan_gilbert_asks_why_are_we_happy"}, {"viewed_count": 4944924, "hero": "https://pe.tedcdn.com/images/ted/dfda28474d713d1de50dd1cc5f67c299c8b6eb80_2880x1620.jpg", "title": "The brain in love", "id": 307, "speaker": "Helen Fisher", "duration": 956, "slug": "helen_fisher_studies_the_brain_in_love"}, {"viewed_count": 1349195, "hero": "https://pe.tedcdn.com/images/ted/da4cf2be5d40c0b74bdfd51882d6ba3c52571e22_800x600.jpg", "title": "Saving for tomorrow, tomorrow", "id": 1367, "speaker": "Shlomo Benartzi", "duration": 1065, "slug": "shlomo_benartzi_saving_more_tomorrow"}, {"viewed_count": 2383072, "hero": "https://pe.tedcdn.com/images/ted/91479a48d6bd17eaf27c642b3a9085a22a74351a_800x600.jpg", "title": "Perspective is everything", "id": 1437, "speaker": "Rory Sutherland", "duration": 1104, "slug": "rory_sutherland_perspective_is_everything"}, {"viewed_count": 940450, "hero": "https://pe.tedcdn.com/images/ted/9bc640b20279407210057ac27fcdb7c5164151df_2880x1620.jpg", "title": "What really motivates people to be honest in business", "id": 2835, "speaker": "Alexander Wagner", "duration": 808, "slug": "alexander_wagner_what_really_motivates_people_to_be_honest_in_business"}], "recorded_at": "2005-07-07T00:00:00.000+00:00", "slug": "dan_gilbert_researches_happiness", "speaker_name": "Dan Gilbert", "viewed_count": 3744864, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal 2005", "name": "Dan Gilbert: Why we make bad decisions"}'
+p790
+sS'keywords'
+p791
+(lp792
+VTED Brain Trust
+p793
+aVbrain
+p794
+aVchoice
+p795
+aVculture
+p796
+aVentertainment
+p797
+aVgoal-setting
+p798
+aVhappiness
+p799
+aVpsychology
+p800
+aVself
+p801
+aVsociety
+p802
+asS'datecrawled'
+p803
+g785
+(S'\x07\xe1\n\x17\x01\x05\x15\x08\xee\xf3'
+tRp804
+sS'id'
+p805
+I420
+ss.

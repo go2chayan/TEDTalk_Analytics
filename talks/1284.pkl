@@ -1,0 +1,462 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI, like many of you,
+p5
+aVam one of the two billion people on Earth who live in cities.
+p6
+aVAnd there are days \u2014 I don't know about the rest of you \u2014
+p7
+aVbut there are days when I palpably feel
+p8
+aVhow much I rely on other people
+p9
+aVfor pretty much everything in my life.
+p10
+aVAnd some days, that can even be a little scary.
+p11
+aVBut what I'm here to talk to you about today
+p12
+aVis how that same interdependence
+p13
+aVis actually an extremely powerful social infrastructure
+p14
+aVthat we can actually harness
+p15
+aVto help heal some of our deepest civic issues,
+p16
+aVif we apply open-source collaboration.
+p17
+aa(lp18
+VA couple of years ago,
+p19
+aVI read an article by New York Times writer Michael Pollan,
+p20
+aVin which he argued that growing even some of our own food
+p21
+aVis one of the best things that we can do for the environment.
+p22
+aVNow at the time that I was reading this,
+p23
+aVit was the middle of the winter
+p24
+aVand I definitely did not have room for a lot of dirt
+p25
+aVin my New York City apartment.
+p26
+aVSo I was basically just willing to settle
+p27
+aVfor just reading the next Wired magazine
+p28
+aVand finding out how the experts were going to figure out
+p29
+aVhow to solve all these problems for us in the future.
+p30
+aVBut that was actually exactly the point
+p31
+aVthat Michael Pollan was making in this article \u2014
+p32
+aVit's precisely when we hand over
+p33
+aVthe responsibility for all these things to specialists
+p34
+aVthat we cause the kind of messes that we see with the food system.
+p35
+aa(lp36
+VSo, I happen to know a little bit from my own work
+p37
+aVabout how NASA has been using hydroponics
+p38
+aVto explore growing food in space.
+p39
+aVAnd that you can actually get optimal nutritional yield
+p40
+aVby running a kind of high-quality liquid soil over plants' root systems.
+p41
+aVNow to a vegetable plant,
+p42
+aVmy apartment has got to be about as foreign as outer space.
+p43
+aVBut I can offer some natural light
+p44
+aVand year-round climate control.
+p45
+aa(lp46
+VFast-forward two years later:
+p47
+aVwe now have window farms,
+p48
+aVwhich are vertical, hydroponic platforms
+p49
+aVfor food-growing indoors.
+p50
+aVAnd the way it works is that there's a pump at the bottom,
+p51
+aVwhich periodically sends this liquid nutrient solution up to the top,
+p52
+aVwhich then trickles down through plants' root systems
+p53
+aVthat are suspended in clay pellets \u2014
+p54
+aVso there's no dirt involved.
+p55
+aVNow light and temperature vary with each window's microclimate,
+p56
+aVso a window farm requires a farmer,
+p57
+aVand she must decide
+p58
+aVwhat kind of crops she is going to put in her window farm,
+p59
+aVand whether she is going to feed her food organically.
+p60
+aa(lp61
+VBack at the time,
+p62
+aVa window farm was no more than a technically complex idea
+p63
+aVthat was going to require a lot of testing.
+p64
+aVAnd I really wanted it to be an open project,
+p65
+aVbecause hydroponics
+p66
+aVis one of the fastest growing areas of patenting
+p67
+aVin the United States right now,
+p68
+aVand could possibly become another area like Monsanto,
+p69
+aVwhere we have a lot of corporate intellectual property
+p70
+aVin the way of people's food.
+p71
+aVSo I decided that, instead of creating a product,
+p72
+aVwhat I was going to do
+p73
+aVwas open this up to a whole bunch of codevelopers.
+p74
+aa(lp75
+VThe first few systems that we created, they kind of worked.
+p76
+aVWe were actually able to grow about a salad a week
+p77
+aVin a typical New York City apartment window.
+p78
+aVAnd we were able to grow cherry tomatoes
+p79
+aVand cucumbers, all kinds of stuff.
+p80
+aVBut the first few systems
+p81
+aVwere these leaky, loud power-guzzlers
+p82
+aVthat Martha Stewart would definitely never have approved.
+p83
+aa(lp84
+V(Laughter)
+p85
+aa(lp86
+VSo to bring on more codevelopers,
+p87
+aVwhat we did was we created a social media site
+p88
+aVon which we published the designs,
+p89
+aVwe explained how they worked,
+p90
+aVand we even went so far
+p91
+aVas to point out everything that was wrong with these systems.
+p92
+aVAnd then we invited people all over the world
+p93
+aVto build them and experiment with us.
+p94
+aVSo actually now on this website,
+p95
+aVwe have 18,000 people.
+p96
+aVAnd we have window farms all over the world.
+p97
+aa(lp98
+VWhat we're doing is what NASA or a large corporation
+p99
+aVwould call R&D, or research and development.
+p100
+aVBut what we call it is R&D-I-Y,
+p101
+aVor "research and develop it yourself."
+p102
+aa(lp103
+V(Laughter)
+p104
+aa(lp105
+VSo, for example, Jackson came along
+p106
+aVand suggested that we use air pumps instead of water pumps.
+p107
+aVIt took building a whole bunch of systems to get it right,
+p108
+aVbut once we did, we were able to cut our carbon footprint nearly in half.
+p109
+aVTony in Chicago has been taking on growing experiments,
+p110
+aVlike lots of other window farmers,
+p111
+aVand he's been able to get his strawberries to fruit
+p112
+aVfor nine months of the year in low-light conditions
+p113
+aVby simply changing out the organic nutrients.
+p114
+aVAnd window farmers in Finland have been customizing their window farms
+p115
+aVfor the dark days of the Finnish winters
+p116
+aVby outfitting them with LED grow lights
+p117
+aVthat they're now making open source and part of the project.
+p118
+aa(lp119
+VSo window farms have been evolving
+p120
+aVthrough a rapid versioning process similar to software.
+p121
+aVAnd with every open source project,
+p122
+aVthe real benefit is the interplay
+p123
+aVbetween the specific concerns of people customizing their systems
+p124
+aVfor their own particular concerns,
+p125
+aVand the universal concerns.
+p126
+aVSo my core team and I
+p127
+aVare able to concentrate on the improvements
+p128
+aVthat really benefit everyone.
+p129
+aVAnd we're able to look out for the needs of newcomers.
+p130
+aa(lp131
+VSo for do-it-yourselfers,
+p132
+aVwe provide free, very well-tested instructions
+p133
+aVso that anyone, anywhere around the world,
+p134
+aVcan build one of these systems for free.
+p135
+aVAnd there's a patent pending on these systems as well
+p136
+aVthat's held by the community.
+p137
+aVAnd to fund the project,
+p138
+aVwe partner to create products
+p139
+aVthat we then sell to schools and to individuals
+p140
+aVwho don't have time to build their own systems.
+p141
+aa(lp142
+VNow within our community, a certain culture has appeared.
+p143
+aVIn our culture, it is better to be a tester
+p144
+aVwho supports someone else's idea
+p145
+aVthan it is to be just the idea guy.
+p146
+aVWhat we get out of this project is support for our own work,
+p147
+aVas well as an experience of actually contributing
+p148
+aVto the environmental movement
+p149
+aVin a way other than just screwing in new light bulbs.
+p150
+aVBut I think that Eleen expresses best
+p151
+aVwhat we really get out of this,
+p152
+aVwhich is the actual joy of collaboration.
+p153
+aVSo she expresses here what it's like
+p154
+aVto see someone halfway across the world
+p155
+aVhaving taken your idea, built upon it
+p156
+aVand then acknowledging you for contributing.
+p157
+aVIf we really want to see the kind of wide consumer behavior change
+p158
+aVthat we're all talking about as environmentalists and food people,
+p159
+aVmaybe we just need to ditch the term "consumer"
+p160
+aVand get behind the people who are doing stuff.
+p161
+aa(lp162
+VOpen source projects tend to have a momentum of their own.
+p163
+aVAnd what we're seeing is that R&D-I-Y
+p164
+aVhas moved beyond just window farms and LEDs
+p165
+aVinto solar panels and aquaponic systems.
+p166
+aVAnd we're building upon innovations of generations who went before us.
+p167
+aVAnd we're looking ahead at generations
+p168
+aVwho really need us to retool our lives now.
+p169
+aVSo we ask that you join us
+p170
+aVin rediscovering the value of citizens united,
+p171
+aVand to declare that we are all still pioneers.
+p172
+aa(lp173
+V(Applause)
+p174
+aasS'transcript_micsec'
+p175
+(lp176
+I11000
+aI55000
+aI103000
+aI136000
+aI176000
+aI210000
+aI229000
+aI231000
+aI261000
+aI274000
+aI275000
+aI315000
+aI344000
+aI369000
+aI426000
+aI460000
+asS'talk_meta'
+p177
+(dp178
+S'ratings'
+p179
+(dp180
+S'ingenious'
+p181
+I541
+sS'beautiful'
+p182
+I92
+sS'inspiring'
+p183
+I888
+sS'ok'
+p184
+I52
+sS'fascinating'
+p185
+I254
+sS'funny'
+p186
+I12
+sS'total_count'
+p187
+I2711
+sS'persuasive'
+p188
+I276
+sS'longwinded'
+p189
+I5
+sS'informative'
+p190
+I408
+sS'jaw-dropping'
+p191
+I53
+sS'obnoxious'
+p192
+I24
+sS'confusing'
+p193
+I4
+sS'courageous'
+p194
+I70
+sS'unconvincing'
+p195
+I32
+ssS'author'
+p196
+VBritta_Riley;
+p197
+sS'url'
+p198
+S'https://www.ted.com/talks/britta_riley_a_garden_in_my_apartment'
+p199
+sS'vidlen'
+p200
+I472
+sS'totalviews'
+p201
+I2008218
+sS'title'
+p202
+VA garden in my apartment
+p203
+sS'downloadlink'
+p204
+Vhttps://download.ted.com/talks/BrittaRiley_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p205
+sS'datepublished'
+p206
+cdatetime
+datetime
+p207
+(S'\x07\xdb\x0b\x19\x0b\x12\x0e\x00\x00\x00'
+tRp208
+sS'datefilmed'
+p209
+g207
+(S'\x07\xdb\x0b\x19\x0b\x12\x0e\x00\x00\x00'
+tRp210
+sS'alldata_JSON'
+p211
+S'{"viewed_count": 2008218, "speakers": [{"description": "Artist, urban farmer", "firstname": "Britta", "title": "", "lastname": "Riley", "middleinitial": "", "whylisten": "<p>Britta Riley is an artist and technologist who makes crowdsourced R&amp;D solutions for environmental issues. Her company, <a href=\\"http://www.windowfarms.org/\\" target=\\"_blank\\">Windowfarms.org</a>  was named one of the top 100 businesses to watch in 2010  by <em>Entrepreneur</em> Magazine. Windowfarms makes vertical hydroponic  platforms for growing food in city windows, designed in conjunction with a <a href=\\"http://our.windowfarms.org/\\" target=\\"_blank\\">online  citizen science web platform</a>  for with over 16,000 community members  worldwide. </p>", "slug": "britta_riley", "whotheyare": "Britta Riley designs and builds urban farms  and other participatory artworks that explore the city.", "whatotherssay": "", "id": 1111, "photo_url": "https://pe.tedcdn.com/images/ted/e2823562b0f61d0b683a5b8ee728a302a0bbeb56_254x191.jpg"}], "current_talk": 1284, "description": "Britta Riley wanted to grow her own food (in her tiny apartment). So she and her friends developed a system for growing plants in discarded plastic bottles -- researching, testing and tweaking the system using social media, trying many variations at once and quickly arriving at the optimal system. Call it distributed DIY. And the results? Delicious.", "language": "en", "url": "https://www.ted.com/talks/britta_riley_a_garden_in_my_apartment", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54879467}, "podcast-low-en": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10821561}, "podcast-high": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54881334}, "180k": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10689096}, "64k": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3882759}, "1500k": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85361364}, "450k": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26665028}, "podcast-regular": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26939635}, "950k": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54628063}, "audio-podcast": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4975070}, "podcast-light": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3982584}, "320k": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19012969}, "600k": {"uri": "https://download.ted.com/talks/BrittaRiley_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35497229}}}, "comments": {"count": 204, "id": 8665, "talk_id": 1284}, "slug": "britta_riley_a_garden_in_my_apartment", "threadId": 8665, "talks": [{"event": "TEDxManhattan", "player_talks": [{"event": "TEDxManhattan", "slug": "britta_riley_a_garden_in_my_apartment", "filmed": 1306108800, "targeting": {"event": "TEDxManhattan", "tag": "TEDx,cities,collaboration,design,food,garden", "id": 1284, "talk": "britta_riley_a_garden_in_my_apartment", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "A garden in my apartment", "postAdDuration": "0.83", "published": 1322237894, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0f37b1d16e2f4cd72f812c6f224e8666c28ebcf8_800x600.jpg?quality=89&w=600", "name": "Britta Riley: A garden in my apartment", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "cities", "collaboration", "design", "food", "garden"], "speaker": "Britta Riley", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 472, "id": 1284, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/BrittaRiley_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxManhattan", "tag": "TEDx,cities,collaboration,design,food,garden", "id": 1284, "talk": "britta_riley_a_garden_in_my_apartment", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1284.json", "stream": "https://hls.ted.com/talks/1284.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxManhattan%26id%3D1284%26tag%3DTEDx%2Ccities%2Ccollaboration%2Cdesign%2Cfood%2Cgarden%26talk%3Dbritta_riley_a_garden_in_my_apartment%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/britta_riley_a_garden_in_my_apartment"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0f37b1d16e2f4cd72f812c6f224e8666c28ebcf8_800x600.jpg?q=50&w=15", "duration": 472, "id": 1284, "ratings": [{"count": 541, "id": 9, "name": "Ingenious"}, {"count": 888, "id": 10, "name": "Inspiring"}, {"count": 276, "id": 24, "name": "Persuasive"}, {"count": 408, "id": 8, "name": "Informative"}, {"count": 53, "id": 23, "name": "Jaw-dropping"}, {"count": 254, "id": 22, "name": "Fascinating"}, {"count": 92, "id": 1, "name": "Beautiful"}, {"count": 70, "id": 3, "name": "Courageous"}, {"count": 52, "id": 25, "name": "OK"}, {"count": 32, "id": 21, "name": "Unconvincing"}, {"count": 4, "id": 2, "name": "Confusing"}, {"count": 24, "id": 26, "name": "Obnoxious"}, {"count": 12, "id": 7, "name": "Funny"}, {"count": 5, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Artist, urban farmer", "firstname": "Britta", "title": "", "lastname": "Riley", "middleinitial": "", "whylisten": "<p>Britta Riley is an artist and technologist who makes crowdsourced R&amp;D solutions for environmental issues. Her company, <a href=\\"http://www.windowfarms.org/\\" target=\\"_blank\\">Windowfarms.org</a>  was named one of the top 100 businesses to watch in 2010  by <em>Entrepreneur</em> Magazine. Windowfarms makes vertical hydroponic  platforms for growing food in city windows, designed in conjunction with a <a href=\\"http://our.windowfarms.org/\\" target=\\"_blank\\">online  citizen science web platform</a>  for with over 16,000 community members  worldwide. </p>", "slug": "britta_riley", "whotheyare": "Britta Riley designs and builds urban farms  and other participatory artworks that explore the city.", "whatotherssay": "", "id": 1111, "photo_url": "https://pe.tedcdn.com/images/ted/e2823562b0f61d0b683a5b8ee728a302a0bbeb56_254x191.jpg"}], "title": "A garden in my apartment", "take_action": [], "comments": 8665, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/0f37b1d16e2f4cd72f812c6f224e8666c28ebcf8_800x600.jpg", "description": "Britta Riley wanted to grow her own food (in her tiny apartment). So she and her friends developed a system for growing plants in discarded plastic bottles -- researching, testing and tweaking the system using social media, trying many variations at once and quickly arriving at the optimal system. Call it distributed DIY. And the results? Delicious.", "tags": ["TEDx", "cities", "collaboration", "design", "food", "garden"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "et", "endonym": "Eesti keel", "isRtl": false, "ianaCode": "et", "languageName": "Estonian"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-cs.mp4"}, "et": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-et.mp4", "name": "Estonian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-et.mp4"}, "gl": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-fr-ca.mp4"}, "th": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-fa.mp4"}, "fi": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-fi.mp4"}, "hu": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-uk.mp4"}, "my": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/BrittaRiley_2011X-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/BrittaRiley_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/BrittaRiley_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/BrittaRiley_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1284, "audioDownload": "https://download.ted.com/talks/BrittaRiley_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 7697724, "hero": "https://pe.tedcdn.com/images/ted/890bd24a65ae0120fb5c80900333df7e8969c310_2880x1620.jpg", "title": "Teach every child about food", "id": 765, "speaker": "Jamie Oliver", "duration": 1313, "slug": "jamie_oliver"}, {"viewed_count": 684781, "hero": "https://pe.tedcdn.com/images/ted/3585c5d68620099c6531151d0f0134eb861655af_2880x1620.jpg", "title": "One seed at a time, protecting the future of food", "id": 622, "speaker": "Cary Fowler", "duration": 1028, "slug": "cary_fowler_one_seed_at_a_time_protecting_the_future_of_food"}, {"viewed_count": 1484717, "hero": "https://pe.tedcdn.com/images/ted/16714a48824ae0531bcbc5c6ed0eac50f2e49942_800x600.jpg", "title": "Open-sourced blueprints for civilization", "id": 1122, "speaker": "Marcin Jakubowski", "duration": 250, "slug": "marcin_jakubowski"}, {"viewed_count": 1597996, "hero": "https://pe.tedcdn.com/images/ted/a4c20ff7962ad2c0f506f1e2884b6c53208020a4_2880x1620.jpg", "title": "This computer will grow your food in the future", "id": 2432, "speaker": "Caleb Harper", "duration": 955, "slug": "caleb_harper_this_computer_will_grow_your_food_in_the_future"}, {"viewed_count": 2161553, "hero": "https://pe.tedcdn.com/images/ted/dfb9ccff176e9b622cba59472e611f0cb5ebbdea_800x600.jpg", "title": "What\'s wrong with our food system", "id": 1016, "speaker": "Birke Baehr", "duration": 314, "slug": "birke_baehr_what_s_wrong_with_our_food_system"}, {"viewed_count": 196744, "hero": "https://pe.tedcdn.com/images/ted/ce482bc47ad27c6eeaaafb4a539f029eee2e8311_800x600.jpg", "title": "My subversive (garden) plot", "id": 1306, "speaker": "Roger Doiron", "duration": 1129, "slug": "roger_doiron_my_subversive_garden_plot"}], "recorded_at": "2011-05-23T00:00:00.000+00:00", "slug": "britta_riley_a_garden_in_my_apartment", "speaker_name": "Britta Riley", "viewed_count": 2008218, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxManhattan, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": []}], "event": "TEDxManhattan", "name": "Britta Riley: A garden in my apartment"}'
+p212
+sS'keywords'
+p213
+(lp214
+VTEDx
+p215
+aVcities
+p216
+aVcollaboration
+p217
+aVdesign
+p218
+aVfood
+p219
+aVgarden
+p220
+asS'datecrawled'
+p221
+g207
+(S'\x07\xe1\n\x17\x04\x0f\x14\n\xde\xaf'
+tRp222
+sS'id'
+p223
+I1284
+ss.

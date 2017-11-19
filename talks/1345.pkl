@@ -1,0 +1,660 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm going to talk to you today
+p5
+aVabout the design of medical technology for low-resource settings.
+p6
+aVI study health systems in these countries.
+p7
+aVAnd one of the major gaps in care,
+p8
+aValmost across the board,
+p9
+aVis access to safe surgery.
+p10
+aVNow one of the major bottlenecks that we've found
+p11
+aVthat's sort of preventing both the access in the first place,
+p12
+aVand the safety of those surgeries that do happen, is anesthesia.
+p13
+aVAnd actually, it's the model that we expect to work
+p14
+aVfor delivering anesthesia in these environments.
+p15
+aa(lp16
+VHere, we have a scene that you would find in any operating room across the US,
+p17
+aVor any other developed country.
+p18
+aVIn the background there
+p19
+aVis a very sophisticated anesthesia machine.
+p20
+aVAnd this machine is able to enable surgery and save lives
+p21
+aVbecause it was designed with this environment in mind.
+p22
+aVIn order to operate, this machine needs a number of things
+p23
+aVthat this hospital has to offer.
+p24
+aVIt needs an extremely well-trained anesthesiologist
+p25
+aVwith years of training with complex machines
+p26
+aVto help her monitor the flows of the gas
+p27
+aVand keep her patients safe and anesthetized
+p28
+aVthroughout the surgery.
+p29
+aVIt's a delicate machine running on computer algorithms,
+p30
+aVand it needs special care, TLC, to keep it up and running,
+p31
+aVand it's going to break pretty easily.
+p32
+aVAnd when it does, it needs a team of biomedical engineers
+p33
+aVwho understand its complexities, can fix it, can source the parts
+p34
+aVand keep it saving lives.
+p35
+aa(lp36
+VIt's a pretty expensive machine.
+p37
+aVIt needs a hospital whose budget can allow it
+p38
+aVto support one machine costing upwards of 50 or $100,000.
+p39
+aVAnd perhaps most obviously,
+p40
+aVbut also most importantly \u2014
+p41
+aVand the path to concepts that we've heard about
+p42
+aVkind of illustrates this \u2014
+p43
+aVit needs infrastructure that can supply an uninterrupted source of electricity,
+p44
+aVof compressed oxygen, and other medical supplies
+p45
+aVthat are so critical to the functioning of this machine.
+p46
+aVIn other words, this machine requires a lot of stuff
+p47
+aVthat this hospital cannot offer.
+p48
+aa(lp49
+VThis is the electrical supply for a hospital in rural Malawi.
+p50
+aVIn this hospital,
+p51
+aVthere is one person qualified to deliver anesthesia,
+p52
+aVand she's qualified
+p53
+aVbecause she has 12, maybe 18 months of training in anesthesia.
+p54
+aVIn the hospital and in the entire region
+p55
+aVthere's not a single biomedical engineer.
+p56
+aVSo when this machine breaks,
+p57
+aVthe machines that they have to work with break,
+p58
+aVthey've got to try and figure it out,
+p59
+aVbut most of the time, that's the end of the road.
+p60
+aVThose machines go the proverbial junkyard.
+p61
+aVAnd the price tag of the machine that I mentioned
+p62
+aVcould represent maybe a quarter or a third
+p63
+aVof the annual operating budget for this hospital.
+p64
+aa(lp65
+VAnd finally, I think you can see that infrastructure is not very strong.
+p66
+aVThis hospital is connected to a very weak power grid,
+p67
+aVone that goes down frequently.
+p68
+aVSo it runs frequently, the entire hospital,
+p69
+aVjust on a generator.
+p70
+aVAnd you can imagine, the generator breaks down
+p71
+aVor runs out of fuel.
+p72
+aVAnd the World Bank sees this
+p73
+aVand estimates that a hospital in this setting in a low-income country
+p74
+aVcan expect up to 18 power outages per month.
+p75
+aVSimilarly, compressed oxygen and other medical supplies
+p76
+aVare really a luxury,
+p77
+aVand can often be out of stock for months or even a year.
+p78
+aa(lp79
+VSo it seems crazy, but the model that we have right now
+p80
+aVis taking those machines that were designed
+p81
+aVfor that first environment that I showed you
+p82
+aVand donating or selling them to hospitals in this environment.
+p83
+aVIt's not just inappropriate,
+p84
+aVit becomes really unsafe.
+p85
+aa(lp86
+VOne of our partners at Johns Hopkins
+p87
+aVwas observing surgeries in Sierra Leone about a year ago.
+p88
+aVAnd the first surgery of the day happened to be an obstetrical case.
+p89
+aVA woman came in, she needed an emergency C-section
+p90
+aVto save her life and the life of her baby.
+p91
+aVAnd everything began pretty auspiciously.
+p92
+aVThe surgeon was on call and scrubbed in.
+p93
+aVThe nurse was there.
+p94
+aVShe was able to anesthetize her quickly, and it was important
+p95
+aVbecause of the emergency nature of the situation.
+p96
+aVAnd everything began well
+p97
+aVuntil the power went out.
+p98
+aVAnd now in the middle of this surgery,
+p99
+aVthe surgeon is racing against the clock to finish his case,
+p100
+aVwhich he can do \u2014 he's got a headlamp.
+p101
+aVBut the nurse is literally running around a darkened operating theater
+p102
+aVtrying to find anything she can use to anesthetize her patient,
+p103
+aVto keep her patient asleep.
+p104
+aVBecause her machine doesn't work when there's no power.
+p105
+aVThis routine surgery that many of you have probably experienced,
+p106
+aVand others are probably the product of, has now become a tragedy.
+p107
+aVAnd what's so frustrating is this is not a singular event;
+p108
+aVthis happens across the developing world.
+p109
+aV35 million surgeries are attempted every year
+p110
+aVwithout safe anesthesia.
+p111
+aa(lp112
+VMy colleague, Dr. Paul Fenton, was living this reality.
+p113
+aVHe was the chief of anesthesiology
+p114
+aVin a hospital in Malawi, a teaching hospital.
+p115
+aVHe went to work every day
+p116
+aVin an operating theater like this one,
+p117
+aVtrying to deliver anesthesia and teach others how to do so
+p118
+aVusing that same equipment
+p119
+aVthat became so unreliable, and frankly unsafe, in his hospital.
+p120
+aVAnd after umpteen surgeries
+p121
+aVand, you can imagine, really unspeakable tragedy,
+p122
+aVhe just said, "That's it. I'm done. That's enough.
+p123
+aVThere has to be something better."
+p124
+aVHe took a walk down the hall
+p125
+aVto where they threw all those machines that had just crapped out on them,
+p126
+aVI think that's the scientific term,
+p127
+aVand he started tinkering.
+p128
+aVHe took one part from here and another from there,
+p129
+aVand he tried to come up with a machine that would work
+p130
+aVin the reality that he was facing.
+p131
+aa(lp132
+VAnd what he came up with:
+p133
+aVwas this guy.
+p134
+aVThe prototype for the Universal Anesthesia Machine \u2014
+p135
+aVa machine that would work and anesthetize his patients
+p136
+aVno matter the circumstances that his hospital had to offer.
+p137
+aVHere it is, back at home
+p138
+aVat that same hospital, developed a little further, 12 years later,
+p139
+aVworking on patients from pediatrics to geriatrics.
+p140
+aa(lp141
+VLet me show you a little bit about how this machine works.
+p142
+aVVoila!
+p143
+aVHere she is.
+p144
+aVWhen you have electricity,
+p145
+aVeverything in this machine begins in the base.
+p146
+aVThere's a built-in oxygen concentrator down there.
+p147
+aVNow you've heard me mention oxygen a few times at this point.
+p148
+aVEssentially, to deliver anesthesia, you want as pure oxygen as possible,
+p149
+aVbecause eventually you're going to dilute it, essentially, with the gas.
+p150
+aVAnd the mixture that the patient inhales
+p151
+aVneeds to be at least a certain percentage oxygen
+p152
+aVor else it can become dangerous.
+p153
+aVBut so in here when there's electricity,
+p154
+aVthe oxygen concentrator takes in room air.
+p155
+aVNow we know room air is gloriously free,
+p156
+aVit is abundant,
+p157
+aVand it's already 21 percent oxygen.
+p158
+aVSo all this concentrator does is take that room air in, filter it
+p159
+aVand send 95 percent pure oxygen up and across here,
+p160
+aVwhere it mixes with the anesthetic agent.
+p161
+aa(lp162
+VNow before that mixture hits the patient's lungs,
+p163
+aVit's going to pass by here \u2014 you can't see it,
+p164
+aVbut there's an oxygen sensor here \u2014
+p165
+aVthat's going to read out on this screen the percentage of oxygen being delivered.
+p166
+aVNow if you don't have power,
+p167
+aVor, God forbid, the power cuts out in the middle of a surgery,
+p168
+aVthis machine transitions automatically,
+p169
+aVwithout even having to touch it,
+p170
+aVto drawing in room air from this inlet.
+p171
+aa(lp172
+VEverything else is the same.
+p173
+aVThe only difference is that now
+p174
+aVyou're only working with 21 percent oxygen.
+p175
+aVNow that used to be a dangerous guessing game,
+p176
+aVbecause you only knew if you gave too little oxygen
+p177
+aVonce something bad happened.
+p178
+aVBut we've put a long-life battery backup on here.
+p179
+aVThis is the only part that's battery backed up.
+p180
+aVBut this gives control to the provider, whether there's power or not,
+p181
+aVbecause they can adjust the flows
+p182
+aVbased on the percentage of oxygen they see that they're giving the patient.
+p183
+aa(lp184
+VIn both cases, whether you have power or not,
+p185
+aVsometimes the patient needs help breathing.
+p186
+aVIt's just a reality of anesthesia, the lungs can be paralyzed.
+p187
+aVAnd so we've just added this manual bellows.
+p188
+aVWe've seen surgeries for three or four hours
+p189
+aVto ventilate the patient on this.
+p190
+aa(lp191
+VSo it's a straightforward machine.
+p192
+aVI shudder to say simple; it's straightforward.
+p193
+aVAnd it's by design.
+p194
+aVYou do not need to be a highly trained, specialized anesthesiologist
+p195
+aVto use this machine,
+p196
+aVwhich is good because, in these rural district hospitals,
+p197
+aVyou're not going to get that level of training.
+p198
+aVIt's also designed for the environment that it will be used in.
+p199
+aa(lp200
+VThis is an incredibly rugged machine.
+p201
+aVIt has to stand up to the heat and the wear and tear
+p202
+aVthat happens in hospitals in these rural districts.
+p203
+aVAnd so it's not going to break very easily,
+p204
+aVbut if it does, virtually every piece in this machine
+p205
+aVcan be swapped out and replaced
+p206
+aVwith a hex wrench and a screwdriver.
+p207
+aVAnd finally, it's affordable.
+p208
+aVThis machine comes in at an eighth of the cost
+p209
+aVof the conventional machine that I showed you earlier.
+p210
+aVSo in other words, what we have here is a machine that can enable surgery
+p211
+aVand save lives,
+p212
+aVbecause it was designed for its environment,
+p213
+aVjust like the first machine I showed you.
+p214
+aa(lp215
+VBut we're not content to stop there.
+p216
+aVIs it working?
+p217
+aVIs this the design that's going to work in place?
+p218
+aVWell, we've seen good results so far.
+p219
+aVThis is in 13 hospitals in four countries,
+p220
+aVand since 2010, we've done well over 2,000 surgeries
+p221
+aVwith no clinically adverse events.
+p222
+aVSo we're thrilled.
+p223
+aVThis really seems like a cost-effective, scalable solution
+p224
+aVto a problem that's really pervasive.
+p225
+aVBut we still want to be sure
+p226
+aVthat this is the most effective and safe device
+p227
+aVthat we can be putting into hospitals.
+p228
+aa(lp229
+VSo to do that, we've launched a number of partnerships
+p230
+aVwith NGOs and universities,
+p231
+aVto gather data on the user interface,
+p232
+aVon the types of surgeries it's appropriate for,
+p233
+aVand ways we can enhance the device itself.
+p234
+aVOne of those partnerships is with Johns Hopkins
+p235
+aVjust here in Baltimore.
+p236
+aVThey have a really cool anesthesia simulation lab out in Baltimore.
+p237
+aVSo we're taking this machine
+p238
+aVand recreating some of the operating theater crises
+p239
+aVthat this machine might face
+p240
+aVin one of the hospitals that it's intended for,
+p241
+aVand in a contained, safe environment,
+p242
+aVevaluating its effectiveness.
+p243
+aVWe're then able to compare the results from that study
+p244
+aVwith real-world experience,
+p245
+aVbecause we're putting two of these in hospitals
+p246
+aVthat Johns Hopkins works with in Sierra Leone,
+p247
+aVincluding the hospital where that emergency C-section happened.
+p248
+aa(lp249
+VSo I've talked a lot about anesthesia, and I tend to do that.
+p250
+aVI think it is incredibly fascinating and an important component of health.
+p251
+aVAnd it really seems peripheral, we never think about it,
+p252
+aVuntil we don't have access to it,
+p253
+aVand then it becomes a gatekeeper.
+p254
+aVWho gets surgery and who doesn't?
+p255
+aVWho gets safe surgery and who doesn't?
+p256
+aVBut you know, it's just one of so many ways
+p257
+aVthat design, appropriate design,
+p258
+aVcan have an impact on health outcomes.
+p259
+aVIf more people in the health-delivery space
+p260
+aVreally working on some of these challenges in low-income countries
+p261
+aVcould start their design process, their solution search,
+p262
+aVfrom outside of that proverbial box
+p263
+aVand inside of the hospital \u2014
+p264
+aVIn other words, if we could design
+p265
+aVfor the environment that exists in so many parts of the world,
+p266
+aVrather than the one that we wished existed \u2014
+p267
+aVwe might just save a lot of lives.
+p268
+aa(lp269
+VThank you very much.
+p270
+aa(lp271
+V(Applause)
+p272
+aasS'transcript_micsec'
+p273
+(lp274
+I15000
+aI44000
+aI95000
+aI131000
+aI167000
+aI201000
+aI218000
+aI289000
+aI333000
+aI356000
+aI408000
+aI433000
+aI461000
+aI477000
+aI500000
+aI540000
+aI572000
+aI620000
+aI671000
+aI673000
+asS'talk_meta'
+p275
+(dp276
+S'ratings'
+p277
+(dp278
+S'ingenious'
+p279
+I130
+sS'beautiful'
+p280
+I12
+sS'inspiring'
+p281
+I83
+sS'ok'
+p282
+I27
+sS'fascinating'
+p283
+I42
+sS'funny'
+p284
+I2
+sS'total_count'
+p285
+I494
+sS'persuasive'
+p286
+I44
+sS'longwinded'
+p287
+I7
+sS'informative'
+p288
+I105
+sS'jaw-dropping'
+p289
+I10
+sS'obnoxious'
+p290
+I3
+sS'confusing'
+p291
+I2
+sS'courageous'
+p292
+I12
+sS'unconvincing'
+p293
+I15
+ssS'author'
+p294
+VErica_Frenkel;
+p295
+sS'url'
+p296
+S'https://www.ted.com/talks/erica_frenkel_the_universal_anesthesia_machine'
+p297
+sS'vidlen'
+p298
+I683
+sS'totalviews'
+p299
+I319432
+sS'title'
+p300
+VThe universal anesthesia machine
+p301
+sS'downloadlink'
+p302
+Vhttps://download.ted.com/talks/EricaFrenkel_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p303
+sS'datepublished'
+p304
+cdatetime
+datetime
+p305
+(S'\x07\xdc\x02\x02\x0b\x1c\x1b\x00\x00\x00'
+tRp306
+sS'datefilmed'
+p307
+g305
+(S'\x07\xdc\x02\x02\x0b\x1c\x1b\x00\x00\x00'
+tRp308
+sS'alldata_JSON'
+p309
+S'{"viewed_count": 319432, "speakers": [{"description": "Medical technologist", "firstname": "Erica", "title": "", "lastname": "Frenkel", "middleinitial": "", "whylisten": "<p>Erica Frenkel helps lead <a href=\\"http://gradianhealth.org/\\" target=\\"_blank\\">Gradian Health Systems</a>, a social enterprise enabling safe  surgery through innovative anesthesia technology. She has been a Peace  Corps volunteer, managed the Global Media AIDS Initiative for the Kaiser  Family Foundation and helped shape public health initiatives as a  consultant for the Clinton Foundation, the Liberian Ministry of Health,  Merck Vaccines, and the Wellcome Trust.</p>", "slug": "erica_frenkel", "whotheyare": "At Gradian Health Systems, Erica Frenkel works to bring safe anesthesia to hospitals all over the world.", "whatotherssay": "", "id": 1216, "photo_url": "https://pe.tedcdn.com/images/ted/d22b9aaa33c0fca887ada189d47a6874f96706ab_254x191.jpg"}], "current_talk": 1345, "description": "What if you\'re in surgery and the power goes out? No lights, no oxygen -- and your anesthesia stops flowing. It happens constantly in hospitals throughout the world, turning routine procedures into tragedies. Erica Frenkel demos one solution: the universal anesthesia machine.", "language": "en", "url": "https://www.ted.com/talks/erica_frenkel_the_universal_anesthesia_machine", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79587446}, "podcast-low-en": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15642736}, "podcast-high": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79587062}, "180k": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15609829}, "64k": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5584281}, "1500k": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 125175795}, "450k": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38631594}, "podcast-regular": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38739491}, "950k": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79727676}, "audio-podcast": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7108230}, "podcast-light": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5701987}, "320k": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27478846}, "600k": {"uri": "https://download.ted.com/talks/EricaFrenkel_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51454485}}}, "comments": {"count": 63, "id": 10429, "talk_id": 1345}, "slug": "erica_frenkel_the_universal_anesthesia_machine", "threadId": 10429, "talks": [{"event": "TEDxMidAtlantic", "player_talks": [{"event": "TEDxMidAtlantic", "slug": "erica_frenkel_the_universal_anesthesia_machine", "filmed": 1322784000, "targeting": {"event": "TEDxMidAtlantic", "tag": "Surgery,TEDx,design,global issues,health care,poverty,technology", "id": 1345, "talk": "erica_frenkel_the_universal_anesthesia_machine", "year": "2011"}, "adDuration": "4.00", "external": null, "title": "The universal anesthesia machine", "postAdDuration": "0.83", "published": 1328200107, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/6e246822fdfb4a19f9b03dca1109693160610c96_800x600.jpg?quality=89&w=600", "name": "Erica Frenkel: The universal anesthesia machine", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Surgery", "TEDx", "design", "global issues", "health care", "poverty", "technology"], "speaker": "Erica Frenkel", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 683, "id": 1345, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/EricaFrenkel_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxMidAtlantic", "tag": "Surgery,TEDx,design,global issues,health care,poverty,technology", "id": 1345, "talk": "erica_frenkel_the_universal_anesthesia_machine", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1345.json", "stream": "https://hls.ted.com/talks/1345.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxMidAtlantic%26id%3D1345%26tag%3DSurgery%2CTEDx%2Cdesign%2Cglobal%2Bissues%2Chealth%2Bcare%2Cpoverty%2Ctechnology%26talk%3Derica_frenkel_the_universal_anesthesia_machine%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/erica_frenkel_the_universal_anesthesia_machine"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/6e246822fdfb4a19f9b03dca1109693160610c96_800x600.jpg?q=50&w=15", "duration": 683, "id": 1345, "ratings": [{"count": 44, "id": 24, "name": "Persuasive"}, {"count": 42, "id": 22, "name": "Fascinating"}, {"count": 83, "id": 10, "name": "Inspiring"}, {"count": 15, "id": 21, "name": "Unconvincing"}, {"count": 27, "id": 25, "name": "OK"}, {"count": 7, "id": 11, "name": "Longwinded"}, {"count": 130, "id": 9, "name": "Ingenious"}, {"count": 105, "id": 8, "name": "Informative"}, {"count": 12, "id": 1, "name": "Beautiful"}, {"count": 12, "id": 3, "name": "Courageous"}, {"count": 3, "id": 26, "name": "Obnoxious"}, {"count": 10, "id": 23, "name": "Jaw-dropping"}, {"count": 2, "id": 7, "name": "Funny"}, {"count": 2, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Medical technologist", "firstname": "Erica", "title": "", "lastname": "Frenkel", "middleinitial": "", "whylisten": "<p>Erica Frenkel helps lead <a href=\\"http://gradianhealth.org/\\" target=\\"_blank\\">Gradian Health Systems</a>, a social enterprise enabling safe  surgery through innovative anesthesia technology. She has been a Peace  Corps volunteer, managed the Global Media AIDS Initiative for the Kaiser  Family Foundation and helped shape public health initiatives as a  consultant for the Clinton Foundation, the Liberian Ministry of Health,  Merck Vaccines, and the Wellcome Trust.</p>", "slug": "erica_frenkel", "whotheyare": "At Gradian Health Systems, Erica Frenkel works to bring safe anesthesia to hospitals all over the world.", "whatotherssay": "", "id": 1216, "photo_url": "https://pe.tedcdn.com/images/ted/d22b9aaa33c0fca887ada189d47a6874f96706ab_254x191.jpg"}], "title": "The universal anesthesia machine", "take_action": null, "comments": 10429, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/6e246822fdfb4a19f9b03dca1109693160610c96_800x600.jpg", "description": "What if you\'re in surgery and the power goes out? No lights, no oxygen -- and your anesthesia stops flowing. It happens constantly in hospitals throughout the world, turning routine procedures into tragedies. Erica Frenkel demos one solution: the universal anesthesia machine.", "tags": ["Surgery", "TEDx", "design", "global issues", "health care", "poverty", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-bg.mp4"}, "id": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/EricaFrenkel_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/EricaFrenkel_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/EricaFrenkel_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1345, "audioDownload": "https://download.ted.com/talks/EricaFrenkel_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 231210, "hero": "https://pe.tedcdn.com/images/ted/43605_480x360.jpg", "title": "A hospital tour in Nigeria", "id": 268, "speaker": "Seyi Oyesola", "duration": 863, "slug": "dr_seyi_oyesola_tours_a_hospital_in_nigeria"}, {"viewed_count": 1111928, "hero": "https://pe.tedcdn.com/images/ted/335ad0014eeb9e8a6541f37bba2a63dfaebbdc7b_800x600.jpg", "title": "Color-coded surgery", "id": 1302, "speaker": "Quyen Nguyen", "duration": 968, "slug": "quyen_nguyen_color_coded_surgery"}, {"viewed_count": 859852, "hero": "https://pe.tedcdn.com/images/ted/46259_480x360.jpg", "title": "A mobile fridge for vaccines", "id": 285, "speaker": "Adam Grosser", "duration": 211, "slug": "adam_grosser_and_his_sustainable_fridge"}, {"viewed_count": 895503, "hero": "https://pe.tedcdn.com/images/ted/5e9bba9dfcd7dd8208bcc7babe14ae2df97ba7c8_2880x1620.jpg", "title": "Lifelike simulations that make real-life surgery safer", "id": 2711, "speaker": "Peter Weinstock", "duration": 1018, "slug": "peter_weinstock_lifelike_simulations_that_make_real_life_surgery_safer"}, {"viewed_count": 498085, "hero": "https://pe.tedcdn.com/images/ted/745e3f21c2c9a253422cbf4e302fba5ab420fdc5_1600x1200.jpg", "title": "A universal translator for surgeons", "id": 1652, "speaker": "Steven Schwaitzberg", "duration": 701, "slug": "steven_schwaitzberg_a_universal_translator_for_surgeons"}, {"viewed_count": 1331216, "hero": "https://pe.tedcdn.com/images/ted/55d3e2b1e1eab39cda812f1d03d5d0de30d8700e_800x600.jpg", "title": "How I repaired my own heart", "id": 1419, "speaker": "Tal Golesworthy", "duration": 794, "slug": "tal_golesworthy_how_i_repaired_my_own_heart"}], "recorded_at": "2011-12-02T00:00:00.000+00:00", "slug": "erica_frenkel_the_universal_anesthesia_machine", "speaker_name": "Erica Frenkel", "viewed_count": 319432, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxMidAtlantic, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxMidAtlantic", "name": "Erica Frenkel: The universal anesthesia machine"}'
+p310
+sS'keywords'
+p311
+(lp312
+VSurgery
+p313
+aVTEDx
+p314
+aVdesign
+p315
+aVglobal issues
+p316
+aVhealth care
+p317
+aVpoverty
+p318
+aVtechnology
+p319
+asS'datecrawled'
+p320
+g305
+(S'\x07\xe1\n\x17\x02\x07\r\x0b/\xd8'
+tRp321
+sS'id'
+p322
+I1345
+ss.

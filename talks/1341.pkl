@@ -1,0 +1,614 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI want to talk to you about,
+p5
+aVor share with you, a breakthrough new approach
+p6
+aVfor managing items of inventory inside of a warehouse.
+p7
+aVWe're talking about a pick, pack and ship setting here.
+p8
+aa(lp9
+VSo as a hint,
+p10
+aVthis solution involves hundreds of mobile robots,
+p11
+aVsometimes thousands of mobile robots,
+p12
+aVmoving around a warehouse. And I'll get to the solution.
+p13
+aVBut for a moment, just think
+p14
+aVabout the last time that you ordered something online.
+p15
+aVYou were sitting on your couch
+p16
+aVand you decided that you absolutely had to have this red t-shirt.
+p17
+aVSo \u2014 click! \u2014 you put it into your shopping cart.
+p18
+aVAnd then you decided that green pair of pants
+p19
+aVlooks pretty good too \u2014 click!
+p20
+aVAnd maybe a blue pair of shoes \u2014 click!
+p21
+aVSo at this point you've assembled your order.
+p22
+aVYou didn't stop to think  for a moment that
+p23
+aVthat might not be a great outfit.
+p24
+aVBut you hit "submit order."
+p25
+aVAnd two days later, this package shows up on your doorstep.
+p26
+aVAnd you open the box and you're like, wow, there's my goo.
+p27
+aa(lp28
+VDid you ever stop to think about how those items of inventory
+p29
+aVactually found their way inside that box in the warehouse?
+p30
+aVSo I'm here to tell you  it's that guy right there.
+p31
+aVSo deep in the middle of that picture,
+p32
+aVyou see a classic pick-pack worker
+p33
+aVin a distribution or order fulfillments setting.
+p34
+aVClassically these pick workers will  spend 60 or 70 percent of their day
+p35
+aVwandering around the warehouse.
+p36
+aVThey'll often walk as much as 5 or 10 miles
+p37
+aVin pursuit of those items of inventory.
+p38
+aVNot only is this an unproductive way to fill orders,
+p39
+aVit also turns out to be an unfulfilling way to fill orders.
+p40
+aa(lp41
+VSo let me tell you where I first bumped into this problem.
+p42
+aVI was out in the Bay area  in '99, 2000, the dot com boom.
+p43
+aVI worked for a fabulously spectacular flame-out called Webvan.
+p44
+aV(Laughter)
+p45
+aVThis company raised hundreds of millions of dollars with the notion that
+p46
+aVwe will deliver grocery orders online.
+p47
+aVAnd it really came down to the fact that we couldn't do it cost effectively.
+p48
+aVTurns out e-commerce was something that was very hard and very costly.
+p49
+aVIn this particular instance we were trying to assemble 30 items of inventory
+p50
+aVinto a few totes, onto a van to deliver to the home.
+p51
+aVAnd when you think about it, it was costing us 30 dollars.
+p52
+aVImagine, we had an 89¢ can of soup
+p53
+aVthat was costing us one dollar to pick and pack into that tote.
+p54
+aVAnd that's before we actually tried to deliver it to the home.
+p55
+aa(lp56
+VSo long story short, during my one year at Webvan,
+p57
+aVwhat I realized by talking to  all the material-handling providers
+p58
+aVwas that there was no solution designed specifically to solve each base picking.
+p59
+aVRed item, green, blue, getting those three things in a box.
+p60
+aVSo we said, there's just got to be a better way to do this.
+p61
+aVExisting material handling was set up to pump
+p62
+aVpallets and cases of goo to retail stores.
+p63
+aa(lp64
+VOf course Webvan went out of business, and about a year and a half later,
+p65
+aVI was still noodling on this problem. It was still nagging at me.
+p66
+aVAnd I started thinking about it again.
+p67
+aVAnd I said, let me just focus briefly on what I wanted as a pick worker,
+p68
+aVor my vision for how it should work.
+p69
+aV(Laughter)
+p70
+aVI said, let's focus on the problem.
+p71
+aVI have an order here and what I want to do is I want to put
+p72
+aVred, green and blue in this box right here.
+p73
+aVWhat I need is a system where I put out my hand and \u2014 poof! \u2014
+p74
+aVthe product shows up  and I pack it into the order,
+p75
+aVand now we're thinking,
+p76
+aVthis would be a very operator-centric approach to solving the problem.
+p77
+aVThis is what I need. What technology is available to solve this problem?
+p78
+aVBut as you can see, orders can come and go, products can come and go.
+p79
+aVIt allows us to focus on making the pick worker the center of the problem,
+p80
+aVand providing them the tools to make them as productive as possible.
+p81
+aa(lp82
+VSo how did I arrive at this notion?
+p83
+aVWell, actually it came from a brainstorming exercise,
+p84
+aVprobably a technique that many of you use,
+p85
+aVIt's this notion of testing your ideas.
+p86
+aVTake a blank sheet, of course,
+p87
+aVbut then test your ideas at the limits \u2014 infinity, zero.
+p88
+aVIn this particular case, we challenged ourselves with the idea:
+p89
+aVWhat if we had to build a distribution center in China,
+p90
+aVwhere it's a very, very low-cost market?
+p91
+aVAnd say, labor is cheap, land is cheap.
+p92
+aVAnd we said specifically,
+p93
+aV"What if it was zero dollars an hour for direct labor
+p94
+aVand we could build a million- square-foot distribution center?"
+p95
+aVSo naturally that led to ideas that said,
+p96
+aV"Let's put lots of people in the warehouse."
+p97
+aVAnd I said, "Hold on, zero dollars per hour,
+p98
+aVwhat I would do is 'hire'
+p99
+aV10,000 workers to come to the warehouse every morning at 8 a.m.,
+p100
+aVwalk into the warehouse and pick up one item of inventory
+p101
+aVand then just stand there.
+p102
+aVSo you hold Captain Crunch, you hold the Mountain Dew,
+p103
+aVyou hold the Diet Coke.
+p104
+aVIf I need it, I'll call you, otherwise just stand there.
+p105
+aVBut when I need Diet Coke and I call it, you guys talk amongst yourselves.
+p106
+aVDiet Coke walks up to the front \u2014 pick it, put it in the tote, away it goes."
+p107
+aVWow, what if the products could walk and talk on their own?
+p108
+aVThat's a very interesting, very powerful way
+p109
+aVthat we could potentially organize this warehouse.
+p110
+aa(lp111
+VSo of course, labor isn't free,
+p112
+aVon that practical versus awesome spectrum.
+p113
+aV(Laughter)
+p114
+aVSo we said mobile shelving \u2014 We'll put them on mobile shelving.
+p115
+aVWe'll use mobile robots and we'll move the inventory around.
+p116
+aVAnd so we got underway on that and then I'm sitting on my couch in 2008.
+p117
+aVDid any of you see the Beijing Olympics, the opening ceremonies?
+p118
+aVI about fell out of my couch when I saw this.
+p119
+aVI'm like, that was the idea!
+p120
+aV(Laughter and Applause)
+p121
+aVWe'll put thousands of people on the warehouse floor, the stadium floor.
+p122
+aVBut interestingly enough, this actually relates to the idea
+p123
+aVin that these guys were creating some incredibly powerful, impressive digital art,
+p124
+aVall without computers, I'm told,
+p125
+aVit was all peer-to-peer coordination and communication.
+p126
+aVYou stand up, I'll squat down.
+p127
+aVAnd they made some fabulous art.
+p128
+aVIt speaks to the power of emergence
+p129
+aVin systems when you let things start to talk with each other.
+p130
+aVSo that was a little bit of the journey.
+p131
+aa(lp132
+VSo of course, now what became the practical reality of this idea?
+p133
+aVHere is a warehouse.
+p134
+aVIt's a pick, pack and ship center that has about 10,000 different SKUs.
+p135
+aVWe'll call them red pens, green pens, yellow Post-It Notes.
+p136
+aVWe send the little orange robots out to pick up the blue shelving pods.
+p137
+aVAnd we deliver them to the side of the building.
+p138
+aVSo all the pick workers now get to stay on the perimeter.
+p139
+aVAnd the game here is to pick up the shelves,
+p140
+aVtake them down the highway and deliver them straight to the pick worker.
+p141
+aVThis pick worker's life is completely different.
+p142
+aVRather than wandering around the warehouse, she gets to stay still
+p143
+aVin a pick station like this
+p144
+aVand every product in the building can now come to her.
+p145
+aa(lp146
+VSo the process is very productive.
+p147
+aVReach in, pick an item, scan the bar code, pack it out.
+p148
+aVBy the time you turn around,
+p149
+aVthere's another product there ready to be picked and packed.
+p150
+aVSo what we've done is take out all of the non-value added
+p151
+aVwalking, searching, wasting, waited time,
+p152
+aVand we've developed a very  high-fidelity way to pick these orders,
+p153
+aVwhere you point at it with a laser, scan the UPC barcode,
+p154
+aVand then indicate with a light which box it needs to go into.
+p155
+aVSo more productive, more accurate and, it turns out,
+p156
+aVit's a more interesting office environment for these pick workers.
+p157
+aVThey actually complete the whole order.
+p158
+aVSo they do red, green and blue, not just a part of the order.
+p159
+aVAnd they feel a little bit more in control of their environment.
+p160
+aa(lp161
+VSo the side effects of this approach
+p162
+aVare what really surprised us.
+p163
+aVWe knew it was going  to be more productive.
+p164
+aVBut we didn't realize just how pervasive this way of thinking
+p165
+aVextended to other functions in the warehouse.
+p166
+aVBut what effectively this approach is doing inside of the DC
+p167
+aVis turning it into a massively parallel processing engine.
+p168
+aVSo this is again a cross-fertilization of ideas.
+p169
+aVHere's a warehouse and we're thinking about
+p170
+aVparallel processing supercomputer architectures.
+p171
+aVThe notion here is that you have
+p172
+aV10 workers on  the right side of the screen
+p173
+aVthat are now all independent autonomous pick workers.
+p174
+aVIf the worker in station three decides to leave and go to the bathroom,
+p175
+aVit has no impact on the productivity of the other nine workers.
+p176
+aVContrast that, for a moment, with the traditional method of using a conveyor.
+p177
+aVWhen one person passes the order to you,
+p178
+aVyou put something in and pass it downstream.
+p179
+aVEveryone has to be in place for that serial process to work.
+p180
+aVThis becomes a more robust way to think about the warehouse.
+p181
+aa(lp182
+VAnd then underneath the hoods gets interesting in that we're tracking
+p183
+aVthe popularity of the products.
+p184
+aVAnd we're using dynamic and adaptive algorithms
+p185
+aVto tune the floor of the warehouse.
+p186
+aVSo what you see here potentially the week leading up to Valentine's Day.
+p187
+aVAll that pink chalky candy has moved to the front of the building
+p188
+aVand is now being picked into a lot of orders in those pick stations.
+p189
+aVCome in two days after Valentine's Day, and that candy, the leftover candy,
+p190
+aVhas all drifted to the back of the warehouse
+p191
+aVand is occupying the cooler zone on the thermal map there.
+p192
+aVOne other side effect of this approach using the parallel processing
+p193
+aVis these things can scale to ginormous.
+p194
+aV(Laughter)
+p195
+aVSo whether you're doing two pick stations, 20 pick stations,
+p196
+aVor 200 pick stations, the path planning algorithms
+p197
+aVand all of the inventory algorithms just work.
+p198
+aVIn this example you see that the inventory
+p199
+aVhas now occupied all the perimeter of the building
+p200
+aVbecause that's where the pick stations were.
+p201
+aVThey sorted it out for themselves.
+p202
+aa(lp203
+VSo I'll conclude with just one final video
+p204
+aVthat shows how this comes to bear
+p205
+aVon the pick worker's actual day in the life of.
+p206
+aVSo as we mentioned, the process is to move inventory along the highway
+p207
+aVand then find your way into these pick stations.
+p208
+aVAnd our software in the background
+p209
+aVunderstands what's going on  in each station,
+p210
+aVwe direct the pods across the highway
+p211
+aVand we're attempting to get into a queuing system
+p212
+aVto present the work to the pick worker.
+p213
+aVWhat's interesting is we can even adapt the speed of the pick workers.
+p214
+aVThe faster pickers get more pods and the slower pickers get few.
+p215
+aVBut this pick worker now is literally having that experience
+p216
+aVthat we described before.
+p217
+aVShe puts out her hand. The product jumps into it.
+p218
+aVOr she has to reach in and get it.
+p219
+aVShe scans it and  she puts it in the bucket.
+p220
+aVAnd all of the rest of the technology is kind of behind the scenes.
+p221
+aVSo she gets to now focus on the picking and packing portion of her job.
+p222
+aVNever has any idle time, never has to leave her mat.
+p223
+aVAnd actually we think not only a more productive
+p224
+aVand more accurate way to fill orders.
+p225
+aVWe think it's a more fulfilling way to fill orders.
+p226
+aa(lp227
+VThe reason we can say that, though, is that workers
+p228
+aVin a lot of these buildings now compete
+p229
+aVfor the privilege of working in the Kiva zone that day.
+p230
+aVAnd sometimes we'll catch them on testimonial videos
+p231
+aVsaying such things as,
+p232
+aVthey have more energy after the day to play with their grandchildren,
+p233
+aVor in one case a guy said, "the Kiva zone is so stress-free
+p234
+aVthat I've actually stopped taking my blood pressure medication."
+p235
+aV(Laughter)
+p236
+aVThat was at a pharmaceutical distributor, so they told us not to use that video.
+p237
+aV(Laughter)
+p238
+aa(lp239
+VSo what I wanted to leave you with today is the notion that
+p240
+aVwhen you let things start to think and walk
+p241
+aVand talk on their own, interesting processes and productivities can emerge.
+p242
+aVAnd now I think next time you go to your front step
+p243
+aVand pick up that box that you just ordered online,
+p244
+aVyou break it open and the goo is in there,
+p245
+aVyou'll have some wonderment as to whether a robot
+p246
+aVassisted in the picking and packing of that order.
+p247
+aa(lp248
+VThank you.
+p249
+aV(Applause)
+p250
+aasS'transcript_micsec'
+p251
+(lp252
+I11000
+aI24000
+aI68000
+aI108000
+aI157000
+aI181000
+aI236000
+aI313000
+aI377000
+aI416000
+aI462000
+aI527000
+aI592000
+aI662000
+aI697000
+aI721000
+asS'talk_meta'
+p253
+(dp254
+S'ratings'
+p255
+(dp256
+S'ingenious'
+p257
+I363
+sS'funny'
+p258
+I29
+sS'inspiring'
+p259
+I81
+sS'ok'
+p260
+I55
+sS'fascinating'
+p261
+I266
+sS'total_count'
+p262
+I1308
+sS'persuasive'
+p263
+I40
+sS'longwinded'
+p264
+I18
+sS'informative'
+p265
+I333
+sS'beautiful'
+p266
+I17
+sS'jaw-dropping'
+p267
+I66
+sS'obnoxious'
+p268
+I12
+sS'confusing'
+p269
+I5
+sS'courageous'
+p270
+I9
+sS'unconvincing'
+p271
+I14
+ssS'author'
+p272
+VMick_Mountz;
+p273
+sS'url'
+p274
+S'https://www.ted.com/talks/mick_mountz_the_hidden_world_of_box_packing'
+p275
+sS'vidlen'
+p276
+I726
+sS'totalviews'
+p277
+I278545
+sS'title'
+p278
+VWhat happens inside those massive warehouses?
+p279
+sS'downloadlink'
+p280
+Vhttps://download.ted.com/talks/MickMountz_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p281
+sS'datepublished'
+p282
+cdatetime
+datetime
+p283
+(S'\x07\xdc\x01\x1d\t:\x07\x00\x00\x00'
+tRp284
+sS'datefilmed'
+p285
+g283
+(S'\x07\xdc\x01\x1d\t:\x07\x00\x00\x00'
+tRp286
+sS'alldata_JSON'
+p287
+S'{"viewed_count": 278545, "speakers": [{"description": "CEO, Kiva Systems", "firstname": "Mick", "title": "", "lastname": "Mountz", "middleinitial": "", "whylisten": "<p>With  the growing popularity of online shopping, Mick Mountz and his company are finding ways to make picking, packing and shipping those purchases a  flexible and inexpensive process. He first began working on this  hidden challenge while at Webvan, an online grocer. In 2003, he took his  experience there and founded Kiva systems, a company whose innovative  solutions have led to it being listed by <em>Inc.</em> as one of the fastest  growing companies.</p><p>In March 2012, <a href=\\"http://venturebeat.com/2012/03/19/amazon-buys-kiva-systems/\\" target=\\"_blank\\">Kiva was acquired by Amazon for $775 million</a>. </p>", "slug": "mick_mountz", "whotheyare": "Mick Mountz is the founder and CEO of Kiva Systems, making high-tech products for fast, cheap and efficient inventory fulfillment. In March 2012, Kiva was acquired by Amazon.", "whatotherssay": "", "id": 1212, "photo_url": "https://pe.tedcdn.com/images/ted/c473c63042cd8351c6c07a482644a2c8208d2f3f_254x191.jpg"}], "current_talk": 1341, "description": "We make millions of online purchases daily, but who (or what) actually puts our items into packages? In this talk, Mick Mountz weaves a fascinating, surprisingly robot-filled tale of what happens inside a warehouse.", "language": "en", "url": "https://www.ted.com/talks/mick_mountz_the_hidden_world_of_box_packing", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MickMountz_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87085495}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MickMountz_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16812191}, "podcast-high": {"uri": "https://download.ted.com/talks/MickMountz_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87071016}, "180k": {"uri": "https://download.ted.com/talks/MickMountz_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16588156}, "64k": {"uri": "https://download.ted.com/talks/MickMountz_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5989008}, "1500k": {"uri": "https://download.ted.com/talks/MickMountz_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 134506248}, "450k": {"uri": "https://download.ted.com/talks/MickMountz_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41250967}, "podcast-regular": {"uri": "https://download.ted.com/talks/MickMountz_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41660460}, "950k": {"uri": "https://download.ted.com/talks/MickMountz_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87107815}, "audio-podcast": {"uri": "https://download.ted.com/talks/MickMountz_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7625192}, "podcast-light": {"uri": "https://download.ted.com/talks/MickMountz_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6121721}, "320k": {"uri": "https://download.ted.com/talks/MickMountz_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29337174}, "600k": {"uri": "https://download.ted.com/talks/MickMountz_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55069848}}}, "comments": {"count": 113, "id": 10289, "talk_id": 1341}, "slug": "mick_mountz_the_hidden_world_of_box_packing", "threadId": 10289, "talks": [{"event": "TEDxBoston 2011", "player_talks": [{"event": "TEDxBoston 2011", "slug": "mick_mountz_the_hidden_world_of_box_packing", "filmed": 1309219200, "targeting": {"event": "TEDxBoston 2011", "tag": "TEDx,business,consumerism,robots,shopping,technology", "id": 1341, "talk": "mick_mountz_the_hidden_world_of_box_packing", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "What happens inside those massive warehouses?", "postAdDuration": "0.83", "published": 1327849087, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4495665ceb0439a4037aec12f56407f4d33c2853_800x600.jpg?quality=89&w=600", "name": "Mick Mountz: What happens inside those massive warehouses?", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "business", "consumerism", "robots", "shopping", "technology"], "speaker": "Mick Mountz", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 726, "id": 1341, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MickMountz_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxBoston 2011", "tag": "TEDx,business,consumerism,robots,shopping,technology", "id": 1341, "talk": "mick_mountz_the_hidden_world_of_box_packing", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1341.json", "stream": "https://hls.ted.com/talks/1341.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxBoston%2B2011%26id%3D1341%26tag%3DTEDx%2Cbusiness%2Cconsumerism%2Crobots%2Cshopping%2Ctechnology%26talk%3Dmick_mountz_the_hidden_world_of_box_packing%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/mick_mountz_the_hidden_world_of_box_packing"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4495665ceb0439a4037aec12f56407f4d33c2853_800x600.jpg?q=50&w=15", "duration": 726, "id": 1341, "ratings": [{"count": 363, "id": 9, "name": "Ingenious"}, {"count": 266, "id": 22, "name": "Fascinating"}, {"count": 333, "id": 8, "name": "Informative"}, {"count": 81, "id": 10, "name": "Inspiring"}, {"count": 55, "id": 25, "name": "OK"}, {"count": 29, "id": 7, "name": "Funny"}, {"count": 66, "id": 23, "name": "Jaw-dropping"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 40, "id": 24, "name": "Persuasive"}, {"count": 18, "id": 11, "name": "Longwinded"}, {"count": 14, "id": 21, "name": "Unconvincing"}, {"count": 17, "id": 1, "name": "Beautiful"}, {"count": 12, "id": 26, "name": "Obnoxious"}, {"count": 5, "id": 2, "name": "Confusing"}], "speakers": [{"description": "CEO, Kiva Systems", "firstname": "Mick", "title": "", "lastname": "Mountz", "middleinitial": "", "whylisten": "<p>With  the growing popularity of online shopping, Mick Mountz and his company are finding ways to make picking, packing and shipping those purchases a  flexible and inexpensive process. He first began working on this  hidden challenge while at Webvan, an online grocer. In 2003, he took his  experience there and founded Kiva systems, a company whose innovative  solutions have led to it being listed by <em>Inc.</em> as one of the fastest  growing companies.</p><p>In March 2012, <a href=\\"http://venturebeat.com/2012/03/19/amazon-buys-kiva-systems/\\" target=\\"_blank\\">Kiva was acquired by Amazon for $775 million</a>. </p>", "slug": "mick_mountz", "whotheyare": "Mick Mountz is the founder and CEO of Kiva Systems, making high-tech products for fast, cheap and efficient inventory fulfillment. In March 2012, Kiva was acquired by Amazon.", "whatotherssay": "", "id": 1212, "photo_url": "https://pe.tedcdn.com/images/ted/c473c63042cd8351c6c07a482644a2c8208d2f3f_254x191.jpg"}], "title": "What happens inside those massive warehouses?", "take_action": null, "comments": 10289, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/4495665ceb0439a4037aec12f56407f4d33c2853_800x600.jpg", "description": "We make millions of online purchases daily, but who (or what) actually puts our items into packages? In this talk, Mick Mountz weaves a fascinating, surprisingly robot-filled tale of what happens inside a warehouse.", "tags": ["TEDx", "business", "consumerism", "robots", "shopping", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/MickMountz_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MickMountz_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MickMountz_2011X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MickMountz_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MickMountz_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MickMountz_2011X-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MickMountz_2011X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MickMountz_2011X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MickMountz_2011X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MickMountz_2011X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-hr.mp4"}, "fa": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MickMountz_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MickMountz_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MickMountz_2011X-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/MickMountz_2011X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MickMountz_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MickMountz_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MickMountz_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1341, "audioDownload": "https://download.ted.com/talks/MickMountz_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1488974, "hero": "https://pe.tedcdn.com/images/ted/c51aa07322a1c025c966a77e45315944967fbef2_1600x1200.jpg", "title": "We are all cyborgs now", "id": 1050, "speaker": "Amber Case", "duration": 473, "slug": "amber_case_we_are_all_cyborgs_now"}, {"viewed_count": 604242, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}, {"viewed_count": 155068, "hero": "https://pe.tedcdn.com/images/ted/137579_240x180.jpg", "title": "Engineering a better life for all", "id": 722, "speaker": "Cat Laine", "duration": 889, "slug": "cat_laine_engineering_a_better_life_for_all"}, {"viewed_count": 1371236, "hero": "https://pe.tedcdn.com/images/ted/216a357b70872c46a8a8f6cb89d0781a9281da36_1600x1200.jpg", "title": "The voices of China\'s workers", "id": 1554, "speaker": "Leslie T. Chang", "duration": 865, "slug": "leslie_t_chang_the_voices_of_china_s_workers"}, {"viewed_count": 412489, "hero": "https://pe.tedcdn.com/images/ted/126521_800x600.jpg", "title": "The refugees of boom-and-bust", "id": 681, "speaker": "Cameron Sinclair", "duration": 185, "slug": "cameron_sinclair_the_refugees_of_boom_and_bust"}, {"viewed_count": 793036, "hero": "https://pe.tedcdn.com/images/ted/0b3bb340e7c96ff3b871e543a464c1e8bfe03390_2880x1620.jpg", "title": "Why jobs of the future won\'t feel like work", "id": 2895, "speaker": "David Lee", "duration": 606, "slug": "david_lee_why_jobs_of_the_future_won_t_feel_like_work"}], "recorded_at": "2011-06-28T00:00:00.000+00:00", "slug": "mick_mountz_the_hidden_world_of_box_packing", "speaker_name": "Mick Mountz", "viewed_count": 278545, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxBoston 2011, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxBoston 2011", "name": "Mick Mountz: What happens inside those massive warehouses?"}'
+p288
+sS'keywords'
+p289
+(lp290
+VTEDx
+p291
+aVbusiness
+p292
+aVconsumerism
+p293
+aVrobots
+p294
+aVshopping
+p295
+aVtechnology
+p296
+asS'datecrawled'
+p297
+g283
+(S'\x07\xe1\n\x17\x013&\x04\xe0\x07'
+tRp298
+sS'id'
+p299
+I1341
+ss.

@@ -1,0 +1,940 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm a computer science professor,
+p5
+aVand my area of expertise is
+p6
+aVcomputer and information security.
+p7
+aVWhen I was in graduate school,
+p8
+aVI had the opportunity to overhear my grandmother
+p9
+aVdescribing to one of her fellow senior citizens
+p10
+aVwhat I did for a living.
+p11
+aVApparently, I was in charge of making sure that
+p12
+aVno one stole the computers from the university. (Laughter)
+p13
+aVAnd, you know, that's a perfectly reasonable thing
+p14
+aVfor her to think, because I told her I was working
+p15
+aVin computer security,
+p16
+aVand it was interesting to get her perspective.
+p17
+aa(lp18
+VBut that's not the most ridiculous thing I've ever heard
+p19
+aVanyone say about my work.
+p20
+aVThe most ridiculous thing I ever heard is,
+p21
+aVI was at a dinner party, and a woman heard
+p22
+aVthat I work in computer security,
+p23
+aVand she asked me if \u2014 she said her computer had been
+p24
+aVinfected by a virus, and she was very concerned that she
+p25
+aVmight get sick from it, that she could get this virus. (Laughter)
+p26
+aVAnd I'm not a doctor, but I reassured her
+p27
+aVthat it was very, very unlikely that this would happen,
+p28
+aVbut if she felt more comfortable, she could be free to use
+p29
+aVlatex gloves when she was on the computer,
+p30
+aVand there would be no harm whatsoever in that.
+p31
+aa(lp32
+VI'm going to get back to this notion of being able to get
+p33
+aVa virus from your computer, in a serious way.
+p34
+aVWhat I'm going to talk to you about today
+p35
+aVare some hacks, some real world cyberattacks that people
+p36
+aVin my community, the academic research community,
+p37
+aVhave performed, which I don't think
+p38
+aVmost people know about,
+p39
+aVand I think they're very interesting and scary,
+p40
+aVand this talk is kind of a greatest hits
+p41
+aVof the academic security community's hacks.
+p42
+aVNone of the work is my work. It's all work
+p43
+aVthat my colleagues have done, and I actually asked them
+p44
+aVfor their slides and incorporated them into this talk.
+p45
+aa(lp46
+VSo the first one I'm going to talk about
+p47
+aVare implanted medical devices.
+p48
+aVNow medical devices have come a long way technologically.
+p49
+aVYou can see in 1926 the first pacemaker was invented.
+p50
+aV1960, the first internal pacemaker was implanted,
+p51
+aVhopefully a little smaller than that one that you see there,
+p52
+aVand the technology has continued to move forward.
+p53
+aVIn 2006, we hit an important milestone from the perspective
+p54
+aVof computer security.
+p55
+aVAnd why do I say that?
+p56
+aVBecause that's when implanted devices inside of people
+p57
+aVstarted to have networking capabilities.
+p58
+aVOne thing that brings us close to home is we look
+p59
+aVat Dick Cheney's device, he had a device that
+p60
+aVpumped blood from an aorta to another part of the heart,
+p61
+aVand as you can see at the bottom there,
+p62
+aVit was controlled by a computer controller,
+p63
+aVand if you ever thought that software liability
+p64
+aVwas very important, get one of these inside of you.
+p65
+aa(lp66
+VNow what a research team did was they got their hands
+p67
+aVon what's called an ICD.
+p68
+aVThis is a defibrillator, and this is a device
+p69
+aVthat goes into a person to control their heart rhythm,
+p70
+aVand these have saved many lives.
+p71
+aVWell, in order to not have to open up the person
+p72
+aVevery time you want to reprogram their device
+p73
+aVor do some diagnostics on it, they made the thing be able
+p74
+aVto communicate wirelessly, and what this research team did
+p75
+aVis they reverse engineered the wireless protocol,
+p76
+aVand they built the device you see pictured here,
+p77
+aVwith a little antenna, that could talk the protocol
+p78
+aVto the device, and thus control it.
+p79
+aVIn order to make their experience real \u2014 they were unable
+p80
+aVto find any volunteers, and so they went
+p81
+aVand they got some ground beef and some bacon
+p82
+aVand they wrapped it all up to about the size
+p83
+aVof a human being's area where the device would go,
+p84
+aVand they stuck the device inside it
+p85
+aVto perform their experiment somewhat realistically.
+p86
+aVThey launched many, many successful attacks.
+p87
+aVOne that I'll highlight here is changing the patient's name.
+p88
+aVI don't know why you would want to do that,
+p89
+aVbut I sure wouldn't want that done to me.
+p90
+aVAnd they were able to change therapies,
+p91
+aVincluding disabling the device \u2014 and this is with a real,
+p92
+aVcommercial, off-the-shelf device \u2014
+p93
+aVsimply by performing reverse engineering and sending
+p94
+aVwireless signals to it.
+p95
+aa(lp96
+VThere was a piece on NPR that some of these ICDs
+p97
+aVcould actually have their performance disrupted
+p98
+aVsimply by holding a pair of headphones onto them.
+p99
+aa(lp100
+VNow, wireless and the Internet
+p101
+aVcan improve health care greatly.
+p102
+aVThere's several examples up on the screen
+p103
+aVof situations where doctors are looking to implant devices
+p104
+aVinside of people, and all of these devices now,
+p105
+aVit's standard that they communicate wirelessly,
+p106
+aVand I think this is great,
+p107
+aVbut without a full understanding of trustworthy computing,
+p108
+aVand without understanding what attackers can do
+p109
+aVand the security risks from the beginning,
+p110
+aVthere's a lot of danger in this.
+p111
+aa(lp112
+VOkay, let me shift gears and show you another target.
+p113
+aVI'm going to show you a few different targets like this,
+p114
+aVand that's my talk. So we'll look at automobiles.
+p115
+aa(lp116
+VThis is a car, and it has a lot of components,
+p117
+aVa lot of electronics in it today.
+p118
+aVIn fact, it's got many, many different computers inside of it,
+p119
+aVmore Pentiums than my lab did when I was in college,
+p120
+aVand they're connected by a wired network.
+p121
+aVThere's also a wireless network in the car,
+p122
+aVwhich can be reached from many different ways.
+p123
+aVSo there's Bluetooth, there's the FM and XM radio,
+p124
+aVthere's actually wi-fi, there's sensors in the wheels
+p125
+aVthat wirelessly communicate the tire pressure
+p126
+aVto a controller on board.
+p127
+aVThe modern car is a sophisticated multi-computer device.
+p128
+aa(lp129
+VAnd what happens if somebody wanted to attack this?
+p130
+aVWell, that's what the researchers
+p131
+aVthat I'm going to talk about today did.
+p132
+aVThey basically stuck an attacker on the wired network
+p133
+aVand on the wireless network.
+p134
+aVNow, they have two areas they can attack.
+p135
+aVOne is short-range wireless, where you can actually
+p136
+aVcommunicate with the device from nearby,
+p137
+aVeither through Bluetooth or wi-fi,
+p138
+aVand the other is long-range, where you can communicate
+p139
+aVwith the car through the cellular network,
+p140
+aVor through one of the radio stations.
+p141
+aVThink about it. When a car receives a radio signal,
+p142
+aVit's processed by software.
+p143
+aVThat software has to receive and decode the radio signal,
+p144
+aVand then figure out what to do with it,
+p145
+aVeven if it's just music that it needs to play on the radio,
+p146
+aVand that software that does that decoding,
+p147
+aVif it has any bugs in it, could create a vulnerability
+p148
+aVfor somebody to hack the car.
+p149
+aa(lp150
+VThe way that the researchers did this work is,
+p151
+aVthey read the software in the computer chips
+p152
+aVthat were in the car, and then they used sophisticated
+p153
+aVreverse engineering tools
+p154
+aVto figure out what that software did,
+p155
+aVand then they found vulnerabilities in that software,
+p156
+aVand then they built exploits to exploit those.
+p157
+aVThey actually carried out their attack in real life.
+p158
+aVThey bought two cars, and I guess
+p159
+aVthey have better budgets than I do.
+p160
+aVThe first threat model was to see what someone could do
+p161
+aVif an attacker actually got access
+p162
+aVto the internal network on the car.
+p163
+aVOkay, so think of that as, someone gets to go to your car,
+p164
+aVthey get to mess around with it, and then they leave,
+p165
+aVand now, what kind of trouble are you in?
+p166
+aVThe other threat model is that they contact you
+p167
+aVin real time over one of the wireless networks
+p168
+aVlike the cellular, or something like that,
+p169
+aVnever having actually gotten physical access to your car.
+p170
+aa(lp171
+VThis is what their setup looks like for the first model,
+p172
+aVwhere you get to have access to the car.
+p173
+aVThey put a laptop, and they connected to the diagnostic unit
+p174
+aVon the in-car network, and they did all kinds of silly things,
+p175
+aVlike here's a picture of the speedometer
+p176
+aVshowing 140 miles an hour when the car's in park.
+p177
+aVOnce you have control of the car's computers,
+p178
+aVyou can do anything.
+p179
+aVNow you might say, "Okay, that's silly."
+p180
+aVWell, what if you make the car always say
+p181
+aVit's going 20 miles an hour slower than it's actually going?
+p182
+aVYou might produce a lot of speeding tickets.
+p183
+aa(lp184
+VThen they went out to an abandoned airstrip with two cars,
+p185
+aVthe target victim car and the chase car,
+p186
+aVand they launched a bunch of other attacks.
+p187
+aVOne of the things they were able to do from the chase car
+p188
+aVis apply the brakes on the other car,
+p189
+aVsimply by hacking the computer.
+p190
+aVThey were able to disable the brakes.
+p191
+aVThey also were able to install malware that wouldn't kick in
+p192
+aVand wouldn't trigger until the car was doing something like
+p193
+aVgoing over 20 miles an hour, or something like that.
+p194
+aVThe results are astonishing, and when they gave this talk,
+p195
+aVeven though they gave this talk at a conference
+p196
+aVto a bunch of computer security researchers,
+p197
+aVeverybody was gasping.
+p198
+aVThey were able to take over a bunch of critical computers
+p199
+aVinside the car: the brakes computer, the lighting computer,
+p200
+aVthe engine, the dash, the radio, etc.,
+p201
+aVand they were able to perform these on real commercial
+p202
+aVcars that they purchased using the radio network.
+p203
+aVThey were able to compromise every single one of the
+p204
+aVpieces of software that controlled every single one
+p205
+aVof the wireless capabilities of the car.
+p206
+aVAll of these were implemented successfully.
+p207
+aa(lp208
+VHow would you steal a car in this model?
+p209
+aVWell, you compromise the car by a buffer overflow
+p210
+aVof vulnerability in the software, something like that.
+p211
+aVYou use the GPS in the car to locate it.
+p212
+aVYou remotely unlock the doors through the computer
+p213
+aVthat controls that, start the engine, bypass anti-theft,
+p214
+aVand you've got yourself a car.
+p215
+aa(lp216
+VSurveillance was really interesting.
+p217
+aVThe authors of the study have a video where they show
+p218
+aVthemselves taking over a car and then turning on
+p219
+aVthe microphone in the car, and listening in on the car
+p220
+aVwhile tracking it via GPS on a map,
+p221
+aVand so that's something that the drivers of the car
+p222
+aVwould never know was happening.
+p223
+aa(lp224
+VAm I scaring you yet?
+p225
+aVI've got a few more of these interesting ones.
+p226
+aVThese are ones where I went to a conference,
+p227
+aVand my mind was just blown, and I said,
+p228
+aV"I have to share this with other people."
+p229
+aa(lp230
+VThis was Fabian Monrose's lab
+p231
+aVat the University of North Carolina, and what they did was
+p232
+aVsomething intuitive once you see it,
+p233
+aVbut kind of surprising.
+p234
+aVThey videotaped people on a bus,
+p235
+aVand then they post-processed the video.
+p236
+aVWhat you see here in number one is a
+p237
+aVreflection in somebody's glasses of the smartphone
+p238
+aVthat they're typing in.
+p239
+aVThey wrote software to stabilize \u2014
+p240
+aVeven though they were on a bus
+p241
+aVand maybe someone's holding their phone at an angle \u2014
+p242
+aVto stabilize the phone, process it, and
+p243
+aVyou may know on your smartphone, when you type
+p244
+aVa password, the keys pop out a little bit, and they were able
+p245
+aVto use that to reconstruct what the person was typing,
+p246
+aVand had a language model for detecting typing.
+p247
+aVWhat was interesting is, by videotaping on a bus,
+p248
+aVthey were able to produce exactly what people
+p249
+aVon their smartphones were typing,
+p250
+aVand then they had a surprising result, which is that
+p251
+aVtheir software had not only done it for their target,
+p252
+aVbut other people who accidentally happened
+p253
+aVto be in the picture, they were able to produce
+p254
+aVwhat those people had been typing, and that was kind of
+p255
+aVan accidental artifact of what their software was doing.
+p256
+aa(lp257
+VI'll show you two more. One is P25 radios.
+p258
+aVP25 radios are used by law enforcement
+p259
+aVand all kinds of government agencies
+p260
+aVand people in combat to communicate,
+p261
+aVand there's an encryption option on these phones.
+p262
+aVThis is what the phone looks like. It's not really a phone.
+p263
+aVIt's more of a two-way radio.
+p264
+aVMotorola makes the most widely used one, and you can see
+p265
+aVthat they're used by Secret Service, they're used in combat,
+p266
+aVit's a very, very common standard in the U.S. and elsewhere.
+p267
+aVSo one question the researchers asked themselves is,
+p268
+aVcould you block this thing, right?
+p269
+aVCould you run a denial-of-service,
+p270
+aVbecause these are first responders?
+p271
+aVSo, would a terrorist organization want to black out the
+p272
+aVability of police and fire to communicate at an emergency?
+p273
+aVThey found that there's this GirlTech device used for texting
+p274
+aVthat happens to operate at the same exact frequency
+p275
+aVas the P25, and they built what they called
+p276
+aVMy First Jammer. (Laughter)
+p277
+aVIf you look closely at this device,
+p278
+aVit's got a switch for encryption or cleartext.
+p279
+aVLet me advance the slide, and now I'll go back.
+p280
+aVYou see the difference?
+p281
+aVThis is plain text. This is encrypted.
+p282
+aVThere's one little dot that shows up on the screen,
+p283
+aVand one little tiny turn of the switch.
+p284
+aVAnd so the researchers asked themselves, "I wonder how
+p285
+aVmany times very secure, important, sensitive conversations
+p286
+aVare happening on these two-way radios where they forget
+p287
+aVto encrypt and they don't notice that they didn't encrypt?"
+p288
+aa(lp289
+VSo they bought a scanner. These are perfectly legal
+p290
+aVand they run at the frequency of the P25,
+p291
+aVand what they did is they hopped around frequencies
+p292
+aVand they wrote software to listen in.
+p293
+aVIf they found encrypted communication, they stayed
+p294
+aVon that channel and they wrote down, that's a channel
+p295
+aVthat these people communicate in,
+p296
+aVthese law enforcement agencies,
+p297
+aVand they went to 20 metropolitan areas and listened in
+p298
+aVon conversations that were happening at those frequencies.
+p299
+aVThey found that in every metropolitan area,
+p300
+aVthey would capture over 20 minutes a day
+p301
+aVof cleartext communication.
+p302
+aVAnd what kind of things were people talking about?
+p303
+aVWell, they found the names and information
+p304
+aVabout confidential informants. They found information
+p305
+aVthat was being recorded in wiretaps,
+p306
+aVa bunch of crimes that were being discussed,
+p307
+aVsensitive information.
+p308
+aVIt was mostly law enforcement and criminal.
+p309
+aVThey went and reported this to the law enforcement
+p310
+aVagencies, after anonymizing it,
+p311
+aVand the vulnerability here is simply the user interface
+p312
+aVwasn't good enough. If you're talking
+p313
+aVabout something really secure and sensitive, it should
+p314
+aVbe really clear to you that this conversation is encrypted.
+p315
+aVThat one's pretty easy to fix.
+p316
+aa(lp317
+VThe last one I thought was really, really cool,
+p318
+aVand I just had to show it to you, it's probably not something
+p319
+aVthat you're going to lose sleep over
+p320
+aVlike the cars or the defibrillators,
+p321
+aVbut it's stealing keystrokes.
+p322
+aVNow, we've all looked at smartphones upside down.
+p323
+aVEvery security expert wants to hack a smartphone,
+p324
+aVand we tend to look at the USB port, the GPS for tracking,
+p325
+aVthe camera, the microphone, but no one up till this point
+p326
+aVhad looked at the accelerometer.
+p327
+aVThe accelerometer is the thing that determines
+p328
+aVthe vertical orientation of the smartphone.
+p329
+aVAnd so they had a simple setup.
+p330
+aVThey put a smartphone next to a keyboard,
+p331
+aVand they had people type, and then their goal was
+p332
+aVto use the vibrations that were created by typing
+p333
+aVto measure the change in the accelerometer reading
+p334
+aVto determine what the person had been typing.
+p335
+aVNow, when they tried this on an iPhone 3GS,
+p336
+aVthis is a graph of the perturbations that were created
+p337
+aVby the typing, and you can see that it's very difficult
+p338
+aVto tell when somebody was typing or what they were typing,
+p339
+aVbut the iPhone 4 greatly improved the accelerometer,
+p340
+aVand so the same measurement
+p341
+aVproduced this graph.
+p342
+aVNow that gave you a lot of information while someone
+p343
+aVwas typing, and what they did then is used advanced
+p344
+aVartificial intelligence techniques called machine learning
+p345
+aVto have a training phase,
+p346
+aVand so they got most likely grad students
+p347
+aVto type in a whole lot of things, and to learn,
+p348
+aVto have the system use the machine learning tools that
+p349
+aVwere available to learn what it is that the people were typing
+p350
+aVand to match that up
+p351
+aVwith the measurements in the accelerometer.
+p352
+aVAnd then there's the attack phase, where you get
+p353
+aVsomebody to type something in, you don't know what it was,
+p354
+aVbut you use your model that you created
+p355
+aVin the training phase to figure out what they were typing.
+p356
+aVThey had pretty good success. This is an article from the USA Today.
+p357
+aVThey typed in, "The Illinois Supreme Court has ruled
+p358
+aVthat Rahm Emanuel is eligible to run for Mayor of Chicago"
+p359
+aV\u2014 see, I tied it in to the last talk \u2014
+p360
+aV"and ordered him to stay on the ballot."
+p361
+aVNow, the system is interesting, because it produced
+p362
+aV"Illinois Supreme" and then it wasn't sure.
+p363
+aVThe model produced a bunch of options,
+p364
+aVand this is the beauty of some of the A.I. techniques,
+p365
+aVis that computers are good at some things,
+p366
+aVhumans are good at other things,
+p367
+aVtake the best of both and let the humans solve this one.
+p368
+aVDon't waste computer cycles.
+p369
+aVA human's not going to think it's the Supreme might.
+p370
+aVIt's the Supreme Court, right?
+p371
+aVAnd so, together we're able to reproduce typing
+p372
+aVsimply by measuring the accelerometer.
+p373
+aVWhy does this matter? Well, in the Android platform,
+p374
+aVfor example, the developers have a manifest
+p375
+aVwhere every device on there, the microphone, etc.,
+p376
+aVhas to register if you're going to use it
+p377
+aVso that hackers can't take over it,
+p378
+aVbut nobody controls the accelerometer.
+p379
+aa(lp380
+VSo what's the point? You can leave your iPhone next to
+p381
+aVsomeone's keyboard, and just leave the room,
+p382
+aVand then later recover what they did,
+p383
+aVeven without using the microphone.
+p384
+aVIf someone is able to put malware on your iPhone,
+p385
+aVthey could then maybe get the typing that you do
+p386
+aVwhenever you put your iPhone next to your keyboard.
+p387
+aa(lp388
+VThere's several other notable attacks that unfortunately
+p389
+aVI don't have time to go into, but the one that I wanted
+p390
+aVto point out was a group from the University of Michigan
+p391
+aVwhich was able to take voting machines,
+p392
+aVthe Sequoia AVC Edge DREs that
+p393
+aVwere going to be used in New Jersey in the election
+p394
+aVthat were left in a hallway, and put Pac-Man on it.
+p395
+aVSo they ran the Pac-Man game.
+p396
+aa(lp397
+VWhat does this all mean?
+p398
+aVWell, I think that society tends to adopt technology
+p399
+aVreally quickly. I love the next coolest gadget.
+p400
+aVBut it's very important, and these researchers are showing,
+p401
+aVthat the developers of these things
+p402
+aVneed to take security into account from the very beginning,
+p403
+aVand need to realize that they may have a threat model,
+p404
+aVbut the attackers may not be nice enough
+p405
+aVto limit themselves to that threat model,
+p406
+aVand so you need to think outside of the box.
+p407
+aa(lp408
+VWhat we can do is be aware
+p409
+aVthat devices can be compromised,
+p410
+aVand anything that has software in it
+p411
+aVis going to be vulnerable. It's going to have bugs.
+p412
+aVThank you very much. (Applause)
+p413
+aasS'transcript_micsec'
+p414
+(lp415
+I11000
+aI47000
+aI84000
+aI118000
+aI172000
+aI246000
+aI255000
+aI281000
+aI287000
+aI325000
+aI372000
+aI425000
+aI453000
+aI515000
+aI533000
+aI551000
+aI561000
+aI626000
+aI710000
+aI776000
+aI936000
+aI951000
+aI970000
+aI995000
+asS'talk_meta'
+p416
+(dp417
+S'ratings'
+p418
+(dp419
+S'ingenious'
+p420
+I81
+sS'funny'
+p421
+I47
+sS'inspiring'
+p422
+I54
+sS'ok'
+p423
+I102
+sS'fascinating'
+p424
+I295
+sS'total_count'
+p425
+I1746
+sS'persuasive'
+p426
+I146
+sS'longwinded'
+p427
+I27
+sS'unconvincing'
+p428
+I6
+sS'informative'
+p429
+I622
+sS'beautiful'
+p430
+I12
+sS'jaw-dropping'
+p431
+I318
+sS'obnoxious'
+p432
+I8
+sS'courageous'
+p433
+I18
+sS'confusing'
+p434
+I10
+ssS'author'
+p435
+VAvi_Rubin;
+p436
+sS'url'
+p437
+S'https://www.ted.com/talks/avi_rubin_all_your_devices_can_be_hacked'
+p438
+sS'vidlen'
+p439
+I1016
+sS'totalviews'
+p440
+I1110157
+sS'title'
+p441
+VAll your devices can be hacked
+p442
+sS'downloadlink'
+p443
+Vhttps://download.ted.com/talks/AviRubin_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p444
+sS'datepublished'
+p445
+cdatetime
+datetime
+p446
+(S'\x07\xdc\x02\x19\x0b1\x14\x00\x00\x00'
+tRp447
+sS'datefilmed'
+p448
+g446
+(S'\x07\xdc\x02\x19\x0b1\x14\x00\x00\x00'
+tRp449
+sS'alldata_JSON'
+p450
+S'{"viewed_count": 1110157, "speakers": [{"description": "Computer security expert", "firstname": "Avi", "title": "", "lastname": "Rubin", "middleinitial": "", "whylisten": "<p>Along  with running the Health and Medical Security Lab, Avi Rubin is also the  technical director of the JHU Information Security Institute. From 1997  to 2002, Avi was a researcher in AT&amp;T&rsquo;s Secure Systems Department,  where he focused on cryptography and network security. He is also  the founder of Harbor Labs, which provides expert testimony and review in legal cases related to  high tech security. Avi has authored several books related to electronic  security, including <a href=\\"http://geni.us/bravenewballot\\" target=\\"_blank\\"><em>Brave New Ballot</em></a><em>, </em>published in 2006.</p>", "slug": "avi_rubin", "whotheyare": "Avi Rubin is a professor of computer science and director of the Health and Medical Security Lab at Johns Hopkins University. His research is focused on the security of electronic records -- including medical and voting records.", "whatotherssay": "His explanation of the technological issues at the heart of electronic voting is clear, and his argument that votes need to be verifiable in order for the democratic process to be meaningful is so reasonable that it sounds almost revolutionary. ", "id": 1253, "photo_url": "https://pe.tedcdn.com/images/ted/06b2b081e417f10a0d143de8965a55e2f9002446_254x191.jpg"}], "current_talk": 1370, "description": "Could someone hack your pacemaker? Avi Rubin shows how hackers are compromising cars, smartphones and medical devices, and warns us about the dangers of an increasingly hack-able world.", "language": "en", "url": "https://www.ted.com/talks/avi_rubin_all_your_devices_can_be_hacked", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AviRubin_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120761962}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AviRubin_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23268090}, "podcast-high": {"uri": "https://download.ted.com/talks/AviRubin_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120771685}, "180k": {"uri": "https://download.ted.com/talks/AviRubin_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23158284}, "64k": {"uri": "https://download.ted.com/talks/AviRubin_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8334637}, "1500k": {"uri": "https://download.ted.com/talks/AviRubin_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 187888247}, "450k": {"uri": "https://download.ted.com/talks/AviRubin_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57441830}, "podcast-regular": {"uri": "https://download.ted.com/talks/AviRubin_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57716434}, "950k": {"uri": "https://download.ted.com/talks/AviRubin_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120518417}, "audio-podcast": {"uri": "https://download.ted.com/talks/AviRubin_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10438839}, "podcast-light": {"uri": "https://download.ted.com/talks/AviRubin_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8434459}, "320k": {"uri": "https://download.ted.com/talks/AviRubin_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40949903}, "600k": {"uri": "https://download.ted.com/talks/AviRubin_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 76428557}}}, "comments": {"count": 100, "id": 10875, "talk_id": 1370}, "slug": "avi_rubin_all_your_devices_can_be_hacked", "threadId": 10875, "talks": [{"event": "TEDxMidAtlantic", "player_talks": [{"event": "TEDxMidAtlantic", "slug": "avi_rubin_all_your_devices_can_be_hacked", "filmed": 1319846400, "targeting": {"event": "TEDxMidAtlantic", "tag": "Internet,TEDx,computers,hack,security,technology", "id": 1370, "talk": "avi_rubin_all_your_devices_can_be_hacked", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "All your devices can be hacked", "postAdDuration": "0.83", "published": 1330188560, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/db094e19db32cb842b63f52a39cf02858bf6457a_2880x1620.jpg?quality=89&w=600", "name": "Avi Rubin: All your devices can be hacked", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "TEDx", "computers", "hack", "security", "technology"], "speaker": "Avi Rubin", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1016, "id": 1370, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AviRubin_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxMidAtlantic", "tag": "Internet,TEDx,computers,hack,security,technology", "id": 1370, "talk": "avi_rubin_all_your_devices_can_be_hacked", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1370.json", "stream": "https://hls.ted.com/talks/1370.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxMidAtlantic%26id%3D1370%26tag%3DInternet%2CTEDx%2Ccomputers%2Chack%2Csecurity%2Ctechnology%26talk%3Davi_rubin_all_your_devices_can_be_hacked%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/avi_rubin_all_your_devices_can_be_hacked"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/db094e19db32cb842b63f52a39cf02858bf6457a_2880x1620.jpg?q=50&w=15", "duration": 1016, "id": 1370, "ratings": [{"count": 622, "id": 8, "name": "Informative"}, {"count": 295, "id": 22, "name": "Fascinating"}, {"count": 318, "id": 23, "name": "Jaw-dropping"}, {"count": 146, "id": 24, "name": "Persuasive"}, {"count": 81, "id": 9, "name": "Ingenious"}, {"count": 47, "id": 7, "name": "Funny"}, {"count": 54, "id": 10, "name": "Inspiring"}, {"count": 12, "id": 1, "name": "Beautiful"}, {"count": 102, "id": 25, "name": "OK"}, {"count": 18, "id": 3, "name": "Courageous"}, {"count": 8, "id": 26, "name": "Obnoxious"}, {"count": 10, "id": 2, "name": "Confusing"}, {"count": 27, "id": 11, "name": "Longwinded"}, {"count": 6, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Computer security expert", "firstname": "Avi", "title": "", "lastname": "Rubin", "middleinitial": "", "whylisten": "<p>Along  with running the Health and Medical Security Lab, Avi Rubin is also the  technical director of the JHU Information Security Institute. From 1997  to 2002, Avi was a researcher in AT&amp;T&rsquo;s Secure Systems Department,  where he focused on cryptography and network security. He is also  the founder of Harbor Labs, which provides expert testimony and review in legal cases related to  high tech security. Avi has authored several books related to electronic  security, including <a href=\\"http://geni.us/bravenewballot\\" target=\\"_blank\\"><em>Brave New Ballot</em></a><em>, </em>published in 2006.</p>", "slug": "avi_rubin", "whotheyare": "Avi Rubin is a professor of computer science and director of the Health and Medical Security Lab at Johns Hopkins University. His research is focused on the security of electronic records -- including medical and voting records.", "whatotherssay": "His explanation of the technological issues at the heart of electronic voting is clear, and his argument that votes need to be verifiable in order for the democratic process to be meaningful is so reasonable that it sounds almost revolutionary. ", "id": 1253, "photo_url": "https://pe.tedcdn.com/images/ted/06b2b081e417f10a0d143de8965a55e2f9002446_254x191.jpg"}], "title": "All your devices can be hacked", "take_action": null, "comments": 10875, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/db094e19db32cb842b63f52a39cf02858bf6457a_2880x1620.jpg", "description": "Could someone hack your pacemaker? Avi Rubin shows how hackers are compromising cars, smartphones and medical devices, and warns us about the dangers of an increasingly hack-able world.", "tags": ["Internet", "TEDx", "computers", "hack", "security", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AviRubin_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AviRubin_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AviRubin_2011X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AviRubin_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AviRubin_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AviRubin_2011X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/AviRubin_2011X-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AviRubin_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AviRubin_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AviRubin_2011X-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AviRubin_2011X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AviRubin_2011X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AviRubin_2011X-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/AviRubin_2011X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AviRubin_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AviRubin_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AviRubin_2011X-low-fr.mp4"}, "da": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/AviRubin_2011X-low-da.mp4"}, "hu": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AviRubin_2011X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AviRubin_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AviRubin_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AviRubin_2011X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AviRubin_2011X-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/AviRubin_2011X-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AviRubin_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AviRubin_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AviRubin_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1370, "audioDownload": "https://download.ted.com/talks/AviRubin_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 474411, "hero": "https://pe.tedcdn.com/images/ted/936b0ce34f35ad688995ebb3211275fc8744d7b8_800x600.jpg", "title": "How cyberattacks threaten real-world peace", "id": 1250, "speaker": "Guy-Philippe Goldstein", "duration": 564, "slug": "guy_philippe_goldstein_how_cyberattacks_threaten_real_world_peace"}, {"viewed_count": 959415, "hero": "https://pe.tedcdn.com/images/ted/250c558c0c61fa283e06b0ee40a19af0e3045c2a_800x600.jpg", "title": "Three types of online attack", "id": 1328, "speaker": "Mikko Hypponen", "duration": 563, "slug": "mikko_hypponen_three_types_of_online_attack"}, {"viewed_count": 1455311, "hero": "https://pe.tedcdn.com/images/ted/174869_800x600.jpg", "title": "The case for anonymity online", "id": 874, "speaker": "Christopher \\"moot\\" Poole\\"", "duration": 790, "slug": "christopher_m00t_poole_the_case_for_anonymity_online"}, {"viewed_count": 731513, "hero": "https://pe.tedcdn.com/images/ted/2ed41127a6fc618d170f172977de9ae0f409c2a1_800x600.jpg", "title": "How to fool a GPS", "id": 1507, "speaker": "Todd Humphreys", "duration": 945, "slug": "todd_humphreys_how_to_fool_a_gps"}, {"viewed_count": 437525, "hero": "https://pe.tedcdn.com/images/ted/f33d392bd6c0fccea109345bf3c6a747f0217a96_1600x1200.jpg", "title": "The idea behind Zipcar (and what comes next)", "id": 212, "speaker": "Robin Chase", "duration": 819, "slug": "robin_chase_on_zipcar_and_her_next_big_idea"}, {"viewed_count": 826198, "hero": "https://pe.tedcdn.com/images/ted/4165fdc540500a47d00915eb53de831abd15dd3b_1600x1200.jpg", "title": "If cars could talk, accidents might be avoidable", "id": 1724, "speaker": "Jennifer Healey", "duration": 540, "slug": "jennifer_healey_if_cars_could_talk_accidents_might_be_avoidable"}], "recorded_at": "2011-10-29T00:00:00.000+00:00", "slug": "avi_rubin_all_your_devices_can_be_hacked", "speaker_name": "Avi Rubin", "viewed_count": 1110157, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxMidAtlantic, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxMidAtlantic", "name": "Avi Rubin: All your devices can be hacked"}'
+p451
+sS'keywords'
+p452
+(lp453
+VInternet
+p454
+aVTEDx
+p455
+aVcomputers
+p456
+aVhack
+p457
+aVsecurity
+p458
+aVtechnology
+p459
+asS'datecrawled'
+p460
+g446
+(S'\x07\xe1\n\x17\x03\x087\x00\xfc\xf2'
+tRp461
+sS'id'
+p462
+I1370
+ss.

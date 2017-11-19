@@ -1,0 +1,792 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhat do you think of when I say the word "design"?
+p5
+aVYou probably think of things like this,
+p6
+aVfinely crafted objects that you can hold in your hand,
+p7
+aVor maybe logos and posters and maps
+p8
+aVthat visually explain things,
+p9
+aVclassic icons of timeless design.
+p10
+aVBut I'm not here to talk about that kind of design.
+p11
+aVI want to talk about the kind
+p12
+aVthat you probably use every day
+p13
+aVand may not give much thought to,
+p14
+aVdesigns that change all the time
+p15
+aVand that live inside your pocket.
+p16
+aVI'm talking about the design
+p17
+aVof digital experiences
+p18
+aVand specifically the design of systems
+p19
+aVthat are so big that their scale
+p20
+aVcan be hard to comprehend.
+p21
+aVConsider the fact that Google processes
+p22
+aVover one billion search queries every day,
+p23
+aVthat every minute, over 100 hours
+p24
+aVof footage are uploaded to YouTube.
+p25
+aVThat's more in a single day
+p26
+aVthan all three major U.S. networks broadcast
+p27
+aVin the last five years combined.
+p28
+aVAnd Facebook transmitting the photos,
+p29
+aVmessages and stories
+p30
+aVof over 1.23 billion people.
+p31
+aVThat's almost half of the Internet population,
+p32
+aVand a sixth of humanity.
+p33
+aa(lp34
+VThese are some of the products
+p35
+aVthat I've helped design over the course of my career,
+p36
+aVand their scale is so massive
+p37
+aVthat they've produced unprecedented
+p38
+aVdesign challenges.
+p39
+aVBut what is really hard
+p40
+aVabout designing at scale is this:
+p41
+aVIt's hard in part because
+p42
+aVit requires a combination of two things,
+p43
+aVaudacity and humility \u2014
+p44
+aVaudacity to believe that the thing that you're making
+p45
+aVis something that the entire world wants and needs,
+p46
+aVand humility to understand that as a designer,
+p47
+aVit's not about you or your portfolio,
+p48
+aVit's about the people that you're designing for,
+p49
+aVand how your work just might help them
+p50
+aVlive better lives.
+p51
+aVNow, unfortunately, there's no school
+p52
+aVthat offers the course Designing for Humanity 101.
+p53
+aVI and the other designers
+p54
+aVwho work on these kinds of products
+p55
+aVhave had to invent it as we go along,
+p56
+aVand we are teaching ourselves
+p57
+aVthe emerging best practices
+p58
+aVof designing at scale,
+p59
+aVand today I'd like share some of the things
+p60
+aVthat we've learned over the years.
+p61
+aa(lp62
+VNow, the first thing that you need to know
+p63
+aVabout designing at scale
+p64
+aVis that the little things really matter.
+p65
+aVHere's a really good example of how
+p66
+aVa very tiny design element can make a big impact.
+p67
+aVThe team at Facebook that manages
+p68
+aVthe Facebook "Like" button
+p69
+aVdecided that it needed to be redesigned.
+p70
+aVThe button had kind of gotten out of sync
+p71
+aVwith the evolution of our brand
+p72
+aVand it needed to be modernized.
+p73
+aVNow you might think, well, it's a tiny little button,
+p74
+aVit probably is a pretty straightforward,
+p75
+aVeasy design assignment, but it wasn't.
+p76
+aVTurns out, there were all kinds of constraints
+p77
+aVfor the design of this button.
+p78
+aVYou had to work within specific height and width parameters.
+p79
+aVYou had to be careful to make it work
+p80
+aVin a bunch of different languages,
+p81
+aVand be careful about using fancy gradients or borders
+p82
+aVbecause it has to degrade gracefully
+p83
+aVin old web browsers.
+p84
+aVThe truth is, designing this tiny little button
+p85
+aVwas a huge pain in the butt.
+p86
+aa(lp87
+VNow, this is the new version of the button,
+p88
+aVand the designer who led this project estimates
+p89
+aVthat he spent over 280 hours
+p90
+aVredesigning this button over the course of months.
+p91
+aVNow, why would we spend so much time
+p92
+aVon something so small?
+p93
+aVIt's because when you're designing at scale,
+p94
+aVthere's no such thing as a small detail.
+p95
+aVThis innocent little button
+p96
+aVis seen on average 22 billion times a day
+p97
+aVand on over 7.5 million websites.
+p98
+aVIt's one of the single most viewed design elements ever created.
+p99
+aVNow that's a lot of pressure for a little button
+p100
+aVand the designer behind it,
+p101
+aVbut with these kinds of products,
+p102
+aVyou need to get even the tiny things right.
+p103
+aa(lp104
+VNow, the next thing that you need to understand
+p105
+aVis how to design with data.
+p106
+aVNow, when you're working on products like this,
+p107
+aVyou have incredible amounts of information
+p108
+aVabout how people are using your product
+p109
+aVthat you can then use to influence
+p110
+aVyour design decisions,
+p111
+aVbut it's not just as simple as following the numbers.
+p112
+aVLet me give you an example
+p113
+aVso that you can understand what I mean.
+p114
+aVFacebook has had a tool for a long time
+p115
+aVthat allowed people to report photos
+p116
+aVthat may be in violation of our community standards,
+p117
+aVthings like spam and abuse.
+p118
+aVAnd there were a ton of photos reported,
+p119
+aVbut as it turns out,
+p120
+aVonly a small percentage were actually
+p121
+aVin violation of those community standards.
+p122
+aVMost of them were just your typical party photo.
+p123
+aVNow, to give you a specific hypothetical example,
+p124
+aVlet's say my friend Laura hypothetically
+p125
+aVuploads a picture of me
+p126
+aVfrom a drunken night of karaoke.
+p127
+aVThis is purely hypothetical, I can assure you.
+p128
+aV(Laughter)
+p129
+aVNow, incidentally,
+p130
+aVyou know how some people are kind of worried
+p131
+aVthat their boss or employee
+p132
+aVis going to discover embarrassing photos of them
+p133
+aVon Facebook?
+p134
+aVDo you know how hard that is to avoid
+p135
+aVwhen you actually work at Facebook?
+p136
+aVSo anyway, there are lots of these photos
+p137
+aVbeing erroneously reported as spam and abuse,
+p138
+aVand one of the engineers on the team had a hunch.
+p139
+aVHe really thought there was something else going on
+p140
+aVand he was right,
+p141
+aVbecause when he looked through a bunch of the cases,
+p142
+aVhe found that most of them
+p143
+aVwere from people who were requesting
+p144
+aVthe takedown of a photo of themselves.
+p145
+aVNow this was a scenario that the team
+p146
+aVnever even took into account before.
+p147
+aVSo they added a new feature
+p148
+aVthat allowed people to message their friend
+p149
+aVto ask them to take the photo down.
+p150
+aVBut it didn't work.
+p151
+aVOnly 20 percent of people
+p152
+aVsent the message to their friend.
+p153
+aVSo the team went back at it.
+p154
+aVThey consulted with experts in conflict resolution.
+p155
+aVThey even studied the universal principles
+p156
+aVof polite language,
+p157
+aVwhich I didn't even actually know existed
+p158
+aVuntil this research happened.
+p159
+aVAnd they found something really interesting.
+p160
+aVThey had to go beyond just helping people
+p161
+aVask their friend to take the photo down.
+p162
+aVThey had to help people express to their friend
+p163
+aVhow the photo made them feel.
+p164
+aa(lp165
+VHere's how the experience works today.
+p166
+aVSo I find this hypothetical photo of myself,
+p167
+aVand it's not spam, it's not abuse,
+p168
+aVbut I really wish it weren't on the site.
+p169
+aVSo I report it and I say,
+p170
+aV"I'm in this photo and I don't like it,"
+p171
+aVand then we dig deeper.
+p172
+aVWhy don't you like this photo of yourself?
+p173
+aVAnd I select "It's embarrassing."
+p174
+aVAnd then I'm encouraged to message my friend,
+p175
+aVbut here's the critical difference.
+p176
+aVI'm provided specific suggested language
+p177
+aVthat helps me communicate to Laura
+p178
+aVhow the photo makes me feel.
+p179
+aVNow the team found that this relatively small change
+p180
+aVhad a huge impact.
+p181
+aVBefore, only 20 percent of people
+p182
+aVwere sending the message,
+p183
+aVand now 60 percent were,
+p184
+aVand surveys showed that people
+p185
+aVon both sides of the conversation
+p186
+aVfelt better as a result.
+p187
+aVThat same survey showed
+p188
+aVthat 90 percent of your friends
+p189
+aVwant to know if they've done something to upset you.
+p190
+aVNow I don't know who the other 10 percent are,
+p191
+aVbut maybe that's where our "Unfriend" feature
+p192
+aVcan come in handy.
+p193
+aa(lp194
+VSo as you can see,
+p195
+aVthese decisions are highly nuanced.
+p196
+aVOf course we use a lot of data
+p197
+aVto inform our decisions,
+p198
+aVbut we also rely very heavily on iteration,
+p199
+aVresearch, testing, intuition, human empathy.
+p200
+aVIt's both art and science.
+p201
+aVNow, sometimes the designers who work on these products
+p202
+aVare called "data-driven,"
+p203
+aVwhich is a term that totally drives us bonkers.
+p204
+aVThe fact is, it would be irresponsible of us
+p205
+aVnot to rigorously test our designs
+p206
+aVwhen so many people are counting on us
+p207
+aVto get it right,
+p208
+aVbut data analytics
+p209
+aVwill never be a substitute for design intuition.
+p210
+aVData can help you make a good design great,
+p211
+aVbut it will never made a bad design good.
+p212
+aa(lp213
+VThe next thing that you need to understand as a principle
+p214
+aVis that when you introduce change,
+p215
+aVyou need to do it extraordinarily carefully.
+p216
+aVNow I often have joked that
+p217
+aVI spend almost as much time
+p218
+aVdesigning the introduction of change
+p219
+aVas I do the change itself,
+p220
+aVand I'm sure that we can all relate to that
+p221
+aVwhen something that we use a lot changes
+p222
+aVand then we have to adjust.
+p223
+aVThe fact is, people can become
+p224
+aVvery efficient at using bad design,
+p225
+aVand so even if the change is good for them in the long run,
+p226
+aVit's still incredibly frustrating when it happens,
+p227
+aVand this is particularly true
+p228
+aVwith user-generated content platforms,
+p229
+aVbecause people can rightfully claim a sense of ownership.
+p230
+aVIt is, after all, their content.
+p231
+aa(lp232
+VNow, years ago, when I was working at YouTube,
+p233
+aVwe were looking for ways to
+p234
+aVencourage more people to rate videos,
+p235
+aVand it was interesting because when we looked into the data,
+p236
+aVwe found that almost everyone was exclusively using
+p237
+aVthe highest five-star rating,
+p238
+aVa handful of people were using
+p239
+aVthe lowest one-star,
+p240
+aVand virtually no one
+p241
+aVwas using two, three or four stars.
+p242
+aVSo we decided to simplify
+p243
+aVinto an up-down kind of voting binary model.
+p244
+aVIt's going to be much easier for people to engage with.
+p245
+aVBut people were very attached
+p246
+aVto the five-star rating system.
+p247
+aVVideo creators really loved their ratings.
+p248
+aVMillions and millions of people
+p249
+aVwere accustomed to the old design.
+p250
+aVSo in order to help people
+p251
+aVprepare themselves for change
+p252
+aVand acclimate to the new design more quickly,
+p253
+aVwe actually published the data graph
+p254
+aVsharing with the community
+p255
+aVthe rationale for what we were going to do,
+p256
+aVand it even engaged the larger industry
+p257
+aVin a conversation, which resulted in
+p258
+aVmy favorite TechCrunch headline of all time:
+p259
+aV"YouTube Comes to a 5-Star Realization:
+p260
+aVIts Ratings Are Useless."
+p261
+aa(lp262
+VNow, it's impossible to completely avoid
+p263
+aVchange aversion when you're making changes
+p264
+aVto products that so many people use.
+p265
+aVEven though we tried to do all the right things,
+p266
+aVwe still received our customary flood
+p267
+aVof video protests and angry emails
+p268
+aVand even a package that had to be scanned by security,
+p269
+aVbut we have to remember
+p270
+aVpeople care intensely about this stuff,
+p271
+aVand it's because these products, this work,
+p272
+aVreally, really matters to them.
+p273
+aa(lp274
+VNow, we know that we have to be careful
+p275
+aVabout paying attention to the details,
+p276
+aVwe have to be cognizant about how we use data
+p277
+aVin our design process,
+p278
+aVand we have to introduce change
+p279
+aVvery, very carefully.
+p280
+aVNow, these things are all really useful.
+p281
+aVThey're good best practices for designing at scale.
+p282
+aVBut they don't mean anything
+p283
+aVif you don't understand something
+p284
+aVmuch more fundamental.
+p285
+aVYou have to understand who you are designing for.
+p286
+aa(lp287
+VNow, when you set a goal to design
+p288
+aVfor the entire human race,
+p289
+aVand you start to engage in that goal in earnest,
+p290
+aVat some point you run into the walls
+p291
+aVof the bubble that you're living in.
+p292
+aVNow, in San Francisco, we get a little miffed
+p293
+aVwhen we hit a dead cell zone
+p294
+aVbecause we can't use our phones to navigate
+p295
+aVto the new hipster coffee shop.
+p296
+aVBut what if you had to drive four hours
+p297
+aVto charge your phone
+p298
+aVbecause you had no reliable source of electricity?
+p299
+aVWhat if you had no access to public libraries?
+p300
+aVWhat if your country had no free press?
+p301
+aVWhat would these products start to mean to you?
+p302
+aVThis is what Google, YouTube and Facebook
+p303
+aVlook like to most of the world,
+p304
+aVand it's what they'll look like
+p305
+aVto most of the next five billion people
+p306
+aVto come online.
+p307
+aVDesigning for low-end cell phones
+p308
+aVis not glamorous design work,
+p309
+aVbut if you want to design for the whole world,
+p310
+aVyou have to design for where people are,
+p311
+aVand not where you are.
+p312
+aa(lp313
+VSo how do we keep this big, big picture in mind?
+p314
+aVWe try to travel outside of our bubble to see, hear
+p315
+aVand understand the people we're designing for.
+p316
+aVWe use our products in non-English languages
+p317
+aVto make sure that they work just as well.
+p318
+aVAnd we try to use one of these phones from time to time
+p319
+aVto keep in touch with their reality.
+p320
+aa(lp321
+VSo what does it mean to design at a global scale?
+p322
+aVIt means difficult and sometimes exasperating work
+p323
+aVto try to improve and evolve products.
+p324
+aVFinding the audacity and the humility to do right by them
+p325
+aVcan be pretty exhausting,
+p326
+aVand the humility part,
+p327
+aVit's a little tough on the design ego.
+p328
+aVBecause these products are always changing,
+p329
+aVeverything that I've designed in my career
+p330
+aVis pretty much gone,
+p331
+aVand everything that I will design will fade away.
+p332
+aVBut here's what remains:
+p333
+aVthe never-ending thrill
+p334
+aVof being a part of something that is so big,
+p335
+aVyou can hardly get your head around it,
+p336
+aVand the promise that it just might change the world.
+p337
+aa(lp338
+VThank you.
+p339
+aa(lp340
+V(Applause)
+p341
+aasS'transcript_micsec'
+p342
+(lp343
+I11000
+aI82000
+aI146000
+aI200000
+aI243000
+aI373000
+aI439000
+aI484000
+aI528000
+aI594000
+aI622000
+aI650000
+aI707000
+aI726000
+aI768000
+aI770000
+asS'talk_meta'
+p344
+(dp345
+S'ratings'
+p346
+(dp347
+S'beautiful'
+p348
+I91
+sS'ingenious'
+p349
+I46
+sS'inspiring'
+p350
+I444
+sS'ok'
+p351
+I200
+sS'fascinating'
+p352
+I259
+sS'funny'
+p353
+I37
+sS'total_count'
+p354
+I2499
+sS'persuasive'
+p355
+I161
+sS'longwinded'
+p356
+I88
+sS'informative'
+p357
+I927
+sS'jaw-dropping'
+p358
+I8
+sS'obnoxious'
+p359
+I66
+sS'confusing'
+p360
+I12
+sS'courageous'
+p361
+I20
+sS'unconvincing'
+p362
+I140
+ssS'author'
+p363
+VMargaret Gould_Stewart;
+p364
+sS'url'
+p365
+S'https://www.ted.com/talks/margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too'
+p366
+sS'vidlen'
+p367
+I776
+sS'totalviews'
+p368
+I1581889
+sS'title'
+p369
+VHow giant websites design for you (and a billion others, too)
+p370
+sS'downloadlink'
+p371
+Vhttps://download.ted.com/talks/MargaretStewart_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p372
+sS'datepublished'
+p373
+cdatetime
+datetime
+p374
+(S'\x07\xde\x08\x05\x0b\x13\x04\x00\x00\x00'
+tRp375
+sS'datefilmed'
+p376
+g374
+(S'\x07\xde\x08\x05\x0b\x13\x04\x00\x00\x00'
+tRp377
+sS'alldata_JSON'
+p378
+S'{"viewed_count": 1581889, "speakers": [{"description": "User experience master", "firstname": "Margaret Gould", "title": "", "lastname": "Stewart", "middleinitial": "", "whylisten": "<p>Margaret Gould Stewart has spent her career asking, &ldquo;How do we design user experiences that change the world in fundamental ways?&rdquo; It&#39;s a powerful question that has led her to manage user experiences for six of the ten most visited websites in the world, including Facebook, where she serves as Director of Product Design.</p>  <p>Before joining Facebook, Margaret managed the User Experience Team for YouTube, where she oversaw the largest redesign in the company&#39;s history, including the YouTube player page. She came to YouTube after two years leading Search and Consumer Products UX at Google. She approaches her work with a combined appreciation for timeless great design and transient digital technologies, and always with the end goal of improving people&#39;s lives. As she says: &quot;Design is creativity in service of others.&quot;</p>", "slug": "margaret_stewart", "whotheyare": "At Facebook (and previously at YouTube), Margaret Gould Stewart designs experiences that touch the lives of a large percentage of the world\'s population.", "whatotherssay": "", "id": 766, "photo_url": "https://pe.tedcdn.com/images/ted/5691f9850e65cb685720f7b70bb6dfbf6da6e152_254x191.jpg"}], "current_talk": 2039, "description": "Facebook\\u2019s \\u201clike\\u201d and \\u201cshare\\u201d buttons are seen 22 billion times a day, making them some of the most-viewed design elements ever created. Margaret Gould Stewart, Facebook\\u2019s director of product design, outlines three rules for design at such a massive scale\\u2014one so big that the tiniest of tweaks can cause global outrage, but also so large that the subtlest of improvements can positively impact the lives of many.", "language": "en", "url": "https://www.ted.com/talks/margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 92742043}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17951565}, "podcast-high": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 92727327}, "180k": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17701686}, "64k": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6383173}, "1500k": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 143644070}, "450k": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44182840}, "podcast-regular": {"uri": "https://download.ted.com/talks/MargaretStewart_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44297850}, "950k": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 92735497}, "audio-podcast": {"uri": "https://download.ted.com/talks/MargaretStewart_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8109241}, "podcast-light": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6516660}, "320k": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 31352499}, "600k": {"uri": "https://download.ted.com/talks/MargaretStewart_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59130991}}}, "comments": {"count": 111, "id": 26656, "talk_id": 2039}, "slug": "margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too", "threadId": 26656, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too", "filmed": 1395187200, "targeting": {"event": "TED2014", "tag": "business,culture,design,technology", "id": 2039, "talk": "margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "How giant websites design for you (and a billion others, too)", "postAdDuration": "0.83", "published": 1407251944, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/dad8156a2735b62bea89c854051e080a8a24c463_2400x1800.jpg?quality=89&w=600", "name": "Margaret Gould Stewart: How giant websites design for you (and a billion others, too)", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "culture", "design", "technology"], "speaker": "Margaret Gould Stewart", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 776, "id": 2039, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MargaretStewart_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "business,culture,design,technology", "id": 2039, "talk": "margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2039.json", "stream": "https://hls.ted.com/talks/2039.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D2039%26tag%3Dbusiness%2Cculture%2Cdesign%2Ctechnology%26talk%3Dmargaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/dad8156a2735b62bea89c854051e080a8a24c463_2400x1800.jpg?q=50&w=15", "duration": 776, "id": 2039, "ratings": [{"count": 927, "id": 8, "name": "Informative"}, {"count": 161, "id": 24, "name": "Persuasive"}, {"count": 444, "id": 10, "name": "Inspiring"}, {"count": 259, "id": 22, "name": "Fascinating"}, {"count": 88, "id": 11, "name": "Longwinded"}, {"count": 140, "id": 21, "name": "Unconvincing"}, {"count": 200, "id": 25, "name": "OK"}, {"count": 12, "id": 2, "name": "Confusing"}, {"count": 91, "id": 1, "name": "Beautiful"}, {"count": 20, "id": 3, "name": "Courageous"}, {"count": 46, "id": 9, "name": "Ingenious"}, {"count": 66, "id": 26, "name": "Obnoxious"}, {"count": 37, "id": 7, "name": "Funny"}, {"count": 8, "id": 23, "name": "Jaw-dropping"}], "speakers": [{"description": "User experience master", "firstname": "Margaret Gould", "title": "", "lastname": "Stewart", "middleinitial": "", "whylisten": "<p>Margaret Gould Stewart has spent her career asking, &ldquo;How do we design user experiences that change the world in fundamental ways?&rdquo; It&#39;s a powerful question that has led her to manage user experiences for six of the ten most visited websites in the world, including Facebook, where she serves as Director of Product Design.</p>  <p>Before joining Facebook, Margaret managed the User Experience Team for YouTube, where she oversaw the largest redesign in the company&#39;s history, including the YouTube player page. She came to YouTube after two years leading Search and Consumer Products UX at Google. She approaches her work with a combined appreciation for timeless great design and transient digital technologies, and always with the end goal of improving people&#39;s lives. As she says: &quot;Design is creativity in service of others.&quot;</p>", "slug": "margaret_stewart", "whotheyare": "At Facebook (and previously at YouTube), Margaret Gould Stewart designs experiences that touch the lives of a large percentage of the world\'s population.", "whatotherssay": "", "id": 766, "photo_url": "https://pe.tedcdn.com/images/ted/5691f9850e65cb685720f7b70bb6dfbf6da6e152_254x191.jpg"}], "title": "How giant websites design for you (and a billion others, too)", "take_action": [], "comments": 26656, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/dad8156a2735b62bea89c854051e080a8a24c463_2400x1800.jpg", "description": "Facebook\\u2019s \\u201clike\\u201d and \\u201cshare\\u201d buttons are seen 22 billion times a day, making them some of the most-viewed design elements ever created. Margaret Gould Stewart, Facebook\\u2019s director of product design, outlines three rules for design at such a massive scale\\u2014one so big that the tiniest of tweaks can cause global outrage, but also so large that the subtlest of improvements can positively impact the lives of many.", "tags": ["business", "culture", "design", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/MargaretStewart_2014-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MargaretStewart_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MargaretStewart_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MargaretStewart_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2039, "audioDownload": "https://download.ted.com/talks/MargaretStewart_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 780106, "hero": "https://pe.tedcdn.com/images/ted/177724_800x600.jpg", "title": "How YouTube thinks about copyright", "id": 885, "speaker": "Margaret Gould Stewart", "duration": 345, "slug": "margaret_stewart_how_youtube_thinks_about_copyright"}, {"viewed_count": 2160744, "hero": "https://pe.tedcdn.com/images/ted/e6e4ef87a73bd253bd522e0b65e4f8bcafcd2dfe_800x600.jpg", "title": "Why videos go viral", "id": 1371, "speaker": "Kevin Allocca", "duration": 440, "slug": "kevin_allocca_why_videos_go_viral"}, {"viewed_count": 790103, "hero": "https://pe.tedcdn.com/images/ted/7951_480x360.jpg", "title": "Human-centered design", "id": 122, "speaker": "David Kelley", "duration": 1020, "slug": "david_kelley_on_human_centered_design"}, {"viewed_count": 1354985, "hero": "https://pe.tedcdn.com/images/ted/118805_800x600.jpg", "title": "Designers -- think big!", "id": 646, "speaker": "Tim Brown", "duration": 1010, "slug": "tim_brown_urges_designers_to_think_big"}, {"viewed_count": 920599, "hero": "https://pe.tedcdn.com/images/ted/240feb1c3c0af45ef2004be80fe606388dbc8c79_2880x1620.jpg", "title": "Pirates, nurses and other rebel designers", "id": 2493, "speaker": "Alice Rawsthorn", "duration": 704, "slug": "alice_rawsthorn_pirates_nurses_and_other_rebel_designers"}, {"viewed_count": 1121861, "hero": "https://pe.tedcdn.com/images/ted/9e932131076a4970cec2fe7844e44d2cd163202d_2880x1620.jpg", "title": "Why design should include everyone", "id": 2810, "speaker": "Sin\\u00e9ad Burke", "duration": 597, "slug": "sinead_burke_why_design_should_include_everyone"}], "recorded_at": "2014-03-19T00:00:00.000+00:00", "slug": "margaret_gould_stewart_how_giant_websites_design_for_you_and_a_billion_others_too", "speaker_name": "Margaret Gould Stewart", "viewed_count": 1581889, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Margaret Gould Stewart recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "The Year of the Looking Glass", "link_url": "https://medium.com/the-year-of-the-looking-glass", "eyebrow": null, "label": "EXPLORE", "note": "Julie Zhuo", "position": null, "blurb": "My colleague Julie Zhuo publishes insightful posts on many aspects of designing at scale, and building and managing design teams, as well as general observations about our industry."}, {"is_pdf": false, "headline": "Product Design for the Web", "link_url": "http://www.amazon.com/Product-Design-Web-Principles-Designing/dp/0321929039/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Randy J. Hunt\\r\\nNew Riders, 2014", "position": null, "blurb": "One of the rare books on the subject, this title does a nice job of putting you inside the head of a modern-day digital product designer."}, {"is_pdf": false, "headline": "Should Tech Designers Go with Their Guts \\u2014 or the Data?\\r\\n", "link_url": "http://www.wired.com/2013/11/design-world-stop-fighting-over-data-vs-instinct/", "eyebrow": null, "label": "READ_Article", "note": "Braden Kowitz\\r\\n*Wired*, November 11, 2013", "position": null, "blurb": "Google has learned a lot about experimental design over the years, and this blog post outlines some interesting case studies and learnings."}, {"is_pdf": false, "headline": "Design for continuous experimentation", "link_url": "http://www.slideshare.net/danmckinley/design-for-continuous-experimentation", "eyebrow": null, "label": "READ_Article", "note": "Dan McKinley\\r\\nWarm Gun Design Conference, November 30, 2012", "position": null, "blurb": "A thoughtful and entertaining walk-through of some case studies for product launches, and how experimental design helped Etsy make the right design decisions."}, {"is_pdf": false, "headline": "Building Websites with Science", "link_url": "http://codeascraft.com/2012/06/21/building-websites-with-science/", "eyebrow": null, "label": "READ_Article", "note": "Peter Seibel\\r\\nCode as Craft, June 21, 2012", "position": null, "blurb": "One of Etsy\'s former software engineers shares a broad view of the scientific method and how it can be applied to product development. "}, {"is_pdf": false, "headline": "Change Aversion: Why Users Hate What You Launched (and What to Do about It)", "link_url": "https://www.gv.com/lib/change-aversion-why-users-hate-what-you-launched-and-what-to-do-about-it", "eyebrow": null, "label": "READ_Article", "note": "Aaron Sedley\\r\\nGoogle Ventures, April 24, 2012", "position": null, "blurb": "Some solid best practices for managing the introduction of change to platforms with a lot of existing usage. "}, {"is_pdf": false, "headline": "Here Comes Everybody", "link_url": "http://www.amazon.com/Here-Comes-Everybody-Organizing-Organizations/dp/0143114948/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Clay Shirky\\r\\nPenguin, 2009", "position": null, "blurb": "Clay Shirky is one of today\'s most insightful and accessible writers on how technology is impacting society, and vice versa. I always feel informed, inspired and entertained from his work. "}, {"is_pdf": false, "headline": "Hidden in Plain Sight", "link_url": "http://www.amazon.com/Hidden-Plain-Sight-Extraordinary-Tomorrows/dp/0062125699/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Jan Chipchase with Simon Steinhardt\\r\\nHarperCollins, 2013", "position": null, "blurb": "Jan Chipchase is one of the world\'s experts on emerging markets; his regular reports from the field are a fascinating way to stay aware of the bubble many of us live in while we try to design for the whole world. [His blog](http://janchipchase.com/) is also great to follow."}], "title": "Designing at a global scale"}, {"description": "", "rec_items": [{"is_pdf": false, "headline": "The Design of Everyday Things", "link_url": "http://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Don Norman\\r\\nBasic Books, 2013", "position": null, "blurb": "Originally published in 1988, this is a longstanding classic in the field (25 years is a long time in technology!) which really helps you see the world around you differently. We are surrounded by design, and yet we don\'t always have the vocabulary to describe what works and what doesn\'t. This book provides readers with a solid start to that vocabulary. "}, {"is_pdf": false, "headline": "How We Decide", "link_url": "http://www.amazon.com/How-We-Decide-Jonah-Lehrer/dp/0547247990/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Jonah Lehrer\\r\\nMariner Books, 2010", "position": null, "blurb": "Facilitating effective decision-making is crucial to great interaction design. When faced with choices, why do we choose one thing over the other? How might we help people make the decision that\'s best for them? A very accessible and interesting read on the psychology of decision-making. "}, {"is_pdf": false, "headline": "The Laws of Simplicity", "link_url": "http://www.amazon.com/Laws-Simplicity-Design-Technology-Business/dp/0262134721/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "John Maeda\\r\\nThe MIT Press, 2006", "position": null, "blurb": "This slim but insightful volume delves deeply into the concept of simplicity, and applies that principle in a variety of contexts, including design, technology and more generally our day-to-day lives."}, {"is_pdf": false, "headline": "The Universal Principles of Design", "link_url": "http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "William Lidwell et al.\\r\\nRockport Publishers, 2010", "position": null, "blurb": "A great introduction to design for those interested in understanding the hows and the whys. It\'s a fairly comprehensive overview of the concepts, terminology and theories that drive much of the conversation around design today. It\'s also something you can pick up and put down easily due to its easily digestible format. I sometimes refer to it, lovingly, as the Uncle John\'s Reader for design. "}, {"is_pdf": false, "headline": "How Buildings Learn", "link_url": "http://www.amazon.com/How-Buildings-Learn-Happens-Theyre/dp/0140139966/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Stewart Brand\\r\\nPenguin, 1995", "position": null, "blurb": "For me, architecture has always been the design discipline that has the most in common with interaction design. In this book, Brand considers how design changes \\u2014 and must change \\u2014 over time, but also how some designs endure while others deteriorate."}, {"is_pdf": false, "headline": "Understanding Comics", "link_url": "http://www.amazon.com/Understanding-Comics-The-Invisible-Art/dp/006097625X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Scott McCloud\\r\\nWilliam Morrow, 1994", "position": null, "blurb": "Entertaining and accessible, this seems to be a comic book about comic books. But it is also about something much broader: visual language and how it helps us interact and communicate. A great read for designers and non-designers alike."}], "title": "Great reads on design"}], "published": true, "type": "recommendation", "blurb": "The designer shares books, articles and websites about large-scale system design."}, "corrections": [{"timecode": "03:47", "text": "Regarding the stat on how many times a day the Facebook \\"Like\\" button is seen, I intended to say, \\"This little button, and the \\"Share\\" button that accompanies it, are seen on average 22 billion times a day.\\"", "type": "correction", "status": "approved", "published": true}]}], "event": "TED2014", "name": "Margaret Gould Stewart: How giant websites design for you (and a billion others, too)"}'
+p379
+sS'keywords'
+p380
+(lp381
+Vbusiness
+p382
+aVculture
+p383
+aVdesign
+p384
+aVtechnology
+p385
+asS'datecrawled'
+p386
+g374
+(S'\x07\xe1\n\x17\x02.\x19\x05\x8c\x8b'
+tRp387
+sS'id'
+p388
+I2039
+ss.

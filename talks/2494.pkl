@@ -1,0 +1,714 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo this is a talk about gene drives,
+p5
+aVbut I'm going to start by telling you a brief story.
+p6
+aV20 years ago, a biologist named Anthony James
+p7
+aVgot obsessed with the idea of making mosquitos
+p8
+aVthat didn't transmit malaria.
+p9
+aa(lp10
+VIt was a great idea, and pretty much a complete failure.
+p11
+aVFor one thing, it turned out to be really hard
+p12
+aVto make a malaria-resistant mosquito.
+p13
+aVJames managed it, finally, just a few years ago,
+p14
+aVby adding some genes that make it impossible
+p15
+aVfor the malaria parasite to survive inside the mosquito.
+p16
+aa(lp17
+VBut that just created another problem.
+p18
+aVNow that you've got a malaria-resistant mosquito,
+p19
+aVhow do you get it to replace all the malaria-carrying mosquitos?
+p20
+aVThere are a couple options,
+p21
+aVbut plan A was basically to breed up
+p22
+aVa bunch of the new genetically-engineered mosquitos
+p23
+aVrelease them into the wild
+p24
+aVand hope that they pass on their genes.
+p25
+aVThe problem was that you'd have to release
+p26
+aVliterally 10 times the number of native mosquitos to work.
+p27
+aVSo in a village with 10,000 mosquitos,
+p28
+aVyou release an extra 100,000.
+p29
+aVAs you might guess,
+p30
+aVthis was not a very popular strategy with the villagers.
+p31
+aa(lp32
+V(Laughter)
+p33
+aa(lp34
+VThen, last January, Anthony James got an email
+p35
+aVfrom a biologist named Ethan Bier.
+p36
+aVBier said that he and his grad student Valentino Gantz
+p37
+aVhad stumbled on a tool that could not only guarantee
+p38
+aVthat a particular genetic trait would be inherited,
+p39
+aVbut that it would spread incredibly quickly.
+p40
+aVIf they were right, it would basically solve the problem
+p41
+aVthat he and James had been working on for 20 years.
+p42
+aa(lp43
+VAs a test, they engineered two mosquitos to carry the anti-malaria gene
+p44
+aVand also this new tool, a gene drive,
+p45
+aVwhich I'll explain in a minute.
+p46
+aVFinally, they set it up so that any mosquitos
+p47
+aVthat had inherited the anti-malaria gene
+p48
+aVwouldn't have the usual white eyes, but would instead have red eyes.
+p49
+aVThat was pretty much just for convenience
+p50
+aVso they could tell just at a glance which was which.
+p51
+aa(lp52
+VSo they took their two anti-malarial, red-eyed mosquitos
+p53
+aVand put them in a box with 30 ordinary white-eyed ones,
+p54
+aVand let them breed.
+p55
+aVIn two generations, those had produced 3,800 grandchildren.
+p56
+aVThat is not the surprising part.
+p57
+aVThis is the surprising part:
+p58
+aVgiven that you started with just two red-eyed mosquitos
+p59
+aVand 30 white-eyed ones,
+p60
+aVyou expect mostly white-eyed descendants.
+p61
+aVInstead, when James opened the box,
+p62
+aVall 3,800 mosquitos had red eyes.
+p63
+aa(lp64
+VWhen I asked Ethan Bier about this moment,
+p65
+aVhe became so excited that he was literally shouting into the phone.
+p66
+aVThat's because getting only red-eyed mosquitos
+p67
+aVviolates a rule that is the absolute cornerstone of biology,
+p68
+aVMendelian genetics.
+p69
+aVI'll keep this quick,
+p70
+aVbut Mendelian genetics says when a male and a female mate,
+p71
+aVtheir baby inherits half of its DNA from each parent.
+p72
+aVSo if our original mosquito was aa and our new mosquito is aB,
+p73
+aVwhere B is the anti-malarial gene,
+p74
+aVthe babies should come out in four permutations:
+p75
+aVaa, aB, aa, Ba.
+p76
+aVInstead, with the new gene drive,
+p77
+aVthey all came out aB.
+p78
+aVBiologically, that shouldn't even be possible.
+p79
+aa(lp80
+VSo what happened?
+p81
+aVThe first thing that happened
+p82
+aVwas the arrival of a gene-editing tool known as CRISPR in 2012.
+p83
+aVMany of you have probably heard about CRISPR,
+p84
+aVso I'll just say briefly that CRISPR is a tool that allows researchers
+p85
+aVto edit genes very precisely, easily and quickly.
+p86
+aVIt does this by harnessing a mechanism that already existed in bacteria.
+p87
+aVBasically, there's a protein that acts like a scissors
+p88
+aVand cuts the DNA,
+p89
+aVand there's an RNA molecule that directs the scissors
+p90
+aVto any point on the genome you want.
+p91
+aVThe result is basically a word processor for genes.
+p92
+aVYou can take an entire gene out, put one in,
+p93
+aVor even edit just a single letter within a gene.
+p94
+aVAnd you can do it in nearly any species.
+p95
+aa(lp96
+VOK, remember how I said that gene drives originally had two problems?
+p97
+aVThe first was that it was hard to engineer a mosquito
+p98
+aVto be malaria-resistant.
+p99
+aVThat's basically gone now, thanks to CRISPR.
+p100
+aVBut the other problem was logistical.
+p101
+aVHow do you get your trait to spread?
+p102
+aVThis is where it gets clever.
+p103
+aa(lp104
+VA couple years ago, a biologist at Harvard named Kevin Esvelt
+p105
+aVwondered what would happen
+p106
+aVif you made it so that CRISPR inserted not only your new gene
+p107
+aVbut also the machinery that does the cutting and pasting.
+p108
+aVIn other words, what if CRISPR also copied and pasted itself.
+p109
+aVYou'd end up with a perpetual motion machine for gene editing.
+p110
+aVAnd that's exactly what happened.
+p111
+aVThis CRISPR gene drive that Esvelt created
+p112
+aVnot only guarantees that a trait will get passed on,
+p113
+aVbut if it's used in the germline cells,
+p114
+aVit will automatically copy and paste your new gene
+p115
+aVinto both chromosomes of every single individual.
+p116
+aVIt's like a global search and replace,
+p117
+aVor in science terms, it makes a heterozygous trait homozygous.
+p118
+aa(lp119
+VSo, what does this mean?
+p120
+aVFor one thing, it means we have a very powerful,
+p121
+aVbut also somewhat alarming new tool.
+p122
+aVUp until now, the fact that gene drives didn't work very well
+p123
+aVwas actually kind of a relief.
+p124
+aVNormally when we mess around with an organism's genes,
+p125
+aVwe make that thing less evolutionarily fit.
+p126
+aVSo biologists can make all the mutant fruit flies they want
+p127
+aVwithout worrying about it.
+p128
+aVIf some escape, natural selection just takes care of them.
+p129
+aa(lp130
+VWhat's remarkable and powerful and frightening about gene drives
+p131
+aVis that that will no longer be true.
+p132
+aVAssuming that your trait does not have a big evolutionary handicap,
+p133
+aVlike a mosquito that can't fly,
+p134
+aVthe CRISPR-based gene drive will spread the change relentlessly
+p135
+aVuntil it is in every single individual in the population.
+p136
+aVNow, it isn't easy to make a gene drive that works that well,
+p137
+aVbut James and Esvelt think that we can.
+p138
+aa(lp139
+VThe good news is that this opens the door to some remarkable things.
+p140
+aVIf you put an anti-malarial gene drive
+p141
+aVin just 1 percent of Anopheles mosquitoes,
+p142
+aVthe species that transmits malaria,
+p143
+aVresearchers estimate that it would spread to the entire population in a year.
+p144
+aVSo in a year, you could virtually eliminate malaria.
+p145
+aVIn practice, we're still a few years out from being able to do that,
+p146
+aVbut still, a 1,000 children a day die of malaria.
+p147
+aVIn a year, that number could be almost zero.
+p148
+aVThe same goes for dengue fever, chikungunya, yellow fever.
+p149
+aa(lp150
+VAnd it gets better.
+p151
+aVSay you want to get rid of an invasive species,
+p152
+aVlike get Asian carp out of the Great Lakes.
+p153
+aVAll you have to do is release a gene drive
+p154
+aVthat makes the fish produce only male offspring.
+p155
+aVIn a few generations, there'll be no females left, no more carp.
+p156
+aVIn theory, this means we could restore hundreds of native species
+p157
+aVthat have been pushed to the brink.
+p158
+aa(lp159
+VOK, that's the good news,
+p160
+aVthis is the bad news.
+p161
+aVGene drives are so effective
+p162
+aVthat even an accidental release could change an entire species,
+p163
+aVand often very quickly.
+p164
+aVAnthony James took good precautions.
+p165
+aVHe bred his mosquitos in a bio-containment lab
+p166
+aVand he also used a species that's not native to the US
+p167
+aVso that even if some did escape,
+p168
+aVthey'd just die off, there'd be nothing for them to mate with.
+p169
+aVBut it's also true that if a dozen Asian carp with the all-male gene drive
+p170
+aVaccidentally got carried from the Great Lakes back to Asia,
+p171
+aVthey could potentially wipe out the native Asian carp population.
+p172
+aVAnd that's not so unlikely, given how connected our world is.
+p173
+aVIn fact, it's why we have an invasive species problem.
+p174
+aVAnd that's fish.
+p175
+aVThings like mosquitos and fruit flies,
+p176
+aVthere's literally no way to contain them.
+p177
+aVThey cross borders and oceans all the time.
+p178
+aa(lp179
+VOK, the other piece of bad news
+p180
+aVis that a gene drive might not stay confined
+p181
+aVto what we call the target species.
+p182
+aVThat's because of gene flow,
+p183
+aVwhich is a fancy way of saying that neighboring species
+p184
+aVsometimes interbreed.
+p185
+aVIf that happens, it's possible a gene drive could cross over,
+p186
+aVlike Asian carp could infect some other kind of carp.
+p187
+aVThat's not so bad if your drive just promotes a trait, like eye color.
+p188
+aVIn fact, there's a decent chance that we'll see
+p189
+aVa wave of very weird fruit flies in the near future.
+p190
+aVBut it could be a disaster
+p191
+aVif your drive is deigned to eliminate the species entirely.
+p192
+aa(lp193
+VThe last worrisome thing is that the technology to do this,
+p194
+aVto genetically engineer an organism and include a gene drive,
+p195
+aVis something that basically any lab in the world can do.
+p196
+aVAn undergraduate can do it.
+p197
+aVA talented high schooler with some equipment can do it.
+p198
+aa(lp199
+VNow, I'm guessing that this sounds terrifying.
+p200
+aa(lp201
+V(Laughter)
+p202
+aa(lp203
+VInterestingly though, nearly every scientist I talk to
+p204
+aVseemed to think that gene drives were not actually that frightening or dangerous.
+p205
+aVPartly because they believe that scientists will be
+p206
+aVvery cautious and responsible about using them.
+p207
+aa(lp208
+V(Laughter)
+p209
+aa(lp210
+VSo far, that's been true.
+p211
+aVBut gene drives also have some actual limitations.
+p212
+aVSo for one thing, they work only in sexually reproducing species.
+p213
+aVSo thank goodness, they can't be used to engineer viruses or bacteria.
+p214
+aVAlso, the trait spreads only with each successive generation.
+p215
+aVSo changing or eliminating a population
+p216
+aVis practical only if that species has a fast reproductive cycle,
+p217
+aVlike insects or maybe small vertebrates like mice or fish.
+p218
+aVIn elephants or people, it would take centuries
+p219
+aVfor a trait to spread widely enough to matter.
+p220
+aa(lp221
+VAlso, even with CRISPR, it's not that easy to engineer a truly devastating trait.
+p222
+aVSay you wanted to make a fruit fly
+p223
+aVthat feeds on ordinary fruit instead of rotting fruit,
+p224
+aVwith the aim of sabotaging American agriculture.
+p225
+aVFirst, you'd have to figure out
+p226
+aVwhich genes control what the fly wants to eat,
+p227
+aVwhich is already a very long and complicated project.
+p228
+aVThen you'd have to alter those genes to change the fly's behavior
+p229
+aVto whatever you'd want it to be,
+p230
+aVwhich is an even longer and more complicated project.
+p231
+aVAnd it might not even work,
+p232
+aVbecause the genes that control behavior are complex.
+p233
+aVSo if you're a terrorist and have to choose
+p234
+aVbetween starting a grueling basic research program
+p235
+aVthat will require years of meticulous lab work and still might not pan out,
+p236
+aVor just blowing stuff up?
+p237
+aVYou'll probably choose the later.
+p238
+aa(lp239
+VThis is especially true because at least in theory,
+p240
+aVit should be pretty easy to build what's called a reversal drive.
+p241
+aVThat's one that basically overwrites the change made by the first gene drive.
+p242
+aVSo if you don't like the effects of a change,
+p243
+aVyou can just release a second drive that will cancel it out,
+p244
+aVat least in theory.
+p245
+aa(lp246
+VOK, so where does this leave us?
+p247
+aVWe now have the ability to change entire species at will.
+p248
+aVShould we?
+p249
+aVAre we gods now?
+p250
+aVI'm not sure I'd say that.
+p251
+aVBut I would say this:
+p252
+aVfirst, some very smart people
+p253
+aVare even now debating how to regulate gene drives.
+p254
+aVAt the same time, some other very smart people
+p255
+aVare working hard to create safeguards,
+p256
+aVlike gene drives that self-regulate or peter out after a few generations.
+p257
+aVThat's great.
+p258
+aVBut this technology still requires a conversation.
+p259
+aVAnd given the nature of gene drives,
+p260
+aVthat conversation has to be global.
+p261
+aVWhat if Kenya wants to use a drive but Tanzania doesn't?
+p262
+aVWho decides whether to release a gene drive that can fly?
+p263
+aa(lp264
+VI don't have the answer to that question.
+p265
+aVAll we can do going forward, I think,
+p266
+aVis talk honestly about the risks and benefits
+p267
+aVand take responsibility for our choices.
+p268
+aVBy that I mean, not just the choice to use a gene drive,
+p269
+aVbut also the choice not to use one.
+p270
+aVHumans have a tendency to assume that the safest option
+p271
+aVis to preserve the status quo.
+p272
+aVBut that's not always the case.
+p273
+aVGene drives have risks, and those need to be discussed,
+p274
+aVbut malaria exists now and kills 1,000 people a day.
+p275
+aVTo combat it, we spray pesticides that do grave damage to other species,
+p276
+aVincluding amphibians and birds.
+p277
+aa(lp278
+VSo when you hear about gene drives in the coming months,
+p279
+aVand trust me, you will be hearing about them,
+p280
+aVremember that.
+p281
+aVIt can be frightening to act,
+p282
+aVbut sometimes, not acting is worse.
+p283
+aa(lp284
+V(Applause)
+p285
+aasS'transcript_micsec'
+p286
+(lp287
+I11000
+aI26000
+aI46000
+aI83000
+aI85000
+aI109000
+aI133000
+aI164000
+aI203000
+aI244000
+aI263000
+aI310000
+aI337000
+aI364000
+aI396000
+aI418000
+aI472000
+aI505000
+aI523000
+aI526000
+aI528000
+aI540000
+aI541000
+aI571000
+aI614000
+aI632000
+aI681000
+aI722000
+aI735000
+asS'talk_meta'
+p288
+(dp289
+S'ratings'
+p290
+(dp291
+S'ingenious'
+p292
+I107
+sS'funny'
+p293
+I20
+sS'inspiring'
+p294
+I123
+sS'ok'
+p295
+I45
+sS'fascinating'
+p296
+I312
+sS'total_count'
+p297
+I1521
+sS'persuasive'
+p298
+I86
+sS'longwinded'
+p299
+I8
+sS'unconvincing'
+p300
+I5
+sS'informative'
+p301
+I502
+sS'beautiful'
+p302
+I32
+sS'jaw-dropping'
+p303
+I211
+sS'obnoxious'
+p304
+I3
+sS'courageous'
+p305
+I39
+sS'confusing'
+p306
+I28
+ssS'author'
+p307
+VJennifer_Kahn;
+p308
+sS'url'
+p309
+S'https://www.ted.com/talks/jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever'
+p310
+sS'vidlen'
+p311
+I745
+sS'totalviews'
+p312
+I1510525
+sS'title'
+p313
+VGene editing can now change an entire species -- forever
+p314
+sS'downloadlink'
+p315
+Vhttps://download.ted.com/talks/JenniferKahn_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p316
+sS'datepublished'
+p317
+cdatetime
+datetime
+p318
+(S'\x07\xe0\x05\t\n4\x08\x00\x00\x00'
+tRp319
+sS'datefilmed'
+p320
+g318
+(S'\x07\xe0\x05\t\n4\x08\x00\x00\x00'
+tRp321
+sS'alldata_JSON'
+p322
+S'{"viewed_count": 1510525, "speakers": [{"description": "Science journalist", "firstname": "Jennifer", "title": "", "lastname": "Kahn", "middleinitial": "", "whylisten": "<p>Jennifer Kahn likes to seek out complex stories, with the goal of illuminating their nuances.  She teaches in the magazine program at the UC Berkeley Graduate School of Journalism, and is a contributing writer for the <em>New York Times Magazine</em>; she has written features and cover stories for <em>The New Yorker, National Geographic, Outside, Wired</em> and many more.   </p><p>Her work has appeared in the <em>Best American Science Writing</em> anthology series four times, most recently for the <em>New Yorker</em> story &ldquo;A Cloud of Smoke,&rdquo; a story on the complicated death of a policeman after 9/11. </p>", "slug": "jennifer_kahn", "whotheyare": "In articles that span the gene-editing abilities of CRISPR, the roots of psychopathic behavior in children, and much more, Jennifer Kahn weaves gripping stories from unlikely sources.", "whatotherssay": "Amid family scenes that are no less heartbreaking than they are chilling, Kahn weaves in a nuanced discussion of the thorny questions that confront scientists trying to understand how psychopathy develops.", "id": 2886, "photo_url": "https://pe.tedcdn.com/images/ted/c10a58d3a5f79ac6197d939b5dec252df3e38ba5_254x191.jpg"}], "current_talk": 2494, "description": "CRISPR gene drives allow scientists to change sequences of DNA and guarantee that the resulting edited genetic trait is inherited by future generations, opening up the possibility of altering entire species forever. More than anything, the technology has led to questions: How will this new power affect humanity? What are we going to use it to change? Are we gods now? Join journalist Jennifer Kahn as she ponders these questions and shares a potentially powerful application of gene drives: the development of disease-resistant mosquitoes that could knock out malaria and Zika.", "language": "en", "url": "https://www.ted.com/talks/jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89173825}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17287258}, "podcast-high": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89169047}, "180k": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17040132}, "64k": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6143639}, "1500k": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138034126}, "450k": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42499723}, "podcast-regular": {"uri": "https://download.ted.com/talks/JenniferKahn_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42615047}, "950k": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89177277}, "audio-podcast": {"uri": "https://download.ted.com/talks/JenniferKahn_2016.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7590707}, "podcast-light": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6277153}, "320k": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30168174}, "600k": {"uri": "https://download.ted.com/talks/JenniferKahn_2016-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56889955}}}, "comments": {"count": 97, "id": 27112, "talk_id": 2494}, "slug": "jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever", "threadId": 27112, "talks": [{"event": "TED2016", "player_talks": [{"event": "TED2016", "slug": "jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever", "filmed": 1455667200, "targeting": {"event": "TED2016", "tag": "Bioethics,CRISPR,DNA,Debate,biotech,choice,disease,engineering,future,genetics,health,humanity,innovation,journalism,life,morality,potential,public health,science,society,technology", "id": 2494, "talk": "jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever", "year": "2016"}, "adDuration": "3.33", "external": null, "title": "Gene editing can now change an entire species -- forever", "postAdDuration": "0.83", "published": 1462805528, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4e279c691c651777f9bda90d81f7afa5fc0d0947_2880x1620.jpg?quality=89&w=600", "name": "Jennifer Kahn: Gene editing can now change an entire species -- forever", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "ka", "endonym": "\\u10e5\\u10d0\\u10e0\\u10d7\\u10e3\\u10da\\u10d8", "isRtl": false, "ianaCode": "ka", "languageName": "Georgian"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sw", "endonym": "Kiswahili", "isRtl": false, "ianaCode": "sw", "languageName": "Swahili"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Bioethics", "CRISPR", "DNA", "Debate", "biotech", "choice", "disease", "engineering", "future", "genetics", "health", "humanity", "innovation", "journalism", "life", "morality", "potential", "public health", "science", "society", "technology"], "speaker": "Jennifer Kahn", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 745, "id": 2494, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JenniferKahn_2016-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2016", "tag": "Bioethics,CRISPR,DNA,Debate,biotech,choice,disease,engineering,future,genetics,health,humanity,innovation,journalism,life,morality,potential,public health,science,society,technology", "id": 2494, "talk": "jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever", "year": "2016"}, "metadata": "https://hls.ted.com/talks/2494.json", "stream": "https://hls.ted.com/talks/2494.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2016%26id%3D2494%26tag%3DBioethics%2CCRISPR%2CDNA%2CDebate%2Cbiotech%2Cchoice%2Cdisease%2Cengineering%2Cfuture%2Cgenetics%2Chealth%2Chumanity%2Cinnovation%2Cjournalism%2Clife%2Cmorality%2Cpotential%2Cpublic%2Bhealth%2Cscience%2Csociety%2Ctechnology%26talk%3Djennifer_kahn_gene_editing_can_now_change_an_entire_species_forever%26year%3D2016&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4e279c691c651777f9bda90d81f7afa5fc0d0947_2880x1620.jpg?q=50&w=15", "duration": 745, "id": 2494, "ratings": [{"count": 28, "id": 2, "name": "Confusing"}, {"count": 502, "id": 8, "name": "Informative"}, {"count": 107, "id": 9, "name": "Ingenious"}, {"count": 312, "id": 22, "name": "Fascinating"}, {"count": 123, "id": 10, "name": "Inspiring"}, {"count": 211, "id": 23, "name": "Jaw-dropping"}, {"count": 86, "id": 24, "name": "Persuasive"}, {"count": 20, "id": 7, "name": "Funny"}, {"count": 39, "id": 3, "name": "Courageous"}, {"count": 8, "id": 11, "name": "Longwinded"}, {"count": 32, "id": 1, "name": "Beautiful"}, {"count": 45, "id": 25, "name": "OK"}, {"count": 5, "id": 21, "name": "Unconvincing"}, {"count": 3, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Science journalist", "firstname": "Jennifer", "title": "", "lastname": "Kahn", "middleinitial": "", "whylisten": "<p>Jennifer Kahn likes to seek out complex stories, with the goal of illuminating their nuances.  She teaches in the magazine program at the UC Berkeley Graduate School of Journalism, and is a contributing writer for the <em>New York Times Magazine</em>; she has written features and cover stories for <em>The New Yorker, National Geographic, Outside, Wired</em> and many more.   </p><p>Her work has appeared in the <em>Best American Science Writing</em> anthology series four times, most recently for the <em>New Yorker</em> story &ldquo;A Cloud of Smoke,&rdquo; a story on the complicated death of a policeman after 9/11. </p>", "slug": "jennifer_kahn", "whotheyare": "In articles that span the gene-editing abilities of CRISPR, the roots of psychopathic behavior in children, and much more, Jennifer Kahn weaves gripping stories from unlikely sources.", "whatotherssay": "Amid family scenes that are no less heartbreaking than they are chilling, Kahn weaves in a nuanced discussion of the thorny questions that confront scientists trying to understand how psychopathy develops.", "id": 2886, "photo_url": "https://pe.tedcdn.com/images/ted/c10a58d3a5f79ac6197d939b5dec252df3e38ba5_254x191.jpg"}], "title": "Gene editing can now change an entire species -- forever", "take_action": [], "comments": 27112, "more_resources": [{"status": "approved", "start_at": null, "headline": "The CRISPR Quandary", "link_url": "http://www.nytimes.com/2015/11/15/magazine/the-crispr-quandary.html", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "nytimes.com", "type": "external_website", "blurb": "Read Jennifer Kahn\'s article on the ethical morass of CRISPR in the *New York Times*."}, {"status": "approved", "start_at": null, "headline": "Scientists are trying to use CRISPR to fix everything. What\\u2019s wrong with that?", "link_url": "http://ideas.ted.com/scientists-are-trying-to-use-crispr-to-fix-everything-whats-wrong-with-that/", "eyebrow": null, "end_at": null, "image_url": "https://tedideas.files.wordpress.com/2016/05/webready_ted-crispr-newfinal.jpg", "published": true, "visible_url": "http://ideas.ted.com/", "type": "external_website", "blurb": "An exploration of the ethics around CRISPR\\u2019s gene-snipping technology yields new insights on how to harness biotechnology that\\u2019s powerful enough to alter humanity."}], "hero": "https://pe.tedcdn.com/images/ted/4e279c691c651777f9bda90d81f7afa5fc0d0947_2880x1620.jpg", "description": "CRISPR gene drives allow scientists to change sequences of DNA and guarantee that the resulting edited genetic trait is inherited by future generations, opening up the possibility of altering entire species forever. More than anything, the technology has led to questions: How will this new power affect humanity? What are we going to use it to change? Are we gods now? Join journalist Jennifer Kahn as she ponders these questions and shares a potentially powerful application of gene drives: the development of disease-resistant mosquitoes that could knock out malaria and Zika.", "tags": ["Bioethics", "CRISPR", "DNA", "Debate", "biotech", "choice", "disease", "engineering", "future", "genetics", "health", "humanity", "innovation", "journalism", "life", "morality", "potential", "public health", "science", "society", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "ka", "endonym": "\\u10e5\\u10d0\\u10e0\\u10d7\\u10e3\\u10da\\u10d8", "isRtl": false, "ianaCode": "ka", "languageName": "Georgian"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sw", "endonym": "Kiswahili", "isRtl": false, "ianaCode": "sw", "languageName": "Swahili"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-en.mp4"}, "sw": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-sw.mp4", "name": "Swahili", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-sw.mp4"}, "it": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-zh-tw.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-th.mp4"}, "vi": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-vi.mp4"}, "ro": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-bg.mp4"}, "hu": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-he.mp4"}, "ka": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-ka.mp4", "name": "Georgian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-ka.mp4"}, "sr": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/JenniferKahn_2016-low-sv.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JenniferKahn_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JenniferKahn_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JenniferKahn_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2494, "audioDownload": "https://download.ted.com/talks/JenniferKahn_2016.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1980313, "hero": "https://pe.tedcdn.com/images/ted/0dfafd749af481f0d95ad4af910ebecaff4d26fa_2880x1620.jpg", "title": "We can reprogram life. How to do it wisely", "id": 2473, "speaker": "Juan Enriquez", "duration": 889, "slug": "juan_enriquez_we_can_reprogram_life_how_to_do_it_wisely"}, {"viewed_count": 1965905, "hero": "https://pe.tedcdn.com/images/ted/aa33beda36e8737f3ec0029a9df20dc8448f164d_2880x1620.jpg", "title": " How CRISPR lets us edit our DNA", "id": 2354, "speaker": "Jennifer Doudna", "duration": 953, "slug": "jennifer_doudna_we_can_now_edit_our_dna_but_let_s_do_it_wisely"}, {"viewed_count": 1532281, "hero": "https://pe.tedcdn.com/images/ted/c77755451ad53291f2891f27dcfde0456292b010_2880x1620.jpg", "title": "How we discovered DNA", "id": 35, "speaker": "James Watson", "duration": 1211, "slug": "james_watson_on_how_he_discovered_dna"}, {"viewed_count": 890912, "hero": "https://pe.tedcdn.com/images/ted/8983c0874eebad4f66246624c3d65aacd5952409_2880x1620.jpg", "title": "A secret weapon against Zika and other mosquito-borne diseases", "id": 2793, "speaker": "Nina Fedoroff", "duration": 910, "slug": "nina_fedoroff_a_secret_weapon_against_zika_and_other_mosquito_borne_diseases"}, {"viewed_count": 947051, "hero": "https://pe.tedcdn.com/images/ted/e5a83197dda31e3be388cbaabb2add1d27ee24ad_1600x1200.jpg", "title": "Re-engineering mosquitos to fight disease", "id": 1641, "speaker": "Hadyn Parry", "duration": 837, "slug": "hadyn_parry_re_engineering_mosquitos_to_fight_disease"}, {"viewed_count": 266935, "hero": "https://pe.tedcdn.com/images/ted/5fee917fd0c904570274ccdd81169cc979b4fc7a_1600x1200.jpg", "title": "3 new ways to kill mosquitoes", "id": 1445, "speaker": "Bart Knols", "duration": 620, "slug": "bart_knols_cheese_dogs_and_pills_to_end_malaria"}], "recorded_at": "2016-02-17T00:00:00.000+00:00", "slug": "jennifer_kahn_gene_editing_can_now_change_an_entire_species_forever", "speaker_name": "Jennifer Kahn", "viewed_count": 1510525, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2016", "name": "Jennifer Kahn: Gene editing can now change an entire species -- forever"}'
+p323
+sS'keywords'
+p324
+(lp325
+VBioethics
+p326
+aVCRISPR
+p327
+aVDNA
+p328
+aVDebate
+p329
+aVbiotech
+p330
+aVchoice
+p331
+aVdisease
+p332
+aVengineering
+p333
+aVfuture
+p334
+aVgenetics
+p335
+aVhealth
+p336
+aVhumanity
+p337
+aVinnovation
+p338
+aVjournalism
+p339
+aVlife
+p340
+aVmorality
+p341
+aVpotential
+p342
+aVpublic health
+p343
+aVscience
+p344
+aVsociety
+p345
+aVtechnology
+p346
+asS'datecrawled'
+p347
+g318
+(S'\x07\xe1\n\x17\x02%\x03\x0e\xbb\xff'
+tRp348
+sS'id'
+p349
+I2494
+ss.

@@ -1,0 +1,954 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm Rich Baraniuk and what I'd like to talk a little bit about today
+p5
+aVare some ideas that I think have just tremendous resonance
+p6
+aVwith all the things that have been talked about the last two days.
+p7
+aVSo many different points of resonance
+p8
+aVthat it's going to be difficult to bring them all up,
+p9
+aVbut I'll try to do my best.
+p10
+aVDoes anybody remember these?
+p11
+aa(lp12
+V(Laughter)
+p13
+aa(lp14
+VOK, so these are LP records and they've been replaced, right?
+p15
+aVThey've been swept away over the last two decades
+p16
+aVby these types of world-flattening digitization technologies, right?
+p17
+aVAnd I think it was best witnessed
+p18
+aVwhen Thomas was playing the music as we came in the room today.
+p19
+aVWhat's happened in the music world is there's a culture,
+p20
+aVor an ecosystem that's been created
+p21
+aVthat, if you take some words from Apple,
+p22
+aVthe catchphrase \u2014 that we create, rip, mix and burn.
+p23
+aVWhat I mean by that is that anyone in the world is free and allowed
+p24
+aVto create new music and musical ideas.
+p25
+aVAnyone in the world is allowed to rip or copy musical ideas,
+p26
+aVuse them in innovative ways.
+p27
+aVAnyone is allowed to mix them in different types of ways,
+p28
+aVdraw connections between musical ideas,
+p29
+aVand people can burn them or create final products and continue the circle.
+p30
+aVAnd what that's done is it's created, like I said,
+p31
+aVa vibrant community that's very inclusive,
+p32
+aVwith people continually working to connect musical ideas,
+p33
+aVinnovate them and keep things constantly up to date.
+p34
+aVToday's hit single is not last year's hit single.
+p35
+aa(lp36
+VBut I'm not here to talk about music today.
+p37
+aVI'm here to talk about books.
+p38
+aVIn particular, textbooks and the kind of educational materials
+p39
+aVthat we use every day in school.
+p40
+aVHas anyone here ever been to school?
+p41
+aa(lp42
+V(Laughter)
+p43
+aa(lp44
+VOK, does anybody realize there's a crisis in our schools,
+p45
+aVaround the world?
+p46
+aVI'm not going to spend too much time on that,
+p47
+aVbut what I want to talk about is some of the disconnects
+p48
+aVthat appear when an author publishes a book.
+p49
+aVThat in fact, the publishing process \u2014
+p50
+aVjust because of the fact that it's complicated,
+p51
+aVit's heavy, books are expensive \u2014
+p52
+aVcreates a sort of a wall between authors of books
+p53
+aVand the ultimate users of books,
+p54
+aVbe they teachers, students or just general readers.
+p55
+aVAnd this is even more true if you happen to speak a language
+p56
+aVother than one of the world's major languages, and especially English.
+p57
+aVI'm going to call these people below the barrier "shutouts"
+p58
+aVbecause they're really shut out of the process
+p59
+aVof being able to share their knowledge with the world.
+p60
+aVAnd so what I want to talk about today is trying to take these ideas
+p61
+aVthat we've seen in the musical culture
+p62
+aVand try to bring these towards reinventing the way
+p63
+aVwe think about writing books, using them and teaching from them.
+p64
+aVSo, that's what I'd like to talk about
+p65
+aVand, really, how we get from where we are now
+p66
+aVto where we need to go.
+p67
+aa(lp68
+VThe first thing I'd like you to do is a little thought experiment.
+p69
+aVImagine taking all the world's books.
+p70
+aVOK, everybody imagine books and imagine just tearing out the pages.
+p71
+aVSo, liberating these pages
+p72
+aVand imagine digitizing them and then storing them
+p73
+aVin a vast, interconnected, global repository.
+p74
+aVThink of it as a massive iTunes for book-type content.
+p75
+aVAnd then take that material and imagine making it all open,
+p76
+aVso that people can modify it, play with it, improve it.
+p77
+aVImagine making it free,
+p78
+aVso that anyone in the world can have access to all of this knowledge,
+p79
+aVand imagine using information technology
+p80
+aVso that you can update this content, improve it, play with it,
+p81
+aVon a timescale that's more on the order of seconds instead of years.
+p82
+aVInstead of editions of a book coming out every two years,
+p83
+aVimagine them coming out every 25 seconds.
+p84
+aa(lp85
+VSo, imagine we could do that and imagine we could put people into this.
+p86
+aVSo that we could truly build an ecosystem with not just authors,
+p87
+aVbut all the people who could be or want to be authors
+p88
+aVin all the different languages of the world,
+p89
+aVand I think if you could do this, it would be called \u2014
+p90
+aVI'm just going to refer to it as a knowledge ecosystem.
+p91
+aVSo, really, this is the dream,
+p92
+aVand in a sense what you can think of it
+p93
+aVis we're trying to enable anyone in the world,
+p94
+aVI mean anyone in the world \u2014
+p95
+aa(lp96
+V(Laughter)
+p97
+aa(lp98
+Vto be their own educational DJ,
+p99
+aVcreating educational materials, sharing them with the world,
+p100
+aVconstantly innovating on them.
+p101
+aVSo, this is the dream.
+p102
+aa(lp103
+VIn fact, this dream is actually being realized.
+p104
+aVOver the last six-and-a-half years,
+p105
+aVwe've been working really hard at Rice University
+p106
+aVon a project called Connexions,
+p107
+aVand so what I'd like to do for the rest of the talk
+p108
+aVis just tell you a little bit
+p109
+aVabout what people are doing with Connexions,
+p110
+aVwhich you can kind of think of as the counterpoint
+p111
+aVto Nicholas Negroponte's talk yesterday,
+p112
+aVwhere they're working on the hardware of bringing education to the world.
+p113
+aVWe're working on the open-source tools
+p114
+aVand the content.
+p115
+aVSo, that's sort of to put it in perspective here.
+p116
+aa(lp117
+VSo, create.
+p118
+aVWhat are some of the people that are using these kind of tools?
+p119
+aVWell, the first thing is,
+p120
+aVthere's a community of engineering professors,
+p121
+aVfrom Cambridge to Kyoto,
+p122
+aVwho are developing engineering content in electrical engineering
+p123
+aVto develop what you can think of as a massive, super textbook
+p124
+aVthat covers the entire area of electrical engineering.
+p125
+aVAnd not only that \u2014
+p126
+aVit can be customized for use in each of their own individual institutions.
+p127
+aVIf people like Kitty Jones, a shut-out \u2014
+p128
+aVa private music teacher and mom from Champagne, Illinois,
+p129
+aVwho wanted to share her fantastic music content with the world,
+p130
+aVon how to teach kids how to play music \u2014
+p131
+aVHer material is now used over 600,000 times per month.
+p132
+aVTremendous use.
+p133
+aVIn fact, a lot of this use coming from United States K-12 schools,
+p134
+aVbecause anyone who's involved in a school scale back,
+p135
+aVthe first thing that's cut is the music curriculum.
+p136
+aVAnd so this is just indicating the tremendous thirst
+p137
+aVfor this kind of open, free content.
+p138
+aVA lot of teachers are using this stuff.
+p139
+aa(lp140
+VWhat about ripping? What about copying, reusing?
+p141
+aVA team of volunteers at the University of Texas at El Paso \u2014
+p142
+aVgraduate students translating this engineering super textbook ideas.
+p143
+aVAnd within about a week,
+p144
+aVhaving this be some of our most popular material
+p145
+aVin widespread use all over Latin America, and in particular in Mexico,
+p146
+aVbecause of the open, extensible nature of this.
+p147
+aVPeople, volunteers and even companies
+p148
+aVthat are translating materials into Asian languages
+p149
+aVlike Chinese, Japanese and Thai,
+p150
+aVto spread the knowledge even further.
+p151
+aa(lp152
+VOK, what about people who are mixing?
+p153
+aVWhat does "mixing" mean?
+p154
+aV"Mixing" means building customized courses,
+p155
+aVmeans building customized books.
+p156
+aVCompanies like National Instruments,
+p157
+aVwho are embedding very powerful, interactive simulations
+p158
+aVinto the materials,
+p159
+aVso that we can go way beyond our regular kind of textbook
+p160
+aVto an experience
+p161
+aVthat all the teaching materials are things you can actually interact with
+p162
+aVand play around with and actually learn as you do.
+p163
+aa(lp164
+VWe've been working with Teachers Without Borders,
+p165
+aVwho are very interested in mixing our materials.
+p166
+aVThey're going to be using Connexions as their platform
+p167
+aVto develop and deliver teaching materials for teaching teachers how to teach
+p168
+aVin 84 countries around the world.
+p169
+aVTWB is currently in Iraq,
+p170
+aVtraining 20,000 teachers supported by USAID.
+p171
+aVAnd to them, this idea of being able to remix
+p172
+aVand customize to the local context is extraordinarily important,
+p173
+aVbecause just providing free content to people
+p174
+aVhas actually been likened by people in the developing world
+p175
+aVto a kind of cultural imperialism \u2014
+p176
+aVthat if you don't empower people
+p177
+aVwith the ability to re-contextualize the material,
+p178
+aVtranslate it into their own language and take ownership of it,
+p179
+aVit's not good.
+p180
+aa(lp181
+VOK, other organizations we've been working with, UC Merced \u2014
+p182
+aVpeople know about UC Merced.
+p183
+aVIt's a new university in California, in the Central Valley,
+p184
+aVworking very closely with community colleges.
+p185
+aVThey're actually developing
+p186
+aVa lot of their science and engineering curriculum
+p187
+aVto spread widely around the world in our system.
+p188
+aVAnd they're also trying to develop all of their software tools
+p189
+aVcompletely open-source.
+p190
+aVWe've been working with AMD, which has a project called 50x15,
+p191
+aVwhich is trying to bring Internet connectivity
+p192
+aVto 50 percent of the world's population by 2015.
+p193
+aVWe're going to be providing content to them
+p194
+aVin a whole range of different languages.
+p195
+aVAnd we've also been working with a number of other organizations.
+p196
+aVIn particular, a bunch of the projects that are funded by Hewlett Foundation,
+p197
+aVwho have taken a real leadership role in this area of open content.
+p198
+aa(lp199
+VOK, burn \u2014 I think this is, sort of, quite interesting.
+p200
+aV"Burn" is the idea of trying to create the physical instantiation
+p201
+aVof one of these courses.
+p202
+aVAnd I think a lot of you received \u2014
+p203
+aVI think all of you received one of these music books in your gift pack.
+p204
+aVA little present for you.
+p205
+aVJust to tell you quickly about it: this is an engineering textbook.
+p206
+aVIt's about 300 pages long, hardbound.
+p207
+aVThis costs \u2014 anybody guess?
+p208
+aVHow much would it cost in a bookstore?
+p209
+aa(lp210
+V(Audience) 65 dollars.
+p211
+aa(lp212
+VRichard Baraniuk: OK. This costs 22 dollars to the student.
+p213
+aVWhy does it cost 22 dollars?
+p214
+aVBecause it's published on demand
+p215
+aVand it's developed from this repository of open materials.
+p216
+aVIf this book were to be published by a regular publisher,
+p217
+aVit would cost at least 122 dollars.
+p218
+aa(lp219
+VSo what we're seeing
+p220
+aVis moving this burning or publication process
+p221
+aVfrom the regular, sort of single-authored book
+p222
+aVtowards community-authored materials
+p223
+aVthat are modular, that are customized to each individual class
+p224
+aVand published on demand very inexpensively,
+p225
+aVeither pushed out through Amazon
+p226
+aVor published directly through an on-demand press, like QOOP.
+p227
+aVAnd I think that this is an extraordinarily interesting area
+p228
+aVbecause there is tremendous area under this long tail in publishing.
+p229
+aVWe're not talking about the Harry Potter end,
+p230
+aVright at the left side.
+p231
+aVWe're talking about books
+p232
+aVon hypergeometric partial differential equations.
+p233
+aVBooks that might sell 100 copies a year, 1,000 copies a year.
+p234
+aVThere is tremendous sustaining revenue under this long tail
+p235
+aVto sustain open projects like ours,
+p236
+aVbut also to sustain this new emergence of on-demand publishers,
+p237
+aVlike QOOP, who produced these two books.
+p238
+aVAnd I think one of the things that you should take away from this talk
+p239
+aVis that there's an impending cut-out-the-middle-man disintermediation,
+p240
+aVthat's going to be happening in the publishing industry.
+p241
+aVAnd it's going to reach a crescendo over the next few years,
+p242
+aVand I think that it's for our benefit, really, and for the world's benefit.
+p243
+aa(lp244
+VOK, so what are the enablers?
+p245
+aVWhat's really making all of this happen?
+p246
+aVThere's tons of technology,
+p247
+aVand the only piece of technology that I really want to talk about is XML.
+p248
+aVHow many people know about XML?
+p249
+aVOh, great.
+p250
+aVSo it's the future of the web, right?
+p251
+aVIt's semantic representation of content.
+p252
+aVAnd what you can really think of XML in this case
+p253
+aVis it's the packaging that we're putting around these pages.
+p254
+aVRemember we took the book, tore the pages out?
+p255
+aVWell, what the XML is going to do
+p256
+aVis it's going to turn those pages into Lego blocks.
+p257
+aVXML are the nubs on the Lego
+p258
+aVthat allow us to combine the content together in a myriad different ways,
+p259
+aVand it provides us a framework to share content.
+p260
+aVSo, it lets you take this ecosystem
+p261
+aVin its primordial state of all this content,
+p262
+aVall the pages you've torn out of books,
+p263
+aVand create highly sophisticated learning machines:
+p264
+aVbooks, courses, course packs.
+p265
+aa(lp266
+VIt gives you the ability to personalize the learning experience
+p267
+aVto each individual student,
+p268
+aVso that every student can have a book or a course
+p269
+aVthat's customized to their learning style, their context,
+p270
+aVtheir language and the things that excite them.
+p271
+aVIt lets you reuse the same materials in multiple different ways,
+p272
+aVand surprising new ways.
+p273
+aVIt lets you interconnect ideas,
+p274
+aVindicating how fields relate to each other.
+p275
+aVAnd I'll just give you my personal story.
+p276
+aVWe came up with this six-and-a-half years ago
+p277
+aVbecause I teach the stuff in the red box.
+p278
+aa(lp279
+VAnd my day job, as Chris said \u2014 I'm an electrical engineering professor.
+p280
+aVI teach signal processing
+p281
+aVand my challenge was to show that this math \u2014
+p282
+aVWow, about half of you have already fallen asleep
+p283
+aVjust looking at the equation.
+p284
+aa(lp285
+V(Laughter)
+p286
+aa(lp287
+VBut this seemingly dry math
+p288
+aVis actually the center of this tremendously powerful web
+p289
+aVthat links technology \u2014
+p290
+aVthat links really cool applications like music synthesizers
+p291
+aVto tremendous economic opportunities,
+p292
+aVbut also governed by intellectual property.
+p293
+aVAnd the thing that I realized
+p294
+aVis there was no way that I, as an engineer,
+p295
+aVcould write this book that would get all of this across.
+p296
+aVWe needed a community to do it
+p297
+aVand we needed new tools to be able to interconnect these ideas.
+p298
+aVAnd I think that really, in a sense, what we're trying to do
+p299
+aVis make Minsky's dream come to a reality,
+p300
+aVwhere you can imagine all the books in a library
+p301
+aVactually starting to talk to each other.
+p302
+aVAnd people who are teachers out here \u2014 whoever taught, you know this \u2014
+p303
+aVit's the interconnections between ideas that teaching is really all about.
+p304
+aa(lp305
+VOK, back to math.
+p306
+aVImagine \u2014 this is possible:
+p307
+aVthat every single equation that you click on in one of your new e-texts
+p308
+aVis something that you're going to be able to explore and experiment with.
+p309
+aVSo imagine your kid's algebra textbook in seventh grade.
+p310
+aVYou can click on every single equation
+p311
+aVand bring up a little tool to be able to experiment with it,
+p312
+aVtinker with it, understand it.
+p313
+aVBecause we really don't understand until we do.
+p314
+aVThe same type of mark-up, like MathML, for chemistry.
+p315
+aVImagine chemistry textbooks
+p316
+aVthat actually understand the structure of how molecules are formed.
+p317
+aVImagine Music XML
+p318
+aVthat actually lets you delve into the semantic structure of music,
+p319
+aVplay with it, understand it.
+p320
+aVIt's no wonder that everybody's getting into it, right?
+p321
+aVEven the three wise men.
+p322
+aa(lp323
+V(Laughter)
+p324
+aa(lp325
+VOK, the second big enabler, and this is where I told a big lie.
+p326
+aVThe second big enabler is intellectual property.
+p327
+aVBecause, in fact, I got up here
+p328
+aVand I talked about how great the music culture is.
+p329
+aVWe can share and rip, mix and burn, but in fact, that's all illegal.
+p330
+aVAnd we would be accused of [piracy] for doing that,
+p331
+aVbecause this music has been propertized.
+p332
+aVIt's now owned, much of it by big industries.
+p333
+aVSo, really, the key thing here is we can't let this happen.
+p334
+aVWe can't let this Napster thing happen here.
+p335
+aVSo, what we have to do is get it right from the very beginning.
+p336
+aVAnd what we have to do is find an intellectual property framework
+p337
+aVthat makes sharing safe and makes it easily understandable.
+p338
+aVAnd the inspiration here is taken from open-source software.
+p339
+aVThings like Linux and the GPL.
+p340
+aa(lp341
+VThe Creative Commons licenses.
+p342
+aVHow many people have heard of creative commons?
+p343
+aVIf you have not, you must learn about it.
+p344
+aVCreativecommons.org.
+p345
+aVAt the bottom of every piece of material in Connexions
+p346
+aVand in lots of other projects,
+p347
+aVyou can find their logo.
+p348
+aVClicking on that logo takes you to an absolute no-nonsense,
+p349
+aVhuman-readable document, a deed,
+p350
+aVthat tells you exactly what you can do with this content.
+p351
+aVIn fact, you're free to share it, to do all of these things:
+p352
+aVto copy it, to change it, even to make commercial use of it,
+p353
+aVas long as you attribute the author.
+p354
+aVBecause in academic publishing and much of educational publishing,
+p355
+aVit's really this idea of sharing knowledge
+p356
+aVand making impact.
+p357
+aVThat's why people write, not necessarily making bucks.
+p358
+aVWe're not talking about Harry Potter, right?
+p359
+aVWe're at the long tail end here.
+p360
+aVBehind that is the legal code, very carefully constructed.
+p361
+aa(lp362
+VAnd Creative Commons is taking off \u2014
+p363
+aVover 43 million things out there,
+p364
+aVlicensed with a Creative Commons license.
+p365
+aVNot just text,
+p366
+aVbut music, images, video.
+p367
+aVAnd there's actually a tremendous uptake
+p368
+aVof the number of people that are actually licensing music
+p369
+aVto make it free for people who do this whole idea of re-sampling,
+p370
+aVripping, mixing, burning and sharing.
+p371
+aa(lp372
+VOK, I'd like to conclude with just the last few points.
+p373
+aVSo, we've built this idea of a commons.
+p374
+aVPeople are using it.
+p375
+aVWe get over 500,000 unique visitors per month, just to our particular site.
+p376
+aVMIT OpenCourseWare, which is another large open-content site,
+p377
+aVgets a similar number of hits.
+p378
+aVBut how do we protect this?
+p379
+aVHow do we protect it into the future?
+p380
+aVAnd the first thing that people are probably thinking
+p381
+aVis quality control, right?
+p382
+aVBecause we're saying that anybody can contribute things to this commons.
+p383
+aVAnybody can contribute anything.
+p384
+aVSo that could be a problem.
+p385
+aa(lp386
+VIt didn't take long until people started contributing materials,
+p387
+aVfor example, on lingerie,
+p388
+aVwhich is actually a pretty good module.
+p389
+aVThe only problem is it's plagiarized from a major French feminist journal,
+p390
+aVand when you go to the supposed course website,
+p391
+aVit points to a lingerie-selling website.
+p392
+aVSo this is a little bit of a problem.
+p393
+aVSo we clearly need some kind of idea of quality control
+p394
+aVand this is really where the idea of review and peer review comes in.
+p395
+aVYou come to TED. Why do you come to TED?
+p396
+aVBecause Chris and his team have ensured
+p397
+aVthat things are very, very high quality, right?
+p398
+aVAnd so we need to be able to do the same thing.
+p399
+aVAnd we need to be able to design structures,
+p400
+aVand what we're doing is designing social software
+p401
+aVto enable anyone to build their own peer review process,
+p402
+aVand we call these things "lenses."
+p403
+aVAnd basically what they allow
+p404
+aVis anyone out there can develop their own peer-review process,
+p405
+aVso that they can focus on the content in the repository
+p406
+aVthat they think is really important.
+p407
+aVAnd you can think of TED as a potential lens.
+p408
+aa(lp409
+VSo I'd just like to end by saying:
+p410
+aVyou can really view this as a call to action.
+p411
+aVConnexions and open content is all about sharing knowledge.
+p412
+aVAll of you here are tremendously imbued with tremendous amounts of knowledge,
+p413
+aVand what I'd like to do is invite each and every one of you
+p414
+aVto contribute to this project and other projects of its type,
+p415
+aVbecause I think together we can truly change the landscape
+p416
+aVof education and educational publishing.
+p417
+aa(lp418
+VSo, thanks very much.
+p419
+aasS'transcript_micsec'
+p420
+(lp421
+I11000
+aI28000
+aI30000
+aI97000
+aI108000
+aI109000
+aI170000
+aI219000
+aI246000
+aI247000
+aI255000
+aI284000
+aI352000
+aI386000
+aI415000
+aI463000
+aI515000
+aI548000
+aI549000
+aI567000
+aI642000
+aI698000
+aI732000
+aI744000
+aI745000
+aI791000
+aI838000
+aI840000
+aI891000
+aI948000
+aI973000
+aI1011000
+aI1077000
+aI1106000
+asS'talk_meta'
+p422
+(dp423
+S'ratings'
+p424
+(dp425
+S'ingenious'
+p426
+I117
+sS'beautiful'
+p427
+I22
+sS'inspiring'
+p428
+I258
+sS'ok'
+p429
+I69
+sS'fascinating'
+p430
+I111
+sS'funny'
+p431
+I12
+sS'total_count'
+p432
+I1177
+sS'persuasive'
+p433
+I120
+sS'longwinded'
+p434
+I30
+sS'unconvincing'
+p435
+I26
+sS'informative'
+p436
+I320
+sS'jaw-dropping'
+p437
+I26
+sS'obnoxious'
+p438
+I6
+sS'courageous'
+p439
+I52
+sS'confusing'
+p440
+I8
+ssS'author'
+p441
+VRichard_Baraniuk;
+p442
+sS'url'
+p443
+S'https://www.ted.com/talks/richard_baraniuk_on_open_source_learning'
+p444
+sS'vidlen'
+p445
+I1114
+sS'totalviews'
+p446
+I971046
+sS'title'
+p447
+VThe birth of the open-source learning revolution
+p448
+sS'downloadlink'
+p449
+Vhttps://download.ted.com/talks/RichardBaraniuk_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p450
+sS'datepublished'
+p451
+cdatetime
+datetime
+p452
+(S'\x07\xd6\x08\x14\x14\x0b\x00\x00\x00\x00'
+tRp453
+sS'datefilmed'
+p454
+g452
+(S'\x07\xd6\x08\x14\x14\x0b\x00\x00\x00\x00'
+tRp455
+sS'alldata_JSON'
+p456
+S'{"viewed_count": 971046, "speakers": [{"description": "Education visionary", "firstname": "Richard", "title": "", "lastname": "Baraniuk", "middleinitial": "", "whylisten": "<p>Rice University professor Richard Baraniuk has a giant vision: to create a free global online education system that puts the power of creation and collaboration in the hands of teachers worldwide. He&#39;s realizing that vision with <a href=\\"http://openstaxcollege.org/\\" target=\\"_blank\\">OpenStax</a> (formerly named Connexions), a website that allows teachers to quickly &quot;create, rip, mix and burn&quot; coursework -- without fear of copyright violations. Think of it as Napster for education.</p><p>OpenStax&#39;s open-source system cuts out the textbook, allowing teachers to share course materials, modify existing work and disseminate it to their students -- all for free, thanks to <a href=\\"http://creativecommons.org/\\" target=\\"_blank\\" title=\\"Creative Commons\\">Creative Commons</a>  licensing. Baraniuk envisions OpenStax as a repository where the most up-to-date material can be shared and reviewed (it&#39;s far more efficient than waiting for a textbook to be printed); it could become a powerful force in leveling the education playing field. Currently encompassing hundreds of online courses and used by a million people worldwide, Baraniuk&#39;s virtual educational system is revolutionizing the way people teach and learn.</p>", "slug": "richard_baraniuk", "whotheyare": "Richard Baraniuk founded Connexions -- now called OpenStax -- a free, open-source, global clearinghouse of course materials. Students and educators tap into its vast store of texts on everything from engineering to ornithology to music, adapting the content as they see fit.", "whatotherssay": "[Baraniuk] is trying to reshape the way academe uses both peer review and publishing. The project also has hopes of becoming a major curricular tool at community colleges.", "id": 26, "photo_url": "https://pe.tedcdn.com/images/ted/1414_254x191.jpg"}], "current_talk": 25, "description": "In 2006, open-learning visionary Richard Baraniuk explains the vision behind Connexions (now called OpenStax), an open-source, online education system. It cuts out the textbook, allowing teachers to share and modify course materials freely, anywhere in the world.", "language": "en", "url": "https://www.ted.com/talks/richard_baraniuk_on_open_source_learning", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 129946715}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25596481}, "podcast-high": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 129935338}, "180k": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25513105}, "64k": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9170045}, "1500k": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 202584484}, "450k": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63275884}, "podcast-regular": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63333252}, "950k": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 129828638}, "audio-podcast": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7656314}, "podcast-light": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9266553}, "320k": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45118462}, "600k": {"uri": "https://download.ted.com/talks/RichardBaraniuk_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 84081041}}}, "comments": {"count": 108, "id": 24, "talk_id": 25}, "slug": "richard_baraniuk_on_open_source_learning", "threadId": 24, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "richard_baraniuk_on_open_source_learning", "filmed": 1140652800, "targeting": {"event": "TED2006", "tag": "business,collaboration,culture,global issues,library,open-source,technology", "id": 25, "talk": "richard_baraniuk_on_open_source_learning", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "The birth of the open-source learning revolution", "postAdDuration": "0.83", "published": 1156119060, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/228_480x360.jpg?quality=89&w=600", "name": "Richard Baraniuk: The birth of the open-source learning revolution", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["business", "collaboration", "culture", "global issues", "library", "open-source", "technology"], "speaker": "Richard Baraniuk", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1114, "id": 25, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RichardBaraniuk_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "business,collaboration,culture,global issues,library,open-source,technology", "id": 25, "talk": "richard_baraniuk_on_open_source_learning", "year": "2006"}, "metadata": "https://hls.ted.com/talks/25.json", "stream": "https://hls.ted.com/talks/25.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D25%26tag%3Dbusiness%2Ccollaboration%2Cculture%2Cglobal%2Bissues%2Clibrary%2Copen-source%2Ctechnology%26talk%3Drichard_baraniuk_on_open_source_learning%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/richard_baraniuk_on_open_source_learning"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/228_480x360.jpg?q=50&w=15", "duration": 1114, "id": 25, "ratings": [{"count": 117, "id": 9, "name": "Ingenious"}, {"count": 52, "id": 3, "name": "Courageous"}, {"count": 22, "id": 1, "name": "Beautiful"}, {"count": 12, "id": 7, "name": "Funny"}, {"count": 30, "id": 11, "name": "Longwinded"}, {"count": 320, "id": 8, "name": "Informative"}, {"count": 258, "id": 10, "name": "Inspiring"}, {"count": 111, "id": 22, "name": "Fascinating"}, {"count": 8, "id": 2, "name": "Confusing"}, {"count": 26, "id": 21, "name": "Unconvincing"}, {"count": 26, "id": 23, "name": "Jaw-dropping"}, {"count": 120, "id": 24, "name": "Persuasive"}, {"count": 69, "id": 25, "name": "OK"}, {"count": 6, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Education visionary", "firstname": "Richard", "title": "", "lastname": "Baraniuk", "middleinitial": "", "whylisten": "<p>Rice University professor Richard Baraniuk has a giant vision: to create a free global online education system that puts the power of creation and collaboration in the hands of teachers worldwide. He&#39;s realizing that vision with <a href=\\"http://openstaxcollege.org/\\" target=\\"_blank\\">OpenStax</a> (formerly named Connexions), a website that allows teachers to quickly &quot;create, rip, mix and burn&quot; coursework -- without fear of copyright violations. Think of it as Napster for education.</p><p>OpenStax&#39;s open-source system cuts out the textbook, allowing teachers to share course materials, modify existing work and disseminate it to their students -- all for free, thanks to <a href=\\"http://creativecommons.org/\\" target=\\"_blank\\" title=\\"Creative Commons\\">Creative Commons</a>  licensing. Baraniuk envisions OpenStax as a repository where the most up-to-date material can be shared and reviewed (it&#39;s far more efficient than waiting for a textbook to be printed); it could become a powerful force in leveling the education playing field. Currently encompassing hundreds of online courses and used by a million people worldwide, Baraniuk&#39;s virtual educational system is revolutionizing the way people teach and learn.</p>", "slug": "richard_baraniuk", "whotheyare": "Richard Baraniuk founded Connexions -- now called OpenStax -- a free, open-source, global clearinghouse of course materials. Students and educators tap into its vast store of texts on everything from engineering to ornithology to music, adapting the content as they see fit.", "whatotherssay": "[Baraniuk] is trying to reshape the way academe uses both peer review and publishing. The project also has hopes of becoming a major curricular tool at community colleges.", "id": 26, "photo_url": "https://pe.tedcdn.com/images/ted/1414_254x191.jpg"}], "title": "The birth of the open-source learning revolution", "take_action": null, "comments": 24, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/228_480x360.jpg", "description": "In 2006, open-learning visionary Richard Baraniuk explains the vision behind Connexions (now called OpenStax), an open-source, online education system. It cuts out the textbook, allowing teachers to share and modify course materials freely, anywhere in the world.", "tags": ["business", "collaboration", "culture", "global issues", "library", "open-source", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RichardBaraniuk_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RichardBaraniuk_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RichardBaraniuk_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 25, "audioDownload": "https://download.ted.com/talks/RichardBaraniuk_2006.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1084470, "hero": "https://pe.tedcdn.com/images/ted/a26c7c92140aec2d6679d94f7cdd0e7371505c65_1600x1200.jpg", "title": "Why massive open online courses (still) matter", "id": 1913, "speaker": "Anant Agarwal", "duration": 919, "slug": "anant_agarwal_why_massively_open_online_courses_still_matter"}, {"viewed_count": 2314246, "hero": "https://pe.tedcdn.com/images/ted/a512e584f64e2a30945af3c91101253c92a874fa_1600x1200.jpg", "title": "What we\'re learning from online education", "id": 1531, "speaker": "Daphne Koller", "duration": 1240, "slug": "daphne_koller_what_we_re_learning_from_online_education"}, {"viewed_count": 986107, "hero": "https://pe.tedcdn.com/images/ted/b5a6709fd1913ee333964a645d9c8b271ed82da5_1600x1200.jpg", "title": "The self-organizing computer course", "id": 1570, "speaker": "Shimon Schocken", "duration": 985, "slug": "shimon_schocken_the_self_organizing_computer_course"}, {"viewed_count": 447940, "hero": "https://pe.tedcdn.com/images/ted/53153_480x360.jpg", "title": "A free digital library", "id": 346, "speaker": "Brewster Kahle", "duration": 1206, "slug": "brewster_kahle_builds_a_free_digital_library"}, {"viewed_count": 1454553, "hero": "https://pe.tedcdn.com/images/ted/f0492898d0b7658a39ac9348f555f11e936b5068_2880x1620.jpg", "title": "My year reading a book from every country in the world", "id": 2382, "speaker": "Ann Morgan", "duration": 723, "slug": "ann_morgan_my_year_reading_a_book_from_every_country_in_the_world"}, {"viewed_count": 1164803, "hero": "https://pe.tedcdn.com/images/ted/2ff057a4bb41b2246c65370cf104a8ffa0dfc75a_2880x1620.jpg", "title": "Old books reborn as art", "id": 2180, "speaker": "Brian Dettmer", "duration": 366, "slug": "brian_dettmer_old_books_reborn_as_intricate_art"}], "recorded_at": "2006-02-23T00:00:00.000+00:00", "slug": "richard_baraniuk_on_open_source_learning", "speaker_name": "Richard Baraniuk", "viewed_count": 971046, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Richard Baraniuk: The birth of the open-source learning revolution"}'
+p457
+sS'keywords'
+p458
+(lp459
+Vbusiness
+p460
+aVcollaboration
+p461
+aVculture
+p462
+aVglobal issues
+p463
+aVlibrary
+p464
+aVopen-source
+p465
+aVtechnology
+p466
+asS'datecrawled'
+p467
+g452
+(S'\x07\xe1\n\x17\x009\n\x01\xc2.'
+tRp468
+sS'id'
+p469
+I25
+ss.

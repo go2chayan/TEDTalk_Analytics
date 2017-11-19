@@ -1,0 +1,978 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIt used to be that if you wanted to get a computer to do something new,
+p5
+aVyou would have to program it.
+p6
+aVNow, programming, for those of you here that haven't done it yourself,
+p7
+aVrequires laying out in excruciating detail
+p8
+aVevery single step that you want the computer to do
+p9
+aVin order to achieve your goal.
+p10
+aVNow, if you want to do something that you don't know how to do yourself,
+p11
+aVthen this is going to be a great challenge.
+p12
+aa(lp13
+VSo this was the challenge faced by this man, Arthur Samuel.
+p14
+aVIn 1956, he wanted to get this computer
+p15
+aVto be able to beat him at checkers.
+p16
+aVHow can you write a program,
+p17
+aVlay out in excruciating detail, how to be better than you at checkers?
+p18
+aVSo he came up with an idea:
+p19
+aVhe had the computer play against itself thousands of times
+p20
+aVand learn how to play checkers.
+p21
+aVAnd indeed it worked, and in fact, by 1962,
+p22
+aVthis computer had beaten the Connecticut state champion.
+p23
+aa(lp24
+VSo Arthur Samuel was the father of machine learning,
+p25
+aVand I have a great debt to him,
+p26
+aVbecause I am a machine learning practitioner.
+p27
+aVI was the president of Kaggle,
+p28
+aVa community of over 200,000 machine learning practictioners.
+p29
+aVKaggle puts up competitions
+p30
+aVto try and get them to solve previously unsolved problems,
+p31
+aVand it's been successful  hundreds of times.
+p32
+aVSo from this vantage point, I was able to find out
+p33
+aVa lot about what machine learning can do in the past, can do today,
+p34
+aVand what it could do in the future.
+p35
+aVPerhaps the first big success of  machine learning commercially was Google.
+p36
+aVGoogle showed that it is possible to find information
+p37
+aVby using a computer algorithm,
+p38
+aVand this algorithm is based on machine learning.
+p39
+aVSince that time, there have been many commercial successes of machine learning.
+p40
+aVCompanies like Amazon and Netflix
+p41
+aVuse machine learning to suggest products that you might like to buy,
+p42
+aVmovies that you might like to watch.
+p43
+aVSometimes, it's almost creepy.
+p44
+aVCompanies like LinkedIn and Facebook
+p45
+aVsometimes will tell you about who your friends might be
+p46
+aVand you have no idea how it did it,
+p47
+aVand this is because it's using the power of machine learning.
+p48
+aVThese are algorithms that have learned how to do this from data
+p49
+aVrather than being programmed by hand.
+p50
+aa(lp51
+VThis is also how IBM was successful
+p52
+aVin getting Watson to beat the two world champions at "Jeopardy,"
+p53
+aVanswering incredibly subtle and complex questions like this one.
+p54
+aV["The ancient 'Lion of Nimrud' went missing from this city's national museum in 2003  (along with a lot of other stuff)"]
+p55
+aVThis is also why we are now able to see the first self-driving cars.
+p56
+aVIf you want to be able to tell the difference between, say,
+p57
+aVa tree and a pedestrian, well, that's pretty important.
+p58
+aVWe don't know how to write those programs by hand,
+p59
+aVbut with machine learning, this is now possible.
+p60
+aVAnd in fact, this car has driven  over a million miles
+p61
+aVwithout any accidents on regular roads.
+p62
+aa(lp63
+VSo we now know that computers can learn,
+p64
+aVand computers can learn to do things
+p65
+aVthat we actually sometimes don't know how to do ourselves,
+p66
+aVor maybe can do them better than us.
+p67
+aVOne of the most amazing examples I've seen of machine learning
+p68
+aVhappened on a project that I ran at Kaggle
+p69
+aVwhere a team run by a guy called Geoffrey Hinton
+p70
+aVfrom the University of Toronto
+p71
+aVwon a competition for automatic drug discovery.
+p72
+aVNow, what was extraordinary here is not just that they beat
+p73
+aVall of the algorithms developed by Merck or the international academic community,
+p74
+aVbut nobody on the team had any background in chemistry or biology or life sciences,
+p75
+aVand they did it in two weeks.
+p76
+aVHow did they do this?
+p77
+aVThey used an extraordinary algorithm called deep learning.
+p78
+aVSo important was this that in fact the success was covered
+p79
+aVin The New York Times in a front page article a few weeks later.
+p80
+aVThis is Geoffrey Hinton here on the left-hand side.
+p81
+aVDeep learning is an algorithm inspired by how the human brain works,
+p82
+aVand as a result it's an algorithm
+p83
+aVwhich has no theoretical limitations on what it can do.
+p84
+aVThe more data you give it and the more computation time you give it,
+p85
+aVthe better it gets.
+p86
+aa(lp87
+VThe New York Times also showed in this article
+p88
+aVanother extraordinary result of deep learning
+p89
+aVwhich I'm going to show you now.
+p90
+aVIt shows that computers  can listen and understand.
+p91
+aa(lp92
+V(Video) Richard Rashid: Now, the last step
+p93
+aVthat I want to be able to take in this process
+p94
+aVis to actually speak to you in Chinese.
+p95
+aVNow the key thing there is,
+p96
+aVwe've been able to take a large amount  of information from many Chinese speakers
+p97
+aVand produce a text-to-speech system
+p98
+aVthat takes Chinese text and converts it into Chinese language,
+p99
+aVand then we've taken an hour or so of my own voice
+p100
+aVand we've used that to modulate
+p101
+aVthe standard text-to-speech system so that it would sound like me.
+p102
+aVAgain, the result's not perfect.
+p103
+aVThere are in fact quite a few errors.
+p104
+aV(In Chinese)
+p105
+aV(Applause)
+p106
+aVThere's much work to be done in this area.
+p107
+aV(In Chinese)
+p108
+aV(Applause)
+p109
+aa(lp110
+VJeremy Howard: Well, that was at a machine learning conference in China.
+p111
+aVIt's not often, actually, at academic conferences
+p112
+aVthat you do hear spontaneous applause,
+p113
+aValthough of course sometimes at TEDx conferences, feel free.
+p114
+aVEverything you saw there was happening with deep learning.
+p115
+aV(Applause) Thank you.
+p116
+aVThe transcription in English was deep learning.
+p117
+aVThe translation to Chinese and the text in the top right, deep learning,
+p118
+aVand the construction of the voice was deep learning as well.
+p119
+aa(lp120
+VSo deep learning is this extraordinary thing.
+p121
+aVIt's a single algorithm that can seem to do almost anything,
+p122
+aVand I discovered that a year earlier, it had also learned to see.
+p123
+aVIn this obscure competition from Germany
+p124
+aVcalled the German Traffic Sign  Recognition Benchmark,
+p125
+aVdeep learning had learned to recognize traffic signs like this one.
+p126
+aVNot only could it recognize the traffic signs
+p127
+aVbetter than any other algorithm,
+p128
+aVthe leaderboard actually showed it was better than people,
+p129
+aVabout twice as good as people.
+p130
+aVSo by 2011, we had the first example
+p131
+aVof computers that can see better than people.
+p132
+aVSince that time, a lot has happened.
+p133
+aVIn 2012, Google announced that they had a deep learning algorithm
+p134
+aVwatch YouTube videos
+p135
+aVand crunched the data on 16,000 computers for a month,
+p136
+aVand the computer independently learned about concepts such as people and cats
+p137
+aVjust by watching the videos.
+p138
+aVThis is much like the way that humans learn.
+p139
+aVHumans don't learn by being told what they see,
+p140
+aVbut by learning for themselves what these things are.
+p141
+aVAlso in 2012, Geoffrey Hinton, who we saw earlier,
+p142
+aVwon the very popular ImageNet competition,
+p143
+aVlooking to try to figure out  from one and a half million images
+p144
+aVwhat they're pictures of.
+p145
+aVAs of 2014, we're now down to a six percent error rate
+p146
+aVin image recognition.
+p147
+aVThis is better than people, again.
+p148
+aa(lp149
+VSo machines really are doing an extraordinarily good job of this,
+p150
+aVand it is now being used in industry.
+p151
+aVFor example, Google announced last year
+p152
+aVthat they had mapped every single location in France in two hours,
+p153
+aVand the way they did it was that they fed street view images
+p154
+aVinto a deep learning algorithm to recognize and read street numbers.
+p155
+aVImagine how long it would have taken before:
+p156
+aVdozens of people, many years.
+p157
+aVThis is also happening in China.
+p158
+aVBaidu is kind of  the Chinese Google, I guess,
+p159
+aVand what you see here in the top left
+p160
+aVis an example of a picture that I uploaded to Baidu's deep learning system,
+p161
+aVand underneath you can see that the system has understood what that picture is
+p162
+aVand found similar images.
+p163
+aVThe similar images actually have similar backgrounds,
+p164
+aVsimilar directions of the faces,
+p165
+aVeven some with their tongue out.
+p166
+aVThis is not clearly looking at the text of a web page.
+p167
+aVAll I uploaded was an image.
+p168
+aVSo we now have computers which really understand what they see
+p169
+aVand can therefore search databases
+p170
+aVof hundreds of millions of images in real time.
+p171
+aa(lp172
+VSo what does it mean now that computers can see?
+p173
+aVWell, it's not just  that computers can see.
+p174
+aVIn fact, deep learning has done more than that.
+p175
+aVComplex, nuanced sentences like this one
+p176
+aVare now understandable with deep learning algorithms.
+p177
+aVAs you can see here,
+p178
+aVthis Stanford-based system showing the red dot at the top
+p179
+aVhas figured out that this sentence is expressing negative sentiment.
+p180
+aVDeep learning now in fact is near human performance
+p181
+aVat understanding what sentences are about and what it is saying about those things.
+p182
+aVAlso, deep learning has been used to read Chinese,
+p183
+aVagain at about native Chinese speaker level.
+p184
+aVThis algorithm developed out of Switzerland
+p185
+aVby people, none of whom speak or understand any Chinese.
+p186
+aVAs I say, using deep learning
+p187
+aVis about the best system in the world for this,
+p188
+aVeven compared to native human understanding.
+p189
+aa(lp190
+VThis is a system that we put together at my company
+p191
+aVwhich shows putting all this stuff together.
+p192
+aVThese are pictures which have no text attached,
+p193
+aVand as I'm typing in here sentences,
+p194
+aVin real time it's understanding these pictures
+p195
+aVand figuring out what they're about
+p196
+aVand finding pictures that are similar to the text that I'm writing.
+p197
+aVSo you can see, it's actually understanding my sentences
+p198
+aVand actually understanding these pictures.
+p199
+aVI know that you've seen something like this on Google,
+p200
+aVwhere you can type in things and it will show you pictures,
+p201
+aVbut actually what it's doing is it's searching the webpage for the text.
+p202
+aVThis is very different from actually understanding the images.
+p203
+aVThis is something that computers have only been able to do
+p204
+aVfor the first time in the last few months.
+p205
+aa(lp206
+VSo we can see now that computers can not only see but they can also read,
+p207
+aVand, of course, we've shown that they can understand what they hear.
+p208
+aVPerhaps not surprising now that I'm going to tell you they can write.
+p209
+aVHere is some text that I generated using a deep learning algorithm yesterday.
+p210
+aVAnd here is some text that an algorithm out of Stanford generated.
+p211
+aVEach of these sentences was generated
+p212
+aVby a deep learning algorithm to describe each of those pictures.
+p213
+aVThis algorithm before has never seen a man in a black shirt playing a guitar.
+p214
+aVIt's seen a man before, it's seen black before,
+p215
+aVit's seen a guitar before,
+p216
+aVbut it has independently generated this novel description of this picture.
+p217
+aVWe're still not quite at human performance here, but we're close.
+p218
+aVIn tests, humans prefer the computer-generated caption
+p219
+aVone out of four times.
+p220
+aVNow this system is now only two weeks old,
+p221
+aVso probably within the next year,
+p222
+aVthe computer algorithm will be well past human performance
+p223
+aVat the rate things are going.
+p224
+aVSo computers can also write.
+p225
+aa(lp226
+VSo we put all this together and it leads to very exciting opportunities.
+p227
+aVFor example, in medicine,
+p228
+aVa team in Boston announced that they had discovered
+p229
+aVdozens of new clinically relevant features
+p230
+aVof tumors which help doctors make a prognosis of a cancer.
+p231
+aVVery similarly, in Stanford,
+p232
+aVa group there announced that, looking at tissues under magnification,
+p233
+aVthey've developed  a machine learning-based system
+p234
+aVwhich in fact is better than human pathologists
+p235
+aVat predicting survival rates for cancer sufferers.
+p236
+aVIn both of these cases, not only were the predictions more accurate,
+p237
+aVbut they generated new insightful science.
+p238
+aVIn the radiology case,
+p239
+aVthey were new clinical indicators that humans can understand.
+p240
+aVIn this pathology case,
+p241
+aVthe computer system actually discovered that the cells around the cancer
+p242
+aVare as important as the cancer cells themselves
+p243
+aVin making a diagnosis.
+p244
+aVThis is the opposite of what pathologists had been taught for decades.
+p245
+aVIn each of those two cases, they were systems developed
+p246
+aVby a combination of medical experts and machine learning experts,
+p247
+aVbut as of last year, we're now beyond that too.
+p248
+aVThis is an example of identifying cancerous areas
+p249
+aVof human tissue under a microscope.
+p250
+aVThe system being shown here can identify those areas more accurately,
+p251
+aVor about as accurately, as human pathologists,
+p252
+aVbut was built entirely with deep learning using no medical expertise
+p253
+aVby people who have no background in the field.
+p254
+aVSimilarly, here, this neuron segmentation.
+p255
+aVWe can now segment neurons about as accurately as humans can,
+p256
+aVbut this system was developed with deep learning
+p257
+aVusing people with no previous  background in medicine.
+p258
+aa(lp259
+VSo myself, as somebody with no previous background in medicine,
+p260
+aVI seem to be entirely well qualified to start a new medical company,
+p261
+aVwhich I did.
+p262
+aVI was kind of terrified of doing it,
+p263
+aVbut the theory seemed to suggest that it ought to be possible
+p264
+aVto do very useful medicine using just these data analytic techniques.
+p265
+aVAnd thankfully, the feedback has been fantastic,
+p266
+aVnot just from the media but from the medical community,
+p267
+aVwho have been very supportive.
+p268
+aVThe theory is that we can take the middle part of the medical process
+p269
+aVand turn that into data analysis as much as possible,
+p270
+aVleaving doctors to do what they're best at.
+p271
+aVI want to give you an example.
+p272
+aVIt now takes us about 15 minutes to generate a new medical diagnostic test
+p273
+aVand I'll show you that in real time now,
+p274
+aVbut I've compressed it down to  three minutes by cutting some pieces out.
+p275
+aVRather than showing you creating a medical diagnostic test,
+p276
+aVI'm going to show you  a diagnostic test of car images,
+p277
+aVbecause that's something we can all understand.
+p278
+aa(lp279
+VSo here we're starting with  about 1.5 million car images,
+p280
+aVand I want to create something that can split them into the angle
+p281
+aVof the photo that's being taken.
+p282
+aVSo these images are entirely unlabeled, so I have to start from scratch.
+p283
+aVWith our deep learning algorithm,
+p284
+aVit can automatically identify areas of structure in these images.
+p285
+aVSo the nice thing is that the human and the computer can now work together.
+p286
+aVSo the human, as you can see here,
+p287
+aVis telling the computer about areas of interest
+p288
+aVwhich it wants the computer then to try and use to improve its algorithm.
+p289
+aVNow, these deep learning systems actually are in 16,000-dimensional space,
+p290
+aVso you can see here the computer rotating this through that space,
+p291
+aVtrying to find new areas of structure.
+p292
+aVAnd when it does so successfully,
+p293
+aVthe human who is driving it can then point out the areas that are interesting.
+p294
+aVSo here, the computer has successfully found areas,
+p295
+aVfor example, angles.
+p296
+aVSo as we go through this process,
+p297
+aVwe're gradually telling the computer more and more
+p298
+aVabout the kinds of structures we're looking for.
+p299
+aVYou can imagine in a diagnostic test
+p300
+aVthis would be a pathologist identifying areas of pathosis, for example,
+p301
+aVor a radiologist indicating potentially troublesome nodules.
+p302
+aVAnd sometimes it can be difficult for the algorithm.
+p303
+aVIn this case, it got kind of confused.
+p304
+aVThe fronts and the backs of the cars are all mixed up.
+p305
+aVSo here we have to be a bit more careful,
+p306
+aVmanually selecting these fronts as opposed to the backs,
+p307
+aVthen telling the computer that this is a type of group
+p308
+aVthat we're interested in.
+p309
+aa(lp310
+VSo we do that for a while, we skip over a little bit,
+p311
+aVand then we train the machine learning algorithm
+p312
+aVbased on these couple of hundred things,
+p313
+aVand we hope that it's gotten a lot better.
+p314
+aVYou can see, it's now started to fade some of these pictures out,
+p315
+aVshowing us that it already is recognizing how to understand some of these itself.
+p316
+aVWe can then use this concept of similar images,
+p317
+aVand using similar images, you can now see,
+p318
+aVthe computer at this point is able to entirely find just the fronts of cars.
+p319
+aVSo at this point, the human can tell the computer,
+p320
+aVokay, yes, you've done a good job of that.
+p321
+aa(lp322
+VSometimes, of course, even at this point
+p323
+aVit's still difficult to separate out groups.
+p324
+aVIn this case, even after we let the computer try to rotate this for a while,
+p325
+aVwe still find that the left sides and the right sides pictures
+p326
+aVare all mixed up together.
+p327
+aVSo we can again give the computer some hints,
+p328
+aVand we say, okay, try and find a projection that separates out
+p329
+aVthe left sides and the right sides as much as possible
+p330
+aVusing this deep learning algorithm.
+p331
+aVAnd giving it that hint \u2014 ah, okay, it's been successful.
+p332
+aVIt's managed to find a way of thinking about these objects
+p333
+aVthat's separated out these together.
+p334
+aa(lp335
+VSo you get the idea here.
+p336
+aVThis is a case not where the human is being replaced by a computer,
+p337
+aVbut where they're working together.
+p338
+aVWhat we're doing here is we're replacing something that used to take a team
+p339
+aVof five or six people about seven years
+p340
+aVand replacing it with something that takes 15 minutes
+p341
+aVfor one person acting alone.
+p342
+aa(lp343
+VSo this process takes about four or five iterations.
+p344
+aVYou can see we now have 62 percent
+p345
+aVof our 1.5 million images  classified correctly.
+p346
+aVAnd at this point, we can start to quite quickly
+p347
+aVgrab whole big sections,
+p348
+aVcheck through them to make sure that there's no mistakes.
+p349
+aVWhere there are mistakes, we can let the computer know about them.
+p350
+aVAnd using this kind of process for each of the different groups,
+p351
+aVwe are now up to an 80 percent success rate
+p352
+aVin classifying the 1.5 million images.
+p353
+aVAnd at this point, it's just a case
+p354
+aVof finding the small number that aren't classified correctly,
+p355
+aVand trying to understand why.
+p356
+aVAnd using that approach,
+p357
+aVby 15 minutes we get to 97 percent classification rates.
+p358
+aa(lp359
+VSo this kind of technique could allow us to fix a major problem,
+p360
+aVwhich is that there's a lack of medical expertise in the world.
+p361
+aVThe World Economic Forum says that there's between a 10x and a 20x
+p362
+aVshortage of physicians in the developing world,
+p363
+aVand it would take about 300 years
+p364
+aVto train enough people to fix that problem.
+p365
+aVSo imagine if we can help enhance their efficiency
+p366
+aVusing these deep learning approaches?
+p367
+aa(lp368
+VSo I'm very excited about the opportunities.
+p369
+aVI'm also concerned about the problems.
+p370
+aVThe problem here is that every area in blue on this map
+p371
+aVis somewhere where services are over 80 percent of employment.
+p372
+aVWhat are services?
+p373
+aVThese are services.
+p374
+aVThese are also the exact things that computers have just learned how to do.
+p375
+aVSo 80 percent of the world's employment in the developed world
+p376
+aVis stuff that computers  have just learned how to do.
+p377
+aVWhat does that mean?
+p378
+aVWell, it'll be fine. They'll be replaced by other jobs.
+p379
+aVFor example, there will be more jobs for data scientists.
+p380
+aVWell, not really.
+p381
+aVIt doesn't take data scientists  very long to build these things.
+p382
+aVFor example, these four algorithms were all built by the same guy.
+p383
+aVSo if you think, oh,  it's all happened before,
+p384
+aVwe've seen the results in the past of when new things come along
+p385
+aVand they get replaced by new jobs,
+p386
+aVwhat are these new jobs going to be?
+p387
+aVIt's very hard for us to estimate this,
+p388
+aVbecause human performance grows at this gradual rate,
+p389
+aVbut we now have a system, deep learning,
+p390
+aVthat we know actually grows in capability exponentially.
+p391
+aVAnd we're here.
+p392
+aVSo currently, we see the things around us
+p393
+aVand we say, "Oh, computers are still pretty dumb." Right?
+p394
+aVBut in five years' time, computers will be off this chart.
+p395
+aVSo we need to be starting to think about this capability right now.
+p396
+aa(lp397
+VWe have seen this once before, of course.
+p398
+aVIn the Industrial Revolution,
+p399
+aVwe saw a step change in capability thanks to engines.
+p400
+aVThe thing is, though, that after a while, things flattened out.
+p401
+aVThere was social disruption,
+p402
+aVbut once engines were used  to generate power in all the situations,
+p403
+aVthings really settled down.
+p404
+aVThe Machine Learning Revolution
+p405
+aVis going to be very different from the Industrial Revolution,
+p406
+aVbecause the Machine Learning Revolution, it never settles down.
+p407
+aVThe better computers get at intellectual activities,
+p408
+aVthe more they can build better computers to be better at intellectual capabilities,
+p409
+aVso this is going to be a kind of change
+p410
+aVthat the world has actually never experienced before,
+p411
+aVso your previous understanding of what's possible is different.
+p412
+aa(lp413
+VThis is already impacting us.
+p414
+aVIn the last 25 years, as capital productivity has increased,
+p415
+aVlabor productivity has been flat, in fact even a little bit down.
+p416
+aa(lp417
+VSo I want us to start having this discussion now.
+p418
+aVI know that when I often tell people about this situation,
+p419
+aVpeople can be quite dismissive.
+p420
+aVWell, computers can't really think,
+p421
+aVthey don't emote, they don't understand poetry,
+p422
+aVwe don't really understand how they work.
+p423
+aVSo what?
+p424
+aVComputers right now can do the things
+p425
+aVthat humans spend most of their time being paid to do,
+p426
+aVso now's the time to start thinking
+p427
+aVabout how we're going to adjust our social structures and economic structures
+p428
+aVto be aware of this new reality.
+p429
+aVThank you.
+p430
+aV(Applause)
+p431
+aasS'transcript_micsec'
+p432
+(lp433
+I11000
+aI35000
+aI66000
+aI138000
+aI171000
+aI239000
+aI251000
+aI312000
+aI337000
+aI412000
+aI477000
+aI527000
+aI568000
+aI627000
+aI727000
+aI785000
+aI872000
+aI904000
+aI937000
+aI961000
+aI1002000
+aI1027000
+aI1101000
+aI1141000
+aI1152000
+asS'talk_meta'
+p434
+(dp435
+S'ratings'
+p436
+(dp437
+S'beautiful'
+p438
+I61
+sS'ingenious'
+p439
+I144
+sS'inspiring'
+p440
+I194
+sS'ok'
+p441
+I60
+sS'fascinating'
+p442
+I659
+sS'funny'
+p443
+I15
+sS'total_count'
+p444
+I2521
+sS'persuasive'
+p445
+I166
+sS'longwinded'
+p446
+I29
+sS'informative'
+p447
+I756
+sS'jaw-dropping'
+p448
+I371
+sS'obnoxious'
+p449
+I9
+sS'confusing'
+p450
+I18
+sS'courageous'
+p451
+I12
+sS'unconvincing'
+p452
+I27
+ssS'author'
+p453
+VJeremy_Howard;
+p454
+sS'url'
+p455
+S'https://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn'
+p456
+sS'vidlen'
+p457
+I1185
+sS'totalviews'
+p458
+I2208077
+sS'title'
+p459
+VThe wonderful and terrifying implications of computers that can learn
+p460
+sS'downloadlink'
+p461
+Vhttps://download.ted.com/talks/JeremyHoward_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p462
+sS'datepublished'
+p463
+cdatetime
+datetime
+p464
+(S'\x07\xde\x0c\x10\n2\r\x00\x00\x00'
+tRp465
+sS'datefilmed'
+p466
+g464
+(S'\x07\xde\x0c\x10\n2\r\x00\x00\x00'
+tRp467
+sS'alldata_JSON'
+p468
+S'{"viewed_count": 2208077, "speakers": [{"description": "Data scientist", "firstname": "Jeremy", "title": "", "lastname": "Howard", "middleinitial": "", "whylisten": "<p>Jeremy Howard is the CEO of <a href=\\"http://www.enlitic.com/\\" target=\\"_blank\\">Enlitic</a>, an advanced machine learning company in San Francisco. Previously, he was the president and chief scientist at <a href=\\"http://www.kaggle.com/\\" target=\\"_blank\\">Kaggle</a>, a community and competition platform of over 200,000 data scientists. Howard is a faculty member at <a href=\\"http://singularityu.org/\\" target=\\"_blank\\">Singularity University</a>, where he teaches data science. He is also a Young Global Leader with the World Economic Forum, and spoke at the World Economic Forum Annual Meeting 2014 on &quot;<a href=\\"https://www.youtube.com/watch?v=74xPTVQx0Lc\\" target=\\"_blank\\">Jobs for the Machines</a>.&quot; </p><p>Howard advised Khosla Ventures as their Data Strategist, identifying opportunities for investing in data-driven startups and mentoring portfolio companies to build data-driven businesses. He was the founding CEO of two successful Australian startups, FastMail and Optimal Decisions Group. </p>", "slug": "jeremy_howard", "whotheyare": "Jeremy Howard imagines how advanced machine learning can improve our lives.", "whatotherssay": "", "id": 2374, "photo_url": "https://pe.tedcdn.com/images/ted/c8d0a302e6fecb23f6a75b2a1d36f775c626348a_254x191.jpg"}], "current_talk": 2155, "description": "What happens when we teach a computer how to learn? Technologist Jeremy Howard shares some surprising new developments in the fast-moving field of deep learning, a technique that can give computers the ability to learn Chinese, or to recognize objects in photos, or to help think through a medical diagnosis. (One deep learning tool, after watching hours of YouTube, taught itself the concept of \\"cats.\\") Get caught up on a field that will change the way the computers around you behave ... sooner than you probably think.", "language": "en", "url": "https://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139066478}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27325674}, "podcast-high": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 139068198}, "180k": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27072245}, "64k": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9761160}, "1500k": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 216731284}, "450k": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67473902}, "podcast-regular": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67761532}, "950k": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 138656974}, "audio-podcast": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 12207332}, "podcast-light": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9898123}, "320k": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47984064}, "600k": {"uri": "https://download.ted.com/talks/JeremyHoward_2014X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 90121816}}}, "comments": {"count": 250, "id": 26773, "talk_id": 2155}, "slug": "jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn", "threadId": 26773, "talks": [{"event": "TEDxBrussels", "player_talks": [{"event": "TEDxBrussels", "slug": "jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn", "filmed": 1417392000, "targeting": {"event": "TEDxBrussels", "tag": "AI,algorithm,computers,health,intelligence,machine learning,technology", "id": 2155, "talk": "jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "The wonderful and terrifying implications of computers that can learn", "postAdDuration": "0.83", "published": 1418745013, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4707d8e88ba824e4a9ad05ee2446d93576117d21_2880x1620.jpg?quality=89&w=600", "name": "Jeremy Howard: The wonderful and terrifying implications of computers that can learn", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "algorithm", "computers", "health", "intelligence", "machine learning", "technology"], "speaker": "Jeremy Howard", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1185, "id": 2155, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JeremyHoward_2014X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxBrussels", "tag": "AI,algorithm,computers,health,intelligence,machine learning,technology", "id": 2155, "talk": "jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2155.json", "stream": "https://hls.ted.com/talks/2155.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxBrussels%26id%3D2155%26tag%3DAI%2Calgorithm%2Ccomputers%2Chealth%2Cintelligence%2Cmachine%2Blearning%2Ctechnology%26talk%3Djeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4707d8e88ba824e4a9ad05ee2446d93576117d21_2880x1620.jpg?q=50&w=15", "duration": 1185, "id": 2155, "ratings": [{"count": 756, "id": 8, "name": "Informative"}, {"count": 659, "id": 22, "name": "Fascinating"}, {"count": 371, "id": 23, "name": "Jaw-dropping"}, {"count": 166, "id": 24, "name": "Persuasive"}, {"count": 61, "id": 1, "name": "Beautiful"}, {"count": 194, "id": 10, "name": "Inspiring"}, {"count": 144, "id": 9, "name": "Ingenious"}, {"count": 27, "id": 21, "name": "Unconvincing"}, {"count": 60, "id": 25, "name": "OK"}, {"count": 12, "id": 3, "name": "Courageous"}, {"count": 15, "id": 7, "name": "Funny"}, {"count": 29, "id": 11, "name": "Longwinded"}, {"count": 18, "id": 2, "name": "Confusing"}, {"count": 9, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Data scientist", "firstname": "Jeremy", "title": "", "lastname": "Howard", "middleinitial": "", "whylisten": "<p>Jeremy Howard is the CEO of <a href=\\"http://www.enlitic.com/\\" target=\\"_blank\\">Enlitic</a>, an advanced machine learning company in San Francisco. Previously, he was the president and chief scientist at <a href=\\"http://www.kaggle.com/\\" target=\\"_blank\\">Kaggle</a>, a community and competition platform of over 200,000 data scientists. Howard is a faculty member at <a href=\\"http://singularityu.org/\\" target=\\"_blank\\">Singularity University</a>, where he teaches data science. He is also a Young Global Leader with the World Economic Forum, and spoke at the World Economic Forum Annual Meeting 2014 on &quot;<a href=\\"https://www.youtube.com/watch?v=74xPTVQx0Lc\\" target=\\"_blank\\">Jobs for the Machines</a>.&quot; </p><p>Howard advised Khosla Ventures as their Data Strategist, identifying opportunities for investing in data-driven startups and mentoring portfolio companies to build data-driven businesses. He was the founding CEO of two successful Australian startups, FastMail and Optimal Decisions Group. </p>", "slug": "jeremy_howard", "whotheyare": "Jeremy Howard imagines how advanced machine learning can improve our lives.", "whatotherssay": "", "id": 2374, "photo_url": "https://pe.tedcdn.com/images/ted/c8d0a302e6fecb23f6a75b2a1d36f775c626348a_254x191.jpg"}], "title": "The wonderful and terrifying implications of computers that can learn", "take_action": [], "comments": 26773, "more_resources": [{"status": "approved", "start_at": null, "headline": "I\'m Jeremy Howard: Ask me anything", "link_url": "http://www.reddit.com/r/Futurology/comments/2p6k20/im_jeremy_howard_enlitic_ceo_kaggle_past/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "external_website", "blurb": "Check out an open Q&A with the data scientist on Reddit."}], "hero": "https://pe.tedcdn.com/images/ted/4707d8e88ba824e4a9ad05ee2446d93576117d21_2880x1620.jpg", "description": "What happens when we teach a computer how to learn? Technologist Jeremy Howard shares some surprising new developments in the fast-moving field of deep learning, a technique that can give computers the ability to learn Chinese, or to recognize objects in photos, or to help think through a medical diagnosis. (One deep learning tool, after watching hours of YouTube, taught itself the concept of \\"cats.\\") Get caught up on a field that will change the way the computers around you behave ... sooner than you probably think.", "tags": ["AI", "algorithm", "computers", "health", "intelligence", "machine learning", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JeremyHoward_2014X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JeremyHoward_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JeremyHoward_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JeremyHoward_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2155, "audioDownload": "https://download.ted.com/talks/JeremyHoward_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2304694, "hero": "https://pe.tedcdn.com/images/ted/305ffd312450b409757879c70f073bb0d8883656_1600x1200.jpg", "title": "Where\\u2019s Google going next?", "id": 1953, "speaker": "Larry Page", "duration": 1410, "slug": "larry_page_where_s_google_going_next"}, {"viewed_count": 860631, "hero": "https://pe.tedcdn.com/images/ted/5c4684ef473da7cf988f4f4c6da8b23ec09e6b87_1600x1200.jpg", "title": "The rise of human-computer cooperation", "id": 1556, "speaker": "Shyam Sankar", "duration": 732, "slug": "shyam_sankar_the_rise_of_human_computer_cooperation"}, {"viewed_count": 1206009, "hero": "https://pe.tedcdn.com/images/ted/094c87f7169c6cdc93e827944f7c2a018575a9e6_2880x1620.jpg", "title": "The key to growth? Race with the machines", "id": 1720, "speaker": "Erik Brynjolfsson", "duration": 716, "slug": "erik_brynjolfsson_the_key_to_growth_race_em_with_em_the_machines"}, {"viewed_count": 2034876, "hero": "https://pe.tedcdn.com/images/ted/fbada01990f86f5afa850cc23a0259fec091f929_2880x1620.jpg", "title": "How we\'re teaching computers to understand pictures", "id": 2218, "speaker": "Fei-Fei Li", "duration": 1078, "slug": "fei_fei_li_how_we_re_teaching_computers_to_understand_pictures"}, {"viewed_count": 1213638, "hero": "https://pe.tedcdn.com/images/ted/d958222b530da8813f7fdccfa9f692121b93ea0f_2880x1620.jpg", "title": "Machine intelligence makes human morals more important", "id": 2606, "speaker": "Zeynep Tufekci", "duration": 1062, "slug": "zeynep_tufekci_machine_intelligence_makes_human_morals_more_important"}, {"viewed_count": 1643994, "hero": "https://pe.tedcdn.com/images/ted/17161e8b4c3a91b54f1e9451f09d18522cb170fd_2880x1620.jpg", "title": "A delightful way to teach kids about computers", "id": 2417, "speaker": "Linda Liukas", "duration": 663, "slug": "linda_liukas_a_delightful_way_to_teach_kids_about_computers"}], "recorded_at": "2014-12-01T00:00:00.000+00:00", "slug": "jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn", "speaker_name": "Jeremy Howard", "viewed_count": 2208077, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxBrussels, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": []}], "event": "TEDxBrussels", "name": "Jeremy Howard: The wonderful and terrifying implications of computers that can learn"}'
+p469
+sS'keywords'
+p470
+(lp471
+VAI
+p472
+aValgorithm
+p473
+aVcomputers
+p474
+aVhealth
+p475
+aVintelligence
+p476
+aVmachine learning
+p477
+aVtechnology
+p478
+asS'datecrawled'
+p479
+g464
+(S'\x07\xe1\n\x17\x03\x00-\x01\xc5\\'
+tRp480
+sS'id'
+p481
+I2155
+ss.

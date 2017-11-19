@@ -1,0 +1,936 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, people argue vigorously about the definition of life.
+p5
+aVThey ask if it should have reproduction in it, or metabolism, or evolution.
+p6
+aVAnd I don't know the answer to that, so I'm not going to tell you.
+p7
+aVI will say that life involves computation.
+p8
+aVSo this is a computer program.
+p9
+aVBooted up in a cell, the program would execute,
+p10
+aVand it could result in this person;
+p11
+aVor with a small change, it could result in this person;
+p12
+aVor another small change, this person;
+p13
+aVor with a larger change, this dog,
+p14
+aVor this tree, or this whale.
+p15
+aa(lp16
+VSo now, if you take this metaphor
+p17
+aV[of] genome as program seriously,
+p18
+aVyou have to consider that Chris Anderson
+p19
+aVis a computer-fabricated artifact, as is Jim Watson,
+p20
+aVCraig Venter, as are all of us.
+p21
+aVAnd in convincing yourself that this metaphor is true,
+p22
+aVthere are lots of similarities between genetic programs
+p23
+aVand computer programs that could help to convince you.
+p24
+aVBut one, to me, that's most compelling
+p25
+aVis the peculiar sensitivity to small changes
+p26
+aVthat can make large changes in biological development \u2014 the output.
+p27
+aVA small mutation can take a two-wing fly
+p28
+aVand make it a four-wing fly.
+p29
+aVOr it could take a fly and put legs where its antennae should be.
+p30
+aVOr if you're familiar with "The Princess Bride,"
+p31
+aVit could create a six-fingered man.
+p32
+aa(lp33
+VNow, a hallmark of computer programs
+p34
+aVis just this kind of sensitivity to small changes.
+p35
+aVIf your bank account's one dollar, and you flip a single bit,
+p36
+aVyou could end up with a thousand dollars.
+p37
+aVSo these small changes are things that I think
+p38
+aVthat \u2014 they indicate to us that a complicated computation
+p39
+aVin development is underlying these amplified, large changes.
+p40
+aa(lp41
+VSo now, all of this indicates that there are molecular programs underlying biology,
+p42
+aVand it shows the power of molecular programs \u2014 biology does.
+p43
+aVAnd what I want to do is write molecular programs,
+p44
+aVpotentially to build technology.
+p45
+aVAnd there are a lot of people doing this,
+p46
+aVa lot of synthetic biologists doing this, like Craig Venter.
+p47
+aVAnd they concentrate on using cells.
+p48
+aVThey're cell-oriented.
+p49
+aVSo my friends, molecular programmers, and I
+p50
+aVhave a sort of biomolecule-centric approach.
+p51
+aVWe're interested in using DNA, RNA and protein,
+p52
+aVand building new languages for building things from the bottom up,
+p53
+aVusing biomolecules,
+p54
+aVpotentially having nothing to do with biology.
+p55
+aVSo, these are all the machines in a cell.
+p56
+aVThere's a camera.
+p57
+aVThere's the solar panels of the cell,
+p58
+aVsome switches that turn your genes on and off,
+p59
+aVthe girders of the cell, motors that move your muscles.
+p60
+aVMy little group of molecular programmers
+p61
+aVare trying to refashion all of these parts from DNA.
+p62
+aVWe're not DNA zealots, but DNA is the cheapest,
+p63
+aVeasiest to understand and easy to program material to do this.
+p64
+aVAnd as other things become easier to use \u2014
+p65
+aVmaybe protein \u2014 we'll work with those.
+p66
+aa(lp67
+VIf we succeed, what will molecular programming look like?
+p68
+aVYou're going to sit in front of your computer.
+p69
+aVYou're going to design something like a cell phone,
+p70
+aVand in a high-level language, you'll describe that cell phone.
+p71
+aVThen you're going to have a compiler
+p72
+aVthat's going to take that description
+p73
+aVand it's going to turn it into actual molecules
+p74
+aVthat can be sent to a synthesizer
+p75
+aVand that synthesizer will pack those molecules into a seed.
+p76
+aVAnd what happens if you water and feed that seed appropriately,
+p77
+aVis it will do a developmental computation,
+p78
+aVa molecular computation, and it'll build an electronic computer.
+p79
+aVAnd if I haven't revealed my prejudices already,
+p80
+aVI think that life has been about molecular computers
+p81
+aVbuilding electrochemical computers,
+p82
+aVbuilding electronic computers,
+p83
+aVwhich together with electrochemical computers
+p84
+aVwill build new molecular computers,
+p85
+aVwhich will build new electronic computers, and so forth.
+p86
+aa(lp87
+VAnd if you buy all of this,
+p88
+aVand you think life is about computation, as I do,
+p89
+aVthen you look at big questions through the eyes of a computer scientist.
+p90
+aVSo one big question is, how does a baby know when to stop growing?
+p91
+aVAnd for molecular programming,
+p92
+aVthe question is how does your cell phone know when to stop growing?
+p93
+aV(Laughter)
+p94
+aVOr how does a computer program know when to stop running?
+p95
+aVOr more to the point, how do you know if a program will ever stop?
+p96
+aVThere are other questions like this, too.
+p97
+aVOne of them is Craig Venter's question.
+p98
+aVTurns out I think he's actually a computer scientist.
+p99
+aVHe asked, how big is the minimal genome
+p100
+aVthat will give me a functioning microorganism?
+p101
+aVHow few genes can I use?
+p102
+aVThis is exactly analogous to the question,
+p103
+aVwhat's the smallest program I can write
+p104
+aVthat will act exactly like Microsoft Word?
+p105
+aV(Laughter)
+p106
+aVAnd just as he's writing, you know, bacteria that will be smaller,
+p107
+aVhe's writing genomes that will work,
+p108
+aVwe could write smaller programs
+p109
+aVthat would do what Microsoft Word does.
+p110
+aa(lp111
+VBut for molecular programming, our question is,
+p112
+aVhow many molecules do we need to put in that seed to get a cell phone?
+p113
+aVWhat's the smallest number we can get away with?
+p114
+aVNow, these are big questions in computer science.
+p115
+aVThese are all complexity questions,
+p116
+aVand computer science tells us that these are very hard questions.
+p117
+aVAlmost \u2014 many of them are impossible.
+p118
+aVBut for some tasks, we can start to answer them.
+p119
+aVSo, I'm going to start asking those questions
+p120
+aVfor the DNA structures I'm going to talk about next.
+p121
+aVSo, this is normal DNA, what you think of as normal DNA.
+p122
+aVIt's double-stranded, it's a double helix,
+p123
+aVhas the As, Ts, Cs and Gs that pair to hold the strands together.
+p124
+aVAnd I'm going to draw it like this sometimes,
+p125
+aVjust so I don't scare you.
+p126
+aVWe want to look at individual strands and not think about the double helix.
+p127
+aVWhen we synthesize it, it comes single-stranded,
+p128
+aVso we can take the blue strand in one tube
+p129
+aVand make an orange strand in the other tube,
+p130
+aVand they're floppy when they're single-stranded.
+p131
+aVYou mix them together and they make a rigid double helix.
+p132
+aVNow for the last 25 years,
+p133
+aVNed Seeman and a bunch of his descendants
+p134
+aVhave worked very hard and made beautiful three-dimensional structures
+p135
+aVusing this kind of reaction of DNA strands coming together.
+p136
+aVBut a lot of their approaches, though elegant, take a long time.
+p137
+aVThey can take a couple of years, or it can be difficult to design.
+p138
+aa(lp139
+VSo I came up with a new method a couple of years ago
+p140
+aVI call DNA origami
+p141
+aVthat's so easy you could do it at home in your kitchen
+p142
+aVand design the stuff on a laptop.
+p143
+aVBut to do it, you need a long, single strand of DNA,
+p144
+aVwhich is technically very difficult to get.
+p145
+aVSo, you can go to a natural source.
+p146
+aVYou can look in this computer-fabricated artifact,
+p147
+aVand he's got a double-stranded genome \u2014 that's no good.
+p148
+aVYou look in his intestines. There are billions of bacteria.
+p149
+aVThey're no good either.
+p150
+aVDouble strand again, but inside them, they're infected with a virus
+p151
+aVthat has a nice, long, single-stranded genome
+p152
+aVthat we can fold like a piece of paper.
+p153
+aVAnd here's how we do it.
+p154
+aa(lp155
+VThis is part of that genome.
+p156
+aVWe add a bunch of short, synthetic DNAs that I call staples.
+p157
+aVEach one has a left half that binds the long strand in one place,
+p158
+aVand a right half that binds it in a different place,
+p159
+aVand brings the long strand together like this.
+p160
+aVThe net action of many of these on that long strand
+p161
+aVis to fold it into something like a rectangle.
+p162
+aa(lp163
+VNow, we can't actually take a movie of this process,
+p164
+aVbut Shawn Douglas at Harvard
+p165
+aVhas made a nice visualization for us
+p166
+aVthat begins with a long strand and has some short strands in it.
+p167
+aVAnd what happens is that we mix these strands together.
+p168
+aVWe heat them up, we add a little bit of salt,
+p169
+aVwe heat them up to almost boiling and cool them down,
+p170
+aVand as we cool them down,
+p171
+aVthe short strands bind the long strands
+p172
+aVand start to form structure.
+p173
+aVAnd you can see a little bit of double helix forming there.
+p174
+aVWhen you look at DNA origami,
+p175
+aVyou can see that what it really is,
+p176
+aVeven though you think it's complicated,
+p177
+aVis a bunch of double helices that are parallel to each other,
+p178
+aVand they're held together
+p179
+aVby places where short strands go along one helix
+p180
+aVand then jump to another one.
+p181
+aVSo there's a strand that goes like this, goes along one helix and binds \u2014
+p182
+aVit jumps to another helix and comes back.
+p183
+aVThat holds the long strand like this.
+p184
+aa(lp185
+VNow, to show that we could make any shape or pattern
+p186
+aVthat we wanted, I tried to make this shape.
+p187
+aVI wanted to fold DNA into something that goes up over the eye,
+p188
+aVdown the nose, up the nose, around the forehead,
+p189
+aVback down and end in a little loop like this.
+p190
+aVAnd so, I thought, if this could work, anything could work.
+p191
+aVSo I had the computer program design the short staples to do this.
+p192
+aVI ordered them; they came by FedEx.
+p193
+aVI mixed them up, heated them, cooled them down,
+p194
+aVand I got 50 billion little smiley faces
+p195
+aVfloating around in a single drop of water.
+p196
+aVAnd each one of these is just
+p197
+aVone-thousandth the width of a human hair, OK?
+p198
+aa(lp199
+VSo, they're all floating around in solution, and to look at them,
+p200
+aVyou have to get them on a surface where they stick.
+p201
+aVSo, you pour them out onto a surface
+p202
+aVand they start to stick to that surface,
+p203
+aVand we take a picture using an atomic-force microscope.
+p204
+aVIt's got a needle, like a record needle,
+p205
+aVthat goes back and forth over the surface,
+p206
+aVbumps up and down, and feels the height of the first surface.
+p207
+aVIt feels the DNA origami.
+p208
+aVThere's the atomic-force microscope working
+p209
+aVand you can see that the landing's a little rough.
+p210
+aVWhen you zoom in, they've got, you know,
+p211
+aVweak jaws that flip over their heads
+p212
+aVand some of their noses get punched out, but it's pretty good.
+p213
+aVYou can zoom in and even see the extra little loop,
+p214
+aVthis little nano-goatee.
+p215
+aa(lp216
+VNow, what's great about this is anybody can do this.
+p217
+aVAnd so, I got this in the mail about a year after I did this, unsolicited.
+p218
+aVAnyone know what this is? What is it?
+p219
+aVIt's China, right?
+p220
+aVSo, what happened is, a graduate student in China,
+p221
+aVLulu Qian, did a great job.
+p222
+aVShe wrote all her own software
+p223
+aVto design and built this DNA origami,
+p224
+aVa beautiful rendition of China, which even has Taiwan,
+p225
+aVand you can see it's sort of on the world's shortest leash, right?
+p226
+aV(Laughter)
+p227
+aVSo, this works really well
+p228
+aVand you can make patterns as well as shapes, OK?
+p229
+aVAnd you can make a map of the Americas and spell DNA with DNA.
+p230
+aa(lp231
+VAnd what's really neat about it \u2014
+p232
+aVwell, actually, this all looks like nano-artwork,
+p233
+aVbut it turns out that nano-artwork
+p234
+aVis just what you need to make nano-circuits.
+p235
+aVSo, you can put circuit components on the staples,
+p236
+aVlike a light bulb and a light switch.
+p237
+aVLet the thing assemble, and you'll get some kind of a circuit.
+p238
+aVAnd then you can maybe wash the DNA away and have the circuit left over.
+p239
+aVSo, this is what some colleagues of mine at Caltech did.
+p240
+aVThey took a DNA origami, organized some carbon nano-tubes,
+p241
+aVmade a little switch, you see here, wired it up,
+p242
+aVtested it and showed that it is indeed a switch.
+p243
+aVNow, this is just a single switch
+p244
+aVand you need half a billion for a computer, so we have a long way to go.
+p245
+aVBut this is very promising
+p246
+aVbecause the origami can organize parts just one-tenth the size
+p247
+aVof those in a normal computer.
+p248
+aVSo it's very promising for making small computers.
+p249
+aa(lp250
+VNow, I want to get back to that compiler.
+p251
+aVThe DNA origami is a proof that that compiler actually works.
+p252
+aVSo, you start with something in the computer.
+p253
+aVYou get a high-level description of the computer program,
+p254
+aVa high-level description of the origami.
+p255
+aVYou can compile it to molecules, send it to a synthesizer,
+p256
+aVand it actually works.
+p257
+aVAnd it turns out that a company has made a nice program
+p258
+aVthat's much better than my code, which was kind of ugly,
+p259
+aVand will allow us to do this in a nice,
+p260
+aVvisual, computer-aided design way.
+p261
+aa(lp262
+VSo, now you can say, all right,
+p263
+aVwhy isn't DNA origami the end of the story?
+p264
+aVYou have your molecular compiler, you can do whatever you want.
+p265
+aVThe fact is that it does not scale.
+p266
+aVSo if you want to build a human from DNA origami,
+p267
+aVthe problem is, you need a long strand
+p268
+aVthat's 10 trillion trillion bases long.
+p269
+aVThat's three light years' worth of DNA,
+p270
+aVso we're not going to do this.
+p271
+aVWe're going to turn to another technology,
+p272
+aVcalled algorithmic self-assembly of tiles.
+p273
+aVIt was started by Erik Winfree,
+p274
+aVand what it does,
+p275
+aVit has tiles that are a hundredth the size of a DNA origami.
+p276
+aVYou zoom in, there are just four DNA strands
+p277
+aVand they have little single-stranded bits on them
+p278
+aVthat can bind to other tiles, if they match.
+p279
+aVAnd we like to draw these tiles as little squares.
+p280
+aVAnd if you look at their sticky ends, these little DNA bits,
+p281
+aVyou can see that they actually form a checkerboard pattern.
+p282
+aVSo, these tiles would make a complicated, self-assembling checkerboard.
+p283
+aVAnd the point of this, if you didn't catch that,
+p284
+aVis that tiles are a kind of molecular program
+p285
+aVand they can output patterns.
+p286
+aVAnd a really amazing part of this is
+p287
+aVthat any computer program can be translated
+p288
+aVinto one of these tile programs \u2014 specifically, counting.
+p289
+aVSo, you can come up with a set of tiles
+p290
+aVthat when they come together, form a little binary counter
+p291
+aVrather than a checkerboard.
+p292
+aVSo you can read off binary numbers five, six and seven.
+p293
+aa(lp294
+VAnd in order to get these kinds of computations started right,
+p295
+aVyou need some kind of input, a kind of seed.
+p296
+aVYou can use DNA origami for that.
+p297
+aVYou can encode the number 32
+p298
+aVin the right-hand side of a DNA origami,
+p299
+aVand when you add those tiles that count,
+p300
+aVthey will start to count \u2014 they will read that 32
+p301
+aVand they'll stop at 32.
+p302
+aVSo, what we've done is we've figured out a way
+p303
+aVto have a molecular program know when to stop going.
+p304
+aVIt knows when to stop growing because it can count.
+p305
+aVIt knows how big it is.
+p306
+aVSo, that answers that sort of first question I was talking about.
+p307
+aVIt doesn't tell us how babies do it, however.
+p308
+aa(lp309
+VSo now, we can use this counting to try and get at much bigger things
+p310
+aVthan DNA origami could otherwise.
+p311
+aVHere's the DNA origami, and what we can do
+p312
+aVis we can write 32 on both edges of the DNA origami,
+p313
+aVand we can now use our watering can
+p314
+aVand water with tiles, and we can start growing tiles off of that
+p315
+aVand create a square.
+p316
+aVThe counter serves as a template
+p317
+aVto fill in a square in the middle of this thing.
+p318
+aVSo, what we've done is we've succeeded
+p319
+aVin making something much bigger than a DNA origami
+p320
+aVby combining DNA origami with tiles.
+p321
+aVAnd the neat thing about it is, is that it's also reprogrammable.
+p322
+aVYou can just change a couple of the DNA strands in this binary representation
+p323
+aVand you'll get 96 rather than 32.
+p324
+aVAnd if you do that, the origami's the same size,
+p325
+aVbut the resulting square that you get is three times bigger.
+p326
+aa(lp327
+VSo, this sort of recapitulates
+p328
+aVwhat I was telling you about development.
+p329
+aVYou have a very sensitive computer program
+p330
+aVwhere small changes \u2014 single, tiny, little mutations \u2014
+p331
+aVcan take something that made one size square
+p332
+aVand make something very much bigger.
+p333
+aVNow, this \u2014 using counting to compute
+p334
+aVand build these kinds of things
+p335
+aVby this kind of developmental process
+p336
+aVis something that also has bearing on Craig Venter's question.
+p337
+aVSo, you can ask, how many DNA strands are required
+p338
+aVto build a square of a given size?
+p339
+aVIf we wanted to make a square of size 10, 100 or 1,000,
+p340
+aVif we used DNA origami alone,
+p341
+aVwe would require a number of DNA strands that's the square
+p342
+aVof the size of that square;
+p343
+aVso we'd need 100, 10,000 or a million DNA strands.
+p344
+aVThat's really not affordable.
+p345
+aVBut if we use a little computation \u2014
+p346
+aVwe use origami, plus some tiles that count \u2014
+p347
+aVthen we can get away with using 100, 200 or 300 DNA strands.
+p348
+aVAnd so we can exponentially reduce the number of DNA strands we use,
+p349
+aVif we use counting, if we use a little bit of computation.
+p350
+aVAnd so computation is some very powerful way
+p351
+aVto reduce the number of molecules you need to build something,
+p352
+aVto reduce the size of the genome that you're building.
+p353
+aa(lp354
+VAnd finally, I'm going to get back to that sort of crazy idea
+p355
+aVabout computers building computers.
+p356
+aVIf you look at the square that you build with the origami
+p357
+aVand some counters growing off it,
+p358
+aVthe pattern that it has is exactly the pattern that you need
+p359
+aVto make a memory.
+p360
+aVSo if you affix some wires and switches to those tiles \u2014
+p361
+aVrather than to the staple strands, you affix them to the tiles \u2014
+p362
+aVthen they'll self-assemble the somewhat complicated circuits,
+p363
+aVthe demultiplexer circuits, that you need to address this memory.
+p364
+aVSo you can actually make a complicated circuit
+p365
+aVusing a little bit of computation.
+p366
+aVIt's a molecular computer building an electronic computer.
+p367
+aVNow, you ask me, how far have we gotten down this path?
+p368
+aVExperimentally, this is what we've done in the last year.
+p369
+aVHere is a DNA origami rectangle,
+p370
+aVand here are some tiles growing from it.
+p371
+aVAnd you can see how they count.
+p372
+aVOne, two, three, four, five, six, nine, 10, 11, 12, 17.
+p373
+aVSo it's got some errors, but at least it counts up.
+p374
+aV(Laughter)
+p375
+aa(lp376
+VSo, it turns out we actually had this idea nine years ago,
+p377
+aVand that's about the time constant for how long it takes
+p378
+aVto do these kinds of things, so I think we made a lot of progress.
+p379
+aVWe've got ideas about how to fix these errors.
+p380
+aVAnd I think in the next five or 10 years,
+p381
+aVwe'll make the kind of squares that I described
+p382
+aVand maybe even get to some of those self-assembled circuits.
+p383
+aa(lp384
+VSo now, what do I want you to take away from this talk?
+p385
+aVI want you to remember that
+p386
+aVto create life's very diverse and complex forms,
+p387
+aVlife uses computation to do that.
+p388
+aVAnd the computations that it uses, they're molecular computations,
+p389
+aVand in order to understand this and get a better handle on it,
+p390
+aVas Feynman said, you know,
+p391
+aVwe need to build something to understand it.
+p392
+aVAnd so we are going to use molecules and refashion this thing,
+p393
+aVrebuild everything from the bottom up,
+p394
+aVusing DNA in ways that nature never intended,
+p395
+aVusing DNA origami,
+p396
+aVand DNA origami to seed this algorithmic self-assembly.
+p397
+aa(lp398
+VYou know, so this is all very cool,
+p399
+aVbut what I'd like you to take from the talk,
+p400
+aVhopefully from some of those big questions,
+p401
+aVis that this molecular programming isn't just about making gadgets.
+p402
+aVIt's not just making about \u2014
+p403
+aVit's making self-assembled cell phones and circuits.
+p404
+aVWhat it's really about is taking computer science
+p405
+aVand looking at big questions in a new light,
+p406
+aVasking new versions of those big questions
+p407
+aVand trying to understand how biology
+p408
+aVcan make such amazing things. Thank you.
+p409
+aV(Applause)
+p410
+aasS'transcript_micsec'
+p411
+(lp412
+I11000
+aI42000
+aI80000
+aI98000
+aI162000
+aI204000
+aI253000
+aI320000
+aI352000
+aI370000
+aI419000
+aI455000
+aI489000
+aI526000
+aI571000
+aI599000
+aI675000
+aI709000
+aI758000
+aI830000
+aI893000
+aI910000
+aI946000
+asS'talk_meta'
+p413
+(dp414
+S'ratings'
+p415
+(dp416
+S'ingenious'
+p417
+I174
+sS'funny'
+p418
+I8
+sS'inspiring'
+p419
+I70
+sS'ok'
+p420
+I19
+sS'fascinating'
+p421
+I240
+sS'total_count'
+p422
+I930
+sS'persuasive'
+p423
+I16
+sS'longwinded'
+p424
+I22
+sS'unconvincing'
+p425
+I8
+sS'informative'
+p426
+I143
+sS'beautiful'
+p427
+I17
+sS'jaw-dropping'
+p428
+I147
+sS'obnoxious'
+p429
+I7
+sS'courageous'
+p430
+I13
+sS'confusing'
+p431
+I46
+ssS'author'
+p432
+VPaul_Rothemund;
+p433
+sS'url'
+p434
+S'https://www.ted.com/talks/paul_rothemund_details_dna_folding'
+p435
+sS'vidlen'
+p436
+I984
+sS'totalviews'
+p437
+I509021
+sS'title'
+p438
+VDNA folding, in detail
+p439
+sS'downloadlink'
+p440
+Vhttps://download.ted.com/talks/PaulRothemund_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p441
+sS'datepublished'
+p442
+cdatetime
+datetime
+p443
+(S'\x07\xd8\t\x01\x15\x00\x00\x00\x00\x00'
+tRp444
+sS'datefilmed'
+p445
+g443
+(S'\x07\xd8\t\x01\x15\x00\x00\x00\x00\x00'
+tRp446
+sS'alldata_JSON'
+p447
+S'{"viewed_count": 509021, "speakers": [{"description": "DNA origamist", "firstname": "Paul", "title": "", "lastname": "Rothemund", "middleinitial": "", "whylisten": "<p>Paul Rothemund won a MacArthur grant this year for a fairly mystifying study area: &quot;folding DNA.&quot; It brings up the question: Why fold DNA? The answer is -- because the power to manipulate DNA in this way could change the way we make things at a very basic level. </p><p>Rothemund&#39;s work combines the study of self-assembly (watch the TEDTalks from Neil Gershenfeld and Saul Griffith for more on this) with the research being done in DNA nanotechnology -- and points the way toward self-assembling devices at microscale, making computer memory, for instance, smaller, faster and maybe even cheaper.  </p>", "slug": "paul_rothemund", "whotheyare": "Paul Rothemund folds DNA into shapes and patterns. Which is a simple enough thing to say, but the process he has developed has vast implications for computing and manufacturing -- allowing us to create things we can now only dream of.", "whatotherssay": "", "id": 163, "photo_url": "https://pe.tedcdn.com/images/ted/18330_254x191.jpg"}], "current_talk": 331, "description": "In 2007, Paul Rothemund gave TED a short summary of his specialty, DNA folding. Now he lays out in clear, abundant detail the immense promise of this field -- to create tiny machines that assemble themselves.", "language": "en", "url": "https://www.ted.com/talks/paul_rothemund_details_dna_folding", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114455657}, "podcast-low-en": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22634964}, "podcast-high": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114404227}, "180k": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22536459}, "64k": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8109918}, "1500k": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 179663112}, "450k": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55765857}, "podcast-regular": {"uri": "https://download.ted.com/talks/PaulRothemund_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55935752}, "950k": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 114433667}, "podcast-light": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8209323}, "320k": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39915969}, "600k": {"uri": "https://download.ted.com/talks/PaulRothemund_2008-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74565121}}}, "comments": {"count": 54, "id": 290, "talk_id": 331}, "slug": "paul_rothemund_details_dna_folding", "threadId": 290, "talks": [{"event": "TED2008", "player_talks": [{"event": "TED2008", "slug": "paul_rothemund_details_dna_folding", "filmed": 1201910400, "targeting": {"event": "TED2008", "tag": "DNA,MacArthur grant,creativity,nanoscale,physics,science,technology", "id": 331, "talk": "paul_rothemund_details_dna_folding", "year": "2008"}, "adDuration": "3.33", "external": null, "title": "DNA folding, in detail", "postAdDuration": "0.83", "published": 1220317200, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/52117_480x360.jpg?quality=89&w=600", "name": "Paul Rothemund: DNA folding, in detail", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["DNA", "MacArthur grant", "creativity", "nanoscale", "physics", "science", "technology"], "speaker": "Paul Rothemund", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 984, "id": 331, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/PaulRothemund_2008-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2008", "tag": "DNA,MacArthur grant,creativity,nanoscale,physics,science,technology", "id": 331, "talk": "paul_rothemund_details_dna_folding", "year": "2008"}, "metadata": "https://hls.ted.com/talks/331.json", "stream": "https://hls.ted.com/talks/331.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2008%26id%3D331%26tag%3DDNA%2CMacArthur%2Bgrant%2Ccreativity%2Cnanoscale%2Cphysics%2Cscience%2Ctechnology%26talk%3Dpaul_rothemund_details_dna_folding%26year%3D2008&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/paul_rothemund_details_dna_folding"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/52117_480x360.jpg?q=50&w=15", "duration": 984, "id": 331, "ratings": [{"count": 46, "id": 2, "name": "Confusing"}, {"count": 143, "id": 8, "name": "Informative"}, {"count": 240, "id": 22, "name": "Fascinating"}, {"count": 70, "id": 10, "name": "Inspiring"}, {"count": 174, "id": 9, "name": "Ingenious"}, {"count": 147, "id": 23, "name": "Jaw-dropping"}, {"count": 22, "id": 11, "name": "Longwinded"}, {"count": 19, "id": 25, "name": "OK"}, {"count": 16, "id": 24, "name": "Persuasive"}, {"count": 8, "id": 7, "name": "Funny"}, {"count": 13, "id": 3, "name": "Courageous"}, {"count": 7, "id": 26, "name": "Obnoxious"}, {"count": 17, "id": 1, "name": "Beautiful"}, {"count": 8, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "DNA origamist", "firstname": "Paul", "title": "", "lastname": "Rothemund", "middleinitial": "", "whylisten": "<p>Paul Rothemund won a MacArthur grant this year for a fairly mystifying study area: &quot;folding DNA.&quot; It brings up the question: Why fold DNA? The answer is -- because the power to manipulate DNA in this way could change the way we make things at a very basic level. </p><p>Rothemund&#39;s work combines the study of self-assembly (watch the TEDTalks from Neil Gershenfeld and Saul Griffith for more on this) with the research being done in DNA nanotechnology -- and points the way toward self-assembling devices at microscale, making computer memory, for instance, smaller, faster and maybe even cheaper.  </p>", "slug": "paul_rothemund", "whotheyare": "Paul Rothemund folds DNA into shapes and patterns. Which is a simple enough thing to say, but the process he has developed has vast implications for computing and manufacturing -- allowing us to create things we can now only dream of.", "whatotherssay": "", "id": 163, "photo_url": "https://pe.tedcdn.com/images/ted/18330_254x191.jpg"}], "title": "DNA folding, in detail", "take_action": null, "comments": 290, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/52117_480x360.jpg", "description": "In 2007, Paul Rothemund gave TED a short summary of his specialty, DNA folding. Now he lays out in clear, abundant detail the immense promise of this field -- to create tiny machines that assemble themselves.", "tags": ["DNA", "MacArthur grant", "creativity", "nanoscale", "physics", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-bg.mp4"}, "nl": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-nl.mp4"}, "fa": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-fa.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-it.mp4"}, "da": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-da.mp4"}, "tr": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-ar.mp4"}, "en": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-en.mp4"}, "es": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-es.mp4"}, "vi": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-vi.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-pt-br.mp4"}, "ro": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/PaulRothemund_2008-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/PaulRothemund_2008-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/PaulRothemund_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/PaulRothemund_2008-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 331, "audioDownload": null}, "related_talks": [{"viewed_count": 1801244, "hero": "https://pe.tedcdn.com/images/ted/13343_480x360.jpg", "title": "Visualizing the wonder of a living cell", "id": 147, "speaker": "David Bolinsky", "duration": 585, "slug": "david_bolinsky_animates_a_cell"}, {"viewed_count": 1532270, "hero": "https://pe.tedcdn.com/images/ted/c77755451ad53291f2891f27dcfde0456292b010_2880x1620.jpg", "title": "How we discovered DNA", "id": 35, "speaker": "James Watson", "duration": 1211, "slug": "james_watson_on_how_he_discovered_dna"}, {"viewed_count": 1007791, "hero": "https://pe.tedcdn.com/images/ted/32772_480x360.jpg", "title": "On the verge of creating synthetic life", "id": 227, "speaker": "Craig Venter", "duration": 954, "slug": "craig_venter_is_on_the_verge_of_creating_synthetic_life"}, {"viewed_count": 412316, "hero": "https://pe.tedcdn.com/images/ted/18024_480x360.jpg", "title": "Playing with DNA that self-assembles", "id": 183, "speaker": "Paul Rothemund", "duration": 299, "slug": "paul_rothemund_casts_a_spell_with_dna"}, {"viewed_count": 1465148, "hero": "https://pe.tedcdn.com/images/ted/ffe032a2d557b859e57857bc66286ef1a74736f5_800x600.jpg", "title": "Animations of unseeable biology", "id": 1322, "speaker": "Drew Berry", "duration": 548, "slug": "drew_berry_animations_of_unseeable_biology"}, {"viewed_count": 1059005, "hero": "https://pe.tedcdn.com/images/ted/4b2ca98174f9bb6a74ce18474ed13b2f8c1b6f61_2880x1620.jpg", "title": "The era of personal DNA testing is here", "id": 2570, "speaker": "Sebastian Kraves", "duration": 784, "slug": "sebastian_kraves_the_era_of_personal_dna_testing_is_here"}], "recorded_at": "2008-02-02T00:00:00.000+00:00", "slug": "paul_rothemund_details_dna_folding", "speaker_name": "Paul Rothemund", "viewed_count": 509021, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2008", "name": "Paul Rothemund: DNA folding, in detail"}'
+p448
+sS'keywords'
+p449
+(lp450
+VDNA
+p451
+aVMacArthur grant
+p452
+aVcreativity
+p453
+aVnanoscale
+p454
+aVphysics
+p455
+aVscience
+p456
+aVtechnology
+p457
+asS'datecrawled'
+p458
+g443
+(S'\x07\xe1\n\x17\x01\x19+\x05\x1dj'
+tRp459
+sS'id'
+p460
+I331
+ss.

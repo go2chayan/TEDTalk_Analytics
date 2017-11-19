@@ -1,0 +1,644 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VUp until now, our communication with machines
+p5
+aVhas always been limited
+p6
+aVto conscious and direct forms.
+p7
+aVWhether it's something simple
+p8
+aVlike turning on the lights with a switch,
+p9
+aVor even as complex as programming robotics,
+p10
+aVwe have always had to give a command to a machine,
+p11
+aVor even a series of commands,
+p12
+aVin order for it to do something for us.
+p13
+aVCommunication between people, on the other hand,
+p14
+aVis far more complex and a lot more interesting
+p15
+aVbecause we take into account
+p16
+aVso much more than what is explicitly expressed.
+p17
+aVWe observe facial expressions, body language,
+p18
+aVand we can intuit feelings and emotions
+p19
+aVfrom our dialogue with one another.
+p20
+aVThis actually forms a large part
+p21
+aVof our decision-making process.
+p22
+aVOur vision is to introduce
+p23
+aVthis whole new realm of human interaction
+p24
+aVinto human-computer interaction
+p25
+aVso that computers can understand
+p26
+aVnot only what you direct it to do,
+p27
+aVbut it can also respond
+p28
+aVto your facial expressions
+p29
+aVand emotional experiences.
+p30
+aVAnd what better way to do this
+p31
+aVthan by interpreting the signals
+p32
+aVnaturally produced by our brain,
+p33
+aVour center for control and experience.
+p34
+aa(lp35
+VWell, it sounds like a pretty good idea,
+p36
+aVbut this task, as Bruno mentioned,
+p37
+aVisn't an easy one for two main reasons:
+p38
+aVFirst, the detection algorithms.
+p39
+aVOur brain is made up of
+p40
+aVbillions of active neurons,
+p41
+aVaround 170,000 km
+p42
+aVof combined axon length.
+p43
+aVWhen these neurons interact,
+p44
+aVthe chemical reaction emits an electrical impulse,
+p45
+aVwhich can be measured.
+p46
+aVThe majority of our functional brain
+p47
+aVis distributed over
+p48
+aVthe outer surface layer of the brain,
+p49
+aVand to increase the area that's available for mental capacity,
+p50
+aVthe brain surface is highly folded.
+p51
+aVNow this cortical folding
+p52
+aVpresents a significant challenge
+p53
+aVfor interpreting surface electrical impulses.
+p54
+aVEach individual's cortex
+p55
+aVis folded differently,
+p56
+aVvery much like a fingerprint.
+p57
+aVSo even though a signal
+p58
+aVmay come from the same functional part of the brain,
+p59
+aVby the time the structure has been folded,
+p60
+aVits physical location
+p61
+aVis very different between individuals,
+p62
+aVeven identical twins.
+p63
+aVThere is no longer any consistency
+p64
+aVin the surface signals.
+p65
+aa(lp66
+VOur breakthrough was to create an algorithm
+p67
+aVthat unfolds the cortex,
+p68
+aVso that we can map the signals
+p69
+aVcloser to its source,
+p70
+aVand therefore making it capable of working across a mass population.
+p71
+aVThe second challenge
+p72
+aVis the actual device for observing brainwaves.
+p73
+aVEEG measurements typically involve
+p74
+aVa hairnet with an array of sensors,
+p75
+aVlike the one that you can see here in the photo.
+p76
+aVA technician will put the electrodes
+p77
+aVonto the scalp
+p78
+aVusing a conductive gel or paste
+p79
+aVand usually after a procedure of preparing the scalp
+p80
+aVby light abrasion.
+p81
+aVNow this is quite time consuming
+p82
+aVand isn't the most comfortable process.
+p83
+aVAnd on top of that, these systems
+p84
+aVactually cost in the tens of thousands of dollars.
+p85
+aa(lp86
+VSo with that, I'd like to invite onstage
+p87
+aVEvan Grant, who is one of last year's speakers,
+p88
+aVwho's kindly agreed
+p89
+aVto help me to demonstrate
+p90
+aVwhat we've been able to develop.
+p91
+aa(lp92
+V(Applause)
+p93
+aa(lp94
+VSo the device that you see
+p95
+aVis a 14-channel, high-fidelity
+p96
+aVEEG acquisition system.
+p97
+aVIt doesn't require any scalp preparation,
+p98
+aVno conductive gel or paste.
+p99
+aVIt only takes a few minutes to put on
+p100
+aVand for the signals to settle.
+p101
+aVIt's also wireless,
+p102
+aVso it gives you the freedom to move around.
+p103
+aVAnd compared to the tens of thousands of dollars
+p104
+aVfor a traditional EEG system,
+p105
+aVthis headset only costs
+p106
+aVa few hundred dollars.
+p107
+aVNow on to the detection algorithms.
+p108
+aVSo facial expressions \u2014
+p109
+aVas I mentioned before in emotional experiences \u2014
+p110
+aVare actually designed to work out of the box
+p111
+aVwith some sensitivity adjustments
+p112
+aVavailable for personalization.
+p113
+aVBut with the limited time we have available,
+p114
+aVI'd like to show you the cognitive suite,
+p115
+aVwhich is the ability for you
+p116
+aVto basically move virtual objects with your mind.
+p117
+aa(lp118
+VNow, Evan is new to this system,
+p119
+aVso what we have to do first
+p120
+aVis create a new profile for him.
+p121
+aVHe's obviously not Joanne \u2014 so we'll "add user."
+p122
+aVEvan. Okay.
+p123
+aVSo the first thing we need to do with the cognitive suite
+p124
+aVis to start with training
+p125
+aVa neutral signal.
+p126
+aVWith neutral, there's nothing in particular
+p127
+aVthat Evan needs to do.
+p128
+aVHe just hangs out. He's relaxed.
+p129
+aVAnd the idea is to establish a baseline
+p130
+aVor normal state for his brain,
+p131
+aVbecause every brain is different.
+p132
+aVIt takes eight seconds to do this,
+p133
+aVand now that that's done,
+p134
+aVwe can choose a movement-based action.
+p135
+aVSo Evan, choose something
+p136
+aVthat you can visualize clearly in your mind.
+p137
+aa(lp138
+VEvan Grant: Let's do "pull."
+p139
+aa(lp140
+VTan Le: Okay, so let's choose "pull."
+p141
+aVSo the idea here now
+p142
+aVis that Evan needs to
+p143
+aVimagine the object coming forward
+p144
+aVinto the screen,
+p145
+aVand there's a progress bar that will scroll across the screen
+p146
+aVwhile he's doing that.
+p147
+aVThe first time, nothing will happen,
+p148
+aVbecause the system has no idea how he thinks about "pull."
+p149
+aVBut maintain that thought
+p150
+aVfor the entire duration of the eight seconds.
+p151
+aVSo: one, two, three, go.
+p152
+aVOkay.
+p153
+aVSo once we accept this,
+p154
+aVthe cube is live.
+p155
+aVSo let's see if Evan
+p156
+aVcan actually try and imagine pulling.
+p157
+aVAh, good job!
+p158
+aV(Applause)
+p159
+aVThat's really amazing.
+p160
+aa(lp161
+V(Applause)
+p162
+aa(lp163
+VSo we have a little bit of time available,
+p164
+aVso I'm going to ask Evan
+p165
+aVto do a really difficult task.
+p166
+aVAnd this one is difficult
+p167
+aVbecause it's all about being able to visualize something
+p168
+aVthat doesn't exist in our physical world.
+p169
+aVThis is "disappear."
+p170
+aVSo what you want to do \u2014 at least with movement-based actions,
+p171
+aVwe do that all the time, so you can visualize it.
+p172
+aVBut with "disappear," there's really no analogies \u2014
+p173
+aVso Evan, what you want to do here
+p174
+aVis to imagine the cube slowly fading out, okay.
+p175
+aVSame sort of drill. So: one, two, three, go.
+p176
+aVOkay. Let's try that.
+p177
+aVOh, my goodness. He's just too good.
+p178
+aVLet's try that again.
+p179
+aa(lp180
+VEG: Losing concentration.
+p181
+aa(lp182
+V(Laughter)
+p183
+aa(lp184
+VTL: But we can see that it actually works,
+p185
+aVeven though you can only hold it
+p186
+aVfor a little bit of time.
+p187
+aVAs I said, it's a very difficult process
+p188
+aVto imagine this.
+p189
+aVAnd the great thing about it is that
+p190
+aVwe've only given the software one instance
+p191
+aVof how he thinks about "disappear."
+p192
+aVAs there is a machine learning algorithm in this \u2014
+p193
+aa(lp194
+V(Applause)
+p195
+aa(lp196
+VThank you.
+p197
+aVGood job. Good job.
+p198
+aa(lp199
+V(Applause)
+p200
+aa(lp201
+VThank you, Evan, you're a wonderful, wonderful
+p202
+aVexample of the technology.
+p203
+aa(lp204
+VSo, as you can see, before,
+p205
+aVthere is a leveling system built into this software
+p206
+aVso that as Evan, or any user,
+p207
+aVbecomes more familiar with the system,
+p208
+aVthey can continue to add more and more detections,
+p209
+aVso that the system begins to differentiate
+p210
+aVbetween different distinct thoughts.
+p211
+aVAnd once you've trained up the detections,
+p212
+aVthese thoughts can be assigned or mapped
+p213
+aVto any computing platform,
+p214
+aVapplication or device.
+p215
+aa(lp216
+VSo I'd like to show you a few examples,
+p217
+aVbecause there are many possible applications
+p218
+aVfor this new interface.
+p219
+aVIn games and virtual worlds, for example,
+p220
+aVyour facial expressions
+p221
+aVcan naturally and intuitively be used
+p222
+aVto control an avatar or virtual character.
+p223
+aVObviously, you can experience the fantasy of magic
+p224
+aVand control the world with your mind.
+p225
+aVAnd also, colors, lighting,
+p226
+aVsound and effects
+p227
+aVcan dynamically respond to your emotional state
+p228
+aVto heighten the experience that you're having, in real time.
+p229
+aVAnd moving on to some applications
+p230
+aVdeveloped by developers and researchers around the world,
+p231
+aVwith robots and simple machines, for example \u2014
+p232
+aVin this case, flying a toy helicopter
+p233
+aVsimply by thinking "lift" with your mind.
+p234
+aa(lp235
+VThe technology can also be applied
+p236
+aVto real world applications \u2014
+p237
+aVin this example, a smart home.
+p238
+aVYou know, from the user interface of the control system
+p239
+aVto opening curtains
+p240
+aVor closing curtains.
+p241
+aVAnd of course, also to the lighting \u2014
+p242
+aVturning them on
+p243
+aVor off.
+p244
+aVAnd finally,
+p245
+aVto real life-changing applications,
+p246
+aVsuch as being able to control an electric wheelchair.
+p247
+aVIn this example,
+p248
+aVfacial expressions are mapped to the movement commands.
+p249
+aa(lp250
+VMan: Now blink right to go right.
+p251
+aVNow blink left to turn back left.
+p252
+aVNow smile to go straight.
+p253
+aa(lp254
+VTL: We really \u2014 Thank you.
+p255
+aa(lp256
+V(Applause)
+p257
+aa(lp258
+VWe are really only scratching the surface of what is possible today,
+p259
+aVand with the community's input,
+p260
+aVand also with the involvement of developers
+p261
+aVand researchers from around the world,
+p262
+aVwe hope that you can help us to shape
+p263
+aVwhere the technology goes from here. Thank you so much.
+p264
+aasS'transcript_micsec'
+p265
+(lp266
+I12000
+aI81000
+aI150000
+aI196000
+aI207000
+aI213000
+aI268000
+aI308000
+aI310000
+aI363000
+aI367000
+aI420000
+aI422000
+aI424000
+aI445000
+aI449000
+aI454000
+aI456000
+aI462000
+aI488000
+aI536000
+aI578000
+aI604000
+aI606000
+aI611000
+asS'talk_meta'
+p267
+(dp268
+S'ratings'
+p269
+(dp270
+S'ingenious'
+p271
+I909
+sS'beautiful'
+p272
+I78
+sS'inspiring'
+p273
+I542
+sS'ok'
+p274
+I68
+sS'fascinating'
+p275
+I1073
+sS'funny'
+p276
+I40
+sS'total_count'
+p277
+I4673
+sS'persuasive'
+p278
+I93
+sS'longwinded'
+p279
+I17
+sS'informative'
+p280
+I388
+sS'jaw-dropping'
+p281
+I1334
+sS'obnoxious'
+p282
+I25
+sS'confusing'
+p283
+I17
+sS'courageous'
+p284
+I49
+sS'unconvincing'
+p285
+I40
+ssS'author'
+p286
+VTan_Le;
+p287
+sS'url'
+p288
+S'https://www.ted.com/talks/tan_le_a_headset_that_reads_your_brainwaves'
+p289
+sS'vidlen'
+p290
+I636
+sS'totalviews'
+p291
+I2480983
+sS'title'
+p292
+VA headset that reads your brainwaves
+p293
+sS'downloadlink'
+p294
+Vhttps://download.ted.com/talks/TanLe_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p295
+sS'datepublished'
+p296
+cdatetime
+datetime
+p297
+(S'\x07\xda\x07\x15\x08$\x00\x00\x00\x00'
+tRp298
+sS'datefilmed'
+p299
+g297
+(S'\x07\xda\x07\x15\x08$\x00\x00\x00\x00'
+tRp300
+sS'alldata_JSON'
+p301
+S'{"viewed_count": 2480983, "speakers": [{"description": "Entrepreneur", "firstname": "Tan", "title": "", "lastname": "Le", "middleinitial": "", "whylisten": "<p>Tan Le is the co-founder and president of Emotiv. Before this, she headed a firm that worked on a new form of remote control that <strong>uses brainwaves to control digital devices and digital media</strong>. It&#39;s long been a dream to bypass the mechanical (mouse, keyboard, clicker) and have our digital devices respond directly to what we think. Emotiv&#39;s EPOC headset uses 16 sensors to listen to activity across the entire brain. Software &quot;learns&quot; what each user&#39;s brain activity looks like when one, for instance, imagines a left turn or a jump. </p><p>Le herself has an extraordinary story -- a refugee from Vietnam at age 4, she entered college at 16 and has since become a vital young leader in her home country of Australia.</p>", "slug": "tan_le", "whotheyare": "Tan Le is the founder & CEO of Emotiv, a bioinformatics company that\'s working on identifying biomarkers for mental and other neurological conditions using electroencephalography (EEG).", "whatotherssay": "We\'re looking at the tip of the iceberg. We\'re looking at the computer of the \'70s. Everybody knows this is going to be awesome in the future and do a lot of things.", "id": 734, "photo_url": "https://pe.tedcdn.com/images/ted/185658_254x191.jpg"}], "current_talk": 921, "description": "Tan Le\'s astonishing new computer interface reads its user\'s brainwaves, making it possible to control virtual objects, and even physical electronics, with mere thoughts (and a little concentration). She demos the headset, and talks about its far-reaching applications.", "language": "en", "url": "https://www.ted.com/talks/tan_le_a_headset_that_reads_your_brainwaves", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/TanLe_2010G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74903890}, "podcast-low-en": {"uri": "https://download.ted.com/talks/TanLe_2010G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14646953}, "podcast-high": {"uri": "https://download.ted.com/talks/TanLe_2010G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74899012}, "180k": {"uri": "https://download.ted.com/talks/TanLe_2010G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14538074}, "64k": {"uri": "https://download.ted.com/talks/TanLe_2010G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5245054}, "1500k": {"uri": "https://download.ted.com/talks/TanLe_2010G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116894463}, "450k": {"uri": "https://download.ted.com/talks/TanLe_2010G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 35979784}, "podcast-regular": {"uri": "https://download.ted.com/talks/TanLe_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36268907}, "950k": {"uri": "https://download.ted.com/talks/TanLe_2010G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 74619232}, "audio-podcast": {"uri": "https://download.ted.com/talks/TanLe_2010G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6628878}, "podcast-light": {"uri": "https://download.ted.com/talks/TanLe_2010G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5360211}, "320k": {"uri": "https://download.ted.com/talks/TanLe_2010G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25675656}, "600k": {"uri": "https://download.ted.com/talks/TanLe_2010G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48195627}}}, "comments": {"count": 581, "id": 753, "talk_id": 921}, "slug": "tan_le_a_headset_that_reads_your_brainwaves", "threadId": 753, "talks": [{"event": "TEDGlobal 2010", "player_talks": [{"event": "TEDGlobal 2010", "slug": "tan_le_a_headset_that_reads_your_brainwaves", "filmed": 1279238400, "targeting": {"event": "TEDGlobal 2010", "tag": "brain,computers,design,entertainment,interface design,mind,technology", "id": 921, "talk": "tan_le_a_headset_that_reads_your_brainwaves", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "A headset that reads your brainwaves", "postAdDuration": "0.83", "published": 1279715760, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e5c3f9e05599722d98c43622d6c345076d556a97_1600x1200.jpg?quality=89&w=600", "name": "Tan Le: A headset that reads your brainwaves", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["brain", "computers", "design", "entertainment", "interface design", "mind", "technology"], "speaker": "Tan Le", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 636, "id": 921, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/TanLe_2010G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2010", "tag": "brain,computers,design,entertainment,interface design,mind,technology", "id": 921, "talk": "tan_le_a_headset_that_reads_your_brainwaves", "year": "2010"}, "metadata": "https://hls.ted.com/talks/921.json", "stream": "https://hls.ted.com/talks/921.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2010%26id%3D921%26tag%3Dbrain%2Ccomputers%2Cdesign%2Centertainment%2Cinterface%2Bdesign%2Cmind%2Ctechnology%26talk%3Dtan_le_a_headset_that_reads_your_brainwaves%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/tan_le_a_headset_that_reads_your_brainwaves"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/e5c3f9e05599722d98c43622d6c345076d556a97_1600x1200.jpg?q=50&w=15", "duration": 636, "id": 921, "ratings": [{"count": 1073, "id": 22, "name": "Fascinating"}, {"count": 909, "id": 9, "name": "Ingenious"}, {"count": 388, "id": 8, "name": "Informative"}, {"count": 1334, "id": 23, "name": "Jaw-dropping"}, {"count": 542, "id": 10, "name": "Inspiring"}, {"count": 93, "id": 24, "name": "Persuasive"}, {"count": 49, "id": 3, "name": "Courageous"}, {"count": 68, "id": 25, "name": "OK"}, {"count": 78, "id": 1, "name": "Beautiful"}, {"count": 40, "id": 21, "name": "Unconvincing"}, {"count": 17, "id": 11, "name": "Longwinded"}, {"count": 17, "id": 2, "name": "Confusing"}, {"count": 25, "id": 26, "name": "Obnoxious"}, {"count": 40, "id": 7, "name": "Funny"}], "speakers": [{"description": "Entrepreneur", "firstname": "Tan", "title": "", "lastname": "Le", "middleinitial": "", "whylisten": "<p>Tan Le is the co-founder and president of Emotiv. Before this, she headed a firm that worked on a new form of remote control that <strong>uses brainwaves to control digital devices and digital media</strong>. It&#39;s long been a dream to bypass the mechanical (mouse, keyboard, clicker) and have our digital devices respond directly to what we think. Emotiv&#39;s EPOC headset uses 16 sensors to listen to activity across the entire brain. Software &quot;learns&quot; what each user&#39;s brain activity looks like when one, for instance, imagines a left turn or a jump. </p><p>Le herself has an extraordinary story -- a refugee from Vietnam at age 4, she entered college at 16 and has since become a vital young leader in her home country of Australia.</p>", "slug": "tan_le", "whotheyare": "Tan Le is the founder & CEO of Emotiv, a bioinformatics company that\'s working on identifying biomarkers for mental and other neurological conditions using electroencephalography (EEG).", "whatotherssay": "We\'re looking at the tip of the iceberg. We\'re looking at the computer of the \'70s. Everybody knows this is going to be awesome in the future and do a lot of things.", "id": 734, "photo_url": "https://pe.tedcdn.com/images/ted/185658_254x191.jpg"}], "title": "A headset that reads your brainwaves", "take_action": [], "comments": 753, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/e5c3f9e05599722d98c43622d6c345076d556a97_1600x1200.jpg", "description": "Tan Le\'s astonishing new computer interface reads its user\'s brainwaves, making it possible to control virtual objects, and even physical electronics, with mere thoughts (and a little concentration). She demos the headset, and talks about its far-reaching applications.", "tags": ["brain", "computers", "design", "entertainment", "interface design", "mind", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/TanLe_2010G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/TanLe_2010G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/TanLe_2010G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/TanLe_2010G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/TanLe_2010G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/TanLe_2010G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/TanLe_2010G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/TanLe_2010G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/TanLe_2010G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/TanLe_2010G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/TanLe_2010G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/TanLe_2010G-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/TanLe_2010G-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/TanLe_2010G-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/TanLe_2010G-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/TanLe_2010G-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/TanLe_2010G-low-fr-ca.mp4"}, "ro": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/TanLe_2010G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/TanLe_2010G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/TanLe_2010G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/TanLe_2010G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/TanLe_2010G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/TanLe_2010G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/TanLe_2010G-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/TanLe_2010G-low-fa.mp4"}, "fi": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/TanLe_2010G-low-fi.mp4"}, "hu": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/TanLe_2010G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/TanLe_2010G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/TanLe_2010G-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/TanLe_2010G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/TanLe_2010G-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/TanLe_2010G-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/TanLe_2010G-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/TanLe_2010G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/TanLe_2010G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/TanLe_2010G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/TanLe_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/TanLe_2010G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 921, "audioDownload": "https://download.ted.com/talks/TanLe_2010G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 16168058, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}, {"viewed_count": 400886, "hero": "https://pe.tedcdn.com/images/ted/3970bb61a75cb2457d38d1b916d856e8a063ff84_800x600.jpg", "title": "Know thyself, with a brain scanner", "id": 1338, "speaker": "Ariel Garten", "duration": 904, "slug": "ariel_garten_know_thyself_with_a_brain_scanner"}, {"viewed_count": 1586347, "hero": "https://pe.tedcdn.com/images/ted/81362dff9b5015623b5211822bd3f50f6df9f64a_2880x1620.jpg", "title": "A glimpse of the future through an augmented reality headset", "id": 2459, "speaker": "Meron Gribetz", "duration": 654, "slug": "meron_gribetz_a_glimpse_of_the_future_through_an_augmented_reality_headset"}, {"viewed_count": 1922034, "hero": "https://pe.tedcdn.com/images/ted/b4b4b1887a890ba5efc98b4d4fe20d6b55fe6dbd_2880x1620.jpg", "title": "What happens in your brain when you pay attention?", "id": 2798, "speaker": "Mehdi Ordikhani-Seyedlar", "duration": 392, "slug": "mehdi_ordikhani_seyedlar_what_happens_in_your_brain_when_you_pay_attention"}, {"viewed_count": 1743795, "hero": "https://pe.tedcdn.com/images/ted/794a93b76d7c657c2eb52e229c4b20e583615e06_1600x1200.jpg", "title": "The real reason for brains", "id": 1261, "speaker": "Daniel Wolpert", "duration": 1199, "slug": "daniel_wolpert_the_real_reason_for_brains"}, {"viewed_count": 697147, "hero": "https://pe.tedcdn.com/images/ted/ebc788e8b0cb1fe1309ecf8d171270b4761da04e_1600x1200.jpg", "title": "What we\'re learning from 5,000 brains", "id": 1573, "speaker": "Read Montague", "duration": 803, "slug": "read_montague_what_we_re_learning_from_5_000_brains"}], "recorded_at": "2010-07-16T00:00:00.000+00:00", "slug": "tan_le_a_headset_that_reads_your_brainwaves", "speaker_name": "Tan Le", "viewed_count": 2480983, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Tan Le recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Emotiv Insight", "link_url": "http://emotiv.co/", "eyebrow": null, "label": "EXPLORE", "note": "", "position": null, "blurb": "Emotiv Insight is a next-generation wearable headset that tracks brain activity. It allows users to optimize their brain fitness and performance, measure and monitor their own or their family\\u2019s cognitive health and well-being, and develop new applications."}, {"is_pdf": false, "headline": "Portable Brain-Scan Headsets: 4 Incredible Applications", "link_url": "http://news.nationalgeographic.com/news/2013/08/130801-tan-le-portable-brain-scanning-headsets-neuroscience/", "eyebrow": null, "label": "READ_Article", "note": "Brian Handwerk\\r\\n*National Geographic*, August 1, 2013", "position": null, "blurb": ""}], "title": "reading list"}], "published": true, "type": "recommendation", "blurb": "Find out more about the brain-scanning device that could improve your physical fitness and mental well-being."}, "corrections": []}], "event": "TEDGlobal 2010", "name": "Tan Le: A headset that reads your brainwaves"}'
+p302
+sS'keywords'
+p303
+(lp304
+Vbrain
+p305
+aVcomputers
+p306
+aVdesign
+p307
+aVentertainment
+p308
+aVinterface design
+p309
+aVmind
+p310
+aVtechnology
+p311
+asS'datecrawled'
+p312
+g297
+(S'\x07\xe1\n\x17\x02*\x0c\x03\xfb\x06'
+tRp313
+sS'id'
+p314
+I921
+ss.

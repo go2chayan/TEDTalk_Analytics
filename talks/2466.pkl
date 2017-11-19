@@ -1,0 +1,724 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhen I was seven years old,
+p5
+aVsome well-meaning adult asked me what I wanted to be when I grew up.
+p6
+aVProudly, I said: "An artist."
+p7
+aV"No, you don't," he said,
+p8
+aV"You can't make a living being an artist!"
+p9
+aa(lp10
+VMy little seven-year-old Picasso dreams were crushed.
+p11
+aVBut I gathered myself,
+p12
+aVwent off in search of a new dream,
+p13
+aVeventually settling on being a scientist,
+p14
+aVperhaps something like the next Albert Einstein.
+p15
+aa(lp16
+V(Laughter)
+p17
+aa(lp18
+VI have always loved math and science,
+p19
+aVlater, coding.
+p20
+aVAnd so I decided to study computer programming in college.
+p21
+aVIn my junior year,
+p22
+aVmy computer graphics professor showed us these wonderful short films.
+p23
+aVIt was the first computer animation any of us had ever seen.
+p24
+aVI watched these films in wonder, transfixed,
+p25
+aVfireworks going off in my head,
+p26
+aVthinking, "That is what I want to do with my life."
+p27
+aVThe idea that all the math, science and code I had been learning
+p28
+aVcould come together to create these worlds and characters
+p29
+aVand stories I connected with,
+p30
+aVwas pure magic for me.
+p31
+aa(lp32
+VJust two years later, I started working
+p33
+aVat the place that made those films, Pixar Animation Studios.
+p34
+aVIt was here I learned how we actually execute those films.
+p35
+aVTo create our movies,
+p36
+aVwe create a three-dimensional world inside the computer.
+p37
+aVWe start with a point that makes a line that makes a face
+p38
+aVthat creates characters,
+p39
+aVor trees and rocks that eventually become a forest.
+p40
+aVAnd because it's a three-dimensional world,
+p41
+aVwe can move a camera around inside that world.
+p42
+aVI was fascinated by all of it.
+p43
+aVBut then I got my first taste of lighting.
+p44
+aa(lp45
+VLighting in practice is placing lights inside this three-dimensional world.
+p46
+aVI actually have icons of lights I move around in there.
+p47
+aVHere you can see I've added a light,
+p48
+aVI'm turning on the rough version of lighting in our software,
+p49
+aVturn on shadows
+p50
+aVand placing the light.
+p51
+aVAs I place a light,
+p52
+aVI think about what it might look like in real life,
+p53
+aVbut balance that out with what we need artistically and for the story.
+p54
+aVSo it might look like this at first,
+p55
+aVbut as we adjust this and move that
+p56
+aVin weeks of work,
+p57
+aVin rough form it might look like this,
+p58
+aVand in final form, like this.
+p59
+aa(lp60
+VThere's this moment in lighting that made me fall utterly in love with it.
+p61
+aVIt's where we go from this
+p62
+aVto this.
+p63
+aVIt's the moment where all the pieces come together,
+p64
+aVand suddenly the world comes to life
+p65
+aVas if it's an actual place that exists.
+p66
+aVThis moment never gets old,
+p67
+aVespecially for that little seven-year-old girl that wanted to be an artist.
+p68
+aa(lp69
+VAs I learned to light,
+p70
+aVI learned about using light to help tell story,
+p71
+aVto set the time of day,
+p72
+aVto create the mood,
+p73
+aVto guide the audience's eye,
+p74
+aVhow to make a character look appealing
+p75
+aVor stand out in a busy set.
+p76
+aa(lp77
+VDid you see WALL-E?
+p78
+aa(lp79
+V(Laughter)
+p80
+aa(lp81
+VThere he is.
+p82
+aa(lp83
+VAs you can see,
+p84
+aVwe can create any world that we want inside the computer.
+p85
+aVWe can make a world with monsters,
+p86
+aVwith robots that fall in love,
+p87
+aVwe can even make pigs fly.
+p88
+aa(lp89
+V(Laughter)
+p90
+aa(lp91
+VWhile this is an incredible thing,
+p92
+aVthis untethered artistic freedom,
+p93
+aVit can create chaos.
+p94
+aVIt can create unbelievable worlds,
+p95
+aVunbelievable movement,
+p96
+aVthings that are jarring to the audience.
+p97
+aa(lp98
+VSo to combat this, we tether ourselves with science.
+p99
+aVWe use science and the world we know
+p100
+aVas a backbone,
+p101
+aVto ground ourselves in something relatable and recognizable.
+p102
+aV"Finding Nemo" is an excellent example of this.
+p103
+aVA major portion of the movie takes place underwater.
+p104
+aVBut how do you make it look underwater?
+p105
+aa(lp106
+VIn early research and development,
+p107
+aVwe took a clip of underwater footage and recreated it in the computer.
+p108
+aVThen we broke it back down
+p109
+aVto see which elements make up that underwater look.
+p110
+aVOne of the most critical elements
+p111
+aVwas how the light travels through the water.
+p112
+aVSo we coded up a light that mimics this physics \u2014
+p113
+aVfirst, the visibility of the water,
+p114
+aVand then what happens with the color.
+p115
+aVObjects close to the eye have their full, rich colors.
+p116
+aVAs light travels deeper into the water,
+p117
+aVwe lose the red wavelengths,
+p118
+aVthen the green wavelengths,
+p119
+aVleaving us with blue at the far depths.
+p120
+aa(lp121
+VIn this clip you can see two other important elements.
+p122
+aVThe first is the surge and swell,
+p123
+aVor the invisible underwater current
+p124
+aVthat pushes the bits of particulate around in the water.
+p125
+aVThe second is the caustics.
+p126
+aVThese are the ribbons of light,
+p127
+aVlike you might see on the bottom of a pool,
+p128
+aVthat are created when the sun bends through the crests
+p129
+aVof the ripples and waves on the ocean's surface.
+p130
+aVHere we have the fog beams.
+p131
+aVThese give us color depth cues,
+p132
+aVbut also tells which direction is up
+p133
+aVin shots where we don't see the water surface.
+p134
+aVThe other really cool thing you can see here
+p135
+aVis that we lit that particulate only with the caustics,
+p136
+aVso that as it goes in and out of those ribbons of light,
+p137
+aVit appears and disappears,
+p138
+aVlending a subtle, magical sparkle to the underwater.
+p139
+aa(lp140
+VYou can see how we're using the science \u2014
+p141
+aVthe physics of water, light and movement \u2014
+p142
+aVto tether that artistic freedom.
+p143
+aVBut we are not beholden to it.
+p144
+aVWe considered each of these elements
+p145
+aVand which ones had to be scientifically accurate
+p146
+aVand which ones we could push and pull to suit the story and the mood.
+p147
+aa(lp148
+VWe realized early on that color was one we had some leeway with.
+p149
+aVSo here's a traditionally colored underwater scene.
+p150
+aVBut here, we can take Sydney Harbor and push it fairly green
+p151
+aVto suit the sad mood of what's happening.
+p152
+aVIn this scene, it's really important we see deep into the underwater,
+p153
+aVso we understand what the East Australian Current is,
+p154
+aVthat the turtles are diving into and going on this roller coaster ride.
+p155
+aVSo we pushed the visibility of the water
+p156
+aVwell past anything you would ever see in real life.
+p157
+aVBecause in the end,
+p158
+aVwe are not trying to recreate the scientifically correct real world,
+p159
+aVwe're trying to create a believable world,
+p160
+aVone the audience can immerse themselves in to experience the story.
+p161
+aa(lp162
+VWe use science to create something wonderful.
+p163
+aVWe use story and artistic touch to get us to a place of wonder.
+p164
+aVThis guy, WALL-E, is a great example of that.
+p165
+aVHe finds beauty in the simplest things.
+p166
+aVBut when he came in to lighting, we knew we had a big problem.
+p167
+aVWe got so geeked-out on making WALL-E this convincing robot,
+p168
+aVthat we made his binoculars practically optically perfect.
+p169
+aa(lp170
+V(Laughter)
+p171
+aa(lp172
+VHis binoculars are one of the most critical acting devices he has.
+p173
+aVHe doesn't have a face or even traditional dialogue, for that matter.
+p174
+aVSo the animators were heavily dependent on the binoculars
+p175
+aVto sell his acting and emotions.
+p176
+aa(lp177
+VWe started lighting and we realized
+p178
+aVthe triple lenses inside his binoculars were a mess of reflections.
+p179
+aVHe was starting to look glassy-eyed.
+p180
+aa(lp181
+V(Laughter)
+p182
+aa(lp183
+VNow, glassy-eyed is a fundamentally awful thing
+p184
+aVwhen you are trying to convince an audience
+p185
+aVthat a robot has a personality and he's capable of falling in love.
+p186
+aVSo we went to work on these optically perfect binoculars,
+p187
+aVtrying to find a solution that would maintain his true robot materials
+p188
+aVbut solve this reflection problem.
+p189
+aa(lp190
+VSo we started with the lenses.
+p191
+aVHere's the flat-front lens,
+p192
+aVwe have a concave lens
+p193
+aVand a convex lens.
+p194
+aVAnd here you see all three together,
+p195
+aVshowing us all these reflections.
+p196
+aVWe tried turning them down,
+p197
+aVwe tried blocking them,
+p198
+aVnothing was working.
+p199
+aVYou can see here,
+p200
+aVsometimes we needed something specific reflected in his eyes \u2014
+p201
+aVusually Eve.
+p202
+aVSo we couldn't just use some faked abstract image on the lenses.
+p203
+aVSo here we have Eve on the first lens,
+p204
+aVwe put Eve on the second lens,
+p205
+aVit's not working.
+p206
+aVWe turn it down,
+p207
+aVit's still not working.
+p208
+aa(lp209
+VAnd then we have our eureka moment.
+p210
+aVWe add a light to WALL-E that accidentally leaks into his eyes.
+p211
+aVYou can see it light up these gray aperture blades.
+p212
+aVSuddenly, those aperture blades are poking through that reflection
+p213
+aVthe way nothing else has.
+p214
+aVNow we recognize WALL-E as having an eye.
+p215
+aVAs humans we have the white of our eye,
+p216
+aVthe colored iris
+p217
+aVand the black pupil.
+p218
+aVNow WALL-E has the black of an eye,
+p219
+aVthe gray aperture blades
+p220
+aVand the black pupil.
+p221
+aVSuddenly, WALL-E feels like he has a soul,
+p222
+aVlike there's a character with emotion inside.
+p223
+aVLater in the movie towards the end,
+p224
+aVWALL-E loses his personality,
+p225
+aVessentially going dead.
+p226
+aVThis is the perfect time to bring back that glassy-eyed look.
+p227
+aVIn the next scene, WALL-E comes back to life.
+p228
+aVWe bring that light back to bring the aperture blades back,
+p229
+aVand he returns to that sweet, soulful robot we've come to love.
+p230
+aa(lp231
+V(Video) WALL-E: Eva?
+p232
+aa(lp233
+VDanielle Feinberg: There's a beauty in these unexpected moments \u2014
+p234
+aVwhen you find the key to unlocking a robot's soul,
+p235
+aVthe moment when you discover what you want to do with your life.
+p236
+aVThe jellyfish in "Finding Nemo" was one of those moments for me.
+p237
+aa(lp238
+VThere are scenes in every movie that struggle to come together.
+p239
+aVThis was one of those scenes.
+p240
+aVThe director had a vision for this scene
+p241
+aVbased on some wonderful footage of jellyfish in the South Pacific.
+p242
+aVAs we went along,
+p243
+aVwe were floundering.
+p244
+aVThe reviews with the director
+p245
+aVturned from the normal look-and-feel conversation
+p246
+aVinto more and more questions about numbers and percentages.
+p247
+aVMaybe because unlike normal,
+p248
+aVwe were basing it on something in real life,
+p249
+aVor maybe just because we had lost our way.
+p250
+aVBut it had become about using our brain without our eyes,
+p251
+aVthe science without the art.
+p252
+aVThat scientific tether was strangling the scene.
+p253
+aa(lp254
+VBut even through all the frustrations,
+p255
+aVI still believed it could be beautiful.
+p256
+aVSo when it came in to lighting,
+p257
+aVI dug in.
+p258
+aVAs I worked to balance the blues and the pinks,
+p259
+aVthe caustics dancing on the jellyfish bells,
+p260
+aVthe undulating fog beams,
+p261
+aVsomething promising began to appear.
+p262
+aVI came in one morning and checked the previous night's work.
+p263
+aVAnd I got excited.
+p264
+aVAnd then I showed it to the lighting director
+p265
+aVand she got excited.
+p266
+aVSoon, I was showing to the director in a dark room full of 50 people.
+p267
+aa(lp268
+VIn director review,
+p269
+aVyou hope you might get some nice words,
+p270
+aVthen you get some notes and fixes, generally.
+p271
+aVAnd then, hopefully, you get a final,
+p272
+aVsignaling to move on to the next stage.
+p273
+aVI gave my intro, and I played the jellyfish scene.
+p274
+aVAnd the director was silent for an uncomfortably long amount of time.
+p275
+aVJust long enough for me to think,
+p276
+aV"Oh no, this is doomed."
+p277
+aVAnd then he started clapping.
+p278
+aVAnd then the production designer started clapping.
+p279
+aVAnd then the whole room was clapping.
+p280
+aVThis is the moment that I live for in lighting.
+p281
+aVThe moment where it all comes together
+p282
+aVand we get a world that we can believe in.
+p283
+aa(lp284
+VWe use math, science and code to create these amazing worlds.
+p285
+aVWe use storytelling and art to bring them to life.
+p286
+aVIt's this interweaving of art and science
+p287
+aVthat elevates the world to a place of wonder,
+p288
+aVa place with soul,
+p289
+aVa place we can believe in,
+p290
+aVa place where the things you imagine can become real \u2014
+p291
+aVand a world where a girl suddenly realizes
+p292
+aVnot only is she a scientist,
+p293
+aVbut also an artist.
+p294
+aa(lp295
+VThank you.
+p296
+aa(lp297
+V(Applause)
+p298
+aasS'transcript_micsec'
+p299
+(lp300
+I11000
+aI23000
+aI36000
+aI39000
+aI75000
+aI107000
+aI147000
+aI168000
+aI187000
+aI188000
+aI189000
+aI192000
+aI204000
+aI209000
+aI222000
+aI240000
+aI273000
+aI317000
+aI336000
+aI376000
+aI399000
+aI402000
+aI415000
+aI424000
+aI425000
+aI445000
+aI478000
+aI541000
+aI545000
+aI559000
+aI601000
+aI633000
+aI681000
+aI713000
+aI714000
+asS'talk_meta'
+p301
+(dp302
+S'ratings'
+p303
+(dp304
+S'beautiful'
+p305
+I982
+sS'funny'
+p306
+I124
+sS'inspiring'
+p307
+I881
+sS'ok'
+p308
+I66
+sS'fascinating'
+p309
+I593
+sS'total_count'
+p310
+I3386
+sS'persuasive'
+p311
+I48
+sS'longwinded'
+p312
+I6
+sS'informative'
+p313
+I329
+sS'jaw-dropping'
+p314
+I93
+sS'ingenious'
+p315
+I134
+sS'obnoxious'
+p316
+I16
+sS'confusing'
+p317
+I14
+sS'courageous'
+p318
+I85
+sS'unconvincing'
+p319
+I15
+ssS'author'
+p320
+VDanielle_Feinberg;
+p321
+sS'url'
+p322
+S'https://www.ted.com/talks/danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life'
+p323
+sS'vidlen'
+p324
+I724
+sS'totalviews'
+p325
+I2642671
+sS'title'
+p326
+VThe magic ingredient that brings Pixar movies to life
+p327
+sS'downloadlink'
+p328
+Vhttps://download.ted.com/talks/DanielleFeinberg_2015P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p329
+sS'datepublished'
+p330
+cdatetime
+datetime
+p331
+(S'\x07\xe0\x04\x06\n*:\x00\x00\x00'
+tRp332
+sS'datefilmed'
+p333
+g331
+(S'\x07\xe0\x04\x06\n*:\x00\x00\x00'
+tRp334
+sS'alldata_JSON'
+p335
+S'{"viewed_count": 2642671, "speakers": [{"description": "Director of photography, Pixar", "firstname": "Danielle", "title": "", "lastname": "Feinberg", "middleinitial": "", "whylisten": "        <p class=\\"p1\\"><span class=\\"s1\\">Danielle Feinberg began her career at Pixar Animation Studios in 1997 on the feature film <em>A Bug&#39;s Life</em>. She quickly discovered her love for lighting and went on to light on many of Pixar&#39;s feature films including <em>Toy Story 2</em>, <em>Monsters, Inc.</em>, the Academy Award&reg;-winning <em>Finding Nemo</em>,<em> The Incredibles</em> and <em>Ratatouille</em>. Feinberg was the director of photography for lighting on Pixar&rsquo;s Academy Award&reg;-winning films <em>WALL-E</em> and <em>Brave</em> and is now working on Pixar&#39;s upcoming film,&nbsp;<em>Coco</em>.&nbsp;</span></p> <p class=\\"p1\\"><span class=\\"s1\\">Feinberg&#39;s love of combining computers and art began when she was eight years old and first programmed a Logo turtle to create images. This eventually led her to a Bachelor of Arts in Computer Science from Harvard University. Now, in addition to her Pixar work, she mentors teenage girls, encouraging them to pursue code, math and science.</span></p>", "slug": "danielle_feinberg", "whotheyare": "At Pixar, Danielle Feinberg delights in bending the rules of light to her every whim.", "whatotherssay": "", "id": 2790, "photo_url": "https://pe.tedcdn.com/images/ted/94bf9a9247faf637b3e070de00c7913daa34c74b_254x191.jpg"}], "current_talk": 2466, "description": "Danielle Feinberg, Pixar\'s director of photography, creates stories with soul and wonder using math, science and code. Go behind the scenes of Finding Nemo, Toy Story, Brave, WALL-E and more, and discover how Pixar interweaves art and science to create fantastic worlds where the things you imagine can become real. This talk comes from the PBS special \\"TED Talks: Science & Wonder.\\"", "language": "en", "url": "https://www.ted.com/talks/danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86811130}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16774423}, "podcast-high": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86804407}, "180k": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16543913}, "64k": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5982328}, "1500k": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 134127908}, "450k": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41212172}, "podcast-regular": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41621724}, "950k": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 86841283}, "audio-podcast": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7553886}, "podcast-light": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6115174}, "320k": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29299927}, "600k": {"uri": "https://download.ted.com/talks/DanielleFeinberg_2015P-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54975225}}}, "comments": {"count": 47, "id": 27084, "talk_id": 2466}, "slug": "danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life", "threadId": 27084, "talks": [{"event": "TED Talks Live", "player_talks": [{"event": "TED Talks Live", "slug": "danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life", "filmed": 1446681600, "targeting": {"event": "TED Talks Live", "tag": "art,beauty,code,computers,design,entertainment,film,magic,movies,programming,science,technology,visualizations", "id": 2466, "talk": "danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "The magic ingredient that brings Pixar movies to life", "postAdDuration": "0.83", "published": 1459953778, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d2a99c85d56afa7fe4a6a1f53731dfc0e33638b8_2880x1620.jpg?quality=89&w=600", "name": "Danielle Feinberg: The magic ingredient that brings Pixar movies to life", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["art", "beauty", "code", "computers", "design", "entertainment", "film", "magic", "movies", "programming", "science", "technology", "visualizations"], "speaker": "Danielle Feinberg", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 724, "id": 2466, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DanielleFeinberg_2015P-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED Talks Live", "tag": "art,beauty,code,computers,design,entertainment,film,magic,movies,programming,science,technology,visualizations", "id": 2466, "talk": "danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2466.json", "stream": "https://hls.ted.com/talks/2466.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%2BTalks%2BLive%26id%3D2466%26tag%3Dart%2Cbeauty%2Ccode%2Ccomputers%2Cdesign%2Centertainment%2Cfilm%2Cmagic%2Cmovies%2Cprogramming%2Cscience%2Ctechnology%2Cvisualizations%26talk%3Ddanielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d2a99c85d56afa7fe4a6a1f53731dfc0e33638b8_2880x1620.jpg?q=50&w=15", "duration": 724, "id": 2466, "ratings": [{"count": 982, "id": 1, "name": "Beautiful"}, {"count": 85, "id": 3, "name": "Courageous"}, {"count": 881, "id": 10, "name": "Inspiring"}, {"count": 593, "id": 22, "name": "Fascinating"}, {"count": 329, "id": 8, "name": "Informative"}, {"count": 124, "id": 7, "name": "Funny"}, {"count": 134, "id": 9, "name": "Ingenious"}, {"count": 93, "id": 23, "name": "Jaw-dropping"}, {"count": 48, "id": 24, "name": "Persuasive"}, {"count": 66, "id": 25, "name": "OK"}, {"count": 15, "id": 21, "name": "Unconvincing"}, {"count": 6, "id": 11, "name": "Longwinded"}, {"count": 16, "id": 26, "name": "Obnoxious"}, {"count": 14, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Director of photography, Pixar", "firstname": "Danielle", "title": "", "lastname": "Feinberg", "middleinitial": "", "whylisten": "        <p class=\\"p1\\"><span class=\\"s1\\">Danielle Feinberg began her career at Pixar Animation Studios in 1997 on the feature film <em>A Bug&#39;s Life</em>. She quickly discovered her love for lighting and went on to light on many of Pixar&#39;s feature films including <em>Toy Story 2</em>, <em>Monsters, Inc.</em>, the Academy Award&reg;-winning <em>Finding Nemo</em>,<em> The Incredibles</em> and <em>Ratatouille</em>. Feinberg was the director of photography for lighting on Pixar&rsquo;s Academy Award&reg;-winning films <em>WALL-E</em> and <em>Brave</em> and is now working on Pixar&#39;s upcoming film,&nbsp;<em>Coco</em>.&nbsp;</span></p> <p class=\\"p1\\"><span class=\\"s1\\">Feinberg&#39;s love of combining computers and art began when she was eight years old and first programmed a Logo turtle to create images. This eventually led her to a Bachelor of Arts in Computer Science from Harvard University. Now, in addition to her Pixar work, she mentors teenage girls, encouraging them to pursue code, math and science.</span></p>", "slug": "danielle_feinberg", "whotheyare": "At Pixar, Danielle Feinberg delights in bending the rules of light to her every whim.", "whatotherssay": "", "id": 2790, "photo_url": "https://pe.tedcdn.com/images/ted/94bf9a9247faf637b3e070de00c7913daa34c74b_254x191.jpg"}], "title": "The magic ingredient that brings Pixar movies to life", "take_action": null, "comments": 27084, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/d2a99c85d56afa7fe4a6a1f53731dfc0e33638b8_2880x1620.jpg", "description": "Danielle Feinberg, Pixar\'s director of photography, creates stories with soul and wonder using math, science and code. Go behind the scenes of Finding Nemo, Toy Story, Brave, WALL-E and more, and discover how Pixar interweaves art and science to create fantastic worlds where the things you imagine can become real. This talk comes from the PBS special \\"TED Talks: Science & Wonder.\\"", "tags": ["art", "beauty", "code", "computers", "design", "entertainment", "film", "magic", "movies", "programming", "science", "technology", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DanielleFeinberg_2015P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DanielleFeinberg_2015P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DanielleFeinberg_2015P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2466, "audioDownload": "https://download.ted.com/talks/DanielleFeinberg_2015P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 750025, "hero": "https://pe.tedcdn.com/images/ted/87222_800x600.jpg", "title": "Teach arts and sciences together", "id": 533, "speaker": "Mae Jemison", "duration": 888, "slug": "mae_jemison_on_teaching_arts_and_sciences_together"}, {"viewed_count": 1957624, "hero": "https://pe.tedcdn.com/images/ted/38cc7c1796085940748a1b7c69138d24b649a9b5_1600x1200.jpg", "title": "The art of creating awe", "id": 1524, "speaker": "Rob Legato", "duration": 987, "slug": "rob_legato_the_art_of_creating_awe"}, {"viewed_count": 2283415, "hero": "https://pe.tedcdn.com/images/ted/58b282ec6169d97b0ca1ea3520787bc16568f81a_2880x1620.jpg", "title": "You have no idea where camels really come from", "id": 2455, "speaker": "Latif Nasser", "duration": 747, "slug": "latif_nasser_you_have_no_idea_where_camels_really_come_from"}, {"viewed_count": 564323, "hero": "https://pe.tedcdn.com/images/ted/a201608e280e73254b352bec29c6b10fca5925af_800x600.jpg", "title": "Why light needs darkness", "id": 1098, "speaker": "Rogier van der Heide", "duration": 1011, "slug": "rogier_van_der_heide_why_light_needs_darkness"}, {"viewed_count": 1226914, "hero": "https://pe.tedcdn.com/images/ted/7bc7813215ad701161bf50a332b1ae7d2d6b17d6_800x600.jpg", "title": "The weird, wonderful world of bioluminescence", "id": 1149, "speaker": "Edith Widder", "duration": 765, "slug": "edith_widder_the_weird_and_wonderful_world_of_bioluminescence"}, {"viewed_count": 1897097, "hero": "https://pe.tedcdn.com/images/ted/340c2e70b216343e75b61009702200ff8c88cd46_1600x1200.jpg", "title": "Before Avatar ... a curious boy", "id": 785, "speaker": "James Cameron", "duration": 1028, "slug": "james_cameron_before_avatar_a_curious_boy"}], "recorded_at": "2015-11-05T00:00:00.000+00:00", "slug": "danielle_feinberg_the_magic_ingredient_that_brings_pixar_movies_to_life", "speaker_name": "Danielle Feinberg", "viewed_count": 2642671, "event_badge": {"image_url": "https://pa.tedcdn.com/temp/pbs/TTL_Science_LockUp_No_Date_ITVS.svg", "link_url": "http://pbs.org/program/ted-talks/", "type": "science_and_wonder"}, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED Talks Live", "name": "Danielle Feinberg: The magic ingredient that brings Pixar movies to life"}'
+p336
+sS'keywords'
+p337
+(lp338
+Vart
+p339
+aVbeauty
+p340
+aVcode
+p341
+aVcomputers
+p342
+aVdesign
+p343
+aVentertainment
+p344
+aVfilm
+p345
+aVmagic
+p346
+aVmovies
+p347
+aVprogramming
+p348
+aVscience
+p349
+aVtechnology
+p350
+aVvisualizations
+p351
+asS'datecrawled'
+p352
+g331
+(S'\x07\xe1\n\x17\x01\x01\x04\x0e\x1b\xa9'
+tRp353
+sS'id'
+p354
+I2466
+ss.

@@ -1,0 +1,844 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VYou know, I've talked about some of these projects before \u2014
+p5
+aVabout the human genome and what that might mean,
+p6
+aVand discovering new sets of genes.
+p7
+aVWe're actually starting at a new point:
+p8
+aVwe've been digitizing biology,
+p9
+aVand now we're trying to go from that digital code
+p10
+aVinto a new phase of biology
+p11
+aVwith designing and synthesizing life.
+p12
+aa(lp13
+VSo, we've always been trying to ask big questions.
+p14
+aV"What is life?" is something that I think many biologists
+p15
+aVhave been trying to understand
+p16
+aVat various levels.
+p17
+aVWe've tried various approaches,
+p18
+aVparing it down to minimal components.
+p19
+aVWe've been digitizing it now for almost 20 years;
+p20
+aVwhen we sequenced the human genome,
+p21
+aVit was going from the analog world of biology
+p22
+aVinto the digital world of the computer.
+p23
+aVNow we're trying to ask, "Can we regenerate life
+p24
+aVor can we create new life
+p25
+aVout of this digital universe?"
+p26
+aa(lp27
+VThis is the map of a small organism,
+p28
+aVMycoplasma genitalium,
+p29
+aVthat has the smallest genome for a species
+p30
+aVthat can self-replicate in the laboratory,
+p31
+aVand we've been trying to just see if
+p32
+aVwe can come up with an even smaller genome.
+p33
+aVWe're able to knock out on the order of 100 genes
+p34
+aVout of the 500 or so that are here.
+p35
+aVWhen we look at its metabolic map,
+p36
+aVit's relatively simple
+p37
+aVcompared to ours \u2014
+p38
+aVtrust me, this is simple \u2014
+p39
+aVbut when we look at all the genes
+p40
+aVthat we can knock out one at a time,
+p41
+aVit's very unlikely that this would yield
+p42
+aVa living cell.
+p43
+aVSo we decided the only way forward
+p44
+aVwas to actually synthesize this chromosome
+p45
+aVso we could vary the components
+p46
+aVto ask some of these most fundamental questions.
+p47
+aVAnd so we started down the road of:
+p48
+aVcan we synthesize a chromosome?
+p49
+aVCan chemistry permit making
+p50
+aVthese really large molecules
+p51
+aVwhere we've never been before?
+p52
+aVAnd if we do, can we boot up a chromosome?
+p53
+aVA chromosome, by the way, is just a piece of inert chemical material.
+p54
+aVSo, our pace of digitizing life has been increasing
+p55
+aVat an exponential pace.
+p56
+aa(lp57
+VOur ability to write the genetic code
+p58
+aVhas been moving pretty slowly
+p59
+aVbut has been increasing,
+p60
+aVand our latest point would put it on, now, an exponential curve.
+p61
+aVWe started this over 15 years ago.
+p62
+aVIt took several stages, in fact,
+p63
+aVstarting with a bioethical review before we did the first experiments.
+p64
+aVBut it turns out synthesizing DNA
+p65
+aVis very difficult.
+p66
+aVThere are tens of thousands of machines around the world
+p67
+aVthat make small pieces of DNA \u2014
+p68
+aV30 to 50 letters in length \u2014
+p69
+aVand it's a degenerate process, so the longer you make the piece,
+p70
+aVthe more errors there are.
+p71
+aVSo we had to create a new method
+p72
+aVfor putting these little pieces together and correct all the errors.
+p73
+aa(lp74
+VAnd this was our first attempt, starting with the digital information
+p75
+aVof the genome of phi X174.
+p76
+aVIt's a small virus that kills bacteria.
+p77
+aVWe designed the pieces, went through our error correction
+p78
+aVand had a DNA molecule
+p79
+aVof about 5,000 letters.
+p80
+aVThe exciting phase came when we took this piece of inert chemical
+p81
+aVand put it in the bacteria,
+p82
+aVand the bacteria started to read this genetic code,
+p83
+aVmade the viral particles.
+p84
+aVThe viral particles then were released from the cells
+p85
+aVand came back and killed the E. coli.
+p86
+aVI was talking to the oil industry recently
+p87
+aVand I said they clearly understood that model.
+p88
+aa(lp89
+V(Laughter)
+p90
+aa(lp91
+VThey laughed more than you guys are. (Laughter)
+p92
+aa(lp93
+VAnd so, we think this is a situation
+p94
+aVwhere the software can actually build its own hardware
+p95
+aVin a biological system.
+p96
+aVBut we wanted to go much larger:
+p97
+aVwe wanted to build the entire bacterial chromosome \u2014
+p98
+aVit's over 580,000 letters of genetic code \u2014
+p99
+aVso we thought we'd build them in cassettes the size of the viruses
+p100
+aVso we could actually vary the cassettes
+p101
+aVto understand
+p102
+aVwhat the actual components of a living cell are.
+p103
+aVDesign is critical,
+p104
+aVand if you're starting with digital information in the computer,
+p105
+aVthat digital information has to be really accurate.
+p106
+aVWhen we first sequenced this genome in 1995,
+p107
+aVthe standard of accuracy was one error per 10,000 base pairs.
+p108
+aVWe actually found, on resequencing it,
+p109
+aV30 errors; had we used that original sequence,
+p110
+aVit never would have been able to be booted up.
+p111
+aVPart of the design is designing pieces
+p112
+aVthat are 50 letters long
+p113
+aVthat have to overlap with all the other 50-letter pieces
+p114
+aVto build smaller subunits
+p115
+aVwe have to design so they can go together.
+p116
+aVWe design unique elements into this.
+p117
+aa(lp118
+VYou may have read that we put watermarks in.
+p119
+aVThink of this:
+p120
+aVwe have a four-letter genetic code \u2014 A, C, G and T.
+p121
+aVTriplets of those letters
+p122
+aVcode for roughly 20 amino acids,
+p123
+aVsuch that there's a single letter designation
+p124
+aVfor each of the amino acids.
+p125
+aVSo we can use the genetic code to write out words,
+p126
+aVsentences, thoughts.
+p127
+aVInitially, all we did was autograph it.
+p128
+aVSome people were disappointed there was not poetry.
+p129
+aVWe designed these pieces so
+p130
+aVwe can just chew back with enzymes;
+p131
+aVthere are enzymes that repair them and put them together.
+p132
+aVAnd we started making pieces,
+p133
+aVstarting with pieces that were 5,000 to 7,000 letters,
+p134
+aVput those together to make 24,000-letter pieces,
+p135
+aVthen put sets of those going up to 72,000.
+p136
+aa(lp137
+VAt each stage, we grew up these pieces in abundance
+p138
+aVso we could sequence them
+p139
+aVbecause we're trying to create a process that's extremely robust
+p140
+aVthat you can see in a minute.
+p141
+aVWe're trying to get to the point of automation.
+p142
+aVSo, this looks like a basketball playoff.
+p143
+aVWhen we get into these really large pieces
+p144
+aVover 100,000 base pairs,
+p145
+aVthey won't any longer grow readily in E. coli \u2014
+p146
+aVit exhausts all the modern tools of molecular biology \u2014
+p147
+aVand so we turned to other mechanisms.
+p148
+aVWe knew there's a mechanism called homologous recombination
+p149
+aVthat biology uses to repair DNA
+p150
+aVthat can put pieces together.
+p151
+aVHere's an example of it:
+p152
+aVthere's an organism called
+p153
+aVDeinococcus radiodurans
+p154
+aVthat can take three millions rads of radiation.
+p155
+aa(lp156
+VYou can see in the top panel, its chromosome just gets blown apart.
+p157
+aVTwelve to 24 hours later, it put it
+p158
+aVback together exactly as it was before.
+p159
+aVWe have thousands of organisms that can do this.
+p160
+aVThese organisms can be totally desiccated;
+p161
+aVthey can live in a vacuum.
+p162
+aVI am absolutely certain that life can exist in outer space,
+p163
+aVmove around, find a new aqueous environment.
+p164
+aVIn fact, NASA has shown a lot of this is out there.
+p165
+aa(lp166
+VHere's an actual micrograph of the molecule we built
+p167
+aVusing these processes, actually just using yeast mechanisms
+p168
+aVwith the right design of the pieces we put them in;
+p169
+aVyeast puts them together automatically.
+p170
+aVThis is not an electron micrograph;
+p171
+aVthis is just a regular photomicrograph.
+p172
+aVIt's such a large molecule
+p173
+aVwe can see it with a light microscope.
+p174
+aVThese are pictures over about a six-second period.
+p175
+aa(lp176
+VSo, this is the publication we had just a short while ago.
+p177
+aVThis is over 580,000 letters of genetic code;
+p178
+aVit's the largest molecule ever made by humans of a defined structure.
+p179
+aVIt's over 300 million molecular weight.
+p180
+aVIf we printed it out at a 10 font with no spacing,
+p181
+aVit takes 142 pages
+p182
+aVjust to print this genetic code.
+p183
+aVWell, how do we boot up a chromosome? How do we activate this?
+p184
+aVObviously, with a virus it's pretty simple;
+p185
+aVit's much more complicated dealing with bacteria.
+p186
+aVIt's also simpler when you go
+p187
+aVinto eukaryotes like ourselves:
+p188
+aVyou can just pop out the nucleus
+p189
+aVand pop in another one,
+p190
+aVand that's what you've all heard about with cloning.
+p191
+aVWith bacteria and Archaea, the chromosome is integrated into the cell,
+p192
+aVbut we recently showed that we can do a complete transplant
+p193
+aVof a chromosome from one cell to another
+p194
+aVand activate it.
+p195
+aVWe purified a chromosome from one microbial species \u2014
+p196
+aVroughly, these two are as distant as human and mice \u2014
+p197
+aVwe added a few extra genes
+p198
+aVso we could select for this chromosome,
+p199
+aVwe digested it with enzymes
+p200
+aVto kill all the proteins,
+p201
+aVand it was pretty stunning when we put this in the cell \u2014
+p202
+aVand you'll appreciate
+p203
+aVour very sophisticated graphics here.
+p204
+aVThe new chromosome went into the cell.
+p205
+aVIn fact, we thought this might be as far as it went,
+p206
+aVbut we tried to design the process a little bit further.
+p207
+aa(lp208
+VThis is a major mechanism of evolution right here.
+p209
+aVWe find all kinds of species
+p210
+aVthat have taken up a second chromosome
+p211
+aVor a third one from somewhere,
+p212
+aVadding thousands of new traits
+p213
+aVin a second to that species.
+p214
+aVSo, people who think of evolution
+p215
+aVas just one gene changing at a time
+p216
+aVhave missed much of biology.
+p217
+aa(lp218
+VThere are enzymes called restriction enzymes
+p219
+aVthat actually digest DNA.
+p220
+aVThe chromosome that was in the cell
+p221
+aVdoesn't have one;
+p222
+aVthe chromosome we put in does.
+p223
+aVIt got expressed and it recognized
+p224
+aVthe other chromosome as foreign material,
+p225
+aVchewed it up, and so we ended up
+p226
+aVjust with a cell with the new chromosome.
+p227
+aVIt turned blue because of the genes we put in it.
+p228
+aVAnd with a very short period of time,
+p229
+aVall the characteristics of one species were lost
+p230
+aVand it converted totally into the new species
+p231
+aVbased on the new software that we put in the cell.
+p232
+aVAll the proteins changed,
+p233
+aVthe membranes changed;
+p234
+aVwhen we read the genetic code, it's exactly what we had transferred in.
+p235
+aa(lp236
+VSo, this may sound like genomic alchemy,
+p237
+aVbut we can, by moving the software of DNA around,
+p238
+aVchange things quite dramatically.
+p239
+aVNow I've argued, this is not genesis;
+p240
+aVthis is building on three and a half billion years of evolution.
+p241
+aVAnd I've argued that we're about to perhaps
+p242
+aVcreate a new version of the Cambrian explosion,
+p243
+aVwhere there's massive new speciation
+p244
+aVbased on this digital design.
+p245
+aa(lp246
+VWhy do this?
+p247
+aVI think this is pretty obvious in terms of some of the needs.
+p248
+aVWe're about to go from six and a half
+p249
+aVto nine billion people over the next 40 years.
+p250
+aVTo put it in context for myself:
+p251
+aVI was born in 1946.
+p252
+aVThere are now three people on the planet
+p253
+aVfor every one of us that existed in 1946;
+p254
+aVwithin 40 years, there'll be four.
+p255
+aVWe have trouble feeding, providing fresh, clean water,
+p256
+aVmedicines, fuel
+p257
+aVfor the six and a half billion.
+p258
+aVIt's going to be a stretch to do it for nine.
+p259
+aVWe use over five billion tons of coal,
+p260
+aV30 billion-plus barrels of oil \u2014
+p261
+aVthat's a hundred million barrels a day.
+p262
+aVWhen we try to think of biological processes
+p263
+aVor any process to replace that,
+p264
+aVit's going to be a huge challenge.
+p265
+aVThen of course, there's all that
+p266
+aVCO2 from this material
+p267
+aVthat ends up in the atmosphere.
+p268
+aa(lp269
+VWe now, from our discovery around the world,
+p270
+aVhave a database with about 20 million genes,
+p271
+aVand I like to think of these as the design components of the future.
+p272
+aVThe electronics industry only had a dozen or so components,
+p273
+aVand look at the diversity that came out of that.
+p274
+aVWe're limited here primarily
+p275
+aVby a biological reality
+p276
+aVand our imagination.
+p277
+aVWe now have techniques,
+p278
+aVbecause of these rapid methods of synthesis,
+p279
+aVto do what we're calling combinatorial genomics.
+p280
+aVWe have the ability now to build a large robot
+p281
+aVthat can make a million chromosomes a day.
+p282
+aVWhen you think of processing these 20 million different genes
+p283
+aVor trying to optimize processes
+p284
+aVto produce octane or to produce pharmaceuticals,
+p285
+aVnew vaccines,
+p286
+aVwe can just with a small team,
+p287
+aVdo more molecular biology
+p288
+aVthan the last 20 years of all science.
+p289
+aVAnd it's just standard selection:
+p290
+aVwe can select for viability,
+p291
+aVchemical or fuel production,
+p292
+aVvaccine production, etc.
+p293
+aa(lp294
+VThis is a screen snapshot
+p295
+aVof some true design software
+p296
+aVthat we're working on to actually be able to sit down
+p297
+aVand design species in the computer.
+p298
+aVYou know, we don't know necessarily what it'll look like:
+p299
+aVwe know exactly what their genetic code looks like.
+p300
+aVWe're focusing on now fourth-generation fuels.
+p301
+aVYou've seen recently, corn to ethanol
+p302
+aVis just a bad experiment.
+p303
+aVWe have second- and third-generation fuels
+p304
+aVthat will be coming out relatively soon
+p305
+aVthat are sugar, to much higher-value fuels
+p306
+aVlike octane or different types of butanol.
+p307
+aa(lp308
+VBut the only way we think that biology
+p309
+aVcan have a major impact without
+p310
+aVfurther increasing the cost of food and limiting its availability
+p311
+aVis if we start with CO2 as its feedstock,
+p312
+aVand so we're working with designing cells to go down this road.
+p313
+aVAnd we think we'll have the first fourth-generation fuels
+p314
+aVin about 18 months.
+p315
+aVSunlight and CO2 is one method ...
+p316
+aV(Applause)
+p317
+aVbut in our discovery around the world,
+p318
+aVwe have all kinds of other methods.
+p319
+aa(lp320
+VThis is an organism we described in 1996.
+p321
+aVIt lives in the deep ocean,
+p322
+aVabout a mile and a half deep,
+p323
+aValmost at boiling-water temperatures.
+p324
+aVIt takes CO2 to methane
+p325
+aVusing molecular hydrogen as its energy source.
+p326
+aVWe're looking to see if we can take
+p327
+aVcaptured CO2,
+p328
+aVwhich can easily be piped to sites,
+p329
+aVconvert that CO2 back into fuel
+p330
+aVto drive this process.
+p331
+aa(lp332
+VSo, in a short period of time,
+p333
+aVwe think that we might be able to increase
+p334
+aVwhat the basic question is of "What is life?"
+p335
+aVWe truly, you know,
+p336
+aVhave modest goals
+p337
+aVof replacing the whole petrol-chemical industry \u2014
+p338
+aa(lp339
+V(Laughter) (Applause)
+p340
+aa(lp341
+VYeah. If you can't do that at TED, where can you? \u2014
+p342
+aa(lp343
+V(Laughter)
+p344
+aa(lp345
+Vbecome a major source of energy ...
+p346
+aVBut also, we're now working on using these same tools
+p347
+aVto come up with instant sets of vaccines.
+p348
+aVYou've seen this year with flu;
+p349
+aVwe're always a year behind and a dollar short
+p350
+aVwhen it comes to the right vaccine.
+p351
+aVI think that can be changed
+p352
+aVby building combinatorial vaccines in advance.
+p353
+aVHere's what the future may begin to look like
+p354
+aVwith changing, now, the evolutionary tree,
+p355
+aVspeeding up evolution
+p356
+aVwith synthetic bacteria, Archaea
+p357
+aVand, eventually, eukaryotes.
+p358
+aVWe're a ways away from improving people:
+p359
+aVour goal is just to make sure that we have a chance
+p360
+aVto survive long enough to maybe do that. Thank you very much.
+p361
+aa(lp362
+V(Applause)
+p363
+aasS'transcript_micsec'
+p364
+(lp365
+I12000
+aI36000
+aI74000
+aI151000
+aI196000
+aI236000
+aI239000
+aI243000
+aI309000
+aI360000
+aI407000
+aI434000
+aI460000
+aI548000
+aI568000
+aI611000
+aI640000
+aI696000
+aI763000
+aI803000
+aI836000
+aI864000
+aI880000
+aI883000
+aI886000
+aI888000
+aI933000
+asS'talk_meta'
+p366
+(dp367
+S'ratings'
+p368
+(dp369
+S'ingenious'
+p370
+I293
+sS'beautiful'
+p371
+I33
+sS'inspiring'
+p372
+I240
+sS'ok'
+p373
+I33
+sS'fascinating'
+p374
+I584
+sS'funny'
+p375
+I9
+sS'total_count'
+p376
+I2513
+sS'persuasive'
+p377
+I73
+sS'longwinded'
+p378
+I34
+sS'unconvincing'
+p379
+I14
+sS'informative'
+p380
+I402
+sS'jaw-dropping'
+p381
+I680
+sS'obnoxious'
+p382
+I14
+sS'courageous'
+p383
+I71
+sS'confusing'
+p384
+I33
+ssS'author'
+p385
+VCraig_Venter;
+p386
+sS'url'
+p387
+S'https://www.ted.com/talks/craig_venter_is_on_the_verge_of_creating_synthetic_life'
+p388
+sS'vidlen'
+p389
+I954
+sS'totalviews'
+p390
+I1007792
+sS'title'
+p391
+VOn the verge of creating synthetic life
+p392
+sS'downloadlink'
+p393
+Vhttps://download.ted.com/talks/CraigVenter_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p394
+sS'datepublished'
+p395
+cdatetime
+datetime
+p396
+(S'\x07\xd8\x03\x05\x14&\x00\x00\x00\x00'
+tRp397
+sS'datefilmed'
+p398
+g396
+(S'\x07\xd8\x03\x05\x14&\x00\x00\x00\x00'
+tRp399
+sS'alldata_JSON'
+p400
+S'{"viewed_count": 1007792, "speakers": [{"description": "Biologist, genetics pioneer", "firstname": "Craig", "title": "", "lastname": "Venter", "middleinitial": "", "whylisten": "<p>Craig Venter, the man who led the private effort to sequence the human genome, is hard at work now on even more potentially world-changing projects. </p><p>First, there&#39;s his mission aboard the <em><a href=\\"http://www.sorcerer2expedition.org/version1/HTML/main.htm\\" target=\\"_blank\\">Sorcerer II</a>,</em> a 92-foot yacht<strong>, </strong>which, in 2006, finished its voyage around the globe to sample, catalouge and decode the genes of the ocean&#39;s unknown microorganisms. Quite a task, when you consider that there are tens of millions of microbes in a single drop of sea water. Then there&#39;s the <a href=\\"http://www.jcvi.org/\\" target=\\"_blank\\">J. Craig Venter Institute</a>, a nonprofit dedicated to researching genomics and exploring its societal implications. </p><p>In 2005, Venter founded <a href=\\"http://www.syntheticgenomics.com/about.htm\\" target=\\"_blank\\">Synthetic Genomics</a>, a private company with <strong>a provocative mission: to engineer new life forms</strong>. Its goal is to design, synthesize and assemble <a href=\\"http://en.wikipedia.org/wiki/Mycoplasma_laboratorium\\" target=\\"_blank\\">synthetic microorganisms</a>  that will produce alternative fuels, such as ethanol or hydrogen. He was on <a href=\\"http://www.time.com/time/\\" target=\\"_blank\\"><em>Time</em></a>  magzine&#39;s 2007 list of the <a href=\\"http://www.time.com/time/specials/2007/time100\\" target=\\"_blank\\">100 Most Influential People in the World.</a> </p><p>In early 2008, scientists at the J. Craig Venter Institute announced that they had manufactured the entire genome of a bacterium by painstakingly stitching together its chemical components. By sequencing a genome, scientists can begin to custom-design bootable organisms, creating biological robots that can produce from scratch chemicals humans can use, such as biofuel. And in 2010, they announced, they had created &quot;synthetic life&quot; -- DNA created digitally, inserted into a living bacterium, and remaining alive.</p>", "slug": "craig_venter", "whotheyare": "In 2001, Craig Venter made headlines for sequencing the human genome. In 2003, he started mapping the ocean\'s biodiversity. And now he\'s created the first synthetic lifeforms -- microorganisms that can produce alternative fuels.", "whatotherssay": "Either he is one of this era\'s most electrifying scientists, or he\'s one of the most maddening.", "id": 7, "photo_url": "https://pe.tedcdn.com/images/ted/1438_253x190.jpg"}], "current_talk": 227, "description": "\\"Can we create new life out of our digital universe?\\" Craig Venter asks. His answer is \\"yes\\" -- and pretty soon. He walks through his latest research and promises that we\'ll soon be able to build and boot up a synthetic chromosome. NOTE: This talk was given in 2008, and this field of science has developed quickly since then. Read \\"Criticisms & updates\\" below for more details.", "language": "en", "url": "https://www.ted.com/talks/craig_venter_is_on_the_verge_of_creating_synthetic_life", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/CraigVenter_2008-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110031894}, "podcast-low-en": {"uri": "https://download.ted.com/talks/CraigVenter_2008-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11825358}, "podcast-high": {"uri": "https://download.ted.com/talks/CraigVenter_2008-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110001635}, "180k": {"uri": "https://download.ted.com/talks/CraigVenter_2008-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21689780}, "64k": {"uri": "https://download.ted.com/talks/CraigVenter_2008-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7798717}, "1500k": {"uri": "https://download.ted.com/talks/CraigVenter_2008-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 172853718}, "450k": {"uri": "https://download.ted.com/talks/CraigVenter_2008-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53621485}, "podcast-regular": {"uri": "https://download.ted.com/talks/CraigVenter_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53791378}, "950k": {"uri": "https://download.ted.com/talks/CraigVenter_2008-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110031077}, "audio-podcast": {"uri": "https://download.ted.com/talks/CraigVenter_2008.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6982165}, "podcast-light": {"uri": "https://download.ted.com/talks/CraigVenter_2008-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7898120}, "320k": {"uri": "https://download.ted.com/talks/CraigVenter_2008-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38383478}, "600k": {"uri": "https://download.ted.com/talks/CraigVenter_2008-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 71742488}}}, "comments": {"count": 137, "id": 207, "talk_id": 227}, "slug": "craig_venter_is_on_the_verge_of_creating_synthetic_life", "threadId": 207, "talks": [{"event": "TED2008", "player_talks": [{"event": "TED2008", "slug": "craig_venter_is_on_the_verge_of_creating_synthetic_life", "filmed": 1204156800, "targeting": {"event": "TED2008", "tag": "alternative energy,creativity,energy,genetics,global issues,invention,science,technology", "id": 227, "talk": "craig_venter_is_on_the_verge_of_creating_synthetic_life", "year": "2008"}, "adDuration": "3.33", "external": null, "title": "On the verge of creating synthetic life", "postAdDuration": "0.83", "published": 1204767480, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/32772_480x360.jpg?quality=89&w=600", "name": "Craig Venter: On the verge of creating synthetic life", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "nativeLanguage": "en", "tags": ["alternative energy", "creativity", "energy", "genetics", "global issues", "invention", "science", "technology"], "speaker": "Craig Venter", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 954, "id": 227, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/CraigVenter_2008-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2008", "tag": "alternative energy,creativity,energy,genetics,global issues,invention,science,technology", "id": 227, "talk": "craig_venter_is_on_the_verge_of_creating_synthetic_life", "year": "2008"}, "metadata": "https://hls.ted.com/talks/227.json", "stream": "https://hls.ted.com/talks/227.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2008%26id%3D227%26tag%3Dalternative%2Benergy%2Ccreativity%2Cenergy%2Cgenetics%2Cglobal%2Bissues%2Cinvention%2Cscience%2Ctechnology%26talk%3Dcraig_venter_is_on_the_verge_of_creating_synthetic_life%26year%3D2008&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/craig_venter_is_on_the_verge_of_creating_synthetic_life"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/32772_480x360.jpg?q=50&w=15", "duration": 954, "id": 227, "ratings": [{"count": 680, "id": 23, "name": "Jaw-dropping"}, {"count": 402, "id": 8, "name": "Informative"}, {"count": 584, "id": 22, "name": "Fascinating"}, {"count": 240, "id": 10, "name": "Inspiring"}, {"count": 293, "id": 9, "name": "Ingenious"}, {"count": 73, "id": 24, "name": "Persuasive"}, {"count": 71, "id": 3, "name": "Courageous"}, {"count": 33, "id": 1, "name": "Beautiful"}, {"count": 34, "id": 11, "name": "Longwinded"}, {"count": 33, "id": 2, "name": "Confusing"}, {"count": 33, "id": 25, "name": "OK"}, {"count": 9, "id": 7, "name": "Funny"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 14, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Biologist, genetics pioneer", "firstname": "Craig", "title": "", "lastname": "Venter", "middleinitial": "", "whylisten": "<p>Craig Venter, the man who led the private effort to sequence the human genome, is hard at work now on even more potentially world-changing projects. </p><p>First, there&#39;s his mission aboard the <em><a href=\\"http://www.sorcerer2expedition.org/version1/HTML/main.htm\\" target=\\"_blank\\">Sorcerer II</a>,</em> a 92-foot yacht<strong>, </strong>which, in 2006, finished its voyage around the globe to sample, catalouge and decode the genes of the ocean&#39;s unknown microorganisms. Quite a task, when you consider that there are tens of millions of microbes in a single drop of sea water. Then there&#39;s the <a href=\\"http://www.jcvi.org/\\" target=\\"_blank\\">J. Craig Venter Institute</a>, a nonprofit dedicated to researching genomics and exploring its societal implications. </p><p>In 2005, Venter founded <a href=\\"http://www.syntheticgenomics.com/about.htm\\" target=\\"_blank\\">Synthetic Genomics</a>, a private company with <strong>a provocative mission: to engineer new life forms</strong>. Its goal is to design, synthesize and assemble <a href=\\"http://en.wikipedia.org/wiki/Mycoplasma_laboratorium\\" target=\\"_blank\\">synthetic microorganisms</a>  that will produce alternative fuels, such as ethanol or hydrogen. He was on <a href=\\"http://www.time.com/time/\\" target=\\"_blank\\"><em>Time</em></a>  magzine&#39;s 2007 list of the <a href=\\"http://www.time.com/time/specials/2007/time100\\" target=\\"_blank\\">100 Most Influential People in the World.</a> </p><p>In early 2008, scientists at the J. Craig Venter Institute announced that they had manufactured the entire genome of a bacterium by painstakingly stitching together its chemical components. By sequencing a genome, scientists can begin to custom-design bootable organisms, creating biological robots that can produce from scratch chemicals humans can use, such as biofuel. And in 2010, they announced, they had created &quot;synthetic life&quot; -- DNA created digitally, inserted into a living bacterium, and remaining alive.</p>", "slug": "craig_venter", "whotheyare": "In 2001, Craig Venter made headlines for sequencing the human genome. In 2003, he started mapping the ocean\'s biodiversity. And now he\'s created the first synthetic lifeforms -- microorganisms that can produce alternative fuels.", "whatotherssay": "Either he is one of this era\'s most electrifying scientists, or he\'s one of the most maddening.", "id": 7, "photo_url": "https://pe.tedcdn.com/images/ted/1438_253x190.jpg"}], "title": "On the verge of creating synthetic life", "take_action": [], "comments": 207, "more_resources": [{"status": "approved", "start_at": null, "headline": "Updates", "link_url": "https://www.ted.com/pages/craig-venter-s-on-the-verge-of-creating-synthetic-life-criticisms-updates", "eyebrow": "", "end_at": null, "image_url": "", "published": true, "visible_url": "TED.com", "type": "external_website", "blurb": "This talk should viewed as a piece of science history, not the last word on synthetic biology. Click \\"More\\" below for details."}], "hero": "https://pe.tedcdn.com/images/ted/32772_480x360.jpg", "description": "\\"Can we create new life out of our digital universe?\\" Craig Venter asks. His answer is \\"yes\\" -- and pretty soon. He walks through his latest research and promises that we\'ll soon be able to build and boot up a synthetic chromosome. NOTE: This talk was given in 2008, and this field of science has developed quickly since then. Read \\"Criticisms & updates\\" below for more details.", "tags": ["alternative energy", "creativity", "energy", "genetics", "global issues", "invention", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/CraigVenter_2008-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/CraigVenter_2008-low-en.mp4"}, "it": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/CraigVenter_2008-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/CraigVenter_2008-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/CraigVenter_2008-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/CraigVenter_2008-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/CraigVenter_2008-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/CraigVenter_2008-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/CraigVenter_2008-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/CraigVenter_2008-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/CraigVenter_2008-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/CraigVenter_2008-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/CraigVenter_2008-low-fa.mp4"}, "fi": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/CraigVenter_2008-low-fi.mp4"}, "ja": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/CraigVenter_2008-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/CraigVenter_2008-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/CraigVenter_2008-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/CraigVenter_2008-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/CraigVenter_2008.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/CraigVenter_2008-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 227, "audioDownload": "https://download.ted.com/talks/CraigVenter_2008.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 913161, "hero": "https://pe.tedcdn.com/images/ted/20429_480x360.jpg", "title": "Using biology to rethink the energy challenge", "id": 193, "speaker": "Juan Enriquez", "duration": 1090, "slug": "juan_enriquez_wants_to_grow_energy"}, {"viewed_count": 807648, "hero": "https://pe.tedcdn.com/images/ted/8797510dd2c00e81d277493d9ca173f6ea5de0ec_2880x1620.jpg", "title": "Robots inspired by cockroach ingenuity", "id": 280, "speaker": "Robert Full", "duration": 1222, "slug": "robert_full_on_engineering_and_evolution"}, {"viewed_count": 446547, "hero": "https://pe.tedcdn.com/images/ted/40964_480x360.jpg", "title": "Can we domesticate germs?", "id": 259, "speaker": "Paul Ewald", "duration": 1071, "slug": "paul_ewald_asks_can_we_domesticate_germs"}, {"viewed_count": 1089071, "hero": "https://pe.tedcdn.com/images/ted/172485_800x600.jpg", "title": "Watch me unveil \\"synthetic life\\"", "id": 863, "speaker": "Craig Venter", "duration": 1097, "slug": "craig_venter_unveils_synthetic_life"}, {"viewed_count": 562263, "hero": "https://pe.tedcdn.com/images/ted/b1dc8f513ec37e1f531213b65257804816111ac0_1600x1200.jpg", "title": "Sampling the ocean\'s DNA", "id": 6, "speaker": "Craig Venter", "duration": 1011, "slug": "craig_venter_on_dna_and_the_sea"}, {"viewed_count": 391135, "hero": "https://pe.tedcdn.com/images/ted/66737_800x600.jpg", "title": "Genomics 101", "id": 437, "speaker": "Barry Schuler", "duration": 1286, "slug": "barry_schuler_genomics_101"}], "recorded_at": "2008-02-28T00:00:00.000+00:00", "slug": "craig_venter_is_on_the_verge_of_creating_synthetic_life", "speaker_name": "Craig Venter", "viewed_count": 1007792, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2008", "name": "Craig Venter: On the verge of creating synthetic life"}'
+p401
+sS'keywords'
+p402
+(lp403
+Valternative energy
+p404
+aVcreativity
+p405
+aVenergy
+p406
+aVgenetics
+p407
+aVglobal issues
+p408
+aVinvention
+p409
+aVscience
+p410
+aVtechnology
+p411
+asS'datecrawled'
+p412
+g396
+(S'\x07\xe1\n\x17\x01*\x16\x06g\x0e'
+tRp413
+sS'id'
+p414
+I227
+ss.

@@ -1,0 +1,532 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe've evolved with tools, and tools have evolved with us.
+p5
+aVOur ancestors created these hand axes 1.5 million years ago,
+p6
+aVshaping them to not only fit the task at hand
+p7
+aVbut also their hand.
+p8
+aa(lp9
+VHowever, over the years,
+p10
+aVtools have become more and more specialized.
+p11
+aVThese sculpting tools have evolved through their use,
+p12
+aVand each one has a different form which matches its function.
+p13
+aVAnd they leverage the dexterity of our hands
+p14
+aVin order to manipulate things with much more precision.
+p15
+aVBut as tools have become more and more complex,
+p16
+aVwe need more complex controls to control them.
+p17
+aVAnd so designers have become very adept at creating interfaces
+p18
+aVthat allow you to manipulate parameters while you're attending to other things,
+p19
+aVsuch as taking a photograph and changing the focus
+p20
+aVor the aperture.
+p21
+aa(lp22
+VBut the computer has fundamentally changed the way we think about tools
+p23
+aVbecause computation is dynamic.
+p24
+aVSo it can do a million different things
+p25
+aVand run a million different applications.
+p26
+aVHowever, computers have the same static physical form
+p27
+aVfor all of these different applications
+p28
+aVand the same static interface elements as well.
+p29
+aVAnd I believe that this is fundamentally a problem,
+p30
+aVbecause it doesn't really allow us to interact with our hands
+p31
+aVand capture the rich dexterity that we have in our bodies.
+p32
+aVAnd my belief is that, then, we must need new types of interfaces
+p33
+aVthat can capture these rich abilities that we have
+p34
+aVand that can physically adapt to us
+p35
+aVand allow us to interact in new ways.
+p36
+aVAnd so that's what I've been doing at the MIT Media Lab
+p37
+aVand now at Stanford.
+p38
+aa(lp39
+VSo with my colleagues, Daniel Leithinger and Hiroshi Ishii,
+p40
+aVwe created inFORM,
+p41
+aVwhere the interface can actually come off the screen
+p42
+aVand you can physically manipulate it.
+p43
+aVOr you can visualize 3D information physically
+p44
+aVand touch it and feel it to understand it in new ways.
+p45
+aVOr you can interact through gestures and direct deformations
+p46
+aVto sculpt digital clay.
+p47
+aVOr interface elements can arise out of the surface
+p48
+aVand change on demand.
+p49
+aVAnd the idea is that for each individual application,
+p50
+aVthe physical form can be matched to the application.
+p51
+aVAnd I believe this represents a new way
+p52
+aVthat we can interact with information,
+p53
+aVby making it physical.
+p54
+aa(lp55
+VSo the question is, how can we use this?
+p56
+aVTraditionally, urban planners and architects build physical models
+p57
+aVof cities and buildings to better understand them.
+p58
+aVSo with Tony Tang at the Media Lab, we created an interface built on inFORM
+p59
+aVto allow urban planners to design and view entire cities.
+p60
+aVAnd now you can walk around it, but it's dynamic, it's physical,
+p61
+aVand you can also interact directly.
+p62
+aVOr you can look at different views,
+p63
+aVsuch as population or traffic information,
+p64
+aVbut it's made physical.
+p65
+aa(lp66
+VWe also believe that these dynamic shape displays can really change
+p67
+aVthe ways that we remotely collaborate with people.
+p68
+aVSo when we're working together in person,
+p69
+aVI'm not only looking at your face
+p70
+aVbut I'm also gesturing and manipulating objects,
+p71
+aVand that's really hard to do when you're using tools like Skype.
+p72
+aVAnd so using inFORM, you can reach out from the screen
+p73
+aVand manipulate things at a distance.
+p74
+aVSo we used the pins of the display to represent people's hands,
+p75
+aVallowing them to actually touch and manipulate objects at a distance.
+p76
+aVAnd you can also manipulate and collaborate on 3D data sets as well,
+p77
+aVso you can gesture around them as well as manipulate them.
+p78
+aVAnd that allows people to collaborate on these new types of 3D information
+p79
+aVin a richer way than might be possible with traditional tools.
+p80
+aVAnd so you can also bring in existing objects,
+p81
+aVand those will be captured on one side and transmitted to the other.
+p82
+aVOr you can have an object that's linked between two places,
+p83
+aVso as I move a ball on one side,
+p84
+aVthe ball moves on the other as well.
+p85
+aVAnd so we do this by capturing the remote user
+p86
+aVusing a depth-sensing camera like a Microsoft Kinect.
+p87
+aa(lp88
+VNow, you might be wondering how does this all work,
+p89
+aVand essentially, what it is, is 900 linear actuators
+p90
+aVthat are connected to these mechanical linkages
+p91
+aVthat allow motion down here to be propagated in these pins above.
+p92
+aVSo it's not that complex compared to what's going on at CERN,
+p93
+aVbut it did take a long time for us to build it.
+p94
+aVAnd so we started with a single motor,
+p95
+aVa single linear actuator,
+p96
+aVand then we had to design a custom circuit board to control them.
+p97
+aVAnd then we had to make a lot of them.
+p98
+aVAnd so the problem with having 900 of something
+p99
+aVis that you have to do every step 900 times.
+p100
+aVAnd so that meant that we had a lot of work to do.
+p101
+aVSo we sort of set up a mini-sweatshop in the Media Lab
+p102
+aVand brought undergrads in and convinced them to do "research" \u2014
+p103
+aa(lp104
+V(Laughter)
+p105
+aa(lp106
+Vand had late nights watching movies, eating pizza
+p107
+aVand screwing in thousands of screws.
+p108
+aVYou know \u2014 research.
+p109
+aa(lp110
+V(Laughter)
+p111
+aa(lp112
+VBut anyway, I think that we were really excited by the things
+p113
+aVthat inFORM allowed us to do.
+p114
+aVIncreasingly, we're using mobile devices, and we interact on the go.
+p115
+aVBut mobile devices, just like computers,
+p116
+aVare used for so many different applications.
+p117
+aVSo you use them to talk on the phone,
+p118
+aVto surf the web, to play games, to take pictures
+p119
+aVor even a million different things.
+p120
+aVBut again, they have the same static physical form
+p121
+aVfor each of these applications.
+p122
+aVAnd so we wanted to know how can we take some of the same interactions
+p123
+aVthat we developed for inFORM
+p124
+aVand bring them to mobile devices.
+p125
+aa(lp126
+VSo at Stanford, we created this haptic edge display,
+p127
+aVwhich is a mobile device with an array of linear actuators
+p128
+aVthat can change shape,
+p129
+aVso you can feel in your hand where you are as you're reading a book.
+p130
+aVOr you can feel in your pocket new types of tactile sensations
+p131
+aVthat are richer than the vibration.
+p132
+aVOr buttons can emerge from the side that allow you to interact
+p133
+aVwhere you want them to be.
+p134
+aVOr you can play games and have actual buttons.
+p135
+aVAnd so we were able to do this
+p136
+aVby embedding 40 small, tiny linear actuators inside the device,
+p137
+aVand that allow you not only to touch them
+p138
+aVbut also back-drive them as well.
+p139
+aa(lp140
+VBut we've also looked at other ways to create more complex shape change.
+p141
+aVSo we've used pneumatic actuation to create a morphing device
+p142
+aVwhere you can go from something that looks a lot like a phone ...
+p143
+aVto a wristband on the go.
+p144
+aVAnd so together with Ken Nakagaki at the Media Lab,
+p145
+aVwe created this new high-resolution version
+p146
+aVthat uses an array of servomotors to change from interactive wristband
+p147
+aVto a touch-input device
+p148
+aVto a phone.
+p149
+aa(lp150
+V(Laughter)
+p151
+aa(lp152
+VAnd we're also interested in looking at ways
+p153
+aVthat users can actually deform the interfaces
+p154
+aVto shape them into the devices that they want to use.
+p155
+aVSo you can make something like a game controller,
+p156
+aVand then the system will understand what shape it's in
+p157
+aVand change to that mode.
+p158
+aa(lp159
+VSo, where does this point?
+p160
+aVHow do we move forward from here?
+p161
+aVI think, really, where we are today
+p162
+aVis in this new age of the Internet of Things,
+p163
+aVwhere we have computers everywhere \u2014
+p164
+aVthey're in our pockets, they're in our walls,
+p165
+aVthey're in almost every device that you'll buy in the next five years.
+p166
+aVBut what if we stopped thinking about devices
+p167
+aVand think instead about environments?
+p168
+aVAnd so how can we have smart furniture
+p169
+aVor smart rooms or smart environments
+p170
+aVor cities that can adapt to us physically,
+p171
+aVand allow us to do new ways of collaborating with people
+p172
+aVand doing new types of tasks?
+p173
+aa(lp174
+VSo for the Milan Design Week, we created TRANSFORM,
+p175
+aVwhich is an interactive table-scale version of these shape displays,
+p176
+aVwhich can move physical objects on the surface; for example,
+p177
+aVreminding you to take your keys.
+p178
+aVBut it can also transform to fit different ways of interacting.
+p179
+aVSo if you want to work,
+p180
+aVthen it can change to sort of set up your work system.
+p181
+aVAnd so as you bring a device over,
+p182
+aVit creates all the affordances you need
+p183
+aVand brings other objects to help you accomplish those goals.
+p184
+aa(lp185
+VSo, in conclusion,
+p186
+aVI really think that we need to think about a new, fundamentally different way
+p187
+aVof interacting with computers.
+p188
+aVWe need computers that can physically adapt to us
+p189
+aVand adapt to the ways that we want to use them
+p190
+aVand really harness the rich dexterity that we have of our hands,
+p191
+aVand our ability to think spatially about information by making it physical.
+p192
+aVBut looking forward, I think we need to go beyond this, beyond devices,
+p193
+aVto really think about new ways that we can bring people together,
+p194
+aVand bring our information into the world,
+p195
+aVand think about smart environments that can adapt to us physically.
+p196
+aVSo with that, I will leave you.
+p197
+aa(lp198
+VThank you very much.
+p199
+aa(lp200
+V(Applause)
+p201
+aasS'transcript_micsec'
+p202
+(lp203
+I11000
+aI25000
+aI64000
+aI112000
+aI162000
+aI193000
+aI267000
+aI312000
+aI313000
+aI319000
+aI321000
+aI355000
+aI395000
+aI426000
+aI429000
+aI445000
+aI482000
+aI516000
+aI555000
+aI556000
+asS'talk_meta'
+p204
+(dp205
+S'ratings'
+p206
+(dp207
+S'beautiful'
+p208
+I65
+sS'ingenious'
+p209
+I212
+sS'inspiring'
+p210
+I205
+sS'ok'
+p211
+I39
+sS'fascinating'
+p212
+I345
+sS'funny'
+p213
+I20
+sS'total_count'
+p214
+I1313
+sS'persuasive'
+p215
+I27
+sS'longwinded'
+p216
+I5
+sS'informative'
+p217
+I186
+sS'jaw-dropping'
+p218
+I120
+sS'obnoxious'
+p219
+I7
+sS'confusing'
+p220
+I11
+sS'courageous'
+p221
+I30
+sS'unconvincing'
+p222
+I41
+ssS'author'
+p223
+VSean_Follmer;
+p224
+sS'url'
+p225
+S'https://www.ted.com/talks/sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it'
+p226
+sS'vidlen'
+p227
+I562
+sS'totalviews'
+p228
+I1414091
+sS'title'
+p229
+VShape-shifting tech will change work as we know it
+p230
+sS'downloadlink'
+p231
+Vhttps://download.ted.com/talks/SeanFollmer_2015X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p232
+sS'datepublished'
+p233
+cdatetime
+datetime
+p234
+(S'\x07\xe0\x02\t\x0b\x03\x14\x00\x00\x00'
+tRp235
+sS'datefilmed'
+p236
+g234
+(S'\x07\xe0\x02\t\x0b\x03\x14\x00\x00\x00'
+tRp237
+sS'alldata_JSON'
+p238
+S'{"viewed_count": 1414091, "speakers": [{"description": "Human-computer interaction researcher and designer", "firstname": "Sean", "title": "", "lastname": "Follmer", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Sean Follmer is a human-computer interaction researcher and designer. He is an Assistant Professor of Mechanical Engineering at Stanford University, where he teaches the design of smart and connected devices and leads research at the intersection between human-computer interaction (HCI) and robotics.</p> <p class=\\"p1\\">Follmer received a Ph.D. and a Masters degree from the MIT Media Lab in 2015 and 2011, respectively, and a BS in Engineering from Stanford University. He has worked at Nokia Research and Adobe Research on projects exploring the frontiers of HCI.&nbsp;</p> <p class=\\"p1\\">Follmer has received numerous awards for his research and design work, including best paper awards and nominations from premier academic conferences in HCI (ACM UIST and CHI), Fast Company Innovation By Design Awards, a Red Dot Design Award and a Laval Virtual Award.</p>", "slug": "sean_follmer", "whotheyare": "Sean Follmer designs shape-changing and deformable interfaces that take advantage of our natural dexterity and spatial abilities.", "whatotherssay": "", "id": 2855, "photo_url": "https://pe.tedcdn.com/images/ted/e965209483c7be0f06fdde0f6d9c4343e4fb5506_254x191.jpg"}], "current_talk": 2410, "description": "What will the world look like when we move beyond the keyboard and mouse? Interaction designer Sean Follmer is building a future with machines that bring information to life under your fingers as you work with it. In this talk, check out prototypes for a 3D shape-shifting table, a phone that turns into a wristband, a deformable game controller and more that may change the way we live and work.", "language": "en", "url": "https://www.ted.com/talks/sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66116656}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13099642}, "podcast-high": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66107372}, "180k": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12848280}, "64k": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4651189}, "1500k": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 102721905}, "450k": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32162944}, "podcast-regular": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32278037}, "950k": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66097277}, "audio-podcast": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5944213}, "podcast-light": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4784665}, "320k": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22788036}, "600k": {"uri": "https://download.ted.com/talks/SeanFollmer_2015X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43114142}}}, "comments": {"count": 58, "id": 27030, "talk_id": 2410}, "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it", "threadId": 27030, "talks": [{"event": "TEDxCERN", "player_talks": [{"event": "TEDxCERN", "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it", "filmed": 1444348800, "targeting": {"event": "TEDxCERN", "tag": "TEDx,collaboration,computers,creativity,design,engineering,future,industrial design,innovation,invention,materials,potential,product design,technology", "id": 2410, "talk": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "Shape-shifting tech will change work as we know it", "postAdDuration": "0.83", "published": 1455033800, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg?quality=89&w=600", "name": "Sean Follmer: Shape-shifting tech will change work as we know it", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "collaboration", "computers", "creativity", "design", "engineering", "future", "industrial design", "innovation", "invention", "materials", "potential", "product design", "technology"], "speaker": "Sean Follmer", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 562, "id": 2410, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SeanFollmer_2015X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxCERN", "tag": "TEDx,collaboration,computers,creativity,design,engineering,future,industrial design,innovation,invention,materials,potential,product design,technology", "id": 2410, "talk": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2410.json", "stream": "https://hls.ted.com/talks/2410.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxCERN%26id%3D2410%26tag%3DTEDx%2Ccollaboration%2Ccomputers%2Ccreativity%2Cdesign%2Cengineering%2Cfuture%2Cindustrial%2Bdesign%2Cinnovation%2Cinvention%2Cmaterials%2Cpotential%2Cproduct%2Bdesign%2Ctechnology%26talk%3Dsean_follmer_shape_shifting_tech_will_change_work_as_we_know_it%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg?q=50&w=15", "duration": 562, "id": 2410, "ratings": [{"count": 65, "id": 1, "name": "Beautiful"}, {"count": 30, "id": 3, "name": "Courageous"}, {"count": 345, "id": 22, "name": "Fascinating"}, {"count": 212, "id": 9, "name": "Ingenious"}, {"count": 120, "id": 23, "name": "Jaw-dropping"}, {"count": 186, "id": 8, "name": "Informative"}, {"count": 205, "id": 10, "name": "Inspiring"}, {"count": 41, "id": 21, "name": "Unconvincing"}, {"count": 27, "id": 24, "name": "Persuasive"}, {"count": 39, "id": 25, "name": "OK"}, {"count": 20, "id": 7, "name": "Funny"}, {"count": 11, "id": 2, "name": "Confusing"}, {"count": 5, "id": 11, "name": "Longwinded"}, {"count": 7, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Human-computer interaction researcher and designer", "firstname": "Sean", "title": "", "lastname": "Follmer", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Sean Follmer is a human-computer interaction researcher and designer. He is an Assistant Professor of Mechanical Engineering at Stanford University, where he teaches the design of smart and connected devices and leads research at the intersection between human-computer interaction (HCI) and robotics.</p> <p class=\\"p1\\">Follmer received a Ph.D. and a Masters degree from the MIT Media Lab in 2015 and 2011, respectively, and a BS in Engineering from Stanford University. He has worked at Nokia Research and Adobe Research on projects exploring the frontiers of HCI.&nbsp;</p> <p class=\\"p1\\">Follmer has received numerous awards for his research and design work, including best paper awards and nominations from premier academic conferences in HCI (ACM UIST and CHI), Fast Company Innovation By Design Awards, a Red Dot Design Award and a Laval Virtual Award.</p>", "slug": "sean_follmer", "whotheyare": "Sean Follmer designs shape-changing and deformable interfaces that take advantage of our natural dexterity and spatial abilities.", "whatotherssay": "", "id": 2855, "photo_url": "https://pe.tedcdn.com/images/ted/e965209483c7be0f06fdde0f6d9c4343e4fb5506_254x191.jpg"}], "title": "Shape-shifting tech will change work as we know it", "take_action": [], "comments": 27030, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg", "description": "What will the world look like when we move beyond the keyboard and mouse? Interaction designer Sean Follmer is building a future with machines that bring information to life under your fingers as you work with it. In this talk, check out prototypes for a 3D shape-shifting table, a phone that turns into a wristband, a deformable game controller and more that may change the way we live and work.", "tags": ["TEDx", "collaboration", "computers", "creativity", "design", "engineering", "future", "industrial design", "innovation", "invention", "materials", "potential", "product design", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-ru.mp4"}, "pt": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-sv.mp4"}, "my": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/SeanFollmer_2015X-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SeanFollmer_2015X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SeanFollmer_2015X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SeanFollmer_2015X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2410, "audioDownload": "https://download.ted.com/talks/SeanFollmer_2015X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 879434, "hero": "https://pe.tedcdn.com/images/ted/201253_800x600.jpg", "title": "The shape-shifting future of the mobile phone", "id": 964, "speaker": "Fabian Hemmert", "duration": 255, "slug": "fabian_hemmert_the_shape_shifting_future_of_the_mobile_phone"}, {"viewed_count": 1618388, "hero": "https://pe.tedcdn.com/images/ted/a4817b9887ab589f58ea7258b3e4cecbafa126c2_2880x1620.jpg", "title": "Design at the intersection of technology and biology", "id": 2344, "speaker": "Neri Oxman", "duration": 1056, "slug": "neri_oxman_design_at_the_intersection_of_technology_and_biology"}, {"viewed_count": 1643994, "hero": "https://pe.tedcdn.com/images/ted/17161e8b4c3a91b54f1e9451f09d18522cb170fd_2880x1620.jpg", "title": "A delightful way to teach kids about computers", "id": 2417, "speaker": "Linda Liukas", "duration": 663, "slug": "linda_liukas_a_delightful_way_to_teach_kids_about_computers"}, {"viewed_count": 16168069, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}, {"viewed_count": 1036821, "hero": "https://pe.tedcdn.com/images/ted/7050fccc4b9b3515903a1fe304017edf282fb5f7_1600x1200.jpg", "title": "The best computer interface? Maybe ... your hands", "id": 1984, "speaker": "James Patten", "duration": 372, "slug": "james_patten_the_best_computer_interface_maybe_your_hands"}, {"viewed_count": 4541029, "hero": "https://pe.tedcdn.com/images/ted/2c78c5f87d19f51a0ff4d3e655cb815360bf8063_1600x1200.jpg", "title": "The radical promise of the multi-touch interface", "id": 65, "speaker": "Jeff Han", "duration": 527, "slug": "jeff_han_demos_his_breakthrough_touchscreen"}], "recorded_at": "2015-10-09T00:00:00.000+00:00", "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it", "speaker_name": "Sean Follmer", "viewed_count": 1414091, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxCERN, an independent event. TED editors featured it among our selections on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Sean Follmer recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "The Hand: How Its Use Shapes the Brain, Language, and Human Culture", "link_url": "http://www.amazon.com/The-Hand-Shapes-Language-Culture/dp/0679740473/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Frank R. Wilson\\r\\nVintage, 1999", "position": null, "blurb": "Wilson\'s book highlights the amazing dexterity and capabilities of the human hand, but also paints a compelling picture of the hand\'s central role in our cognitive evolution from ape to man. Most computer interfaces today still neglect much of the rich possibilities for interaction that our hands provide."}, {"is_pdf": false, "headline": "Action in Perception", "link_url": "http://www.amazon.com/Action-Perception-Representation-Mind-Alva/dp/0262640635/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Alva No\\u00eb\\r\\nBradford, 2006", "position": null, "blurb": "No\\u00eb\'s work on enactive perception questions a once-dominant approach to cognitive science that had a strong influence on the history of computer interfaces -- that we passively perceive the world around us through our sensory system. No\\u00eb demonstrates that we actively use the physical world around us, and our manipulation of it, as a core part of our perception. His book is extremely engaging and filled with anecdotes and illustrations that make you question the process of your own perception. These models of perception suggest the need for a new type of interaction that is grounded in the world and is manipulable through our hands and bodies."}, {"is_pdf": false, "headline": "Where the Action Is: The Foundations of Embodied Interaction", "link_url": "http://www.amazon.com/Where-Action-Is-Foundations-Interaction/dp/0262541785/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Paul Dourish\\r\\nMIT Press, 2004", "position": null, "blurb": "This book connects embodied cognition with interaction design, arguing for new types of interaction that are physically embodied in our world and that leverage our innate cognitive abilities for spatial thinking. It also highlights the work of Prof. Hiroshi Ishii, my advisor at the MIT Media Lab, who led the push towards more tangible interfaces."}, {"is_pdf": false, "headline": "A brief rant on the future of interaction design", "link_url": "http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/", "eyebrow": null, "label": "EXPLORE", "note": "Brett Victor", "position": null, "blurb": "Brett Victor\'s short rant captures much of Dourish and Ishii\'s argument in a few pages -- we need interfaces that embrace the hand in all of its glory. Victor is a concise and clear story teller, who can boil down years of HCI research into a more actionable form. His talk on [\\"Seeing Spaces\\"](https://vimeo.com/97903574) is also incredibly inspiring."}, {"is_pdf": false, "headline": "The Design of Everyday Things", "link_url": "http://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Don Norman\\r\\nBasic Books, 2013", "position": null, "blurb": "Don Norman\'s immensely formative book lead the rallying cry for HCI and user centered design, and it remains as important today as when it was published 30 years ago. All designers of Internet of Things devices should read it. It provides an especially important framework as we think about interfaces that can change their physical form."}, {"is_pdf": false, "headline": "The Diamond Age: Or, a Young Lady\'s Illustrated Primer", "link_url": "http://www.amazon.com/The-Diamond-Age-Illustrated-Spectra/dp/0553380966/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Neal Stephenson\\r\\nSpectra, 2000", "position": null, "blurb": "Neal Stephenson\'s *The Diamond Age* has had a profound effect on many HCI researchers. It looks towards a future where economic inequality has profoundly shaped our world, and where technology is, of course, not equally distributed. Stephenson\'s \\"matter compilers,\\" swarms of nano-bots and immersive virtual reality both inspire and caution us as we look to the future of HCI and digital fabrication."}], "title": ""}], "published": true, "type": "recommendation", "blurb": "Check out more resources on human-computer interaction, curated by Sean Follmer."}, "corrections": [{"timecode": "01:52", "text": "Prof. Hiroshi Ishii served as my advisor during my time in the MIT Media Lab. Daniel Leithinger and I worked in Prof. Ishii\'s Tangible Media Group, where we collaborated with the rest of the TMG team on tangible interfaces and especially what Prof. Ishii calls \\"radical atoms,\\" or shape changing user interfaces. Prof. Ishii has been leading the push towards Tangible Bits for 20 years at the Media Lab, and it was an honor to work with him.\\r\\n", "type": "correction", "status": "approved", "published": true}]}], "event": "TEDxCERN", "name": "Sean Follmer: Shape-shifting tech will change work as we know it"}'
+p239
+sS'keywords'
+p240
+(lp241
+VTEDx
+p242
+aVcollaboration
+p243
+aVcomputers
+p244
+aVcreativity
+p245
+aVdesign
+p246
+aVengineering
+p247
+aVfuture
+p248
+aVindustrial design
+p249
+aVinnovation
+p250
+aVinvention
+p251
+aVmaterials
+p252
+aVpotential
+p253
+aVproduct design
+p254
+aVtechnology
+p255
+asS'datecrawled'
+p256
+g234
+(S'\x07\xe1\n\x17\x02:,\x004\xb1'
+tRp257
+sS'id'
+p258
+I2410
+ss.

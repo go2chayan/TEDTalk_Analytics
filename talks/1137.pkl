@@ -1,0 +1,820 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VGood afternoon, everybody.
+p5
+aVI've got something to show you.
+p6
+aV(Laughter)
+p7
+aVThink about this as a pixel, a flying pixel.
+p8
+aVThis is what we call, in our lab, sensible design.
+p9
+aVLet me tell you a bit about it.
+p10
+aVNow if you take this picture \u2014 I'm Italian originally,
+p11
+aVand every boy in Italy grows up
+p12
+aVwith this picture on the wall of his bedroom \u2014
+p13
+aVbut the reason I'm showing you this
+p14
+aVis that something very interesting
+p15
+aVhappened in Formula 1 racing
+p16
+aVover the past couple of decades.
+p17
+aVNow some time ago,
+p18
+aVif you wanted to win a Formula 1 race,
+p19
+aVyou take a budget, and you bet your budget
+p20
+aVon a good driver and a good car.
+p21
+aVAnd if the car and the driver were good enough, then you'd win the race.
+p22
+aVNow today, if you want to win the race,
+p23
+aVactually you need also something like this \u2014
+p24
+aVsomething that monitors the car in real time,
+p25
+aVhas a few thousand sensors
+p26
+aVcollecting information from the car,
+p27
+aVtransmitting this information into the system,
+p28
+aVand then processing it
+p29
+aVand using it in order to go back to the car with decisions
+p30
+aVand changing things in real time
+p31
+aVas information is collected.
+p32
+aVThis is what, in engineering terms,
+p33
+aVyou would call a real time control system.
+p34
+aVAnd basically, it's a system made of two components \u2014
+p35
+aVa sensing and an actuating component.
+p36
+aa(lp37
+VWhat is interesting today
+p38
+aVis that real time control systems
+p39
+aVare starting to enter into our lives.
+p40
+aVOur cities, over the past few years,
+p41
+aVjust have been blanketed
+p42
+aVwith networks, electronics.
+p43
+aVThey're becoming like computers in open air.
+p44
+aVAnd, as computers in open air,
+p45
+aVthey're starting to respond in a different way
+p46
+aVto be able to be sensed and to be actuated.
+p47
+aVIf we fix cities, actually it's a big deal.
+p48
+aVJust as an aside, I wanted to mention,
+p49
+aVcities are only two percent of the Earth's crust,
+p50
+aVbut they are 50 percent of the world's population.
+p51
+aVThey are 75 percent of the energy consumption \u2014
+p52
+aVup to 80 percent of CO2 emissions.
+p53
+aVSo if we're able to do something with cities, that's a big deal.
+p54
+aVBeyond cities,
+p55
+aVall of this sensing and actuating
+p56
+aVis entering our everyday objects.
+p57
+aa(lp58
+VThat's from an exhibition that
+p59
+aVPaola Antonelli is organizing
+p60
+aVat MoMA later this year, during the summer.
+p61
+aVIt's called "Talk to Me."
+p62
+aVWell our objects, our environment
+p63
+aVis starting to talk back to us.
+p64
+aVIn a certain sense, it's almost as if every atom out there
+p65
+aVwere becoming both a sensor and an actuator.
+p66
+aVAnd that is radically changing the interaction we have as humans
+p67
+aVwith the environment out there.
+p68
+aVIn a certain sense,
+p69
+aVit's almost as if the old dream of Michelangelo ...
+p70
+aVyou know, when Michelangelo sculpted the Moses,
+p71
+aVat the end it said that he took the hammer, threw it at the Moses \u2014
+p72
+aVactually you can still see a small chip underneath \u2014
+p73
+aVand said, shouted,
+p74
+aV"Perché non parli? Why don't you talk?"
+p75
+aVWell today, for the first time,
+p76
+aVour environment is starting to talk back to us.
+p77
+aVAnd I'll show just a few examples \u2014
+p78
+aVagain, with this idea of sensing our environment and actuating it.
+p79
+aa(lp80
+VLet's starting with sensing.
+p81
+aVWell, the first project I wanted to share with you
+p82
+aVis actually one of the first projects by our lab.
+p83
+aVIt was four and a half years ago in Italy.
+p84
+aVAnd what we did there
+p85
+aVwas actually use a new type of network at the time
+p86
+aVthat had been deployed all across the world \u2014
+p87
+aVthat's a cellphone network \u2014
+p88
+aVand use anonymous and aggregated information from that network,
+p89
+aVthat's collected anyway by the operator,
+p90
+aVin order to understand
+p91
+aVhow the city works.
+p92
+aVThe summer was a lucky summer \u2014 2006.
+p93
+aVIt's when Italy won the soccer World Cup.
+p94
+aVSome of you might remember, it was Italy and France playing,
+p95
+aVand then Zidane at the end, the headbutt.
+p96
+aVAnd anyway, Italy won at the end.
+p97
+aa(lp98
+V(Laughter)
+p99
+aa(lp100
+VNow look at what happened that day
+p101
+aVjust by monitoring activity
+p102
+aVhappening on the network.
+p103
+aVHere you see the city.
+p104
+aVYou see the Colosseum in the middle,
+p105
+aVthe river Tiber.
+p106
+aVIt's morning, before the match.
+p107
+aVYou see the timeline on the top.
+p108
+aVEarly afternoon,
+p109
+aVpeople here and there,
+p110
+aVmaking calls and moving.
+p111
+aVThe match begins \u2014 silence.
+p112
+aVFrance scores. Italy scores.
+p113
+aVHalftime, people make a quick call and go to the bathroom.
+p114
+aVSecond half. End of normal time.
+p115
+aVFirst overtime, second.
+p116
+aVZidane, the headbutt in a moment.
+p117
+aVItaly wins. Yeah.
+p118
+aV(Laughter)
+p119
+aV(Applause)
+p120
+aVWell, that night, everybody went to celebrate in the center.
+p121
+aVYou saw the big peak.
+p122
+aVThe following day, again everybody went to the center
+p123
+aVto meet the winning team
+p124
+aVand the prime minister at the time.
+p125
+aVAnd then everybody moved down.
+p126
+aVYou see the image of the place called Circo Massimo,
+p127
+aVwhere, since Roman times, people go to celebrate,
+p128
+aVto have a big party, and you see the peak at the end of the day.
+p129
+aVWell, that's just one example of how we can sense the city today
+p130
+aVin a way that we couldn't have done
+p131
+aVjust a few years ago.
+p132
+aa(lp133
+VAnother quick example about sensing:
+p134
+aVit's not about people,
+p135
+aVbut about things we use and consume.
+p136
+aVWell today, we know everything
+p137
+aVabout where our objects come from.
+p138
+aVThis is a map that shows you
+p139
+aVall the chips that form a Mac computer, how they came together.
+p140
+aVBut we know very little about where things go.
+p141
+aVSo in this project,
+p142
+aVwe actually developed some small tags
+p143
+aVto track trash as it moves through the system.
+p144
+aVSo we actually started with a number of volunteers
+p145
+aVwho helped us in Seattle,
+p146
+aVjust over a year ago,
+p147
+aVto tag what they were throwing away \u2014
+p148
+aVdifferent types of things, as you can see here \u2014
+p149
+aVthings they would throw away anyway.
+p150
+aVThen we put a little chip, little tag,
+p151
+aVonto the trash
+p152
+aVand then started following it.
+p153
+aVHere are the results we just obtained.
+p154
+aa(lp155
+V(Music)
+p156
+aa(lp157
+VFrom Seattle ...
+p158
+aVafter one week.
+p159
+aVWith this information we realized
+p160
+aVthere's a lot of inefficiencies in the system.
+p161
+aVWe can actually do the same thing with much less energy.
+p162
+aVThis data was not available before.
+p163
+aVBut there's a lot of wasted transportation and convoluted things happening.
+p164
+aVBut the other thing is that we believe
+p165
+aVthat if we see every day
+p166
+aVthat the cup we're throwing away, it doesn't disappear,
+p167
+aVit's still somewhere on the planet.
+p168
+aVAnd the plastic bottle we're throwing away every day still stays there.
+p169
+aVAnd if we show that to people,
+p170
+aVthen we can also promote some behavioral change.
+p171
+aVSo that was the reason for the project.
+p172
+aa(lp173
+VMy colleague at MIT, Assaf Biderman,
+p174
+aVhe could tell you much more about sensing
+p175
+aVand many other wonderful things we can do with sensing,
+p176
+aVbut I wanted to go to the second part we discussed at the beginning,
+p177
+aVand that's actuating our environment.
+p178
+aVAnd the first project
+p179
+aVis something we did a couple of years ago in Zaragoza, Spain.
+p180
+aVIt started with a question by the mayor of the city,
+p181
+aVwho came to us saying
+p182
+aVthat Spain and Southern Europe have a beautiful tradition
+p183
+aVof using water in public space, in architecture.
+p184
+aVAnd the question was: How could technology, new technology,
+p185
+aVbe added to that?
+p186
+aVAnd one of the ideas that was developed at MIT in a workshop
+p187
+aVwas, imagine this pipe, and you've got valves,
+p188
+aVsolenoid valves, taps,
+p189
+aVopening and closing.
+p190
+aVYou create like a water curtain with pixels made of water.
+p191
+aVIf those pixels fall,
+p192
+aVyou can write on it,
+p193
+aVyou can show patterns, images, text.
+p194
+aVAnd even you can approach it, and it will open up
+p195
+aVto let you jump through,
+p196
+aVas you see in this image.
+p197
+aa(lp198
+VWell, we presented this to Mayor Belloch.
+p199
+aVHe liked it very much.
+p200
+aVAnd we got a commission to design a building
+p201
+aVat the entrance of the expo.
+p202
+aVWe called it Digital Water Pavilion.
+p203
+aVThe whole building is made of water.
+p204
+aVThere's no doors or windows,
+p205
+aVbut when you approach it,
+p206
+aVit will open up to let you in.
+p207
+aV(Music)
+p208
+aVThe roof also is covered with water.
+p209
+aVAnd if there's a bit of wind,
+p210
+aVif you want to minimize splashing, you can actually lower the roof.
+p211
+aVOr you could close the building,
+p212
+aVand the whole architecture will disappear,
+p213
+aVlike in this case.
+p214
+aVYou know, these days, you always get images during the winter,
+p215
+aVwhen they take the roof down,
+p216
+aVof people who have been there and said, "They demolished the building."
+p217
+aVNo, they didn't demolish it, just when it goes down,
+p218
+aVthe architecture almost disappears.
+p219
+aVHere's the building working.
+p220
+aVYou see the person puzzled about what was going on inside.
+p221
+aVAnd here was myself trying not to get wet,
+p222
+aVtesting the sensors that open the water.
+p223
+aa(lp224
+VWell, I should tell you now what happened one night
+p225
+aVwhen all of the sensors stopped working.
+p226
+aVBut actually that night, it was even more fun.
+p227
+aVAll the kids from Zaragoza came to the building,
+p228
+aVbecause the way of engaging with the building became something different.
+p229
+aVNot anymore a building that would open up to let you in,
+p230
+aVbut a building that would still make cuts and holes through the water,
+p231
+aVand you had to jump without getting wet.
+p232
+aa(lp233
+V(Video) (Crowd Noise)
+p234
+aa(lp235
+VAnd that was, for us, was very interesting,
+p236
+aVbecause, as architects, as engineers, as designers,
+p237
+aVwe always think about how people will use the things we design.
+p238
+aVBut then reality's always unpredictable.
+p239
+aVAnd that's the beauty of doing things
+p240
+aVthat are used and interact with people.
+p241
+aa(lp242
+VHere is an image then of the building
+p243
+aVwith the physical pixels, the pixels made of water,
+p244
+aVand then projections on them.
+p245
+aVAnd this is what led us to think about
+p246
+aVthe following project I'll show you now.
+p247
+aVThat's, imagine those pixels could actually start flying.
+p248
+aVImagine you could have small helicopters
+p249
+aVthat move in the air,
+p250
+aVand then each of them with a small pixel in changing lights \u2014
+p251
+aValmost as a cloud that can move in space.
+p252
+aVHere is the video.
+p253
+aa(lp254
+V(Music)
+p255
+aa(lp256
+VSo imagine one helicopter,
+p257
+aVlike the one we saw before,
+p258
+aVmoving with others,
+p259
+aVin synchrony.
+p260
+aVSo you can have this cloud.
+p261
+aVYou can have a kind of flexible screen or display, like this \u2014
+p262
+aVa regular configuration in two dimensions.
+p263
+aVOr in regular, but in three dimensions,
+p264
+aVwhere the thing that changes is the light,
+p265
+aVnot the pixels' position.
+p266
+aVYou can play with a different type.
+p267
+aVImagine your screen could just appear
+p268
+aVin different scales or sizes,
+p269
+aVdifferent types of resolution.
+p270
+aVBut then the whole thing can be
+p271
+aVjust a 3D cloud of pixels
+p272
+aVthat you can approach and move through it
+p273
+aVand see from many, many directions.
+p274
+aVHere is the real Flyfire
+p275
+aVcontrol and going down to form the regular grid as before.
+p276
+aVWhen you turn on the light, actually you see this. So the same as we saw before.
+p277
+aVAnd imagine each of them then controlled by people.
+p278
+aVYou can have each pixel
+p279
+aVhaving an input that comes from people,
+p280
+aVfrom people's movement, or so and so.
+p281
+aa(lp282
+VI want to show you something here for the first time.
+p283
+aVWe've been working with Roberto Bolle,
+p284
+aVone of today's top ballet dancers \u2014
+p285
+aVthe étoile at Metropolitan in New York
+p286
+aVand La Scala in Milan \u2014
+p287
+aVand actually captured his movement in 3D
+p288
+aVin order to use it as an input for Flyfire.
+p289
+aVAnd here you can see Roberto dancing.
+p290
+aVYou see on the left the pixels,
+p291
+aVthe different resolutions being captured.
+p292
+aVIt's both 3D scanning in real time
+p293
+aVand motion capture.
+p294
+aVSo you can reconstruct a whole movement.
+p295
+aVYou can go all the way through.
+p296
+aVBut then, once we have the pixels, then you can play with them
+p297
+aVand play with color and movement
+p298
+aVand gravity and rotation.
+p299
+aVSo we want to use this as one of the possible inputs
+p300
+aVfor Flyfire.
+p301
+aa(lp302
+VI wanted to show you the last project we are working on.
+p303
+aVIt's something we're working on for the London Olympics.
+p304
+aVIt's called The Cloud.
+p305
+aVAnd the idea here is, imagine, again,
+p306
+aVwe can involve people
+p307
+aVin doing something and changing our environment \u2014
+p308
+aValmost to impart what we call cloud raising \u2014
+p309
+aVlike barn raising, but with a cloud.
+p310
+aVImagine you can have everybody make a small donation for one pixel.
+p311
+aVAnd I think what is remarkable
+p312
+aVthat has happened over the past couple of years
+p313
+aVis that, over the past couple of decades,
+p314
+aVwe went from the physical world to the digital one.
+p315
+aVThis has been digitizing everything, knowledge,
+p316
+aVand making that accessible through the Internet.
+p317
+aa(lp318
+VNow today, for the first time \u2014
+p319
+aVand the Obama campaign showed us this \u2014
+p320
+aVwe can go from the digital world,
+p321
+aVfrom the self-organizing power of networks,
+p322
+aVto the physical one.
+p323
+aVThis can be, in our case,
+p324
+aVwe want to use it for designing and doing a symbol.
+p325
+aVThat means something built in a city.
+p326
+aVBut tomorrow it can be,
+p327
+aVin order to tackle today's pressing challenges \u2014
+p328
+aVthink about climate change or CO2 emissions \u2014
+p329
+aVhow we can go from the digital world to the physical one.
+p330
+aVSo the idea that we can actually involve people
+p331
+aVin doing this thing together, collectively.
+p332
+aa(lp333
+VThe cloud is a cloud, again, made of pixels,
+p334
+aVin the same way as the real cloud
+p335
+aVis a cloud made of particles.
+p336
+aVAnd those particles are water,
+p337
+aVwhere our cloud is a cloud of pixels.
+p338
+aVIt's a physical structure in London, but covered with pixels.
+p339
+aVYou can move inside, have different types of experiences.
+p340
+aVYou can actually see from underneath,
+p341
+aVsharing the main moments
+p342
+aVfor the Olympics in 2012 and beyond,
+p343
+aVand really using it as a way to connect with the community.
+p344
+aVSo both the physical cloud in the sky
+p345
+aVand something you can go to the top [of],
+p346
+aVlike London's new mountaintop.
+p347
+aVYou can enter inside it.
+p348
+aVAnd a kind of new digital beacon for the night \u2014
+p349
+aVbut most importantly,
+p350
+aVa new type of experience for anybody who will go to the top.
+p351
+aa(lp352
+VThank you.
+p353
+aa(lp354
+V(Applause)
+p355
+aasS'transcript_micsec'
+p356
+(lp357
+I11000
+aI104000
+aI154000
+aI204000
+aI244000
+aI246000
+aI321000
+aI371000
+aI374000
+aI438000
+aI494000
+aI568000
+aI589000
+aI602000
+aI617000
+aI643000
+aI649000
+aI748000
+aI823000
+aI857000
+aI887000
+aI933000
+aI935000
+asS'talk_meta'
+p358
+(dp359
+S'ratings'
+p360
+(dp361
+S'ingenious'
+p362
+I235
+sS'beautiful'
+p363
+I133
+sS'inspiring'
+p364
+I164
+sS'ok'
+p365
+I67
+sS'fascinating'
+p366
+I234
+sS'funny'
+p367
+I12
+sS'total_count'
+p368
+I1191
+sS'persuasive'
+p369
+I18
+sS'longwinded'
+p370
+I27
+sS'informative'
+p371
+I104
+sS'jaw-dropping'
+p372
+I82
+sS'obnoxious'
+p373
+I21
+sS'confusing'
+p374
+I28
+sS'courageous'
+p375
+I9
+sS'unconvincing'
+p376
+I57
+ssS'author'
+p377
+VCarlo_Ratti;
+p378
+sS'url'
+p379
+S'https://www.ted.com/talks/carlo_ratti_architecture_that_senses_and_responds'
+p380
+sS'vidlen'
+p381
+I946
+sS'totalviews'
+p382
+I659486
+sS'title'
+p383
+VArchitecture that senses and responds
+p384
+sS'downloadlink'
+p385
+Vhttps://download.ted.com/talks/CarloRatti_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p386
+sS'datepublished'
+p387
+cdatetime
+datetime
+p388
+(S'\x07\xdb\x05\x03\n&\x00\x00\x00\x00'
+tRp389
+sS'datefilmed'
+p390
+g388
+(S'\x07\xdb\x05\x03\n&\x00\x00\x00\x00'
+tRp391
+sS'alldata_JSON'
+p392
+S'{"viewed_count": 659486, "speakers": [{"description": "Architect and engineer", "firstname": "Carlo", "title": "", "lastname": "Ratti", "middleinitial": "", "whylisten": "<p>Carlo Ratti is a civil engineer and architect who teaches at the Massachusetts Institute of Technology, where he directs the SENSEable City Laboratory. This lab studies the built environment of cities -- from street grids to plumbing and garbage systems -- using new kinds of sensors and hand-held electronics that have transformed the way we can describe and understand cities.</p><p>Other projects flip this equation -- using data gathered from sensors to actually create dazzling new environments. The Digital Water Pavilion, for instance, reacts to visitors by parting a stream of water to let them visit. And a project for the 2012 Olympics in London turns a pavilion building into a cloud of blinking interactive art. He&#39;s opening a research center in Singapore as part of an MIT-led initiative on the Future of Urban Mobility. </p><p>For more information on the projects in this talk, visit <a href=\\"http://senseable.mit.edu/ted2011/\\" target=\\"_blank\\">SENSEable @ TED &gt;&gt;</a>  </p>", "slug": "carlo_ratti", "whotheyare": "Carlo Ratti directs the MIT SENSEable City Lab, which explores the \\"real-time city\\" by studying the way sensors and electronics relate to the built environment. ", "whatotherssay": "", "id": 887, "photo_url": "https://pe.tedcdn.com/images/ted/1775f725c345b1a55ae8e66700b7ce8eb24cd210_254x191.jpg"}], "current_talk": 1137, "description": "With his team at SENSEable City Lab, MIT\'s Carlo Ratti makes cool things by sensing the data we create. He pulls from passive data sets -- like the calls we make, the garbage we throw away -- to create surprising visualizations of city life. And he and his team create dazzling interactive environments from moving water and flying light, powered by simple gestures caught through sensors.", "language": "en", "url": "https://www.ted.com/talks/carlo_ratti_architecture_that_senses_and_responds", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/CarloRatti_2011-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109558766}, "podcast-low-en": {"uri": "https://download.ted.com/talks/CarloRatti_2011-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21684990}, "podcast-high": {"uri": "https://download.ted.com/talks/CarloRatti_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109547186}, "180k": {"uri": "https://download.ted.com/talks/CarloRatti_2011-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21589880}, "64k": {"uri": "https://download.ted.com/talks/CarloRatti_2011-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7814495}, "1500k": {"uri": "https://download.ted.com/talks/CarloRatti_2011-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 171663505}, "450k": {"uri": "https://download.ted.com/talks/CarloRatti_2011-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53381081}, "podcast-regular": {"uri": "https://download.ted.com/talks/CarloRatti_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53550973}, "950k": {"uri": "https://download.ted.com/talks/CarloRatti_2011-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109576629}, "audio-podcast": {"uri": "https://download.ted.com/talks/CarloRatti_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10733863}, "podcast-light": {"uri": "https://download.ted.com/talks/CarloRatti_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7913897}, "320k": {"uri": "https://download.ted.com/talks/CarloRatti_2011-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38213458}, "600k": {"uri": "https://download.ted.com/talks/CarloRatti_2011-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 71426847}}}, "comments": {"count": 80, "id": 3610, "talk_id": 1137}, "slug": "carlo_ratti_architecture_that_senses_and_responds", "threadId": 3610, "talks": [{"event": "TED2011", "player_talks": [{"event": "TED2011", "slug": "carlo_ratti_architecture_that_senses_and_responds", "filmed": 1299024000, "targeting": {"event": "TED2011", "tag": "cities,design,entertainment,technology", "id": 1137, "talk": "carlo_ratti_architecture_that_senses_and_responds", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Architecture that senses and responds", "postAdDuration": "0.83", "published": 1304433480, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/84f44b766c9eede9c3887cfe711c9e9c3e3e5efd_800x600.jpg?quality=89&w=600", "name": "Carlo Ratti: Architecture that senses and responds", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["cities", "design", "entertainment", "technology"], "speaker": "Carlo Ratti", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 946, "id": 1137, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/CarloRatti_2011-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2011", "tag": "cities,design,entertainment,technology", "id": 1137, "talk": "carlo_ratti_architecture_that_senses_and_responds", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1137.json", "stream": "https://hls.ted.com/talks/1137.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2011%26id%3D1137%26tag%3Dcities%2Cdesign%2Centertainment%2Ctechnology%26talk%3Dcarlo_ratti_architecture_that_senses_and_responds%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/carlo_ratti_architecture_that_senses_and_responds"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/84f44b766c9eede9c3887cfe711c9e9c3e3e5efd_800x600.jpg?q=50&w=15", "duration": 946, "id": 1137, "ratings": [{"count": 82, "id": 23, "name": "Jaw-dropping"}, {"count": 235, "id": 9, "name": "Ingenious"}, {"count": 133, "id": 1, "name": "Beautiful"}, {"count": 104, "id": 8, "name": "Informative"}, {"count": 234, "id": 22, "name": "Fascinating"}, {"count": 164, "id": 10, "name": "Inspiring"}, {"count": 57, "id": 21, "name": "Unconvincing"}, {"count": 27, "id": 11, "name": "Longwinded"}, {"count": 67, "id": 25, "name": "OK"}, {"count": 28, "id": 2, "name": "Confusing"}, {"count": 21, "id": 26, "name": "Obnoxious"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 18, "id": 24, "name": "Persuasive"}, {"count": 12, "id": 7, "name": "Funny"}], "speakers": [{"description": "Architect and engineer", "firstname": "Carlo", "title": "", "lastname": "Ratti", "middleinitial": "", "whylisten": "<p>Carlo Ratti is a civil engineer and architect who teaches at the Massachusetts Institute of Technology, where he directs the SENSEable City Laboratory. This lab studies the built environment of cities -- from street grids to plumbing and garbage systems -- using new kinds of sensors and hand-held electronics that have transformed the way we can describe and understand cities.</p><p>Other projects flip this equation -- using data gathered from sensors to actually create dazzling new environments. The Digital Water Pavilion, for instance, reacts to visitors by parting a stream of water to let them visit. And a project for the 2012 Olympics in London turns a pavilion building into a cloud of blinking interactive art. He&#39;s opening a research center in Singapore as part of an MIT-led initiative on the Future of Urban Mobility. </p><p>For more information on the projects in this talk, visit <a href=\\"http://senseable.mit.edu/ted2011/\\" target=\\"_blank\\">SENSEable @ TED &gt;&gt;</a>  </p>", "slug": "carlo_ratti", "whotheyare": "Carlo Ratti directs the MIT SENSEable City Lab, which explores the \\"real-time city\\" by studying the way sensors and electronics relate to the built environment. ", "whatotherssay": "", "id": 887, "photo_url": "https://pe.tedcdn.com/images/ted/1775f725c345b1a55ae8e66700b7ce8eb24cd210_254x191.jpg"}], "title": "Architecture that senses and responds", "take_action": null, "comments": 3610, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/84f44b766c9eede9c3887cfe711c9e9c3e3e5efd_800x600.jpg", "description": "With his team at SENSEable City Lab, MIT\'s Carlo Ratti makes cool things by sensing the data we create. He pulls from passive data sets -- like the calls we make, the garbage we throw away -- to create surprising visualizations of city life. And he and his team create dazzling interactive environments from moving water and flying light, powered by simple gestures caught through sensors.", "tags": ["cities", "design", "entertainment", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/CarloRatti_2011-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/CarloRatti_2011-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/CarloRatti_2011-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/CarloRatti_2011-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/CarloRatti_2011-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/CarloRatti_2011-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/CarloRatti_2011-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/CarloRatti_2011-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/CarloRatti_2011-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/CarloRatti_2011-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/CarloRatti_2011-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/CarloRatti_2011-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/CarloRatti_2011-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/CarloRatti_2011-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/CarloRatti_2011-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/CarloRatti_2011-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/CarloRatti_2011-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/CarloRatti_2011-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/CarloRatti_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/CarloRatti_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/CarloRatti_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1137, "audioDownload": "https://download.ted.com/talks/CarloRatti_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2143141, "hero": "https://pe.tedcdn.com/images/ted/115554_800x600.jpg", "title": "3 warp-speed architecture tales", "id": 634, "speaker": "Bjarke Ingels", "duration": 1094, "slug": "bjarke_ingels_3_warp_speed_architecture_tales"}, {"viewed_count": 1018685, "hero": "https://pe.tedcdn.com/images/ted/9b7bfe96ea5686a1fd6cfbb806a8194d0a06dbf5_2880x1620.jpg", "title": "How food shapes our cities", "id": 650, "speaker": "Carolyn Steel", "duration": 940, "slug": "carolyn_steel_how_food_shapes_our_cities"}, {"viewed_count": 1779566, "hero": "https://pe.tedcdn.com/images/ted/6bfe8f02c232861849cf6bfe526840bc9de54851_2880x1620.jpg", "title": "Reach into the computer and grab a pixel", "id": 1781, "speaker": "Jinha Lee", "duration": 307, "slug": "jinha_lee_a_tool_that_lets_you_touch_pixels"}, {"viewed_count": 16167977, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}, {"viewed_count": 766810, "hero": "https://pe.tedcdn.com/images/ted/35395_480x360.jpg", "title": "My green agenda for architecture", "id": 174, "speaker": "Norman Foster", "duration": 1917, "slug": "norman_foster_s_green_agenda"}, {"viewed_count": 1516356, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}], "recorded_at": "2011-03-02T00:00:00.000+00:00", "slug": "carlo_ratti_architecture_that_senses_and_responds", "speaker_name": "Carlo Ratti", "viewed_count": 659486, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2011", "name": "Carlo Ratti: Architecture that senses and responds"}'
+p393
+sS'keywords'
+p394
+(lp395
+Vcities
+p396
+aVdesign
+p397
+aVentertainment
+p398
+aVtechnology
+p399
+asS'datecrawled'
+p400
+g388
+(S"\x07\xe1\n\x17\x00'\r\x08\xed\x84"
+tRp401
+sS'id'
+p402
+I1137
+ss.

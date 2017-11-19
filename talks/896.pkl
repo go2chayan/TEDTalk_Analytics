@@ -1,0 +1,794 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThe story starts in Kenya
+p5
+aVin December of 2007,
+p6
+aVwhen there was a disputed presidential election,
+p7
+aVand in the immediate aftermath of that election,
+p8
+aVthere was an outbreak of ethnic violence.
+p9
+aVAnd there was a lawyer in Nairobi, Ory Okolloh \u2014
+p10
+aVwho some of you may know from her TEDTalk \u2014
+p11
+aVwho began blogging about it on her site,
+p12
+aVKenyan Pundit.
+p13
+aVAnd shortly after the election and the outbreak of violence,
+p14
+aVthe government suddenly imposed
+p15
+aVa significant media blackout.
+p16
+aVAnd so weblogs went from being
+p17
+aVcommentary as part of the media landscape
+p18
+aVto being a critical part of the media landscape
+p19
+aVin trying to understand where the violence was.
+p20
+aVAnd Okolloh solicited
+p21
+aVfrom her commenters
+p22
+aVmore information about what was going on.
+p23
+aVThe comments began pouring in,
+p24
+aVand Okolloh would collate them. She would post them.
+p25
+aVAnd she quickly said, "It's too much.
+p26
+aVI could do this all day every day
+p27
+aVand I can't keep up.
+p28
+aVThere is more information
+p29
+aVabout what's going on in Kenya right now
+p30
+aVthan any one person can manage.
+p31
+aVIf only there was a way to automate this."
+p32
+aa(lp33
+VAnd two programmers who read her blog
+p34
+aVheld their hands up and said, "We could do that,"
+p35
+aVand in 72 hours, they launched Ushahidi.
+p36
+aVUshahidi \u2014 the name means "witness"
+p37
+aVor "testimony" in Swahili \u2014
+p38
+aVis a very simple way of taking reports from the field,
+p39
+aVwhether it's from the web or, critically,
+p40
+aVvia mobile phones and SMS,
+p41
+aVaggregating it and putting it on a map.
+p42
+aVThat's all it is, but that's all that's needed
+p43
+aVbecause what it does is it takes the tacit information
+p44
+aVavailable to the whole population \u2014
+p45
+aVeverybody knows where the violence is,
+p46
+aVbut no one person knows what everyone knows \u2014
+p47
+aVand it takes that tacit information
+p48
+aVand it aggregates it,
+p49
+aVand it maps it and it makes it public.
+p50
+aVAnd that, that maneuver
+p51
+aVcalled "crisis mapping,"
+p52
+aVwas kicked off in Kenya
+p53
+aVin January of 2008.
+p54
+aa(lp55
+VAnd enough people looked at it and found it valuable enough
+p56
+aVthat the programmers who created Ushahidi
+p57
+aVdecided they were going to make it open source
+p58
+aVand turn it into a platform.
+p59
+aVIt's since been deployed in Mexico
+p60
+aVto track electoral fraud.
+p61
+aVIt's been deployed in Washington D.C. to track snow cleanup.
+p62
+aVAnd it's been used most famously in Haiti
+p63
+aVin the aftermath of the earthquake.
+p64
+aVAnd when you look at the map
+p65
+aVnow posted on the Ushahidi front page,
+p66
+aVyou can see that the number of deployments in Ushahidi
+p67
+aVhas gone worldwide, all right?
+p68
+aVThis went from a single idea
+p69
+aVand a single implementation
+p70
+aVin East Africa in the beginning of 2008
+p71
+aVto a global deployment
+p72
+aVin less than three years.
+p73
+aa(lp74
+VNow what Okolloh did
+p75
+aVwould not have been possible
+p76
+aVwithout digital technology.
+p77
+aVWhat Okolloh did would not have been possible
+p78
+aVwithout human generosity.
+p79
+aVAnd the interesting moment now,
+p80
+aVthe number of environments
+p81
+aVwhere the social design challenge
+p82
+aVrelies on both of those things being true.
+p83
+aVThat is the resource that I'm talking about.
+p84
+aVI call it cognitive surplus.
+p85
+aVAnd it represents the ability
+p86
+aVof the world's population
+p87
+aVto volunteer and to contribute and collaborate
+p88
+aVon large, sometimes global, projects.
+p89
+aVCognitive surplus is made up of two things.
+p90
+aVThe first, obviously, is the world's free time and talents.
+p91
+aVThe world has over
+p92
+aVa trillion hours a year
+p93
+aVof free time
+p94
+aVto commit to shared projects.
+p95
+aVNow, that free time existed in the 20th century,
+p96
+aVbut we didn't get Ushahidi in the 20th century.
+p97
+aa(lp98
+VThat's the second half of cognitive surplus.
+p99
+aVThe media landscape in the 20th century
+p100
+aVwas very good at helping people consume,
+p101
+aVand we got, as a result,
+p102
+aVvery good at consuming.
+p103
+aVBut now that we've been given media tools \u2014
+p104
+aVthe Internet, mobile phones \u2014 that let us do more than consume,
+p105
+aVwhat we're seeing is that people weren't couch potatoes
+p106
+aVbecause we liked to be.
+p107
+aVWe were couch potatoes because that was
+p108
+aVthe only opportunity given to us.
+p109
+aVWe still like to consume, of course.
+p110
+aVBut it turns out we also like to create,
+p111
+aVand we like to share.
+p112
+aVAnd it's those two things together \u2014
+p113
+aVancient human motivation
+p114
+aVand the modern tools to allow that motivation
+p115
+aVto be joined up in large-scale efforts \u2014
+p116
+aVthat are the new design resource.
+p117
+aVAnd using cognitive surplus,
+p118
+aVwe're starting to see truly incredible experiments
+p119
+aVin scientific, literary,
+p120
+aVartistic, political efforts.
+p121
+aVDesigning.
+p122
+aa(lp123
+VWe're also getting, of course, a lot of LOLcats.
+p124
+aVLOLcats are cute pictures of cats
+p125
+aVmade cuter with the addition of cute captions.
+p126
+aVAnd they are also
+p127
+aVpart of the abundant media landscape we're getting now.
+p128
+aVThis is one of the participatory \u2014
+p129
+aVone of the participatory models
+p130
+aVwe see coming out of that, along with Ushahidi.
+p131
+aVNow I want to stipulate, as the lawyers say,
+p132
+aVthat LOLcats are the stupidest possible
+p133
+aVcreative act.
+p134
+aVThere are other candidates of course,
+p135
+aVbut LOLcats will do as a general case.
+p136
+aVBut here's the thing:
+p137
+aVThe stupidest possible creative act
+p138
+aVis still a creative act.
+p139
+aVSomeone who has done something like this,
+p140
+aVhowever mediocre and throwaway,
+p141
+aVhas tried something, has put something forward in public.
+p142
+aVAnd once they've done it, they can do it again,
+p143
+aVand they could work on getting it better.
+p144
+aa(lp145
+VThere is a spectrum between mediocre work and good work,
+p146
+aVand as anybody who's worked as an artist or a creator knows,
+p147
+aVit's a spectrum you're constantly
+p148
+aVstruggling to get on top of.
+p149
+aVThe gap is between
+p150
+aVdoing anything and doing nothing.
+p151
+aVAnd someone who makes a LOLcat
+p152
+aVhas already crossed over that gap.
+p153
+aVNow it's tempting to want to get the Ushahidis
+p154
+aVwithout the LOLcats, right,
+p155
+aVto get the serious stuff without the throwaway stuff.
+p156
+aVBut media abundance never works that way.
+p157
+aVFreedom to experiment means freedom to experiment with anything.
+p158
+aVEven with the sacred printing press,
+p159
+aVwe got erotic novels 150 years
+p160
+aVbefore we got scientific journals.
+p161
+aa(lp162
+VSo before I talk about
+p163
+aVwhat is, I think, the critical difference
+p164
+aVbetween LOLcats and Ushahidi,
+p165
+aVI want to talk about
+p166
+aVtheir shared source.
+p167
+aVAnd that source is design for generosity.
+p168
+aVIt is one of the curiosities of our historical era
+p169
+aVthat even as cognitive surplus
+p170
+aVis becoming a resource we can design around,
+p171
+aVsocial sciences are also starting to explain
+p172
+aVhow important
+p173
+aVour intrinsic motivations are to us,
+p174
+aVhow much we do things because we like to do them
+p175
+aVrather than because our boss told us to do them,
+p176
+aVor because we're being paid to do them.
+p177
+aa(lp178
+VThis is a graph from a paper
+p179
+aVby Uri Gneezy and Aldo Rustichini,
+p180
+aVwho set out to test, at the beginning of this decade,
+p181
+aVwhat they called "deterrence theory."
+p182
+aVAnd deterrence theory is a very simple theory of human behavior:
+p183
+aVIf you want somebody to do less of something,
+p184
+aVadd a punishment and they'll do less of it.
+p185
+aVSimple, straightforward, commonsensical \u2014
+p186
+aValso, largely untested.
+p187
+aVAnd so they went and studied
+p188
+aV10 daycare centers in Haifa, Israel.
+p189
+aVThey studied those daycare centers
+p190
+aVat the time of highest tension,
+p191
+aVwhich is pick-up time.
+p192
+aVAt pick-up time the teachers,
+p193
+aVwho have been with your children all day,
+p194
+aVwould like you to be there at the appointed hour to take your children back.
+p195
+aVMeanwhile, the parents \u2014 perhaps a little busy at work, running late, running errands \u2014
+p196
+aVwant a little slack to pick the kids up late.
+p197
+aa(lp198
+VSo Gneezy and Rustichini said,
+p199
+aV"How many instances of late pick-ups
+p200
+aVare there at these 10 daycare centers?"
+p201
+aVNow they saw \u2014 and this is what the graph is,
+p202
+aVthese are the number of weeks and these are the number of late arrivals \u2014
+p203
+aVthat there were between six and 10
+p204
+aVinstances of late pick-ups
+p205
+aVon average in these 10 daycare centers.
+p206
+aVSo they divided the daycare centers into two groups.
+p207
+aVThe white group there
+p208
+aVis the control group; they change nothing.
+p209
+aVBut the group of daycare centers represented by the black line,
+p210
+aVthey said, "We are changing this bargain
+p211
+aVas of right now.
+p212
+aVIf you pick your kid up more than 10 minutes late,
+p213
+aVwe're going to add a 10 shekel fine to your bill.
+p214
+aVBoom. No ifs, ands or buts."
+p215
+aa(lp216
+VAnd the minute they did that,
+p217
+aVthe behavior in those daycare centers changed.
+p218
+aVLate pick-ups went up
+p219
+aVevery week for the next four weeks
+p220
+aVuntil they topped out at triple the pre-fine average,
+p221
+aVand then they fluctuated
+p222
+aVat between double and triple the pre-fine average
+p223
+aVfor the life of the fine.
+p224
+aVAnd you can see immediately what happened, right?
+p225
+aVThe fine broke the culture
+p226
+aVof the daycare center.
+p227
+aVBy adding a fine,
+p228
+aVwhat they did was communicate to the parents
+p229
+aVthat their entire debt to the teachers
+p230
+aVhad been discharged
+p231
+aVwith the payment of 10 shekels,
+p232
+aVand that there was no residue of guilt or social concern
+p233
+aVthat the parents owed the teachers.
+p234
+aVAnd so the parents, quite sensibly, said,
+p235
+aV"10 shekels to pick my kid up late?
+p236
+aVWhat could be bad?"
+p237
+aV(Laughter)
+p238
+aa(lp239
+VThe explanation of human behavior
+p240
+aVthat we inherited in the 20th century
+p241
+aVwas that we are all rational, self-maximizing actors,
+p242
+aVand in that explanation \u2014
+p243
+aVthe daycare center had no contract \u2014
+p244
+aVshould have been operating without any constraints.
+p245
+aVBut that's not right.
+p246
+aVThey were operating with social constraints
+p247
+aVrather than contractual ones.
+p248
+aVAnd critically, the social constraints
+p249
+aVcreated a culture that was more generous
+p250
+aVthan the contractual constraints did.
+p251
+aVSo Gneezy and Rustichini run this experiment for a dozen weeks \u2014
+p252
+aVrun the fine for a dozen weeks \u2014
+p253
+aVand then they say, "Okay, that's it. All done; fine."
+p254
+aVAnd then a really interesting thing happens:
+p255
+aVNothing changes.
+p256
+aVThe culture that got broken by the fine
+p257
+aVstayed broken when the fine was removed.
+p258
+aVNot only are economic motivations
+p259
+aVand intrinsic motivations
+p260
+aVincompatible,
+p261
+aVthat incompatibility
+p262
+aVcan persist over long periods.
+p263
+aVSo the trick
+p264
+aVin designing these kinds of situations
+p265
+aVis to understand where you're relying on
+p266
+aVthe economic part of the bargain \u2014 as with the parents paying the teachers \u2014
+p267
+aVand when you're relying on the social part of the bargain,
+p268
+aVwhen you're really designing for generosity.
+p269
+aa(lp270
+VThis brings me back to the LOLcats
+p271
+aVand to Ushahidi.
+p272
+aVThis is, I think, the range that matters.
+p273
+aVBoth of these rely on cognitive surplus.
+p274
+aVBoth of these design for the assumption
+p275
+aVthat people like to create and we want to share.
+p276
+aVHere is the critical difference between these:
+p277
+aVLOLcats is communal value.
+p278
+aVIt's value created by the participants
+p279
+aVfor each other.
+p280
+aVCommunal value on the networks we have
+p281
+aVis everywhere \u2014
+p282
+aVevery time you see a large aggregate
+p283
+aVof shared, publicly available data,
+p284
+aVwhether it's photos on Flickr
+p285
+aVor videos on Youtube or whatever.
+p286
+aVThis is good. I like LOLcats as much as the next guy,
+p287
+aVmaybe a little more even,
+p288
+aVbut this is also
+p289
+aVa largely solved problem.
+p290
+aVI have a hard time envisioning a future
+p291
+aVin which someone is saying,
+p292
+aV"Where, oh where, can I find a picture
+p293
+aVof a cute cat?"
+p294
+aa(lp295
+VUshahidi, by contrast,
+p296
+aVis civic value.
+p297
+aVIt's value created by the participants
+p298
+aVbut enjoyed by society as a whole.
+p299
+aVThe goals set out by Ushahidi
+p300
+aVare not just to make life better
+p301
+aVfor the participants,
+p302
+aVbut to make life better for everyone in the society
+p303
+aVin which Ushahidi is operating.
+p304
+aVAnd that kind of civic value
+p305
+aVis not just a side effect
+p306
+aVof opening up to human motivation.
+p307
+aVIt really is going to be a side effect
+p308
+aVof what we, collectively,
+p309
+aVmake of these kinds of efforts.
+p310
+aVThere are a trillion
+p311
+aVhours a year
+p312
+aVof participatory value
+p313
+aVup for grabs.
+p314
+aVThat will be true year-in and year-out.
+p315
+aVThe number of people who are going to be able
+p316
+aVto participate in these kinds of projects
+p317
+aVis going to grow,
+p318
+aVand we can see that organizations
+p319
+aVdesigned around a culture of generosity
+p320
+aVcan achieve incredible effects
+p321
+aVwithout an enormous amount of contractual overhead \u2014
+p322
+aVa very different model
+p323
+aVthan our default model for large-scale group action in the 20th century.
+p324
+aa(lp325
+VWhat's going to make the difference here
+p326
+aVis what Dean Kamen said,
+p327
+aVthe inventor and entrepreneur.
+p328
+aVKamen said, "Free cultures get what they celebrate."
+p329
+aVWe've got a choice before us.
+p330
+aVWe've got this trillion hours a year.
+p331
+aVWe can use it to crack each other up, and we're going to do that.
+p332
+aVThat, we get for free.
+p333
+aVBut we can also celebrate
+p334
+aVand support and reward the people
+p335
+aVtrying to use cognitive surplus
+p336
+aVto create civic value.
+p337
+aVAnd to the degree we're going to do that, to the degree we're able to do that,
+p338
+aVwe'll be able to change society.
+p339
+aa(lp340
+VThank you very much.
+p341
+aasS'transcript_micsec'
+p342
+(lp343
+I12000
+aI73000
+aI123000
+aI165000
+aI221000
+aI277000
+aI329000
+aI370000
+aI406000
+aI450000
+aI489000
+aI540000
+aI616000
+aI673000
+aI740000
+aI775000
+asS'talk_meta'
+p344
+(dp345
+S'ratings'
+p346
+(dp347
+S'ingenious'
+p348
+I105
+sS'beautiful'
+p349
+I24
+sS'inspiring'
+p350
+I447
+sS'ok'
+p351
+I114
+sS'fascinating'
+p352
+I245
+sS'funny'
+p353
+I20
+sS'total_count'
+p354
+I1849
+sS'persuasive'
+p355
+I358
+sS'longwinded'
+p356
+I15
+sS'informative'
+p357
+I411
+sS'jaw-dropping'
+p358
+I28
+sS'obnoxious'
+p359
+I14
+sS'confusing'
+p360
+I14
+sS'courageous'
+p361
+I24
+sS'unconvincing'
+p362
+I30
+ssS'author'
+p363
+VClay_Shirky;
+p364
+sS'url'
+p365
+S'https://www.ted.com/talks/clay_shirky_how_cognitive_surplus_will_change_the_world'
+p366
+sS'vidlen'
+p367
+I787
+sS'totalviews'
+p368
+I957519
+sS'title'
+p369
+VHow cognitive surplus will change the world
+p370
+sS'downloadlink'
+p371
+Vhttps://download.ted.com/talks/ClayShirky_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p372
+sS'datepublished'
+p373
+cdatetime
+datetime
+p374
+(S'\x07\xda\x06\x1c\x05\x04\x00\x00\x00\x00'
+tRp375
+sS'datefilmed'
+p376
+g374
+(S'\x07\xda\x06\x1c\x05\x04\x00\x00\x00\x00'
+tRp377
+sS'alldata_JSON'
+p378
+S'{"viewed_count": 957519, "speakers": [{"description": "Social Media Theorist", "firstname": "Clay", "title": "", "lastname": "Shirky", "middleinitial": "", "whylisten": "<p>Clay Shirky&#39;s work focuses on the rising usefulness of networks -- using decentralized technologies such as peer-to-peer sharing, wireless, software for social creation, and open-source development. New technologies are enabling new kinds of cooperative structures to flourish as a way of getting things done in business, science, the arts and elsewhere, as an alternative to centralized and institutional structures, which he sees as self-limiting. In his writings and speeches he has argued that &quot;a group is its own worst enemy.&quot;</p>                <p>Shirky is an adjunct professor in New York University\\u02bcs graduate&nbsp;<a href=\\"http://itp.tisch.nyu.edu/object/ShirkyC.html\\" target=\\"_blank\\">Interactive Telecommunications Program</a>, where he teaches a course named &ldquo;<a href=\\"http://itp.tisch.nyu.edu/object/H79.2014Lab\\" target=\\"_blank\\">Social Weather</a>.&rdquo; He\\u02bcs the author of several books. This spring at the TED headquarters in New York, he gave an impassioned talk against&nbsp;<a href=\\"/talks/defend_our_freedom_to_share_or_why_sopa_is_a_bad_idea.html\\" target=\\"_blank\\">SOPA/PIPA</a>&nbsp;that saw 1 million views in 48 hours.</p>", "slug": "clay_shirky", "whotheyare": "Clay Shirky argues that the history of the modern world could be rendered as the history of ways of arguing, where changes in media change what sort of arguments are possible -- with deep social and political implications.", "whatotherssay": "Shirky is one of the handful of people with justifiable claim to the digerati moniker. He\'s become a consistently prescient voice on networks, social software, and technology\'s effects on society.", "id": 243, "photo_url": "https://pe.tedcdn.com/images/ted/48286_254x191.jpg"}], "current_talk": 896, "description": "Clay Shirky looks at \\"cognitive surplus\\" -- the shared, online work we do with our spare brain cycles. While we\'re busy editing Wikipedia, posting to Ushahidi (and yes, making LOLcats), we\'re building a better, more cooperative world.", "language": "en", "url": "https://www.ted.com/talks/clay_shirky_how_cognitive_surplus_will_change_the_world", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 91893267}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18056527}, "podcast-high": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 91894134}, "180k": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17950017}, "64k": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6462272}, "1500k": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 144049883}, "450k": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44449333}, "podcast-regular": {"uri": "https://download.ted.com/talks/ClayShirky_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44717806}, "950k": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 91658271}, "podcast-light": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6567103}, "320k": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 31700172}, "600k": {"uri": "https://download.ted.com/talks/ClayShirky_2010S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59474226}}}, "comments": {"count": 294, "id": 737, "talk_id": 896}, "slug": "clay_shirky_how_cognitive_surplus_will_change_the_world", "threadId": 737, "talks": [{"event": "TED@Cannes", "player_talks": [{"event": "TED@Cannes", "slug": "clay_shirky_how_cognitive_surplus_will_change_the_world", "filmed": 1277164800, "targeting": {"event": "TED@Cannes", "tag": "collaboration,community,culture,technology,wikipedia", "id": 896, "talk": "clay_shirky_how_cognitive_surplus_will_change_the_world", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "How cognitive surplus will change the world", "postAdDuration": "0.83", "published": 1277715840, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d383deee25fb6a51e5df6f8b83c753b393a9ac6b_1600x1200.jpg?quality=89&w=600", "name": "Clay Shirky: How cognitive surplus will change the world", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["collaboration", "community", "culture", "technology", "wikipedia"], "speaker": "Clay Shirky", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 787, "id": 896, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ClayShirky_2010S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED@Cannes", "tag": "collaboration,community,culture,technology,wikipedia", "id": 896, "talk": "clay_shirky_how_cognitive_surplus_will_change_the_world", "year": "2010"}, "metadata": "https://hls.ted.com/talks/896.json", "stream": "https://hls.ted.com/talks/896.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED%40Cannes%26id%3D896%26tag%3Dcollaboration%2Ccommunity%2Cculture%2Ctechnology%2Cwikipedia%26talk%3Dclay_shirky_how_cognitive_surplus_will_change_the_world%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/clay_shirky_how_cognitive_surplus_will_change_the_world"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d383deee25fb6a51e5df6f8b83c753b393a9ac6b_1600x1200.jpg?q=50&w=15", "duration": 787, "id": 896, "ratings": [{"count": 358, "id": 24, "name": "Persuasive"}, {"count": 411, "id": 8, "name": "Informative"}, {"count": 114, "id": 25, "name": "OK"}, {"count": 447, "id": 10, "name": "Inspiring"}, {"count": 15, "id": 11, "name": "Longwinded"}, {"count": 245, "id": 22, "name": "Fascinating"}, {"count": 105, "id": 9, "name": "Ingenious"}, {"count": 28, "id": 23, "name": "Jaw-dropping"}, {"count": 30, "id": 21, "name": "Unconvincing"}, {"count": 14, "id": 2, "name": "Confusing"}, {"count": 24, "id": 3, "name": "Courageous"}, {"count": 14, "id": 26, "name": "Obnoxious"}, {"count": 24, "id": 1, "name": "Beautiful"}, {"count": 20, "id": 7, "name": "Funny"}], "speakers": [{"description": "Social Media Theorist", "firstname": "Clay", "title": "", "lastname": "Shirky", "middleinitial": "", "whylisten": "<p>Clay Shirky&#39;s work focuses on the rising usefulness of networks -- using decentralized technologies such as peer-to-peer sharing, wireless, software for social creation, and open-source development. New technologies are enabling new kinds of cooperative structures to flourish as a way of getting things done in business, science, the arts and elsewhere, as an alternative to centralized and institutional structures, which he sees as self-limiting. In his writings and speeches he has argued that &quot;a group is its own worst enemy.&quot;</p>                <p>Shirky is an adjunct professor in New York University\\u02bcs graduate&nbsp;<a href=\\"http://itp.tisch.nyu.edu/object/ShirkyC.html\\" target=\\"_blank\\">Interactive Telecommunications Program</a>, where he teaches a course named &ldquo;<a href=\\"http://itp.tisch.nyu.edu/object/H79.2014Lab\\" target=\\"_blank\\">Social Weather</a>.&rdquo; He\\u02bcs the author of several books. This spring at the TED headquarters in New York, he gave an impassioned talk against&nbsp;<a href=\\"/talks/defend_our_freedom_to_share_or_why_sopa_is_a_bad_idea.html\\" target=\\"_blank\\">SOPA/PIPA</a>&nbsp;that saw 1 million views in 48 hours.</p>", "slug": "clay_shirky", "whotheyare": "Clay Shirky argues that the history of the modern world could be rendered as the history of ways of arguing, where changes in media change what sort of arguments are possible -- with deep social and political implications.", "whatotherssay": "Shirky is one of the handful of people with justifiable claim to the digerati moniker. He\'s become a consistently prescient voice on networks, social software, and technology\'s effects on society.", "id": 243, "photo_url": "https://pe.tedcdn.com/images/ted/48286_254x191.jpg"}], "title": "How cognitive surplus will change the world", "take_action": [], "comments": 737, "more_resources": [{"status": "approved", "start_at": null, "headline": "Why an Internet \\"slow lane\\" is a terrible idea", "link_url": "http://ideas.ted.com/why-an-internet-slow-lane-is-a-terrible-idea/", "eyebrow": null, "end_at": null, "image_url": "https://tedideas.files.wordpress.com/2014/05/shirkyqa_r.png", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "In this Q&A, learn what Clay Shirky thinks about the FCC\'s \\"Protecting and Promoting the Open Internet.\\""}], "hero": "https://pe.tedcdn.com/images/ted/d383deee25fb6a51e5df6f8b83c753b393a9ac6b_1600x1200.jpg", "description": "Clay Shirky looks at \\"cognitive surplus\\" -- the shared, online work we do with our spare brain cycles. While we\'re busy editing Wikipedia, posting to Ushahidi (and yes, making LOLcats), we\'re building a better, more cooperative world.", "tags": ["collaboration", "community", "culture", "technology", "wikipedia"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-zh-cn.mp4", "name": "Chinese, Simplified"}, "ro": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-hr.mp4", "name": "Croatian"}, "de": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/ClayShirky_2010S-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ClayShirky_2010S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ClayShirky_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ClayShirky_2010S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 896, "audioDownload": null}, "related_talks": [{"viewed_count": 1104897, "hero": "https://pe.tedcdn.com/images/ted/e6c6b4815092ef9bd13a54705759297af68eaf7a_1600x1200.jpg", "title": "Institutions vs. collaboration", "id": 274, "speaker": "Clay Shirky", "duration": 1246, "slug": "clay_shirky_on_institutions_versus_collaboration"}, {"viewed_count": 631938, "hero": "https://pe.tedcdn.com/images/ted/b2dc8e60a1f11d3138c4943b91756f2bb6703ff9_1600x1200.jpg", "title": "Meet BRCK, Internet access built for Africa", "id": 1770, "speaker": "Juliana Rotich", "duration": 573, "slug": "juliana_rotich_meet_brck_internet_access_built_for_africa"}, {"viewed_count": 1683964, "hero": "https://pe.tedcdn.com/images/ted/59ead9099fde9f11dfa640dfe3e3c6144237825b_1600x1200.jpg", "title": "How social media can make history", "id": 575, "speaker": "Clay Shirky", "duration": 948, "slug": "clay_shirky_how_cellphones_twitter_facebook_can_make_history"}, {"viewed_count": 405998, "hero": "https://pe.tedcdn.com/images/ted/d9441da0244acb76f766b462f1674d4310cc6fd9_1600x1200.jpg", "title": "Reporting crisis via texting", "id": 523, "speaker": "Erik Hersman", "duration": 236, "slug": "erik_hersman_on_reporting_crisis_via_texting"}, {"viewed_count": 1337841, "hero": "https://pe.tedcdn.com/images/ted/46ca6ed53d1e86a77af23776f5c693e2cada1b4a_2880x1620.jpg", "title": "How to see past your own perspective and find truth", "id": 2796, "speaker": "Michael Patrick Lynch", "duration": 866, "slug": "michael_patrick_lynch_how_to_see_past_your_own_perspective_and_find_truth"}, {"viewed_count": 698418, "hero": "https://pe.tedcdn.com/images/ted/183882_800x600.jpg", "title": "Listening to global voices", "id": 916, "speaker": "Ethan Zuckerman", "duration": 1185, "slug": "ethan_zuckerman"}], "recorded_at": "2010-06-22T00:00:00.000+00:00", "slug": "clay_shirky_how_cognitive_surplus_will_change_the_world", "speaker_name": "Clay Shirky", "viewed_count": 957519, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED@Cannes", "name": "Clay Shirky: How cognitive surplus will change the world"}'
+p379
+sS'keywords'
+p380
+(lp381
+Vcollaboration
+p382
+aVcommunity
+p383
+aVculture
+p384
+aVtechnology
+p385
+aVwikipedia
+p386
+asS'datecrawled'
+p387
+g374
+(S'\x07\xe1\n\x17\x02\x070\x07\x9c)'
+tRp388
+sS'id'
+p389
+I896
+ss.

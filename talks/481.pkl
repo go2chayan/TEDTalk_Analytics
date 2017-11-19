@@ -1,0 +1,438 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI've been intrigued by this question
+p5
+aVof whether we could evolve or develop a sixth sense \u2014
+p6
+aVa sense that would give us seamless access
+p7
+aVand easy access to meta-information or information that may exist somewhere
+p8
+aVthat may be relevant to help us make the right decision
+p9
+aVabout whatever it is that we're coming across.
+p10
+aVAnd some of you may argue,
+p11
+aV"Well, don't today's cell phones do that already?"
+p12
+aVBut I would say no.
+p13
+aVWhen you meet someone here at TED \u2014
+p14
+aVand this is the top networking place, of course, of the year \u2014
+p15
+aVyou don't shake somebody's hand
+p16
+aVand then say, "Can you hold on for a moment
+p17
+aVwhile I take out my phone and Google you?"
+p18
+aVOr when you go to the supermarket
+p19
+aVand you're standing there in that huge aisle
+p20
+aVof different types of toilet papers,
+p21
+aVyou don't take out your cell phone, and open a browser,
+p22
+aVand go to a website to try to decide which of these different toilet papers
+p23
+aVis the most ecologically responsible purchase to make.
+p24
+aa(lp25
+VSo we don't really have easy access to all this relevant information
+p26
+aVthat can just help us make optimal decisions
+p27
+aVabout what to do next and what actions to take.
+p28
+aVAnd so my research group at the Media Lab
+p29
+aVhas been developing a series of inventions
+p30
+aVto give us access to this information in a sort of easy way,
+p31
+aVwithout requiring that the user changes any of their behavior.
+p32
+aVAnd I'm here to unveil our latest effort,
+p33
+aVand most successful effort so far,
+p34
+aVwhich is still very much a work in process.
+p35
+aVI'm actually wearing the device right now and we've sort of cobbled it together
+p36
+aVwith components that are off the shelf \u2014
+p37
+aVand that, by the way, only cost 350 dollars at this point in time.
+p38
+aa(lp39
+VI'm wearing a camera, just a simple web cam,
+p40
+aVa portable, battery-powered projection system with a little mirror.
+p41
+aVThese components communicate to my cell phone in my pocket
+p42
+aVwhich acts as the communication and computation device.
+p43
+aVAnd in the video here we see my student Pranav Mistry,
+p44
+aVwho's really the genius who's been implementing
+p45
+aVand designing this whole system.
+p46
+aVAnd we see how this system lets him walk up to any surface
+p47
+aVand start using his hands to interact with the information
+p48
+aVthat is projected in front of him.
+p49
+aVThe system tracks the four significant fingers.
+p50
+aVIn this case, he's wearing simple marker caps
+p51
+aVthat you may recognize.
+p52
+aVBut if you want a more stylish version,
+p53
+aVyou could also paint your nails in different colors.
+p54
+aa(lp55
+VAnd the camera basically tracks these four fingers
+p56
+aVand recognizes any gestures that he's making
+p57
+aVso he can just go to, for example, a map of Long Beach,
+p58
+aVzoom in and out, etc.
+p59
+aVThe system also recognizes iconic gestures such as the "take a picture" gesture,
+p60
+aVand then takes a picture of whatever is in front of you.
+p61
+aVAnd when he then walks back to the Media Lab,
+p62
+aVhe can just go up to any wall
+p63
+aVand project all the pictures that he's taken,
+p64
+aVsort through them and organize them, and re-size them, etc.,
+p65
+aVagain using all natural gestures.
+p66
+aa(lp67
+VSo, some of you most likely were here two years ago
+p68
+aVand saw the demo by Jeff Han, or some of you may think,
+p69
+aV"Well, doesn't this look like the Microsoft Surface Table?"
+p70
+aVAnd yes, you also interact using natural gestures,
+p71
+aVboth hands, etc.
+p72
+aVBut the difference here is that you can use any surface,
+p73
+aVyou can walk up to any surface,
+p74
+aVincluding your hand, if nothing else is available,
+p75
+aVand interact with this projected data.
+p76
+aVThe device is completely portable, and can be \u2014
+p77
+aa(lp78
+V(Applause)
+p79
+aa(lp80
+V(Applause ends)
+p81
+aa(lp82
+VSo, one important difference is that it's totally mobile.
+p83
+aVAnother even more important difference is that in mass production,
+p84
+aVthis would not cost more tomorrow than today's cell phones
+p85
+aVand would actually not sort of be a bigger packaging \u2014
+p86
+aVcould look a lot more stylish
+p87
+aVthan this version that I'm wearing around my neck.
+p88
+aVBut other than letting some of you live out your fantasy
+p89
+aVof looking as cool as Tom Cruise in "Minority Report,"
+p90
+aVthe reason why we're really excited about this device
+p91
+aVis that it really can act as one of these sixth-sense devices
+p92
+aVthat gives you relevant information about whatever is in front of you.
+p93
+aVSo we see Pranav here going into the supermarket
+p94
+aVand he's shopping for some paper towels.
+p95
+aVAnd, as he picks up a product,
+p96
+aVthe system can recognize the product that he's picking up,
+p97
+aVusing either image recognition or marker technology,
+p98
+aVand give him the green light or an orange light.
+p99
+aVHe can ask for additional information.
+p100
+aVSo this particular choice here
+p101
+aVis a particularly good choice, given his personal criteria.
+p102
+aVSome of you may want the toilet paper with the most bleach in it
+p103
+aVrather than the most ecologically responsible choice.
+p104
+aa(lp105
+V(Laughter)
+p106
+aa(lp107
+VIf he picks up a book in the bookstore, he can get an Amazon rating \u2014
+p108
+aVit gets projected right on the cover of the book.
+p109
+aVThis is Juan's book, our previous speaker,
+p110
+aVwhich gets a great rating, by the way, at Amazon.
+p111
+aVAnd so, Pranav turns the page of the book
+p112
+aVand can then see additional information about the book \u2014
+p113
+aVreader comments, maybe sort of information by his favorite critic, etc.
+p114
+aVIf he turns to a particular page,
+p115
+aVhe finds an annotation by maybe an expert or a friend of ours
+p116
+aVthat gives him a little bit of additional information
+p117
+aVabout whatever is on that particular page.
+p118
+aVReading the newspaper \u2014 it never has to be outdated.
+p119
+aa(lp120
+V(Laughter)
+p121
+aa(lp122
+VYou can get video annotations of the events that you're reading about.
+p123
+aVYou can get the latest sports scores, etc.
+p124
+aVThis is a more controversial one.
+p125
+aa(lp126
+V(Laughter)
+p127
+aa(lp128
+VAs you interact with someone at TED,
+p129
+aVmaybe you can see a word cloud of the tags,
+p130
+aVthe words that are associated with that person
+p131
+aVin their blog and personal web pages.
+p132
+aVIn this case, the student is interested in cameras, etc.
+p133
+aVOn your way to the airport,
+p134
+aVif you pick up your boarding pass, it can tell you that your flight is delayed,
+p135
+aVthat the gate has changed, etc.
+p136
+aVAnd, if you need to know what the current time is,
+p137
+aVit's as simple as drawing a watch \u2014
+p138
+aa(lp139
+V(Laughter)
+p140
+aa(lp141
+V(Applause)
+p142
+aa(lp143
+Von your arm.
+p144
+aa(lp145
+VSo that's where we're at so far in developing this sixth sense
+p146
+aVthat would give us seamless access to all this relevant information
+p147
+aVabout the things that we may come across.
+p148
+aVMy student Pranav, who's really, like I said, the genius behind this.
+p149
+aa(lp150
+V(Applause and cheering)
+p151
+aa(lp152
+V(Applause ends)
+p153
+aa(lp154
+VHe does deserve a lot of applause,
+p155
+aVbecause I don't think he's slept much in the last three months, actually.
+p156
+aVAnd his girlfriend is probably not very happy about him either.
+p157
+aVBut it's not perfect yet, it's very much a work in progress.
+p158
+aVAnd who knows, maybe in another 10 years
+p159
+aVwe'll be here with the ultimate sixth sense brain implant.
+p160
+aa(lp161
+VThank you.
+p162
+aa(lp163
+V(Applause)
+p164
+aasS'transcript_micsec'
+p165
+(lp166
+I11000
+aI76000
+aI127000
+aI182000
+aI221000
+aI257000
+aI262000
+aI264000
+aI348000
+aI351000
+aI394000
+aI396000
+aI407000
+aI408000
+aI441000
+aI442000
+aI443000
+aI446000
+aI465000
+aI485000
+aI487000
+aI510000
+aI511000
+asS'talk_meta'
+p167
+(dp168
+S'ratings'
+p169
+(dp170
+S'ingenious'
+p171
+I2370
+sS'funny'
+p172
+I187
+sS'inspiring'
+p173
+I1823
+sS'ok'
+p174
+I447
+sS'fascinating'
+p175
+I2468
+sS'total_count'
+p176
+I13043
+sS'persuasive'
+p177
+I332
+sS'longwinded'
+p178
+I91
+sS'informative'
+p179
+I1079
+sS'beautiful'
+p180
+I313
+sS'jaw-dropping'
+p181
+I3375
+sS'obnoxious'
+p182
+I87
+sS'confusing'
+p183
+I76
+sS'courageous'
+p184
+I237
+sS'unconvincing'
+p185
+I158
+ssS'author'
+p186
+VPattie_Maes;Pranav_Mistry;
+p187
+sS'url'
+p188
+S'https://www.ted.com/talks/pattie_maes_demos_the_sixth_sense'
+p189
+sS'vidlen'
+p190
+I522
+sS'totalviews'
+p191
+I9774424
+sS'title'
+p192
+VMeet the SixthSense interaction
+p193
+sS'downloadlink'
+p194
+Vhttps://download.ted.com/talks/PattieMaes_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p195
+sS'datepublished'
+p196
+cdatetime
+datetime
+p197
+(S'\x07\xd9\x03\t\x15\x00\x00\x00\x00\x00'
+tRp198
+sS'datefilmed'
+p199
+g197
+(S'\x07\xd9\x03\t\x15\x00\x00\x00\x00\x00'
+tRp200
+sS'alldata_JSON'
+p201
+S'{"viewed_count": 9774424, "speakers": [{"description": "Researcher", "firstname": "Pattie", "title": "", "lastname": "Maes", "middleinitial": "", "whylisten": "<p>Pattie Maes was the key architect behind what was once called &quot;collaborative filtering&quot; and has become a key to Web 2.0: the immense engine of recommendations -- or &quot;things like this&quot; -- fueled by other users. In the 1990s, Maes&#39; Software Agents program at MIT created Firefly, a technology (and then a startup sold to Microsoft) that let users choose songs they liked, and find similar songs they&#39;d never heard of, by taking cues from others with similar taste. This brought a sea change in the way we interact with software, with culture and with one another.<br /><br />Now Maes is working on a similarly boundary-breaking initiative. She founded Fluid Interfaces Group, also part of the MIT Media Lab, to rethink the ways in which humans and computers interact, partially by redefining both human and computer. In Maes&#39; world (and really, in all of ours), the computer is no longer a distinct object, but a source of intelligence that&#39;s embedded in our environment. By outfitting ourselves with digital accessories, we can continually learn from (and teach) our surroundings. The uses of this tech -- from healthcare to home furnishings, warfare to supermarkets -- are powerful and increasingly real.               <!--  /* Font Definitions */ @font-face \\t{font-family:\\"\\uff2d\\uff33 \\u660e\\u671d\\"; \\tmso-font-charset:78; \\tmso-generic-font-family:auto; \\tmso-font-pitch:variable; \\tmso-font-signature:1 134676480 16 0 131072 0;} @font-face \\t{font-family:\\"Cambria Math\\"; \\tpanose-1:2 4 5 3 5 4 6 3 2 4; \\tmso-font-charset:0; \\tmso-generic-font-family:auto; \\tmso-font-pitch:variable; \\tmso-font-signature:-536870145 1107305727 0 0 415 0;} @font-face \\t{font-family:Cambria; \\tpanose-1:2 4 5 3 5 4 6 3 2 4; \\tmso-font-charset:0; \\tmso-generic-font-family:auto; \\tmso-font-pitch:variable; \\tmso-font-signature:-536870145 1073743103 0 0 415 0;}  /* Style Definitions */ p.MsoNormal, li.MsoNormal, div.MsoNormal \\t{mso-style-unhide:no; \\tmso-style-qformat:yes; \\tmso-style-parent:\\"\\"; \\tmargin:0in; \\tmargin-bottom:.0001pt; \\tmso-pagination:widow-orphan; \\tfont-size:12.0pt; \\tfont-family:Cambria; \\tmso-ascii-font-family:Cambria; \\tmso-ascii-theme-font:minor-latin; \\tmso-fareast-font-family:\\"\\uff2d\\uff33 \\u660e\\u671d\\"; \\tmso-fareast-theme-font:minor-fareast; \\tmso-hansi-font-family:Cambria; \\tmso-hansi-theme-font:minor-latin; \\tmso-bidi-font-family:\\"Times New Roman\\"; \\tmso-bidi-theme-font:minor-bidi;} .MsoChpDefault \\t{mso-style-type:export-only; \\tmso-default-props:yes; \\tfont-family:Cambria; \\tmso-ascii-font-family:Cambria; \\tmso-ascii-theme-font:minor-latin; \\tmso-fareast-font-family:\\"\\uff2d\\uff33 \\u660e\\u671d\\"; \\tmso-fareast-theme-font:minor-fareast; \\tmso-hansi-font-family:Cambria; \\tmso-hansi-theme-font:minor-latin; \\tmso-bidi-font-family:\\"Times New Roman\\"; \\tmso-bidi-theme-font:minor-bidi;} @page WordSection1 \\t{size:8.5in 11.0in; \\tmargin:1.0in 1.25in 1.0in 1.25in; \\tmso-header-margin:.5in; \\tmso-footer-margin:.5in; \\tmso-paper-source:0;} div.WordSection1 \\t{page:WordSection1;} --> </p>", "slug": "pattie_maes", "whotheyare": "As head of the MIT Media Lab\'s Fluid Interfaces Group, Pattie Maes researches the tools we use to work with information and connect with one another.", "whatotherssay": "We like to invent new disciplines or look at new problems, and invent bandwagons rather than jump on them.", "id": 362, "photo_url": "https://pe.tedcdn.com/images/ted/76604_254x191.jpg"}, {"description": "Director of research, Samsung Research America", "firstname": "Pranav", "title": "", "lastname": "Mistry", "middleinitial": "", "whylisten": "<p>When Pranav Mistry was a PhD student in the Fluid Interfaces Group at MIT&#39;s Media Lab, he worked with lab director Pattie Maes to create some of the most entertaining and thought-provoking interfaces the world had ever seen. And not just computer interfaces, mind you -- these are ways to help the digital and the actual worlds interface. Imagine: intelligent sticky notes, <a href=\\"http://www.pranavmistry.com/projects/quickies/\\" target=\\"_blank\\">Quickies</a>, that can be searched and can send reminders; a <a href=\\"http://ambient.media.mit.edu/projects.php?action=details&amp;id=54\\" target=\\"_blank\\">pen</a>  that draws in 3D; and <a href=\\"http://www.pranavmistry.com/projects/tapuma/\\" target=\\"_blank\\">TaPuMa</a>, a tangible public map that can act as Google of physical world. And of course the legendary <a href=\\"http://www.pranavmistry.com/projects/sixthsense/\\" target=\\"_blank\\">SixthSense</a>, which is now <a href=\\"https://code.google.com/p/sixthsense/\\" target=\\"_blank\\">open sourced</a> </p><p>Before his studies at MIT, he worked with Microsoft as a UX  researcher; he&#39;s a graduate of IIT. Now, as director of research at <a href=\\"http://www.sisa.samsung.com/\\" target=\\"_blank\\">Samsung Research America</a>, Mistry heads the Think Tank Team, an interdisciplinary group of researchers that hunts for new ways to mix digital informational with real-world  interactions. As an example, Mistry launched the company&#39;s smartwatch, the <a href=\\"http://www.bgr.in/manufacturers/samsung/pranav-mistry-is-the-indian-brain-behind-samsungs-galaxy-gear-smartwatch/\\" target=\\"_blank\\">Galaxy Gear</a>, in 2013. </p>", "slug": "pranav_mistry", "whotheyare": "As an MIT grad student, Pranav Mistry invented SixthSense, a wearable device that enables new interactions between the real world and the world of data.", "whatotherssay": "", "id": 417, "photo_url": "https://pe.tedcdn.com/images/ted/76651_254x191.jpg"}], "current_talk": 481, "description": "This demo -- from Pattie Maes\' lab at MIT, spearheaded by Pranav Mistry -- was the buzz of TED. It\'s a wearable device with a projector that paves the way for profound interaction with our environment. Imagine \\"Minority Report\\" and then some.", "language": "en", "url": "https://www.ted.com/talks/pattie_maes_demos_the_sixth_sense", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/PattieMaes_2009-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60956555}, "podcast-low-en": {"uri": "https://download.ted.com/talks/PattieMaes_2009-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12073705}, "podcast-high": {"uri": "https://download.ted.com/talks/PattieMaes_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60956561}, "180k": {"uri": "https://download.ted.com/talks/PattieMaes_2009-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11974499}, "64k": {"uri": "https://download.ted.com/talks/PattieMaes_2009-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4317781}, "1500k": {"uri": "https://download.ted.com/talks/PattieMaes_2009-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 95266280}, "450k": {"uri": "https://download.ted.com/talks/PattieMaes_2009-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29580061}, "podcast-regular": {"uri": "https://download.ted.com/talks/PattieMaes_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29749953}, "950k": {"uri": "https://download.ted.com/talks/PattieMaes_2009-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60986004}, "audio-podcast": {"uri": "https://download.ted.com/talks/PattieMaes_2009.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5493595}, "podcast-light": {"uri": "https://download.ted.com/talks/PattieMaes_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4417183}, "320k": {"uri": "https://download.ted.com/talks/PattieMaes_2009-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21249975}, "600k": {"uri": "https://download.ted.com/talks/PattieMaes_2009-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39716986}}}, "comments": {"count": 769, "id": 404, "talk_id": 481}, "slug": "pattie_maes_demos_the_sixth_sense", "threadId": 404, "talks": [{"event": "TED2009", "player_talks": [{"event": "TED2009", "slug": "pattie_maes_demos_the_sixth_sense", "filmed": 1233878400, "targeting": {"event": "TED2009", "tag": "demo,design,interface design,technology", "id": 481, "talk": "pattie_maes_demos_the_sixth_sense", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "Meet the SixthSense interaction", "postAdDuration": "0.83", "published": 1236646800, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d98527eb9a28d694fd604228e328a91c0f0e58a8_1600x1200.jpg?quality=89&w=600", "name": "Pattie Maes + Pranav Mistry: Meet the SixthSense interaction", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bn", "endonym": "\\u09ac\\u09be\\u0982\\u09b2\\u09be", "isRtl": false, "ianaCode": "bn", "languageName": "Bengali"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "eo", "endonym": "Esperanto", "isRtl": false, "ianaCode": "eo", "languageName": "Esperanto"}, {"languageCode": "fil", "endonym": "Filipino", "isRtl": false, "ianaCode": "fil", "languageName": "Filipino"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["demo", "design", "interface design", "technology"], "speaker": "Pattie Maes + Pranav Mistry", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 522, "id": 481, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/PattieMaes_2009-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2009", "tag": "demo,design,interface design,technology", "id": 481, "talk": "pattie_maes_demos_the_sixth_sense", "year": "2009"}, "metadata": "https://hls.ted.com/talks/481.json", "stream": "https://hls.ted.com/talks/481.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2009%26id%3D481%26tag%3Ddemo%2Cdesign%2Cinterface%2Bdesign%2Ctechnology%26talk%3Dpattie_maes_demos_the_sixth_sense%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/pattie_maes_demos_the_sixth_sense"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d98527eb9a28d694fd604228e328a91c0f0e58a8_1600x1200.jpg?q=50&w=15", "duration": 522, "id": 481, "ratings": [{"count": 447, "id": 25, "name": "OK"}, {"count": 2370, "id": 9, "name": "Ingenious"}, {"count": 1079, "id": 8, "name": "Informative"}, {"count": 2468, "id": 22, "name": "Fascinating"}, {"count": 3375, "id": 23, "name": "Jaw-dropping"}, {"count": 187, "id": 7, "name": "Funny"}, {"count": 1823, "id": 10, "name": "Inspiring"}, {"count": 158, "id": 21, "name": "Unconvincing"}, {"count": 332, "id": 24, "name": "Persuasive"}, {"count": 91, "id": 11, "name": "Longwinded"}, {"count": 313, "id": 1, "name": "Beautiful"}, {"count": 237, "id": 3, "name": "Courageous"}, {"count": 87, "id": 26, "name": "Obnoxious"}, {"count": 76, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Researcher", "firstname": "Pattie", "title": "", "lastname": "Maes", "middleinitial": "", "whylisten": "<p>Pattie Maes was the key architect behind what was once called &quot;collaborative filtering&quot; and has become a key to Web 2.0: the immense engine of recommendations -- or &quot;things like this&quot; -- fueled by other users. In the 1990s, Maes&#39; Software Agents program at MIT created Firefly, a technology (and then a startup sold to Microsoft) that let users choose songs they liked, and find similar songs they&#39;d never heard of, by taking cues from others with similar taste. This brought a sea change in the way we interact with software, with culture and with one another.<br /><br />Now Maes is working on a similarly boundary-breaking initiative. She founded Fluid Interfaces Group, also part of the MIT Media Lab, to rethink the ways in which humans and computers interact, partially by redefining both human and computer. In Maes&#39; world (and really, in all of ours), the computer is no longer a distinct object, but a source of intelligence that&#39;s embedded in our environment. By outfitting ourselves with digital accessories, we can continually learn from (and teach) our surroundings. The uses of this tech -- from healthcare to home furnishings, warfare to supermarkets -- are powerful and increasingly real.               <!--  /* Font Definitions */ @font-face \\t{font-family:\\"\\uff2d\\uff33 \\u660e\\u671d\\"; \\tmso-font-charset:78; \\tmso-generic-font-family:auto; \\tmso-font-pitch:variable; \\tmso-font-signature:1 134676480 16 0 131072 0;} @font-face \\t{font-family:\\"Cambria Math\\"; \\tpanose-1:2 4 5 3 5 4 6 3 2 4; \\tmso-font-charset:0; \\tmso-generic-font-family:auto; \\tmso-font-pitch:variable; \\tmso-font-signature:-536870145 1107305727 0 0 415 0;} @font-face \\t{font-family:Cambria; \\tpanose-1:2 4 5 3 5 4 6 3 2 4; \\tmso-font-charset:0; \\tmso-generic-font-family:auto; \\tmso-font-pitch:variable; \\tmso-font-signature:-536870145 1073743103 0 0 415 0;}  /* Style Definitions */ p.MsoNormal, li.MsoNormal, div.MsoNormal \\t{mso-style-unhide:no; \\tmso-style-qformat:yes; \\tmso-style-parent:\\"\\"; \\tmargin:0in; \\tmargin-bottom:.0001pt; \\tmso-pagination:widow-orphan; \\tfont-size:12.0pt; \\tfont-family:Cambria; \\tmso-ascii-font-family:Cambria; \\tmso-ascii-theme-font:minor-latin; \\tmso-fareast-font-family:\\"\\uff2d\\uff33 \\u660e\\u671d\\"; \\tmso-fareast-theme-font:minor-fareast; \\tmso-hansi-font-family:Cambria; \\tmso-hansi-theme-font:minor-latin; \\tmso-bidi-font-family:\\"Times New Roman\\"; \\tmso-bidi-theme-font:minor-bidi;} .MsoChpDefault \\t{mso-style-type:export-only; \\tmso-default-props:yes; \\tfont-family:Cambria; \\tmso-ascii-font-family:Cambria; \\tmso-ascii-theme-font:minor-latin; \\tmso-fareast-font-family:\\"\\uff2d\\uff33 \\u660e\\u671d\\"; \\tmso-fareast-theme-font:minor-fareast; \\tmso-hansi-font-family:Cambria; \\tmso-hansi-theme-font:minor-latin; \\tmso-bidi-font-family:\\"Times New Roman\\"; \\tmso-bidi-theme-font:minor-bidi;} @page WordSection1 \\t{size:8.5in 11.0in; \\tmargin:1.0in 1.25in 1.0in 1.25in; \\tmso-header-margin:.5in; \\tmso-footer-margin:.5in; \\tmso-paper-source:0;} div.WordSection1 \\t{page:WordSection1;} --> </p>", "slug": "pattie_maes", "whotheyare": "As head of the MIT Media Lab\'s Fluid Interfaces Group, Pattie Maes researches the tools we use to work with information and connect with one another.", "whatotherssay": "We like to invent new disciplines or look at new problems, and invent bandwagons rather than jump on them.", "id": 362, "photo_url": "https://pe.tedcdn.com/images/ted/76604_254x191.jpg"}, {"description": "Director of research, Samsung Research America", "firstname": "Pranav", "title": "", "lastname": "Mistry", "middleinitial": "", "whylisten": "<p>When Pranav Mistry was a PhD student in the Fluid Interfaces Group at MIT&#39;s Media Lab, he worked with lab director Pattie Maes to create some of the most entertaining and thought-provoking interfaces the world had ever seen. And not just computer interfaces, mind you -- these are ways to help the digital and the actual worlds interface. Imagine: intelligent sticky notes, <a href=\\"http://www.pranavmistry.com/projects/quickies/\\" target=\\"_blank\\">Quickies</a>, that can be searched and can send reminders; a <a href=\\"http://ambient.media.mit.edu/projects.php?action=details&amp;id=54\\" target=\\"_blank\\">pen</a>  that draws in 3D; and <a href=\\"http://www.pranavmistry.com/projects/tapuma/\\" target=\\"_blank\\">TaPuMa</a>, a tangible public map that can act as Google of physical world. And of course the legendary <a href=\\"http://www.pranavmistry.com/projects/sixthsense/\\" target=\\"_blank\\">SixthSense</a>, which is now <a href=\\"https://code.google.com/p/sixthsense/\\" target=\\"_blank\\">open sourced</a> </p><p>Before his studies at MIT, he worked with Microsoft as a UX  researcher; he&#39;s a graduate of IIT. Now, as director of research at <a href=\\"http://www.sisa.samsung.com/\\" target=\\"_blank\\">Samsung Research America</a>, Mistry heads the Think Tank Team, an interdisciplinary group of researchers that hunts for new ways to mix digital informational with real-world  interactions. As an example, Mistry launched the company&#39;s smartwatch, the <a href=\\"http://www.bgr.in/manufacturers/samsung/pranav-mistry-is-the-indian-brain-behind-samsungs-galaxy-gear-smartwatch/\\" target=\\"_blank\\">Galaxy Gear</a>, in 2013. </p>", "slug": "pranav_mistry", "whotheyare": "As an MIT grad student, Pranav Mistry invented SixthSense, a wearable device that enables new interactions between the real world and the world of data.", "whatotherssay": "", "id": 417, "photo_url": "https://pe.tedcdn.com/images/ted/76651_254x191.jpg"}], "title": "Meet the SixthSense interaction", "take_action": null, "comments": 404, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/d98527eb9a28d694fd604228e328a91c0f0e58a8_1600x1200.jpg", "description": "This demo -- from Pattie Maes\' lab at MIT, spearheaded by Pranav Mistry -- was the buzz of TED. It\'s a wearable device with a projector that paves the way for profound interaction with our environment. Imagine \\"Minority Report\\" and then some.", "tags": ["demo", "design", "interface design", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bn", "endonym": "\\u09ac\\u09be\\u0982\\u09b2\\u09be", "isRtl": false, "ianaCode": "bn", "languageName": "Bengali"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "eo", "endonym": "Esperanto", "isRtl": false, "ianaCode": "eo", "languageName": "Esperanto"}, {"languageCode": "fil", "endonym": "Filipino", "isRtl": false, "ianaCode": "fil", "languageName": "Filipino"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "ta", "endonym": "\\u0ba4\\u0bae\\u0bbf\\u0bb4\\u0bcd", "isRtl": false, "ianaCode": "ta", "languageName": "Tamil"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/PattieMaes_2009-low-el.mp4"}, "eo": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-eo.mp4", "name": "Esperanto", "low": "https://download.ted.com/talks/PattieMaes_2009-low-eo.mp4"}, "en": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/PattieMaes_2009-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/PattieMaes_2009-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/PattieMaes_2009-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-it.mp4"}, "cs": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/PattieMaes_2009-low-cs.mp4"}, "ar": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/PattieMaes_2009-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-bg.mp4"}, "eu": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-eu.mp4", "name": "Basque", "low": "https://download.ted.com/talks/PattieMaes_2009-low-eu.mp4"}, "es": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/PattieMaes_2009-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/PattieMaes_2009-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/PattieMaes_2009-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/PattieMaes_2009-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/PattieMaes_2009-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/PattieMaes_2009-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/PattieMaes_2009-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/PattieMaes_2009-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-ro.mp4"}, "fil": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-fil.mp4", "name": "Filipino", "low": "https://download.ted.com/talks/PattieMaes_2009-low-fil.mp4"}, "ta": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-ta.mp4", "name": "Tamil", "low": "https://download.ted.com/talks/PattieMaes_2009-low-ta.mp4"}, "fr": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/PattieMaes_2009-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-hr.mp4"}, "bn": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-bn.mp4", "name": "Bengali", "low": "https://download.ted.com/talks/PattieMaes_2009-low-bn.mp4"}, "de": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/PattieMaes_2009-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/PattieMaes_2009-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/PattieMaes_2009-low-hi.mp4"}, "fi": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/PattieMaes_2009-low-fi.mp4"}, "hu": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/PattieMaes_2009-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/PattieMaes_2009-low-he.mp4"}, "te": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-te.mp4", "name": "Telugu", "low": "https://download.ted.com/talks/PattieMaes_2009-low-te.mp4"}, "sr": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/PattieMaes_2009-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/PattieMaes_2009-low-mk.mp4"}, "sk": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/PattieMaes_2009-low-sk.mp4"}, "pl": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/PattieMaes_2009-low-pl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/PattieMaes_2009-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/PattieMaes_2009.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/PattieMaes_2009-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 481, "audioDownload": "https://download.ted.com/talks/PattieMaes_2009.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1767553, "hero": "https://pe.tedcdn.com/images/ted/71466_800x600.jpg", "title": "Toy tiles that talk to each other", "id": 457, "speaker": "David Merrill", "duration": 429, "slug": "david_merrill_demos_siftables_the_smart_blocks"}, {"viewed_count": 4778603, "hero": "https://pe.tedcdn.com/images/ted/5824aa5b8d490ed3863ee1f8c26731a6ebbfcefe_1600x1200.jpg", "title": "How PhotoSynth can connect the world\'s images", "id": 129, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 450, "slug": "blaise_aguera_y_arcas_demos_photosynth"}, {"viewed_count": 1481057, "hero": "https://pe.tedcdn.com/images/ted/8186_480x360.jpg", "title": "Rethink the desktop with BumpTop", "id": 131, "speaker": "Anand Agarawala", "duration": 279, "slug": "anand_agarawala_demos_his_bumptop_desktop"}, {"viewed_count": 16168100, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}, {"viewed_count": 1414102, "hero": "https://pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg", "title": "Shape-shifting tech will change work as we know it", "id": 2410, "speaker": "Sean Follmer", "duration": 562, "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it"}, {"viewed_count": 1620397, "hero": "https://pe.tedcdn.com/images/ted/04210e05cfb511bd0cec7a4ae49ec98a8f233c4b_2880x1620.jpg", "title": "An Internet without screens might look like this", "id": 2356, "speaker": "Tea Uglow", "duration": 503, "slug": "tom_uglow_an_internet_without_screens_might_look_like_this"}], "recorded_at": "2009-02-06T00:00:00.000+00:00", "slug": "pattie_maes_demos_the_sixth_sense", "speaker_name": "Pattie Maes + Pranav Mistry", "viewed_count": 9774424, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2009", "name": "Pattie Maes + Pranav Mistry: Meet the SixthSense interaction"}'
+p202
+sS'keywords'
+p203
+(lp204
+Vdemo
+p205
+aVdesign
+p206
+aVinterface design
+p207
+aVtechnology
+p208
+asS'datecrawled'
+p209
+g197
+(S'\x07\xe1\n\x17\x03/\x18\x01\x98\xe8'
+tRp210
+sS'id'
+p211
+I481
+ss.

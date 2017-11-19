@@ -155,6 +155,8 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
         pvals = {}
         allvals = {}
         # Formulate a list of values for each rating
+        print 'Reporting only the significant p-values'
+        print '======================================='
         for akw in kwlist:
             if akw == 'Totalviews':
                 ratvals = [[int(csvcontent[akw][csv_id[avid]]) for avid\
@@ -169,6 +171,7 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
             _,pval = f_oneway(*ratvals)
             # Save only the statistically significant ones
             if pval<0.01:
+                print 'p value for cluster analysis ('+akw+'):',pval
                 pvals[akw]=pval
                 allvals[akw] = ratvals
         # If the clusters are significantly different in any rating, draw it

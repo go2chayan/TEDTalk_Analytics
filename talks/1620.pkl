@@ -1,0 +1,494 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VHi. I'm here to talk about congestion,
+p5
+aVnamely road congestion.
+p6
+aVRoad congestion is a pervasive phenomenon.
+p7
+aVIt exists in basically all of the cities all around the world,
+p8
+aVwhich is a little bit surprising when you think about it.
+p9
+aVI mean, think about how different cities are, actually.
+p10
+aVI mean, you have the typical European cities,
+p11
+aVwith a dense urban core, good public transportation
+p12
+aVmostly, not a lot of road capacity.
+p13
+aVBut then, on the other hand, you have the American cities.
+p14
+aVIt's moving by itself, okay.
+p15
+aVAnyway, the American cities:
+p16
+aVlots of roads dispersed over large areas,
+p17
+aValmost no public transportation.
+p18
+aVAnd then you have the emerging world cities,
+p19
+aVwith a mixed variety of vehicles,
+p20
+aVmixed land-use patterns, also rather dispersed
+p21
+aVbut often with a very dense urban core.
+p22
+aVAnd traffic planners all around the world have tried
+p23
+aVlots of different measures: dense cities or dispersed cities,
+p24
+aVlots of roads or lots of public transport
+p25
+aVor lots of bike lanes or more information,
+p26
+aVor lots of different things, but nothing seems to work.
+p27
+aa(lp28
+VBut all of these attempts have one thing in common.
+p29
+aVThey're basically attempts at figuring out
+p30
+aVwhat people should do instead of rush hour car driving.
+p31
+aVThey're essentially, to a point, attempts at planning
+p32
+aVwhat other people should do, planning their life for them.
+p33
+aa(lp34
+VNow, planning a complex social system
+p35
+aVis a very hard thing to do, and let me tell you a story.
+p36
+aVBack in 1989, when the Berlin Wall fell,
+p37
+aVan urban planner in London got a phone call
+p38
+aVfrom a colleague in Moscow saying, basically,
+p39
+aV"Hi, this is Vladimir. I'd like to know,
+p40
+aVwho's in charge of London's bread supply?"
+p41
+aa(lp42
+VAnd the urban planner in London goes,
+p43
+aV"What do you mean, who's in charge of London's \u2014
+p44
+aVI mean, no one is in charge."
+p45
+aV"Oh, but surely someone must be in charge.
+p46
+aVI mean, it's a very complicated system. Someone must control all of this."
+p47
+aa(lp48
+V"No. No. No one is in charge.
+p49
+aVI mean, it basically \u2014 I haven't really thought of it.
+p50
+aVIt basically organizes itself."
+p51
+aa(lp52
+VIt organizes itself.
+p53
+aVThat's an example of a complex social system
+p54
+aVwhich has the ability of self-organizing,
+p55
+aVand this is a very deep insight.
+p56
+aVWhen you try to solve really complex social problems,
+p57
+aVthe right thing to do is most of the time
+p58
+aVto create the incentives.
+p59
+aVYou don't plan the details,
+p60
+aVand people will figure out what to do,
+p61
+aVhow to adapt to this new framework.
+p62
+aa(lp63
+VAnd let's now look at how we can use this insight
+p64
+aVto combat road congestion.
+p65
+aa(lp66
+VThis is a map of Stockholm, my hometown.
+p67
+aVNow, Stockholm is a medium-sized city, roughly two million people,
+p68
+aVbut Stockholm also has lots of water and lots of water
+p69
+aVmeans lots of bridges \u2014 narrow bridges, old bridges \u2014
+p70
+aVwhich means lots of road congestion.
+p71
+aVAnd these red dots show the most congested parts,
+p72
+aVwhich are the bridges that lead into the inner city.
+p73
+aVAnd then someone came up with the idea that,
+p74
+aVapart from good public transport,
+p75
+aVapart from spending money on roads,
+p76
+aVlet's try to charge drivers one or two euros at these bottlenecks.
+p77
+aa(lp78
+VNow, one or two euros, that isn't really a lot of money,
+p79
+aVI mean compared to parking charges and running costs, etc.,
+p80
+aVso you would probably expect that car drivers
+p81
+aVwouldn't really react to this fairly small charge.
+p82
+aVYou would be wrong.
+p83
+aVOne or two euros was enough to make 20 percent of cars
+p84
+aVdisappear from rush hours.
+p85
+aVNow, 20 percent, well, that's a fairly huge figure, you might think,
+p86
+aVbut you've still got 80 percent left of the problem, right?
+p87
+aVBecause you still have 80 percent of the traffic.
+p88
+aVNow, that's also wrong, because traffic happens to be
+p89
+aVa nonlinear phenomenon, meaning that
+p90
+aVonce you reach above a certain capacity threshold
+p91
+aVthen congestion starts to increase really, really rapidly.
+p92
+aVBut fortunately, it also works the other way around.
+p93
+aVIf you can reduce traffic even somewhat, then congestion
+p94
+aVwill go down much faster than you might think.
+p95
+aVNow, congestion charges were introduced in Stockholm
+p96
+aVon January 3, 2006, and the first picture here is a picture
+p97
+aVof Stockholm, one of the typical streets, January 2.
+p98
+aVThe first day with the congestion charges looked like this.
+p99
+aVThis is what happens when you take away
+p100
+aV20 percent of the cars from the streets.
+p101
+aVYou really reduce congestion quite substantially.
+p102
+aa(lp103
+VBut, well, as I said, I mean, car drivers adapt, right?
+p104
+aVSo after a while they would all come back because they
+p105
+aVhave sort of gotten used to charges.
+p106
+aVWrong again. It's now six and a half years ago
+p107
+aVsince the congestion charges were introduced in Stockholm,
+p108
+aVand we basically have the same low traffic levels still.
+p109
+aa(lp110
+VBut you see, there's an interesting gap here in the time series
+p111
+aVin 2007.
+p112
+aVWell, the thing is that, the congestion charges,
+p113
+aVthey were introduced first as a trial, so they were introduced
+p114
+aVin January and then abolished again at the end of July,
+p115
+aVfollowed by a referendum, and then they were reintroduced
+p116
+aVagain in 2007, which of course was a wonderful scientific opportunity.
+p117
+aVI mean, this was a really fun experiment to start with,
+p118
+aVand we actually got to do it twice.
+p119
+aVAnd personally, I would like to do this every once a year or so,
+p120
+aVbut they won't let me do that.
+p121
+aVBut it was fun anyway.
+p122
+aa(lp123
+VSo, we followed up. What happened?
+p124
+aVThis is the last day with the congestion charges, July 31,
+p125
+aVand you see the same street but now it's summer,
+p126
+aVand summer in Stockholm is a very nice
+p127
+aVand light time of the year,
+p128
+aVand the first day without the congestion charges
+p129
+aVlooked like this.
+p130
+aVAll the cars were back again, and you even have to admire
+p131
+aVthe car drivers. They adapt so extremely quickly.
+p132
+aVThe first day they all came back.
+p133
+aVAnd this effect hanged on. So 2007 figures looked like this.
+p134
+aa(lp135
+VNow these traffic figures are really exciting
+p136
+aVand a little bit surprising and very useful to know,
+p137
+aVbut I would say that the most surprising slide here
+p138
+aVI'm going to show you today is not this one. It's this one.
+p139
+aVThis shows public support for congestion pricing of Stockholm,
+p140
+aVand you see that when congestion pricing were introduced
+p141
+aVin the beginning of Spring 2006, people were fiercely against it.
+p142
+aVSeventy percent of the population didn't want this.
+p143
+aVBut what happened when the congestion charges
+p144
+aVwere there is not what you would expect, that people hated it more and more.
+p145
+aVNo, on the contrary, they changed, up to a point
+p146
+aVwhere we now have 70 percent support for keeping the charges,
+p147
+aVmeaning that \u2014 I mean, let me repeat that:
+p148
+aV70 percent of the population in Stockholm
+p149
+aVwant to keep a price for something that used to be free.
+p150
+aa(lp151
+VOkay. So why can that be? Why is that?
+p152
+aVWell, think about it this way. Who changed?
+p153
+aVI mean, the 20 percent of the car drivers that disappeared,
+p154
+aVsurely they must be discontent in a way.
+p155
+aVAnd where did they go? If we can understand this,
+p156
+aVthen maybe we can figure out how people can be so happy with this.
+p157
+aVWell, so we did this huge interview survey
+p158
+aVwith lots of travel services, and tried to figure out
+p159
+aVwho changed, and where did they go?
+p160
+aVAnd it turned out that they don't know themselves. (Laughter)
+p161
+aVFor some reason, the car drivers are \u2014
+p162
+aVthey are confident they actually drive the same way that they used to do.
+p163
+aVAnd why is that? It's because that travel patterns
+p164
+aVare much less stable than you might think.
+p165
+aVEach day, people make new decisions, and people change
+p166
+aVand the world changes around them, and each day
+p167
+aVall of these decisions are sort of nudged ever so slightly
+p168
+aVaway from rush hour car driving
+p169
+aVin a way that people don't even notice.
+p170
+aVThey're not even aware of this themselves.
+p171
+aa(lp172
+VAnd the other question, who changed their mind?
+p173
+aVWho changed their opinion, and why?
+p174
+aVSo we did another interview survey, tried to figure out
+p175
+aVwhy people changed their mind, and what type of group changed their minds?
+p176
+aVAnd after analyzing the answers, it turned out that
+p177
+aVmore than half of them believe that they haven't changed their minds.
+p178
+aVThey're actually confident that they have
+p179
+aVliked congestion pricing all along.
+p180
+aVWhich means that we are now in a position
+p181
+aVwhere we have reduced traffic across this toll cordon
+p182
+aVwith 20 percent, and reduced congestion by enormous numbers,
+p183
+aVand people aren't even aware that they have changed,
+p184
+aVand they honestly believe that they have liked this all along.
+p185
+aa(lp186
+VThis is the power of nudges when trying to solve
+p187
+aVcomplex social problems, and when you do that,
+p188
+aVyou shouldn't try to tell people how to adapt.
+p189
+aVYou should just nudge them in the right direction.
+p190
+aVAnd if you do it right,
+p191
+aVpeople will actually embrace the change,
+p192
+aVand if you do it right, people will actually even like it.
+p193
+aVThank you. (Applause)
+p194
+aasS'transcript_micsec'
+p195
+(lp196
+I12000
+aI70000
+aI85000
+aI104000
+aI115000
+aI123000
+aI147000
+aI152000
+aI184000
+aI255000
+aI273000
+aI305000
+aI335000
+aI381000
+aI437000
+aI476000
+asS'talk_meta'
+p197
+(dp198
+S'ratings'
+p199
+(dp200
+S'ingenious'
+p201
+I111
+sS'funny'
+p202
+I43
+sS'inspiring'
+p203
+I103
+sS'ok'
+p204
+I74
+sS'fascinating'
+p205
+I155
+sS'total_count'
+p206
+I1200
+sS'persuasive'
+p207
+I174
+sS'longwinded'
+p208
+I17
+sS'informative'
+p209
+I319
+sS'beautiful'
+p210
+I25
+sS'jaw-dropping'
+p211
+I20
+sS'obnoxious'
+p212
+I32
+sS'confusing'
+p213
+I22
+sS'courageous'
+p214
+I10
+sS'unconvincing'
+p215
+I95
+ssS'author'
+p216
+VJonas_Eliasson;
+p217
+sS'url'
+p218
+S'https://www.ted.com/talks/jonas_eliasson_how_to_solve_traffic_jams'
+p219
+sS'vidlen'
+p220
+I507
+sS'totalviews'
+p221
+I1199123
+sS'title'
+p222
+VHow to solve traffic jams
+p223
+sS'downloadlink'
+p224
+Vhttps://download.ted.com/talks/JonasEliasson_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p225
+sS'datepublished'
+p226
+cdatetime
+datetime
+p227
+(S'\x07\xdc\x0b\x1b\n;+\x00\x00\x00'
+tRp228
+sS'datefilmed'
+p229
+g227
+(S'\x07\xdc\x0b\x1b\n;+\x00\x00\x00'
+tRp230
+sS'alldata_JSON'
+p231
+S'{"viewed_count": 1199123, "speakers": [{"description": "Transportation specialist", "firstname": "Jonas", "title": "", "lastname": "Eliasson", "middleinitial": "", "whylisten": "<p class=\\"MsoNormal\\">Jonas Eliasson studies how small charges on crowded bridges effect traffic, what makes a person opt to bike to work and how far people choose to live from public transportation. The Director of the Centre for Transport Studies at Sweden&rsquo;s Royal Institute of Technology (KTH), Eliasson helped design, plan and evaluate Stockholm&rsquo;s congestion tax, which was piloted in 2006 and made permanent in 2007. Eliasson is frequently brought on by other cities that are considering similar fees for rush hour use of crowded roads.</p>  <p>Eliasson has modeled and appraised several major infrastructure investments in Sweden, and chairs the committee for transport modeling of the country&rsquo;s National Transport Investment Plan.</p>", "slug": "jonas_eliasson", "whotheyare": "Jonas Eliasson is dedicated to researching transportation flow, analyzing how people think about their commutes and what can influence their travel decisions.", "whatotherssay": "", "id": 1441, "photo_url": "https://pe.tedcdn.com/images/ted/12e1e9c0d242c9830a32f417078e3bc1e1d90151_254x191.jpg"}], "current_talk": 1620, "description": "It\'s an unfortunate reality in nearly every major city\\u2014road congestion, especially during rush hours. Jonas Eliasson reveals how subtly nudging just a small percentage of drivers to stay off major roads can make traffic jams a thing of the past.", "language": "en", "url": "https://www.ted.com/talks/jonas_eliasson_how_to_solve_traffic_jams", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60401676}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11675513}, "podcast-high": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60375249}, "180k": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 11408210}, "64k": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4143250}, "1500k": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 92343978}, "450k": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28579972}, "podcast-regular": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28867460}, "950k": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59982884}, "podcast-light": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4280088}, "320k": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20266329}, "600k": {"uri": "https://download.ted.com/talks/JonasEliasson_2012X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38340229}}}, "comments": {"count": 222, "id": 16771, "talk_id": 1620}, "slug": "jonas_eliasson_how_to_solve_traffic_jams", "threadId": 16771, "talks": [{"event": "TEDxHelvetia", "player_talks": [{"event": "TEDxHelvetia", "slug": "jonas_eliasson_how_to_solve_traffic_jams", "filmed": 1347494400, "targeting": {"event": "TEDxHelvetia", "tag": "cars,transportation", "id": 1620, "talk": "jonas_eliasson_how_to_solve_traffic_jams", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "How to solve traffic jams", "postAdDuration": "0.83", "published": 1354031983, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/72907e49ff8f3eac8f9532f52e6bb4d420b4347d_1600x1200.jpg?quality=89&w=600", "name": "Jonas Eliasson: How to solve traffic jams", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["cars", "transportation"], "speaker": "Jonas Eliasson", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 507, "id": 1620, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JonasEliasson_2012X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxHelvetia", "tag": "cars,transportation", "id": 1620, "talk": "jonas_eliasson_how_to_solve_traffic_jams", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1620.json", "stream": "https://hls.ted.com/talks/1620.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxHelvetia%26id%3D1620%26tag%3Dcars%2Ctransportation%26talk%3Djonas_eliasson_how_to_solve_traffic_jams%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jonas_eliasson_how_to_solve_traffic_jams"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/72907e49ff8f3eac8f9532f52e6bb4d420b4347d_1600x1200.jpg?q=50&w=15", "duration": 507, "id": 1620, "ratings": [{"count": 174, "id": 24, "name": "Persuasive"}, {"count": 103, "id": 10, "name": "Inspiring"}, {"count": 43, "id": 7, "name": "Funny"}, {"count": 155, "id": 22, "name": "Fascinating"}, {"count": 319, "id": 8, "name": "Informative"}, {"count": 111, "id": 9, "name": "Ingenious"}, {"count": 74, "id": 25, "name": "OK"}, {"count": 17, "id": 11, "name": "Longwinded"}, {"count": 95, "id": 21, "name": "Unconvincing"}, {"count": 22, "id": 2, "name": "Confusing"}, {"count": 32, "id": 26, "name": "Obnoxious"}, {"count": 20, "id": 23, "name": "Jaw-dropping"}, {"count": 25, "id": 1, "name": "Beautiful"}, {"count": 10, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Transportation specialist", "firstname": "Jonas", "title": "", "lastname": "Eliasson", "middleinitial": "", "whylisten": "<p class=\\"MsoNormal\\">Jonas Eliasson studies how small charges on crowded bridges effect traffic, what makes a person opt to bike to work and how far people choose to live from public transportation. The Director of the Centre for Transport Studies at Sweden&rsquo;s Royal Institute of Technology (KTH), Eliasson helped design, plan and evaluate Stockholm&rsquo;s congestion tax, which was piloted in 2006 and made permanent in 2007. Eliasson is frequently brought on by other cities that are considering similar fees for rush hour use of crowded roads.</p>  <p>Eliasson has modeled and appraised several major infrastructure investments in Sweden, and chairs the committee for transport modeling of the country&rsquo;s National Transport Investment Plan.</p>", "slug": "jonas_eliasson", "whotheyare": "Jonas Eliasson is dedicated to researching transportation flow, analyzing how people think about their commutes and what can influence their travel decisions.", "whatotherssay": "", "id": 1441, "photo_url": "https://pe.tedcdn.com/images/ted/12e1e9c0d242c9830a32f417078e3bc1e1d90151_254x191.jpg"}], "title": "How to solve traffic jams", "take_action": [], "comments": 16771, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/72907e49ff8f3eac8f9532f52e6bb4d420b4347d_1600x1200.jpg", "description": "It\'s an unfortunate reality in nearly every major city\\u2014road congestion, especially during rush hours. Jonas Eliasson reveals how subtly nudging just a small percentage of drivers to stay off major roads can make traffic jams a thing of the past.", "tags": ["cars", "transportation"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JonasEliasson_2012X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JonasEliasson_2012X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JonasEliasson_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JonasEliasson_2012X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1620, "audioDownload": null}, "related_talks": [{"viewed_count": 802649, "hero": "https://pe.tedcdn.com/images/ted/229d850b073d6d8ba1f20ee937e88f51802a0a8d_800x600.jpg", "title": "A future beyond traffic gridlock", "id": 1174, "speaker": "Bill Ford", "duration": 1008, "slug": "bill_ford_a_future_beyond_traffic_gridlock"}, {"viewed_count": 437526, "hero": "https://pe.tedcdn.com/images/ted/f33d392bd6c0fccea109345bf3c6a747f0217a96_1600x1200.jpg", "title": "The idea behind Zipcar (and what comes next)", "id": 212, "speaker": "Robin Chase", "duration": 819, "slug": "robin_chase_on_zipcar_and_her_next_big_idea"}, {"viewed_count": 712576, "hero": "https://pe.tedcdn.com/images/ted/238f71d5fa06084dcafa573a891af68d4e5ce088_800x600.jpg", "title": "The future of business is the \\"mesh\\"", "id": 1077, "speaker": "Lisa Gansky", "duration": 887, "slug": "lisa_gansky_the_future_of_business_is_the_mesh"}, {"viewed_count": 2943127, "hero": "https://pe.tedcdn.com/images/ted/e8849bea6857714504fdf7a923ac0938e95cec6c_2880x1620.jpg", "title": "What a driverless world could look like", "id": 2609, "speaker": "Wanis Kabbaj", "duration": 691, "slug": "wanis_kabbaj_what_a_driverless_world_could_look_like"}, {"viewed_count": 874895, "hero": "https://pe.tedcdn.com/images/ted/915e59caaa1b90365d5474ec55a29aea13a31ed4_1600x1200.jpg", "title": "Why buses represent democracy in action", "id": 1886, "speaker": "Enrique Pe\\u00f1alosa", "duration": 857, "slug": "enrique_penalosa_why_buses_represent_democracy_in_action"}, {"viewed_count": 1601269, "hero": "https://pe.tedcdn.com/images/ted/2296dcfe9b63f0d79bd2505adeba08a27052d953_2880x1620.jpg", "title": "Uber\'s plan to get more people into fewer cars", "id": 2443, "speaker": "Travis Kalanick", "duration": 1158, "slug": "travis_kalanick_uber_s_plan_to_get_more_people_into_fewer_cars"}], "recorded_at": "2012-09-13T00:00:00.000+00:00", "slug": "jonas_eliasson_how_to_solve_traffic_jams", "speaker_name": "Jonas Eliasson", "viewed_count": 1199123, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxHelvetia, an independent event. TED editors featured it among our selections on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Jonas Eliasson recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Lessons from the Stockholm congestion charging trial", "link_url": "http://www.sciencedirect.com/science/article/pii/S0967070X0800053X", "eyebrow": null, "label": "READ_Article", "note": "Jonas Eliasson\\r\\n*Transport Policy*, November 2008", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The Stockholm congestion charges\\u20145 years on. Effects, acceptability and lessons learnt", "link_url": "http://www.sciencedirect.com/science/article/pii/S0967070X11001284", "eyebrow": null, "label": "READ_Article", "note": "Maria B\\u00f6rjesson et al.\\r\\n*Transport Policy*, March 2012", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The role of attitude structures, direct experience and reframing for the success of congestion pricing", "link_url": "http://www.sciencedirect.com/science/article/pii/S0965856414001475", "eyebrow": null, "label": "READ_Article", "note": "Jonas Eliasson\\r\\n*Transportation Research Part A: Policy and Practice*, September 2014\\r\\n\\r\\n", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The Stockholm congestion charges: An overview", "link_url": "http://www.transportportal.se/swopec/CTS2014-7.pdf", "eyebrow": null, "label": "READ_Article", "note": "Jonas Eliasson\\r\\nCentre for Transport Studies Stockholm, 2014", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "The Stockholm congestion pricing syndrome: How congestion charges went from unthinkable to uncontroversial", "link_url": "http://www.transportportal.se/swopec/CTS2014-1.pdf", "eyebrow": null, "label": "READ_Article", "note": "Jonas Eliasson\\r\\nCentre for Transport Studies Stockholm, 2014", "position": null, "blurb": ""}], "title": "Reading list"}], "published": true, "type": "recommendation", "blurb": "The latest research on how to make your commute less of a pain. "}, "corrections": []}], "event": "TEDxHelvetia", "name": "Jonas Eliasson: How to solve traffic jams"}'
+p232
+sS'keywords'
+p233
+(lp234
+Vcars
+p235
+aVtransportation
+p236
+asS'datecrawled'
+p237
+g227
+(S"\x07\xe1\n\x17\x03\x1f'\t\xaa\x80"
+tRp238
+sS'id'
+p239
+I1620
+ss.

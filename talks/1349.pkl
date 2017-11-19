@@ -1,0 +1,612 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhen we park in a big parking lot,
+p5
+aVhow do we remember where we parked our car?
+p6
+aVHere's the problem facing Homer.
+p7
+aVAnd we're going to try to understand
+p8
+aVwhat's happening in his brain.
+p9
+aa(lp10
+VSo we'll start with the hippocampus, shown in yellow,
+p11
+aVwhich is the organ of memory.
+p12
+aVIf you have damage there, like in Alzheimer's,
+p13
+aVyou can't remember things including where you parked your car.
+p14
+aVIt's named after Latin for "seahorse,"
+p15
+aVwhich it resembles.
+p16
+aVAnd like the rest of the brain, it's made of neurons.
+p17
+aa(lp18
+VSo the human brain
+p19
+aVhas about a hundred billion neurons in it.
+p20
+aVAnd the neurons communicate with each other
+p21
+aVby sending little pulses or spikes of electricity
+p22
+aVvia connections to each other.
+p23
+aVThe hippocampus is formed of two sheets of cells,
+p24
+aVwhich are very densely interconnected.
+p25
+aVAnd scientists have begun to understand
+p26
+aVhow spatial memory works
+p27
+aVby recording from individual neurons
+p28
+aVin rats or mice
+p29
+aVwhile they forage or explore an environment
+p30
+aVlooking for food.
+p31
+aa(lp32
+VSo we're going to imagine we're recording from a single neuron
+p33
+aVin the hippocampus of this rat here.
+p34
+aVAnd when it fires a little spike of electricity,
+p35
+aVthere's going to be a red dot and a click.
+p36
+aVSo what we see
+p37
+aVis that this neuron knows
+p38
+aVwhenever the rat has gone into one particular place in its environment.
+p39
+aVAnd it signals to the rest of the brain
+p40
+aVby sending a little electrical spike.
+p41
+aVSo we could show the firing rate of that neuron
+p42
+aVas a function of the animal's location.
+p43
+aVAnd if we record from lots of different neurons,
+p44
+aVwe'll see that different neurons fire
+p45
+aVwhen the animal goes in different parts of its environment,
+p46
+aVlike in this square box shown here.
+p47
+aVSo together they form a map
+p48
+aVfor the rest of the brain,
+p49
+aVtelling the brain continually,
+p50
+aV"Where am I now within my environment?"
+p51
+aa(lp52
+VPlace cells are also being recorded in humans.
+p53
+aVSo epilepsy patients sometimes need
+p54
+aVthe electrical activity in their brain monitoring.
+p55
+aVAnd some of these patients played a video game
+p56
+aVwhere they drive around a small town.
+p57
+aVAnd place cells in their hippocampi would fire, become active,
+p58
+aVstart sending electrical impulses
+p59
+aVwhenever they drove through a particular location in that town.
+p60
+aa(lp61
+VSo how does a place cell know
+p62
+aVwhere the rat or person is within its environment?
+p63
+aVWell these two cells here
+p64
+aVshow us that the boundaries of the environment
+p65
+aVare particularly important.
+p66
+aVSo the one on the top
+p67
+aVlikes to fire sort of midway between the walls
+p68
+aVof the box that their rat's in.
+p69
+aVAnd when you expand the box, the firing location expands.
+p70
+aVThe one below likes to fire
+p71
+aVwhenever there's a wall close by to the south.
+p72
+aVAnd if you put another wall inside the box,
+p73
+aVthen the cell fires in both place
+p74
+aVwherever there's a wall to the south
+p75
+aVas the animal explores around in its box.
+p76
+aVSo this predicts
+p77
+aVthat sensing the distances and directions of boundaries around you \u2014
+p78
+aVextended buildings and so on \u2014
+p79
+aVis particularly important for the hippocampus.
+p80
+aVAnd indeed, on the inputs to the hippocampus,
+p81
+aVcells are found which project into the hippocampus,
+p82
+aVwhich do respond exactly
+p83
+aVto detecting boundaries or edges
+p84
+aVat particular distances and directions
+p85
+aVfrom the rat or mouse
+p86
+aVas it's exploring around.
+p87
+aa(lp88
+VSo the cell on the left, you can see,
+p89
+aVit fires whenever the animal gets near
+p90
+aVto a wall or a boundary to the east,
+p91
+aVwhether it's the edge or the wall of a square box
+p92
+aVor the circular wall of the circular box
+p93
+aVor even the drop at the edge of a table, which the animals are running around.
+p94
+aVAnd the cell on the right there
+p95
+aVfires whenever there's a boundary to the south,
+p96
+aVwhether it's the drop at the edge of the table or a wall
+p97
+aVor even the gap between two tables that are pulled apart.
+p98
+aVSo that's one way in which we think
+p99
+aVplace cells determine where the animal is as it's exploring around.
+p100
+aa(lp101
+VWe can also test where we think objects are,
+p102
+aVlike this goal flag, in simple environments \u2014
+p103
+aVor indeed, where your car would be.
+p104
+aVSo we can have people explore an environment
+p105
+aVand see the location they have to remember.
+p106
+aVAnd then, if we put them back in the environment,
+p107
+aVgenerally they're quite good at putting a marker down
+p108
+aVwhere they thought that flag or their car was.
+p109
+aVBut on some trials,
+p110
+aVwe could change the shape and size of the environment
+p111
+aVlike we did with the place cell.
+p112
+aa(lp113
+VIn that case, we can see
+p114
+aVhow where they think the flag had been changes
+p115
+aVas a function of how you change the shape and size of the environment.
+p116
+aVAnd what you see, for example,
+p117
+aVif the flag was where that cross was in a small square environment,
+p118
+aVand then if you ask people where it was,
+p119
+aVbut you've made the environment bigger,
+p120
+aVwhere they think the flag had been
+p121
+aVstretches out in exactly the same way
+p122
+aVthat the place cell firing stretched out.
+p123
+aVIt's as if you remember where the flag was
+p124
+aVby storing the pattern of firing across all of your place cells
+p125
+aVat that location,
+p126
+aVand then you can get back to that location
+p127
+aVby moving around
+p128
+aVso that you best match the current pattern of firing of your place cells
+p129
+aVwith that stored pattern.
+p130
+aVThat guides you back to the location that you want to remember.
+p131
+aa(lp132
+VBut we also know where we are through movement.
+p133
+aVSo if we take some outbound path \u2014
+p134
+aVperhaps we park and we wander off \u2014
+p135
+aVwe know because our own movements,
+p136
+aVwhich we can integrate over this path
+p137
+aVroughly what the heading direction is to go back.
+p138
+aVAnd place cells also get this kind of path integration input
+p139
+aVfrom a kind of cell called a grid cell.
+p140
+aa(lp141
+VNow grid cells are found, again,
+p142
+aVon the inputs to the hippocampus,
+p143
+aVand they're a bit like place cells.
+p144
+aVBut now as the rat explores around,
+p145
+aVeach individual cell fires
+p146
+aVin a whole array of different locations
+p147
+aVwhich are laid out across the environment
+p148
+aVin an amazingly regular triangular grid.
+p149
+aVAnd if you record from several grid cells \u2014
+p150
+aVshown here in different colors \u2014
+p151
+aVeach one has a grid-like firing pattern across the environment,
+p152
+aVand each cell's grid-like firing pattern is shifted slightly
+p153
+aVrelative to the other cells.
+p154
+aVSo the red one fires on this grid
+p155
+aVand the green one on this one and the blue on on this one.
+p156
+aa(lp157
+VSo together, it's as if the rat
+p158
+aVcan put a virtual grid of firing locations
+p159
+aVacross its environment \u2014
+p160
+aVa bit like the latitude and longitude lines that you'd find on a map,
+p161
+aVbut using triangles.
+p162
+aVAnd as it moves around,
+p163
+aVthe electrical activity can pass
+p164
+aVfrom one of these cells to the next cell
+p165
+aVto keep track of where it is,
+p166
+aVso that it can use its own movements
+p167
+aVto know where it is in its environment.
+p168
+aa(lp169
+VDo people have grid cells?
+p170
+aVWell because all of the grid-like firing patterns
+p171
+aVhave the same axes of symmetry,
+p172
+aVthe same orientations of grid, shown in orange here,
+p173
+aVit means that the net activity
+p174
+aVof all of the grid cells in a particular part of the brain
+p175
+aVshould change
+p176
+aVaccording to whether we're running along these six directions
+p177
+aVor running along one of the six directions in between.
+p178
+aVSo we can put people in an MRI scanner
+p179
+aVand have them do a little video game
+p180
+aVlike the one I showed you
+p181
+aVand look for this signal.
+p182
+aVAnd indeed, you do see it in the human entorhinal cortex,
+p183
+aVwhich is the same part of the brain that you see grid cells in rats.
+p184
+aa(lp185
+VSo back to Homer.
+p186
+aVHe's probably remembering where his car was
+p187
+aVin terms of the distances and directions
+p188
+aVto extended buildings and boundaries
+p189
+aVaround the location where he parked.
+p190
+aVAnd that would be represented
+p191
+aVby the firing of boundary-detecting cells.
+p192
+aVHe's also remembering the path he took out of the car park,
+p193
+aVwhich would be represented in the firing of grid cells.
+p194
+aVNow both of these kinds of cells
+p195
+aVcan make the place cells fire.
+p196
+aVAnd he can return to the location where he parked
+p197
+aVby moving so as to find where it is
+p198
+aVthat best matches the firing pattern
+p199
+aVof the place cells in his brain currently
+p200
+aVwith the stored pattern where he parked his car.
+p201
+aVAnd that guides him back to that location
+p202
+aVirrespective of visual cues
+p203
+aVlike whether his car's actually there.
+p204
+aVMaybe it's been towed.
+p205
+aVBut he knows where it was, so he knows to go and get it.
+p206
+aa(lp207
+VSo beyond spatial memory,
+p208
+aVif we look for this grid-like firing pattern
+p209
+aVthroughout the whole brain,
+p210
+aVwe see it in a whole series of locations
+p211
+aVwhich are always active
+p212
+aVwhen we do all kinds of autobiographical memory tasks,
+p213
+aVlike remembering the last time you went to a wedding, for example.
+p214
+aVSo it may be that the neural mechanisms
+p215
+aVfor representing the space around us
+p216
+aVare also used for generating visual imagery
+p217
+aVso that we can recreate the spatial scene, at least,
+p218
+aVof the events that have happened to us when we want to imagine them.
+p219
+aa(lp220
+VSo if this was happening,
+p221
+aVyour memories could start by place cells activating each other
+p222
+aVvia these dense interconnections
+p223
+aVand then reactivating boundary cells
+p224
+aVto create the spatial structure
+p225
+aVof the scene around your viewpoint.
+p226
+aVAnd grid cells could move this viewpoint through that space.
+p227
+aVAnother kind of cell, head direction cells,
+p228
+aVwhich I didn't mention yet,
+p229
+aVthey fire like a compass according to which way you're facing.
+p230
+aVThey could define the viewing direction
+p231
+aVfrom which you want to generate an image for your visual imagery,
+p232
+aVso you can imagine what happened when you were at this wedding, for example.
+p233
+aa(lp234
+VSo this is just one example
+p235
+aVof a new era really
+p236
+aVin cognitive neuroscience
+p237
+aVwhere we're beginning to understand
+p238
+aVpsychological processes
+p239
+aVlike how you remember or imagine or even think
+p240
+aVin terms of the actions
+p241
+aVof the billions of individual neurons that make up our brains.
+p242
+aa(lp243
+VThank you very much.
+p244
+aa(lp245
+V(Applause)
+p246
+aasS'transcript_micsec'
+p247
+(lp248
+I11000
+aI22000
+aI36000
+aI64000
+aI108000
+aI129000
+aI188000
+aI217000
+aI244000
+aI285000
+aI305000
+aI343000
+aI367000
+aI402000
+aI449000
+aI480000
+aI510000
+aI528000
+aI530000
+asS'talk_meta'
+p249
+(dp250
+S'ratings'
+p251
+(dp252
+S'ingenious'
+p253
+I65
+sS'funny'
+p254
+I13
+sS'inspiring'
+p255
+I64
+sS'ok'
+p256
+I103
+sS'fascinating'
+p257
+I351
+sS'total_count'
+p258
+I1382
+sS'persuasive'
+p259
+I40
+sS'longwinded'
+p260
+I25
+sS'unconvincing'
+p261
+I13
+sS'informative'
+p262
+I542
+sS'beautiful'
+p263
+I22
+sS'jaw-dropping'
+p264
+I37
+sS'obnoxious'
+p265
+I8
+sS'courageous'
+p266
+I5
+sS'confusing'
+p267
+I94
+ssS'author'
+p268
+VNeil_Burgess;
+p269
+sS'url'
+p270
+S'https://www.ted.com/talks/neil_burgess_how_your_brain_tells_you_where_you_are'
+p271
+sS'vidlen'
+p272
+I543
+sS'totalviews'
+p273
+I1207720
+sS'title'
+p274
+VHow your brain tells you where you are
+p275
+sS'downloadlink'
+p276
+Vhttps://download.ted.com/talks/NeilBurgess_2011S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p277
+sS'datepublished'
+p278
+cdatetime
+datetime
+p279
+(S'\x07\xdc\x02\x06\n:;\x00\x00\x00'
+tRp280
+sS'datefilmed'
+p281
+g279
+(S'\x07\xdc\x02\x06\n:;\x00\x00\x00'
+tRp282
+sS'alldata_JSON'
+p283
+S'{"viewed_count": 1207720, "speakers": [{"description": "Neuroscientist", "firstname": "Neil", "title": "", "lastname": "Burgess", "middleinitial": "", "whylisten": "<p>Neil Burgessis is deputy director of the Institute of Cognitive Neuroscience at University College London, where he investigates of the role of the hippocampus in spatial navigation and  episodic memory. His research is directed at answering  questions such as: How are locations  represented, stored and used in the  brain? What processes and which  parts of the brain are involved in  remembering the spatial and temporal  context of everyday events, and in  finding one&#39;s way about?                      </p><p>To explore this space, he and his team use a range of methods for gathering data, including pioneering uses of virtual reality, as well as computational modelling and electrophysiological  analysis of the function of hippocampal neurons in the rat, functional  imaging of human navigation, and neuropsychological experiments on  spatial and episodic memory. <br /><br />A parallel interest: Investigating our human short-term memory for serial order, or how we know our 123s.</p>", "slug": "neil_burgess", "whotheyare": "At University College in London, Neil Burgess researches how patterns of electrical activity in brain cells guide us through space.", "whatotherssay": "", "id": 1220, "photo_url": "https://pe.tedcdn.com/images/ted/eb539d0ca8a32909718b118b278fb60d070de86e_254x191.jpg"}], "current_talk": 1349, "description": "How do you remember where you parked your car? How do you know if you\'re moving in the right direction? Neuroscientist Neil Burgess studies the neural mechanisms that map the space around us, and how they link to memory and imagination.", "language": "en", "url": "https://www.ted.com/talks/neil_burgess_how_your_brain_tells_you_where_you_are", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63315588}, "podcast-low-en": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12513556}, "podcast-high": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63681905}, "180k": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12397687}, "64k": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4474878}, "1500k": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 98894770}, "450k": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30686477}, "podcast-regular": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 31340814}, "950k": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63060178}, "podcast-light": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4965569}, "320k": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21891791}, "600k": {"uri": "https://download.ted.com/talks/NeilBurgess_2011S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41144840}}}, "comments": {"count": 86, "id": 10501, "talk_id": 1349}, "slug": "neil_burgess_how_your_brain_tells_you_where_you_are", "threadId": 10501, "talks": [{"event": "TEDSalon London Spring 2011", "player_talks": [{"event": "TEDSalon London Spring 2011", "slug": "neil_burgess_how_your_brain_tells_you_where_you_are", "filmed": 1320969600, "targeting": {"event": "TEDSalon London Spring 2011", "tag": "algorithm,biology,biotech,brain,cognitive science,exploration,neuroscience,physiology,science", "id": 1349, "talk": "neil_burgess_how_your_brain_tells_you_where_you_are", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "How your brain tells you where you are", "postAdDuration": "0.83", "published": 1328543939, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b6441a3ec7fe888555c728e011b6bd3650544fb8_800x600.jpg?quality=89&w=600", "name": "Neil Burgess: How your brain tells you where you are", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["algorithm", "biology", "biotech", "brain", "cognitive science", "exploration", "neuroscience", "physiology", "science"], "speaker": "Neil Burgess", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 543, "id": 1349, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/NeilBurgess_2011S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDSalon London Spring 2011", "tag": "algorithm,biology,biotech,brain,cognitive science,exploration,neuroscience,physiology,science", "id": 1349, "talk": "neil_burgess_how_your_brain_tells_you_where_you_are", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1349.json", "stream": "https://hls.ted.com/talks/1349.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDSalon%2BLondon%2BSpring%2B2011%26id%3D1349%26tag%3Dalgorithm%2Cbiology%2Cbiotech%2Cbrain%2Ccognitive%2Bscience%2Cexploration%2Cneuroscience%2Cphysiology%2Cscience%26talk%3Dneil_burgess_how_your_brain_tells_you_where_you_are%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/neil_burgess_how_your_brain_tells_you_where_you_are"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b6441a3ec7fe888555c728e011b6bd3650544fb8_800x600.jpg?q=50&w=15", "duration": 543, "id": 1349, "ratings": [{"count": 542, "id": 8, "name": "Informative"}, {"count": 351, "id": 22, "name": "Fascinating"}, {"count": 64, "id": 10, "name": "Inspiring"}, {"count": 65, "id": 9, "name": "Ingenious"}, {"count": 40, "id": 24, "name": "Persuasive"}, {"count": 103, "id": 25, "name": "OK"}, {"count": 25, "id": 11, "name": "Longwinded"}, {"count": 37, "id": 23, "name": "Jaw-dropping"}, {"count": 94, "id": 2, "name": "Confusing"}, {"count": 13, "id": 7, "name": "Funny"}, {"count": 13, "id": 21, "name": "Unconvincing"}, {"count": 22, "id": 1, "name": "Beautiful"}, {"count": 8, "id": 26, "name": "Obnoxious"}, {"count": 5, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Neuroscientist", "firstname": "Neil", "title": "", "lastname": "Burgess", "middleinitial": "", "whylisten": "<p>Neil Burgessis is deputy director of the Institute of Cognitive Neuroscience at University College London, where he investigates of the role of the hippocampus in spatial navigation and  episodic memory. His research is directed at answering  questions such as: How are locations  represented, stored and used in the  brain? What processes and which  parts of the brain are involved in  remembering the spatial and temporal  context of everyday events, and in  finding one&#39;s way about?                      </p><p>To explore this space, he and his team use a range of methods for gathering data, including pioneering uses of virtual reality, as well as computational modelling and electrophysiological  analysis of the function of hippocampal neurons in the rat, functional  imaging of human navigation, and neuropsychological experiments on  spatial and episodic memory. <br /><br />A parallel interest: Investigating our human short-term memory for serial order, or how we know our 123s.</p>", "slug": "neil_burgess", "whotheyare": "At University College in London, Neil Burgess researches how patterns of electrical activity in brain cells guide us through space.", "whatotherssay": "", "id": 1220, "photo_url": "https://pe.tedcdn.com/images/ted/eb539d0ca8a32909718b118b278fb60d070de86e_254x191.jpg"}], "title": "How your brain tells you where you are", "take_action": null, "comments": 10501, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/b6441a3ec7fe888555c728e011b6bd3650544fb8_800x600.jpg", "description": "How do you remember where you parked your car? How do you know if you\'re moving in the right direction? Neuroscientist Neil Burgess studies the neural mechanisms that map the space around us, and how they link to memory and imagination.", "tags": ["algorithm", "biology", "biotech", "brain", "cognitive science", "exploration", "neuroscience", "physiology", "science"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-bg.mp4"}, "id": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-zh-tw.mp4", "name": "Chinese, Traditional"}, "tr": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-lv.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-fr-ca.mp4"}, "th": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-hi.mp4"}, "ja": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/NeilBurgess_2011S-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/NeilBurgess_2011S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/NeilBurgess_2011S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/NeilBurgess_2011S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1349, "audioDownload": null}, "related_talks": [{"viewed_count": 1743795, "hero": "https://pe.tedcdn.com/images/ted/794a93b76d7c657c2eb52e229c4b20e583615e06_1600x1200.jpg", "title": "The real reason for brains", "id": 1261, "speaker": "Daniel Wolpert", "duration": 1199, "slug": "daniel_wolpert_the_real_reason_for_brains"}, {"viewed_count": 614054, "hero": "https://pe.tedcdn.com/images/ted/51f652b9ff6854867d1d7abb2683caf1d8dd22fb_800x600.jpg", "title": "Re-engineering the brain", "id": 1000, "speaker": "Gero Miesenboeck", "duration": 1054, "slug": "gero_miesenboeck"}, {"viewed_count": 2868493, "hero": "https://pe.tedcdn.com/images/ted/114617_800x600.jpg", "title": "How we read each other\'s minds", "id": 630, "speaker": "Rebecca Saxe", "duration": 1011, "slug": "rebecca_saxe_how_brains_make_moral_judgments"}, {"viewed_count": 936796, "hero": "https://pe.tedcdn.com/images/ted/29fe2e14406be124c2d750736328ef617a156e10_800x600.jpg", "title": "A light switch for neurons", "id": 1146, "speaker": "Ed Boyden", "duration": 1104, "slug": "ed_boyden"}, {"viewed_count": 2179562, "hero": "https://pe.tedcdn.com/images/ted/0fc9a0c0e51919aa2f0efe825dbea9d4480baaf7_2880x1620.jpg", "title": "The brain may be able to repair itself -- with help", "id": 2429, "speaker": "Jocelyne Bloch", "duration": 694, "slug": "jocelyne_bloch_the_brain_may_be_able_to_repair_itself_with_help"}, {"viewed_count": 491226, "hero": "https://pe.tedcdn.com/images/ted/c92a115c6b16a8afad2047396bee3b9a6491d08a_800x600.jpg", "title": "Caring for engineered tissue", "id": 1187, "speaker": "Nina Tandon", "duration": 253, "slug": "nina_tandon_caring_for_cells"}], "recorded_at": "2011-11-11T00:00:00.000+00:00", "slug": "neil_burgess_how_your_brain_tells_you_where_you_are", "speaker_name": "Neil Burgess", "viewed_count": 1207720, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDSalon London Spring 2011", "name": "Neil Burgess: How your brain tells you where you are"}'
+p284
+sS'keywords'
+p285
+(lp286
+Valgorithm
+p287
+aVbiology
+p288
+aVbiotech
+p289
+aVbrain
+p290
+aVcognitive science
+p291
+aVexploration
+p292
+aVneuroscience
+p293
+aVphysiology
+p294
+aVscience
+p295
+asS'datecrawled'
+p296
+g279
+(S'\x07\xe1\n\x17\x02\x1f\x17\x02\xd3\xb9'
+tRp297
+sS'id'
+p298
+I1349
+ss.

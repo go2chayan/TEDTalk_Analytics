@@ -1,0 +1,986 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VAs other speakers have said, it's a rather daunting experience \u2014
+p5
+aVa particularly daunting experience \u2014 to be speaking in front of this audience.
+p6
+aVBut unlike the other speakers, I'm not going to tell you about
+p7
+aVthe mysteries of the universe, or the wonders of evolution,
+p8
+aVor the really clever, innovative ways people are attacking
+p9
+aVthe major inequalities in our world.
+p10
+aVOr even the challenges of nation-states in the modern global economy.
+p11
+aVMy brief, as you've just heard, is to tell you about statistics \u2014
+p12
+aVand, to be more precise, to tell you some exciting things about statistics.
+p13
+aVAnd that's \u2014
+p14
+aV(Laughter)
+p15
+aV\u2014 that's rather more challenging
+p16
+aVthan all the speakers before me and all the ones coming after me.
+p17
+aV(Laughter)
+p18
+aVOne of my senior colleagues told me, when I was a youngster in this profession,
+p19
+aVrather proudly, that statisticians were people who liked figures
+p20
+aVbut didn't have the personality skills to become accountants.
+p21
+aV(Laughter)
+p22
+aVAnd there's another in-joke among statisticians, and that's,
+p23
+aV"How do you tell the introverted statistician from the extroverted statistician?"
+p24
+aVTo which the answer is,
+p25
+aV"The extroverted statistician's the one who looks at the other person's shoes."
+p26
+aV(Laughter)
+p27
+aVBut I want to tell you something useful \u2014 and here it is, so concentrate now.
+p28
+aVThis evening, there's a reception in the University's Museum of Natural History.
+p29
+aVAnd it's a wonderful setting, as I hope you'll find,
+p30
+aVand a great icon to the best of the Victorian tradition.
+p31
+aVIt's very unlikely \u2014 in this special setting, and this collection of people \u2014
+p32
+aVbut you might just find yourself talking to someone you'd rather wish that you weren't.
+p33
+aVSo here's what you do.
+p34
+aVWhen they say to you, "What do you do?" \u2014 you say, "I'm a statistician."
+p35
+aV(Laughter)
+p36
+aVWell, except they've been pre-warned now, and they'll know you're making it up.
+p37
+aVAnd then one of two things will happen.
+p38
+aVThey'll either discover their long-lost cousin in the other corner of the room
+p39
+aVand run over and talk to them.
+p40
+aVOr they'll suddenly become parched and/or hungry \u2014 and often both \u2014
+p41
+aVand sprint off for a drink and some food.
+p42
+aVAnd you'll be left in peace to talk to the person you really want to talk to.
+p43
+aa(lp44
+VIt's one of the challenges in our profession to try and explain what we do.
+p45
+aVWe're not top on people's lists for dinner party guests and conversations and so on.
+p46
+aVAnd it's something I've never really found a good way of doing.
+p47
+aVBut my wife \u2014 who was then my girlfriend \u2014
+p48
+aVmanaged it much better than I've ever been able to.
+p49
+aVMany years ago, when we first started going out, she was working for the BBC in Britain,
+p50
+aVand I was, at that stage, working in America.
+p51
+aVI was coming back to visit her.
+p52
+aVShe told this to one of her colleagues, who said, "Well, what does your boyfriend do?"
+p53
+aVSarah thought quite hard about the things I'd explained \u2014
+p54
+aVand she concentrated, in those days, on listening.
+p55
+aV(Laughter)
+p56
+aVDon't tell her I said that.
+p57
+aVAnd she was thinking about the work I did developing mathematical models
+p58
+aVfor understanding evolution and modern genetics.
+p59
+aVSo when her colleague said, "What does he do?"
+p60
+aVShe paused and said, "He models things."
+p61
+aV(Laughter)
+p62
+aVWell, her colleague suddenly got much more interested than I had any right to expect
+p63
+aVand went on and said, "What does he model?"
+p64
+aVWell, Sarah thought a little bit more about my work and said, "Genes."
+p65
+aV(Laughter)
+p66
+aV"He models genes."
+p67
+aa(lp68
+VThat is my first love, and that's what I'll tell you a little bit about.
+p69
+aVWhat I want to do more generally is to get you thinking about
+p70
+aVthe place of uncertainty and randomness and chance in our world,
+p71
+aVand how we react to that, and how well we do or don't think about it.
+p72
+aVSo you've had a pretty easy time up till now \u2014
+p73
+aVa few laughs, and all that kind of thing \u2014 in the talks to date.
+p74
+aVYou've got to think, and I'm going to ask you some questions.
+p75
+aVSo here's the scene for the first question I'm going to ask you.
+p76
+aVCan you imagine tossing a coin successively?
+p77
+aVAnd for some reason \u2014 which shall remain rather vague \u2014
+p78
+aVwe're interested in a particular pattern.
+p79
+aVHere's one \u2014 a head, followed by a tail, followed by a tail.
+p80
+aa(lp81
+VSo suppose we toss a coin repeatedly.
+p82
+aVThen the pattern, head-tail-tail, that we've suddenly become fixated with happens here.
+p83
+aVAnd you can count: one, two, three, four, five, six, seven, eight, nine, 10 \u2014
+p84
+aVit happens after the 10th toss.
+p85
+aVSo you might think there are more interesting things to do, but humor me for the moment.
+p86
+aVImagine this half of the audience each get out coins, and they toss them
+p87
+aVuntil they first see the pattern head-tail-tail.
+p88
+aVThe first time they do it, maybe it happens after the 10th toss, as here.
+p89
+aVThe second time, maybe it's after the fourth toss.
+p90
+aVThe next time, after the 15th toss.
+p91
+aVSo you do that lots and lots of times, and you average those numbers.
+p92
+aVThat's what I want this side to think about.
+p93
+aa(lp94
+VThe other half of the audience doesn't like head-tail-tail \u2014
+p95
+aVthey think, for deep cultural reasons, that's boring \u2014
+p96
+aVand they're much more interested in a different pattern \u2014 head-tail-head.
+p97
+aVSo, on this side, you get out your coins, and you toss and toss and toss.
+p98
+aVAnd you count the number of times until the pattern head-tail-head appears
+p99
+aVand you average them. OK?
+p100
+aVSo on this side, you've got a number \u2014
+p101
+aVyou've done it lots of times, so you get it accurately \u2014
+p102
+aVwhich is the average number of tosses until head-tail-tail.
+p103
+aVOn this side, you've got a number \u2014 the average number of tosses until head-tail-head.
+p104
+aa(lp105
+VSo here's a deep mathematical fact \u2014
+p106
+aVif you've got two numbers, one of three things must be true.
+p107
+aVEither they're the same, or this one's bigger than this one,
+p108
+aVor this one's bigger than that one.
+p109
+aVSo what's going on here?
+p110
+aVSo you've all got to think about this, and you've all got to vote \u2014
+p111
+aVand we're not moving on.
+p112
+aVAnd I don't want to end up in the two-minute silence
+p113
+aVto give you more time to think about it, until everyone's expressed a view. OK.
+p114
+aVSo what you want to do is compare the average number of tosses until we first see
+p115
+aVhead-tail-head with the average number of tosses until we first see head-tail-tail.
+p116
+aa(lp117
+VWho thinks that A is true \u2014
+p118
+aVthat, on average, it'll take longer to see head-tail-head than head-tail-tail?
+p119
+aVWho thinks that B is true \u2014 that on average, they're the same?
+p120
+aVWho thinks that C is true \u2014 that, on average, it'll take less time
+p121
+aVto see head-tail-head than head-tail-tail?
+p122
+aVOK, who hasn't voted yet? Because that's really naughty \u2014 I said you had to.
+p123
+aV(Laughter)
+p124
+aVOK. So most people think B is true.
+p125
+aVAnd you might be relieved to know even rather distinguished mathematicians think that.
+p126
+aVIt's not. A is true here.
+p127
+aVIt takes longer, on average.
+p128
+aVIn fact, the average number of tosses till head-tail-head is 10
+p129
+aVand the average number of tosses until head-tail-tail is eight.
+p130
+aVHow could that be?
+p131
+aVAnything different about the two patterns?
+p132
+aVThere is. Head-tail-head overlaps itself.
+p133
+aVIf you went head-tail-head-tail-head, you can cunningly get two occurrences
+p134
+aVof the pattern in only five tosses.
+p135
+aVYou can't do that with head-tail-tail.
+p136
+aVThat turns out to be important.
+p137
+aa(lp138
+VThere are two ways of thinking about this.
+p139
+aVI'll give you one of them.
+p140
+aVSo imagine \u2014 let's suppose we're doing it.
+p141
+aVOn this side \u2014 remember, you're excited about head-tail-tail;
+p142
+aVyou're excited about head-tail-head.
+p143
+aVWe start tossing a coin, and we get a head \u2014
+p144
+aVand you start sitting on the edge of your seat
+p145
+aVbecause something great and wonderful, or awesome, might be about to happen.
+p146
+aVThe next toss is a tail \u2014 you get really excited.
+p147
+aVThe champagne's on ice just next to you; you've got the glasses chilled to celebrate.
+p148
+aVYou're waiting with bated breath for the final toss.
+p149
+aVAnd if it comes down a head, that's great.
+p150
+aVYou're done, and you celebrate.
+p151
+aVIf it's a tail \u2014 well, rather disappointedly, you put the glasses away
+p152
+aVand put the champagne back.
+p153
+aVAnd you keep tossing, to wait for the next head, to get excited.
+p154
+aa(lp155
+VOn this side, there's a different experience.
+p156
+aVIt's the same for the first two parts of the sequence.
+p157
+aVYou're a little bit excited with the first head \u2014
+p158
+aVyou get rather more excited with the next tail.
+p159
+aVThen you toss the coin.
+p160
+aVIf it's a tail, you crack open the champagne.
+p161
+aVIf it's a head you're disappointed,
+p162
+aVbut you're still a third of the way to your pattern again.
+p163
+aVAnd that's an informal way of presenting it \u2014 that's why there's a difference.
+p164
+aVAnother way of thinking about it \u2014
+p165
+aVif we tossed a coin eight million times,
+p166
+aVthen we'd expect a million head-tail-heads
+p167
+aVand a million head-tail-tails \u2014 but the head-tail-heads could occur in clumps.
+p168
+aVSo if you want to put a million things down amongst eight million positions
+p169
+aVand you can have some of them overlapping, the clumps will be further apart.
+p170
+aVIt's another way of getting the intuition.
+p171
+aa(lp172
+VWhat's the point I want to make?
+p173
+aVIt's a very, very simple example, an easily stated question in probability,
+p174
+aVwhich every \u2014 you're in good company \u2014 everybody gets wrong.
+p175
+aVThis is my little diversion into my real passion, which is genetics.
+p176
+aVThere's a connection between head-tail-heads and head-tail-tails in genetics,
+p177
+aVand it's the following.
+p178
+aVWhen you toss a coin, you get a sequence of heads and tails.
+p179
+aVWhen you look at DNA, there's a sequence of not two things \u2014 heads and tails \u2014
+p180
+aVbut four letters \u2014 As, Gs, Cs and Ts.
+p181
+aVAnd there are little chemical scissors, called restriction enzymes
+p182
+aVwhich cut DNA whenever they see particular patterns.
+p183
+aVAnd they're an enormously useful tool in modern molecular biology.
+p184
+aVAnd instead of asking the question, "How long until I see a head-tail-head?" \u2014
+p185
+aVyou can ask, "How big will the chunks be when I use a restriction enzyme
+p186
+aVwhich cuts whenever it sees G-A-A-G, for example?
+p187
+aVHow long will those chunks be?"
+p188
+aa(lp189
+VThat's a rather trivial connection between probability and genetics.
+p190
+aVThere's a much deeper connection, which I don't have time to go into
+p191
+aVand that is that modern genetics is a really exciting area of science.
+p192
+aVAnd we'll hear some talks later in the conference specifically about that.
+p193
+aVBut it turns out that unlocking the secrets in the information generated by modern
+p194
+aVexperimental technologies, a key part of that has to do with fairly sophisticated \u2014
+p195
+aVyou'll be relieved to know that I do something useful in my day job,
+p196
+aVrather more sophisticated than the head-tail-head story \u2014
+p197
+aVbut quite sophisticated computer modelings and mathematical modelings
+p198
+aVand modern statistical techniques.
+p199
+aVAnd I will give you two little snippets \u2014 two examples \u2014
+p200
+aVof projects we're involved in in my group in Oxford,
+p201
+aVboth of which I think are rather exciting.
+p202
+aVYou know about the Human Genome Project.
+p203
+aVThat was a project which aimed to read one copy of the human genome.
+p204
+aVThe natural thing to do after you've done that \u2014
+p205
+aVand that's what this project, the International HapMap Project,
+p206
+aVwhich is a collaboration between labs in five or six different countries.
+p207
+aVThink of the Human Genome Project as learning what we've got in common,
+p208
+aVand the HapMap Project is trying to understand
+p209
+aVwhere there are differences between different people.
+p210
+aa(lp211
+VWhy do we care about that?
+p212
+aVWell, there are lots of reasons.
+p213
+aVThe most pressing one is that we want to understand how some differences
+p214
+aVmake some people susceptible to one disease \u2014 type-2 diabetes, for example \u2014
+p215
+aVand other differences make people more susceptible to heart disease,
+p216
+aVor stroke, or autism and so on.
+p217
+aVThat's one big project.
+p218
+aVThere's a second big project,
+p219
+aVrecently funded by the Wellcome Trust in this country,
+p220
+aVinvolving very large studies \u2014
+p221
+aVthousands of individuals, with each of eight different diseases,
+p222
+aVcommon diseases like type-1 and type-2 diabetes, and coronary heart disease,
+p223
+aVbipolar disease and so on \u2014 to try and understand the genetics.
+p224
+aVTo try and understand what it is about genetic differences that causes the diseases.
+p225
+aVWhy do we want to do that?
+p226
+aVBecause we understand very little about most human diseases.
+p227
+aVWe don't know what causes them.
+p228
+aVAnd if we can get in at the bottom and understand the genetics,
+p229
+aVwe'll have a window on the way the disease works,
+p230
+aVand a whole new way about thinking about disease therapies
+p231
+aVand preventative treatment and so on.
+p232
+aVSo that's, as I said, the little diversion on my main love.
+p233
+aa(lp234
+VBack to some of the more mundane issues of thinking about uncertainty.
+p235
+aVHere's another quiz for you \u2014
+p236
+aVnow suppose we've got a test for a disease
+p237
+aVwhich isn't infallible, but it's pretty good.
+p238
+aVIt gets it right 99 percent of the time.
+p239
+aVAnd I take one of you, or I take someone off the street,
+p240
+aVand I test them for the disease in question.
+p241
+aVLet's suppose there's a test for HIV \u2014 the virus that causes AIDS \u2014
+p242
+aVand the test says the person has the disease.
+p243
+aVWhat's the chance that they do?
+p244
+aVThe test gets it right 99 percent of the time.
+p245
+aVSo a natural answer is 99 percent.
+p246
+aVWho likes that answer?
+p247
+aVCome on \u2014 everyone's got to get involved.
+p248
+aVDon't think you don't trust me anymore.
+p249
+aV(Laughter)
+p250
+aVWell, you're right to be a bit skeptical, because that's not the answer.
+p251
+aVThat's what you might think.
+p252
+aVIt's not the answer, and it's not because it's only part of the story.
+p253
+aVIt actually depends on how common or how rare the disease is.
+p254
+aVSo let me try and illustrate that.
+p255
+aVHere's a little caricature of a million individuals.
+p256
+aVSo let's think about a disease that affects \u2014
+p257
+aVit's pretty rare, it affects one person in 10,000.
+p258
+aVAmongst these million individuals, most of them are healthy
+p259
+aVand some of them will have the disease.
+p260
+aVAnd in fact, if this is the prevalence of the disease,
+p261
+aVabout 100 will have the disease and the rest won't.
+p262
+aVSo now suppose we test them all.
+p263
+aVWhat happens?
+p264
+aVWell, amongst the 100 who do have the disease,
+p265
+aVthe test will get it right 99 percent of the time, and 99 will test positive.
+p266
+aVAmongst all these other people who don't have the disease,
+p267
+aVthe test will get it right 99 percent of the time.
+p268
+aVIt'll only get it wrong one percent of the time.
+p269
+aVBut there are so many of them that there'll be an enormous number of false positives.
+p270
+aVPut that another way \u2014
+p271
+aVof all of them who test positive \u2014 so here they are, the individuals involved \u2014
+p272
+aVless than one in 100 actually have the disease.
+p273
+aVSo even though we think the test is accurate, the important part of the story is
+p274
+aVthere's another bit of information we need.
+p275
+aa(lp276
+VHere's the key intuition.
+p277
+aVWhat we have to do, once we know the test is positive,
+p278
+aVis to weigh up the plausibility, or the likelihood, of two competing explanations.
+p279
+aVEach of those explanations has a likely bit and an unlikely bit.
+p280
+aVOne explanation is that the person doesn't have the disease \u2014
+p281
+aVthat's overwhelmingly likely, if you pick someone at random \u2014
+p282
+aVbut the test gets it wrong, which is unlikely.
+p283
+aVThe other explanation is that the person does have the disease \u2014 that's unlikely \u2014
+p284
+aVbut the test gets it right, which is likely.
+p285
+aVAnd the number we end up with \u2014
+p286
+aVthat number which is a little bit less than one in 100 \u2014
+p287
+aVis to do with how likely one of those explanations is relative to the other.
+p288
+aVEach of them taken together is unlikely.
+p289
+aa(lp290
+VHere's a more topical example of exactly the same thing.
+p291
+aVThose of you in Britain will know about what's become rather a celebrated case
+p292
+aVof a woman called Sally Clark, who had two babies who died suddenly.
+p293
+aVAnd initially, it was thought that they died of what's known informally as "cot death,"
+p294
+aVand more formally as "Sudden Infant Death Syndrome."
+p295
+aVFor various reasons, she was later charged with murder.
+p296
+aVAnd at the trial, her trial, a very distinguished pediatrician gave evidence
+p297
+aVthat the chance of two cot deaths, innocent deaths, in a family like hers \u2014
+p298
+aVwhich was professional and non-smoking \u2014 was one in 73 million.
+p299
+aVTo cut a long story short, she was convicted at the time.
+p300
+aVLater, and fairly recently, acquitted on appeal \u2014 in fact, on the second appeal.
+p301
+aVAnd just to set it in context, you can imagine how awful it is for someone
+p302
+aVto have lost one child, and then two, if they're innocent,
+p303
+aVto be convicted of murdering them.
+p304
+aVTo be put through the stress of the trial, convicted of murdering them \u2014
+p305
+aVand to spend time in a women's prison, where all the other prisoners
+p306
+aVthink you killed your children \u2014 is a really awful thing to happen to someone.
+p307
+aVAnd it happened in large part here because the expert got the statistics
+p308
+aVhorribly wrong, in two different ways.
+p309
+aa(lp310
+VSo where did he get the one in 73 million number?
+p311
+aVHe looked at some research, which said the chance of one cot death in a family
+p312
+aVlike Sally Clark's is about one in 8,500.
+p313
+aVSo he said, "I'll assume that if you have one cot death in a family,
+p314
+aVthe chance of a second child dying from cot death aren't changed."
+p315
+aVSo that's what statisticians would call an assumption of independence.
+p316
+aVIt's like saying, "If you toss a coin and get a head the first time,
+p317
+aVthat won't affect the chance of getting a head the second time."
+p318
+aVSo if you toss a coin twice, the chance of getting a head twice are a half \u2014
+p319
+aVthat's the chance the first time \u2014 times a half \u2014 the chance a second time.
+p320
+aVSo he said, "Here,
+p321
+aVI'll assume that these events are independent.
+p322
+aVWhen you multiply 8,500 together twice,
+p323
+aVyou get about 73 million."
+p324
+aVAnd none of this was stated to the court as an assumption
+p325
+aVor presented to the jury that way.
+p326
+aVUnfortunately here \u2014 and, really, regrettably \u2014
+p327
+aVfirst of all, in a situation like this you'd have to verify it empirically.
+p328
+aVAnd secondly, it's palpably false.
+p329
+aVThere are lots and lots of things that we don't know about sudden infant deaths.
+p330
+aVIt might well be that there are environmental factors that we're not aware of,
+p331
+aVand it's pretty likely to be the case that there are
+p332
+aVgenetic factors we're not aware of.
+p333
+aVSo if a family suffers from one cot death, you'd put them in a high-risk group.
+p334
+aVThey've probably got these environmental risk factors
+p335
+aVand/or genetic risk factors we don't know about.
+p336
+aVAnd to argue, then, that the chance of a second death is as if you didn't know
+p337
+aVthat information is really silly.
+p338
+aVIt's worse than silly \u2014 it's really bad science.
+p339
+aVNonetheless, that's how it was presented, and at trial nobody even argued it.
+p340
+aVThat's the first problem.
+p341
+aVThe second problem is, what does the number of one in 73 million mean?
+p342
+aVSo after Sally Clark was convicted \u2014
+p343
+aVyou can imagine, it made rather a splash in the press \u2014
+p344
+aVone of the journalists from one of Britain's more reputable newspapers wrote that
+p345
+aVwhat the expert had said was,
+p346
+aV"The chance that she was innocent was one in 73 million."
+p347
+aVNow, that's a logical error.
+p348
+aVIt's exactly the same logical error as the logical error of thinking that
+p349
+aVafter the disease test, which is 99 percent accurate,
+p350
+aVthe chance of having the disease is 99 percent.
+p351
+aVIn the disease example, we had to bear in mind two things,
+p352
+aVone of which was the possibility that the test got it right or not.
+p353
+aVAnd the other one was the chance, a priori, that the person had the disease or not.
+p354
+aVIt's exactly the same in this context.
+p355
+aVThere are two things involved \u2014 two parts to the explanation.
+p356
+aVWe want to know how likely, or relatively how likely, two different explanations are.
+p357
+aVOne of them is that Sally Clark was innocent \u2014
+p358
+aVwhich is, a priori, overwhelmingly likely \u2014
+p359
+aVmost mothers don't kill their children.
+p360
+aVAnd the second part of the explanation
+p361
+aVis that she suffered an incredibly unlikely event.
+p362
+aVNot as unlikely as one in 73 million, but nonetheless rather unlikely.
+p363
+aVThe other explanation is that she was guilty.
+p364
+aVNow, we probably think a priori that's unlikely.
+p365
+aVAnd we certainly should think in the context of a criminal trial
+p366
+aVthat that's unlikely, because of the presumption of innocence.
+p367
+aVAnd then if she were trying to kill the children, she succeeded.
+p368
+aVSo the chance that she's innocent isn't one in 73 million.
+p369
+aVWe don't know what it is.
+p370
+aVIt has to do with weighing up the strength of the other evidence against her
+p371
+aVand the statistical evidence.
+p372
+aVWe know the children died.
+p373
+aVWhat matters is how likely or unlikely, relative to each other,
+p374
+aVthe two explanations are.
+p375
+aVAnd they're both implausible.
+p376
+aVThere's a situation where errors in statistics had really profound
+p377
+aVand really unfortunate consequences.
+p378
+aVIn fact, there are two other women who were convicted on the basis of the
+p379
+aVevidence of this pediatrician, who have subsequently been released on appeal.
+p380
+aVMany cases were reviewed.
+p381
+aVAnd it's particularly topical because he's currently facing a disrepute charge
+p382
+aVat Britain's General Medical Council.
+p383
+aa(lp384
+VSo just to conclude \u2014 what are the take-home messages from this?
+p385
+aVWell, we know that randomness and uncertainty and chance
+p386
+aVare very much a part of our everyday life.
+p387
+aVIt's also true \u2014 and, although, you, as a collective, are very special in many ways,
+p388
+aVyou're completely typical in not getting the examples I gave right.
+p389
+aVIt's very well documented that people get things wrong.
+p390
+aVThey make errors of logic in reasoning with uncertainty.
+p391
+aVWe can cope with the subtleties of language brilliantly \u2014
+p392
+aVand there are interesting evolutionary questions about how we got here.
+p393
+aVWe are not good at reasoning with uncertainty.
+p394
+aVThat's an issue in our everyday lives.
+p395
+aVAs you've heard from many of the talks, statistics underpins an enormous amount
+p396
+aVof research in science \u2014 in social science, in medicine
+p397
+aVand indeed, quite a lot of industry.
+p398
+aVAll of quality control, which has had a major impact on industrial processing,
+p399
+aVis underpinned by statistics.
+p400
+aVIt's something we're bad at doing.
+p401
+aVAt the very least, we should recognize that, and we tend not to.
+p402
+aVTo go back to the legal context, at the Sally Clark trial
+p403
+aVall of the lawyers just accepted what the expert said.
+p404
+aVSo if a pediatrician had come out and said to a jury,
+p405
+aV"I know how to build bridges. I've built one down the road.
+p406
+aVPlease drive your car home over it,"
+p407
+aVthey would have said, "Well, pediatricians don't know how to build bridges.
+p408
+aVThat's what engineers do."
+p409
+aVOn the other hand, he came out and effectively said, or implied,
+p410
+aV"I know how to reason with uncertainty. I know how to do statistics."
+p411
+aVAnd everyone said, "Well, that's fine. He's an expert."
+p412
+aVSo we need to understand where our competence is and isn't.
+p413
+aVExactly the same kinds of issues arose in the early days of DNA profiling,
+p414
+aVwhen scientists, and lawyers and in some cases judges,
+p415
+aVroutinely misrepresented evidence.
+p416
+aVUsually \u2014 one hopes \u2014 innocently, but misrepresented evidence.
+p417
+aVForensic scientists said, "The chance that this guy's innocent is one in three million."
+p418
+aVEven if you believe the number, just like the 73 million to one,
+p419
+aVthat's not what it meant.
+p420
+aVAnd there have been celebrated appeal cases
+p421
+aVin Britain and elsewhere because of that.
+p422
+aa(lp423
+VAnd just to finish in the context of the legal system.
+p424
+aVIt's all very well to say, "Let's do our best to present the evidence."
+p425
+aVBut more and more, in cases of DNA profiling \u2014 this is another one \u2014
+p426
+aVwe expect juries, who are ordinary people \u2014
+p427
+aVand it's documented they're very bad at this \u2014
+p428
+aVwe expect juries to be able to cope with the sorts of reasoning that goes on.
+p429
+aVIn other spheres of life, if people argued \u2014 well, except possibly for politics \u2014
+p430
+aVbut in other spheres of life, if people argued illogically,
+p431
+aVwe'd say that's not a good thing.
+p432
+aVWe sort of expect it of politicians and don't hope for much more.
+p433
+aVIn the case of uncertainty, we get it wrong all the time \u2014
+p434
+aVand at the very least, we should be aware of that,
+p435
+aVand ideally, we might try and do something about it.
+p436
+aVThanks very much.
+p437
+aasS'transcript_micsec'
+p438
+(lp439
+I11000
+aI126000
+aI197000
+aI233000
+aI269000
+aI297000
+aI327000
+aI392000
+aI431000
+aI476000
+aI526000
+aI594000
+aI655000
+aI770000
+aI815000
+aI887000
+aI1119000
+aI1234000
+asS'talk_meta'
+p440
+(dp441
+S'ratings'
+p442
+(dp443
+S'beautiful'
+p444
+I13
+sS'funny'
+p445
+I103
+sS'ingenious'
+p446
+I106
+sS'ok'
+p447
+I75
+sS'fascinating'
+p448
+I357
+sS'total_count'
+p449
+I2218
+sS'persuasive'
+p450
+I364
+sS'inspiring'
+p451
+I87
+sS'longwinded'
+p452
+I98
+sS'informative'
+p453
+I847
+sS'jaw-dropping'
+p454
+I73
+sS'unconvincing'
+p455
+I2
+sS'obnoxious'
+p456
+I11
+sS'courageous'
+p457
+I15
+sS'confusing'
+p458
+I67
+ssS'author'
+p459
+VPeter_Donnelly;
+p460
+sS'url'
+p461
+S'https://www.ted.com/talks/peter_donnelly_shows_how_stats_fool_juries'
+p462
+sS'vidlen'
+p463
+I1280
+sS'totalviews'
+p464
+I1059203
+sS'title'
+p465
+VHow juries are fooled by statistics
+p466
+sS'downloadlink'
+p467
+Vhttps://download.ted.com/talks/PeterDonnelly_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p468
+sS'datepublished'
+p469
+cdatetime
+datetime
+p470
+(S'\x07\xd6\x0b\x07\x13\x0b\x00\x00\x00\x00'
+tRp471
+sS'datefilmed'
+p472
+g470
+(S'\x07\xd6\x0b\x07\x13\x0b\x00\x00\x00\x00'
+tRp473
+sS'alldata_JSON'
+p474
+S'{"viewed_count": 1059203, "speakers": [{"description": "Mathematician; statistician", "firstname": "Peter", "title": "", "lastname": "Donnelly", "middleinitial": "", "whylisten": "<p>Peter Donnelly applies statistical methods to real-world problems, ranging from DNA analysis (for criminal trials), to the treatment of genetic disorders. <strong>A mathematician who collaborates with biologists</strong>, he specializes in applying probability and statistics to the field of genetics, in hopes of shedding light on evolutionary history and the structure of the human genome.</p><p>The Australian-born, Oxford-based mathematician is best known for his work in molecular evolution (tracing the roots of human existence to their earliest origins using the mutation rates of mitochondrial DNA). He studies genetic distributions in living populations to trace human evolutionary history -- an approach that informs research in evolutionary biology, as well as medical treatment for genetic disorders. Donnelly is a key player in the <a href=\\"http://www.hapmap.org/\\" target=\\"_blank\\">International HapMap Project</a>, an ongoing international effort to model human genetic variation and <strong>pinpoint the genes responsible for specific aspects of health and disease;</strong> its implications for disease prevention and treatment are vast. </p><p>He&#39;s also a leading expert on DNA analysis and the use of forensic science in criminal trials; he&#39;s <strong>an outspoken advocate for bringing sensible statistical analysis into the courtroom</strong>. Donnelly leads Oxford University&#39;s <a href=\\"http://www.stats.ox.ac.uk/~mcvean/group.html\\" target=\\"_blank\\">Mathematical Genetics Group</a>, which conducts research in genetic modeling, human evolutionary history, and forensic DNA profiling. He is also serves as Director of the Wellcome Trust Centre for Human Genetics at Oxford University, which explores the genetic relationships to disease and illness.&nbsp;</p>", "slug": "peter_donnelly", "whotheyare": "Peter Donnelly is an expert in probability theory who applies statistical methods to genetic data -- spurring advances in disease treatment and insight on our evolution. He\'s also an expert on DNA analysis, and an advocate for sensible statistical analysis in the courtroom.", "whatotherssay": "Donnelly is at the forefront of looking at the variation of genes within the human species to try and find out what is really relevant to disease. He has developed a fundamental framework for analyzing genome data that is leading to conclusions about human evolution, and even early human history.", "id": 63, "photo_url": "https://pe.tedcdn.com/images/ted/1298_254x191.jpg"}], "current_talk": 67, "description": "Oxford mathematician Peter Donnelly reveals the common mistakes humans make in interpreting statistics -- and the devastating impact these errors can have on the outcome of criminal trials.", "language": "en", "url": "https://www.ted.com/talks/peter_donnelly_shows_how_stats_fool_juries", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 148855576}, "podcast-low-en": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29390151}, "podcast-high": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 148846084}, "180k": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29312407}, "64k": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10535156}, "1500k": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 232357692}, "450k": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 72689948}, "podcast-regular": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 72747308}, "950k": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 148739392}, "audio-podcast": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4843514}, "podcast-light": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10631656}, "320k": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 51827350}, "600k": {"uri": "https://download.ted.com/talks/PeterDonnelly_2005G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 96625599}}}, "comments": {"count": 105, "id": 65, "talk_id": 67}, "slug": "peter_donnelly_shows_how_stats_fool_juries", "threadId": 65, "talks": [{"event": "TEDGlobal 2005", "player_talks": [{"event": "TEDGlobal 2005", "slug": "peter_donnelly_shows_how_stats_fool_juries", "filmed": 1121299200, "targeting": {"event": "TEDGlobal 2005", "tag": "culture,genetics,science,statistics,technology", "id": 67, "talk": "peter_donnelly_shows_how_stats_fool_juries", "year": "2005"}, "adDuration": "3.33", "external": null, "title": "How juries are fooled by statistics", "postAdDuration": "0.83", "published": 1162944660, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/159_480x360.jpg?quality=89&w=600", "name": "Peter Donnelly: How juries are fooled by statistics", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "nativeLanguage": "en", "tags": ["culture", "genetics", "science", "statistics", "technology"], "speaker": "Peter Donnelly", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1280, "id": 67, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/PeterDonnelly_2005G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2005", "tag": "culture,genetics,science,statistics,technology", "id": 67, "talk": "peter_donnelly_shows_how_stats_fool_juries", "year": "2005"}, "metadata": "https://hls.ted.com/talks/67.json", "stream": "https://hls.ted.com/talks/67.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2005%26id%3D67%26tag%3Dculture%2Cgenetics%2Cscience%2Cstatistics%2Ctechnology%26talk%3Dpeter_donnelly_shows_how_stats_fool_juries%26year%3D2005&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/peter_donnelly_shows_how_stats_fool_juries"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/159_480x360.jpg?q=50&w=15", "duration": 1280, "id": 67, "ratings": [{"count": 103, "id": 7, "name": "Funny"}, {"count": 67, "id": 2, "name": "Confusing"}, {"count": 13, "id": 1, "name": "Beautiful"}, {"count": 98, "id": 11, "name": "Longwinded"}, {"count": 106, "id": 9, "name": "Ingenious"}, {"count": 847, "id": 8, "name": "Informative"}, {"count": 87, "id": 10, "name": "Inspiring"}, {"count": 357, "id": 22, "name": "Fascinating"}, {"count": 364, "id": 24, "name": "Persuasive"}, {"count": 73, "id": 23, "name": "Jaw-dropping"}, {"count": 75, "id": 25, "name": "OK"}, {"count": 15, "id": 3, "name": "Courageous"}, {"count": 11, "id": 26, "name": "Obnoxious"}, {"count": 2, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Mathematician; statistician", "firstname": "Peter", "title": "", "lastname": "Donnelly", "middleinitial": "", "whylisten": "<p>Peter Donnelly applies statistical methods to real-world problems, ranging from DNA analysis (for criminal trials), to the treatment of genetic disorders. <strong>A mathematician who collaborates with biologists</strong>, he specializes in applying probability and statistics to the field of genetics, in hopes of shedding light on evolutionary history and the structure of the human genome.</p><p>The Australian-born, Oxford-based mathematician is best known for his work in molecular evolution (tracing the roots of human existence to their earliest origins using the mutation rates of mitochondrial DNA). He studies genetic distributions in living populations to trace human evolutionary history -- an approach that informs research in evolutionary biology, as well as medical treatment for genetic disorders. Donnelly is a key player in the <a href=\\"http://www.hapmap.org/\\" target=\\"_blank\\">International HapMap Project</a>, an ongoing international effort to model human genetic variation and <strong>pinpoint the genes responsible for specific aspects of health and disease;</strong> its implications for disease prevention and treatment are vast. </p><p>He&#39;s also a leading expert on DNA analysis and the use of forensic science in criminal trials; he&#39;s <strong>an outspoken advocate for bringing sensible statistical analysis into the courtroom</strong>. Donnelly leads Oxford University&#39;s <a href=\\"http://www.stats.ox.ac.uk/~mcvean/group.html\\" target=\\"_blank\\">Mathematical Genetics Group</a>, which conducts research in genetic modeling, human evolutionary history, and forensic DNA profiling. He is also serves as Director of the Wellcome Trust Centre for Human Genetics at Oxford University, which explores the genetic relationships to disease and illness.&nbsp;</p>", "slug": "peter_donnelly", "whotheyare": "Peter Donnelly is an expert in probability theory who applies statistical methods to genetic data -- spurring advances in disease treatment and insight on our evolution. He\'s also an expert on DNA analysis, and an advocate for sensible statistical analysis in the courtroom.", "whatotherssay": "Donnelly is at the forefront of looking at the variation of genes within the human species to try and find out what is really relevant to disease. He has developed a fundamental framework for analyzing genome data that is leading to conclusions about human evolution, and even early human history.", "id": 63, "photo_url": "https://pe.tedcdn.com/images/ted/1298_254x191.jpg"}], "title": "How juries are fooled by statistics", "take_action": null, "comments": 65, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/159_480x360.jpg", "description": "Oxford mathematician Peter Donnelly reveals the common mistakes humans make in interpreting statistics -- and the devastating impact these errors can have on the outcome of criminal trials.", "tags": ["culture", "genetics", "science", "statistics", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-it.mp4"}, "hu": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-hu.mp4"}, "tr": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-bg.mp4"}, "ro": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/PeterDonnelly_2005G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/PeterDonnelly_2005G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/PeterDonnelly_2005G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 67, "audioDownload": "https://download.ted.com/talks/PeterDonnelly_2005G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 12072148, "hero": "https://pe.tedcdn.com/images/ted/e80b905b26a61aba089bd928fc4c2bd4180e836e_2880x1620.jpg", "title": "The best stats you\'ve ever seen", "id": 92, "speaker": "Hans Rosling", "duration": 1190, "slug": "hans_rosling_shows_the_best_stats_you_ve_ever_seen"}, {"viewed_count": 5390502, "hero": "https://pe.tedcdn.com/images/ted/f9e5462fd10b5130015fab95f3be6ace3e0f4ef4_1600x1200.jpg", "title": "Why people believe weird things", "id": 22, "speaker": "Michael Shermer", "duration": 805, "slug": "michael_shermer_on_believing_strange_things"}, {"viewed_count": 856805, "hero": "https://pe.tedcdn.com/images/ted/e58b968c458adc84ee220376f1e5eb1e1d6c55e9_2880x1620.jpg", "title": "Flip your thinking on AIDS in Africa", "id": 143, "speaker": "Emily Oster", "duration": 934, "slug": "emily_oster_flips_our_thinking_on_aids_in_africa"}, {"viewed_count": 667362, "hero": "https://pe.tedcdn.com/images/ted/95709_800x600.jpg", "title": "Learning from the gecko\'s tail", "id": 571, "speaker": "Robert Full", "duration": 714, "slug": "robert_full_learning_from_the_gecko_s_tail"}, {"viewed_count": 965905, "hero": "https://pe.tedcdn.com/images/ted/70ee482d06c15e4d3f7db396870384ab35294218_1600x1200.jpg", "title": "The hunt for \\"unexpected genetic heroes\\"", "id": 2004, "speaker": "Stephen Friend", "duration": 639, "slug": "stephen_friend_the_hunt_for_unexpected_genetic_heroes"}, {"viewed_count": 940650, "hero": "https://pe.tedcdn.com/images/ted/9bc640b20279407210057ac27fcdb7c5164151df_2880x1620.jpg", "title": "What really motivates people to be honest in business", "id": 2835, "speaker": "Alexander Wagner", "duration": 808, "slug": "alexander_wagner_what_really_motivates_people_to_be_honest_in_business"}], "recorded_at": "2005-07-14T00:00:00.000+00:00", "slug": "peter_donnelly_shows_how_stats_fool_juries", "speaker_name": "Peter Donnelly", "viewed_count": 1059203, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal 2005", "name": "Peter Donnelly: How juries are fooled by statistics"}'
+p475
+sS'keywords'
+p476
+(lp477
+Vculture
+p478
+aVgenetics
+p479
+aVscience
+p480
+aVstatistics
+p481
+aVtechnology
+p482
+asS'datecrawled'
+p483
+g470
+(S'\x07\xe1\n\x17\x02\x06\x07\x04\x11`'
+tRp484
+sS'id'
+p485
+I67
+ss.

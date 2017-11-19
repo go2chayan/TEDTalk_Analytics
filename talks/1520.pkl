@@ -1,0 +1,582 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VDoc Edgerton inspired us with awe and curiosity
+p5
+aVwith this photo of a bullet piercing through an apple,
+p6
+aVand exposure just a millionth of a second.
+p7
+aVBut now, 50 years later, we can go a million times faster
+p8
+aVand see the world not at a million or a billion,
+p9
+aVbut one trillion frames per second.
+p10
+aa(lp11
+VI present to you a new type of photography,
+p12
+aVfemto-photography,
+p13
+aVa new imaging technique so fast
+p14
+aVthat it can create slow motion videos of light in motion.
+p15
+aVAnd with that, we can create cameras that can look around corners,
+p16
+aVbeyond line of sight,
+p17
+aVor see inside our body without an x-ray,
+p18
+aVand really challenge what we mean by a camera.
+p19
+aa(lp20
+VNow if I take a laser pointer and turn it on and off
+p21
+aVin one trillionth of a second \u2014
+p22
+aVwhich is several femtoseconds \u2014
+p23
+aVI'll create a packet of photons barely a millimeter wide.
+p24
+aVAnd that packet of photons, that bullet,
+p25
+aVwill travel at the speed of light,
+p26
+aVand again, a million times faster than an ordinary bullet.
+p27
+aVNow, if you take that bullet and take this packet of photons
+p28
+aVand fire into this bottle,
+p29
+aVhow will those photons shatter into this bottle?
+p30
+aVHow does light look in slow motion?
+p31
+aa(lp32
+V[Light in Slow Motion ... 10 Billion x Slow]
+p33
+aa(lp34
+VNow, the whole event \u2014
+p35
+aa(lp36
+V(Applause)
+p37
+aa(lp38
+VNow remember, the whole event is effectively taking place
+p39
+aVin less than a nanosecond \u2014
+p40
+aVthat's how much time it takes for light to travel.
+p41
+aVBut I'm slowing down in this video by a factor of 10 billion,
+p42
+aVso you can see the light in motion.
+p43
+aa(lp44
+V(Laughter)
+p45
+aa(lp46
+VBut Coca-Cola did not sponsor this research.
+p47
+aa(lp48
+V(Laughter)
+p49
+aa(lp50
+VNow, there's a lot going on in this movie,
+p51
+aVso let me break this down and show you what's going on.
+p52
+aVSo the pulse enters the bottle, our bullet,
+p53
+aVwith a packet of photons that start traveling through
+p54
+aVand that start scattering inside.
+p55
+aVSome of the light leaks, goes on the table,
+p56
+aVand you start seeing these ripples of waves.
+p57
+aVMany of the photons eventually reach the cap
+p58
+aVand then they explode in various directions.
+p59
+aVAs you can see, there's a bubble of air
+p60
+aVand it's bouncing around inside.
+p61
+aVMeanwhile, the ripples are traveling on the table,
+p62
+aVand because of the reflections at the top,
+p63
+aVyou see at the back of the bottle, after several frames,
+p64
+aVthe reflections are focused.
+p65
+aa(lp66
+VNow, if you take an ordinary bullet
+p67
+aVand let it go the same distance and slow down the video \u2014
+p68
+aVagain, by a factor of 10 billion \u2014
+p69
+aVdo you know how long you'll have to sit here to watch that movie?
+p70
+aa(lp71
+V(Laughter)
+p72
+aa(lp73
+VA day, a week? Actually, a whole year.
+p74
+aVIt'll be a very boring movie \u2014
+p75
+aa(lp76
+V(Laughter)
+p77
+aa(lp78
+Vof a slow, ordinary bullet in motion.
+p79
+aa(lp80
+VAnd what about some still-life photography?
+p81
+aVYou can watch the ripples, again, washing over the table,
+p82
+aVthe tomato and the wall in the back.
+p83
+aVIt's like throwing a stone in a pond of water.
+p84
+aa(lp85
+VI thought: this is how nature paints a photo,
+p86
+aVone femto frame at a time,
+p87
+aVbut of course our eye sees an integral composite.
+p88
+aVBut if you look at this tomato one more time,
+p89
+aVyou will notice, as the light washes over the tomato,
+p90
+aVit continues to glow.
+p91
+aVIt doesn't become dark. Why is that?
+p92
+aVBecause the tomato is actually ripe,
+p93
+aVand the light is bouncing around inside the tomato,
+p94
+aVand it comes out after several trillionths of a second.
+p95
+aVSo in the future, when this femto-camera is in your camera phone,
+p96
+aVyou might be able to go to a supermarket
+p97
+aVand check if the fruit is ripe without actually touching it.
+p98
+aa(lp99
+V(Laughter)
+p100
+aa(lp101
+VSo how did my team at MIT create this camera?
+p102
+aVNow, as photographers, you know,
+p103
+aVif you take a short exposure photo, you get very little light.
+p104
+aVBut we're going to go a billion times faster than your shortest exposure,
+p105
+aVso you're going to get hardly any light.
+p106
+aVSo what we do is we send that bullet \u2014
+p107
+aVthat packet of photons \u2014 millions of times,
+p108
+aVand record again and again with very clever synchronization,
+p109
+aVand from the gigabytes of data,
+p110
+aVwe computationally weave together
+p111
+aVto create those femto-videos I showed you.
+p112
+aa(lp113
+VAnd we can take all that raw data and treat it in very interesting ways.
+p114
+aVSo, Superman can fly.
+p115
+aVSome other heroes can become invisible.
+p116
+aVBut what about a new power for a future superhero:
+p117
+aVTo see around corners.
+p118
+aVThe idea is that we could shine some light on the door,
+p119
+aVit's going to bounce, go inside the room,
+p120
+aVsome of that is going to reflect back on the door,
+p121
+aVand then back to the camera.
+p122
+aVAnd we could exploit these multiple bounces of light.
+p123
+aa(lp124
+VAnd it's not science fiction. We have actually built it.
+p125
+aVOn the left, you see our femto-camera.
+p126
+aVThere's a mannequin hidden behind a wall,
+p127
+aVand we're going to bounce light off the door.
+p128
+aa(lp129
+VSo after our paper was published in Nature Communications,
+p130
+aVit was highlighted by Nature.com,
+p131
+aVand they created this animation.
+p132
+aa(lp133
+V(Music)
+p134
+aa(lp135
+V[A laser pulse is fired]
+p136
+aa(lp137
+V(Music)
+p138
+aa(lp139
+VRamesh Raskar: We're going to fire those bullets of light,
+p140
+aVand they're going to hit this wall,
+p141
+aVand because of the packet of the photons,
+p142
+aVthey will scatter in all the directions,
+p143
+aVand some of them will reach our hidden mannequin,
+p144
+aVwhich in turn will again scatter that light,
+p145
+aVand again in turn, the door will reflect some of that scattered light.
+p146
+aVAnd a tiny fraction of the photons will actually come back to the camera,
+p147
+aVbut most interestingly,
+p148
+aVthey will all arrive at a slightly different time slot.
+p149
+aa(lp150
+V(Music)
+p151
+aa(lp152
+VAnd because we have a camera that can run so fast \u2014
+p153
+aVour femto-camera \u2014 it has some unique abilities.
+p154
+aVIt has very good time resolution,
+p155
+aVand it can look at the world at the speed of light.
+p156
+aVAnd this way, we know the distances, of course to the door,
+p157
+aVbut also to the hidden objects,
+p158
+aVbut we don't know which point corresponds to which distance.
+p159
+aa(lp160
+V(Music)
+p161
+aa(lp162
+VBy shining one laser, we can record one raw photo,
+p163
+aVwhich, if you look on the screen, doesn't really make any sense.
+p164
+aVBut then we will take a lot of such pictures,
+p165
+aVdozens of such pictures, put them together,
+p166
+aVand try to analyze the multiple bounces of light,
+p167
+aVand from that, can we see the hidden object?
+p168
+aVCan we see it in full 3D?
+p169
+aa(lp170
+VSo this is our reconstruction.
+p171
+aa(lp172
+V(Music)
+p173
+aa(lp174
+V(Applause)
+p175
+aa(lp176
+VNow, we have some ways to go
+p177
+aVbefore we take this outside the lab on the road,
+p178
+aVbut in the future, we could create cars that avoid collisions
+p179
+aVwith what's around the bend.
+p180
+aVOr we can look for survivors in hazardous conditions
+p181
+aVby looking at light reflected through open windows.
+p182
+aVOr we can build endoscopes that can see deep inside the body around occluders,
+p183
+aVand also for cardioscopes.
+p184
+aVBut of course, because of tissue and blood,
+p185
+aVthis is quite challenging,
+p186
+aVso this is really a call for scientists
+p187
+aVto start thinking about femto-photography
+p188
+aVas really a new imaging modality
+p189
+aVto solve the next generation of health-imaging problems.
+p190
+aa(lp191
+VNow, like Doc Edgerton, a scientist himself,
+p192
+aVscience became art \u2014
+p193
+aVan art of ultra-fast photography.
+p194
+aVAnd I realized
+p195
+aVthat all the gigabytes of data that we're collecting every time,
+p196
+aVare not just for scientific imaging.
+p197
+aVBut we can also do a new form of computational photography,
+p198
+aVwith time-lapse and color coding.
+p199
+aVAnd we look at those ripples.
+p200
+aVRemember:
+p201
+aVThe time between each of those ripples is only a few trillionths of a second.
+p202
+aa(lp203
+VBut there's also something funny going on here.
+p204
+aVWhen you look at the ripples under the cap,
+p205
+aVthe ripples are moving away from us.
+p206
+aVThe ripples should be moving towards us.
+p207
+aVWhat's going on here?
+p208
+aa(lp209
+VIt turns out, because we're recording nearly at the speed of light,
+p210
+aVwe have strange effects,
+p211
+aVand Einstein would have loved to see this picture.
+p212
+aa(lp213
+V(Laughter)
+p214
+aa(lp215
+VThe order at which events take place in the world
+p216
+aVappears in the camera sometimes in reversed order.
+p217
+aVSo by applying the corresponding space and time warp,
+p218
+aVwe can correct for this distortion.
+p219
+aa(lp220
+VSo whether it's for photography around corners,
+p221
+aVor creating the next generation of health imaging,
+p222
+aVor creating new visualizations,
+p223
+aVsince our invention,
+p224
+aVwe have open-sourced all the data and details on our website,
+p225
+aVand our hope is that the DIY, the creative and the research communities
+p226
+aVwill show us that we should stop obsessing about the megapixels in cameras \u2014
+p227
+aa(lp228
+V(Laughter)
+p229
+aa(lp230
+Vand start focusing on the next dimension in imaging.
+p231
+aVIt's about time.
+p232
+aa(lp233
+VThank you.
+p234
+aa(lp235
+V(Applause)
+p236
+aasS'transcript_micsec'
+p237
+(lp238
+I11000
+aI44000
+aI77000
+aI115000
+aI137000
+aI138000
+aI145000
+aI160000
+aI161000
+aI163000
+aI166000
+aI204000
+aI219000
+aI220000
+aI227000
+aI229000
+aI233000
+aI258000
+aI298000
+aI299000
+aI332000
+aI363000
+aI373000
+aI381000
+aI383000
+aI386000
+aI389000
+aI419000
+aI424000
+aI445000
+aI449000
+aI469000
+aI471000
+aI476000
+aI483000
+aI524000
+aI559000
+aI571000
+aI583000
+aI584000
+aI599000
+aI630000
+aI631000
+aI638000
+aI639000
+asS'talk_meta'
+p239
+(dp240
+S'ratings'
+p241
+(dp242
+S'ingenious'
+p243
+I657
+sS'beautiful'
+p244
+I220
+sS'inspiring'
+p245
+I322
+sS'ok'
+p246
+I21
+sS'fascinating'
+p247
+I914
+sS'funny'
+p248
+I27
+sS'total_count'
+p249
+I3844
+sS'persuasive'
+p250
+I39
+sS'longwinded'
+p251
+I8
+sS'unconvincing'
+p252
+I11
+sS'informative'
+p253
+I293
+sS'jaw-dropping'
+p254
+I1295
+sS'obnoxious'
+p255
+I11
+sS'courageous'
+p256
+I16
+sS'confusing'
+p257
+I10
+ssS'author'
+p258
+VRamesh_Raskar;
+p259
+sS'url'
+p260
+S'https://www.ted.com/talks/ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second'
+p261
+sS'vidlen'
+p262
+I662
+sS'totalviews'
+p263
+I4052653
+sS'title'
+p264
+VImaging at a trillion frames per second
+p265
+sS'downloadlink'
+p266
+Vhttps://download.ted.com/talks/RameshRaskar_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p267
+sS'datepublished'
+p268
+cdatetime
+datetime
+p269
+(S'\x07\xdc\x07\x1a\x0b\x01;\x00\x00\x00'
+tRp270
+sS'datefilmed'
+p271
+g269
+(S'\x07\xdc\x07\x1a\x0b\x01;\x00\x00\x00'
+tRp272
+sS'alldata_JSON'
+p273
+S'{"viewed_count": 4052653, "speakers": [{"description": "Femto-photographer", "firstname": "Ramesh", "title": "", "lastname": "Raskar", "middleinitial": "", "whylisten": "<p>In 1964 MIT professor Harold Edgerton, pioneer of stop-action photography, famously took a photo of a bullet piercing an apple using exposures as short as a few nanoseconds. Inspired by his work, Ramesh Raskar and his team set out to create a camera that could capture not just a bullet (traveling at 850 meters per second) but light itself (nearly 300 million meters per second).</p>  <p>Stop a moment to take that in: photographing light as it moves. For that, they built a camera and software that can visualize pictures as if they are recorded at 1 trillion frames per second. The same photon-imaging technology can also be used to create <a href=\\"http://cornar.info\\" target=\\"_blank\\">a camera that can peer &quot;around&quot; corners</a> , by exploiting specific properties of the photons when they bounce off surfaces and objects.</p>  <p>Among the other projects that Raskar is leading, with the MIT Media Lab&#39;s&nbsp;<a href=\\"http://cameraculture.media.mit.edu\\" target=\\"_blank\\">Camera Culture</a>&nbsp;research group, are low-cost eye care devices, a next generation CAT-Scan machine and human-computer interaction systems.</p><p>Papers:&nbsp;</p><p>Andreas Velten, Thomas Willwacher, Otkrist Gupta, Ashok Veeraraghavan, Moungi G. Bawendi and Ramesh Raskar, &ldquo;Recovering ThreeDimensional Shape around a Corner using Ultra-Fast Time-of-Flight Imaging.&rdquo;&nbsp;<a href=\\"http://dx.doi.org/10.1038/ncomms1747\\" target=\\"_blank\\">Nature Communications, March 2012</a></p><p>Andreas Velten, Adrian Jarabo, Belen Masia, Di Wu, Christopher Barsi,&nbsp;Everett Lawson, Chinmaya Joshi, Diego Gutierrez, Moungi G. Bawendi and Ramesh Raskar, &quot;Ultra-fast Imaging for Light in Motion&quot; (in progress).&nbsp;<a href=\\"http://femtocamera.info\\" target=\\"_blank\\">http://femtocamera.info</a> </p>", "slug": "ramesh_raskar", "whotheyare": "Photography is about creating images by recording light. At the MIT media lab, professor Ramesh Raskar and his team members have invented a camera that can photograph light itself as it moves at, well, the speed of light.", "whatotherssay": "Though photographs in the near future will still be composed by people holding cameras, it will gradually become more accurate to say pictures were computed rather than \'taken\' or \'captured.\'", "id": 1328, "photo_url": "https://pe.tedcdn.com/images/ted/7c7541412d2a94258fbbd120eb827fb825398fe0_254x191.jpg"}], "current_talk": 1520, "description": "Ramesh Raskar presents femto-photography, a new type of imaging so fast it visualizes the world one trillion frames per second, so detailed it shows light itself in motion. This technology may someday be used to build cameras that can look \\u201caround\\u201d corners or see inside the body without X-rays.", "language": "en", "url": "https://www.ted.com/talks/ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79556608}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15266462}, "podcast-high": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79244271}, "180k": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15157741}, "64k": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5470653}, "1500k": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 122597285}, "450k": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37728638}, "podcast-regular": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37997114}, "950k": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 79008405}, "audio-podcast": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6783530}, "podcast-light": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5575487}, "320k": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26804700}, "600k": {"uri": "https://download.ted.com/talks/RameshRaskar_2012G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 50537810}}}, "comments": {"count": 405, "id": 14253, "talk_id": 1520}, "slug": "ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second", "threadId": 14253, "talks": [{"event": "TEDGlobal 2012", "player_talks": [{"event": "TEDGlobal 2012", "slug": "ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second", "filmed": 1340841600, "targeting": {"event": "TEDGlobal 2012", "tag": "innovation,invention,photography,technology", "id": 1520, "talk": "ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "Imaging at a trillion frames per second", "postAdDuration": "0.83", "published": 1343314919, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2017a955b9e46bb6fdcffb4982210284d4260483_1600x1200.jpg?quality=89&w=600", "name": "Ramesh Raskar: Imaging at a trillion frames per second", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["innovation", "invention", "photography", "technology"], "speaker": "Ramesh Raskar", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 662, "id": 1520, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RameshRaskar_2012G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2012", "tag": "innovation,invention,photography,technology", "id": 1520, "talk": "ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1520.json", "stream": "https://hls.ted.com/talks/1520.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2012%26id%3D1520%26tag%3Dinnovation%2Cinvention%2Cphotography%2Ctechnology%26talk%3Dramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2017a955b9e46bb6fdcffb4982210284d4260483_1600x1200.jpg?q=50&w=15", "duration": 662, "id": 1520, "ratings": [{"count": 657, "id": 9, "name": "Ingenious"}, {"count": 914, "id": 22, "name": "Fascinating"}, {"count": 220, "id": 1, "name": "Beautiful"}, {"count": 1295, "id": 23, "name": "Jaw-dropping"}, {"count": 322, "id": 10, "name": "Inspiring"}, {"count": 293, "id": 8, "name": "Informative"}, {"count": 10, "id": 2, "name": "Confusing"}, {"count": 11, "id": 26, "name": "Obnoxious"}, {"count": 39, "id": 24, "name": "Persuasive"}, {"count": 11, "id": 21, "name": "Unconvincing"}, {"count": 21, "id": 25, "name": "OK"}, {"count": 27, "id": 7, "name": "Funny"}, {"count": 16, "id": 3, "name": "Courageous"}, {"count": 8, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Femto-photographer", "firstname": "Ramesh", "title": "", "lastname": "Raskar", "middleinitial": "", "whylisten": "<p>In 1964 MIT professor Harold Edgerton, pioneer of stop-action photography, famously took a photo of a bullet piercing an apple using exposures as short as a few nanoseconds. Inspired by his work, Ramesh Raskar and his team set out to create a camera that could capture not just a bullet (traveling at 850 meters per second) but light itself (nearly 300 million meters per second).</p>  <p>Stop a moment to take that in: photographing light as it moves. For that, they built a camera and software that can visualize pictures as if they are recorded at 1 trillion frames per second. The same photon-imaging technology can also be used to create <a href=\\"http://cornar.info\\" target=\\"_blank\\">a camera that can peer &quot;around&quot; corners</a> , by exploiting specific properties of the photons when they bounce off surfaces and objects.</p>  <p>Among the other projects that Raskar is leading, with the MIT Media Lab&#39;s&nbsp;<a href=\\"http://cameraculture.media.mit.edu\\" target=\\"_blank\\">Camera Culture</a>&nbsp;research group, are low-cost eye care devices, a next generation CAT-Scan machine and human-computer interaction systems.</p><p>Papers:&nbsp;</p><p>Andreas Velten, Thomas Willwacher, Otkrist Gupta, Ashok Veeraraghavan, Moungi G. Bawendi and Ramesh Raskar, &ldquo;Recovering ThreeDimensional Shape around a Corner using Ultra-Fast Time-of-Flight Imaging.&rdquo;&nbsp;<a href=\\"http://dx.doi.org/10.1038/ncomms1747\\" target=\\"_blank\\">Nature Communications, March 2012</a></p><p>Andreas Velten, Adrian Jarabo, Belen Masia, Di Wu, Christopher Barsi,&nbsp;Everett Lawson, Chinmaya Joshi, Diego Gutierrez, Moungi G. Bawendi and Ramesh Raskar, &quot;Ultra-fast Imaging for Light in Motion&quot; (in progress).&nbsp;<a href=\\"http://femtocamera.info\\" target=\\"_blank\\">http://femtocamera.info</a> </p>", "slug": "ramesh_raskar", "whotheyare": "Photography is about creating images by recording light. At the MIT media lab, professor Ramesh Raskar and his team members have invented a camera that can photograph light itself as it moves at, well, the speed of light.", "whatotherssay": "Though photographs in the near future will still be composed by people holding cameras, it will gradually become more accurate to say pictures were computed rather than \'taken\' or \'captured.\'", "id": 1328, "photo_url": "https://pe.tedcdn.com/images/ted/7c7541412d2a94258fbbd120eb827fb825398fe0_254x191.jpg"}], "title": "Imaging at a trillion frames per second", "take_action": [], "comments": 14253, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/2017a955b9e46bb6fdcffb4982210284d4260483_1600x1200.jpg", "description": "Ramesh Raskar presents femto-photography, a new type of imaging so fast it visualizes the world one trillion frames per second, so detailed it shows light itself in motion. This technology may someday be used to build cameras that can look \\u201caround\\u201d corners or see inside the body without X-rays.", "tags": ["innovation", "invention", "photography", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-sv.mp4"}, "sl": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/RameshRaskar_2012G-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RameshRaskar_2012G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RameshRaskar_2012G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RameshRaskar_2012G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1520, "audioDownload": "https://download.ted.com/talks/RameshRaskar_2012G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2371912, "hero": "https://pe.tedcdn.com/images/ted/b9693798223a4101be834398af15df5560d3f25c_1600x1200.jpg", "title": "The levitating superconductor", "id": 1495, "speaker": "Boaz Almog", "duration": 625, "slug": "boaz_almog_levitates_a_superconductor"}, {"viewed_count": 9774417, "hero": "https://pe.tedcdn.com/images/ted/d98527eb9a28d694fd604228e328a91c0f0e58a8_1600x1200.jpg", "title": "Meet the SixthSense interaction", "id": 481, "speaker": "Pattie Maes + Pranav Mistry", "duration": 522, "slug": "pattie_maes_demos_the_sixth_sense"}, {"viewed_count": 16168089, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}, {"viewed_count": 2508148, "hero": "https://pe.tedcdn.com/images/ted/8a3a6ed1d04200a0c9bedfd42f0bd9cfae022041_800x600.jpg", "title": "Wireless data from every light bulb", "id": 1202, "speaker": "Harald Haas", "duration": 771, "slug": "harald_haas_wireless_data_from_every_light_bulb"}, {"viewed_count": 1390982, "hero": "https://pe.tedcdn.com/images/ted/fd3659c1ca071d3125a0ff963a385ebbac0bbde9_2880x1620.jpg", "title": "New video technology that reveals an object\'s hidden properties", "id": 2246, "speaker": "Abe Davis", "duration": 1077, "slug": "abe_davis_new_video_technology_that_reveals_an_object_s_hidden_properties"}, {"viewed_count": 1226947, "hero": "https://pe.tedcdn.com/images/ted/7bc7813215ad701161bf50a332b1ae7d2d6b17d6_800x600.jpg", "title": "The weird, wonderful world of bioluminescence", "id": 1149, "speaker": "Edith Widder", "duration": 765, "slug": "edith_widder_the_weird_and_wonderful_world_of_bioluminescence"}], "recorded_at": "2012-06-28T00:00:00.000+00:00", "slug": "ramesh_raskar_a_camera_that_takes_one_trillion_frames_per_second", "speaker_name": "Ramesh Raskar", "viewed_count": 4052653, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Ramesh Raskar recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": true, "headline": "Coded time of flight cameras", "link_url": "http://web.media.mit.edu/~achoo/lightsweep/paper.pdf", "eyebrow": null, "label": "READ_Article", "note": "Achuta Kadambi et al.\\r\\n*ACM Transactions on Graphics*, November 2013", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Demultiplexing illumination via low-cost sensing and nanosecond coding", "link_url": "http://web.media.mit.edu/~achoo/demux/Kadambi_demux.pdf", "eyebrow": null, "label": "READ_Article", "note": "Achuta Kadambi et al.\\r\\nIEEE International Conference on Computational Photography, 2014", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Resolving multipath interference in time-of-flight imaging via modulation frequency diversity and sparse regularization", "link_url": "http://arxiv.org/pdf/1404.1116.pdf", "eyebrow": null, "label": "READ_Article", "note": "Ayush Bhandari et al.\\r\\n*Optics Letters*, April 2014", "position": null, "blurb": ""}, {"is_pdf": true, "headline": "Estimating wide-angle, spatially varying reflectance using time-resolved inversion of backscattered light", "link_url": "http://web.mit.edu/naik/www/assets/pdf/naik_josaa_14.pdf", "eyebrow": null, "label": "READ_Article", "note": "Nikhil Naik et al.\\r\\n*Journal of the Optical Society of America A*, May 2014", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Ultra-fast lensless computational imaging through 5D frequency analysis of time-resolved light transport", "link_url": "http://link.springer.com/article/10.1007%2Fs11263-013-0686-0#page-1", "eyebrow": null, "label": "READ_Article", "note": "Di Wu et al.\\r\\n*International Journal of Computer Vision*, November 2014", "position": null, "blurb": ""}, {"is_pdf": true, "headline": "Femto-photography: Capturing and visualizing the propagation of light", "link_url": "http://giga.cps.unizar.es/~diegog/ficheros/pdf_papers/femto.pdf", "eyebrow": null, "label": "READ_Article", "note": "Andreas Velten et al.\\r\\n*ACM Transactions on Graphics*, July 2013", "position": null, "blurb": ""}, {"is_pdf": true, "headline": "Frequency analysis of transient light transport with applications in bare sensor imaging", "link_url": "http://web.mit.edu/naik/www/assets/pdf/wu_tof_eccv_12.pdf", "eyebrow": null, "label": "READ_Article", "note": "Di Wu et al.\\r\\nEuropean Conference on Computer Vision, 2012", "position": null, "blurb": ""}, {"is_pdf": false, "headline": "Reconstruction of hidden 3D shapes using diffuse reflections", "link_url": "http://dx.doi.org/10.1364/OE.20.019096", "eyebrow": null, "label": "READ_Article", "note": "Otkrist Gupta et al.\\r\\n*Optics Express*, 2012", "position": null, "blurb": ""}, {"is_pdf": true, "headline": "Single view reflectance capture using multiplexed scattering and time-of-flight imaging", "link_url": "http://web.mit.edu/naik/www/assets/pdf/naik_sigasia_11.pdf", "eyebrow": null, "label": "READ_Article", "note": "Nikhil Naik et al. \\r\\nSIGGRAPH Asia 2011 Proceedings, 2011", "position": null, "blurb": ""}], "title": "reading list"}], "published": true, "type": "recommendation", "blurb": "Find out much more about how cameras are evolving to capture time and light in these academic articles from Raskar\'s lab."}, "corrections": []}], "event": "TEDGlobal 2012", "name": "Ramesh Raskar: Imaging at a trillion frames per second"}'
+p274
+sS'keywords'
+p275
+(lp276
+Vinnovation
+p277
+aVinvention
+p278
+aVphotography
+p279
+aVtechnology
+p280
+asS'datecrawled'
+p281
+g269
+(S'\x07\xe1\n\x17\x03\x12\x1f\x01mg'
+tRp282
+sS'id'
+p283
+I1520
+ss.

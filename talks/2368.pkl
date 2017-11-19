@@ -1,0 +1,406 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI would like to demonstrate for the first time in public
+p5
+aVthat it is possible to transmit a video
+p6
+aVfrom a standard off-the-shelf LED lamp
+p7
+aVto a solar cell with a laptop acting as a receiver.
+p8
+aVThere is no Wi-Fi involved, it's just light.
+p9
+aa(lp10
+VAnd you may wonder, what's the point?
+p11
+aVAnd the point is this:
+p12
+aVThere will be a massive extension of the Internet
+p13
+aVto close the digital divide,
+p14
+aVand also to allow for what we call "The Internet of Things" \u2014
+p15
+aVtens of billions of devices connected to the Internet.
+p16
+aa(lp17
+VIn my view, such an extension of the Internet can only work
+p18
+aVif it's almost energy-neutral.
+p19
+aVThis means we need to use existing infrastructure as much as possible.
+p20
+aVAnd this is where the solar cell and the LED come in.
+p21
+aa(lp22
+VI demonstrated for the first time,
+p23
+aVat TED in 2011,
+p24
+aVLi-Fi, or Light Fidelity.
+p25
+aVLi-Fi uses off-the-shelf LEDs to transmit data incredibly fast,
+p26
+aVand also in a safe and secure manner.
+p27
+aVData is transported by the light,
+p28
+aVencoded in subtle changes of the brightness.
+p29
+aVIf we look around, we have many LEDs around us,
+p30
+aVso there's a rich infrastructure of Li-Fi transmitters around us.
+p31
+aVBut so far, we have been using special devices \u2014 small photo detectors,
+p32
+aVto receive the information encoded in the data.
+p33
+aVI wanted to find a way to also use existing infrastructure
+p34
+aVto receive data from our Li-Fi lights.
+p35
+aVAnd this is why I have been looking into solar cells and solar panels.
+p36
+aa(lp37
+VA solar cell absorbs light and converts it into electrical energy.
+p38
+aVThis is why we can use a solar cell to charge our mobile phone.
+p39
+aVBut now we need to remember
+p40
+aVthat the data is encoded in subtle changes of the brightness of the LED,
+p41
+aVso if the incoming light fluctuates,
+p42
+aVso does the energy harvested from the solar cell.
+p43
+aVThis means we have a principal mechanism in place
+p44
+aVto receive information from the light and by the solar cell,
+p45
+aVbecause the fluctuations of the energy harvested
+p46
+aVcorrespond to the data transmitted.
+p47
+aa(lp48
+VOf course the question is:
+p49
+aVcan we receive very fast and subtle changes of the brightness,
+p50
+aVsuch as the ones transmitted by our LED lights?
+p51
+aVAnd the answer to that is yes, we can.
+p52
+aVWe have shown in the lab
+p53
+aVthat we can receive up to 50 megabytes per second
+p54
+aVfrom a standard, off-the-shelf solar cell.
+p55
+aVAnd this is faster than most broadband connections these days.
+p56
+aa(lp57
+VNow let me show you in practice.
+p58
+aVIn this box is a standard, off-the-shelf LED lamp.
+p59
+aVThis is a standard, off-the-shelf solar cell;
+p60
+aVit is connected to the laptop.
+p61
+aVAnd also we have an instrument here
+p62
+aVto visualize the energy we harvest from the solar cell.
+p63
+aVAnd this instrument shows something at the moment.
+p64
+aVThis is because the solar cell already harvests light from the ambient light.
+p65
+aa(lp66
+VNow what I would like to do first is switch on the light,
+p67
+aVand I'll simply, only switch on the light,
+p68
+aVfor a moment,
+p69
+aVand what you'll notice is that the instrument jumps to the right.
+p70
+aVSo the solar cell, for a moment,
+p71
+aVis harvesting energy from this artificial light source.
+p72
+aVIf I turn it off, we see it drops.
+p73
+aVI turn it on ...
+p74
+aVSo we harvest energy with the solar cell.
+p75
+aa(lp76
+VBut next I would like to activate the streaming of the video.
+p77
+aVAnd I've done this by pressing this button.
+p78
+aVSo now this LED lamp here is streaming a video
+p79
+aVby changing the brightness of the LED in a very subtle way,
+p80
+aVand in a way that you can't recognize with your eye,
+p81
+aVbecause the changes are too fast to recognize.
+p82
+aVBut in order to prove the point,
+p83
+aVI can block the light of the solar cell.
+p84
+aVSo first you notice the energy harvesting drops
+p85
+aVand the video stops as well.
+p86
+aVIf I remove the blockage, the video will restart.
+p87
+aa(lp88
+V(Applause)
+p89
+aa(lp90
+VAnd I can repeat that.
+p91
+aVSo we stop the transmission of the video and energy harvesting stops as well.
+p92
+aVSo that is to show that the solar cell acts as a receiver.
+p93
+aa(lp94
+VBut now imagine that this LED lamp is a street light, and there's fog.
+p95
+aVAnd so I want to simulate fog,
+p96
+aVand that's why I brought a handkerchief with me.
+p97
+aa(lp98
+V(Laughter)
+p99
+aa(lp100
+VAnd let me put the handkerchief over the solar cell.
+p101
+aVFirst you notice
+p102
+aVthe energy harvested drops, as expected,
+p103
+aVbut now the video still continues.
+p104
+aVThis means, despite the blockage,
+p105
+aVthere's sufficient light coming through the handkerchief to the solar cell,
+p106
+aVso that the solar cell is able to decode and stream that information,
+p107
+aVin this case, a high-definition video.
+p108
+aa(lp109
+VWhat's really important here is that a solar cell has become a receiver
+p110
+aVfor high-speed wireless signals encoded in light,
+p111
+aVwhile it maintains its primary function as an energy-harvesting device.
+p112
+aVThat's why it is possible
+p113
+aVto use existing solar cells on the roof of a hut
+p114
+aVto act as a broadband receiver
+p115
+aVfrom a laser station on a close by hill, or indeed, lamp post.
+p116
+aa(lp117
+VAnd It really doesn't matter where the beam hits the solar cell.
+p118
+aVAnd the same is true
+p119
+aVfor translucent solar cells integrated into windows,
+p120
+aVsolar cells integrated into street furniture,
+p121
+aVor indeed, solar cells integrated into these billions of devices
+p122
+aVthat will form the Internet of Things.
+p123
+aVBecause simply,
+p124
+aVwe don't want to charge these devices regularly,
+p125
+aVor worse, replace the batteries every few months.
+p126
+aa(lp127
+VAs I said to you,
+p128
+aVthis is the first time I've shown this in public.
+p129
+aVIt's very much a lab demonstration,
+p130
+aVa prototype.
+p131
+aVBut my team and I are confident that we can take this to market
+p132
+aVwithin the next two to three years.
+p133
+aVAnd we hope we will be able to contribute to closing the digital divide,
+p134
+aVand also contribute
+p135
+aVto connecting all these billions of devices to the Internet.
+p136
+aVAnd all of this without causing
+p137
+aVa massive explosion of energy consumption \u2014
+p138
+aVbecause of the solar cells, quite the opposite.
+p139
+aa(lp140
+VThank you.
+p141
+aa(lp142
+V(Applause)
+p143
+aasS'transcript_micsec'
+p144
+(lp145
+I11000
+aI32000
+aI50000
+aI67000
+aI122000
+aI162000
+aI190000
+aI222000
+aI247000
+aI288000
+aI294000
+aI307000
+aI318000
+aI319000
+aI350000
+aI378000
+aI405000
+aI435000
+aI436000
+asS'talk_meta'
+p146
+(dp147
+S'ratings'
+p148
+(dp149
+S'ingenious'
+p150
+I329
+sS'beautiful'
+p151
+I39
+sS'inspiring'
+p152
+I276
+sS'ok'
+p153
+I66
+sS'fascinating'
+p154
+I370
+sS'funny'
+p155
+I13
+sS'total_count'
+p156
+I1958
+sS'persuasive'
+p157
+I36
+sS'longwinded'
+p158
+I4
+sS'unconvincing'
+p159
+I42
+sS'informative'
+p160
+I566
+sS'jaw-dropping'
+p161
+I183
+sS'obnoxious'
+p162
+I9
+sS'courageous'
+p163
+I14
+sS'confusing'
+p164
+I11
+ssS'author'
+p165
+VHarald_Haas;
+p166
+sS'url'
+p167
+S'https://www.ted.com/talks/harald_haas_a_breakthrough_new_kind_of_wireless_internet'
+p168
+sS'vidlen'
+p169
+I444
+sS'totalviews'
+p170
+I1894356
+sS'title'
+p171
+VForget Wi-Fi. Meet the new Li-Fi Internet
+p172
+sS'downloadlink'
+p173
+Vhttps://download.ted.com/talks/HaraldHaas_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p174
+sS'datepublished'
+p175
+cdatetime
+datetime
+p176
+(S'\x07\xdf\x0b\x05\x0c\x16:\x00\x00\x00'
+tRp177
+sS'datefilmed'
+p178
+g176
+(S'\x07\xdf\x0b\x05\x0c\x16:\x00\x00\x00'
+tRp179
+sS'alldata_JSON'
+p180
+S'{"viewed_count": 1894356, "speakers": [{"description": "Communications technology innovator", "firstname": "Harald", "title": "", "lastname": "Haas", "middleinitial": "", "whylisten": "<p>Imagine using your car headlights to transmit data ... or surfing the web safely on a plane, tethered only by a line of sight. Harald Haas is working on it. He currently holds the Chair of Mobile Communications at the University of Edinburgh, and is co-founder and Chief Scientific Officer of pureLiFi Ltd as well as the Director of the LiFi Research and Development Center at the University of Edinburgh. His main research interests are in optical wireless communications, hybrid optical wireless and RF communications, spatial modulation, and interference coordination in wireless networks.</p><p>Haas has long been studying ways to communicate electronic data signals, designing modulation techniques that pack more data onto existing networks. But his latest work leaps beyond wires and radio waves to transmit data via an LED bulb that glows and darkens faster than the human eye can see. His group published the first proof-of-concept results demonstrating that it is possible to to turn commercially available light emitting diode (LED) light bulbs into broadband wireless transmission systems.&nbsp;</p><p>&quot;It should be so cheap that it&#39;s everywhere,&quot; he says. &quot;Using the visible light spectrum, which comes for free, you can piggy-back existing wireless services on the back of lighting equipment.&quot;</p>", "slug": "harald_haas", "whotheyare": "Harald Haas is the pioneer behind a new technology that can communicate as well as illuminate.", "whatotherssay": "As well as revolutionising internet reception, it would put an end to the potentially harmful electromagnetic pollution emitted by wireless internet routers and has raised the prospect of ubiquitous wireless access, transmitted through streetlights.", "id": 1009, "photo_url": "https://pe.tedcdn.com/images/ted/8c44796c499cb4f124bbe75d55fd428b5dacaf64_254x191.jpg"}], "current_talk": 2368, "description": "What if we could use existing technologies to provide Internet access to the more than 4 billion people living in places where the infrastructure can\'t support it? Using off-the-shelf LEDs and solar cells, Harald Haas and his team have pioneered a new technology that transmits data using light, and it may just be the key to bridging the digital divide. Take a look at what the future of the Internet could look like.", "language": "en", "url": "https://www.ted.com/talks/harald_haas_a_breakthrough_new_kind_of_wireless_internet", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53970956}, "podcast-low-en": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10418215}, "podcast-high": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 70003797}, "180k": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10157509}, "64k": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3710688}, "1500k": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 82415286}, "450k": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25495207}, "podcast-regular": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41817810}, "950k": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53575700}, "podcast-light": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19883037}, "320k": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18060715}, "600k": {"uri": "https://download.ted.com/talks/HaraldHaas_2015G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34232207}}}, "comments": {"count": 102, "id": 26988, "talk_id": 2368}, "slug": "harald_haas_a_breakthrough_new_kind_of_wireless_internet", "threadId": 26988, "talks": [{"event": "TEDGlobal>London", "player_talks": [{"event": "TEDGlobal>London", "slug": "harald_haas_a_breakthrough_new_kind_of_wireless_internet", "filmed": 1443484800, "targeting": {"event": "TEDGlobal>London", "tag": "Internet,communication,demo,design,infrastructure,innovation,invention,solar energy,web", "id": 2368, "talk": "harald_haas_a_breakthrough_new_kind_of_wireless_internet", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "Forget Wi-Fi. Meet the new Li-Fi Internet", "postAdDuration": "0.83", "published": 1446744178, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d2dba45393b333dff9751f5e9d068f6ba03f349a_2880x1620.jpg?quality=89&w=600", "name": "Harald Haas: Forget Wi-Fi. Meet the new Li-Fi Internet", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "communication", "demo", "design", "infrastructure", "innovation", "invention", "solar energy", "web"], "speaker": "Harald Haas", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 444, "id": 2368, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/HaraldHaas_2015G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal>London", "tag": "Internet,communication,demo,design,infrastructure,innovation,invention,solar energy,web", "id": 2368, "talk": "harald_haas_a_breakthrough_new_kind_of_wireless_internet", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2368.json", "stream": "https://hls.ted.com/talks/2368.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%3ELondon%26id%3D2368%26tag%3DInternet%2Ccommunication%2Cdemo%2Cdesign%2Cinfrastructure%2Cinnovation%2Cinvention%2Csolar%2Benergy%2Cweb%26talk%3Dharald_haas_a_breakthrough_new_kind_of_wireless_internet%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/harald_haas_a_breakthrough_new_kind_of_wireless_internet"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/d2dba45393b333dff9751f5e9d068f6ba03f349a_2880x1620.jpg?q=50&w=15", "duration": 444, "id": 2368, "ratings": [{"count": 566, "id": 8, "name": "Informative"}, {"count": 276, "id": 10, "name": "Inspiring"}, {"count": 183, "id": 23, "name": "Jaw-dropping"}, {"count": 329, "id": 9, "name": "Ingenious"}, {"count": 370, "id": 22, "name": "Fascinating"}, {"count": 11, "id": 2, "name": "Confusing"}, {"count": 39, "id": 1, "name": "Beautiful"}, {"count": 36, "id": 24, "name": "Persuasive"}, {"count": 4, "id": 11, "name": "Longwinded"}, {"count": 42, "id": 21, "name": "Unconvincing"}, {"count": 66, "id": 25, "name": "OK"}, {"count": 9, "id": 26, "name": "Obnoxious"}, {"count": 14, "id": 3, "name": "Courageous"}, {"count": 13, "id": 7, "name": "Funny"}], "speakers": [{"description": "Communications technology innovator", "firstname": "Harald", "title": "", "lastname": "Haas", "middleinitial": "", "whylisten": "<p>Imagine using your car headlights to transmit data ... or surfing the web safely on a plane, tethered only by a line of sight. Harald Haas is working on it. He currently holds the Chair of Mobile Communications at the University of Edinburgh, and is co-founder and Chief Scientific Officer of pureLiFi Ltd as well as the Director of the LiFi Research and Development Center at the University of Edinburgh. His main research interests are in optical wireless communications, hybrid optical wireless and RF communications, spatial modulation, and interference coordination in wireless networks.</p><p>Haas has long been studying ways to communicate electronic data signals, designing modulation techniques that pack more data onto existing networks. But his latest work leaps beyond wires and radio waves to transmit data via an LED bulb that glows and darkens faster than the human eye can see. His group published the first proof-of-concept results demonstrating that it is possible to to turn commercially available light emitting diode (LED) light bulbs into broadband wireless transmission systems.&nbsp;</p><p>&quot;It should be so cheap that it&#39;s everywhere,&quot; he says. &quot;Using the visible light spectrum, which comes for free, you can piggy-back existing wireless services on the back of lighting equipment.&quot;</p>", "slug": "harald_haas", "whotheyare": "Harald Haas is the pioneer behind a new technology that can communicate as well as illuminate.", "whatotherssay": "As well as revolutionising internet reception, it would put an end to the potentially harmful electromagnetic pollution emitted by wireless internet routers and has raised the prospect of ubiquitous wireless access, transmitted through streetlights.", "id": 1009, "photo_url": "https://pe.tedcdn.com/images/ted/8c44796c499cb4f124bbe75d55fd428b5dacaf64_254x191.jpg"}], "title": "Forget Wi-Fi. Meet the new Li-Fi Internet", "take_action": null, "comments": 26988, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/d2dba45393b333dff9751f5e9d068f6ba03f349a_2880x1620.jpg", "description": "What if we could use existing technologies to provide Internet access to the more than 4 billion people living in places where the infrastructure can\'t support it? Using off-the-shelf LEDs and solar cells, Harald Haas and his team have pioneered a new technology that transmits data using light, and it may just be the key to bridging the digital divide. Take a look at what the future of the Internet could look like.", "tags": ["Internet", "communication", "demo", "design", "infrastructure", "innovation", "invention", "solar energy", "web"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "te", "endonym": "\\u0c24\\u0c46\\u0c32\\u0c41\\u0c17\\u0c41", "isRtl": false, "ianaCode": "te", "languageName": "Telugu"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-ro.mp4"}, "fr": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-hi.mp4"}, "ja": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-he.mp4"}, "te": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-te.mp4", "name": "Telugu", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-te.mp4"}, "sr": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-uk.mp4"}, "mr": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-mr.mp4"}, "my": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/HaraldHaas_2015G-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/HaraldHaas_2015G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/HaraldHaas_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/HaraldHaas_2015G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2368, "audioDownload": null}, "related_talks": [{"viewed_count": 2508134, "hero": "https://pe.tedcdn.com/images/ted/8a3a6ed1d04200a0c9bedfd42f0bd9cfae022041_800x600.jpg", "title": "Wireless data from every light bulb", "id": 1202, "speaker": "Harald Haas", "duration": 771, "slug": "harald_haas_wireless_data_from_every_light_bulb"}, {"viewed_count": 1620382, "hero": "https://pe.tedcdn.com/images/ted/04210e05cfb511bd0cec7a4ae49ec98a8f233c4b_2880x1620.jpg", "title": "An Internet without screens might look like this", "id": 2356, "speaker": "Tea Uglow", "duration": 503, "slug": "tom_uglow_an_internet_without_screens_might_look_like_this"}, {"viewed_count": 2069172, "hero": "https://pe.tedcdn.com/images/ted/cca9263cb9a8855bc662b4ffd463fd89e3a9e081_2400x1800.jpg", "title": "Want to innovate? Become a \\"now-ist\\"", "id": 2041, "speaker": "Joi Ito", "duration": 751, "slug": "joi_ito_want_to_innovate_become_a_now_ist"}, {"viewed_count": 614171, "hero": "https://pe.tedcdn.com/images/ted/68608_800x600.jpg", "title": "A solar energy system that tracks the sun", "id": 450, "speaker": "Bill Gross", "duration": 1195, "slug": "bill_gross_on_new_energy"}, {"viewed_count": 491225, "hero": "https://pe.tedcdn.com/images/ted/c92a115c6b16a8afad2047396bee3b9a6491d08a_800x600.jpg", "title": "Caring for engineered tissue", "id": 1187, "speaker": "Nina Tandon", "duration": 253, "slug": "nina_tandon_caring_for_cells"}, {"viewed_count": 936781, "hero": "https://pe.tedcdn.com/images/ted/29fe2e14406be124c2d750736328ef617a156e10_800x600.jpg", "title": "A light switch for neurons", "id": 1146, "speaker": "Ed Boyden", "duration": 1104, "slug": "ed_boyden"}], "recorded_at": "2015-09-29T00:00:00.000+00:00", "slug": "harald_haas_a_breakthrough_new_kind_of_wireless_internet", "speaker_name": "Harald Haas", "viewed_count": 1894356, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDGlobal>London", "name": "Harald Haas: Forget Wi-Fi. Meet the new Li-Fi Internet"}'
+p181
+sS'keywords'
+p182
+(lp183
+VInternet
+p184
+aVcommunication
+p185
+aVdemo
+p186
+aVdesign
+p187
+aVinfrastructure
+p188
+aVinnovation
+p189
+aVinvention
+p190
+aVsolar energy
+p191
+aVweb
+p192
+asS'datecrawled'
+p193
+g176
+(S'\x07\xe1\n\x17\x00\x155\x0eK\x05'
+tRp194
+sS'id'
+p195
+I2368
+ss.

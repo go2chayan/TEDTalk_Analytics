@@ -1,0 +1,1006 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSergey Brin: I want to discuss a question
+p5
+aVI know that's been pressing on many of your minds.
+p6
+aVWe spoke to you last several years ago.
+p7
+aVAnd before I get started today,
+p8
+aVsince many of you are wondering,
+p9
+aVI just wanted to get it out of the way.
+p10
+aVThe answer is boxers.
+p11
+aVNow I hope all of you feel better.
+p12
+aa(lp13
+VDo you know what this might be? Does anyone know what that is?
+p14
+aa(lp15
+VAudience: Yes.
+p16
+aa(lp17
+VSB: What is it?
+p18
+aa(lp19
+VAudience: It's people logging on to Google around the world.
+p20
+aa(lp21
+VSB: Wow, OK. I didn't really realize what it was when I first saw it.
+p22
+aVBut this is what helped me see it.
+p23
+aVThis is what we run at the office, that actually runs real time.
+p24
+aVHere it's slightly logged.
+p25
+aVBut here you can see around the world
+p26
+aVhow people are using Google.
+p27
+aVAnd every one of those rising dots
+p28
+aVrepresents probably about 20, 30 searches,
+p29
+aVor something like that.
+p30
+aVAnd they're labeled by color right now, by language.
+p31
+aa(lp32
+VSo you can see: here we are in the U.S.,
+p33
+aVand they're all coming up red.
+p34
+aVThere we are in Monterey \u2014 hopefully I can get it right.
+p35
+aVYou can see that Japan is busy at night,
+p36
+aVright there.
+p37
+aVWe have Tokyo coming in in Japanese.
+p38
+aVThere's a lot of activity in China.
+p39
+aVThere's a lot of activity in India.
+p40
+aVThere's some in the Middle East, the little pockets.
+p41
+aVAnd Europe, which is right now in the middle of the day,
+p42
+aVis going really strong with a whole wide variety of languages.
+p43
+aa(lp44
+VNow you can also see, if I turn this around here \u2014
+p45
+aVhopefully I won't shake the world too much.
+p46
+aVBut you can also see, there are places where there's not so much.
+p47
+aVAustralia, because there just aren't very many people there.
+p48
+aVAnd this is something that we should really work on,
+p49
+aVwhich is Africa, which is just a few trickles,
+p50
+aVbasically in South Africa and a few other urban cities.
+p51
+aVBut basically, what we've noticed is these queries,
+p52
+aVwhich come in at thousands per second,
+p53
+aVare available everywhere there is power.
+p54
+aVAnd pretty much everywhere there is power, there is the Internet.
+p55
+aVAnd even in Antarctica \u2014 well, at least this time of year \u2014
+p56
+aVwe from time to time will see a query rising up.
+p57
+aVAnd if we had it plotted correctly,
+p58
+aVI think the International Space Station would have it, too.
+p59
+aa(lp60
+VSo this is
+p61
+aVsome of the challenge that we have here,
+p62
+aVis you can see that it's actually kind of hard to get the \u2014
+p63
+aVthere we go.
+p64
+aVThis is how we have to move the bits around
+p65
+aVto actually get the people the answers to their questions.
+p66
+aVYou can see that there's a lot of data running around.
+p67
+aVIt has to go all over the world: through fibers,
+p68
+aVthrough satellites, through all kinds of connections.
+p69
+aVAnd it's pretty tricky for us to maintain the latencies
+p70
+aVas low as we try to. Hopefully your experience is good.
+p71
+aVBut you can see also, once again \u2014 so some places are much more wired
+p72
+aVthan others, and you can see all the bandwidth across the U.S.,
+p73
+aVgoing up over to Asia, Europe in the other direction, and so forth.
+p74
+aa(lp75
+VNow what I would like to do is just to show you
+p76
+aVwhat one second of this activity would look like.
+p77
+aVAnd if we can switch to slides \u2014
+p78
+aVall right, here we go.
+p79
+aVSo this is slowed down.
+p80
+aVThis is what one second looks like.
+p81
+aVAnd this is what we spend a lot of our time doing,
+p82
+aVis just making sure that we can keep up
+p83
+aVwith this kind of traffic load.
+p84
+aVNow, each one of those queries
+p85
+aVhas an interesting life and tale of its own.
+p86
+aVI mean, it could be somebody's health,
+p87
+aVit could be somebody's career, something important to them.
+p88
+aVAnd it could potentially be something
+p89
+aVas important as tomato sauce,
+p90
+aVor in this case, ketchup.
+p91
+aa(lp92
+VSo this is a query that we had \u2014
+p93
+aVI guess it's a popular band that was more popular in some parts of the world than others.
+p94
+aVYou can see that it got started right here.
+p95
+aVIn the U.S. and Spain, it was popular at the same time.
+p96
+aVBut it didn't have quite the same pickup in the U.S.
+p97
+aVas it did in Spain.
+p98
+aVAnd then from Spain, it went to Italy,
+p99
+aVand then Germany got excited, and maybe right now the U.K. is enjoying it.
+p100
+aVAnd so I guess the U.S. finally,
+p101
+aVfinally started to like it, too.
+p102
+aVAnd I just wanted to play it for you.
+p103
+aa(lp104
+VAnyway, you can all enjoy it for yourselves \u2014
+p105
+aVhopefully that search will work.
+p106
+aVAs a part of \u2014
+p107
+aVyou know, part of what we want to do to grow our company
+p108
+aVis to have more searches.
+p109
+aVAnd what that means is we want to have
+p110
+aVmore people who are healthy and educated.
+p111
+aVMore animals, if they start doing searches as well.
+p112
+aVBut partly, we want to make the world a better place,
+p113
+aVand so one thing that we're embarking upon is the Google Foundation,
+p114
+aVand we're in the process of setting that up.
+p115
+aa(lp116
+VWe also have a program already called Google Grants
+p117
+aVthat now serves over 150 different charities around the world,
+p118
+aVand these are some of the charities that are on there.
+p119
+aVAnd it's something I'm very excited to be a part of.
+p120
+aVIn fact, many of the organizations that are here \u2014
+p121
+aVthe Acumen Fund, I think ApproTEC we have running, I'm not sure if that one's up yet \u2014
+p122
+aVand many of the people who have presented here are running through Google Grants.
+p123
+aVThey run Google ads, and we just give them the ad credit
+p124
+aVso they can let organizations know.
+p125
+aa(lp126
+VOne of the earlier results that we got \u2014
+p127
+aVwe have a Singaporean businessman who is now sponsoring a village
+p128
+aVof 25 Vietnamese girls for their education,
+p129
+aVand that was one of the earliest results. And as I said, now there have been
+p130
+aVmany, many stories that have come in,
+p131
+aVbecause we do have hundreds of charities in there,
+p132
+aVand the Google Foundation will be an even broader endeavor.
+p133
+aVNow does anybody know who this is?
+p134
+aVA-ha!
+p135
+aa(lp136
+VAudience: Orkut.
+p137
+aa(lp138
+VSB: Yes! Somebody got it.
+p139
+aVThis is Orkut. Is anybody here on Orkut?
+p140
+aVDo we have any?
+p141
+aVOkay, not very many people know about it.
+p142
+aVI'll explain it in a second.
+p143
+aVThis is one of our engineers.
+p144
+aVWe find that they work better when they're submerged and covered with leaves.
+p145
+aVThat's how we churn those products out.
+p146
+aVOrkut had a vision to create a social network.
+p147
+aVI know all of you are thinking, "Yet another social network."
+p148
+aVBut it was a dream of his, and we, basically,
+p149
+aVwhen people really want to do something, well, we generally let them.
+p150
+aVSo this is what he built.
+p151
+aVWe just released it in a test phase last month,
+p152
+aVand it's been taking off.
+p153
+aa(lp154
+VThis is our VP of Engineering.
+p155
+aVYou can see the red hair, and I don't know if you can see the nose ring there.
+p156
+aVAnd these are all of his friends.
+p157
+aVSo this is how \u2014 we just deployed it \u2014
+p158
+aVwe just decided that people would send each other invitations to get into the service,
+p159
+aVand so we just had the people in our company initially send them out.
+p160
+aVAnd now we've grown to over 100,000 members.
+p161
+aVAnd they spread, actually, very quickly, even outside the U.S.
+p162
+aa(lp163
+VYou can see, even though the U.S. is still the majority here \u2014
+p164
+aVthough, by the way, search-wise, it's only about 30 percent of our traffic \u2014
+p165
+aVbut it's already going to Japan, and the U.K., and Europe,
+p166
+aVand all the rest of the countries.
+p167
+aVSo it's a fun little project.
+p168
+aVThere are a variety of demographics. I won't bore you with these.
+p169
+aVBut it's just the kind of thing that we just try out for fun
+p170
+aVand see where it goes.
+p171
+aVAnd \u2014
+p172
+aVwell, I'll leave you in suspense.
+p173
+aVLarry, you can explain this one.
+p174
+aa(lp175
+VLarry Page: Thank you, Sergey.
+p176
+aVSo one of the things \u2014 both Sergey and I
+p177
+aVwent to a Montessori school,
+p178
+aVand I think, for some reason,
+p179
+aVthis has been incorporated in Google.
+p180
+aVAnd Sergey mentioned Orkut, which is something that,
+p181
+aVyou know, Orkut wanted to do in his time,
+p182
+aVand we call this \u2014 at Google, we've embodied this as "the 20 percent time,"
+p183
+aVand the idea is, for 20 percent of your time,
+p184
+aVif you're working at Google, you can do what you think is the best thing to do.
+p185
+aVAnd many, many things at Google have come out of that,
+p186
+aVsuch as Orkut and also Google News.
+p187
+aVAnd I think many other things in the world also have come out of this.
+p188
+aVMendel, who was supposed to be teaching high-school students,
+p189
+aVactually, you know, discovered the laws of genetics \u2014
+p190
+aVas a hobby, basically.
+p191
+aVSo many, many useful things come out of this.
+p192
+aa(lp193
+VAnd News, which I just mentioned,
+p194
+aVwas started by a researcher.
+p195
+aVAnd he just \u2014 he \u2014 after 9/11, he got really interested in the news.
+p196
+aVAnd he said, "Why don't I look at the news better?"
+p197
+aVAnd so he started clustering it by category,
+p198
+aVand then he started using it, and then his friends started using it.
+p199
+aVAnd then, besides just looking cute on a baby's bottom,
+p200
+aVwe made it a Googlette,
+p201
+aVwhich is basically a small project at Google.
+p202
+aa(lp203
+VSo it'd be like three people, or something like that,
+p204
+aVand they would try to make a product.
+p205
+aVAnd we wouldn't really be sure if it's going to work or not.
+p206
+aVAnd in News' case, you know, they had a couple of people
+p207
+aVworking on it for a while, and then more and more people
+p208
+aVstarted using it, and then we put it out on the Internet,
+p209
+aVand more and more people started using it.
+p210
+aVAnd now it's a real, full-blown project with more people on it.
+p211
+aVAnd this is how we keep our innovation running.
+p212
+aa(lp213
+VI think usually, as companies get bigger,
+p214
+aVthey find it really hard to have small, innovative projects.
+p215
+aVAnd we had this problem, too, for a while, and we said,
+p216
+aV"Oh, we really need a new concept."
+p217
+aVYou know, the Googlettes \u2014 that's a small project that we're not quite sure if it's going to work or not,
+p218
+aVbut we hope it will, and if we do enough of them,
+p219
+aVsome of them will really work and turn out, such as News.
+p220
+aa(lp221
+VBut then we had a problem because then we had over 100 projects.
+p222
+aVAnd I don't know about all of you,
+p223
+aVbut I have trouble keeping 100 things in my head at once.
+p224
+aVAnd we found that if we just wrote all of them down
+p225
+aVand ordered them \u2014 and these are kind of made up.
+p226
+aVDon't really pay attention to them.
+p227
+aVFor example, the "Buy Iceland" was from a media article.
+p228
+aVWe would never do such a crazy thing, but \u2014
+p229
+aVin any case, we found if we just basically wrote them all down and ordered them,
+p230
+aVthat most people would actually agree what the ordering should be.
+p231
+aVAnd this was kind of a surprise to me, but
+p232
+aVwe found that as long as you keep the 100 things in your head,
+p233
+aVwhich you did by writing them down,
+p234
+aVthat you could do a pretty good job deciding what to do
+p235
+aVand where to put your resources.
+p236
+aVAnd so that's basically what we've done
+p237
+aVsince we instituted that a few years ago, and I think it has really allowed us to be innovative
+p238
+aVand still stay reasonably well-organized.
+p239
+aa(lp240
+VThe other thing we discovered is that people like to work on things that are important,
+p241
+aVand so naturally,
+p242
+aVpeople sort of migrate to the things that are high priorities.
+p243
+aVI just wanted to highlight a couple of things
+p244
+aVthat are new, or you might not know about.
+p245
+aVAnd the top thing, actually, is the Deskbar.
+p246
+aVSo this is a new \u2014 how many of you use the Google Toolbar?
+p247
+aVRaise your hands.
+p248
+aa(lp249
+VHow many of you use the Deskbar?
+p250
+aVAll right, see? You guys should try it out.
+p251
+aVBut if you go to our site and search
+p252
+aVfor "Deskbar," you'll get this.
+p253
+aVAnd the idea is, instead of a toolbar, it's just present all the time
+p254
+aVon your screen on the bottom,
+p255
+aVand you can do searches really easily.
+p256
+aVAnd it's sort of like a better version of the toolbar.
+p257
+aVThank you, Sergey.
+p258
+aa(lp259
+VThis is another example of a project that somebody at Google
+p260
+aVwas really passionate about, and they just, they got going,
+p261
+aVand it's really, really a great product, and really taking off.
+p262
+aVGoogle Answers is something we started, which is really cool,
+p263
+aVwhich lets you \u2014 for five to 100 dollars,
+p264
+aVyou can type a question in,
+p265
+aVand then there's a pool of researchers
+p266
+aVthat go out and research it for you, and it's guaranteed and all that,
+p267
+aVand you can get actually very good answers to things
+p268
+aVwithout spending all that time yourself.
+p269
+aa(lp270
+VFroogle lets you search shopping information,
+p271
+aVand Blogger lets you publish things.
+p272
+aVBut all of these \u2014 well, these were all sort of innovative things that we did that \u2014
+p273
+aVyou know, we try many, many different things
+p274
+aVin our company.
+p275
+aVWe also like to innovate in our physical space,
+p276
+aVand we noticed in meetings, you know, you have to wait a long time
+p277
+aVfor projectors to turn on and off,
+p278
+aVand they're noisy, so people shut them off.
+p279
+aVAnd we didn't like that, so we actually,
+p280
+aVin maybe a couple of weeks, we built these little enclosures
+p281
+aVthat enclosed the projectors, and so we can leave them on all the time
+p282
+aVand they're completely silent.
+p283
+aVAnd as a result, we were able to build some software
+p284
+aVthat also lets us manage a meeting,
+p285
+aVso when you walk into a meeting room now,
+p286
+aVit lists all the meetings that are happening,
+p287
+aVyou can very easily take notes, and they just get emailed automatically
+p288
+aVto all the people that were present in the meeting.
+p289
+aa(lp290
+VAnd as we become more of a global company,
+p291
+aVwe find these things really affect us \u2014
+p292
+aVyou know, can we work effectively with people who aren't in the room?
+p293
+aVAnd things like that. And simple things like this can really make a big difference.
+p294
+aVWe also have a lot of engineers in those meetings,
+p295
+aVand they don't always do their laundry as much as they should.
+p296
+aVAnd so we found it was pretty helpful
+p297
+aVto have laundry machines, for our younger employees especially, and ...
+p298
+aVwe also allow dogs and things like that,
+p299
+aVand we've had, I think, a really fun culture at our company,
+p300
+aVwhich helps people work and enjoy what they're doing.
+p301
+aa(lp302
+VThis is actually our "cult picture."
+p303
+aVI just wanted to show quickly.
+p304
+aVWe had this on our website for a while,
+p305
+aVbut we found that after we put it on our website,
+p306
+aVwe didn't get any job applications anymore.
+p307
+aVBut anyway, every year we've taken
+p308
+aVthe whole company on a ski trip.
+p309
+aVA lot of work happens in companies from people knowing each other, and informally.
+p310
+aVAnd I think we've done a good job encouraging that.
+p311
+aVIt makes it a really fun place to work.
+p312
+aa(lp313
+VAlong with our logos, too, which I think really embody
+p314
+aVour culture when we change things.
+p315
+aVIn the early days, we were actually advised
+p316
+aVwe should never change our logo because
+p317
+aVwe should establish our brand, you know,
+p318
+aVbecause, you know, you'd never want to change your logo.
+p319
+aVYou want it to be consistent.
+p320
+aVAnd we said, "Well, that doesn't sound so much fun.
+p321
+aVWhy don't we try changing it every day?"
+p322
+aa(lp323
+VOne of the things that really excites me about what we're doing now
+p324
+aVis we have this thing called AdSense,
+p325
+aVand this is a little bit foreshadowing \u2014
+p326
+aVthis is from before Dean dropped out.
+p327
+aVBut the idea is, like, on a newspaper, for example,
+p328
+aVwe show you relevant ads.
+p329
+aVAnd this is hard to read, but this says "Battle for New Hampshire:
+p330
+aVHoward Dean for President" \u2014 articles on Howard Dean.
+p331
+aVAnd these ads are generated automatically \u2014
+p332
+aVlike in this case, on the Washington Post \u2014
+p333
+aVfrom the content on the site.
+p334
+aVAnd so we use our over 150,000 advertisers
+p335
+aVand millions of advertisements, so we pick the one
+p336
+aVthat's most relevant to what you're actually looking at,
+p337
+aVmuch as we do on search.
+p338
+aVSo the idea is we can make advertising useful,
+p339
+aVnot just annoying, right?
+p340
+aa(lp341
+VAnd the nice thing about this,
+p342
+aVwe have a self-serve program,
+p343
+aVand many thousands of websites have signed up,
+p344
+aVand this let's them really make money. And I \u2014
+p345
+aVyou know, there's a number of people I met \u2014
+p346
+aVI met this guy who runs a conservation site at a party,
+p347
+aVand he said, "You know, I wasn't making any money.
+p348
+aVI just put this thing on my site and I'm making 10,000 dollars a month.
+p349
+aVAnd, you know, thank you.
+p350
+aVI don't have to do my other job now."
+p351
+aVAnd I think this is really important for us, because it makes the Internet work better.
+p352
+aVIt makes content get better, it makes searching work better,
+p353
+aVwhen people can really make their livelihood
+p354
+aVfrom producing great content.
+p355
+aa(lp356
+VSo this session is supposed to be about the future,
+p357
+aVso I'd thought I'd talk at least briefly about it.
+p358
+aVAnd the idea behind this is to do the perfect job doing search,
+p359
+aVyou really have to be smart.
+p360
+aVBecause you can type, you know, any kind of thing into Google,
+p361
+aVand you expect an answer back, right?
+p362
+aVBut finding things is tricky, and so you really want intelligence.
+p363
+aVAnd in fact, the ultimate search engine would be smart.
+p364
+aVIt would be artificial intelligence.
+p365
+aVAnd so that's something we work on,
+p366
+aVand we even have some people who are excited enough
+p367
+aVand crazy enough to work on it now,
+p368
+aVand that's really their goal.
+p369
+aVSo we always hope that Google will be smart,
+p370
+aVbut we're always surprised when other people think that it is.
+p371
+aa(lp372
+VAnd so I just wanted to give a funny example of this.
+p373
+aVThis is a blog from Iraq,
+p374
+aVand it's not really what
+p375
+aVI'm going to talk about, but I just wanted to show you an example.
+p376
+aVMaybe, Sergey, you can highlight this.
+p377
+aVSo we decided \u2014
+p378
+aVactually, the highlight's right there. Oh, thank you.
+p379
+aa(lp380
+VSo, "related searches," right there. You can't see it that well,
+p381
+aVbut we decided we should put in this feature
+p382
+aVinto our AdSense ads, called "related searches."
+p383
+aVAnd so we'd say, you know, "Did you mean 'search for'" \u2014 what is this,
+p384
+aVin this case, "Saddam Hussein," because this blog is about Iraq \u2014
+p385
+aVand you know, in addition to the ads,
+p386
+aVand we thought this would be a great idea.
+p387
+aa(lp388
+VAnd so there is this blog
+p389
+aVof a young person who was kind of depressed, and he said,
+p390
+aV"You know, I'm sleeping a lot."
+p391
+aVHe was just kind of writing about his life.
+p392
+aVAnd our algorithms \u2014 not a person, of course,
+p393
+aVbut our algorithms, our computers \u2014
+p394
+aVread his blog and decided that
+p395
+aVthe related search was, "I am bored."
+p396
+aVAnd he read this, and he thought a person had decided
+p397
+aVthat he was boring,
+p398
+aVand it was very unfortunate,
+p399
+aVand he said, "You know, what are these, you know, bastards at Google doing?
+p400
+aVWhy don't they like my blog?"
+p401
+aVAnd so then we read his blog, which was getting \u2014 you know,
+p402
+aVsort of going from bad to worse,
+p403
+aVand we said the related search was, "Retards."
+p404
+aVAnd then, you know, he got even more mad,
+p405
+aVand he wrote \u2014 like, started swearing and so on.
+p406
+aVAnd then we produced "You suck."
+p407
+aVAnd finally, it ended with "Kiss my ass."
+p408
+aVAnd so basically, he thought he was dealing with something smart,
+p409
+aVand of course, you know,
+p410
+aVwe just sort of wrote this program and we tried it out,
+p411
+aVand it didn't quite work,
+p412
+aVand we don't have this feature anymore.
+p413
+aa(lp414
+VSo with that, maybe I can switch back to the world.
+p415
+aVI wanted to end just by saying that
+p416
+aVthere's a couple things that really make me excited
+p417
+aVto be involved with Google,
+p418
+aVand one of those is that we're able to make money
+p419
+aVlargely through advertising, and one of the benefits that I didn't expect from that
+p420
+aVwas that we're able to serve everyone in the world
+p421
+aVwithout worrying about, you know, places that don't have as much money.
+p422
+aVSo we don't have to worry about our products being sold,
+p423
+aVfor example, for less money in places that are poor,
+p424
+aVand then they get re-imported into the U.S. \u2014
+p425
+aVfor example, with the drug industry.
+p426
+aa(lp427
+VAnd I think we're really lucky to have that kind of business model
+p428
+aVbecause everyone in the world has access to our search,
+p429
+aVand I think that's a tremendous, tremendous benefit.
+p430
+aVThe other thing I wanted to mention just briefly
+p431
+aVis that we have a tremendous ability and responsibility
+p432
+aVto provide people the right information,
+p433
+aVand we view ourselves like a newspaper or a magazine \u2014
+p434
+aVthat we should provide very objective information.
+p435
+aa(lp436
+VAnd so in our search results, we never accept payment for our search results.
+p437
+aVWe accept payment for advertising,
+p438
+aVand we mark it as such.
+p439
+aVAnd that's unlike many of our competitors.
+p440
+aVAnd I think decisions we're able to make like that
+p441
+aVhave a tremendous impact on the world,
+p442
+aVand it makes me really proud to be involved with Google.
+p443
+aVSo thank you.
+p444
+aasS'transcript_micsec'
+p445
+(lp446
+I12000
+aI40000
+aI43000
+aI44000
+aI46000
+aI48000
+aI75000
+aI112000
+aI172000
+aI222000
+aI277000
+aI312000
+aI348000
+aI379000
+aI407000
+aI408000
+aI450000
+aI482000
+aI510000
+aI562000
+aI592000
+aI615000
+aI637000
+aI692000
+aI716000
+aI740000
+aI767000
+aI815000
+aI857000
+aI888000
+aI912000
+aI955000
+aI992000
+aI1031000
+aI1053000
+aI1074000
+aI1144000
+aI1179000
+aI1205000
+asS'talk_meta'
+p447
+(dp448
+S'ratings'
+p449
+(dp450
+S'beautiful'
+p451
+I51
+sS'funny'
+p452
+I97
+sS'ingenious'
+p453
+I77
+sS'ok'
+p454
+I163
+sS'fascinating'
+p455
+I101
+sS'total_count'
+p456
+I1317
+sS'persuasive'
+p457
+I22
+sS'inspiring'
+p458
+I180
+sS'longwinded'
+p459
+I143
+sS'informative'
+p460
+I303
+sS'jaw-dropping'
+p461
+I39
+sS'obnoxious'
+p462
+I17
+sS'confusing'
+p463
+I54
+sS'courageous'
+p464
+I20
+sS'unconvincing'
+p465
+I50
+ssS'author'
+p466
+VSergey_Brin;Larry_Page;
+p467
+sS'url'
+p468
+S'https://www.ted.com/talks/sergey_brin_and_larry_page_on_google'
+p469
+sS'vidlen'
+p470
+I1233
+sS'totalviews'
+p471
+I1463478
+sS'title'
+p472
+VThe genesis of Google
+p473
+sS'downloadlink'
+p474
+Vhttps://download.ted.com/talks/SergeyBrin_2004.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p475
+sS'datepublished'
+p476
+cdatetime
+datetime
+p477
+(S'\x07\xd7\x05\x03\r3\x00\x00\x00\x00'
+tRp478
+sS'datefilmed'
+p479
+g477
+(S'\x07\xd7\x05\x03\r3\x00\x00\x00\x00'
+tRp480
+sS'alldata_JSON'
+p481
+S'{"viewed_count": 1463478, "speakers": [{"description": "Computer scientist, entrepreneur and philanthropist", "firstname": "Sergey", "title": "", "lastname": "Brin", "middleinitial": "", "whylisten": "<p>Sergey Brin and Larry Page met in grad school at <a href=\\"http://infolab.stanford.edu/%7Esergey/\\" target=\\"_blank\\">Stanford</a>   in the mid-&#39;90s, and in 1996 started working on a search technology  based around a new idea: that relevant results come from context. Their  technology analyzed the number of times a given website was linked to by  other sites &mdash; assuming that the more links, the more relevant the site &mdash;  and ranked sites accordingly. Despite being a late entrant to the search game, it now rules the web.<br /><br />Brin and Page&#39;s innovation-friendly office culture has spun out lucrative new products including AdSense/AdWords, Google  News, Google Maps, Google Earth, and Gmail, as well as the Android mobile operating system. Now, led by Brin, Google is pursuing problems beyond the page, like  the driverless car and the digital eyewear known as <a href=\\"http://venturebeat.com/2013/02/25/google-glasses-sergey-brin-takes-google-glass-binocular-and-adds-frickin-laser-beams/\\" target=\\"_blank\\">Google Glass</a> . </p>", "slug": "sergey_brin", "whotheyare": "Sergey Brin is half of the team that founded Google.", "whatotherssay": "", "id": 1552, "photo_url": "https://pe.tedcdn.com/images/ted/150221_254x191.jpg"}, {"description": "CEO of Google", "firstname": "Larry", "title": "", "lastname": "Page", "middleinitial": "", "whylisten": "<p>Larry Page and Sergey Brin met in grad school at <a href=\\"http://infolab.stanford.edu/~sergey/\\" target=\\"_blank\\">Stanford</a>  in the mid-&#39;90s, and in 1996 started working on a search technology based on a new idea: that relevant results come from context. Their technology analyzed the number of times a given website was linked to by other sites &mdash; assuming that the more links, the more relevant the site &mdash; and ranked sites accordingly. In 1998, they opened Google in a garage-office in Menlo Park. In 1999 their software left beta and started its steady rise to web domination. </p><p>Beyond the company&#39;s ubiquitous search, including AdSense/AdWords, Google Maps, Google Earth and the mighty Gmail. In 2011, Page stepped back into his original role of chief executive officer. He now leads Google with high aims and big thinking, and finds time to devote to his projects like Google X, the idea lab for the out-there experiments that keep Google pushing the limits. </p>", "slug": "sergey_brin_and_larry_page", "whotheyare": "Larry Page is the CEO and cofounder of Google, making him one of the ruling minds of the web. ", "whatotherssay": "", "id": 109, "photo_url": "https://pe.tedcdn.com/images/ted/59d2866a671de711f6efeebb19b97104a69341f8_254x191.jpg"}], "current_talk": 118, "description": "Google co-founders Larry Page and Sergey Brin offer a peek inside the Google machine, sharing tidbits about international search patterns, the philanthropic Google Foundation, and the company\'s dedication to innovation and employee happiness.", "language": "en", "url": "https://www.ted.com/talks/sergey_brin_and_larry_page_on_google", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 143886863}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28311069}, "podcast-high": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 143558267}, "180k": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28163622}, "64k": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10127923}, "1500k": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 225738256}, "450k": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69824487}, "podcast-regular": {"uri": "https://download.ted.com/talks/SergeyBrin_2004.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 70099088}, "950k": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 143305002}, "audio-podcast": {"uri": "https://download.ted.com/talks/SergeyBrin_2004.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4835506}, "podcast-light": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10227742}, "320k": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49787205}, "600k": {"uri": "https://download.ted.com/talks/SergeyBrin_2004-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 92920589}}}, "comments": {"count": 56, "id": 112, "talk_id": 118}, "slug": "sergey_brin_and_larry_page_on_google", "threadId": 112, "talks": [{"event": "TED2004", "player_talks": [{"event": "TED2004", "slug": "sergey_brin_and_larry_page_on_google", "filmed": 1075680000, "targeting": {"event": "TED2004", "tag": "Google,TED Brain Trust,business,collaboration,culture,design,technology,web", "id": 118, "talk": "sergey_brin_and_larry_page_on_google", "year": "2004"}, "adDuration": "3.33", "external": null, "title": "The genesis of Google", "postAdDuration": "0.83", "published": 1178214660, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/420_480x360.jpg?quality=89&w=600", "name": "Sergey Brin + Larry Page: The genesis of Google", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Google", "TED Brain Trust", "business", "collaboration", "culture", "design", "technology", "web"], "speaker": "Sergey Brin + Larry Page", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1233, "id": 118, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SergeyBrin_2004-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2004", "tag": "Google,TED Brain Trust,business,collaboration,culture,design,technology,web", "id": 118, "talk": "sergey_brin_and_larry_page_on_google", "year": "2004"}, "metadata": "https://hls.ted.com/talks/118.json", "stream": "https://hls.ted.com/talks/118.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2004%26id%3D118%26tag%3DGoogle%2CTED%2BBrain%2BTrust%2Cbusiness%2Ccollaboration%2Cculture%2Cdesign%2Ctechnology%2Cweb%26talk%3Dsergey_brin_and_larry_page_on_google%26year%3D2004&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/sergey_brin_and_larry_page_on_google"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/420_480x360.jpg?q=50&w=15", "duration": 1233, "id": 118, "ratings": [{"count": 143, "id": 11, "name": "Longwinded"}, {"count": 54, "id": 2, "name": "Confusing"}, {"count": 50, "id": 21, "name": "Unconvincing"}, {"count": 97, "id": 7, "name": "Funny"}, {"count": 51, "id": 1, "name": "Beautiful"}, {"count": 77, "id": 9, "name": "Ingenious"}, {"count": 303, "id": 8, "name": "Informative"}, {"count": 180, "id": 10, "name": "Inspiring"}, {"count": 101, "id": 22, "name": "Fascinating"}, {"count": 20, "id": 3, "name": "Courageous"}, {"count": 163, "id": 25, "name": "OK"}, {"count": 17, "id": 26, "name": "Obnoxious"}, {"count": 39, "id": 23, "name": "Jaw-dropping"}, {"count": 22, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Computer scientist, entrepreneur and philanthropist", "firstname": "Sergey", "title": "", "lastname": "Brin", "middleinitial": "", "whylisten": "<p>Sergey Brin and Larry Page met in grad school at <a href=\\"http://infolab.stanford.edu/%7Esergey/\\" target=\\"_blank\\">Stanford</a>   in the mid-&#39;90s, and in 1996 started working on a search technology  based around a new idea: that relevant results come from context. Their  technology analyzed the number of times a given website was linked to by  other sites &mdash; assuming that the more links, the more relevant the site &mdash;  and ranked sites accordingly. Despite being a late entrant to the search game, it now rules the web.<br /><br />Brin and Page&#39;s innovation-friendly office culture has spun out lucrative new products including AdSense/AdWords, Google  News, Google Maps, Google Earth, and Gmail, as well as the Android mobile operating system. Now, led by Brin, Google is pursuing problems beyond the page, like  the driverless car and the digital eyewear known as <a href=\\"http://venturebeat.com/2013/02/25/google-glasses-sergey-brin-takes-google-glass-binocular-and-adds-frickin-laser-beams/\\" target=\\"_blank\\">Google Glass</a> . </p>", "slug": "sergey_brin", "whotheyare": "Sergey Brin is half of the team that founded Google.", "whatotherssay": "", "id": 1552, "photo_url": "https://pe.tedcdn.com/images/ted/150221_254x191.jpg"}, {"description": "CEO of Google", "firstname": "Larry", "title": "", "lastname": "Page", "middleinitial": "", "whylisten": "<p>Larry Page and Sergey Brin met in grad school at <a href=\\"http://infolab.stanford.edu/~sergey/\\" target=\\"_blank\\">Stanford</a>  in the mid-&#39;90s, and in 1996 started working on a search technology based on a new idea: that relevant results come from context. Their technology analyzed the number of times a given website was linked to by other sites &mdash; assuming that the more links, the more relevant the site &mdash; and ranked sites accordingly. In 1998, they opened Google in a garage-office in Menlo Park. In 1999 their software left beta and started its steady rise to web domination. </p><p>Beyond the company&#39;s ubiquitous search, including AdSense/AdWords, Google Maps, Google Earth and the mighty Gmail. In 2011, Page stepped back into his original role of chief executive officer. He now leads Google with high aims and big thinking, and finds time to devote to his projects like Google X, the idea lab for the out-there experiments that keep Google pushing the limits. </p>", "slug": "sergey_brin_and_larry_page", "whotheyare": "Larry Page is the CEO and cofounder of Google, making him one of the ruling minds of the web. ", "whatotherssay": "", "id": 109, "photo_url": "https://pe.tedcdn.com/images/ted/59d2866a671de711f6efeebb19b97104a69341f8_254x191.jpg"}], "title": "The genesis of Google", "take_action": null, "comments": 112, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/420_480x360.jpg", "description": "Google co-founders Larry Page and Sergey Brin offer a peek inside the Google machine, sharing tidbits about international search patterns, the philanthropic Google Foundation, and the company\'s dedication to innovation and employee happiness.", "tags": ["Google", "TED Brain Trust", "business", "collaboration", "culture", "design", "technology", "web"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "nb", "endonym": "Norsk bokm\\u00e5l", "isRtl": false, "ianaCode": "nb", "languageName": "Norwegian Bokmal"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-bg.mp4"}, "id": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-nl.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-zh-tw.mp4"}, "nb": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-nb.mp4", "name": "Norwegian Bokmal", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-nb.mp4"}, "tr": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-lv.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-fr-ca.mp4"}, "th": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-sv.mp4"}, "uk": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/SergeyBrin_2004-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SergeyBrin_2004-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SergeyBrin_2004.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SergeyBrin_2004-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 118, "audioDownload": "https://download.ted.com/talks/SergeyBrin_2004.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1368964, "hero": "https://pe.tedcdn.com/images/ted/84760000a82ad48289066aeca95e7a776e8f39ef_1200x900.jpg", "title": "The next 5,000 days of the web", "id": 319, "speaker": "Kevin Kelly", "duration": 1174, "slug": "kevin_kelly_on_the_next_5_000_days_of_the_web"}, {"viewed_count": 2460403, "hero": "https://pe.tedcdn.com/images/ted/1a26621135203e5d4636221967ff1d30e88faa85_800x600.jpg", "title": "Google\'s driverless car", "id": 1109, "speaker": "Sebastian Thrun", "duration": 254, "slug": "sebastian_thrun_google_s_driverless_car"}, {"viewed_count": 897705, "hero": "https://pe.tedcdn.com/images/ted/42d93cfae67c1944c2dc8e817899b8b44c26309e_800x600.jpg", "title": "Everyday compassion at Google", "id": 1113, "speaker": "Chade-Meng Tan", "duration": 848, "slug": "chade_meng_tan_everyday_compassion_at_google"}, {"viewed_count": 1404065, "hero": "https://pe.tedcdn.com/images/ted/90eeddc216ca86ad2fbf99d0823a39fe681e7513_2880x1620.jpg", "title": "The moral bias behind your search results", "id": 2369, "speaker": "Andreas Ekstr\\u00f6m", "duration": 558, "slug": "andreas_ekstrom_the_moral_bias_behind_your_search_results"}, {"viewed_count": 346285, "hero": "https://pe.tedcdn.com/images/ted/371_480x360.jpg", "title": "The Web as a city", "id": 362, "speaker": "Steven Johnson", "duration": 990, "slug": "steven_johnson_on_the_web_as_a_city"}, {"viewed_count": 4071664, "hero": "https://pe.tedcdn.com/images/ted/0f550197b90f20147576a51962258dc5ac7ac82d_800x600.jpg", "title": "Beware online \\"filter bubbles\\"", "id": 1091, "speaker": "Eli Pariser", "duration": 544, "slug": "eli_pariser_beware_online_filter_bubbles"}], "recorded_at": "2004-02-02T00:00:00.000+00:00", "slug": "sergey_brin_and_larry_page_on_google", "speaker_name": "Sergey Brin + Larry Page", "viewed_count": 1463478, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2004", "name": "Sergey Brin + Larry Page: The genesis of Google"}'
+p482
+sS'keywords'
+p483
+(lp484
+VGoogle
+p485
+aVTED Brain Trust
+p486
+aVbusiness
+p487
+aVcollaboration
+p488
+aVculture
+p489
+aVdesign
+p490
+aVtechnology
+p491
+aVweb
+p492
+asS'datecrawled'
+p493
+g477
+(S'\x07\xe1\n\x17\x01\x11\x11\x0br\x17'
+tRp494
+sS'id'
+p495
+I118
+ss.

@@ -1,0 +1,784 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm delighted to be here.
+p5
+aVI'm honored by the invitation, and thanks.
+p6
+aVI would love to talk about stuff that I'm interested in,
+p7
+aVbut unfortunately, I suspect that what I'm interested in
+p8
+aVwon't interest many other people.
+p9
+aVFirst off, my badge says I'm an astronomer.
+p10
+aVI would love to talk about my astronomy,
+p11
+aVbut I suspect that the number of people who are interested in radiative transfer
+p12
+aVin non-gray atmospheres
+p13
+aVand polarization of light in Jupiter's upper atmosphere
+p14
+aVare the number of people who'd fit in a bus shelter.
+p15
+aVSo I'm not going to talk about that.
+p16
+aV(Laughter)
+p17
+aa(lp18
+VIt would be just as much fun
+p19
+aVto talk about some stuff that happened in 1986 and 1987,
+p20
+aVwhen a computer hacker is breaking into our systems
+p21
+aVover at Lawrence Berkeley Labs.
+p22
+aVAnd I caught the guys,
+p23
+aVand they turned out to be working for what was then the Soviet KGB,
+p24
+aVand stealing information and selling it.
+p25
+aVAnd I'd love to talk about that \u2014 and it'd be fun \u2014
+p26
+aVbut, 20 years later ...
+p27
+aVI find computer security, frankly, to be kind of boring.
+p28
+aVIt's tedious.
+p29
+aVI'm \u2014
+p30
+aa(lp31
+VThe first time you do something, it's science.
+p32
+aVThe second time, it's engineering.
+p33
+aVA third time, it's just being a technician.
+p34
+aVI'm a scientist. Once I do something, I do something else.
+p35
+aVSo, I'm not going to talk about that.
+p36
+aVNor am I going to talk about what I think are obvious statements from my first book,
+p37
+aV"Silicon Snake Oil," or my second book,
+p38
+aVnor am I going to talk about
+p39
+aVwhy I believe computers don't belong in schools.
+p40
+aa(lp41
+VI feel that there's a massive and bizarre idea going around
+p42
+aVthat we have to bring more computers into schools.
+p43
+aVMy idea is: no! No!
+p44
+aVGet them out of schools, and keep them out of schools.
+p45
+aVAnd I'd love to talk about this,
+p46
+aVbut I think the argument is so obvious to anyone who's hung around a fourth grade classroom
+p47
+aVthat it doesn't need much talking about \u2014
+p48
+aVbut I guess I may be very wrong about that,
+p49
+aVand everything else that I've said.
+p50
+aVSo don't go back and read my dissertation.
+p51
+aVIt probably has lies in it as well.
+p52
+aa(lp53
+VHaving said that, I outlined my talk about five minutes ago.
+p54
+aV(Laughter)
+p55
+aVAnd if you look at it over here,
+p56
+aVthe main thing I wrote on my thumb was the future.
+p57
+aVI'm supposed to talk about the future, yes?
+p58
+aVOh, right. And my feeling is, asking me to talk about the future is bizarre,
+p59
+aVbecause I've got gray hair,
+p60
+aVand so, it's kind of silly for me to talk about the future.
+p61
+aVIn fact, I think that if you really want to know what the future's going to be,
+p62
+aVif you really want to know about the future,
+p63
+aVdon't ask a technologist, a scientist, a physicist.
+p64
+aVNo! Don't ask somebody who's writing code.
+p65
+aa(lp66
+VNo, if you want to know what society's going to be like in 20 years,
+p67
+aVask a kindergarten teacher.
+p68
+aVThey know.
+p69
+aVIn fact, don't ask just any kindergarten teacher,
+p70
+aVask an experienced one.
+p71
+aVThey're the ones who know what society is going to be like in another generation.
+p72
+aVI don't. Nor, I suspect,
+p73
+aVdo many other people who are talking about what the future will bring.
+p74
+aVCertainly, all of us can imagine these cool new things
+p75
+aVthat are going to be there.
+p76
+aVBut to me, things aren't the future.
+p77
+aVWhat I ask myself is, what's society is going to be like,
+p78
+aVwhen the kids today are phenomenally good at text messaging
+p79
+aVand spend a huge amount of on-screen time,
+p80
+aVbut have never gone bowling together?
+p81
+aa(lp82
+VChange is happening, and the change that is happening
+p83
+aVis not one that is in software.
+p84
+aVBut that's not what I'm going to talk about.
+p85
+aVI'd love to talk about it, it'd be fun,
+p86
+aVbut I want to talk about what I'm doing now. What am I doing now?
+p87
+aVOh \u2014 the other thing that I think I'd like to talk about
+p88
+aVis right over here. Right over here.
+p89
+aVIs that visible? What I'd like to talk about is one-sided things.
+p90
+aVI would dearly love to talk about
+p91
+aVthings that have one side.
+p92
+aVBecause I love Mobius loops. I not only love Mobius loops,
+p93
+aVbut I'm one of the very few people,
+p94
+aVif not the only person in the world, that makes Klein bottles.
+p95
+aVRight away, I hope that all of your eyes glaze over.
+p96
+aVThis is a Klein bottle.
+p97
+aVFor those of you in the audience who know,
+p98
+aVyou roll your eyes and say, yup, I know all about it.
+p99
+aVIt's one sided. It's a bottle whose inside is its outside.
+p100
+aVIt has zero volume. And it's non-orientable.
+p101
+aVIt has wonderful properties.
+p102
+aVIf you take two Mobius loops and sew their common edge together,
+p103
+aVyou get one of these, and I make them out of glass.
+p104
+aVAnd I'd love to talk to you about this,
+p105
+aVbut I don't have much in the way of ... things to say because \u2014
+p106
+aV(Laughter)
+p107
+aa(lp108
+V(Chris Anderson: I've got a cold.)
+p109
+aa(lp110
+VHowever, the "D" in TED of course stands for design.
+p111
+aVJust two weeks ago I made \u2014
+p112
+aVyou know, I've been making small, medium and big Klein bottles for the trade.
+p113
+aVBut what I've just made \u2014
+p114
+aVand I'm delighted to show you, first time in public here.
+p115
+aVThis is a Klein bottle wine bottle,
+p116
+aVwhich, although in four dimensions
+p117
+aVit shouldn't be able to hold any fluid at all,
+p118
+aVit's perfectly capable of doing so
+p119
+aVbecause our universe has only three spatial dimensions.
+p120
+aVAnd because our universe is only three spatial dimensions,
+p121
+aVit can hold fluids.
+p122
+aVSo it's highly \u2014 that one's the cool one.
+p123
+aVThat was a month of my life.
+p124
+aVBut although I would love to talk about topology with you, I'm not going to.
+p125
+aV(Laughter)
+p126
+aa(lp127
+VInstead, I'm going to mention my mom,
+p128
+aVwho passed away last summer.
+p129
+aVHad collected photographs of me, as mothers will do.
+p130
+aVCould somebody put this guy up?
+p131
+aVAnd I looked over her album
+p132
+aVand she had collected a picture of me, standing \u2014
+p133
+aVwell, sitting \u2014 in 1969, in front of a bunch of dials.
+p134
+aVAnd I looked at it, and said, oh my god,
+p135
+aVthat was me, when I was working at the electronic music studio!
+p136
+aVAs a technician, repairing and maintaining
+p137
+aVthe electronic music studio at SUNY Buffalo. And wow!
+p138
+aVWay back machine. And I said to myself, oh yeah!
+p139
+aVAnd it sent me back.
+p140
+aa(lp141
+VSoon after that, I found in another picture that she had, a picture of me.
+p142
+aVThis guy over here of course is me.
+p143
+aVThis man is Robert Moog,
+p144
+aVthe inventor of the Moog synthesizer,
+p145
+aVwho passed away this past August.
+p146
+aVRobert Moog was a generous, kind person, extraordinarily competent engineer.
+p147
+aVA musician who took time from his life to teach me,
+p148
+aVa sophomore, a freshman at SUNY Buffalo.
+p149
+aVHe'd come up from Trumansburg to teach me
+p150
+aVnot just about the Moog synthesizer, but we'd be sitting there \u2014
+p151
+aVI'm studying physics at the time. This is 1969, 70, 71.
+p152
+aVWe're studying physics, I'm studying physics,
+p153
+aVand he's saying, "That's a good thing to do.
+p154
+aVDon't get caught up in electronic music if you're doing physics."
+p155
+aVMentoring me. He'd come up and
+p156
+aVspend hours and hours with me.
+p157
+aVHe wrote a letter of recommendation for me to get into graduate school.
+p158
+aVIn the background, my bicycle.
+p159
+aVI realize that this picture was taken at a friend's living room.
+p160
+aVBob Moog came by and hauled a whole pile of equipment
+p161
+aVto show Greg Flint and I things about this.
+p162
+aVWe sat around talking about Fourier transforms,
+p163
+aVBessel functions, modulation transfer functions,
+p164
+aVstuff like this.
+p165
+aVBob's passing this past summer has been a loss to all of us.
+p166
+aVAnyone who's a musician has been profoundly influenced by Robert Moog.
+p167
+aV(Applause)
+p168
+aVAnd I'll just say what I'm about to do. What I'm about to do \u2014
+p169
+aVI hope you can recognize that there's a distorted sine wave,
+p170
+aValmost a triangular wave upon this Hewlett-Packard oscilloscope.
+p171
+aa(lp172
+VOh, cool. I can get to this place over here, right?
+p173
+aVKids. Kids is what I'm going to talk about \u2014 is that okay?
+p174
+aVIt says kids over here, that's what I'd like to talk about.
+p175
+aVI've decided that, for me at least,
+p176
+aVI don't have a big enough head.
+p177
+aVSo I think locally and I act locally.
+p178
+aVI feel that the best way I can help out anything is to help out very, very locally.
+p179
+aVSo Ph.D. this, and degree there, and the yadda yadda.
+p180
+aVI was talking about this stuff to
+p181
+aVsome schoolteachers about a year ago.
+p182
+aVAnd one of them, several of them would come up to me and say,
+p183
+aV"Well, how come you ain't teaching?"
+p184
+aVAnd I said, "Well, I've taught graduate \u2014
+p185
+aVI've had graduate students, I've taught undergraduate classes."
+p186
+aVNo, they said, "If you're so into kids and all this stuff,
+p187
+aVhow come you ain't over here on the front lines?
+p188
+aVPut your money where you mouth is."
+p189
+aa(lp190
+VIs true. Is true. I teach eighth-grade science four days a week.
+p191
+aVNot just showing up every now and then.
+p192
+aVNo, no, no, no, no. I take attendance.
+p193
+aVI take lunch hour. (Applause)
+p194
+aVThis is not \u2014 no, no, no, this is not claps.
+p195
+aVI strongly suggest that this is a good thing for each of you to do.
+p196
+aVNot just show up to class every now and then.
+p197
+aVTeach a solid week. Okay, I'm teaching three-quarters time, but good enough.
+p198
+aVOne of the things that I've done for my science students
+p199
+aVis to tell them, "Look, I'm going to teach you college-level physics.
+p200
+aVNo calculus, I'll cut out that.
+p201
+aVYou won't need to know trig.
+p202
+aVBut you will need to know eighth-grade algebra,
+p203
+aVand we're going to do serious experiments.
+p204
+aVNone of this open-to-chapter-seven-and-do-all-the-odd-problem-sets.
+p205
+aVWe're going to be doing genuine physics."
+p206
+aVAnd that's one of the things I thought I'd do right now.
+p207
+aV(High-pitched tone)
+p208
+aa(lp209
+VOh, before I even turn that on,
+p210
+aVone of the things that we did about three weeks ago in my class \u2014
+p211
+aVthis is through the lens, and one of the things we used a lens for
+p212
+aVwas to measure the speed of light.
+p213
+aVMy students in El Cerrito \u2014 with my help, of course,
+p214
+aVand with the help of a very beat up oscilloscope \u2014
+p215
+aVmeasured the speed of light.
+p216
+aVWe were off by 25 percent. How many eighth graders do you know of
+p217
+aVwho have measured the speed of light?
+p218
+aVIn addition to that, we've measured the speed of sound.
+p219
+aVI'd love to measure the speed of light here.
+p220
+aVI was all set to do it and I was thinking, "Aw man,"
+p221
+aVI was just going to impose upon the powers that be,
+p222
+aVand measure the speed of light.
+p223
+aVAnd I'm all set to do it. I'm all set to do it,
+p224
+aVbut then it turns out that to set up here, you have like 10 minutes to set up!
+p225
+aVAnd there's no time to do it.
+p226
+aVSo, next time, maybe, I'll measure the speed of light!
+p227
+aa(lp228
+VBut meanwhile, let's measure the speed of sound!
+p229
+aVWell, the obvious way to measure the speed of sound
+p230
+aVis to bounce sound off something and look at the echo.
+p231
+aVBut, probably \u2014 one of my students, Ariel [unclear], said,
+p232
+aV"Could we measure the speed of light using the wave equation?"
+p233
+aVAnd all of you know the wave equation is
+p234
+aVthe frequency times the wavelength of any wave ...
+p235
+aVis a constant. When the frequency goes up,
+p236
+aVthe wavelength comes down. Wavelength goes up,
+p237
+aVfrequency goes down. So, if we have a wave here \u2014
+p238
+aVover here, that's what's interesting \u2014
+p239
+aVas the pitch goes up, things get closer,
+p240
+aVpitch goes down, things stretch out.
+p241
+aVRight? This is simple physics.
+p242
+aVAll of you know this from eighth grade, remember?
+p243
+aVWhat they didn't tell you in physics \u2014 in eighth-grade physics \u2014
+p244
+aVbut they should have, and I wish they had,
+p245
+aVwas that if you multiply the frequency times the wavelength of sound
+p246
+aVor light, you get a constant.
+p247
+aVAnd that constant is the speed of sound.
+p248
+aVSo, in order to measure the speed of sound,
+p249
+aVall I've got to do is know its frequency. Well, that's easy.
+p250
+aVI've got a frequency counter right here.
+p251
+aVSet it up to around A, above A, above A. There's an A, more or less.
+p252
+aVNow, so I know the frequency.
+p253
+aVIt's 1.76 kilohertz. I measure its wavelength.
+p254
+aVAll I need now is to flip on another beam,
+p255
+aVand the bottom beam is me talking, right?
+p256
+aVSo anytime I talk, you'd see it on the screen.
+p257
+aVI'll put it over here, and as I move this away from the source,
+p258
+aVyou'll notice the spiral.
+p259
+aVThe slinky moves. We're going through different nodes of the wave,
+p260
+aVcoming out this way.
+p261
+aVThose of you who are physicists, I hear you rolling your eyes,
+p262
+aVbut bear with me. (Laughter)
+p263
+aa(lp264
+VTo measure the wavelength,
+p265
+aVall I need to do is measure the distance from here \u2014
+p266
+aVone full wave \u2014 over to here.
+p267
+aVFrom here to here is the wavelength of sound.
+p268
+aVSo, I'll put a measuring tape here, measuring tape here, move it back over to here.
+p269
+aVI've moved the microphone 20 centimeters.
+p270
+aV0.2 meters from here, back to here, 20 centimeters.
+p271
+aVOK, let's go back to Mr. Elmo.
+p272
+aVAnd we'll say the frequency is 1.76 kilohertz, or 1760.
+p273
+aVThe wavelength was 0.2 meters.
+p274
+aVLet's figure out what this is.
+p275
+aV(Laughter) (Applause)
+p276
+aV1.76 times 0.2 over here is 352 meters per second.
+p277
+aVIf you look it up in the book, it's really 343.
+p278
+aVBut, here with kludgy material, and lousy drink \u2014
+p279
+aVwe've been able to measure the speed of sound to \u2014
+p280
+aVnot bad. Pretty good.
+p281
+aa(lp282
+VAll of which comes to what I wanted to say.
+p283
+aVGo back to this picture of me a million years ago.
+p284
+aVIt was 1971, the Vietnam War was going on,
+p285
+aVand I'm like, "Oh my God!"
+p286
+aVI'm studying physics: Landau, Lipschitz, Resnick and Halliday.
+p287
+aVI'm going home for a midterm. A riot's going on on campus.
+p288
+aVThere's a riot! Hey, Elmo's done: off.
+p289
+aVThere's a riot going on on campus,
+p290
+aVand the police are chasing me, right?
+p291
+aVI'm walking across campus. Cop comes and looks at me and says,
+p292
+aV"You! You're a student."
+p293
+aVPulls out a gun. Goes boom!
+p294
+aVAnd a tear gas canister the size of a Pepsi can goes by my head. Whoosh!
+p295
+aVI get a breath of tear gas and I can't breathe.
+p296
+aVThis cop comes after me with a rifle.
+p297
+aVHe wants to clunk me over the head!
+p298
+aVI'm saying, "I got to clear out of here!"
+p299
+aVI go running across campus quick as I can. I duck into Hayes Hall.
+p300
+aVIt's one of these bell-tower buildings.
+p301
+aVThe cop's chasing me.
+p302
+aVChasing me up the first floor, second floor, third floor.
+p303
+aVChases me into this room.
+p304
+aVThe entranceway to the bell tower.
+p305
+aVI slam the door behind me, climb up,
+p306
+aVgo past this place where I see a pendulum ticking.
+p307
+aVAnd I'm thinking, "Oh yeah,
+p308
+aVthe square root of the length is proportional to its period." (Laughter)
+p309
+aa(lp310
+VI keep climbing up, go back.
+p311
+aVI go to a place where a dowel splits off.
+p312
+aVThere's a clock, clock, clock, clock.
+p313
+aVThe time's going backwards because I'm inside of it.
+p314
+aVI'm thinking of Lorenz contractions and Einsteinian relativity.
+p315
+aVI climb up, and there's this place, way in the back,
+p316
+aVthat you climb up this wooden ladder.
+p317
+aVI pop up the top, and there's a cupola.
+p318
+aVA dome, one of these ten-foot domes.
+p319
+aVI'm looking out and I'm seeing the cops bashing students' heads,
+p320
+aVshooting tear gas, and watching students throwing bricks.
+p321
+aVAnd I'm asking, "What am I doing here? Why am I here?"
+p322
+aVThen I remember what my English teacher in high school said.
+p323
+aVNamely, that when they cast bells,
+p324
+aVthey write inscriptions on them.
+p325
+aVSo, I wipe the pigeon manure off one of the bells, and I look at it.
+p326
+aVI'm asking myself, "Why am I here?"
+p327
+aa(lp328
+VSo, at this time, I'd like to tell you the words inscribed
+p329
+aVupon the Hayes Hall tower bells:
+p330
+aV"All truth is one.
+p331
+aVIn this light, may science and religion endeavor here
+p332
+aVfor the steady evolution of mankind, from darkness to light,
+p333
+aVfrom narrowness to broad-mindedness, from prejudice to tolerance.
+p334
+aVIt is the voice of life, which calls us to come and learn."
+p335
+aVThank you very much.
+p336
+aasS'transcript_micsec'
+p337
+(lp338
+I11000
+aI41000
+aI71000
+aI102000
+aI134000
+aI181000
+aI232000
+aI305000
+aI306000
+aI376000
+aI424000
+aI532000
+aI587000
+aI640000
+aI687000
+aI810000
+aI894000
+aI976000
+aI1021000
+asS'talk_meta'
+p339
+(dp340
+S'ratings'
+p341
+(dp342
+S'ingenious'
+p343
+I433
+sS'funny'
+p344
+I1247
+sS'inspiring'
+p345
+I774
+sS'ok'
+p346
+I119
+sS'fascinating'
+p347
+I645
+sS'total_count'
+p348
+I4827
+sS'persuasive'
+p349
+I65
+sS'longwinded'
+p350
+I126
+sS'informative'
+p351
+I177
+sS'beautiful'
+p352
+I228
+sS'jaw-dropping'
+p353
+I362
+sS'obnoxious'
+p354
+I195
+sS'confusing'
+p355
+I278
+sS'courageous'
+p356
+I92
+sS'unconvincing'
+p357
+I86
+ssS'author'
+p358
+VClifford_Stoll;
+p359
+sS'url'
+p360
+S'https://www.ted.com/talks/clifford_stoll_on_everything'
+p361
+sS'vidlen'
+p362
+I1077
+sS'totalviews'
+p363
+I2297397
+sS'title'
+p364
+VThe call to learn
+p365
+sS'downloadlink'
+p366
+Vhttps://download.ted.com/talks/CliffordStoll_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p367
+sS'datepublished'
+p368
+cdatetime
+datetime
+p369
+(S'\x07\xd8\x03\x19\x15\x00\x00\x00\x00\x00'
+tRp370
+sS'datefilmed'
+p371
+g369
+(S'\x07\xd8\x03\x19\x15\x00\x00\x00\x00\x00'
+tRp372
+sS'alldata_JSON'
+p373
+S'{"viewed_count": 2297397, "speakers": [{"description": "Astronomer, educator, skeptic", "firstname": "Clifford", "title": "", "lastname": "Stoll", "middleinitial": "", "whylisten": "<p>When Clifford Stoll speaks, you can&#39;t help but listen. Full of restless energy, he jumps from one topic to the next, darting back and forth across the stage. You may not be sure where he&#39;s going, but the ride is always part of the adventure. </p><p>An astronomer (though his astronomy career took a turn when he noticed a bookkeeping error that ultimately led him to track down a notorious hacker), researcher and internationally recognized computer security expert -- who happens to be a vocal critic of technology -- Stoll makes a sharp, witty case for keeping computers out of the classroom. Currently teaching college-level physics to eighth graders at a local school, he stays busy in his spare time building <a href=\\"http://www.kleinbottle.com/\\" target=\\"_blank\\">Klein bottles</a>.</p>", "slug": "clifford_stoll", "whotheyare": "Astronomer Clifford Stoll helped to capture a notorious KGB hacker back in the infancy of the Internet. His agile mind continues to lead him down new paths -- from education and techno-skepticism to the making of zero-volume bottles.", "whatotherssay": "Clifford Stoll is making a cottage industry out of being gadfly to a technology-obsessed world", "id": 213, "photo_url": "https://pe.tedcdn.com/images/ted/243_254x191.jpg"}], "current_talk": 237, "description": "Clifford Stoll captivates his audience with a wildly energetic sprinkling of anecdotes, observations, asides -- and even a science experiment. After all, by his own definition, he\'s a scientist: \\"Once I do something, I want to do something else.\\"", "language": "en", "url": "https://www.ted.com/talks/clifford_stoll_on_everything", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124882455}, "podcast-low-en": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24600417}, "podcast-high": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124830387}, "180k": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24529349}, "64k": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8827750}, "1500k": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 194539489}, "450k": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60846857}, "podcast-regular": {"uri": "https://download.ted.com/talks/CliffordStoll_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60904210}, "950k": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 124723702}, "podcast-light": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8924243}, "320k": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43387642}, "600k": {"uri": "https://download.ted.com/talks/CliffordStoll_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 80855399}}}, "comments": {"count": 251, "id": 217, "talk_id": 237}, "slug": "clifford_stoll_on_everything", "threadId": 217, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "clifford_stoll_on_everything", "filmed": 1141084800, "targeting": {"event": "TED2006", "tag": "culture,education,science,technology,web", "id": 237, "talk": "clifford_stoll_on_everything", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "The call to learn", "postAdDuration": "0.83", "published": 1206493200, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/84d386c80ee4b48a1466045a92a69c544d22d8c7_2880x1620.jpg?quality=89&w=600", "name": "Clifford Stoll: The call to learn", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kk", "endonym": "\\u049a\\u0430\\u0437\\u0430\\u049b \\u0442\\u0456\\u043b\\u0456", "isRtl": false, "ianaCode": "kk", "languageName": "Kazakh"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["culture", "education", "science", "technology", "web"], "speaker": "Clifford Stoll", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1077, "id": 237, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/CliffordStoll_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "culture,education,science,technology,web", "id": 237, "talk": "clifford_stoll_on_everything", "year": "2006"}, "metadata": "https://hls.ted.com/talks/237.json", "stream": "https://hls.ted.com/talks/237.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D237%26tag%3Dculture%2Ceducation%2Cscience%2Ctechnology%2Cweb%26talk%3Dclifford_stoll_on_everything%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/clifford_stoll_on_everything"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/84d386c80ee4b48a1466045a92a69c544d22d8c7_2880x1620.jpg?q=50&w=15", "duration": 1077, "id": 237, "ratings": [{"count": 126, "id": 11, "name": "Longwinded"}, {"count": 119, "id": 25, "name": "OK"}, {"count": 195, "id": 26, "name": "Obnoxious"}, {"count": 645, "id": 22, "name": "Fascinating"}, {"count": 433, "id": 9, "name": "Ingenious"}, {"count": 1247, "id": 7, "name": "Funny"}, {"count": 86, "id": 21, "name": "Unconvincing"}, {"count": 177, "id": 8, "name": "Informative"}, {"count": 774, "id": 10, "name": "Inspiring"}, {"count": 278, "id": 2, "name": "Confusing"}, {"count": 362, "id": 23, "name": "Jaw-dropping"}, {"count": 228, "id": 1, "name": "Beautiful"}, {"count": 92, "id": 3, "name": "Courageous"}, {"count": 65, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Astronomer, educator, skeptic", "firstname": "Clifford", "title": "", "lastname": "Stoll", "middleinitial": "", "whylisten": "<p>When Clifford Stoll speaks, you can&#39;t help but listen. Full of restless energy, he jumps from one topic to the next, darting back and forth across the stage. You may not be sure where he&#39;s going, but the ride is always part of the adventure. </p><p>An astronomer (though his astronomy career took a turn when he noticed a bookkeeping error that ultimately led him to track down a notorious hacker), researcher and internationally recognized computer security expert -- who happens to be a vocal critic of technology -- Stoll makes a sharp, witty case for keeping computers out of the classroom. Currently teaching college-level physics to eighth graders at a local school, he stays busy in his spare time building <a href=\\"http://www.kleinbottle.com/\\" target=\\"_blank\\">Klein bottles</a>.</p>", "slug": "clifford_stoll", "whotheyare": "Astronomer Clifford Stoll helped to capture a notorious KGB hacker back in the infancy of the Internet. His agile mind continues to lead him down new paths -- from education and techno-skepticism to the making of zero-volume bottles.", "whatotherssay": "Clifford Stoll is making a cottage industry out of being gadfly to a technology-obsessed world", "id": 213, "photo_url": "https://pe.tedcdn.com/images/ted/243_254x191.jpg"}], "title": "The call to learn", "take_action": null, "comments": 217, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/84d386c80ee4b48a1466045a92a69c544d22d8c7_2880x1620.jpg", "description": "Clifford Stoll captivates his audience with a wildly energetic sprinkling of anecdotes, observations, asides -- and even a science experiment. After all, by his own definition, he\'s a scientist: \\"Once I do something, I want to do something else.\\"", "tags": ["culture", "education", "science", "technology", "web"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "kk", "endonym": "\\u049a\\u0430\\u0437\\u0430\\u049b \\u0442\\u0456\\u043b\\u0456", "isRtl": false, "ianaCode": "kk", "languageName": "Kazakh"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-he.mp4"}, "kk": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-kk.mp4", "name": "Kazakh", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-kk.mp4"}, "ko": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-ko.mp4"}, "sl": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/CliffordStoll_2006-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/CliffordStoll_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/CliffordStoll_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/CliffordStoll_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 237, "audioDownload": null}, "related_talks": [{"viewed_count": 47787076, "hero": "https://pe.tedcdn.com/images/ted/6b6eb940bceab359ca676a9b486aae475c1df883_2880x1620.jpg", "title": "Do schools kill creativity?", "id": 66, "speaker": "Ken Robinson", "duration": 1164, "slug": "ken_robinson_says_schools_kill_creativity"}, {"viewed_count": 698121, "hero": "https://pe.tedcdn.com/images/ted/c634a6fe7b4b9f15c59f75f0c06a09058081c95a_1600x1200.jpg", "title": "Unleash your creativity in a Fab Lab", "id": 90, "speaker": "Neil Gershenfeld", "duration": 1038, "slug": "neil_gershenfeld_on_fab_labs"}, {"viewed_count": 8396439, "hero": "https://pe.tedcdn.com/images/ted/e982353371ca063e5ffb2ab554ec91de355d29d1_1600x1200.jpg", "title": "A performance of \\"Mathemagic\\"", "id": 199, "speaker": "Arthur Benjamin", "duration": 914, "slug": "arthur_benjamin_does_mathemagic"}, {"viewed_count": 1207526, "hero": "https://pe.tedcdn.com/images/ted/66945_800x600.jpg", "title": "Hypersonic sound and other inventions", "id": 442, "speaker": "Woody Norris", "duration": 829, "slug": "woody_norris_invents_amazing_things"}, {"viewed_count": 671609, "hero": "https://pe.tedcdn.com/images/ted/1969d5d30c7988c54f2b3c2974ed46e3ea1d3e3d_800x600.jpg", "title": "New ways to see music (with color! and fire!)", "id": 1505, "speaker": "Jared Ficklin", "duration": 600, "slug": "jared_ficklin_new_ways_to_see_music_with_color_and_fire"}, {"viewed_count": 237570, "hero": "https://pe.tedcdn.com/images/ted/54ee3689f2349218aecc8a07d386709a05354e28_2880x1620.jpg", "title": "How LIGO discovered gravitational waves -- and what might be next", "id": 2886, "speaker": "Gabriela Gonz\\u00e1lez", "duration": 819, "slug": "gabriela_gonzalez_how_ligo_discovered_gravitational_waves_and_what_might_be_next"}], "recorded_at": "2006-02-28T00:00:00.000+00:00", "slug": "clifford_stoll_on_everything", "speaker_name": "Clifford Stoll", "viewed_count": 2297397, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Clifford Stoll: The call to learn"}'
+p374
+sS'keywords'
+p375
+(lp376
+Vculture
+p377
+aVeducation
+p378
+aVscience
+p379
+aVtechnology
+p380
+aVweb
+p381
+asS'datecrawled'
+p382
+g369
+(S'\x07\xe1\n\x17\x02\x16\x18\x05\xe5\x99'
+tRp383
+sS'id'
+p384
+I237
+ss.

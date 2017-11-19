@@ -1,0 +1,512 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm really excited to be here today.
+p5
+aVI'll show you some stuff that's just ready to come out of the lab,
+p6
+aVliterally, and I'm really glad that you guys
+p7
+aVare going to be among the first to see it in person,
+p8
+aVbecause I really think this is going to really change
+p9
+aVthe way we interact with machines from this point on.
+p10
+aa(lp11
+VNow, this is a rear-projected drafting table.
+p12
+aVIt's about 36 inches wide
+p13
+aVand it's equipped with a multi-touch sensor.
+p14
+aVNormal touch sensors that you see,
+p15
+aVlike on a kiosk or interactive whiteboards,
+p16
+aVcan only register one point of contact at a time.
+p17
+aVThis thing allows you to have multiple points at the same time.
+p18
+aVThey can use both my hands; I can use chording actions;
+p19
+aVI can just go right up and use all 10 fingers if I wanted to.
+p20
+aVYou know, like that.
+p21
+aa(lp22
+VNow, multi-touch sensing isn't completely new.
+p23
+aVPeople like Bill Buxton have been playing around with it in the '80s.
+p24
+aVHowever, the approach I built here is actually high-resolution,
+p25
+aVlow-cost, and probably most importantly, very scalable.
+p26
+aVSo, the technology, you know,
+p27
+aVisn't the most exciting thing here right now,
+p28
+aVother than probably its newfound accessibility.
+p29
+aVWhat's really interesting here is what you can do with it
+p30
+aVand the kind of interfaces you can build on top of it.
+p31
+aVSo let's see.
+p32
+aa(lp33
+VSo, for instance, we have a lava lamp application here.
+p34
+aVNow, you can see,
+p35
+aVI can use both of my hands to kind of squeeze and put the blobs together.
+p36
+aVI can inject heat into the system here,
+p37
+aVor I can pull it apart with two of my fingers.
+p38
+aVIt's completely intuitive; there's no instruction manual.
+p39
+aVThe interface just kind of disappears.
+p40
+aVThis started out as a screensaver app
+p41
+aVthat one of the Ph.D. students in our lab, Ilya Rosenberg, made.
+p42
+aVBut I think its true identity comes out here.
+p43
+aa(lp44
+VNow what's great about a multi-touch sensor is that, you know,
+p45
+aVI could be doing this with as many fingers here,
+p46
+aVbut of course multi-touch also inherently means multi-user.
+p47
+aVChris could be interacting with another part of Lava,
+p48
+aVwhile I play around with it here.
+p49
+aVYou can imagine a new kind of sculpting tool,
+p50
+aVwhere I'm kind of warming something up, making it malleable,
+p51
+aVand then letting it cool down and solidifying in a certain state.
+p52
+aVGoogle should have something like this in their lobby.
+p53
+aa(lp54
+V(Laughter)
+p55
+aa(lp56
+VI'll show you a little more of a concrete example here,
+p57
+aVas this thing loads.
+p58
+aVThis is a photographer's light-box application.
+p59
+aVAgain, I can use both of my hands to interact and move photos around.
+p60
+aVBut what's even cooler is that if I have two fingers,
+p61
+aVI can actually grab a photo and then stretch it out like that really easily.
+p62
+aVI can pan, zoom and rotate it effortlessly.
+p63
+aVI can do that grossly with both of my hands,
+p64
+aVor I can do it just with two fingers on each of my hands together.
+p65
+aVIf I grab the canvas, I can do the same thing \u2014 stretch it out.
+p66
+aVI can do it simultaneously, holding this down,
+p67
+aVand gripping on another one, stretching this out.
+p68
+aa(lp69
+VAgain, the interface just disappears here.
+p70
+aVThere's no manual.
+p71
+aVThis is exactly what you expect,
+p72
+aVespecially if you haven't interacted with a computer before.
+p73
+aVNow, when you have initiatives like the $100 laptop,
+p74
+aVI kind of cringe at the idea
+p75
+aVof introducing a whole new generation to computing
+p76
+aVwith this standard mouse-and-windows-pointer interface.
+p77
+aVThis is something that I think is really the way
+p78
+aVwe should be interacting with machines from now on.
+p79
+aa(lp80
+V(Applause)
+p81
+aa(lp82
+VNow, of course, I can bring up a keyboard.
+p83
+aa(lp84
+V(Laughter)
+p85
+aVAnd I can bring that around, put that up there.
+p86
+aVObviously, this is a standard keyboard,
+p87
+aVbut of course I can rescale it to make it work well for my hands.
+p88
+aVThat's really important, because there's no reason in this day and age
+p89
+aVthat we should be conforming to a physical device.
+p90
+aVThat leads to bad things, like RSI.
+p91
+aVWe have so much technology nowadays
+p92
+aVthat these interfaces should start conforming to us.
+p93
+aVThere's so little applied now to actually improving
+p94
+aVthe way we interact with interfaces from this point on.
+p95
+aVThis keyboard is probably actually the really wrong direction to go.
+p96
+aVYou can imagine, in the future, as we develop this kind of technology,
+p97
+aVa keyboard that kind of automatically drifts as your hand moves away,
+p98
+aVand really intelligently anticipates which key you're trying to stroke.
+p99
+aVSo \u2014 again, isn't this great?
+p100
+aa(lp101
+V(Laughter)
+p102
+aa(lp103
+VAudience: Where's your lab?
+p104
+aa(lp105
+VJeff Han: I'm a research scientist at NYU in New York.
+p106
+aa(lp107
+VHere's an example of another kind of app. I can make these little fuzz balls.
+p108
+aVIt'll remember the strokes I'm making.
+p109
+aVOf course I can do it with all my hands.
+p110
+aVIt's pressure-sensitive.
+p111
+aVWhat's neat about that is,
+p112
+aVI showed that two-finger gesture that zooms in really quickly.
+p113
+aVBecause you don't have to switch to a hand tool
+p114
+aVor the magnifying glass tool,
+p115
+aVyou can just continuously make things
+p116
+aVin real multiple scales, all at the same time.
+p117
+aVI can create big things out here,
+p118
+aVbut I can go back and really quickly go back
+p119
+aVto where I started, and make even smaller things here.
+p120
+aa(lp121
+VThis is going to be really important
+p122
+aVas we start getting to things like data visualization.
+p123
+aVFor instance, I think we all enjoyed Hans Rosling's talk,
+p124
+aVand he really emphasized the fact I've been thinking about for a long time:
+p125
+aVWe have all this great data,
+p126
+aVbut for some reason, it's just sitting there.
+p127
+aVWe're not accessing it.
+p128
+aVAnd one of the reasons why I think that is
+p129
+aVwill be helped by things like graphics and visualization and inference tools,
+p130
+aVbut I also think a big part of it
+p131
+aVis going to be having better interfaces,
+p132
+aVto be able to drill down into this kind of data,
+p133
+aVwhile still thinking about the big picture here.
+p134
+aa(lp135
+VLet me show you another app here. This is called WorldWind.
+p136
+aVIt's done by NASA.
+p137
+aVWe've all seen Google Earth;
+p138
+aVthis is an open-source version of that.
+p139
+aVThere are plug-ins to be able to load in different data sets
+p140
+aVthat NASA's collected over the years.
+p141
+aVAs you can see, I can use the same two-fingered gestures
+p142
+aVto go down and go in really seamlessly.
+p143
+aVThere's no interface, again.
+p144
+aVIt really allows anybody to kind of go in \u2014
+p145
+aVand it just does what you'd expect, you know?
+p146
+aVAgain, there's just no interface here. The interface just disappears.
+p147
+aVI can switch to different data views.
+p148
+aVThat's what's neat about this app here.
+p149
+aVNASA's really cool.
+p150
+aVThese hyper-spectral images are false-colored so you can \u2014
+p151
+aVit's really good for determining vegetative use.
+p152
+aVWell, let's go back to this.
+p153
+aa(lp154
+VThe great thing about mapping applications \u2014
+p155
+aVit's not really 2D, it's 3D.
+p156
+aVSo, again, with a multi-point interface, you can do a gesture like this \u2014
+p157
+aVso you can be able to tilt around like that \u2014
+p158
+aa(lp159
+V(Surprised laughter)
+p160
+aa(lp161
+VIt's not just simply relegated to a kind of 2D panning and motion.
+p162
+aVThis gesture is just putting two fingers down \u2014
+p163
+aVit's defining an axis of tilt \u2014 and I can tilt up and down that way.
+p164
+aVWe just came up with that on the spot,
+p165
+aVit's probably not the right thing to do,
+p166
+aVbut there's such interesting things you can do with this interface.
+p167
+aVIt's just so much fun playing around with it, too.
+p168
+aa(lp169
+V(Laughter)
+p170
+aa(lp171
+VAnd so the last thing I want to show you is \u2014
+p172
+aVI'm sure we can all think of a lot of entertainment apps
+p173
+aVthat you can do with this thing.
+p174
+aVI'm more interested in the creative applications we can do with this.
+p175
+aVNow, here's a simple application here \u2014 I can draw out a curve.
+p176
+aVAnd when I close it, it becomes a character.
+p177
+aVBut the neat thing about it is I can add control points.
+p178
+aVAnd then what I can do is manipulate them with both of my fingers at the same time.
+p179
+aVAnd you notice what it does.
+p180
+aVIt's kind of a puppeteering thing,
+p181
+aVwhere I can use as many fingers as I have to draw and make \u2014
+p182
+aa(lp183
+VNow, there's a lot of actual math going on under here
+p184
+aVfor this to control this mesh and do the right thing.
+p185
+aVThis technique of being able to manipulate a mesh here, with multiple control points,
+p186
+aVis actually state of the art.
+p187
+aVIt was released at SIGGRAPH last year.
+p188
+aVIt's a great example of the kind of research I really love:
+p189
+aVall this compute power to make things do the right things,
+p190
+aVintuitive things, to do exactly what you expect.
+p191
+aa(lp192
+VSo, multi-touch interaction research is a very active field right now in HCI.
+p193
+aVI'm not the only one doing it, a lot of other people are getting into it.
+p194
+aVThis kind of technology is going to let even more people get into it,
+p195
+aVI'm looking forward to interacting with all of you over the next few days
+p196
+aVand seeing how it can apply to your respective fields.
+p197
+aa(lp198
+VThank you.
+p199
+aa(lp200
+V(Applause)
+p201
+aasS'transcript_micsec'
+p202
+(lp203
+I11000
+aI26000
+aI50000
+aI82000
+aI111000
+aI139000
+aI145000
+aI181000
+aI205000
+aI212000
+aI214000
+aI266000
+aI268000
+aI269000
+aI276000
+aI308000
+aI341000
+aI391000
+aI402000
+aI403000
+aI424000
+aI426000
+aI469000
+aI498000
+aI515000
+aI517000
+asS'talk_meta'
+p204
+(dp205
+S'ratings'
+p206
+(dp207
+S'ingenious'
+p208
+I1016
+sS'beautiful'
+p209
+I277
+sS'inspiring'
+p210
+I471
+sS'ok'
+p211
+I188
+sS'fascinating'
+p212
+I919
+sS'funny'
+p213
+I104
+sS'total_count'
+p214
+I8322
+sS'persuasive'
+p215
+I78
+sS'longwinded'
+p216
+I55
+sS'unconvincing'
+p217
+I32
+sS'informative'
+p218
+I463
+sS'jaw-dropping'
+p219
+I4643
+sS'obnoxious'
+p220
+I23
+sS'courageous'
+p221
+I34
+sS'confusing'
+p222
+I19
+ssS'author'
+p223
+VJeff_Han;
+p224
+sS'url'
+p225
+S'https://www.ted.com/talks/jeff_han_demos_his_breakthrough_touchscreen'
+p226
+sS'vidlen'
+p227
+I527
+sS'totalviews'
+p228
+I4541015
+sS'title'
+p229
+VThe radical promise of the multi-touch interface
+p230
+sS'downloadlink'
+p231
+Vhttps://download.ted.com/talks/JeffHan_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p232
+sS'datepublished'
+p233
+cdatetime
+datetime
+p234
+(S'\x07\xd6\x07\x1f\x14\x0b\x00\x00\x00\x00'
+tRp235
+sS'datefilmed'
+p236
+g234
+(S'\x07\xd6\x07\x1f\x14\x0b\x00\x00\x00\x00'
+tRp237
+sS'alldata_JSON'
+p238
+S'{"viewed_count": 4541015, "speakers": [{"description": "Human-computer interface designer", "firstname": "Jeff", "title": "", "lastname": "Han", "middleinitial": "", "whylisten": "<p>Jeff Han&#39;s intuitive &quot;interface-free&quot; computer displays -- controlled by the touch of fingertips -- will change forever the way you think about computers. At TED 2006, <strong>the audience whistled, clapped and gasped audibly as Han demoed (for the first time publicly) his prototype drafting table-cum-touch display</strong>, developed at <a href=\\"http://www.cims.nyu.edu/\\" target=\\"_blank\\">NYU&#39;s Courant Institute of Mathematical Sciences</a>. The demo included a virtual lightbox, where he moved photos by fingertip -- as if they were paper on a desk -- flicking them across the screen and zooming in and out by pinching two fingers together, as well as a Google Earth-like map that he tilted and flew over with simple moves. </p><p>When the demo hit the web, bloggers and YouTubers made him a bit of a megastar. (His video has been watched more than 600,000 times on YouTube alone; &quot;Amazing,&quot; &quot;Incredible&quot; and &quot;Freaking awesome&quot; are the typical responses there. Also: <strong>&quot;When can I buy one?&quot;</strong>) After this legendary demo, Han launched a startup called <a href=\\"http://www.perceptivepixel.com/\\" target=\\"_blank\\">Perceptive Pixel</a>  -- and when he came back to TED2007, he and his team brought an entire interactive wall, where TEDsters lined up to play virtual guitars. His talent and reputation earned him a place on Time Magazine&#39;s 2008 list of the world&#39;s 100 Most Influential People.&nbsp;</p>", "slug": "jeff_han", "whotheyare": "After years of research on touch-driven computer displays, Jeff Han has created a simple, multi-touch, multi-user screen interface that just might herald the end of the point-and-click era. ", "whatotherssay": "Working all but alone from his hardware-strewn office, Jeff Han is about to change the face of computing. Not even the big boys are likely to catch him.", "id": 65, "photo_url": "https://pe.tedcdn.com/images/ted/1613_254x191.jpg"}], "current_talk": 65, "description": "Jeff Han shows off a cheap, scalable multi-touch and pressure-sensitive computer screen interface that may spell the end of point-and-click.", "language": "en", "url": "https://www.ted.com/talks/jeff_han_demos_his_breakthrough_touchscreen", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JeffHan_2006-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62025317}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JeffHan_2006-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12222965}, "podcast-high": {"uri": "https://download.ted.com/talks/JeffHan_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61952944}, "180k": {"uri": "https://download.ted.com/talks/JeffHan_2006-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12016130}, "64k": {"uri": "https://download.ted.com/talks/JeffHan_2006-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4350074}, "1500k": {"uri": "https://download.ted.com/talks/JeffHan_2006-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 95188802}, "450k": {"uri": "https://download.ted.com/talks/JeffHan_2006-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30286530}, "podcast-regular": {"uri": "https://download.ted.com/talks/JeffHan_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30176119}, "950k": {"uri": "https://download.ted.com/talks/JeffHan_2006-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61287201}, "podcast-light": {"uri": "https://download.ted.com/talks/JeffHan_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4482843}, "320k": {"uri": "https://download.ted.com/talks/JeffHan_2006-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21287209}, "600k": {"uri": "https://download.ted.com/talks/JeffHan_2006-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40223081}}}, "comments": {"count": 242, "id": 63, "talk_id": 65}, "slug": "jeff_han_demos_his_breakthrough_touchscreen", "threadId": 63, "talks": [{"event": "TED2006", "player_talks": [{"event": "TED2006", "slug": "jeff_han_demos_his_breakthrough_touchscreen", "filmed": 1139184000, "targeting": {"event": "TED2006", "tag": "demo,design,interface design,technology", "id": 65, "talk": "jeff_han_demos_his_breakthrough_touchscreen", "year": "2006"}, "adDuration": "3.33", "external": null, "title": "The radical promise of the multi-touch interface", "postAdDuration": "0.83", "published": 1154391060, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2c78c5f87d19f51a0ff4d3e655cb815360bf8063_1600x1200.jpg?quality=89&w=600", "name": "Jeff Han: The radical promise of the multi-touch interface", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["demo", "design", "interface design", "technology"], "speaker": "Jeff Han", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 527, "id": 65, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JeffHan_2006-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2006", "tag": "demo,design,interface design,technology", "id": 65, "talk": "jeff_han_demos_his_breakthrough_touchscreen", "year": "2006"}, "metadata": "https://hls.ted.com/talks/65.json", "stream": "https://hls.ted.com/talks/65.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2006%26id%3D65%26tag%3Ddemo%2Cdesign%2Cinterface%2Bdesign%2Ctechnology%26talk%3Djeff_han_demos_his_breakthrough_touchscreen%26year%3D2006&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jeff_han_demos_his_breakthrough_touchscreen"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/2c78c5f87d19f51a0ff4d3e655cb815360bf8063_1600x1200.jpg?q=50&w=15", "duration": 527, "id": 65, "ratings": [{"count": 1016, "id": 9, "name": "Ingenious"}, {"count": 277, "id": 1, "name": "Beautiful"}, {"count": 34, "id": 3, "name": "Courageous"}, {"count": 55, "id": 11, "name": "Longwinded"}, {"count": 104, "id": 7, "name": "Funny"}, {"count": 19, "id": 2, "name": "Confusing"}, {"count": 32, "id": 21, "name": "Unconvincing"}, {"count": 463, "id": 8, "name": "Informative"}, {"count": 471, "id": 10, "name": "Inspiring"}, {"count": 919, "id": 22, "name": "Fascinating"}, {"count": 4643, "id": 23, "name": "Jaw-dropping"}, {"count": 78, "id": 24, "name": "Persuasive"}, {"count": 23, "id": 26, "name": "Obnoxious"}, {"count": 188, "id": 25, "name": "OK"}], "speakers": [{"description": "Human-computer interface designer", "firstname": "Jeff", "title": "", "lastname": "Han", "middleinitial": "", "whylisten": "<p>Jeff Han&#39;s intuitive &quot;interface-free&quot; computer displays -- controlled by the touch of fingertips -- will change forever the way you think about computers. At TED 2006, <strong>the audience whistled, clapped and gasped audibly as Han demoed (for the first time publicly) his prototype drafting table-cum-touch display</strong>, developed at <a href=\\"http://www.cims.nyu.edu/\\" target=\\"_blank\\">NYU&#39;s Courant Institute of Mathematical Sciences</a>. The demo included a virtual lightbox, where he moved photos by fingertip -- as if they were paper on a desk -- flicking them across the screen and zooming in and out by pinching two fingers together, as well as a Google Earth-like map that he tilted and flew over with simple moves. </p><p>When the demo hit the web, bloggers and YouTubers made him a bit of a megastar. (His video has been watched more than 600,000 times on YouTube alone; &quot;Amazing,&quot; &quot;Incredible&quot; and &quot;Freaking awesome&quot; are the typical responses there. Also: <strong>&quot;When can I buy one?&quot;</strong>) After this legendary demo, Han launched a startup called <a href=\\"http://www.perceptivepixel.com/\\" target=\\"_blank\\">Perceptive Pixel</a>  -- and when he came back to TED2007, he and his team brought an entire interactive wall, where TEDsters lined up to play virtual guitars. His talent and reputation earned him a place on Time Magazine&#39;s 2008 list of the world&#39;s 100 Most Influential People.&nbsp;</p>", "slug": "jeff_han", "whotheyare": "After years of research on touch-driven computer displays, Jeff Han has created a simple, multi-touch, multi-user screen interface that just might herald the end of the point-and-click era. ", "whatotherssay": "Working all but alone from his hardware-strewn office, Jeff Han is about to change the face of computing. Not even the big boys are likely to catch him.", "id": 65, "photo_url": "https://pe.tedcdn.com/images/ted/1613_254x191.jpg"}], "title": "The radical promise of the multi-touch interface", "take_action": null, "comments": 63, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/2c78c5f87d19f51a0ff4d3e655cb815360bf8063_1600x1200.jpg", "description": "Jeff Han shows off a cheap, scalable multi-touch and pressure-sensitive computer screen interface that may spell the end of point-and-click.", "tags": ["demo", "design", "interface design", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JeffHan_2006-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JeffHan_2006-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JeffHan_2006-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JeffHan_2006-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JeffHan_2006-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JeffHan_2006-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/JeffHan_2006-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JeffHan_2006-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JeffHan_2006-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JeffHan_2006-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JeffHan_2006-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JeffHan_2006-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JeffHan_2006-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JeffHan_2006-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JeffHan_2006-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JeffHan_2006-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JeffHan_2006-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JeffHan_2006-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JeffHan_2006-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JeffHan_2006-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JeffHan_2006-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JeffHan_2006-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JeffHan_2006-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JeffHan_2006-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/JeffHan_2006-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JeffHan_2006-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/JeffHan_2006-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JeffHan_2006-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JeffHan_2006-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JeffHan_2006.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JeffHan_2006-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 65, "audioDownload": null}, "related_talks": [{"viewed_count": 16167980, "hero": "https://pe.tedcdn.com/images/ted/565a3ead73aaf1781d6eff7a25615cd3de7920cf_2880x1620.jpg", "title": "The thrilling potential of SixthSense technology", "id": 685, "speaker": "Pranav Mistry", "duration": 830, "slug": "pranav_mistry_the_thrilling_potential_of_sixthsense_technology"}, {"viewed_count": 1516356, "hero": "https://pe.tedcdn.com/images/ted/174124_800x600.jpg", "title": "Pointing to the future of UI", "id": 872, "speaker": "John Underkoffler", "duration": 922, "slug": "john_underkoffler_drive_3d_data_with_a_gesture"}, {"viewed_count": 1036812, "hero": "https://pe.tedcdn.com/images/ted/7050fccc4b9b3515903a1fe304017edf282fb5f7_1600x1200.jpg", "title": "The best computer interface? Maybe ... your hands", "id": 1984, "speaker": "James Patten", "duration": 372, "slug": "james_patten_the_best_computer_interface_maybe_your_hands"}, {"viewed_count": 1414071, "hero": "https://pe.tedcdn.com/images/ted/714e1ddc66704b5ff3edb4278b470d2023ac59f8_2880x1620.jpg", "title": "Shape-shifting tech will change work as we know it", "id": 2410, "speaker": "Sean Follmer", "duration": 562, "slug": "sean_follmer_shape_shifting_tech_will_change_work_as_we_know_it"}, {"viewed_count": 947032, "hero": "https://pe.tedcdn.com/images/ted/41100_480x360.jpg", "title": "Juggling as art ... and science", "id": 260, "speaker": "Michael Moschen", "duration": 2222, "slug": "michael_moschen_juggles_rhythm_and_motion"}, {"viewed_count": 977616, "hero": "https://pe.tedcdn.com/images/ted/8944003acaf027a37ea079e47bc14985d326d451_2880x1620.jpg", "title": "5 predictions, from 1984", "id": 230, "speaker": "Nicholas Negroponte", "duration": 1523, "slug": "nicholas_negroponte_in_1984_makes_5_predictions"}], "recorded_at": "2006-02-06T00:00:00.000+00:00", "slug": "jeff_han_demos_his_breakthrough_touchscreen", "speaker_name": "Jeff Han", "viewed_count": 4541015, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2006", "name": "Jeff Han: The radical promise of the multi-touch interface"}'
+p239
+sS'keywords'
+p240
+(lp241
+Vdemo
+p242
+aVdesign
+p243
+aVinterface design
+p244
+aVtechnology
+p245
+asS'datecrawled'
+p246
+g234
+(S'\x07\xe1\n\x17\x00,%\x06\x01\x91'
+tRp247
+sS'id'
+p248
+I65
+ss.

@@ -1,0 +1,418 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo, if you're in the audience today,
+p5
+aVor maybe you're watching this talk in some other time or place,
+p6
+aVyou are a participant in the digital rights ecosystem.
+p7
+aVWhether you're an artist, a technologist,
+p8
+aVa lawyer or a fan,
+p9
+aVthe handling of copyright directly impacts your life.
+p10
+aVRights management is no longer
+p11
+aVsimply a question of ownership,
+p12
+aVit's a complex web of relationships
+p13
+aVand a critical part of our cultural landscape.
+p14
+aVYouTube cares deeply about the rights of content owners,
+p15
+aVbut in order to give them choices about what they can do
+p16
+aVwith copies, mashups and more,
+p17
+aVwe need to first identify
+p18
+aVwhen copyrighted material is uploaded to our site.
+p19
+aa(lp20
+VLet's look at a specific video so you can see how it works.
+p21
+aVTwo years ago, recording artist Chris Brown
+p22
+aVreleased the official video of his single "Forever."
+p23
+aVA fan saw it on TV,
+p24
+aVrecorded it with her camera phone,
+p25
+aVand uploaded it to YouTube.
+p26
+aVBecause Sony Music had registered Chris Brown's video
+p27
+aVin our Content ID system,
+p28
+aVwithin seconds of attempting to upload the video,
+p29
+aVthe copy was detected,
+p30
+aVgiving Sony the choice of what to do next.
+p31
+aa(lp32
+VBut how do we know that the user's video was a copy?
+p33
+aVWell, it starts with content owners
+p34
+aVdelivering assets into our database,
+p35
+aValong with a usage policy
+p36
+aVthat tells us what to do when we find a match.
+p37
+aVWe compare each upload
+p38
+aVagainst all of the reference files in our database.
+p39
+aVThis heat map is going to show you
+p40
+aVhow the brain of the system works.
+p41
+aVHere we can see the original reference file
+p42
+aVbeing compared to the user generated content.
+p43
+aVThe system compares every moment
+p44
+aVof one to the other to see if there's a match.
+p45
+aVThis means that we can identify a match
+p46
+aVeven if the copy used is just a portion of the original file,
+p47
+aVplays it in slow motion
+p48
+aVand has degraded audio and video quality.
+p49
+aVAnd we do this every time
+p50
+aVthat a video is uploaded to YouTube.
+p51
+aVAnd that's over 20 hours of video every minute.
+p52
+aVWhen we find a match,
+p53
+aVwe apply the policy that the rights owner has set down.
+p54
+aa(lp55
+VAnd the scale and the speed of this system
+p56
+aVis truly breathtaking.
+p57
+aVWe're not just talking about a few videos,
+p58
+aVwe're talking about over
+p59
+aV100 years of video every day,
+p60
+aVbetween new uploads and the legacy scans
+p61
+aVwe regularly do across all of the content on the site.
+p62
+aVWhen we compare those hundred years of video,
+p63
+aVwe're comparing it against millions
+p64
+aVof reference files in our database.
+p65
+aVIt would be like 36,000 people
+p66
+aVstaring at 36,000 monitors
+p67
+aVeach and every day, without so much as a coffee break.
+p68
+aa(lp69
+VNow, what do we do when we find a match?
+p70
+aVWell, most rights owners, instead of blocking,
+p71
+aVwill allow the copy to be published.
+p72
+aVAnd then they benefit through the exposure,
+p73
+aVadvertising and linked sales.
+p74
+aVRemember Chris Brown's video "Forever"?
+p75
+aVWell, it had its day in the sun and then it dropped off the charts,
+p76
+aVand that looked like the end of the story,
+p77
+aVbut sometime last year, a young couple got married.
+p78
+aVThis is their wedding video.
+p79
+aVYou may have seen it.
+p80
+aa(lp81
+V(Music)
+p82
+aa(lp83
+VWhat's amazing about this is,
+p84
+aVif the processional of the wedding was this much fun,
+p85
+aVcan you imagine how much fun the reception must have been?
+p86
+aVI mean, who are these people?
+p87
+aVI totally want to go to that wedding.
+p88
+aa(lp89
+VSo their little wedding video went on
+p90
+aVto get over 40 million views.
+p91
+aVAnd instead of Sony blocking,
+p92
+aVthey allowed the upload to occur.
+p93
+aVAnd they put advertising against it
+p94
+aVand linked from it to iTunes.
+p95
+aVAnd the song, 18 months old,
+p96
+aVwent back to number four on the iTunes charts.
+p97
+aVSo Sony is generating revenue from both of these.
+p98
+aVAnd Jill and Kevin, the happy couple,
+p99
+aVthey came back from their honeymoon
+p100
+aVand found that their video had gone crazy viral.
+p101
+aVAnd they've ended up on a bunch of talk shows,
+p102
+aVand they've used it as an opportunity to make a difference.
+p103
+aVThe video's inspired over 26,000 dollars in donations
+p104
+aVto end domestic violence.
+p105
+aVThe "JK Wedding [Entrance] Dance" became so popular
+p106
+aVthat NBC parodied it on the season finale of "The Office,"
+p107
+aVwhich just goes to show,
+p108
+aVit's truly an ecosystem of culture.
+p109
+aVBecause it's not just amateurs borrowing from big studios,
+p110
+aVbut sometimes big studios borrowing back.
+p111
+aa(lp112
+VBy empowering choice, we can create a culture of opportunity.
+p113
+aVAnd all it took to change things around
+p114
+aVwas to allow for choice through rights identification.
+p115
+aVSo why has no one ever solved this problem before?
+p116
+aVIt's because it's a big problem,
+p117
+aVand it's complicated and messy.
+p118
+aVIt's not uncommon for a single video
+p119
+aVto have multiple rights owners.
+p120
+aVThere's musical labels.
+p121
+aVThere's multiple music publishers.
+p122
+aVAnd each of these can vary by country.
+p123
+aVThere's lots of cases
+p124
+aVwhere we have more than one work mashed together.
+p125
+aVSo we have to manage many claims
+p126
+aVto the same video.
+p127
+aa(lp128
+VYouTube's Content ID system addresses all of these cases.
+p129
+aVBut the system only works through
+p130
+aVthe participation of rights owners.
+p131
+aVIf you have content that others are uploading to YouTube,
+p132
+aVyou should register in the Content ID system,
+p133
+aVand then you'll have the choice
+p134
+aVabout how your content is used.
+p135
+aVAnd think carefully about the policies that you attach to that content.
+p136
+aVBy simply blocking all reuse,
+p137
+aVyou'll miss out on new art forms,
+p138
+aVnew audiences,
+p139
+aVnew distribution channels
+p140
+aVand new revenue streams.
+p141
+aa(lp142
+VBut it's not just about dollars and impressions.
+p143
+aVJust look at all the joy
+p144
+aVthat was spread through progressive rights management
+p145
+aVand new technology.
+p146
+aVAnd I think we can all agree that joy is definitely an idea worth spreading.
+p147
+aa(lp148
+VThank you.
+p149
+aV(Applause)
+p150
+aasS'transcript_micsec'
+p151
+(lp152
+I11000
+aI49000
+aI76000
+aI131000
+aI164000
+aI190000
+aI192000
+aI203000
+aI258000
+aI291000
+aI320000
+aI332000
+asS'talk_meta'
+p153
+(dp154
+S'ratings'
+p155
+(dp156
+S'ingenious'
+p157
+I73
+sS'beautiful'
+p158
+I34
+sS'inspiring'
+p159
+I115
+sS'ok'
+p160
+I111
+sS'fascinating'
+p161
+I136
+sS'funny'
+p162
+I28
+sS'total_count'
+p163
+I1393
+sS'persuasive'
+p164
+I165
+sS'longwinded'
+p165
+I20
+sS'informative'
+p166
+I485
+sS'jaw-dropping'
+p167
+I49
+sS'obnoxious'
+p168
+I54
+sS'confusing'
+p169
+I15
+sS'courageous'
+p170
+I16
+sS'unconvincing'
+p171
+I92
+ssS'author'
+p172
+VMargaret Gould_Stewart;
+p173
+sS'url'
+p174
+S'https://www.ted.com/talks/margaret_stewart_how_youtube_thinks_about_copyright'
+p175
+sS'vidlen'
+p176
+I345
+sS'totalviews'
+p177
+I780100
+sS'title'
+p178
+VHow YouTube thinks about copyright
+p179
+sS'downloadlink'
+p180
+Vhttps://download.ted.com/talks/MargaretStewart_2010U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p181
+sS'datepublished'
+p182
+cdatetime
+datetime
+p183
+(S'\x07\xda\x06\x0f\x04(\x00\x00\x00\x00'
+tRp184
+sS'datefilmed'
+p185
+g183
+(S'\x07\xda\x06\x0f\x04(\x00\x00\x00\x00'
+tRp186
+sS'alldata_JSON'
+p187
+S'{"viewed_count": 780100, "speakers": [{"description": "User experience master", "firstname": "Margaret Gould", "title": "", "lastname": "Stewart", "middleinitial": "", "whylisten": "<p>Margaret Gould Stewart has spent her career asking, &ldquo;How do we design user experiences that change the world in fundamental ways?&rdquo; It&#39;s a powerful question that has led her to manage user experiences for six of the ten most visited websites in the world, including Facebook, where she serves as Director of Product Design.</p>  <p>Before joining Facebook, Margaret managed the User Experience Team for YouTube, where she oversaw the largest redesign in the company&#39;s history, including the YouTube player page. She came to YouTube after two years leading Search and Consumer Products UX at Google. She approaches her work with a combined appreciation for timeless great design and transient digital technologies, and always with the end goal of improving people&#39;s lives. As she says: &quot;Design is creativity in service of others.&quot;</p>", "slug": "margaret_stewart", "whotheyare": "At Facebook (and previously at YouTube), Margaret Gould Stewart designs experiences that touch the lives of a large percentage of the world\'s population.", "whatotherssay": "", "id": 766, "photo_url": "https://pe.tedcdn.com/images/ted/5691f9850e65cb685720f7b70bb6dfbf6da6e152_254x191.jpg"}], "current_talk": 885, "description": "Margaret Gould Stewart, YouTube\'s head of user experience, talks about how the ubiquitous video site works with copyright holders and creators to foster (at the best of times) a creative ecosystem where everybody wins.", "language": "en", "url": "https://www.ted.com/talks/margaret_stewart_how_youtube_thinks_about_copyright", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40139403}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7962769}, "podcast-high": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40102354}, "180k": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7850520}, "64k": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2851383}, "1500k": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62638213}, "450k": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19476880}, "podcast-regular": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19751513}, "950k": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39849057}, "audio-podcast": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3732279}, "podcast-light": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2951218}, "320k": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13895648}, "600k": {"uri": "https://download.ted.com/talks/MargaretStewart_2010U-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25871409}}}, "comments": {"count": 223, "id": 728, "talk_id": 885}, "slug": "margaret_stewart_how_youtube_thinks_about_copyright", "threadId": 728, "talks": [{"event": "TED2010", "player_talks": [{"event": "TED2010", "slug": "margaret_stewart_how_youtube_thinks_about_copyright", "filmed": 1265760000, "targeting": {"event": "TED2010", "tag": "art,business,creativity,culture,entertainment,law,online video,technology", "id": 885, "talk": "margaret_stewart_how_youtube_thinks_about_copyright", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "How YouTube thinks about copyright", "postAdDuration": "0.83", "published": 1276591200, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/177724_800x600.jpg?quality=89&w=600", "name": "Margaret Gould Stewart: How YouTube thinks about copyright", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "nn", "endonym": "Norsk nynorsk", "isRtl": false, "ianaCode": "nn", "languageName": "Norwegian Nynorsk"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["art", "business", "creativity", "culture", "entertainment", "law", "online video", "technology"], "speaker": "Margaret Gould Stewart", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 345, "id": 885, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MargaretStewart_2010U-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2010", "tag": "art,business,creativity,culture,entertainment,law,online video,technology", "id": 885, "talk": "margaret_stewart_how_youtube_thinks_about_copyright", "year": "2010"}, "metadata": "https://hls.ted.com/talks/885.json", "stream": "https://hls.ted.com/talks/885.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2010%26id%3D885%26tag%3Dart%2Cbusiness%2Ccreativity%2Cculture%2Centertainment%2Claw%2Conline%2Bvideo%2Ctechnology%26talk%3Dmargaret_stewart_how_youtube_thinks_about_copyright%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/margaret_stewart_how_youtube_thinks_about_copyright"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/177724_800x600.jpg?q=50&w=15", "duration": 345, "id": 885, "ratings": [{"count": 49, "id": 23, "name": "Jaw-dropping"}, {"count": 115, "id": 10, "name": "Inspiring"}, {"count": 92, "id": 21, "name": "Unconvincing"}, {"count": 165, "id": 24, "name": "Persuasive"}, {"count": 136, "id": 22, "name": "Fascinating"}, {"count": 485, "id": 8, "name": "Informative"}, {"count": 73, "id": 9, "name": "Ingenious"}, {"count": 34, "id": 1, "name": "Beautiful"}, {"count": 111, "id": 25, "name": "OK"}, {"count": 54, "id": 26, "name": "Obnoxious"}, {"count": 16, "id": 3, "name": "Courageous"}, {"count": 20, "id": 11, "name": "Longwinded"}, {"count": 15, "id": 2, "name": "Confusing"}, {"count": 28, "id": 7, "name": "Funny"}], "speakers": [{"description": "User experience master", "firstname": "Margaret Gould", "title": "", "lastname": "Stewart", "middleinitial": "", "whylisten": "<p>Margaret Gould Stewart has spent her career asking, &ldquo;How do we design user experiences that change the world in fundamental ways?&rdquo; It&#39;s a powerful question that has led her to manage user experiences for six of the ten most visited websites in the world, including Facebook, where she serves as Director of Product Design.</p>  <p>Before joining Facebook, Margaret managed the User Experience Team for YouTube, where she oversaw the largest redesign in the company&#39;s history, including the YouTube player page. She came to YouTube after two years leading Search and Consumer Products UX at Google. She approaches her work with a combined appreciation for timeless great design and transient digital technologies, and always with the end goal of improving people&#39;s lives. As she says: &quot;Design is creativity in service of others.&quot;</p>", "slug": "margaret_stewart", "whotheyare": "At Facebook (and previously at YouTube), Margaret Gould Stewart designs experiences that touch the lives of a large percentage of the world\'s population.", "whatotherssay": "", "id": 766, "photo_url": "https://pe.tedcdn.com/images/ted/5691f9850e65cb685720f7b70bb6dfbf6da6e152_254x191.jpg"}], "title": "How YouTube thinks about copyright", "take_action": null, "comments": 728, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/177724_800x600.jpg", "description": "Margaret Gould Stewart, YouTube\'s head of user experience, talks about how the ubiquitous video site works with copyright holders and creators to foster (at the best of times) a creative ecosystem where everybody wins.", "tags": ["art", "business", "creativity", "culture", "entertainment", "law", "online video", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "nn", "endonym": "Norsk nynorsk", "isRtl": false, "ianaCode": "nn", "languageName": "Norwegian Nynorsk"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-nl.mp4"}, "nn": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-nn.mp4", "name": "Norwegian Nynorsk", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-nn.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-fr-ca.mp4"}, "lt": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-he.mp4"}, "pt": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-pt.mp4"}, "sr": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-uk.mp4"}, "my": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/MargaretStewart_2010U-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MargaretStewart_2010U-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MargaretStewart_2010U.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MargaretStewart_2010U-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 885, "audioDownload": "https://download.ted.com/talks/MargaretStewart_2010U.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1902384, "hero": "https://pe.tedcdn.com/images/ted/01726ef3620b97fcc2a664e1339c6602785123f7_1600x1200.jpg", "title": "Laws that choke creativity", "id": 187, "speaker": "Lawrence Lessig", "duration": 1136, "slug": "larry_lessig_says_the_law_is_strangling_creativity"}, {"viewed_count": 2077854, "hero": "https://pe.tedcdn.com/images/ted/136380_800x600.jpg", "title": "How to make a splash in social media", "id": 714, "speaker": "Alexis Ohanian", "duration": 266, "slug": "alexis_ohanian_how_to_make_a_splash_in_social_media"}, {"viewed_count": 2160735, "hero": "https://pe.tedcdn.com/images/ted/e6e4ef87a73bd253bd522e0b65e4f8bcafcd2dfe_800x600.jpg", "title": "Why videos go viral", "id": 1371, "speaker": "Kevin Allocca", "duration": 440, "slug": "kevin_allocca_why_videos_go_viral"}, {"viewed_count": 816708, "hero": "https://pe.tedcdn.com/images/ted/5b15e7da00df0758c3a5df3c7bf6df761bf8c83f_2880x1620.jpg", "title": "How artists can (finally) get paid in the digital age ", "id": 2838, "speaker": "Jack Conte", "duration": 631, "slug": "jack_conte_how_artists_can_finally_get_paid_in_the_digital_age"}, {"viewed_count": 390693, "hero": "https://pe.tedcdn.com/images/ted/174123_800x600.jpg", "title": "Re-examining the remix", "id": 871, "speaker": "Lawrence Lessig", "duration": 1125, "slug": "lessig_nyed"}, {"viewed_count": 1139285, "hero": "https://pe.tedcdn.com/images/ted/1c82493a6f6e64750d43b1f6e301549bc466f117_2880x1620.jpg", "title": "After your final status update", "id": 1201, "speaker": "Adam Ostrow", "duration": 329, "slug": "adam_ostrow_after_your_final_status_update"}], "recorded_at": "2010-02-10T00:00:00.000+00:00", "slug": "margaret_stewart_how_youtube_thinks_about_copyright", "speaker_name": "Margaret Gould Stewart", "viewed_count": 780100, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2010", "name": "Margaret Gould Stewart: How YouTube thinks about copyright"}'
+p188
+sS'keywords'
+p189
+(lp190
+Vart
+p191
+aVbusiness
+p192
+aVcreativity
+p193
+aVculture
+p194
+aVentertainment
+p195
+aVlaw
+p196
+aVonline video
+p197
+aVtechnology
+p198
+asS'datecrawled'
+p199
+g183
+(S'\x07\xe1\n\x17\x01-\x0f\x0f>\x07'
+tRp200
+sS'id'
+p201
+I885
+ss.

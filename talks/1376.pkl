@@ -1,0 +1,804 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VGood morning.
+p5
+aVI'm here today to talk about autonomous flying beach balls.
+p6
+aa(lp7
+V(Laughter)
+p8
+aa(lp9
+VNo, agile aerial robots like this one.
+p10
+aVI'd like to tell you a little bit about the challenges in building these,
+p11
+aVand some of the terrific opportunities for applying this technology.
+p12
+aVSo these robots are related to unmanned aerial vehicles.
+p13
+aVHowever, the vehicles you see here are big.
+p14
+aVThey weigh thousands of pounds, are not by any means agile.
+p15
+aVThey're not even autonomous.
+p16
+aVIn fact, many of these vehicles are operated by flight crews
+p17
+aVthat can include multiple pilots,
+p18
+aVoperators of sensors,
+p19
+aVand mission coordinators.
+p20
+aa(lp21
+VWhat we're interested in is developing robots like this \u2014
+p22
+aVand here are two other pictures \u2014
+p23
+aVof robots that you can buy off the shelf.
+p24
+aVSo these are helicopters with four rotors,
+p25
+aVand they're roughly a meter or so in scale,
+p26
+aVand weigh several pounds.
+p27
+aVAnd so we retrofit these with sensors and processors,
+p28
+aVand these robots can fly indoors.
+p29
+aVWithout GPS.
+p30
+aa(lp31
+VThe robot I'm holding in my hand
+p32
+aVis this one,
+p33
+aVand it's been created by two students,
+p34
+aVAlex and Daniel.
+p35
+aVSo this weighs a little more than a tenth of a pound.
+p36
+aVIt consumes about 15 watts of power.
+p37
+aVAnd as you can see, it's about eight inches in diameter.
+p38
+aVSo let me give you just a very quick tutorial
+p39
+aVon how these robots work.
+p40
+aa(lp41
+VSo it has four rotors.
+p42
+aVIf you spin these rotors at the same speed,
+p43
+aVthe robot hovers.
+p44
+aVIf you increase the speed of each of these rotors,
+p45
+aVthen the robot flies up, it accelerates up.
+p46
+aVOf course, if the robot were tilted,
+p47
+aVinclined to the horizontal,
+p48
+aVthen it would accelerate in this direction.
+p49
+aVSo to get it to tilt,
+p50
+aVthere's one of two ways of doing it.
+p51
+aVSo in this picture, you see that rotor four is spinning faster
+p52
+aVand rotor two is spinning slower.
+p53
+aVAnd when that happens,
+p54
+aVthere's a moment that causes this robot to roll.
+p55
+aVAnd the other way around,
+p56
+aVif you increase the speed of rotor three and decrease the speed of rotor one,
+p57
+aVthen the robot pitches forward.
+p58
+aa(lp59
+VAnd then finally,
+p60
+aVif you spin opposite pairs of rotors
+p61
+aVfaster than the other pair,
+p62
+aVthen the robot yaws about the vertical axis.
+p63
+aVSo an on-board processor
+p64
+aVessentially looks at what motions need to be executed
+p65
+aVand combines these motions,
+p66
+aVand figures out what commands to send to the motors \u2014
+p67
+aV600 times a second.
+p68
+aVThat's basically how this thing operates.
+p69
+aa(lp70
+VSo one of the advantages of this design
+p71
+aVis when you scale things down,
+p72
+aVthe robot naturally becomes agile.
+p73
+aVSo here, R is the characteristic length of the robot.
+p74
+aVIt's actually half the diameter.
+p75
+aVAnd there are lots of physical parameters that change as you reduce R.
+p76
+aVThe one that's most important is the inertia,
+p77
+aVor the resistance to motion.
+p78
+aVSo it turns out the inertia, which governs angular motion,
+p79
+aVscales as a fifth power of R.
+p80
+aVSo the smaller you make R,
+p81
+aVthe more dramatically the inertia reduces.
+p82
+aVSo as a result, the angular acceleration,
+p83
+aVdenoted by the Greek letter alpha here,
+p84
+aVgoes as 1 over R.
+p85
+aVIt's inversely proportional to R.
+p86
+aVThe smaller you make it, the more quickly you can turn.
+p87
+aa(lp88
+VSo this should be clear in these videos.
+p89
+aVOn the bottom right, you see a robot performing a 360-degree flip
+p90
+aVin less than half a second.
+p91
+aVMultiple flips, a little more time.
+p92
+aVSo here the processes on board
+p93
+aVare getting feedback from accelerometers and gyros on board,
+p94
+aVand calculating, like I said before,
+p95
+aVcommands at 600 times a second,
+p96
+aVto stabilize this robot.
+p97
+aVSo on the left, you see Daniel throwing this robot up into the air,
+p98
+aVand it shows you how robust the control is.
+p99
+aVNo matter how you throw it,
+p100
+aVthe robot recovers and comes back to him.
+p101
+aa(lp102
+VSo why build robots like this?
+p103
+aVWell, robots like this have many applications.
+p104
+aVYou can send them inside buildings like this,
+p105
+aVas first responders to look for intruders,
+p106
+aVmaybe look for biochemical leaks,
+p107
+aVgaseous leaks.
+p108
+aVYou can also use them for applications like construction.
+p109
+aVSo here are robots carrying beams, columns
+p110
+aVand assembling cube-like structures.
+p111
+aVI'll tell you a little bit more about this.
+p112
+aVThe robots can be used for transporting cargo.
+p113
+aVSo one of the problems with these small robots
+p114
+aVis their payload-carrying capacity.
+p115
+aVSo you might want to have multiple robots carry payloads.
+p116
+aVThis is a picture of a recent experiment we did \u2014
+p117
+aVactually not so recent anymore \u2014
+p118
+aVin Sendai, shortly after the earthquake.
+p119
+aVSo robots like this could be sent into collapsed buildings,
+p120
+aVto assess the damage after natural disasters,
+p121
+aVor sent into reactor buildings,
+p122
+aVto map radiation levels.
+p123
+aa(lp124
+VSo one fundamental problem that the robots have to solve
+p125
+aVif they are to be autonomous,
+p126
+aVis essentially figuring out how to get from point A to point B.
+p127
+aVSo this gets a little challenging,
+p128
+aVbecause the dynamics of this robot are quite complicated.
+p129
+aVIn fact, they live in a 12-dimensional space.
+p130
+aVSo we use a little trick.
+p131
+aVWe take this curved 12-dimensional space,
+p132
+aVand transform it into a flat, four-dimensional space.
+p133
+aVAnd that four-dimensional space consists of X, Y, Z,
+p134
+aVand then the yaw angle.
+p135
+aa(lp136
+VAnd so what the robot does,
+p137
+aVis it plans what we call a minimum-snap trajectory.
+p138
+aVSo to remind you of physics:
+p139
+aVYou have position, derivative, velocity;
+p140
+aVthen acceleration;
+p141
+aVand then comes jerk,
+p142
+aVand then comes snap.
+p143
+aVSo this robot minimizes snap.
+p144
+aVSo what that effectively does,
+p145
+aVis produce a smooth and graceful motion.
+p146
+aVAnd it does that avoiding obstacles.
+p147
+aVSo these minimum-snap trajectories in this flat space are then transformed
+p148
+aVback into this complicated 12-dimensional space,
+p149
+aVwhich the robot must do for control and then execution.
+p150
+aa(lp151
+VSo let me show you some examples
+p152
+aVof what these minimum-snap trajectories look like.
+p153
+aVAnd in the first video,
+p154
+aVyou'll see the robot going from point A to point B,
+p155
+aVthrough an intermediate point.
+p156
+aa(lp157
+V(Whirring noise)
+p158
+aa(lp159
+VSo the robot is obviously capable of executing any curve trajectory.
+p160
+aVSo these are circular trajectories,
+p161
+aVwhere the robot pulls about two G's.
+p162
+aVHere you have overhead motion capture cameras on the top
+p163
+aVthat tell the robot where it is 100 times a second.
+p164
+aVIt also tells the robot where these obstacles are.
+p165
+aVAnd the obstacles can be moving.
+p166
+aVAnd here, you'll see Daniel throw this hoop into the air,
+p167
+aVwhile the robot is calculating the position of the hoop,
+p168
+aVand trying to figure out how to best go through the hoop.
+p169
+aVSo as an academic,
+p170
+aVwe're always trained to be able to jump through hoops
+p171
+aVto raise funding for our labs,
+p172
+aVand we get our robots to do that.
+p173
+aa(lp174
+V(Applause)
+p175
+aa(lp176
+VSo another thing the robot can do
+p177
+aVis it remembers pieces of trajectory
+p178
+aVthat it learns or is pre-programmed.
+p179
+aVSo here, you see the robot combining a motion that builds up momentum,
+p180
+aVand then changes its orientation and then recovers.
+p181
+aVSo it has to do this because this gap in the window
+p182
+aVis only slightly larger than the width of the robot.
+p183
+aVSo just like a diver stands on a springboard
+p184
+aVand then jumps off it to gain momentum,
+p185
+aVand then does this pirouette, this two and a half somersault through
+p186
+aVand then gracefully recovers,
+p187
+aVthis robot is basically doing that.
+p188
+aVSo it knows how to combine little bits and pieces of trajectories
+p189
+aVto do these fairly difficult tasks.
+p190
+aa(lp191
+VSo I want change gears.
+p192
+aVSo one of the disadvantages of these small robots is its size.
+p193
+aVAnd I told you earlier
+p194
+aVthat we may want to employ lots and lots of robots
+p195
+aVto overcome the limitations of size.
+p196
+aVSo one difficulty is:
+p197
+aVHow do you coordinate lots of these robots?
+p198
+aVAnd so here, we looked to nature.
+p199
+aVSo I want to show you a clip of Aphaenogaster desert ants,
+p200
+aVin Professor Stephen Pratt's lab, carrying an object.
+p201
+aVSo this is actually a piece of fig.
+p202
+aVActually you take any object coated with fig juice,
+p203
+aVand the ants will carry it back to the nest.
+p204
+aVSo these ants don't have any central coordinator.
+p205
+aVThey sense their neighbors.
+p206
+aVThere's no explicit communication.
+p207
+aVBut because they sense the neighbors
+p208
+aVand because they sense the object,
+p209
+aVthey have implicit coordination across the group.
+p210
+aa(lp211
+VSo this is the kind of coordination we want our robots to have.
+p212
+aVSo when we have a robot which is surrounded by neighbors \u2014
+p213
+aVand let's look at robot I and robot J \u2014
+p214
+aVwhat we want the robots to do,
+p215
+aVis to monitor the separation between them,
+p216
+aVas they fly in formation.
+p217
+aVAnd then you want to make sure
+p218
+aVthat this separation is within acceptable levels.
+p219
+aVSo again, the robots monitor this error
+p220
+aVand calculate the control commands 100 times a second,
+p221
+aVwhich then translates into motor commands,
+p222
+aV600 times a second.
+p223
+aVSo this also has to be done in a decentralized way.
+p224
+aVAgain, if you have lots and lots of robots,
+p225
+aVit's impossible to coordinate all this information centrally
+p226
+aVfast enough in order for the robots to accomplish the task.
+p227
+aVPlus, the robots have to base their actions only on local information \u2014
+p228
+aVwhat they sense from their neighbors.
+p229
+aVAnd then finally,
+p230
+aVwe insist that the robots be agnostic to who their neighbors are.
+p231
+aVSo this is what we call anonymity.
+p232
+aa(lp233
+VSo what I want to show you next is a video of 20 of these little robots,
+p234
+aVflying in formation.
+p235
+aVThey're monitoring their neighbors' positions.
+p236
+aVThey're maintaining formation.
+p237
+aVThe formations can change.
+p238
+aVThey can be planar formations,
+p239
+aVthey can be three-dimensional formations.
+p240
+aVAs you can see here,
+p241
+aVthey collapse from a three-dimensional formation into planar formation.
+p242
+aVAnd to fly through obstacles,
+p243
+aVthey can adapt the formations on the fly.
+p244
+aVSo again, these robots come really close together.
+p245
+aVAs you can see in this figure-eight flight,
+p246
+aVthey come within inches of each other.
+p247
+aVAnd despite the aerodynamic interactions with these propeller blades,
+p248
+aVthey're able to maintain stable flight.
+p249
+aa(lp250
+V(Applause)
+p251
+aa(lp252
+VSo once you know how to fly in formation,
+p253
+aVyou can actually pick up objects cooperatively.
+p254
+aVSo this just shows that we can double, triple, quadruple
+p255
+aVthe robots' strength,
+p256
+aVby just getting them to team with neighbors, as you can see here.
+p257
+aVOne of the disadvantages of doing that is, as you scale things up \u2014
+p258
+aVso if you have lots of robots carrying the same thing,
+p259
+aVyou're essentially increasing the inertia,
+p260
+aVand therefore you pay a price; they're not as agile.
+p261
+aVBut you do gain in terms of payload-carrying capacity.
+p262
+aa(lp263
+VAnother application I want to show you \u2014 again, this is in our lab.
+p264
+aVThis is work done by Quentin Lindsey, who's a graduate student.
+p265
+aVSo his algorithm essentially tells these robots
+p266
+aVhow to autonomously build cubic structures
+p267
+aVfrom truss-like elements.
+p268
+aVSo his algorithm tells the robot what part to pick up,
+p269
+aVwhen, and where to place it.
+p270
+aVSo in this video you see \u2014
+p271
+aVand it's sped up 10, 14 times \u2014
+p272
+aVyou see three different structures being built by these robots.
+p273
+aVAnd again, everything is autonomous,
+p274
+aVand all Quentin has to do
+p275
+aVis to give them a blueprint of the design that he wants to build.
+p276
+aa(lp277
+VSo all these experiments you've seen thus far,
+p278
+aVall these demonstrations,
+p279
+aVhave been done with the help of motion-capture systems.
+p280
+aVSo what happens when you leave your lab,
+p281
+aVand you go outside into the real world?
+p282
+aVAnd what if there's no GPS?
+p283
+aVSo this robot is actually equipped with a camera,
+p284
+aVand a laser rangefinder, laser scanner.
+p285
+aVAnd it uses these sensors to build a map of the environment.
+p286
+aVWhat that map consists of are features \u2014
+p287
+aVlike doorways, windows, people, furniture \u2014
+p288
+aVand it then figures out where its position is,
+p289
+aVwith respect to the features.
+p290
+aVSo there is no global coordinate system.
+p291
+aVThe coordinate system is defined based on the robot,
+p292
+aVwhere it is and what it's looking at.
+p293
+aVAnd it navigates with respect to those features.
+p294
+aa(lp295
+VSo I want to show you a clip
+p296
+aVof algorithms developed by Frank Shen and Professor Nathan Michael,
+p297
+aVthat shows this robot entering a building for the very first time,
+p298
+aVand creating this map on the fly.
+p299
+aVSo the robot then figures out what the features are,
+p300
+aVit builds the map,
+p301
+aVit figures out where it is with respect to the features,
+p302
+aVand then estimates its position 100 times a second,
+p303
+aVallowing us to use the control algorithms that I described to you earlier.
+p304
+aVSo this robot is actually being commanded remotely by Frank,
+p305
+aVbut the robot can also figure out where to go on its own.
+p306
+aVSo suppose I were to send this into a building,
+p307
+aVand I had no idea what this building looked like.
+p308
+aVI can ask this robot to go in,
+p309
+aVcreate a map,
+p310
+aVand then come back and tell me what the building looks like.
+p311
+aVSo here, the robot is not only solving the problem
+p312
+aVof how to go from point A to point B in this map,
+p313
+aVbut it's figuring out what the best point B is at every time.
+p314
+aVSo essentially it knows where to go
+p315
+aVto look for places that have the least information,
+p316
+aVand that's how it populates this map.
+p317
+aa(lp318
+VSo I want to leave you with one last application.
+p319
+aVAnd there are many applications of this technology.
+p320
+aVI'm a professor, and we're passionate about education.
+p321
+aVRobots like this can really change the way we do K-12 education.
+p322
+aVBut we're in Southern California,
+p323
+aVclose to Los Angeles,
+p324
+aVso I have to conclude with something focused on entertainment.
+p325
+aVI want to conclude with a music video.
+p326
+aVI want to introduce the creators, Alex and Daniel, who created this video.
+p327
+aa(lp328
+V(Applause)
+p329
+aa(lp330
+VSo before I play this video,
+p331
+aVI want to tell you that they created it in the last three days,
+p332
+aVafter getting a call from Chris.
+p333
+aVAnd the robots that play in the video are completely autonomous.
+p334
+aVYou will see nine robots play six different instruments.
+p335
+aVAnd of course, it's made exclusively for TED 2012.
+p336
+aVLet's watch.
+p337
+aa(lp338
+V(Sound of air escaping from valve)
+p339
+aa(lp340
+V(Music)
+p341
+aa(lp342
+V(Whirring sound)
+p343
+aa(lp344
+V(Music)
+p345
+aa(lp346
+V(Applause) (Cheers)
+p347
+aasS'transcript_micsec'
+p348
+(lp349
+I16000
+aI22000
+aI23000
+aI59000
+aI83000
+aI106000
+aI149000
+aI171000
+aI219000
+aI254000
+aI315000
+aI345000
+aI382000
+aI392000
+aI399000
+aI437000
+aI444000
+aI485000
+aI533000
+aI592000
+aI637000
+aI644000
+aI673000
+aI712000
+aI762000
+aI826000
+aI854000
+aI861000
+aI882000
+aI889000
+aI892000
+aI915000
+aI979000
+asS'talk_meta'
+p350
+(dp351
+S'ratings'
+p352
+(dp353
+S'beautiful'
+p354
+I182
+sS'ingenious'
+p355
+I1143
+sS'inspiring'
+p356
+I910
+sS'ok'
+p357
+I71
+sS'fascinating'
+p358
+I1294
+sS'funny'
+p359
+I96
+sS'total_count'
+p360
+I6394
+sS'persuasive'
+p361
+I94
+sS'longwinded'
+p362
+I12
+sS'unconvincing'
+p363
+I11
+sS'informative'
+p364
+I454
+sS'jaw-dropping'
+p365
+I2029
+sS'obnoxious'
+p366
+I13
+sS'courageous'
+p367
+I67
+sS'confusing'
+p368
+I18
+ssS'author'
+p369
+VVijay_Kumar;
+p370
+sS'url'
+p371
+S'https://www.ted.com/talks/vijay_kumar_robots_that_fly_and_cooperate'
+p372
+sS'vidlen'
+p373
+I1006
+sS'totalviews'
+p374
+I4257312
+sS'title'
+p375
+VRobots that fly ... and cooperate
+p376
+sS'downloadlink'
+p377
+Vhttps://download.ted.com/talks/VijayKumar_2012.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p378
+sS'datepublished'
+p379
+cdatetime
+datetime
+p380
+(S'\x07\xdc\x03\x01\n"3\x00\x00\x00'
+tRp381
+sS'datefilmed'
+p382
+g380
+(S'\x07\xdc\x03\x01\n"3\x00\x00\x00'
+tRp383
+sS'alldata_JSON'
+p384
+S'{"viewed_count": 4257312, "speakers": [{"description": "Roboticist", "firstname": "Vijay", "title": "", "lastname": "Kumar", "middleinitial": "", "whylisten": "<p>At the General Robotics, Automation, Sensing and Perception (GRASP) Lab at the University of Pennsylvania, flying quadrotor robots move together in eerie formation, tightening themselves into perfect battalions, even filling in the gap when one of their own drops out. You might have seen viral videos of the quads zipping around the netting-draped GRASP Lab (they juggle! they fly through a hula hoop!). Vijay Kumar headed this lab from 1998-2004. He&#39;s now the dean of the School of Engineering and Applied Science at the University of Pennsylvania in Philadelphia, where he continues his work in robotics, blending computer science and mechanical engineering to create the next generation of robotic wonders.</p>", "slug": "vijay_kumar", "whotheyare": "As the dean of the University of Pennsylvania\'s School of Engineering and Applied Science, Vijay Kumar studies the control and coordination of multi-robot formations.", "whatotherssay": "", "id": 1248, "photo_url": "https://pe.tedcdn.com/images/ted/1c6de67b5b0f5e92f3a5c8d03d48705eee13a6a1_254x191.jpg"}], "current_talk": 1376, "description": "In his lab at Penn, Vijay Kumar and his team build flying quadrotors, small, agile robots that swarm, sense each other, and form ad hoc teams -- for construction, surveying disasters and far more.", "language": "en", "url": "https://www.ted.com/talks/vijay_kumar_robots_that_fly_and_cooperate", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/VijayKumar_2012-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116282279}, "podcast-low-en": {"uri": "https://download.ted.com/talks/VijayKumar_2012-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23054381}, "podcast-high": {"uri": "https://download.ted.com/talks/VijayKumar_2012-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116280214}, "180k": {"uri": "https://download.ted.com/talks/VijayKumar_2012-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22803501}, "64k": {"uri": "https://download.ted.com/talks/VijayKumar_2012-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8218011}, "1500k": {"uri": "https://download.ted.com/talks/VijayKumar_2012-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 181604772}, "450k": {"uri": "https://download.ted.com/talks/VijayKumar_2012-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56855212}, "podcast-regular": {"uri": "https://download.ted.com/talks/VijayKumar_2012.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 56970388}, "950k": {"uri": "https://download.ted.com/talks/VijayKumar_2012-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 116270222}, "audio-podcast": {"uri": "https://download.ted.com/talks/VijayKumar_2012.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8185513}, "podcast-light": {"uri": "https://download.ted.com/talks/VijayKumar_2012-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8351419}, "320k": {"uri": "https://download.ted.com/talks/VijayKumar_2012-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40382602}, "600k": {"uri": "https://download.ted.com/talks/VijayKumar_2012-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 76007900}}}, "comments": {"count": 379, "id": 11032, "talk_id": 1376}, "slug": "vijay_kumar_robots_that_fly_and_cooperate", "threadId": 11032, "talks": [{"event": "TED2012", "player_talks": [{"event": "TED2012", "slug": "vijay_kumar_robots_that_fly_and_cooperate", "filmed": 1330473600, "targeting": {"event": "TED2012", "tag": "AI,drones,robots,technology", "id": 1376, "talk": "vijay_kumar_robots_that_fly_and_cooperate", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "Robots that fly ... and cooperate", "postAdDuration": "0.83", "published": 1330616091, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg?quality=89&w=600", "name": "Vijay Kumar: Robots that fly ... and cooperate", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "drones", "robots", "technology"], "speaker": "Vijay Kumar", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1006, "id": 1376, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/VijayKumar_2012-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2012", "tag": "AI,drones,robots,technology", "id": 1376, "talk": "vijay_kumar_robots_that_fly_and_cooperate", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1376.json", "stream": "https://hls.ted.com/talks/1376.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2012%26id%3D1376%26tag%3DAI%2Cdrones%2Crobots%2Ctechnology%26talk%3Dvijay_kumar_robots_that_fly_and_cooperate%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/vijay_kumar_robots_that_fly_and_cooperate"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg?q=50&w=15", "duration": 1006, "id": 1376, "ratings": [{"count": 910, "id": 10, "name": "Inspiring"}, {"count": 454, "id": 8, "name": "Informative"}, {"count": 1294, "id": 22, "name": "Fascinating"}, {"count": 2029, "id": 23, "name": "Jaw-dropping"}, {"count": 182, "id": 1, "name": "Beautiful"}, {"count": 1143, "id": 9, "name": "Ingenious"}, {"count": 96, "id": 7, "name": "Funny"}, {"count": 67, "id": 3, "name": "Courageous"}, {"count": 71, "id": 25, "name": "OK"}, {"count": 94, "id": 24, "name": "Persuasive"}, {"count": 18, "id": 2, "name": "Confusing"}, {"count": 12, "id": 11, "name": "Longwinded"}, {"count": 11, "id": 21, "name": "Unconvincing"}, {"count": 13, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Roboticist", "firstname": "Vijay", "title": "", "lastname": "Kumar", "middleinitial": "", "whylisten": "<p>At the General Robotics, Automation, Sensing and Perception (GRASP) Lab at the University of Pennsylvania, flying quadrotor robots move together in eerie formation, tightening themselves into perfect battalions, even filling in the gap when one of their own drops out. You might have seen viral videos of the quads zipping around the netting-draped GRASP Lab (they juggle! they fly through a hula hoop!). Vijay Kumar headed this lab from 1998-2004. He&#39;s now the dean of the School of Engineering and Applied Science at the University of Pennsylvania in Philadelphia, where he continues his work in robotics, blending computer science and mechanical engineering to create the next generation of robotic wonders.</p>", "slug": "vijay_kumar", "whotheyare": "As the dean of the University of Pennsylvania\'s School of Engineering and Applied Science, Vijay Kumar studies the control and coordination of multi-robot formations.", "whatotherssay": "", "id": 1248, "photo_url": "https://pe.tedcdn.com/images/ted/1c6de67b5b0f5e92f3a5c8d03d48705eee13a6a1_254x191.jpg"}], "title": "Robots that fly ... and cooperate", "take_action": [], "comments": 11032, "more_resources": [{"status": "approved", "start_at": null, "headline": "15 years of drones at TED, in five GIFs", "link_url": "http://ideas.ted.com/15-years-of-drones-at-ted-in-five-gifs/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "", "type": "from_the_blog", "blurb": "Check out these GIFs, covering some of the best drone moments at TED."}], "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "description": "In his lab at Penn, Vijay Kumar and his team build flying quadrotors, small, agile robots that swarm, sense each other, and form ad hoc teams -- for construction, surveying disasters and far more.", "tags": ["AI", "drones", "robots", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "ku", "endonym": "\\u06a9\\u0648\\u0631\\u062f\\u06cc", "isRtl": true, "ianaCode": "ku", "languageName": "Kurdish"}, {"languageCode": "mr", "endonym": "\\u092e\\u0930\\u093e\\u0920\\u0940", "isRtl": false, "ianaCode": "mr", "languageName": "Marathi"}, {"languageCode": "mn", "endonym": "\\u041c\\u043e\\u043d\\u0433\\u043e\\u043b", "isRtl": false, "ianaCode": "mn", "languageName": "Mongolian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/VijayKumar_2012-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/VijayKumar_2012-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/VijayKumar_2012-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/VijayKumar_2012-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/VijayKumar_2012-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/VijayKumar_2012-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/VijayKumar_2012-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/VijayKumar_2012-low-pt.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/VijayKumar_2012-low-zh-cn.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/VijayKumar_2012-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/VijayKumar_2012-low-tr.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/VijayKumar_2012-low-fr-ca.mp4"}, "th": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/VijayKumar_2012-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/VijayKumar_2012-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/VijayKumar_2012-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/VijayKumar_2012-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/VijayKumar_2012-low-hi.mp4"}, "ja": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/VijayKumar_2012-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/VijayKumar_2012-low-he.mp4"}, "sq": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-sq.mp4"}, "mn": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-mn.mp4", "name": "Mongolian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-mn.mp4"}, "ko": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/VijayKumar_2012-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/VijayKumar_2012-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/VijayKumar_2012-low-uk.mp4"}, "mr": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p-mr.mp4", "name": "Marathi", "low": "https://download.ted.com/talks/VijayKumar_2012-low-mr.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/VijayKumar_2012-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/VijayKumar_2012.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/VijayKumar_2012-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1376, "audioDownload": "https://download.ted.com/talks/VijayKumar_2012.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1932110, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "title": "My seven species of robot -- and how we created them", "id": 820, "speaker": "Dennis Hong", "duration": 955, "slug": "dennis_hong_my_seven_species_of_robot"}, {"viewed_count": 1464520, "hero": "https://pe.tedcdn.com/images/ted/81787_800x600.jpg", "title": "Military robots and the future of war", "id": 504, "speaker": "P.W. Singer", "duration": 965, "slug": "pw_singer_on_robots_of_war"}, {"viewed_count": 667366, "hero": "https://pe.tedcdn.com/images/ted/95709_800x600.jpg", "title": "Learning from the gecko\'s tail", "id": 571, "speaker": "Robert Full", "duration": 714, "slug": "robert_full_learning_from_the_gecko_s_tail"}, {"viewed_count": 604247, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}, {"viewed_count": 1368451, "hero": "https://pe.tedcdn.com/images/ted/87f82eddb91d2c806ebb11465d846c47f481902c_2880x1620.jpg", "title": "The future of flying robots", "id": 2346, "speaker": "Vijay Kumar", "duration": 789, "slug": "vijay_kumar_the_future_of_flying_robots"}, {"viewed_count": 1623557, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}], "recorded_at": "2012-02-29T00:00:00.000+00:00", "slug": "vijay_kumar_robots_that_fly_and_cooperate", "speaker_name": "Vijay Kumar", "viewed_count": 4257312, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2012", "name": "Vijay Kumar: Robots that fly ... and cooperate"}'
+p385
+sS'keywords'
+p386
+(lp387
+VAI
+p388
+aVdrones
+p389
+aVrobots
+p390
+aVtechnology
+p391
+asS'datecrawled'
+p392
+g380
+(S'\x07\xe1\n\x17\x03\x1e\x02\x00\x8a\xf4'
+tRp393
+sS'id'
+p394
+I1376
+ss.

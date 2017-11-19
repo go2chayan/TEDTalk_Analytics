@@ -1,0 +1,722 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI study how the brain processes
+p5
+aVinformation. That is, how it takes
+p6
+aVinformation in from the outside world, and
+p7
+aVconverts it into patterns of electrical activity,
+p8
+aVand then how it uses those patterns
+p9
+aVto allow you to do things \u2014
+p10
+aVto see, hear, to reach for an object.
+p11
+aVSo I'm really a basic scientist, not
+p12
+aVa clinician, but in the last year and a half
+p13
+aVI've started to switch over, to use what
+p14
+aVwe've been learning about these patterns
+p15
+aVof activity to develop prosthetic devices,
+p16
+aVand what I wanted to do today is show you
+p17
+aVan example of this.
+p18
+aVIt's really our first foray into this.
+p19
+aVIt's the development of a prosthetic device
+p20
+aVfor treating blindness.
+p21
+aa(lp22
+VSo let me start in on that problem.
+p23
+aVThere are 10 million people in the U.S.
+p24
+aVand many more worldwide who are blind
+p25
+aVor are facing blindness due to diseases
+p26
+aVof the retina, diseases like
+p27
+aVmacular degeneration, and there's little
+p28
+aVthat can be done for them.
+p29
+aVThere are some drug treatments, but
+p30
+aVthey're only effective on a small fraction
+p31
+aVof the population. And so, for the vast
+p32
+aVmajority of patients, their best hope for
+p33
+aVregaining sight is through prosthetic devices.
+p34
+aVThe problem is that current prosthetics
+p35
+aVdon't work very well. They're still very
+p36
+aVlimited in the vision that they can provide.
+p37
+aVAnd so, you know, for example, with these
+p38
+aVdevices, patients can see simple things
+p39
+aVlike bright lights and high contrast edges,
+p40
+aVnot very much more, so nothing close
+p41
+aVto normal vision has been possible.
+p42
+aa(lp43
+VSo what I'm going to tell you about today
+p44
+aVis a device that we've been working on
+p45
+aVthat I think has the potential to make
+p46
+aVa difference, to be much more effective,
+p47
+aVand what I wanted to do is show you
+p48
+aVhow it works. Okay, so let me back up a
+p49
+aVlittle bit and show you how a normal retina
+p50
+aVworks first so you can see the problem
+p51
+aVthat we were trying to solve.
+p52
+aVHere you have a retina.
+p53
+aVSo you have an image, a retina, and a brain.
+p54
+aVSo when you look at something, like this image
+p55
+aVof this baby's face, it goes into your eye
+p56
+aVand it lands on your retina, on the front-end
+p57
+aVcells here, the photoreceptors.
+p58
+aVThen what happens is the retinal circuitry,
+p59
+aVthe middle part, goes to work on it,
+p60
+aVand what it does is it performs operations
+p61
+aVon it, it extracts information from it, and it
+p62
+aVconverts that information into a code.
+p63
+aVAnd the code is in the form of these patterns
+p64
+aVof electrical pulses that get sent
+p65
+aVup to the brain, and so the key thing is
+p66
+aVthat the image ultimately gets converted
+p67
+aVinto a code. And when I say code,
+p68
+aVI do literally mean code.
+p69
+aVLike this pattern of pulses here actually means "baby's face,"
+p70
+aVand so when the brain gets this pattern
+p71
+aVof pulses, it knows that what was out there
+p72
+aVwas a baby's face, and if it
+p73
+aVgot a different pattern it would know
+p74
+aVthat what was out there was, say, a dog,
+p75
+aVor another pattern would be a house.
+p76
+aVAnyway, you get the idea.
+p77
+aa(lp78
+VAnd, of course, in real life, it's all dynamic,
+p79
+aVmeaning that it's changing all the time,
+p80
+aVso the patterns of pulses are changing
+p81
+aVall the time because the world you're
+p82
+aVlooking at is changing all the time too.
+p83
+aVSo, you know, it's sort of a complicated
+p84
+aVthing. You have these patterns of pulses
+p85
+aVcoming out of your eye every millisecond
+p86
+aVtelling your brain what it is that you're seeing.
+p87
+aVSo what happens when a person
+p88
+aVgets a retinal degenerative disease like
+p89
+aVmacular degeneration? What happens is
+p90
+aVis that, the front-end cells die,
+p91
+aVthe photoreceptors die, and over time,
+p92
+aVall the cells and the circuits that are
+p93
+aVconnected to them, they die too.
+p94
+aVUntil the only things that you have left
+p95
+aVare these cells here, the output cells,
+p96
+aVthe ones that send the signals to the brain,
+p97
+aVbut because of all that degeneration
+p98
+aVthey aren't sending any signals anymore.
+p99
+aVThey aren't getting any input, so
+p100
+aVthe person's brain no longer gets
+p101
+aVany visual information \u2014
+p102
+aVthat is, he or she is blind.
+p103
+aa(lp104
+VSo, a solution to the problem, then,
+p105
+aVwould be to build a device that could mimic
+p106
+aVthe actions of that front-end circuitry
+p107
+aVand send signals to the retina's output cells,
+p108
+aVand they can go back to doing their
+p109
+aVnormal job of sending signals to the brain.
+p110
+aVSo this is what we've been working on,
+p111
+aVand this is what our prosthetic does.
+p112
+aVSo it consists of two parts, what we call
+p113
+aVan encoder and a transducer.
+p114
+aVAnd so the encoder does just
+p115
+aVwhat I was saying: it mimics the actions
+p116
+aVof the front-end circuitry \u2014 so it takes images
+p117
+aVin and converts them into the retina's code.
+p118
+aVAnd then the transducer then makes the
+p119
+aVoutput cells send the code on up
+p120
+aVto the brain, and the result is
+p121
+aVa retinal prosthetic that can produce
+p122
+aVnormal retinal output.
+p123
+aVSo a completely blind retina,
+p124
+aVeven one with no front-end circuitry at all,
+p125
+aVno photoreceptors,
+p126
+aVcan now send out normal signals,
+p127
+aVsignals that the brain can understand.
+p128
+aVSo no other device has been able
+p129
+aVto do this.
+p130
+aa(lp131
+VOkay, so I just want to take
+p132
+aVa sentence or two to say something about
+p133
+aVthe encoder and what it's doing, because
+p134
+aVit's really the key part and it's
+p135
+aVsort of interesting and kind of cool.
+p136
+aVI'm not sure "cool" is really the right word, but
+p137
+aVyou know what I mean.
+p138
+aVSo what it's doing is, it's replacing
+p139
+aVthe retinal circuitry, really the guts of
+p140
+aVthe retinal circuitry, with a set of equations,
+p141
+aVa set of equations that we can implement
+p142
+aVon a chip. So it's just math.
+p143
+aVIn other words, we're not literally replacing
+p144
+aVthe components of the retina.
+p145
+aVIt's not like we're making a little mini-device
+p146
+aVfor each of the different cell types.
+p147
+aVWe've just abstracted what the
+p148
+aVretina's doing with a set of equations.
+p149
+aVAnd so, in a way, the equations are serving
+p150
+aVas sort of a codebook. An image comes in,
+p151
+aVgoes through the set of equations,
+p152
+aVand out comes streams of electrical pulses,
+p153
+aVjust like a normal retina would produce.
+p154
+aa(lp155
+VNow let me put my money
+p156
+aVwhere my mouth is and show you that
+p157
+aVwe can actually produce normal output,
+p158
+aVand what the implications of this are.
+p159
+aVHere are three sets of
+p160
+aVfiring patterns. The top one is from
+p161
+aVa normal animal, the middle one is from
+p162
+aVa blind animal that's been treated with
+p163
+aVthis encoder-transducer device, and the
+p164
+aVbottom one is from a blind animal treated
+p165
+aVwith a standard prosthetic.
+p166
+aVSo the bottom one is the state-of-the-art
+p167
+aVdevice that's out there right now, which is
+p168
+aVbasically made up of light detectors,
+p169
+aVbut no encoder. So what we did was we
+p170
+aVpresented movies of everyday things \u2014
+p171
+aVpeople, babies, park benches,
+p172
+aVyou know, regular things happening \u2014 and
+p173
+aVwe recorded the responses from the retinas
+p174
+aVof these three groups of animals.
+p175
+aVNow just to orient you, each box is showing
+p176
+aVthe firing patterns of several cells,
+p177
+aVand just as in the previous slides,
+p178
+aVeach row is a different cell,
+p179
+aVand I just made the pulses a little bit smaller
+p180
+aVand thinner so I could show you
+p181
+aVa long stretch of data.
+p182
+aa(lp183
+VSo as you can see, the firing patterns
+p184
+aVfrom the blind animal treated with
+p185
+aVthe encoder-transducer really do very
+p186
+aVclosely match the normal firing patterns \u2014
+p187
+aVand it's not perfect, but it's pretty good \u2014
+p188
+aVand the blind animal treated with
+p189
+aVthe standard prosthetic,
+p190
+aVthe responses really don't.
+p191
+aVAnd so with the standard method,
+p192
+aVthe cells do fire, they just don't fire
+p193
+aVin the normal firing patterns because
+p194
+aVthey don't have the right code.
+p195
+aVHow important is this?
+p196
+aVWhat's the potential impact
+p197
+aVon a patient's ability to see?
+p198
+aVSo I'm just going to show you one
+p199
+aVbottom-line experiment that answers this,
+p200
+aVand of course I've got a lot of other data,
+p201
+aVso if you're interested I'm happy
+p202
+aVto show more. So the experiment
+p203
+aVis called a reconstruction experiment.
+p204
+aVSo what we did is we took a moment
+p205
+aVin time from these recordings and asked,
+p206
+aVwhat was the retina seeing at that moment?
+p207
+aVCan we reconstruct what the retina
+p208
+aVwas seeing from the responses
+p209
+aVfrom the firing patterns?
+p210
+aa(lp211
+VSo, when we did this for responses
+p212
+aVfrom the standard method and from
+p213
+aVour encoder and transducer.
+p214
+aVSo let me show you, and I'm going to
+p215
+aVstart with the standard method first.
+p216
+aVSo you can see that it's pretty limited,
+p217
+aVand because the firing patterns aren't
+p218
+aVin the right code, they're very limited in
+p219
+aVwhat they can tell you about
+p220
+aVwhat's out there. So you can see that
+p221
+aVthere's something there, but it's not so clear
+p222
+aVwhat that something is, and this just sort of
+p223
+aVcircles back to what I was saying in the
+p224
+aVbeginning, that with the standard method,
+p225
+aVpatients can see high-contrast edges, they
+p226
+aVcan see light, but it doesn't easily go
+p227
+aVfurther than that. So what was
+p228
+aVthe image? It was a baby's face.
+p229
+aVSo what about with our approach,
+p230
+aVadding the code? And you can see
+p231
+aVthat it's much better. Not only can you
+p232
+aVtell that it's a baby's face, but you can
+p233
+aVtell that it's this baby's face, which is a
+p234
+aVreally challenging task.
+p235
+aVSo on the left is the encoder
+p236
+aValone, and on the right is from an actual
+p237
+aVblind retina, so the encoder and the transducer.
+p238
+aVBut the key one really is the encoder alone,
+p239
+aVbecause we can team up the encoder with
+p240
+aVthe different transducer.
+p241
+aa(lp242
+VThis is just actually the first one that we tried.
+p243
+aVI just wanted to say something about the standard method.
+p244
+aVWhen this first came out, it was just a really
+p245
+aVexciting thing, the idea that you
+p246
+aVeven make a blind retina respond at all.
+p247
+aVBut there was this limiting factor,
+p248
+aVthe issue of the code, and how to make
+p249
+aVthe cells respond better,
+p250
+aVproduce normal responses,
+p251
+aVand so this was our contribution.
+p252
+aVNow I just want to wrap up,
+p253
+aVand as I was mentioning earlier
+p254
+aVof course I have a lot of other data
+p255
+aVif you're interested, but I just wanted to give
+p256
+aVthis sort of basic idea
+p257
+aVof being able to communicate
+p258
+aVwith the brain in its language, and
+p259
+aVthe potential power of being able to do that.
+p260
+aVSo it's different from the motor prosthetics
+p261
+aVwhere you're communicating from the brain
+p262
+aVto a device. Here we have to communicate
+p263
+aVfrom the outside world
+p264
+aVinto the brain and be understood,
+p265
+aVand be understood by the brain.
+p266
+aa(lp267
+VAnd then the last thing I wanted
+p268
+aVto say, really, is to emphasize
+p269
+aVthat the idea generalizes.
+p270
+aVSo the same strategy that we used
+p271
+aVto find the code for the retina we can also
+p272
+aVuse to find the code for other areas,
+p273
+aVfor example, the auditory system and
+p274
+aVthe motor system, so for treating deafness
+p275
+aVand for motor disorders.
+p276
+aVSo just the same way that we were able to
+p277
+aVjump over the damaged
+p278
+aVcircuitry in the retina to get to the retina's
+p279
+aVoutput cells, we can jump over the
+p280
+aVdamaged circuitry in the cochlea
+p281
+aVto get the auditory nerve,
+p282
+aVor jump over damaged areas in the cortex,
+p283
+aVin the motor cortex, to bridge the gap
+p284
+aVproduced by a stroke.
+p285
+aa(lp286
+VI just want to end with a simple
+p287
+aVmessage that understanding the code
+p288
+aVis really, really important, and if we
+p289
+aVcan understand the code,
+p290
+aVthe language of the brain, things become
+p291
+aVpossible that didn't seem obviously
+p292
+aVpossible before. Thank you.
+p293
+aa(lp294
+V(Applause)
+p295
+aasS'transcript_micsec'
+p296
+(lp297
+I11000
+aI46000
+aI87000
+aI156000
+aI208000
+aI262000
+aI312000
+aI367000
+aI424000
+aI487000
+aI539000
+aI576000
+aI590000
+asS'talk_meta'
+p298
+(dp299
+S'ratings'
+p300
+(dp301
+S'ingenious'
+p302
+I237
+sS'beautiful'
+p303
+I18
+sS'inspiring'
+p304
+I108
+sS'ok'
+p305
+I28
+sS'fascinating'
+p306
+I194
+sS'funny'
+p307
+I4
+sS'total_count'
+p308
+I974
+sS'persuasive'
+p309
+I29
+sS'longwinded'
+p310
+I13
+sS'informative'
+p311
+I164
+sS'jaw-dropping'
+p312
+I154
+sS'obnoxious'
+p313
+I3
+sS'confusing'
+p314
+I3
+sS'courageous'
+p315
+I7
+sS'unconvincing'
+p316
+I12
+ssS'author'
+p317
+VSheila_Nirenberg;
+p318
+sS'url'
+p319
+S'https://www.ted.com/talks/sheila_nirenberg_a_prosthetic_eye_to_treat_blindness'
+p320
+sS'vidlen'
+p321
+I601
+sS'totalviews'
+p322
+I395120
+sS'title'
+p323
+VA prosthetic eye to treat blindness
+p324
+sS'downloadlink'
+p325
+Vhttps://download.ted.com/talks/SheilaNirenberg_2011P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p326
+sS'datepublished'
+p327
+cdatetime
+datetime
+p328
+(S'\x07\xdb\x0c\x14\x0b\x08%\x00\x00\x00'
+tRp329
+sS'datefilmed'
+p330
+g328
+(S'\x07\xdb\x0c\x14\x0b\x08%\x00\x00\x00'
+tRp331
+sS'alldata_JSON'
+p332
+S'{"viewed_count": 395120, "speakers": [{"description": "Neuroscientist", "firstname": "Sheila", "title": "", "lastname": "Nirenberg", "middleinitial": "", "whylisten": "<p>Sheila Nirenberg is a neuroscientist/professor at Weill Medical College of Cornell University, where she studies neural coding &ndash; that is, how the brain takes information from the outside world and encodes it in patterns of electrical activity. The idea is to be able to decode the activity, to look at a pattern of electrical pulses and know what an animal is seeing or thinking or feeling. &nbsp;Recently, she&rsquo;s been using this work to develop new kinds of prosthetic devices, particularly ones for treating blindness.</p><div><br /></div>", "slug": "sheila_nirenberg", "whotheyare": "Sheila Nirenberg studies how the brain encodes information -- possibly allowing us to decode it, and maybe develop prosthetic sensory devices.", "whatotherssay": "", "id": 1128, "photo_url": "https://pe.tedcdn.com/images/ted/83b4a96dcc2898efc6e5f648e21a4a59f9b8ae5a_254x191.jpg"}], "current_talk": 1309, "description": "At TEDMED, Sheila Nirenberg shows a bold way to create sight in people with certain kinds of blindness: by hooking into the optic nerve and sending signals from a camera direct to the brain.", "language": "en", "url": "https://www.ted.com/talks/sheila_nirenberg_a_prosthetic_eye_to_treat_blindness", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 70051512}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13892645}, "podcast-high": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 70308157}, "180k": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13777523}, "64k": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4982221}, "1500k": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109331735}, "450k": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34159145}, "podcast-regular": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34357784}, "950k": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69789216}, "audio-podcast": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6323257}, "podcast-light": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5083353}, "320k": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24362717}, "600k": {"uri": "https://download.ted.com/talks/SheilaNirenberg_2011P-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45439730}}}, "comments": {"count": 111, "id": 9315, "talk_id": 1309}, "slug": "sheila_nirenberg_a_prosthetic_eye_to_treat_blindness", "threadId": 9315, "talks": [{"event": "TEDMED 2011", "player_talks": [{"event": "TEDMED 2011", "slug": "sheila_nirenberg_a_prosthetic_eye_to_treat_blindness", "filmed": 1318377600, "targeting": {"event": "TEDMED 2011", "tag": "Senses,Surgery,biotech,brain,code,disability,engineering,innovation,medical research,medicine,neuroscience,prosthetics,science,sight,technology", "id": 1309, "talk": "sheila_nirenberg_a_prosthetic_eye_to_treat_blindness", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "A prosthetic eye to treat blindness", "postAdDuration": "0.83", "published": 1324397317, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f9e53c7bb152b2e5c8c07e5a199e4d14d17baac6_800x600.jpg?quality=89&w=600", "name": "Sheila Nirenberg: A prosthetic eye to treat blindness", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "srp", "endonym": "Crnogorski", "isRtl": false, "ianaCode": "sr", "languageName": "Montenegrin"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Senses", "Surgery", "biotech", "brain", "code", "disability", "engineering", "innovation", "medical research", "medicine", "neuroscience", "prosthetics", "science", "sight", "technology"], "speaker": "Sheila Nirenberg", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 601, "id": 1309, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SheilaNirenberg_2011P-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDMED 2011", "tag": "Senses,Surgery,biotech,brain,code,disability,engineering,innovation,medical research,medicine,neuroscience,prosthetics,science,sight,technology", "id": 1309, "talk": "sheila_nirenberg_a_prosthetic_eye_to_treat_blindness", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1309.json", "stream": "https://hls.ted.com/talks/1309.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDMED%2B2011%26id%3D1309%26tag%3DSenses%2CSurgery%2Cbiotech%2Cbrain%2Ccode%2Cdisability%2Cengineering%2Cinnovation%2Cmedical%2Bresearch%2Cmedicine%2Cneuroscience%2Cprosthetics%2Cscience%2Csight%2Ctechnology%26talk%3Dsheila_nirenberg_a_prosthetic_eye_to_treat_blindness%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/sheila_nirenberg_a_prosthetic_eye_to_treat_blindness"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/f9e53c7bb152b2e5c8c07e5a199e4d14d17baac6_800x600.jpg?q=50&w=15", "duration": 601, "id": 1309, "ratings": [{"count": 108, "id": 10, "name": "Inspiring"}, {"count": 154, "id": 23, "name": "Jaw-dropping"}, {"count": 237, "id": 9, "name": "Ingenious"}, {"count": 194, "id": 22, "name": "Fascinating"}, {"count": 164, "id": 8, "name": "Informative"}, {"count": 18, "id": 1, "name": "Beautiful"}, {"count": 7, "id": 3, "name": "Courageous"}, {"count": 29, "id": 24, "name": "Persuasive"}, {"count": 4, "id": 7, "name": "Funny"}, {"count": 13, "id": 11, "name": "Longwinded"}, {"count": 28, "id": 25, "name": "OK"}, {"count": 12, "id": 21, "name": "Unconvincing"}, {"count": 3, "id": 2, "name": "Confusing"}, {"count": 3, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Neuroscientist", "firstname": "Sheila", "title": "", "lastname": "Nirenberg", "middleinitial": "", "whylisten": "<p>Sheila Nirenberg is a neuroscientist/professor at Weill Medical College of Cornell University, where she studies neural coding &ndash; that is, how the brain takes information from the outside world and encodes it in patterns of electrical activity. The idea is to be able to decode the activity, to look at a pattern of electrical pulses and know what an animal is seeing or thinking or feeling. &nbsp;Recently, she&rsquo;s been using this work to develop new kinds of prosthetic devices, particularly ones for treating blindness.</p><div><br /></div>", "slug": "sheila_nirenberg", "whotheyare": "Sheila Nirenberg studies how the brain encodes information -- possibly allowing us to decode it, and maybe develop prosthetic sensory devices.", "whatotherssay": "", "id": 1128, "photo_url": "https://pe.tedcdn.com/images/ted/83b4a96dcc2898efc6e5f648e21a4a59f9b8ae5a_254x191.jpg"}], "title": "A prosthetic eye to treat blindness", "take_action": null, "comments": 9315, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/f9e53c7bb152b2e5c8c07e5a199e4d14d17baac6_800x600.jpg", "description": "At TEDMED, Sheila Nirenberg shows a bold way to create sight in people with certain kinds of blindness: by hooking into the optic nerve and sending signals from a camera direct to the brain.", "tags": ["Senses", "Surgery", "biotech", "brain", "code", "disability", "engineering", "innovation", "medical research", "medicine", "neuroscience", "prosthetics", "science", "sight", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "srp", "endonym": "Crnogorski", "isRtl": false, "ianaCode": "sr", "languageName": "Montenegrin"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-ko.mp4"}, "srp": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-srp.mp4", "name": "Montenegrin", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-srp.mp4"}, "uk": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-uk.mp4"}, "sl": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-low-sl.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SheilaNirenberg_2011P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SheilaNirenberg_2011P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SheilaNirenberg_2011P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1309, "audioDownload": "https://download.ted.com/talks/SheilaNirenberg_2011P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 576643, "hero": "https://pe.tedcdn.com/images/ted/a376c373385a57643f840fbf84b00772998990ee_800x600.jpg", "title": "Building the musical muscle", "id": 1291, "speaker": "Charles Limb", "duration": 959, "slug": "charles_limb_building_the_musical_muscle"}, {"viewed_count": 298274, "hero": "https://pe.tedcdn.com/images/ted/135217_800x600.jpg", "title": "How low-cost eye care can be world-class", "id": 709, "speaker": "Thulasiraj Ravilla", "duration": 1047, "slug": "thulasiraj_ravilla_how_low_cost_eye_care_can_be_world_class"}, {"viewed_count": 842431, "hero": "https://pe.tedcdn.com/images/ted/152494_800x600.jpg", "title": "How brains learn to see", "id": 776, "speaker": "Pawan Sinha", "duration": 1103, "slug": "pawan_sinha_on_how_brains_learn_to_see"}, {"viewed_count": 4276153, "hero": "https://pe.tedcdn.com/images/ted/6b718302f7b4ab717b043ab17d41ab0a048fb660_2880x1620.jpg", "title": "What hallucination reveals about our minds", "id": 637, "speaker": "Oliver Sacks", "duration": 1128, "slug": "oliver_sacks_what_hallucination_reveals_about_our_minds"}, {"viewed_count": 1754340, "hero": "https://pe.tedcdn.com/images/ted/1efebe64a094b2ee95cd62eec52ddf2238a92510_2880x1620.jpg", "title": "Can we create new senses for humans?", "id": 2215, "speaker": "David Eagleman", "duration": 1234, "slug": "david_eagleman_can_we_create_new_senses_for_humans"}, {"viewed_count": 936783, "hero": "https://pe.tedcdn.com/images/ted/29fe2e14406be124c2d750736328ef617a156e10_800x600.jpg", "title": "A light switch for neurons", "id": 1146, "speaker": "Ed Boyden", "duration": 1104, "slug": "ed_boyden"}], "recorded_at": "2011-10-12T00:00:00.000+00:00", "slug": "sheila_nirenberg_a_prosthetic_eye_to_treat_blindness", "speaker_name": "Sheila Nirenberg", "viewed_count": 395120, "event_badge": null, "event_blurb": "This video was produced by TEDMED. TED\'s editors featured it among our daily selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDMED 2011", "name": "Sheila Nirenberg: A prosthetic eye to treat blindness"}'
+p333
+sS'keywords'
+p334
+(lp335
+VSenses
+p336
+aVSurgery
+p337
+aVbiotech
+p338
+aVbrain
+p339
+aVcode
+p340
+aVdisability
+p341
+aVengineering
+p342
+aVinnovation
+p343
+aVmedical research
+p344
+aVmedicine
+p345
+aVneuroscience
+p346
+aVprosthetics
+p347
+aVscience
+p348
+aVsight
+p349
+aVtechnology
+p350
+asS'datecrawled'
+p351
+g328
+(S'\x07\xe1\n\x17\x00&\x14\x03\x8d\x9b'
+tRp352
+sS'id'
+p353
+I1309
+ss.

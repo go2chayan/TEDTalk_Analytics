@@ -1,0 +1,424 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIf I can leave you with one big idea today,
+p5
+aVit's that the whole of the data
+p6
+aVin which we consume
+p7
+aVis greater that the sum of the parts,
+p8
+aVand instead of thinking about information overload,
+p9
+aVwhat I'd like you to think about is how
+p10
+aVwe can use information so that patterns pop
+p11
+aVand we can see trends that would otherwise be invisible.
+p12
+aa(lp13
+VSo what we're looking at right here is a typical mortality chart
+p14
+aVorganized by age.
+p15
+aVThis tool that I'm using here is a little experiment.
+p16
+aVIt's called Pivot, and with Pivot what I can do
+p17
+aVis I can choose to filter in one particular cause of deaths \u2014 say, accidents.
+p18
+aVAnd, right away, I see there's a different pattern that emerges.
+p19
+aVThis is because, in the mid-area here,
+p20
+aVpeople are at their most active,
+p21
+aVand over here they're at their most frail.
+p22
+aVWe can step back out again
+p23
+aVand then reorganize the data by cause of death,
+p24
+aVseeing that circulatory diseases and cancer
+p25
+aVare the usual suspects, but not for everyone.
+p26
+aVIf we go ahead and we filter by age \u2014
+p27
+aVsay 40 years or less \u2014
+p28
+aVwe see that accidents are actually
+p29
+aVthe greatest cause that people have to be worried about.
+p30
+aVAnd if you drill into that, it's especially the case for men.
+p31
+aa(lp32
+VSo you get the idea
+p33
+aVthat viewing information, viewing data in this way,
+p34
+aVis a lot like swimming
+p35
+aVin a living information info-graphic.
+p36
+aVAnd if we can do this for raw data,
+p37
+aVwhy not do it for content as well?
+p38
+aVSo what we have right here
+p39
+aVis the cover of every single Sports Illustrated
+p40
+aVever produced.
+p41
+aVIt's all here; it's all on the web.
+p42
+aVYou can go back to your rooms and try this after my talk.
+p43
+aVWith Pivot, you can drill into a decade.
+p44
+aVYou can drill into a particular year.
+p45
+aVYou can jump right into a specific issue.
+p46
+aVSo I'm looking at this; I see the athletes
+p47
+aVthat have appeared in this issue, the sports.
+p48
+aVI'm a Lance Armstrong fan, so I'll go ahead and I'll click on that,
+p49
+aVwhich reveals, for me, all the issues
+p50
+aVin which Lance Armstrong's been a part of.
+p51
+aa(lp52
+V(Applause)
+p53
+aa(lp54
+VNow, if I want to just kind of take a peek at these,
+p55
+aVI might think,
+p56
+aV"Well, what about taking a look at all of cycling?"
+p57
+aVSo I can step back, and expand on that.
+p58
+aVAnd I see Greg LeMond now.
+p59
+aVAnd so you get the idea that when you
+p60
+aVnavigate over information this way \u2014
+p61
+aVgoing narrower, broader,
+p62
+aVbacking in, backing out \u2014
+p63
+aVyou're not searching, you're not browsing.
+p64
+aVYou're doing something that's actually a little bit different.
+p65
+aVIt's in between, and we think it changes
+p66
+aVthe way information can be used.
+p67
+aa(lp68
+VSo I want to extrapolate on this idea a bit
+p69
+aVwith something that's a little bit crazy.
+p70
+aVWhat we're done here is we've taken every single Wikipedia page
+p71
+aVand we reduced it down to a little summary.
+p72
+aVSo the summary consists of just a little synopsis
+p73
+aVand an icon to indicate the topical area that it comes from.
+p74
+aVI'm only showing the top 500
+p75
+aVmost popular Wikipedia pages right here.
+p76
+aVBut even in this limited view,
+p77
+aVwe can do a lot of things.
+p78
+aVRight away, we get a sense of what are the topical domains
+p79
+aVthat are most popular on Wikipedia.
+p80
+aVI'm going to go ahead and select government.
+p81
+aVNow, having selected government,
+p82
+aVI can now see that the Wikipedia categories
+p83
+aVthat most frequently correspond to that
+p84
+aVare Time magazine People of the Year.
+p85
+aVSo this is really important because this is an insight
+p86
+aVthat was not contained within any one Wikipedia page.
+p87
+aVIt's only possible to see that insight
+p88
+aVwhen you step back and look at all of them.
+p89
+aa(lp90
+VLooking at one of these particular summaries,
+p91
+aVI can then drill into the concept of
+p92
+aVTime magazine Person of the Year,
+p93
+aVbringing up all of them.
+p94
+aVSo looking at these people,
+p95
+aVI can see that the majority come from government;
+p96
+aVsome have come from natural sciences;
+p97
+aVsome, fewer still, have come from business \u2014
+p98
+aVthere's my boss \u2014
+p99
+aVand one has come from music.
+p100
+aVAnd interestingly enough,
+p101
+aVBono is also a TED Prize winner.
+p102
+aVSo we can go, jump, and take a look at all the TED Prize winners.
+p103
+aVSo you see, we're navigating the web for the first time
+p104
+aVas if it's actually a web, not from page-to-page,
+p105
+aVbut at a higher level of abstraction.
+p106
+aa(lp107
+VAnd so I want to show you one other thing
+p108
+aVthat may catch you a little bit by surprise.
+p109
+aVI'm just showing the New York Times website here.
+p110
+aVSo Pivot, this application \u2014
+p111
+aVI don't want to call it a browser; it's really not a browser,
+p112
+aVbut you can view web pages with it \u2014
+p113
+aVand we bring that zoomable technology
+p114
+aVto every single web page like this.
+p115
+aVSo I can step back,
+p116
+aVpop right back into a specific section.
+p117
+aVNow the reason why this is important is because,
+p118
+aVby virtue of just viewing web pages in this way,
+p119
+aVI can look at my entire browsing history
+p120
+aVin the exact same way.
+p121
+aVSo I can drill into what I've done
+p122
+aVover specific time frames.
+p123
+aVHere, in fact, is the state
+p124
+aVof all the demo that I just gave.
+p125
+aVAnd I can sort of replay some stuff that I was looking at earlier today.
+p126
+aVAnd, if I want to step back and look at everything,
+p127
+aVI can slice and dice my history,
+p128
+aVperhaps by my search history \u2014
+p129
+aVhere, I was doing some nepotistic searching,
+p130
+aVlooking for Bing, over here for Live Labs Pivot.
+p131
+aVAnd from these, I can drill into the web page
+p132
+aVand just launch them again.
+p133
+aVIt's one metaphor repurposed multiple times,
+p134
+aVand in each case it makes the whole greater
+p135
+aVthan the sum of the parts with the data.
+p136
+aa(lp137
+VSo right now, in this world,
+p138
+aVwe think about data as being this curse.
+p139
+aVWe talk about the curse of information overload.
+p140
+aVWe talk about drowning in data.
+p141
+aVWhat if we can actually turn that upside down
+p142
+aVand turn the web upside down,
+p143
+aVso that instead of navigating from one thing to the next,
+p144
+aVwe get used to the habit of being able to go from many things to many things,
+p145
+aVand then being able to see the patterns
+p146
+aVthat were otherwise hidden?
+p147
+aVIf we can do that, then instead of being trapped in data,
+p148
+aVwe might actually extract information.
+p149
+aVAnd, instead of dealing just with information,
+p150
+aVwe can tease out knowledge.
+p151
+aVAnd if we get the knowledge, then maybe even there's wisdom to be found.
+p152
+aa(lp153
+VSo with that, I thank you.
+p154
+aa(lp155
+V(Applause)
+p156
+aasS'transcript_micsec'
+p157
+(lp158
+I16000
+aI35000
+aI81000
+aI127000
+aI130000
+aI158000
+aI210000
+aI256000
+aI324000
+aI365000
+aI367000
+asS'talk_meta'
+p159
+(dp160
+S'ratings'
+p161
+(dp162
+S'ingenious'
+p163
+I271
+sS'beautiful'
+p164
+I37
+sS'inspiring'
+p165
+I121
+sS'ok'
+p166
+I50
+sS'fascinating'
+p167
+I232
+sS'funny'
+p168
+I0
+sS'total_count'
+p169
+I1246
+sS'persuasive'
+p170
+I70
+sS'longwinded'
+p171
+I2
+sS'informative'
+p172
+I231
+sS'jaw-dropping'
+p173
+I141
+sS'obnoxious'
+p174
+I4
+sS'confusing'
+p175
+I11
+sS'courageous'
+p176
+I9
+sS'unconvincing'
+p177
+I67
+ssS'author'
+p178
+VGary_Flake;
+p179
+sS'url'
+p180
+S'https://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration'
+p181
+sS'vidlen'
+p182
+I385
+sS'totalviews'
+p183
+I656423
+sS'title'
+p184
+VIs Pivot a turning point for web exploration?
+p185
+sS'downloadlink'
+p186
+Vhttps://download.ted.com/talks/GaryFlake_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p187
+sS'datepublished'
+p188
+cdatetime
+datetime
+p189
+(S'\x07\xda\x03\x02\x14\x00\x00\x00\x00\x00'
+tRp190
+sS'datefilmed'
+p191
+g189
+(S'\x07\xda\x03\x02\x14\x00\x00\x00\x00\x00'
+tRp192
+sS'alldata_JSON'
+p193
+S'{"viewed_count": 656423, "speakers": [{"description": "Technologist", "firstname": "Gary", "title": "", "lastname": "Flake", "middleinitial": "", "whylisten": "<p>Gary Flake is a Technical Fellow at Microsoft, where he focuses on Internet products and technologies including search, advertising, content, portals, community and application development. In this capacity, he helps define and evolve Microsoft&#39;s product vision, technical architecture and business strategy for online services. He is also the founder and director of Live Labs, a skunkworks that bridges research and development, and is widely recognized for inventing new best practices for catalyzing and managing innovation.<br /><br />Prior to joining Microsoft, Flake founded Yahoo! Research Labs, ran Yahoo!&#39;s corporate R&amp;D activities and company-wide innovation effort, and was the Chief Science Officer of Overture, the company that invented the paid search business model. Flake also wrote the award-winning book&nbsp;<em><a href=\\"http://geni.us/26u6\\" target=\\"_blank\\">The Computational Beauty of Nature</a>,</em>&nbsp;which is used in college courses worldwide.</p>", "slug": "gary_flake", "whotheyare": "Gary Flake is a Technical Fellow at Microsoft, and the founder and director of Live Labs.", "whatotherssay": "", "id": 672, "photo_url": "https://pe.tedcdn.com/images/ted/153653_254x191.jpg"}], "current_talk": 783, "description": "Gary Flake demos Pivot, a new way to browse and arrange massive amounts of images and data online. Built on breakthrough Seadragon technology, it enables spectacular zooms in and out of web databases, and  the discovery of patterns and links invisible in standard web browsing.", "language": "en", "url": "https://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/GaryFlake_2010-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43758957}, "podcast-low-en": {"uri": "https://download.ted.com/talks/GaryFlake_2010-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8713265}, "podcast-high": {"uri": "https://download.ted.com/talks/GaryFlake_2010-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43763635}, "180k": {"uri": "https://download.ted.com/talks/GaryFlake_2010-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8462020}, "64k": {"uri": "https://download.ted.com/talks/GaryFlake_2010-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3074641}, "1500k": {"uri": "https://download.ted.com/talks/GaryFlake_2010-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 67542464}, "450k": {"uri": "https://download.ted.com/talks/GaryFlake_2010-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21261630}, "podcast-regular": {"uri": "https://download.ted.com/talks/GaryFlake_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21376664}, "950k": {"uri": "https://download.ted.com/talks/GaryFlake_2010-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43753653}, "audio-podcast": {"uri": "https://download.ted.com/talks/GaryFlake_2010.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 4024572}, "podcast-light": {"uri": "https://download.ted.com/talks/GaryFlake_2010-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3207998}, "320k": {"uri": "https://download.ted.com/talks/GaryFlake_2010-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15024926}, "600k": {"uri": "https://download.ted.com/talks/GaryFlake_2010-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28634218}}}, "comments": {"count": 112, "id": 644, "talk_id": 783}, "slug": "gary_flake_is_pivot_a_turning_point_for_web_exploration", "threadId": 644, "talks": [{"event": "TED2010", "player_talks": [{"event": "TED2010", "slug": "gary_flake_is_pivot_a_turning_point_for_web_exploration", "filmed": 1265068800, "targeting": {"event": "TED2010", "tag": "data,demo,interface design,technology,web", "id": 783, "talk": "gary_flake_is_pivot_a_turning_point_for_web_exploration", "year": "2010"}, "adDuration": "4.00", "external": null, "title": "Is Pivot a turning point for web exploration?", "postAdDuration": "0.83", "published": 1267578000, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/153652_800x600.jpg?quality=89&w=600", "name": "Gary Flake: Is Pivot a turning point for web exploration?", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["data", "demo", "interface design", "technology", "web"], "speaker": "Gary Flake", "isSubtitleRequired": false, "introDuration": 15.33, "duration": 385, "id": 783, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/GaryFlake_2010-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2010", "tag": "data,demo,interface design,technology,web", "id": 783, "talk": "gary_flake_is_pivot_a_turning_point_for_web_exploration", "year": "2010"}, "metadata": "https://hls.ted.com/talks/783.json", "stream": "https://hls.ted.com/talks/783.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2010%26id%3D783%26tag%3Ddata%2Cdemo%2Cinterface%2Bdesign%2Ctechnology%2Cweb%26talk%3Dgary_flake_is_pivot_a_turning_point_for_web_exploration%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/gary_flake_is_pivot_a_turning_point_for_web_exploration"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/153652_800x600.jpg?q=50&w=15", "duration": 385, "id": 783, "ratings": [{"count": 141, "id": 23, "name": "Jaw-dropping"}, {"count": 271, "id": 9, "name": "Ingenious"}, {"count": 231, "id": 8, "name": "Informative"}, {"count": 70, "id": 24, "name": "Persuasive"}, {"count": 121, "id": 10, "name": "Inspiring"}, {"count": 37, "id": 1, "name": "Beautiful"}, {"count": 50, "id": 25, "name": "OK"}, {"count": 232, "id": 22, "name": "Fascinating"}, {"count": 67, "id": 21, "name": "Unconvincing"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 11, "id": 2, "name": "Confusing"}, {"count": 4, "id": 26, "name": "Obnoxious"}, {"count": 2, "id": 11, "name": "Longwinded"}, {"count": 0, "id": 7, "name": "Funny"}], "speakers": [{"description": "Technologist", "firstname": "Gary", "title": "", "lastname": "Flake", "middleinitial": "", "whylisten": "<p>Gary Flake is a Technical Fellow at Microsoft, where he focuses on Internet products and technologies including search, advertising, content, portals, community and application development. In this capacity, he helps define and evolve Microsoft&#39;s product vision, technical architecture and business strategy for online services. He is also the founder and director of Live Labs, a skunkworks that bridges research and development, and is widely recognized for inventing new best practices for catalyzing and managing innovation.<br /><br />Prior to joining Microsoft, Flake founded Yahoo! Research Labs, ran Yahoo!&#39;s corporate R&amp;D activities and company-wide innovation effort, and was the Chief Science Officer of Overture, the company that invented the paid search business model. Flake also wrote the award-winning book&nbsp;<em><a href=\\"http://geni.us/26u6\\" target=\\"_blank\\">The Computational Beauty of Nature</a>,</em>&nbsp;which is used in college courses worldwide.</p>", "slug": "gary_flake", "whotheyare": "Gary Flake is a Technical Fellow at Microsoft, and the founder and director of Live Labs.", "whatotherssay": "", "id": 672, "photo_url": "https://pe.tedcdn.com/images/ted/153653_254x191.jpg"}], "title": "Is Pivot a turning point for web exploration?", "take_action": null, "comments": 644, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/153652_800x600.jpg", "description": "Gary Flake demos Pivot, a new way to browse and arrange massive amounts of images and data online. Built on breakthrough Seadragon technology, it enables spectacular zooms in and out of web databases, and  the discovery of patterns and links invisible in standard web browsing.", "tags": ["data", "demo", "interface design", "technology", "web"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/GaryFlake_2010-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/GaryFlake_2010-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/GaryFlake_2010-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/GaryFlake_2010-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/GaryFlake_2010-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/GaryFlake_2010-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/GaryFlake_2010-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/GaryFlake_2010-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/GaryFlake_2010-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/GaryFlake_2010-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-lt.mp4"}, "ro": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/GaryFlake_2010-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/GaryFlake_2010-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/GaryFlake_2010-low-de.mp4"}, "ja": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/GaryFlake_2010-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/GaryFlake_2010-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/GaryFlake_2010-low-ko.mp4"}, "mk": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/GaryFlake_2010-low-mk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/GaryFlake_2010-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/GaryFlake_2010.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/GaryFlake_2010-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 783, "audioDownload": "https://download.ted.com/talks/GaryFlake_2010.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 4778592, "hero": "https://pe.tedcdn.com/images/ted/5824aa5b8d490ed3863ee1f8c26731a6ebbfcefe_1600x1200.jpg", "title": "How PhotoSynth can connect the world\'s images", "id": 129, "speaker": "Blaise Ag\\u00fcera y Arcas", "duration": 450, "slug": "blaise_aguera_y_arcas_demos_photosynth"}, {"viewed_count": 12072167, "hero": "https://pe.tedcdn.com/images/ted/e80b905b26a61aba089bd928fc4c2bd4180e836e_2880x1620.jpg", "title": "The best stats you\'ve ever seen", "id": 92, "speaker": "Hans Rosling", "duration": 1190, "slug": "hans_rosling_shows_the_best_stats_you_ve_ever_seen"}, {"viewed_count": 1534628, "hero": "https://pe.tedcdn.com/images/ted/a45ebc06469fff6ba784f2878add0c0f44e953ea_2880x1620.jpg", "title": "Turning powerful stats into art", "id": 279, "speaker": "Chris Jordan", "duration": 674, "slug": "chris_jordan_pictures_some_shocking_stats"}, {"viewed_count": 1058270, "hero": "https://pe.tedcdn.com/images/ted/39a923a807cd8dfac8bfcd867963ebf99c3be2fd_2400x1800.jpg", "title": "A Magna Carta for the web", "id": 2061, "speaker": "Tim Berners-Lee", "duration": 403, "slug": "tim_berners_lee_a_magna_carta_for_the_web"}, {"viewed_count": 4071682, "hero": "https://pe.tedcdn.com/images/ted/0f550197b90f20147576a51962258dc5ac7ac82d_800x600.jpg", "title": "Beware online \\"filter bubbles\\"", "id": 1091, "speaker": "Eli Pariser", "duration": 544, "slug": "eli_pariser_beware_online_filter_bubbles"}, {"viewed_count": 697078, "hero": "https://pe.tedcdn.com/images/ted/436bcf78e4406a81d162e90015032c45330e9ef3_1600x1200.jpg", "title": "Online video -- annotated, remixed and popped", "id": 1581, "speaker": "Ryan Merkley", "duration": 265, "slug": "ryan_merkley_online_video_annotated_remixed_and_popped"}], "recorded_at": "2010-02-02T00:00:00.000+00:00", "slug": "gary_flake_is_pivot_a_turning_point_for_web_exploration", "speaker_name": "Gary Flake", "viewed_count": 656423, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2010", "name": "Gary Flake: Is Pivot a turning point for web exploration?"}'
+p194
+sS'keywords'
+p195
+(lp196
+Vdata
+p197
+aVdemo
+p198
+aVinterface design
+p199
+aVtechnology
+p200
+aVweb
+p201
+asS'datecrawled'
+p202
+g189
+(S'\x07\xe1\n\x17\x02\x1f0\x03\xd7\x8a'
+tRp203
+sS'id'
+p204
+I783
+ss.

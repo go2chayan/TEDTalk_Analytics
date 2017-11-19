@@ -1,0 +1,808 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VThis is Pleurobot.
+p5
+aVPleurobot is a robot that we designed to closely mimic a salamander species
+p6
+aVcalled Pleurodeles waltl.
+p7
+aVPleurobot can walk, as you can see here,
+p8
+aVand as you'll see later, it can also swim.
+p9
+aa(lp10
+VSo you might ask, why did we design this robot?
+p11
+aVAnd in fact, this robot has been designed as a scientific tool for neuroscience.
+p12
+aVIndeed, we designed it together with neurobiologists
+p13
+aVto understand how animals move,
+p14
+aVand especially how the spinal cord controls locomotion.
+p15
+aVBut the more I work in biorobotics,
+p16
+aVthe more I'm really impressed by animal locomotion.
+p17
+aVIf you think of a dolphin swimming or a cat running or jumping around,
+p18
+aVor even us as humans,
+p19
+aVwhen you go jogging or play tennis,
+p20
+aVwe do amazing things.
+p21
+aVAnd in fact, our nervous system solves a very, very complex control problem.
+p22
+aVIt has to coordinate more or less 200 muscles perfectly,
+p23
+aVbecause if the coordination is bad, we fall over or we do bad locomotion.
+p24
+aVAnd my goal is to understand how this works.
+p25
+aa(lp26
+VThere are four main components behind animal locomotion.
+p27
+aVThe first component is just the body,
+p28
+aVand in fact we should never underestimate
+p29
+aVto what extent the biomechanics already simplify locomotion in animals.
+p30
+aVThen you have the spinal cord,
+p31
+aVand in the spinal cord you find reflexes,
+p32
+aVmultiple reflexes that create a sensorimotor coordination loop
+p33
+aVbetween neural activity in the spinal cord and mechanical activity.
+p34
+aVA third component are central pattern generators.
+p35
+aVThese are very interesting circuits in the spinal cord of vertebrate animals
+p36
+aVthat can generate, by themselves,
+p37
+aVvery coordinated rhythmic patterns of activity
+p38
+aVwhile receiving only very simple input signals.
+p39
+aVAnd these input signals
+p40
+aVcoming from descending modulation from higher parts of the brain,
+p41
+aVlike the motor cortex, the cerebellum, the basal ganglia,
+p42
+aVwill all modulate activity of the spinal cord
+p43
+aVwhile we do locomotion.
+p44
+aVBut what's interesting is to what extent just a low-level component,
+p45
+aVthe spinal cord, together with the body,
+p46
+aValready solve a big part of the locomotion problem.
+p47
+aVYou probably know it by the fact that you can cut the head off a chicken,
+p48
+aVit can still run for a while,
+p49
+aVshowing that just the lower part, spinal cord and body,
+p50
+aValready solve a big part of locomotion.
+p51
+aa(lp52
+VNow, understanding how this works is very complex,
+p53
+aVbecause first of all,
+p54
+aVrecording activity in the spinal cord is very difficult.
+p55
+aVIt's much easier to implant electrodes in the motor cortex
+p56
+aVthan in the spinal cord, because it's protected by the vertebrae.
+p57
+aVEspecially in humans, very hard to do.
+p58
+aVA second difficulty is that locomotion is really due to a very complex
+p59
+aVand very dynamic interaction between these four components.
+p60
+aVSo it's very hard to find out what's the role of each over time.
+p61
+aVThis is where biorobots like Pleurobot and mathematical models
+p62
+aVcan really help.
+p63
+aa(lp64
+VSo what's biorobotics?
+p65
+aVBiorobotics is a very active field of research in robotics
+p66
+aVwhere people want to take inspiration from animals
+p67
+aVto make robots to go outdoors,
+p68
+aVlike service robots or search and rescue robots
+p69
+aVor field robots.
+p70
+aVAnd the big goal here is to take inspiration from animals
+p71
+aVto make robots that can handle complex terrain \u2014
+p72
+aVstairs, mountains, forests,
+p73
+aVplaces where robots still have difficulties
+p74
+aVand where animals can do a much better job.
+p75
+aVThe robot can be a wonderful scientific tool as well.
+p76
+aVThere are some very nice projects where robots are used,
+p77
+aVlike a scientific tool for neuroscience, for biomechanics or for hydrodynamics.
+p78
+aVAnd this is exactly the purpose of Pleurobot.
+p79
+aVSo what we do in my lab is to collaborate with neurobiologists
+p80
+aVlike Jean-Marie Cabelguen, a neurobiologist in Bordeaux in France,
+p81
+aVand we want to make spinal cord models and validate them on robots.
+p82
+aVAnd here we want to start simple.
+p83
+aa(lp84
+VSo it's good to start with simple animals
+p85
+aVlike lampreys, which are very primitive fish,
+p86
+aVand then gradually go toward more complex locomotion,
+p87
+aVlike in salamanders,
+p88
+aVbut also in cats and in humans,
+p89
+aVin mammals.
+p90
+aVAnd here, a robot becomes an interesting tool
+p91
+aVto validate our models.
+p92
+aVAnd in fact, for me, Pleurobot is a kind of dream becoming true.
+p93
+aVLike, more or less 20 years ago I was already working on a computer
+p94
+aVmaking simulations of lamprey and salamander locomotion
+p95
+aVduring my PhD.
+p96
+aVBut I always knew that my simulations were just approximations.
+p97
+aVLike, simulating the physics in water or with mud or with complex ground,
+p98
+aVit's very hard to simulate that properly on a computer.
+p99
+aVWhy not have a real robot and real physics?
+p100
+aVSo among all these animals, one of my favorites is the salamander.
+p101
+aVYou might ask why, and it's because as an amphibian,
+p102
+aVit's a really key animal from an evolutionary point of view.
+p103
+aVIt makes a wonderful link between swimming,
+p104
+aVas you find it in eels or fish,
+p105
+aVand quadruped locomotion, as you see in mammals, in cats and humans.
+p106
+aVAnd in fact, the modern salamander
+p107
+aVis very close to the first terrestrial vertebrate,
+p108
+aVso it's almost a living fossil,
+p109
+aVwhich gives us access to our ancestor,
+p110
+aVthe ancestor to all terrestrial tetrapods.
+p111
+aa(lp112
+VSo the salamander swims
+p113
+aVby doing what's called an anguilliform swimming gait,
+p114
+aVso they propagate a nice traveling wave of muscle activity from head to tail.
+p115
+aVAnd if you place the salamander on the ground,
+p116
+aVit switches to what's called a walking trot gait.
+p117
+aVIn this case, you have nice periodic activation of the limbs
+p118
+aVwhich are very nicely coordinated
+p119
+aVwith this standing wave undulation of the body,
+p120
+aVand that's exactly the gait that you are seeing here on Pleurobot.
+p121
+aVNow, one thing which is very surprising and fascinating in fact
+p122
+aVis the fact that all this can be generated just by the spinal cord and the body.
+p123
+aVSo if you take a decerebrated salamander \u2014
+p124
+aVit's not so nice but you remove the head \u2014
+p125
+aVand if you electrically stimulate the spinal cord,
+p126
+aVat low level of stimulation this will induce a walking-like gait.
+p127
+aVIf you stimulate a bit more, the gait accelerates.
+p128
+aVAnd at some point, there's a threshold,
+p129
+aVand automatically, the animal switches to swimming.
+p130
+aVThis is amazing.
+p131
+aVJust changing the global drive,
+p132
+aVas if you are pressing the gas pedal
+p133
+aVof descending modulation to your spinal cord,
+p134
+aVmakes a complete switch between two very different gaits.
+p135
+aVAnd in fact, the same has been observed in cats.
+p136
+aVIf you stimulate the spinal cord of a cat,
+p137
+aVyou can switch between walk, trot and gallop.
+p138
+aVOr in birds, you can make a bird switch between walking,
+p139
+aVat a low level of stimulation,
+p140
+aVand flapping its wings at high-level stimulation.
+p141
+aVAnd this really shows that the spinal cord
+p142
+aVis a very sophisticated locomotion controller.
+p143
+aa(lp144
+VSo we studied salamander locomotion in more detail,
+p145
+aVand we had in fact access to a very nice X-ray video machine
+p146
+aVfrom Professor Martin Fischer in Jena University in Germany.
+p147
+aVAnd thanks to that, you really have an amazing machine
+p148
+aVto record all the bone motion in great detail.
+p149
+aVThat's what we did.
+p150
+aVSo we basically figured out which bones are important for us
+p151
+aVand collected their motion in 3D.
+p152
+aVAnd what we did is collect a whole database of motions,
+p153
+aVboth on ground and in water,
+p154
+aVto really collect a whole database of motor behaviors
+p155
+aVthat a real animal can do.
+p156
+aVAnd then our job as roboticists was to replicate that in our robot.
+p157
+aVSo we did a whole optimization process to find out the right structure,
+p158
+aVwhere to place the motors, how to connect them together,
+p159
+aVto be able to replay these motions as well as possible.
+p160
+aVAnd this is how Pleurobot came to life.
+p161
+aa(lp162
+VSo let's look at how close it is to the real animal.
+p163
+aVSo what you see here is almost a direct comparison
+p164
+aVbetween the walking of the real animal and the Pleurobot.
+p165
+aVYou can see that we have almost a one-to-one exact replay
+p166
+aVof the walking gait.
+p167
+aVIf you go backwards and slowly, you see it even better.
+p168
+aVBut even better, we can do swimming.
+p169
+aVSo for that we have a dry suit that we put all over the robot \u2014
+p170
+aa(lp171
+V(Laughter)
+p172
+aa(lp173
+Vand then we can go in water and start replaying the swimming gaits.
+p174
+aVAnd here, we were very happy, because this is difficult to do.
+p175
+aVThe physics of interaction are complex.
+p176
+aVOur robot is much bigger than a small animal,
+p177
+aVso we had to do what's called dynamic scaling of the frequencies
+p178
+aVto make sure we had the same interaction physics.
+p179
+aVBut you see at the end, we have a very close match,
+p180
+aVand we were very, very happy with this.
+p181
+aVSo let's go to the spinal cord.
+p182
+aVSo here what we did with Jean-Marie Cabelguen
+p183
+aVis model the spinal cord circuits.
+p184
+aVAnd what's interesting is that the salamander
+p185
+aVhas kept a very primitive circuit,
+p186
+aVwhich is very similar to the one we find in the lamprey,
+p187
+aVthis primitive eel-like fish,
+p188
+aVand it looks like during evolution,
+p189
+aVnew neural oscillators have been added to control the limbs,
+p190
+aVto do the leg locomotion.
+p191
+aVAnd we know where these neural oscillators are
+p192
+aVbut what we did was to make a mathematical model
+p193
+aVto see how they should be coupled
+p194
+aVto allow this transition between the two very different gaits.
+p195
+aVAnd we tested that on board of a robot.
+p196
+aa(lp197
+VAnd this is how it looks.
+p198
+aVSo what you see here is a previous version of Pleurobot
+p199
+aVthat's completely controlled by our spinal cord model
+p200
+aVprogrammed on board of the robot.
+p201
+aVAnd the only thing we do
+p202
+aVis send to the robot through a remote control
+p203
+aVthe two descending signals it normally should receive
+p204
+aVfrom the upper part of the brain.
+p205
+aVAnd what's interesting is, by playing with these signals,
+p206
+aVwe can completely control speed, heading and type of gait.
+p207
+aVFor instance,
+p208
+aVwhen we stimulate at a low level, we have the walking gait,
+p209
+aVand at some point, if we stimulate a lot,
+p210
+aVvery rapidly it switches to the swimming gait.
+p211
+aVAnd finally, we can also do turning very nicely
+p212
+aVby just stimulating more one side of the spinal cord than the other.
+p213
+aVAnd I think it's really beautiful
+p214
+aVhow nature has distributed control
+p215
+aVto really give a lot of responsibility to the spinal cord
+p216
+aVso that the upper part of the brain doesn't need to worry about every muscle.
+p217
+aVIt just has to worry about this high-level modulation,
+p218
+aVand it's really the job of the spinal cord to coordinate all the muscles.
+p219
+aa(lp220
+VSo now let's go to cat locomotion and the importance of biomechanics.
+p221
+aVSo this is another project
+p222
+aVwhere we studied cat biomechanics,
+p223
+aVand we wanted to see how much the morphology helps locomotion.
+p224
+aVAnd we found three important criteria in the properties,
+p225
+aVbasically, of the limbs.
+p226
+aVThe first one is that a cat limb
+p227
+aVmore or less looks like a pantograph-like structure.
+p228
+aVSo a pantograph is a mechanical structure
+p229
+aVwhich keeps the upper segment and the lower segments always parallel.
+p230
+aVSo a simple geometrical system that kind of coordinates a bit
+p231
+aVthe internal movement of the segments.
+p232
+aVA second property of cat limbs is that they are very lightweight.
+p233
+aVMost of the muscles are in the trunk,
+p234
+aVwhich is a good idea, because then the limbs have low inertia
+p235
+aVand can be moved very rapidly.
+p236
+aVThe last final important property is this very elastic behavior of the cat limb,
+p237
+aVso to handle impacts and forces.
+p238
+aVAnd this is how we designed Cheetah-Cub.
+p239
+aa(lp240
+VSo let's invite Cheetah-Cub onstage.
+p241
+aVSo this is Peter Eckert, who does his PhD on this robot,
+p242
+aVand as you see, it's a cute little robot.
+p243
+aVIt looks a bit like a toy,
+p244
+aVbut it was really used as a scientific tool
+p245
+aVto investigate these properties of the legs of the cat.
+p246
+aVSo you see, it's very compliant, very lightweight,
+p247
+aVand also very elastic,
+p248
+aVso you can easily press it down and it will not break.
+p249
+aVIt will just jump, in fact.
+p250
+aVAnd this very elastic property is also very important.
+p251
+aVAnd you also see a bit these properties
+p252
+aVof these three segments of the leg as pantograph.
+p253
+aa(lp254
+VNow, what's interesting is that this quite dynamic gait
+p255
+aVis obtained purely in open loop,
+p256
+aVmeaning no sensors, no complex feedback loops.
+p257
+aVAnd that's interesting, because it means
+p258
+aVthat just the mechanics already stabilized this quite rapid gait,
+p259
+aVand that really good mechanics already basically simplify locomotion.
+p260
+aVTo the extent that we can even disturb a bit locomotion,
+p261
+aVas you will see in the next video,
+p262
+aVwhere we can for instance do some exercise where we have the robot go down a step,
+p263
+aVand the robot will not fall over,
+p264
+aVwhich was a surprise for us.
+p265
+aVThis is a small perturbation.
+p266
+aVI was expecting the robot to immediately fall over,
+p267
+aVbecause there are no sensors, no fast feedback loop.
+p268
+aVBut no, just the mechanics stabilized the gait,
+p269
+aVand the robot doesn't fall over.
+p270
+aVObviously, if you make the step bigger, and if you have obstacles,
+p271
+aVyou need the full control loops and reflexes and everything.
+p272
+aVBut what's important here is that just for small perturbation,
+p273
+aVthe mechanics are right.
+p274
+aVAnd I think this is a very important message
+p275
+aVfrom biomechanics and robotics to neuroscience,
+p276
+aVsaying don't underestimate to what extent the body already helps locomotion.
+p277
+aa(lp278
+VNow, how does this relate to human locomotion?
+p279
+aVClearly, human locomotion is more complex than cat and salamander locomotion,
+p280
+aVbut at the same time, the nervous system of humans is very similar
+p281
+aVto that of other vertebrates.
+p282
+aVAnd especially the spinal cord
+p283
+aVis also the key controller for locomotion in humans.
+p284
+aVThat's why, if there's a lesion of the spinal cord,
+p285
+aVthis has dramatic effects.
+p286
+aVThe person can become paraplegic or tetraplegic.
+p287
+aVThis is because the brain loses this communication
+p288
+aVwith the spinal cord.
+p289
+aVEspecially, it loses this descending modulation
+p290
+aVto initiate and modulate locomotion.
+p291
+aVSo a big goal of neuroprosthetics
+p292
+aVis to be able to reactivate that communication
+p293
+aVusing electrical or chemical stimulations.
+p294
+aVAnd there are several teams in the world that do exactly that,
+p295
+aVespecially at EPFL.
+p296
+aVMy colleagues Grégoire Courtine and Silvestro Micera,
+p297
+aVwith whom I collaborate.
+p298
+aa(lp299
+VBut to do this properly, it's very important to understand
+p300
+aVhow the spinal cord works,
+p301
+aVhow it interacts with the body,
+p302
+aVand how the brain communicates with the spinal cord.
+p303
+aVThis is where the robots and models that I've presented today
+p304
+aVwill hopefully play a key role
+p305
+aVtowards these very important goals.
+p306
+aa(lp307
+VThank you.
+p308
+aa(lp309
+V(Applause)
+p310
+aa(lp311
+VBruno Giussani: Auke, I've seen in your lab other robots
+p312
+aVthat do things like swim in pollution
+p313
+aVand measure the pollution while they swim.
+p314
+aVBut for this one,
+p315
+aVyou mentioned in your talk, like a side project,
+p316
+aVsearch and rescue,
+p317
+aVand it does have a camera on its nose.
+p318
+aa(lp319
+VAuke Ijspeert: Absolutely. So the robot \u2014
+p320
+aVWe have some spin-off projects
+p321
+aVwhere we would like to use the robots to do search and rescue inspection,
+p322
+aVso this robot is now seeing you.
+p323
+aVAnd the big dream is to, if you have a difficult situation
+p324
+aVlike a collapsed building or a building that is flooded,
+p325
+aVand this is very dangerous for a rescue team or even rescue dogs,
+p326
+aVwhy not send in a robot that can crawl around, swim, walk,
+p327
+aVwith a camera onboard to do inspection and identify survivors
+p328
+aVand possibly create a communication link with the survivor.
+p329
+aa(lp330
+VBG: Of course, assuming the survivors don't get scared by the shape of this.
+p331
+aa(lp332
+VAI: Yeah, we should probably change the appearance quite a bit,
+p333
+aVbecause here I guess a survivor might die of a heart attack
+p334
+aVjust of being worried that this would feed on you.
+p335
+aVBut by changing the appearance and it making it more robust,
+p336
+aVI'm sure we can make a good tool out of it.
+p337
+aa(lp338
+VBG: Thank you very much. Thank you and your team.
+p339
+aasS'transcript_micsec'
+p340
+(lp341
+I11000
+aI25000
+aI70000
+aI134000
+aI166000
+aI215000
+aI284000
+aI361000
+aI408000
+aI431000
+aI433000
+aI488000
+aI553000
+aI606000
+aI643000
+aI706000
+aI754000
+aI772000
+aI773000
+aI783000
+aI800000
+aI828000
+aI831000
+aI845000
+asS'talk_meta'
+p342
+(dp343
+S'ratings'
+p344
+(dp345
+S'ingenious'
+p346
+I95
+sS'beautiful'
+p347
+I31
+sS'inspiring'
+p348
+I72
+sS'ok'
+p349
+I49
+sS'fascinating'
+p350
+I125
+sS'funny'
+p351
+I13
+sS'total_count'
+p352
+I642
+sS'persuasive'
+p353
+I16
+sS'longwinded'
+p354
+I7
+sS'informative'
+p355
+I167
+sS'jaw-dropping'
+p356
+I35
+sS'obnoxious'
+p357
+I8
+sS'confusing'
+p358
+I8
+sS'courageous'
+p359
+I14
+sS'unconvincing'
+p360
+I2
+ssS'author'
+p361
+VAuke_Ijspeert;
+p362
+sS'url'
+p363
+S'https://www.ted.com/talks/auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander'
+p364
+sS'vidlen'
+p365
+I850
+sS'totalviews'
+p366
+I1821559
+sS'title'
+p367
+VA robot that runs and swims like a salamander
+p368
+sS'downloadlink'
+p369
+Vhttps://download.ted.com/talks/AukeIjspeert_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p370
+sS'datepublished'
+p371
+cdatetime
+datetime
+p372
+(S'\x07\xe0\x01\x1c\x0b%\x17\x00\x00\x00'
+tRp373
+sS'datefilmed'
+p374
+g372
+(S'\x07\xe0\x01\x1c\x0b%\x17\x00\x00\x00'
+tRp375
+sS'alldata_JSON'
+p376
+S'{"viewed_count": 1821559, "speakers": [{"description": "Roboticist", "firstname": "Auke", "title": "", "lastname": "Ijspeert", "middleinitial": "", "whylisten": "        <p class=\\"p1\\"><span class=\\"s1\\">Auke Ijspeert is a professor at the&nbsp;<a href=\\"http://www.epfl.ch/\\" target=\\"_blank\\"><span class=\\"s2\\">EPFL</span></a>&nbsp;(the Swiss Federal Institute of Technology at Lausanne), and head of the Biorobotics Laboratory (BioRob). He has a BSc/MSc in Physics from the EPFL and a PhD in artificial intelligence from the&nbsp;<a href=\\"http://www.ed.ac.uk/\\" target=\\"_blank\\"><span class=\\"s2\\">University of Edinburgh</span></a>,&nbsp;with John Hallam and David Willshaw as advisors. He carried out postdocs at&nbsp;<a href=\\"http://www.idsia.ch/\\" target=\\"_blank\\"><span class=\\"s2\\">IDSIA</span></a>&nbsp;and EPFL&nbsp;with Jean-Daniel Nicoud and Luca Gambardella, and at the&nbsp;<a href=\\"http://www.usc.edu/\\" target=\\"_blank\\"><span class=\\"s2\\">University of Southern California</span></a>, with&nbsp;<span class=\\"s2\\">Michael Arbib</span>&nbsp;and&nbsp;<span class=\\"s2\\">Stefan Schaal</span>.&nbsp;</span>&nbsp;</p><p class=\\"p1\\"><span class=\\"s1\\">Ijspeert is interested in using numerical simulations and robots to get a better understanding of animal locomotion and movement control, and in using inspiration from biology to design novel types of robots and locomotion controllers.</span></p>", "slug": "auke_ijspeert", "whotheyare": "Auke Ijspeert works at the intersection of robotics, biology and computational neuroscience.", "whatotherssay": "", "id": 2752, "photo_url": "https://pe.tedcdn.com/images/ted/99a1ce8255f7c5ebfc46470d3c78a9c25d9929e0_254x191.jpg"}], "current_talk": 2419, "description": "Roboticist Auke Ijspeert designs biorobots, machines modeled after real animals that are capable of handling complex terrain and would appear at home in the pages of a sci-fi novel. The process of creating these robots leads to better automata that can be used for fieldwork, service, and search and rescue. But these robots don\'t just mimic the natural world -- they help us understand our own biology better, unlocking previously unknown secrets of the spinal cord.", "language": "en", "url": "https://www.ted.com/talks/auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 102062134}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19668866}, "podcast-high": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 102060253}, "180k": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19407145}, "64k": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7008395}, "1500k": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 157449473}, "450k": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48455876}, "podcast-regular": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48743378}, "950k": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101667300}, "audio-podcast": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8834926}, "podcast-light": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7145776}, "320k": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34418840}, "600k": {"uri": "https://download.ted.com/talks/AukeIjspeert_2015G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64811589}}}, "comments": {"count": 24, "id": 27039, "talk_id": 2419}, "slug": "auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander", "threadId": 27039, "talks": [{"event": "TEDGlobal>Geneva", "player_talks": [{"event": "TEDGlobal>Geneva", "slug": "auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander", "filmed": 1449532800, "targeting": {"event": "TEDGlobal>Geneva", "tag": "animals,biology,biomechanics,biotech,design,engineering,future,innovation,invention,nature,neuroscience,physics,robots,technology", "id": 2419, "talk": "auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "A robot that runs and swims like a salamander", "postAdDuration": "0.83", "published": 1453999043, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0b0fb52e085bad1e7834a6bfcc93f27cba088559_2880x1620.jpg?quality=89&w=600", "name": "Auke Ijspeert: A robot that runs and swims like a salamander", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["animals", "biology", "biomechanics", "biotech", "design", "engineering", "future", "innovation", "invention", "nature", "neuroscience", "physics", "robots", "technology"], "speaker": "Auke Ijspeert", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 850, "id": 2419, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AukeIjspeert_2015G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal>Geneva", "tag": "animals,biology,biomechanics,biotech,design,engineering,future,innovation,invention,nature,neuroscience,physics,robots,technology", "id": 2419, "talk": "auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2419.json", "stream": "https://hls.ted.com/talks/2419.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%3EGeneva%26id%3D2419%26tag%3Danimals%2Cbiology%2Cbiomechanics%2Cbiotech%2Cdesign%2Cengineering%2Cfuture%2Cinnovation%2Cinvention%2Cnature%2Cneuroscience%2Cphysics%2Crobots%2Ctechnology%26talk%3Dauke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/0b0fb52e085bad1e7834a6bfcc93f27cba088559_2880x1620.jpg?q=50&w=15", "duration": 850, "id": 2419, "ratings": [{"count": 167, "id": 8, "name": "Informative"}, {"count": 95, "id": 9, "name": "Ingenious"}, {"count": 49, "id": 25, "name": "OK"}, {"count": 31, "id": 1, "name": "Beautiful"}, {"count": 72, "id": 10, "name": "Inspiring"}, {"count": 125, "id": 22, "name": "Fascinating"}, {"count": 35, "id": 23, "name": "Jaw-dropping"}, {"count": 13, "id": 7, "name": "Funny"}, {"count": 16, "id": 24, "name": "Persuasive"}, {"count": 7, "id": 11, "name": "Longwinded"}, {"count": 14, "id": 3, "name": "Courageous"}, {"count": 2, "id": 21, "name": "Unconvincing"}, {"count": 8, "id": 2, "name": "Confusing"}, {"count": 8, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Roboticist", "firstname": "Auke", "title": "", "lastname": "Ijspeert", "middleinitial": "", "whylisten": "        <p class=\\"p1\\"><span class=\\"s1\\">Auke Ijspeert is a professor at the&nbsp;<a href=\\"http://www.epfl.ch/\\" target=\\"_blank\\"><span class=\\"s2\\">EPFL</span></a>&nbsp;(the Swiss Federal Institute of Technology at Lausanne), and head of the Biorobotics Laboratory (BioRob). He has a BSc/MSc in Physics from the EPFL and a PhD in artificial intelligence from the&nbsp;<a href=\\"http://www.ed.ac.uk/\\" target=\\"_blank\\"><span class=\\"s2\\">University of Edinburgh</span></a>,&nbsp;with John Hallam and David Willshaw as advisors. He carried out postdocs at&nbsp;<a href=\\"http://www.idsia.ch/\\" target=\\"_blank\\"><span class=\\"s2\\">IDSIA</span></a>&nbsp;and EPFL&nbsp;with Jean-Daniel Nicoud and Luca Gambardella, and at the&nbsp;<a href=\\"http://www.usc.edu/\\" target=\\"_blank\\"><span class=\\"s2\\">University of Southern California</span></a>, with&nbsp;<span class=\\"s2\\">Michael Arbib</span>&nbsp;and&nbsp;<span class=\\"s2\\">Stefan Schaal</span>.&nbsp;</span>&nbsp;</p><p class=\\"p1\\"><span class=\\"s1\\">Ijspeert is interested in using numerical simulations and robots to get a better understanding of animal locomotion and movement control, and in using inspiration from biology to design novel types of robots and locomotion controllers.</span></p>", "slug": "auke_ijspeert", "whotheyare": "Auke Ijspeert works at the intersection of robotics, biology and computational neuroscience.", "whatotherssay": "", "id": 2752, "photo_url": "https://pe.tedcdn.com/images/ted/99a1ce8255f7c5ebfc46470d3c78a9c25d9929e0_254x191.jpg"}], "title": "A robot that runs and swims like a salamander", "take_action": [], "comments": 27039, "more_resources": [{"status": "approved", "start_at": null, "headline": "Pleurobot, the  salamander-like robot ", "link_url": "http://biorob.epfl.ch/pleurobot", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "biorob.epfl.ch", "type": "external_website", "blurb": "Dive deeper in the world of the Pleurobot."}], "hero": "https://pe.tedcdn.com/images/ted/0b0fb52e085bad1e7834a6bfcc93f27cba088559_2880x1620.jpg", "description": "Roboticist Auke Ijspeert designs biorobots, machines modeled after real animals that are capable of handling complex terrain and would appear at home in the pages of a sci-fi novel. The process of creating these robots leads to better automata that can be used for fieldwork, service, and search and rescue. But these robots don\'t just mimic the natural world -- they help us understand our own biology better, unlocking previously unknown secrets of the spinal cord.", "tags": ["animals", "biology", "biomechanics", "biotech", "design", "engineering", "future", "innovation", "invention", "nature", "neuroscience", "physics", "robots", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-zh-cn.mp4"}, "pl": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AukeIjspeert_2015G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AukeIjspeert_2015G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AukeIjspeert_2015G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2419, "audioDownload": "https://download.ted.com/talks/AukeIjspeert_2015G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1368447, "hero": "https://pe.tedcdn.com/images/ted/87f82eddb91d2c806ebb11465d846c47f481902c_2880x1620.jpg", "title": "The future of flying robots", "id": 2346, "speaker": "Vijay Kumar", "duration": 789, "slug": "vijay_kumar_the_future_of_flying_robots"}, {"viewed_count": 1356395, "hero": "https://pe.tedcdn.com/images/ted/c9928d59974a7d5b8f8889794634cbded07ff266_1600x1200.jpg", "title": "Why we will rely on robots", "id": 1762, "speaker": "Rodney Brooks", "duration": 596, "slug": "rodney_brooks_why_we_will_rely_on_robots"}, {"viewed_count": 990264, "hero": "https://pe.tedcdn.com/images/ted/366ebe1ea6814d45aae5cda773ab491397094ada_2880x1620.jpg", "title": "These robots come to the rescue after a disaster", "id": 2318, "speaker": "Robin Murphy", "duration": 539, "slug": "robin_murphy_these_robots_come_to_the_rescue_after_a_disaster"}, {"viewed_count": 929877, "hero": "https://pe.tedcdn.com/images/ted/5c6138687f271d2956fdd8b779700f4b1d980ff9_1600x1200.jpg", "title": "The paralyzed rat that walked", "id": 1860, "speaker": "Gr\\u00e9goire Courtine", "duration": 863, "slug": "gregoire_courtine_the_paralyzed_rat_that_walked"}, {"viewed_count": 1932099, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "title": "My seven species of robot -- and how we created them", "id": 820, "speaker": "Dennis Hong", "duration": 955, "slug": "dennis_hong_my_seven_species_of_robot"}, {"viewed_count": 1623487, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}], "recorded_at": "2015-12-08T00:00:00.000+00:00", "slug": "auke_ijspeert_a_robot_that_runs_and_swims_like_a_salamander", "speaker_name": "Auke Ijspeert", "viewed_count": 1821559, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal>Geneva", "name": "Auke Ijspeert: A robot that runs and swims like a salamander"}'
+p377
+sS'keywords'
+p378
+(lp379
+Vanimals
+p380
+aVbiology
+p381
+aVbiomechanics
+p382
+aVbiotech
+p383
+aVdesign
+p384
+aVengineering
+p385
+aVfuture
+p386
+aVinnovation
+p387
+aVinvention
+p388
+aVnature
+p389
+aVneuroscience
+p390
+aVphysics
+p391
+aVrobots
+p392
+aVtechnology
+p393
+asS'datecrawled'
+p394
+g372
+(S'\x07\xe1\n\x17\x02,\x0f\x00\xfa\xa5'
+tRp395
+sS'id'
+p396
+I2419
+ss.

@@ -1,0 +1,566 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMy passions
+p5
+aVare music, technology and making things.
+p6
+aVAnd it's the combination of these things
+p7
+aVthat has led me to the hobby of sound visualization,
+p8
+aVand, on occasion, has led me to play with fire.
+p9
+aa(lp10
+VThis is a Rubens' tube. It's one of many I've made over the years,
+p11
+aVand I have one here tonight.
+p12
+aVIt's about an 8-foot-long tube of metal,
+p13
+aVit's got a hundred or so holes on top,
+p14
+aVon that side is the speaker, and here
+p15
+aVis some lab tubing, and it's connected to this tank
+p16
+aVof propane.
+p17
+aVSo, let's fire it up and see what it does.
+p18
+aVSo let's play a 550-herz frequency
+p19
+aVand watch what happens.
+p20
+aa(lp21
+V(Frequency)
+p22
+aa(lp23
+VThank you. (Applause)
+p24
+aVIt's okay to applaud the laws of physics,
+p25
+aVbut essentially what's happening here
+p26
+aV\u2014 (Laughter) \u2014
+p27
+aVis the energy from the sound via the air and gas molecules
+p28
+aVis influencing the combustion properties of propane,
+p29
+aVcreating a visible waveform,
+p30
+aVand we can see the alternating regions of compression
+p31
+aVand rarefaction that we call frequency,
+p32
+aVand the height is showing us amplitude.
+p33
+aVSo let's change the frequency of the sound,
+p34
+aVand watch what happens to the fire.
+p35
+aa(lp36
+V(Higher frequency)
+p37
+aa(lp38
+VSo every time we hit a resonant frequency we get a standing wave
+p39
+aVand that emergent sine curve of fire.
+p40
+aVSo let's turn that off. We're indoors.
+p41
+aVThank you. (Applause)
+p42
+aa(lp43
+VI also have with me a flame table.
+p44
+aVIt's very similar to a Rubens' tube, and it's also used
+p45
+aVfor visualizing the physical properties of sound,
+p46
+aVsuch as eigenmodes, so let's fire it up
+p47
+aVand see what it does.
+p48
+aa(lp49
+VOoh. (Laughter)
+p50
+aVOkay. Now, while the table comes up to pressure,
+p51
+aVlet me note here that the sound is not traveling
+p52
+aVin perfect lines. It's actually traveling in all directions,
+p53
+aVand the Rubens' tube's a little like bisecting those waves
+p54
+aVwith a line, and the flame table's a little like
+p55
+aVbisecting those waves with a plane,
+p56
+aVand it can show a little more subtle complexity, which is why
+p57
+aVI like to use it to watch Geoff Farina play guitar.
+p58
+aa(lp59
+V(Music)
+p60
+aa(lp61
+VAll right, so it's a delicate dance.
+p62
+aVIf you watch closely \u2014 (Applause)
+p63
+aVIf you watch closely, you may have seen
+p64
+aVsome of the eigenmodes, but also you may have seen
+p65
+aVthat jazz music is better with fire.
+p66
+aVActually, a lot of things are better with fire in my world,
+p67
+aVbut the fire's just a foundation.
+p68
+aVIt shows very well that eyes can hear,
+p69
+aVand this is interesting to me because
+p70
+aVtechnology allows us to present sound to the eyes
+p71
+aVin ways that accentuate the strength of the eyes
+p72
+aVfor seeing sound, such as the removal of time.
+p73
+aa(lp74
+VSo here, I'm using a rendering algorithm to paint
+p75
+aVthe frequencies of the song "Smells Like Teen Spirit"
+p76
+aVin a way that the eyes can take them in
+p77
+aVas a single visual impression, and the technique
+p78
+aVwill also show the strengths of the visual cortex
+p79
+aVfor pattern recognition.
+p80
+aVSo if I show you another song off this album,
+p81
+aVand another, your eyes will easily pick out
+p82
+aVthe use of repetition by the band Nirvana,
+p83
+aVand in the frequency distribution, the colors,
+p84
+aVyou can see the clean-dirty-clean sound
+p85
+aVthat they are famous for,
+p86
+aVand here is the entire album as a single visual impression,
+p87
+aVand I think this impression is pretty powerful.
+p88
+aa(lp89
+VAt least, it's powerful enough that
+p90
+aVif I show you these four songs,
+p91
+aVand I remind you that this is "Smells Like Teen Spirit,"
+p92
+aVyou can probably correctly guess, without listening
+p93
+aVto any music at all, that the song
+p94
+aVa die hard Nirvana fan would enjoy is this song,
+p95
+aV"I'll Stick Around" by the Foo Fighters,
+p96
+aVwhose lead singer is Dave Grohl,
+p97
+aVwho was the drummer in Nirvana.
+p98
+aVThe songs are a little similar, but mostly
+p99
+aVI'm just interested in the idea that someday maybe
+p100
+aVwe'll buy a song because we like the way it looks.
+p101
+aa(lp102
+VAll right, now for some more sound data.
+p103
+aVThis is data from a skate park,
+p104
+aVand this is Mabel Davis skate park
+p105
+aVin Austin, Texas. (Skateboard sounds)
+p106
+aVAnd the sounds you're hearing came from eight
+p107
+aVmicrophones attached to obstacles around the park,
+p108
+aVand it sounds like chaos, but actually
+p109
+aVall the tricks start with a very distinct slap,
+p110
+aVbut successful tricks end with a pop,
+p111
+aVwhereas unsuccessful tricks
+p112
+aVmore of a scratch and a tumble,
+p113
+aVand tricks on the rail will ring out like a gong, and
+p114
+aVvoices occupy very unique frequencies in the skate park.
+p115
+aa(lp116
+VSo if we were to render these sounds visually,
+p117
+aVwe might end up with something like this.
+p118
+aVThis is all 40 minutes of the recording,
+p119
+aVand right away the algorithm tells us
+p120
+aVa lot more tricks are missed than are made,
+p121
+aVand also a trick on the rails is a lot more likely
+p122
+aVto produce a cheer, and if you look really closely,
+p123
+aVwe can tease out traffic patterns.
+p124
+aVYou see the skaters often trick in this direction. The obstacles are easier.
+p125
+aa(lp126
+VAnd in the middle of the recording, the mics pick this up,
+p127
+aVbut later in the recording, this kid shows up,
+p128
+aVand he starts using a line at the top of the park
+p129
+aVto do some very advanced tricks on something
+p130
+aVcalled the tall rail.
+p131
+aVAnd it's fascinating. At this moment in time,
+p132
+aVall the rest of the skaters turn their lines 90 degrees
+p133
+aVto stay out of his way.
+p134
+aVYou see, there's a subtle etiquette in the skate park,
+p135
+aVand it's led by key influencers,
+p136
+aVand they tend to be the kids who can do the best tricks,
+p137
+aVor wear red pants, and on this day the mics picked that up.
+p138
+aa(lp139
+VAll right, from skate physics to theoretical physics.
+p140
+aVI'm a big fan of Stephen Hawking,
+p141
+aVand I wanted to use all eight hours
+p142
+aVof his Cambridge lecture series to create an homage.
+p143
+aVNow, in this series he's speaking with the aid of a computer,
+p144
+aVwhich actually makes identifying the ends of sentences
+p145
+aVfairly easy. So I wrote a steering algorithm.
+p146
+aVIt listens to the lecture, and then it uses
+p147
+aVthe amplitude of each word to move a point on the x-axis,
+p148
+aVand it uses the inflection of sentences
+p149
+aVto move a same point up and down on the y-axis.
+p150
+aa(lp151
+VAnd these trend lines, you can see, there's more questions
+p152
+aVthan answers in the laws of physics,
+p153
+aVand when we reach the end of a sentence,
+p154
+aVwe place a star at that location.
+p155
+aVSo there's a lot of sentences, so a lot of stars,
+p156
+aVand after rendering all of the audio, this is what we get.
+p157
+aVThis is Stephen Hawking's universe.
+p158
+aa(lp159
+V(Applause)
+p160
+aa(lp161
+VIt's all eight hours of the Cambridge lecture series
+p162
+aVtaken in as a single visual impression,
+p163
+aVand I really like this image,
+p164
+aVbut a lot of people think it's fake.
+p165
+aVSo I made a more interactive version,
+p166
+aVand the way I did that is I used their position in time
+p167
+aVin the lecture to place these stars into 3D space,
+p168
+aVand with some custom software and a Kinect,
+p169
+aVI can walk right into the lecture.
+p170
+aVI'm going to wave through the Kinect here
+p171
+aVand take control, and now I'm going to reach out
+p172
+aVand I'm going to touch a star, and when I do,
+p173
+aVit will play the sentence
+p174
+aVthat generated that star.
+p175
+aa(lp176
+VStephen Hawking: There is one, and only one, arrangement
+p177
+aVin which the pieces make a complete picture.
+p178
+aa(lp179
+VJared Ficklin: Thank you. (Applause)
+p180
+aVThere are 1,400 stars.
+p181
+aVIt's a really fun way to explore the lecture,
+p182
+aVand, I hope, a fitting homage.
+p183
+aa(lp184
+VAll right. Let me close with a work in progress.
+p185
+aVI think, after 30 years, the opportunity exists
+p186
+aVto create an enhanced version of closed captioning.
+p187
+aVNow, we've all seen a lot of TEDTalks online,
+p188
+aVso let's watch one now with the sound turned off
+p189
+aVand the closed captioning turned on.
+p190
+aa(lp191
+VThere's no closed captioning for the TED theme song,
+p192
+aVand we're missing it, but if you've watched enough of these,
+p193
+aVyou hear it in your mind's ear,
+p194
+aVand then applause starts.
+p195
+aVIt usually begins here, and it grows and then it falls.
+p196
+aVSometimes you get a little star applause,
+p197
+aVand then I think even Bill Gates takes a nervous breath,
+p198
+aVand the talk begins.
+p199
+aa(lp200
+VAll right, so let's watch this clip again.
+p201
+aVThis time, I'm not going to talk at all.
+p202
+aVThere's still going to be no audio,
+p203
+aVbut what I am going to do is I'm going to render the sound
+p204
+aVvisually in real time at the bottom of the screen.
+p205
+aVSo watch closely and see what your eyes can hear.
+p206
+aa(lp207
+VThis is fairly amazing to me.
+p208
+aVEven on the first view, your eyes will successfully
+p209
+aVpick out patterns, but on repeated views,
+p210
+aVyour brain actually gets better
+p211
+aVat turning these patterns into information.
+p212
+aVYou can get the tone and the timbre
+p213
+aVand the pace of the speech,
+p214
+aVthings that you can't get out of closed captioning.
+p215
+aVThat famous scene in horror movies
+p216
+aVwhere someone is walking up from behind
+p217
+aVis something you can see,
+p218
+aVand I believe this information would be something
+p219
+aVthat is useful at times when the audio is turned off
+p220
+aVor not heard at all, and I speculate that deaf audiences
+p221
+aVmight actually even be better
+p222
+aVat seeing sound than hearing audiences.
+p223
+aVI don't know. It's a theory right now.
+p224
+aVActually, it's all just an idea.
+p225
+aa(lp226
+VAnd let me end by saying that sound moves in all directions,
+p227
+aVand so do ideas.
+p228
+aVThank you. (Applause)
+p229
+aasS'transcript_micsec'
+p230
+(lp231
+I11000
+aI26000
+aI52000
+aI60000
+aI87000
+aI97000
+aI109000
+aI123000
+aI148000
+aI190000
+aI220000
+aI254000
+aI281000
+aI310000
+aI333000
+aI360000
+aI389000
+aI406000
+aI413000
+aI446000
+aI453000
+aI463000
+aI483000
+aI500000
+aI538000
+aI576000
+asS'talk_meta'
+p232
+(dp233
+S'ratings'
+p234
+(dp235
+S'beautiful'
+p236
+I52
+sS'ingenious'
+p237
+I71
+sS'inspiring'
+p238
+I28
+sS'ok'
+p239
+I41
+sS'fascinating'
+p240
+I133
+sS'funny'
+p241
+I8
+sS'total_count'
+p242
+I464
+sS'persuasive'
+p243
+I1
+sS'longwinded'
+p244
+I16
+sS'informative'
+p245
+I45
+sS'jaw-dropping'
+p246
+I16
+sS'obnoxious'
+p247
+I4
+sS'confusing'
+p248
+I12
+sS'courageous'
+p249
+I5
+sS'unconvincing'
+p250
+I32
+ssS'author'
+p251
+VJared_Ficklin;
+p252
+sS'url'
+p253
+S'https://www.ted.com/talks/jared_ficklin_new_ways_to_see_music_with_color_and_fire'
+p254
+sS'vidlen'
+p255
+I600
+sS'totalviews'
+p256
+I671609
+sS'title'
+p257
+VNew ways to see music (with color! and fire!)
+p258
+sS'downloadlink'
+p259
+Vhttps://download.ted.com/talks/JaredFicklin_2012.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p260
+sS'datepublished'
+p261
+cdatetime
+datetime
+p262
+(S'\x07\xdc\x07\r\x0b\x1c\x11\x00\x00\x00'
+tRp263
+sS'datefilmed'
+p264
+g262
+(S'\x07\xdc\x07\r\x0b\x1c\x11\x00\x00\x00'
+tRp265
+sS'alldata_JSON'
+p266
+S'{"viewed_count": 671609, "speakers": [{"description": "Visualizer", "firstname": "Jared", "title": "", "lastname": "Ficklin", "middleinitial": "", "whylisten": "<p>Jared Ficklin is a Senior Principal Design Technologist at frog, where he builds user experiences for clients, playing with interactions including touch and multi-touch, and applying physics to enhance the user experience. A passion for music and making things introduced him to the hobby of sound visualization, which has led him on occasion to play with fire. (As Flash on the Beach puts it, &quot;Jared Ficklin&rsquo;s sonic experiments stood out for their individuality, drama and casual disregard for health and safety.&quot;) Every March in Austin, Texas, Ficklin organizes the frog party, a collective social experiment for a few thousand people attending SXSW Interactive. It&#39;s a form of playful R&amp;D for social technology. And he has spent 10 years helping fund, design and &nbsp;build quality free public skateparks for Austin as part of the Austin Public Skatepark Action Committee.&nbsp;</p>", "slug": "jared_ficklin", "whotheyare": "In his day job, Jared Ficklin makes user interfaces at frog design. As a hobby, he explores what music looks like ... in light, in shapes, in fire.", "whatotherssay": "I am intrigued by the idea of eliminating time and allowing listeners to take in an entire song as a single visual impression. The result reveals an unseen beauty.", "id": 1148, "photo_url": "https://pe.tedcdn.com/images/ted/6056fb1727ea01bcb79ef9262690c6a903b84e9c_254x191.jpg"}], "current_talk": 1505, "description": "Designer Jared Ficklin creates wild visualizations that let us see music, using color and even fire (a first for the TED stage) to analyze how sound makes us feel. He takes a brief digression to analyze the sound of a skatepark -- and how audio can clue us in to developing creativity.", "language": "en", "url": "https://www.ted.com/talks/jared_ficklin_new_ways_to_see_music_with_color_and_fire", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 71052178}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13763620}, "podcast-high": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 71052265}, "180k": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 13507264}, "64k": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4888098}, "1500k": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 109767199}, "450k": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33797874}, "podcast-regular": {"uri": "https://download.ted.com/talks/JaredFicklin_2012.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 33913139}, "950k": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 71060236}, "audio-podcast": {"uri": "https://download.ted.com/talks/JaredFicklin_2012.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6240699}, "podcast-light": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5021524}, "320k": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23950003}, "600k": {"uri": "https://download.ted.com/talks/JaredFicklin_2012-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45306928}}}, "comments": {"count": 48, "id": 13987, "talk_id": 1505}, "slug": "jared_ficklin_new_ways_to_see_music_with_color_and_fire", "threadId": 13987, "talks": [{"event": "TED2012", "player_talks": [{"event": "TED2012", "slug": "jared_ficklin_new_ways_to_see_music_with_color_and_fire", "filmed": 1330560000, "targeting": {"event": "TED2012", "tag": "creativity,music,visualizations", "id": 1505, "talk": "jared_ficklin_new_ways_to_see_music_with_color_and_fire", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "New ways to see music (with color! and fire!)", "postAdDuration": "0.83", "published": 1342193297, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1969d5d30c7988c54f2b3c2974ed46e3ea1d3e3d_800x600.jpg?quality=89&w=600", "name": "Jared Ficklin: New ways to see music (with color! and fire!)", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["creativity", "music", "visualizations"], "speaker": "Jared Ficklin", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 600, "id": 1505, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JaredFicklin_2012-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2012", "tag": "creativity,music,visualizations", "id": 1505, "talk": "jared_ficklin_new_ways_to_see_music_with_color_and_fire", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1505.json", "stream": "https://hls.ted.com/talks/1505.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2012%26id%3D1505%26tag%3Dcreativity%2Cmusic%2Cvisualizations%26talk%3Djared_ficklin_new_ways_to_see_music_with_color_and_fire%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jared_ficklin_new_ways_to_see_music_with_color_and_fire"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1969d5d30c7988c54f2b3c2974ed46e3ea1d3e3d_800x600.jpg?q=50&w=15", "duration": 600, "id": 1505, "ratings": [{"count": 12, "id": 2, "name": "Confusing"}, {"count": 133, "id": 22, "name": "Fascinating"}, {"count": 28, "id": 10, "name": "Inspiring"}, {"count": 52, "id": 1, "name": "Beautiful"}, {"count": 41, "id": 25, "name": "OK"}, {"count": 32, "id": 21, "name": "Unconvincing"}, {"count": 45, "id": 8, "name": "Informative"}, {"count": 71, "id": 9, "name": "Ingenious"}, {"count": 16, "id": 11, "name": "Longwinded"}, {"count": 4, "id": 26, "name": "Obnoxious"}, {"count": 16, "id": 23, "name": "Jaw-dropping"}, {"count": 8, "id": 7, "name": "Funny"}, {"count": 5, "id": 3, "name": "Courageous"}, {"count": 1, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Visualizer", "firstname": "Jared", "title": "", "lastname": "Ficklin", "middleinitial": "", "whylisten": "<p>Jared Ficklin is a Senior Principal Design Technologist at frog, where he builds user experiences for clients, playing with interactions including touch and multi-touch, and applying physics to enhance the user experience. A passion for music and making things introduced him to the hobby of sound visualization, which has led him on occasion to play with fire. (As Flash on the Beach puts it, &quot;Jared Ficklin&rsquo;s sonic experiments stood out for their individuality, drama and casual disregard for health and safety.&quot;) Every March in Austin, Texas, Ficklin organizes the frog party, a collective social experiment for a few thousand people attending SXSW Interactive. It&#39;s a form of playful R&amp;D for social technology. And he has spent 10 years helping fund, design and &nbsp;build quality free public skateparks for Austin as part of the Austin Public Skatepark Action Committee.&nbsp;</p>", "slug": "jared_ficklin", "whotheyare": "In his day job, Jared Ficklin makes user interfaces at frog design. As a hobby, he explores what music looks like ... in light, in shapes, in fire.", "whatotherssay": "I am intrigued by the idea of eliminating time and allowing listeners to take in an entire song as a single visual impression. The result reveals an unseen beauty.", "id": 1148, "photo_url": "https://pe.tedcdn.com/images/ted/6056fb1727ea01bcb79ef9262690c6a903b84e9c_254x191.jpg"}], "title": "New ways to see music (with color! and fire!)", "take_action": null, "comments": 13987, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/1969d5d30c7988c54f2b3c2974ed46e3ea1d3e3d_800x600.jpg", "description": "Designer Jared Ficklin creates wild visualizations that let us see music, using color and even fire (a first for the TED stage) to analyze how sound makes us feel. He takes a brief digression to analyze the sound of a skatepark -- and how audio can clue us in to developing creativity.", "tags": ["creativity", "music", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JaredFicklin_2012-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JaredFicklin_2012-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JaredFicklin_2012.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JaredFicklin_2012-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1505, "audioDownload": "https://download.ted.com/talks/JaredFicklin_2012.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 823831, "hero": "https://pe.tedcdn.com/images/ted/8f40974f27f69b9de5f1ce20f91d6b88834f9a84_800x600.jpg", "title": "Pop an ollie and innovate!", "id": 1479, "speaker": "Rodney Mullen", "duration": 1099, "slug": "rodney_mullen_pop_an_ollie_and_innovate"}, {"viewed_count": 1703992, "hero": "https://pe.tedcdn.com/images/ted/81942_800x600.jpg", "title": "My obsession with objects and the stories they tell", "id": 488, "speaker": "Adam Savage", "duration": 938, "slug": "adam_savage_s_obsessions"}, {"viewed_count": 1061961, "hero": "https://pe.tedcdn.com/images/ted/f3a95f7b415f4c0cb82754ea0bcfe6feca3b8cdc_2880x1620.jpg", "title": "How to engineer a viral music video", "id": 877, "speaker": "Adam Sadowsky", "duration": 868, "slug": "adam_sadowsky_engineers_a_viral_music_video"}, {"viewed_count": 1697118, "hero": "https://pe.tedcdn.com/images/ted/9a3db95a0bd7697a4579115adcdaf17db7a68e7b_800x600.jpg", "title": "The untouchable music of the theremin", "id": 218, "speaker": "Pamelia Kurstin", "duration": 1151, "slug": "pamelia_kurstin_plays_the_theremin"}, {"viewed_count": 1207526, "hero": "https://pe.tedcdn.com/images/ted/66945_800x600.jpg", "title": "Hypersonic sound and other inventions", "id": 442, "speaker": "Woody Norris", "duration": 829, "slug": "woody_norris_invents_amazing_things"}, {"viewed_count": 1249376, "hero": "https://pe.tedcdn.com/images/ted/40a1f746b855e335549ba49bc6ec697f5a0c1519_2880x1620.jpg", "title": "Everything you hear on film is a lie", "id": 2610, "speaker": "Tasos Frantzolas", "duration": 993, "slug": "tasos_frantzolas_everything_you_hear_on_film_is_a_lie"}], "recorded_at": "2012-03-01T00:00:00.000+00:00", "slug": "jared_ficklin_new_ways_to_see_music_with_color_and_fire", "speaker_name": "Jared Ficklin", "viewed_count": 671609, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2012", "name": "Jared Ficklin: New ways to see music (with color! and fire!)"}'
+p267
+sS'keywords'
+p268
+(lp269
+Vcreativity
+p270
+aVmusic
+p271
+aVvisualizations
+p272
+asS'datecrawled'
+p273
+g262
+(S'\x07\xe1\n\x17\x02\x1f.\n\x95\xb8'
+tRp274
+sS'id'
+p275
+I1505
+ss.

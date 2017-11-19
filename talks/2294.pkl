@@ -1,0 +1,688 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMy colleagues and I are fascinated by the science of moving dots.
+p5
+aVSo what are these dots?
+p6
+aVWell, it's all of us.
+p7
+aVAnd we're moving in our homes, in our offices, as we shop and travel
+p8
+aVthroughout our cities and around the world.
+p9
+aVAnd wouldn't it be great if we could understand all this movement?
+p10
+aVIf we could find patterns and meaning and insight in it.
+p11
+aVAnd luckily for us, we live in a time
+p12
+aVwhere we're incredibly good at capturing information about ourselves.
+p13
+aVSo whether it's through sensors or videos, or apps,
+p14
+aVwe can track our movement with incredibly fine detail.
+p15
+aa(lp16
+VSo it turns out one of the places where we have the best data about movement
+p17
+aVis sports.
+p18
+aVSo whether it's basketball or baseball, or football or the other football,
+p19
+aVwe're instrumenting our stadiums and our players to track their movements
+p20
+aVevery fraction of a second.
+p21
+aVSo what we're doing is turning our athletes into \u2014
+p22
+aVyou probably guessed it \u2014
+p23
+aVmoving dots.
+p24
+aa(lp25
+VSo we've got mountains of moving dots and like most raw data,
+p26
+aVit's hard to deal with and not that interesting.
+p27
+aVBut there are things that, for example, basketball coaches want to know.
+p28
+aVAnd the problem is they can't know them because they'd have to watch every second
+p29
+aVof every game, remember it and process it.
+p30
+aVAnd a person can't do that,
+p31
+aVbut a machine can.
+p32
+aVThe problem is a machine can't see the game with the eye of a coach.
+p33
+aVAt least they couldn't until now.
+p34
+aVSo what have we taught the machine to see?
+p35
+aa(lp36
+VSo, we started simply.
+p37
+aVWe taught it things like passes, shots and rebounds.
+p38
+aVThings that most casual fans would know.
+p39
+aVAnd then we moved on to things slightly more complicated.
+p40
+aVEvents like post-ups, and pick-and-rolls, and isolations.
+p41
+aVAnd if you don't know them, that's okay. Most casual players probably do.
+p42
+aVNow, we've gotten to a point where today, the machine understands complex events
+p43
+aVlike down screens and wide pins.
+p44
+aVBasically things only professionals know.
+p45
+aVSo we have taught a machine to see with the eyes of a coach.
+p46
+aa(lp47
+VSo how have we been able to do this?
+p48
+aVIf I asked a coach to describe something like a pick-and-roll,
+p49
+aVthey would give me a description,
+p50
+aVand if I encoded that as an algorithm, it would be terrible.
+p51
+aVThe pick-and-roll happens to be this dance in basketball between four players,
+p52
+aVtwo on offense and two on defense.
+p53
+aVAnd here's kind of how it goes.
+p54
+aVSo there's the guy on offense without the ball
+p55
+aVthe ball and he goes next to the guy guarding the guy with the ball,
+p56
+aVand he kind of stays there
+p57
+aVand they both move and stuff happens, and ta-da, it's a pick-and-roll.
+p58
+aa(lp59
+V(Laughter)
+p60
+aa(lp61
+VSo that is also an example of a terrible algorithm.
+p62
+aVSo, if the player who's the interferer \u2014 he's called the screener \u2014
+p63
+aVgoes close by, but he doesn't stop,
+p64
+aVit's probably not a pick-and-roll.
+p65
+aVOr if he does stop, but he doesn't stop close enough,
+p66
+aVit's probably not a pick-and-roll.
+p67
+aVOr, if he does go close by and he does stop
+p68
+aVbut they do it under the basket, it's probably not a pick-and-roll.
+p69
+aVOr I could be wrong, they could all be pick-and-rolls.
+p70
+aVIt really depends on the exact timing, the distances, the locations,
+p71
+aVand that's what makes it hard.
+p72
+aVSo, luckily, with machine learning, we can go beyond our own ability
+p73
+aVto describe the things we know.
+p74
+aa(lp75
+VSo how does this work? Well, it's by example.
+p76
+aVSo we go to the machine and say, "Good morning, machine.
+p77
+aVHere are some pick-and-rolls, and here are some things that are not.
+p78
+aVPlease find a way to tell the difference."
+p79
+aVAnd the key to all of this is to find features that enable it to separate.
+p80
+aVSo if I was going to teach it the difference
+p81
+aVbetween an apple and orange,
+p82
+aVI might say, "Why don't you use color or shape?"
+p83
+aVAnd the problem that we're solving is, what are those things?
+p84
+aVWhat are the key features
+p85
+aVthat let a computer navigate the world of moving dots?
+p86
+aVSo figuring out all these relationships with relative and absolute location,
+p87
+aVdistance, timing, velocities \u2014
+p88
+aVthat's really the key to the science of moving dots, or as we like to call it,
+p89
+aVspatiotemporal pattern recognition, in academic vernacular.
+p90
+aVBecause the first thing is, you have to make it sound hard \u2014
+p91
+aVbecause it is.
+p92
+aa(lp93
+VThe key thing is, for NBA coaches, it's not that they want to know
+p94
+aVwhether a pick-and-roll happened or not.
+p95
+aVIt's that they want to know how it happened.
+p96
+aVAnd why is it so important to them? So here's a little insight.
+p97
+aVIt turns out in modern basketball,
+p98
+aVthis pick-and-roll is perhaps the most important play.
+p99
+aVAnd knowing how to run it, and knowing how to defend it,
+p100
+aVis basically a key to winning and losing most games.
+p101
+aVSo it turns out that this dance has a great many variations
+p102
+aVand identifying the variations is really the thing that matters,
+p103
+aVand that's why we need this to be really, really good.
+p104
+aa(lp105
+VSo, here's an example.
+p106
+aVThere are two offensive and two defensive players,
+p107
+aVgetting ready to do the pick-and-roll dance.
+p108
+aVSo the guy with ball can either take, or he can reject.
+p109
+aVHis teammate can either roll or pop.
+p110
+aVThe guy guarding the ball can either go over or under.
+p111
+aVHis teammate can either show or play up to touch, or play soft
+p112
+aVand together they can either switch or blitz
+p113
+aVand I didn't know most of these things when I started
+p114
+aVand it would be lovely if everybody moved according to those arrows.
+p115
+aVIt would make our lives a lot easier, but it turns out movement is very messy.
+p116
+aVPeople wiggle a lot and getting these variations identified
+p117
+aVwith very high accuracy,
+p118
+aVboth in precision and recall, is tough
+p119
+aVbecause that's what it takes to get a professional coach to believe in you.
+p120
+aVAnd despite all the difficulties with the right spatiotemporal features
+p121
+aVwe have been able to do that.
+p122
+aa(lp123
+VCoaches trust our ability of our machine to identify these variations.
+p124
+aVWe're at the point where almost every single contender
+p125
+aVfor an NBA championship this year
+p126
+aVis using our software, which is built on a machine that understands
+p127
+aVthe moving dots of basketball.
+p128
+aVSo not only that, we have given advice that has changed strategies
+p129
+aVthat have helped teams win very important games,
+p130
+aVand it's very exciting because you have coaches who've been in the league
+p131
+aVfor 30 years that are willing to take advice from a machine.
+p132
+aVAnd it's very exciting, it's much more than the pick-and-roll.
+p133
+aVOur computer started out with simple things
+p134
+aVand learned more and more complex things
+p135
+aVand now it knows so many things.
+p136
+aVFrankly, I don't understand much of what it does,
+p137
+aVand while it's not that special to be smarter than me,
+p138
+aVwe were wondering, can a machine know more than a coach?
+p139
+aVCan it know more than person could know?
+p140
+aVAnd it turns out the answer is yes.
+p141
+aa(lp142
+VThe coaches want players to take good shots.
+p143
+aVSo if I'm standing near the basket
+p144
+aVand there's nobody near me, it's a good shot.
+p145
+aVIf I'm standing far away surrounded by defenders, that's generally a bad shot.
+p146
+aVBut we never knew how good "good" was, or how bad "bad" was quantitatively.
+p147
+aVUntil now.
+p148
+aa(lp149
+VSo what we can do, again, using spatiotemporal features,
+p150
+aVwe looked at every shot.
+p151
+aVWe can see: Where is the shot? What's the angle to the basket?
+p152
+aVWhere are the defenders standing? What are their distances?
+p153
+aVWhat are their angles?
+p154
+aVFor multiple defenders, we can look at how the player's moving
+p155
+aVand predict the shot type.
+p156
+aVWe can look at all their velocities and we can build a model that predicts
+p157
+aVwhat is the likelihood that this shot would go in under these circumstances?
+p158
+aVSo why is this important?
+p159
+aVWe can take something that was shooting,
+p160
+aVwhich was one thing before, and turn it into two things:
+p161
+aVthe quality of the shot and the quality of the shooter.
+p162
+aVSo here's a bubble chart, because what's TED without a bubble chart?
+p163
+aa(lp164
+V(Laughter)
+p165
+aa(lp166
+VThose are NBA players.
+p167
+aVThe size is the size of the player and the color is the position.
+p168
+aVOn the x-axis, we have the shot probability.
+p169
+aVPeople on the left take difficult shots,
+p170
+aVon the right, they take easy shots.
+p171
+aVOn the [y-axis] is their shooting ability.
+p172
+aVPeople who are good are at the top, bad at the bottom.
+p173
+aVSo for example, if there was a player
+p174
+aVwho generally made 47 percent of their shots,
+p175
+aVthat's all you knew before.
+p176
+aVBut today, I can tell you that player takes shots that an average NBA player
+p177
+aVwould make 49 percent of the time,
+p178
+aVand they are two percent worse.
+p179
+aVAnd the reason that's important is that there are lots of 47s out there.
+p180
+aVAnd so it's really important to know
+p181
+aVif the 47 that you're considering giving 100 million dollars to
+p182
+aVis a good shooter who takes bad shots
+p183
+aVor a bad shooter who takes good shots.
+p184
+aVMachine understanding doesn't just change how we look at players,
+p185
+aVit changes how we look at the game.
+p186
+aa(lp187
+VSo there was this very exciting game a couple of years ago, in the NBA finals.
+p188
+aVMiami was down by three, there was 20 seconds left.
+p189
+aVThey were about to lose the championship.
+p190
+aVA gentleman named LeBron James came up and he took a three to tie.
+p191
+aVHe missed.
+p192
+aVHis teammate Chris Bosh got a rebound,
+p193
+aVpassed it to another teammate named Ray Allen.
+p194
+aVHe sank a three. It went into overtime.
+p195
+aVThey won the game. They won the championship.
+p196
+aVIt was one of the most exciting games in basketball.
+p197
+aVAnd our ability to know the shot probability for every player
+p198
+aVat every second,
+p199
+aVand the likelihood of them getting a rebound at every second
+p200
+aVcan illuminate this moment in a way that we never could before.
+p201
+aVNow unfortunately, I can't show you that video.
+p202
+aVBut for you, we recreated that moment
+p203
+aVat our weekly basketball game about 3 weeks ago.
+p204
+aa(lp205
+V(Laughter)
+p206
+aa(lp207
+VAnd we recreated the tracking that led to the insights.
+p208
+aVSo, here is us. This is Chinatown in Los Angeles,
+p209
+aVa park we play at every week,
+p210
+aVand that's us recreating the Ray Allen moment
+p211
+aVand all the tracking that's associated with it.
+p212
+aVSo, here's the shot.
+p213
+aVI'm going to show you that moment
+p214
+aVand all the insights of that moment.
+p215
+aVThe only difference is, instead of the professional players, it's us,
+p216
+aVand instead of a professional announcer, it's me.
+p217
+aVSo, bear with me.
+p218
+aa(lp219
+VMiami.
+p220
+aVDown three.
+p221
+aVTwenty seconds left.
+p222
+aVJeff brings up the ball.
+p223
+aVJosh catches, puts up a three!
+p224
+aa(lp225
+V[Calculating shot probability]
+p226
+aa(lp227
+V[Shot quality]
+p228
+aa(lp229
+V[Rebound probability]
+p230
+aa(lp231
+VWon't go!
+p232
+aa(lp233
+V[Rebound probability]
+p234
+aa(lp235
+VRebound, Noel.
+p236
+aVBack to Daria.
+p237
+aa(lp238
+V[Shot quality]
+p239
+aa(lp240
+VHer three-pointer \u2014 bang!
+p241
+aVTie game with five seconds left.
+p242
+aVThe crowd goes wild.
+p243
+aa(lp244
+V(Laughter)
+p245
+aa(lp246
+VThat's roughly how it happened.
+p247
+aa(lp248
+V(Applause)
+p249
+aa(lp250
+VRoughly.
+p251
+aa(lp252
+V(Applause)
+p253
+aVThat moment had about a nine percent chance of happening in the NBA
+p254
+aVand we know that and a great many other things.
+p255
+aVI'm not going to tell you how many times it took us to make that happen.
+p256
+aa(lp257
+V(Laughter)
+p258
+aa(lp259
+VOkay, I will! It was four.
+p260
+aa(lp261
+V(Laughter)
+p262
+aa(lp263
+VWay to go, Daria.
+p264
+aa(lp265
+VBut the important thing about that video
+p266
+aVand the insights we have for every second of every NBA game \u2014 it's not that.
+p267
+aVIt's the fact you don't have to be a professional team to track movement.
+p268
+aVYou do not have to be a professional player to get insights about movement.
+p269
+aa(lp270
+VIn fact, it doesn't even have to be about sports because we're moving everywhere.
+p271
+aVWe're moving in our homes,
+p272
+aVin our offices,
+p273
+aVas we shop and we travel
+p274
+aVthroughout our cities
+p275
+aVand around our world.
+p276
+aVWhat will we know? What will we learn?
+p277
+aVPerhaps, instead of identifying pick-and-rolls,
+p278
+aVa machine can identify the moment and let me know
+p279
+aVwhen my daughter takes her first steps.
+p280
+aVWhich could literally be happening any second now.
+p281
+aa(lp282
+VPerhaps we can learn to better use our buildings, better plan our cities.
+p283
+aVI believe that with the development of the science of moving dots,
+p284
+aVwe will move better, we will move smarter, we will move forward.
+p285
+aa(lp286
+VThank you very much.
+p287
+aa(lp288
+V(Applause)
+p289
+aasS'transcript_micsec'
+p290
+(lp291
+I11000
+aI47000
+aI72000
+aI104000
+aI141000
+aI170000
+aI172000
+aI214000
+aI263000
+aI294000
+aI344000
+aI399000
+aI416000
+aI455000
+aI457000
+aI511000
+aI558000
+aI560000
+aI592000
+aI603000
+aI606000
+aI608000
+aI611000
+aI612000
+aI614000
+aI617000
+aI621000
+aI627000
+aI629000
+aI630000
+aI631000
+aI633000
+aI646000
+aI648000
+aI650000
+aI651000
+aI652000
+aI669000
+aI707000
+aI719000
+aI720000
+asS'talk_meta'
+p292
+(dp293
+S'ratings'
+p294
+(dp295
+S'ingenious'
+p296
+I82
+sS'funny'
+p297
+I44
+sS'inspiring'
+p298
+I59
+sS'ok'
+p299
+I81
+sS'fascinating'
+p300
+I253
+sS'total_count'
+p301
+I922
+sS'persuasive'
+p302
+I25
+sS'longwinded'
+p303
+I9
+sS'unconvincing'
+p304
+I22
+sS'informative'
+p305
+I256
+sS'beautiful'
+p306
+I20
+sS'jaw-dropping'
+p307
+I36
+sS'obnoxious'
+p308
+I3
+sS'courageous'
+p309
+I7
+sS'confusing'
+p310
+I25
+ssS'author'
+p311
+VRajiv_Maheswaran;
+p312
+sS'url'
+p313
+S'https://www.ted.com/talks/rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves'
+p314
+sS'vidlen'
+p315
+I728
+sS'totalviews'
+p316
+I1915863
+sS'title'
+p317
+VThe math behind basketball's wildest moves
+p318
+sS'downloadlink'
+p319
+Vhttps://download.ted.com/talks/RajivMaheswaran_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p320
+sS'datepublished'
+p321
+cdatetime
+datetime
+p322
+(S'\x07\xdf\x07\x06\x0b\x10\x0b\x00\x00\x00'
+tRp323
+sS'datefilmed'
+p324
+g322
+(S'\x07\xdf\x07\x06\x0b\x10\x0b\x00\x00\x00'
+tRp325
+sS'alldata_JSON'
+p326
+S'{"viewed_count": 1915863, "speakers": [{"description": "Researcher", "firstname": "Rajiv", "title": "", "lastname": "Maheswaran", "middleinitial": "", "whylisten": "<p>Sports fans can get obsessed with stats about player performance and game-day physics. But basketball, a fluid and fast-moving game, has been tough to understand through numbers. Rajiv Maheswaran is working to change that, by offering pro basketball teams insight into game data to make better decisions. Maheswaran is the CEO and co-founder of Second Spectrum, a startup transforming sports through technology. He is also a Research Assistant Professor at the University of Southern California&#39;s Computer Science Department and a Project Leader at the Information Sciences Institute at the USC Viterbi School of Engineering, where he co-directs the Computational Behavior Group. </p><p>His research spans various aspects of multi-agent systems and distributed artificial intelligence using decision-theoretic and game-theoretic frameworks and solutions. His current interests focus on data analytics, visualization and real-time interaction to understand behavior in spatiotemporal domains. Like, say, the spatiotemporal domain around a basketball hoop. </p>", "slug": "rajiv_maheswaran", "whotheyare": "Using advanced data analysis tools, Rajiv Maheswaran and Second Spectrum help make basketball teams smarter.", "whatotherssay": "", "id": 2455, "photo_url": "https://pe.tedcdn.com/images/ted/1beb67431f8969ef4bbde820d528f6f2b9dbe4e5_254x191.jpg"}], "current_talk": 2294, "description": "Basketball is a fast-moving game of improvisation, contact and, ahem, spatio-temporal pattern recognition. Rajiv Maheswaran and his colleagues are analyzing the movements behind the key plays of the game, to help coaches and players combine intuition with new data. Bonus: What they\'re learning could help us understand how humans move everywhere.", "language": "en", "url": "https://www.ted.com/talks/rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87171635}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16900391}, "podcast-high": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87170834}, "180k": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16661016}, "64k": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6045704}, "1500k": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 134986491}, "450k": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41514183}, "podcast-regular": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41629193}, "950k": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87178748}, "audio-podcast": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7615788}, "podcast-light": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6179222}, "320k": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29465520}, "600k": {"uri": "https://download.ted.com/talks/RajivMaheswaran_2015-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55585961}}}, "comments": {"count": 42, "id": 26914, "talk_id": 2294}, "slug": "rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves", "threadId": 26914, "talks": [{"event": "TED2015", "player_talks": [{"event": "TED2015", "slug": "rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves", "filmed": 1426550400, "targeting": {"event": "TED2015", "tag": "math,sports,technology,visualizations", "id": 2294, "talk": "rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "The math behind basketball\'s wildest moves", "postAdDuration": "0.83", "published": 1436195771, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8c6cef77bf64df600aaac31793780058965ad47a_2880x1620.jpg?quality=89&w=600", "name": "Rajiv Maheswaran: The math behind basketball\'s wildest moves", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["math", "sports", "technology", "visualizations"], "speaker": "Rajiv Maheswaran", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 728, "id": 2294, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RajivMaheswaran_2015-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2015", "tag": "math,sports,technology,visualizations", "id": 2294, "talk": "rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2294.json", "stream": "https://hls.ted.com/talks/2294.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2015%26id%3D2294%26tag%3Dmath%2Csports%2Ctechnology%2Cvisualizations%26talk%3Drajiv_maheswaran_the_math_behind_basketball_s_wildest_moves%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8c6cef77bf64df600aaac31793780058965ad47a_2880x1620.jpg?q=50&w=15", "duration": 728, "id": 2294, "ratings": [{"count": 253, "id": 22, "name": "Fascinating"}, {"count": 36, "id": 23, "name": "Jaw-dropping"}, {"count": 256, "id": 8, "name": "Informative"}, {"count": 82, "id": 9, "name": "Ingenious"}, {"count": 25, "id": 2, "name": "Confusing"}, {"count": 44, "id": 7, "name": "Funny"}, {"count": 59, "id": 10, "name": "Inspiring"}, {"count": 20, "id": 1, "name": "Beautiful"}, {"count": 7, "id": 3, "name": "Courageous"}, {"count": 22, "id": 21, "name": "Unconvincing"}, {"count": 81, "id": 25, "name": "OK"}, {"count": 9, "id": 11, "name": "Longwinded"}, {"count": 25, "id": 24, "name": "Persuasive"}, {"count": 3, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Researcher", "firstname": "Rajiv", "title": "", "lastname": "Maheswaran", "middleinitial": "", "whylisten": "<p>Sports fans can get obsessed with stats about player performance and game-day physics. But basketball, a fluid and fast-moving game, has been tough to understand through numbers. Rajiv Maheswaran is working to change that, by offering pro basketball teams insight into game data to make better decisions. Maheswaran is the CEO and co-founder of Second Spectrum, a startup transforming sports through technology. He is also a Research Assistant Professor at the University of Southern California&#39;s Computer Science Department and a Project Leader at the Information Sciences Institute at the USC Viterbi School of Engineering, where he co-directs the Computational Behavior Group. </p><p>His research spans various aspects of multi-agent systems and distributed artificial intelligence using decision-theoretic and game-theoretic frameworks and solutions. His current interests focus on data analytics, visualization and real-time interaction to understand behavior in spatiotemporal domains. Like, say, the spatiotemporal domain around a basketball hoop. </p>", "slug": "rajiv_maheswaran", "whotheyare": "Using advanced data analysis tools, Rajiv Maheswaran and Second Spectrum help make basketball teams smarter.", "whatotherssay": "", "id": 2455, "photo_url": "https://pe.tedcdn.com/images/ted/1beb67431f8969ef4bbde820d528f6f2b9dbe4e5_254x191.jpg"}], "title": "The math behind basketball\'s wildest moves", "take_action": [], "comments": 26914, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/8c6cef77bf64df600aaac31793780058965ad47a_2880x1620.jpg", "description": "Basketball is a fast-moving game of improvisation, contact and, ahem, spatio-temporal pattern recognition. Rajiv Maheswaran and his colleagues are analyzing the movements behind the key plays of the game, to help coaches and players combine intuition with new data. Bonus: What they\'re learning could help us understand how humans move everywhere.", "tags": ["math", "sports", "technology", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"vi": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-vi.mp4"}, "ru": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-nl.mp4"}, "fa": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-fa.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-it.mp4"}, "hu": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-hu.mp4"}, "tr": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-pt-br.mp4"}, "uk": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-uk.mp4"}, "sr": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-sr.mp4"}, "hi": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-hi.mp4"}, "ja": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-ja.mp4"}, "es": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-es.mp4"}, "he": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RajivMaheswaran_2015-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RajivMaheswaran_2015.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RajivMaheswaran_2015-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2294, "audioDownload": "https://download.ted.com/talks/RajivMaheswaran_2015.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 3085178, "hero": "https://pe.tedcdn.com/images/ted/b6eb80461d37ced7b3e96c46e51b0d1c82e2fc8e_1600x1200.jpg", "title": "Are athletes really getting faster, better, stronger?", "id": 1986, "speaker": "David Epstein", "duration": 893, "slug": "david_epstein_are_athletes_really_getting_faster_better_stronger"}, {"viewed_count": 1199666, "hero": "https://pe.tedcdn.com/images/ted/9b43acda94d7e3743aa877ca5b492862b860fb28_1600x1200.jpg", "title": "How augmented reality will change sports ... and build empathy", "id": 2007, "speaker": "Chris Kluwe", "duration": 551, "slug": "chris_kluwe_how_augmented_reality_will_change_sports_and_build_empathy"}, {"viewed_count": 793331, "hero": "https://pe.tedcdn.com/images/ted/02f48c708b9fd49b9b05320ecfec5dd260b0c7a7_1600x1200.jpg", "title": "Better baby care -- thanks to Formula 1", "id": 1802, "speaker": "Peter van Manen", "duration": 476, "slug": "peter_van_manen_how_can_formula_1_racing_help_babies"}, {"viewed_count": 448684, "hero": "https://pe.tedcdn.com/images/ted/476210e31ef67dfa171fd8b619edb51834fe3f47_2880x1620.jpg", "title": "How Argentina\'s blind soccer team became champions", "id": 2568, "speaker": "Gonzalo Vilari\\u00f1o", "duration": 859, "slug": "gonzalo_vilarino_how_argentina_s_blind_soccer_team_became_champions"}, {"viewed_count": 4926414, "hero": "https://pe.tedcdn.com/images/ted/de520d723845a5c5448da5c1e84db8f022b70e5e_2880x1620.jpg", "title": "The difference between winning and succeeding", "id": 498, "speaker": "John Wooden", "duration": 1056, "slug": "john_wooden_on_the_difference_between_winning_and_success"}, {"viewed_count": 1133122, "hero": "https://pe.tedcdn.com/images/ted/0d28c4301c3c7ed0a3790e31231e71e1469524e6_2880x1620.jpg", "title": "Don\'t fear intelligent machines. Work with them", "id": 2787, "speaker": "Garry Kasparov", "duration": 920, "slug": "garry_kasparov_don_t_fear_intelligent_machines_work_with_them"}], "recorded_at": "2015-03-17T00:00:00.000+00:00", "slug": "rajiv_maheswaran_the_math_behind_basketball_s_wildest_moves", "speaker_name": "Rajiv Maheswaran", "viewed_count": 1915863, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Rajiv Maheswaran", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Basketball on Paper: Rules and Tools for Performance Analysis", "link_url": "http://www.amazon.com/Basketball-Paper-Rules-Performance-Analysis/dp/1574886886/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Dean Oliver\\r\\nPotomac Books, 2004", "position": null, "blurb": "A seminal work in basketball analytics"}, {"is_pdf": false, "headline": "Sports Analytics: A Guide for Coaches, Managers, and Other Decision Makers", "link_url": "http://www.amazon.com/Sports-Analytics-Coaches-Managers-Decision/dp/0231162928/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Benjamin C. Alamar\\r\\nColumbia University Press, 2013", "position": null, "blurb": "Adventures in applying analytics in the field, along with anecdotes and accounts from a leader in the field"}, {"is_pdf": false, "headline": "The Signal and the Noise: Why So Many Predictions Fail--but Some Don\'t", "link_url": "http://www.amazon.com/The-Signal-Noise-Predictions-Fail-but/dp/0143125087/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Nate Silver\\r\\nPenguin Books, 2015", "position": null, "blurb": " A praiseworthy publication on the perils and possibilities of prediction"}, {"is_pdf": false, "headline": "Foundation", "link_url": "http://www.amazon.com/Foundation-Isaac-Asimov/dp/0553382578/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Book", "note": "Isaac Asimov\\r\\nSpectra, 2008", "position": null, "blurb": "A phenomenal and prodigious series of publications on the (fictional) perils and possibilities in prediction. Also, Asimov is astounding"}], "title": "Reading list"}], "published": true, "type": "recommendation", "blurb": "Resources on the science of sports and predictions"}, "corrections": []}], "event": "TED2015", "name": "Rajiv Maheswaran: The math behind basketball\'s wildest moves"}'
+p327
+sS'keywords'
+p328
+(lp329
+Vmath
+p330
+aVsports
+p331
+aVtechnology
+p332
+aVvisualizations
+p333
+asS'datecrawled'
+p334
+g322
+(S'\x07\xe1\n\x17\x01\x01\x12\x04V\x14'
+tRp335
+sS'id'
+p336
+I2294
+ss.

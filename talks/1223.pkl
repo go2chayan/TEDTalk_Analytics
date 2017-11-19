@@ -1,0 +1,722 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VLadies and gentlemen,
+p5
+aVI present to you the human genome.
+p6
+aa(lp7
+V(Applause)
+p8
+aa(lp9
+VChromosome one \u2014 top left, bottom right \u2014 are the sex chromosomes.
+p10
+aVWomen have two copies of that big X chromosome;
+p11
+aVmen have the X and, of course, that small copy of the Y.
+p12
+aVSorry boys, but it's just a tiny little thing that makes you different.
+p13
+aVSo if you zoom in on this genome,
+p14
+aVthen what you see, of course, is this double-helix structure \u2014
+p15
+aVthe code of life spelled out with these four biochemical letters,
+p16
+aVor we call them bases: A, C, G and T.
+p17
+aVHow many are there in the human genome? Three billion.
+p18
+aVIs that a big number?
+p19
+aVWell, everybody can throw around big numbers.
+p20
+aVBut in fact, if I were to place one base
+p21
+aVon each pixel of this 1280x800-resolution screen,
+p22
+aVwe would need 3,000 screens to take a look at the genome.
+p23
+aVSo it's really quite big.
+p24
+aa(lp25
+VAnd perhaps because of its size,
+p26
+aVa group of people \u2014 all, by the way, with Y chromosomes \u2014
+p27
+aVdecided they would want to sequence it.
+p28
+aa(lp29
+V(Laughter)
+p30
+aa(lp31
+VAnd so 15 years, actually, and about four billion dollars later,
+p32
+aVthe genome was sequenced and published.
+p33
+aVIn 2003, the final version was published, and they keep working on it.
+p34
+aVThat was all done on a machine like this.
+p35
+aVIt costs about a dollar for each base \u2014 a very slow way of doing it.
+p36
+aa(lp37
+VWell, folks, I'm here to tell you
+p38
+aVthat the world has completely changed,
+p39
+aVand none of you know about it.
+p40
+aVSo now what we do is take a genome,
+p41
+aVwe make maybe 50 copies of it,
+p42
+aVwe cut all those copies up into little 50-base reads,
+p43
+aVand then we sequence them, massively parallel.
+p44
+aVThen we bring that into software and reassemble it,
+p45
+aVand tell you what the story is.
+p46
+aVSo to give you a picture of what this looks like,
+p47
+aVthe Human Genome Project: 3 gigabases, right?
+p48
+aVOne run on one of these modern machines: 200 gigabases in a week.
+p49
+aVAnd that 200 is going to change to 600 this summer,
+p50
+aVand there's no sign of this pace slowing.
+p51
+aVThe price of a base, to sequence a base,
+p52
+aVhas fallen 100 million times.
+p53
+aVThat's the equivalent of you filling up your car with gas in 1998,
+p54
+aVwaiting until 2011,
+p55
+aVand now you can drive to Jupiter and back twice.
+p56
+aa(lp57
+V(Laughter)
+p58
+aa(lp59
+VWorld population,
+p60
+aVPC placements,
+p61
+aVthe archive of all of medical literature,
+p62
+aVMoore's law,
+p63
+aVthe old way of sequencing,
+p64
+aVand here's all the new stuff.
+p65
+aVGuys, this is a long scale;
+p66
+aVyou don't typically see lines that go up like that.
+p67
+aVSo the worldwide capacity to sequence human genomes
+p68
+aVis something like 50,000 to 100,000 human genomes this year.
+p69
+aVWe know this based on the machines that are being placed.
+p70
+aVThis is expected to double, triple or maybe quadruple
+p71
+aVyear over year for the foreseeable future.
+p72
+aVIn fact, there's one lab in particular
+p73
+aVthat represents 20 percent of all that capacity:
+p74
+aVIt's called the Beijing Genomics Institute.
+p75
+aVThe Chinese are absolutely winning this race to the new Moon, by the way.
+p76
+aVWhat does this mean for medicine?
+p77
+aa(lp78
+VSo a woman, age 37,
+p79
+aVpresents with stage 2 estrogen receptor-positive breast cancer.
+p80
+aVShe is treated with surgery, chemotherapy and radiation.
+p81
+aVShe goes home.
+p82
+aVTwo years later,
+p83
+aVshe comes back with stage 3C ovarian cancer, unfortunately;
+p84
+aVtreated again with surgery and chemotherapy.
+p85
+aVShe comes back three years later at age 42
+p86
+aVwith more ovarian cancer, more chemotherapy.
+p87
+aVSix months later,
+p88
+aVshe comes back with acute myeloid leukemia.
+p89
+aVShe goes into respiratory failure and dies eight days later.
+p90
+aa(lp91
+VSo first: the way in which this woman was treated,
+p92
+aVin as little as 10 years, will look like bloodletting.
+p93
+aVAnd it's because of people like my colleague, Rick Wilson,
+p94
+aVat the Genome Institute at Washington University,
+p95
+aVwho decided to take a look at this woman postmortem.
+p96
+aVAnd he took skin cells, healthy skin
+p97
+aVand cancerous bone marrow,
+p98
+aVand sequenced the whole genomes of both of them
+p99
+aVin a couple of weeks, no big deal.
+p100
+aVThen he compared those two genomes in software,
+p101
+aVand what he found, among other things,
+p102
+aVwas a deletion \u2014 a 2,000-base deletion across three billion bases
+p103
+aVin a particular gene called TP53.
+p104
+aVIf you have this deleterious mutation in this gene,
+p105
+aVyou're 90 percent likely to get cancer in your life.
+p106
+aa(lp107
+VSo unfortunately, this doesn't help this woman,
+p108
+aVbut it does have severe \u2014 profound, if you will \u2014
+p109
+aVimplications to her family.
+p110
+aVI mean, if they have the same mutation,
+p111
+aVand they get this genetic test and they understand it,
+p112
+aVthen they can get regular screens and can catch cancer early,
+p113
+aVand potentially live a significantly longer life.
+p114
+aa(lp115
+VLet me introduce you to the Beery twins,
+p116
+aVdiagnosed with cerebral palsy at the age of two.
+p117
+aVTheir mom is a very brave woman who didn't believe it;
+p118
+aVthe symptoms weren't matching up.
+p119
+aVAnd through some heroic efforts and a lot of Internet searching,
+p120
+aVshe was able to convince the medical community
+p121
+aVthat, in fact, they had something else.
+p122
+aVThey had dopa-responsive dystonia.
+p123
+aVAnd so they were given L-Dopa,
+p124
+aVand their symptoms did improve,
+p125
+aVbut they weren't totally asymptomatic.
+p126
+aVSignificant problems remained.
+p127
+aa(lp128
+VTurns out the gentleman in this picture is a guy named Joe Beery,
+p129
+aVwho was lucky enough to be the CIO
+p130
+aVof a company called Life Technologies.
+p131
+aVThey're one of two companies
+p132
+aVthat makes these massive whole-genome sequencing tools.
+p133
+aVAnd so he got his kids sequenced.
+p134
+aVWhat they found was a series of mutations in a gene called SPR,
+p135
+aVwhich is responsible for producing serotonin, among other things.
+p136
+aVSo on top of L-Dopa, they gave these kids a serotonin precursor drug,
+p137
+aVand they're effectively normal now.
+p138
+aVGuys, this would never have happened without whole-genome sequencing.
+p139
+aVAt the time \u2014 this was a few years ago \u2014 it cost $100,000.
+p140
+aVToday it's $10,000, next year, $1,000,
+p141
+aVthe year after, $100, give or take a year.
+p142
+aVThat's how fast this is moving.
+p143
+aa(lp144
+VSo here's little Nick \u2014
+p145
+aVlikes Batman and squirt guns.
+p146
+aVAnd it turns out Nick shows up at the children's hospital
+p147
+aVwith this distended belly, like a famine victim.
+p148
+aVAnd it's not that he's not eating; it's that when he eats,
+p149
+aVhis intestine basically opens up and feces spill out into his gut.
+p150
+aVSo a hundred surgeries later,
+p151
+aVhe looks at his mom and says, "Mom, please pray for me.
+p152
+aVI'm in so much pain."
+p153
+aVHis pediatrician happens to have a background in clinical genetics
+p154
+aVand he has no idea what's going on,
+p155
+aVbut he says, "Let's get this kid's genome sequenced."
+p156
+aVAnd what they find is a single-point mutation
+p157
+aVin a gene responsible for controlling programmed cell death.
+p158
+aVSo the theory is that he's having some immunological reaction
+p159
+aVto what's going on \u2014 to the food, essentially.
+p160
+aVAnd that's a natural reaction, which causes some programmed cell death,
+p161
+aVbut the gene that regulates that down is broken.
+p162
+aVAnd so this informs, among other things, of course,
+p163
+aVa treatment for bone marrow transplant, which he undertakes.
+p164
+aVAnd after nine months of grueling recovery,
+p165
+aVhe's now eating steak with A1 sauce.
+p166
+aa(lp167
+V(Laughter)
+p168
+aa(lp169
+VThe prospect of using the genome as a universal diagnostic
+p170
+aVis upon us today.
+p171
+aVToday. It's here.
+p172
+aVAnd what it means for all of us
+p173
+aVis that everybody in this room could live an extra 5, 10, 20 years,
+p174
+aVjust because of this one thing.
+p175
+aVWhich is a fantastic story,
+p176
+aVunless you think about humanity's footprint on the planet,
+p177
+aVand our ability to keep up food production.
+p178
+aVSo it turns out
+p179
+aVthat the very same technology is also being used to grow new lines
+p180
+aVof corn, wheat, soybean and other crops
+p181
+aVthat are highly tolerant of drought, of flood,
+p182
+aVof pests and pesticides.
+p183
+aVNow, look \u2014
+p184
+aVas long as we continue to increase the population,
+p185
+aVwe'll have to continue to grow and eat genetically modified foods.
+p186
+aVAnd that's the only position I'll take today.
+p187
+aVUnless there's anybody in the audience
+p188
+aVwho'd like to volunteer to stop eating?
+p189
+aVNone, not one.
+p190
+aa(lp191
+VThis is a typewriter,
+p192
+aVa staple of every desktop for decades.
+p193
+aVAnd, in fact, the typewriter was essentially deleted by this thing.
+p194
+aVAnd then more general versions of word processors came about.
+p195
+aVBut ultimately, it was a disruption on top of a disruption.
+p196
+aVIt was Bob Metcalfe inventing the Ethernet,
+p197
+aVand the connection of all these computers
+p198
+aVthat fundamentally changed everything.
+p199
+aVSuddenly we had Netscape, we had Yahoo.
+p200
+aVAnd we had, indeed, the entire dot-com bubble.
+p201
+aa(lp202
+V(Laughter)
+p203
+aa(lp204
+VNot to worry though,
+p205
+aVthat was quickly rescued by the iPod, Facebook
+p206
+aVand, indeed, Angry Birds.
+p207
+aa(lp208
+V(Laughter)
+p209
+aa(lp210
+VLook, this is where we are today.
+p211
+aVThis is the genomic revolution today. This is where we are.
+p212
+aVWhat I'd like you to consider is:
+p213
+aVWhat does it mean
+p214
+aVwhen these dots don't represent the individual bases of your genome,
+p215
+aVbut they connect to genomes all across the planet?
+p216
+aVI just recently had to buy life insurance, and I was required to answer:
+p217
+aVA. I have never had a genetic test;
+p218
+aVB. I've had one, here you go;
+p219
+aVor C. I've had one and I'm not telling.
+p220
+aVThankfully, I was able to answer A,
+p221
+aVand I say that honestly, in case my life insurance agent is listening.
+p222
+aVBut what would have happened if I had said C?
+p223
+aa(lp224
+VConsumer applications for genomics will flourish.
+p225
+aVDo you want to see if you're genetically compatible
+p226
+aVwith your girlfriend?
+p227
+aVDNA sequencing on your iPhone? There's an app for that.
+p228
+aa(lp229
+V(Laughter)
+p230
+aa(lp231
+VPersonalized genomic massage, anyone?
+p232
+aVThere's already a lab today that tests for allele 334 of the AVPR1 gene,
+p233
+aVthe so-called cheating gene.
+p234
+aa(lp235
+V(Laughter)
+p236
+aa(lp237
+VSo anybody who's here today with your significant other,
+p238
+aVjust turn over to them, swab their mouth, send it to the lab
+p239
+aVand you'll know for sure.
+p240
+aa(lp241
+V(Laughter)
+p242
+aa(lp243
+VDo you really want to elect a president
+p244
+aVwhose genome suggests cardiomyopathy?
+p245
+aVThink of it \u2014 it's 2016,
+p246
+aVand the leading candidate releases
+p247
+aVnot only her four years of back-tax returns,
+p248
+aVbut also her personal genome.
+p249
+aVAnd it looks really good.
+p250
+aVThen she challenges all her competitors to do the same.
+p251
+aVDo you think that's not going to happen?
+p252
+aVDo you think it would have helped John McCain?
+p253
+aa(lp254
+V(Laughter)
+p255
+aa(lp256
+VHow many people in the audience have the last name Resnick, like me?
+p257
+aVRaise your hand.
+p258
+aVAnybody? Nobody.
+p259
+aVTypically, there's one or two.
+p260
+aVSo my father's father was one of 10 Resnick brothers.
+p261
+aVThey all hated each other, and all moved to different parts of the planet.
+p262
+aVSo it's likely I'm related to every Resnick that I ever meet,
+p263
+aVbut I don't know.
+p264
+aVSo imagine if my genome were De-identified, sitting in software,
+p265
+aVAnd a third cousin's genome was also sitting there,
+p266
+aVand there was software that could compare the two
+p267
+aVand make these associations.
+p268
+aVNot hard to imagine. My company has software that does this right now.
+p269
+aVImagine one more thing,
+p270
+aVthat that software is able to ask both parties for mutual consent:
+p271
+aV"Would you be willing to meet your third cousin?"
+p272
+aVAnd if we both say yes \u2014 voilà!
+p273
+aVWelcome to Chromosomally LinkedIn.
+p274
+aa(lp275
+V(Laughter)
+p276
+aa(lp277
+VNow this is probably a good thing, right?
+p278
+aVBigger clan gatherings and so on.
+p279
+aVBut maybe it's a bad thing as well.
+p280
+aVHow many fathers in the room? Raise your hands.
+p281
+aVOK, so experts think that one to three percent of you
+p282
+aVare not actually the father of your child.
+p283
+aa(lp284
+V(Laughter)
+p285
+aa(lp286
+VLook \u2014
+p287
+aa(lp288
+V(Laughter)
+p289
+aa(lp290
+VThese genomes, these 23 chromosomes,
+p291
+aVthey don't in any way represent the quality of our relationships
+p292
+aVor the nature of our society \u2014 at least not yet.
+p293
+aVAnd like any new technology,
+p294
+aVit's really in humanity's hands
+p295
+aVto wield it for the betterment of mankind
+p296
+aVor not.
+p297
+aVAnd so I urge you all to wake up and to tune in
+p298
+aVand to influence the genomic revolution that's happening all around you.
+p299
+aa(lp300
+VThank you.
+p301
+aa(lp302
+V(Applause)
+p303
+aasS'transcript_micsec'
+p304
+(lp305
+I12000
+aI15000
+aI19000
+aI61000
+aI68000
+aI70000
+aI84000
+aI132000
+aI137000
+aI182000
+aI213000
+aI252000
+aI269000
+aI295000
+aI333000
+aI389000
+aI390000
+aI440000
+aI467000
+aI470000
+aI476000
+aI478000
+aI510000
+aI519000
+aI521000
+aI530000
+aI532000
+aI539000
+aI540000
+aI560000
+aI562000
+aI603000
+aI607000
+aI620000
+aI622000
+aI623000
+aI628000
+aI649000
+aI650000
+asS'talk_meta'
+p306
+(dp307
+S'ratings'
+p308
+(dp309
+S'beautiful'
+p310
+I25
+sS'funny'
+p311
+I105
+sS'inspiring'
+p312
+I120
+sS'ok'
+p313
+I25
+sS'fascinating'
+p314
+I384
+sS'total_count'
+p315
+I1520
+sS'persuasive'
+p316
+I143
+sS'longwinded'
+p317
+I6
+sS'informative'
+p318
+I370
+sS'jaw-dropping'
+p319
+I199
+sS'ingenious'
+p320
+I68
+sS'obnoxious'
+p321
+I16
+sS'confusing'
+p322
+I16
+sS'courageous'
+p323
+I17
+sS'unconvincing'
+p324
+I26
+ssS'author'
+p325
+VRichard_Resnick;
+p326
+sS'url'
+p327
+S'https://www.ted.com/talks/richard_resnick_welcome_to_the_genomic_revolution'
+p328
+sS'vidlen'
+p329
+I662
+sS'totalviews'
+p330
+I855528
+sS'title'
+p331
+VWelcome to the genomic revolution
+p332
+sS'downloadlink'
+p333
+Vhttps://download.ted.com/talks/RichardResnick_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p334
+sS'datepublished'
+p335
+cdatetime
+datetime
+p336
+(S'\x07\xdb\t\x0f\x0b \x07\x00\x00\x00'
+tRp337
+sS'datefilmed'
+p338
+g336
+(S'\x07\xdb\t\x0f\x0b \x07\x00\x00\x00'
+tRp339
+sS'alldata_JSON'
+p340
+S'{"viewed_count": 855528, "speakers": [{"description": "Entrepreneur", "firstname": "Richard", "title": "", "lastname": "Resnick", "middleinitial": "", "whylisten": "<p>Richard Resnick is CEO of <a href=\\"http://www.genomequest.com/company/about/\\" target=\\"_blank\\">GenomeQuest</a> , a company that builds software to support genomic medicine -- research and individualized treatments that take advantage of cheap and accessible genome processing. He was previously CEO of Mosaic Bioinformatics; before becoming a bio-entrepreneur, he was a member of the <a href=\\"http://mitworld.mit.edu/video/25\\" target=\\"_blank\\">Human Genome Project</a>  under <a href=\\"http://www.wi.mit.edu/research/faculty/lander.html\\" target=\\"_blank\\">Eric Lander</a>  at MIT. </p>", "slug": "richard_resnick", "whotheyare": "Richard Resnick is on the front lines of the business of genomes, as CEO of GenomeQuest, a maker of genomic software.", "whatotherssay": "", "id": 1085, "photo_url": "https://pe.tedcdn.com/images/ted/cff2143ef1ebaf1fd6c86fb5106c96d59f0651f1_254x191.jpg"}], "current_talk": 1223, "description": "Cheap and fast genome sequencing is about to turn health care (and insurance, and politics) upside down. Richard Resnick shows how, in this accessible talk.", "language": "en", "url": "https://www.ted.com/talks/richard_resnick_welcome_to_the_genomic_revolution", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 77136903}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15209810}, "podcast-high": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 77165749}, "180k": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15083546}, "64k": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5443223}, "1500k": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120724159}, "450k": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37422426}, "podcast-regular": {"uri": "https://download.ted.com/talks/RichardResnick_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37697036}, "950k": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 76912475}, "audio-podcast": {"uri": "https://download.ted.com/talks/RichardResnick_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6880550}, "podcast-light": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5543051}, "320k": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26679260}, "600k": {"uri": "https://download.ted.com/talks/RichardResnick_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49768943}}}, "comments": {"count": 148, "id": 6867, "talk_id": 1223}, "slug": "richard_resnick_welcome_to_the_genomic_revolution", "threadId": 6867, "talks": [{"event": "TEDxBoston 2011", "player_talks": [{"event": "TEDxBoston 2011", "slug": "richard_resnick_welcome_to_the_genomic_revolution", "filmed": 1309910400, "targeting": {"event": "TEDxBoston 2011", "tag": "Bioethics,DNA,TEDx,biotech,health care,science,technology", "id": 1223, "talk": "richard_resnick_welcome_to_the_genomic_revolution", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Welcome to the genomic revolution", "postAdDuration": "0.83", "published": 1316100727, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cbcf9538be89e4b96060298f17c81ad48d1e9b3c_800x600.jpg?quality=89&w=600", "name": "Richard Resnick: Welcome to the genomic revolution", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Bioethics", "DNA", "TEDx", "biotech", "health care", "science", "technology"], "speaker": "Richard Resnick", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 662, "id": 1223, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RichardResnick_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxBoston 2011", "tag": "Bioethics,DNA,TEDx,biotech,health care,science,technology", "id": 1223, "talk": "richard_resnick_welcome_to_the_genomic_revolution", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1223.json", "stream": "https://hls.ted.com/talks/1223.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxBoston%2B2011%26id%3D1223%26tag%3DBioethics%2CDNA%2CTEDx%2Cbiotech%2Chealth%2Bcare%2Cscience%2Ctechnology%26talk%3Drichard_resnick_welcome_to_the_genomic_revolution%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/richard_resnick_welcome_to_the_genomic_revolution"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/cbcf9538be89e4b96060298f17c81ad48d1e9b3c_800x600.jpg?q=50&w=15", "duration": 662, "id": 1223, "ratings": [{"count": 25, "id": 1, "name": "Beautiful"}, {"count": 199, "id": 23, "name": "Jaw-dropping"}, {"count": 17, "id": 3, "name": "Courageous"}, {"count": 384, "id": 22, "name": "Fascinating"}, {"count": 105, "id": 7, "name": "Funny"}, {"count": 370, "id": 8, "name": "Informative"}, {"count": 143, "id": 24, "name": "Persuasive"}, {"count": 120, "id": 10, "name": "Inspiring"}, {"count": 26, "id": 21, "name": "Unconvincing"}, {"count": 25, "id": 25, "name": "OK"}, {"count": 68, "id": 9, "name": "Ingenious"}, {"count": 16, "id": 26, "name": "Obnoxious"}, {"count": 16, "id": 2, "name": "Confusing"}, {"count": 6, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Entrepreneur", "firstname": "Richard", "title": "", "lastname": "Resnick", "middleinitial": "", "whylisten": "<p>Richard Resnick is CEO of <a href=\\"http://www.genomequest.com/company/about/\\" target=\\"_blank\\">GenomeQuest</a> , a company that builds software to support genomic medicine -- research and individualized treatments that take advantage of cheap and accessible genome processing. He was previously CEO of Mosaic Bioinformatics; before becoming a bio-entrepreneur, he was a member of the <a href=\\"http://mitworld.mit.edu/video/25\\" target=\\"_blank\\">Human Genome Project</a>  under <a href=\\"http://www.wi.mit.edu/research/faculty/lander.html\\" target=\\"_blank\\">Eric Lander</a>  at MIT. </p>", "slug": "richard_resnick", "whotheyare": "Richard Resnick is on the front lines of the business of genomes, as CEO of GenomeQuest, a maker of genomic software.", "whatotherssay": "", "id": 1085, "photo_url": "https://pe.tedcdn.com/images/ted/cff2143ef1ebaf1fd6c86fb5106c96d59f0651f1_254x191.jpg"}], "title": "Welcome to the genomic revolution", "take_action": null, "comments": 6867, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/cbcf9538be89e4b96060298f17c81ad48d1e9b3c_800x600.jpg", "description": "Cheap and fast genome sequencing is about to turn health care (and insurance, and politics) upside down. Richard Resnick shows how, in this accessible talk.", "tags": ["Bioethics", "DNA", "TEDx", "biotech", "health care", "science", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "eu", "endonym": "Euskara", "isRtl": false, "ianaCode": "eu", "languageName": "Basque"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "ca", "endonym": "Catal\\u00e0", "isRtl": false, "ianaCode": "ca", "languageName": "Catalan"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-vi.mp4"}, "ca": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-ca.mp4", "name": "Catalan", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-ca.mp4"}, "it": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-it.mp4"}, "cs": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-cs.mp4"}, "ar": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-pt-br.mp4"}, "eu": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-eu.mp4", "name": "Basque", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-eu.mp4"}, "id": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-sv.mp4"}, "sk": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RichardResnick_2011X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RichardResnick_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RichardResnick_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RichardResnick_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1223, "audioDownload": "https://download.ted.com/talks/RichardResnick_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1532270, "hero": "https://pe.tedcdn.com/images/ted/c77755451ad53291f2891f27dcfde0456292b010_2880x1620.jpg", "title": "How we discovered DNA", "id": 35, "speaker": "James Watson", "duration": 1211, "slug": "james_watson_on_how_he_discovered_dna"}, {"viewed_count": 1305539, "hero": "https://pe.tedcdn.com/images/ted/41ac82f3910374b1dee363913218e5f632a22630_2880x1620.jpg", "title": "Soon we\'ll cure diseases with a cell, not a pill", "id": 2343, "speaker": "Siddhartha Mukherjee", "duration": 1055, "slug": "siddhartha_mukherjee_soon_we_ll_cure_diseases_with_a_cell_not_a_pill"}, {"viewed_count": 1439723, "hero": "https://pe.tedcdn.com/images/ted/bd6a41c08b773bcca10fe0b1a78176457dd10081_2880x1620.jpg", "title": "The potential of regenerative medicine", "id": 142, "speaker": "Alan Russell", "duration": 1165, "slug": "alan_russell_on_regenerating_our_bodies"}, {"viewed_count": 391134, "hero": "https://pe.tedcdn.com/images/ted/66737_800x600.jpg", "title": "Genomics 101", "id": 437, "speaker": "Barry Schuler", "duration": 1286, "slug": "barry_schuler_genomics_101"}, {"viewed_count": 817075, "hero": "https://pe.tedcdn.com/images/ted/74fdf778bbb30ec81d72a546715fd5477575b7cb_2880x1620.jpg", "title": "Why genetic research must be more diverse", "id": 2528, "speaker": "Keolu Fox", "duration": 408, "slug": "keolu_fox_why_genetic_research_must_be_more_diverse"}, {"viewed_count": 562263, "hero": "https://pe.tedcdn.com/images/ted/b1dc8f513ec37e1f531213b65257804816111ac0_1600x1200.jpg", "title": "Sampling the ocean\'s DNA", "id": 6, "speaker": "Craig Venter", "duration": 1011, "slug": "craig_venter_on_dna_and_the_sea"}], "recorded_at": "2011-07-06T00:00:00.000+00:00", "slug": "richard_resnick_welcome_to_the_genomic_revolution", "speaker_name": "Richard Resnick", "viewed_count": 855528, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxBoston 2011, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxBoston 2011", "name": "Richard Resnick: Welcome to the genomic revolution"}'
+p341
+sS'keywords'
+p342
+(lp343
+VBioethics
+p344
+aVDNA
+p345
+aVTEDx
+p346
+aVbiotech
+p347
+aVhealth care
+p348
+aVscience
+p349
+aVtechnology
+p350
+asS'datecrawled'
+p351
+g336
+(S'\x07\xe1\n\x17\x01\x07)\x0b\xcb\xc2'
+tRp352
+sS'id'
+p353
+I1223
+ss.

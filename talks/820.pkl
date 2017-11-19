@@ -1,0 +1,958 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo the first robot to talk about is called STriDER.
+p5
+aVIt stands for Self-excited Tripedal Dynamic Experimental Robot.
+p6
+aVIt's a robot that has three legs, which is inspired by nature.
+p7
+aVBut have you seen anything in nature, an animal that has three legs?
+p8
+aVProbably not. So why do I call this a biologically inspired robot?
+p9
+aVHow would it work?
+p10
+aVBut before that, let's look at pop culture.
+p11
+aVSo, you know H.G. Wells's "War of the Worlds," novel and movie.
+p12
+aVAnd what you see over here is a very popular video game,
+p13
+aVand in this fiction, they describe these alien creatures and robots
+p14
+aVthat have three legs that terrorize Earth.
+p15
+aVBut my robot, STriDER, does not move like this.
+p16
+aa(lp17
+VThis is an actual dynamic simulation animation.
+p18
+aVI'm going to show you how the robot works.
+p19
+aVIt flips its body 180 degrees
+p20
+aVand it swings its leg between the two legs
+p21
+aVand catches the fall.
+p22
+aVSo that's how it walks.
+p23
+aVBut when you look at us human beings, bipedal walking,
+p24
+aVwhat you're doing is,
+p25
+aVyou're not really using muscle to lift your leg and walk like a robot.
+p26
+aVWhat you're doing is, you swing your leg and catch the fall,
+p27
+aVstand up again, swing your leg and catch the fall.
+p28
+aVYou're using your built-in dynamics, the physics of your body,
+p29
+aVjust like a pendulum.
+p30
+aVWe call that the concept of passive dynamic locomotion.
+p31
+aVWhat you're doing is, when you stand up,
+p32
+aVpotential energy to kinetic energy,
+p33
+aVpotential energy to kinetic energy.
+p34
+aVIt's a constantly falling process.
+p35
+aVSo even though there is nothing in nature that looks like this,
+p36
+aVreally, we're inspired by biology and applying the principles of walking
+p37
+aVto this robot.
+p38
+aVThus, it's a biologically inspired robot.
+p39
+aa(lp40
+VWhat you see here, this is what we want to do next.
+p41
+aVWe want to fold up the legs and shoot it up for long-range motion.
+p42
+aVAnd it deploys legs \u2014 it looks almost like "Star Wars" \u2014
+p43
+aVso when it lands, it absorbs the shock and starts walking.
+p44
+aVWhat you see over here, this yellow thing, this is not a death ray.
+p45
+aa(lp46
+V(Laughter)
+p47
+aa(lp48
+VThis is just to show you
+p49
+aVthat if you have cameras or different types of sensors,
+p50
+aVbecause it's 1.8 meters tall,
+p51
+aVyou can see over obstacles like bushes and those kinds of things.
+p52
+aa(lp53
+VSo we have two prototypes.
+p54
+aVThe first version, in the back, that's STriDER I.
+p55
+aVThe one in front, the smaller, is STriDER II.
+p56
+aVThe problem we had with STriDER I is, it was just too heavy in the body.
+p57
+aVWe had so many motors aligning the joints
+p58
+aVand those kinds of things.
+p59
+aVSo we decided to synthesize a mechanical mechanism
+p60
+aVso we could get rid of all the motors, and with a single motor,
+p61
+aVwe can coordinate all the motions.
+p62
+aVIt's a mechanical solution to a problem, instead of using mechatronics.
+p63
+aVSo with this, now the top body is lighted up; it's walking in our lab.
+p64
+aVThis was the very first successful step.
+p65
+aVIt's still not perfected, its coffee falls down,
+p66
+aVso we still have a lot of work to do.
+p67
+aa(lp68
+VThe second robot I want to talk about is called IMPASS.
+p69
+aVIt stands for Intelligent Mobility Platform with Actuated Spoke System.
+p70
+aVIt's a wheel-leg hybrid robot.
+p71
+aVSo think of a rimless wheel or a spoke wheel,
+p72
+aVbut the spokes individually move in and out of the hub;
+p73
+aVso, it's a wheel-leg hybrid.
+p74
+aVWe're literally reinventing the wheel here.
+p75
+aVLet me demonstrate how it works.
+p76
+aVSo in this video we're using an approach called the reactive approach.
+p77
+aVJust simply using the tactile sensors on the feet,
+p78
+aVit's trying to walk over a changing terrain,
+p79
+aVa soft terrain where it pushes down and changes.
+p80
+aVAnd just by the tactile information,
+p81
+aVit successfully crosses over these types of terrains.
+p82
+aa(lp83
+VBut, when it encounters a very extreme terrain \u2014
+p84
+aVin this case, this obstacle is more than three times the height
+p85
+aVof the robot \u2014
+p86
+aVthen it switches to a deliberate mode,
+p87
+aVwhere it uses a laser range finder and camera systems
+p88
+aVto identify the obstacle and the size.
+p89
+aVAnd it carefully plans the motion of the spokes
+p90
+aVand coordinates it so it can show this very impressive mobility.
+p91
+aVYou probably haven't seen anything like this out there.
+p92
+aVThis is a very high-mobility robot that we developed called IMPASS.
+p93
+aVAh, isn't that cool?
+p94
+aa(lp95
+VWhen you drive your car,
+p96
+aVwhen you steer your car, you use a method called Ackermann steering.
+p97
+aVThe front wheels rotate like this.
+p98
+aVFor most small-wheeled robots,
+p99
+aVthey use a method called differential steering
+p100
+aVwhere the left and right wheel turn the opposite direction.
+p101
+aVFor IMPASS, we can do many, many different types of motion.
+p102
+aVFor example, in this case,
+p103
+aVeven though the left and right wheels are connected
+p104
+aVwith a single axle rotating at the same angle of velocity,
+p105
+aVwe simply change the length of the spoke, it affects the diameter,
+p106
+aVthen can turn to the left and to the right.
+p107
+aVThese are just some examples of the neat things we can do with IMPASS.
+p108
+aa(lp109
+VThis robot is called CLIMBeR:
+p110
+aVCable-suspended Limbed Intelligent Matching Behavior Robot.
+p111
+aVI've been talking to a lot of NASA JPL scientists \u2014
+p112
+aVat JPL, they are famous for the Mars rovers \u2014
+p113
+aVand the scientists, geologists always tell me
+p114
+aVthat the real interesting science, the science-rich sites,
+p115
+aVare always at the cliffs.
+p116
+aVBut the current rovers cannot get there.
+p117
+aVSo, inspired by that, we wanted to build a robot
+p118
+aVthat can climb a structured cliff environment.
+p119
+aa(lp120
+VSo this is CLIMBeR.
+p121
+aVIt has three legs.
+p122
+aVIt's probably difficult to see, but it has a winch and a cable at the top.
+p123
+aVIt tries to figure out the best place to put its foot.
+p124
+aVAnd then once it figures that out,
+p125
+aVin real time, it calculates the force distribution:
+p126
+aVhow much force it needs to exert to the surface
+p127
+aVso it doesn't tip and doesn't slip.
+p128
+aVOnce it stabilizes that, it lifts a foot,
+p129
+aVand then with the winch, it can climb up these kinds of cliffs.
+p130
+aVAlso for search and rescue applications as well.
+p131
+aa(lp132
+VFive years ago, I actually worked at NASA JPL
+p133
+aVduring the summer as a faculty fellow.
+p134
+aVAnd they already had a six-legged robot called LEMUR.
+p135
+aVSo this is actually based on that.
+p136
+aVThis robot is called MARS:
+p137
+aVMulti-Appendage Robotic System.
+p138
+aVIt's a hexapod robot.
+p139
+aVWe developed our adaptive gait planner.
+p140
+aVWe actually have a very interesting payload on there.
+p141
+aVThe students like to have fun.
+p142
+aVAnd here you can see that it's walking over unstructured terrain.
+p143
+aa(lp144
+V(Motor sound)
+p145
+aa(lp146
+VIt's trying to walk on the coastal terrain, a sandy area,
+p147
+aVbut depending on the moisture content or the grain size of the sand,
+p148
+aVthe foot's soil sinkage model changes, so it tries to adapt its gait
+p149
+aVto successfully cross over these kind of things.
+p150
+aVIt also does some fun stuff.
+p151
+aVAs you can imagine, we get so many visitors visiting our lab.
+p152
+aVSo when the visitors come, MARS walks up to the computer,
+p153
+aVstarts typing, "Hello, my name is MARS.
+p154
+aVWelcome to RoMeLa,
+p155
+aVthe Robotics Mechanisms Laboratory at Virginia Tech."
+p156
+aa(lp157
+V(Laughter)
+p158
+aa(lp159
+VThis robot is an amoeba robot.
+p160
+aVNow, we don't have enough time to go into technical details,
+p161
+aVI'll just show you some of the experiments.
+p162
+aVThese are some of the early feasibility experiments.
+p163
+aVWe store potential energy to the elastic skin to make it move,
+p164
+aVor use active tension cords to make it move forward and backward.
+p165
+aVIt's called ChIMERA.
+p166
+aVWe also have been working with some scientists and engineers
+p167
+aVfrom UPenn
+p168
+aVto come up with a chemically actuated version of this amoeba robot.
+p169
+aVWe do something to something,
+p170
+aVand just like magic, it moves.
+p171
+aV"The Blob."
+p172
+aa(lp173
+VThis robot is a very recent project.
+p174
+aVIt's called RAPHaEL:
+p175
+aVRobotic Air-Powered Hand with Elastic Ligaments.
+p176
+aVThere are a lot of really neat, very good robotic hands
+p177
+aVout there on the market.
+p178
+aVThe problem is, they're just too expensive \u2014
+p179
+aVtens of thousands of dollars.
+p180
+aVSo for prosthesis applications it's probably not too practical,
+p181
+aVbecause it's not affordable.
+p182
+aVWe wanted to tackle this problem in a very different direction.
+p183
+aVInstead of using electrical motors, electromechanical actuators,
+p184
+aVwe're using compressed air.
+p185
+aVWe developed these novel actuators for the joints, so it's compliant.
+p186
+aVYou can actually change the force,
+p187
+aVsimply just changing the air pressure.
+p188
+aVAnd it can actually crush an empty soda can.
+p189
+aVIt can pick up very delicate objects like a raw egg,
+p190
+aVor in this case, a lightbulb.
+p191
+aVThe best part: it took only 200 dollars to make the first prototype.
+p192
+aa(lp193
+VThis robot is actually a family of snake robots
+p194
+aVthat we call HyDRAS,
+p195
+aVHyper Degrees-of-freedom Robotic Articulated Serpentine.
+p196
+aVThis is a robot that can climb structures.
+p197
+aVThis is a HyDRAS's arm.
+p198
+aVIt's a 12-degrees-of-freedom robotic arm.
+p199
+aVBut the cool part is the user interface.
+p200
+aVThe cable over there, that's an optical fiber.
+p201
+aVThis student, it's probably her first time using it,
+p202
+aVbut she can articulate it in many different ways.
+p203
+aVSo, for example, in Iraq, the war zone, there are roadside bombs.
+p204
+aVCurrently, you send these remotely controlled vehicles that are armed.
+p205
+aVIt takes really a lot of time and it's expensive to train the operator
+p206
+aVto operate this complex arm.
+p207
+aVIn this case, it's very intuitive;
+p208
+aVthis student, probably his first time using it,
+p209
+aVis doing very complex manipulation tasks,
+p210
+aVpicking up objects and doing manipulation, just like that.
+p211
+aVVery intuitive.
+p212
+aa(lp213
+VNow, this robot is currently our star robot.
+p214
+aVWe actually have a fan club for the robot, DARwIn:
+p215
+aVDynamic Anthropomorphic Robot with Intelligence.
+p216
+aVAs you know, we're very interested in human walking,
+p217
+aVso we decided to build a small humanoid robot.
+p218
+aVThis was in 2004; at that time,
+p219
+aVthis was something really, really revolutionary.
+p220
+aVThis was more of a feasibility study:
+p221
+aVWhat kind of motors should we use? Is it even possible?
+p222
+aVWhat kinds of controls should we do?
+p223
+aVThis does not have any sensors, so it's an open-loop control.
+p224
+aVFor those who probably know, if you don't have any sensors
+p225
+aVand there's any disturbances, you know what happens.
+p226
+aa(lp227
+V(Laughter)
+p228
+aa(lp229
+VBased on that success, the following year we did the proper mechanical design,
+p230
+aVstarting from kinematics.
+p231
+aVAnd thus, DARwIn I was born in 2005.
+p232
+aVIt stands up, it walks \u2014 very impressive.
+p233
+aVHowever, still, as you can see, it has a cord, an umbilical cord.
+p234
+aVSo we're still using an external power source
+p235
+aVand external computation.
+p236
+aa(lp237
+VSo in 2006, now it's really time to have fun.
+p238
+aVLet's give it intelligence.
+p239
+aVWe give it all the computing power it needs:
+p240
+aVa 1.5 gigahertz Pentium M chip, two FireWire cameras,
+p241
+aVrate gyros, accelerometers, four forced sensors on the foot,
+p242
+aVlithium polymer batteries \u2014
+p243
+aVand now DARwIn II is completely autonomous.
+p244
+aVIt is not remote controlled. There's no tethers.
+p245
+aVIt looks around, searches for the ball ... looks around, searches for the ball,
+p246
+aVand it tries to play a game of soccer autonomously \u2014 artificial intelligence.
+p247
+aVLet's see how it does.
+p248
+aVThis was our very first trial, and ...
+p249
+aa(lp250
+V(Video) Spectators: Goal!
+p251
+aa(lp252
+VDennis Hong: There is actually a competition called RoboCup.
+p253
+aVI don't know how many of you have heard about RoboCup.
+p254
+aVIt's an international autonomous robot soccer competition.
+p255
+aVAnd the actual goal of RoboCup is,
+p256
+aVby the year 2050,
+p257
+aVwe want to have full-size, autonomous humanoid robots
+p258
+aVplay soccer against the human World Cup champions
+p259
+aVand win.
+p260
+aa(lp261
+V(Laughter)
+p262
+aa(lp263
+VIt's a true, actual goal.
+p264
+aVIt's a very ambitious goal, but we truly believe we can do it.
+p265
+aa(lp266
+VThis is last year in China.
+p267
+aVWe were the very first team in the United States that qualified
+p268
+aVin the humanoid RoboCup competition.
+p269
+aVThis is this year in Austria.
+p270
+aVYou're going to see the action is three against three,
+p271
+aVcompletely autonomous.
+p272
+aa(lp273
+V(Video) (Crowd groans)
+p274
+aa(lp275
+VDH: There you go. Yes!
+p276
+aVThe robots track and they team-play amongst themselves.
+p277
+aVIt's very impressive.
+p278
+aVIt's really a research event,
+p279
+aVpackaged in a more exciting competition event.
+p280
+aVWhat you see here is the beautiful Louis Vuitton Cup trophy.
+p281
+aVThis is for the best humanoid.
+p282
+aVWe'd like to bring this, for the first time, to the United States next year,
+p283
+aVso wish us luck.
+p284
+aa(lp285
+V(Applause)
+p286
+aa(lp287
+VThank you.
+p288
+aa(lp289
+V(Applause)
+p290
+aa(lp291
+VDARwIn also has a lot of other talents.
+p292
+aVLast year, it actually conducted the Roanoke Symphony Orchestra
+p293
+aVfor the holiday concert.
+p294
+aVThis is the next generation robot, DARwIn IV,
+p295
+aVmuch smarter, faster, stronger.
+p296
+aVAnd it's trying to show off its ability:
+p297
+aV"I'm macho, I'm strong."
+p298
+aa(lp299
+V(Laughter)
+p300
+aa(lp301
+V"I can also do some Jackie Chan-motion, martial art movements."
+p302
+aa(lp303
+V(Laughter)
+p304
+aa(lp305
+VAnd it walks away. So this is DARwIn IV.
+p306
+aVAgain, you'll be able to see it in the lobby.
+p307
+aVWe truly believe this will be the very first running humanoid robot
+p308
+aVin the United States.
+p309
+aVSo stay tuned.
+p310
+aa(lp311
+VAll right. So I showed you some of our exciting robots at work.
+p312
+aVSo, what is the secret of our success?
+p313
+aVWhere do we come up with these ideas?
+p314
+aVHow do we develop these kinds of ideas?
+p315
+aVWe have a fully autonomous vehicle
+p316
+aVthat can drive into urban environments.
+p317
+aVWe won a half a million dollars in the DARPA Urban Challenge.
+p318
+aVWe also have the world's very first vehicle that can be driven by the blind.
+p319
+aVWe call it the Blind Driver Challenge, very exciting.
+p320
+aVAnd many, many other robotics projects I want to talk about.
+p321
+aVThese are just the awards that we won in 2007 fall
+p322
+aVfrom robotics competitions and those kinds of things.
+p323
+aa(lp324
+VSo really, we have five secrets.
+p325
+aVFirst is: Where do we get inspiration?
+p326
+aVWhere do we get this spark of imagination?
+p327
+aVThis is a true story, my personal story.
+p328
+aVAt night, when I go to bed, at three, four in the morning,
+p329
+aVI lie down, close my eyes, and I see these lines and circles
+p330
+aVand different shapes floating around.
+p331
+aVAnd they assemble, and they form these kinds of mechanisms.
+p332
+aVAnd I think, "Ah, this is cool."
+p333
+aVSo right next to my bed I keep a notebook, a journal,
+p334
+aVwith a special pen that has an LED light on it,
+p335
+aVbecause I don't want to turn on the light and wake up my wife.
+p336
+aa(lp337
+VSo I see this, scribble everything down, draw things, and go to bed.
+p338
+aVEvery day in the morning, the first thing I do,
+p339
+aVbefore my first cup of coffee, before I brush my teeth,
+p340
+aVI open my notebook.
+p341
+aVMany times it's empty; sometimes I have something there.
+p342
+aVIf something's there, sometimes it's junk.
+p343
+aVBut most of the time, I can't read my handwriting.
+p344
+aVFour in the morning \u2014 what do you expect, right?
+p345
+aVSo I need to decipher what I wrote.
+p346
+aVBut sometimes I see this ingenious idea in there,
+p347
+aVand I have this eureka moment.
+p348
+aVI directly run to my home office, sit at my computer,
+p349
+aVI type in the ideas, I sketch things out
+p350
+aVand I keep a database of ideas.
+p351
+aVSo when we have these calls for proposals,
+p352
+aVI try to find a match between my potential ideas
+p353
+aVand the problem.
+p354
+aVIf there's a match, we write a research proposal,
+p355
+aVget the research funding in,
+p356
+aVand that's how we start our research programs.
+p357
+aa(lp358
+VBut just a spark of imagination is not good enough.
+p359
+aVHow do we develop these kinds of ideas?
+p360
+aVAt our lab RoMeLa, the Robotics and Mechanisms Laboratory,
+p361
+aVwe have these fantastic brainstorming sessions.
+p362
+aVSo we gather around, we discuss problems and solutions and talk about it.
+p363
+aVBut before we start, we set this golden rule.
+p364
+aVThe rule is:
+p365
+aVnobody criticizes anybody's ideas.
+p366
+aVNobody criticizes any opinion.
+p367
+aVThis is important, because many times, students fear or feel uncomfortable
+p368
+aVabout how others might think about their opinions and thoughts.
+p369
+aa(lp370
+VSo once you do this, it is amazing how the students open up.
+p371
+aVThey have these wacky, cool, crazy, brilliant ideas,
+p372
+aVand the whole room is just electrified with creative energy.
+p373
+aVAnd this is how we develop our ideas.
+p374
+aa(lp375
+VWell, we're running out of time.
+p376
+aVOne more thing I want to talk about is,
+p377
+aVyou know, just a spark of idea and development is not good enough.
+p378
+aVThere was a great TED moment \u2014 I think it was Sir Ken Robinson, was it?
+p379
+aVHe gave a talk about how education and school kill creativity.
+p380
+aVWell, actually, there's two sides to the story.
+p381
+aVSo there is only so much one can do with just ingenious ideas
+p382
+aVand creativity and good engineering intuition.
+p383
+aVIf you want to go beyond a tinkering,
+p384
+aVif you want to go beyond a hobby of robotics
+p385
+aVand really tackle the grand challenges of robotics
+p386
+aVthrough rigorous research,
+p387
+aVwe need more than that.
+p388
+aVThis is where school comes in.
+p389
+aa(lp390
+VBatman, fighting against the bad guys,
+p391
+aVhe has his utility belt, he has his grappling hook,
+p392
+aVhe has all different kinds of gadgets.
+p393
+aVFor us roboticists, engineers and scientists,
+p394
+aVthese tools are the courses and classes you take in class.
+p395
+aVMath, differential equations.
+p396
+aVI have linear algebra, science, physics \u2014
+p397
+aVeven, nowadays, chemistry and biology, as you've seen.
+p398
+aVThese are all the tools we need.
+p399
+aVSo the more tools you have, for Batman,
+p400
+aVmore effective at fighting the bad guys,
+p401
+aVfor us, more tools to attack these kinds of big problems.
+p402
+aVSo education is very important.
+p403
+aa(lp404
+VAlso \u2014 it's not only about that.
+p405
+aVYou also have to work really, really hard.
+p406
+aVSo I always tell my students,
+p407
+aV"Work smart, then work hard."
+p408
+aVThis picture in the back \u2014 this is three in the morning.
+p409
+aVI guarantee if you come to our lab at 3, 4am,
+p410
+aVwe have students working there,
+p411
+aVnot because I tell them to, but because we are having too much fun.
+p412
+aVWhich leads to the last topic:
+p413
+aVdo not forget to have fun.
+p414
+aVThat's really the secret of our success, we're having too much fun.
+p415
+aVI truly believe that highest productivity comes when you're having fun,
+p416
+aVand that's what we're doing.
+p417
+aVAnd there you go.
+p418
+aa(lp419
+VThank you so much.
+p420
+aa(lp421
+V(Applause)
+p422
+aasS'transcript_micsec'
+p423
+(lp424
+I11000
+aI50000
+aI103000
+aI118000
+aI119000
+aI128000
+aI164000
+aI205000
+aI237000
+aI272000
+aI297000
+aI324000
+aI347000
+aI348000
+aI376000
+aI377000
+aI410000
+aI456000
+aI505000
+aI539000
+aI541000
+aI561000
+aI593000
+aI599000
+aI622000
+aI623000
+aI628000
+aI641000
+aI642000
+aI665000
+aI666000
+aI668000
+aI670000
+aI688000
+aI689000
+aI693000
+aI697000
+aI707000
+aI737000
+aI766000
+aI812000
+aI843000
+aI856000
+aI895000
+aI929000
+aI960000
+aI961000
+asS'talk_meta'
+p425
+(dp426
+S'ratings'
+p427
+(dp428
+S'ingenious'
+p429
+I555
+sS'funny'
+p430
+I107
+sS'inspiring'
+p431
+I523
+sS'ok'
+p432
+I128
+sS'fascinating'
+p433
+I513
+sS'total_count'
+p434
+I2746
+sS'persuasive'
+p435
+I69
+sS'longwinded'
+p436
+I50
+sS'informative'
+p437
+I380
+sS'beautiful'
+p438
+I53
+sS'jaw-dropping'
+p439
+I237
+sS'obnoxious'
+p440
+I47
+sS'confusing'
+p441
+I14
+sS'courageous'
+p442
+I40
+sS'unconvincing'
+p443
+I30
+ssS'author'
+p444
+VDennis_Hong;
+p445
+sS'url'
+p446
+S'https://www.ted.com/talks/dennis_hong_my_seven_species_of_robot'
+p447
+sS'vidlen'
+p448
+I955
+sS'totalviews'
+p449
+I1932113
+sS'title'
+p450
+VMy seven species of robot -- and how we created them
+p451
+sS'downloadlink'
+p452
+Vhttps://download.ted.com/talks/DennisHong_2009X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p453
+sS'datepublished'
+p454
+cdatetime
+datetime
+p455
+(S'\x07\xda\x04\x07\x08\x10\x00\x00\x00\x00'
+tRp456
+sS'datefilmed'
+p457
+g455
+(S'\x07\xda\x04\x07\x08\x10\x00\x00\x00\x00'
+tRp458
+sS'alldata_JSON'
+p459
+S'{"viewed_count": 1932113, "speakers": [{"description": "Roboticist ", "firstname": "Dennis", "title": "", "lastname": "Hong", "middleinitial": "", "whylisten": "<p>As director of a groundbreaking robotics lab, <strong>Dennis Hong guides his team of students through projects on robot locomotion and mechanism design</strong>, creating award-winning humanoid robots like DARwIn (Dynamic Anthropomorphic Robot with Intelligence). His team is known as <a href=\\"http://www.romela.org/main/Robotics_and_Mechanisms_Laboratory\\">RoMeLa</a> (Robotics &amp; Mechanisms Laboratory) and operates at Virginia Tech. <br /><br /><strong>Hong has also pioneered various innovations in soft-body robots</strong>, using a &ldquo;whole-skin locomotion&rdquo; as inspired by amoebae. Marrying robotics with biochemistry, he has been able to generate new types of motion with these ingenious forms. For his contributions to the field, Hong was selected as a NASA Summer Faculty Fellow in 2005, given the CAREER award by the National Science Foundation in 2007 and in 2009, named as one of <em>Popular Science</em>&#39;s Brilliant 10. He is also a gourmet chef and a magician, performing shows for charity and lecturing on the science of magic.</p> ", "slug": "dennis_hong", "whotheyare": "Dennis Hong is the founder and director of RoMeLa -- a Virginia Tech robotics lab that has pioneered several breakthroughs in robot design and engineering. ", "whatotherssay": "I still cannot forget the mind-blowing sensation when I first watched the movie Star Wars. I was fascinated by R2D2 and C-3PO. Since then, I decided to become a robot scientist and never changed my mind.", "id": 691, "photo_url": "https://pe.tedcdn.com/images/ted/162259_254x191.jpg"}], "current_talk": 820, "description": "Meet seven all-terrain robots -- like the humanoid, soccer-playing DARwIn and the cliff-gripping CLIMBeR -- built by Dennis Hong\'s robotics team at RoMeLa, based at Virginia Tech. Watch to the end for the five creative secrets to his lab\'s success.", "language": "en", "url": "https://www.ted.com/talks/dennis_hong_my_seven_species_of_robot", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DennisHong_2009X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115524391}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DennisHong_2009X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22319762}, "podcast-high": {"uri": "https://download.ted.com/talks/DennisHong_2009X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115511000}, "180k": {"uri": "https://download.ted.com/talks/DennisHong_2009X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22218197}, "64k": {"uri": "https://download.ted.com/talks/DennisHong_2009X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7993407}, "1500k": {"uri": "https://download.ted.com/talks/DennisHong_2009X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 179890459}, "450k": {"uri": "https://download.ted.com/talks/DennisHong_2009X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54961847}, "podcast-regular": {"uri": "https://download.ted.com/talks/DennisHong_2009X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55131744}, "950k": {"uri": "https://download.ted.com/talks/DennisHong_2009X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 115540438}, "podcast-light": {"uri": "https://download.ted.com/talks/DennisHong_2009X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8092814}, "320k": {"uri": "https://download.ted.com/talks/DennisHong_2009X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39338366}, "600k": {"uri": "https://download.ted.com/talks/DennisHong_2009X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 73532738}}}, "comments": {"count": 183, "id": 675, "talk_id": 820}, "slug": "dennis_hong_my_seven_species_of_robot", "threadId": 675, "talks": [{"event": "TEDxNASA", "player_talks": [{"event": "TEDxNASA", "slug": "dennis_hong_my_seven_species_of_robot", "filmed": 1252540800, "targeting": {"event": "TEDxNASA", "tag": "AI,TEDx,engineering,robots,science,technology", "id": 820, "talk": "dennis_hong_my_seven_species_of_robot", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "My seven species of robot -- and how we created them", "postAdDuration": "0.83", "published": 1270642560, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/162258_800x600.jpg?quality=89&w=600", "name": "Dennis Hong: My seven species of robot -- and how we created them", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["AI", "TEDx", "engineering", "robots", "science", "technology"], "speaker": "Dennis Hong", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 955, "id": 820, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DennisHong_2009X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxNASA", "tag": "AI,TEDx,engineering,robots,science,technology", "id": 820, "talk": "dennis_hong_my_seven_species_of_robot", "year": "2009"}, "metadata": "https://hls.ted.com/talks/820.json", "stream": "https://hls.ted.com/talks/820.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxNASA%26id%3D820%26tag%3DAI%2CTEDx%2Cengineering%2Crobots%2Cscience%2Ctechnology%26talk%3Ddennis_hong_my_seven_species_of_robot%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/dennis_hong_my_seven_species_of_robot"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/162258_800x600.jpg?q=50&w=15", "duration": 955, "id": 820, "ratings": [{"count": 69, "id": 24, "name": "Persuasive"}, {"count": 237, "id": 23, "name": "Jaw-dropping"}, {"count": 523, "id": 10, "name": "Inspiring"}, {"count": 513, "id": 22, "name": "Fascinating"}, {"count": 380, "id": 8, "name": "Informative"}, {"count": 107, "id": 7, "name": "Funny"}, {"count": 555, "id": 9, "name": "Ingenious"}, {"count": 50, "id": 11, "name": "Longwinded"}, {"count": 128, "id": 25, "name": "OK"}, {"count": 30, "id": 21, "name": "Unconvincing"}, {"count": 47, "id": 26, "name": "Obnoxious"}, {"count": 53, "id": 1, "name": "Beautiful"}, {"count": 40, "id": 3, "name": "Courageous"}, {"count": 14, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Roboticist ", "firstname": "Dennis", "title": "", "lastname": "Hong", "middleinitial": "", "whylisten": "<p>As director of a groundbreaking robotics lab, <strong>Dennis Hong guides his team of students through projects on robot locomotion and mechanism design</strong>, creating award-winning humanoid robots like DARwIn (Dynamic Anthropomorphic Robot with Intelligence). His team is known as <a href=\\"http://www.romela.org/main/Robotics_and_Mechanisms_Laboratory\\">RoMeLa</a> (Robotics &amp; Mechanisms Laboratory) and operates at Virginia Tech. <br /><br /><strong>Hong has also pioneered various innovations in soft-body robots</strong>, using a &ldquo;whole-skin locomotion&rdquo; as inspired by amoebae. Marrying robotics with biochemistry, he has been able to generate new types of motion with these ingenious forms. For his contributions to the field, Hong was selected as a NASA Summer Faculty Fellow in 2005, given the CAREER award by the National Science Foundation in 2007 and in 2009, named as one of <em>Popular Science</em>&#39;s Brilliant 10. He is also a gourmet chef and a magician, performing shows for charity and lecturing on the science of magic.</p> ", "slug": "dennis_hong", "whotheyare": "Dennis Hong is the founder and director of RoMeLa -- a Virginia Tech robotics lab that has pioneered several breakthroughs in robot design and engineering. ", "whatotherssay": "I still cannot forget the mind-blowing sensation when I first watched the movie Star Wars. I was fascinated by R2D2 and C-3PO. Since then, I decided to become a robot scientist and never changed my mind.", "id": 691, "photo_url": "https://pe.tedcdn.com/images/ted/162259_254x191.jpg"}], "title": "My seven species of robot -- and how we created them", "take_action": null, "comments": 675, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "description": "Meet seven all-terrain robots -- like the humanoid, soccer-playing DARwIn and the cliff-gripping CLIMBeR -- built by Dennis Hong\'s robotics team at RoMeLa, based at Virginia Tech. Watch to the end for the five creative secrets to his lab\'s success.", "tags": ["AI", "TEDx", "engineering", "robots", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DennisHong_2009X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DennisHong_2009X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DennisHong_2009X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DennisHong_2009X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/DennisHong_2009X-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DennisHong_2009X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DennisHong_2009X-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DennisHong_2009X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DennisHong_2009X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DennisHong_2009X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DennisHong_2009X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DennisHong_2009X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DennisHong_2009X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DennisHong_2009X-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/DennisHong_2009X-low-hi.mp4"}, "ja": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DennisHong_2009X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DennisHong_2009X-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DennisHong_2009X-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/DennisHong_2009X-low-sk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DennisHong_2009X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DennisHong_2009X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DennisHong_2009X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 820, "audioDownload": null}, "related_talks": [{"viewed_count": 807682, "hero": "https://pe.tedcdn.com/images/ted/8797510dd2c00e81d277493d9ca173f6ea5de0ec_2880x1620.jpg", "title": "Robots inspired by cockroach ingenuity", "id": 280, "speaker": "Robert Full", "duration": 1222, "slug": "robert_full_on_engineering_and_evolution"}, {"viewed_count": 6280712, "hero": "https://pe.tedcdn.com/images/ted/125797a95411e0682b7a67ab7b16bae1b9e35afc_1600x1200.jpg", "title": "A robot that flies like a bird", "id": 1195, "speaker": "Markus Fischer", "duration": 379, "slug": "a_robot_that_flies_like_a_bird"}, {"viewed_count": 760425, "hero": "https://pe.tedcdn.com/images/ted/2f8bd657fb5e99e575ec030ddd925a8a782724e5_800x600.jpg", "title": "Silicon-based comedy", "id": 1058, "speaker": "Heather Knight", "duration": 364, "slug": "heather_knight_silicon_based_comedy"}, {"viewed_count": 1623578, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}, {"viewed_count": 4257314, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}, {"viewed_count": 604247, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}], "recorded_at": "2009-09-10T00:00:00.000+00:00", "slug": "dennis_hong_my_seven_species_of_robot", "speaker_name": "Dennis Hong", "viewed_count": 1932113, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxNASA, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxNASA", "name": "Dennis Hong: My seven species of robot -- and how we created them"}'
+p460
+sS'keywords'
+p461
+(lp462
+VAI
+p463
+aVTEDx
+p464
+aVengineering
+p465
+aVrobots
+p466
+aVscience
+p467
+aVtechnology
+p468
+asS'datecrawled'
+p469
+g455
+(S'\x07\xe1\n\x17\x03(9\x01]\x98'
+tRp470
+sS'id'
+p471
+I820
+ss.

@@ -1,0 +1,376 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo just by a show of hands, how many of you all have a robot at home?
+p5
+aVNot very many of you.
+p6
+aVOkay. And actually of those hands,
+p7
+aVif you don't include Roomba how many of you have a robot at home?
+p8
+aVSo a couple.
+p9
+aVThat's okay.
+p10
+aVThat's the problem that we're trying to solve at Romotive \u2014
+p11
+aVthat I and the other 20 nerds at Romotive are obsessed with solving.
+p12
+aa(lp13
+VSo we really want to build a robot that anyone can use,
+p14
+aVwhether you're eight or 80.
+p15
+aVAnd as it turns out, that's a really hard problem,
+p16
+aVbecause you have to build a small, portable robot
+p17
+aVthat's not only really affordable,
+p18
+aVbut it has to be something
+p19
+aVthat people actually want to take home and have around their kids.
+p20
+aVThis robot can't be creepy or uncanny.
+p21
+aVHe should be friendly and cute.
+p22
+aa(lp23
+VSo meet Romo.
+p24
+aVRomo's a robot that uses a device you already know and love \u2014
+p25
+aVyour iPhone \u2014 as his brain.
+p26
+aVAnd by leveraging the power of the iPhone's processor,
+p27
+aVwe can create a robot that is wi-fi enabled
+p28
+aVand computer vision-capable for 150 bucks,
+p29
+aVwhich is about one percent of what these kinds of robots have cost in the past.
+p30
+aa(lp31
+VWhen Romo wakes up, he's in creature mode.
+p32
+aVSo he's actually using the video camera on the device to follow my face.
+p33
+aVIf I duck down, he'll follow me.
+p34
+aVHe's wary, so he'll keep his eyes on me.
+p35
+aVIf I come over here, he'll turn to follow me.
+p36
+aVIf I come over here \u2014 (Laughs)
+p37
+aVHe's smart.
+p38
+aVAnd if I get too close to him,
+p39
+aVhe gets scared just like any other creature.
+p40
+aVSo in a lot of ways, Romo is like a pet that has a mind of his own.
+p41
+aVThanks, little guy.
+p42
+aV(Sneezing sound)
+p43
+aVBless you.
+p44
+aa(lp45
+VAnd if I want to explore the world \u2014 uh-oh, Romo's tired \u2014
+p46
+aVif I want to explore the world with Romo,
+p47
+aVI can actually connect him from any other iOS device.
+p48
+aVSo here's the iPad.
+p49
+aVAnd Romo will actually stream video to this device.
+p50
+aVSo I can see everything that Romo sees,
+p51
+aVand I get a robot's-eye-view of the world.
+p52
+aVNow this is a free app on the App Store,
+p53
+aVso if any of you guys had this app on your phones,
+p54
+aVwe could literally right now share control of the robot and play games together.
+p55
+aa(lp56
+VSo I'll show you really quickly,
+p57
+aVRomo actually \u2014 he's streaming video,
+p58
+aVso you can see me and the entire TED audience.
+p59
+aVIf I get in front of Romo here.
+p60
+aVAnd if I want to control him, I can just drive.
+p61
+aVSo I can drive him around,
+p62
+aVand I can take pictures of you.
+p63
+aVI've always wanted a picture of a 1,500-person TED audience.
+p64
+aVSo I'll snap a picture.
+p65
+aVAnd in the same way that you scroll through content on an iPad,
+p66
+aVI can actually adjust the angle of the camera on the device.
+p67
+aVSo there are all of you through Romo's eyes.
+p68
+aVAnd finally, because Romo is an extension of me,
+p69
+aVI can express myself through his emotions.
+p70
+aVSo I can go in and I can say let's make Romo excited.
+p71
+aa(lp72
+VBut the most important thing about Romo
+p73
+aVis that we wanted to create something that was literally completely intuitive.
+p74
+aVYou do not have to teach someone how to drive Romo.
+p75
+aVIn fact, who would like to drive a robot?
+p76
+aVOkay. Awesome.
+p77
+aVHere you go.
+p78
+aVThank you, Scott.
+p79
+aa(lp80
+VAnd even cooler, you actually don't have to be
+p81
+aVin the same geographic location as the robot to control him.
+p82
+aVSo he actually streams two-way audio and video
+p83
+aVbetween any two smart devices.
+p84
+aVSo you can log in through the browser,
+p85
+aVand it's kind of like Skype on wheels.
+p86
+aVSo we were talking before about telepresence,
+p87
+aVand this is a really cool example.
+p88
+aVYou can imagine an eight-year-old girl, for example, who has an iPhone,
+p89
+aVand her mom buys her a robot.
+p90
+aVThat girl can take her iPhone, put it on the robot,
+p91
+aVsend an email to Grandma, who lives on the other side of the country.
+p92
+aVGrandma can log into that robot and play hide-and-go-seek with her granddaughter
+p93
+aVfor fifteen minutes every single night,
+p94
+aVwhen otherwise she might only be able to get to see her granddaughter once or twice a year.
+p95
+aa(lp96
+VThanks, Scott.
+p97
+aa(lp98
+V(Applause)
+p99
+aa(lp100
+VSo those are a couple of the really cool things that Romo can do today.
+p101
+aVBut I just want to finish by talking about something that we're working on in the future.
+p102
+aVThis is actually something that one of our engineers, Dom, built in a weekend.
+p103
+aVIt's built on top of a Google open framework called Blockly.
+p104
+aVThis allows you to drag and drop these blocks of semantic code
+p105
+aVand create any behavior for this robot you want.
+p106
+aVYou do not have to know how to code to create a behavior for Romo.
+p107
+aVAnd you can actually simulate that behavior in the browser,
+p108
+aVwhich is what you see Romo doing on the left.
+p109
+aVAnd then if you have something you like,
+p110
+aVyou can download it onto your robot and execute it in real life,
+p111
+aVrun the program in real life.
+p112
+aVAnd then if you have something you're proud of,
+p113
+aVyou can share it with every other person who owns a robot in the world.
+p114
+aVSo all of these wi-fi\u2013enabled robots actually learn from each other.
+p115
+aa(lp116
+VThe reason we're so focused on building robots that everyone can train
+p117
+aVis that we think the most compelling use cases in personal robotics are personal.
+p118
+aVThey change from person to person.
+p119
+aVSo we think that if you're going to have a robot in your home,
+p120
+aVthat robot ought to be a manifestation of your own imagination.
+p121
+aa(lp122
+VSo I wish that I could tell you what the future of personal robotics looks like.
+p123
+aVTo be honest, I have no idea.
+p124
+aVBut what we do know is that it isn't 10 years or 10 billion dollars
+p125
+aVor a large humanoid robot away.
+p126
+aVThe future of personal robotics is happening today,
+p127
+aVand it's going to depend on small, agile robots like Romo
+p128
+aVand the creativity of people like yourselves.
+p129
+aVSo we can't wait to get you all robots,
+p130
+aVand we can't wait to see what you build.
+p131
+aa(lp132
+VThank you.
+p133
+aa(lp134
+V(Applause)
+p135
+aasS'transcript_micsec'
+p136
+(lp137
+I11000
+aI31000
+aI56000
+aI83000
+aI118000
+aI143000
+aI185000
+aI204000
+aI243000
+aI244000
+aI250000
+aI292000
+aI310000
+aI338000
+aI340000
+asS'talk_meta'
+p138
+(dp139
+S'ratings'
+p140
+(dp141
+S'ingenious'
+p142
+I136
+sS'funny'
+p143
+I101
+sS'inspiring'
+p144
+I76
+sS'ok'
+p145
+I120
+sS'fascinating'
+p146
+I162
+sS'total_count'
+p147
+I932
+sS'persuasive'
+p148
+I23
+sS'longwinded'
+p149
+I21
+sS'informative'
+p150
+I79
+sS'beautiful'
+p151
+I34
+sS'jaw-dropping'
+p152
+I43
+sS'obnoxious'
+p153
+I26
+sS'confusing'
+p154
+I2
+sS'courageous'
+p155
+I8
+sS'unconvincing'
+p156
+I101
+ssS'author'
+p157
+VKeller_Rinaudo;
+p158
+sS'url'
+p159
+S'https://www.ted.com/talks/keller_rinaudo_a_mini_robot_powered_by_your_phone'
+p160
+sS'vidlen'
+p161
+I350
+sS'totalviews'
+p162
+I1120255
+sS'title'
+p163
+VA mini robot -- powered by your phone
+p164
+sS'downloadlink'
+p165
+Vhttps://download.ted.com/talks/KellerRinaudo_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p166
+sS'datepublished'
+p167
+cdatetime
+datetime
+p168
+(S'\x07\xdd\x04\t\x0b\x00\x0f\x00\x00\x00'
+tRp169
+sS'datefilmed'
+p170
+g168
+(S'\x07\xdd\x04\t\x0b\x00\x0f\x00\x00\x00'
+tRp171
+sS'alldata_JSON'
+p172
+S'{"viewed_count": 1120255, "speakers": [{"description": "Robotics entrepreneur", "firstname": "Keller", "title": "", "lastname": "Rinaudo", "middleinitial": "", "whylisten": "<p>As CEO and co-founder of Zipline, a drone delivery company focused on health care, Keller Rinaudo works with the country of Rwanda to make last-mile deliveries of blood to half of the transfusing facilities in the country. The ultimate goal is to put each of the 12 million citizens of Rwanda within a 15&ndash;30 minute delivery of any essential medical product they need, no matter where they live.</p><p>Zipline is also working with GAVI, UPS, USAID and several other countries in East Africa. The company is a team of 60 aerospace and software engineers headquartered in San Francisco, CA. It&#39;s funded by Sequoia Capital, Google Ventures, Paul Allen, Jerry Yang and Stanford University. Rinaudo is also a professional rock climber ranked top 10 in sport climbing. He has scaled alpine cliffs in France, underwater caves in Kentucky and the limestone towers of Yangshuo, China.</p>", "slug": "keller_rinaudo", "whotheyare": "Keller Rinaudo is CEO and co-founder of Zipline, building drone delivery for global public health customers. (He\'s also co-founder of Romotive, makers of the tiny robot, Romo.)", "whatotherssay": "", "id": 1548, "photo_url": "https://pe.tedcdn.com/images/ted/8a839df6a68a2676b5bc596a8bc259f3b5269c10_254x191.jpg"}], "current_talk": 1709, "description": "Your smartphone may feel like a friend -- but a true friend would give you a smile once in a while. At TED2013, Keller Rinaudo demos Romo, the smartphone-powered mini robot who can motor along with you on a walk, slide you a cup of coffee across the table, and react to you with programmable expressions. ", "language": "en", "url": "https://www.ted.com/talks/keller_rinaudo_a_mini_robot_powered_by_your_phone", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40906959}, "podcast-low-en": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8161014}, "podcast-high": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40907705}, "180k": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7911779}, "64k": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 2878398}, "1500k": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63024536}, "450k": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19891661}, "podcast-regular": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 20006935}, "950k": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40897679}, "audio-podcast": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 3792765}, "podcast-light": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 3011916}, "320k": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14049825}, "600k": {"uri": "https://download.ted.com/talks/KellerRinaudo_2013-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26777398}}}, "comments": {"count": 183, "id": 19206, "talk_id": 1709}, "slug": "keller_rinaudo_a_mini_robot_powered_by_your_phone", "threadId": 19206, "talks": [{"event": "TED2013", "player_talks": [{"event": "TED2013", "slug": "keller_rinaudo_a_mini_robot_powered_by_your_phone", "filmed": 1361836800, "targeting": {"event": "TED2013", "tag": "robots,technology", "id": 1709, "talk": "keller_rinaudo_a_mini_robot_powered_by_your_phone", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "A mini robot -- powered by your phone", "postAdDuration": "0.83", "published": 1365519615, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/285bc112e1bac3e7158c8546404db577fb884544_1600x1200.jpg?quality=89&w=600", "name": "Keller Rinaudo: A mini robot -- powered by your phone", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "zh", "endonym": "\\u4e2d\\u6587 (\\u7cb5\\u8a9e)", "isRtl": false, "ianaCode": "zh", "languageName": "Chinese, Yue"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "ur", "endonym": "\\u0627\\u064f\\u0631\\u062f\\u064f\\u0648", "isRtl": true, "ianaCode": "ur", "languageName": "Urdu"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["robots", "technology"], "speaker": "Keller Rinaudo", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 350, "id": 1709, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/KellerRinaudo_2013-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2013", "tag": "robots,technology", "id": 1709, "talk": "keller_rinaudo_a_mini_robot_powered_by_your_phone", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1709.json", "stream": "https://hls.ted.com/talks/1709.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2013%26id%3D1709%26tag%3Drobots%2Ctechnology%26talk%3Dkeller_rinaudo_a_mini_robot_powered_by_your_phone%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/keller_rinaudo_a_mini_robot_powered_by_your_phone"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/285bc112e1bac3e7158c8546404db577fb884544_1600x1200.jpg?q=50&w=15", "duration": 350, "id": 1709, "ratings": [{"count": 120, "id": 25, "name": "OK"}, {"count": 162, "id": 22, "name": "Fascinating"}, {"count": 101, "id": 21, "name": "Unconvincing"}, {"count": 101, "id": 7, "name": "Funny"}, {"count": 43, "id": 23, "name": "Jaw-dropping"}, {"count": 136, "id": 9, "name": "Ingenious"}, {"count": 76, "id": 10, "name": "Inspiring"}, {"count": 23, "id": 24, "name": "Persuasive"}, {"count": 79, "id": 8, "name": "Informative"}, {"count": 34, "id": 1, "name": "Beautiful"}, {"count": 26, "id": 26, "name": "Obnoxious"}, {"count": 2, "id": 2, "name": "Confusing"}, {"count": 8, "id": 3, "name": "Courageous"}, {"count": 21, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Robotics entrepreneur", "firstname": "Keller", "title": "", "lastname": "Rinaudo", "middleinitial": "", "whylisten": "<p>As CEO and co-founder of Zipline, a drone delivery company focused on health care, Keller Rinaudo works with the country of Rwanda to make last-mile deliveries of blood to half of the transfusing facilities in the country. The ultimate goal is to put each of the 12 million citizens of Rwanda within a 15&ndash;30 minute delivery of any essential medical product they need, no matter where they live.</p><p>Zipline is also working with GAVI, UPS, USAID and several other countries in East Africa. The company is a team of 60 aerospace and software engineers headquartered in San Francisco, CA. It&#39;s funded by Sequoia Capital, Google Ventures, Paul Allen, Jerry Yang and Stanford University. Rinaudo is also a professional rock climber ranked top 10 in sport climbing. He has scaled alpine cliffs in France, underwater caves in Kentucky and the limestone towers of Yangshuo, China.</p>", "slug": "keller_rinaudo", "whotheyare": "Keller Rinaudo is CEO and co-founder of Zipline, building drone delivery for global public health customers. (He\'s also co-founder of Romotive, makers of the tiny robot, Romo.)", "whatotherssay": "", "id": 1548, "photo_url": "https://pe.tedcdn.com/images/ted/8a839df6a68a2676b5bc596a8bc259f3b5269c10_254x191.jpg"}], "title": "A mini robot -- powered by your phone", "take_action": null, "comments": 19206, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/285bc112e1bac3e7158c8546404db577fb884544_1600x1200.jpg", "description": "Your smartphone may feel like a friend -- but a true friend would give you a smile once in a while. At TED2013, Keller Rinaudo demos Romo, the smartphone-powered mini robot who can motor along with you on a walk, slide you a cup of coffee across the table, and react to you with programmable expressions. ", "tags": ["robots", "technology"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "zh", "endonym": "\\u4e2d\\u6587 (\\u7cb5\\u8a9e)", "isRtl": false, "ianaCode": "zh", "languageName": "Chinese, Yue"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "ur", "endonym": "\\u0627\\u064f\\u0631\\u062f\\u064f\\u0648", "isRtl": true, "ianaCode": "ur", "languageName": "Urdu"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-en.mp4"}, "zh": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-zh.mp4", "name": "Chinese, Yue", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-zh.mp4"}, "vi": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-sv.mp4"}, "ur": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-ur.mp4", "name": "Urdu", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-ur.mp4"}, "uk": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/KellerRinaudo_2013-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/KellerRinaudo_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/KellerRinaudo_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/KellerRinaudo_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1709, "audioDownload": "https://download.ted.com/talks/KellerRinaudo_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1932105, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "title": "My seven species of robot -- and how we created them", "id": 820, "speaker": "Dennis Hong", "duration": 955, "slug": "dennis_hong_my_seven_species_of_robot"}, {"viewed_count": 1068083, "hero": "https://pe.tedcdn.com/images/ted/d5d8a98861dcc5ee45ddc721bec6cf00005aafc6_2400x1800.jpg", "title": "The rise of personal robots", "id": 1070, "speaker": "Cynthia Breazeal", "duration": 844, "slug": "cynthia_breazeal_the_rise_of_personal_robots"}, {"viewed_count": 560452, "hero": "https://pe.tedcdn.com/images/ted/5270397cbd7609dc200d59ddf7df4bf627d4d0ac_800x600.jpg", "title": "Meet Rezero, the dancing ballbot", "id": 1281, "speaker": "P\\u00e9ter Fankhauser", "duration": 316, "slug": "peter_fankhauser_meet_rezero_the_dancing_ballbot"}, {"viewed_count": 604247, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}, {"viewed_count": 1623517, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}, {"viewed_count": 4257307, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}], "recorded_at": "2013-02-26T00:00:00.000+00:00", "slug": "keller_rinaudo_a_mini_robot_powered_by_your_phone", "speaker_name": "Keller Rinaudo", "viewed_count": 1120255, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2013", "name": "Keller Rinaudo: A mini robot -- powered by your phone"}'
+p173
+sS'keywords'
+p174
+(lp175
+Vrobots
+p176
+aVtechnology
+p177
+asS'datecrawled'
+p178
+g168
+(S'\x07\xe1\n\x17\x03\x026\x08\xf2\x07'
+tRp179
+sS'id'
+p180
+I1709
+ss.

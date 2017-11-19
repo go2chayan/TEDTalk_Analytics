@@ -1,0 +1,470 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhat started as a platform for hobbyists
+p5
+aVis poised to become a multibillion-dollar industry.
+p6
+aVInspection, environmental monitoring, photography and film and journalism:
+p7
+aVthese are some of the potential applications for commercial drones,
+p8
+aVand their enablers are the capabilities being developed
+p9
+aVat research facilities around the world.
+p10
+aa(lp11
+VFor example, before aerial package delivery
+p12
+aVentered our social consciousness,
+p13
+aVan autonomous fleet of flying machines built a six-meter-tall tower
+p14
+aVcomposed of 1,500 bricks
+p15
+aVin front of a live audience at the FRAC Centre in France,
+p16
+aVand several years ago, they started to fly with ropes.
+p17
+aVBy tethering flying machines,
+p18
+aVthey can achieve high speeds and accelerations in very tight spaces.
+p19
+aVThey can also autonomously build tensile structures.
+p20
+aVSkills learned include how to carry loads,
+p21
+aVhow to cope with disturbances,
+p22
+aVand in general, how to interact with the physical world.
+p23
+aa(lp24
+VToday we want to show you some new projects that we've been working on.
+p25
+aVTheir aim is to push the boundary of what can be achieved
+p26
+aVwith autonomous flight.
+p27
+aa(lp28
+VNow, for a system to function autonomously,
+p29
+aVit must collectively know the location of its mobile objects in space.
+p30
+aVBack at our lab at ETH Zurich,
+p31
+aVwe often use external cameras to locate objects,
+p32
+aVwhich then allows us to focus our efforts
+p33
+aVon the rapid development of highly dynamic tasks.
+p34
+aVFor the demos you will see today, however,
+p35
+aVwe will use new localization technology developed by Verity Studios,
+p36
+aVa spin-off from our lab.
+p37
+aVThere are no external cameras.
+p38
+aVEach flying machine uses onboard sensors to determine its location in space
+p39
+aVand onboard computation to determine what its actions should be.
+p40
+aVThe only external commands are high-level ones
+p41
+aVsuch as "take off" and "land."
+p42
+aa(lp43
+VThis is a so-called tail-sitter.
+p44
+aVIt's an aircraft that tries to have its cake and eat it.
+p45
+aVLike other fixed-wing aircraft, it is efficient in forward flight,
+p46
+aVmuch more so than helicopters and variations thereof.
+p47
+aVUnlike most other fixed-wing aircraft, however,
+p48
+aVit is capable of hovering,
+p49
+aVwhich has huge advantages for takeoff, landing
+p50
+aVand general versatility.
+p51
+aVThere is no free lunch, unfortunately.
+p52
+aVOne of the limitations with tail-sitters
+p53
+aVis that they're susceptible to disturbances such as wind gusts.
+p54
+aVWe're developing new control architectures and algorithms
+p55
+aVthat address this limitation.
+p56
+aVThe idea is for the aircraft to recover
+p57
+aVno matter what state it finds itself in,
+p58
+aVand through practice, improve its performance over time.
+p59
+aa(lp60
+V(Applause)
+p61
+aa(lp62
+VOK.
+p63
+aa(lp64
+VWhen doing research,
+p65
+aVwe often ask ourselves fundamental abstract questions
+p66
+aVthat try to get at the heart of a matter.
+p67
+aVFor example, one such question would be,
+p68
+aVwhat is the minimum number of moving parts needed for controlled flight?
+p69
+aVNow, there are practical reasons
+p70
+aVwhy you may want to know the answer to such a question.
+p71
+aVHelicopters, for example,
+p72
+aVare affectionately known as machines with a thousand moving parts
+p73
+aVall conspiring to do you bodily harm.
+p74
+aVIt turns out that decades ago,
+p75
+aVskilled pilots were able to fly remote-controlled aircraft
+p76
+aVthat had only two moving parts:
+p77
+aVa propeller and a tail rudder.
+p78
+aVWe recently discovered that it could be done with just one.
+p79
+aa(lp80
+VThis is the monospinner,
+p81
+aVthe world's mechanically simplest controllable flying machine,
+p82
+aVinvented just a few months ago.
+p83
+aVIt has only one moving part, a propeller.
+p84
+aVIt has no flaps, no hinges, no ailerons,
+p85
+aVno other actuators, no other control surfaces,
+p86
+aVjust a simple propeller.
+p87
+aVEven though it's mechanically simple,
+p88
+aVthere's a lot going on in its little electronic brain
+p89
+aVto allow it to fly in a stable fashion and to move anywhere it wants in space.
+p90
+aVEven so, it doesn't yet have
+p91
+aVthe sophisticated algorithms of the tail-sitter,
+p92
+aVwhich means that in order to get it to fly,
+p93
+aVI have to throw it just right.
+p94
+aVAnd because the probability of me throwing it just right is very low,
+p95
+aVgiven everybody watching me,
+p96
+aVwhat we're going to do instead
+p97
+aVis show you a video that we shot last night.
+p98
+aa(lp99
+V(Laughter)
+p100
+aa(lp101
+V(Applause)
+p102
+aa(lp103
+VIf the monospinner is an exercise in frugality,
+p104
+aVthis machine here, the omnicopter, with its eight propellers,
+p105
+aVis an exercise in excess.
+p106
+aVWhat can you do with all this surplus?
+p107
+aVThe thing to notice is that it is highly symmetric.
+p108
+aVAs a result, it is ambivalent to orientation.
+p109
+aVThis gives it an extraordinary capability.
+p110
+aVIt can move anywhere it wants in space
+p111
+aVirrespective of where it is facing
+p112
+aVand even of how it is rotating.
+p113
+aVIt has its own complexities,
+p114
+aVmainly having to do with the interacting flows
+p115
+aVfrom its eight propellers.
+p116
+aVSome of this can be modeled, while the rest can be learned on the fly.
+p117
+aVLet's take a look.
+p118
+aa(lp119
+V(Applause)
+p120
+aa(lp121
+VIf flying machines are going to enter part of our daily lives,
+p122
+aVthey will need to become extremely safe and reliable.
+p123
+aVThis machine over here
+p124
+aVis actually two separate two-propeller flying machines.
+p125
+aVThis one wants to spin clockwise.
+p126
+aVThis other one wants to spin counterclockwise.
+p127
+aVWhen you put them together,
+p128
+aVthey behave like one high-performance quadrocopter.
+p129
+aVIf anything goes wrong, however \u2014
+p130
+aVa motor fails, a propeller fails, electronics, even a battery pack \u2014
+p131
+aVthe machine can still fly, albeit in a degraded fashion.
+p132
+aVWe're going to demonstrate this to you now by disabling one of its halves.
+p133
+aa(lp134
+V(Applause)
+p135
+aa(lp136
+VThis last demonstration
+p137
+aVis an exploration of synthetic swarms.
+p138
+aVThe large number of autonomous, coordinated entities
+p139
+aVoffers a new palette for aesthetic expression.
+p140
+aVWe've taken commercially available micro quadcopters,
+p141
+aVeach weighing less than a slice of bread, by the way,
+p142
+aVand outfitted them with our localization technology
+p143
+aVand custom algorithms.
+p144
+aVBecause each unit knows where it is in space
+p145
+aVand is self-controlled,
+p146
+aVthere is really no limit to their number.
+p147
+aa(lp148
+V(Applause)
+p149
+aa(lp150
+V(Applause)
+p151
+aa(lp152
+V(Applause)
+p153
+aa(lp154
+VHopefully, these demonstrations will motivate you to dream up
+p155
+aVnew revolutionary roles for flying machines.
+p156
+aVThat ultrasafe one over there for example
+p157
+aVhas aspirations to become a flying lampshade on Broadway.
+p158
+aa(lp159
+V(Laughter)
+p160
+aa(lp161
+VThe reality is that it is difficult to predict
+p162
+aVthe impact of nascent technology.
+p163
+aVAnd for folks like us, the real reward is the journey and the act of creation.
+p164
+aVIt's a continual reminder
+p165
+aVof how wonderful and magical the universe we live in is,
+p166
+aVthat it allows creative, clever creatures
+p167
+aVto sculpt it in such spectacular ways.
+p168
+aVThe fact that this technology
+p169
+aVhas such huge commercial and economic potential
+p170
+aVis just icing on the cake.
+p171
+aa(lp172
+VThank you.
+p173
+aa(lp174
+V(Applause)
+p175
+aasS'transcript_micsec'
+p176
+(lp177
+I11000
+aI28000
+aI60000
+aI68000
+aI129000
+aI194000
+aI201000
+aI212000
+aI252000
+aI297000
+aI309000
+aI322000
+aI403000
+aI411000
+aI475000
+aI482000
+aI534000
+aI558000
+aI617000
+aI634000
+aI646000
+aI648000
+aI675000
+aI676000
+asS'talk_meta'
+p178
+(dp179
+S'ratings'
+p180
+(dp181
+S'beautiful'
+p182
+I281
+sS'ingenious'
+p183
+I321
+sS'inspiring'
+p184
+I321
+sS'ok'
+p185
+I98
+sS'fascinating'
+p186
+I678
+sS'funny'
+p187
+I27
+sS'total_count'
+p188
+I2657
+sS'persuasive'
+p189
+I25
+sS'longwinded'
+p190
+I16
+sS'unconvincing'
+p191
+I9
+sS'informative'
+p192
+I469
+sS'jaw-dropping'
+p193
+I370
+sS'obnoxious'
+p194
+I8
+sS'courageous'
+p195
+I26
+sS'confusing'
+p196
+I8
+ssS'author'
+p197
+VRaffaello_D'Andrea;
+p198
+sS'url'
+p199
+S'https://www.ted.com/talks/raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future'
+p200
+sS'vidlen'
+p201
+I695
+sS'totalviews'
+p202
+I2620593
+sS'title'
+p203
+VMeet the dazzling flying machines of the future
+p204
+sS'downloadlink'
+p205
+Vhttps://download.ted.com/talks/RaffaelloDAndrea_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p206
+sS'datepublished'
+p207
+cdatetime
+datetime
+p208
+(S'\x07\xe0\x02\x13\x0b\x03\x16\x00\x00\x00'
+tRp209
+sS'datefilmed'
+p210
+g208
+(S'\x07\xe0\x02\x13\x0b\x03\x16\x00\x00\x00'
+tRp211
+sS'alldata_JSON'
+p212
+S'{"viewed_count": 2620593, "speakers": [{"description": "Autonomous systems pioneer", "firstname": "Raffaello", "title": "", "lastname": "D\'Andrea", "middleinitial": "", "whylisten": "<p>Raffaello D&#39;Andrea combines academics, business, and the arts to explore the capabilities of autonomous systems. As part of his research as professor of dynamic systems and control at the Swiss Federal Institute of Technology (ETH Z&uuml;rich), he and his collaborators enchant viewers with works like the self-destructing, self-assembling Robotic Chair, or the Balancing Cube that can perch itself on its corners.   </p><p>D&rsquo;Andrea and his team created the Flying Machine Arena to test the gravity-defying abilities of their athletic flying robots. Building on research in the Flying Machine Arena, ETH Z&uuml;rich partnered with its spin-off company Verity Studios and with Cirque du Soleil to create &ldquo;<a href=\\"http://raffaello.name/projects/sparked/\\" target=\\"_blank\\">Sparked</a>,&rdquo; a short film showcasing the unexpected airborne dexterity of quadcopters.  D&rsquo;Andrea is the co-founder of Kiva Systems, a robotics company that develops intelligent automated warehouse systems and that was acquired by Amazon in 2012.</p>", "slug": "raffaello_d_andrea", "whotheyare": "Raffaello D\'Andrea explores the possibilities of autonomous technology by collaborating with artists, engineers and entrepreneurs.", "whatotherssay": "We should be more concerned about fulfilling our dreams as children. What was it we wanted to do as children? We wanted to fly like birds. Well, why aren\'t we doing that?", "id": 1594, "photo_url": "https://pe.tedcdn.com/images/ted/0480fa8b47103fef80ece400887f7a95c94f6c49_254x191.jpg"}], "current_talk": 2440, "description": "When you hear the word \\"drone,\\" you probably think of something either very useful or very scary. But could they have aesthetic value? Autonomous systems expert Raffaello D\'Andrea develops flying machines, and his latest projects are pushing the boundaries of autonomous flight -- from a flying wing that can hover and recover from disturbance to an eight-propeller craft that\'s ambivalent to orientation ... to a swarm of tiny coordinated micro-quadcopters. Prepare to be dazzled by a dreamy, swirling array of flying machines as they dance like fireflies above the TED stage.", "language": "en", "url": "https://www.ted.com/talks/raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 83226642}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16124984}, "podcast-high": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 83226340}, "180k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 15873207}, "64k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5741294}, "1500k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 128834980}, "450k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39679475}, "podcast-regular": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 39794663}, "950k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 83234369}, "podcast-light": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5874806}, "320k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28139932}, "600k": {"uri": "https://download.ted.com/talks/RaffaelloDAndrea_2016-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53124153}}}, "comments": {"count": 61, "id": 27059, "talk_id": 2440}, "slug": "raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future", "threadId": 27059, "talks": [{"event": "TED2016", "player_talks": [{"event": "TED2016", "slug": "raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future", "filmed": 1455494400, "targeting": {"event": "TED2016", "tag": "beauty,creativity,demo,design,drones,flight,future,invention,technology", "id": 2440, "talk": "raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future", "year": "2016"}, "adDuration": "3.33", "external": null, "title": "Meet the dazzling flying machines of the future", "postAdDuration": "0.83", "published": 1455897802, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/6deb9d6006d9f495f7963cb4051a1e350ffb9ae6_2880x1620.jpg?quality=89&w=600", "name": "Raffaello D\'Andrea: Meet the dazzling flying machines of the future", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["beauty", "creativity", "demo", "design", "drones", "flight", "future", "invention", "technology"], "speaker": "Raffaello D\'Andrea", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 695, "id": 2440, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RaffaelloDAndrea_2016-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2016", "tag": "beauty,creativity,demo,design,drones,flight,future,invention,technology", "id": 2440, "talk": "raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future", "year": "2016"}, "metadata": "https://hls.ted.com/talks/2440.json", "stream": "https://hls.ted.com/talks/2440.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2016%26id%3D2440%26tag%3Dbeauty%2Ccreativity%2Cdemo%2Cdesign%2Cdrones%2Cflight%2Cfuture%2Cinvention%2Ctechnology%26talk%3Draffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future%26year%3D2016&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/6deb9d6006d9f495f7963cb4051a1e350ffb9ae6_2880x1620.jpg?q=50&w=15", "duration": 695, "id": 2440, "ratings": [{"count": 469, "id": 8, "name": "Informative"}, {"count": 678, "id": 22, "name": "Fascinating"}, {"count": 370, "id": 23, "name": "Jaw-dropping"}, {"count": 281, "id": 1, "name": "Beautiful"}, {"count": 321, "id": 9, "name": "Ingenious"}, {"count": 321, "id": 10, "name": "Inspiring"}, {"count": 26, "id": 3, "name": "Courageous"}, {"count": 98, "id": 25, "name": "OK"}, {"count": 8, "id": 2, "name": "Confusing"}, {"count": 25, "id": 24, "name": "Persuasive"}, {"count": 9, "id": 21, "name": "Unconvincing"}, {"count": 27, "id": 7, "name": "Funny"}, {"count": 16, "id": 11, "name": "Longwinded"}, {"count": 8, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Autonomous systems pioneer", "firstname": "Raffaello", "title": "", "lastname": "D\'Andrea", "middleinitial": "", "whylisten": "<p>Raffaello D&#39;Andrea combines academics, business, and the arts to explore the capabilities of autonomous systems. As part of his research as professor of dynamic systems and control at the Swiss Federal Institute of Technology (ETH Z&uuml;rich), he and his collaborators enchant viewers with works like the self-destructing, self-assembling Robotic Chair, or the Balancing Cube that can perch itself on its corners.   </p><p>D&rsquo;Andrea and his team created the Flying Machine Arena to test the gravity-defying abilities of their athletic flying robots. Building on research in the Flying Machine Arena, ETH Z&uuml;rich partnered with its spin-off company Verity Studios and with Cirque du Soleil to create &ldquo;<a href=\\"http://raffaello.name/projects/sparked/\\" target=\\"_blank\\">Sparked</a>,&rdquo; a short film showcasing the unexpected airborne dexterity of quadcopters.  D&rsquo;Andrea is the co-founder of Kiva Systems, a robotics company that develops intelligent automated warehouse systems and that was acquired by Amazon in 2012.</p>", "slug": "raffaello_d_andrea", "whotheyare": "Raffaello D\'Andrea explores the possibilities of autonomous technology by collaborating with artists, engineers and entrepreneurs.", "whatotherssay": "We should be more concerned about fulfilling our dreams as children. What was it we wanted to do as children? We wanted to fly like birds. Well, why aren\'t we doing that?", "id": 1594, "photo_url": "https://pe.tedcdn.com/images/ted/0480fa8b47103fef80ece400887f7a95c94f6c49_254x191.jpg"}], "title": "Meet the dazzling flying machines of the future", "take_action": [], "comments": 27059, "more_resources": [{"status": "approved", "start_at": null, "headline": "Raffaello D\'Andrea \\u2013 Dynamic Works", "link_url": "http://raffaello.name", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "http://raffaello.name/", "type": "external_website", "blurb": ""}, {"status": "approved", "start_at": null, "headline": "Verity Studios", "link_url": "http://veritystudios.com/", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "veritystudios.com", "type": "external_website", "blurb": ""}, {"status": "approved", "start_at": null, "headline": "ETH Zurich", "link_url": "http://www.idsc.ethz.ch/research-dandrea.html", "eyebrow": null, "end_at": null, "image_url": "", "published": true, "visible_url": "idsc.ethz.ch", "type": "external_website", "blurb": ""}], "hero": "https://pe.tedcdn.com/images/ted/6deb9d6006d9f495f7963cb4051a1e350ffb9ae6_2880x1620.jpg", "description": "When you hear the word \\"drone,\\" you probably think of something either very useful or very scary. But could they have aesthetic value? Autonomous systems expert Raffaello D\'Andrea develops flying machines, and his latest projects are pushing the boundaries of autonomous flight -- from a flying wing that can hover and recover from disturbance to an eight-propeller craft that\'s ambivalent to orientation ... to a swarm of tiny coordinated micro-quadcopters. Prepare to be dazzled by a dreamy, swirling array of flying machines as they dance like fireflies above the TED stage.", "tags": ["beauty", "creativity", "demo", "design", "drones", "flight", "future", "invention", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-fr.mp4"}, "hr": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RaffaelloDAndrea_2016-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RaffaelloDAndrea_2016.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RaffaelloDAndrea_2016-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2440, "audioDownload": null}, "related_talks": [{"viewed_count": 10319639, "hero": "https://pe.tedcdn.com/images/ted/e15213155418fc82875680062821e32eccd30a5f_1600x1200.jpg", "title": "The astounding athletic power of quadcopters", "id": 1764, "speaker": "Raffaello D\'Andrea", "duration": 968, "slug": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters"}, {"viewed_count": 1224982, "hero": "https://pe.tedcdn.com/images/ted/10126c828948ca0df05d84d792885a35be74a5a3_2880x1620.jpg", "title": "A flying camera ... on a leash", "id": 2119, "speaker": "Sergei Lupashin", "duration": 383, "slug": "sergei_lupashin_a_flying_camera_on_a_leash"}, {"viewed_count": 6280711, "hero": "https://pe.tedcdn.com/images/ted/125797a95411e0682b7a67ab7b16bae1b9e35afc_1600x1200.jpg", "title": "A robot that flies like a bird", "id": 1195, "speaker": "Markus Fischer", "duration": 379, "slug": "a_robot_that_flies_like_a_bird"}, {"viewed_count": 1623025, "hero": "https://pe.tedcdn.com/images/ted/2335b2e44dc456891306c79c91e11ecc627ea85b_800x600.jpg", "title": "From mach-20 glider to hummingbird drone", "id": 1402, "speaker": "Regina Dugan", "duration": 1501, "slug": "regina_dugan_from_mach_20_glider_to_humming_bird_drone"}, {"viewed_count": 926623, "hero": "https://pe.tedcdn.com/images/ted/f9875448d96cf52c35156d85e983ff7f4df3ebdc_800x600.jpg", "title": "A plane you can drive", "id": 1260, "speaker": "Anna Mracek Dietrich", "duration": 578, "slug": "anna_mracek_dietrich_a_plane_you_can_drive"}, {"viewed_count": 419011, "hero": "https://pe.tedcdn.com/images/ted/65190_800x600.jpg", "title": "My dream of a flying car", "id": 429, "speaker": "Paul Moller", "duration": 939, "slug": "paul_moller_on_the_skycar"}], "recorded_at": "2016-02-15T00:00:00.000+00:00", "slug": "raffaello_d_andrea_meet_the_dazzling_flying_machines_of_the_future", "speaker_name": "Raffaello D\'Andrea", "viewed_count": 2620593, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2016", "name": "Raffaello D\'Andrea: Meet the dazzling flying machines of the future"}'
+p213
+sS'keywords'
+p214
+(lp215
+Vbeauty
+p216
+aVcreativity
+p217
+aVdemo
+p218
+aVdesign
+p219
+aVdrones
+p220
+aVflight
+p221
+aVfuture
+p222
+aVinvention
+p223
+aVtechnology
+p224
+asS'datecrawled'
+p225
+g208
+(S'\x07\xe1\n\x17\x03\x1e2\x06S\x9f'
+tRp226
+sS'id'
+p227
+I2440
+ss.

@@ -1,0 +1,1036 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo I think data can actually make us more human.
+p5
+aVWe're collecting and creating all kinds of data about how we're living our lives,
+p6
+aVand it's enabling us to tell some amazing stories.
+p7
+aVRecently, a wise media theorist Tweeted,
+p8
+aV"The 19th century culture was defined by the novel,
+p9
+aVthe 20th century culture was defined by the cinema,
+p10
+aVand the culture of the 21st century
+p11
+aVwill be defined by the interface."
+p12
+aVAnd I believe this is going to prove true.
+p13
+aVOur lives are being driven by data,
+p14
+aVand the presentation of that data is an opportunity
+p15
+aVfor us to make some amazing interfaces that tell great stories.
+p16
+aVSo I'm going to show you a few of the projects
+p17
+aVthat I've been working on over the last couple years
+p18
+aVthat reflect on our lives and our systems.
+p19
+aa(lp20
+VThis is a project called Flight Patterns.
+p21
+aVWhat you're looking at is airplane traffic
+p22
+aVover North America for a 24-hour period.
+p23
+aVAs you see, everything starts to fade to black,
+p24
+aVand you see people going to sleep.
+p25
+aVFollowed by that, you see on the West coast
+p26
+aVplanes moving across, the red-eye flights to the East coast.
+p27
+aVAnd you'll see everybody waking up on the East coast,
+p28
+aVfollowed by European flights coming in the upper right-hand corner.
+p29
+aVEverybody's moving from the East coast to the West coast.
+p30
+aVYou see San Francisco and Los Angeles
+p31
+aVstart to make their journeys down to Hawaii in the lower left-hand corner.
+p32
+aa(lp33
+VI think it's one thing to say there's 140,000 planes
+p34
+aVbeing monitored by the federal government at any one time,
+p35
+aVand it's another thing to see that system as it ebbs and flows.
+p36
+aVThis is a time-lapse image of that exact same data,
+p37
+aVbut I've color-coded it by type,
+p38
+aVso you can see the diversity of aircraft that are in the skies above us.
+p39
+aVAnd I started making these, and I put them into Google Maps
+p40
+aVand allow you to zoom in and see individual airports
+p41
+aVand the patterns that are occurring there.
+p42
+aVSo here we can see the white represents low altitudes,
+p43
+aVand the blue are higher altitudes.
+p44
+aVAnd you can zoom in. This is taking a look at Atlanta.
+p45
+aVYou can see this is a major shipping airport,
+p46
+aVand there's all kinds of activity there.
+p47
+aVYou can also toggle between altitude
+p48
+aVfor model and manufacturer.
+p49
+aVSee again, the diversity.
+p50
+aVAnd you can scroll around and see
+p51
+aVsome of the different airports and the different patterns that they have.
+p52
+aVThis is scrolling up the East coast.
+p53
+aVYou can see some of the chaos that's happening in New York
+p54
+aVwith the air traffic controllers
+p55
+aVhaving to deal with all those major airports next to each other.
+p56
+aa(lp57
+VSo zooming back out real quick,
+p58
+aVwe see, again, the U.S. \u2014 you get Florida down in the right-hand corner.
+p59
+aVMoving across to the West coast,
+p60
+aVyou see San Francisco and Los Angeles \u2014
+p61
+aVbig low-traffic zones
+p62
+aVacross Nevada and Arizona.
+p63
+aVAnd that's us down there in L.A. and Long Beach on the bottom.
+p64
+aVI started taking a look as well at different perimeters,
+p65
+aVbecause you can choose what you want to pull out from the data.
+p66
+aVThis is looking at ascending versus descending flights.
+p67
+aVAnd you can see, over time, the ways the airports change.
+p68
+aVYou see the holding patterns that start to develop
+p69
+aVin the bottom of the screen.
+p70
+aVAnd you can see, eventually the airport actually flips directions.
+p71
+aa(lp72
+VSo this is another project that I worked on with the Sensible Cities Lab at MIT.
+p73
+aVThis is visualizing international communications.
+p74
+aVSo it's how New York communicates
+p75
+aVwith other international cities.
+p76
+aVAnd we set this up as a live globe in the Museum of Modern Art in New York
+p77
+aVfor the Design the Elastic Mind exhibition.
+p78
+aVAnd it had a live feed with a 24-hour offset,
+p79
+aVso you could see the changing relationship
+p80
+aVand some demographic info
+p81
+aVcoming through AT&T's data and revealing itself.
+p82
+aVThis is another project I worked on with Sensible Cities Lab
+p83
+aVand CurrentCity.org.
+p84
+aVAnd it's visualizing SMS messages being sent in the city of Amsterdam.
+p85
+aVSo you're seeing the daily ebb and flow
+p86
+aVof people sending SMS messages from different parts of the city,
+p87
+aVuntil we approach New Year's Eve, where everybody says, "Happy New Year!"
+p88
+aa(lp89
+V(Laughter)
+p90
+aa(lp91
+VSo this is an interactive tool
+p92
+aVthat you can move around and see different parts of the city.
+p93
+aVThis is looking at another event. This is called Queen's Day.
+p94
+aVSo again, you get this daily ebb and flow
+p95
+aVof people sending SMS messages from different parts of the city.
+p96
+aVAnd then you're going to see people start to gather in the center of the city
+p97
+aVto celebrate the night before,
+p98
+aVwhich happens right here.
+p99
+aVAnd then you can see people celebrating the next day.
+p100
+aVAnd you can pause it and step back and forth and see different phases.
+p101
+aa(lp102
+VSo now on to something completely different.
+p103
+aVSome of you may recognize this.
+p104
+aVThis is Baron Wolfgang von Kempelen's mechanical chess playing machine.
+p105
+aVAnd it's this amazing robot that plays chess extremely well,
+p106
+aVexcept for one thing: it's not a robot at all.
+p107
+aVThere's actually a legless man that sits in that box
+p108
+aVand controls this chess player.
+p109
+aVThis was the inspiration for a web service by Amazon
+p110
+aVcalled the Mechanical Turk \u2014 named after this guy.
+p111
+aVAnd it's based on the premise that there are certain things
+p112
+aVthat are easy for people, but really difficult for computers.
+p113
+aVSo they made this web service and said,
+p114
+aV"Any programmer can write a piece of software
+p115
+aVand tap into the minds of thousands of people."
+p116
+aVThe nerdy side of me thought, "Wow, this is amazing.
+p117
+aVI can tap into thousands of people's minds."
+p118
+aVAnd the other nerdy side of me thought,
+p119
+aV"This is horrible. This is completely bizarre.
+p120
+aVWhat does this mean for the future of mankind,
+p121
+aVwhere we're all plugged into this borg?"
+p122
+aVI was probably being a little extreme.
+p123
+aVBut what does this mean when we have no context for what it is that we're working on,
+p124
+aVand we're just doing these little labors?
+p125
+aa(lp126
+VSo I created this drawing tool.
+p127
+aVI asked people to draw a sheep facing to the left.
+p128
+aVAnd I said, "I'll pay you two cents for your contribution."
+p129
+aVAnd I started collecting sheep.
+p130
+aVAnd I collected a lot, a lot of different sheep.
+p131
+aVLots of sheep.
+p132
+aVI took the first 10,000 sheep that I collected,
+p133
+aVand I put them on a website called TheSheepMarket.com
+p134
+aVwhere you can actually buy collections of 20 sheep.
+p135
+aVYou can't pick individual sheep,
+p136
+aVbut you can buy a single plate block of stamps as a commodity.
+p137
+aVAnd juxtaposed against this grid,
+p138
+aVyou see actually, by rolling over each individual one,
+p139
+aVthe humanity behind this hugely mechanical process.
+p140
+aVI think there's something really interesting
+p141
+aVto watching people as they go through this creative toil \u2014
+p142
+aVsomething we can all relate to,
+p143
+aVthis creative process of trying to come up with something from nothing.
+p144
+aVI think it was really interesting to juxtapose this humanity
+p145
+aVversus this massive distributed grid.
+p146
+aVKind of amazing what some people did.
+p147
+aa(lp148
+VSo here's a few statistics from the project.
+p149
+aVApproximate collection rate of 11 sheep per hour,
+p150
+aVwhich would make a working wage of 69 cents per hour.
+p151
+aVThere were 662 rejected sheep
+p152
+aVthat didn't meet "sheep-like" criteria and were thrown out of the flock.
+p153
+aV(Laughter)
+p154
+aVThe amount of time spent drawing ranged from four seconds to 46 minutes.
+p155
+aVThat gives you an idea of the different types of motivations and dedication.
+p156
+aVAnd there were 7,599 people that contributed to the project,
+p157
+aVor were unique IP addresses \u2014
+p158
+aVso about how many people contributed.
+p159
+aVBut only one of them out of the 7,599 said this.
+p160
+aV(Laughter)
+p161
+aVWhich I was pretty surprised by.
+p162
+aVI expected people to be wondering, "Why did I draw a sheep?"
+p163
+aVAnd I think it's a pretty valid question.
+p164
+aa(lp165
+VAnd there's a lot of reasons why I chose sheep.
+p166
+aVSheep were the first animal
+p167
+aVto be raised from mechanically processed byproducts,
+p168
+aVthe first to be selectively bred for production traits,
+p169
+aVthe first animal to be cloned.
+p170
+aVObviously, we think of sheep as followers.
+p171
+aVAnd there's this reference to "Le Petit Prince"
+p172
+aVwhere the narrator asks the prince to draw a sheep.
+p173
+aVHe draws sheep after sheep.
+p174
+aVThe narrator's only appeased when he draws a box.
+p175
+aVAnd he says, "It's not about a scientific rendering of a sheep.
+p176
+aVIt's about your own interpretation and doing something different."
+p177
+aVAnd I like that.
+p178
+aa(lp179
+VSo this is a clip from Charlie Chaplin's "Modern Times."
+p180
+aVIt's showing Charlie Chaplin dealing with some of the major changes
+p181
+aVduring the Industrial Revolution.
+p182
+aVSo there were no longer shoe makers,
+p183
+aVbut now there are people slapping soles on people's shoes.
+p184
+aVAnd the whole idea of one's relationship to their work changed a lot.
+p185
+aVSo I thought this was an interesting clip
+p186
+aVto divide into 16 pieces
+p187
+aVand feed into the Mechanical Turk with a drawing tool.
+p188
+aVThis basically allowed \u2014 what you see on the left side is the original frame,
+p189
+aVand on the right side you see that frame
+p190
+aVas interpreted by 16 people
+p191
+aVwho have no idea what it is they're doing.
+p192
+aa(lp193
+VAnd this was the inspiration for a project
+p194
+aVthat I worked on with my friend Takashi Kawashima.
+p195
+aVWe decided to use the Mechanical Turk for exactly what it was meant for,
+p196
+aVwhich is making money.
+p197
+aVSo we took a hundred dollar bill and divided it into 10,000 teeny pieces,
+p198
+aVand we fed those into the Mechanical Turk.
+p199
+aVWe asked people to draw what it was that they saw.
+p200
+aVBut here there was no sheep-like criteria.
+p201
+aVPeople, if they drew a stick figure or a smiley face,
+p202
+aVit actually made it into the bill.
+p203
+aVSo what you see is actually a representation of how well people did
+p204
+aVwhat it was they were asked to do.
+p205
+aVSo we took these hundred dollar bills,
+p206
+aVand we put them on a website called TenThousandsCents.com,
+p207
+aVwhere you can browse through and see all the individual contributions.
+p208
+aVAnd you can also trade real hundred-dollar bills for fake hundred-dollar bills
+p209
+aVand make a donation to the Hundred Dollar Laptop Project,
+p210
+aVwhich is now known as One Laptop Per Child.
+p211
+aVThis is again showing all the different contributions.
+p212
+aVYou see some people did beautiful stipple renderings,
+p213
+aVlike this one on top \u2014
+p214
+aVspent a long time making realistic versions.
+p215
+aVAnd other people would draw stick figures or smiley faces.
+p216
+aVHere on the right-hand side in the middle
+p217
+aVyou see this one guy writing, "$0.01!!! Really?"
+p218
+aVThat's all I'm getting paid for this?
+p219
+aa(lp220
+V(Laughter)
+p221
+aa(lp222
+VSo the last Mechanical Turk project I'm going to talk to you about
+p223
+aVis called Bicycle Built for 2000.
+p224
+aVThis is a collaboration with my friend Daniel Massey.
+p225
+aVYou may recognize these two guys.
+p226
+aVThis is Max Mathews and John Kelly from Bell Labs in the '60s,
+p227
+aVwhere they created the song "Daisy Bell,"
+p228
+aVwhich was the world's first singing computer.
+p229
+aVYou may recognize it from "2001: A Space Odyssey."
+p230
+aVWhen HAL's dying at the end of the film he starts singing this song,
+p231
+aVas a reference to when computers became human.
+p232
+aVSo we resynthesized this song.
+p233
+aVThis is what that sounded like.
+p234
+aVWe broke down all the individual notes
+p235
+aVin the singing as well as the phonemes in the singing.
+p236
+aa(lp237
+VDaisy Bell: \u266b Daisy, Daisy ... \u266b
+p238
+aa(lp239
+VAaron Koblin: And we took all of those individual pieces,
+p240
+aVand we fed them into another Turk request.
+p241
+aVThis is what it would look like if you went to the site.
+p242
+aVYou type in your code,
+p243
+aVbut you first test your mic.
+p244
+aVYou'd be fed a simple audio clip.
+p245
+aV(Honk)
+p246
+aVAnd then you'd do your best to recreate that with your own voice.
+p247
+aVAfter previewing it and confirming it's what you submitted,
+p248
+aVyou could submit it into the Mechanical Turk with no other context.
+p249
+aVAnd this is what we first got back from the very first set of submissions.
+p250
+aa(lp251
+VRecording: \u266b Daisy, Daisy \u266b
+p252
+aV\u266b give me your answer do \u266b
+p253
+aV\u266b I'm half crazy \u266b
+p254
+aV\u266b all for the love of you \u266b
+p255
+aV\u266b It can't be a stylish marriage \u266b
+p256
+aV\u266b I can't afford a carriage \u266b
+p257
+aV\u266b But you'll look sweet upon the seat \u266b
+p258
+aV\u266b of a bicycle built for two \u266b
+p259
+aa(lp260
+VAK: So James Surowieki has this idea of the wisdom of crowds,
+p261
+aVthat says that a whole bunch of people are smarter than any individual.
+p262
+aVWe wanted to see how this applies to collaborative, distributed music making,
+p263
+aVwhere nobody has any idea what it is they're working on.
+p264
+aVSo if you go to the BicycleBuiltforTwoThousand.com
+p265
+aVyou can actually hear what all this sounds like together.
+p266
+aVI'm sorry for this.
+p267
+aa(lp268
+V(Noise)
+p269
+aa(lp270
+VChorus: \u266b Daisy, Daisy \u266b
+p271
+aV\u266b Give me your answer do \u266b
+p272
+aV\u266b I'm half crazy \u266b
+p273
+aV\u266b all for the love of you \u266b
+p274
+aV\u266b It can't be a stylish marriage \u266b
+p275
+aV\u266b I can't afford a carriage \u266b
+p276
+aV\u266b But you'd look sweet upon the seat \u266b
+p277
+aV\u266b of a bicycle built for two \u266b
+p278
+aa(lp279
+VAK: So stepping back for a quick second,
+p280
+aVwhen I was at UCLA going to grad school,
+p281
+aVI was also working at a place called the Center for Embedded Network Sensing.
+p282
+aVAnd I was writing software to visualize laser scanners.
+p283
+aVSo basically motion through 3D space.
+p284
+aVAnd this was seen by a director in L.A. named James Frost
+p285
+aVwho said, "Wait a minute.
+p286
+aVYou mean we can shoot a music video without actually using any video?"
+p287
+aVSo we did exactly that.
+p288
+aVWe made a music video for one of my favorite bands, Radiohead.
+p289
+aVAnd I think one of my favorite parts of this project
+p290
+aVwas not just shooting a video with lasers,
+p291
+aVbut we also open sourced it,
+p292
+aVand we made it released as a Google Code project,
+p293
+aVwhere people could download a bunch of the data and some source code
+p294
+aVto build their own versions of it.
+p295
+aVAnd people were making some amazing things.
+p296
+aVThis is actually two of my favorites:
+p297
+aVthe pin-board Thom Yorke and a LEGO Thom Yorke.
+p298
+aVA whole YouTube channel of people submitting really interesting content.
+p299
+aVMore recently, somebody even 3D-printed Thom Yorke's head,
+p300
+aVwhich is a little creepy, but pretty cool.
+p301
+aa(lp302
+VSo with everybody making so much amazing stuff
+p303
+aVand actually understanding what it was they were working on,
+p304
+aVI was really interested in trying to make a collaborative project
+p305
+aVwhere people were working together to build something.
+p306
+aVAnd I met a music video director named Chris Milk.
+p307
+aVAnd we started bouncing around ideas
+p308
+aVto make a collaborative music video project.
+p309
+aVBut we knew we really needed the right person
+p310
+aVto kind of rally behind and build something for.
+p311
+aVSo we put the idea on the back burner for a few months.
+p312
+aVAnd he ended up talking to Rick Rubin,
+p313
+aVwho was finishing up Johnny Cash's final album
+p314
+aVcalled "Ain't No Grave."
+p315
+aVThe lyrics to the leading track are "Ain't no grave can hold my body down."
+p316
+aVSo we thought this was the perfect
+p317
+aVproject to build a collaborative memorial
+p318
+aVand a virtual resurrection for Johnny Cash.
+p319
+aa(lp320
+VSo I teamed up with my good friend Ricardo Cabello, also known as Mr. doob,
+p321
+aVwho's a much better programmer than I am,
+p322
+aVand he made this amazing Flash drawing tool.
+p323
+aVAs you know,
+p324
+aVan animation is a series of images.
+p325
+aVSo what we did was cross-cut a bunch of archival footage of Johnny Cash,
+p326
+aVand at eight frames a second,
+p327
+aVwe allowed individuals to draw a single frame
+p328
+aVthat would get woven into
+p329
+aVthis dynamically changing music video.
+p330
+aVSo I don't have time to play the entire thing for you,
+p331
+aVbut I want to show you two short clips.
+p332
+aVOne is the beginning of the music video.
+p333
+aVAnd that's going to be followed by a short clip
+p334
+aVof people who have already contributed to the project
+p335
+aVtalking about it briefly.
+p336
+aa(lp337
+V(Music)
+p338
+aa(lp339
+V(Video) Johnny Cash: \u266b There ain't no grave \u266b
+p340
+aV\u266b can hold my body down \u266b
+p341
+aV\u266b There ain't no grave \u266b
+p342
+aV\u266b can hold body down \u266b
+p343
+aV\u266b When I hear the trumpet sound \u266b
+p344
+aV\u266b I'm going to ride right out of the ground \u266b
+p345
+aV\u266b Ain't no grave \u266b
+p346
+aV\u266b can hold my body ... \u266b
+p347
+aa(lp348
+V(Applause)
+p349
+aa(lp350
+VAK: What better way to pay tribute to the man
+p351
+aVthan to make something for one of his songs.
+p352
+aa(lp353
+VCollaborator: I felt really sad when he died.
+p354
+aVAnd I just thought it'd be wonderful,
+p355
+aVit'd be really nice to contribute something to his memory.
+p356
+aa(lp357
+VCollaborator Two: It really allows
+p358
+aVthis last recording of his
+p359
+aVto be a living, breathing memorial.
+p360
+aa(lp361
+VCollaborator Three: For all of the frames to be drawn by fans,
+p362
+aVeach individual frame,
+p363
+aVit's got a very powerful feeling to it.
+p364
+aa(lp365
+VCollaborator Four: I've seen everybody
+p366
+aVfrom Japan, Venezuela, to the States,
+p367
+aVto Knoxville, Tennessee.
+p368
+aa(lp369
+VCollaborator Five: As much as is different from frame to frame,
+p370
+aVit really is personal.
+p371
+aVCollaborator Six: Watching the video in my room,
+p372
+aVI could see me not understanding at the beginning of it.
+p373
+aVAnd I just worked and worked through problems,
+p374
+aVuntil my little wee battles that I was fighting within the picture
+p375
+aVall began to resolve themselves.
+p376
+aVYou can actually see the point when I know what I'm doing,
+p377
+aVand a lot of light and dark comes into it.
+p378
+aVAnd in a weird way,
+p379
+aVthat's what I actually like about Johnny Cash's music as well.
+p380
+aVIt's the sum total of his life,
+p381
+aVall the things that had happened \u2014
+p382
+aVthe bad things, the good things.
+p383
+aVYou're hearing a person's life.
+p384
+aa(lp385
+VAK: So if you go to the website JohnnyCashProject.com,
+p386
+aVwhat you'll see is the video playing above.
+p387
+aVAnd below it are all the individual frames
+p388
+aVthat people have been submitting to the project.
+p389
+aVSo this isn't finished at all,
+p390
+aVbut it's an ongoing project where people can continue to collaborate.
+p391
+aVIf you roll over any one of those individual thumbnails,
+p392
+aVyou can see the person who drew that individual thumbnail
+p393
+aVand where they were located.
+p394
+aVAnd if you find one that you're interested in,
+p395
+aVyou can actually click on it and open up an information panel
+p396
+aVwhere you're able to rate that frame,
+p397
+aVwhich helps it bubble up to the top.
+p398
+aVAnd you can also see the way that it was drawn.
+p399
+aVAgain, you can get the playback and personal contribution.
+p400
+aVIn addition to that, it's listed, the artist's name, the location,
+p401
+aVhow long they spent drawing it.
+p402
+aVAnd you can pick a style. So this one was tagged "Abstract."
+p403
+aVBut there's a bunch of different styles.
+p404
+aVAnd you can sort the video a number of different ways.
+p405
+aVYou can say, "I want to see the pointillist version
+p406
+aVor the sketchy version or the realistic version.
+p407
+aVAnd then this is, again, the abstract version,
+p408
+aVwhich ends up getting a little bit crazy.
+p409
+aa(lp410
+VSo the last project I want to talk to you about is another collaboration with Chris Milk.
+p411
+aVAnd this is called "The Wilderness Downtown."
+p412
+aVIt's an online music video for the Arcade Fire.
+p413
+aVChris and I were really amazed
+p414
+aVby the potential now with modern web browsers,
+p415
+aVwhere you have HTML5 audio and video
+p416
+aVand the power of JavaScript to render amazingly fast.
+p417
+aVAnd we wanted to push the idea of the music video that was meant for the Web
+p418
+aVbeyond the four-by-three or sixteen-by-nine window
+p419
+aVand try to make it play out and choreograph throughout the screen.
+p420
+aVBut most importantly, I think,
+p421
+aVwe really wanted to make an experience that was unlike the Johnny Cash Project,
+p422
+aVwhere you had a small group of people spending a lot of time
+p423
+aVto contribute something for everyone.
+p424
+aVWhat if we had a very low commitment,
+p425
+aVbut delivered something individually unique to each person who contributed?
+p426
+aa(lp427
+VSo the project starts off by asking you to enter the address
+p428
+aVof the home where you grew up.
+p429
+aVAnd you type in the address \u2014
+p430
+aVit actually creates a music video specifically for you,
+p431
+aVpulling in Google maps and Streetview images
+p432
+aVinto the experience itself.
+p433
+aVSo this should really be seen at home with you typing in your own address,
+p434
+aVbut I'm going to give you a little preview of what you can expect.
+p435
+aa(lp436
+V(Video) Win Butler: \u266b Now our lives are changing fast \u266b
+p437
+aV\u266b Now our lives are changing fast \u266b
+p438
+aV\u266b Hope that something pure can last \u266b
+p439
+aV\u266b Hope that something pure can last \u266b
+p440
+aV\u266b Ooh we used to wait \u266b
+p441
+aV\u266b Ooh we used to wait \u266b
+p442
+aV\u266b Ooh we used to wait \u266b
+p443
+aV\u266b Sometimes it never came \u266b
+p444
+aV\u266b Sometimes it never came \u266b
+p445
+aV\u266b Still moving through the pain \u266b
+p446
+aV\u266b We used to wait for it \u266b
+p447
+aV\u266b We used to wait for it \u266b
+p448
+aV\u266b We used to wait for it \u266b
+p449
+aa(lp450
+VAK: So I think, if there's one thing to take away from my talk today,
+p451
+aVit's that an interface can be a powerful narrative device.
+p452
+aVAnd as we collect more and more personally and socially relevant data,
+p453
+aVwe have an opportunity, and maybe even an obligation,
+p454
+aVto maintain the humanity and tell some amazing stories
+p455
+aVas we explore and collaborate together.
+p456
+aa(lp457
+VThanks a lot.
+p458
+aa(lp459
+V(Applause)
+p460
+aasS'transcript_micsec'
+p461
+(lp462
+I11000
+aI45000
+aI75000
+aI133000
+aI169000
+aI206000
+aI208000
+aI232000
+aI282000
+aI335000
+aI377000
+aI404000
+aI434000
+aI497000
+aI499000
+aI531000
+aI535000
+aI567000
+aI605000
+aI623000
+aI628000
+aI666000
+aI716000
+aI753000
+aI788000
+aI794000
+aI818000
+aI820000
+aI826000
+aI833000
+aI843000
+aI850000
+aI856000
+aI897000
+aI950000
+aI992000
+aI1010000
+aI1066000
+aI1081000
+aI1083000
+asS'talk_meta'
+p463
+(dp464
+S'ratings'
+p465
+(dp466
+S'beautiful'
+p467
+I448
+sS'ingenious'
+p468
+I488
+sS'inspiring'
+p469
+I573
+sS'ok'
+p470
+I78
+sS'fascinating'
+p471
+I619
+sS'funny'
+p472
+I62
+sS'total_count'
+p473
+I2892
+sS'persuasive'
+p474
+I35
+sS'longwinded'
+p475
+I42
+sS'informative'
+p476
+I195
+sS'jaw-dropping'
+p477
+I239
+sS'obnoxious'
+p478
+I19
+sS'confusing'
+p479
+I35
+sS'courageous'
+p480
+I23
+sS'unconvincing'
+p481
+I36
+ssS'author'
+p482
+VAaron_Koblin;
+p483
+sS'url'
+p484
+S'https://www.ted.com/talks/aaron_koblin'
+p485
+sS'vidlen'
+p486
+I1098
+sS'totalviews'
+p487
+I1481538
+sS'title'
+p488
+VVisualizing ourselves ... with crowd-sourced data
+p489
+sS'downloadlink'
+p490
+Vhttps://download.ted.com/talks/AaronKoblin_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p491
+sS'datepublished'
+p492
+cdatetime
+datetime
+p493
+(S'\x07\xdb\x05\x16\x15\x00\x00\x00\x00\x00'
+tRp494
+sS'datefilmed'
+p495
+g493
+(S'\x07\xdb\x05\x16\x15\x00\x00\x00\x00\x00'
+tRp496
+sS'alldata_JSON'
+p497
+S'{"viewed_count": 1481538, "speakers": [{"description": "Data artist", "firstname": "Aaron", "title": "", "lastname": "Koblin", "middleinitial": "", "whylisten": "<p>Aaron Koblin finds art through the unlikely confluence of massive data sets and personal intimacy. His work ranges from animating the paths of every North American airline flight, to using Amazon&rsquo;s Mechanical Turk crowdsourcing platform to pay workers to &ldquo;draw a sheep facing left,&rdquo; which were then placed in &quot;The Sheep Market.&quot;<br /><br />Koblin was creative director for Johnny Cash&#39;s final music video, &quot;Ain&#39;t No Grave,&quot; and worked on Radiohead&rsquo;s video &ldquo;House of Cards,&rdquo; both of which received a Grammy nomination. He is now the Creative Director of the Data Arts team in Google&#39;s Creative Lab. His team collaborated with Arcade Fire to produce an online music video that allows viewers to incorporate images of their home neighborhood into the experience using Google Street View.</p>", "slug": "aaron_koblin", "whotheyare": "Aaron Koblin is an artist specializing in data and digital technologies. His work takes real world and community-generated data and uses it to reflect on cultural trends and the changing relationship between humans and technology.", "whatotherssay": "He likes his data \\u2018super fun\\u2019 -- that is, messy.", "id": 883, "photo_url": "https://pe.tedcdn.com/images/ted/f5dd915dfbc45a4d6e4d214b79a10a2eae43120f_254x191.jpg"}], "current_talk": 1152, "description": "Artist Aaron Koblin takes vast amounts of data -- and at times vast numbers of people -- and weaves them into stunning visualizations. From elegant lines tracing airline flights to landscapes of cell phone data, from a Johnny Cash video assembled from crowd-sourced drawings to the \\"Wilderness Downtown\\" video that customizes for the user, his works brilliantly explore how modern technology can make us more human.", "language": "en", "url": "https://www.ted.com/talks/aaron_koblin", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126911770}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25118595}, "podcast-high": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126864789}, "180k": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25018183}, "64k": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8993607}, "1500k": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 199059505}, "450k": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61914898}, "podcast-regular": {"uri": "https://download.ted.com/talks/AaronKoblin_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62084791}, "950k": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126894231}, "audio-podcast": {"uri": "https://download.ted.com/talks/AaronKoblin_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 11211016}, "podcast-light": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9093010}, "320k": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44053157}, "600k": {"uri": "https://download.ted.com/talks/AaronKoblin_2011-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 82795372}}}, "comments": {"count": 79, "id": 4158, "talk_id": 1152}, "slug": "aaron_koblin", "threadId": 4158, "talks": [{"event": "TED2011", "player_talks": [{"event": "TED2011", "slug": "aaron_koblin", "filmed": 1299024000, "targeting": {"event": "TED2011", "tag": "art,collaboration,crowdsourcing,data,design,technology,visualizations", "id": 1152, "talk": "aaron_koblin", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Visualizing ourselves ... with crowd-sourced data", "postAdDuration": "0.83", "published": 1306112400, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1c3f327a456360b2846b9ee8f15788ef99f93dd8_800x600.jpg?quality=89&w=600", "name": "Aaron Koblin: Visualizing ourselves ... with crowd-sourced data", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["art", "collaboration", "crowdsourcing", "data", "design", "technology", "visualizations"], "speaker": "Aaron Koblin", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1098, "id": 1152, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AaronKoblin_2011-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2011", "tag": "art,collaboration,crowdsourcing,data,design,technology,visualizations", "id": 1152, "talk": "aaron_koblin", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1152.json", "stream": "https://hls.ted.com/talks/1152.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2011%26id%3D1152%26tag%3Dart%2Ccollaboration%2Ccrowdsourcing%2Cdata%2Cdesign%2Ctechnology%2Cvisualizations%26talk%3Daaron_koblin%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/aaron_koblin"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1c3f327a456360b2846b9ee8f15788ef99f93dd8_800x600.jpg?q=50&w=15", "duration": 1098, "id": 1152, "ratings": [{"count": 239, "id": 23, "name": "Jaw-dropping"}, {"count": 448, "id": 1, "name": "Beautiful"}, {"count": 573, "id": 10, "name": "Inspiring"}, {"count": 78, "id": 25, "name": "OK"}, {"count": 36, "id": 21, "name": "Unconvincing"}, {"count": 488, "id": 9, "name": "Ingenious"}, {"count": 619, "id": 22, "name": "Fascinating"}, {"count": 35, "id": 24, "name": "Persuasive"}, {"count": 62, "id": 7, "name": "Funny"}, {"count": 195, "id": 8, "name": "Informative"}, {"count": 42, "id": 11, "name": "Longwinded"}, {"count": 23, "id": 3, "name": "Courageous"}, {"count": 35, "id": 2, "name": "Confusing"}, {"count": 19, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Data artist", "firstname": "Aaron", "title": "", "lastname": "Koblin", "middleinitial": "", "whylisten": "<p>Aaron Koblin finds art through the unlikely confluence of massive data sets and personal intimacy. His work ranges from animating the paths of every North American airline flight, to using Amazon&rsquo;s Mechanical Turk crowdsourcing platform to pay workers to &ldquo;draw a sheep facing left,&rdquo; which were then placed in &quot;The Sheep Market.&quot;<br /><br />Koblin was creative director for Johnny Cash&#39;s final music video, &quot;Ain&#39;t No Grave,&quot; and worked on Radiohead&rsquo;s video &ldquo;House of Cards,&rdquo; both of which received a Grammy nomination. He is now the Creative Director of the Data Arts team in Google&#39;s Creative Lab. His team collaborated with Arcade Fire to produce an online music video that allows viewers to incorporate images of their home neighborhood into the experience using Google Street View.</p>", "slug": "aaron_koblin", "whotheyare": "Aaron Koblin is an artist specializing in data and digital technologies. His work takes real world and community-generated data and uses it to reflect on cultural trends and the changing relationship between humans and technology.", "whatotherssay": "He likes his data \\u2018super fun\\u2019 -- that is, messy.", "id": 883, "photo_url": "https://pe.tedcdn.com/images/ted/f5dd915dfbc45a4d6e4d214b79a10a2eae43120f_254x191.jpg"}], "title": "Visualizing ourselves ... with crowd-sourced data", "take_action": [], "comments": 4158, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/1c3f327a456360b2846b9ee8f15788ef99f93dd8_800x600.jpg", "description": "Artist Aaron Koblin takes vast amounts of data -- and at times vast numbers of people -- and weaves them into stunning visualizations. From elegant lines tracing airline flights to landscapes of cell phone data, from a Johnny Cash video assembled from crowd-sourced drawings to the \\"Wilderness Downtown\\" video that customizes for the user, his works brilliantly explore how modern technology can make us more human.", "tags": ["art", "collaboration", "crowdsourcing", "data", "design", "technology", "visualizations"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-bg.mp4"}, "de": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AaronKoblin_2011-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AaronKoblin_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AaronKoblin_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AaronKoblin_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1152, "audioDownload": "https://download.ted.com/talks/AaronKoblin_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 633729, "hero": "https://pe.tedcdn.com/images/ted/83840_800x600.jpg", "title": "Stunning data visualization in the AlloSphere", "id": 516, "speaker": "JoAnn Kuchera-Morin", "duration": 387, "slug": "joann_kuchera_morin_tours_the_allosphere"}, {"viewed_count": 816345, "hero": "https://pe.tedcdn.com/images/ted/111402_800x600.jpg", "title": "Making sound visible through cymatics", "id": 626, "speaker": "Evan Grant", "duration": 279, "slug": "evan_grant_cymatics"}, {"viewed_count": 659487, "hero": "https://pe.tedcdn.com/images/ted/84f44b766c9eede9c3887cfe711c9e9c3e3e5efd_800x600.jpg", "title": "Architecture that senses and responds", "id": 1137, "speaker": "Carlo Ratti", "duration": 946, "slug": "carlo_ratti_architecture_that_senses_and_responds"}, {"viewed_count": 1579203, "hero": "https://pe.tedcdn.com/images/ted/5558298f5b2a0211b3c8de807b632ab2eca3d769_2880x1620.jpg", "title": "How to find a wonderful idea", "id": 2792, "speaker": " OK Go", "duration": 1055, "slug": "ok_go_how_to_find_a_wonderful_idea"}, {"viewed_count": 816694, "hero": "https://pe.tedcdn.com/images/ted/5b15e7da00df0758c3a5df3c7bf6df761bf8c83f_2880x1620.jpg", "title": "How artists can (finally) get paid in the digital age ", "id": 2838, "speaker": "Jack Conte", "duration": 631, "slug": "jack_conte_how_artists_can_finally_get_paid_in_the_digital_age"}, {"viewed_count": 6173384, "hero": "https://pe.tedcdn.com/images/ted/f640064c612bf2b53369e0c7b81554a904ed5a93_2880x1620.jpg", "title": "Nerdcore comedy", "id": 87, "speaker": "Ze Frank", "duration": 1136, "slug": "ze_frank_s_nerdcore_comedy"}], "recorded_at": "2011-03-02T00:00:00.000+00:00", "slug": "aaron_koblin", "speaker_name": "Aaron Koblin", "viewed_count": 1481538, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Aaron Koblin recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "Building Radiohead\'s House of Cards", "link_url": "http://www.amazon.com/Beautiful-Data-Stories-Elegant-Solutions/dp/0596157118/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Article", "note": "Aaron Koblin with Valdean Klump\\r\\nin *Beautiful Data*\\r\\nToby Segaran and Jeff Hammerbacher (Editors)\\r\\nO\'Reilly Media, 2009", "position": null, "blurb": "An essay about the making of Radiohead\\u2019s \'House of Cards\' music video.\\r\\n"}, {"is_pdf": false, "headline": "Flight Patterns: A Deep Dive", "link_url": "http://www.amazon.com/Beautiful-Visualization-Looking-through-Practice/dp/1449379869/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "eyebrow": null, "label": "READ_Article", "note": "Aaron Koblin with Valdean Klump\\r\\nin *Beautiful Visualization*\\r\\nJulie Steele and Noah Iliinsky (Editors)\\r\\nO\'Reilly Media, 2010", "position": null, "blurb": "An essay about the making of Flight Patterns."}], "title": "reading list"}], "published": true, "type": "recommendation", "blurb": "Find out more about the process behind Koblin\'s crowdsourced data visualizations."}, "corrections": []}], "event": "TED2011", "name": "Aaron Koblin: Visualizing ourselves ... with crowd-sourced data"}'
+p498
+sS'keywords'
+p499
+(lp500
+Vart
+p501
+aVcollaboration
+p502
+aVcrowdsourcing
+p503
+aVdata
+p504
+aVdesign
+p505
+aVtechnology
+p506
+aVvisualizations
+p507
+asS'datecrawled'
+p508
+g493
+(S'\x07\xe1\n\x17\x01 1\x04\xfd\xea'
+tRp509
+sS'id'
+p510
+I1152
+ss.

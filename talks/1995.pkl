@@ -1,0 +1,864 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI study ants
+p5
+aVin the desert, in the tropical forest
+p6
+aVand in my kitchen,
+p7
+aVand in the hills around Silicon Valley where I live.
+p8
+aVI've recently realized that ants
+p9
+aVare using interactions differently
+p10
+aVin different environments,
+p11
+aVand that got me thinking that we could learn from this
+p12
+aVabout other systems,
+p13
+aVlike brains and data networks that we engineer,
+p14
+aVand even cancer.
+p15
+aa(lp16
+VSo what all these systems have in common
+p17
+aVis that there's no central control.
+p18
+aVAn ant colony consists of sterile female workers \u2014
+p19
+aVthose are the ants you see walking around \u2014
+p20
+aVand then one or more reproductive females
+p21
+aVwho just lay the eggs.
+p22
+aVThey don't give any instructions.
+p23
+aVEven though they're called queens,
+p24
+aVthey don't tell anybody what to do.
+p25
+aVSo in an ant colony, there's no one in charge,
+p26
+aVand all systems like this without central control
+p27
+aVare regulated using very simple interactions.
+p28
+aVAnts interact using smell.
+p29
+aVThey smell with their antennae,
+p30
+aVand they interact with their antennae,
+p31
+aVso when one ant touches another with its antennae,
+p32
+aVit can tell, for example, if the other ant
+p33
+aVis a nestmate
+p34
+aVand what task that other ant has been doing.
+p35
+aVSo here you see a lot of ants moving around
+p36
+aVand interacting in a lab arena
+p37
+aVthat's connected by tubes to two other arenas.
+p38
+aVSo when one ant meets another,
+p39
+aVit doesn't matter which ant it meets,
+p40
+aVand they're actually not transmitting
+p41
+aVany kind of complicated signal or message.
+p42
+aVAll that matters to the ant is the rate
+p43
+aVat which it meets other ants.
+p44
+aVAnd all of these interactions, taken together,
+p45
+aVproduce a network.
+p46
+aVSo this is the network of the ants
+p47
+aVthat you just saw moving around in the arena,
+p48
+aVand it's this constantly shifting network
+p49
+aVthat produces the behavior of the colony,
+p50
+aVlike whether all the ants are hiding inside the nest,
+p51
+aVor how many are going out to forage.
+p52
+aVA brain actually works in the same way,
+p53
+aVbut what's great about ants is
+p54
+aVthat you can see the whole network as it happens.
+p55
+aa(lp56
+VThere are more than 12,000 species of ants,
+p57
+aVin every conceivable environment,
+p58
+aVand they're using interactions differently
+p59
+aVto meet different environmental challenges.
+p60
+aVSo one important environmental challenge
+p61
+aVthat every system has to deal with
+p62
+aVis operating costs, just what it takes
+p63
+aVto run the system.
+p64
+aVAnd another environmental challenge is resources,
+p65
+aVfinding them and collecting them.
+p66
+aVIn the desert, operating costs are high
+p67
+aVbecause water is scarce,
+p68
+aVand the seed-eating ants that I study in the desert
+p69
+aVhave to spend water to get water.
+p70
+aVSo an ant outside foraging,
+p71
+aVsearching for seeds in the hot sun,
+p72
+aVjust loses water into the air.
+p73
+aVBut the colony gets its water
+p74
+aVby metabolizing the fats out of the seeds
+p75
+aVthat they eat.
+p76
+aVSo in this environment, interactions are used
+p77
+aVto activate foraging.
+p78
+aVAn outgoing forager doesn't go out unless
+p79
+aVit gets enough interactions with returning foragers,
+p80
+aVand what you see are the returning foragers
+p81
+aVgoing into the tunnel, into the nest,
+p82
+aVand meeting outgoing foragers on their way out.
+p83
+aVThis makes sense for the ant colony,
+p84
+aVbecause the more food there is out there,
+p85
+aVthe more quickly the foragers find it,
+p86
+aVthe faster they come back,
+p87
+aVand the more foragers they send out.
+p88
+aVThe system works to stay stopped,
+p89
+aVunless something positive happens.
+p90
+aa(lp91
+VSo interactions function to activate foragers.
+p92
+aVAnd we've been studying the evolution of this system.
+p93
+aVFirst of all, there's variation.
+p94
+aVIt turns out that colonies are different.
+p95
+aVOn dry days, some colonies forage less,
+p96
+aVso colonies are different in how
+p97
+aVthey manage this trade-off
+p98
+aVbetween spending water to search for seeds
+p99
+aVand getting water back in the form of seeds.
+p100
+aVAnd we're trying to understand why
+p101
+aVsome colonies forage less than others
+p102
+aVby thinking about ants as neurons,
+p103
+aVusing models from neuroscience.
+p104
+aVSo just as a neuron adds up its stimulation
+p105
+aVfrom other neurons to decide whether to fire,
+p106
+aVan ant adds up its stimulation from other ants
+p107
+aVto decide whether to forage.
+p108
+aVAnd what we're looking for is whether there might be
+p109
+aVsmall differences among colonies
+p110
+aVin how many interactions each ant needs
+p111
+aVbefore it's willing to go out and forage,
+p112
+aVbecause a colony like that would forage less.
+p113
+aa(lp114
+VAnd this raises an analogous question about brains.
+p115
+aVWe talk about the brain,
+p116
+aVbut of course every brain is slightly different,
+p117
+aVand maybe there are some individuals
+p118
+aVor some conditions
+p119
+aVin which the electrical properties of neurons are such
+p120
+aVthat they require more stimulus to fire,
+p121
+aVand that would lead to differences in brain function.
+p122
+aa(lp123
+VSo in order to ask evolutionary questions,
+p124
+aVwe need to know about reproductive success.
+p125
+aVThis is a map of the study site
+p126
+aVwhere I have been tracking this population
+p127
+aVof harvester ant colonies for 28 years,
+p128
+aVwhich is about as long as a colony lives.
+p129
+aVEach symbol is a colony,
+p130
+aVand the size of the symbol is how many offspring it had,
+p131
+aVbecause we were able to use genetic variation
+p132
+aVto match up parent and offspring colonies,
+p133
+aVthat is, to figure out which colonies
+p134
+aVwere founded by a daughter queen
+p135
+aVproduced by which parent colony.
+p136
+aVAnd this was amazing for me, after all these years,
+p137
+aVto find out, for example, that colony 154,
+p138
+aVwhom I've known well for many years,
+p139
+aVis a great-grandmother.
+p140
+aVHere's her daughter colony,
+p141
+aVhere's her granddaughter colony,
+p142
+aVand these are her great-granddaughter colonies.
+p143
+aVAnd by doing this, I was able to learn
+p144
+aVthat offspring colonies resemble parent colonies
+p145
+aVin their decisions about which days are so hot
+p146
+aVthat they don't forage,
+p147
+aVand the offspring of parent colonies
+p148
+aVlive so far from each other that the ants never meet,
+p149
+aVso the ants of the offspring colony
+p150
+aVcan't be learning this from the parent colony.
+p151
+aVAnd so our next step is to look
+p152
+aVfor the genetic variation underlying this resemblance.
+p153
+aa(lp154
+VSo then I was able to ask, okay, who's doing better?
+p155
+aVOver the time of the study,
+p156
+aVand especially in the past 10 years,
+p157
+aVthere's been a very severe and deepening drought
+p158
+aVin the Southwestern U.S.,
+p159
+aVand it turns out that the colonies that conserve water,
+p160
+aVthat stay in when it's really hot outside,
+p161
+aVand thus sacrifice getting as much food as possible,
+p162
+aVare the ones more likely to have offspring colonies.
+p163
+aVSo all this time, I thought that colony 154
+p164
+aVwas a loser, because on really dry days,
+p165
+aVthere'd be just this trickle of foraging,
+p166
+aVwhile the other colonies were out
+p167
+aVforaging, getting lots of food,
+p168
+aVbut in fact, colony 154 is a huge success.
+p169
+aVShe's a matriarch.
+p170
+aVShe's one of the rare great-grandmothers on the site.
+p171
+aVTo my knowledge, this is the first time
+p172
+aVthat we've been able to track
+p173
+aVthe ongoing evolution of collective behavior
+p174
+aVin a natural population of animals
+p175
+aVand find out what's actually working best.
+p176
+aa(lp177
+VNow, the Internet uses an algorithm
+p178
+aVto regulate the flow of data
+p179
+aVthat's very similar to the one
+p180
+aVthat the harvester ants are using to regulate
+p181
+aVthe flow of foragers.
+p182
+aVAnd guess what we call this analogy?
+p183
+aVThe anternet is coming.
+p184
+aV(Applause)
+p185
+aVSo data doesn't leave the source computer
+p186
+aVunless it gets a signal that there's enough bandwidth
+p187
+aVfor it to travel on.
+p188
+aVIn the early days of the Internet,
+p189
+aVwhen operating costs were really high
+p190
+aVand it was really important not to lose any data,
+p191
+aVthen the system was set up for interactions
+p192
+aVto activate the flow of data.
+p193
+aVIt's interesting that the ants are using an algorithm
+p194
+aVthat's so similar to the one that we recently invented,
+p195
+aVbut this is only one of a handful of ant algorithms
+p196
+aVthat we know about,
+p197
+aVand ants have had 130 million years
+p198
+aVto evolve a lot of good ones,
+p199
+aVand I think it's very likely
+p200
+aVthat some of the other 12,000 species
+p201
+aVare going to have interesting algorithms
+p202
+aVfor data networks
+p203
+aVthat we haven't even thought of yet.
+p204
+aa(lp205
+VSo what happens when operating costs are low?
+p206
+aVOperating costs are low in the tropics,
+p207
+aVbecause it's very humid, and it's easy for the ants
+p208
+aVto be outside walking around.
+p209
+aVBut the ants are so abundant
+p210
+aVand diverse in the tropics
+p211
+aVthat there's a lot of competition.
+p212
+aVWhatever resource one species is using,
+p213
+aVanother species is likely to be using that
+p214
+aVat the same time.
+p215
+aVSo in this environment, interactions are used
+p216
+aVin the opposite way.
+p217
+aVThe system keeps going
+p218
+aVunless something negative happens,
+p219
+aVand one species that I study makes circuits
+p220
+aVin the trees of foraging ants
+p221
+aVgoing from the nest to a food source and back,
+p222
+aVjust round and round,
+p223
+aVunless something negative happens,
+p224
+aVlike an interaction
+p225
+aVwith ants of another species.
+p226
+aVSo here's an example of ant security.
+p227
+aVIn the middle, there's an ant
+p228
+aVplugging the nest entrance with its head
+p229
+aVin response to interactions with another species.
+p230
+aVThose are the little ones running around
+p231
+aVwith their abdomens up in the air.
+p232
+aVBut as soon as the threat is passed,
+p233
+aVthe entrance is open again,
+p234
+aVand maybe there are situations
+p235
+aVin computer security
+p236
+aVwhere operating costs are low enough
+p237
+aVthat we could just block access temporarily
+p238
+aVin response to an immediate threat,
+p239
+aVand then open it again,
+p240
+aVinstead of trying to build
+p241
+aVa permanent firewall or fortress.
+p242
+aa(lp243
+VSo another environmental challenge
+p244
+aVthat all systems have to deal with
+p245
+aVis resources, finding and collecting them.
+p246
+aVAnd to do this, ants solve the problem
+p247
+aVof collective search,
+p248
+aVand this is a problem that's of great interest
+p249
+aVright now in robotics,
+p250
+aVbecause we've understood that,
+p251
+aVrather than sending a single,
+p252
+aVsophisticated, expensive robot out
+p253
+aVto explore another planet
+p254
+aVor to search a burning building,
+p255
+aVthat instead, it may be more effective
+p256
+aVto get a group of cheaper robots
+p257
+aVexchanging only minimal information,
+p258
+aVand that's the way that ants do it.
+p259
+aVSo the invasive Argentine ant
+p260
+aVmakes expandable search networks.
+p261
+aVThey're good at dealing with the main problem
+p262
+aVof collective search,
+p263
+aVwhich is the trade-off between
+p264
+aVsearching very thoroughly
+p265
+aVand covering a lot of ground.
+p266
+aVAnd what they do is,
+p267
+aVwhen there are many ants in a small space,
+p268
+aVthen each one can search very thoroughly
+p269
+aVbecause there will be another ant nearby
+p270
+aVsearching over there,
+p271
+aVbut when there are a few ants
+p272
+aVin a large space,
+p273
+aVthen they need to stretch out their paths
+p274
+aVto cover more ground.
+p275
+aVI think they use interactions to assess density,
+p276
+aVso when they're really crowded,
+p277
+aVthey meet more often,
+p278
+aVand they search more thoroughly.
+p279
+aVDifferent ant species must use different algorithms,
+p280
+aVbecause they've evolved to deal with
+p281
+aVdifferent resources,
+p282
+aVand it could be really useful to know about this,
+p283
+aVand so we recently asked ants
+p284
+aVto solve the collective search problem
+p285
+aVin the extreme environment
+p286
+aVof microgravity
+p287
+aVin the International Space Station.
+p288
+aVWhen I first saw this picture, I thought,
+p289
+aVOh no, they've mounted the habitat vertically,
+p290
+aVbut then I realized that, of course, it doesn't matter.
+p291
+aVSo the idea here is that the ants
+p292
+aVare working so hard to hang on
+p293
+aVto the wall or the floor or whatever you call it
+p294
+aVthat they're less likely to interact,
+p295
+aVand so the relationship between
+p296
+aVhow crowded they are and how often they meet
+p297
+aVwould be messed up.
+p298
+aVWe're still analyzing the data.
+p299
+aVI don't have the results yet.
+p300
+aVBut it would be interesting to know
+p301
+aVhow other species solve this problem
+p302
+aVin different environments on Earth,
+p303
+aVand so we're setting up a program
+p304
+aVto encourage kids around the world
+p305
+aVto try this experiment with different species.
+p306
+aVIt's very simple.
+p307
+aVIt can be done with cheap materials.
+p308
+aVAnd that way, we could make a global map
+p309
+aVof ant collective search algorithms.
+p310
+aVAnd I think it's pretty likely that the invasive species,
+p311
+aVthe ones that come into our buildings,
+p312
+aVare going to be really good at this,
+p313
+aVbecause they're in your kitchen
+p314
+aVbecause they're really good at finding food and water.
+p315
+aa(lp316
+VSo the most familiar resource for ants
+p317
+aVis a picnic,
+p318
+aVand this is a clustered resource.
+p319
+aVWhen there's one piece of fruit,
+p320
+aVthere's likely to be another piece of fruit nearby,
+p321
+aVand the ants that specialize on clustered resources
+p322
+aVuse interactions for recruitment.
+p323
+aVSo when one ant meets another,
+p324
+aVor when it meets a chemical deposited
+p325
+aVon the ground by another,
+p326
+aVthen it changes direction to follow
+p327
+aVin the direction of the interaction,
+p328
+aVand that's how you get the trail of ants
+p329
+aVsharing your picnic.
+p330
+aa(lp331
+VNow this is a place where I think we might be able
+p332
+aVto learn something from ants about cancer.
+p333
+aVI mean, first, it's obvious that we could do a lot
+p334
+aVto prevent cancer
+p335
+aVby not allowing people to spread around
+p336
+aVor sell the toxins that promote
+p337
+aVthe evolution of cancer in our bodies,
+p338
+aVbut I don't think the ants can help us much with this
+p339
+aVbecause ants never poison their own colonies.
+p340
+aVBut we might be able to learn something from ants
+p341
+aVabout treating cancer.
+p342
+aVThere are many different kinds of cancer.
+p343
+aVEach one originates in a particular part of the body,
+p344
+aVand then some kinds of cancer will spread
+p345
+aVor metastasize to particular other tissues
+p346
+aVwhere they must be getting resources that they need.
+p347
+aVSo if you think from the perspective
+p348
+aVof early metastatic cancer cells
+p349
+aVas they're out searching around
+p350
+aVfor the resources that they need,
+p351
+aVif those resources are clustered,
+p352
+aVthey're likely to use interactions for recruitment,
+p353
+aVand if we can figure out how cancer cells are recruiting,
+p354
+aVthen maybe we could set traps
+p355
+aVto catch them before they become established.
+p356
+aa(lp357
+VSo ants are using interactions in different ways
+p358
+aVin a huge variety of environments,
+p359
+aVand we could learn from this
+p360
+aVabout other systems that operate
+p361
+aVwithout central control.
+p362
+aVUsing only simple interactions,
+p363
+aVant colonies have been performing
+p364
+aVamazing feats for more than 130 million years.
+p365
+aVWe have a lot to learn from them.
+p366
+aa(lp367
+VThank you.
+p368
+aa(lp369
+V(Applause)
+p370
+aasS'transcript_micsec'
+p371
+(lp372
+I12000
+aI40000
+aI142000
+aI218000
+aI271000
+aI292000
+aI366000
+aI423000
+aI489000
+aI572000
+aI728000
+aI755000
+aI816000
+aI837000
+aI840000
+asS'talk_meta'
+p373
+(dp374
+S'ratings'
+p375
+(dp376
+S'beautiful'
+p377
+I36
+sS'funny'
+p378
+I8
+sS'inspiring'
+p379
+I76
+sS'ok'
+p380
+I75
+sS'fascinating'
+p381
+I210
+sS'total_count'
+p382
+I962
+sS'persuasive'
+p383
+I43
+sS'longwinded'
+p384
+I20
+sS'informative'
+p385
+I328
+sS'jaw-dropping'
+p386
+I17
+sS'ingenious'
+p387
+I81
+sS'obnoxious'
+p388
+I6
+sS'confusing'
+p389
+I20
+sS'courageous'
+p390
+I8
+sS'unconvincing'
+p391
+I34
+ssS'author'
+p392
+VDeborah_Gordon;
+p393
+sS'url'
+p394
+S'https://www.ted.com/talks/deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet'
+p395
+sS'vidlen'
+p396
+I849
+sS'totalviews'
+p397
+I1385708
+sS'title'
+p398
+VWhat ants teach us about the brain, cancer and the Internet
+p399
+sS'downloadlink'
+p400
+Vhttps://download.ted.com/talks/DeborahGordon_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p401
+sS'datepublished'
+p402
+cdatetime
+datetime
+p403
+(S'\x07\xde\x05\r\x0b\x02\x11\x00\x00\x00'
+tRp404
+sS'datefilmed'
+p405
+g403
+(S'\x07\xde\x05\r\x0b\x02\x11\x00\x00\x00'
+tRp406
+sS'alldata_JSON'
+p407
+S'{"viewed_count": 1385708, "speakers": [{"description": "Ecologist", "firstname": "Deborah", "title": "", "lastname": "Gordon", "middleinitial": "", "whylisten": "<p>Ecologist Deborah M. Gordon has learned that ant colonies can work without central control by using simple interactions like how often the insects touch antennae. Contrary to the notion that colonies are organized by efficient ants, she has instead discovered that evolution has produced<span> </span>&ldquo;noisy&rdquo; systems that tolerate accident and respond flexibly to the environment. When conditions are tough, natural selection favors colonies that conserve resources. </p><p>Her studies of ant colonies have led her and her Stanford colleagues to the discovery of the &ldquo;Anternet,&rdquo; which regulates foraging in ants in the same way the internet regulates data traffic.  But as she said to <a href=\\"http://www.wired.com/opinion/2013/07/what-ants-yes-know-that-we-dont-the-future-of-networking/\\" target=\\"_blank\\"><em>Wired</em></a>  in 2013, &quot;Insect behavior mimicking human networks ... is actually not what&rsquo;s most interesting about ant networks. What&rsquo;s far more interesting are the parallels in the other direction: What have the ants worked out that we humans haven&rsquo;t thought of yet?&quot; Her latest exploration: How do ants behave <a href=\\"http://news.stanford.edu/pr/2014/pr-ants-in-space-011714.html\\" target=\\"_blank\\">in space</a>?</p>", "slug": "deborah_gordon", "whotheyare": "By studying how ant colonies work without any one leader, Deborah Gordon has identified striking similarities in how ant colonies, brains, cells and computer networks regulate themselves.", "whatotherssay": "To understand how [harvester ant] foraging differences pay off in the long run, you\\u2019d need to study a group of harvesters for decades. That\\u2019s exactly what Gordon has done. Since she was a graduate student in 1985, she has almost single-handedly kept an annual census of around 300 harvester colonies in an area of New Mexico.", "id": 127, "photo_url": "https://pe.tedcdn.com/images/ted/5684cdf77548fe6deaa1b865e95fa233fffd9fe7_254x191.jpg"}], "current_talk": 1995, "description": "Ecologist Deborah Gordon studies ants wherever she can find them -- in the desert, in the tropics, in her kitchen ... In this fascinating talk, she explains her obsession with insects most of us would happily swat away without a second thought. She argues that ant life provides a useful model for learning about many other topics, including disease, technology and the human brain.", "language": "en", "url": "https://www.ted.com/talks/deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101056155}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19548263}, "podcast-high": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101036171}, "180k": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 19442533}, "64k": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6987126}, "1500k": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 157214904}, "450k": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48083332}, "podcast-regular": {"uri": "https://download.ted.com/talks/DeborahGordon_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 48253227}, "950k": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 101065611}, "audio-podcast": {"uri": "https://download.ted.com/talks/DeborahGordon_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8785026}, "podcast-light": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7086531}, "320k": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 34435535}, "600k": {"uri": "https://download.ted.com/talks/DeborahGordon_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 64369597}}}, "comments": {"count": 49, "id": 26145, "talk_id": 1995}, "slug": "deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet", "threadId": 26145, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet", "filmed": 1395273600, "targeting": {"event": "TED2014", "tag": "Internet,algorithm,animals,ants,biomimicry,cancer,computers,evolution,insects,nature,science", "id": 1995, "talk": "deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "What ants teach us about the brain, cancer and the Internet", "postAdDuration": "0.83", "published": 1399993337, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/856d11b361f4de89de9c962613ae3510e6f7c178_1600x1200.jpg?quality=89&w=600", "name": "Deborah Gordon: What ants teach us about the brain, cancer and the Internet", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Internet", "algorithm", "animals", "ants", "biomimicry", "cancer", "computers", "evolution", "insects", "nature", "science"], "speaker": "Deborah Gordon", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 849, "id": 1995, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DeborahGordon_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "Internet,algorithm,animals,ants,biomimicry,cancer,computers,evolution,insects,nature,science", "id": 1995, "talk": "deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet", "year": "2014"}, "metadata": "https://hls.ted.com/talks/1995.json", "stream": "https://hls.ted.com/talks/1995.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D1995%26tag%3DInternet%2Calgorithm%2Canimals%2Cants%2Cbiomimicry%2Ccancer%2Ccomputers%2Cevolution%2Cinsects%2Cnature%2Cscience%26talk%3Ddeborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/856d11b361f4de89de9c962613ae3510e6f7c178_1600x1200.jpg?q=50&w=15", "duration": 849, "id": 1995, "ratings": [{"count": 34, "id": 21, "name": "Unconvincing"}, {"count": 75, "id": 25, "name": "OK"}, {"count": 20, "id": 11, "name": "Longwinded"}, {"count": 328, "id": 8, "name": "Informative"}, {"count": 36, "id": 1, "name": "Beautiful"}, {"count": 76, "id": 10, "name": "Inspiring"}, {"count": 8, "id": 7, "name": "Funny"}, {"count": 210, "id": 22, "name": "Fascinating"}, {"count": 81, "id": 9, "name": "Ingenious"}, {"count": 43, "id": 24, "name": "Persuasive"}, {"count": 20, "id": 2, "name": "Confusing"}, {"count": 17, "id": 23, "name": "Jaw-dropping"}, {"count": 8, "id": 3, "name": "Courageous"}, {"count": 6, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Ecologist", "firstname": "Deborah", "title": "", "lastname": "Gordon", "middleinitial": "", "whylisten": "<p>Ecologist Deborah M. Gordon has learned that ant colonies can work without central control by using simple interactions like how often the insects touch antennae. Contrary to the notion that colonies are organized by efficient ants, she has instead discovered that evolution has produced<span> </span>&ldquo;noisy&rdquo; systems that tolerate accident and respond flexibly to the environment. When conditions are tough, natural selection favors colonies that conserve resources. </p><p>Her studies of ant colonies have led her and her Stanford colleagues to the discovery of the &ldquo;Anternet,&rdquo; which regulates foraging in ants in the same way the internet regulates data traffic.  But as she said to <a href=\\"http://www.wired.com/opinion/2013/07/what-ants-yes-know-that-we-dont-the-future-of-networking/\\" target=\\"_blank\\"><em>Wired</em></a>  in 2013, &quot;Insect behavior mimicking human networks ... is actually not what&rsquo;s most interesting about ant networks. What&rsquo;s far more interesting are the parallels in the other direction: What have the ants worked out that we humans haven&rsquo;t thought of yet?&quot; Her latest exploration: How do ants behave <a href=\\"http://news.stanford.edu/pr/2014/pr-ants-in-space-011714.html\\" target=\\"_blank\\">in space</a>?</p>", "slug": "deborah_gordon", "whotheyare": "By studying how ant colonies work without any one leader, Deborah Gordon has identified striking similarities in how ant colonies, brains, cells and computer networks regulate themselves.", "whatotherssay": "To understand how [harvester ant] foraging differences pay off in the long run, you\\u2019d need to study a group of harvesters for decades. That\\u2019s exactly what Gordon has done. Since she was a graduate student in 1985, she has almost single-handedly kept an annual census of around 300 harvester colonies in an area of New Mexico.", "id": 127, "photo_url": "https://pe.tedcdn.com/images/ted/5684cdf77548fe6deaa1b865e95fa233fffd9fe7_254x191.jpg"}], "title": "What ants teach us about the brain, cancer and the Internet", "take_action": [], "comments": 26145, "more_resources": [{"status": "approved", "publisher": "Princeton University Press", "start_at": null, "author": "Deborah Gordon", "headline": "*Ant Encounters*", "link_url": "http://www.amazon.com/Ant-Encounters-Interaction-Networks-Behavior/dp/0691138796/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/21cb795e4a1651acb7c6b5cc08e60b53a5fab9a0_443x695.jpg", "year": "2010", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/856d11b361f4de89de9c962613ae3510e6f7c178_1600x1200.jpg", "description": "Ecologist Deborah Gordon studies ants wherever she can find them -- in the desert, in the tropics, in her kitchen ... In this fascinating talk, she explains her obsession with insects most of us would happily swat away without a second thought. She argues that ant life provides a useful model for learning about many other topics, including disease, technology and the human brain.", "tags": ["Internet", "algorithm", "animals", "ants", "biomimicry", "cancer", "computers", "evolution", "insects", "nature", "science"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "my", "endonym": "\\u1019\\u103c\\u1014\\u103a\\u1019\\u102c\\u1018\\u102c\\u101e\\u102c", "isRtl": false, "ianaCode": "my", "languageName": "Burmese"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-pt-br.mp4"}, "id": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-da.mp4"}, "fa": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-fa.mp4"}, "hu": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-sk.mp4"}, "my": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p-my.mp4", "name": "Burmese", "low": "https://download.ted.com/talks/DeborahGordon_2014-low-my.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DeborahGordon_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DeborahGordon_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DeborahGordon_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1995, "audioDownload": "https://download.ted.com/talks/DeborahGordon_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2454630, "hero": "https://pe.tedcdn.com/images/ted/c58cf2dbb9f8843b91eb2228caf27974b5f428de_1600x1200.jpg", "title": "Why bees are disappearing", "id": 1822, "speaker": "Marla Spivak", "duration": 957, "slug": "marla_spivak_why_bees_are_disappearing"}, {"viewed_count": 1431031, "hero": "https://pe.tedcdn.com/images/ted/195843_800x600.jpg", "title": "The world\'s oldest living things", "id": 948, "speaker": "Rachel Sussman", "duration": 848, "slug": "rachel_sussman_the_world_s_oldest_living_things"}, {"viewed_count": 1582293, "hero": "https://pe.tedcdn.com/images/ted/358f8320e4a3b2a9f21dc6ae0585b8ddc071c1a5_1600x1200.jpg", "title": "How a fly flies", "id": 1674, "speaker": "Michael Dickinson", "duration": 955, "slug": "michael_dickinson_how_a_fly_flies"}, {"viewed_count": 939894, "hero": "https://pe.tedcdn.com/images/ted/29333ffe97803b733ce8a21f90c0b0e738a3adc5_1600x1200.jpg", "title": "The emergent genius of ant colonies", "id": 145, "speaker": "Deborah Gordon", "duration": 1231, "slug": "deborah_gordon_digs_ants"}, {"viewed_count": 1603982, "hero": "https://pe.tedcdn.com/images/ted/6348_480x360.jpg", "title": "Dangerous memes", "id": 116, "speaker": "Dan Dennett", "duration": 926, "slug": "dan_dennett_on_dangerous_memes"}, {"viewed_count": 432489, "hero": "https://pe.tedcdn.com/images/ted/b3f08de406d119a01844cbdd5eeed3c41d5d20ae_1600x1200.jpg", "title": "The power and the danger of online crowds", "id": 390, "speaker": "James Surowiecki", "duration": 1019, "slug": "james_surowiecki_on_the_turning_point_for_social_media"}], "recorded_at": "2014-03-20T00:00:00.000+00:00", "slug": "deborah_gordon_what_ants_teach_us_about_the_brain_cancer_and_the_internet", "speaker_name": "Deborah Gordon", "viewed_count": 1385708, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Deborah Gordon recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "What Do Ants Know That We Don\'t?", "link_url": "http://www.wired.com/opinion/2013/07/what-ants-yes-know-that-we-dont-the-future-of-networking/", "eyebrow": null, "label": "READ_Article", "note": "Deborah Gordon\\r\\n*Wired*, July 6, 2013", "position": null, "blurb": "This article explores what we can learn from ants about engineered data systems."}, {"is_pdf": false, "headline": "The Ecology of Collective Behavior", "link_url": "http://www.plosbiology.org/article/info:doi/10.1371/journal.pbio.1001805", "eyebrow": null, "label": "READ_Article", "note": "Deborah Gordon\\r\\n*PLOS Biology*, March 11, 2014", "position": null, "blurb": "How interaction networks evolve in response to environmental challenges in biological systems."}], "title": "reading list"}], "published": true, "type": "recommendation", "blurb": "The ecologist shares further reading on \\"ant groupthink\\" \\u2014 along with thoughts on what humans can learn from it."}, "corrections": []}], "event": "TED2014", "name": "Deborah Gordon: What ants teach us about the brain, cancer and the Internet"}'
+p408
+sS'keywords'
+p409
+(lp410
+VInternet
+p411
+aValgorithm
+p412
+aVanimals
+p413
+aVants
+p414
+aVbiomimicry
+p415
+aVcancer
+p416
+aVcomputers
+p417
+aVevolution
+p418
+aVinsects
+p419
+aVnature
+p420
+aVscience
+p421
+asS'datecrawled'
+p422
+g403
+(S'\x07\xe1\n\x17\x00\x03\x08\x0c\xe9\xb4'
+tRp423
+sS'id'
+p424
+I1995
+ss.

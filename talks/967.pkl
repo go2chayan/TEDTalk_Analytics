@@ -1,0 +1,992 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWe live in in a remarkable time,
+p5
+aVthe age of genomics.
+p6
+aVYour genome is the entire sequence of your DNA.
+p7
+aVYour sequence and mine are slightly different.
+p8
+aVThat's why we look different.
+p9
+aVI've got brown eyes;
+p10
+aVyou might have blue or gray.
+p11
+aVBut it's not just skin-deep.
+p12
+aVThe headlines tell us
+p13
+aVthat genes can give us scary diseases,
+p14
+aVmaybe even shape our personality,
+p15
+aVor give us mental disorders.
+p16
+aVOur genes seem to have
+p17
+aVawesome power over our destinies.
+p18
+aVAnd yet, I would like to think
+p19
+aVthat I am more than my genes.
+p20
+aVWhat do you guys think?
+p21
+aVAre you more than your genes?
+p22
+aV(Audience: Yes.) Yes?
+p23
+aVI think some people agree with me.
+p24
+aVI think we should make a statement.
+p25
+aVI think we should say it all together.
+p26
+aVAll right: "I'm more than my genes" \u2014 all together.
+p27
+aVEverybody: I am more than my genes.
+p28
+aV(Cheering)
+p29
+aVSebastian Seung: What am I?
+p30
+aV(Laughter)
+p31
+aVI am my connectome.
+p32
+aVNow, since you guys are really great,
+p33
+aVmaybe you can humor me and say this all together too.
+p34
+aV(Laughter)
+p35
+aVRight. All together now.
+p36
+aVEverybody: I am my connectome.
+p37
+aVSS: That sounded great.
+p38
+aVYou know, you guys are so great, you don't even know what a connectome is,
+p39
+aVand you're willing to play along with me.
+p40
+aVI could just go home now.
+p41
+aa(lp42
+VWell, so far only one connectome is known,
+p43
+aVthat of this tiny worm.
+p44
+aVIts modest nervous system
+p45
+aVconsists of just 300 neurons.
+p46
+aVAnd in the 1970s and '80s,
+p47
+aVa team of scientists
+p48
+aVmapped all 7,000 connections
+p49
+aVbetween the neurons.
+p50
+aVIn this diagram, every node is a neuron,
+p51
+aVand every line is a connection.
+p52
+aVThis is the connectome
+p53
+aVof the worm C. elegans.
+p54
+aVYour connectome is far more complex than this
+p55
+aVbecause your brain
+p56
+aVcontains 100 billion neurons
+p57
+aVand 10,000 times as many connections.
+p58
+aVThere's a diagram like this for your brain,
+p59
+aVbut there's no way it would fit on this slide.
+p60
+aVYour connectome contains one million times more connections
+p61
+aVthan your genome has letters.
+p62
+aVThat's a lot of information.
+p63
+aa(lp64
+VWhat's in that information?
+p65
+aVWe don't know for sure, but there are theories.
+p66
+aVSince the 19th century, neuroscientists have speculated
+p67
+aVthat maybe your memories \u2014
+p68
+aVthe information that makes you, you \u2014
+p69
+aVmaybe your memories are stored
+p70
+aVin the connections between your brain's neurons.
+p71
+aVAnd perhaps other aspects of your personal identity \u2014
+p72
+aVmaybe your personality and your intellect \u2014
+p73
+aVmaybe they're also encoded
+p74
+aVin the connections between your neurons.
+p75
+aVAnd so now you can see why I proposed this hypothesis:
+p76
+aVI am my connectome.
+p77
+aVI didn't ask you to chant it because it's true;
+p78
+aVI just want you to remember it.
+p79
+aVAnd in fact, we don't know if this hypothesis is correct,
+p80
+aVbecause we have never had technologies
+p81
+aVpowerful enough to test it.
+p82
+aVFinding that worm connectome
+p83
+aVtook over a dozen years of tedious labor.
+p84
+aVAnd to find the connectomes of brains more like our own,
+p85
+aVwe need more sophisticated technologies, that are automated,
+p86
+aVthat will speed up the process of finding connectomes.
+p87
+aVAnd in the next few minutes, I'll tell you about some of these technologies,
+p88
+aVwhich are currently under development
+p89
+aVin my lab and the labs of my collaborators.
+p90
+aa(lp91
+VNow you've probably seen pictures of neurons before.
+p92
+aVYou can recognize them instantly
+p93
+aVby their fantastic shapes.
+p94
+aVThey extend long and delicate branches,
+p95
+aVand in short, they look like trees.
+p96
+aVBut this is just a single neuron.
+p97
+aVIn order to find connectomes,
+p98
+aVwe have to see all the neurons at the same time.
+p99
+aVSo let's meet Bobby Kasthuri,
+p100
+aVwho works in the laboratory of Jeff Lichtman
+p101
+aVat Harvard University.
+p102
+aVBobby is holding fantastically thin slices
+p103
+aVof a mouse brain.
+p104
+aVAnd we're zooming in by a factor of 100,000 times
+p105
+aVto obtain the resolution,
+p106
+aVso that we can see the branches of neurons all at the same time.
+p107
+aVExcept, you still may not really recognize them,
+p108
+aVand that's because we have to work in three dimensions.
+p109
+aa(lp110
+VIf we take many images of many slices of the brain
+p111
+aVand stack them up,
+p112
+aVwe get a three-dimensional image.
+p113
+aVAnd still, you may not see the branches.
+p114
+aVSo we start at the top,
+p115
+aVand we color in the cross-section of one branch in red,
+p116
+aVand we do that for the next slice
+p117
+aVand for the next slice.
+p118
+aVAnd we keep on doing that,
+p119
+aVslice after slice.
+p120
+aVIf we continue through the entire stack,
+p121
+aVwe can reconstruct the three-dimensional shape
+p122
+aVof a small fragment of a branch of a neuron.
+p123
+aVAnd we can do that for another neuron in green.
+p124
+aVAnd you can see that the green neuron touches the red neuron
+p125
+aVat two locations,
+p126
+aVand these are what are called synapses.
+p127
+aa(lp128
+VLet's zoom in on one synapse,
+p129
+aVand keep your eyes on the interior of the green neuron.
+p130
+aVYou should see small circles \u2014
+p131
+aVthese are called vesicles.
+p132
+aVThey contain a molecule know as a neurotransmitter.
+p133
+aVAnd so when the green neuron wants to communicate,
+p134
+aVit wants to send a message to the red neuron,
+p135
+aVit spits out neurotransmitter.
+p136
+aVAt the synapse, the two neurons
+p137
+aVare said to be connected
+p138
+aVlike two friends talking on the telephone.
+p139
+aa(lp140
+VSo you see how to find a synapse.
+p141
+aVHow can we find an entire connectome?
+p142
+aVWell, we take this three-dimensional stack of images
+p143
+aVand treat it as a gigantic three-dimensional coloring book.
+p144
+aVWe color every neuron in, in a different color,
+p145
+aVand then we look through all of the images,
+p146
+aVfind the synapses
+p147
+aVand note the colors of the two neurons involved in each synapse.
+p148
+aVIf we can do that throughout all the images,
+p149
+aVwe could find a connectome.
+p150
+aa(lp151
+VNow, at this point,
+p152
+aVyou've learned the basics of neurons and synapses.
+p153
+aVAnd so I think we're ready to tackle
+p154
+aVone of the most important questions in neuroscience:
+p155
+aVhow are the brains of men and women different?
+p156
+aV(Laughter)
+p157
+aVAccording to this self-help book,
+p158
+aVguys brains are like waffles;
+p159
+aVthey keep their lives compartmentalized in boxes.
+p160
+aVGirls' brains are like spaghetti;
+p161
+aVeverything in their life is connected to everything else.
+p162
+aV(Laughter)
+p163
+aVYou guys are laughing,
+p164
+aVbut you know, this book changed my life.
+p165
+aV(Laughter)
+p166
+aVBut seriously, what's wrong with this?
+p167
+aVYou already know enough to tell me \u2014 what's wrong with this statement?
+p168
+aVIt doesn't matter whether you're a guy or girl,
+p169
+aVeveryone's brains are like spaghetti.
+p170
+aVOr maybe really, really fine capellini with branches.
+p171
+aVJust as one strand of spaghetti
+p172
+aVcontacts many other strands on your plate,
+p173
+aVone neuron touches many other neurons
+p174
+aVthrough their entangled branches.
+p175
+aVOne neuron can be connected to so many other neurons,
+p176
+aVbecause there can be synapses
+p177
+aVat these points of contact.
+p178
+aVBy now, you might have sort of lost perspective
+p179
+aVon how large this cube of brain tissue actually is.
+p180
+aa(lp181
+VAnd so let's do a series of comparisons to show you.
+p182
+aVI assure you, this is very tiny. It's just six microns on a side.
+p183
+aVSo, here's how it stacks up against an entire neuron.
+p184
+aVAnd you can tell that, really, only the smallest fragments of branches
+p185
+aVare contained inside this cube.
+p186
+aVAnd a neuron, well, that's smaller than brain.
+p187
+aVAnd that's just a mouse brain \u2014
+p188
+aVit's a lot smaller than a human brain.
+p189
+aVSo when show my friends this,
+p190
+aVsometimes they've told me,
+p191
+aV"You know, Sebastian, you should just give up.
+p192
+aVNeuroscience is hopeless."
+p193
+aVBecause if you look at a brain with your naked eye,
+p194
+aVyou don't really see how complex it is,
+p195
+aVbut when you use a microscope,
+p196
+aVfinally the hidden complexity is revealed.
+p197
+aa(lp198
+VIn the 17th century,
+p199
+aVthe mathematician and philosopher, Blaise Pascal,
+p200
+aVwrote of his dread of the infinite,
+p201
+aVhis feeling of insignificance
+p202
+aVat contemplating the vast reaches of outer space.
+p203
+aVAnd, as a scientist,
+p204
+aVI'm not supposed to talk about my feelings \u2014
+p205
+aVtoo much information, professor.
+p206
+aV(Laughter)
+p207
+aVBut may I?
+p208
+aV(Laughter)
+p209
+aV(Applause)
+p210
+aVI feel curiosity,
+p211
+aVand I feel wonder,
+p212
+aVbut at times I have also felt despair.
+p213
+aVWhy did I choose to study
+p214
+aVthis organ that is so awesome in its complexity
+p215
+aVthat it might well be infinite?
+p216
+aVIt's absurd.
+p217
+aVHow could we even dare to think
+p218
+aVthat we might ever understand this?
+p219
+aa(lp220
+VAnd yet, I persist in this quixotic endeavor.
+p221
+aVAnd indeed, these days I harbor new hopes.
+p222
+aVSomeday,
+p223
+aVa fleet of microscopes will capture
+p224
+aVevery neuron and every synapse
+p225
+aVin a vast database of images.
+p226
+aVAnd some day, artificially intelligent supercomputers
+p227
+aVwill analyze the images without human assistance
+p228
+aVto summarize them in a connectome.
+p229
+aVI do not know, but I hope that I will live to see that day,
+p230
+aVbecause finding an entire human connectome
+p231
+aVis one of the greatest technological challenges of all time.
+p232
+aVIt will take the work of generations to succeed.
+p233
+aVAt the present time, my collaborators and I,
+p234
+aVwhat we're aiming for is much more modest \u2014
+p235
+aVjust to find partial connectomes
+p236
+aVof tiny chunks of mouse and human brain.
+p237
+aVBut even that will be enough for the first tests of this hypothesis
+p238
+aVthat I am my connectome.
+p239
+aVFor now, let me try to convince you of the plausibility of this hypothesis,
+p240
+aVthat it's actually worth taking seriously.
+p241
+aa(lp242
+VAs you grow during childhood
+p243
+aVand age during adulthood,
+p244
+aVyour personal identity changes slowly.
+p245
+aVLikewise, every connectome
+p246
+aVchanges over time.
+p247
+aVWhat kinds of changes happen?
+p248
+aVWell, neurons, like trees,
+p249
+aVcan grow new branches,
+p250
+aVand they can lose old ones.
+p251
+aVSynapses can be created,
+p252
+aVand they can be eliminated.
+p253
+aVAnd synapses can grow larger,
+p254
+aVand they can grow smaller.
+p255
+aVSecond question:
+p256
+aVwhat causes these changes?
+p257
+aVWell, it's true.
+p258
+aVTo some extent, they are programmed by your genes.
+p259
+aVBut that's not the whole story,
+p260
+aVbecause there are signals, electrical signals,
+p261
+aVthat travel along the branches of neurons
+p262
+aVand chemical signals
+p263
+aVthat jump across from branch to branch.
+p264
+aVThese signals are called neural activity.
+p265
+aVAnd there's a lot of evidence
+p266
+aVthat neural activity
+p267
+aVis encoding our thoughts, feelings and perceptions,
+p268
+aVour mental experiences.
+p269
+aVAnd there's a lot of evidence that neural activity
+p270
+aVcan cause your connections to change.
+p271
+aVAnd if you put those two facts together,
+p272
+aVit means that your experiences
+p273
+aVcan change your connectome.
+p274
+aVAnd that's why every connectome is unique,
+p275
+aVeven those of genetically identical twins.
+p276
+aVThe connectome is where nature meets nurture.
+p277
+aVAnd it might true
+p278
+aVthat just the mere act of thinking
+p279
+aVcan change your connectome \u2014
+p280
+aVan idea that you may find empowering.
+p281
+aa(lp282
+VWhat's in this picture?
+p283
+aVA cool and refreshing stream of water, you say.
+p284
+aVWhat else is in this picture?
+p285
+aVDo not forget that groove in the Earth
+p286
+aVcalled the stream bed.
+p287
+aVWithout it, the water would not know in which direction to flow.
+p288
+aVAnd with the stream,
+p289
+aVI would like to propose a metaphor
+p290
+aVfor the relationship between neural activity
+p291
+aVand connectivity.
+p292
+aVNeural activity is constantly changing.
+p293
+aVIt's like the water of the stream; it never sits still.
+p294
+aVThe connections
+p295
+aVof the brain's neural network
+p296
+aVdetermines the pathways
+p297
+aValong which neural activity flows.
+p298
+aVAnd so the connectome is like bed of the stream;
+p299
+aVbut the metaphor is richer than that,
+p300
+aVbecause it's true that the stream bed
+p301
+aVguides the flow of the water,
+p302
+aVbut over long timescales,
+p303
+aVthe water also reshapes the bed of the stream.
+p304
+aVAnd as I told you just now,
+p305
+aVneural activity can change the connectome.
+p306
+aVAnd if you'll allow me to ascend
+p307
+aVto metaphorical heights,
+p308
+aVI will remind you that neural activity
+p309
+aVis the physical basis \u2014 or so neuroscientists think \u2014
+p310
+aVof thoughts, feelings and perceptions.
+p311
+aVAnd so we might even speak of
+p312
+aVthe stream of consciousness.
+p313
+aVNeural activity is its water,
+p314
+aVand the connectome is its bed.
+p315
+aa(lp316
+VSo let's return from the heights of metaphor
+p317
+aVand return to science.
+p318
+aVSuppose our technologies for finding connectomes
+p319
+aVactually work.
+p320
+aVHow will we go about testing the hypothesis
+p321
+aV"I am my connectome?"
+p322
+aVWell, I propose a direct test.
+p323
+aVLet us attempt
+p324
+aVto read out memories from connectomes.
+p325
+aVConsider the memory
+p326
+aVof long temporal sequences of movements,
+p327
+aVlike a pianist playing a Beethoven sonata.
+p328
+aVAccording to a theory that dates back to the 19th century,
+p329
+aVsuch memories are stored
+p330
+aVas chains of synaptic connections inside your brain.
+p331
+aVBecause, if the first neurons in the chain are activated,
+p332
+aVthrough their synapses they send messages to the second neurons, which are activated,
+p333
+aVand so on down the line,
+p334
+aVlike a chain of falling dominoes.
+p335
+aVAnd this sequence of neural activation
+p336
+aVis hypothesized to be the neural basis
+p337
+aVof those sequence of movements.
+p338
+aa(lp339
+VSo one way of trying to test the theory
+p340
+aVis to look for such chains
+p341
+aVinside connectomes.
+p342
+aVBut it won't be easy, because they're not going to look like this.
+p343
+aVThey're going to be scrambled up.
+p344
+aVSo we'll have to use our computers
+p345
+aVto try to unscramble the chain.
+p346
+aVAnd if we can do that,
+p347
+aVthe sequence of the neurons we recover from that unscrambling
+p348
+aVwill be a prediction of the pattern of neural activity
+p349
+aVthat is replayed in the brain during memory recall.
+p350
+aVAnd if that were successful,
+p351
+aVthat would be the first example of reading a memory from a connectome.
+p352
+aa(lp353
+V(Laughter)
+p354
+aa(lp355
+VWhat a mess \u2014
+p356
+aVhave you ever tried to wire up a system
+p357
+aVas complex as this?
+p358
+aVI hope not.
+p359
+aVBut if you have, you know it's very easy to make a mistake.
+p360
+aVThe branches of neurons are like the wires of the brain.
+p361
+aVCan anyone guess: what's the total length of wires in your brain?
+p362
+aVI'll give you a hint. It's a big number.
+p363
+aV(Laughter)
+p364
+aVI estimate, millions of miles,
+p365
+aVall packed in your skull.
+p366
+aVAnd if you appreciate that number,
+p367
+aVyou can easily see
+p368
+aVthere is huge potential for mis-wiring of the brain.
+p369
+aVAnd indeed, the popular press loves headlines like,
+p370
+aV"Anorexic brains are wired differently,"
+p371
+aVor "Autistic brains are wired differently."
+p372
+aVThese are plausible claims,
+p373
+aVbut in truth,
+p374
+aVwe can't see the brain's wiring clearly enough
+p375
+aVto tell if these are really true.
+p376
+aVAnd so the technologies for seeing connectomes
+p377
+aVwill allow us to finally
+p378
+aVread mis-wiring of the brain,
+p379
+aVto see mental disorders in connectomes.
+p380
+aa(lp381
+VSometimes the best way to test a hypothesis
+p382
+aVis to consider its most extreme implication.
+p383
+aVPhilosophers know this game very well.
+p384
+aVIf you believe that I am my connectome,
+p385
+aVI think you must also accept the idea
+p386
+aVthat death is the destruction
+p387
+aVof your connectome.
+p388
+aVI mention this because there are prophets today
+p389
+aVwho claim that technology
+p390
+aVwill fundamentally alter the human condition
+p391
+aVand perhaps even transform the human species.
+p392
+aVOne of their most cherished dreams
+p393
+aVis to cheat death
+p394
+aVby that practice known as cryonics.
+p395
+aVIf you pay 100,000 dollars,
+p396
+aVyou can arrange to have your body frozen after death
+p397
+aVand stored in liquid nitrogen
+p398
+aVin one of these tanks in an Arizona warehouse,
+p399
+aVawaiting a future civilization
+p400
+aVthat is advanced to resurrect you.
+p401
+aa(lp402
+VShould we ridicule the modern seekers of immortality,
+p403
+aVcalling them fools?
+p404
+aVOr will they someday chuckle
+p405
+aVover our graves?
+p406
+aVI don't know \u2014
+p407
+aVI prefer to test their beliefs, scientifically.
+p408
+aVI propose that we attempt to find a connectome
+p409
+aVof a frozen brain.
+p410
+aVWe know that damage to the brain
+p411
+aVoccurs after death and during freezing.
+p412
+aVThe question is: has that damage erased the connectome?
+p413
+aVIf it has, there is no way that any future civilization
+p414
+aVwill be able to recover the memories of these frozen brains.
+p415
+aVResurrection might succeed for the body,
+p416
+aVbut not for the mind.
+p417
+aVOn the other hand, if the connectome is still intact,
+p418
+aVwe cannot ridicule the claims of cryonics so easily.
+p419
+aa(lp420
+VI've described a quest
+p421
+aVthat begins in the world of the very small,
+p422
+aVand propels us to the world of the far future.
+p423
+aVConnectomes will mark a turning point in human history.
+p424
+aVAs we evolved from our ape-like ancestors
+p425
+aVon the African savanna,
+p426
+aVwhat distinguished us was our larger brains.
+p427
+aVWe have used our brains to fashion
+p428
+aVever more amazing technologies.
+p429
+aVEventually, these technologies will become so powerful
+p430
+aVthat we will use them to know ourselves
+p431
+aVby deconstructing and reconstructing
+p432
+aVour own brains.
+p433
+aVI believe that this voyage of self-discovery
+p434
+aVis not just for scientists,
+p435
+aVbut for all of us.
+p436
+aVAnd I'm grateful for the opportunity to share this voyage with you today.
+p437
+aa(lp438
+VThank you.
+p439
+aa(lp440
+V(Applause)
+p441
+aasS'transcript_micsec'
+p442
+(lp443
+I13000
+aI118000
+aI171000
+aI244000
+aI292000
+aI330000
+aI358000
+aI385000
+aI471000
+aI521000
+aI574000
+aI638000
+aI740000
+aI833000
+aI888000
+aI924000
+aI926000
+aI996000
+aI1052000
+aI1096000
+aI1144000
+aI1146000
+asS'talk_meta'
+p444
+(dp445
+S'ratings'
+p446
+(dp447
+S'ingenious'
+p448
+I249
+sS'beautiful'
+p449
+I120
+sS'inspiring'
+p450
+I494
+sS'ok'
+p451
+I122
+sS'fascinating'
+p452
+I995
+sS'funny'
+p453
+I81
+sS'total_count'
+p454
+I3443
+sS'persuasive'
+p455
+I202
+sS'longwinded'
+p456
+I105
+sS'informative'
+p457
+I583
+sS'jaw-dropping'
+p458
+I272
+sS'obnoxious'
+p459
+I93
+sS'confusing'
+p460
+I8
+sS'courageous'
+p461
+I69
+sS'unconvincing'
+p462
+I50
+ssS'author'
+p463
+VSebastian_Seung;
+p464
+sS'url'
+p465
+S'https://www.ted.com/talks/sebastian_seung'
+p466
+sS'vidlen'
+p467
+I1165
+sS'totalviews'
+p468
+I948457
+sS'title'
+p469
+VI am my connectome
+p470
+sS'downloadlink'
+p471
+Vhttps://download.ted.com/talks/SebastianSeung_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p472
+sS'datepublished'
+p473
+cdatetime
+datetime
+p474
+(S'\x07\xda\t\x1c\x04-\x00\x00\x00\x00'
+tRp475
+sS'datefilmed'
+p476
+g474
+(S'\x07\xda\t\x1c\x04-\x00\x00\x00\x00'
+tRp477
+sS'alldata_JSON'
+p478
+S'{"viewed_count": 948457, "speakers": [{"description": "Computational neuroscientist", "firstname": "Sebastian", "title": "", "lastname": "Seung", "middleinitial": "", "whylisten": "<p>In the brain, neurons are connected into a complex network. Sebastian Seung and his lab at MIT are inventing technologies for identifying and describing the connectome, the totality of connections between the brain&#39;s neurons -- think of it as the wiring diagram of the brain. We possess our entire genome at birth, but things like memories are not &quot;stored&quot; in the genome; they are acquired through life and accumulated in the brain. Seung&#39;s hypothesis is that &quot;we are our connectome,&quot; that the connections among neurons is where memories and experiences get stored. </p><p>Seung and his collaborators, including Winfried Denk at the Max Planck Institute and Jeff Lichtman at Harvard University, are working on a plan to thin-slice a brain (probably starting with a mouse brain) and trace, from slice to slice, each neural pathway, exposing the wiring diagram of the brain and creating a powerful new way to visualize the workings of the mind. They&#39;re not the first to attempt something like this -- Sydney Brenner won a Nobel for mapping all the 7,000 connections in the nervous system of a tiny worm, C. elegans. But that took his team a dozen years, and the worm only had 302 nerve cells. One of Seung&#39;s breakthroughs is in using advanced imagining and AI to handle the crushing amount of data that a mouse brain will yield and turn it into richly visual maps that show the passageways of thought and sensation.</p>", "slug": "sebastian_seung", "whotheyare": "Sebastian Seung is a leader in the new field of connectomics, currently the hottest space in neuroscience, which studies, in once-impossible detail, the wiring of the brain.", "whatotherssay": "[Seung and his colleagues] will need to make their technique a million times faster to finally bring larger maps -- like that of a cortical column -- into the realm of reality.", "id": 751, "photo_url": "https://pe.tedcdn.com/images/ted/202583_254x191.jpg"}], "current_talk": 967, "description": "Sebastian Seung is mapping a massively ambitious new model of the brain that focuses on the connections between each neuron. He calls it our \\"connectome,\\" and it\'s as individual as our genome -- and understanding it could open a new way to understand our brains and our minds.", "language": "en", "url": "https://www.ted.com/talks/sebastian_seung", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 135381241}, "podcast-low-en": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26673458}, "podcast-high": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 135380384}, "180k": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26564757}, "64k": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9553496}, "1500k": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 212055393}, "450k": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 65803093}, "podcast-regular": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66071571}, "950k": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 135144516}, "audio-podcast": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 11846952}, "podcast-light": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9658328}, "320k": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 46917541}, "600k": {"uri": "https://download.ted.com/talks/SebastianSeung_2010G-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87906604}}}, "comments": {"count": 411, "id": 796, "talk_id": 967}, "slug": "sebastian_seung", "threadId": 796, "talks": [{"event": "TEDGlobal 2010", "player_talks": [{"event": "TEDGlobal 2010", "slug": "sebastian_seung", "filmed": 1279238400, "targeting": {"event": "TEDGlobal 2010", "tag": "brain,mind,science,technology", "id": 967, "talk": "sebastian_seung", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "I am my connectome", "postAdDuration": "0.83", "published": 1285663500, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/202580_800x600.jpg?quality=89&w=600", "name": "Sebastian Seung: I am my connectome", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["brain", "mind", "science", "technology"], "speaker": "Sebastian Seung", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1165, "id": 967, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/SebastianSeung_2010G-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDGlobal 2010", "tag": "brain,mind,science,technology", "id": 967, "talk": "sebastian_seung", "year": "2010"}, "metadata": "https://hls.ted.com/talks/967.json", "stream": "https://hls.ted.com/talks/967.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDGlobal%2B2010%26id%3D967%26tag%3Dbrain%2Cmind%2Cscience%2Ctechnology%26talk%3Dsebastian_seung%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/sebastian_seung"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/202580_800x600.jpg?q=50&w=15", "duration": 1165, "id": 967, "ratings": [{"count": 272, "id": 23, "name": "Jaw-dropping"}, {"count": 249, "id": 9, "name": "Ingenious"}, {"count": 995, "id": 22, "name": "Fascinating"}, {"count": 120, "id": 1, "name": "Beautiful"}, {"count": 583, "id": 8, "name": "Informative"}, {"count": 202, "id": 24, "name": "Persuasive"}, {"count": 494, "id": 10, "name": "Inspiring"}, {"count": 81, "id": 7, "name": "Funny"}, {"count": 122, "id": 25, "name": "OK"}, {"count": 105, "id": 11, "name": "Longwinded"}, {"count": 69, "id": 3, "name": "Courageous"}, {"count": 93, "id": 26, "name": "Obnoxious"}, {"count": 50, "id": 21, "name": "Unconvincing"}, {"count": 8, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Computational neuroscientist", "firstname": "Sebastian", "title": "", "lastname": "Seung", "middleinitial": "", "whylisten": "<p>In the brain, neurons are connected into a complex network. Sebastian Seung and his lab at MIT are inventing technologies for identifying and describing the connectome, the totality of connections between the brain&#39;s neurons -- think of it as the wiring diagram of the brain. We possess our entire genome at birth, but things like memories are not &quot;stored&quot; in the genome; they are acquired through life and accumulated in the brain. Seung&#39;s hypothesis is that &quot;we are our connectome,&quot; that the connections among neurons is where memories and experiences get stored. </p><p>Seung and his collaborators, including Winfried Denk at the Max Planck Institute and Jeff Lichtman at Harvard University, are working on a plan to thin-slice a brain (probably starting with a mouse brain) and trace, from slice to slice, each neural pathway, exposing the wiring diagram of the brain and creating a powerful new way to visualize the workings of the mind. They&#39;re not the first to attempt something like this -- Sydney Brenner won a Nobel for mapping all the 7,000 connections in the nervous system of a tiny worm, C. elegans. But that took his team a dozen years, and the worm only had 302 nerve cells. One of Seung&#39;s breakthroughs is in using advanced imagining and AI to handle the crushing amount of data that a mouse brain will yield and turn it into richly visual maps that show the passageways of thought and sensation.</p>", "slug": "sebastian_seung", "whotheyare": "Sebastian Seung is a leader in the new field of connectomics, currently the hottest space in neuroscience, which studies, in once-impossible detail, the wiring of the brain.", "whatotherssay": "[Seung and his colleagues] will need to make their technique a million times faster to finally bring larger maps -- like that of a cortical column -- into the realm of reality.", "id": 751, "photo_url": "https://pe.tedcdn.com/images/ted/202583_254x191.jpg"}], "title": "I am my connectome", "take_action": [{"status": "approved", "start_at": null, "link_url": "https://eyewire.org/signup", "eyebrow": null, "end_at": null, "verb": "sign_up", "published": true, "visible_url": "eyewire.org", "type": "take_action", "blurb": "**Sign up** to play Eyewire, a game that maps the brain."}], "comments": 796, "more_resources": [{"status": "approved", "publisher": "Mariner Books", "start_at": null, "author": "Sebastian Seung", "headline": "*Connectome*", "link_url": "http://www.amazon.com/Connectome-How-Brains-Wiring-Makes/dp/0547678592/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20", "published": true, "eyebrow": null, "end_at": null, "image_url": "http://images.ted.com/images/ted/a90e51e015f7d336f0503f4ca58f3b4919806f06_996x1500.jpg", "year": "2013", "type": "book", "blurb": null}], "hero": "https://pe.tedcdn.com/images/ted/202580_800x600.jpg", "description": "Sebastian Seung is mapping a massively ambitious new model of the brain that focuses on the connections between each neuron. He calls it our \\"connectome,\\" and it\'s as individual as our genome -- and understanding it could open a new way to understand our brains and our minds.", "tags": ["brain", "mind", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/SebastianSeung_2010G-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/SebastianSeung_2010G-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/SebastianSeung_2010G.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/SebastianSeung_2010G-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 967, "audioDownload": "https://download.ted.com/talks/SebastianSeung_2010G.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1186944, "hero": "https://pe.tedcdn.com/images/ted/121608_800x600.jpg", "title": "A brain in a supercomputer", "id": 659, "speaker": "Henry Markram", "duration": 890, "slug": "henry_markram_supercomputing_the_brain_s_secrets"}, {"viewed_count": 1948209, "hero": "https://pe.tedcdn.com/images/ted/138921_800x600.jpg", "title": "The neurons that shaped civilization", "id": 724, "speaker": "Vilayanur Ramachandran", "duration": 463, "slug": "vs_ramachandran_the_neurons_that_shaped_civilization"}, {"viewed_count": 2471625, "hero": "https://pe.tedcdn.com/images/ted/f8443ec450dd71d590ea1b0f7b9470dd5665b15b_2880x1620.jpg", "title": "What is so special about the human brain?", "id": 1879, "speaker": "Suzana Herculano-Houzel", "duration": 811, "slug": "suzana_herculano_houzel_what_is_so_special_about_the_human_brain"}, {"viewed_count": 4677292, "hero": "https://pe.tedcdn.com/images/ted/ec6df2369a3294452ed45750f41e6468c3a58621_2880x1620.jpg", "title": "You can grow new brain cells. Here\'s how", "id": 2342, "speaker": "Sandrine Thuret", "duration": 664, "slug": "sandrine_thuret_you_can_grow_new_brain_cells_here_s_how"}, {"viewed_count": 1582313, "hero": "https://pe.tedcdn.com/images/ted/358f8320e4a3b2a9f21dc6ae0585b8ddc071c1a5_1600x1200.jpg", "title": "How a fly flies", "id": 1674, "speaker": "Michael Dickinson", "duration": 955, "slug": "michael_dickinson_how_a_fly_flies"}, {"viewed_count": 1268751, "hero": "https://pe.tedcdn.com/images/ted/eec0be6feefef0950540ec844664ed485ec83d8d_2880x1620.jpg", "title": "A new way to study the brain\'s invisible secrets", "id": 2557, "speaker": "Ed Boyden", "duration": 795, "slug": "ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain"}], "recorded_at": "2010-07-16T00:00:00.000+00:00", "slug": "sebastian_seung", "speaker_name": "Sebastian Seung", "viewed_count": 948457, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TEDGlobal 2010", "name": "Sebastian Seung: I am my connectome"}'
+p479
+sS'keywords'
+p480
+(lp481
+Vbrain
+p482
+aVmind
+p483
+aVscience
+p484
+aVtechnology
+p485
+asS'datecrawled'
+p486
+g474
+(S'\x07\xe1\n\x17\x01\x1f6\t\xc1 '
+tRp487
+sS'id'
+p488
+I967
+ss.

@@ -1,0 +1,954 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VWhen my brother called me in December of 1998,
+p5
+aVhe said, "The news does not look good."
+p6
+aVThis is him on the screen.
+p7
+aVHe'd just been diagnosed with ALS,
+p8
+aVwhich is a disease that the average lifespan is three years.
+p9
+aVIt paralyzes you. It starts by killing
+p10
+aVthe motor neurons in your spinal cord.
+p11
+aVAnd you go from being a healthy,
+p12
+aVrobust 29-year-old male
+p13
+aVto someone that cannot breathe,
+p14
+aVcannot move, cannot speak.
+p15
+aa(lp16
+VThis has actually been, to me, a gift,
+p17
+aVbecause we began a journey
+p18
+aVto learn a new way of thinking about life.
+p19
+aVAnd even though Steven passed away three years ago
+p20
+aVwe had an amazing journey as a family.
+p21
+aVWe did not even \u2014
+p22
+aVI think adversity is not even the right word.
+p23
+aVWe looked at this and we said, "We're going to do something with this
+p24
+aVin an incredibly positive way."
+p25
+aVAnd I want to talk today
+p26
+aVabout one of the things that we decided to do,
+p27
+aVwhich was to think about a new way of approaching healthcare.
+p28
+aVBecause, as we all know here today,
+p29
+aVit doesn't work very well.
+p30
+aVI want to talk about it in the context of a story.
+p31
+aa(lp32
+VThis is the story of my brother.
+p33
+aVBut it's just a story. And I want to go beyond the story,
+p34
+aVand go to something more.
+p35
+aV"Given my status, what is the best outcome
+p36
+aVI can hope to achieve, and how do I get there?"
+p37
+aVis what we are here to do in medicine, is what everyone should do.
+p38
+aVAnd those questions all have variables to them.
+p39
+aVAll of our statuses are different.
+p40
+aVAll of our hopes and dreams, what we want to accomplish,
+p41
+aVis different, and our paths will be different,
+p42
+aVthey are all stories.
+p43
+aa(lp44
+VBut it's a story until we convert it to data
+p45
+aVand so what we do, this concept we had,
+p46
+aVwas to take Steven's status, "What is my status?"
+p47
+aVand go from this concept of walking, breathing,
+p48
+aVand then his hands, speak,
+p49
+aVand ultimately happiness and function.
+p50
+aVSo, the first set of pathologies, they end up in the stick man
+p51
+aVon his icon,
+p52
+aVbut the rest of them are really what's important here.
+p53
+aVBecause Steven, despite the fact that he was paralyzed,
+p54
+aVas he was in that pool, he could not walk,
+p55
+aVhe could not use his arms \u2014 that's why he had the little floaty things on them,
+p56
+aVdid you see those? \u2014
+p57
+aVhe was happy. We were at the beach,
+p58
+aVhe was raising his son, and he was productive.
+p59
+aa(lp60
+VAnd we took this, and we converted it into data.
+p61
+aVBut it's not a data point at that one moment in time.
+p62
+aVIt is a data point of Steven in a context.
+p63
+aVHere he is in the pool. But here he is healthy,
+p64
+aVas a builder: taller, stronger,
+p65
+aVgot all the women, amazing guy.
+p66
+aVHere he is walking down the aisle,
+p67
+aVbut he can barely walk now, so it's impaired.
+p68
+aVAnd he could still hold his wife's hand, but he couldn't do buttons on his clothes,
+p69
+aVcan't feed himself.
+p70
+aVAnd here he is, paralyzed completely,
+p71
+aVunable to breathe and move, over this time journey.
+p72
+aVThese stories of his life, converted to data.
+p73
+aVHe renovated my carriage house
+p74
+aVwhen he was completely paralyzed, and unable to speak,
+p75
+aVand unable to breathe, and he won an award for a historic restoration.
+p76
+aa(lp77
+VSo, here's Steven alone, sharing this story in the world.
+p78
+aVAnd this is the insight, the thing that we are
+p79
+aVexcited about,
+p80
+aVbecause we have gone away from the community that we are,
+p81
+aVthe fact that we really do love each other and want to care for each other.
+p82
+aVWe need to give to others to be successful.
+p83
+aVSo, Steven is sharing this story,
+p84
+aVbut he is not alone.
+p85
+aVThere are so many other people sharing their stories.
+p86
+aVNot stories in words, but stories in data and words.
+p87
+aVAnd we convert that information into this structure,
+p88
+aVthis understanding, this ability to convert
+p89
+aVthose stories into something that is computable,
+p90
+aVto which we can begin to change the way
+p91
+aVmedicine is done and delivered.
+p92
+aa(lp93
+VWe did this for ALS. We can do this for depression,
+p94
+aVParkinson's disease, HIV.
+p95
+aVThese are not simple, they are not internet scalable;
+p96
+aVthey require thought and processes
+p97
+aVto find the meaningful information about the disease.
+p98
+aVSo, this is what it looks like when you go to the website.
+p99
+aVAnd I'm going to show you what Patients Like Me,
+p100
+aVthe company that myself, my youngest brother
+p101
+aVand a good friend from MIT started.
+p102
+aa(lp103
+VHere are the actual patients, there are 45,000 of them now,
+p104
+aVsharing their stories as data.
+p105
+aVHere is an M.S. patient.
+p106
+aVHis name is Mike, and he is uniformly impaired
+p107
+aVon cognition, vision, walking, sensation.
+p108
+aVThose are things that are different for each M.S. patient.
+p109
+aVEach of them can have a different characteristic.
+p110
+aVYou can see fibromyalgia, HIV, ALS, depression.
+p111
+aVLook at this HIV patient down here, Zinny.
+p112
+aVIt's two years of this disease. All of the symptoms are not there.
+p113
+aVBut he is working to keep his CD4 count high
+p114
+aVand his viral level low so he can make his life better.
+p115
+aa(lp116
+VBut you can aggregate this and you can discover things about treatments.
+p117
+aVLook at this, 2,000 people almost, on Copaxone.
+p118
+aVThese are patients currently on drugs,
+p119
+aVsharing data.
+p120
+aVI love some of these, physical exercise, prayer.
+p121
+aVAnyone want to run a comparative effectiveness study
+p122
+aVon prayer against something? Let's look at prayer.
+p123
+aVWhat I love about this, just sort of interesting design problems.
+p124
+aVThese are why people pray.
+p125
+aVHere is the schedule of how frequently they \u2014 it's a dose.
+p126
+aVSo, anyone want to see the 32 patients that pray for 60 minutes a day,
+p127
+aVand see if they're doing better, they probably are.
+p128
+aVHere they are. It's an open network,
+p129
+aVeverybody is sharing. We can see it all.
+p130
+aa(lp131
+VOr, I want to look at anxiety, because people are praying for anxiety.
+p132
+aVAnd here is data on 15,000 people's current anxiety, right now.
+p133
+aVHow they treat it,
+p134
+aVthe drugs, the components of it,
+p135
+aVtheir side effects, all of it in a rich environment,
+p136
+aVand you can drill down and see the individuals.
+p137
+aVThis amazing data allows us to drill down and see
+p138
+aVwhat this drug is for \u2014
+p139
+aV1,500 people on this drug, I think. Yes.
+p140
+aVI want to talk to the 58 patients down here
+p141
+aVwho are taking four milligrams a day.
+p142
+aVAnd I want to talk to the ones of those that have been doing
+p143
+aVit for more than two years.
+p144
+aVSo, you can see the duration.
+p145
+aVAll open, all available.
+p146
+aVI'm going to log in.
+p147
+aa(lp148
+VAnd this is my brother's profile.
+p149
+aVAnd this is a new version of our platform we're launching right now.
+p150
+aVThis is the second generation. It's going to be in Flash.
+p151
+aVAnd you can see here, as this animates over,
+p152
+aVSteven's actual data against the background of all other patients,
+p153
+aVagainst this information.
+p154
+aVThe blue band is the 50th percentile. Steven is the 75th percentile,
+p155
+aVthat he has non-genetic ALS.
+p156
+aVYou scroll down in this profile and you can see
+p157
+aVall of his prescription drugs,
+p158
+aVbut more than that, in the new version, I can look at this interactively.
+p159
+aVWait, poor spinal capacity.
+p160
+aa(lp161
+VDoesn't this remind you of a great stock program?
+p162
+aVWouldn't it be great if the technology we used to take care of ourselves
+p163
+aVwas as good as the technology we use to make money?
+p164
+aVDetrol. In the side effects for his drug,
+p165
+aVintegrated into that, the stem cell transplant that he had,
+p166
+aVthe first in the world, shared openly for anyone who wants to see it.
+p167
+aa(lp168
+VI love here \u2014 the cyberkinetics implant,
+p169
+aVwhich was, again, the only patient's data that was online and available.
+p170
+aVYou can adjust the time scale. You can adjust the symptoms.
+p171
+aVYou can look at the interaction between how I treat my ALS.
+p172
+aVSo, you click down on the ALS tab there.
+p173
+aVI'm taking three drugs to manage it. Some of them are experimental.
+p174
+aVI can look at my constipation, how to manage it.
+p175
+aVI can see magnesium citrate, and the side effects
+p176
+aVfrom that drug all integrated in the time
+p177
+aVin which they're meaningful.
+p178
+aa(lp179
+VBut I want more.
+p180
+aVI don't want to just look at this cool device, I want to take this
+p181
+aVdata and make something even better.
+p182
+aVI want my brother's center of the universe and his symptoms
+p183
+aVand his drugs,
+p184
+aVand all of the things that interact among those,
+p185
+aVthe side effects, to be in this beautiful data galaxy
+p186
+aVthat we can look at in any way we want to understand it,
+p187
+aVso that we can take this information
+p188
+aVand go beyond just this simple model
+p189
+aVof what a record is.
+p190
+aa(lp191
+VI don't even know what a medical record is.
+p192
+aVI want to solve a problem. I want an application.
+p193
+aVSo, can I take this data \u2014 rearrange yourself,
+p194
+aVput the symptoms in the left, the drugs across the top,
+p195
+aVtell me everything we know about Steven and everyone else,
+p196
+aVand what interacts.
+p197
+aVYears after he's had these drugs,
+p198
+aVI learned that everything he did to manage his excess saliva,
+p199
+aVincluding some positive side effects that came from other drugs,
+p200
+aVwere making his constipation worse.
+p201
+aVAnd if anyone's ever had severe constipation,
+p202
+aVand you don't understand how much of an impact that has on your life \u2014
+p203
+aVyes, that was a pun.
+p204
+aa(lp205
+VYou're trying to manage these,
+p206
+aVand this grid is available here,
+p207
+aVand we want to understand it.
+p208
+aVNo one's ever had this kind of information.
+p209
+aVSo, patients have this. We're for patients.
+p210
+aVThis is all about patient health care, there was no doctors on our network.
+p211
+aVThis is about the patients.
+p212
+aVSo, how can we take this and bring them a tool
+p213
+aVthat they can go back and they can engage the medical system?
+p214
+aVAnd we worked hard, and we thought about it and we said,
+p215
+aV"What's something we can use all the time,
+p216
+aVthat we can use in the medical care system,
+p217
+aVthat everyone will understand?"
+p218
+aa(lp219
+VSo, the patients print it out,
+p220
+aVbecause hospitals usually block us
+p221
+aVbecause they believe we are a social network.
+p222
+aVIt's actually the most used feature on the website.
+p223
+aVDoctors actually love this sheet, and they're actually really engaged.
+p224
+aVSo, we went from this story of Steven
+p225
+aVand his history to data, and then back to paper,
+p226
+aVwhere we went back and engaged the medical care system.
+p227
+aVAnd here's another paper.
+p228
+aVThis is a journal, PNAS \u2014
+p229
+aVI think it's the Proceedings of the National Academy of Science
+p230
+aVof the United States of America.
+p231
+aVYou've seen multiple of these today, when everyone's bragging about
+p232
+aVthe amazing things they've done.
+p233
+aVThis is a report about a drug called lithium.
+p234
+aVLithium, that is a drug used to treat bipolar disorder,
+p235
+aVthat a group in Italy found
+p236
+aVslowed ALS down in 16 patients, and published it.
+p237
+aa(lp238
+VNow, we'll skip the critiques of the paper.
+p239
+aVBut the short story is: If you're a patient,
+p240
+aVyou want to be on the blue line.
+p241
+aVYou don't want to be on the red line, you want to be on the blue line.
+p242
+aVBecause the blue line is a better line. The red line
+p243
+aVis way downhill, the blue line is a good line.
+p244
+aVSo, you know we said \u2014 we looked at this, and what I love also
+p245
+aVis that people always accuse these Internet sites
+p246
+aVof promoting bad medicine and having people do things irresponsibly.
+p247
+aVSo, this is what happened when PNAS published this.
+p248
+aVTen percent of the people in our system took lithium.
+p249
+aVTen percent of the patients started taking lithium based on 16 patients of data
+p250
+aVin a bad publication.
+p251
+aVAnd they call the Internet irresponsible.
+p252
+aVHere's the implication of what happens.
+p253
+aa(lp254
+VThere's this one guy, named Humberto, from Brazil,
+p255
+aVwho unfortunately passed away nine months ago,
+p256
+aVwho said, "Hey, listen. Can you help us answer this question?
+p257
+aVBecause I don't want to wait for the next trial, it's going to be years.
+p258
+aVI want to know now. Can you help us?"
+p259
+aVSo, we launched some tools, we let them track their blood levels.
+p260
+aVWe let them share the data and exchange it.
+p261
+aVYou know, a data network.
+p262
+aVAnd they said, you know, "Jamie, PLM,
+p263
+aVcan you guys tell us whether this works or not?"
+p264
+aVAnd we went around and we talked to people,
+p265
+aVand they said, "You can't run a clinical trial like this. You know?
+p266
+aVYou don't have the blinding, you don't have data,
+p267
+aVit doesn't follow the scientific method.
+p268
+aVIt's never going to work. You can't do it."
+p269
+aa(lp270
+VSo, I said, "Okay well we can't do that. Then we can do something harder."
+p271
+aV(Laughter)
+p272
+aVI can't say whether lithium works in all ALS patients,
+p273
+aVbut I can say whether it works in Humberto.
+p274
+aVI bought a Mac about two years ago, I converted over,
+p275
+aVand I was so excited about this new feature of the time machine
+p276
+aVthat came in Leopard. And we said \u2014 because it's really cool,
+p277
+aVyou can go back and you can look at the entire history of your computer,
+p278
+aVand find everything you've lost, and I loved it.
+p279
+aVAnd I said, "What if we built a time machine for patients,
+p280
+aVexcept instead of going backwards, we go forwards.
+p281
+aVCan we find out what's going to happen to you,
+p282
+aVso that you can maybe change it?"
+p283
+aa(lp284
+VSo, we did. We took all the patients like Humberto,
+p285
+aVThat's the Apple background, we stole that because we didn't have time
+p286
+aVto build our own. This is a real app by the way.
+p287
+aVThis is not just graphics.
+p288
+aVAnd you take those data, and we find the patients like him, and we bring
+p289
+aVtheir data together. And we bring their histories into it.
+p290
+aVAnd then we say, "Well how do we line them all up?"
+p291
+aVSo, we line them all up so they go together
+p292
+aVaround the meaningful points,
+p293
+aVintegrated across everything we know about the patient.
+p294
+aVFull information, the entire course of their disease.
+p295
+aVAnd that's what is going to happen to Humberto,
+p296
+aVunless he does something.
+p297
+aVAnd he took lithium, and he went down the line.
+p298
+aVAnd it works almost every time.
+p299
+aa(lp300
+VNow, the ones that it doesn't work are interesting.
+p301
+aVBut almost all the time it works.
+p302
+aVIt's actually scary. It's beautiful.
+p303
+aVSo, we couldn't run a clinical trial, we couldn't figure it out.
+p304
+aVBut we could see whether it was going to work for Humberto.
+p305
+aVAnd yeah, all the clinicians in the audience will talk about power
+p306
+aVand all the standard deviation. We'll do that later.
+p307
+aVBut here is the answer
+p308
+aVof the mean of the patients that actually decided
+p309
+aVto take lithium.
+p310
+aVThese are all the patients that started lithium.
+p311
+aVIt's the Intent to Treat Curve.
+p312
+aVYou can see here, the blue dots on the top, the light ones,
+p313
+aVthose are the people in the study in PNAS
+p314
+aVthat you wanted to be on. And the red ones are the ones,
+p315
+aVthe pink ones on the bottom are the ones you didn't want to be.
+p316
+aVAnd the ones in the middle are all of our patients
+p317
+aVfrom the start of lithium at time zero,
+p318
+aVgoing forward, and then going backward.
+p319
+aa(lp320
+VSo, you can see we matched them perfectly, perfectly.
+p321
+aVTerrifyingly accurate matching.
+p322
+aVAnd going forward, you actually don't want to be a lithium patient this time.
+p323
+aVYou're actually doing slightly worse \u2014 not significantly,
+p324
+aVbut slightly worse. You don't want to be a lithium patient this time.
+p325
+aVBut you know, a lot of people dropped out,
+p326
+aVthe trial, there is too much drop out.
+p327
+aVCan we do the even harder thing? Can we go to the patients
+p328
+aVthat actually decided to stay on lithium,
+p329
+aVbecause they were so convinced they were getting better?
+p330
+aa(lp331
+VWe asked our control algorithm,
+p332
+aVare those 69 patients \u2014 by the way, you'll notice
+p333
+aVthat's four times the number of patients in the clinical trial \u2014
+p334
+aVcan we look at those patients and say,
+p335
+aV"Can we match them with our time machine
+p336
+aVto the other patients that are just like them,
+p337
+aVand what happens?"
+p338
+aVEven the ones that believed they were getting better
+p339
+aVmatched the controls exactly. Exactly.
+p340
+aVThose little lines? That's the power.
+p341
+aa(lp342
+VSo, we \u2014 I can't tell you lithium doesn't work. I can't tell you
+p343
+aVthat if you did it at a higher dose
+p344
+aVor if you run the study proper \u2014 I can tell you
+p345
+aVthat for those 69 people that took lithium,
+p346
+aVthey didn't do any better than the people that were just like them,
+p347
+aVjust like me,
+p348
+aVand that we had the power to detect that at about
+p349
+aVa quarter of the strengths reported in the initial study.
+p350
+aVWe did that one year ahead of the time
+p351
+aVwhen the first clinical trial funded by the NIH
+p352
+aVfor millions of dollars failed for futility last week,
+p353
+aVand announced it.
+p354
+aa(lp355
+VSo, remember I told you about my brother's stem cell transplant.
+p356
+aVI never really knew whether it worked.
+p357
+aVAnd I put 100 million cells in his cisterna magna,
+p358
+aVin his lumbar cord,
+p359
+aVand filled out the IRBs and did all this work,
+p360
+aVand I never really knew.
+p361
+aVHow did I not know?
+p362
+aVI mean, I didn't know what was going to happen to him.
+p363
+aVI actually asked Tim, who is the quant in our group \u2014
+p364
+aVwe actually searched for about a year to find someone
+p365
+aVwho could do the sort of math and statistics and modeling
+p366
+aVin healthcare, couldn't find anybody. So, we went to the finance industry.
+p367
+aVAnd there are these guys who used to model the future
+p368
+aVof interest rates, and all that kind of stuff.
+p369
+aVAnd some of them were available. So, we hired one.
+p370
+aV(Laughter)
+p371
+aa(lp372
+VWe hired them, set them up, assisting at lab.
+p373
+aVI I.M. him things. That's the way I communicate with him,
+p374
+aVis like a little guy in a box. I I.M.ed Tim. I said,
+p375
+aV"Tim can you tell me whether my brother's stem cell transplant
+p376
+aVworked or not?"
+p377
+aVAnd he sent me this two days ago.
+p378
+aVIt was that little outliers there. You see that guy that lived a long time?
+p379
+aVWe have to go talk to him. Because I'd like to know what happened.
+p380
+aVBecause something went different.
+p381
+aVBut my brother didn't. My brother went straight down the line.
+p382
+aVIt only works about 12 months.
+p383
+aa(lp384
+VIt's the first version of the time machine.
+p385
+aVFirst time we ever tried it. We'll try to get it better later
+p386
+aVbut 12 months so far.
+p387
+aVAnd, you know, I look at this,
+p388
+aVand I get really emotional.
+p389
+aVYou look at the patients, you can drill in all the controls,
+p390
+aVyou can look at them, you can ask them.
+p391
+aVAnd I found a woman that had \u2014
+p392
+aVwe found her, she was odd because she had data
+p393
+aVafter she died.
+p394
+aVAnd her husband had come in and entered her last functional scores,
+p395
+aVbecause he knew how much she cared.
+p396
+aVAnd I am thankful.
+p397
+aa(lp398
+VI can't believe that these people,
+p399
+aVyears after my brother had died,
+p400
+aVhelped me answer the question about whether
+p401
+aVan operation I did, and spent millions of dollars on
+p402
+aVyears ago, worked or not.
+p403
+aVI wished it had been there
+p404
+aVwhen I'd done it the first time,
+p405
+aVand I'm really excited that it's here now,
+p406
+aVbecause the lab that I founded
+p407
+aVhas some data on a drug that might work,
+p408
+aVand I'd like to show it.
+p409
+aVI'd like to show it in real time, now,
+p410
+aVand I want to do that for all of the diseases that we can do that for.
+p411
+aVI've got to thank the 45,000 people
+p412
+aVthat are doing this social experiment with us.
+p413
+aVThere is an amazing journey we are going on
+p414
+aVto become human again,
+p415
+aVto be part of community again,
+p416
+aVto share of ourselves, to be vulnerable,
+p417
+aVand it's very exciting. So, thank you.
+p418
+aV(Applause)
+p419
+aasS'transcript_micsec'
+p420
+(lp421
+I11000
+aI42000
+aI84000
+aI110000
+aI150000
+aI192000
+aI229000
+aI250000
+aI282000
+aI318000
+aI367000
+aI398000
+aI415000
+aI441000
+aI471000
+aI502000
+aI532000
+aI574000
+aI610000
+aI645000
+aI679000
+aI716000
+aI763000
+aI790000
+aI815000
+aI846000
+aI887000
+aI913000
+aI946000
+asS'talk_meta'
+p422
+(dp423
+S'ratings'
+p424
+(dp425
+S'ingenious'
+p426
+I199
+sS'beautiful'
+p427
+I29
+sS'inspiring'
+p428
+I228
+sS'ok'
+p429
+I8
+sS'fascinating'
+p430
+I97
+sS'funny'
+p431
+I2
+sS'total_count'
+p432
+I916
+sS'persuasive'
+p433
+I69
+sS'longwinded'
+p434
+I4
+sS'informative'
+p435
+I108
+sS'jaw-dropping'
+p436
+I58
+sS'obnoxious'
+p437
+I6
+sS'confusing'
+p438
+I13
+sS'courageous'
+p439
+I87
+sS'unconvincing'
+p440
+I8
+ssS'author'
+p441
+VJamie_Heywood;
+p442
+sS'url'
+p443
+S'https://www.ted.com/talks/jamie_heywood_the_big_idea_my_brother_inspired'
+p444
+sS'vidlen'
+p445
+I1014
+sS'totalviews'
+p446
+I530196
+sS'title'
+p447
+VThe big idea my brother inspired
+p448
+sS'downloadlink'
+p449
+Vhttps://download.ted.com/talks/JamieHeywood_2009P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p450
+sS'datepublished'
+p451
+cdatetime
+datetime
+p452
+(S'\x07\xda\x02\x02\x04%\x00\x00\x00\x00'
+tRp453
+sS'datefilmed'
+p454
+g452
+(S'\x07\xda\x02\x02\x04%\x00\x00\x00\x00'
+tRp455
+sS'alldata_JSON'
+p456
+S'{"viewed_count": 530196, "speakers": [{"description": "Healthcare revolutionary", "firstname": "Jamie", "title": "", "lastname": "Heywood", "middleinitial": "", "whylisten": "<p><strong>After finding out that his brother, Stephen, had the terminal illness ALS, Jamie Haywood founded the <a href=\\"http://www.als.net/\\">ALS Therapy Development Institute</a></strong> in 1999. ALS TDI is the world&rsquo;s first non-profit biotechnology company and accelerated research on the disease by hiring scientists to develop treatments outside of academia and for-profit corporations. They were the first to publish research on the safety of using stem cells in ALS patients.</p><p> In 2005,Jamie and his youngest brother Ben, along with close friend Jeff Cole, built <strong><a href=\\"http://www.patientslikeme.com/\\">PatientsLikeMe.com</a> to give patients control and access to their healthcare information and compare it to others like them.</strong> Its bold (and somewhat controversial) approach involves aggregating users health info in order to test the effects of particular treatments, bypassing clinical trials. It was named one of &quot;15 companies that will change the world&quot; by CNN Money.<br /><br />Although his brother passed away in the fall of 2006, Jamie continues to serve as chairman of PatientsLikeMe and on the board of directors of ALS TDI. Jamie has raised over $50 million dollars for ALS TDI and was the subject of the biography <em><a href=\\"http://www.jonathanweiner.com/keeper.html\\">His Brother&rsquo;s Keeper</a></em>, written by Jonathan Weiner. He was also featured in the documentary <em><a href=\\"http://www.pbs.org/wgbh/pages/frontline/somuchsofast/\\">So Much So Fast</a></em>, exploring the development of ALS TDI and the personal story of he and Stephen.</p> ", "slug": "jamie_heywood", "whotheyare": "When MIT-trained mechanical engineer Jamie Heywood discovered that his younger brother was diagnosed with the terminal illness ALS, he focused all his energy on founding revolutionary healthcare initiatives to help his brother and others like him. ", "whatotherssay": "We the people have the right to take possession of a complete copy of our individual health data, without delay, at minimal or no cost.", "id": 662, "photo_url": "https://pe.tedcdn.com/images/ted/146038_254x191.jpg"}], "current_talk": 759, "description": "When Jamie Heywood\'s brother was diagnosed with ALS, he devoted his life to fighting the disease as well. The Heywood brothers built an ingenious website where people share and track data on their illnesses -- and they discovered that the collective data had enormous power to comfort, explain and predict.", "language": "en", "url": "https://www.ted.com/talks/jamie_heywood_the_big_idea_my_brother_inspired", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 117788106}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23232228}, "podcast-high": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 117956080}, "180k": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23104599}, "64k": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8321218}, "1500k": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 185211459}, "450k": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57334517}, "podcast-regular": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57533153}, "950k": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 117437142}, "audio-podcast": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10384355}, "podcast-light": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8422347}, "320k": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40848948}, "600k": {"uri": "https://download.ted.com/talks/JamieHeywood_2009P-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 76285930}}}, "comments": {"count": 95, "id": 623, "talk_id": 759}, "slug": "jamie_heywood_the_big_idea_my_brother_inspired", "threadId": 623, "talks": [{"event": "TEDMED 2009", "player_talks": [{"event": "TEDMED 2009", "slug": "jamie_heywood_the_big_idea_my_brother_inspired", "filmed": 1255132800, "targeting": {"event": "TEDMED 2009", "tag": "collaboration,community,entrepreneur,health,health care,media,medicine", "id": 759, "talk": "jamie_heywood_the_big_idea_my_brother_inspired", "year": "2009"}, "adDuration": "3.33", "external": null, "title": "The big idea my brother inspired", "postAdDuration": "0.83", "published": 1265103420, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/146160_800x600.jpg?quality=89&w=600", "name": "Jamie Heywood: The big idea my brother inspired", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["collaboration", "community", "entrepreneur", "health", "health care", "media", "medicine"], "speaker": "Jamie Heywood", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1014, "id": 759, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JamieHeywood_2009P-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDMED 2009", "tag": "collaboration,community,entrepreneur,health,health care,media,medicine", "id": 759, "talk": "jamie_heywood_the_big_idea_my_brother_inspired", "year": "2009"}, "metadata": "https://hls.ted.com/talks/759.json", "stream": "https://hls.ted.com/talks/759.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDMED%2B2009%26id%3D759%26tag%3Dcollaboration%2Ccommunity%2Centrepreneur%2Chealth%2Chealth%2Bcare%2Cmedia%2Cmedicine%26talk%3Djamie_heywood_the_big_idea_my_brother_inspired%26year%3D2009&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jamie_heywood_the_big_idea_my_brother_inspired"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/146160_800x600.jpg?q=50&w=15", "duration": 1014, "id": 759, "ratings": [{"count": 228, "id": 10, "name": "Inspiring"}, {"count": 108, "id": 8, "name": "Informative"}, {"count": 199, "id": 9, "name": "Ingenious"}, {"count": 69, "id": 24, "name": "Persuasive"}, {"count": 87, "id": 3, "name": "Courageous"}, {"count": 97, "id": 22, "name": "Fascinating"}, {"count": 29, "id": 1, "name": "Beautiful"}, {"count": 58, "id": 23, "name": "Jaw-dropping"}, {"count": 8, "id": 25, "name": "OK"}, {"count": 2, "id": 7, "name": "Funny"}, {"count": 6, "id": 26, "name": "Obnoxious"}, {"count": 8, "id": 21, "name": "Unconvincing"}, {"count": 13, "id": 2, "name": "Confusing"}, {"count": 4, "id": 11, "name": "Longwinded"}], "speakers": [{"description": "Healthcare revolutionary", "firstname": "Jamie", "title": "", "lastname": "Heywood", "middleinitial": "", "whylisten": "<p><strong>After finding out that his brother, Stephen, had the terminal illness ALS, Jamie Haywood founded the <a href=\\"http://www.als.net/\\">ALS Therapy Development Institute</a></strong> in 1999. ALS TDI is the world&rsquo;s first non-profit biotechnology company and accelerated research on the disease by hiring scientists to develop treatments outside of academia and for-profit corporations. They were the first to publish research on the safety of using stem cells in ALS patients.</p><p> In 2005,Jamie and his youngest brother Ben, along with close friend Jeff Cole, built <strong><a href=\\"http://www.patientslikeme.com/\\">PatientsLikeMe.com</a> to give patients control and access to their healthcare information and compare it to others like them.</strong> Its bold (and somewhat controversial) approach involves aggregating users health info in order to test the effects of particular treatments, bypassing clinical trials. It was named one of &quot;15 companies that will change the world&quot; by CNN Money.<br /><br />Although his brother passed away in the fall of 2006, Jamie continues to serve as chairman of PatientsLikeMe and on the board of directors of ALS TDI. Jamie has raised over $50 million dollars for ALS TDI and was the subject of the biography <em><a href=\\"http://www.jonathanweiner.com/keeper.html\\">His Brother&rsquo;s Keeper</a></em>, written by Jonathan Weiner. He was also featured in the documentary <em><a href=\\"http://www.pbs.org/wgbh/pages/frontline/somuchsofast/\\">So Much So Fast</a></em>, exploring the development of ALS TDI and the personal story of he and Stephen.</p> ", "slug": "jamie_heywood", "whotheyare": "When MIT-trained mechanical engineer Jamie Heywood discovered that his younger brother was diagnosed with the terminal illness ALS, he focused all his energy on founding revolutionary healthcare initiatives to help his brother and others like him. ", "whatotherssay": "We the people have the right to take possession of a complete copy of our individual health data, without delay, at minimal or no cost.", "id": 662, "photo_url": "https://pe.tedcdn.com/images/ted/146038_254x191.jpg"}], "title": "The big idea my brother inspired", "take_action": null, "comments": 623, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/146160_800x600.jpg", "description": "When Jamie Heywood\'s brother was diagnosed with ALS, he devoted his life to fighting the disease as well. The Heywood brothers built an ingenious website where people share and track data on their illnesses -- and they discovered that the collective data had enormous power to comfort, explain and predict.", "tags": ["collaboration", "community", "entrepreneur", "health", "health care", "media", "medicine"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"vi": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-vi.mp4"}, "ru": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-it.mp4"}, "tr": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-bg.mp4"}, "sr": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-sr.mp4"}, "ro": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JamieHeywood_2009P-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JamieHeywood_2009P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JamieHeywood_2009P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JamieHeywood_2009P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 759, "audioDownload": "https://download.ted.com/talks/JamieHeywood_2009P.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 910413, "hero": "https://pe.tedcdn.com/images/ted/88407_800x600.jpg", "title": "Insights on HIV, in stunning data visuals", "id": 540, "speaker": "Hans Rosling", "duration": 602, "slug": "hans_rosling_the_truth_about_hiv"}, {"viewed_count": 767709, "hero": "https://pe.tedcdn.com/images/ted/c5b05138beb982d51618c54bf0efafdb4bcc596b_1600x1200.jpg", "title": "Your health depends on where you live", "id": 748, "speaker": "Bill Davenhall", "duration": 565, "slug": "bill_davenhall_your_health_depends_on_where_you_live"}, {"viewed_count": 1711797, "hero": "https://pe.tedcdn.com/images/ted/143107_800x600.jpg", "title": "Growing new organs", "id": 744, "speaker": "Anthony Atala", "duration": 1072, "slug": "anthony_atala_growing_organs_engineering_tissue"}, {"viewed_count": 1141781, "hero": "https://pe.tedcdn.com/images/ted/71ecfcc687ee20218afce92ea0dc23c6456e35e0_2880x1620.jpg", "title": "A doctor\'s case for medical marijuana", "id": 2735, "speaker": "David Casarett", "duration": 907, "slug": "david_casarett_a_doctor_s_case_for_medical_marijuana"}, {"viewed_count": 1598028, "hero": "https://pe.tedcdn.com/images/ted/be7a7a310af5cfda1f5f3eb883c4bbb508c50918_2880x1620.jpg", "title": "What really happens when you mix medications?", "id": 2436, "speaker": "Russ Altman", "duration": 881, "slug": "russ_altman_what_really_happens_when_you_mix_medications"}, {"viewed_count": 538055, "hero": "https://pe.tedcdn.com/images/ted/f88e5356ce534bda61de99617beaaebce332c71a_800x600.jpg", "title": "Meet e-Patient Dave", "id": 1181, "speaker": "Dave deBronkart", "duration": 991, "slug": "dave_debronkart_meet_e_patient_dave"}], "recorded_at": "2009-10-10T00:00:00.000+00:00", "slug": "jamie_heywood_the_big_idea_my_brother_inspired", "speaker_name": "Jamie Heywood", "viewed_count": 530196, "event_badge": null, "event_blurb": "This video was produced by TEDMED. TED\'s editors featured it among our daily selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDMED 2009", "name": "Jamie Heywood: The big idea my brother inspired"}'
+p457
+sS'keywords'
+p458
+(lp459
+Vcollaboration
+p460
+aVcommunity
+p461
+aVentrepreneur
+p462
+aVhealth
+p463
+aVhealth care
+p464
+aVmedia
+p465
+aVmedicine
+p466
+asS'datecrawled'
+p467
+g452
+(S"\x07\xe1\n\x17\x01\x18'\t\xc1\x85"
+tRp468
+sS'id'
+p469
+I759
+ss.

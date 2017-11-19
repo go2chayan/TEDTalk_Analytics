@@ -1,0 +1,604 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIf we look around us,
+p5
+aVmuch of what surrounds us
+p6
+aVstarted life as various rocks and sludge
+p7
+aVburied in the ground in various places in the world.
+p8
+aVBut, of course, they don't look like rocks and sludge now.
+p9
+aVThey look like TV cameras, monitors,
+p10
+aVannoying radio mics.
+p11
+aVAnd so this magical transformation
+p12
+aVis what I was trying to get at with my project,
+p13
+aVwhich became known as the Toaster Project.
+p14
+aVAnd it was also inspired by this quote
+p15
+aVfrom Douglas Adams,
+p16
+aVand the situation is from "The Hitchhiker's Guide to the Galaxy."
+p17
+aVAnd the situation it describes
+p18
+aVis the hero of the book \u2014 he's a 20th-century man \u2014
+p19
+aVfinds himself alone on a strange planet
+p20
+aVpopulated only by a technologically primitive people.
+p21
+aVAnd he kind of assumes that, yes,
+p22
+aVhe'll become \u2014 these villagers \u2014
+p23
+aVhe'll become their emperor
+p24
+aVand transform their society
+p25
+aVwith his wonderful command of technology
+p26
+aVand science and the elements,
+p27
+aVbut, of course, realizes
+p28
+aVthat without the rest of human society,
+p29
+aVhe can barely make a sandwich,
+p30
+aVlet alone a toaster.
+p31
+aVBut he didn't have Wikipedia.
+p32
+aa(lp33
+VSo I thought, okay,
+p34
+aVI'll try and make an electric toaster from scratch.
+p35
+aVAnd, working on the idea
+p36
+aVthat the cheapest electric toaster
+p37
+aVwould also be the simplest to reverse-engineer,
+p38
+aVI went and bought the cheapest toaster I could find,
+p39
+aVtook it home
+p40
+aVand was kind of dismayed to discover
+p41
+aVthat, inside this object,
+p42
+aVwhich I'd bought for just 3.49 pounds,
+p43
+aVthere were 400 different bits
+p44
+aVmade out of a hundred-plus different materials.
+p45
+aVI didn't have the rest of my life to do this project.
+p46
+aVI had maybe nine months.
+p47
+aVSo I thought, okay, I'll start with five.
+p48
+aVAnd these were steel, mica,
+p49
+aVplastic, copper and nickel.
+p50
+aa(lp51
+VSo, starting with steel: how do you make steel?
+p52
+aVI went and knocked on the door
+p53
+aVof the Rio Tinto Chair
+p54
+aVof Advanced Mineral Extraction at the Royal School of Mines
+p55
+aVand said, "How do you make steel?"
+p56
+aVAnd Professor Cilliers was very kind
+p57
+aVand talked me through it.
+p58
+aVAnd my vague rememberings from GCSE science \u2014
+p59
+aVwell, steel comes from iron,
+p60
+aVso I phoned up an iron mine.
+p61
+aVAnd said, "Hi, I'm trying to make a toaster.
+p62
+aVCan I come up and get some iron?"
+p63
+aVUnfortunately, when I got there \u2014 emerges Ray.
+p64
+aVHe had misheard me
+p65
+aVand thought I was coming up because I was trying to make a poster,
+p66
+aVand so wasn't prepared to take me into the mines.
+p67
+aVBut after some nagging, I got him to do that.
+p68
+aa(lp69
+V(Video) Ray: It was Crease Limestone,
+p70
+aVand that was produced
+p71
+aVby sea creatures
+p72
+aV350 million years ago
+p73
+aVin a nice, warm,
+p74
+aVsunny atmosphere.
+p75
+aVWhen you study geology,
+p76
+aVyou can see what's happened in the past,
+p77
+aVand there were terrific changes in the earth.
+p78
+aa(lp79
+VThomas Thwaites: As you can see, they had the Christmas decorations up.
+p80
+aVAnd of course, it wasn't actually a working mine anymore,
+p81
+aVbecause, though Ray was a miner there,
+p82
+aVthe mine had closed
+p83
+aVand had been reopened as a kind of tourist attraction,
+p84
+aVbecause, of course, it can't compete
+p85
+aVon the scale of operations which are happening
+p86
+aVin South America, Australia, wherever.
+p87
+aVBut anyway, I got my suitcase of iron ore
+p88
+aVand dragged it back to London on the train,
+p89
+aVand then was faced with the problem:
+p90
+aVOkay, how do you make this rock
+p91
+aVinto components for a toaster?
+p92
+aa(lp93
+VSo I went back to Professor Cilliers,
+p94
+aVand he said, "Go to the library."
+p95
+aVSo I did
+p96
+aVand was looking through the undergraduate textbooks on metallurgy \u2014
+p97
+aVcompletely useless for what I was trying to do.
+p98
+aVBecause, of course, they don't actually tell you how to do it
+p99
+aVif you want to do it yourself and you don't have a smelting plant.
+p100
+aVSo I ended up going to the History of Science Library
+p101
+aVand looking at this book.
+p102
+aVThis is the first textbook on metallurgy
+p103
+aVwritten in the West, at least.
+p104
+aVAnd there you can see that woodcut
+p105
+aVis basically what I ended up doing.
+p106
+aVBut instead of a bellows, I had a leaf blower.
+p107
+aV(Laughter)
+p108
+aVAnd that was something that reoccurred throughout the project,
+p109
+aVwas, the smaller the scale you want to work on,
+p110
+aVthe further back in time you have to go.
+p111
+aVAnd so this is after
+p112
+aVa day and about half a night
+p113
+aVsmelting this iron.
+p114
+aVI dragged out this stuff,
+p115
+aVand it wasn't iron.
+p116
+aVBut luckily,
+p117
+aVI found a patent online
+p118
+aVfor industrial furnaces that use microwaves,
+p119
+aVand at 30 minutes at full power,
+p120
+aVand I was able to finish off the process.
+p121
+aa(lp122
+VSo, my next \u2014
+p123
+aV(Applause)
+p124
+aVThe next thing I was trying to get was copper.
+p125
+aVAgain, this mine
+p126
+aVwas once the largest copper mine in the world.
+p127
+aVIt's not anymore,
+p128
+aVbut I found a retired geology professor
+p129
+aVto take me down,
+p130
+aVand he said, "Okay, I'll let you have some water from the mine."
+p131
+aVAnd the reason I was interested in getting water
+p132
+aVis because water which goes through mines
+p133
+aVbecomes kind of acidic
+p134
+aVand will start picking up,
+p135
+aVdissolving the minerals from the mine.
+p136
+aVAnd a good example of this is the Rio Tinto,
+p137
+aVwhich is in Portugal.
+p138
+aVAs you can see, it's got lots and lots of minerals dissolved in it.
+p139
+aVSo many such
+p140
+aVthat it's now just a home for bacteria
+p141
+aVwho really like acidic, toxic conditions.
+p142
+aVBut anyway, the water I dragged back
+p143
+aVfrom the Isle of Anglesey where the mine was \u2014
+p144
+aVthere was enough copper in it
+p145
+aVsuch that I could cast the pins
+p146
+aVof my metal electric plug.
+p147
+aa(lp148
+VSo my next thing: I was off to Scotland
+p149
+aVto get mica.
+p150
+aVAnd mica is a mineral
+p151
+aVwhich is a very good insulator
+p152
+aVand very good at insulating electricity.
+p153
+aVThat's me getting mica.
+p154
+aVAnd the last material I'm going to talk about today is plastic,
+p155
+aVand, of course,
+p156
+aVmy toaster had to have a plastic case.
+p157
+aVPlastic is the defining feature
+p158
+aVof cheap electrical goods.
+p159
+aVAnd so plastic comes from oil, so I phoned up BP
+p160
+aVand spent a good half an hour
+p161
+aVtrying to convince the PR office at BP
+p162
+aVthat it would be fantastic for them
+p163
+aVif they flew me to an oil rig
+p164
+aVand let me have a jug of oil.
+p165
+aVBP obviously has a bit more on their mind now.
+p166
+aVBut even then
+p167
+aVthey weren't convinced
+p168
+aVand said, "Okay, we'll phone you back" \u2014 never did.
+p169
+aVSo I looked at other ways of making plastic.
+p170
+aVAnd you can actually make plastic
+p171
+aVfrom obviously oils which come from plants, but also from starches.
+p172
+aVSo this is attempting to make
+p173
+aVpotato starch plastic.
+p174
+aVAnd for a while that was looking really good.
+p175
+aVI poured it into the mold, which you can see there,
+p176
+aVwhich I've made from a tree trunk.
+p177
+aVAnd it was looking good for a while,
+p178
+aVbut I left it outside, because you had to leave it outside to dry,
+p179
+aVand unfortunately I came back
+p180
+aVand there were snails eating the unhydrolyzed bits of potato.
+p181
+aa(lp182
+VSo kind of out of desperation,
+p183
+aVI decided that I could think laterally.
+p184
+aVAnd geologists have actually christened \u2014
+p185
+aVwell, they're debating whether to christen \u2014
+p186
+aVthe age that we're living in \u2014
+p187
+aVthey're debating whether to make it a new geological epoch
+p188
+aVcalled the Anthropocene, the age of Man.
+p189
+aVAnd that's because geologists of the future
+p190
+aVwould kind of see a sharp shift
+p191
+aVin the strata of rock that is being laid down now.
+p192
+aVSo suddenly, it will become kind of radioactive from Chernobyl
+p193
+aVand the 2,000 or so nuclear bombs
+p194
+aVthat have been set off since 1945.
+p195
+aVAnd there'd also be an extinction event \u2014
+p196
+aVlike fossils would suddenly disappear.
+p197
+aVAnd also, I thought
+p198
+aVthat there would be
+p199
+aVsynthetic polymers,
+p200
+aVplastics, embedded in the rock.
+p201
+aa(lp202
+VSo I looked up a plastic \u2014
+p203
+aVso I decided that I could mine
+p204
+aVsome of this modern-day rock.
+p205
+aVAnd I went up to Manchester
+p206
+aVto visit a place called Axion Recycling.
+p207
+aVAnd they're at the sharp end of what's called the WEEE,
+p208
+aVwhich is this European electrical and electronic waste directive.
+p209
+aVAnd that was brought into force
+p210
+aVto try and deal with the mountain of stuff
+p211
+aVthat is just being made
+p212
+aVand then living for a while in our homes
+p213
+aVand then going to landfill.
+p214
+aVBut this is it.
+p215
+aa(lp216
+V(Music)
+p217
+aa(lp218
+V(Laughter)
+p219
+aa(lp220
+VSo there's a picture
+p221
+aVof my toaster.
+p222
+aV(Applause)
+p223
+aVThat's it without the case on.
+p224
+aVAnd there it is on the shelves.
+p225
+aVThanks.
+p226
+aa(lp227
+V(Applause)
+p228
+aa(lp229
+VBruno Giussani: I'm told you did plug it in once.
+p230
+aa(lp231
+VTT: Yeah, I did plug it in.
+p232
+aVI don't know if you could see,
+p233
+aVbut I was never able to make insulation for the wires.
+p234
+aVKew Gardens were insistent
+p235
+aVthat I couldn't come and hack into their rubber tree.
+p236
+aVSo the wires were uninsulated.
+p237
+aVSo there was 240 volts
+p238
+aVgoing through these homemade copper wires,
+p239
+aVhomemade plug.
+p240
+aVAnd for about five seconds,
+p241
+aVthe toaster toasted,
+p242
+aVbut then, unfortunately,
+p243
+aVthe element kind of melted itself.
+p244
+aVBut I considered it a partial success, to be honest.
+p245
+aa(lp246
+VBG: Thomas Thwaites. TT: Thanks.
+p247
+aasS'transcript_micsec'
+p248
+(lp249
+I11000
+aI78000
+aI119000
+aI162000
+aI192000
+aI226000
+aI293000
+aI353000
+aI435000
+aI482000
+aI522000
+aI583000
+aI585000
+aI601000
+aI605000
+aI607000
+aI639000
+asS'talk_meta'
+p250
+(dp251
+S'ratings'
+p252
+(dp253
+S'ingenious'
+p254
+I243
+sS'funny'
+p255
+I516
+sS'inspiring'
+p256
+I162
+sS'ok'
+p257
+I89
+sS'fascinating'
+p258
+I238
+sS'total_count'
+p259
+I1694
+sS'persuasive'
+p260
+I21
+sS'longwinded'
+p261
+I41
+sS'informative'
+p262
+I152
+sS'beautiful'
+p263
+I17
+sS'jaw-dropping'
+p264
+I53
+sS'obnoxious'
+p265
+I20
+sS'confusing'
+p266
+I10
+sS'courageous'
+p267
+I98
+sS'unconvincing'
+p268
+I34
+ssS'author'
+p269
+VThomas_Thwaites;
+p270
+sS'url'
+p271
+S'https://www.ted.com/talks/thomas_thwaites_how_i_built_a_toaster_from_scratch'
+p272
+sS'vidlen'
+p273
+I651
+sS'totalviews'
+p274
+I1312494
+sS'title'
+p275
+VHow I built a toaster -- from scratch
+p276
+sS'downloadlink'
+p277
+Vhttps://download.ted.com/talks/ThomasThwaites_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p278
+sS'datepublished'
+p279
+cdatetime
+datetime
+p280
+(S'\x07\xdb\x01\x0c\x0b\x11\x00\x00\x00\x00'
+tRp281
+sS'datefilmed'
+p282
+g280
+(S'\x07\xdb\x01\x0c\x0b\x11\x00\x00\x00\x00'
+tRp283
+sS'alldata_JSON'
+p284
+S'{"viewed_count": 1312494, "speakers": [{"description": "Designer", "firstname": "Thomas", "title": "", "lastname": "Thwaites", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.thomasthwaites.com/\\" target=\\"_blank\\">Thomas Thwaites</a>  calls himself &quot;a designer (of a more speculative sort).&quot; His thoughtful projects look deeply at the science behind technology, as in the Toaster Project, which sent spiralling him into the history and techniques of metallurgy and plastics production, and <a href=\\"http://www.thomasthwaites.com/policing-genes/\\" target=\\"_blank\\">Policing Genes</a>, a thought experiment around amateur genetics. We will not mention <a href=\\"http://www.thomasthwaites.com/honeytrap/\\" target=\\"_blank\\">Honeytrap</a>, an attempt to explore modern criminality through a bicycle theft gone horribly wrong. He&#39;s currently working on a project investigating <a href=\\"http://www.thomasthwaites.com/2010/08/unlikely-objects-products-of-superseded-science/\\" target=\\"_blank\\">counterfactual histories</a>  in science, supported by the Wellcome Trust.</p>", "slug": "thomas_thwaites", "whotheyare": "Thomas Thwaites is a designer \\"of a more speculative sort,\\" he says.", "whatotherssay": "", "id": 930, "photo_url": "https://pe.tedcdn.com/images/ted/d0a37922d11ef165fefbe7a9045496b51abded98_254x191.jpg"}], "current_talk": 1051, "description": "It takes an entire civilization to build a toaster. Designer Thomas Thwaites found out the hard way, by attempting to build one from scratch: mining ore for steel, deriving plastic from oil ... it\'s frankly amazing he got as far as he got. A parable of our interconnected society, for designers and consumers alike.", "language": "en", "url": "https://www.ted.com/talks/thomas_thwaites_how_i_built_a_toaster_from_scratch", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 76019104}, "podcast-low-en": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14965596}, "podcast-high": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 76024109}, "180k": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 14854808}, "64k": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5351936}, "1500k": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 119066802}, "450k": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 36759137}, "podcast-regular": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 37027614}, "950k": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 75788242}, "audio-podcast": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 6779457}, "podcast-light": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5456767}, "320k": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26225569}, "600k": {"uri": "https://download.ted.com/talks/ThomasThwaites_2010S-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49249964}}}, "comments": {"count": 180, "id": 864, "talk_id": 1051}, "slug": "thomas_thwaites_how_i_built_a_toaster_from_scratch", "threadId": 864, "talks": [{"event": "TEDSalon London 2010", "player_talks": [{"event": "TEDSalon London 2010", "slug": "thomas_thwaites_how_i_built_a_toaster_from_scratch", "filmed": 1289433600, "targeting": {"event": "TEDSalon London 2010", "tag": "Anthropocene,design,entertainment,technology", "id": 1051, "talk": "thomas_thwaites_how_i_built_a_toaster_from_scratch", "year": "2010"}, "adDuration": "3.33", "external": null, "title": "How I built a toaster -- from scratch", "postAdDuration": "0.83", "published": 1294849020, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/c0dad5978acf311af98891b7686da155b4faa744_800x600.jpg?quality=89&w=600", "name": "Thomas Thwaites: How I built a toaster -- from scratch", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Anthropocene", "design", "entertainment", "technology"], "speaker": "Thomas Thwaites", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 651, "id": 1051, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/ThomasThwaites_2010S-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDSalon London 2010", "tag": "Anthropocene,design,entertainment,technology", "id": 1051, "talk": "thomas_thwaites_how_i_built_a_toaster_from_scratch", "year": "2010"}, "metadata": "https://hls.ted.com/talks/1051.json", "stream": "https://hls.ted.com/talks/1051.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDSalon%2BLondon%2B2010%26id%3D1051%26tag%3DAnthropocene%2Cdesign%2Centertainment%2Ctechnology%26talk%3Dthomas_thwaites_how_i_built_a_toaster_from_scratch%26year%3D2010&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/thomas_thwaites_how_i_built_a_toaster_from_scratch"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/c0dad5978acf311af98891b7686da155b4faa744_800x600.jpg?q=50&w=15", "duration": 651, "id": 1051, "ratings": [{"count": 238, "id": 22, "name": "Fascinating"}, {"count": 516, "id": 7, "name": "Funny"}, {"count": 243, "id": 9, "name": "Ingenious"}, {"count": 162, "id": 10, "name": "Inspiring"}, {"count": 152, "id": 8, "name": "Informative"}, {"count": 98, "id": 3, "name": "Courageous"}, {"count": 89, "id": 25, "name": "OK"}, {"count": 41, "id": 11, "name": "Longwinded"}, {"count": 34, "id": 21, "name": "Unconvincing"}, {"count": 53, "id": 23, "name": "Jaw-dropping"}, {"count": 21, "id": 24, "name": "Persuasive"}, {"count": 20, "id": 26, "name": "Obnoxious"}, {"count": 17, "id": 1, "name": "Beautiful"}, {"count": 10, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Designer", "firstname": "Thomas", "title": "", "lastname": "Thwaites", "middleinitial": "", "whylisten": "<p><a href=\\"http://www.thomasthwaites.com/\\" target=\\"_blank\\">Thomas Thwaites</a>  calls himself &quot;a designer (of a more speculative sort).&quot; His thoughtful projects look deeply at the science behind technology, as in the Toaster Project, which sent spiralling him into the history and techniques of metallurgy and plastics production, and <a href=\\"http://www.thomasthwaites.com/policing-genes/\\" target=\\"_blank\\">Policing Genes</a>, a thought experiment around amateur genetics. We will not mention <a href=\\"http://www.thomasthwaites.com/honeytrap/\\" target=\\"_blank\\">Honeytrap</a>, an attempt to explore modern criminality through a bicycle theft gone horribly wrong. He&#39;s currently working on a project investigating <a href=\\"http://www.thomasthwaites.com/2010/08/unlikely-objects-products-of-superseded-science/\\" target=\\"_blank\\">counterfactual histories</a>  in science, supported by the Wellcome Trust.</p>", "slug": "thomas_thwaites", "whotheyare": "Thomas Thwaites is a designer \\"of a more speculative sort,\\" he says.", "whatotherssay": "", "id": 930, "photo_url": "https://pe.tedcdn.com/images/ted/d0a37922d11ef165fefbe7a9045496b51abded98_254x191.jpg"}], "title": "How I built a toaster -- from scratch", "take_action": null, "comments": 864, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/c0dad5978acf311af98891b7686da155b4faa744_800x600.jpg", "description": "It takes an entire civilization to build a toaster. Designer Thomas Thwaites found out the hard way, by attempting to build one from scratch: mining ore for steel, deriving plastic from oil ... it\'s frankly amazing he got as far as he got. A parable of our interconnected society, for designers and consumers alike.", "tags": ["Anthropocene", "design", "entertainment", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "hy", "endonym": "\\u0540\\u0561\\u0575\\u0580\\u0565\\u0576", "isRtl": false, "ianaCode": "hy", "languageName": "Armenian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fi", "endonym": "Suomi", "isRtl": false, "ianaCode": "fi", "languageName": "Finnish"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-pt-br.mp4"}, "bg": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-bg.mp4"}, "cs": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-fr.mp4"}, "hy": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-hy.mp4", "name": "Armenian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-hy.mp4"}, "hr": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-fa.mp4"}, "fi": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-fi.mp4", "name": "Finnish", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-fi.mp4"}, "ja": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/ThomasThwaites_2010S-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/ThomasThwaites_2010S.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/ThomasThwaites_2010S-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1051, "audioDownload": "https://download.ted.com/talks/ThomasThwaites_2010S.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 2164874, "hero": "https://pe.tedcdn.com/images/ted/183707_800x600.jpg", "title": "When ideas have sex", "id": 915, "speaker": "Matt Ridley", "duration": 986, "slug": "matt_ridley_when_ideas_have_sex"}, {"viewed_count": 979839, "hero": "https://pe.tedcdn.com/images/ted/4ee13c91a6a001349920c8e865d035fe415fb9b8_800x600.jpg", "title": "We can recycle plastic", "id": 1239, "speaker": "Mike Biddle", "duration": 658, "slug": "mike_biddle"}, {"viewed_count": 693377, "hero": "https://pe.tedcdn.com/images/ted/208459_800x600.jpg", "title": "Tough truths about plastic pollution", "id": 986, "speaker": "Dianna Cohen", "duration": 318, "slug": "dianna_cohen_tough_truths_about_plastic_pollution"}, {"viewed_count": 470420, "hero": "https://pe.tedcdn.com/images/ted/a00e569b4ecb3727eb0d022d719393b738461a81_800x600.jpg", "title": "The economic injustice of plastic", "id": 1056, "speaker": "Van Jones", "duration": 769, "slug": "van_jones_the_economic_injustice_of_plastic"}, {"viewed_count": 1104841, "hero": "https://pe.tedcdn.com/images/ted/74119_800x600.jpg", "title": "Seas of plastic", "id": 470, "speaker": "Charles Moore", "duration": 440, "slug": "capt_charles_moore_on_the_seas_of_plastic"}, {"viewed_count": 1239230, "hero": "https://pe.tedcdn.com/images/ted/0da6ace6197fc74eaf425c413eb5636d57e9891e_2880x1620.jpg", "title": "Our campaign to ban plastic bags in Bali", "id": 2418, "speaker": "Melati and Isabel Wijsen", "duration": 660, "slug": "melati_and_isabel_wijsen_our_campaign_to_ban_plastic_bags_in_bali"}], "recorded_at": "2010-11-11T00:00:00.000+00:00", "slug": "thomas_thwaites_how_i_built_a_toaster_from_scratch", "speaker_name": "Thomas Thwaites", "viewed_count": 1312494, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TEDSalon London 2010", "name": "Thomas Thwaites: How I built a toaster -- from scratch"}'
+p285
+sS'keywords'
+p286
+(lp287
+VAnthropocene
+p288
+aVdesign
+p289
+aVentertainment
+p290
+aVtechnology
+p291
+asS'datecrawled'
+p292
+g280
+(S'\x07\xe1\n\x17\x004\x01\x07>|'
+tRp293
+sS'id'
+p294
+I1051
+ss.

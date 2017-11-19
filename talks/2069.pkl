@@ -1,0 +1,938 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo in 1781, an English composer,
+p5
+aVtechnologist and astronomer called William Herschel
+p6
+aVnoticed an object on the sky that
+p7
+aVdidn't quite move the way the rest of the stars did.
+p8
+aVAnd Herschel's recognition that something was different,
+p9
+aVthat something wasn't quite right,
+p10
+aVwas the discovery of a planet,
+p11
+aVthe planet Uranus,
+p12
+aVa name that has entertained
+p13
+aVcountless generations of children,
+p14
+aVbut a planet that overnight
+p15
+aVdoubled the size of our known solar system.
+p16
+aVJust last month, NASA announced the discovery
+p17
+aVof 517 new planets
+p18
+aVin orbit around nearby stars,
+p19
+aValmost doubling overnight the number of planets
+p20
+aVwe know about within our galaxy.
+p21
+aVSo astronomy is constantly being transformed by this
+p22
+aVcapacity to collect data,
+p23
+aVand with data almost doubling every year,
+p24
+aVwithin the next two decades, me may even
+p25
+aVreach the point for the first time in history
+p26
+aVwhere we've discovered the majority of the galaxies
+p27
+aVwithin the universe.
+p28
+aa(lp29
+VBut as we enter this era of big data,
+p30
+aVwhat we're beginning to find is there's a difference
+p31
+aVbetween more data being just better
+p32
+aVand more data being different,
+p33
+aVcapable of changing the questions we want to ask,
+p34
+aVand this difference is not about how much data we collect,
+p35
+aVit's whether those data open new windows
+p36
+aVinto our universe,
+p37
+aVwhether they change the way we view the sky.
+p38
+aVSo what is the next window into our universe?
+p39
+aVWhat is the next chapter for astronomy?
+p40
+aVWell, I'm going to show you some of the tools and the technologies
+p41
+aVthat we're going to develop over the next decade,
+p42
+aVand how these technologies,
+p43
+aVtogether with the smart use of data,
+p44
+aVmay once again transform astronomy
+p45
+aVby opening up a window into our universe,
+p46
+aVthe window of time.
+p47
+aa(lp48
+VWhy time? Well, time is about origins,
+p49
+aVand it's about evolution.
+p50
+aVThe origins of our solar system,
+p51
+aVhow our solar system came into being,
+p52
+aVis it unusual or special in any way?
+p53
+aVAbout the evolution of our universe.
+p54
+aVWhy our universe is continuing to expand,
+p55
+aVand what is this mysterious dark energy
+p56
+aVthat drives that expansion?
+p57
+aa(lp58
+VBut first, I want to show you how technology
+p59
+aVis going to change the way we view the sky.
+p60
+aVSo imagine if you were sitting
+p61
+aVin the mountains of northern Chile
+p62
+aVlooking out to the west
+p63
+aVtowards the Pacific Ocean
+p64
+aVa few hours before sunrise.
+p65
+aVThis is the view of the night sky that you would see,
+p66
+aVand it's a beautiful view,
+p67
+aVwith the Milky Way just peeking out over the horizon.
+p68
+aVbut it's also a static view,
+p69
+aVand in many ways, this is the way we think of our universe:
+p70
+aVeternal and unchanging.
+p71
+aVBut the universe is anything but static.
+p72
+aVIt constantly changes on timescales of seconds
+p73
+aVto billions of years.
+p74
+aVGalaxies merge, they collide
+p75
+aVat hundreds of thousands of miles per hour.
+p76
+aVStars are born, they die,
+p77
+aVthey explode in these extravagant displays.
+p78
+aVIn fact, if we could go back
+p79
+aVto our tranquil skies above Chile,
+p80
+aVand we allow time to move forward
+p81
+aVto see how the sky might change over the next year,
+p82
+aVthe pulsations that you see
+p83
+aVare supernovae, the final remnants of a dying star
+p84
+aVexploding, brightening and then fading from view,
+p85
+aVeach one of these supernovae
+p86
+aVfive billion times the brightness of our sun,
+p87
+aVso we can see them to great distances
+p88
+aVbut only for a short amount of time.
+p89
+aVTen supernova per second explode somewhere
+p90
+aVin our universe.
+p91
+aVIf we could hear it,
+p92
+aVit would be popping like a bag of popcorn.
+p93
+aVNow, if we fade out the supernovae,
+p94
+aVit's not just brightness that changes.
+p95
+aVOur sky is in constant motion.
+p96
+aVThis swarm of objects you see streaming across the sky
+p97
+aVare asteroids as they orbit our sun,
+p98
+aVand it's these changes and the motion
+p99
+aVand it's the dynamics of the system
+p100
+aVthat allow us to build our models for our universe,
+p101
+aVto predict its future and to explain its past.
+p102
+aa(lp103
+VBut the telescopes we've used over the last decade
+p104
+aVare not designed to capture the data at this scale.
+p105
+aVThe Hubble Space Telescope:
+p106
+aVfor the last 25 years it's been producing
+p107
+aVsome of the most detailed views
+p108
+aVof our distant universe,
+p109
+aVbut if you tried to use the Hubble to create an image
+p110
+aVof the sky, it would take 13 million individual images,
+p111
+aVabout 120 years to do this just once.
+p112
+aa(lp113
+VSo this is driving us to new technologies
+p114
+aVand new telescopes,
+p115
+aVtelescopes that can go faint
+p116
+aVto look at the distant universe
+p117
+aVbut also telescopes that can go wide
+p118
+aVto capture the sky as rapidly as possible,
+p119
+aVtelescopes like the Large Synoptic Survey Telescope,
+p120
+aVor the LSST,
+p121
+aVpossibly the most boring name ever
+p122
+aVfor one of the most fascinating experiments
+p123
+aVin the history of astronomy,
+p124
+aVin fact proof, if you should need it,
+p125
+aVthat you should never allow  a scientist or an engineer
+p126
+aVto name anything, not even your children. (Laughter)
+p127
+aVWe're building the LSST.
+p128
+aVWe expect it to start taking data by the end of this decade.
+p129
+aVI'm going to show you how we think
+p130
+aVit's going to transform  our views of the universe,
+p131
+aVbecause one image from the LSST
+p132
+aVis equivalent to 3,000 images
+p133
+aVfrom the Hubble Space Telescope,
+p134
+aVeach image three and a half degrees on the sky,
+p135
+aVseven times the width of the full moon.
+p136
+aVWell, how do you capture an image at this scale?
+p137
+aVWell, you build the largest digital camera in history,
+p138
+aVusing the same technology you find in the cameras in your cell phone
+p139
+aVor in the digital cameras you  can buy in the High Street,
+p140
+aVbut now at a scale that is five and a half feet across,
+p141
+aVabout the size of a Volkswagen Beetle,
+p142
+aVwhere one image is three billion pixels.
+p143
+aVSo if you wanted to look at an image
+p144
+aVin its full resolution, just a single LSST image,
+p145
+aVit would take about 1,500  high-definition TV screens.
+p146
+aVAnd this camera will image the sky,
+p147
+aVtaking a new picture every 20 seconds,
+p148
+aVconstantly scanning the sky
+p149
+aVso every three nights, we'll get a completely new view
+p150
+aVof the skies above Chile.
+p151
+aVOver the mission lifetime of this telescope,
+p152
+aVit will detect 40 billion stars and galaxies,
+p153
+aVand that will be for the first time
+p154
+aVwe'll have detected more objects in our universe
+p155
+aVthan people on the Earth.
+p156
+aVNow, we can talk about this
+p157
+aVin terms of terabytes and petabytes
+p158
+aVand billions of objects,
+p159
+aVbut a way to get a sense of the amount of data
+p160
+aVthat will come off this camera
+p161
+aVis that it's like playing every TED Talk ever recorded
+p162
+aVsimultaneously, 24 hours a day,
+p163
+aVseven days a week, for 10 years.
+p164
+aVAnd to process this data means
+p165
+aVsearching through all of those talks
+p166
+aVfor every new idea and every new concept,
+p167
+aVlooking at each part of the video
+p168
+aVto see how one frame may have changed
+p169
+aVfrom the next.
+p170
+aVAnd this is changing the way that we do science,
+p171
+aVchanging the way that we do astronomy,
+p172
+aVto a place where software and algorithms
+p173
+aVhave to mine through this data,
+p174
+aVwhere the software is as critical to the science
+p175
+aVas the telescopes and the  cameras that we've built.
+p176
+aa(lp177
+VNow, thousands of discoveries
+p178
+aVwill come from this project,
+p179
+aVbut I'm just going to tell you about two
+p180
+aVof the ideas about origins and evolution
+p181
+aVthat may be transformed by our access
+p182
+aVto data at this scale.
+p183
+aa(lp184
+VIn the last five years, NASA has discovered
+p185
+aVover 1,000 planetary systems
+p186
+aVaround nearby stars,
+p187
+aVbut the systems we're finding
+p188
+aVaren't much like our own solar system,
+p189
+aVand one of the questions we face is
+p190
+aVis it just that we haven't been looking hard enough
+p191
+aVor is there something special or unusual
+p192
+aVabout how our solar system formed?
+p193
+aVAnd if we want to answer that question,
+p194
+aVwe have to know and understand
+p195
+aVthe history of our solar system in detail,
+p196
+aVand it's the details that are crucial.
+p197
+aVSo now, if we look back at the sky,
+p198
+aVat our asteroids that were streaming across the sky,
+p199
+aVthese asteroids are like the debris of our solar system.
+p200
+aVThe positions of the asteroids
+p201
+aVare like a fingerprint of an earlier time
+p202
+aVwhen the orbits of Neptune and Jupiter
+p203
+aVwere much closer to the sun,
+p204
+aVand as these giant planets migrated through our solar system,
+p205
+aVthey were scattering the asteroids in their wake.
+p206
+aVSo studying the asteroids
+p207
+aVis like performing forensics,
+p208
+aVperforming forensics on our solar system,
+p209
+aVbut to do this, we need distance,
+p210
+aVand we get the distance from the motion,
+p211
+aVand we get the motion because of our access to time.
+p212
+aa(lp213
+VSo what does this tell us?
+p214
+aVWell, if you look at the little yellow asteroids
+p215
+aVflitting across the screen,
+p216
+aVthese are the asteroids that are moving fastest,
+p217
+aVbecause they're closest to us, closest to Earth.
+p218
+aVThese are the asteroids we may one day
+p219
+aVsend spacecraft to, to mine them for minerals,
+p220
+aVbut they're also the asteroids that may one day
+p221
+aVimpact the Earth,
+p222
+aVlike happened 60 million years ago
+p223
+aVwith the extinction of the dinosaurs,
+p224
+aVor just at the beginning of the last century,
+p225
+aVwhen an asteroid wiped out
+p226
+aValmost 1,000 square miles of Siberian forest,
+p227
+aVor even just last year, as one burnt up over Russia,
+p228
+aVreleasing the energy of a small nuclear bomb.
+p229
+aVSo studying the forensics of our solar system
+p230
+aVdoesn't just tell us about the past,
+p231
+aVit can also predict the future,  including our future.
+p232
+aa(lp233
+VNow when we get distance,
+p234
+aVwe get to see the asteroids  in their natural habitat,
+p235
+aVin orbit around the sun.
+p236
+aVSo every point in this visualization that you can see
+p237
+aVis a real asteroid.
+p238
+aVIts orbit has been calculated from its motion across the sky.
+p239
+aVThe colors reflect the composition of these asteroids,
+p240
+aVdry and stony in the center,
+p241
+aVwater-rich and primitive towards the edge,
+p242
+aVwater-rich asteroids which may have seeded
+p243
+aVthe oceans and the seas that we find on our planet
+p244
+aVwhen they bombarded the  Earth at an earlier time.
+p245
+aVBecause the LSST will be able to go faint
+p246
+aVand not just wide,
+p247
+aVwe will be able to see these asteroids
+p248
+aVfar beyond the inner part of our solar system,
+p249
+aVto asteroids beyond the  orbits of Neptune and Mars,
+p250
+aVto comets and asteroids that may exist
+p251
+aValmost a light year from our sun.
+p252
+aVAnd as we increase the detail of this picture,
+p253
+aVincreasing the detail by factors of 10 to 100,
+p254
+aVwe will be able to answer questions such as,
+p255
+aVis there evidence for planets outside the orbit of Neptune,
+p256
+aVto find Earth-impacting asteroids
+p257
+aVlong before they're a danger,
+p258
+aVand to find out whether, maybe,
+p259
+aVour sun formed on its own or in a cluster of stars,
+p260
+aVand maybe it's this sun's stellar siblings
+p261
+aVthat influenced the formation of our solar system,
+p262
+aVand maybe that's one of the reasons why  solar systems like ours seem to be so rare.
+p263
+aa(lp264
+VNow, distance and changes in our universe \u2014
+p265
+aVdistance equates to time,
+p266
+aVas well as changes on the sky.
+p267
+aVEvery foot of distance you look away,
+p268
+aVor every foot of distance an object is away,
+p269
+aVyou're looking back about a billionth of a second in time,
+p270
+aVand this idea or this notion of looking back in time
+p271
+aVhas revolutionized our ideas about the universe,
+p272
+aVnot once but multiple times.
+p273
+aa(lp274
+VThe first time was in 1929,
+p275
+aVwhen an astronomer called Edwin Hubble
+p276
+aVshowed that the universe was expanding,
+p277
+aVleading to the ideas of the Big Bang.
+p278
+aVAnd the observations were simple:
+p279
+aVjust 24 galaxies
+p280
+aVand a hand-drawn picture.
+p281
+aVBut just the idea that the more distant a galaxy,
+p282
+aVthe faster it was receding,
+p283
+aVwas enough to give rise to modern cosmology.
+p284
+aa(lp285
+VA second revolution happened 70 years later,
+p286
+aVwhen two groups of astronomers showed
+p287
+aVthat the universe wasn't just expanding,
+p288
+aVit was accelerating,
+p289
+aVa surprise like throwing up a ball into the sky
+p290
+aVand finding out the higher that it gets,
+p291
+aVthe faster it moves away.
+p292
+aVAnd they showed this
+p293
+aVby measuring the brightness of supernovae,
+p294
+aVand how the brightness of the supernovae
+p295
+aVgot fainter with distance.
+p296
+aVAnd these observations were more complex.
+p297
+aVThey required new technologies and new telescopes,
+p298
+aVbecause the supernovae were in galaxies
+p299
+aVthat were 2,000 times more distant
+p300
+aVthan the ones used by Hubble.
+p301
+aVAnd it took three years to find just 42 supernovae,
+p302
+aVbecause a supernova only explodes
+p303
+aVonce every hundred years within a galaxy.
+p304
+aVThree years to find 42 supernovae
+p305
+aVby searching through tens of thousands of galaxies.
+p306
+aVAnd once they'd collected their data,
+p307
+aVthis is what they found.
+p308
+aVNow, this may not look impressive,
+p309
+aVbut this is what a revolution in physics looks like:
+p310
+aVa line predicting the brightness of a supernova
+p311
+aV11 billion light years away,
+p312
+aVand a handful of points that don't quite fit that line.
+p313
+aa(lp314
+VSmall changes give rise to big consequences.
+p315
+aVSmall changes allow us to make discoveries,
+p316
+aVlike the planet found by Herschel.
+p317
+aVSmall changes turn our understanding
+p318
+aVof the universe on its head.
+p319
+aVSo 42 supernovae, slightly too faint,
+p320
+aVmeaning slightly further away,
+p321
+aVrequiring that a universe must not just be expanding,
+p322
+aVbut this expansion must be accelerating,
+p323
+aVrevealing a component of our universe
+p324
+aVwhich we now call dark energy,
+p325
+aVa component that drives this expansion
+p326
+aVand makes up 68 percent of the energy budget
+p327
+aVof our universe today.
+p328
+aa(lp329
+VSo what is the next revolution likely to be?
+p330
+aVWell, what is dark energy and why does it exist?
+p331
+aVEach of these lines shows a different model
+p332
+aVfor what dark energy might be,
+p333
+aVshowing the properties of dark energy.
+p334
+aVThey all are consistent with the 42 points,
+p335
+aVbut the ideas behind these lines
+p336
+aVare dramatically different.
+p337
+aVSome people think about a dark energy
+p338
+aVthat changes with time,
+p339
+aVor whether the properties of the dark energy
+p340
+aVare different depending on where you look on the sky.
+p341
+aVOthers make differences and changes
+p342
+aVto the physics at the sub-atomic level.
+p343
+aVOr, they look at large scales
+p344
+aVand change how gravity and general relativity work,
+p345
+aVor they say our universe is just one of many,
+p346
+aVpart of this mysterious multiverse,
+p347
+aVbut all of these ideas, all of these theories,
+p348
+aVamazing and admittedly some of them a little crazy,
+p349
+aVbut all of them consistent with our 42 points.
+p350
+aa(lp351
+VSo how can we hope to make sense of this
+p352
+aVover the next decade?
+p353
+aVWell, imagine if I gave you a pair of dice,
+p354
+aVand I said you wanted to see whether those dice
+p355
+aVwere loaded or fair.
+p356
+aVOne roll of the dice would tell you very little,
+p357
+aVbut the more times you rolled them,
+p358
+aVthe more data you collected,
+p359
+aVthe more confident you would become,
+p360
+aVnot just whether they're loaded or fair,
+p361
+aVbut by how much, and in what way.
+p362
+aVIt took three years to find just 42 supernovae
+p363
+aVbecause the telescopes that we built
+p364
+aVcould only survey a small part of the sky.
+p365
+aVWith the LSST, we get a completely new view
+p366
+aVof the skies above Chile every three nights.
+p367
+aVIn its first night of operation,
+p368
+aVit will find 10 times the number of supernovae
+p369
+aVused in the discovery of dark energy.
+p370
+aVThis will increase by 1,000
+p371
+aVwithin the first four months:
+p372
+aV1.5 million supernovae by the end of its survey,
+p373
+aVeach supernova a roll of the dice,
+p374
+aVeach supernova testing which theories of dark energy
+p375
+aVare consistent, and which ones are not.
+p376
+aVAnd so, by combining these supernova data
+p377
+aVwith other measures of cosmology,
+p378
+aVwe'll progressively rule out the different ideas
+p379
+aVand theories of dark energy
+p380
+aVuntil hopefully at the end of this survey around 2030,
+p381
+aVwe would expect to hopefully see
+p382
+aVa theory for our universe,
+p383
+aVa fundamental theory for the physics of our universe,
+p384
+aVto gradually emerge.
+p385
+aa(lp386
+VNow, in many ways, the questions that I posed
+p387
+aVare in reality the simplest of questions.
+p388
+aVWe may not know the answers,
+p389
+aVbut we at least know how to ask the questions.
+p390
+aVBut if looking through tens of thousands of galaxies
+p391
+aVrevealed 42 supernovae that turned
+p392
+aVour understanding of the universe on its head,
+p393
+aVwhen we're working with billions of galaxies,
+p394
+aVhow many more times are we going to find
+p395
+aV42 points that don't quite match what we expect?
+p396
+aVLike the planet found by Herschel
+p397
+aVor dark energy
+p398
+aVor quantum mechanics or general relativity,
+p399
+aVall ideas that came because the data
+p400
+aVdidn't quite match what we expected.
+p401
+aVWhat's so exciting about the next decade of data
+p402
+aVin astronomy is,
+p403
+aVwe don't even know how many answers
+p404
+aVare out there waiting,
+p405
+aVanswers about our origins and our evolution.
+p406
+aVHow many answers are out there
+p407
+aVthat we don't even know the questions
+p408
+aVthat we want to ask?
+p409
+aa(lp410
+VThank you.
+p411
+aa(lp412
+V(Applause)
+p413
+aasS'transcript_micsec'
+p414
+(lp415
+I12000
+aI68000
+aI112000
+aI133000
+aI244000
+aI269000
+aI433000
+aI446000
+aI515000
+aI565000
+aI653000
+aI680000
+aI710000
+aI785000
+aI825000
+aI884000
+aI985000
+aI1052000
+aI1054000
+asS'talk_meta'
+p416
+(dp417
+S'ratings'
+p418
+(dp419
+S'beautiful'
+p420
+I75
+sS'ingenious'
+p421
+I21
+sS'inspiring'
+p422
+I146
+sS'ok'
+p423
+I40
+sS'fascinating'
+p424
+I199
+sS'funny'
+p425
+I4
+sS'total_count'
+p426
+I869
+sS'persuasive'
+p427
+I24
+sS'longwinded'
+p428
+I22
+sS'unconvincing'
+p429
+I8
+sS'informative'
+p430
+I278
+sS'jaw-dropping'
+p431
+I34
+sS'obnoxious'
+p432
+I2
+sS'courageous'
+p433
+I7
+sS'confusing'
+p434
+I9
+ssS'author'
+p435
+VAndrew_Connolly;
+p436
+sS'url'
+p437
+S'https://www.ted.com/talks/andrew_connolly_what_s_the_next_window_into_our_universe'
+p438
+sS'vidlen'
+p439
+I1059
+sS'totalviews'
+p440
+I1225127
+sS'title'
+p441
+VWhat's the next window into our universe?
+p442
+sS'downloadlink'
+p443
+Vhttps://download.ted.com/talks/AndrewConnolly_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p444
+sS'datepublished'
+p445
+cdatetime
+datetime
+p446
+(S'\x07\xde\t\x10\x0b\x08\x07\x00\x00\x00'
+tRp447
+sS'datefilmed'
+p448
+g446
+(S'\x07\xde\t\x10\x0b\x08\x07\x00\x00\x00'
+tRp449
+sS'alldata_JSON'
+p450
+S'{"viewed_count": 1225127, "speakers": [{"description": "Astronomer", "firstname": "Andrew", "title": "", "lastname": "Connolly", "middleinitial": "", "whylisten": "Andrew Connolly&#39;s research focuses on understanding the evolution of our universe, by studying how structure forms and evolves on small and large scales -- from the search for asteroids to the clustering of distant galaxies. He&#39;s a ten-year veteran of the Large Synoptic Sky Survey, and is now prepping for the unprecedented data streams we could expect from the under-construction&nbsp;<a href=\\"http://www.lsst.org/lsst/\\" target=\\"_blank\\">Large Synoptic Survey Telescope</a>.<br />&nbsp;<br />Set on an 8,800-foot peak in northern Chile, the LSST will have an 8.4-meter primary mirror, a 10-square-degree field of view and a 3.2 gigapixel camera. It will survey half the sky every three nights, creating about 100 terabytes of data every week. Astronomers, Connolly suggests, will need wholly new tools to wrangle this amount of data -- so he has been helping bring together computer scientists, statisticians and astronomers to develop scalable algorithms for processing massive data streams.<br />&nbsp;<br />On sabbatical from the University of Washington, Connolly led the development of Google Sky, and he&#39;s now working with Microsoft to develop affordable digital planetariums.", "slug": "andrew_connolly", "whotheyare": "Andrew Connolly is helping to build the Large Synoptic Survey Telescope -- as well as tools to handle the massive datasets it will send our way.", "whatotherssay": "We have to train the next generation in how to use these data sets, because they are ultimately the ones that are going to make the breakthroughs.", "id": 1768, "photo_url": "https://pe.tedcdn.com/images/ted/7efa3bda3144af28555a18c21872797cbce17978_254x191.jpg"}], "current_talk": 2069, "description": "Big Data is everywhere \\u2014 even the skies. In an informative talk, astronomer Andrew Connolly shows how large amounts of data are being collected about our universe, recording it in its ever-changing moods. Just how do scientists capture so many images at scale? It starts with a giant telescope ...", "language": "en", "url": "https://www.ted.com/talks/andrew_connolly_what_s_the_next_window_into_our_universe", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126420496}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24417090}, "podcast-high": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126426508}, "180k": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 24167324}, "64k": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8709721}, "1500k": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 196218552}, "450k": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60229106}, "podcast-regular": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60344368}, "950k": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 126434573}, "audio-podcast": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10934905}, "podcast-light": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8843204}, "320k": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 42787080}, "600k": {"uri": "https://download.ted.com/talks/AndrewConnolly_2014-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 80497141}}}, "comments": {"count": 62, "id": 26686, "talk_id": 2069}, "slug": "andrew_connolly_what_s_the_next_window_into_our_universe", "threadId": 26686, "talks": [{"event": "TED2014", "player_talks": [{"event": "TED2014", "slug": "andrew_connolly_what_s_the_next_window_into_our_universe", "filmed": 1395187200, "targeting": {"event": "TED2014", "tag": "astronomy,space,technology,telescopes,universe", "id": 2069, "talk": "andrew_connolly_what_s_the_next_window_into_our_universe", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "What\'s the next window into our universe?", "postAdDuration": "0.83", "published": 1410880087, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4037b79ef05ea9c6f615932a53a32f26bb6d675c_2400x1800.jpg?quality=89&w=600", "name": "Andrew Connolly: What\'s the next window into our universe?", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["astronomy", "space", "technology", "telescopes", "universe"], "speaker": "Andrew Connolly", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1059, "id": 2069, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AndrewConnolly_2014-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2014", "tag": "astronomy,space,technology,telescopes,universe", "id": 2069, "talk": "andrew_connolly_what_s_the_next_window_into_our_universe", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2069.json", "stream": "https://hls.ted.com/talks/2069.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2014%26id%3D2069%26tag%3Dastronomy%2Cspace%2Ctechnology%2Ctelescopes%2Cuniverse%26talk%3Dandrew_connolly_what_s_the_next_window_into_our_universe%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/andrew_connolly_what_s_the_next_window_into_our_universe"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/4037b79ef05ea9c6f615932a53a32f26bb6d675c_2400x1800.jpg?q=50&w=15", "duration": 1059, "id": 2069, "ratings": [{"count": 75, "id": 1, "name": "Beautiful"}, {"count": 278, "id": 8, "name": "Informative"}, {"count": 146, "id": 10, "name": "Inspiring"}, {"count": 199, "id": 22, "name": "Fascinating"}, {"count": 40, "id": 25, "name": "OK"}, {"count": 21, "id": 9, "name": "Ingenious"}, {"count": 7, "id": 3, "name": "Courageous"}, {"count": 24, "id": 24, "name": "Persuasive"}, {"count": 34, "id": 23, "name": "Jaw-dropping"}, {"count": 22, "id": 11, "name": "Longwinded"}, {"count": 9, "id": 2, "name": "Confusing"}, {"count": 8, "id": 21, "name": "Unconvincing"}, {"count": 2, "id": 26, "name": "Obnoxious"}, {"count": 4, "id": 7, "name": "Funny"}], "speakers": [{"description": "Astronomer", "firstname": "Andrew", "title": "", "lastname": "Connolly", "middleinitial": "", "whylisten": "Andrew Connolly&#39;s research focuses on understanding the evolution of our universe, by studying how structure forms and evolves on small and large scales -- from the search for asteroids to the clustering of distant galaxies. He&#39;s a ten-year veteran of the Large Synoptic Sky Survey, and is now prepping for the unprecedented data streams we could expect from the under-construction&nbsp;<a href=\\"http://www.lsst.org/lsst/\\" target=\\"_blank\\">Large Synoptic Survey Telescope</a>.<br />&nbsp;<br />Set on an 8,800-foot peak in northern Chile, the LSST will have an 8.4-meter primary mirror, a 10-square-degree field of view and a 3.2 gigapixel camera. It will survey half the sky every three nights, creating about 100 terabytes of data every week. Astronomers, Connolly suggests, will need wholly new tools to wrangle this amount of data -- so he has been helping bring together computer scientists, statisticians and astronomers to develop scalable algorithms for processing massive data streams.<br />&nbsp;<br />On sabbatical from the University of Washington, Connolly led the development of Google Sky, and he&#39;s now working with Microsoft to develop affordable digital planetariums.", "slug": "andrew_connolly", "whotheyare": "Andrew Connolly is helping to build the Large Synoptic Survey Telescope -- as well as tools to handle the massive datasets it will send our way.", "whatotherssay": "We have to train the next generation in how to use these data sets, because they are ultimately the ones that are going to make the breakthroughs.", "id": 1768, "photo_url": "https://pe.tedcdn.com/images/ted/7efa3bda3144af28555a18c21872797cbce17978_254x191.jpg"}], "title": "What\'s the next window into our universe?", "take_action": [], "comments": 26686, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/4037b79ef05ea9c6f615932a53a32f26bb6d675c_2400x1800.jpg", "description": "Big Data is everywhere \\u2014 even the skies. In an informative talk, astronomer Andrew Connolly shows how large amounts of data are being collected about our universe, recording it in its ever-changing moods. Just how do scientists capture so many images at scale? It starts with a giant telescope ...", "tags": ["astronomy", "space", "technology", "telescopes", "universe"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"vi": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-vi.mp4"}, "el": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-el.mp4"}, "fr": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-nl.mp4"}, "fa": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-fa.mp4"}, "hr": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-hr.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-it.mp4"}, "hu": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-hu.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-pt-br.mp4"}, "sr": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-sr.mp4"}, "ru": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-ru.mp4"}, "ro": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-ja.mp4"}, "es": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-es.mp4"}, "he": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AndrewConnolly_2014-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AndrewConnolly_2014-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AndrewConnolly_2014.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AndrewConnolly_2014-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2069, "audioDownload": "https://download.ted.com/talks/AndrewConnolly_2014.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1689382, "hero": "https://pe.tedcdn.com/images/ted/180834_800x600.jpg", "title": "A 3D atlas of the universe", "id": 900, "speaker": "Carter Emmart", "duration": 417, "slug": "carter_emmart_demos_a_3d_atlas_of_the_universe"}, {"viewed_count": 1308370, "hero": "https://pe.tedcdn.com/images/ted/7b9de2055c8b462be4224f59df4ce0feccc6c613_1600x1200.jpg", "title": "What we can learn from galaxies far, far away", "id": 1936, "speaker": "Henry Lin", "duration": 403, "slug": "henry_lin_what_we_can_learn_from_galaxies_far_far_away"}, {"viewed_count": 1280970, "hero": "https://pe.tedcdn.com/images/ted/3e31ca794b75d058ffd2d7bce4c775670509a515_1600x1200.jpg", "title": "The flower-shaped starshade that might help us detect Earth-like planets", "id": 1976, "speaker": "Jeremy Kasdin", "duration": 398, "slug": "jeremy_kasdin_the_flower_shaped_starshade_that_might_help_us_detect_earth_like_planets"}, {"viewed_count": 990692, "hero": "https://pe.tedcdn.com/images/ted/4d92d229412791ad69ddb89fc52aea0079aed8d6_2880x1620.jpg", "title": "How radio telescopes show us unseen galaxies", "id": 2736, "speaker": "Natasha Hurley-Walker", "duration": 925, "slug": "natasha_hurley_walker_how_radio_telescopes_show_us_unseen_galaxies"}, {"viewed_count": 1035206, "hero": "https://pe.tedcdn.com/images/ted/32606_480x360.jpg", "title": "A preview of the WorldWide Telescope", "id": 224, "speaker": "Roy Gould + Curtis Wong", "duration": 402, "slug": "roy_gould_and_curtis_wong_preview_the_worldwide_telescope"}, {"viewed_count": 1290189, "hero": "https://pe.tedcdn.com/images/ted/54d2c8984c9d745434b1642f0f9dba785ee4a370_2880x1620.jpg", "title": "This telescope might show us the beginning of the universe", "id": 2320, "speaker": "Wendy Freedman", "duration": 938, "slug": "wendy_freedman_this_new_telescope_might_show_us_the_beginning_of_the_universe"}], "recorded_at": "2014-03-19T00:00:00.000+00:00", "slug": "andrew_connolly_what_s_the_next_window_into_our_universe", "speaker_name": "Andrew Connolly", "viewed_count": 1225127, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": []}], "event": "TED2014", "name": "Andrew Connolly: What\'s the next window into our universe?"}'
+p451
+sS'keywords'
+p452
+(lp453
+Vastronomy
+p454
+aVspace
+p455
+aVtechnology
+p456
+aVtelescopes
+p457
+aVuniverse
+p458
+asS'datecrawled'
+p459
+g446
+(S'\x07\xe1\n\x17\x033\x18\x03\xda\xdb'
+tRp460
+sS'id'
+p461
+I2069
+ss.

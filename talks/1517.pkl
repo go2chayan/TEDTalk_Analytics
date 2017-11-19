@@ -1,0 +1,720 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo the machine I'm going to talk you about
+p5
+aVis what I call the greatest machine that never was.
+p6
+aVIt was a machine that was never built,
+p7
+aVand yet, it will be built.
+p8
+aVIt was a machine that was designed
+p9
+aVlong before anyone thought about computers.
+p10
+aa(lp11
+VIf you know anything about the history of computers,
+p12
+aVyou will know that in the '30s and the '40s,
+p13
+aVsimple computers were created
+p14
+aVthat started the computer revolution we have today,
+p15
+aVand you would be correct,
+p16
+aVexcept for you'd have the wrong century.
+p17
+aVThe first computer was really designed
+p18
+aVin the 1830s and 1840s, not the 1930s and 1940s.
+p19
+aVIt was designed, and parts of it were prototyped,
+p20
+aVand the bits of it that were built are here
+p21
+aVin South Kensington.
+p22
+aa(lp23
+VThat machine was built by this guy, Charles Babbage.
+p24
+aVNow, I have a great affinity for Charles Babbage
+p25
+aVbecause his hair is always completely unkempt like this
+p26
+aVin every single picture. (Laughter)
+p27
+aVHe was a very wealthy man, and a sort of,
+p28
+aVpart of the aristocracy of Britain,
+p29
+aVand on a Saturday night in Marylebone,
+p30
+aVwere you part of the intelligentsia of that period,
+p31
+aVyou would have been invited round to his house
+p32
+aVfor a soiree \u2014 and he invited everybody:
+p33
+aVkings, the Duke of Wellington, many, many famous people \u2014
+p34
+aVand he would have shown you one of his mechanical machines.
+p35
+aa(lp36
+VI really miss that era, you know, where you could
+p37
+aVgo around for a soiree and see a mechanical computer
+p38
+aVget demonstrated to you. (Laughter)
+p39
+aVBut Babbage, Babbage himself was born
+p40
+aVat the end of the 18th century,
+p41
+aVand was a fairly famous mathematician.
+p42
+aVHe held the post that Newton held at Cambridge,
+p43
+aVand that was recently held by Stephen Hawking.
+p44
+aVHe's less well known than either of them because
+p45
+aVhe got this idea to make mechanical computing devices
+p46
+aVand never made any of them.
+p47
+aa(lp48
+VThe reason he never made any of them, he's a classic nerd.
+p49
+aVEvery time he had a good idea, he'd think,
+p50
+aV"That's brilliant, I'm going to start building that one.
+p51
+aVI'll spend a fortune on it. I've got a better idea.
+p52
+aVI'm going to work on this one. (Laughter) And I'm going to do this one."
+p53
+aVHe did this until Sir Robert Peel, then Prime Minister,
+p54
+aVbasically kicked him out of Number 10 Downing Street,
+p55
+aVand kicking him out, in those days, that meant saying,
+p56
+aV"I bid you good day, sir." (Laughter)
+p57
+aa(lp58
+VThe thing he designed was this monstrosity here,
+p59
+aVthe analytical engine. Now, just to give you an idea of this,
+p60
+aVthis is a view from above.
+p61
+aVEvery one of these circles is a cog, a stack of cogs,
+p62
+aVand this thing is as big as a steam locomotive.
+p63
+aVSo as I go through this talk, I want you to imagine
+p64
+aVthis gigantic machine. We heard those wonderful sounds
+p65
+aVof what this thing would have sounded like.
+p66
+aVAnd I'm going to take you through the architecture of the machine
+p67
+aV\u2014 that's why it's computer architecture \u2014
+p68
+aVand tell you about this machine, which is a computer.
+p69
+aa(lp70
+VSo let's talk about the memory. The memory
+p71
+aVis very like the memory of a computer today,
+p72
+aVexcept it was all made out of metal,
+p73
+aVstacks and stacks of cogs, 30 cogs high.
+p74
+aVImagine a thing this high of cogs,
+p75
+aVhundreds and hundreds of them,
+p76
+aVand they've got numbers on them.
+p77
+aVIt's a decimal machine. Everything's done in decimal.
+p78
+aVAnd he thought about using binary. The problem
+p79
+aVwith using binary is that the machine would have been so
+p80
+aVtall, it would have been ridiculous. As it is, it's enormous.
+p81
+aVSo he's got memory.
+p82
+aVThe memory is this bit over here.
+p83
+aVYou see it all like this.
+p84
+aa(lp85
+VThis monstrosity over here is the CPU, the chip, if you like.
+p86
+aVOf course, it's this big.
+p87
+aVCompletely mechanical. This whole machine is mechanical.
+p88
+aVThis is a picture of a prototype for part of the CPU
+p89
+aVwhich is in the Science Museum.
+p90
+aa(lp91
+VThe CPU could do the four fundamental functions of arithmetic \u2014
+p92
+aVso addition, multiplication, subtraction, division \u2014
+p93
+aVwhich already is a bit of a feat in metal,
+p94
+aVbut it could also do something that a computer does
+p95
+aVand a calculator doesn't:
+p96
+aVthis machine could look at its own internal memory and make a decision.
+p97
+aVIt could do the "if then" for basic programmers,
+p98
+aVand that fundamentally made it into a computer.
+p99
+aVIt could compute. It couldn't just calculate. It could do more.
+p100
+aa(lp101
+VNow, if we look at this, and we stop for a minute,
+p102
+aVand we think about chips today, we can't
+p103
+aVlook inside a silicon chip. It's just so tiny.
+p104
+aVYet if you did, you would see something
+p105
+aVvery, very similar to this.
+p106
+aVThere's this incredible complexity in the CPU,
+p107
+aVand this incredible regularity in the memory.
+p108
+aVIf you've ever seen an electron microscope picture,
+p109
+aVyou'll see this. This all looks the same,
+p110
+aVthen there's this bit over here which is incredibly complicated.
+p111
+aa(lp112
+VAll this cog wheel mechanism here is doing is what a computer does,
+p113
+aVbut of course you need to program this thing, and of course,
+p114
+aVBabbage used the technology of the day
+p115
+aVand the technology that would reappear in the '50s, '60s and '70s,
+p116
+aVwhich is punch cards. This thing over here
+p117
+aVis one of three punch card readers in here,
+p118
+aVand this is a program in the Science Museum, just
+p119
+aVnot far from here, created by Charles Babbage,
+p120
+aVthat is sitting there \u2014 you can go see it \u2014
+p121
+aVwaiting for the machine to be built.
+p122
+aVAnd there's not just one of these, there's many of them.
+p123
+aVHe prepared programs anticipating this would happen.
+p124
+aa(lp125
+VNow, the reason they used punch cards was that Jacquard,
+p126
+aVin France, had created the Jacquard loom,
+p127
+aVwhich was weaving these incredible patterns controlled by punch cards,
+p128
+aVso he was just repurposing the technology of the day,
+p129
+aVand like everything else he did, he's using the technology
+p130
+aVof his era, so 1830s, 1840s, 1850s, cogs, steam,
+p131
+aVmechanical devices. Ironically, born the same year
+p132
+aVas Charles Babbage was Michael Faraday,
+p133
+aVwho would completely revolutionize everything
+p134
+aVwith the dynamo, transformers, all these sorts of things.
+p135
+aVBabbage, of course, wanted to use proven technology,
+p136
+aVso steam and things.
+p137
+aa(lp138
+VNow, he needed accessories.
+p139
+aVObviously, you've got a computer now.
+p140
+aVYou've got punch cards, a CPU and memory.
+p141
+aVYou need accessories you're going to come with.
+p142
+aVYou're not just going to have that,
+p143
+aa(lp144
+VSo, first of all, you had sound. You had a bell,
+p145
+aVso if anything went wrong \u2014 (Laughter) \u2014
+p146
+aVor the machine needed the attendant to come to it,
+p147
+aVthere was a bell it could ring. (Laughter)
+p148
+aVAnd there's actually an instruction on the punch card
+p149
+aVwhich says "Ring the bell." So you can imagine this "Ting!"
+p150
+aVYou know, just stop for a moment, imagine all those noises,
+p151
+aVthis thing, "Click, clack click click click,"
+p152
+aVsteam engine, "Ding," right? (Laughter)
+p153
+aa(lp154
+VYou also need a printer, obviously, and everyone needs a printer.
+p155
+aVThis is actually a picture of the printing mechanism for
+p156
+aVanother machine of his, called the Difference Engine No. 2,
+p157
+aVwhich he never built, but which the Science Museum
+p158
+aVdid build in the '80s and '90s.
+p159
+aVIt's completely mechanical, again, a printer.
+p160
+aVIt prints just numbers, because he was obsessed with numbers,
+p161
+aVbut it does print onto paper, and it even does word wrapping,
+p162
+aVso if you get to the end of the line, it goes around like that.
+p163
+aa(lp164
+VYou also need graphics, right?
+p165
+aVI mean, if you're going to do anything with graphics,
+p166
+aVso he said, "Well, I need a plotter. I've got a big piece of paper
+p167
+aVand an ink pen and I'll make it plot."
+p168
+aVSo he designed a plotter as well,
+p169
+aVand, you know, at that point, I think he got pretty much
+p170
+aVa pretty good machine.
+p171
+aa(lp172
+VAlong comes this woman, Ada Lovelace.
+p173
+aVNow, imagine these soirees, all these great and good comes along.
+p174
+aVThis lady is the daughter of the mad, bad
+p175
+aVand dangerous-to-know Lord Byron,
+p176
+aVand her mother, being a bit worried that she might have
+p177
+aVinherited some of Lord Byron's madness and badness,
+p178
+aVthought, "I know the solution: Mathematics is the solution.
+p179
+aVWe'll teach her mathematics. That'll calm her down."
+p180
+aV(Laughter) Because of course,
+p181
+aVthere's never been a mathematician that's gone crazy,
+p182
+aVso, you know, that'll be fine. (Laughter)
+p183
+aVEverything'll be fine. So she's got this mathematical training,
+p184
+aVand she goes to one of these soirees with her mother,
+p185
+aVand Charles Babbage, you know, gets out his machine.
+p186
+aVThe Duke of Wellington is there, you know,
+p187
+aVget out the machine, obviously demonstrates it,
+p188
+aVand she gets it. She's the only person in his lifetime, really,
+p189
+aVwho said, "I understand what this does,
+p190
+aVand I understand the future of this machine."
+p191
+aVAnd we owe to her an enormous amount because we know
+p192
+aVa lot about the machine that Babbage was intending to build
+p193
+aVbecause of her.
+p194
+aa(lp195
+VNow, some people call her the first programmer.
+p196
+aVThis is actually from one of \u2014 the paper that she translated.
+p197
+aVThis is a program written in a particular style.
+p198
+aVIt's not, historically, totally accurate that she's the first programmer,
+p199
+aVand actually, she did something more amazing.
+p200
+aVRather than just being a programmer,
+p201
+aVshe saw something that Babbage didn't.
+p202
+aa(lp203
+VBabbage was totally obsessed with mathematics.
+p204
+aVHe was building a machine to do mathematics,
+p205
+aVand Lovelace said, "You could do more than mathematics
+p206
+aVon this machine." And just as you do,
+p207
+aVeveryone in this room already's got a computer on them
+p208
+aVright now, because they've got a phone.
+p209
+aVIf you go into that phone, every single thing in that phone
+p210
+aVor computer or any other computing device
+p211
+aVis mathematics. It's all numbers at the bottom.
+p212
+aVWhether it's video or text or music or voice, it's all numbers,
+p213
+aVit's all, underlying it, mathematical functions happening,
+p214
+aVand Lovelace said, "Just because you're doing
+p215
+aVmathematical functions and symbols
+p216
+aVdoesn't mean these things can't represent
+p217
+aVother things in the real world, such as music."
+p218
+aVThis was a huge leap, because Babbage is there saying,
+p219
+aV"We could compute these amazing functions and print out
+p220
+aVtables of numbers and draw graphs," \u2014 (Laughter) \u2014
+p221
+aVand Lovelace is there and she says, "Look,
+p222
+aVthis thing could even compose music if you
+p223
+aVtold it a representation of music numerically."
+p224
+aVSo this is what I call Lovelace's Leap.
+p225
+aVWhen you say she's a programmer, she did do some,
+p226
+aVbut the real thing is to have said the future is going to be
+p227
+aVmuch, much more than this.
+p228
+aa(lp229
+VNow, a hundred years later, this guy comes along,
+p230
+aVAlan Turing, and in 1936, and invents the computer all over again.
+p231
+aVNow, of course, Babbage's machine was entirely mechanical.
+p232
+aVTuring's machine was entirely theoretical.
+p233
+aVBoth of these guys were coming from a mathematical perspective,
+p234
+aVbut Turing told us something very important.
+p235
+aVHe laid down the mathematical foundations
+p236
+aVfor computer science, and said,
+p237
+aV"It doesn't matter how you make a computer."
+p238
+aVIt doesn't matter if your computer's mechanical,
+p239
+aVlike Babbage's was, or electronic, like computers are today,
+p240
+aVor perhaps in the future, cells, or, again,
+p241
+aVmechanical again, once we get into nanotechnology.
+p242
+aVWe could go back to Babbage's machine
+p243
+aVand just make it tiny. All those things are computers.
+p244
+aVThere is in a sense a computing essence.
+p245
+aVThis is called the Church\u2013Turing thesis.
+p246
+aa(lp247
+VAnd so suddenly, you get this link where you say
+p248
+aVthis thing Babbage had built really was a computer.
+p249
+aVIn fact, it was capable of doing everything we do today
+p250
+aVwith computers, only really slowly. (Laughter)
+p251
+aVTo give you an idea of how slowly,
+p252
+aVit had about 1k of memory.
+p253
+aVIt used punch cards, which were being fed in,
+p254
+aVand it ran about 10,000 times slower the first ZX81.
+p255
+aVIt did have a RAM pack.
+p256
+aVYou could add on a lot of extra memory if you wanted to.
+p257
+aa(lp258
+V(Laughter) So, where does that bring us today?
+p259
+aVSo there are plans.
+p260
+aVOver in Swindon, the Science Museum archives,
+p261
+aVthere are hundreds of plans and thousands of pages
+p262
+aVof notes written by Charles Babbage about this analytical engine.
+p263
+aVOne of those is a set of plans that we call Plan 28,
+p264
+aVand that is also the name of a charity that I started
+p265
+aVwith Doron Swade, who was the curator of computing
+p266
+aVat the Science Museum, and also the person who drove
+p267
+aVthe project to build a difference engine,
+p268
+aVand our plan is to build it.
+p269
+aVHere in South Kensington, we will build the analytical engine.
+p270
+aa(lp271
+VThe project has a number of parts to it.
+p272
+aVOne was the scanning of Babbage's archive.
+p273
+aVThat's been done. The second is now the study
+p274
+aVof all of those plans to determine what to build.
+p275
+aVThe third part is a computer simulation of that machine,
+p276
+aVand the last part is to physically build it at the Science Museum.
+p277
+aa(lp278
+VWhen it's built, you'll finally be able to understand how a computer works,
+p279
+aVbecause rather than having a tiny chip in front of you,
+p280
+aVyou've got to look at this humongous thing and say, "Ah,
+p281
+aVI see the memory operating, I see the CPU operating,
+p282
+aVI hear it operating. I probably smell it operating." (Laughter)
+p283
+aVBut in between that we're going to do a simulation.
+p284
+aa(lp285
+VBabbage himself wrote, he said,
+p286
+aVas soon as the analytical engine exists,
+p287
+aVit will surely guide the future course of science.
+p288
+aVOf course, he never built it, because he was always fiddling
+p289
+aVwith new plans, but when it did get built, of course,
+p290
+aVin the 1940s, everything changed.
+p291
+aa(lp292
+VNow, I'll just give you a little taste of what it looks like
+p293
+aVin motion with a video which shows
+p294
+aVjust one part of the CPU mechanism working.
+p295
+aVSo this is just three sets of cogs,
+p296
+aVand it's going to add. This is the adding mechanism
+p297
+aVin action, so you imagine this gigantic machine.
+p298
+aa(lp299
+VSo, give me five years.
+p300
+aVBefore the 2030s happen, we'll have it.
+p301
+aa(lp302
+VThank you very much. (Applause)
+p303
+aasS'transcript_micsec'
+p304
+(lp305
+I11000
+aI22000
+aI48000
+aI77000
+aI105000
+aI127000
+aI154000
+aI187000
+aI203000
+aI230000
+aI254000
+aI291000
+aI324000
+aI333000
+aI353000
+aI376000
+aI391000
+aI451000
+aI470000
+aI540000
+aI586000
+aI618000
+aI649000
+aI666000
+aI683000
+aI698000
+aI718000
+aI722000
+asS'talk_meta'
+p306
+(dp307
+S'ratings'
+p308
+(dp309
+S'beautiful'
+p310
+I19
+sS'ingenious'
+p311
+I69
+sS'inspiring'
+p312
+I66
+sS'ok'
+p313
+I47
+sS'fascinating'
+p314
+I235
+sS'funny'
+p315
+I29
+sS'total_count'
+p316
+I788
+sS'persuasive'
+p317
+I7
+sS'longwinded'
+p318
+I20
+sS'informative'
+p319
+I247
+sS'jaw-dropping'
+p320
+I30
+sS'obnoxious'
+p321
+I3
+sS'confusing'
+p322
+I7
+sS'courageous'
+p323
+I5
+sS'unconvincing'
+p324
+I4
+ssS'author'
+p325
+VJohn_Graham-Cumming;
+p326
+sS'url'
+p327
+S'https://www.ted.com/talks/john_graham_cumming_the_greatest_machine_that_never_was'
+p328
+sS'vidlen'
+p329
+I734
+sS'totalviews'
+p330
+I1189139
+sS'title'
+p331
+VThe greatest machine that never was
+p332
+sS'downloadlink'
+p333
+Vhttps://download.ted.com/talks/JohnGrahamCumming_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p334
+sS'datepublished'
+p335
+cdatetime
+datetime
+p336
+(S'\x07\xdc\x07\x15\t8$\x00\x00\x00'
+tRp337
+sS'datefilmed'
+p338
+g336
+(S'\x07\xdc\x07\x15\t8$\x00\x00\x00'
+tRp339
+sS'alldata_JSON'
+p340
+S'{"viewed_count": 1189139, "speakers": [{"description": "Computer programmer", "firstname": "John", "title": "", "lastname": "Graham-Cumming", "middleinitial": "", "whylisten": "<p>John Graham-Cumming received his Ph.D. in computer security from Oxford University. A peripatetic programmer, he has worked in Silicon Valley, New York, the UK, Germany and France. In 2004, his open source POPFile program won a Jolt Productivity Award.&nbsp;He has authored two books: The Geek Atlas, a travel companion for math and science history enthusiasts; and GNU Make Unleashed, a guide for programmers. In 2009, he spearheaded a successful petition to the British Government demanding an apology for its persecution of Alan Turing for his homosexuality. His personal blog was rated among the &quot;top 30 science blogs&quot; by The Times in February 2010. And in October, 2010, he founded an organization dedicated to build Charles Babbage&#39;s famous analytical engine.</p><p>&nbsp;</p>", "slug": "john_graham_cumming", "whotheyare": "Computer programmer John Graham-Cumming keeps geek history alive by raising awareness for it\'s heroes and their inventions.", "whatotherssay": "", "id": 1392, "photo_url": "https://pe.tedcdn.com/images/ted/8284d69a07ab1bffbfa4030ad14fc1ec07d00549_254x191.jpg"}], "current_talk": 1517, "description": "Computer science began in the \'30s ... the 1830s. John Graham-Cumming tells the story of Charles Babbage\'s mechanical, steam-powered \\"analytical engine\\" and how Ada Lovelace, mathematician and daughter of Lord Byron, saw beyond its simple computational abilities to imagine the future of computers. ", "language": "en", "url": "https://www.ted.com/talks/john_graham_cumming_the_greatest_machine_that_never_was", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85463352}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16883690}, "podcast-high": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85463697}, "180k": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16610014}, "64k": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6015060}, "1500k": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 132197835}, "450k": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41483988}, "podcast-regular": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41771742}, "950k": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85052487}, "audio-podcast": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7639045}, "podcast-light": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6152285}, "320k": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 29481473}, "600k": {"uri": "https://download.ted.com/talks/JohnGrahamCumming_2012X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 55524690}}}, "comments": {"count": 66, "id": 14203, "talk_id": 1517}, "slug": "john_graham_cumming_the_greatest_machine_that_never_was", "threadId": 14203, "talks": [{"event": "TEDxImperialCollege", "player_talks": [{"event": "TEDxImperialCollege", "slug": "john_graham_cumming_the_greatest_machine_that_never_was", "filmed": 1332547200, "targeting": {"event": "TEDxImperialCollege", "tag": "TEDx,computers,engineering,history,technology,women", "id": 1517, "talk": "john_graham_cumming_the_greatest_machine_that_never_was", "year": "2012"}, "adDuration": "3.33", "external": null, "title": "The greatest machine that never was", "postAdDuration": "0.83", "published": 1342878996, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/32523988c84d9ac1c584b65e634335c238768afe_1600x1200.jpg?quality=89&w=600", "name": "John Graham-Cumming: The greatest machine that never was", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "computers", "engineering", "history", "technology", "women"], "speaker": "John Graham-Cumming", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 734, "id": 1517, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JohnGrahamCumming_2012X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxImperialCollege", "tag": "TEDx,computers,engineering,history,technology,women", "id": 1517, "talk": "john_graham_cumming_the_greatest_machine_that_never_was", "year": "2012"}, "metadata": "https://hls.ted.com/talks/1517.json", "stream": "https://hls.ted.com/talks/1517.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxImperialCollege%26id%3D1517%26tag%3DTEDx%2Ccomputers%2Cengineering%2Chistory%2Ctechnology%2Cwomen%26talk%3Djohn_graham_cumming_the_greatest_machine_that_never_was%26year%3D2012&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/john_graham_cumming_the_greatest_machine_that_never_was"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/32523988c84d9ac1c584b65e634335c238768afe_1600x1200.jpg?q=50&w=15", "duration": 734, "id": 1517, "ratings": [{"count": 235, "id": 22, "name": "Fascinating"}, {"count": 66, "id": 10, "name": "Inspiring"}, {"count": 247, "id": 8, "name": "Informative"}, {"count": 19, "id": 1, "name": "Beautiful"}, {"count": 20, "id": 11, "name": "Longwinded"}, {"count": 4, "id": 21, "name": "Unconvincing"}, {"count": 69, "id": 9, "name": "Ingenious"}, {"count": 29, "id": 7, "name": "Funny"}, {"count": 30, "id": 23, "name": "Jaw-dropping"}, {"count": 5, "id": 3, "name": "Courageous"}, {"count": 47, "id": 25, "name": "OK"}, {"count": 3, "id": 26, "name": "Obnoxious"}, {"count": 7, "id": 2, "name": "Confusing"}, {"count": 7, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Computer programmer", "firstname": "John", "title": "", "lastname": "Graham-Cumming", "middleinitial": "", "whylisten": "<p>John Graham-Cumming received his Ph.D. in computer security from Oxford University. A peripatetic programmer, he has worked in Silicon Valley, New York, the UK, Germany and France. In 2004, his open source POPFile program won a Jolt Productivity Award.&nbsp;He has authored two books: The Geek Atlas, a travel companion for math and science history enthusiasts; and GNU Make Unleashed, a guide for programmers. In 2009, he spearheaded a successful petition to the British Government demanding an apology for its persecution of Alan Turing for his homosexuality. His personal blog was rated among the &quot;top 30 science blogs&quot; by The Times in February 2010. And in October, 2010, he founded an organization dedicated to build Charles Babbage&#39;s famous analytical engine.</p><p>&nbsp;</p>", "slug": "john_graham_cumming", "whotheyare": "Computer programmer John Graham-Cumming keeps geek history alive by raising awareness for it\'s heroes and their inventions.", "whatotherssay": "", "id": 1392, "photo_url": "https://pe.tedcdn.com/images/ted/8284d69a07ab1bffbfa4030ad14fc1ec07d00549_254x191.jpg"}], "title": "The greatest machine that never was", "take_action": null, "comments": 14203, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/32523988c84d9ac1c584b65e634335c238768afe_1600x1200.jpg", "description": "Computer science began in the \'30s ... the 1830s. John Graham-Cumming tells the story of Charles Babbage\'s mechanical, steam-powered \\"analytical engine\\" and how Ada Lovelace, mathematician and daughter of Lord Byron, saw beyond its simple computational abilities to imagine the future of computers. ", "tags": ["TEDx", "computers", "engineering", "history", "technology", "women"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-de.mp4"}, "da": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-da.mp4"}, "hu": {"name": "Hungarian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JohnGrahamCumming_2012X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JohnGrahamCumming_2012X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JohnGrahamCumming_2012X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1517, "audioDownload": "https://download.ted.com/talks/JohnGrahamCumming_2012X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 989500, "hero": "https://pe.tedcdn.com/images/ted/0ce08679141b71a982a05ba162e87a834deabd7f_800x600.jpg", "title": "2600 years of history in one object", "id": 1364, "speaker": "Neil MacGregor", "duration": 1177, "slug": "neil_macgregor_2600_years_of_history_in_one_object"}, {"viewed_count": 1932105, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "title": "My seven species of robot -- and how we created them", "id": 820, "speaker": "Dennis Hong", "duration": 955, "slug": "dennis_hong_my_seven_species_of_robot"}, {"viewed_count": 1504148, "hero": "https://pe.tedcdn.com/images/ted/31e1e3ed75cd3ab7fc08818c5d6a78795d609824_800x600.jpg", "title": "Teaching kids real math with computers", "id": 1007, "speaker": "Conrad Wolfram", "duration": 1039, "slug": "conrad_wolfram_teaching_kids_real_math_with_computers"}, {"viewed_count": 842365, "hero": "https://pe.tedcdn.com/images/ted/45621_480x360.jpg", "title": "The birth of the computer", "id": 278, "speaker": "George Dyson", "duration": 1038, "slug": "george_dyson_at_the_birth_of_the_computer"}, {"viewed_count": 1133226, "hero": "https://pe.tedcdn.com/images/ted/0d28c4301c3c7ed0a3790e31231e71e1469524e6_2880x1620.jpg", "title": "Don\'t fear intelligent machines. Work with them", "id": 2787, "speaker": "Garry Kasparov", "duration": 920, "slug": "garry_kasparov_don_t_fear_intelligent_machines_work_with_them"}, {"viewed_count": 1966670, "hero": "https://pe.tedcdn.com/images/ted/7435561605a12023707d418b73c64ccb7d465783_2880x1620.jpg", "title": "The jobs we\'ll lose to machines -- and the ones we won\'t", "id": 2548, "speaker": "Anthony Goldbloom", "duration": 276, "slug": "anthony_goldbloom_the_jobs_we_ll_lose_to_machines_and_the_ones_we_won_t"}], "recorded_at": "2012-03-24T00:00:00.000+00:00", "slug": "john_graham_cumming_the_greatest_machine_that_never_was", "speaker_name": "John Graham-Cumming", "viewed_count": 1189139, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxImperialCollege, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxImperialCollege", "name": "John Graham-Cumming: The greatest machine that never was"}'
+p341
+sS'keywords'
+p342
+(lp343
+VTEDx
+p344
+aVcomputers
+p345
+aVengineering
+p346
+aVhistory
+p347
+aVtechnology
+p348
+aVwomen
+p349
+asS'datecrawled'
+p350
+g336
+(S'\x07\xe1\n\x17\x02;:\x05\x91y'
+tRp351
+sS'id'
+p352
+I1517
+ss.

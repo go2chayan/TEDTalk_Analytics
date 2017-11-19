@@ -1,0 +1,780 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI want you to imagine that you're a student in my lab.
+p5
+aVWhat I want you to do is to create a biologically inspired design.
+p6
+aVAnd so here's the challenge:
+p7
+aVI want you to help me create a fully 3D, dynamic, parameterized contact model.
+p8
+aVThe translation of that is, could you help me build a foot?
+p9
+aVAnd it is a true challenge, and I do want you to help me.
+p10
+aVOf course, in the challenge there is a prize.
+p11
+aVIt's not quite the TED Prize, but it is an exclusive t-shirt from our lab.
+p12
+aVSo please send me your ideas about how to design a foot.
+p13
+aa(lp14
+VNow if we want to design a foot, what do we have to do?
+p15
+aVWe have to first know what a foot is.
+p16
+aVIf we go to the dictionary, it says, "It's the lower extremity of a leg
+p17
+aVthat is in direct contact with the ground in standing or walking"
+p18
+aVThat's the traditional definition.
+p19
+aVBut if you wanted to really do research, what do you have to do?
+p20
+aVYou have to go to the literature and look up what's known about feet.
+p21
+aVSo you go to the literature. (Laughter)
+p22
+aa(lp23
+VMaybe you're familiar with this literature.
+p24
+aVThe problem is, there are many, many feet.
+p25
+aVHow do you do this?
+p26
+aVYou need to survey all feet and extract the principles of how they work.
+p27
+aVAnd I want you to help me do that in this next clip.
+p28
+aVAs you see this clip, look for principles,
+p29
+aVand also think about experiments that you might design
+p30
+aVin order to understand how a foot works.
+p31
+aa(lp32
+VSee any common themes? Principles?
+p33
+aVWhat would you do?
+p34
+aVWhat experiments would you run?
+p35
+aVWow. (Applause)
+p36
+aVOur research on the biomechanics of animal locomotion
+p37
+aVhas allowed us to make a blueprint for a foot.
+p38
+aVIt's a design inspired by nature, but it's not a copy of any specific foot you just looked at,
+p39
+aVbut it's a synthesis of the secrets of many, many feet.
+p40
+aa(lp41
+VNow it turns out that animals can go anywhere.
+p42
+aVThey can locomote on substrates that vary as you saw \u2014
+p43
+aVin the probability of contact, the movement of that surface
+p44
+aVand the type of footholds that are present.
+p45
+aVIf you want to study how a foot works,
+p46
+aVwe're going to have to simulate those surfaces, or simulate that debris.
+p47
+aVWhen we did that, here's a new experiment that we did:
+p48
+aVwe put an animal and had it run \u2014 this grass spider \u2014
+p49
+aVon a surface with 99 percent of the contact area removed.
+p50
+aVBut it didn't even slow down the animal.
+p51
+aVIt's still running at the human equivalent of 300 miles per hour.
+p52
+aa(lp53
+VNow how could it do that? Well, look more carefully.
+p54
+aVWhen we slow it down 50 times we see how the leg is hitting that simulated debris.
+p55
+aVThe leg is acting as a foot.
+p56
+aVAnd in fact, the animal contacts other parts of its leg
+p57
+aVmore frequently than the traditionally defined foot.
+p58
+aVThe foot is distributed along the whole leg.
+p59
+aVYou can do another experiment where you can take a cockroach with a foot,
+p60
+aVand you can remove its foot.
+p61
+aVI'm passing some cockroaches around. Take a look at their feet.
+p62
+aVWithout a foot, here's what it does. It doesn't even slow down.
+p63
+aVIt can run the same speed without even that segment.
+p64
+aVNo problem for the cockroach \u2014 they can grow them back, if you care.
+p65
+aVHow do they do it?
+p66
+aVLook carefully: this is slowed down 100 times,
+p67
+aVand watch what it's doing with the rest of its leg.
+p68
+aVIt's acting, again, as a distributed foot \u2014
+p69
+aVvery effective.
+p70
+aa(lp71
+VNow, the question we had is, how general is a distributed foot?
+p72
+aVAnd the next behavior I'll show you of this animal just stunned us the first time that we saw it.
+p73
+aVJournalists, this is off the record; it's embargoed.
+p74
+aVTake a look at what that is!
+p75
+aVThat's a bipedal octopus that's disguised as a rolling coconut.
+p76
+aVIt was discovered by Christina Huffard
+p77
+aVand filmed by Sea Studios, right here from Monterey.
+p78
+aa(lp79
+VWe've also described another species of bipedal octopus.
+p80
+aVThis one disguises itself as floating algae.
+p81
+aVIt walks on two legs and it holds the other arms up in the air so that it can't be seen.
+p82
+aV(Applause)
+p83
+aVAnd look what it does with its foot to get over challenging terrain.
+p84
+aVIt uses that beautiful distributed foot to make it as if those obstacles are not even there \u2014
+p85
+aVtruly extraordinary.
+p86
+aa(lp87
+VIn 1951, Escher made this drawing. He thought he created an animal fantasy.
+p88
+aVBut we know that art imitates life,
+p89
+aVand it turns out nature, three million years ago, evolved the next animal.
+p90
+aVIt's a shrimp-like animal called the stomatopod,
+p91
+aVand here's how it moves on the beaches of Panama:
+p92
+aVit actually rolls, and it can even roll uphill.
+p93
+aVIt's the ultimate distributed foot: its whole body in this case is acting like its foot.
+p94
+aa(lp95
+VSo, if we want to then, to our blueprint, add the first important feature,
+p96
+aVwe want to add distributed foot contact.
+p97
+aVNot just with the traditional foot, but also the leg,
+p98
+aVand even of the body.
+p99
+aVCan this help us inspire the design of novel robots?
+p100
+aVWe biologically inspired this robot, named RHex,
+p101
+aVbuilt by these extraordinary engineers over the last few years.
+p102
+aVRHex's foot started off to be quite simple,
+p103
+aVthen it got tuned over time, and ultimately resulted in this half circle.
+p104
+aVWhy is that? The video will show you.
+p105
+aVWatch where the robot, now, contacts its leg in order to deal with this very difficult terrain.
+p106
+aVWhat you'll see, in fact, is that it's using that half circle leg as a distributed foot.
+p107
+aVWatch it go over this.
+p108
+aVYou can see it here well on this debris.
+p109
+aVExtraordinary. No sensing, all the control is built right into the tuned legs.
+p110
+aVReally simple, but beautiful.
+p111
+aa(lp112
+VNow, you might have noticed something else about the animals
+p113
+aVwhen they were running over the rough terrain.
+p114
+aVAnd my assistant's going to help me here.
+p115
+aVWhen you touched the cockroach leg \u2014 can you get the microphone for him?
+p116
+aVWhen you touched the cockroach leg, what did it feel like?
+p117
+aVDid you notice something?
+p118
+aa(lp119
+VBoy: Spiny.
+p120
+aa(lp121
+VRobert Full: It's spiny, right? It's really spiny, isn't it? It sort of hurts.
+p122
+aVMaybe we could give it to our curator and see if he'd be brave enough to touch the cockroach.
+p123
+aV(Laughter)
+p124
+aa(lp125
+VChris Anderson: Did you touch it?
+p126
+aa(lp127
+VRF: So if you look carefully at this, what you see is that they have spines
+p128
+aVand until a few weeks ago, no one knew what they did.
+p129
+aVThey assumed that they were for protection and for sensory structures.
+p130
+aVWe found that they're for something else \u2014 here's a segment of that spine.
+p131
+aVThey're tuned such that they easily collapse in one direction
+p132
+aVto pull the leg out from debris,
+p133
+aVbut they're stiff in the other direction so they capture disparities in the surface.
+p134
+aa(lp135
+VNow crabs don't miss footholds, because they normally move on sand \u2014
+p136
+aVuntil they come to our lab.
+p137
+aVAnd where they have a problem with this kind of mesh,
+p138
+aVbecause they don't have spines.
+p139
+aVThe crabs are missing spines, so they have a problem in this kind of rough terrain.
+p140
+aVBut of course, we can deal with that
+p141
+aVbecause we can produce artificial spines.
+p142
+aVWe can make spines that catch on simulated debris
+p143
+aVand collapse on removal to easily pull them out.
+p144
+aVWe did that by putting these artificial spines on crabs,
+p145
+aVas you see here, and then we tested them.
+p146
+aVDo we really understand that principle of tuning? The answer is, yes!
+p147
+aVThis is slowed down 20-fold, and the crab just zooms across that simulated debris.
+p148
+aV(Laughter) (Applause)
+p149
+aVA little better than nature.
+p150
+aa(lp151
+VSo to our blueprint, we need to add tuned spines.
+p152
+aVNow will this help us think about the design of more effective climbing robots?
+p153
+aVWell, here's RHex: RHex has trouble on rails \u2014 on smooth rails, as you see here.
+p154
+aVSo why not add a spine? My colleagues did this at U. Penn.
+p155
+aVDan Koditschek put some steel nails \u2014 very simple version \u2014 on the robot,
+p156
+aVand here's RHex, now, going over those steel \u2014 those rails. No problem!
+p157
+aVHow does it do it?
+p158
+aVLet's slow it down and you can see the spines in action.
+p159
+aVWatch the leg come around, and you'll see it grab on right there.
+p160
+aVIt couldn't do that before; it would just slip and get stuck and tip over.
+p161
+aVAnd watch again, right there \u2014 successful.
+p162
+aa(lp163
+VNow just because we have a distributed foot and spines
+p164
+aVdoesn't mean you can climb vertical surfaces.
+p165
+aVThis is really, really difficult.
+p166
+aVBut look at this animal do it!
+p167
+aVOne of the ones I'm passing around is climbing up this vertical surface that's a smooth metal plate.
+p168
+aVIt's extraordinary how fast it can do it \u2014
+p169
+aVbut if you slow it down, you see something that's quite extraordinary.
+p170
+aVIt's a secret. The animal effectively climbs by slipping and look \u2014
+p171
+aVand doing, actually, terribly, with respect to grabbing on the surface.
+p172
+aVIt looks, in fact, like it's swimming up the surface.
+p173
+aVWe can actually model that behavior better as a fluid, if you look at it.
+p174
+aVThe distributed foot, actually, is working more like a paddle.
+p175
+aa(lp176
+VThe same is true when we looked at this lizard running on fluidized sand.
+p177
+aVWatch its feet.
+p178
+aVIt's actually functioning as a paddle
+p179
+aVeven though it's interacting with a surface that we normally think of as a solid.
+p180
+aVThis is not different from what my former undergraduate discovered
+p181
+aVwhen she figured out how lizards can run on water itself.
+p182
+aVCan you use this to make a better robot?
+p183
+aVMartin Buehler did \u2014 who's now at Boston Dynamics \u2014
+p184
+aVhe took this idea and made RHex to be Aqua RHex.
+p185
+aVSo here's RHex with paddles,
+p186
+aVnow converted into an incredibly maneuverable swimming robot.
+p187
+aa(lp188
+VFor rough surfaces, though, animals add claws.
+p189
+aVAnd you probably feel them if you grabbed it.
+p190
+aVDid you touch it?
+p191
+aa(lp192
+VCA: I did.
+p193
+aa(lp194
+VRF: And they do really well at grabbing onto surfaces with these claws.
+p195
+aVMark Cutkosky at Stanford University, one of my collaborators, is an extraordinary engineer
+p196
+aVwho developed this technique called Shape Deposition Manufacturing,
+p197
+aVwhere he can imbed claws right into an artificial foot.
+p198
+aVAnd here's the simple version of a foot for a new robot that I'll show you in a bit.
+p199
+aVSo to our blueprint, let's attach claws.
+p200
+aVNow if we look at animals, though, to be really maneuverable in all surfaces,
+p201
+aVthe animals use hybrid mechanisms
+p202
+aVthat include claws, and spines, and hairs, and pads, and glue, and capillary adhesion
+p203
+aVand a whole bunch of other things.
+p204
+aVThese are all from different insects.
+p205
+aVThere's an ant crawling up a vertical surface.
+p206
+aVLet's look at that ant.
+p207
+aa(lp208
+VThis is the foot of an ant. You see the hairs and the claws and this thing here.
+p209
+aVThis is when its foot's in the air.
+p210
+aVWatch what happens when the foot goes onto your sandwich.
+p211
+aVYou see what happens?
+p212
+aVThat pad comes out. And that's where the glue is.
+p213
+aVHere from underneath is an ant foot,
+p214
+aVand when the claws don't dig in, that pad automatically comes out without the ant doing anything.
+p215
+aVIt just extrudes.
+p216
+aVAnd this was a hard shot to get \u2014 I think this is the shot of the ant foot on the superstrings.
+p217
+aVSo it's pretty tough to do.
+p218
+aVThis is what it looks like close up \u2014
+p219
+aVhere's the ant foot, and there's the glue.
+p220
+aa(lp221
+VAnd we discovered this glue may be an interesting two-phase mixture.
+p222
+aVIt certainly helps it to hold on.
+p223
+aVSo to our blueprint, we stick on some sticky pads.
+p224
+aVNow you might think for smooth surfaces we get inspiration here.
+p225
+aVNow we have something better here.
+p226
+aVThe gecko's a really great example of nanotechnology in nature.
+p227
+aVThese are its feet.
+p228
+aVThey're \u2014 almost look alien. And the secret, which they stick on with,
+p229
+aVinvolves their hairy toes.
+p230
+aVThey can run up a surface at a meter per second,
+p231
+aVtake 30 steps in that one second \u2014 you can hardly see them.
+p232
+aVIf we slow it down, they attach their feet at eight milliseconds,
+p233
+aVand detach them in 16 milliseconds.
+p234
+aVAnd when you watch how they detach it, it is bizarre.
+p235
+aVThey peel away from the surface like you'd peel away a piece of tape.
+p236
+aVVery strange. How do they stick?
+p237
+aa(lp238
+VIf you look at their feet, they have leaf-like structures called linalae
+p239
+aVwith millions of hairs.
+p240
+aVAnd each hair has the worst case of split ends possible.
+p241
+aVIt has a hundred to a thousand split ends,
+p242
+aVand that's the secret, because it allows intimate contact.
+p243
+aVThe gecko has a billion of these 200-nanometer-sized split ends.
+p244
+aVAnd they don't stick by glue, or they don't work like Velcro, or they don't work with suction.
+p245
+aVWe discovered they work by intermolecular forces alone.
+p246
+aVSo to our blueprint, we split some hairs.
+p247
+aVThis has inspired the design of the first self-cleaning dry adhesive \u2014
+p248
+aVthe patent issued, we're happy to say.
+p249
+aVAnd here's the simplest version in nature,
+p250
+aVand here's my collaborator Ron Fearing's attempt
+p251
+aVat an artificial version of this dry adhesive made from polyurethane.
+p252
+aVAnd here's the first attempt to have it work on some load.
+p253
+aa(lp254
+VThere's enormous interest in this in a variety of different fields.
+p255
+aVYou could think of a thousand possible uses, I'm sure.
+p256
+aVLots of people have, and we're excited about realizing this as a product.
+p257
+aVWe have imagined products; for example, this one:
+p258
+aVwe imagined a bio-inspired Band-Aid, where we took the glue off the Band-Aid.
+p259
+aVWe took some hairs from a molting gecko;
+p260
+aVput three rolls of them on here, and then made this Band-Aid.
+p261
+aa(lp262
+VThis is an undergraduate volunteer \u2014
+p263
+aVwe have 30,000 undergraduates so we can choose among them \u2014
+p264
+aVthat's actually just a red pen mark.
+p265
+aVBut it makes an incredible Band-Aid.
+p266
+aVIt's aerated, it can be peeled off easily, it doesn't cause any irritation, it works underwater.
+p267
+aVI think this is an extraordinary example of how curiosity-based research \u2014
+p268
+aVwe just wondered how they climbed up something \u2014
+p269
+aVcan lead to things that you could never imagine.
+p270
+aVIt's just an example of why we need to support curiosity-based research.
+p271
+aVHere you are, pulling off the Band-Aid.
+p272
+aa(lp273
+VSo we've redefined, now, what a foot is.
+p274
+aVThe question is, can we use these secrets, then,
+p275
+aVto inspire the design of a better foot, better than one that we see in nature?
+p276
+aVHere's the new project:
+p277
+aVwe're trying to create the first climbing search-and-rescue robot \u2014 no suction or magnets \u2014
+p278
+aVthat can only move on limited kinds of surfaces.
+p279
+aVI call the new robot RiSE, for "Robot in Scansorial Environment" \u2014 that's a climbing environment \u2014
+p280
+aVand we have an extraordinary team of biologists and engineers creating this robot.
+p281
+aVAnd here is RiSE.
+p282
+aVIt's six-legged and has a tail. Here it is on a fence and a tree.
+p283
+aVAnd here are RiSE's first steps on an incline.
+p284
+aVYou have the audio? You can hear it go up.
+p285
+aVAnd here it is coming up at you, in its first steps up a wall.
+p286
+aVNow it's only using its simplest feet here, so this is very new.
+p287
+aVBut we think we got the dynamics right of the robot.
+p288
+aa(lp289
+VMark Cutkosky, though, is taking it a step further.
+p290
+aVHe's the one able to build this shape-deposition manufactured feet and toes.
+p291
+aVThe next step is to make compliant toes,
+p292
+aVand try to add spines and claws and set it for dry adhesives.
+p293
+aVSo the idea is to first get the toes and a foot right,
+p294
+aVattempt to make that climb, and ultimately put it on the robot.
+p295
+aVAnd that's exactly what he's done.
+p296
+aVHe's built, in fact, a climbing foot-bot inspired by nature.
+p297
+aa(lp298
+VAnd here's Cutkosky's and his amazing students' design.
+p299
+aVSo these are tuned toes \u2014 there are six of them,
+p300
+aVand they use the principles that I just talked about collectively for the blueprint.
+p301
+aVSo this is not using any suction, any glue,
+p302
+aVand it will ultimately, when it's attached to the robot \u2014
+p303
+aVit's as biologically inspired as the animal \u2014
+p304
+aVhopefully be able to climb any kind of a surface.
+p305
+aVHere you see it, next, going up the side of a building at Stanford.
+p306
+aVIt's sped up \u2014 again, it's a foot climbing.
+p307
+aVIt's not the whole robot yet, we're working on it \u2014
+p308
+aVnow you can see how it's attaching.
+p309
+aVThese tuned structures allow the spines, friction pads and ultimately the adhesive hairs
+p310
+aVto grab onto very challenging, difficult surfaces.
+p311
+aVAnd so they were able to get this thing \u2014 this is now sped up 20 times \u2014
+p312
+aVcan you imagine it trying to go up and rescue somebody at that upper floor? OK?
+p313
+aVYou can visualize this now; it's not impossible.
+p314
+aVIt's a very challenging task. But more to come later.
+p315
+aa(lp316
+VTo finish: we've gotten design secrets from nature by looking at how feet are built.
+p317
+aVWe've learned we should distribute control to smart parts.
+p318
+aVDon't put it all in the brain,
+p319
+aVbut put some of the control in tuned feet, legs and even body.
+p320
+aVThat nature uses hybrid solutions, not a single solution, to these problems,
+p321
+aVand they're integrated and beautifully robust.
+p322
+aVAnd third, we believe strongly that we do not want to mimic nature but instead be inspired by biology,
+p323
+aVand use these novel principles with the best engineering solutions that are out there
+p324
+aVto make \u2014 potentially \u2014 something better than nature.
+p325
+aa(lp326
+VSo there's a clear message:
+p327
+aVwhether you care about a fundamental, basic research
+p328
+aVof really interesting, bizarre, wonderful animals,
+p329
+aVor you want to build a search-and-rescue robot
+p330
+aVthat can help you in an earthquake, or to save someone in a fire,
+p331
+aVor you care about medicine, we must preserve nature's designs.
+p332
+aVOtherwise these secrets will be lost forever.
+p333
+aVThank you.
+p334
+aasS'transcript_micsec'
+p335
+(lp336
+I11000
+aI49000
+aI71000
+aI103000
+aI231000
+aI264000
+aI318000
+aI355000
+aI392000
+aI422000
+aI480000
+aI496000
+aI497000
+aI508000
+aI509000
+aI533000
+aI579000
+aI619000
+aI660000
+aI705000
+aI710000
+aI711000
+aI749000
+aI788000
+aI844000
+aI893000
+aI918000
+aI952000
+aI1010000
+aI1036000
+aI1102000
+aI1136000
+asS'talk_meta'
+p337
+(dp338
+S'ratings'
+p339
+(dp340
+S'ingenious'
+p341
+I310
+sS'funny'
+p342
+I51
+sS'inspiring'
+p343
+I228
+sS'ok'
+p344
+I21
+sS'fascinating'
+p345
+I513
+sS'total_count'
+p346
+I1652
+sS'persuasive'
+p347
+I26
+sS'longwinded'
+p348
+I13
+sS'unconvincing'
+p349
+I7
+sS'informative'
+p350
+I262
+sS'beautiful'
+p351
+I78
+sS'jaw-dropping'
+p352
+I116
+sS'obnoxious'
+p353
+I14
+sS'courageous'
+p354
+I9
+sS'confusing'
+p355
+I4
+ssS'author'
+p356
+VRobert_Full;
+p357
+sS'url'
+p358
+S'https://www.ted.com/talks/robert_full_on_animal_movement'
+p359
+sS'vidlen'
+p360
+I1164
+sS'totalviews'
+p361
+I710439
+sS'title'
+p362
+VThe sticky wonder of gecko feet
+p363
+sS'downloadlink'
+p364
+Vhttps://download.ted.com/talks/RobertFull_2005.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p365
+sS'datepublished'
+p366
+cdatetime
+datetime
+p367
+(S'\x07\xd7\x0b\x1a\x14-\x00\x00\x00\x00'
+tRp368
+sS'datefilmed'
+p369
+g367
+(S'\x07\xd7\x0b\x1a\x14-\x00\x00\x00\x00'
+tRp370
+sS'alldata_JSON'
+p371
+S'{"viewed_count": 710439, "speakers": [{"description": "Biologist", "firstname": "Robert", "title": "", "lastname": "Full", "middleinitial": "", "whylisten": "<p>UC Berkeley biologist Robert Full is fascinated by the&nbsp;motion of creatures like cockroaches, crabs and geckos having many legs,&nbsp;unusual feet or&nbsp;talented tails. He has led an effort to demonstrate the value&nbsp;of learning from Nature by the creating interdisciplinary collaborations of&nbsp;biologists, engineers, mathematicians and computer scientists from academia and&nbsp;industry. He founded <a href=\\"http://ciber.berkeley.edu/\\" target=\\"_blank\\">CiBER</a>, the Center for interdisciplinary&nbsp;Bio-inspiration in&nbsp;Education and Research, and the <a href=\\"http://polypedal.berkeley.edu/\\" target=\\"_blank\\">Poly-PEDAL Laboratory</a>, which studies the&nbsp;Performance, Energetics and Dynamics of&nbsp;Animal Locomotion (PEDAL) in&nbsp;many-footed creatures (Poly). </p><p>His research shows how studying a diversity of&nbsp;animals leads to the discovery of&nbsp;general principles which inspire the design&nbsp;of novel circuits, artificial muscles, exoskeletons, versatile scampering legged search-and-rescue&nbsp;robots and&nbsp;synthetic self-cleaning dry adhesives based on gecko feet. He is&nbsp;passionate about discovery-based education leading to innovation -- and he&nbsp;even&nbsp;helped Pixar&rsquo;s insect animations in the film&nbsp;<em>A Bug&#39;s Life.</em></p>", "slug": "robert_full", "whotheyare": "Robert Full studies cockroach legs and gecko feet. His research is helping build tomorrow\'s robots, based on evolution\'s ancient engineering.", "whatotherssay": "Dr Full cheerfully admits that some of his real-life critters can be disgusting, but they offer valuable insights into how to conquer challenging terrain.", "id": 174, "photo_url": "https://pe.tedcdn.com/images/ted/22fea0ec22b4d37457b11a1302222743b1a66378_254x191.jpg"}], "current_talk": 195, "description": "Biologist Robert Full shares slo-mo video of some captivating critters. Take a closer look at the spiny legs that allow cockroaches to scuttle across mesh and the nanobristle-packed feet that let geckos to run straight up walls.", "language": "en", "url": "https://www.ted.com/talks/robert_full_on_animal_movement", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/RobertFull_2005-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 136180349}, "podcast-low-en": {"uri": "https://download.ted.com/talks/RobertFull_2005-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26749025}, "podcast-high": {"uri": "https://download.ted.com/talks/RobertFull_2005-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 136140991}, "180k": {"uri": "https://download.ted.com/talks/RobertFull_2005-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 26674487}, "64k": {"uri": "https://download.ted.com/talks/RobertFull_2005-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9592430}, "1500k": {"uri": "https://download.ted.com/talks/RobertFull_2005-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 212290265}, "450k": {"uri": "https://download.ted.com/talks/RobertFull_2005-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66146508}, "podcast-regular": {"uri": "https://download.ted.com/talks/RobertFull_2005.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 66203864}, "950k": {"uri": "https://download.ted.com/talks/RobertFull_2005-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 136034303}, "podcast-light": {"uri": "https://download.ted.com/talks/RobertFull_2005-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9688926}, "320k": {"uri": "https://download.ted.com/talks/RobertFull_2005-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 47148100}, "600k": {"uri": "https://download.ted.com/talks/RobertFull_2005-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 87894487}}}, "comments": {"count": 31, "id": 176, "talk_id": 195}, "slug": "robert_full_on_animal_movement", "threadId": 176, "talks": [{"event": "TED2005", "player_talks": [{"event": "TED2005", "slug": "robert_full_on_animal_movement", "filmed": 1107302400, "targeting": {"event": "TED2005", "tag": "design,evolution,robots,science,technology", "id": 195, "talk": "robert_full_on_animal_movement", "year": "2005"}, "adDuration": "3.33", "external": null, "title": "The sticky wonder of gecko feet", "postAdDuration": "0.83", "published": 1196127900, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/197_480x360.jpg?quality=89&w=600", "name": "Robert Full: The sticky wonder of gecko feet", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "nativeLanguage": "en", "tags": ["design", "evolution", "robots", "science", "technology"], "speaker": "Robert Full", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1164, "id": 195, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/RobertFull_2005-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2005", "tag": "design,evolution,robots,science,technology", "id": 195, "talk": "robert_full_on_animal_movement", "year": "2005"}, "metadata": "https://hls.ted.com/talks/195.json", "stream": "https://hls.ted.com/talks/195.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2005%26id%3D195%26tag%3Ddesign%2Cevolution%2Crobots%2Cscience%2Ctechnology%26talk%3Drobert_full_on_animal_movement%26year%3D2005&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/robert_full_on_animal_movement"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/197_480x360.jpg?q=50&w=15", "duration": 1164, "id": 195, "ratings": [{"count": 310, "id": 9, "name": "Ingenious"}, {"count": 513, "id": 22, "name": "Fascinating"}, {"count": 262, "id": 8, "name": "Informative"}, {"count": 228, "id": 10, "name": "Inspiring"}, {"count": 78, "id": 1, "name": "Beautiful"}, {"count": 51, "id": 7, "name": "Funny"}, {"count": 4, "id": 2, "name": "Confusing"}, {"count": 13, "id": 11, "name": "Longwinded"}, {"count": 7, "id": 21, "name": "Unconvincing"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 116, "id": 23, "name": "Jaw-dropping"}, {"count": 26, "id": 24, "name": "Persuasive"}, {"count": 21, "id": 25, "name": "OK"}, {"count": 14, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Biologist", "firstname": "Robert", "title": "", "lastname": "Full", "middleinitial": "", "whylisten": "<p>UC Berkeley biologist Robert Full is fascinated by the&nbsp;motion of creatures like cockroaches, crabs and geckos having many legs,&nbsp;unusual feet or&nbsp;talented tails. He has led an effort to demonstrate the value&nbsp;of learning from Nature by the creating interdisciplinary collaborations of&nbsp;biologists, engineers, mathematicians and computer scientists from academia and&nbsp;industry. He founded <a href=\\"http://ciber.berkeley.edu/\\" target=\\"_blank\\">CiBER</a>, the Center for interdisciplinary&nbsp;Bio-inspiration in&nbsp;Education and Research, and the <a href=\\"http://polypedal.berkeley.edu/\\" target=\\"_blank\\">Poly-PEDAL Laboratory</a>, which studies the&nbsp;Performance, Energetics and Dynamics of&nbsp;Animal Locomotion (PEDAL) in&nbsp;many-footed creatures (Poly). </p><p>His research shows how studying a diversity of&nbsp;animals leads to the discovery of&nbsp;general principles which inspire the design&nbsp;of novel circuits, artificial muscles, exoskeletons, versatile scampering legged search-and-rescue&nbsp;robots and&nbsp;synthetic self-cleaning dry adhesives based on gecko feet. He is&nbsp;passionate about discovery-based education leading to innovation -- and he&nbsp;even&nbsp;helped Pixar&rsquo;s insect animations in the film&nbsp;<em>A Bug&#39;s Life.</em></p>", "slug": "robert_full", "whotheyare": "Robert Full studies cockroach legs and gecko feet. His research is helping build tomorrow\'s robots, based on evolution\'s ancient engineering.", "whatotherssay": "Dr Full cheerfully admits that some of his real-life critters can be disgusting, but they offer valuable insights into how to conquer challenging terrain.", "id": 174, "photo_url": "https://pe.tedcdn.com/images/ted/22fea0ec22b4d37457b11a1302222743b1a66378_254x191.jpg"}], "title": "The sticky wonder of gecko feet", "take_action": null, "comments": 176, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/197_480x360.jpg", "description": "Biologist Robert Full shares slo-mo video of some captivating critters. Take a closer look at the spiny legs that allow cockroaches to scuttle across mesh and the nanobristle-packed feet that let geckos to run straight up walls.", "tags": ["design", "evolution", "robots", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "da", "endonym": "Dansk", "isRtl": false, "ianaCode": "da", "languageName": "Danish"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/RobertFull_2005-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/RobertFull_2005-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/RobertFull_2005-low-bg.mp4"}, "nl": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/RobertFull_2005-low-nl.mp4"}, "fa": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/RobertFull_2005-low-fa.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/RobertFull_2005-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/RobertFull_2005-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/RobertFull_2005-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/RobertFull_2005-low-it.mp4"}, "da": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-da.mp4", "name": "Danish", "low": "https://download.ted.com/talks/RobertFull_2005-low-da.mp4"}, "tr": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/RobertFull_2005-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/RobertFull_2005-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/RobertFull_2005-low-ar.mp4"}, "en": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/RobertFull_2005-low-en.mp4"}, "es": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/RobertFull_2005-low-es.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/RobertFull_2005-low-pt-br.mp4"}, "ro": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/RobertFull_2005-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/RobertFull_2005-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/RobertFull_2005-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/RobertFull_2005-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/RobertFull_2005-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/RobertFull_2005-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/RobertFull_2005.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/RobertFull_2005-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 195, "audioDownload": null}, "related_talks": [{"viewed_count": 807686, "hero": "https://pe.tedcdn.com/images/ted/8797510dd2c00e81d277493d9ca173f6ea5de0ec_2880x1620.jpg", "title": "Robots inspired by cockroach ingenuity", "id": 280, "speaker": "Robert Full", "duration": 1222, "slug": "robert_full_on_engineering_and_evolution"}, {"viewed_count": 1215838, "hero": "https://pe.tedcdn.com/images/ted/17631_480x360.jpg", "title": "Building \\"self-aware\\" robots", "id": 165, "speaker": "Hod Lipson", "duration": 378, "slug": "hod_lipson_builds_self_aware_robots"}, {"viewed_count": 1929475, "hero": "https://pe.tedcdn.com/images/ted/12_480x360.jpg", "title": "Biomimicry\'s surprising lessons from nature\'s engineers", "id": 18, "speaker": "Janine Benyus", "duration": 1399, "slug": "janine_benyus_shares_nature_s_designs"}, {"viewed_count": 1232900, "hero": "https://pe.tedcdn.com/images/ted/8df605781cd759843bda0eefecac80982346436a_2400x1800.jpg", "title": "The secrets of nature\'s grossest creatures, channeled into robots", "id": 2014, "speaker": "Robert Full", "duration": 307, "slug": "robert_full_the_secrets_of_nature_s_grossest_creatures_channeled_into_robots"}, {"viewed_count": 667367, "hero": "https://pe.tedcdn.com/images/ted/95709_800x600.jpg", "title": "Learning from the gecko\'s tail", "id": 571, "speaker": "Robert Full", "duration": 714, "slug": "robert_full_learning_from_the_gecko_s_tail"}, {"viewed_count": 1471803, "hero": "https://pe.tedcdn.com/images/ted/9d04978903c66e24b46aa67af8a9ecd448332a48_2880x1620.jpg", "title": "Why I make robots the size of a grain of rice", "id": 2170, "speaker": "Sarah Bergbreiter", "duration": 366, "slug": "sarah_bergbreiter_why_i_make_robots_the_size_of_a_grain_of_rice"}], "recorded_at": "2005-02-02T00:00:00.000+00:00", "slug": "robert_full_on_animal_movement", "speaker_name": "Robert Full", "viewed_count": 710439, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2005", "name": "Robert Full: The sticky wonder of gecko feet"}'
+p372
+sS'keywords'
+p373
+(lp374
+Vdesign
+p375
+aVevolution
+p376
+aVrobots
+p377
+aVscience
+p378
+aVtechnology
+p379
+asS'datecrawled'
+p380
+g367
+(S'\x07\xe1\n\x17\x04\x11 \x01\xe1j'
+tRp381
+sS'id'
+p382
+I195
+ss.

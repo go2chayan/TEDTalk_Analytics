@@ -1,0 +1,578 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VMany believe driving is an activity
+p5
+aVsolely reserved for those who can see.
+p6
+aVA blind person driving a vehicle safely and independently
+p7
+aVwas thought to be an impossible task, until now.
+p8
+aVHello, my name is Dennis Hong,
+p9
+aVand we're bringing freedom and independence to the blind
+p10
+aVby building a vehicle for the visually impaired.
+p11
+aa(lp12
+VSo before I talk about this car for the blind,
+p13
+aVlet me briefly tell you about another project that I worked on
+p14
+aVcalled the DARPA Urban Challenge.
+p15
+aVNow this was about building a robotic car
+p16
+aVthat can drive itself.
+p17
+aVYou press start, nobody touches anything,
+p18
+aVand it can reach its destination fully autonomously.
+p19
+aVSo in 2007, our team won half a million dollars
+p20
+aVby placing third place in this competition.
+p21
+aVSo about that time,
+p22
+aVthe National Federation of the Blind, or NFB,
+p23
+aVchallenged the research committee
+p24
+aVabout who can develop a car
+p25
+aVthat lets a blind person drive safely and independently.
+p26
+aVWe decided to give it a try,
+p27
+aVbecause we thought, "Hey, how hard could it be?"
+p28
+aVWe have already an autonomous vehicle.
+p29
+aVWe just put a blind person in it and we're done, right?
+p30
+aV(Laughter)
+p31
+aVWe couldn't have been more wrong.
+p32
+aVWhat NFB wanted
+p33
+aVwas not a vehicle that can drive a blind person around,
+p34
+aVbut a vehicle where a blind person can make active decisions and drive.
+p35
+aVSo we had to throw everything out the window
+p36
+aVand start from scratch.
+p37
+aa(lp38
+VSo to test this crazy idea,
+p39
+aVwe developed a small dune buggy prototype vehicle
+p40
+aVto test the feasibility.
+p41
+aVAnd in the summer of 2009,
+p42
+aVwe invited dozens of blind youth from all over the country
+p43
+aVand gave them a chance to take it for a spin.
+p44
+aVIt was an absolutely amazing experience.
+p45
+aVBut the problem with this car was
+p46
+aVit was designed to only be driven in a very controlled environment,
+p47
+aVin a flat, closed-off parking lot \u2014
+p48
+aVeven the lanes defined by red traffic cones.
+p49
+aa(lp50
+VSo with this success,
+p51
+aVwe decided to take the next big step,
+p52
+aVto develop a real car that can be driven on real roads.
+p53
+aVSo how does it work?
+p54
+aVWell, it's a rather complex system,
+p55
+aVbut let me try to explain it, maybe simplify it.
+p56
+aVSo we have three steps.
+p57
+aVWe have perception, computation
+p58
+aVand non-visual interfaces.
+p59
+aVNow obviously the driver cannot see,
+p60
+aVso the system needs to perceive the environment
+p61
+aVand gather information for the driver.
+p62
+aVFor that, we use an initial measurement unit.
+p63
+aVSo it measures acceleration, angular acceleration \u2014
+p64
+aVlike a human ear, inner ear.
+p65
+aVWe fuse that information with a GPS unit
+p66
+aVto get an estimate of the location of the car.
+p67
+aVWe also use two cameras to detect the lanes of the road.
+p68
+aVAnd we also use three laser range finders.
+p69
+aVThe lasers scan the environment to detect obstacles \u2014
+p70
+aVa car approaching from the front, the back
+p71
+aVand also any obstacles that run into the roads,
+p72
+aVany obstacles around the vehicle.
+p73
+aa(lp74
+VSo all this vast amount of information is then fed into the computer,
+p75
+aVand the computer can do two things.
+p76
+aVOne is, first of all, process this information
+p77
+aVto have an understanding of the environment \u2014
+p78
+aVthese are the lanes of the road, there's the obstacles \u2014
+p79
+aVand convey this information to the driver.
+p80
+aVThe system is also smart enough
+p81
+aVto figure out the safest way to operate the car.
+p82
+aVSo we can also generate instructions
+p83
+aVon how to operate the controls of the vehicle.
+p84
+aVBut the problem is this: How do we convey
+p85
+aVthis information and instructions
+p86
+aVto a person who cannot see
+p87
+aVfast enough and accurate enough so he can drive?
+p88
+aVSo for this, we developed many different types
+p89
+aVof non-visual user interface technology.
+p90
+aVSo starting from a three-dimensional ping sound system,
+p91
+aVa vibrating vest,
+p92
+aVa click wheel with voice commands, a leg strip,
+p93
+aVeven a shoe that applies pressure to the foot.
+p94
+aVBut today we're going to talk about
+p95
+aVthree of these non-visual user interfaces.
+p96
+aa(lp97
+VNow the first interface is called a DriveGrip.
+p98
+aVSo these are a pair of gloves,
+p99
+aVand it has vibrating elements on the knuckle part
+p100
+aVso you can convey instructions about how to steer \u2014
+p101
+aVthe direction and the intensity.
+p102
+aVAnother device is called SpeedStrip.
+p103
+aVSo this is a chair \u2014 as a matter of fact, it's actually a massage chair.
+p104
+aVWe gut it out, and we rearrange the vibrating elements in different patterns,
+p105
+aVand we actuate them to convey information about the speed,
+p106
+aVand also instructions how to use the gas and the brake pedal.
+p107
+aVSo over here, you can see
+p108
+aVhow the computer understands the environment,
+p109
+aVand because you cannot see the vibration,
+p110
+aVwe actually put red LED's on the driver so that you can see what's happening.
+p111
+aVThis is the sensory data,
+p112
+aVand that data is transferred to the devices through the computer.
+p113
+aa(lp114
+VSo these two devices, DriveGrip and SpeedStrip,
+p115
+aVare very effective.
+p116
+aVBut the problem is
+p117
+aVthese are instructional cue devices.
+p118
+aVSo this is not really freedom, right?
+p119
+aVThe computer tells you how to drive \u2014
+p120
+aVturn left, turn right, speed up, stop.
+p121
+aVWe call this the "backseat-driver problem."
+p122
+aVSo we're moving away from the instructional cue devices,
+p123
+aVand we're now focusing more
+p124
+aVon the informational devices.
+p125
+aVA good example for this informational non-visual user interface
+p126
+aVis called AirPix.
+p127
+aVSo think of it as a monitor for the blind.
+p128
+aVSo it's a small tablet, has many holes in it,
+p129
+aVand compressed air comes out,
+p130
+aVso it can actually draw images.
+p131
+aVSo even though you are blind, you can put your hand over it,
+p132
+aVyou can see the lanes of the road and obstacles.
+p133
+aVActually, you can also change the frequency of the air coming out
+p134
+aVand possibly the temperature.
+p135
+aVSo it's actually a multi-dimensional user interface.
+p136
+aVSo here you can see the left camera, the right camera from the vehicle
+p137
+aVand how the computer interprets that and sends that information to the AirPix.
+p138
+aVFor this, we're showing a simulator,
+p139
+aVa blind person driving using the AirPix.
+p140
+aVThis simulator was also very useful for training the blind drivers
+p141
+aVand also quickly testing different types of ideas
+p142
+aVfor different types of non-visual user interfaces.
+p143
+aVSo basically that's how it works.
+p144
+aa(lp145
+VSo just a month ago,
+p146
+aVon January 29th,
+p147
+aVwe unveiled this vehicle for the very first time to the public
+p148
+aVat the world-famous Daytona International Speedway
+p149
+aVduring the Rolex 24 racing event.
+p150
+aVWe also had some surprises. Let's take a look.
+p151
+aa(lp152
+V(Music)
+p153
+aa(lp154
+V(Video) Announcer: This is an historic day in January.
+p155
+aVHe's coming up to the grandstand, fellow Federationists.
+p156
+aa(lp157
+V(Cheering)
+p158
+aa(lp159
+V(Honking)
+p160
+aa(lp161
+VThere's the grandstand now.
+p162
+aVAnd he's [unclear] following that van that's out in front of him.
+p163
+aVWell there comes the first box.
+p164
+aVNow let's see if Mark avoids it.
+p165
+aVHe does. He passes it on the right.
+p166
+aVThird box is out. The fourth box is out.
+p167
+aVAnd he's perfectly making his way between the two.
+p168
+aVHe's closing in on the van
+p169
+aVto make the moving pass.
+p170
+aVWell this is what it's all about,
+p171
+aVthis kind of dynamic display of audacity and ingenuity.
+p172
+aVHe's approaching the end of the run,
+p173
+aVmakes his way between the barrels that are set up there.
+p174
+aa(lp175
+V(Honking)
+p176
+aa(lp177
+V(Applause)
+p178
+aa(lp179
+VDennis Hong: I'm so happy for you.
+p180
+aVMark's going to give me a ride back to the hotel.
+p181
+aa(lp182
+VMark Riccobono: Yes.
+p183
+aa(lp184
+V(Applause)
+p185
+aa(lp186
+VDH: So since we started this project,
+p187
+aVwe've been getting hundreds of letters, emails, phone calls
+p188
+aVfrom people from all around the world.
+p189
+aVLetters thanking us, but sometimes you also get funny letters like this one:
+p190
+aV"Now I understand why there is Braille on a drive-up ATM machine."
+p191
+aV(Laughter)
+p192
+aVBut sometimes \u2014
+p193
+aV(Laughter)
+p194
+aVBut sometimes I also do get \u2014
+p195
+aVI wouldn't call it hate mail \u2014
+p196
+aVbut letters of really strong concern:
+p197
+aV"Dr. Hong, are you insane,
+p198
+aVtrying to put blind people on the road?
+p199
+aVYou must be out of your mind."
+p200
+aVBut this vehicle is a prototype vehicle,
+p201
+aVand it's not going to be on the road
+p202
+aVuntil it's proven as safe as, or safer than, today's vehicle.
+p203
+aVAnd I truly believe that this can happen.
+p204
+aa(lp205
+VBut still, will the society,
+p206
+aVwould they accept such a radical idea?
+p207
+aVHow are we going to handle insurance?
+p208
+aVHow are we going to issue driver's licenses?
+p209
+aVThere's many of these different kinds of hurdles besides technology challenges
+p210
+aVthat we need to address before this becomes a reality.
+p211
+aVOf course, the main goal of this project
+p212
+aVis to develop a car for the blind.
+p213
+aVBut potentially more important than this
+p214
+aVis the tremendous value of the spin-off technology
+p215
+aVthat can come from this project.
+p216
+aVThe sensors that are used can see through the dark,
+p217
+aVthe fog and rain.
+p218
+aVAnd together with this new type of interfaces,
+p219
+aVwe can use these technologies
+p220
+aVand apply them to safer cars for sighted people.
+p221
+aVOr for the blind, everyday home appliances \u2014
+p222
+aVin the educational setting, in the office setting.
+p223
+aVJust imagine, in a classroom a teacher writes on the blackboard
+p224
+aVand a blind student can see what's written and read
+p225
+aVusing these non-visual interfaces.
+p226
+aVThis is priceless.
+p227
+aVSo today, the things I've showed you today, is just the beginning.
+p228
+aa(lp229
+VThank you very much.
+p230
+aa(lp231
+V(Applause)
+p232
+aasS'transcript_micsec'
+p233
+(lp234
+I11000
+aI29000
+aI84000
+aI108000
+aI161000
+aI211000
+aI252000
+aI319000
+aI333000
+aI343000
+aI351000
+aI357000
+aI360000
+aI403000
+aI406000
+aI412000
+aI416000
+aI421000
+aI430000
+aI471000
+aI525000
+aI527000
+asS'talk_meta'
+p235
+(dp236
+S'ratings'
+p237
+(dp238
+S'beautiful'
+p239
+I62
+sS'ingenious'
+p240
+I278
+sS'inspiring'
+p241
+I363
+sS'ok'
+p242
+I23
+sS'fascinating'
+p243
+I187
+sS'funny'
+p244
+I14
+sS'total_count'
+p245
+I1330
+sS'persuasive'
+p246
+I44
+sS'longwinded'
+p247
+I6
+sS'informative'
+p248
+I82
+sS'jaw-dropping'
+p249
+I166
+sS'obnoxious'
+p250
+I1
+sS'confusing'
+p251
+I5
+sS'courageous'
+p252
+I86
+sS'unconvincing'
+p253
+I13
+ssS'author'
+p254
+VDennis_Hong;
+p255
+sS'url'
+p256
+S'https://www.ted.com/talks/dennis_hong_making_a_car_for_blind_drivers'
+p257
+sS'vidlen'
+p258
+I548
+sS'totalviews'
+p259
+I706325
+sS'title'
+p260
+VMaking a car for blind drivers
+p261
+sS'downloadlink'
+p262
+Vhttps://download.ted.com/talks/DennisHong_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p263
+sS'datepublished'
+p264
+cdatetime
+datetime
+p265
+(S'\x07\xdb\x05\x1f\n\x05\x00\x00\x00\x00'
+tRp266
+sS'datefilmed'
+p267
+g265
+(S'\x07\xdb\x05\x1f\n\x05\x00\x00\x00\x00'
+tRp268
+sS'alldata_JSON'
+p269
+S'{"viewed_count": 706325, "speakers": [{"description": "Roboticist ", "firstname": "Dennis", "title": "", "lastname": "Hong", "middleinitial": "", "whylisten": "<p>As director of a groundbreaking robotics lab, <strong>Dennis Hong guides his team of students through projects on robot locomotion and mechanism design</strong>, creating award-winning humanoid robots like DARwIn (Dynamic Anthropomorphic Robot with Intelligence). His team is known as <a href=\\"http://www.romela.org/main/Robotics_and_Mechanisms_Laboratory\\">RoMeLa</a> (Robotics &amp; Mechanisms Laboratory) and operates at Virginia Tech. <br /><br /><strong>Hong has also pioneered various innovations in soft-body robots</strong>, using a &ldquo;whole-skin locomotion&rdquo; as inspired by amoebae. Marrying robotics with biochemistry, he has been able to generate new types of motion with these ingenious forms. For his contributions to the field, Hong was selected as a NASA Summer Faculty Fellow in 2005, given the CAREER award by the National Science Foundation in 2007 and in 2009, named as one of <em>Popular Science</em>&#39;s Brilliant 10. He is also a gourmet chef and a magician, performing shows for charity and lecturing on the science of magic.</p> ", "slug": "dennis_hong", "whotheyare": "Dennis Hong is the founder and director of RoMeLa -- a Virginia Tech robotics lab that has pioneered several breakthroughs in robot design and engineering. ", "whatotherssay": "I still cannot forget the mind-blowing sensation when I first watched the movie Star Wars. I was fascinated by R2D2 and C-3PO. Since then, I decided to become a robot scientist and never changed my mind.", "id": 691, "photo_url": "https://pe.tedcdn.com/images/ted/162259_254x191.jpg"}], "current_talk": 1158, "description": "Using robotics, laser rangefinders, GPS and smart feedback tools, Dennis Hong is building a car for drivers who are blind. It\'s not a \\"self-driving\\" car, he\'s careful to note, but a car in which a non-sighted driver can determine speed, proximity and route -- and drive independently.", "language": "en", "url": "https://www.ted.com/talks/dennis_hong_making_a_car_for_blind_drivers", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/DennisHong_2011-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63618293}, "podcast-low-en": {"uri": "https://download.ted.com/talks/DennisHong_2011-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12605344}, "podcast-high": {"uri": "https://download.ted.com/talks/DennisHong_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63537530}, "180k": {"uri": "https://download.ted.com/talks/DennisHong_2011-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 12519110}, "64k": {"uri": "https://download.ted.com/talks/DennisHong_2011-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4508949}, "1500k": {"uri": "https://download.ted.com/talks/DennisHong_2011-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 99331002}, "450k": {"uri": "https://download.ted.com/talks/DennisHong_2011-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30969077}, "podcast-regular": {"uri": "https://download.ted.com/talks/DennisHong_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 31138969}, "950k": {"uri": "https://download.ted.com/talks/DennisHong_2011-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 63566973}, "audio-podcast": {"uri": "https://download.ted.com/talks/DennisHong_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 5678908}, "podcast-light": {"uri": "https://download.ted.com/talks/DennisHong_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 4608351}, "320k": {"uri": "https://download.ted.com/talks/DennisHong_2011-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 22188780}, "600k": {"uri": "https://download.ted.com/talks/DennisHong_2011-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41569710}}}, "comments": {"count": 169, "id": 4326, "talk_id": 1158}, "slug": "dennis_hong_making_a_car_for_blind_drivers", "threadId": 4326, "talks": [{"event": "TED2011", "player_talks": [{"event": "TED2011", "slug": "dennis_hong_making_a_car_for_blind_drivers", "filmed": 1299196800, "targeting": {"event": "TED2011", "tag": "Blindness,Senses,design,sight,technology,transportation", "id": 1158, "talk": "dennis_hong_making_a_car_for_blind_drivers", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Making a car for blind drivers", "postAdDuration": "0.83", "published": 1306850700, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8dd859696a6c640e7ee3c0feaa3d3d16f647334b_800x600.jpg?quality=89&w=600", "name": "Dennis Hong: Making a car for blind drivers", "languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["Blindness", "Senses", "design", "sight", "technology", "transportation"], "speaker": "Dennis Hong", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 548, "id": 1158, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/DennisHong_2011-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2011", "tag": "Blindness,Senses,design,sight,technology,transportation", "id": 1158, "talk": "dennis_hong_making_a_car_for_blind_drivers", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1158.json", "stream": "https://hls.ted.com/talks/1158.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2011%26id%3D1158%26tag%3DBlindness%2CSenses%2Cdesign%2Csight%2Ctechnology%2Ctransportation%26talk%3Ddennis_hong_making_a_car_for_blind_drivers%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/dennis_hong_making_a_car_for_blind_drivers"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/8dd859696a6c640e7ee3c0feaa3d3d16f647334b_800x600.jpg?q=50&w=15", "duration": 548, "id": 1158, "ratings": [{"count": 62, "id": 1, "name": "Beautiful"}, {"count": 166, "id": 23, "name": "Jaw-dropping"}, {"count": 278, "id": 9, "name": "Ingenious"}, {"count": 363, "id": 10, "name": "Inspiring"}, {"count": 86, "id": 3, "name": "Courageous"}, {"count": 44, "id": 24, "name": "Persuasive"}, {"count": 187, "id": 22, "name": "Fascinating"}, {"count": 23, "id": 25, "name": "OK"}, {"count": 82, "id": 8, "name": "Informative"}, {"count": 13, "id": 21, "name": "Unconvincing"}, {"count": 5, "id": 2, "name": "Confusing"}, {"count": 14, "id": 7, "name": "Funny"}, {"count": 6, "id": 11, "name": "Longwinded"}, {"count": 1, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Roboticist ", "firstname": "Dennis", "title": "", "lastname": "Hong", "middleinitial": "", "whylisten": "<p>As director of a groundbreaking robotics lab, <strong>Dennis Hong guides his team of students through projects on robot locomotion and mechanism design</strong>, creating award-winning humanoid robots like DARwIn (Dynamic Anthropomorphic Robot with Intelligence). His team is known as <a href=\\"http://www.romela.org/main/Robotics_and_Mechanisms_Laboratory\\">RoMeLa</a> (Robotics &amp; Mechanisms Laboratory) and operates at Virginia Tech. <br /><br /><strong>Hong has also pioneered various innovations in soft-body robots</strong>, using a &ldquo;whole-skin locomotion&rdquo; as inspired by amoebae. Marrying robotics with biochemistry, he has been able to generate new types of motion with these ingenious forms. For his contributions to the field, Hong was selected as a NASA Summer Faculty Fellow in 2005, given the CAREER award by the National Science Foundation in 2007 and in 2009, named as one of <em>Popular Science</em>&#39;s Brilliant 10. He is also a gourmet chef and a magician, performing shows for charity and lecturing on the science of magic.</p> ", "slug": "dennis_hong", "whotheyare": "Dennis Hong is the founder and director of RoMeLa -- a Virginia Tech robotics lab that has pioneered several breakthroughs in robot design and engineering. ", "whatotherssay": "I still cannot forget the mind-blowing sensation when I first watched the movie Star Wars. I was fascinated by R2D2 and C-3PO. Since then, I decided to become a robot scientist and never changed my mind.", "id": 691, "photo_url": "https://pe.tedcdn.com/images/ted/162259_254x191.jpg"}], "title": "Making a car for blind drivers", "take_action": null, "comments": 4326, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/8dd859696a6c640e7ee3c0feaa3d3d16f647334b_800x600.jpg", "description": "Using robotics, laser rangefinders, GPS and smart feedback tools, Dennis Hong is building a car for drivers who are blind. It\'s not a \\"self-driving\\" car, he\'s careful to note, but a car in which a non-sighted driver can determine speed, proximity and route -- and drive independently.", "tags": ["Blindness", "Senses", "design", "sight", "technology", "transportation"], "downloads": {"languages": [{"languageCode": "sq", "endonym": "Shqip", "isRtl": false, "ianaCode": "sq", "languageName": "Albanian"}, {"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bs", "endonym": "Bosanski", "isRtl": false, "ianaCode": "bs", "languageName": "Bosnian"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/DennisHong_2011-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/DennisHong_2011-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/DennisHong_2011-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/DennisHong_2011-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/DennisHong_2011-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/DennisHong_2011-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/DennisHong_2011-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/DennisHong_2011-low-gl.mp4"}, "id": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/DennisHong_2011-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/DennisHong_2011-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/DennisHong_2011-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/DennisHong_2011-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/DennisHong_2011-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/DennisHong_2011-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/DennisHong_2011-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/DennisHong_2011-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/DennisHong_2011-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/DennisHong_2011-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/DennisHong_2011-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/DennisHong_2011-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/DennisHong_2011-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/DennisHong_2011-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/DennisHong_2011-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/DennisHong_2011-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/DennisHong_2011-low-fa.mp4"}, "hi": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-hi.mp4", "name": "Hindi", "low": "https://download.ted.com/talks/DennisHong_2011-low-hi.mp4"}, "bs": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-bs.mp4", "name": "Bosnian", "low": "https://download.ted.com/talks/DennisHong_2011-low-bs.mp4"}, "ja": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/DennisHong_2011-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/DennisHong_2011-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/DennisHong_2011-low-sr.mp4"}, "sq": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-sq.mp4", "name": "Albanian", "low": "https://download.ted.com/talks/DennisHong_2011-low-sq.mp4"}, "ko": {"high": "https://download.ted.com/talks/DennisHong_2011-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/DennisHong_2011-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/DennisHong_2011-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/DennisHong_2011.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/DennisHong_2011-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1158, "audioDownload": "https://download.ted.com/talks/DennisHong_2011.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1932070, "hero": "https://pe.tedcdn.com/images/ted/162258_800x600.jpg", "title": "My seven species of robot -- and how we created them", "id": 820, "speaker": "Dennis Hong", "duration": 955, "slug": "dennis_hong_my_seven_species_of_robot"}, {"viewed_count": 2062484, "hero": "https://pe.tedcdn.com/images/ted/8a1523f43703309c29b372a29981afc7c5f2977b_2880x1620.jpg", "title": "How a driverless car sees the road", "id": 2291, "speaker": "Chris Urmson", "duration": 929, "slug": "chris_urmson_how_a_driverless_car_sees_the_road"}, {"viewed_count": 1054597, "hero": "https://pe.tedcdn.com/images/ted/2066297d1a9173ac6803215bbfe2a5e6f15c4acf_1600x1200.jpg", "title": "Get your next eye exam on a smartphone", "id": 1987, "speaker": "Andrew Bastawrous", "duration": 393, "slug": "andrew_bastawrous_get_your_next_eye_exam_on_a_smartphone"}, {"viewed_count": 735606, "hero": "https://pe.tedcdn.com/images/ted/15e9b94b9856ac969692bfc5515bd7754e26977b_800x600.jpg", "title": "The future race car -- 150mph, and no driver", "id": 1506, "speaker": "Chris Gerdes", "duration": 647, "slug": "chris_gerdes_the_future_race_car_150mph_and_no_driver"}, {"viewed_count": 1167168, "hero": "https://pe.tedcdn.com/images/ted/9d9e218a26b00bd5a0eb2f69f9a44e768fdebc26_2880x1620.jpg", "title": "How I use sonar to navigate the world", "id": 2224, "speaker": "Daniel Kish", "duration": 783, "slug": "daniel_kish_how_i_use_sonar_to_navigate_the_world"}, {"viewed_count": 973493, "hero": "https://pe.tedcdn.com/images/ted/83148057e84211fc75f109bbfe2beeb0376e3a84_1600x1200.jpg", "title": "Design with the blind in mind", "id": 1863, "speaker": "Chris Downey", "duration": 700, "slug": "chris_downey_design_with_the_blind_in_mind"}], "recorded_at": "2011-03-04T00:00:00.000+00:00", "slug": "dennis_hong_making_a_car_for_blind_drivers", "speaker_name": "Dennis Hong", "viewed_count": 706325, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2011", "name": "Dennis Hong: Making a car for blind drivers"}'
+p270
+sS'keywords'
+p271
+(lp272
+VBlindness
+p273
+aVSenses
+p274
+aVdesign
+p275
+aVsight
+p276
+aVtechnology
+p277
+aVtransportation
+p278
+asS'datecrawled'
+p279
+g265
+(S'\x07\xe1\n\x17\x012#\n]\x8b'
+tRp280
+sS'id'
+p281
+I1158
+ss.

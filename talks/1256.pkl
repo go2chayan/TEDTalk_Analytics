@@ -1,0 +1,768 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI moved to Boston 10 years ago from Chicago,
+p5
+aVwith an interest in cancer and in chemistry.
+p6
+aVYou might know that chemistry is the science of making molecules
+p7
+aVor, to my taste,
+p8
+aVnew drugs for cancer.
+p9
+aVAnd you might also know that, for science and medicine,
+p10
+aVBoston is a bit of a candy store.
+p11
+aVYou can't roll a stop sign in Cambridge without hitting a graduate student.
+p12
+aVThe bar is called the Miracle of Science.
+p13
+aVThe billboards say "Lab Space Available."
+p14
+aa(lp15
+VAnd it's fair to say that in these 10 years,
+p16
+aVwe've witnessed absolutely the start of a scientific revolution \u2014
+p17
+aVthat of genome medicine.
+p18
+aVWe know more about the patients that enter our clinic now
+p19
+aVthan ever before.
+p20
+aVAnd we're able, finally, to answer the question
+p21
+aVthat's been so pressing for so many years:
+p22
+aVWhy do I have cancer?
+p23
+aVThis information is also pretty staggering.
+p24
+aVYou might know that, so far, in just the dawn of this revolution,
+p25
+aVwe know that there are perhaps 40,000 unique mutations
+p26
+aVaffecting more than 10,000 genes,
+p27
+aVand that there are 500 of these genes that are bona-fide drivers,
+p28
+aVcauses of cancer.
+p29
+aa(lp30
+VYet comparatively,
+p31
+aVwe have about a dozen targeted medications.
+p32
+aVAnd this inadequacy of cancer medicine
+p33
+aVreally hit home when my father was diagnosed with pancreatic cancer.
+p34
+aVWe didn't fly him to Boston.
+p35
+aVWe didn't sequence his genome.
+p36
+aVIt's been known for decades what causes this malignancy.
+p37
+aVIt's three proteins: ras, myc, p53.
+p38
+aVThis is old information we've known since about the 80s,
+p39
+aVyet there's no medicine I can prescribe
+p40
+aVto a patient with this or any of the numerous solid tumors
+p41
+aVcaused by these three ...
+p42
+aVHorsemen of the Apocalypse that is cancer.
+p43
+aVThere's no ras, no myc, no p53 drug.
+p44
+aa(lp45
+VAnd you might fairly ask: Why is that?
+p46
+aVAnd the very unsatisfying yet scientific answer is:
+p47
+aVit's too hard.
+p48
+aVThat for whatever reason,
+p49
+aVthese three proteins have entered a space, in the language of our field,
+p50
+aVthat's called the undruggable genome \u2014
+p51
+aVwhich is like calling a computer unsurfable
+p52
+aVor the Moon unwalkable.
+p53
+aVIt's a horrible term of trade.
+p54
+aVBut what it means
+p55
+aVis that we've failed to identify a greasy pocket in these proteins,
+p56
+aVinto which we, like molecular locksmiths,
+p57
+aVcan fashion an active, small, organic molecule or drug substance.
+p58
+aa(lp59
+VNow, as I was training in clinical medicine
+p60
+aVand hematology and oncology and stem-cell transplantation,
+p61
+aVwhat we had instead,
+p62
+aVcascading through the regulatory network at the FDA,
+p63
+aVwere these substances:
+p64
+aVarsenic,
+p65
+aVthalidomide,
+p66
+aVand this chemical derivative of nitrogen mustard gas.
+p67
+aVAnd this is the 21st century.
+p68
+aVAnd so, I guess you'd say,
+p69
+aVdissatisfied with the performance and quality of these medicines,
+p70
+aVI went back to school, in chemistry,
+p71
+aVwith the idea that perhaps by learning the trade of discovery chemistry
+p72
+aVand approaching it in the context of this brave new world
+p73
+aVof the open source,
+p74
+aVthe crowd source,
+p75
+aVthe collaborative network that we have access to within academia,
+p76
+aVthat we might more quickly bring powerful and targeted therapies
+p77
+aVto our patients.
+p78
+aa(lp79
+VAnd so, please consider this a work in progress,
+p80
+aVbut I'd like to tell you today a story
+p81
+aVabout a very rare cancer called midline carcinoma,
+p82
+aVabout the undruggable protein target that causes this cancer,
+p83
+aVcalled BRD4,
+p84
+aVand about a molecule developed at my lab at Dana-Farber Cancer Institute,
+p85
+aVcalled JQ1,
+p86
+aVwhich we affectionately named for Jun Qi,
+p87
+aVthe chemist that made this molecule.
+p88
+aVNow, BRD4 is an interesting protein.
+p89
+aa(lp90
+VYou might ask: with all the things cancer's trying to do to kill our patient,
+p91
+aVhow does it remember it's cancer?
+p92
+aVWhen it winds up its genome,
+p93
+aVdivides into two cells and unwinds again,
+p94
+aVwhy does it not turn into an eye, into a liver,
+p95
+aVas it has all the genes necessary to do this?
+p96
+aVIt remembers that it's cancer.
+p97
+aVAnd the reason is that cancer, like every cell in the body,
+p98
+aVplaces little molecular bookmarks,
+p99
+aVlittle Post-it notes,
+p100
+aVthat remind the cell, "I'm cancer; I should keep growing."
+p101
+aVAnd those Post-it notes involve this and other proteins of its class \u2014
+p102
+aVso-called bromodomains.
+p103
+aVSo we developed an idea, a rationale,
+p104
+aVthat perhaps if we made a molecule
+p105
+aVthat prevented the Post-it note from sticking
+p106
+aVby entering into the little pocket
+p107
+aVat the base of this spinning protein,
+p108
+aVthen maybe we could convince cancer cells,
+p109
+aVcertainly those addicted to this BRD4 protein,
+p110
+aVthat they're not cancer.
+p111
+aa(lp112
+VAnd so we started to work on this problem.
+p113
+aVWe developed libraries of compounds
+p114
+aVand eventually arrived at this and similar substances
+p115
+aVcalled JQ1.
+p116
+aVNow, not being a drug company,
+p117
+aVwe could do certain things, we had certain flexibilities,
+p118
+aVthat I respect that a pharmaceutical industry doesn't have.
+p119
+aVWe just started mailing it to our friends.
+p120
+aVI have a small lab.
+p121
+aVWe thought we'd just send it to people and see how the molecule behaves.
+p122
+aVWe sent it to Oxford, England,
+p123
+aVwhere a group of talented crystallographers provided this picture,
+p124
+aVwhich helped us understand exactly how this molecule is so potent
+p125
+aVfor this protein target.
+p126
+aVIt's what we call a perfect fit of shape complementarity,
+p127
+aVor hand in glove.
+p128
+aa(lp129
+VNow, this is a very rare cancer,
+p130
+aVthis BRD4-addicted cancer.
+p131
+aVAnd so we worked with samples of material
+p132
+aVthat were collected by young pathologists at Brigham and Women's Hospital.
+p133
+aVAnd as we treated these cells with this molecule,
+p134
+aVwe observed something really striking.
+p135
+aVThe cancer cells \u2014
+p136
+aVsmall, round and rapidly dividing,
+p137
+aVgrew these arms and extensions.
+p138
+aVThey were changing shape.
+p139
+aVIn effect,
+p140
+aVthe cancer cell was forgetting it was cancer
+p141
+aVand becoming a normal cell.
+p142
+aa(lp143
+VThis got us very excited.
+p144
+aVThe next step would be to put this molecule into mice.
+p145
+aVThe only problem was there's no mouse model of this rare cancer.
+p146
+aVAnd so at the time we were doing this research,
+p147
+aVI was caring for a 29-year-old firefighter from Connecticut
+p148
+aVwho was very much at the end of life
+p149
+aVwith this incurable cancer.
+p150
+aVThis BRD4-addicted cancer was growing throughout his left lung.
+p151
+aVAnd he had a chest tube in that was draining little bits of debris.
+p152
+aVAnd every nursing shift, we would throw this material out.
+p153
+aVAnd so we approached this patient
+p154
+aVand asked if he would collaborate with us.
+p155
+aVCould we take this precious and rare cancerous material
+p156
+aVfrom this chest tube
+p157
+aVand drive it across town and put it into mice
+p158
+aVand try to do a clinical trial at a stage that with a prototype drug,
+p159
+aVwell, that would be, of course, impossible
+p160
+aVand, rightly, illegal to do in humans.
+p161
+aVAnd he obliged us.
+p162
+aVAt the Lurie Family Center for Animal Imaging,
+p163
+aVour colleague, Andrew Kung, grew this cancer successfully in mice
+p164
+aVwithout ever touching plastic.
+p165
+aa(lp166
+VAnd you can see this PET scan of a mouse \u2014 what we call a pet PET.
+p167
+aVThe cancer is growing
+p168
+aVas this red, huge mass in the hind limb of this animal.
+p169
+aVAnd as we treat it with our compound,
+p170
+aVthis addiction to sugar,
+p171
+aVthis rapid growth, faded.
+p172
+aVAnd on the animal on the right,
+p173
+aVyou see that the cancer was responding.
+p174
+aVWe've completed, now, clinical trials
+p175
+aVin four mouse models of this disease.
+p176
+aVAnd every time, we see the same thing.
+p177
+aVThe mice with this cancer that get the drug live,
+p178
+aVand the ones that don't rapidly perish.
+p179
+aa(lp180
+VSo we started to wonder,
+p181
+aVwhat would a drug company do at this point?
+p182
+aVWell, they probably would keep this a secret
+p183
+aVuntil they turn the prototype drug
+p184
+aVinto an active pharmaceutical substance.
+p185
+aVSo we did just the opposite.
+p186
+aVWe published a paper that described this finding
+p187
+aVat the earliest prototype stage.
+p188
+aVWe gave the world the chemical identity of this molecule,
+p189
+aVtypically a secret in our discipline.
+p190
+aVWe told people exactly how to make it.
+p191
+aVWe gave them our email address,
+p192
+aVsuggesting that if they write us,
+p193
+aVwe'll send them a free molecule.
+p194
+aa(lp195
+V(Laughter)
+p196
+aa(lp197
+VWe basically tried to create the most competitive environment
+p198
+aVfor our lab as possible.
+p199
+aVAnd this was, unfortunately, successful.
+p200
+aa(lp201
+V(Laughter)
+p202
+aa(lp203
+VBecause now, we've shared this molecule,
+p204
+aVjust since December of last year,
+p205
+aVwith 40 laboratories in the United States
+p206
+aVand 30 more in Europe \u2014
+p207
+aVmany of them pharmaceutical companies,
+p208
+aVseeking now to enter this space,
+p209
+aVto target this rare cancer that, thankfully right now,
+p210
+aVis quite desirable to study in that industry.
+p211
+aVBut the science that's coming back from all of these laboratories
+p212
+aVabout the use of this molecule
+p213
+aVhas provided us insights we might not have had on our own.
+p214
+aVLeukemia cells treated with this compound
+p215
+aVturn into normal white blood cells.
+p216
+aVMice with multiple myeloma,
+p217
+aVan incurable malignancy of the bone marrow,
+p218
+aVrespond dramatically
+p219
+aVto the treatment with this drug.
+p220
+aVYou might know that fat has memory.
+p221
+aVI'll nicely demonstrate that for you.
+p222
+aa(lp223
+V(Laughter)
+p224
+aa(lp225
+VIn fact, this molecule
+p226
+aVprevents this adipocyte, this fat stem cell,
+p227
+aVfrom remembering how to make fat,
+p228
+aVsuch that mice on a high-fat diet,
+p229
+aVlike the folks in my hometown of Chicago \u2014
+p230
+aa(lp231
+V(Laughter)
+p232
+aa(lp233
+Vfail to develop fatty liver,
+p234
+aVwhich is a major medical problem.
+p235
+aa(lp236
+VWhat this research taught us \u2014
+p237
+aVnot just my lab, but our institute,
+p238
+aVand Harvard Medical School more generally \u2014
+p239
+aVis that we have unique resources in academia
+p240
+aVfor drug discovery;
+p241
+aVthat our center, which has tested perhaps more cancer molecules
+p242
+aVin a scientific way
+p243
+aVthan any other,
+p244
+aVnever made one of its own.
+p245
+aVFor all the reasons you see listed here,
+p246
+aVwe think there's a great opportunity for academic centers
+p247
+aVto participate in this earliest, conceptually tricky
+p248
+aVand creative discipline
+p249
+aVof prototype drug discovery.
+p250
+aa(lp251
+VSo what next?
+p252
+aVWe have this molecule, but it's not a pill yet.
+p253
+aVIt's not orally bioavailable.
+p254
+aVWe need to fix it so we can deliver it to our patients.
+p255
+aVAnd everyone in the lab,
+p256
+aVespecially following the interaction with these patients,
+p257
+aVfeels quite compelled to deliver a drug substance
+p258
+aVbased on this molecule.
+p259
+aVIt's here where I'd say
+p260
+aVthat we could use your help and your insights,
+p261
+aVyour collaborative participation.
+p262
+aVUnlike a drug company, we don't have a pipeline
+p263
+aVthat we can deposit these molecules into.
+p264
+aVWe don't have a team of salespeople and marketeers
+p265
+aVto tell us how to position this drug against the other.
+p266
+aVWhat we do have is the flexibility of an academic center
+p267
+aVto work with competent, motivated,
+p268
+aVenthusiastic, hopefully well-funded people
+p269
+aVto carry these molecules forward into the clinic
+p270
+aVwhile preserving our ability to share the prototype drug worldwide.
+p271
+aa(lp272
+VThis molecule will soon leave our benches
+p273
+aVand go into a small start-up company called Tensha Therapeutics.
+p274
+aVAnd, really, this is the fourth of these molecules
+p275
+aVto kind of "graduate" from our little pipeline
+p276
+aVof drug discovery,
+p277
+aVtwo of which \u2014 a topical drug for lymphoma of the skin
+p278
+aVand an oral substance for the treatment of multiple myeloma \u2014
+p279
+aVwill actually come to the bedside for the first clinical trial
+p280
+aVin July of this year \u2014 for us, a major and exciting milestone.
+p281
+aVI want to leave you with just two ideas.
+p282
+aVThe first is: if anything is unique about this research,
+p283
+aVit's less the science than the strategy.
+p284
+aVThis, for us, was a social experiment \u2014
+p285
+aVan experiment in "What would happen if we were as open and honest
+p286
+aVat the earliest phase of discovery chemistry research
+p287
+aVas we could be?"
+p288
+aa(lp289
+VThis string of letters and numbers
+p290
+aVand symbols and parentheses
+p291
+aVthat can be texted, I suppose,
+p292
+aVor Twittered worldwide,
+p293
+aVis the chemical identity of our pro compound.
+p294
+aVIt's the information that we most need from pharmaceutical companies,
+p295
+aVthe information on how these early prototype drugs might work.
+p296
+aVYet this information is largely a secret.
+p297
+aVAnd so we seek, really, to download
+p298
+aVfrom the amazing successes of the computer-science industry,
+p299
+aVtwo principles \u2014 that of open source and that of crowdsourcing \u2014
+p300
+aVto quickly, responsibly accelerate the delivery of targeted therapeutics
+p301
+aVto patients with cancer.
+p302
+aa(lp303
+VNow, the business model involves all of you.
+p304
+aVThis research is funded by the public.
+p305
+aVIt's funded by foundations.
+p306
+aVAnd one thing I've learned in Boston
+p307
+aVis that you people will do anything for cancer, and I love that.
+p308
+aVYou bike across the state, you walk up and down the river.
+p309
+aa(lp310
+V(Laughter)
+p311
+aa(lp312
+VI've never seen, really, anywhere,
+p313
+aVthis unique support for cancer research.
+p314
+aVAnd so I want to thank you
+p315
+aVfor your participation, your collaboration
+p316
+aVand most of all,
+p317
+aVfor your confidence in our ideas.
+p318
+aa(lp319
+V(Applause)
+p320
+aasS'transcript_micsec'
+p321
+(lp322
+I11000
+aI42000
+aI80000
+aI123000
+aI155000
+aI205000
+aI233000
+aI283000
+aI321000
+aI351000
+aI409000
+aI441000
+aI472000
+aI473000
+aI479000
+aI480000
+aI528000
+aI529000
+aI541000
+aI542000
+aI547000
+aI580000
+aI630000
+aI680000
+aI722000
+aI736000
+aI738000
+aI752000
+asS'talk_meta'
+p323
+(dp324
+S'ratings'
+p325
+(dp326
+S'ingenious'
+p327
+I169
+sS'beautiful'
+p328
+I38
+sS'inspiring'
+p329
+I308
+sS'ok'
+p330
+I14
+sS'fascinating'
+p331
+I135
+sS'funny'
+p332
+I0
+sS'total_count'
+p333
+I1138
+sS'persuasive'
+p334
+I110
+sS'longwinded'
+p335
+I4
+sS'informative'
+p336
+I153
+sS'jaw-dropping'
+p337
+I90
+sS'obnoxious'
+p338
+I0
+sS'confusing'
+p339
+I1
+sS'courageous'
+p340
+I107
+sS'unconvincing'
+p341
+I9
+ssS'author'
+p342
+VJay_Bradner;
+p343
+sS'url'
+p344
+S'https://www.ted.com/talks/jay_bradner_open_source_cancer_research'
+p345
+sS'vidlen'
+p346
+I767
+sS'totalviews'
+p347
+I510125
+sS'title'
+p348
+VOpen-source cancer research
+p349
+sS'downloadlink'
+p350
+Vhttps://download.ted.com/talks/JayBradner_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p351
+sS'datepublished'
+p352
+cdatetime
+datetime
+p353
+(S'\x07\xdb\n\x1b\x0b\x18(\x00\x00\x00'
+tRp354
+sS'datefilmed'
+p355
+g353
+(S'\x07\xdb\n\x1b\x0b\x18(\x00\x00\x00'
+tRp356
+sS'alldata_JSON'
+p357
+S'{"viewed_count": 510125, "speakers": [{"description": "Research scientist", "firstname": "Jay", "title": "", "lastname": "Bradner", "middleinitial": "", "whylisten": "<p>A doctor and a chemist, Jay Bradner hunts for new approaches to solving cancer. As a research scientist and instructor in medicine at Harvard and Dana Farber Cancer Institute, he and his lab are working to subvert cancer&#39;s aggressive behavior by reprogramming the cell&#39;s fundamental identity. A molecule they&#39;re working on, JQ1, might do just that. (And he&rsquo;s giving it away in order to spur faster open-source drug discovery.) If you&#39;re a researcher who&#39;d like a sample of the JQ1 molecule, <a href=\\"http://bradner.dfci.harvard.edu/jq1.php\\" target=\\"_blank\\">contact the Bradner Lab</a>.&nbsp; </p>", "slug": "jay_bradner", "whotheyare": "In his lab, Jay Bradner, a researcher at Harvard and Dana Farber in Boston, works on a breakthrough approach for subverting cancer .. and he\\u2019s giving the secret away.", "whatotherssay": "", "id": 1098, "photo_url": "https://pe.tedcdn.com/images/ted/0f27143ad2a82b3e3f9ee257840ef24b857bff44_254x191.jpg"}], "current_talk": 1256, "description": "How does cancer know it\'s cancer? At Jay Bradner\'s lab, they found a molecule that might hold the answer, JQ1. But instead of patenting it and reaping the profits (as many other labs have done) -- they published their findings and mailed samples to 40 other labs to work on. An inspiring look at the open-source future of medical research.", "language": "en", "url": "https://www.ted.com/talks/jay_bradner_open_source_cancer_research", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JayBradner_2011X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 88953680}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JayBradner_2011X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17585060}, "podcast-high": {"uri": "https://download.ted.com/talks/JayBradner_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89376461}, "180k": {"uri": "https://download.ted.com/talks/JayBradner_2011X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 17471733}, "64k": {"uri": "https://download.ted.com/talks/JayBradner_2011X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6299558}, "1500k": {"uri": "https://download.ted.com/talks/JayBradner_2011X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 140157537}, "450k": {"uri": "https://download.ted.com/talks/JayBradner_2011X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43337852}, "podcast-regular": {"uri": "https://download.ted.com/talks/JayBradner_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 43612458}, "950k": {"uri": "https://download.ted.com/talks/JayBradner_2011X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 89123191}, "audio-podcast": {"uri": "https://download.ted.com/talks/JayBradner_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7914367}, "podcast-light": {"uri": "https://download.ted.com/talks/JayBradner_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6399382}, "320k": {"uri": "https://download.ted.com/talks/JayBradner_2011X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 30901853}, "600k": {"uri": "https://download.ted.com/talks/JayBradner_2011X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 57663107}}}, "comments": {"count": 142, "id": 7897, "talk_id": 1256}, "slug": "jay_bradner_open_source_cancer_research", "threadId": 7897, "talks": [{"event": "TEDxBoston 2011", "player_talks": [{"event": "TEDxBoston 2011", "slug": "jay_bradner_open_source_cancer_research", "filmed": 1306368000, "targeting": {"event": "TEDxBoston 2011", "tag": "DNA,TEDx,business,cancer,chemistry,collaboration,community,crowdsourcing,genetics,medical research,molecular biology,open-source,science", "id": 1256, "talk": "jay_bradner_open_source_cancer_research", "year": "2011"}, "adDuration": "3.33", "external": null, "title": "Open-source cancer research", "postAdDuration": "0.83", "published": 1319729080, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/250f797f6b7e4432cb076bbcbc0bf7c5f7c22ae6_800x600.jpg?quality=89&w=600", "name": "Jay Bradner: Open-source cancer research", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["DNA", "TEDx", "business", "cancer", "chemistry", "collaboration", "community", "crowdsourcing", "genetics", "medical research", "molecular biology", "open-source", "science"], "speaker": "Jay Bradner", "isSubtitleRequired": true, "introDuration": 11.82, "duration": 767, "id": 1256, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JayBradner_2011X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxBoston 2011", "tag": "DNA,TEDx,business,cancer,chemistry,collaboration,community,crowdsourcing,genetics,medical research,molecular biology,open-source,science", "id": 1256, "talk": "jay_bradner_open_source_cancer_research", "year": "2011"}, "metadata": "https://hls.ted.com/talks/1256.json", "stream": "https://hls.ted.com/talks/1256.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxBoston%2B2011%26id%3D1256%26tag%3DDNA%2CTEDx%2Cbusiness%2Ccancer%2Cchemistry%2Ccollaboration%2Ccommunity%2Ccrowdsourcing%2Cgenetics%2Cmedical%2Bresearch%2Cmolecular%2Bbiology%2Copen-source%2Cscience%26talk%3Djay_bradner_open_source_cancer_research%26year%3D2011&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jay_bradner_open_source_cancer_research"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/250f797f6b7e4432cb076bbcbc0bf7c5f7c22ae6_800x600.jpg?q=50&w=15", "duration": 767, "id": 1256, "ratings": [{"count": 110, "id": 24, "name": "Persuasive"}, {"count": 308, "id": 10, "name": "Inspiring"}, {"count": 169, "id": 9, "name": "Ingenious"}, {"count": 90, "id": 23, "name": "Jaw-dropping"}, {"count": 135, "id": 22, "name": "Fascinating"}, {"count": 107, "id": 3, "name": "Courageous"}, {"count": 153, "id": 8, "name": "Informative"}, {"count": 14, "id": 25, "name": "OK"}, {"count": 38, "id": 1, "name": "Beautiful"}, {"count": 4, "id": 11, "name": "Longwinded"}, {"count": 9, "id": 21, "name": "Unconvincing"}, {"count": 1, "id": 2, "name": "Confusing"}, {"count": 0, "id": 7, "name": "Funny"}, {"count": 0, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Research scientist", "firstname": "Jay", "title": "", "lastname": "Bradner", "middleinitial": "", "whylisten": "<p>A doctor and a chemist, Jay Bradner hunts for new approaches to solving cancer. As a research scientist and instructor in medicine at Harvard and Dana Farber Cancer Institute, he and his lab are working to subvert cancer&#39;s aggressive behavior by reprogramming the cell&#39;s fundamental identity. A molecule they&#39;re working on, JQ1, might do just that. (And he&rsquo;s giving it away in order to spur faster open-source drug discovery.) If you&#39;re a researcher who&#39;d like a sample of the JQ1 molecule, <a href=\\"http://bradner.dfci.harvard.edu/jq1.php\\" target=\\"_blank\\">contact the Bradner Lab</a>.&nbsp; </p>", "slug": "jay_bradner", "whotheyare": "In his lab, Jay Bradner, a researcher at Harvard and Dana Farber in Boston, works on a breakthrough approach for subverting cancer .. and he\\u2019s giving the secret away.", "whatotherssay": "", "id": 1098, "photo_url": "https://pe.tedcdn.com/images/ted/0f27143ad2a82b3e3f9ee257840ef24b857bff44_254x191.jpg"}], "title": "Open-source cancer research", "take_action": null, "comments": 7897, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/250f797f6b7e4432cb076bbcbc0bf7c5f7c22ae6_800x600.jpg", "description": "How does cancer know it\'s cancer? At Jay Bradner\'s lab, they found a molecule that might hold the answer, JQ1. But instead of patenting it and reaping the profits (as many other labs have done) -- they published their findings and mailed samples to 40 other labs to work on. An inspiring look at the open-source future of medical research.", "tags": ["DNA", "TEDx", "business", "cancer", "chemistry", "collaboration", "community", "crowdsourcing", "genetics", "medical research", "molecular biology", "open-source", "science"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lt", "endonym": "Lietuvi\\u0173 kalba", "isRtl": false, "ianaCode": "lt", "languageName": "Lithuanian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JayBradner_2011X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JayBradner_2011X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JayBradner_2011X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JayBradner_2011X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-pt-br.mp4"}, "gl": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/JayBradner_2011X-low-gl.mp4"}, "es": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JayBradner_2011X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JayBradner_2011X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/JayBradner_2011X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JayBradner_2011X-low-zh-tw.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/JayBradner_2011X-low-zh-cn.mp4"}, "lt": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-lt.mp4", "name": "Lithuanian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-lt.mp4"}, "th": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/JayBradner_2011X-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JayBradner_2011X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JayBradner_2011X-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JayBradner_2011X-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JayBradner_2011X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JayBradner_2011X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JayBradner_2011X-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/JayBradner_2011X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JayBradner_2011X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JayBradner_2011X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JayBradner_2011X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1256, "audioDownload": "https://download.ted.com/talks/JayBradner_2011X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 701035, "hero": "https://pe.tedcdn.com/images/ted/146612_800x600.jpg", "title": "A new strategy in the war on cancer", "id": 761, "speaker": "David Agus", "duration": 1424, "slug": "david_agus_a_new_strategy_in_the_war_on_cancer"}, {"viewed_count": 757491, "hero": "https://pe.tedcdn.com/images/ted/38680_480x360.jpg", "title": "The new open-source economics", "id": 247, "speaker": "Yochai Benkler", "duration": 1072, "slug": "yochai_benkler_on_the_new_open_source_economics"}, {"viewed_count": 1034513, "hero": "https://pe.tedcdn.com/images/ted/b791af59765342190669b0b21c3a49120f8903c0_2880x1620.jpg", "title": "Meet the future of cancer research", "id": 12, "speaker": "Eva Vertes", "duration": 1129, "slug": "eva_vertes_looks_to_the_future_of_medicine"}, {"viewed_count": 1079585, "hero": "https://pe.tedcdn.com/images/ted/215726285218bad80d842683dec2bc91fbe6a5e7_2880x1620.jpg", "title": "A simple new blood test that can catch cancer early", "id": 2821, "speaker": "Jimmy Lin", "duration": 730, "slug": "jimmy_lin_a_simple_new_blood_test_that_can_catch_cancer_early"}, {"viewed_count": 483570, "hero": "https://pe.tedcdn.com/images/ted/87473a5991f9829bb77f36984771788260a6e306_2880x1620.jpg", "title": "We can hack our immune cells to fight cancer", "id": 3231, "speaker": "Elizabeth Wayne", "duration": 332, "slug": "elizabeth_wayne_we_can_hack_our_immune_cells_to_fight_cancer"}, {"viewed_count": 1424916, "hero": "https://pe.tedcdn.com/images/ted/905e43c1af547578600bafb5ddaddaab5c4c7509_2880x1620.jpg", "title": "A new superweapon in the fight against cancer", "id": 2467, "speaker": "Paula Hammond", "duration": 642, "slug": "paula_hammond_a_new_superweapon_in_the_fight_against_cancer"}], "recorded_at": "2011-05-26T00:00:00.000+00:00", "slug": "jay_bradner_open_source_cancer_research", "speaker_name": "Jay Bradner", "viewed_count": 510125, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxBoston 2011, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxBoston 2011", "name": "Jay Bradner: Open-source cancer research"}'
+p358
+sS'keywords'
+p359
+(lp360
+VDNA
+p361
+aVTEDx
+p362
+aVbusiness
+p363
+aVcancer
+p364
+aVchemistry
+p365
+aVcollaboration
+p366
+aVcommunity
+p367
+aVcrowdsourcing
+p368
+aVgenetics
+p369
+aVmedical research
+p370
+aVmolecular biology
+p371
+aVopen-source
+p372
+aVscience
+p373
+asS'datecrawled'
+p374
+g353
+(S'\x07\xe1\n\x17\x03\x10\x1e\x00\xea$'
+tRp375
+sS'id'
+p376
+I1256
+ss.

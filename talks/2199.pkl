@@ -1,0 +1,702 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSix thousand miles of road,
+p5
+aV600 miles of subway track,
+p6
+aV400 miles of bike lanes
+p7
+aVand a half a mile of tram track,
+p8
+aVif you've ever been to Roosevelt Island.
+p9
+aa(lp10
+VThese are the numbers that make up the infrastructure of New York City.
+p11
+aVThese are the statistics of our infrastructure.
+p12
+aVThey're the kind of numbers you can find released in reports by city agencies.
+p13
+aVFor example, the Department of Transportation will probably tell you
+p14
+aVhow many miles of road they maintain.
+p15
+aVThe MTA will boast how many miles of subway track there are.
+p16
+aVMost city agencies give us statistics.
+p17
+aVThis is from a report this year
+p18
+aVfrom the Taxi and Limousine Commission,
+p19
+aVwhere we learn that there's about 13,500 taxis here in New York City.
+p20
+aVPretty interesting, right?
+p21
+aVBut did you ever think about where these numbers came from?
+p22
+aVBecause for these numbers to exist, someone at the city agency
+p23
+aVhad to stop and say, hmm, here's a number that somebody might want want to know.
+p24
+aVHere's a number  that our citizens want to know.
+p25
+aVSo they go back to their raw data,
+p26
+aVthey count, they add, they calculate,
+p27
+aVand then they put out reports,
+p28
+aVand those reports will have numbers like this.
+p29
+aa(lp30
+VThe problem is, how do they know all of our questions?
+p31
+aVWe have lots of questions.
+p32
+aVIn fact, in some ways there's literally an infinite number of questions
+p33
+aVthat we can ask about our city.
+p34
+aVThe agencies can never keep up.
+p35
+aVSo the paradigm isn't exactly working, and I think our policymakers realize that,
+p36
+aVbecause in 2012, Mayor Bloomberg signed into law what he called
+p37
+aVthe most ambitious and comprehensive open data legislation in the country.
+p38
+aVIn a lot of ways, he's right.
+p39
+aVIn the last two years,  the city has released 1,000 datasets
+p40
+aVon our open data portal,
+p41
+aVand it's pretty awesome.
+p42
+aVSo you go and look at data like this,
+p43
+aVand instead of just counting the number of cabs,
+p44
+aVwe can start to ask different questions.
+p45
+aa(lp46
+VSo I had a question.
+p47
+aVWhen's rush hour in New York City?
+p48
+aVIt can be pretty bothersome. When is rush hour exactly?
+p49
+aVAnd I thought to myself, these cabs aren't just numbers,
+p50
+aVthese are GPS recorders driving around in our city streets
+p51
+aVrecording each and every ride they take.
+p52
+aVThere's data there, and I looked at that data,
+p53
+aVand I made a plot of the average speed of taxis in New York City throughout the day.
+p54
+aVYou can see that from about midnight to around 5:18 in the morning,
+p55
+aVspeed increases, and at that point, things turn around,
+p56
+aVand they get slower and slower and slower until about 8:35 in the morning,
+p57
+aVwhen they end up at around 11 and a half miles per hour.
+p58
+aVThe average taxi is going 11 and a half miles per hour on our city streets,
+p59
+aVand it turns out it stays that way
+p60
+aVfor the entire day.
+p61
+aV(Laughter)
+p62
+aVSo I said to myself, I guess there's no rush hour in New York City.
+p63
+aVThere's just a rush day.
+p64
+aVMakes sense. And this is important for a couple of reasons.
+p65
+aVIf you're a transportation planner, this might be pretty interesting to know.
+p66
+aVBut if you want to get somewhere quickly,
+p67
+aVyou now know to set your alarm for 4:45 in the morning and you're all set.
+p68
+aVNew York, right?
+p69
+aa(lp70
+VBut there's a story behind this data.
+p71
+aVThis data wasn't just available, it turns out.
+p72
+aVIt actually came from something called a Freedom of Information Law Request,
+p73
+aVor a FOIL Request.
+p74
+aVThis is a form you can find on the Taxi and Limousine Commission website.
+p75
+aVIn order to access this data, you need to go get this form,
+p76
+aVfill it out, and they will notify you,
+p77
+aVand a guy named Chris Whong did exactly that.
+p78
+aVChris went down, and they told him,
+p79
+aV"Just bring a brand new hard drive  down to our office,
+p80
+aVleave it here for five hours, we'll copy the data and you take it back."
+p81
+aVAnd that's where this data came from.
+p82
+aVNow, Chris is the kind of guy who wants to make the data public,
+p83
+aVand so it ended up online for all to use, and that's where this graph came from.
+p84
+aVAnd the fact that it exists is amazing. These GPS recorders \u2014 really cool.
+p85
+aVBut the fact that we have citizens walking around with hard drives
+p86
+aVpicking up data from city agencies to make it public \u2014
+p87
+aVit was already kind of public, you could get to it,
+p88
+aVbut it was "public," it wasn't public.
+p89
+aVAnd we can do better than that as a city.
+p90
+aVWe don't need our citizens walking around with hard drives.
+p91
+aa(lp92
+VNow, not every dataset is behind a FOIL Request.
+p93
+aVHere is a map I made with the most dangerous intersections in New York City
+p94
+aVbased on cyclist accidents.
+p95
+aVSo the red areas are more dangerous.
+p96
+aVAnd what it shows is first the East side of Manhattan,
+p97
+aVespecially in the lower area of Manhattan, has more cyclist accidents.
+p98
+aVThat might make sense
+p99
+aVbecause there are more cyclists coming off the bridges there.
+p100
+aVBut there's other hotspots worth studying.
+p101
+aVThere's Williamsburg. There's Roosevelt Avenue in Queens.
+p102
+aVAnd this is exactly the kind of data we need for Vision Zero.
+p103
+aVThis is exactly what we're looking for.
+p104
+aa(lp105
+VBut there's a story behind this data as well.
+p106
+aVThis data didn't just appear.
+p107
+aVHow many of you guys know this logo?
+p108
+aVYeah, I see some shakes.
+p109
+aVHave you ever tried to copy and paste data out of a PDF
+p110
+aVand make sense of it?
+p111
+aVI see more shakes.
+p112
+aVMore of you tried copying and pasting than knew the logo. I like that.
+p113
+aa(lp114
+VSo what happened is, the data that you just saw was actually on a PDF.
+p115
+aVIn fact, hundreds and hundreds and hundreds of pages of PDF
+p116
+aVput out by our very own NYPD,
+p117
+aVand in order to access it, you would either have to copy and paste
+p118
+aVfor hundreds and hundreds of hours,
+p119
+aVor you could be John Krauss.
+p120
+aVJohn Krauss was like,
+p121
+aVI'm not going to copy and paste this data. I'm going to write a program.
+p122
+aVIt's called the NYPD Crash Data Band-Aid,
+p123
+aVand it goes to the NYPD's website and it would download PDFs.
+p124
+aVEvery day it would search; if it found a PDF, it would download it
+p125
+aVand then it would run some PDF-scraping program,
+p126
+aVand out would come the text,
+p127
+aVand it would go on the Internet, and then people could make maps like that.
+p128
+aVAnd the fact that the data's here, the fact that we have access to it \u2014
+p129
+aVEvery accident, by the way, is a row in this table.
+p130
+aVYou can imagine how many PDFs that is.
+p131
+aVThe fact that we have access to that is great,
+p132
+aVbut let's not release it in PDF form,
+p133
+aVbecause then we're having our citizens write PDF scrapers.
+p134
+aVIt's not the best use of our citizens' time,
+p135
+aVand we as a city can do better than that.
+p136
+aa(lp137
+VNow, the good news is that the de Blasio administration
+p138
+aVactually recently released this data a few months ago,
+p139
+aVand so now we can actually have access to it,
+p140
+aVbut there's a lot of data still entombed in PDF.
+p141
+aVFor example, our crime data is still only available in PDF.
+p142
+aVAnd not just our crime data, our own city budget.
+p143
+aVOur city budget is only readable right now in PDF form.
+p144
+aVAnd it's not just us that can't analyze it \u2014
+p145
+aVour own legislators who vote for the budget
+p146
+aValso only get it in PDF.
+p147
+aVSo our legislators cannot analyze  the budget that they are voting for.
+p148
+aVAnd I think as a city we can do a little better than that as well.
+p149
+aa(lp150
+VNow, there's a lot of data that's not hidden in PDFs.
+p151
+aVThis is an example of a map I made,
+p152
+aVand this is the dirtiest waterways in New York City.
+p153
+aVNow, how do I measure dirty?
+p154
+aVWell, it's kind of a little weird,
+p155
+aVbut I looked at the level of fecal coliform,
+p156
+aVwhich is a measurement of fecal matter in each of our waterways.
+p157
+aVThe larger the circle, the dirtier the water,
+p158
+aVso the large circles are dirty water, the small circles are cleaner.
+p159
+aVWhat you see is inland waterways.
+p160
+aVThis is all data that was sampled by the city over the last five years.
+p161
+aVAnd inland waterways are, in general, dirtier.
+p162
+aVThat makes sense, right?
+p163
+aVAnd the bigger circles are dirty. And I learned a few things from this.
+p164
+aVNumber one: Never swim in anything that ends in "creek" or "canal."
+p165
+aVBut number two: I also found the dirtiest waterway in New York City,
+p166
+aVby this measure, one measure.
+p167
+aVIn Coney Island Creek, which is not the Coney Island you swim in, luckily.
+p168
+aVIt's on the other side.
+p169
+aVBut Coney Island Creek, 94 percent of samples taken over the last five years
+p170
+aVhave had fecal levels so high
+p171
+aVthat it would be against state law to swim in the water.
+p172
+aa(lp173
+VAnd this is not the kind of fact that you're going to see
+p174
+aVboasted in a city report, right?
+p175
+aVIt's not going to be  the front page on nyc.gov.
+p176
+aVYou're not going to see it there,
+p177
+aVbut the fact that we can get  to that data is awesome.
+p178
+aVBut once again, it wasn't super easy,
+p179
+aVbecause this data was not on the open data portal.
+p180
+aVIf you were to go to the open data portal,
+p181
+aVyou'd see just a snippet of it,  a year or a few months.
+p182
+aVIt was actually on the Department of Environmental Protection's website.
+p183
+aVAnd each one of these links is an Excel  sheet, and each Excel sheet is different.
+p184
+aVEvery heading is different: you copy, paste, reorganize.
+p185
+aVWhen you do you can make maps and that's great, but once again,
+p186
+aVwe can do better than that  as a city, we can normalize things.
+p187
+aa(lp188
+VAnd we're getting there, because there's this website that Socrata makes
+p189
+aVcalled the Open Data Portal NYC.
+p190
+aVThis is where 1,100 data sets  that don't suffer
+p191
+aVfrom the things I just told you live,
+p192
+aVand that number is growing, and that's great.
+p193
+aVYou can download data in any format, be it CSV or PDF or Excel document.
+p194
+aVWhatever you want, you can download the data that way.
+p195
+aVThe problem is, once you do,
+p196
+aVyou will find that each agency codes their addresses differently.
+p197
+aVSo one is street name,  intersection street,
+p198
+aVstreet, borough, address, building, building address.
+p199
+aVSo once again, you're spending time, even when we have this portal,
+p200
+aVyou're spending time normalizing our address fields.
+p201
+aVAnd that's not the best use  of our citizens' time.
+p202
+aVWe can do better than that as a city.
+p203
+aVWe can standardize our addresses,
+p204
+aVand if we do,  we can get more maps like this.
+p205
+aa(lp206
+VThis is a map of fire hydrants in New York City,
+p207
+aVbut not just any fire hydrants.
+p208
+aVThese are the top 250 grossing fire hydrants in terms of parking tickets.
+p209
+aV(Laughter)
+p210
+aVSo I learned a few things from this map, and I really like this map.
+p211
+aVNumber one, just don't park on the Upper East Side.
+p212
+aVJust don't. It doesn't matter where you park, you will get a hydrant ticket.
+p213
+aVNumber two, I found the two highest grossing hydrants in all of New York City,
+p214
+aVand they're on the Lower East Side,
+p215
+aVand they were bringing in over 55,000 dollars a year in parking tickets.
+p216
+aVAnd that seemed a little strange to me when I noticed it,
+p217
+aVso I did a little digging and it turns out what you had is a hydrant
+p218
+aVand then something called a curb extension,
+p219
+aVwhich is like a seven-foot space to walk on,
+p220
+aVand then a parking spot.
+p221
+aVAnd so these cars came along, and the hydrant \u2014
+p222
+aV"It's all the way over there, I'm fine,"
+p223
+aVand there was actually a parking spot painted there beautifully for them.
+p224
+aVThey would park there, and the NYPD disagreed with this designation
+p225
+aVand would ticket them.
+p226
+aVAnd it wasn't just me  who found a parking ticket.
+p227
+aVThis is the Google  Street View car driving by
+p228
+aVfinding the same parking ticket.
+p229
+aa(lp230
+VSo I wrote about this on my blog, on I Quant NY, and the DOT responded,
+p231
+aVand they said,
+p232
+aV"While the DOT has not received any complaints about this location,
+p233
+aVwe will review the roadway markings and make any appropriate alterations."
+p234
+aVAnd I thought to myself, typical government response,
+p235
+aVall right, moved on with my life.
+p236
+aa(lp237
+VBut then, a few weeks later, something incredible happened.
+p238
+aVThey repainted the spot,
+p239
+aVand for a second I thought I saw the future of open data,
+p240
+aVbecause think about what happened here.
+p241
+aVFor five years, this spot was being  ticketed, and it was confusing,
+p242
+aVand then a citizen found something, they told the city, and within a few weeks
+p243
+aVthe problem was fixed.
+p244
+aVIt's amazing. And a lot of people see open data as being a watchdog.
+p245
+aVIt's not, it's about being a partner.
+p246
+aVWe can empower our citizens to be better partners for government,
+p247
+aVand it's not that hard.
+p248
+aVAll we need are a few changes.
+p249
+aVIf you're FOILing data,
+p250
+aVif you're seeing your data  being FOILed over and over again,
+p251
+aVlet's release it to the public, that's a sign that it should be made public.
+p252
+aVAnd if you're a government agency releasing a PDF,
+p253
+aVlet's pass legislation that requires you to post it with the underlying data,
+p254
+aVbecause that data is coming from somewhere.
+p255
+aVI don't know where, but it's coming from somewhere,
+p256
+aVand you can release it with the PDF.
+p257
+aVAnd let's adopt and share some open data standards.
+p258
+aVLet's start with our addresses here in New York City.
+p259
+aVLet's just start normalizing our addresses.
+p260
+aVBecause New York is a leader in open data.
+p261
+aVDespite all this, we are absolutely a leader in open data,
+p262
+aVand if we start normalizing things, and set an open data standard,
+p263
+aVothers will follow. The state will follow, and maybe the federal government,
+p264
+aVOther countries could follow,
+p265
+aVand we're not that far off from a time where you could write one program
+p266
+aVand map information from 100 countries.
+p267
+aVIt's not science fiction. We're actually quite close.
+p268
+aa(lp269
+VAnd by the way, who are we empowering with this?
+p270
+aVBecause it's not just John Krauss and it's not just Chris Whong.
+p271
+aVThere are hundreds of meetups going on in New York City right now,
+p272
+aVactive meetups.
+p273
+aVThere are thousands of people attending these meetups.
+p274
+aVThese people are going after work and on weekends,
+p275
+aVand they're attending these meetups to look at open data
+p276
+aVand make our city a better place.
+p277
+aVGroups like BetaNYC, who just last week  released something called citygram.nyc
+p278
+aVthat allows you to subscribe to 311 complaints
+p279
+aVaround your own home, or around your office.
+p280
+aVYou put in your address, you get local complaints.
+p281
+aVAnd it's not just the tech community that are after these things.
+p282
+aVIt's urban planners like  the students I teach at Pratt.
+p283
+aVIt's policy advocates, it's everyone,
+p284
+aVit's citizens from a diverse set of backgrounds.
+p285
+aVAnd with some small, incremental changes,
+p286
+aVwe can unlock the passion and the ability of our citizens
+p287
+aVto harness open data and make our city even better,
+p288
+aVwhether it's one dataset, or one parking spot at a time.
+p289
+aa(lp290
+VThank you.
+p291
+aa(lp292
+V(Applause)
+p293
+aasS'transcript_micsec'
+p294
+(lp295
+I11000
+aI22000
+aI68000
+aI104000
+aI165000
+aI219000
+aI248000
+aI265000
+aI319000
+aI354000
+aI412000
+aI447000
+aI488000
+aI548000
+aI566000
+aI647000
+aI700000
+aI702000
+asS'talk_meta'
+p296
+(dp297
+S'ratings'
+p298
+(dp299
+S'ingenious'
+p300
+I70
+sS'funny'
+p301
+I45
+sS'inspiring'
+p302
+I94
+sS'ok'
+p303
+I76
+sS'fascinating'
+p304
+I85
+sS'total_count'
+p305
+I857
+sS'persuasive'
+p306
+I117
+sS'longwinded'
+p307
+I18
+sS'informative'
+p308
+I296
+sS'beautiful'
+p309
+I8
+sS'jaw-dropping'
+p310
+I8
+sS'obnoxious'
+p311
+I3
+sS'confusing'
+p312
+I13
+sS'courageous'
+p313
+I13
+sS'unconvincing'
+p314
+I11
+ssS'author'
+p315
+VBen_Wellington;
+p316
+sS'url'
+p317
+S'https://www.ted.com/talks/ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data'
+p318
+sS'vidlen'
+p319
+I708
+sS'totalviews'
+p320
+I1002084
+sS'title'
+p321
+VHow we found the worst place to park in New York City -- using big data
+p322
+sS'downloadlink'
+p323
+Vhttps://download.ted.com/talks/BenWellington_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p324
+sS'datepublished'
+p325
+cdatetime
+datetime
+p326
+(S'\x07\xdf\x02\x1a\n:\x03\x00\x00\x00'
+tRp327
+sS'datefilmed'
+p328
+g326
+(S'\x07\xdf\x02\x1a\n:\x03\x00\x00\x00'
+tRp329
+sS'alldata_JSON'
+p330
+S'{"viewed_count": 1002084, "speakers": [{"description": "Data scientist", "firstname": "Ben", "title": "", "lastname": "Wellington", "middleinitial": "", "whylisten": "<p>Ben Wellington runs the <a href=\\"http://iquantny.tumblr.com\\" target=\\"_blank\\">I Quant NY</a>  blog, in which he crunches city-released data to find out what&#39;s really going on in the Big Apple. To date he has tackled topics such as measles outbreaks in New York City schools, analyzed how companies like Airbnb are really doing in NYC, and asked questions such as &quot;<a href=\\"http://iquantny.tumblr.com/post/109370229799/does-gentrification-cause-a-reduction-in\\" class=\\"h2 title\\">does gentrification cause a reduction in laundromats?</a>&quot; (Answer: inconclusive.)</p><p>Ben is a visiting assistant professor in the City &amp; Regional Planning program at the Pratt Institute in Brooklyn; his day job involves working as a quantitative analyst at the investment management firm, Two Sigma. A budding comedian and performer, he also teaches team building workshops through <a href=\\"http://cherubimprov.org\\" target=\\"_blank\\">Cherub Improv</a>, a non-profit that uses improv comedy for social good.</p>", "slug": "ben_wellington", "whotheyare": "Ben Wellington blends his love of statistics, the city, and comedy in his entertaining analysis of the story of New York City, told through data.", "whatotherssay": "", "id": 2470, "photo_url": "https://pe.tedcdn.com/images/ted/b1dfbe2af1673307868d5778458fbd09fe6b2c76_254x191.jpg"}], "current_talk": 2199, "description": "City agencies have access to a wealth of data and statistics reflecting every part of urban life. But as data analyst Ben Wellington suggests in this entertaining talk, sometimes they just don\'t know what to do with it. He shows how a combination of unexpected questions and smart data crunching can produce strangely useful insights, and shares tips on how to release large sets of data so that anyone can use them.", "language": "en", "url": "https://www.ted.com/talks/ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/BenWellington_2014X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85184359}, "podcast-low-en": {"uri": "https://download.ted.com/talks/BenWellington_2014X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16467799}, "podcast-high": {"uri": "https://download.ted.com/talks/BenWellington_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85208740}, "180k": {"uri": "https://download.ted.com/talks/BenWellington_2014X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 16235565}, "64k": {"uri": "https://download.ted.com/talks/BenWellington_2014X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5859600}, "1500k": {"uri": "https://download.ted.com/talks/BenWellington_2014X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 131872980}, "450k": {"uri": "https://download.ted.com/talks/BenWellington_2014X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40610114}, "podcast-regular": {"uri": "https://download.ted.com/talks/BenWellington_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 40725482}, "950k": {"uri": "https://download.ted.com/talks/BenWellington_2014X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 85216694}, "audio-podcast": {"uri": "https://download.ted.com/talks/BenWellington_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 7410991}, "podcast-light": {"uri": "https://download.ted.com/talks/BenWellington_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 5992851}, "320k": {"uri": "https://download.ted.com/talks/BenWellington_2014X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28790722}, "600k": {"uri": "https://download.ted.com/talks/BenWellington_2014X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54374189}}}, "comments": {"count": 26, "id": 26818, "talk_id": 2199}, "slug": "ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data", "threadId": 26818, "talks": [{"event": "TEDxNewYork", "player_talks": [{"event": "TEDxNewYork", "slug": "ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data", "filmed": 1414800000, "targeting": {"event": "TEDxNewYork", "tag": "New York,TEDx,cities,data,infrastructure,statistics,technology", "id": 2199, "talk": "ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data", "year": "2014"}, "adDuration": "3.33", "external": null, "title": "How we found the worst place to park in New York City -- using big data", "postAdDuration": "0.83", "published": 1424966283, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/3aa7d5d06bdf47e519b4a154435ca6dd61616570_2880x1620.jpg?quality=89&w=600", "name": "Ben Wellington: How we found the worst place to park in New York City -- using big data", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["New York", "TEDx", "cities", "data", "infrastructure", "statistics", "technology"], "speaker": "Ben Wellington", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 708, "id": 2199, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/BenWellington_2014X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxNewYork", "tag": "New York,TEDx,cities,data,infrastructure,statistics,technology", "id": 2199, "talk": "ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data", "year": "2014"}, "metadata": "https://hls.ted.com/talks/2199.json", "stream": "https://hls.ted.com/talks/2199.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxNewYork%26id%3D2199%26tag%3DNew%2BYork%2CTEDx%2Ccities%2Cdata%2Cinfrastructure%2Cstatistics%2Ctechnology%26talk%3Dben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data%26year%3D2014&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/3aa7d5d06bdf47e519b4a154435ca6dd61616570_2880x1620.jpg?q=50&w=15", "duration": 708, "id": 2199, "ratings": [{"count": 296, "id": 8, "name": "Informative"}, {"count": 117, "id": 24, "name": "Persuasive"}, {"count": 45, "id": 7, "name": "Funny"}, {"count": 85, "id": 22, "name": "Fascinating"}, {"count": 70, "id": 9, "name": "Ingenious"}, {"count": 94, "id": 10, "name": "Inspiring"}, {"count": 76, "id": 25, "name": "OK"}, {"count": 13, "id": 3, "name": "Courageous"}, {"count": 3, "id": 26, "name": "Obnoxious"}, {"count": 18, "id": 11, "name": "Longwinded"}, {"count": 11, "id": 21, "name": "Unconvincing"}, {"count": 8, "id": 1, "name": "Beautiful"}, {"count": 13, "id": 2, "name": "Confusing"}, {"count": 8, "id": 23, "name": "Jaw-dropping"}], "speakers": [{"description": "Data scientist", "firstname": "Ben", "title": "", "lastname": "Wellington", "middleinitial": "", "whylisten": "<p>Ben Wellington runs the <a href=\\"http://iquantny.tumblr.com\\" target=\\"_blank\\">I Quant NY</a>  blog, in which he crunches city-released data to find out what&#39;s really going on in the Big Apple. To date he has tackled topics such as measles outbreaks in New York City schools, analyzed how companies like Airbnb are really doing in NYC, and asked questions such as &quot;<a href=\\"http://iquantny.tumblr.com/post/109370229799/does-gentrification-cause-a-reduction-in\\" class=\\"h2 title\\">does gentrification cause a reduction in laundromats?</a>&quot; (Answer: inconclusive.)</p><p>Ben is a visiting assistant professor in the City &amp; Regional Planning program at the Pratt Institute in Brooklyn; his day job involves working as a quantitative analyst at the investment management firm, Two Sigma. A budding comedian and performer, he also teaches team building workshops through <a href=\\"http://cherubimprov.org\\" target=\\"_blank\\">Cherub Improv</a>, a non-profit that uses improv comedy for social good.</p>", "slug": "ben_wellington", "whotheyare": "Ben Wellington blends his love of statistics, the city, and comedy in his entertaining analysis of the story of New York City, told through data.", "whatotherssay": "", "id": 2470, "photo_url": "https://pe.tedcdn.com/images/ted/b1dfbe2af1673307868d5778458fbd09fe6b2c76_254x191.jpg"}], "title": "How we found the worst place to park in New York City -- using big data", "take_action": [], "comments": 26818, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/3aa7d5d06bdf47e519b4a154435ca6dd61616570_2880x1620.jpg", "description": "City agencies have access to a wealth of data and statistics reflecting every part of urban life. But as data analyst Ben Wellington suggests in this entertaining talk, sometimes they just don\'t know what to do with it. He shows how a combination of unexpected questions and smart data crunching can produce strangely useful insights, and shares tips on how to release large sets of data so that anyone can use them.", "tags": ["New York", "TEDx", "cities", "data", "infrastructure", "statistics", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hi", "endonym": "\\u0939\\u093f\\u0928\\u094d\\u0926\\u0940", "isRtl": false, "ianaCode": "hi", "languageName": "Hindi"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "sl", "endonym": "Sloven\\u0161\\u010dina", "isRtl": false, "ianaCode": "sl", "languageName": "Slovenian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"vi": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/BenWellington_2014X-low-vi.mp4"}, "ru": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/BenWellington_2014X-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/BenWellington_2014X-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/BenWellington_2014X-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/BenWellington_2014X-low-nl.mp4"}, "fa": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/BenWellington_2014X-low-fa.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/BenWellington_2014X-low-zh-tw.mp4"}, "sl": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-sl.mp4", "name": "Slovenian", "low": "https://download.ted.com/talks/BenWellington_2014X-low-sl.mp4"}, "ko": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/BenWellington_2014X-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/BenWellington_2014X-low-it.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/BenWellington_2014X-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/BenWellington_2014X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/BenWellington_2014X-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/BenWellington_2014X-low-es.mp4"}, "uk": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/BenWellington_2014X-low-uk.mp4"}, "sr": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/BenWellington_2014X-low-sr.mp4"}, "hi": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-hi.mp4", "name": "Hindi"}, "ja": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/BenWellington_2014X-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/BenWellington_2014X-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/BenWellington_2014X-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/BenWellington_2014X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/BenWellington_2014X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/BenWellington_2014X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2199, "audioDownload": "https://download.ted.com/talks/BenWellington_2014X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 884236, "hero": "https://pe.tedcdn.com/images/ted/3e820be716ef041e7bd7792bbfc5b5753d4e0dbf_1600x1200.jpg", "title": "Why smart statistics are the key to fighting crime", "id": 1914, "speaker": "Anne Milgram", "duration": 761, "slug": "anne_milgram_why_smart_statistics_are_the_key_to_fighting_crime"}, {"viewed_count": 4370967, "hero": "https://pe.tedcdn.com/images/ted/eddcaad25cf331e34d366d9ae3edaaaf3989a275_2880x1620.jpg", "title": "The mathematics of love", "id": 2153, "speaker": "Hannah Fry", "duration": 1022, "slug": "hannah_fry_the_mathematics_of_love"}, {"viewed_count": 6417967, "hero": "https://pe.tedcdn.com/images/ted/337743d27766638ba412c813c76cf8259556e1a5_1600x1200.jpg", "title": "How I hacked online dating", "id": 1833, "speaker": "Amy Webb", "duration": 1047, "slug": "amy_webb_how_i_hacked_online_dating"}, {"viewed_count": 1093216, "hero": "https://pe.tedcdn.com/images/ted/9ca3922cace721320cd2b5de1f5761f7a75b2010_2880x1620.jpg", "title": "How we can find ourselves in data", "id": 2727, "speaker": "Giorgia Lupi", "duration": 673, "slug": "giorgia_lupi_how_we_can_find_ourselves_in_data"}, {"viewed_count": 682325, "hero": "https://pe.tedcdn.com/images/ted/154673_800x600.jpg", "title": "The year open data went worldwide", "id": 788, "speaker": "Tim Berners-Lee", "duration": 333, "slug": "tim_berners_lee_the_year_open_data_went_worldwide"}, {"viewed_count": 1360540, "hero": "https://pe.tedcdn.com/images/ted/77260_800x600.jpg", "title": "The next web", "id": 484, "speaker": "Tim Berners-Lee", "duration": 983, "slug": "tim_berners_lee_on_the_next_web"}], "recorded_at": "2014-11-01T00:00:00.000+00:00", "slug": "ben_wellington_how_we_found_the_worst_place_to_park_in_new_york_city_using_big_data", "speaker_name": "Ben Wellington", "viewed_count": 1002084, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxNewYork, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": []}], "event": "TEDxNewYork", "name": "Ben Wellington: How we found the worst place to park in New York City -- using big data"}'
+p331
+sS'keywords'
+p332
+(lp333
+VNew York
+p334
+aVTEDx
+p335
+aVcities
+p336
+aVdata
+p337
+aVinfrastructure
+p338
+aVstatistics
+p339
+aVtechnology
+p340
+asS'datecrawled'
+p341
+g326
+(S'\x07\xe1\n\x17\x00$\x15\x00\xd9\xa4'
+tRp342
+sS'id'
+p343
+I2199
+ss.

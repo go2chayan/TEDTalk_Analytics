@@ -1,0 +1,802 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VHello, everybody.
+p5
+aVI brought with me today a baby diaper.
+p6
+aVYou'll see why in a second.
+p7
+aVBaby diapers have interesting properties.
+p8
+aVThey can swell enormously when you add water to them,
+p9
+aVan experiment done by millions of kids every day.
+p10
+aa(lp11
+V(Laughter)
+p12
+aa(lp13
+VBut the reason why
+p14
+aVis that they're designed in a very clever way.
+p15
+aVThey're made out of a thing called a swellable material.
+p16
+aVIt's a special kind of material that, when you add water,
+p17
+aVit will swell up enormously,
+p18
+aVmaybe a thousand times in volume.
+p19
+aVAnd this is a very useful, industrial kind of polymer.
+p20
+aVBut what we're trying to do in my group at MIT
+p21
+aVis to figure out if we can do something similar to the brain.
+p22
+aVCan we make it bigger,
+p23
+aVbig enough that you can peer inside
+p24
+aVand see all the tiny building blocks, the biomolecules,
+p25
+aVhow they're organized in three dimensions,
+p26
+aVthe structure, the ground truth structure of the brain, if you will?
+p27
+aVIf we could get that,
+p28
+aVmaybe we could have a better understanding of how the brain is organized
+p29
+aVto yield thoughts and emotions
+p30
+aVand actions and sensations.
+p31
+aVMaybe we could try to pinpoint the exact changes in the brain
+p32
+aVthat result in diseases,
+p33
+aVdiseases like Alzheimer's and epilepsy and Parkinson's,
+p34
+aVfor which there are few treatments, much less cures,
+p35
+aVand for which, very often, we don't know the cause or the origins
+p36
+aVand what's really causing them to occur.
+p37
+aVNow, our group at MIT
+p38
+aVis trying to take a different point of view
+p39
+aVfrom the way neuroscience has been done over the last hundred years.
+p40
+aVWe're designers. We're inventors.
+p41
+aVWe're trying to figure out how to build technologies
+p42
+aVthat let us look at and repair the brain.
+p43
+aVAnd the reason is,
+p44
+aVthe brain is incredibly, incredibly complicated.
+p45
+aa(lp46
+VSo what we've learned over the first century of neuroscience
+p47
+aVis that the brain is a very complicated network,
+p48
+aVmade out of very specialized cells called neurons
+p49
+aVwith very complex geometries,
+p50
+aVand electrical currents will flow through these complexly shaped neurons.
+p51
+aVFurthermore, neurons are connected in networks.
+p52
+aVThey're connected by little junctions called synapses that exchange chemicals
+p53
+aVand allow the neurons to talk to each other.
+p54
+aVThe density of the brain is incredible.
+p55
+aVIn a cubic millimeter of your brain,
+p56
+aVthere are about 100,000 of these neurons
+p57
+aVand maybe a billion of those connections.
+p58
+aVBut it's worse.
+p59
+aVSo, if you could zoom in to a neuron,
+p60
+aVand, of course, this is just our artist's rendition of it.
+p61
+aVWhat you would see are thousands and thousands of kinds of biomolecules,
+p62
+aVlittle nanoscale machines organized in complex, 3D patterns,
+p63
+aVand together they mediate those electrical pulses,
+p64
+aVthose chemical exchanges that allow neurons to work together
+p65
+aVto generate things like thoughts and feelings and so forth.
+p66
+aa(lp67
+VNow, we don't know how the neurons in the brain are organized
+p68
+aVto form networks,
+p69
+aVand we don't know how the biomolecules are organized
+p70
+aVwithin neurons
+p71
+aVto form these complex, organized machines.
+p72
+aVIf we really want to understand this,
+p73
+aVwe're going to need new technologies.
+p74
+aVBut if we could get such maps,
+p75
+aVif we could look at the organization of molecules and neurons
+p76
+aVand neurons and networks,
+p77
+aVmaybe we could really understand how the brain conducts information
+p78
+aVfrom sensory regions,
+p79
+aVmixes it with emotion and feeling,
+p80
+aVand generates our decisions and actions.
+p81
+aVMaybe we could pinpoint the exact set of molecular changes that occur
+p82
+aVin a brain disorder.
+p83
+aVAnd once we know how those molecules have changed,
+p84
+aVwhether they've increased in number or changed in pattern,
+p85
+aVwe could use those as targets for new drugs,
+p86
+aVfor new ways of delivering energy into the brain
+p87
+aVin order to repair the brain computations that are afflicted
+p88
+aVin patients who suffer from brain disorders.
+p89
+aa(lp90
+VWe've all seen lots of different technologies over the last century
+p91
+aVto try to confront this.
+p92
+aVI think we've all seen brain scans
+p93
+aVtaken using MRI machines.
+p94
+aVThese, of course, have the great power that they are noninvasive,
+p95
+aVthey can be used on living human subjects.
+p96
+aVBut also, they're spatially crude.
+p97
+aVEach of these blobs that you see, or voxels, as they're called,
+p98
+aVcan contain millions and millions of neurons.
+p99
+aVSo it's not at the level of resolution
+p100
+aVwhere it can pinpoint the molecular changes that occur
+p101
+aVor the changes in the wiring of these networks
+p102
+aVthat contributes to our ability to be conscious and powerful beings.
+p103
+aa(lp104
+VAt the other extreme, you have microscopes.
+p105
+aVMicroscopes, of course, will use light to look at little tiny things.
+p106
+aVFor centuries, they've been used to look at things like bacteria.
+p107
+aVFor neuroscience,
+p108
+aVmicroscopes are actually how neurons were discovered in the first place,
+p109
+aVabout 130 years ago.
+p110
+aVBut light is fundamentally limited.
+p111
+aVYou can't see individual molecules with a regular old microscope.
+p112
+aVYou can't look at these tiny connections.
+p113
+aVSo if we want to make our ability to see the brain more powerful,
+p114
+aVto get down to the ground truth structure,
+p115
+aVwe're going to need to have even better technologies.
+p116
+aa(lp117
+VMy group, a couple years ago, started thinking:
+p118
+aVWhy don't we do the opposite?
+p119
+aVIf it's so darn complicated to zoom in to the brain,
+p120
+aVwhy can't we make the brain bigger?
+p121
+aVIt initially started
+p122
+aVwith two grad students in my group, Fei Chen and Paul Tillberg.
+p123
+aVNow many others in my group are helping with this process.
+p124
+aVWe decided to try to figure out if we could take polymers,
+p125
+aVlike the stuff in the baby diaper,
+p126
+aVand install it physically within the brain.
+p127
+aVIf we could do it just right, and you add water,
+p128
+aVyou can potentially blow the brain up
+p129
+aVto where you could distinguish those tiny biomolecules from each other.
+p130
+aVYou would see those connections and get maps of the brain.
+p131
+aVThis could potentially be quite dramatic.
+p132
+aa(lp133
+VWe brought a little demo here.
+p134
+aVWe got some purified baby diaper material.
+p135
+aVIt's much easier just to buy it off the Internet
+p136
+aVthan to extract the few grains that actually occur in these diapers.
+p137
+aVI'm going to put just one teaspoon here
+p138
+aVof this purified polymer.
+p139
+aVAnd here we have some water.
+p140
+aVWhat we're going to do
+p141
+aVis see if this teaspoon of the baby diaper material
+p142
+aVcan increase in size.
+p143
+aVYou're going to see it increase in volume by about a thousandfold
+p144
+aVbefore your very eyes.
+p145
+aVI could pour much more of this in there,
+p146
+aVbut I think you've got the idea
+p147
+aVthat this is a very, very interesting molecule,
+p148
+aVand if can use it in the right way,
+p149
+aVwe might be able to really zoom in on the brain
+p150
+aVin a way that you can't do with past technologies.
+p151
+aa(lp152
+VOK. So a little bit of chemistry now.
+p153
+aVWhat's going on in the baby diaper polymer?
+p154
+aVIf you could zoom in,
+p155
+aVit might look something like what you see on the screen.
+p156
+aVPolymers are chains of atoms arranged in long, thin lines.
+p157
+aVThe chains are very tiny,
+p158
+aVabout the width of a biomolecule,
+p159
+aVand these polymers are really dense.
+p160
+aVThey're separated by distances
+p161
+aVthat are around the size of a biomolecule.
+p162
+aVThis is very good
+p163
+aVbecause we could potentially move everything apart in the brain.
+p164
+aVIf we add water, what will happen is,
+p165
+aVthis swellable material is going to absorb the water,
+p166
+aVthe polymer chains will move apart from each other,
+p167
+aVand the entire material is going to become bigger.
+p168
+aVAnd because these chains are so tiny
+p169
+aVand spaced by biomolecular distances,
+p170
+aVwe could potentially blow up the brain
+p171
+aVand make it big enough to see.
+p172
+aa(lp173
+VHere's the mystery, then:
+p174
+aVHow do we actually make these polymer chains inside the brain
+p175
+aVso we can move all the biomolecules apart?
+p176
+aVIf we could do that,
+p177
+aVmaybe we could get ground truth maps of the brain.
+p178
+aVWe could look at the wiring.
+p179
+aVWe can peer inside and see the molecules within.
+p180
+aVTo explain this, we made some animations
+p181
+aVwhere we actually look at, in these artist renderings,
+p182
+aVwhat biomolecules might look like and how we might separate them.
+p183
+aVStep one: what we'd have to do, first of all,
+p184
+aVis attach every biomolecule, shown in brown here,
+p185
+aVto a little anchor, a little handle.
+p186
+aVWe need to pull the molecules of the brain apart from each other,
+p187
+aVand to do that, we need to have a little handle
+p188
+aVthat allows those polymers to bind to them
+p189
+aVand to exert their force.
+p190
+aa(lp191
+VNow, if you just take baby diaper polymer and dump it on the brain,
+p192
+aVobviously, it's going to sit there on top.
+p193
+aVSo we need to find a way to make the polymers inside.
+p194
+aVAnd this is where we're really lucky.
+p195
+aVIt turns out, you can get the building blocks,
+p196
+aVmonomers, as they're called,
+p197
+aVand if you let them go into the brain
+p198
+aVand then trigger the chemical reactions,
+p199
+aVyou can get them to form those long chains,
+p200
+aVright there inside the brain tissue.
+p201
+aVThey're going to wind their way around biomolecules
+p202
+aVand between biomolecules,
+p203
+aVforming those complex webs
+p204
+aVthat will allow you, eventually, to pull apart the molecules
+p205
+aVfrom each other.
+p206
+aVAnd every time one of those little handles is around,
+p207
+aVthe polymer will bind to the handle, and that's exactly what we need
+p208
+aVin order to pull the molecules apart from each other.
+p209
+aa(lp210
+VAll right, the moment of truth.
+p211
+aVWe have to treat this specimen
+p212
+aVwith a chemical to kind of loosen up all the molecules from each other,
+p213
+aVand then, when we add water,
+p214
+aVthat swellable material is going to start absorbing the water,
+p215
+aVthe polymer chains will move apart,
+p216
+aVbut now, the biomolecules will come along for the ride.
+p217
+aVAnd much like drawing a picture on a balloon,
+p218
+aVand then you blow up the balloon,
+p219
+aVthe image is the same,
+p220
+aVbut the ink particles have moved away from each other.
+p221
+aVAnd that's what we've been able to do now, but in three dimensions.
+p222
+aa(lp223
+VThere's one last trick.
+p224
+aVAs you can see here,
+p225
+aVwe've color-coded all the biomolecules brown.
+p226
+aVThat's because they all kind of look the same.
+p227
+aVBiomolecules are made out of the same atoms,
+p228
+aVbut just in different orders.
+p229
+aVSo we need one last thing
+p230
+aVin order to make them visible.
+p231
+aVWe have to bring in little tags,
+p232
+aVwith glowing dyes that will distinguish them.
+p233
+aVSo one kind of biomolecule might get a blue color.
+p234
+aVAnother kind of biomolecule might get a red color.
+p235
+aVAnd so forth.
+p236
+aVAnd that's the final step.
+p237
+aVNow we can look at something like a brain
+p238
+aVand look at the individual molecules,
+p239
+aVbecause we've moved them far apart enough from each other
+p240
+aVthat we can tell them apart.
+p241
+aa(lp242
+VSo the hope here is that we can make the invisible visible.
+p243
+aVWe can turn things that might seem small and obscure
+p244
+aVand blow them up
+p245
+aVuntil they're like constellations of information about life.
+p246
+aVHere's an actual video of what it might look like.
+p247
+aVWe have here a little brain in a dish \u2014
+p248
+aVa little piece of a brain, actually.
+p249
+aVWe've infused the polymer in,
+p250
+aVand now we're adding water.
+p251
+aVWhat you'll see is that, right before your eyes \u2014
+p252
+aVthis video is sped up about sixtyfold \u2014
+p253
+aVthis little piece of brain tissue is going to grow.
+p254
+aVIt can increase by a hundredfold or even more in volume.
+p255
+aVAnd the cool part is, because those polymers are so tiny,
+p256
+aVwe're separating biomolecules evenly from each other.
+p257
+aVIt's a smooth expansion.
+p258
+aVWe're not losing the configuration of the information.
+p259
+aVWe're just making it easier to see.
+p260
+aa(lp261
+VSo now we can take actual brain circuitry \u2014
+p262
+aVhere's a piece of the brain involved with, for example, memory \u2014
+p263
+aVand we can zoom in.
+p264
+aVWe can start to actually look at how circuits are configured.
+p265
+aVMaybe someday we could read out a memory.
+p266
+aVMaybe we could actually look at how circuits are configured
+p267
+aVto process emotions,
+p268
+aVhow the actual wiring of our brain is organized
+p269
+aVin order to make us who we are.
+p270
+aVAnd of course, we can pinpoint, hopefully,
+p271
+aVthe actual problems in the brain at a molecular level.
+p272
+aVWhat if we could actually look into cells in the brain
+p273
+aVand figure out, wow, here are the 17 molecules that have altered
+p274
+aVin this brain tissue that has been undergoing epilepsy
+p275
+aVor changing in Parkinson's disease
+p276
+aVor otherwise being altered?
+p277
+aVIf we get that systematic list of things that are going wrong,
+p278
+aVthose become our therapeutic targets.
+p279
+aVWe can build drugs that bind those.
+p280
+aVWe can maybe aim energy at different parts of the brain
+p281
+aVin order to help people with Parkinson's or epilepsy
+p282
+aVor other conditions that affect over a billion people
+p283
+aVaround the world.
+p284
+aa(lp285
+VNow, something interesting has been happening.
+p286
+aVIt turns out that throughout biomedicine,
+p287
+aVthere are other problems that expansion might help with.
+p288
+aVThis is an actual biopsy from a human breast cancer patient.
+p289
+aVIt turns out that if you look at cancers,
+p290
+aVif you look at the immune system,
+p291
+aVif you look at aging, if you look at development \u2014
+p292
+aVall these processes are involving large-scale biological systems.
+p293
+aVBut of course, the problems begin with those little nanoscale molecules,
+p294
+aVthe machines that make the cells and the organs in our body tick.
+p295
+aVSo what we're trying to do now is to figure out
+p296
+aVif we can actually use this technology to map the building blocks of life
+p297
+aVin a wide variety of diseases.
+p298
+aVCan we actually pinpoint the molecular changes in a tumor
+p299
+aVso that we can actually go after it in a smart way
+p300
+aVand deliver drugs that might wipe out exactly the cells that we want to?
+p301
+aa(lp302
+VYou know, a lot of medicine is very high risk.
+p303
+aVSometimes, it's even guesswork.
+p304
+aVMy hope is we can actually turn what might be a high-risk moon shot
+p305
+aVinto something that's more reliable.
+p306
+aVIf you think about the original moon shot,
+p307
+aVwhere they actually landed on the moon,
+p308
+aVit was based on solid science.
+p309
+aVWe understood gravity;
+p310
+aVwe understood aerodynamics.
+p311
+aVWe knew how to build rockets.
+p312
+aVThe science risk was under control.
+p313
+aVIt was still a great, great feat of engineering.
+p314
+aVBut in medicine, we don't necessarily have all the laws.
+p315
+aVDo we have all the laws that are analogous to gravity,
+p316
+aVthat are analogous to aerodynamics?
+p317
+aVI would argue that with technologies
+p318
+aVlike the kinds I'm talking about today,
+p319
+aVmaybe we can actually derive those.
+p320
+aVWe can map the patterns that occur in living systems,
+p321
+aVand figure out how to overcome the diseases that plague us.
+p322
+aa(lp323
+VYou know, my wife and I have two young kids,
+p324
+aVand one of my hopes as a bioengineer is to make life better for them
+p325
+aVthan it currently is for us.
+p326
+aVAnd my hope is, if we can turn biology and medicine
+p327
+aVfrom these high-risk endeavors that are governed by chance and luck,
+p328
+aVand make them things that we win by skill and hard work,
+p329
+aVthen that would be a great advance.
+p330
+aa(lp331
+VThank you very much.
+p332
+aa(lp333
+V(Applause)
+p334
+aasS'transcript_micsec'
+p335
+(lp336
+I11000
+aI27000
+aI28000
+aI106000
+aI165000
+aI218000
+aI252000
+aI286000
+aI321000
+aI374000
+aI419000
+aI462000
+aI502000
+aI530000
+aI566000
+aI610000
+aI666000
+aI713000
+aI760000
+aI781000
+aI782000
+asS'talk_meta'
+p337
+(dp338
+S'ratings'
+p339
+(dp340
+S'ingenious'
+p341
+I165
+sS'beautiful'
+p342
+I30
+sS'inspiring'
+p343
+I126
+sS'ok'
+p344
+I38
+sS'fascinating'
+p345
+I219
+sS'funny'
+p346
+I16
+sS'total_count'
+p347
+I1057
+sS'persuasive'
+p348
+I30
+sS'longwinded'
+p349
+I20
+sS'unconvincing'
+p350
+I15
+sS'informative'
+p351
+I303
+sS'jaw-dropping'
+p352
+I66
+sS'obnoxious'
+p353
+I11
+sS'courageous'
+p354
+I9
+sS'confusing'
+p355
+I9
+ssS'author'
+p356
+VEd_Boyden;
+p357
+sS'url'
+p358
+S'https://www.ted.com/talks/ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain'
+p359
+sS'vidlen'
+p360
+I795
+sS'totalviews'
+p361
+I1268746
+sS'title'
+p362
+VA new way to study the brain's invisible secrets
+p363
+sS'downloadlink'
+p364
+Vhttps://download.ted.com/talks/EdBoyden_2016T.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p365
+sS'datepublished'
+p366
+cdatetime
+datetime
+p367
+(S"\x07\xe0\x07\x15\x0b\x0e'\x00\x00\x00"
+tRp368
+sS'datefilmed'
+p369
+g367
+(S"\x07\xe0\x07\x15\x0b\x0e'\x00\x00\x00"
+tRp370
+sS'alldata_JSON'
+p371
+S'{"viewed_count": 1268746, "speakers": [{"description": "Neuroengineer", "firstname": "Ed", "title": "", "lastname": "Boyden", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Ed Boyden leads the Synthetic Neurobiology Group, which develops tools for analyzing and repairing complex biological systems such as the brain. His group applies these tools in a systematic way in order to reveal ground truth scientific understandings of biological systems, which in turn reveal radical new approaches for curing diseases and repairing disabilities. These technologies include expansion microscopy, which enables complex biological systems to be imaged with nanoscale precision, and optogenetic tools, which enable the activation and silencing of neural activity with light (TED Talk:&nbsp;<a href=\\"http://www.ted.com/talks/ed_boyden\\" target=\\"_blank\\">A light switch for neurons</a>).&nbsp;Boyden also co-directs the MIT Center for Neurobiological Engineering, which aims to develop new tools to accelerate neuroscience progress.</p><p class=\\"p1\\">Amongst other recognitions, Boyden has received the Breakthrough Prize in Life Sciences (2016), the BBVA Foundation Frontiers of Knowledge Award (2015), the Carnegie Prize in Mind and Brain Sciences (2015), the Jacob Heskel Gabbay Award (2013), the Grete Lundbeck Brain Prize (2013) and the NIH Director&#39;s Pioneer Award (2013). He was also named to the World Economic Forum Young Scientist list (2013) and the <em>Technology Review World&#39;</em>s &quot;Top 35 Innovators under Age 35&quot; list (2006). His group has hosted hundreds of visitors to learn how to use new biotechnologies and spun out several companies to bring inventions out of his lab and into the world. Boyden received his Ph.D. in neurosciences from Stanford University as a Hertz Fellow, where he discovered that the molecular mechanisms used to store a memory are determined by the content to be learned. Before that, he received three degrees in electrical engineering, computer science and physics from MIT. He has contributed to over 300 peer-reviewed papers, current or pending patents and articles, and he has given over 300 invited talks on his group&#39;s work.</p>", "slug": "ed_boyden", "whotheyare": "Ed Boyden is a professor of biological engineering and brain and cognitive sciences at the MIT Media Lab and the MIT McGovern Institute.", "whatotherssay": "", "id": 890, "photo_url": "https://pe.tedcdn.com/images/ted/fd2c79e1b1a6aa4e9f59f1b4bbb704969bb7e06e_254x191.jpg"}], "current_talk": 2557, "description": "Neuroengineer Ed Boyden wants to know how the tiny biomolecules in our brains generate emotions, thoughts and feelings -- and he wants to find the molecular changes that lead to disorders like epilepsy and Alzheimer\'s. Rather than magnify these invisible structures with a microscope, he wondered: What if we physically enlarge them and make them easier to see? Learn how the same polymers used to make baby diapers swell could be a key to better understanding our brains.", "language": "en", "url": "https://www.ted.com/talks/ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94931632}, "podcast-low-en": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18367184}, "podcast-high": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94917888}, "180k": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18108890}, "64k": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6535348}, "1500k": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 147064998}, "450k": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45183364}, "podcast-regular": {"uri": "https://download.ted.com/talks/EdBoyden_2016T.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 45298502}, "950k": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94926284}, "audio-podcast": {"uri": "https://download.ted.com/talks/EdBoyden_2016T.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 8090435}, "podcast-light": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6668684}, "320k": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 32072105}, "600k": {"uri": "https://download.ted.com/talks/EdBoyden_2016T-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 60476815}}}, "comments": {"count": 49, "id": 27175, "talk_id": 2557}, "slug": "ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain", "threadId": 27175, "talks": [{"event": "TEDSummit", "player_talks": [{"event": "TEDSummit", "slug": "ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain", "filmed": 1466899200, "targeting": {"event": "TEDSummit", "tag": "biology,biomechanics,biotech,brain,chemistry,humanity,illness,innovation,life,materials,medical research,nanoscale,neuroscience,potential,science,technology", "id": 2557, "talk": "ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain", "year": "2016"}, "adDuration": "3.33", "external": null, "title": "A new way to study the brain\'s invisible secrets", "postAdDuration": "0.83", "published": 1469114079, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/eec0be6feefef0950540ec844664ed485ec83d8d_2880x1620.jpg?quality=89&w=600", "name": "Ed Boyden: A new way to study the brain\'s invisible secrets", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "ka", "endonym": "\\u10e5\\u10d0\\u10e0\\u10d7\\u10e3\\u10da\\u10d8", "isRtl": false, "ianaCode": "ka", "languageName": "Georgian"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["biology", "biomechanics", "biotech", "brain", "chemistry", "humanity", "illness", "innovation", "life", "materials", "medical research", "nanoscale", "neuroscience", "potential", "science", "technology"], "speaker": "Ed Boyden", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 795, "id": 2557, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/EdBoyden_2016T-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDSummit", "tag": "biology,biomechanics,biotech,brain,chemistry,humanity,illness,innovation,life,materials,medical research,nanoscale,neuroscience,potential,science,technology", "id": 2557, "talk": "ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain", "year": "2016"}, "metadata": "https://hls.ted.com/talks/2557.json", "stream": "https://hls.ted.com/talks/2557.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDSummit%26id%3D2557%26tag%3Dbiology%2Cbiomechanics%2Cbiotech%2Cbrain%2Cchemistry%2Chumanity%2Cillness%2Cinnovation%2Clife%2Cmaterials%2Cmedical%2Bresearch%2Cnanoscale%2Cneuroscience%2Cpotential%2Cscience%2Ctechnology%26talk%3Ded_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain%26year%3D2016&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/eec0be6feefef0950540ec844664ed485ec83d8d_2880x1620.jpg?q=50&w=15", "duration": 795, "id": 2557, "ratings": [{"count": 303, "id": 8, "name": "Informative"}, {"count": 126, "id": 10, "name": "Inspiring"}, {"count": 66, "id": 23, "name": "Jaw-dropping"}, {"count": 165, "id": 9, "name": "Ingenious"}, {"count": 20, "id": 11, "name": "Longwinded"}, {"count": 219, "id": 22, "name": "Fascinating"}, {"count": 30, "id": 1, "name": "Beautiful"}, {"count": 9, "id": 3, "name": "Courageous"}, {"count": 30, "id": 24, "name": "Persuasive"}, {"count": 38, "id": 25, "name": "OK"}, {"count": 16, "id": 7, "name": "Funny"}, {"count": 9, "id": 2, "name": "Confusing"}, {"count": 11, "id": 26, "name": "Obnoxious"}, {"count": 15, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Neuroengineer", "firstname": "Ed", "title": "", "lastname": "Boyden", "middleinitial": "", "whylisten": "        <p class=\\"p1\\">Ed Boyden leads the Synthetic Neurobiology Group, which develops tools for analyzing and repairing complex biological systems such as the brain. His group applies these tools in a systematic way in order to reveal ground truth scientific understandings of biological systems, which in turn reveal radical new approaches for curing diseases and repairing disabilities. These technologies include expansion microscopy, which enables complex biological systems to be imaged with nanoscale precision, and optogenetic tools, which enable the activation and silencing of neural activity with light (TED Talk:&nbsp;<a href=\\"http://www.ted.com/talks/ed_boyden\\" target=\\"_blank\\">A light switch for neurons</a>).&nbsp;Boyden also co-directs the MIT Center for Neurobiological Engineering, which aims to develop new tools to accelerate neuroscience progress.</p><p class=\\"p1\\">Amongst other recognitions, Boyden has received the Breakthrough Prize in Life Sciences (2016), the BBVA Foundation Frontiers of Knowledge Award (2015), the Carnegie Prize in Mind and Brain Sciences (2015), the Jacob Heskel Gabbay Award (2013), the Grete Lundbeck Brain Prize (2013) and the NIH Director&#39;s Pioneer Award (2013). He was also named to the World Economic Forum Young Scientist list (2013) and the <em>Technology Review World&#39;</em>s &quot;Top 35 Innovators under Age 35&quot; list (2006). His group has hosted hundreds of visitors to learn how to use new biotechnologies and spun out several companies to bring inventions out of his lab and into the world. Boyden received his Ph.D. in neurosciences from Stanford University as a Hertz Fellow, where he discovered that the molecular mechanisms used to store a memory are determined by the content to be learned. Before that, he received three degrees in electrical engineering, computer science and physics from MIT. He has contributed to over 300 peer-reviewed papers, current or pending patents and articles, and he has given over 300 invited talks on his group&#39;s work.</p>", "slug": "ed_boyden", "whotheyare": "Ed Boyden is a professor of biological engineering and brain and cognitive sciences at the MIT Media Lab and the MIT McGovern Institute.", "whatotherssay": "", "id": 890, "photo_url": "https://pe.tedcdn.com/images/ted/fd2c79e1b1a6aa4e9f59f1b4bbb704969bb7e06e_254x191.jpg"}], "title": "A new way to study the brain\'s invisible secrets", "take_action": [], "comments": 27175, "more_resources": [], "hero": "https://pe.tedcdn.com/images/ted/eec0be6feefef0950540ec844664ed485ec83d8d_2880x1620.jpg", "description": "Neuroengineer Ed Boyden wants to know how the tiny biomolecules in our brains generate emotions, thoughts and feelings -- and he wants to find the molecular changes that lead to disorders like epilepsy and Alzheimer\'s. Rather than magnify these invisible structures with a microscope, he wondered: What if we physically enlarge them and make them easier to see? Learn how the same polymers used to make baby diapers swell could be a key to better understanding our brains.", "tags": ["biology", "biomechanics", "biotech", "brain", "chemistry", "humanity", "illness", "innovation", "life", "materials", "medical research", "nanoscale", "neuroscience", "potential", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "gl", "endonym": "Galego", "isRtl": false, "ianaCode": "gl", "languageName": "Galician"}, {"languageCode": "ka", "endonym": "\\u10e5\\u10d0\\u10e0\\u10d7\\u10e3\\u10da\\u10d8", "isRtl": false, "ianaCode": "ka", "languageName": "Georgian"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-cs.mp4"}, "gl": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-gl.mp4", "name": "Galician", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-gl.mp4"}, "es": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-bg.mp4"}, "fa": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-he.mp4"}, "ka": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-ka.mp4", "name": "Georgian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-ka.mp4"}, "sr": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/EdBoyden_2016T-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/EdBoyden_2016T-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/EdBoyden_2016T.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/EdBoyden_2016T-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2557, "audioDownload": "https://download.ted.com/talks/EdBoyden_2016T.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 936783, "hero": "https://pe.tedcdn.com/images/ted/29fe2e14406be124c2d750736328ef617a156e10_800x600.jpg", "title": "A light switch for neurons", "id": 1146, "speaker": "Ed Boyden", "duration": 1104, "slug": "ed_boyden"}, {"viewed_count": 4677262, "hero": "https://pe.tedcdn.com/images/ted/ec6df2369a3294452ed45750f41e6468c3a58621_2880x1620.jpg", "title": "You can grow new brain cells. Here\'s how", "id": 2342, "speaker": "Sandrine Thuret", "duration": 664, "slug": "sandrine_thuret_you_can_grow_new_brain_cells_here_s_how"}, {"viewed_count": 2179538, "hero": "https://pe.tedcdn.com/images/ted/0fc9a0c0e51919aa2f0efe825dbea9d4480baaf7_2880x1620.jpg", "title": "The brain may be able to repair itself -- with help", "id": 2429, "speaker": "Jocelyne Bloch", "duration": 694, "slug": "jocelyne_bloch_the_brain_may_be_able_to_repair_itself_with_help"}, {"viewed_count": 2471615, "hero": "https://pe.tedcdn.com/images/ted/f8443ec450dd71d590ea1b0f7b9470dd5665b15b_2880x1620.jpg", "title": "What is so special about the human brain?", "id": 1879, "speaker": "Suzana Herculano-Houzel", "duration": 811, "slug": "suzana_herculano_houzel_what_is_so_special_about_the_human_brain"}, {"viewed_count": 894619, "hero": "https://pe.tedcdn.com/images/ted/9d94c91442c28bfda8fc51070e63397867e1f787_800x600.jpg", "title": "How to look inside the brain", "id": 1450, "speaker": "Carl Schoonover", "duration": 292, "slug": "carl_schoonover_how_to_look_inside_the_brain"}, {"viewed_count": 1186939, "hero": "https://pe.tedcdn.com/images/ted/121608_800x600.jpg", "title": "A brain in a supercomputer", "id": 659, "speaker": "Henry Markram", "duration": 890, "slug": "henry_markram_supercomputing_the_brain_s_secrets"}], "recorded_at": "2016-06-26T00:00:00.000+00:00", "slug": "ed_boyden_baby_diapers_inspired_this_new_way_to_study_the_brain", "speaker_name": "Ed Boyden", "viewed_count": 1268746, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": {"status": "approved", "start_at": null, "headline": "Ed Boyden recommends", "eyebrow": null, "end_at": null, "rec_lists": [{"description": "", "rec_items": [{"is_pdf": false, "headline": "How the Brain Is Computing the Mind", "link_url": "https://www.edge.org/conversation/ed_boyden-how-the-brain-is-computing-the-mind", "eyebrow": null, "label": "READ_Article", "note": "Edge.org, 2016", "position": null, "blurb": "An interview for Edge.org on why we don\'t understand the brain and why neural tools that aim for getting \'ground truth\' data -- going for the most fundamental level of detail possible -- will help."}, {"is_pdf": false, "headline": "Engineering Revolutions", "link_url": "https://www.youtube.com/watch?v=18jZDVuiAOM", "eyebrow": null, "label": "WATCH", "note": "World Economic Forum, 2016", "position": null, "blurb": "A lecture on why 21st century problems are harder than 20th century problems -- and how we can solve them through developing new kinds of science that reduce risk by being systematic and avoiding assumptions:"}, {"is_pdf": true, "headline": "Parallel Discovery of Alzheimer\\u2019s Therapeutics", "link_url": "http://stm.sciencemag.org/content/6/241/241cm5", "eyebrow": null, "label": "READ_Article", "note": "Andrew W. Lo, Carole Ho, Jayna Cummings and Kenneth S. Kosik\\r\\n*Science Translational Medicine*, 2014", "position": null, "blurb": "MIT business school professor Andrew Lo explains how we understand so little about Alzheimer\'s disease that it\'s actually too high a risk for most companies to tackle. Perhaps the solution is to lower the risk by getting fundamental understandings of Alzheimer\'s."}, {"is_pdf": false, "headline": "Peter Thiel Explains Biotech Investing Rationale: Get Rid of Randomness", "link_url": "https://www.technologyreview.com/s/541226/peter-thiel-explains-biotech-investing-rationale-get-rid-of-randomness/", "eyebrow": null, "label": "READ_Article", "note": "Antonio Regalado\\r\\nMIT Technology Review, 2015", "position": null, "blurb": "One of the challenges with biotechnology generally is that biology feels too complicated and too random. It feels like there are too many things that can go wrong. By accelerating fundamental understanding, we can reduce this risk."}, {"is_pdf": false, "headline": "Is Pharma Running Out of Brainy Ideas?", "link_url": "http://science.sciencemag.org/content/329/5991/502", "eyebrow": null, "label": "READ_Article", "note": "Greg Miller\\r\\n*Science*, 2010", "position": null, "blurb": "An article about how brain disorders are so complex, industry is kind of giving up on them."}], "title": ""}], "published": true, "type": "recommendation", "blurb": "Check out more resources on neuroengineering, curated by Ed Boyden."}, "corrections": []}], "event": "TEDSummit", "name": "Ed Boyden: A new way to study the brain\'s invisible secrets"}'
+p372
+sS'keywords'
+p373
+(lp374
+Vbiology
+p375
+aVbiomechanics
+p376
+aVbiotech
+p377
+aVbrain
+p378
+aVchemistry
+p379
+aVhumanity
+p380
+aVillness
+p381
+aVinnovation
+p382
+aVlife
+p383
+aVmaterials
+p384
+aVmedical research
+p385
+aVnanoscale
+p386
+aVneuroscience
+p387
+aVpotential
+p388
+aVscience
+p389
+aVtechnology
+p390
+asS'datecrawled'
+p391
+g367
+(S'\x07\xe1\n\x17\x00$\x1c\x0c\xbcO'
+tRp392
+sS'id'
+p393
+I2557
+ss.

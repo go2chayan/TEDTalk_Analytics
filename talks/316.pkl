@@ -1,0 +1,922 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VSo I'm going to talk today about collecting stories
+p5
+aVin some unconventional ways.
+p6
+aVThis is a picture of me from a very awkward stage in my life.
+p7
+aVYou might enjoy the awkwardly tight, cut-off pajama bottoms with balloons.
+p8
+aVAnyway, it was a time when I was mainly interested
+p9
+aVin collecting imaginary stories.
+p10
+aVSo this is a picture of me
+p11
+aVholding one of the first watercolor paintings I ever made.
+p12
+aVAnd recently I've been much more interested in collecting stories
+p13
+aVfrom reality \u2014 so, real stories.
+p14
+aVAnd specifically, I'm interested in collecting my own stories,
+p15
+aVstories from the Internet, and then recently, stories from life,
+p16
+aVwhich is kind of a new area of work that I've been doing recently.
+p17
+aVSo I'll be talking about each of those today.
+p18
+aVSo, first of all, my own stories. These are two of my sketchbooks.
+p19
+aVI have many of these books,
+p20
+aVand I've been keeping them for about the last eight or nine years.
+p21
+aVThey accompany me wherever I go in my life,
+p22
+aVand I fill them with all sorts of things,
+p23
+aVrecords of my lived experience:
+p24
+aVso watercolor paintings, drawings of what I see,
+p25
+aVdead flowers, dead insects, pasted ticket stubs, rusting coins,
+p26
+aVbusiness cards, writings.
+p27
+aVAnd in these books, you can find these short, little glimpses
+p28
+aVof moments and experiences and people that I meet.
+p29
+aVAnd, you know, after keeping these books for a number of years,
+p30
+aVI started to become very interested in collecting
+p31
+aVnot only my own personal artifacts,
+p32
+aVbut also the artifacts of other people.
+p33
+aVSo, I started collecting found objects.
+p34
+aVThis is a photograph I found lying in a gutter in New York City
+p35
+aVabout 10 years ago.
+p36
+aVOn the front, you can see the tattered black-and-white photo of a woman's face,
+p37
+aVand on the back it says, "To Judy, the girl with the Bill Bailey voice.
+p38
+aVHave fun in whatever you do."
+p39
+aVAnd I really loved this idea of the partial glimpse into somebody's life.
+p40
+aVAs opposed to knowing the whole story, just knowing a little bit of the story,
+p41
+aVand then letting your own mind fill in the rest.
+p42
+aVAnd that idea of a partial glimpse is something
+p43
+aVthat will come back in a lot of the work I'll be showing later today.
+p44
+aVSo, around this time I was studying computer science at Princeton University,
+p45
+aVand I noticed that it was suddenly possible
+p46
+aVto collect these sorts of personal artifacts,
+p47
+aVnot just from street corners, but also from the Internet.
+p48
+aVAnd that suddenly, people, en masse, were leaving scores and scores
+p49
+aVof digital footprints online that told stories of their private lives.
+p50
+aVBlog posts, photographs, thoughts, feelings, opinions,
+p51
+aVall of these things were being expressed by people online,
+p52
+aVand leaving behind trails.
+p53
+aVSo, I started to write computer programs
+p54
+aVthat study very, very large sets of these online footprints.
+p55
+aVOne such project is about a year and a half old.
+p56
+aVIt's called "We Feel Fine."
+p57
+aVThis is a project that scans the world's newly posted blog entries
+p58
+aVevery two or three minutes, searching for occurrences of the phrases
+p59
+aV"I feel" and "I am feeling." And when it finds one of those phrases,
+p60
+aVit grabs the full sentence up to the period
+p61
+aVand also tries to identify demographic information about the author.
+p62
+aVSo, their gender, their age, their geographic location
+p63
+aVand what the weather conditions were like when they wrote that sentence.
+p64
+aVIt collects about 20,000 such sentences a day
+p65
+aVand it's been running for about a year and a half,
+p66
+aVhaving collected over 10 and a half million feelings now.
+p67
+aVThis is, then, how they're presented.
+p68
+aVThese dots here represent some of the English-speaking world's
+p69
+aVfeelings from the last few hours,
+p70
+aVeach dot being a single sentence stated by a single blogger.
+p71
+aVAnd the color of each dot corresponds to the type of feeling inside,
+p72
+aVso the bright ones are happy, and the dark ones are sad.
+p73
+aVAnd the diameter of each dot corresponds
+p74
+aVto the length of the sentence inside.
+p75
+aVSo the small ones are short, and the bigger ones are longer.
+p76
+aV"I feel fine with the body I'm in, there'll be no easy excuse
+p77
+aVfor why I still feel uncomfortable being close to my boyfriend,"
+p78
+aVfrom a twenty-two-year-old in Japan.
+p79
+aV"I got this on some trading locally,
+p80
+aVbut really don't feel like screwing with wiring and crap."
+p81
+aVAlso, some of the feelings contain photographs in the blog posts.
+p82
+aVAnd when that happens, these montage compositions are automatically created,
+p83
+aVwhich consist of the sentence and images being combined.
+p84
+aVAnd any of these can be opened up to reveal the sentence inside.
+p85
+aV"I feel good."
+p86
+aV"I feel rough now, and I probably gained 100,000 pounds,
+p87
+aVbut it was worth it."
+p88
+aV"I love how they were able to preserve most in everything
+p89
+aVthat makes you feel close to nature \u2014 butterflies,
+p90
+aVman-made forests, limestone caves and hey, even a huge python."
+p91
+aVSo the next movement is called mobs.
+p92
+aVThis provides a slightly more statistical look at things.
+p93
+aVThis is showing the world's most common feelings overall right now,
+p94
+aVdominated by better, then bad, then good, then guilty, and so on.
+p95
+aVWeather causes the feelings to assume the physical traits
+p96
+aVof the weather they represent. So the sunny ones swirl around,
+p97
+aVthe cloudy ones float along, the rainy ones fall down,
+p98
+aVand the snowy ones flutter to the ground.
+p99
+aVYou can also stop a raindrop and open the feeling inside.
+p100
+aVFinally, location causes the feelings to move to their spots
+p101
+aVon a world map, giving you a sense of their geographic distribution.
+p102
+aVSo I'll show you now some of my favorite montages from "We Feel Fine."
+p103
+aVThese are the images that are automatically constructed.
+p104
+aV"I feel like I'm diagonally parked in a parallel universe."
+p105
+aV(Laughter)
+p106
+aV"I've kissed numerous other boys and it hasn't felt good,
+p107
+aVthe kisses felt messy and wrong,
+p108
+aVbut kissing Lucas feels beautiful and almost spiritual."
+p109
+aV"I can feel my cancer grow."
+p110
+aV"I feel pretty."
+p111
+aV"I feel skinny, but I'm not."
+p112
+aV"I'm 23, and a recovering meth and heroin addict,
+p113
+aVand feel absolutely blessed to still be alive."
+p114
+aV"I can't wait to see them racing for the first time at Daytona next month,
+p115
+aVbecause I feel the need for speed."
+p116
+aV(Laughter)
+p117
+aV"I feel sassy."
+p118
+aV"I feel so sexy in this new wig."
+p119
+aVAs you can see, "We Feel Fine" collects
+p120
+aVvery, very small-scale personal stories.
+p121
+aVSometimes, stories as short as two or three words.
+p122
+aVSo, really even challenging the notion
+p123
+aVof what can be considered a story.
+p124
+aVAnd recently, I've become interested in diving much more deeply into a single story.
+p125
+aVAnd that's led me to doing some work with the physical world,
+p126
+aVnot with the Internet,
+p127
+aVand only using the Internet at the very last moment, as a presentation medium.
+p128
+aVSo these are some newer projects that
+p129
+aVactually aren't even launched publicly yet.
+p130
+aVThe first such one is called "The Whale Hunt."
+p131
+aVLast May, I spent nine days living up in Barrow, Alaska,
+p132
+aVthe northernmost settlement in the United States,
+p133
+aVwith a family of Inupiat Eskimos,
+p134
+aVdocumenting their annual spring whale hunt.
+p135
+aVThis is the whaling camp here, we're about six miles from shore,
+p136
+aVcamping on five and a half feet of thick, frozen pack ice.
+p137
+aVAnd that water that you see there is the open lead,
+p138
+aVand through that lead, bowhead whales migrate north each springtime.
+p139
+aVAnd the Eskimo community basically camps out on the edge of the ice here,
+p140
+aVwaits for a whale to come close enough to attack. And when it does,
+p141
+aVit throws a harpoon at it, and then hauls the whale up
+p142
+aVunder the ice, and cuts it up.
+p143
+aVAnd that would provide the community's food supply for a long time.
+p144
+aVSo I went up there, and I lived with these guys
+p145
+aVout in their whaling camp here, and photographed the entire experience,
+p146
+aVbeginning with the taxi ride to Newark airport in New York,
+p147
+aVand ending with the butchering of the second whale, seven and a half days later.
+p148
+aVI photographed that entire experience at five-minute intervals.
+p149
+aVSo every five minutes, I took a photograph.
+p150
+aVWhen I was awake, with the camera around my neck.
+p151
+aVWhen I was sleeping, with a tripod and a timer.
+p152
+aVAnd then in moments of high adrenaline,
+p153
+aVlike when something exciting was happening,
+p154
+aVI would up that photographic frequency to as many as
+p155
+aV37 photographs in five minutes.
+p156
+aVSo what this created was a photographic heartbeat
+p157
+aVthat sped up and slowed down, more or less matching
+p158
+aVthe changing pace of my own heartbeat.
+p159
+aVThat was the first concept here.
+p160
+aVThe second concept was to use this experience to think about
+p161
+aVthe fundamental components of any story.
+p162
+aVWhat are the things that make up a story?
+p163
+aVSo, stories have characters. Stories have concepts.
+p164
+aVStories take place in a certain area. They have contexts.
+p165
+aVThey have colors. What do they look like?
+p166
+aVThey have time. When did it take place? Dates \u2014 when did it occur?
+p167
+aVAnd in the case of the whale hunt, also this idea of an excitement level.
+p168
+aVThe thing about stories, though, in most of the existing mediums
+p169
+aVthat we're accustomed to \u2014 things like novels, radio,
+p170
+aVphotographs, movies, even lectures like this one \u2014
+p171
+aVwe're very accustomed to this idea of the narrator or the camera position,
+p172
+aVsome kind of omniscient, external body
+p173
+aVthrough whose eyes you see the story.
+p174
+aVWe're very used to this.
+p175
+aVBut if you think about real life, it's not like that at all.
+p176
+aVI mean, in real life, things are much more nuanced and complex,
+p177
+aVand there's all of these overlapping stories
+p178
+aVintersecting and touching each other.
+p179
+aVAnd so I thought it would be interesting to build a framework
+p180
+aVto surface those types of stories. So, in the case of "The Whale Hunt,"
+p181
+aVhow could we extract something like the story of Simeon and Crawford,
+p182
+aVinvolving the concepts of wildlife, tools and blood, taking place on the Arctic Ocean,
+p183
+aVdominated by the color red, happening around 10 a.m. on May 3,
+p184
+aVwith an excitement level of high?
+p185
+aVSo, how to extract this order of narrative from this larger story?
+p186
+aVI built a web interface for viewing "The Whale Hunt" that attempts to do just this.
+p187
+aVSo these are all 3,214 pictures taken up there.
+p188
+aVThis is my studio in Brooklyn. This is the Arctic Ocean,
+p189
+aVand the butchering of the second whale, seven days later.
+p190
+aVYou can start to see some of the story here, told by color.
+p191
+aVSo this red strip signifies the color of the wallpaper
+p192
+aVin the basement apartment where I was staying.
+p193
+aVAnd things go white as we move out onto the Arctic Ocean.
+p194
+aVIntroduction of red down here, when whales are being cut up.
+p195
+aVYou can see a timeline, showing you the exciting moments throughout the story.
+p196
+aVThese are organized chronologically.
+p197
+aVWheel provides a slightly more playful version of the same,
+p198
+aVso these are also all the photographs organized chronologically.
+p199
+aVAnd any of these can be clicked,
+p200
+aVand then the narrative is entered at that position.
+p201
+aVSo here I am sleeping on the airplane heading up to Alaska.
+p202
+aVThat's "Moby Dick."
+p203
+aVThis is the food we ate.
+p204
+aVThis is in the Patkotak's family living room
+p205
+aVin their house in Barrow. The boxed wine they served us.
+p206
+aVCigarette break outside \u2014 I don't smoke.
+p207
+aVThis is a really exciting sequence of me sleeping.
+p208
+aVThis is out at whale camp, on the Arctic Ocean.
+p209
+aVThis graph that I'm clicking down here is meant to be
+p210
+aVreminiscent of a medical heartbeat graph,
+p211
+aVshowing the exciting moments of adrenaline.
+p212
+aVThis is the ice starting to freeze over. The snow fence they built.
+p213
+aVAnd so what I'll show you now is the ability to pull out sub-stories.
+p214
+aVSo, here you see the cast. These are all of the people in "The Whale Hunt"
+p215
+aVand the two whales that were killed down here.
+p216
+aVAnd we could do something as arbitrary as, say,
+p217
+aVextract the story of Rony, involving the concepts of blood
+p218
+aVand whales and tools, taking place on the Arctic Ocean,
+p219
+aVat Ahkivgaq camp, with the heartbeat level of fast.
+p220
+aVAnd now we've whittled down that whole story
+p221
+aVto just 29 matching photographs,
+p222
+aVand then we can enter the narrative at that position.
+p223
+aVAnd you can see Rony cutting up the whale here.
+p224
+aVThese whales are about 40 feet long,
+p225
+aVand weighing over 40 tons. And they provide the food source
+p226
+aVfor the community for much of the year.
+p227
+aVSkipping ahead a bit more here, this is Rony on the whale carcass.
+p228
+aVThey use no chainsaws or anything; it's entirely just blades,
+p229
+aVand an incredibly efficient process.
+p230
+aVThis is the guys on the rope, pulling open the carcass.
+p231
+aVThis is the muktuk, or the blubber, all lined up for community distribution.
+p232
+aVIt's baleen. Moving on.
+p233
+aVSo what I'm going to tell you about next
+p234
+aVis a very new thing. It's not even a project yet.
+p235
+aVSo, just yesterday, I flew in here from Singapore, and before that,
+p236
+aVI was spending two weeks in Bhutan, the small Himalayan kingdom
+p237
+aVnestled between Tibet and India.
+p238
+aVAnd I was doing a project there about happiness,
+p239
+aVinterviewing a lot of local people.
+p240
+aVSo Bhutan has this really wacky thing where they base
+p241
+aVmost of their high-level governmental decisions around the concept
+p242
+aVof gross national happiness instead of gross domestic product,
+p243
+aVand they've been doing this since the '70s.
+p244
+aVAnd it leads to just a completely different value system.
+p245
+aVIt's an incredibly non-materialistic culture,
+p246
+aVwhere people don't have a lot, but they're incredibly happy.
+p247
+aVSo I went around and I talked to people about some of these ideas.
+p248
+aVSo, I did a number of things. I asked people a number of set questions,
+p249
+aVand took a number of set photographs,
+p250
+aVand interviewed them with audio, and also took pictures.
+p251
+aVI would start by asking people to rate their happiness
+p252
+aVbetween one and 10, which is kind of inherently absurd.
+p253
+aVAnd then when they answered, I would inflate that number of balloons
+p254
+aVand give them that number of balloons to hold.
+p255
+aVSo, you have some really happy person holding 10 balloons,
+p256
+aVand some really sad soul holding one balloon.
+p257
+aVBut you know, even holding one balloon is like, kind of happy.
+p258
+aV(Laughter)
+p259
+aVAnd then I would ask them a number of questions like
+p260
+aVwhat was the happiest day in their life, what makes them happy.
+p261
+aVAnd then finally, I would ask them to make a wish.
+p262
+aVAnd when they made a wish, I would write their wish
+p263
+aVonto one of the balloons and take a picture of them holding it.
+p264
+aVSo I'm going to show you now just a few brief snippets
+p265
+aVof some of the interviews that I did, some of the people I spoke with.
+p266
+aVThis is an 11-year-old student.
+p267
+aVHe was playing cops and robbers with his friends, running around town,
+p268
+aVand they all had plastic toy guns.
+p269
+aVHis wish was to become a police officer.
+p270
+aVHe was getting started early. Those were his hands.
+p271
+aVI took pictures of everybody's hands,
+p272
+aVbecause I think you can often tell a lot about somebody
+p273
+aVfrom how their hands look. I took a portrait of everybody,
+p274
+aVand asked everybody to make a funny face.
+p275
+aVA 17-year-old student. Her wish was to have been born a boy.
+p276
+aVShe thinks that women have a pretty tough go of things in Bhutan,
+p277
+aVand it's a lot easier if you're a boy.
+p278
+aVA 28-year-old cell phone shop owner.
+p279
+aVIf you knew what Paro looked like, you'd understand
+p280
+aVhow amazing it is that there's a cell phone shop there.
+p281
+aVHe wanted to help poor people.
+p282
+aVA 53-year-old farmer. She was chaffing wheat,
+p283
+aVand that pile of wheat behind her
+p284
+aVhad taken her about a week to make.
+p285
+aVShe wanted to keep farming until she dies.
+p286
+aVYou can really start to see the stories told by the hands here.
+p287
+aVShe was wearing this silver ring that had the word "love" engraved on it,
+p288
+aVand she'd found it in the road somewhere.
+p289
+aVA 16-year-old quarry worker.
+p290
+aVThis guy was breaking rocks with a hammer in the hot sunlight,
+p291
+aVbut he just wanted to spend his life as a farmer.
+p292
+aVA 21-year-old monk. He was very happy.
+p293
+aVHe wanted to live a long life at the monastery.
+p294
+aVHe had this amazing series of hairs growing out of a mole on the left side of his face,
+p295
+aVwhich I'm told is very good luck.
+p296
+aVHe was kind of too shy to make a funny face.
+p297
+aVA 16-year-old student.
+p298
+aVShe wanted to become an independent woman.
+p299
+aVI asked her about that, and she said she meant
+p300
+aVthat she doesn't want to be married,
+p301
+aVbecause, in her opinion, when you get married in Bhutan as a woman,
+p302
+aVyour chances to live an independent life kind of end,
+p303
+aVand so she had no interest in that.
+p304
+aVA 24-year-old truck driver.
+p305
+aVThere are these terrifyingly huge Indian trucks
+p306
+aVthat come careening around one-lane roads with two-lane traffic,
+p307
+aVwith 3,000-foot drop-offs right next to the road,
+p308
+aVand he was driving one of these trucks.
+p309
+aVBut all he wanted was to just live a comfortable life, like other people.
+p310
+aVA 24-year-old road sweeper. I caught her on her lunch break.
+p311
+aVShe'd built a little fire to keep warm, right next to the road.
+p312
+aVHer wish was to marry someone with a car.
+p313
+aVShe wanted a change in her life.
+p314
+aVShe lives in a little worker's camp right next to the road,
+p315
+aVand she wanted a different lot on things.
+p316
+aVAn 81-year-old itinerant farmer.
+p317
+aVI saw this guy on the side of the road,
+p318
+aVand he actually doesn't have a home.
+p319
+aVHe travels from farm to farm each day trying to find work,
+p320
+aVand then he tries to sleep at whatever farm he gets work at.
+p321
+aVSo his wish was to come with me, so that he had somewhere to live.
+p322
+aVHe had this amazing knife that he pulled out of his gho
+p323
+aVand started brandishing when I asked him to make a funny face.
+p324
+aVIt was all good-natured.
+p325
+aVA 10-year-old.
+p326
+aVHe wanted to join a school and learn to read,
+p327
+aVbut his parents didn't have enough money to send him to school.
+p328
+aVHe was eating this orange, sugary candy
+p329
+aVthat he kept dipping his fingers into,
+p330
+aVand since there was so much saliva on his hands,
+p331
+aVthis orange paste started to form on his palms.
+p332
+aV(Laughter)
+p333
+aVA 37-year-old road worker.
+p334
+aVOne of the more touchy political subjects in Bhutan
+p335
+aVis the use of Indian cheap labor
+p336
+aVthat they import from India to build the roads,
+p337
+aVand then they send these people home once the roads are built.
+p338
+aVSo these guys were in a worker's gang
+p339
+aVmixing up asphalt one morning on the side of the highway.
+p340
+aVHis wish was to make some money and open a store.
+p341
+aVA 75-year-old farmer. She was selling oranges on the side of the road.
+p342
+aVI asked her about her wish, and she said,
+p343
+aV"You know, maybe I'll live, maybe I'll die, but I don't have a wish."
+p344
+aVShe was chewing betel nut, which caused her teeth
+p345
+aVover the years to turn very red.
+p346
+aVFinally, this is a 26-year-old nun I spoke to.
+p347
+aVHer wish was to make a pilgrimage to Tibet.
+p348
+aVI asked her how long she planned to live in the nunnery and she said,
+p349
+aV"Well, you know, of course, it's impermanent,
+p350
+aVbut my plan is to live here until I'm 30, and then enter a hermitage."
+p351
+aVAnd I said, "You mean, like a cave?" And she said, "Yeah, like a cave."
+p352
+aVAnd I said, "Wow, and how long will you live in the cave?"
+p353
+aVAnd she said, "Well, you know,
+p354
+aVI think I'd kind of like to live my whole life in the cave."
+p355
+aVI just thought that was amazing. I mean, she spoke in a way \u2014
+p356
+aVwith amazing English, and amazing humor, and amazing laughter \u2014
+p357
+aVthat made her seem like somebody I could have bumped into
+p358
+aVon the streets of New York, or in Vermont, where I'm from.
+p359
+aVBut here she had been living in a nunnery for the last seven years.
+p360
+aVI asked her a little bit more about the cave
+p361
+aVand what she planned would happen once she went there, you know.
+p362
+aVWhat if she saw the truth after just one year,
+p363
+aVwhat would she do for the next 35 years in her life?
+p364
+aVAnd this is what she said.
+p365
+aVWoman: I think I'm going to stay for 35. Maybe \u2014 maybe I'll die.
+p366
+aVJonathan Harris: Maybe you'll die? Woman: Yes.
+p367
+aVJH: 10 years? Woman: Yes, yes. JH: 10 years, that's a long time.
+p368
+aVWoman: Yes, not maybe one, 10 years, maybe I can die
+p369
+aVwithin one year, or something like that.
+p370
+aVJH: Are you hoping to?
+p371
+aVWoman: Ah, because you know, it's impermanent.
+p372
+aVJH: Yeah, but \u2014 yeah, OK. Do you hope \u2014
+p373
+aVwould you prefer to live in the cave for 40 years,
+p374
+aVor to live for one year?
+p375
+aVWoman: But I prefer for maybe 40 to 50.
+p376
+aVJH: 40 to 50? Yeah.
+p377
+aVWoman: Yes. From then, I'm going to the heaven.
+p378
+aVJH: Well, I wish you the best of luck with it.
+p379
+aVWoman: Thank you.
+p380
+aVJH: I hope it's everything that you hope it will be.
+p381
+aVSo thank you again, so much.
+p382
+aVWoman: You're most welcome.
+p383
+aVJH: So if you caught that, she said she hoped to die
+p384
+aVwhen she was around 40. That was enough life for her.
+p385
+aVSo, the last thing we did, very quickly,
+p386
+aVis I took all those wish balloons \u2014 there were 117 interviews,
+p387
+aV117 wishes \u2014 and I brought them up to a place called Dochula,
+p388
+aVwhich is a mountain pass in Bhutan, at 10,300 feet,
+p389
+aVone of the more sacred places in Bhutan.
+p390
+aVAnd up there, there are thousands of prayer flags
+p391
+aVthat people have spread out over the years.
+p392
+aVAnd we re-inflated all of the balloons, put them up on a string,
+p393
+aVand hung them up there among the prayer flags.
+p394
+aVAnd they're actually still flying up there today.
+p395
+aVSo if any of you have any Bhutan travel plans in the near future,
+p396
+aVyou can go check these out. Here are some images from that.
+p397
+aVWe said a Buddhist prayer so that all these wishes could come true.
+p398
+aVYou can start to see some familiar balloons here.
+p399
+aV"To make some money and to open a store" was the Indian road worker.
+p400
+aVThanks very much.
+p401
+aV(Applause)
+p402
+aasS'transcript_micsec'
+p403
+(lp404
+I11000
+asS'talk_meta'
+p405
+(dp406
+S'ratings'
+p407
+(dp408
+S'beautiful'
+p409
+I321
+sS'ingenious'
+p410
+I146
+sS'inspiring'
+p411
+I336
+sS'ok'
+p412
+I39
+sS'fascinating'
+p413
+I260
+sS'funny'
+p414
+I21
+sS'total_count'
+p415
+I1357
+sS'persuasive'
+p416
+I9
+sS'longwinded'
+p417
+I24
+sS'unconvincing'
+p418
+I21
+sS'informative'
+p419
+I55
+sS'jaw-dropping'
+p420
+I55
+sS'obnoxious'
+p421
+I15
+sS'courageous'
+p422
+I47
+sS'confusing'
+p423
+I8
+ssS'author'
+p424
+VJonathan_Harris;
+p425
+sS'url'
+p426
+S'https://www.ted.com/talks/jonathan_harris_collects_stories'
+p427
+sS'vidlen'
+p428
+I1229
+sS'totalviews'
+p429
+I857318
+sS'title'
+p430
+VThe web as art
+p431
+sS'downloadlink'
+p432
+Vhttps://download.ted.com/talks/JonathanHarris_2007P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p433
+sS'datepublished'
+p434
+cdatetime
+datetime
+p435
+(S'\x07\xd8\x07\x18\x02\x00\x00\x00\x00\x00'
+tRp436
+sS'datefilmed'
+p437
+g435
+(S'\x07\xd8\x07\x18\x02\x00\x00\x00\x00\x00'
+tRp438
+sS'alldata_JSON'
+p439
+S'{"viewed_count": 857318, "speakers": [{"description": "Artist, storyteller, Internet anthropologist", "firstname": "Jonathan", "title": "", "lastname": "Harris", "middleinitial": "", "whylisten": "<p>Brooklyn-based artist <a href=\\"http://www.number27.org/\\" target=\\"_blank\\">Jonathan Harris</a>&#39; work celebrates the world&#39;s diversity even as it illustrates the universal concerns of its occupants. His computer programs <strong>scour the Internet for unfiltered content</strong>, which his beautiful interfaces then organize to create coherence from the chaos. <br /><br />His projects are both intensely personal (the &quot;<a href=\\"http://www.wefeelfine.org/\\" target=\\"_blank\\">We Feel Fine</a>&quot; project, made with <a href=\\"http://www.stanford.edu/~sdkamvar/\\" target=\\"_blank\\">Sep Kanvar</a>, which scans the world&#39;s blogs to collect snapshots of the writers&#39; feelings) and entirely global (the new &quot;<a href=\\"http://universe.daylife.com/\\" target=\\"_blank\\">Universe</a>,&quot; which turns current events into <strong>constellations of words</strong>). But their effect is the same -- to show off <strong>a world that resonates with shared emotions, concerns, problems, triumphs and troubles</strong>. </p>", "slug": "jonathan_harris", "whotheyare": "Artist and computer scientist Jonathan Harris makes online art that captures the world\'s expression -- and gives us a glimpse of the soul of the Internet.", "whatotherssay": "Jonathan Harris [is] a New York artist and storyteller working primarily on the Internet. His work involves the exploration and understanding of humans, on a global scale, through the artifacts they leave behind on the Web.", "id": 125, "photo_url": "https://pe.tedcdn.com/images/ted/12752_254x191.jpg"}], "current_talk": 316, "description": "At the EG conference in December 2007, artist Jonathan Harris discusses his latest projects, which involve collecting stories: his own, strangers\', and stories collected from the Internet, including his amazing \\"We Feel Fine.\\"", "language": "en", "url": "https://www.ted.com/talks/jonathan_harris_collects_stories", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 142723284}, "podcast-low-en": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 28013687}, "podcast-high": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 143212863}, "180k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 27797408}, "64k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10009483}, "1500k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 224796379}, "450k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69085218}, "podcast-regular": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 69685929}, "950k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 142547345}, "podcast-light": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 10484113}, "320k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 49142259}, "600k": {"uri": "https://download.ted.com/talks/JonathanHarris_2007P-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 92117803}}}, "comments": {"count": 79, "id": 276, "talk_id": 316}, "slug": "jonathan_harris_collects_stories", "threadId": 276, "talks": [{"event": "TED2007", "player_talks": [{"event": "TED2007", "slug": "jonathan_harris_collects_stories", "filmed": 1197417600, "targeting": {"event": "TED2007", "tag": "art,culture,entertainment,global issues,happiness,software,storytelling,web", "id": 316, "talk": "jonathan_harris_collects_stories", "year": "2007"}, "adDuration": "3.33", "external": null, "title": "The web as art", "postAdDuration": "0.83", "published": 1216879200, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/48285_480x360.jpg?quality=89&w=600", "name": "Jonathan Harris: The web as art", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["art", "culture", "entertainment", "global issues", "happiness", "software", "storytelling", "web"], "speaker": "Jonathan Harris", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1229, "id": 316, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/JonathanHarris_2007P-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2007", "tag": "art,culture,entertainment,global issues,happiness,software,storytelling,web", "id": 316, "talk": "jonathan_harris_collects_stories", "year": "2007"}, "metadata": "https://hls.ted.com/talks/316.json", "stream": "https://hls.ted.com/talks/316.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2007%26id%3D316%26tag%3Dart%2Cculture%2Centertainment%2Cglobal%2Bissues%2Chappiness%2Csoftware%2Cstorytelling%2Cweb%26talk%3Djonathan_harris_collects_stories%26year%3D2007&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/jonathan_harris_collects_stories"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/48285_480x360.jpg?q=50&w=15", "duration": 1229, "id": 316, "ratings": [{"count": 260, "id": 22, "name": "Fascinating"}, {"count": 321, "id": 1, "name": "Beautiful"}, {"count": 146, "id": 9, "name": "Ingenious"}, {"count": 336, "id": 10, "name": "Inspiring"}, {"count": 47, "id": 3, "name": "Courageous"}, {"count": 55, "id": 23, "name": "Jaw-dropping"}, {"count": 55, "id": 8, "name": "Informative"}, {"count": 8, "id": 2, "name": "Confusing"}, {"count": 39, "id": 25, "name": "OK"}, {"count": 21, "id": 7, "name": "Funny"}, {"count": 15, "id": 26, "name": "Obnoxious"}, {"count": 21, "id": 21, "name": "Unconvincing"}, {"count": 24, "id": 11, "name": "Longwinded"}, {"count": 9, "id": 24, "name": "Persuasive"}], "speakers": [{"description": "Artist, storyteller, Internet anthropologist", "firstname": "Jonathan", "title": "", "lastname": "Harris", "middleinitial": "", "whylisten": "<p>Brooklyn-based artist <a href=\\"http://www.number27.org/\\" target=\\"_blank\\">Jonathan Harris</a>&#39; work celebrates the world&#39;s diversity even as it illustrates the universal concerns of its occupants. His computer programs <strong>scour the Internet for unfiltered content</strong>, which his beautiful interfaces then organize to create coherence from the chaos. <br /><br />His projects are both intensely personal (the &quot;<a href=\\"http://www.wefeelfine.org/\\" target=\\"_blank\\">We Feel Fine</a>&quot; project, made with <a href=\\"http://www.stanford.edu/~sdkamvar/\\" target=\\"_blank\\">Sep Kanvar</a>, which scans the world&#39;s blogs to collect snapshots of the writers&#39; feelings) and entirely global (the new &quot;<a href=\\"http://universe.daylife.com/\\" target=\\"_blank\\">Universe</a>,&quot; which turns current events into <strong>constellations of words</strong>). But their effect is the same -- to show off <strong>a world that resonates with shared emotions, concerns, problems, triumphs and troubles</strong>. </p>", "slug": "jonathan_harris", "whotheyare": "Artist and computer scientist Jonathan Harris makes online art that captures the world\'s expression -- and gives us a glimpse of the soul of the Internet.", "whatotherssay": "Jonathan Harris [is] a New York artist and storyteller working primarily on the Internet. His work involves the exploration and understanding of humans, on a global scale, through the artifacts they leave behind on the Web.", "id": 125, "photo_url": "https://pe.tedcdn.com/images/ted/12752_254x191.jpg"}], "title": "The web as art", "take_action": null, "comments": 276, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/48285_480x360.jpg", "description": "At the EG conference in December 2007, artist Jonathan Harris discusses his latest projects, which involve collecting stories: his own, strangers\', and stories collected from the Internet, including his amazing \\"We Feel Fine.\\"", "tags": ["art", "culture", "entertainment", "global issues", "happiness", "software", "storytelling", "web"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "hr", "endonym": "Hrvatski", "isRtl": false, "ianaCode": "hr", "languageName": "Croatian"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-tr.mp4"}, "ro": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-bg.mp4"}, "hr": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-hr.mp4", "name": "Croatian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-hr.mp4"}, "de": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-hu.mp4"}, "ja": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/JonathanHarris_2007P-low-ko.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/JonathanHarris_2007P-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/JonathanHarris_2007P.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/JonathanHarris_2007P-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 316, "audioDownload": null}, "related_talks": [{"viewed_count": 1054555, "hero": "https://pe.tedcdn.com/images/ted/12753_480x360.jpg", "title": "The Web\'s secret stories", "id": 144, "speaker": "Jonathan Harris", "duration": 1030, "slug": "jonathan_harris_tells_the_web_s_secret_stories"}, {"viewed_count": 3998699, "hero": "https://pe.tedcdn.com/images/ted/46a98f6d94683e2bd773aaaa528f8a6c49dea91f_1600x1200.jpg", "title": "My creations, a new form of life", "id": 162, "speaker": "Theo Jansen", "duration": 493, "slug": "theo_jansen_creates_new_creatures"}, {"viewed_count": 607920, "hero": "https://pe.tedcdn.com/images/ted/cf42ee3e183408cbbd6aaa5e824e605251ad91dc_2880x1620.jpg", "title": "Software (as) art", "id": 14, "speaker": "Golan Levin", "duration": 893, "slug": "golan_levin_on_software_as_art"}, {"viewed_count": 1272686, "hero": "https://pe.tedcdn.com/images/ted/76787f13cc007d8b8e302d0e9a135b226aaaee6a_2880x1620.jpg", "title": "Why you should care about whale poo", "id": 2160, "speaker": "Asha de Vos", "duration": 345, "slug": "asha_de_vos_why_you_should_care_about_whale_poo"}, {"viewed_count": 1635624, "hero": "https://pe.tedcdn.com/images/ted/f37e03be6a2ceb8f046a1a29bbf42e39813f02fc_2400x1800.jpg", "title": "Why a good book is a secret door", "id": 2091, "speaker": "Mac Barnett", "duration": 1019, "slug": "mac_barnett_why_a_good_book_is_a_secret_door"}, {"viewed_count": 2324395, "hero": "https://pe.tedcdn.com/images/ted/08344ca0095fc29446074c240669e6d58b57b320_2880x1620.jpg", "title": "The unexpected benefit of celebrating failure", "id": 2460, "speaker": "Astro Teller", "duration": 932, "slug": "astro_teller_the_unexpected_benefit_of_celebrating_failure"}], "recorded_at": "2007-12-12T00:00:00.000+00:00", "slug": "jonathan_harris_collects_stories", "speaker_name": "Jonathan Harris", "viewed_count": 857318, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2007", "name": "Jonathan Harris: The web as art"}'
+p440
+sS'keywords'
+p441
+(lp442
+Vart
+p443
+aVculture
+p444
+aVentertainment
+p445
+aVglobal issues
+p446
+aVhappiness
+p447
+aVsoftware
+p448
+aVstorytelling
+p449
+aVweb
+p450
+asS'datecrawled'
+p451
+g435
+(S'\x07\xe1\n\x17\x00(\x1d\t\xc2\xe8'
+tRp452
+sS'id'
+p453
+I316
+ss.

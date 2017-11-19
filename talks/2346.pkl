@@ -1,0 +1,662 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VIn my lab, we build autonomous aerial robots
+p5
+aVlike the one you see flying here.
+p6
+aVUnlike the commercially available drones that you can buy today,
+p7
+aVthis robot doesn't have any GPS on board.
+p8
+aVSo without GPS,
+p9
+aVit's hard for robots like this to determine their position.
+p10
+aVThis robot uses onboard sensors, cameras and laser scanners,
+p11
+aVto scan the environment.
+p12
+aVIt detects features from the environment,
+p13
+aVand it determines where it is relative to those features,
+p14
+aVusing a method of triangulation.
+p15
+aVAnd then it can assemble all these features into a map,
+p16
+aVlike you see behind me.
+p17
+aVAnd this map then allows the robot to understand where the obstacles are
+p18
+aVand navigate in a collision-free manner.
+p19
+aa(lp20
+VWhat I want to show you next
+p21
+aVis a set of experiments we did inside our laboratory,
+p22
+aVwhere this robot was able to go for longer distances.
+p23
+aVSo here you'll see, on the top right, what the robot sees with the camera.
+p24
+aVAnd on the main screen \u2014
+p25
+aVand of course this is sped up by a factor of four \u2014
+p26
+aVon the main screen you'll see the map that it's building.
+p27
+aVSo this is a high-resolution map of the corridor around our laboratory.
+p28
+aVAnd in a minute you'll see it enter our lab,
+p29
+aVwhich is recognizable by the clutter that you see.
+p30
+aa(lp31
+V(Laughter)
+p32
+aa(lp33
+VBut the main point I want to convey to you
+p34
+aVis that these robots are capable of building high-resolution maps
+p35
+aVat five centimeters resolution,
+p36
+aVallowing somebody who is outside the lab, or outside the building
+p37
+aVto deploy these without actually going inside,
+p38
+aVand trying to infer what happens inside the building.
+p39
+aa(lp40
+VNow there's one problem with robots like this.
+p41
+aVThe first problem is it's pretty big.
+p42
+aVBecause it's big, it's heavy.
+p43
+aVAnd these robots consume about 100 watts per pound.
+p44
+aVAnd this makes for a very short mission life.
+p45
+aVThe second problem
+p46
+aVis that these robots have onboard sensors that end up being very expensive \u2014
+p47
+aVa laser scanner, a camera and the processors.
+p48
+aVThat drives up the cost of this robot.
+p49
+aa(lp50
+VSo we asked ourselves a question:
+p51
+aVwhat consumer product can you buy in an electronics store
+p52
+aVthat is inexpensive, that's lightweight, that has sensing onboard and computation?
+p53
+aVAnd we invented the flying phone.
+p54
+aa(lp55
+V(Laughter)
+p56
+aa(lp57
+VSo this robot uses a Samsung Galaxy smartphone that you can buy off the shelf,
+p58
+aVand all you need is an app that you can download from our app store.
+p59
+aVAnd you can see this robot reading the letters, "TED" in this case,
+p60
+aVlooking at the corners of the "T" and the "E"
+p61
+aVand then triangulating off of that, flying autonomously.
+p62
+aVThat joystick is just there to make sure if the robot goes crazy,
+p63
+aVGiuseppe can kill it.
+p64
+aa(lp65
+V(Laughter)
+p66
+aa(lp67
+VIn addition to building these small robots,
+p68
+aVwe also experiment with aggressive behaviors, like you see here.
+p69
+aVSo this robot is now traveling at two to three meters per second,
+p70
+aVpitching and rolling aggressively as it changes direction.
+p71
+aVThe main point is we can have smaller robots that can go faster
+p72
+aVand then travel in these very unstructured environments.
+p73
+aa(lp74
+VAnd in this next video,
+p75
+aVjust like you see this bird, an eagle, gracefully coordinating its wings,
+p76
+aVits eyes and feet to grab prey out of the water,
+p77
+aVour robot can go fishing, too.
+p78
+aa(lp79
+V(Laughter)
+p80
+aa(lp81
+VIn this case, this is a Philly cheesesteak hoagie that it's grabbing out of thin air.
+p82
+aa(lp83
+V(Laughter)
+p84
+aa(lp85
+VSo you can see this robot going at about three meters per second,
+p86
+aVwhich is faster than walking speed, coordinating its arms, its claws
+p87
+aVand its flight with split-second timing to achieve this maneuver.
+p88
+aVIn another experiment,
+p89
+aVI want to show you how the robot adapts its flight
+p90
+aVto control its suspended payload,
+p91
+aVwhose length is actually larger than the width of the window.
+p92
+aVSo in order to accomplish this,
+p93
+aVit actually has to pitch and adjust the altitude
+p94
+aVand swing the payload through.
+p95
+aVBut of course we want to make these even smaller,
+p96
+aVand we're inspired in particular by honeybees.
+p97
+aVSo if you look at honeybees, and this is a slowed down video,
+p98
+aVthey're so small, the inertia is so lightweight \u2014
+p99
+aa(lp100
+V(Laughter)
+p101
+aa(lp102
+Vthat they don't care \u2014 they bounce off my hand, for example.
+p103
+aVThis is a little robot that mimics the honeybee behavior.
+p104
+aVAnd smaller is better,
+p105
+aVbecause along with the small size you get lower inertia.
+p106
+aVAlong with lower inertia \u2014
+p107
+aa(lp108
+V(Robot buzzing, laughter)
+p109
+aa(lp110
+Valong with lower inertia, you're resistant to collisions.
+p111
+aVAnd that makes you more robust.
+p112
+aVSo just like these honeybees, we build small robots.
+p113
+aVAnd this particular one is only 25 grams in weight.
+p114
+aVIt consumes only six watts of power.
+p115
+aVAnd it can travel up to six meters per second.
+p116
+aVSo if I normalize that to its size,
+p117
+aVit's like a Boeing 787 traveling ten times the speed of sound.
+p118
+aa(lp119
+V(Laughter)
+p120
+aa(lp121
+VAnd I want to show you an example.
+p122
+aVThis is probably the first planned mid-air collision, at one-twentieth normal speed.
+p123
+aVThese are going at a relative speed of two meters per second,
+p124
+aVand this illustrates the basic principle.
+p125
+aVThe two-gram carbon fiber cage around it prevents the propellers from entangling,
+p126
+aVbut essentially the collision is absorbed and the robot responds to the collisions.
+p127
+aVAnd so small also means safe.
+p128
+aVIn my lab, as we developed these robots,
+p129
+aVwe start off with these big robots
+p130
+aVand then now we're down to these small robots.
+p131
+aVAnd if you plot a histogram of the number of Band-Aids we've ordered
+p132
+aVin the past, that sort of tailed off now.
+p133
+aVBecause these robots are really safe.
+p134
+aa(lp135
+VThe small size has some disadvantages,
+p136
+aVand nature has found a number of ways to compensate for these disadvantages.
+p137
+aVThe basic idea is they aggregate to form large groups, or swarms.
+p138
+aVSo, similarly, in our lab, we try to create artificial robot swarms.
+p139
+aVAnd this is quite challenging
+p140
+aVbecause now you have to think about networks of robots.
+p141
+aVAnd within each robot,
+p142
+aVyou have to think about the interplay of sensing, communication, computation \u2014
+p143
+aVand this network then becomes quite difficult to control and manage.
+p144
+aVSo from nature we take away three organizing principles
+p145
+aVthat essentially allow us to develop our algorithms.
+p146
+aVThe first idea is that robots need to be aware of their neighbors.
+p147
+aVThey need to be able to sense and communicate with their neighbors.
+p148
+aa(lp149
+VSo this video illustrates the basic idea.
+p150
+aVYou have four robots \u2014
+p151
+aVone of the robots has actually been hijacked by a human operator, literally.
+p152
+aVBut because the robots interact with each other,
+p153
+aVthey sense their neighbors,
+p154
+aVthey essentially follow.
+p155
+aVAnd here there's a single person able to lead this network of followers.
+p156
+aVSo again, it's not because all the robots know where they're supposed to go.
+p157
+aVIt's because they're just reacting to the positions of their neighbors.
+p158
+aa(lp159
+V(Laughter)
+p160
+aa(lp161
+VSo the next experiment illustrates the second organizing principle.
+p162
+aVAnd this principle has to do with the principle of anonymity.
+p163
+aVHere the key idea is that
+p164
+aVthe robots are agnostic to the identities of their neighbors.
+p165
+aVThey're asked to form a circular shape,
+p166
+aVand no matter how many robots you introduce into the formation,
+p167
+aVor how many robots you pull out,
+p168
+aVeach robot is simply reacting to its neighbor.
+p169
+aVIt's aware of the fact that it needs to form the circular shape,
+p170
+aVbut collaborating with its neighbors
+p171
+aVit forms the shape without central coordination.
+p172
+aVNow if you put these ideas together,
+p173
+aVthe third idea is that we essentially give these robots
+p174
+aVmathematical descriptions of the shape they need to execute.
+p175
+aVAnd these shapes can be varying as a function of time,
+p176
+aVand you'll see these robots start from a circular formation,
+p177
+aVchange into a rectangular formation, stretch into a straight line,
+p178
+aVback into an ellipse.
+p179
+aVAnd they do this with the same kind of split-second coordination
+p180
+aVthat you see in natural swarms, in nature.
+p181
+aa(lp182
+VSo why work with swarms?
+p183
+aVLet me tell you about two applications that we are very interested in.
+p184
+aVThe first one has to do with agriculture,
+p185
+aVwhich is probably the biggest problem that we're facing worldwide.
+p186
+aVAs you well know,
+p187
+aVone in every seven persons in this earth is malnourished.
+p188
+aVMost of the land that we can cultivate has already been cultivated.
+p189
+aVAnd the efficiency of most systems in the world is improving,
+p190
+aVbut our production system efficiency is actually declining.
+p191
+aVAnd that's mostly because of water shortage, crop diseases, climate change
+p192
+aVand a couple of other things.
+p193
+aa(lp194
+VSo what can robots do?
+p195
+aVWell, we adopt an approach that's called Precision Farming in the community.
+p196
+aVAnd the basic idea is that we fly aerial robots through orchards,
+p197
+aVand then we build precision models of individual plants.
+p198
+aVSo just like personalized medicine,
+p199
+aVwhile you might imagine wanting to treat every patient individually,
+p200
+aVwhat we'd like to do is build models of individual plants
+p201
+aVand then tell the farmer what kind of inputs every plant needs \u2014
+p202
+aVthe inputs in this case being water, fertilizer and pesticide.
+p203
+aVHere you'll see robots traveling through an apple orchard,
+p204
+aVand in a minute you'll see two of its companions
+p205
+aVdoing the same thing on the left side.
+p206
+aVAnd what they're doing is essentially building a map of the orchard.
+p207
+aVWithin the map is a map of every plant in this orchard.
+p208
+aa(lp209
+V(Robot buzzing)
+p210
+aa(lp211
+VLet's see what those maps look like.
+p212
+aVIn the next video, you'll see the cameras that are being used on this robot.
+p213
+aVOn the top-left is essentially a standard color camera.
+p214
+aVOn the left-center is an infrared camera.
+p215
+aVAnd on the bottom-left is a thermal camera.
+p216
+aVAnd on the main panel, you're seeing a three-dimensional reconstruction
+p217
+aVof every tree in the orchard as the sensors fly right past the trees.
+p218
+aVArmed with information like this, we can do several things.
+p219
+aVThe first and possibly the most important thing we can do is very simple:
+p220
+aVcount the number of fruits on every tree.
+p221
+aVBy doing this, you tell the farmer how many fruits she has in every tree
+p222
+aVand allow her to estimate the yield in the orchard,
+p223
+aVoptimizing the production chain downstream.
+p224
+aa(lp225
+VThe second thing we can do
+p226
+aVis take models of plants, construct three-dimensional reconstructions,
+p227
+aVand from that estimate the canopy size,
+p228
+aVand then correlate the canopy size to the amount of leaf area on every plant.
+p229
+aVAnd this is called the leaf area index.
+p230
+aVSo if you know this leaf area index,
+p231
+aVyou essentially have a measure of how much photosynthesis is possible in every plant,
+p232
+aVwhich again tells you how healthy each plant is.
+p233
+aVBy combining visual and infrared information,
+p234
+aVwe can also compute indices such as NDVI.
+p235
+aVAnd in this particular case, you can essentially see
+p236
+aVthere are some crops that are not doing as well as other crops.
+p237
+aVThis is easily discernible from imagery,
+p238
+aVnot just visual imagery but combining
+p239
+aVboth visual imagery and infrared imagery.
+p240
+aa(lp241
+VAnd then lastly,
+p242
+aVone thing we're interested in doing is detecting the early onset of chlorosis \u2014
+p243
+aVand this is an orange tree \u2014
+p244
+aVwhich is essentially seen by yellowing of leaves.
+p245
+aVBut robots flying overhead can easily spot this autonomously
+p246
+aVand then report to the farmer that he or she has a problem
+p247
+aVin this section of the orchard.
+p248
+aa(lp249
+VSystems like this can really help,
+p250
+aVand we're projecting yields that can improve by about ten percent
+p251
+aVand, more importantly, decrease the amount of inputs such as water
+p252
+aVby 25 percent by using aerial robot swarms.
+p253
+aa(lp254
+VLastly, I want you to applaud the people who actually create the future,
+p255
+aVYash Mulgaonkar, Sikang Liu and Giuseppe Loianno,
+p256
+aVwho are responsible for the three demonstrations that you saw.
+p257
+aa(lp258
+VThank you.
+p259
+aa(lp260
+V(Applause)
+p261
+aasS'transcript_micsec'
+p262
+(lp263
+I12000
+aI60000
+aI90000
+aI91000
+aI111000
+aI140000
+aI157000
+aI159000
+aI186000
+aI189000
+aI216000
+aI230000
+aI231000
+aI235000
+aI238000
+aI290000
+aI292000
+aI305000
+aI308000
+aI335000
+aI337000
+aI379000
+aI429000
+aI462000
+aI467000
+aI542000
+aI578000
+aI628000
+aI630000
+aI682000
+aI731000
+aI749000
+aI766000
+aI780000
+aI781000
+asS'talk_meta'
+p264
+(dp265
+S'ratings'
+p266
+(dp267
+S'beautiful'
+p268
+I147
+sS'ingenious'
+p269
+I151
+sS'inspiring'
+p270
+I244
+sS'ok'
+p271
+I67
+sS'fascinating'
+p272
+I245
+sS'funny'
+p273
+I43
+sS'total_count'
+p274
+I1253
+sS'persuasive'
+p275
+I16
+sS'longwinded'
+p276
+I4
+sS'informative'
+p277
+I268
+sS'jaw-dropping'
+p278
+I46
+sS'obnoxious'
+p279
+I4
+sS'confusing'
+p280
+I3
+sS'courageous'
+p281
+I7
+sS'unconvincing'
+p282
+I8
+ssS'author'
+p283
+VVijay_Kumar;
+p284
+sS'url'
+p285
+S'https://www.ted.com/talks/vijay_kumar_the_future_of_flying_robots'
+p286
+sS'vidlen'
+p287
+I789
+sS'totalviews'
+p288
+I1368451
+sS'title'
+p289
+VThe future of flying robots
+p290
+sS'downloadlink'
+p291
+Vhttps://download.ted.com/talks/VijayKumar_2015X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p292
+sS'datepublished'
+p293
+cdatetime
+datetime
+p294
+(S'\x07\xdf\n\r\x0b#\x01\x00\x00\x00'
+tRp295
+sS'datefilmed'
+p296
+g294
+(S'\x07\xdf\n\r\x0b#\x01\x00\x00\x00'
+tRp297
+sS'alldata_JSON'
+p298
+S'{"viewed_count": 1368451, "speakers": [{"description": "Roboticist", "firstname": "Vijay", "title": "", "lastname": "Kumar", "middleinitial": "", "whylisten": "<p>At the General Robotics, Automation, Sensing and Perception (GRASP) Lab at the University of Pennsylvania, flying quadrotor robots move together in eerie formation, tightening themselves into perfect battalions, even filling in the gap when one of their own drops out. You might have seen viral videos of the quads zipping around the netting-draped GRASP Lab (they juggle! they fly through a hula hoop!). Vijay Kumar headed this lab from 1998-2004. He&#39;s now the dean of the School of Engineering and Applied Science at the University of Pennsylvania in Philadelphia, where he continues his work in robotics, blending computer science and mechanical engineering to create the next generation of robotic wonders.</p>", "slug": "vijay_kumar", "whotheyare": "As the dean of the University of Pennsylvania\'s School of Engineering and Applied Science, Vijay Kumar studies the control and coordination of multi-robot formations.", "whatotherssay": "", "id": 1248, "photo_url": "https://pe.tedcdn.com/images/ted/1c6de67b5b0f5e92f3a5c8d03d48705eee13a6a1_254x191.jpg"}], "current_talk": 2346, "description": "At his lab at the University of Pennsylvania, Vijay Kumar and his team have created autonomous aerial robots inspired by honeybees. Their latest breakthrough: Precision Farming, in which swarms of robots map, reconstruct and analyze every plant and piece of fruit in an orchard, providing vital information to farmers that can help improve yields and make water management smarter.", "language": "en", "url": "https://www.ted.com/talks/vijay_kumar_the_future_of_flying_robots", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94505934}, "podcast-low-en": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18239468}, "podcast-high": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 110907455}, "180k": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 18009236}, "64k": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 6504018}, "1500k": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 146134603}, "450k": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44825090}, "podcast-regular": {"uri": "https://download.ted.com/talks/VijayKumar_2015X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 61648743}, "950k": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 94529999}, "podcast-light": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23050903}, "320k": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 31872119}, "600k": {"uri": "https://download.ted.com/talks/VijayKumar_2015X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 59787429}}}, "comments": {"count": 38, "id": 26966, "talk_id": 2346}, "slug": "vijay_kumar_the_future_of_flying_robots", "threadId": 26966, "talks": [{"event": "TEDxPenn", "player_talks": [{"event": "TEDxPenn", "slug": "vijay_kumar_the_future_of_flying_robots", "filmed": 1428796800, "targeting": {"event": "TEDxPenn", "tag": "TEDx,agriculture,bees,biomimicry,computers,demo,design,drones,engineering,farming,flight,garden,innovation,insects,machine learning,plants,robots,science,technology", "id": 2346, "talk": "vijay_kumar_the_future_of_flying_robots", "year": "2015"}, "adDuration": "3.33", "external": null, "title": "The future of flying robots", "postAdDuration": "0.83", "published": 1444750501, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/87f82eddb91d2c806ebb11465d846c47f481902c_2880x1620.jpg?quality=89&w=600", "name": "Vijay Kumar: The future of flying robots", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "agriculture", "bees", "biomimicry", "computers", "demo", "design", "drones", "engineering", "farming", "flight", "garden", "innovation", "insects", "machine learning", "plants", "robots", "science", "technology"], "speaker": "Vijay Kumar", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 789, "id": 2346, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/VijayKumar_2015X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxPenn", "tag": "TEDx,agriculture,bees,biomimicry,computers,demo,design,drones,engineering,farming,flight,garden,innovation,insects,machine learning,plants,robots,science,technology", "id": 2346, "talk": "vijay_kumar_the_future_of_flying_robots", "year": "2015"}, "metadata": "https://hls.ted.com/talks/2346.json", "stream": "https://hls.ted.com/talks/2346.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxPenn%26id%3D2346%26tag%3DTEDx%2Cagriculture%2Cbees%2Cbiomimicry%2Ccomputers%2Cdemo%2Cdesign%2Cdrones%2Cengineering%2Cfarming%2Cflight%2Cgarden%2Cinnovation%2Cinsects%2Cmachine%2Blearning%2Cplants%2Crobots%2Cscience%2Ctechnology%26talk%3Dvijay_kumar_the_future_of_flying_robots%26year%3D2015&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/vijay_kumar_the_future_of_flying_robots"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/87f82eddb91d2c806ebb11465d846c47f481902c_2880x1620.jpg?q=50&w=15", "duration": 789, "id": 2346, "ratings": [{"count": 147, "id": 1, "name": "Beautiful"}, {"count": 268, "id": 8, "name": "Informative"}, {"count": 244, "id": 10, "name": "Inspiring"}, {"count": 245, "id": 22, "name": "Fascinating"}, {"count": 67, "id": 25, "name": "OK"}, {"count": 151, "id": 9, "name": "Ingenious"}, {"count": 46, "id": 23, "name": "Jaw-dropping"}, {"count": 16, "id": 24, "name": "Persuasive"}, {"count": 43, "id": 7, "name": "Funny"}, {"count": 4, "id": 26, "name": "Obnoxious"}, {"count": 7, "id": 3, "name": "Courageous"}, {"count": 4, "id": 11, "name": "Longwinded"}, {"count": 8, "id": 21, "name": "Unconvincing"}, {"count": 3, "id": 2, "name": "Confusing"}], "speakers": [{"description": "Roboticist", "firstname": "Vijay", "title": "", "lastname": "Kumar", "middleinitial": "", "whylisten": "<p>At the General Robotics, Automation, Sensing and Perception (GRASP) Lab at the University of Pennsylvania, flying quadrotor robots move together in eerie formation, tightening themselves into perfect battalions, even filling in the gap when one of their own drops out. You might have seen viral videos of the quads zipping around the netting-draped GRASP Lab (they juggle! they fly through a hula hoop!). Vijay Kumar headed this lab from 1998-2004. He&#39;s now the dean of the School of Engineering and Applied Science at the University of Pennsylvania in Philadelphia, where he continues his work in robotics, blending computer science and mechanical engineering to create the next generation of robotic wonders.</p>", "slug": "vijay_kumar", "whotheyare": "As the dean of the University of Pennsylvania\'s School of Engineering and Applied Science, Vijay Kumar studies the control and coordination of multi-robot formations.", "whatotherssay": "", "id": 1248, "photo_url": "https://pe.tedcdn.com/images/ted/1c6de67b5b0f5e92f3a5c8d03d48705eee13a6a1_254x191.jpg"}], "title": "The future of flying robots", "take_action": null, "comments": 26966, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/87f82eddb91d2c806ebb11465d846c47f481902c_2880x1620.jpg", "description": "At his lab at the University of Pennsylvania, Vijay Kumar and his team have created autonomous aerial robots inspired by honeybees. Their latest breakthrough: Precision Farming, in which swarms of robots map, reconstruct and analyze every plant and piece of fruit in an orchard, providing vital information to farmers that can help improve yields and make water management smarter.", "tags": ["TEDx", "agriculture", "bees", "biomimicry", "computers", "demo", "design", "drones", "engineering", "farming", "flight", "garden", "innovation", "insects", "machine learning", "plants", "robots", "science", "technology"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-cs.mp4"}, "es": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-ru.mp4"}, "pt": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-fr.mp4"}, "hu": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-ko.mp4"}, "uk": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/VijayKumar_2015X-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/VijayKumar_2015X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/VijayKumar_2015X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/VijayKumar_2015X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 2346, "audioDownload": null}, "related_talks": [{"viewed_count": 4257317, "hero": "https://pe.tedcdn.com/images/ted/8aa84e7e5d405e75f19fc51bf6f9918312fff4e5_800x600.jpg", "title": "Robots that fly ... and cooperate", "id": 1376, "speaker": "Vijay Kumar", "duration": 1006, "slug": "vijay_kumar_robots_that_fly_and_cooperate"}, {"viewed_count": 990268, "hero": "https://pe.tedcdn.com/images/ted/366ebe1ea6814d45aae5cda773ab491397094ada_2880x1620.jpg", "title": "These robots come to the rescue after a disaster", "id": 2318, "speaker": "Robin Murphy", "duration": 539, "slug": "robin_murphy_these_robots_come_to_the_rescue_after_a_disaster"}, {"viewed_count": 10319644, "hero": "https://pe.tedcdn.com/images/ted/e15213155418fc82875680062821e32eccd30a5f_1600x1200.jpg", "title": "The astounding athletic power of quadcopters", "id": 1764, "speaker": "Raffaello D\'Andrea", "duration": 968, "slug": "raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters"}, {"viewed_count": 1623591, "hero": "https://pe.tedcdn.com/images/ted/0cab5e995cfea069cbc5fc24f04d69ab951eefce_2880x1620.jpg", "title": "Meet Spot, the robot dog that can run, hop and open doors", "id": 2825, "speaker": "Marc Raibert", "duration": 873, "slug": "marc_raibert_meet_spot_the_robot_dog_that_can_run_hop_and_open_doors"}, {"viewed_count": 604248, "hero": "https://pe.tedcdn.com/images/ted/6e961b846dce5acc40f38bbb3bd89f17fe6613dd_1200x900.jpg", "title": "Robots will invade our lives", "id": 355, "speaker": "Rodney Brooks", "duration": 1127, "slug": "rodney_brooks_on_robots"}, {"viewed_count": 361784, "hero": "https://pe.tedcdn.com/images/ted/a710062b9b3f44fbc3ad37ab4b8e78a70ee54231_800x600.jpg", "title": "4 lessons from robots about being human", "id": 1459, "speaker": "Ken Goldberg", "duration": 1029, "slug": "ken_goldberg_4_lessons_from_robots_about_being_human"}], "recorded_at": "2015-04-12T00:00:00.000+00:00", "slug": "vijay_kumar_the_future_of_flying_robots", "speaker_name": "Vijay Kumar", "viewed_count": 1368451, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxPenn, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxPenn", "name": "Vijay Kumar: The future of flying robots"}'
+p299
+sS'keywords'
+p300
+(lp301
+VTEDx
+p302
+aVagriculture
+p303
+aVbees
+p304
+aVbiomimicry
+p305
+aVcomputers
+p306
+aVdemo
+p307
+aVdesign
+p308
+aVdrones
+p309
+aVengineering
+p310
+aVfarming
+p311
+aVflight
+p312
+aVgarden
+p313
+aVinnovation
+p314
+aVinsects
+p315
+aVmachine learning
+p316
+aVplants
+p317
+aVrobots
+p318
+aVscience
+p319
+aVtechnology
+p320
+asS'datecrawled'
+p321
+g294
+(S'\x07\xe1\n\x17\x032\x13\x0b+\x9a'
+tRp322
+sS'id'
+p323
+I2346
+ss.

@@ -1,0 +1,938 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI'm going to talk about a technology that we're developing at Oxford now,
+p5
+aVthat we think is going to change the way that
+p6
+aVcomputer games and Hollywood movies are being made.
+p7
+aVThat technology is simulating humans.
+p8
+aVIt's simulated humans with a simulated body
+p9
+aVand a simulated nervous system to control that body.
+p10
+aVNow, before I talk more about that technology,
+p11
+aVlet's have a quick look at what human characters look like
+p12
+aVat the moment in computer games.
+p13
+aVThis is a clip from a game called "Grand Theft Auto 3."
+p14
+aVWe already saw that briefly yesterday.
+p15
+aVAnd what you can see is \u2014 it is actually a very good game.
+p16
+aVIt's one of the most successful games of all time.
+p17
+aVBut what you'll see is that all the animations in this game are very repetitive.
+p18
+aVThey pretty much look the same.
+p19
+aVI've made him run into a wall here, over and over again.
+p20
+aVAnd you can see he looks always the same.
+p21
+aVThe reason for that is that these characters
+p22
+aVare actually not real characters.
+p23
+aVThey are a graphical visualization of a character.
+p24
+aa(lp25
+VTo produce these animations, an animator at a studio has to anticipate
+p26
+aVwhat's going to happen in the actual game,
+p27
+aVand then has to animate that particular sequence.
+p28
+aVSo, he or she sits down, animates it, and tries to anticipate what's going to happen,
+p29
+aVand then these particular animations are just played back
+p30
+aVat appropriate times in the computer game.
+p31
+aVNow, the result of that is that you can't have real interactivity.
+p32
+aVAll you have is animations that are played back
+p33
+aVat more or less the appropriate times.
+p34
+aVIt also means that games aren't really going to be as surprising as they could be,
+p35
+aVbecause you only get out of it, at least in terms of the character,
+p36
+aVwhat you actually put into it.
+p37
+aVThere's no real emergence there.
+p38
+aa(lp39
+VAnd thirdly, as I said, most of the animations are very repetitive because of that.
+p40
+aVNow, the only way to get around that
+p41
+aVis to actually simulate the human body
+p42
+aVand to simulate that bit of the nervous system of the brain that controls that body.
+p43
+aVAnd maybe, if I could have you for a quick demonstration
+p44
+aVto show what the difference is \u2014
+p45
+aVbecause, I mean, it's very, very trivial.
+p46
+aVIf I push Chris a bit, like this, for example, he'll react to it.
+p47
+aVIf I push him from a different angle, he'll react to it differently,
+p48
+aVand that's because he has a physical body,
+p49
+aVand because he has the motor skills to control that body.
+p50
+aVIt's a very trivial thing.
+p51
+aVIt's not something you get in computer games at the moment, at all.
+p52
+aVThank you very much. Chris Anderson: That's it?
+p53
+aa(lp54
+VTorsten Reil: That's it, yes.
+p55
+aVSo, that's what we're trying to simulate \u2014
+p56
+aVnot Chris specifically, I should say, but humans in general.
+p57
+aVNow, we started working on this a while ago at Oxford University,
+p58
+aVand we tried to start very simply.
+p59
+aVWhat we tried to do was teach a stick figure how to walk.
+p60
+aVThat stick figure is physically stimulated. You can see it here on the screen.
+p61
+aVSo, it's subject to gravity, has joints, etc.
+p62
+aVIf you just run the simulation, it will just collapse, like this.
+p63
+aVThe tricky bit is now to put an AI controller in it
+p64
+aVthat actually makes it work.
+p65
+aVAnd for that, we use the neural network, which we based on
+p66
+aVthat part of the nervous system that we have in our spine
+p67
+aVthat controls walking in humans.
+p68
+aVIt's called the central pattern generator.
+p69
+aVSo, we simulated that as well, and then the really tricky bit
+p70
+aVis to teach that network how to walk.
+p71
+aVFor that we used artificial evolution \u2014 genetic algorithms.
+p72
+aa(lp73
+VWe heard about those already yesterday,
+p74
+aVand I suppose that most of you are familiar with that already.
+p75
+aVBut, just briefly, the concept is that
+p76
+aVyou create a large number of different individuals \u2014
+p77
+aVneural networks, in this case \u2014
+p78
+aVall of which are random at the beginning.
+p79
+aVYou hook these up \u2014 in this case, to the virtual muscles
+p80
+aVof that two-legged creature here \u2014
+p81
+aVand hope that it does something interesting.
+p82
+aVAt the beginning, they're all going to be very boring.
+p83
+aVMost of them won't move at all,
+p84
+aVbut some of them might make a tiny step.
+p85
+aVThose are then selected by the algorithm,
+p86
+aVreproduced with mutation and recombinations to introduce sex as well.
+p87
+aVAnd you repeat that process over and over again,
+p88
+aVuntil you have something that walks \u2014
+p89
+aVin this case, in a straight line, like this.
+p90
+aVSo that was the idea behind this.
+p91
+aVWhen we started this, I set up the simulation one evening.
+p92
+aVIt took about three to four hours to run the simulation.
+p93
+aVI got up the next morning, went to the computer and looked at the results,
+p94
+aVand was hoping for something that walked in a straight line,
+p95
+aVlike I've just demonstrated,
+p96
+aVand this is what I got instead.
+p97
+aa(lp98
+V(Laughter)
+p99
+aa(lp100
+VSo, it was back to the drawing board for us.
+p101
+aVWe did get it to work eventually,
+p102
+aVafter tweaking a bit here and there.
+p103
+aVAnd this is an example of a successful evolutionary run.
+p104
+aVSo, what you'll see in a moment is a very simple biped
+p105
+aVthat's learning how to walk using artificial evolution.
+p106
+aVAt the beginning, it can't walk at all,
+p107
+aVbut it will get better and better over time.
+p108
+aVSo, this is the one that can't walk at all.
+p109
+aa(lp110
+V(Laughter)
+p111
+aa(lp112
+VNow, after five generations of applying evolutionary process,
+p113
+aVthe genetic algorithm is getting a tiny bit better.
+p114
+aa(lp115
+V(Laughter)
+p116
+aa(lp117
+VGeneration 10 and it'll take a few steps more \u2014
+p118
+aVstill not quite there.
+p119
+aVBut now, after generation 20, it actually walks in a straight line without falling over.
+p120
+aVThat was the real breakthrough for us.
+p121
+aVIt was, academically, quite a challenging project,
+p122
+aVand once we had reached that stage, we were quite confident
+p123
+aVthat we could try and do other things as well with this approach \u2014
+p124
+aVactually simulating the body
+p125
+aVand simulating that part of the nervous system that controls it.
+p126
+aVNow, at this stage, it also became clear that this could be very exciting
+p127
+aVfor things like computer games or online worlds.
+p128
+aVWhat you see here is the character standing there,
+p129
+aVand there's an obstacle that we put in its way.
+p130
+aVAnd what you see is, it's going to fall over the obstacle.
+p131
+aVNow, the interesting bit is, if I move the obstacle a tiny bit to the right,
+p132
+aVwhich is what I'm doing now, here,
+p133
+aVit will fall over it in a completely different way.
+p134
+aVAnd again, if you move the obstacle a tiny bit, it'll again fall differently.
+p135
+aa(lp136
+V(Laughter)
+p137
+aa(lp138
+VNow, what you see, by the way, at the top there,
+p139
+aVare some of the neural activations being fed into the virtual muscles.
+p140
+aVOkay. That's the video. Thanks.
+p141
+aVNow, this might look kind of trivial, but it's actually very important
+p142
+aVbecause this is not something you get at the moment
+p143
+aVin any interactive or any virtual worlds.
+p144
+aVNow, at this stage, we decided to start a company and move this further,
+p145
+aVbecause obviously this was just a very simple, blocky biped.
+p146
+aVWhat we really wanted was a full human body.
+p147
+aVSo we started the company.
+p148
+aVWe hired a team of physicists, software engineers and biologists
+p149
+aVto work on this, and the first thing we had to work on
+p150
+aVwas to create the human body, basically.
+p151
+aVIt's got to be relatively fast, so you can run it on a normal machine,
+p152
+aVbut it's got to be accurate enough, so it looks good enough, basically.
+p153
+aa(lp154
+VSo we put quite a bit of biomechanical knowledge into this thing,
+p155
+aVand tried to make it as realistic as possible.
+p156
+aVWhat you see here on the screen right now
+p157
+aVis a very simple visualization of that body.
+p158
+aVI should add that it's very simple to add things like hair, clothes, etc.,
+p159
+aVbut what we've done here is use a very simple visualization,
+p160
+aVso you can concentrate on the movement.
+p161
+aVNow, what I'm going to do right now, in a moment,
+p162
+aVis just push this character a tiny bit and we'll see what happens.
+p163
+aVNothing really interesting, basically.
+p164
+aVIt falls over, but it falls over like a rag doll, basically.
+p165
+aVThe reason for that is that there's no intelligence in it.
+p166
+aVIt becomes interesting when you put artificial intelligence into it.
+p167
+aVSo, this character now has motor skills in the upper body \u2014
+p168
+aVnothing in the legs yet, in this particular one.
+p169
+aVBut what it will do \u2014 I'm going to push it again.
+p170
+aVIt will realize autonomously that it's being pushed.
+p171
+aVIt's going to stick out its hands.
+p172
+aVIt's going to turn around into the fall, and try and catch the fall.
+p173
+aVSo that's what you see here.
+p174
+aa(lp175
+VNow, it gets really interesting
+p176
+aVif you then add the AI for the lower part of the body as well.
+p177
+aVSo here, we've got the same character.
+p178
+aVI'm going to push it a bit harder now,
+p179
+aVharder than I just pushed Chris.
+p180
+aVBut what you'll see is \u2014 it's going to receive a push now from the left.
+p181
+aVWhat you see is it takes steps backwards,
+p182
+aVit tries to counter-balance,
+p183
+aVit tries to look at the place where it thinks it's going to land.
+p184
+aVI'll show you this again.
+p185
+aVAnd then, finally hits the floor.
+p186
+aVNow, this becomes really exciting
+p187
+aVwhen you push that character in different directions, again, just as I've done.
+p188
+aVThat's something that you cannot do right now.
+p189
+aVAt the moment, you only have empty computer graphics in games.
+p190
+aVWhat this is now is a real simulation. That's what I want to show you now.
+p191
+aa(lp192
+VSo, here's the same character with the same behavior I've just shown you,
+p193
+aVbut now I'm just going to push it from different directions.
+p194
+aVFirst, starting with a push from the right.
+p195
+aVThis is all slow motion, by the way, so we can see what's going on.
+p196
+aVNow, the angle will have changed a tiny bit,
+p197
+aVso you can see that the reaction is different.
+p198
+aVAgain, a push, now this time from the front.
+p199
+aVAnd you see it falls differently.
+p200
+aVAnd now from the left \u2014
+p201
+aVand it falls differently.
+p202
+aVThat was really exciting for us to see that.
+p203
+aVThat was the first time we've seen that.
+p204
+aVThis is the first time the public sees this as well,
+p205
+aVbecause we have been in stealth mode.
+p206
+aVI haven't shown this to anybody yet.
+p207
+aVNow, just a fun thing:
+p208
+aVwhat happens if you put that character \u2014
+p209
+aVthis is now a wooden version of it, but it's got the same AI in it \u2014
+p210
+aVbut if you put that character on a slippery surface, like ice.
+p211
+aVWe just did that for a laugh, just to see what happens.
+p212
+aa(lp213
+V(Laughter)
+p214
+aa(lp215
+VAnd this is what happens.
+p216
+aa(lp217
+V(Laughter)
+p218
+aa(lp219
+V(Applause)
+p220
+aa(lp221
+VIt's nothing we had to do about this.
+p222
+aVWe just took this character that I just talked about,
+p223
+aVput it on a slippery surface, and this is what you get out of it.
+p224
+aVAnd that's a really fascinating thing about this approach.
+p225
+aVNow, when we went to film studios and games developers
+p226
+aVand showed them that technology, we got a very good response.
+p227
+aVAnd what they said was, the first thing they need immediately is virtual stuntmen.
+p228
+aVBecause stunts are obviously very dangerous, they're very expensive,
+p229
+aVand there are a lot of stunt scenes that you cannot do, obviously,
+p230
+aVbecause you can't really allow the stuntman to be seriously hurt.
+p231
+aVSo, they wanted to have a digital version of a stuntman
+p232
+aVand that's what we've been working on for the past few months.
+p233
+aVAnd that's our first product that we're going to release in a couple of weeks.
+p234
+aVSo, here are just a few very simple scenes of the guy just being kicked.
+p235
+aVThat's what people want. That's what we're giving them.
+p236
+aa(lp237
+V(Laughter)
+p238
+aa(lp239
+VYou can see, it's always reacting.
+p240
+aVThis is not a dead body. This is a body who basically, in this particular case,
+p241
+aVfeels the force and tries to protect its head.
+p242
+aVOnly, I think it's quite a big blow again.
+p243
+aVYou feel kind of sorry for that thing,
+p244
+aVand we've seen it so many times now that
+p245
+aVwe don't really care any more.
+p246
+aa(lp247
+V(Laughter)
+p248
+aa(lp249
+VThere are much worse videos than this, by the way, which I have taken out, but ...
+p250
+aVNow, here's another one.
+p251
+aVWhat people wanted as a behavior was to have an explosion,
+p252
+aVa strong force applied to the character,
+p253
+aVand have the character react to it in midair.
+p254
+aVSo that you don't have a character that looks limp,
+p255
+aVbut actually a character that you can use in an action film straight away,
+p256
+aVthat looks kind of alive in midair as well.
+p257
+aVSo this character is going to be hit by a force,
+p258
+aVit's going to realize it's in the air,
+p259
+aVand it's going to try and, well,
+p260
+aVstick out its arm in the direction where it's landing.
+p261
+aVThat's one angle; here's another angle.
+p262
+aVWe now think that the realism we're achieving with this
+p263
+aVis good enough to be used in films.
+p264
+aa(lp265
+VAnd let's just have a look at a slightly different visualization.
+p266
+aVThis is something I just got last night
+p267
+aVfrom an animation studio in London, who are using our software
+p268
+aVand experimenting with it right now.
+p269
+aVSo this is exactly the same behavior that you saw,
+p270
+aVbut in a slightly better rendered version.
+p271
+aVSo if you look at the character carefully,
+p272
+aVyou see there are lots of body movements going on,
+p273
+aVnone of which you have to animate like in the old days.
+p274
+aVAnimators had to actually animate them.
+p275
+aVThis is all happening automatically in the simulation.
+p276
+aVThis is a slightly different angle,
+p277
+aVand again a slow motion version of this.
+p278
+aVThis is incredibly quick. This is happening in real time.
+p279
+aVYou can run this simulation in real time, in front of your eyes,
+p280
+aVchange it, if you want to, and you get the animation straight out of it.
+p281
+aVAt the moment, doing something like this by hand
+p282
+aVwould take you probably a couple of days.
+p283
+aa(lp284
+VThis is another behavior they requested.
+p285
+aVI'm not quite sure why, but we've done it anyway.
+p286
+aVIt's a very simple behavior that shows you the power of this approach.
+p287
+aVIn this case, the character's hands
+p288
+aVare fixed to a particular point in space,
+p289
+aVand all we've told the character to do is to struggle.
+p290
+aVAnd it looks organic. It looks realistic.
+p291
+aVYou feel kind of sorry for the guy.
+p292
+aVIt's even worse \u2014 and that is another video I just got last night \u2014
+p293
+aVif you render that a bit more realistically.
+p294
+aa(lp295
+VNow, I'm showing this to you just to show you
+p296
+aVhow organic it actually can feel, how realistic it can look.
+p297
+aVAnd this is all a physical simulation of the body,
+p298
+aVusing AI to drive virtual muscles in that body.
+p299
+aVNow, one thing which we did for a laugh was
+p300
+aVto create a slightly more complex stunt scene,
+p301
+aVand one of the most famous stunts is the one where James Bond
+p302
+aVjumps off a dam in Switzerland and then is caught by a bungee.
+p303
+aVGot a very short clip here.
+p304
+aa(lp305
+VYes, you can just about see it here.
+p306
+aVIn this case, they were using a real stunt man. It was a very dangerous stunt.
+p307
+aVIt was just voted, I think in the Sunday Times, as one of the most impressive stunts.
+p308
+aVNow, we've just tried and \u2014 looked at our character and asked ourselves,
+p309
+aV"Can we do that ourselves as well?"
+p310
+aVCan we use the physical simulation of the character,
+p311
+aVuse artificial intelligence,
+p312
+aVput that artificial intelligence into the character,
+p313
+aVdrive virtual muscles, simulate the way he jumps off the dam,
+p314
+aVand then skydive afterwards,
+p315
+aVand have him caught by a bungee afterwards?
+p316
+aVWe did that. It took about altogether just two hours,
+p317
+aVpretty much, to create the simulation.
+p318
+aVAnd that's what it looks like, here.
+p319
+aVNow, this could do with a bit more work. It's still very early stages,
+p320
+aVand we pretty much just did this for a laugh,
+p321
+aVjust to see what we'd get out of it.
+p322
+aVBut what we found over the past few months
+p323
+aVis that this approach \u2014 that we're pretty much standard upon \u2014
+p324
+aVis incredibly powerful.
+p325
+aVWe are ourselves surprised what you actually get out of the simulations.
+p326
+aVThere's very often very surprising behavior that you didn't predict before.
+p327
+aa(lp328
+VThere's so many things we can do with this right now.
+p329
+aVThe first thing, as I said, is going to be virtual stuntmen.
+p330
+aVSeveral studios are using this software now to produce virtual stuntmen,
+p331
+aVand they're going to hit the screen quite soon, actually,
+p332
+aVfor some major productions.
+p333
+aVThe second thing is video games.
+p334
+aVWith this technology, video games will look different and they will feel very different.
+p335
+aVFor the first time, you'll have actors that really feel very interactive,
+p336
+aVthat have real bodies that really react.
+p337
+aVI think that's going to be incredibly exciting.
+p338
+aVProbably starting with sports games,
+p339
+aVwhich are going to become much more interactive.
+p340
+aVBut I particularly am really excited
+p341
+aVabout using this technology in online worlds,
+p342
+aVlike there, for example, that Tom Melcher has shown us.
+p343
+aVThe degree of interactivity you're going to get
+p344
+aVis totally different, I think, from what you're getting right now.
+p345
+aa(lp346
+VA third thing we are looking at and very interested in is simulation.
+p347
+aVWe've been approached by several simulation companies,
+p348
+aVbut one project we're particularly excited about, which we're starting next month,
+p349
+aVis to use our technology \u2014 and in particular, the walking technology \u2014
+p350
+aVto help aid surgeons who work on children with cerebral palsy,
+p351
+aVto predict the outcome of operations on these children.
+p352
+aVAs you probably know,
+p353
+aVit's very difficult to predict what the outcome of an operation is
+p354
+aVif you try and correct the gait.
+p355
+aa(lp356
+VThe classic quote is, I think, it's unpredictable at best,
+p357
+aVis what people think right now, is the outcome.
+p358
+aVNow, what we want to do with our software is allow our surgeons to have a tool.
+p359
+aVWe're going to simulate the gait of a particular child
+p360
+aVand the surgeon can then work on that simulation
+p361
+aVand try out different ways to improve that gait,
+p362
+aVbefore he actually commits to an actual surgery.
+p363
+aVThat's one project we're particularly excited about,
+p364
+aVand that's going to start next month.
+p365
+aVJust finally, this is only just the beginning.
+p366
+aVWe can only do several behaviors right now.
+p367
+aVThe AI isn't good enough to simulate a full human body.
+p368
+aVThe body yes, but not all the motor skills that we have.
+p369
+aVAnd, I think, we're only there if we can have something like ballet dancing.
+p370
+aVRight now, we don't have that
+p371
+aVbut I'm very sure that we will be able to do that at some stage.
+p372
+aa(lp373
+VWe do have one unintentional dancer actually,
+p374
+aVthe last thing I'm going to show you.
+p375
+aVThis was an AI contour that was produced and evolved \u2014
+p376
+aVhalf-evolved, I should say \u2014 to produce balance, basically.
+p377
+aVSo, you kick the guy and the guy's supposed to counter-balance.
+p378
+aVThat's what we thought was going to come out of this.
+p379
+aVBut this is what emerged out of it, in the end.
+p380
+aa(lp381
+V(Music)
+p382
+aa(lp383
+VBizarrely, this thing doesn't have a head. I'm not quite sure why.
+p384
+aVSo, this was not something we actually put in there.
+p385
+aVHe just started to create that dance himself.
+p386
+aVHe's actually a better dancer than I am, I have to say.
+p387
+aVAnd what you see after a while \u2014
+p388
+aVI think he even goes into a climax right at the end.
+p389
+aVAnd I think \u2014 there you go.
+p390
+aa(lp391
+V(Laughter)
+p392
+aa(lp393
+VSo, that all happened automatically. We didn't put that in there.
+p394
+aVThat's just the simulation creating this itself, basically.
+p395
+aVSo it's just \u2014
+p396
+aa(lp397
+V(Applause)
+p398
+aa(lp399
+VThanks.
+p400
+aVNot quite John Travolta yet, but we're working on that as well,
+p401
+aVso thanks very much for your time.
+p402
+aVThanks.
+p403
+aa(lp404
+V(Applause)
+p405
+aa(lp406
+VCA: Incredible. That was really incredible.
+p407
+aa(lp408
+VTR: Thanks.
+p409
+aasS'transcript_micsec'
+p410
+(lp411
+I14000
+aI75000
+aI118000
+aI157000
+aI208000
+aI267000
+aI277000
+aI304000
+aI310000
+aI316000
+aI324000
+aI388000
+aI390000
+aI434000
+aI501000
+aI552000
+aI605000
+aI606000
+aI608000
+aI611000
+aI614000
+aI661000
+aI668000
+aI684000
+aI685000
+aI725000
+aI774000
+aI802000
+aI833000
+aI898000
+aI943000
+aI971000
+aI1016000
+aI1036000
+aI1046000
+aI1071000
+aI1073000
+aI1080000
+aI1081000
+aI1090000
+aI1091000
+aI1093000
+asS'talk_meta'
+p412
+(dp413
+S'ratings'
+p414
+(dp415
+S'beautiful'
+p416
+I14
+sS'ingenious'
+p417
+I150
+sS'inspiring'
+p418
+I42
+sS'ok'
+p419
+I32
+sS'fascinating'
+p420
+I179
+sS'funny'
+p421
+I44
+sS'total_count'
+p422
+I644
+sS'persuasive'
+p423
+I6
+sS'longwinded'
+p424
+I18
+sS'informative'
+p425
+I79
+sS'jaw-dropping'
+p426
+I64
+sS'obnoxious'
+p427
+I5
+sS'confusing'
+p428
+I0
+sS'courageous'
+p429
+I0
+sS'unconvincing'
+p430
+I11
+ssS'author'
+p431
+VTorsten_Reil;
+p432
+sS'url'
+p433
+S'https://www.ted.com/talks/torsten_reil_studies_biology_to_make_animation'
+p434
+sS'vidlen'
+p435
+I1100
+sS'totalviews'
+p436
+I325942
+sS'title'
+p437
+VAnimate characters by evolving them
+p438
+sS'downloadlink'
+p439
+Vhttps://download.ted.com/talks/TorstenReil_2003.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p440
+sS'datepublished'
+p441
+cdatetime
+datetime
+p442
+(S'\x07\xd8\x07\x07\x15\x00\x00\x00\x00\x00'
+tRp443
+sS'datefilmed'
+p444
+g442
+(S'\x07\xd8\x07\x07\x15\x00\x00\x00\x00\x00'
+tRp445
+sS'alldata_JSON'
+p446
+S'{"viewed_count": 325942, "speakers": [{"description": "Animating neurobiologist", "firstname": "Torsten", "title": "", "lastname": "Reil", "middleinitial": "", "whylisten": "From modeling the mayhem of equine combat in Lord of the Rings: Return of the King to animating Liberty City gun battles in Grand Theft Auto IV, Torsten Reil&#39;s achievements are all over the map these days. Software that he helped create (with NaturalMotion, the imaging company he co-founded) has revolutionized computer animation of human and animal avatars, giving rise to some of the most breathtakingly real sequences in the virtual world of video games and movies- and along the way given valuable insight into the way human beings move their bodies.<br /><br />Reil was a neural researcher working on his Masters at Oxford, developing computer simulations of nervous systems based on genetic algorithms-&nbsp; programs that actually used natural selection to evolve their own means of locomotion. It didn&#39;t take long until he realized the commercial potential of these lifelike characters. In 2001 he capitalized on this lucrative adjunct to his research, and cofounded NaturalMotion. Since then the company has produced motion simulation programs like Euphoria and Morpheme, state of the art packages designed to drastically cut the time and expense of game development, and create animated worlds as real as the one outside your front door. Animation and special effects created with Endorphin (NaturalMotion&#39;s first animation toolkit) have lent explosive action to films such as Troy and Poseidon, and NaturalMotion&#39;s software is also being used by LucasArts in video games such as the hotly anticipated Indiana Jones. <br /><br />But there are serious applications aside from the big screen and the XBox console: NaturalMotion has also worked under a grant from the British government to study the motion of a cerebral palsy patient, in hopes of finding therapies and surgeries that dovetail with the way her nervous system is functioning.", "slug": "torsten_reil", "whotheyare": "By coding computer simulations with biologically modeled nervous systems, Torsten Reil and his company NaturalMotion breathe life into the animated characters inhabiting the most eye-poppingly realistic games and movies around.", "whatotherssay": "It might be surprising to find a biologist pushing the frontiers of computer animation. But Torsten Reil is bringing cheaper, lifelike digital characters to video games and films.", "id": 255, "photo_url": "https://pe.tedcdn.com/images/ted/47839_254x191.jpg"}], "current_talk": 300, "description": "Torsten Reil talks about how the study of biology can help make natural-looking animated people -- by building a human from the inside out, with bones, muscles and a nervous system. He spoke at TED in 2003; see his work now in GTA4.", "language": "en", "url": "https://www.ted.com/talks/torsten_reil_studies_biology_to_make_animation", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/TorstenReil_2003-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 130897949}, "podcast-low-en": {"uri": "https://download.ted.com/talks/TorstenReil_2003-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25254747}, "podcast-high": {"uri": "https://download.ted.com/talks/TorstenReil_2003-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 130808982}, "180k": {"uri": "https://download.ted.com/talks/TorstenReil_2003-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 25130915}, "64k": {"uri": "https://download.ted.com/talks/TorstenReil_2003-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9052234}, "1500k": {"uri": "https://download.ted.com/talks/TorstenReil_2003-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 204496508}, "450k": {"uri": "https://download.ted.com/talks/TorstenReil_2003-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62316275}, "podcast-regular": {"uri": "https://download.ted.com/talks/TorstenReil_2003.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 62590877}, "950k": {"uri": "https://download.ted.com/talks/TorstenReil_2003-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 130555716}, "podcast-light": {"uri": "https://download.ted.com/talks/TorstenReil_2003-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 9152054}, "320k": {"uri": "https://download.ted.com/talks/TorstenReil_2003-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 44452644}, "600k": {"uri": "https://download.ted.com/talks/TorstenReil_2003-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 82920367}}}, "comments": {"count": 43, "id": 267, "talk_id": 300}, "slug": "torsten_reil_studies_biology_to_make_animation", "threadId": 267, "talks": [{"event": "TED2003", "player_talks": [{"event": "TED2003", "slug": "torsten_reil_studies_biology_to_make_animation", "filmed": 1046649600, "targeting": {"event": "TED2003", "tag": "animals,animation,biomechanics,demo,design,entertainment,gaming,technology,virtual reality", "id": 300, "talk": "torsten_reil_studies_biology_to_make_animation", "year": "2003"}, "adDuration": "3.33", "external": null, "title": "Animate characters by evolving them", "postAdDuration": "0.83", "published": 1215478800, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/374_480x360.jpg?quality=89&w=600", "name": "Torsten Reil: Animate characters by evolving them", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["animals", "animation", "biomechanics", "demo", "design", "entertainment", "gaming", "technology", "virtual reality"], "speaker": "Torsten Reil", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1100, "id": 300, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/TorstenReil_2003-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2003", "tag": "animals,animation,biomechanics,demo,design,entertainment,gaming,technology,virtual reality", "id": 300, "talk": "torsten_reil_studies_biology_to_make_animation", "year": "2003"}, "metadata": "https://hls.ted.com/talks/300.json", "stream": "https://hls.ted.com/talks/300.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2003%26id%3D300%26tag%3Danimals%2Canimation%2Cbiomechanics%2Cdemo%2Cdesign%2Centertainment%2Cgaming%2Ctechnology%2Cvirtual%2Breality%26talk%3Dtorsten_reil_studies_biology_to_make_animation%26year%3D2003&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/torsten_reil_studies_biology_to_make_animation"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/374_480x360.jpg?q=50&w=15", "duration": 1100, "id": 300, "ratings": [{"count": 11, "id": 21, "name": "Unconvincing"}, {"count": 18, "id": 11, "name": "Longwinded"}, {"count": 14, "id": 1, "name": "Beautiful"}, {"count": 150, "id": 9, "name": "Ingenious"}, {"count": 64, "id": 23, "name": "Jaw-dropping"}, {"count": 79, "id": 8, "name": "Informative"}, {"count": 179, "id": 22, "name": "Fascinating"}, {"count": 44, "id": 7, "name": "Funny"}, {"count": 32, "id": 25, "name": "OK"}, {"count": 6, "id": 24, "name": "Persuasive"}, {"count": 42, "id": 10, "name": "Inspiring"}, {"count": 5, "id": 26, "name": "Obnoxious"}, {"count": 0, "id": 2, "name": "Confusing"}, {"count": 0, "id": 3, "name": "Courageous"}], "speakers": [{"description": "Animating neurobiologist", "firstname": "Torsten", "title": "", "lastname": "Reil", "middleinitial": "", "whylisten": "From modeling the mayhem of equine combat in Lord of the Rings: Return of the King to animating Liberty City gun battles in Grand Theft Auto IV, Torsten Reil&#39;s achievements are all over the map these days. Software that he helped create (with NaturalMotion, the imaging company he co-founded) has revolutionized computer animation of human and animal avatars, giving rise to some of the most breathtakingly real sequences in the virtual world of video games and movies- and along the way given valuable insight into the way human beings move their bodies.<br /><br />Reil was a neural researcher working on his Masters at Oxford, developing computer simulations of nervous systems based on genetic algorithms-&nbsp; programs that actually used natural selection to evolve their own means of locomotion. It didn&#39;t take long until he realized the commercial potential of these lifelike characters. In 2001 he capitalized on this lucrative adjunct to his research, and cofounded NaturalMotion. Since then the company has produced motion simulation programs like Euphoria and Morpheme, state of the art packages designed to drastically cut the time and expense of game development, and create animated worlds as real as the one outside your front door. Animation and special effects created with Endorphin (NaturalMotion&#39;s first animation toolkit) have lent explosive action to films such as Troy and Poseidon, and NaturalMotion&#39;s software is also being used by LucasArts in video games such as the hotly anticipated Indiana Jones. <br /><br />But there are serious applications aside from the big screen and the XBox console: NaturalMotion has also worked under a grant from the British government to study the motion of a cerebral palsy patient, in hopes of finding therapies and surgeries that dovetail with the way her nervous system is functioning.", "slug": "torsten_reil", "whotheyare": "By coding computer simulations with biologically modeled nervous systems, Torsten Reil and his company NaturalMotion breathe life into the animated characters inhabiting the most eye-poppingly realistic games and movies around.", "whatotherssay": "It might be surprising to find a biologist pushing the frontiers of computer animation. But Torsten Reil is bringing cheaper, lifelike digital characters to video games and films.", "id": 255, "photo_url": "https://pe.tedcdn.com/images/ted/47839_254x191.jpg"}], "title": "Animate characters by evolving them", "take_action": null, "comments": 267, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/374_480x360.jpg", "description": "Torsten Reil talks about how the study of biology can help make natural-looking animated people -- by building a human from the inside out, with bones, muscles and a nervous system. He spoke at TED in 2003; see his work now in GTA4.", "tags": ["animals", "animation", "biomechanics", "demo", "design", "entertainment", "gaming", "technology", "virtual reality"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"ru": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/TorstenReil_2003-low-ru.mp4"}, "fr": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/TorstenReil_2003-low-fr.mp4"}, "en": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/TorstenReil_2003-low-en.mp4"}, "nl": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/TorstenReil_2003-low-nl.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/TorstenReil_2003-low-zh-tw.mp4"}, "de": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/TorstenReil_2003-low-de.mp4"}, "ko": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/TorstenReil_2003-low-ko.mp4"}, "it": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/TorstenReil_2003-low-it.mp4"}, "tr": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/TorstenReil_2003-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/TorstenReil_2003-low-zh-cn.mp4"}, "ar": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/TorstenReil_2003-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/TorstenReil_2003-low-pt-br.mp4"}, "es": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/TorstenReil_2003-low-es.mp4"}, "bg": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/TorstenReil_2003-low-bg.mp4"}, "vi": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/TorstenReil_2003-low-vi.mp4"}, "ro": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/TorstenReil_2003-low-ro.mp4"}, "ja": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/TorstenReil_2003-low-ja.mp4"}, "pl": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/TorstenReil_2003-low-pl.mp4"}, "he": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/TorstenReil_2003-low-he.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/TorstenReil_2003-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/TorstenReil_2003.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/TorstenReil_2003-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 300, "audioDownload": null}, "related_talks": [{"viewed_count": 807635, "hero": "https://pe.tedcdn.com/images/ted/8797510dd2c00e81d277493d9ca173f6ea5de0ec_2880x1620.jpg", "title": "Robots inspired by cockroach ingenuity", "id": 280, "speaker": "Robert Full", "duration": 1222, "slug": "robert_full_on_engineering_and_evolution"}, {"viewed_count": 3998689, "hero": "https://pe.tedcdn.com/images/ted/46a98f6d94683e2bd773aaaa528f8a6c49dea91f_1600x1200.jpg", "title": "My creations, a new form of life", "id": 162, "speaker": "Theo Jansen", "duration": 493, "slug": "theo_jansen_creates_new_creatures"}, {"viewed_count": 1929441, "hero": "https://pe.tedcdn.com/images/ted/12_480x360.jpg", "title": "Biomimicry\'s surprising lessons from nature\'s engineers", "id": 18, "speaker": "Janine Benyus", "duration": 1399, "slug": "janine_benyus_shares_nature_s_designs"}, {"viewed_count": 1093573, "hero": "https://pe.tedcdn.com/images/ted/a158433ce985ba2e02f962989c5bcc7a639d75d4_1600x1200.jpg", "title": "Are games better than life?", "id": 361, "speaker": "David Perry", "duration": 1266, "slug": "david_perry_on_videogames"}, {"viewed_count": 1027528, "hero": "https://pe.tedcdn.com/images/ted/87897eb99c1b0061cca8f820dfe97a5bdb22d813_1600x1200.jpg", "title": "7 ways games reward the brain", "id": 996, "speaker": "Tom Chatfield", "duration": 988, "slug": "tom_chatfield_7_ways_games_reward_the_brain"}, {"viewed_count": 908805, "hero": "https://pe.tedcdn.com/images/ted/51ea0e7d5d539a0a905bce328b62904e1298aca9_1600x1200.jpg", "title": "How Benjamin Button got his face", "id": 469, "speaker": "Ed Ulbrich", "duration": 1087, "slug": "ed_ulbrich_shows_how_benjamin_button_got_his_face"}], "recorded_at": "2003-03-03T00:00:00.000+00:00", "slug": "torsten_reil_studies_biology_to_make_animation", "speaker_name": "Torsten Reil", "viewed_count": 325942, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2003", "name": "Torsten Reil: Animate characters by evolving them"}'
+p447
+sS'keywords'
+p448
+(lp449
+Vanimals
+p450
+aVanimation
+p451
+aVbiomechanics
+p452
+aVdemo
+p453
+aVdesign
+p454
+aVentertainment
+p455
+aVgaming
+p456
+aVtechnology
+p457
+aVvirtual reality
+p458
+asS'datecrawled'
+p459
+g442
+(S"\x07\xe1\n\x17\x00\n'\r\xd6\x18"
+tRp460
+sS'id'
+p461
+I300
+ss.

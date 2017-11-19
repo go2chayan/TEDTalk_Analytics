@@ -1,0 +1,832 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VI grew up watching Star Trek. I love Star Trek.
+p5
+aVStar Trek made me want to see alien creatures,
+p6
+aVcreatures from a far-distant world.
+p7
+aVBut basically, I figured out that I could find
+p8
+aVthose alien creatures right on Earth.
+p9
+aa(lp10
+VAnd what I do is I study insects.
+p11
+aVI'm obsessed with insects, particularly insect flight.
+p12
+aVI think the evolution of insect flight is perhaps
+p13
+aVone of the most important events in the history of life.
+p14
+aVWithout insects, there'd be no flowering plants.
+p15
+aVWithout flowering plants, there would be no
+p16
+aVclever, fruit-eating primates giving TED Talks.
+p17
+aa(lp18
+V(Laughter)
+p19
+aa(lp20
+VNow,
+p21
+aVDavid and Hidehiko and Ketaki
+p22
+aVgave a very compelling story about
+p23
+aVthe similarities between fruit flies and humans,
+p24
+aVand there are many similarities,
+p25
+aVand so you might think that if humans are similar to fruit flies,
+p26
+aVthe favorite behavior of a fruit fly might be this, for example \u2014
+p27
+aV(Laughter)
+p28
+aVbut in my talk, I don't want to emphasize on the similarities
+p29
+aVbetween humans and fruit flies, but rather the differences,
+p30
+aVand focus on the behaviors that I think fruit flies excel at doing.
+p31
+aa(lp32
+VAnd so I want to show you a high-speed video sequence
+p33
+aVof a fly shot at 7,000 frames per second in infrared lighting,
+p34
+aVand to the right, off-screen, is an electronic looming predator
+p35
+aVthat is going to go at the fly.
+p36
+aVThe fly is going to sense this predator.
+p37
+aVIt is going to extend its legs out.
+p38
+aVIt's going to sashay away
+p39
+aVto live to fly another day.
+p40
+aVNow I have carefully cropped this sequence
+p41
+aVto be exactly the duration of a human eye blink,
+p42
+aVso in the time that it would take you to blink your eye,
+p43
+aVthe fly has seen this looming predator,
+p44
+aVestimated its position, initiated a motor pattern to fly it away,
+p45
+aVbeating its wings at 220 times a second as it does so.
+p46
+aVI think this is a fascinating behavior
+p47
+aVthat shows how fast the fly's brain can process information.
+p48
+aa(lp49
+VNow, flight \u2014 what does it take to fly?
+p50
+aVWell, in order to fly, just as in a human aircraft,
+p51
+aVyou need wings that can generate sufficient aerodynamic forces,
+p52
+aVyou need an engine sufficient to generate the power required for flight,
+p53
+aVand you need a controller,
+p54
+aVand in the first human aircraft, the controller was basically
+p55
+aVthe brain of Orville and Wilbur sitting in the cockpit.
+p56
+aa(lp57
+VNow, how does this compare to a fly?
+p58
+aVWell, I spent a lot of my early career trying to figure out
+p59
+aVhow insect wings generate enough force to keep the flies in the air.
+p60
+aVAnd you might have heard how engineers proved
+p61
+aVthat bumblebees couldn't fly.
+p62
+aVWell, the problem was in thinking that the insect wings
+p63
+aVfunction in the way that aircraft wings work. But they don't.
+p64
+aVAnd we tackle this problem by building giant,
+p65
+aVdynamically scaled model robot insects
+p66
+aVthat would flap in giant pools of mineral oil
+p67
+aVwhere we could study the aerodynamic forces.
+p68
+aVAnd it turns out that the insects flap their wings
+p69
+aVin a very clever way, at a very high angle of attack
+p70
+aVthat creates a structure at the leading edge of the wing,
+p71
+aVa little tornado-like structure called a leading edge vortex,
+p72
+aVand it's that vortex that actually enables the wings
+p73
+aVto make enough force for the animal to stay in the air.
+p74
+aVBut the thing that's actually most \u2014 so, what's fascinating
+p75
+aVis not so much that the wing has some interesting morphology.
+p76
+aVWhat's clever is the way the fly flaps it,
+p77
+aVwhich of course ultimately is controlled by the nervous system,
+p78
+aVand this is what enables flies to perform
+p79
+aVthese remarkable aerial maneuvers.
+p80
+aa(lp81
+VNow, what about the engine?
+p82
+aVThe engine of the fly is absolutely fascinating.
+p83
+aVThey have two types of flight muscle:
+p84
+aVso-called power muscle, which is stretch-activated,
+p85
+aVwhich means that it activates itself and does not need to be controlled
+p86
+aVon a contraction-by-contraction basis by the nervous system.
+p87
+aVIt's specialized to generate the enormous power required for flight,
+p88
+aVand it fills the middle portion of the fly,
+p89
+aVso when a fly hits your windshield,
+p90
+aVit's basically the power muscle that you're looking at.
+p91
+aVBut attached to the base of the wing
+p92
+aVis a set of little, tiny control muscles
+p93
+aVthat are not very powerful at all, but they're very fast,
+p94
+aVand they're able to reconfigure the hinge of the wing
+p95
+aVon a stroke-by-stroke basis,
+p96
+aVand this is what enables the fly to change its wing
+p97
+aVand generate the changes in aerodynamic forces
+p98
+aVwhich change its flight trajectory.
+p99
+aVAnd of course, the role of the nervous system is to control all this.
+p100
+aa(lp101
+VSo let's look at the controller.
+p102
+aVNow flies excel in the sorts of sensors
+p103
+aVthat they carry to this problem.
+p104
+aVThey have antennae that sense odors and detect wind detection.
+p105
+aVThey have a sophisticated eye which is
+p106
+aVthe fastest visual system on the planet.
+p107
+aVThey have another set of eyes on the top of their head.
+p108
+aVWe have no idea what they do.
+p109
+aVThey have sensors on their wing.
+p110
+aVTheir wing is covered with sensors, including sensors
+p111
+aVthat sense deformation of the wing.
+p112
+aVThey can even taste with their wings.
+p113
+aVOne of the most sophisticated sensors a fly has
+p114
+aVis a structure called the halteres.
+p115
+aVThe halteres are actually gyroscopes.
+p116
+aVThese devices beat back and forth about 200 hertz during flight,
+p117
+aVand the animal can use them to sense its body rotation
+p118
+aVand initiate very, very fast corrective maneuvers.
+p119
+aVBut all of this sensory information has to be processed
+p120
+aVby a brain, and yes, indeed, flies have a brain,
+p121
+aVa brain of about 100,000 neurons.
+p122
+aa(lp123
+VNow several people at this conference
+p124
+aVhave already suggested that fruit flies could serve neuroscience
+p125
+aVbecause they're a simple model of brain function.
+p126
+aVAnd the basic punchline of my talk is,
+p127
+aVI'd like to turn that over on its head.
+p128
+aVI don't think they're a simple model of anything.
+p129
+aVAnd I think that flies are a great model.
+p130
+aVThey're a great model for flies.
+p131
+aV(Laughter)
+p132
+aa(lp133
+VAnd let's explore this notion of simplicity.
+p134
+aVSo I think, unfortunately, a lot of neuroscientists,
+p135
+aVwe're all somewhat narcissistic.
+p136
+aVWhen we think of brain, we of course imagine our own brain.
+p137
+aVBut remember that this kind of brain,
+p138
+aVwhich is much, much smaller
+p139
+aV\u2014 instead of 100 billion neurons, it has 100,000 neurons \u2014
+p140
+aVbut this is the most common form of brain on the planet
+p141
+aVand has been for 400 million years.
+p142
+aVAnd is it fair to say that it's simple?
+p143
+aVWell, it's simple in the sense that it has fewer neurons,
+p144
+aVbut is that a fair metric?
+p145
+aVAnd I would propose it's not a fair metric.
+p146
+aVSo let's sort of think about this. I think we have to compare \u2014
+p147
+aV(Laughter) \u2014
+p148
+aVwe have to compare the size of the brain
+p149
+aVwith what the brain can do.
+p150
+aVSo I propose we have a Trump number,
+p151
+aVand the Trump number is the ratio of this man's
+p152
+aVbehavioral repertoire to the number of neurons in his brain.
+p153
+aVWe'll calculate the Trump number for the fruit fly.
+p154
+aVNow, how many people here think the Trump number
+p155
+aVis higher for the fruit fly?
+p156
+aa(lp157
+V(Applause)
+p158
+aa(lp159
+VIt's a very smart, smart audience.
+p160
+aVYes, the inequality goes in this direction, or I would posit it.
+p161
+aa(lp162
+VNow I realize that it is a little bit absurd
+p163
+aVto compare the behavioral repertoire of a human to a fly.
+p164
+aVBut let's take another animal just as an example. Here's a mouse.
+p165
+aVA mouse has about 1,000 times as many neurons as a fly.
+p166
+aVI used to study mice. When I studied mice,
+p167
+aVI used to talk really slowly.
+p168
+aVAnd then something happened when I started to work on flies.
+p169
+aV(Laughter)
+p170
+aVAnd I think if you compare the natural history of flies and mice,
+p171
+aVit's really comparable. They have to forage for food.
+p172
+aVThey have to engage in courtship.
+p173
+aVThey have sex. They hide from predators.
+p174
+aVThey do a lot of the similar things.
+p175
+aVBut I would argue that flies do more.
+p176
+aVSo for example, I'm going to show you a sequence,
+p177
+aVand I have to say, some of my funding comes from the military,
+p178
+aVso I'm showing this classified sequence
+p179
+aVand you cannot discuss it outside of this room. Okay?
+p180
+aVSo I want you to look at the payload
+p181
+aVat the tail of the fruit fly.
+p182
+aVWatch it very closely,
+p183
+aVand you'll see why my six-year-old son
+p184
+aVnow wants to be a neuroscientist.
+p185
+aVWait for it.
+p186
+aVPshhew.
+p187
+aVSo at least you'll admit that if fruit flies are not as clever as mice,
+p188
+aVthey're at least as clever as pigeons. (Laughter)
+p189
+aa(lp190
+VNow, I want to get across that it's not just a matter of numbers
+p191
+aVbut also the challenge for a fly to compute
+p192
+aVeverything its brain has to compute with such tiny neurons.
+p193
+aVSo this is a beautiful image of a visual interneuron from a mouse
+p194
+aVthat came from Jeff Lichtman's lab,
+p195
+aVand you can see the wonderful images of brains
+p196
+aVthat he showed in his talk.
+p197
+aVBut up in the corner, in the right corner, you'll see,
+p198
+aVat the same scale, a visual interneuron from a fly.
+p199
+aVAnd I'll expand this up.
+p200
+aVAnd it's a beautifully complex neuron.
+p201
+aVIt's just very, very tiny, and there's lots of biophysical challenges
+p202
+aVwith trying to compute information with tiny, tiny neurons.
+p203
+aa(lp204
+VHow small can neurons get? Well, look at this interesting insect.
+p205
+aVIt looks sort of like a fly. It has wings, it has eyes,
+p206
+aVit has antennae, its legs, complicated life history,
+p207
+aVit's a parasite, it has to fly around and find caterpillars
+p208
+aVto parasatize,
+p209
+aVbut not only is its brain the size of a salt grain,
+p210
+aVwhich is comparable for a fruit fly,
+p211
+aVit is the size of a salt grain.
+p212
+aVSo here's some other organisms at the similar scale.
+p213
+aVThis animal is the size of a paramecium and an amoeba,
+p214
+aVand it has a brain of 7,000 neurons that's so small \u2014
+p215
+aVyou know these things called cell bodies you've been hearing about,
+p216
+aVwhere the nucleus of the neuron is?
+p217
+aVThis animal gets rid of them because they take up too much space.
+p218
+aVSo this is a session on frontiers in neuroscience.
+p219
+aVI would posit that one frontier in neuroscience is to figure out how the brain of that thing works.
+p220
+aa(lp221
+VBut let's think about this. How can you make a small number of neurons do a lot?
+p222
+aVAnd I think, from an engineering perspective,
+p223
+aVyou think of multiplexing.
+p224
+aVYou can take a hardware and have that hardware
+p225
+aVdo different things at different times,
+p226
+aVor have different parts of the hardware doing different things.
+p227
+aVAnd these are the two concepts I'd like to explore.
+p228
+aVAnd they're not concepts that I've come up with,
+p229
+aVbut concepts that have been proposed by others in the past.
+p230
+aa(lp231
+VAnd one idea comes from lessons from chewing crabs.
+p232
+aVAnd I don't mean chewing the crabs.
+p233
+aVI grew up in Baltimore, and I chew crabs very, very well.
+p234
+aVBut I'm talking about the crabs actually doing the chewing.
+p235
+aVCrab chewing is actually really fascinating.
+p236
+aVCrabs have this complicated structure under their carapace
+p237
+aVcalled the gastric mill
+p238
+aVthat grinds their food in a variety of different ways.
+p239
+aVAnd here's an endoscopic movie of this structure.
+p240
+aVThe amazing thing about this is that it's controlled
+p241
+aVby a really tiny set of neurons, about two dozen neurons
+p242
+aVthat can produce a vast variety of different motor patterns,
+p243
+aVand the reason it can do this is that this little tiny ganglion
+p244
+aVin the crab is actually inundated by many, many neuromodulators.
+p245
+aVYou heard about neuromodulators earlier.
+p246
+aVThere are more neuromodulators
+p247
+aVthat alter, that innervate this structure than actually neurons in the structure,
+p248
+aVand they're able to generate a complicated set of patterns.
+p249
+aVAnd this is the work by Eve Marder and her many colleagues
+p250
+aVwho've been studying this fascinating system
+p251
+aVthat show how a smaller cluster of neurons
+p252
+aVcan do many, many, many things
+p253
+aVbecause of neuromodulation that can take place on a moment-by-moment basis.
+p254
+aVSo this is basically multiplexing in time.
+p255
+aVImagine a network of neurons with one neuromodulator.
+p256
+aVYou select one set of cells to perform one sort of behavior,
+p257
+aVanother neuromodulator, another set of cells,
+p258
+aVa different pattern, and you can imagine
+p259
+aVyou could extrapolate to a very, very complicated system.
+p260
+aa(lp261
+VIs there any evidence that flies do this?
+p262
+aVWell, for many years in my laboratory and other laboratories around the world,
+p263
+aVwe've been studying fly behaviors in little flight simulators.
+p264
+aVYou can tether a fly to a little stick.
+p265
+aVYou can measure the aerodynamic forces it's creating.
+p266
+aVYou can let the fly play a little video game
+p267
+aVby letting it fly around in a visual display.
+p268
+aVSo let me show you a little tiny sequence of this.
+p269
+aVHere's a fly
+p270
+aVand a large infrared view of the fly in the flight simulator,
+p271
+aVand this is a game the flies love to play.
+p272
+aVYou allow them to steer towards the little stripe,
+p273
+aVand they'll just steer towards that stripe forever.
+p274
+aVIt's part of their visual guidance system.
+p275
+aVBut very, very recently, it's been possible
+p276
+aVto modify these sorts of behavioral arenas for physiologies.
+p277
+aVSo this is the preparation that one of my former post-docs,
+p278
+aVGaby Maimon, who's now at Rockefeller, developed,
+p279
+aVand it's basically a flight simulator
+p280
+aVbut under conditions where you actually can stick an electrode
+p281
+aVin the brain of the fly and record
+p282
+aVfrom a genetically identified neuron in the fly's brain.
+p283
+aVAnd this is what one of these experiments looks like.
+p284
+aVIt was a sequence taken from another post-doc in the lab,
+p285
+aVBettina Schnell.
+p286
+aVThe green trace at the bottom is the membrane potential
+p287
+aVof a neuron in the fly's brain,
+p288
+aVand you'll see the fly start to fly, and the fly is actually
+p289
+aVcontrolling the rotation of that visual pattern itself
+p290
+aVby its own wing motion,
+p291
+aVand you can see this visual interneuron
+p292
+aVrespond to the pattern of wing motion as the fly flies.
+p293
+aVSo for the first time we've actually been able to record
+p294
+aVfrom neurons in the fly's brain while the fly
+p295
+aVis performing sophisticated behaviors such as flight.
+p296
+aVAnd one of the lessons we've been learning
+p297
+aVis that the physiology of cells that we've been studying
+p298
+aVfor many years in quiescent flies
+p299
+aVis not the same as the physiology of those cells
+p300
+aVwhen the flies actually engage in active behaviors
+p301
+aVlike flying and walking and so forth.
+p302
+aVAnd why is the physiology different?
+p303
+aVWell it turns out it's these neuromodulators,
+p304
+aVjust like the neuromodulators in that little tiny ganglion in the crabs.
+p305
+aVSo here's a picture of the octopamine system.
+p306
+aVOctopamine is a neuromodulator
+p307
+aVthat seems to play an important role in flight and other behaviors.
+p308
+aVBut this is just one of many neuromodulators
+p309
+aVthat's in the fly's brain.
+p310
+aVSo I really think that, as we learn more,
+p311
+aVit's going to turn out that the whole fly brain
+p312
+aVis just like a large version of this stomatogastric ganglion,
+p313
+aVand that's one of the reasons why it can do so much with so few neurons.
+p314
+aa(lp315
+VNow, another idea, another way of multiplexing
+p316
+aVis multiplexing in space,
+p317
+aVhaving different parts of a neuron
+p318
+aVdo different things at the same time.
+p319
+aVSo here's two sort of canonical neurons
+p320
+aVfrom a vertebrate and an invertebrate,
+p321
+aVa human pyramidal neuron from Ramon y Cajal,
+p322
+aVand another cell to the right, a non-spiking interneuron,
+p323
+aVand this is the work of Alan Watson and Malcolm Burrows many years ago,
+p324
+aVand Malcolm Burrows came up with a pretty interesting idea
+p325
+aVbased on the fact that this neuron from a locust
+p326
+aVdoes not fire action potentials.
+p327
+aVIt's a non-spiking cell.
+p328
+aVSo a typical cell, like the neurons in our brain,
+p329
+aVhas a region called the dendrites that receives input,
+p330
+aVand that input sums together
+p331
+aVand will produce action potentials
+p332
+aVthat run down the axon and then activate
+p333
+aVall the output regions of the neuron.
+p334
+aVBut non-spiking neurons are actually quite complicated
+p335
+aVbecause they can have input synapses and output synapses
+p336
+aVall interdigitated, and there's no single action potential
+p337
+aVthat drives all the outputs at the same time.
+p338
+aVSo there's a possibility that you have computational compartments
+p339
+aVthat allow the different parts of the neuron
+p340
+aVto do different things at the same time.
+p341
+aa(lp342
+VSo these basic concepts of multitasking in time
+p343
+aVand multitasking in space,
+p344
+aVI think these are things that are true in our brains as well,
+p345
+aVbut I think the insects are the true masters of this.
+p346
+aVSo I hope you think of insects a little bit differently next time,
+p347
+aVand as I say up here, please think before you swat.
+p348
+aa(lp349
+V(Applause)
+p350
+aasS'transcript_micsec'
+p351
+(lp352
+I11000
+aI27000
+aI46000
+aI48000
+aI82000
+aI131000
+aI152000
+aI219000
+aI271000
+aI327000
+aI353000
+aI413000
+aI415000
+aI422000
+aI503000
+aI543000
+aI592000
+aI618000
+aI709000
+aI852000
+aI924000
+aI942000
+asS'talk_meta'
+p353
+(dp354
+S'ratings'
+p355
+(dp356
+S'ingenious'
+p357
+I99
+sS'funny'
+p358
+I122
+sS'inspiring'
+p359
+I46
+sS'ok'
+p360
+I40
+sS'fascinating'
+p361
+I487
+sS'total_count'
+p362
+I1392
+sS'persuasive'
+p363
+I39
+sS'longwinded'
+p364
+I17
+sS'unconvincing'
+p365
+I6
+sS'informative'
+p366
+I366
+sS'beautiful'
+p367
+I44
+sS'jaw-dropping'
+p368
+I99
+sS'obnoxious'
+p369
+I6
+sS'courageous'
+p370
+I7
+sS'confusing'
+p371
+I14
+ssS'author'
+p372
+VMichael_Dickinson;
+p373
+sS'url'
+p374
+S'https://www.ted.com/talks/michael_dickinson_how_a_fly_flies'
+p375
+sS'vidlen'
+p376
+I955
+sS'totalviews'
+p377
+I1582316
+sS'title'
+p378
+VHow a fly flies
+p379
+sS'downloadlink'
+p380
+Vhttps://download.ted.com/talks/MichaelDickinson_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p381
+sS'datepublished'
+p382
+cdatetime
+datetime
+p383
+(S'\x07\xdd\x02\x16\x08\x070\x00\x00\x00'
+tRp384
+sS'datefilmed'
+p385
+g383
+(S'\x07\xdd\x02\x16\x08\x070\x00\x00\x00'
+tRp386
+sS'alldata_JSON'
+p387
+S'{"viewed_count": 1582316, "speakers": [{"description": "Biologist", "firstname": "Michael", "title": "", "lastname": "Dickinson", "middleinitial": "", "whylisten": "        <p>Some things are so commonplace that they barely register our attention. Michael Dickinson has dedicated much of his research to one such thing -- the flight of the fly. Dickinson aims to understand how a fly&#39;s nervous system allows it to accomplish such incredible aerodynamic feats. Affectionately dubbed the &quot;Fly Guy&quot; by&nbsp;<a href=\\"http://www.the-scientist.com/?articles.view/articleNo/32422/title/Fly-Guy/\\" target=\\"_blank\\">The Scientist</a>, Dickinson&#39;s research brings together zoology, neuroscience and fluid mechanics.</p> <p>Dickinson was named a MacArthur Fellow in 2001. He is now a professor of biology at the University of Washington, where he heads The Dickinson Lab. The lab conducts research into insect flight control, animal brain recordings, animal/robot interactions and animal visual navigation and welcomes students with an interest in studying insect flight, behavior and evolution from an interdisciplinary approach perspective.&nbsp;</p>", "slug": "michael_dickinson", "whotheyare": "Most people are irritated by the buzzing of a fly\'s wings. But biologist Michael Dickinson views the sound with a deep sense of wonder.", "whatotherssay": "While fleeing a rolled-up newspaper, the [fly] can change course in as little as 30 thousandths of a second. Now Prof Michael Dickinson ..., who has spent two decades studying flies, announces that their ability to escape is all down to quick thinking.", "id": 1551, "photo_url": "https://pe.tedcdn.com/images/ted/4783f0841cf282d6585078778b7ae626728c967b_254x191.jpg"}], "current_talk": 1674, "description": "An insect\'s ability to fly is one of the greatest feats of evolution. Michael Dickinson looks at how a fruit fly takes flight with such delicate wings, thanks to a clever flapping motion and flight muscles that are both powerful and nimble. But the secret ingredient: the incredible fly brain.", "language": "en", "url": "https://www.ted.com/talks/michael_dickinson_how_a_fly_flies", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 111285971}, "podcast-low-en": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21896882}, "podcast-high": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 111274918}, "180k": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 21786805}, "64k": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7838923}, "1500k": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 174031274}, "450k": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 53885076}, "podcast-regular": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 54054979}, "950k": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 111304350}, "audio-podcast": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 9801459}, "podcast-light": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 7938336}, "320k": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 38571069}, "600k": {"uri": "https://download.ted.com/talks/MichaelDickinson_2013X-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 72104446}}}, "comments": {"count": 141, "id": 18221, "talk_id": 1674}, "slug": "michael_dickinson_how_a_fly_flies", "threadId": 18221, "talks": [{"event": "TEDxCaltech", "player_talks": [{"event": "TEDxCaltech", "slug": "michael_dickinson_how_a_fly_flies", "filmed": 1358467200, "targeting": {"event": "TEDxCaltech", "tag": "TEDx,animals,biology,biomechanics,brain,cognitive science,ecology,evolution,flight,insects,mind,nanoscale,neuroscience,physiology,science", "id": 1674, "talk": "michael_dickinson_how_a_fly_flies", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "How a fly flies", "postAdDuration": "0.83", "published": 1361538468, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/358f8320e4a3b2a9f21dc6ae0585b8ddc071c1a5_1600x1200.jpg?quality=89&w=600", "name": "Michael Dickinson: How a fly flies", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "nativeLanguage": "en", "tags": ["TEDx", "animals", "biology", "biomechanics", "brain", "cognitive science", "ecology", "evolution", "flight", "insects", "mind", "nanoscale", "neuroscience", "physiology", "science"], "speaker": "Michael Dickinson", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 955, "id": 1674, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/MichaelDickinson_2013X-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TEDxCaltech", "tag": "TEDx,animals,biology,biomechanics,brain,cognitive science,ecology,evolution,flight,insects,mind,nanoscale,neuroscience,physiology,science", "id": 1674, "talk": "michael_dickinson_how_a_fly_flies", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1674.json", "stream": "https://hls.ted.com/talks/1674.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTEDxCaltech%26id%3D1674%26tag%3DTEDx%2Canimals%2Cbiology%2Cbiomechanics%2Cbrain%2Ccognitive%2Bscience%2Cecology%2Cevolution%2Cflight%2Cinsects%2Cmind%2Cnanoscale%2Cneuroscience%2Cphysiology%2Cscience%26talk%3Dmichael_dickinson_how_a_fly_flies%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/michael_dickinson_how_a_fly_flies"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/358f8320e4a3b2a9f21dc6ae0585b8ddc071c1a5_1600x1200.jpg?q=50&w=15", "duration": 955, "id": 1674, "ratings": [{"count": 99, "id": 23, "name": "Jaw-dropping"}, {"count": 487, "id": 22, "name": "Fascinating"}, {"count": 366, "id": 8, "name": "Informative"}, {"count": 122, "id": 7, "name": "Funny"}, {"count": 39, "id": 24, "name": "Persuasive"}, {"count": 46, "id": 10, "name": "Inspiring"}, {"count": 99, "id": 9, "name": "Ingenious"}, {"count": 40, "id": 25, "name": "OK"}, {"count": 17, "id": 11, "name": "Longwinded"}, {"count": 44, "id": 1, "name": "Beautiful"}, {"count": 7, "id": 3, "name": "Courageous"}, {"count": 14, "id": 2, "name": "Confusing"}, {"count": 6, "id": 26, "name": "Obnoxious"}, {"count": 6, "id": 21, "name": "Unconvincing"}], "speakers": [{"description": "Biologist", "firstname": "Michael", "title": "", "lastname": "Dickinson", "middleinitial": "", "whylisten": "        <p>Some things are so commonplace that they barely register our attention. Michael Dickinson has dedicated much of his research to one such thing -- the flight of the fly. Dickinson aims to understand how a fly&#39;s nervous system allows it to accomplish such incredible aerodynamic feats. Affectionately dubbed the &quot;Fly Guy&quot; by&nbsp;<a href=\\"http://www.the-scientist.com/?articles.view/articleNo/32422/title/Fly-Guy/\\" target=\\"_blank\\">The Scientist</a>, Dickinson&#39;s research brings together zoology, neuroscience and fluid mechanics.</p> <p>Dickinson was named a MacArthur Fellow in 2001. He is now a professor of biology at the University of Washington, where he heads The Dickinson Lab. The lab conducts research into insect flight control, animal brain recordings, animal/robot interactions and animal visual navigation and welcomes students with an interest in studying insect flight, behavior and evolution from an interdisciplinary approach perspective.&nbsp;</p>", "slug": "michael_dickinson", "whotheyare": "Most people are irritated by the buzzing of a fly\'s wings. But biologist Michael Dickinson views the sound with a deep sense of wonder.", "whatotherssay": "While fleeing a rolled-up newspaper, the [fly] can change course in as little as 30 thousandths of a second. Now Prof Michael Dickinson ..., who has spent two decades studying flies, announces that their ability to escape is all down to quick thinking.", "id": 1551, "photo_url": "https://pe.tedcdn.com/images/ted/4783f0841cf282d6585078778b7ae626728c967b_254x191.jpg"}], "title": "How a fly flies", "take_action": null, "comments": 18221, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/358f8320e4a3b2a9f21dc6ae0585b8ddc071c1a5_1600x1200.jpg", "description": "An insect\'s ability to fly is one of the greatest feats of evolution. Michael Dickinson looks at how a fruit fly takes flight with such delicate wings, thanks to a clever flapping motion and flight muscles that are both powerful and nimble. But the secret ingredient: the incredible fly brain.", "tags": ["TEDx", "animals", "biology", "biomechanics", "brain", "cognitive science", "ecology", "evolution", "flight", "insects", "mind", "nanoscale", "neuroscience", "physiology", "science"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "hu", "endonym": "Magyar", "isRtl": false, "ianaCode": "hu", "languageName": "Hungarian"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "mk", "endonym": "\\u043c\\u0430\\u043a\\u0435\\u0434\\u043e\\u043d\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "mk", "languageName": "Macedonian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sr", "endonym": "\\u0421\\u0440\\u043f\\u0441\\u043a\\u0438, Srpski", "isRtl": false, "ianaCode": "sr", "languageName": "Serbian"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "sv", "endonym": "Svenska", "isRtl": false, "ianaCode": "sv", "languageName": "Swedish"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "vi", "endonym": "Ti\\u1ebfng Vi\\u1ec7t", "isRtl": false, "ianaCode": "vi", "languageName": "Vietnamese"}], "subtitledDownloads": {"en": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-en.mp4"}, "vi": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-vi.mp4", "name": "Vietnamese", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-vi.mp4"}, "it": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-tr.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-zh-cn.mp4"}, "ro": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-fr.mp4"}, "de": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-de.mp4"}, "hu": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-hu.mp4", "name": "Hungarian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-hu.mp4"}, "fa": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-he.mp4"}, "sr": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-sr.mp4", "name": "Serbian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-sr.mp4"}, "ko": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-ko.mp4"}, "sv": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-sv.mp4", "name": "Swedish", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-sv.mp4"}, "mk": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p-mk.mp4", "name": "Macedonian", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-low-mk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/MichaelDickinson_2013X-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/MichaelDickinson_2013X.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/MichaelDickinson_2013X-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1674, "audioDownload": "https://download.ted.com/talks/MichaelDickinson_2013X.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1010792, "hero": "https://pe.tedcdn.com/images/ted/ff1914f53b83583bf5f2155fb3f9eb95050c2769_1600x1200.jpg", "title": "The dance of the dung beetle", "id": 1628, "speaker": "Marcus Byrne", "duration": 1028, "slug": "marcus_byrne_the_dance_of_the_dung_beetle"}, {"viewed_count": 595920, "hero": "https://pe.tedcdn.com/images/ted/61938_800x600.jpg", "title": "A plea for bees", "id": 416, "speaker": "Dennis vanEngelsdorp", "duration": 988, "slug": "dennis_vanengelsdorp_a_plea_for_bees"}, {"viewed_count": 972218, "hero": "https://pe.tedcdn.com/images/ted/2854d72e190989e1620e6512645f70e83ea67887_2400x1800.jpg", "title": "The loves and lies of fireflies", "id": 2001, "speaker": "Sara Lewis", "duration": 831, "slug": "sara_lewis_the_loves_and_lies_of_fireflies"}, {"viewed_count": 614048, "hero": "https://pe.tedcdn.com/images/ted/51f652b9ff6854867d1d7abb2683caf1d8dd22fb_800x600.jpg", "title": "Re-engineering the brain", "id": 1000, "speaker": "Gero Miesenboeck", "duration": 1054, "slug": "gero_miesenboeck"}, {"viewed_count": 948457, "hero": "https://pe.tedcdn.com/images/ted/202580_800x600.jpg", "title": "I am my connectome", "id": 967, "speaker": "Sebastian Seung", "duration": 1165, "slug": "sebastian_seung"}, {"viewed_count": 1948209, "hero": "https://pe.tedcdn.com/images/ted/138921_800x600.jpg", "title": "The neurons that shaped civilization", "id": 724, "speaker": "Vilayanur Ramachandran", "duration": 463, "slug": "vs_ramachandran_the_neurons_that_shaped_civilization"}], "recorded_at": "2013-01-18T00:00:00.000+00:00", "slug": "michael_dickinson_how_a_fly_flies", "speaker_name": "Michael Dickinson", "viewed_count": 1582316, "event_badge": null, "event_blurb": "This talk was presented to a local audience at TEDxCaltech, an independent event. TED editors featured it among our selections on the home page.", "recommendations": null, "corrections": null}], "event": "TEDxCaltech", "name": "Michael Dickinson: How a fly flies"}'
+p388
+sS'keywords'
+p389
+(lp390
+VTEDx
+p391
+aVanimals
+p392
+aVbiology
+p393
+aVbiomechanics
+p394
+aVbrain
+p395
+aVcognitive science
+p396
+aVecology
+p397
+aVevolution
+p398
+aVflight
+p399
+aVinsects
+p400
+aVmind
+p401
+aVnanoscale
+p402
+aVneuroscience
+p403
+aVphysiology
+p404
+aVscience
+p405
+asS'datecrawled'
+p406
+g383
+(S'\x07\xe1\n\x17\x01$\x0b\x07\xb7\xe9'
+tRp407
+sS'id'
+p408
+I1674
+ss.

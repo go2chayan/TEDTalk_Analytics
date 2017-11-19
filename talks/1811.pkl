@@ -1,0 +1,910 @@
+(dp1
+S'talk_transcript'
+p2
+(lp3
+(lp4
+VAh yes, those university days,
+p5
+aVa heady mix of Ph.D-level pure mathematics
+p6
+aVand world debating championships,
+p7
+aVor, as I like to say, "Hello, ladies. Oh yeah."
+p8
+aVDidn't get much sexier than the Spence
+p9
+aVat university, let me tell you.
+p10
+aa(lp11
+VIt is such a thrill for a humble breakfast radio announcer
+p12
+aVfrom Sydney, Australia, to be here on the TED stage
+p13
+aVliterally on the other side of the world.
+p14
+aVAnd I wanted to let you know, a lot of the things you've heard
+p15
+aVabout Australians are true.
+p16
+aVFrom the youngest of ages, we display
+p17
+aVa prodigious sporting talent.
+p18
+aVOn the field of battle, we are brave and noble warriors.
+p19
+aVWhat you've heard is true.
+p20
+aVAustralians, we don't mind a bit of a drink,
+p21
+aVsometimes to excess, leading to embarrassing social situations. (Laughter)
+p22
+aVThis is my father's work Christmas party, December 1973.
+p23
+aVI'm almost five years old. Fair to say,
+p24
+aVI'm enjoying the day a lot more than Santa was.
+p25
+aa(lp26
+VBut I stand before you today
+p27
+aVnot as a breakfast radio host,
+p28
+aVnot as a comedian, but as someone who was, is,
+p29
+aVand always will be a mathematician.
+p30
+aVAnd anyone who's been bitten by the numbers bug
+p31
+aVknows that it bites early and it bites deep.
+p32
+aa(lp33
+VI cast my mind back when I was in second grade
+p34
+aVat a beautiful little government-run school
+p35
+aVcalled Boronia Park in the suburbs of Sydney,
+p36
+aVand as we came up towards lunchtime, our teacher,
+p37
+aVMs. Russell, said to the class,
+p38
+aV"Hey, year two. What do you want to do after lunch?
+p39
+aVI've got no plans."
+p40
+aVIt was an exercise in democratic schooling,
+p41
+aVand I am all for democratic schooling, but we were only seven.
+p42
+aVSo some of the suggestions we made as to what
+p43
+aVwe might want to do after lunch were a little bit impractical,
+p44
+aVand after a while, someone made a particularly silly suggestion
+p45
+aVand Ms. Russell patted them down with that gentle aphorism,
+p46
+aV"That wouldn't work.
+p47
+aVThat'd be like trying to put a square peg through a round hole."
+p48
+aa(lp49
+VNow I wasn't trying to be smart.
+p50
+aVI wasn't trying to be funny.
+p51
+aVI just politely raised my hand,
+p52
+aVand when Ms. Russell acknowledged me, I said,
+p53
+aVin front of my year two classmates, and I quote,
+p54
+aV"But Miss,
+p55
+aVsurely if the diagonal of the square
+p56
+aVis less than the diameter of the circle,
+p57
+aVwell, the square peg will pass quite easily through the round hole."
+p58
+aV(Laughter)
+p59
+aV"It'd be like putting a piece of toast through a basketball hoop, wouldn't it?"
+p60
+aa(lp61
+VAnd there was that same awkward silence
+p62
+aVfrom most of my classmates,
+p63
+aVuntil sitting next to me, one of my friends,
+p64
+aVone of the cool kids in class, Steven, leaned across
+p65
+aVand punched me really hard in the head.
+p66
+aV(Laughter)
+p67
+aVNow what Steven was saying was, "Look, Adam,
+p68
+aVyou are at a critical juncture in your life here, my friend.
+p69
+aVYou can keep sitting here with us.
+p70
+aVAny more of that sort of talk, you've got to go and sit
+p71
+aVover there with them."
+p72
+aa(lp73
+VI thought about it for a nanosecond.
+p74
+aVI took one look at the road map of life,
+p75
+aVand I ran off down the street marked "Geek"
+p76
+aVas fast as my chubby, asthmatic little legs would carry me.
+p77
+aa(lp78
+VI fell in love with mathematics from the earliest of ages.
+p79
+aVI explained it to all my friends. Maths is beautiful.
+p80
+aVIt's natural. It's everywhere.
+p81
+aVNumbers are the musical notes
+p82
+aVwith which the symphony of the universe is written.
+p83
+aVThe great Descartes said something quite similar.
+p84
+aVThe universe "is written in the mathematical language."
+p85
+aVAnd today, I want to show you one of those musical notes,
+p86
+aVa number so beautiful, so massive,
+p87
+aVI think it will blow your mind.
+p88
+aa(lp89
+VToday we're going to talk about prime numbers.
+p90
+aVMost of you I'm sure remember that six is not prime
+p91
+aVbecause it's 2 x 3.
+p92
+aVSeven is prime because it's 1 x 7,
+p93
+aVbut we can't break it down into any smaller chunks,
+p94
+aVor as we call them, factors.
+p95
+aVNow a few things you might like to know about prime numbers.
+p96
+aVOne is not prime.
+p97
+aVThe proof of that is a great party trick
+p98
+aVthat admittedly only works at certain parties.
+p99
+aa(lp100
+V(Laughter)
+p101
+aa(lp102
+VAnother thing about primes, there is no final biggest prime number.
+p103
+aVThey keep going on forever.
+p104
+aVWe know there are an infinite number of primes
+p105
+aVdue to the brilliant mathematician Euclid.
+p106
+aVOver thousands of years ago, he proved that for us.
+p107
+aVBut the third thing about prime numbers,
+p108
+aVmathematicians have always wondered,
+p109
+aVwell at any given moment in time,
+p110
+aVwhat is the biggest prime that we know about?
+p111
+aa(lp112
+VToday we're going to hunt for that massive prime.
+p113
+aVDon't freak out.
+p114
+aVAll you need to know, of all the mathematics
+p115
+aVyou've ever learned, unlearned, crammed, forgotten,
+p116
+aVnever understood in the first place,
+p117
+aVall you need to know is this:
+p118
+aVWhen I say 2 ^ 5,
+p119
+aVI'm talking about five little number twos next to each other
+p120
+aVall multiplied together,
+p121
+aV2 x 2 x 2 x 2 x 2.
+p122
+aVSo 2 ^ 5 is 2 x 2 = 4,
+p123
+aV8, 16, 32.
+p124
+aVIf you've got that, you're with me for the entire journey. Okay?
+p125
+aVSo 2 ^ 5,
+p126
+aVthose five little twos multiplied together.
+p127
+aV(2 ^ 5) - 1 = 31.
+p128
+aV31 is a prime number, and that five in the power
+p129
+aVis also a prime number.
+p130
+aVAnd the vast bulk of massive primes we've ever found
+p131
+aVare of that form:
+p132
+aVtwo to a prime number, take away one.
+p133
+aVI won't go into great detail as to why,
+p134
+aVbecause most of your eyes will bleed out of your head if I do,
+p135
+aVbut suffice to say, a number of that form
+p136
+aVis fairly easy to test for primacy.
+p137
+aVA random odd number is a lot harder to test.
+p138
+aVBut as soon as we go hunting for massive primes,
+p139
+aVwe realize it's not enough
+p140
+aVjust to put in any prime number in the power.
+p141
+aV(2 ^ 11) - 1 = 2,047,
+p142
+aVand you don't need me to tell you that's 23 x 89.
+p143
+aV(Laughter)
+p144
+aVBut (2 ^ 13) - 1, (2 ^ 17) - 1
+p145
+aV(2 ^ 19) - 1, are all prime numbers.
+p146
+aVAfter that point, they thin out a lot.
+p147
+aa(lp148
+VAnd one of the things about the search for massive primes
+p149
+aVthat I love so much is some of the great mathematical minds
+p150
+aVof all time have gone on this search.
+p151
+aVThis is the great Swiss mathematician Leonhard Euler.
+p152
+aVIn the 1700s, other mathematicians said
+p153
+aVhe is simply the master of us all.
+p154
+aVHe was so respected, they put him on European currency
+p155
+aVback when that was a compliment.
+p156
+aa(lp157
+V(Laughter)
+p158
+aa(lp159
+VEuler discovered at the time the world's biggest prime:
+p160
+aV(2 ^ 31) - 1.
+p161
+aVIt's over two billion.
+p162
+aVHe proved it was prime with nothing more
+p163
+aVthan a quill, ink, paper and his mind.
+p164
+aa(lp165
+VYou think that's big.
+p166
+aVWe know that (2 ^ 127) - 1
+p167
+aVis a prime number.
+p168
+aVIt's an absolute brute.
+p169
+aVLook at it here: 39 digits long,
+p170
+aVproven to be prime in 1876
+p171
+aVby a mathematician called Lucas.
+p172
+aVWord up, L-Dog.
+p173
+aa(lp174
+V(Laughter)
+p175
+aa(lp176
+VBut one of the great things about the search for massive primes,
+p177
+aVit's not just finding the primes.
+p178
+aVSometimes proving another number not to be prime is just as exciting.
+p179
+aVLucas again, in 1876, showed us (2 ^ 67) - 1,
+p180
+aV21 digits long, was not prime.
+p181
+aVBut he didn't know what the factors were.
+p182
+aVWe knew it was like six, but we didn't know
+p183
+aVwhat are the 2 x 3 that multiply together
+p184
+aVto give us that massive number.
+p185
+aa(lp186
+VWe didn't know for almost 40 years
+p187
+aVuntil Frank Nelson Cole came along.
+p188
+aVAnd at a gathering of prestigious American mathematicians,
+p189
+aVhe walked to the board, took up a piece of chalk,
+p190
+aVand started writing out the powers of two:
+p191
+aVtwo, four, eight, 16 \u2014
+p192
+aVcome on, join in with me, you know how it goes \u2014
+p193
+aV32, 64, 128, 256,
+p194
+aV512, 1,024, 2,048.
+p195
+aVI'm in geek heaven. We'll stop it there for a second.
+p196
+aVFrank Nelson Cole did not stop there.
+p197
+aVHe went on and on
+p198
+aVand calculated 67 powers of two.
+p199
+aVHe took away one and wrote that number on the board.
+p200
+aVA frisson of excitement went around the room.
+p201
+aVIt got even more exciting when he then wrote down
+p202
+aVthese two large prime numbers in your standard multiplication format \u2014
+p203
+aVand for the rest of the hour of his talk
+p204
+aVFrank Nelson Cole busted that out.
+p205
+aVHe had found the prime factors
+p206
+aVof (2 ^ 67) - 1.
+p207
+aVThe room went berserk \u2014
+p208
+aV(Laughter) \u2014
+p209
+aVas Frank Nelson Cole sat down,
+p210
+aVhaving delivered the only talk in the history of mathematics
+p211
+aVwith no words.
+p212
+aVHe admitted afterwards it wasn't that hard to do.
+p213
+aVIt took focus. It took dedication.
+p214
+aVIt took him, by his estimate,
+p215
+aV"three years of Sundays."
+p216
+aa(lp217
+VBut then in the field of mathematics,
+p218
+aVas in so many of the fields that we've heard from in this TED,
+p219
+aVthe age of the computer goes along and things explode.
+p220
+aVThese are the largest prime numbers we knew
+p221
+aVdecade by decade, each one dwarfing the one before
+p222
+aVas computers took over and our power to calculate
+p223
+aVjust grew and grew.
+p224
+aa(lp225
+VThis is the largest prime number we knew in 1996,
+p226
+aVa very emotional year for me.
+p227
+aVIt was the year I left university.
+p228
+aVI was torn between mathematics and media.
+p229
+aVIt was a tough decision. I loved university.
+p230
+aVMy arts degree was the best nine and a half years of my life.
+p231
+aa(lp232
+V(Laughter)
+p233
+aa(lp234
+VBut I came to a realization about my own ability.
+p235
+aVPut simply, in a room full of randomly selected people,
+p236
+aVI'm a maths genius.
+p237
+aVIn a roomful of maths Ph.Ds,
+p238
+aVI'm as dumb as a box of hammers.
+p239
+aVMy skill is not in the mathematics.
+p240
+aVIt is in telling the story of the mathematics.
+p241
+aa(lp242
+VAnd during that time, since I've left university,
+p243
+aVthese numbers have got bigger and bigger,
+p244
+aVeach one dwarfing the last,
+p245
+aVuntil along came this man, Dr. Curtis Cooper,
+p246
+aVwho a few years ago held the record for the largest ever prime,
+p247
+aVonly to see it snatched away by a rival university.
+p248
+aVAnd then Curtis Cooper got it back.
+p249
+aVNot years ago, not months ago, days ago.
+p250
+aVIn an amazing moment of serendipity,
+p251
+aVI had to send TED a new slide
+p252
+aVto show you what this guy had done.
+p253
+aa(lp254
+VI still remember \u2014 (Applause) \u2014
+p255
+aVI still remember when it happened.
+p256
+aVI was doing my breakfast radio show.
+p257
+aVI looked down on Twitter. There was a tweet:
+p258
+aV"Adam, have you seen the new largest prime number?"
+p259
+aVI shivered \u2014
+p260
+aV(Laughter) \u2014
+p261
+aVcontacted the women who produced my radio show out in the other room,
+p262
+aVand said "Girls, hold the front page.
+p263
+aVWe're not talking politics today.
+p264
+aVWe're not talking sport today.
+p265
+aVThey found another megaprime."
+p266
+aVThe girls just shook their heads,
+p267
+aVput them in their hands, and let me go my own way.
+p268
+aa(lp269
+VIt's because of Curtis Cooper that we know,
+p270
+aVcurrently the largest prime number we know,
+p271
+aVis 2 ^ 57,885,161.
+p272
+aVDon't forget to subtract the one.
+p273
+aVThis number is almost 17 and a half million digits long.
+p274
+aVIf you typed it out on a computer and saved it as a text file,
+p275
+aVthat's 22 meg.
+p276
+aVFor the slightly less geeky of you,
+p277
+aVthink about the Harry Potter novels, okay?
+p278
+aVThis is the first Harry Potter novel.
+p279
+aVThis is all seven Harry Potter novels,
+p280
+aVbecause she did tend to faff on a bit near the end.
+p281
+aV(Laughter)
+p282
+aVWritten out as a book, this number would run
+p283
+aVthe length of the Harry Potter novels and half again.
+p284
+aVHere's a slide of the first 1,000 digits of this prime.
+p285
+aVIf, when TED had begun, at 11 o'clock on Tuesday,
+p286
+aVwe'd walked out and simply hit one slide every second,
+p287
+aVit would have taken five hours to show you that number.
+p288
+aVI was keen to do it, could not convince Bono.
+p289
+aVThat's the way it goes.
+p290
+aa(lp291
+VThis number is 17 and a half thousand slides long,
+p292
+aVand we know it is prime as confidently
+p293
+aVas we know the number seven is prime.
+p294
+aVThat fills me with almost sexual excitement.
+p295
+aVAnd who am I kidding when I say almost?
+p296
+aa(lp297
+V(Laughter)
+p298
+aa(lp299
+VI know what you're thinking:
+p300
+aVAdam, we're happy that you're happy,
+p301
+aVbut why should we care?
+p302
+aVLet me give you just three reasons why this is so beautiful.
+p303
+aa(lp304
+VFirst of all, as I explained, to ask a computer
+p305
+aV"Is that number prime?" to type it in its abbreviated form,
+p306
+aVand then only about six lines of code is the test for primacy,
+p307
+aVis a remarkably simple question to ask.
+p308
+aVIt's got a remarkably clear yes/no answer,
+p309
+aVand just requires phenomenal grunt.
+p310
+aVLarge prime numbers are a great way of testing
+p311
+aVthe speed and accuracy of computer chips.
+p312
+aa(lp313
+VBut secondly, as Curtis Cooper was looking for that monster prime,
+p314
+aVhe wasn't the only guy searching.
+p315
+aVMy laptop at home was looking through
+p316
+aVfour potential candidate primes myself
+p317
+aVas part of a networked computer hunt around the world
+p318
+aVfor these large numbers.
+p319
+aVThe discovery of that prime is similar to the work
+p320
+aVpeople are doing in unraveling RNA sequences,
+p321
+aVin searching through data from SETI and other astronomical projects.
+p322
+aVWe live in an age where some of the great breakthroughs
+p323
+aVare not going to happen in the labs or the halls of academia
+p324
+aVbut on laptops, desktops,
+p325
+aVin the palms of people's hands
+p326
+aVwho are simply helping out for the search.
+p327
+aa(lp328
+VBut for me it's amazing because it's a metaphor
+p329
+aVfor the time in which we live,
+p330
+aVwhen human minds and machines can conquer together.
+p331
+aVWe've heard a lot about robots in this TED.
+p332
+aVWe've heard a lot about what they can and can't do.
+p333
+aVIt is true, you can now download onto your smartphone
+p334
+aVan app that would beat most grandmasters at chess.
+p335
+aa(lp336
+VYou think that's cool.
+p337
+aVHere's a machine doing something cool.
+p338
+aVThis is the CubeStormer II.
+p339
+aVIt can take a randomly shuffled Rubik's Cube.
+p340
+aVUsing the power of the smartphone,
+p341
+aVit can examine the cube and solve the cube
+p342
+aVin five seconds.
+p343
+aa(lp344
+V(Applause)
+p345
+aa(lp346
+VThat scares some people. That excites me.
+p347
+aVHow lucky are we to live in this age
+p348
+aVwhen mind and machine can work together?
+p349
+aa(lp350
+VI was asked in an interview last year in my capacity
+p351
+aVas a lower-case "c" celebrity in Australia,
+p352
+aV"What was your highlight of 2012?"
+p353
+aVPeople were expecting me to talk about
+p354
+aVmy beloved Sydney Swans football team.
+p355
+aVIn our beautiful, indigenous sport of Australian football,
+p356
+aVthey won the equivalent of the Super Bowl.
+p357
+aVI was there. It was the most emotional, exciting day.
+p358
+aVIt wasn't my highlight of 2012.
+p359
+aVPeople thought it might have been an interview I'd done on my show.
+p360
+aVIt might have been a politician. It might have been a breakthrough.
+p361
+aVIt might have been a book I read, the arts. No, no, no.
+p362
+aVIt might have been something my two gorgeous daughters had done.
+p363
+aVNo, it wasn't. The highlight of 2012, so clearly,
+p364
+aVwas the discovery of the Higgs boson.
+p365
+aVGive it up for the fundamental particle
+p366
+aVthat bequeaths all other fundamental particles their mass.
+p367
+aa(lp368
+V(Applause)
+p369
+aa(lp370
+VAnd what was so gorgeous about this discovery was
+p371
+aV50 years ago Peter Higgs and his team
+p372
+aVconsidered one of the deepest of all questions:
+p373
+aVHow is it that the things that make us up have no mass?
+p374
+aVI've clearly got mass. Where does it come from?
+p375
+aVAnd he postulated a suggestion
+p376
+aVthat there's this infinite, incredibly small field
+p377
+aVstretching throughout the universe,
+p378
+aVand as other particles go through those particles
+p379
+aVand interact, that's where they get their mass.
+p380
+aVThe rest of the scientific community said,
+p381
+aV"Great idea, Higgsy.
+p382
+aVWe've got no idea if we could ever prove it.
+p383
+aVIt's beyond our reach."
+p384
+aVAnd within just 50 years,
+p385
+aVin his lifetime, with him sitting in the audience,
+p386
+aVwe had designed the greatest machine ever
+p387
+aVto prove this incredible idea
+p388
+aVthat originated just in a human mind.
+p389
+aa(lp390
+VThat's what is so exciting for me about this prime number.
+p391
+aVWe thought it might be there,
+p392
+aVand we went and found it.
+p393
+aVThat is the essence of being human.
+p394
+aVThat is what we are all about.
+p395
+aVOr as my friend Descartes might put it,
+p396
+aVwe think,
+p397
+aVtherefore we are.
+p398
+aa(lp399
+VThank you.
+p400
+aa(lp401
+V(Applause)
+p402
+aasS'transcript_micsec'
+p403
+(lp404
+I11000
+aI29000
+aI70000
+aI88000
+aI127000
+aI159000
+aI184000
+aI199000
+aI231000
+aI259000
+aI262000
+aI282000
+aI384000
+aI406000
+aI411000
+aI424000
+aI443000
+aI444000
+aI469000
+aI557000
+aI578000
+aI594000
+aI596000
+aI617000
+aI652000
+aI679000
+aI753000
+aI773000
+aI776000
+aI788000
+aI811000
+aI846000
+aI865000
+aI888000
+aI891000
+aI902000
+aI945000
+aI946000
+aI1002000
+aI1023000
+aI1024000
+asS'talk_meta'
+p405
+(dp406
+S'ratings'
+p407
+(dp408
+S'ingenious'
+p409
+I118
+sS'funny'
+p410
+I527
+sS'inspiring'
+p411
+I340
+sS'ok'
+p412
+I50
+sS'fascinating'
+p413
+I505
+sS'total_count'
+p414
+I2160
+sS'persuasive'
+p415
+I56
+sS'longwinded'
+p416
+I14
+sS'informative'
+p417
+I287
+sS'beautiful'
+p418
+I124
+sS'jaw-dropping'
+p419
+I100
+sS'obnoxious'
+p420
+I7
+sS'confusing'
+p421
+I10
+sS'courageous'
+p422
+I11
+sS'unconvincing'
+p423
+I11
+ssS'author'
+p424
+VAdam_Spencer;
+p425
+sS'url'
+p426
+S'https://www.ted.com/talks/adam_spencer_why_i_fell_in_love_with_monster_prime_numbers'
+p427
+sS'vidlen'
+p428
+I1037
+sS'totalviews'
+p429
+I2022910
+sS'title'
+p430
+VWhy I fell in love with monster prime numbers
+p431
+sS'downloadlink'
+p432
+Vhttps://download.ted.com/talks/AdamSpencer_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22
+p433
+sS'datepublished'
+p434
+cdatetime
+datetime
+p435
+(S'\x07\xdd\t\x03\x0b\x07.\x00\x00\x00'
+tRp436
+sS'datefilmed'
+p437
+g435
+(S'\x07\xdd\t\x03\x0b\x07.\x00\x00\x00'
+tRp438
+sS'alldata_JSON'
+p439
+S'{"viewed_count": 2022910, "speakers": [{"description": "Science communicator", "firstname": "Adam", "title": "", "lastname": "Spencer", "middleinitial": "", "whylisten": "<p>Adam Spencer is the breakfast host on <a href=\\"http://www.abc.net.au/sydney/\\" target=\\"_blank\\">702 ABC Sydney</a>, the most listened-to talk show in Australia&#39;s biggest and most competitive market -- but (or maybe because) in between the usual fare of weather, traffic and local politics he weaves a spell of science, mathematics and general nerdery. Really! In a radio landscape dominated by shock jocks and morning zoos, he plays eclectic tunes, talks math, and never misses the chance to interview a Nobel Prize winner. Which is unsurprising once you find out that this former world debating champion had actually started on a PhD in Pure Mathematics before he began dabbling in improv comedy, which eventually led to his media career.</p><p>&quot;Numbers,&quot; he says, &quot;are the musical notes with which the symphony of the universe is played.&quot;</p><p>Watch Adam&#39;s <a href=\\"http://www.youtube.com/watch?v=RQb7g1L6JnI\\" target=\\"_blank\\">promo video</a>  for this talk -- and follow the hashtag <a href=\\"https://twitter.com/search?q=%23PrimePush&amp;src=typd&amp;mode=realtime\\" target=\\"_blank\\">#PrimePush</a>.</p>", "slug": "adam_spencer", "whotheyare": "Radio host Adam Spencer fills Sydney\'s drive-time mornings with smart math and science talk.", "whatotherssay": "It\'s people like this that give maths the respect it deserves so all can enjoy.", "id": 1492, "photo_url": "https://pe.tedcdn.com/images/ted/82114afc70e4a5c27fd3908d40afcc9459a9e829_254x191.jpg"}], "current_talk": 1811, "description": "They\'re millions of digits long, and it takes an army of mathematicians and machines to hunt them down -- what\'s not to love about monster primes? Adam Spencer, comedian and lifelong math geek, shares his passion for these odd numbers, and for the mysterious magic of math.", "language": "en", "url": "https://www.ted.com/talks/adam_spencer_why_i_fell_in_love_with_monster_prime_numbers", "media": {"internal": {"podcast-high-en": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-480p-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120552384}, "podcast-low-en": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-low-en.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23834621}, "podcast-high": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120548314}, "180k": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-180k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 23585677}, "64k": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-64k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8495674}, "1500k": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-1500k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 188152619}, "450k": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-450k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58800071}, "podcast-regular": {"uri": "https://download.ted.com/talks/AdamSpencer_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 58915331}, "950k": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-950k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 120538412}, "audio-podcast": {"uri": "https://download.ted.com/talks/AdamSpencer_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "audio/mp3", "filesize_bytes": 10615163}, "podcast-light": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 8629158}, "320k": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-320k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 41776197}, "600k": {"uri": "https://download.ted.com/talks/AdamSpencer_2013-600k.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "mime_type": "video/mp4", "filesize_bytes": 78601318}}}, "comments": {"count": 202, "id": 21847, "talk_id": 1811}, "slug": "adam_spencer_why_i_fell_in_love_with_monster_prime_numbers", "threadId": 21847, "talks": [{"event": "TED2013", "player_talks": [{"event": "TED2013", "slug": "adam_spencer_why_i_fell_in_love_with_monster_prime_numbers", "filmed": 1361923200, "targeting": {"event": "TED2013", "tag": "humor,math", "id": 1811, "talk": "adam_spencer_why_i_fell_in_love_with_monster_prime_numbers", "year": "2013"}, "adDuration": "3.33", "external": null, "title": "Why I fell in love with monster prime numbers", "postAdDuration": "0.83", "published": 1378220866, "thumb": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/65ee8a1f72e612d4af2d625d050077f18248a33b_1600x1200.jpg?quality=89&w=600", "name": "Adam Spencer: Why I fell in love with monster prime numbers", "languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}], "nativeLanguage": "en", "tags": ["humor", "math"], "speaker": "Adam Spencer", "isSubtitleRequired": false, "introDuration": 11.82, "duration": 1037, "id": 1811, "resources": {"h264": [{"bitrate": 320, "file": "https://download.ted.com/talks/AdamSpencer_2013-320k.mp4?dnt"}], "hls": {"maiTargeting": {"event": "TED2013", "tag": "humor,math", "id": 1811, "talk": "adam_spencer_why_i_fell_in_love_with_monster_prime_numbers", "year": "2013"}, "metadata": "https://hls.ted.com/talks/1811.json", "stream": "https://hls.ted.com/talks/1811.m3u8", "adUrl": "https://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%2C512x288%2C120x60%2C320x50%2C6x7%2C6x8&correlator=%5Bcorrelator%5D&cust_params=event%3DTED2013%26id%3D1811%26tag%3Dhumor%2Cmath%26talk%3Dadam_spencer_why_i_fell_in_love_with_monster_prime_numbers%26year%3D2013&env=vp&gdfp_req=1&impl=s&iu=%2F5641%2Fmobile%2Fios%2Fweb&output=xml_vast2&sz=640x360&unviewed_position_start=1&url=%5Breferrer%5D"}}, "canonical": "https://www.ted.com/talks/adam_spencer_why_i_fell_in_love_with_monster_prime_numbers"}], "hero_load": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/65ee8a1f72e612d4af2d625d050077f18248a33b_1600x1200.jpg?q=50&w=15", "duration": 1037, "id": 1811, "ratings": [{"count": 527, "id": 7, "name": "Funny"}, {"count": 287, "id": 8, "name": "Informative"}, {"count": 505, "id": 22, "name": "Fascinating"}, {"count": 100, "id": 23, "name": "Jaw-dropping"}, {"count": 340, "id": 10, "name": "Inspiring"}, {"count": 118, "id": 9, "name": "Ingenious"}, {"count": 124, "id": 1, "name": "Beautiful"}, {"count": 56, "id": 24, "name": "Persuasive"}, {"count": 14, "id": 11, "name": "Longwinded"}, {"count": 11, "id": 3, "name": "Courageous"}, {"count": 11, "id": 21, "name": "Unconvincing"}, {"count": 50, "id": 25, "name": "OK"}, {"count": 10, "id": 2, "name": "Confusing"}, {"count": 7, "id": 26, "name": "Obnoxious"}], "speakers": [{"description": "Science communicator", "firstname": "Adam", "title": "", "lastname": "Spencer", "middleinitial": "", "whylisten": "<p>Adam Spencer is the breakfast host on <a href=\\"http://www.abc.net.au/sydney/\\" target=\\"_blank\\">702 ABC Sydney</a>, the most listened-to talk show in Australia&#39;s biggest and most competitive market -- but (or maybe because) in between the usual fare of weather, traffic and local politics he weaves a spell of science, mathematics and general nerdery. Really! In a radio landscape dominated by shock jocks and morning zoos, he plays eclectic tunes, talks math, and never misses the chance to interview a Nobel Prize winner. Which is unsurprising once you find out that this former world debating champion had actually started on a PhD in Pure Mathematics before he began dabbling in improv comedy, which eventually led to his media career.</p><p>&quot;Numbers,&quot; he says, &quot;are the musical notes with which the symphony of the universe is played.&quot;</p><p>Watch Adam&#39;s <a href=\\"http://www.youtube.com/watch?v=RQb7g1L6JnI\\" target=\\"_blank\\">promo video</a>  for this talk -- and follow the hashtag <a href=\\"https://twitter.com/search?q=%23PrimePush&amp;src=typd&amp;mode=realtime\\" target=\\"_blank\\">#PrimePush</a>.</p>", "slug": "adam_spencer", "whotheyare": "Radio host Adam Spencer fills Sydney\'s drive-time mornings with smart math and science talk.", "whatotherssay": "It\'s people like this that give maths the respect it deserves so all can enjoy.", "id": 1492, "photo_url": "https://pe.tedcdn.com/images/ted/82114afc70e4a5c27fd3908d40afcc9459a9e829_254x191.jpg"}], "title": "Why I fell in love with monster prime numbers", "take_action": null, "comments": 21847, "more_resources": null, "hero": "https://pe.tedcdn.com/images/ted/65ee8a1f72e612d4af2d625d050077f18248a33b_1600x1200.jpg", "description": "They\'re millions of digits long, and it takes an army of mathematicians and machines to hunt them down -- what\'s not to love about monster primes? Adam Spencer, comedian and lifelong math geek, shares his passion for these odd numbers, and for the mysterious magic of math.", "tags": ["humor", "math"], "downloads": {"languages": [{"languageCode": "ar", "endonym": "\\u0627\\u0644\\u0639\\u0631\\u0628\\u064a\\u0629", "isRtl": true, "ianaCode": "ar", "languageName": "Arabic"}, {"languageCode": "bg", "endonym": "\\u0431\\u044a\\u043b\\u0433\\u0430\\u0440\\u0441\\u043a\\u0438", "isRtl": false, "ianaCode": "bg", "languageName": "Bulgarian"}, {"languageCode": "zh-cn", "endonym": "\\u4e2d\\u6587 (\\u7b80\\u4f53)", "isRtl": false, "ianaCode": "zh-Hans", "languageName": "Chinese, Simplified"}, {"languageCode": "zh-tw", "endonym": "\\u4e2d\\u6587 (\\u7e41\\u9ad4)", "isRtl": false, "ianaCode": "zh-Hant", "languageName": "Chinese, Traditional"}, {"languageCode": "cs", "endonym": "\\u010ce\\u0161tina", "isRtl": false, "ianaCode": "cs", "languageName": "Czech"}, {"languageCode": "nl", "endonym": "Nederlands", "isRtl": false, "ianaCode": "nl", "languageName": "Dutch"}, {"languageCode": "en", "endonym": "English", "isRtl": false, "ianaCode": "en", "languageName": "English"}, {"languageCode": "fr", "endonym": "Fran\\u00e7ais", "isRtl": false, "ianaCode": "fr", "languageName": "French"}, {"languageCode": "fr-ca", "endonym": "Fran\\u00e7ais canadien", "isRtl": false, "ianaCode": "fr-CA", "languageName": "French (Canada)"}, {"languageCode": "de", "endonym": "Deutsch", "isRtl": false, "ianaCode": "de", "languageName": "German"}, {"languageCode": "el", "endonym": "\\u0395\\u03bb\\u03bb\\u03b7\\u03bd\\u03b9\\u03ba\\u03ac", "isRtl": false, "ianaCode": "el", "languageName": "Greek"}, {"languageCode": "he", "endonym": "\\u05e2\\u05d1\\u05e8\\u05d9\\u05ea", "isRtl": true, "ianaCode": "he", "languageName": "Hebrew"}, {"languageCode": "id", "endonym": "Bahasa Indonesia", "isRtl": false, "ianaCode": "id", "languageName": "Indonesian"}, {"languageCode": "it", "endonym": "Italiano", "isRtl": false, "ianaCode": "it", "languageName": "Italian"}, {"languageCode": "ja", "endonym": "\\u65e5\\u672c\\u8a9e", "isRtl": false, "ianaCode": "ja", "languageName": "Japanese"}, {"languageCode": "ko", "endonym": "\\ud55c\\uad6d\\uc5b4", "isRtl": false, "ianaCode": "ko", "languageName": "Korean"}, {"languageCode": "lv", "endonym": "Latvie\\u0161u", "isRtl": false, "ianaCode": "lv", "languageName": "Latvian"}, {"languageCode": "fa", "endonym": "\\u0641\\u0627\\u0631\\u0633\\u0649", "isRtl": true, "ianaCode": "fa", "languageName": "Persian"}, {"languageCode": "pl", "endonym": "Polski", "isRtl": false, "ianaCode": "pl", "languageName": "Polish"}, {"languageCode": "pt", "endonym": "Portugu\\u00eas de Portugal", "isRtl": false, "ianaCode": "pt", "languageName": "Portuguese"}, {"languageCode": "pt-br", "endonym": "Portugu\\u00eas brasileiro", "isRtl": false, "ianaCode": "pt-BR", "languageName": "Portuguese, Brazilian"}, {"languageCode": "ro", "endonym": "Rom\\u00e2n\\u0103", "isRtl": false, "ianaCode": "ro", "languageName": "Romanian"}, {"languageCode": "ru", "endonym": "\\u0420\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439", "isRtl": false, "ianaCode": "ru", "languageName": "Russian"}, {"languageCode": "sk", "endonym": "Sloven\\u010dina", "isRtl": false, "ianaCode": "sk", "languageName": "Slovak"}, {"languageCode": "es", "endonym": "Espa\\u00f1ol", "isRtl": false, "ianaCode": "es", "languageName": "Spanish"}, {"languageCode": "th", "endonym": "\\u0e20\\u0e32\\u0e29\\u0e32\\u0e44\\u0e17\\u0e22", "isRtl": false, "ianaCode": "th", "languageName": "Thai"}, {"languageCode": "tr", "endonym": "T\\u00fcrk\\u00e7e", "isRtl": false, "ianaCode": "tr", "languageName": "Turkish"}, {"languageCode": "uk", "endonym": "\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430", "isRtl": false, "ianaCode": "uk", "languageName": "Ukrainian"}], "subtitledDownloads": {"el": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-el.mp4", "name": "Greek", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-el.mp4"}, "en": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-en.mp4", "name": "English", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-en.mp4"}, "it": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-it.mp4", "name": "Italian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-it.mp4"}, "ar": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-ar.mp4", "name": "Arabic", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-ar.mp4"}, "pt-br": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-pt-br.mp4", "name": "Portuguese, Brazilian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-pt-br.mp4"}, "cs": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-cs.mp4", "name": "Czech", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-cs.mp4"}, "id": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-id.mp4", "name": "Indonesian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-id.mp4"}, "es": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-es.mp4", "name": "Spanish", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-es.mp4"}, "ru": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-ru.mp4", "name": "Russian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-ru.mp4"}, "nl": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-nl.mp4", "name": "Dutch", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-nl.mp4"}, "pt": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-pt.mp4", "name": "Portuguese", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-pt.mp4"}, "zh-tw": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-zh-tw.mp4", "name": "Chinese, Traditional", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-zh-tw.mp4"}, "tr": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-tr.mp4", "name": "Turkish", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-tr.mp4"}, "lv": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-lv.mp4", "name": "Latvian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-lv.mp4"}, "zh-cn": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-zh-cn.mp4", "name": "Chinese, Simplified", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-zh-cn.mp4"}, "th": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-th.mp4", "name": "Thai", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-th.mp4"}, "ro": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-ro.mp4", "name": "Romanian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-ro.mp4"}, "pl": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-pl.mp4", "name": "Polish", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-pl.mp4"}, "fr": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-fr.mp4", "name": "French", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-fr.mp4"}, "bg": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-bg.mp4", "name": "Bulgarian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-bg.mp4"}, "fr-ca": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-fr-ca.mp4", "name": "French (Canada)", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-fr-ca.mp4"}, "de": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-de.mp4", "name": "German", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-de.mp4"}, "fa": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-fa.mp4", "name": "Persian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-fa.mp4"}, "ja": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-ja.mp4", "name": "Japanese", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-ja.mp4"}, "he": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-he.mp4", "name": "Hebrew", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-he.mp4"}, "ko": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-ko.mp4", "name": "Korean", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-ko.mp4"}, "sk": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-sk.mp4", "name": "Slovak", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-sk.mp4"}, "uk": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p-uk.mp4", "name": "Ukrainian", "low": "https://download.ted.com/talks/AdamSpencer_2013-low-uk.mp4"}}, "nativeDownloads": {"high": "https://download.ted.com/talks/AdamSpencer_2013-480p.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "medium": "https://download.ted.com/talks/AdamSpencer_2013.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22", "low": "https://download.ted.com/talks/AdamSpencer_2013-light.mp4?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "id": 1811, "audioDownload": "https://download.ted.com/talks/AdamSpencer_2013.mp3?apikey=489b859150fc58263f17110eeb44ed5fba4a3b22"}, "related_talks": [{"viewed_count": 1014738, "hero": "https://pe.tedcdn.com/images/ted/126487_800x600.jpg", "title": "Symmetry, reality\'s riddle", "id": 670, "speaker": "Marcus du Sautoy", "duration": 1099, "slug": "marcus_du_sautoy_symmetry_reality_s_riddle"}, {"viewed_count": 1504150, "hero": "https://pe.tedcdn.com/images/ted/31e1e3ed75cd3ab7fc08818c5d6a78795d609824_800x600.jpg", "title": "Teaching kids real math with computers", "id": 1007, "speaker": "Conrad Wolfram", "duration": 1039, "slug": "conrad_wolfram_teaching_kids_real_math_with_computers"}, {"viewed_count": 1535688, "hero": "https://pe.tedcdn.com/images/ted/a32770a0e2b36504bd93d484e9f5814fb08975b2_2880x1620.jpg", "title": "The fractals at the heart of African designs", "id": 198, "speaker": "Ron Eglash", "duration": 1017, "slug": "ron_eglash_on_african_fractals"}, {"viewed_count": 1637573, "hero": "https://pe.tedcdn.com/images/ted/4d02262a103b0cb3723737ea154dd9f83ca37003_2880x1620.jpg", "title": "What\'s so sexy about math?", "id": 2518, "speaker": "C\\u00e9dric Villani", "duration": 983, "slug": "cedric_villani_what_s_so_sexy_about_math"}, {"viewed_count": 4429695, "hero": "https://pe.tedcdn.com/images/ted/f7a1545bc99cab07fd7400e3fb96312702955d9b_1600x1200.jpg", "title": "The magic of Fibonacci numbers", "id": 1862, "speaker": "Arthur Benjamin", "duration": 384, "slug": "arthur_benjamin_the_magic_of_fibonacci_numbers"}, {"viewed_count": 1744098, "hero": "https://pe.tedcdn.com/images/ted/4992208e156d7fa0de27c0affa357c6ada9dd230_2880x1620.jpg", "title": "The mathematician who cracked Wall Street", "id": 2323, "speaker": "Jim Simons", "duration": 1383, "slug": "jim_simons_a_rare_interview_with_the_mathematician_who_cracked_wall_street"}], "recorded_at": "2013-02-27T00:00:00.000+00:00", "slug": "adam_spencer_why_i_fell_in_love_with_monster_prime_numbers", "speaker_name": "Adam Spencer", "viewed_count": 2022910, "event_badge": null, "event_blurb": "This talk was presented at an official TED conference, and was featured by our editors on the home page.", "recommendations": null, "corrections": null}], "event": "TED2013", "name": "Adam Spencer: Why I fell in love with monster prime numbers"}'
+p440
+sS'keywords'
+p441
+(lp442
+Vhumor
+p443
+aVmath
+p444
+asS'datecrawled'
+p445
+g435
+(S'\x07\xe1\n\x17\x03:\x0b\x08\xdb\xae'
+tRp446
+sS'id'
+p447
+I1811
+ss.

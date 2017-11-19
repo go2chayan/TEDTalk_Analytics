@@ -1,20 +1,3 @@
-'''
-The goal of this module is to divide the ted talks in a number of
-"clusters" so that the mean of each cluster does not become a flat
-line. Instead, they should indicate some (storytelling) pattern.
-
-We'll try various clustering options, starting from the simplest 
-ones. A particularly interesting one is agglomerative clustering
-where we can specify connectivity constraints. LPP is also similar.
-Another interesting clustering approach would be to add constraints
-to push the mean away from the flat-zero. This is interesting in
-order to avoid the zero-mean phenomenon described in the following
-paper:
-http://www.cs.ucr.edu/~eamonn/meaningless.pdf
-
-Silhouette Coef. will be used to tune the model parameters. However,
-the ultimate evaluation metric is obviously the patterns of group mean.
-'''
 import csv
 from list_of_talks import all_valid_talks
 from ted_talk_sentiment import Sentiment_Comparator, read_bluemix
@@ -155,6 +138,7 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
         pvals = {}
         allvals = {}
         # Formulate a list of values for each rating
+        print
         print 'Reporting only the significant p-values'
         print '======================================='
         for akw in kwlist:
@@ -196,6 +180,7 @@ def draw_boxplots(pvals,allvals,s,comparator,outfilename=None):
         else:
             plt.savefig(outfilename+'boxplt_'+\
                 comparator.column_names[s]+'_'+akw+'.eps')
+            plt.close()
 
 def read_index(indexfile):
     # Read the content of the index file
@@ -242,6 +227,7 @@ def draw_clusters(avg_dict,column_names,fullyaxis=False,\
             split_fn = os.path.split(outfilename)
             plt.savefig(os.path.join(split_fn[0],column_names[i]+\
                 '_'+split_fn[1]))
+            plt.close()
     if not outfilename:
         plt.show()
 
@@ -308,6 +294,7 @@ def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,
             plt.show()
         else:
             plt.savefig(outfilename+'clust_'+ascore+'.eps')
+            plt.close()
 
 def decorate_axis(c,cols,rows,yval,avg_yval,txtlist,legendval,fig,
         toff=0.03,boff=0.015,loff=0.02,midoff=0.03,roff=0.005,txth=0.18):

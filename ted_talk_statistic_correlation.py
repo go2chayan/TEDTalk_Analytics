@@ -35,7 +35,6 @@ def plot_correlation(abs_ratcnt,infolder,
             'obnoxious','ok','persuasive','total_count','unconvincing']
     # Reading all the pickle files and enlisting required info
     for afile in alltalks:
-        print afile
         atalk=cp.load(open(infolder+afile,'rb'))
         # View count
         viewlst.append(atalk['talk_meta']['totalviews'])

@@ -15,7 +15,6 @@ def plot_statistics(infolder,outfolder):
     totlen,totratings,tottok,totsent = 0,0,0,0
     lenlst,viewlst,ratinglst,topratings,timealive,kwlst=[],[],{},{},[],[]
     for afile in alltalks:
-        print afile
         atalk=cp.load(open(infolder+afile,'rb'))
         # Length of video in Minutes
         vidlength = float(atalk['talk_meta']['vidlen'])/60.

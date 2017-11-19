@@ -86,9 +86,18 @@ def discretizeY(Y,col,firstThresh=33.3333,secondThresh=66.6666):
 def binarize(X,y):
     '''
     Keeps only the good and bad parts in the data. Drops the medium part.
+    But if there is only two part, then just repair the labels
     '''
-    idxmed = y!=0
-    return X[idxmed,:],y[idxmed]
+    unqy = np.unique(y)
+    if len(unqy)==3:
+        idxmed = y!=0
+        return X[idxmed,:],y[idxmed]
+    elif len(unqy)==2 and 0 in unqy and -1 in unqy:
+        y[y==0]=1
+        return X,y
+    else:
+        raise IOError
+    
 
 def classifier_eval(clf_trained,X_test,y_test,use_proba=True,
         ROCTitle=None,outfilename='./plots/'):
@@ -162,12 +171,12 @@ def train_with_CV(X,y,predictor,cvparams,
         scorer = sl.metrics.make_scorer(met.r2_score)
     # Perform cross-validation
     randcv = sl.model_selection.RandomizedSearchCV(predictor,cvparams,
-        n_iter=nb_iter,scoring=scorer,cv=Nfold)
+                n_iter=nb_iter,scoring=scorer,cv=Nfold)
+    
     randcv.fit(X,y)
     y_pred = randcv.best_estimator_.predict(X)
     print 'Report on Training Data'
     print '-----------------------'
-    print 'Best parameters:',randcv.best_params_
     print 'Best Score:',randcv.best_score_
     # Evaluate the predictor
     if predictor_type=='classifier':

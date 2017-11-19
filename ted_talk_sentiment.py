@@ -15,7 +15,7 @@ from bluemix import parse_sentence_tone
 Dict of talks with highest view count and Lowest view counts
 Note, while calculating the lowest view counts, I took only
 the talks that are at least two years old (i.e. retention time
-is greater than 730 days). This is done to ignore the very new
+is greater than 730 days). This is done to ignore the too new
 talks
 '''
 hi_lo_files = {
@@ -30,7 +30,7 @@ hi_lo_files = {
 ############################### Generic Readers ##############################
 '''
 These functions (generic readers) go to the input of sentiment comparator
-class as preset values of the "redear" variable. All these functions follow
+class as preset values of the "reader" variable. All these functions follow
 the same input-output convention. The input is the fullpath of a pickle 
 file containing the talk transcript and meta data. The output is a list
 containing the transcripts in a specific format

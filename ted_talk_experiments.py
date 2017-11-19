@@ -10,15 +10,9 @@ import scipy as sp
 import matplotlib.pyplot as plt
 import numpy as np
 
-# This python file is for enlisting all the experiments we are doing
+# This python file enlists many experiments we have done.
 # It can also be used as sample usage of the code repository such as
-# the sentiment_comparator class. Instead of running this file like a python
-# script, try running it like a python notebook. For each experiment,
-# try running the contents of each function in an interactive python shell.
-# In that way, you don't need to re-execute time intensive functions.
-###################################################################
-# DO NOT delete an experiment even though they are highly redundant
-###################################################################
+# the sentiment_comparator class.
 # Bluemix sentiments:
 # ==================
 # 0: anger 
@@ -491,31 +485,20 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
         print 'Predictor:',classifier
         y = tp.discretizeY(Y,i)
         X_bin,y_bin = tp.binarize(X,y)
+        m = len(y_bin)
+        
         # Split in training and test data
         tridx,tstidx = tp.traintest_idx(len(y_bin))
         trainX,trainY = X_bin[tridx,:],y_bin[tridx]
         testX,testY = X_bin[tstidx,:],y_bin[tstidx]
-
+  
         # Classifier selection
         if classifier == 'LinearSVM':
             clf = sl.svm.LinearSVC()
             # Train with training data
-            try:
-                clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,\
-                    {'C':sp.stats.expon(scale=10.)},nb_iter=100,\
+            clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,\
+                    {'C':sp.stats.expon(scale=5.)},nb_iter=100,\
                     datname = kw+'_LibSVM')
-            except:
-                print 'Due to randomness, the classifier got a badly'
-                print 'proportioned data for',kw
-                print 'Please run again to get a better samplesize in the data.'
-                print '(You may comment out other tasks)'
-                print
-                print 'If this issue occurs every time for ALL the'
-                print 'classification labels, please make'
-                print 'sure that you have the latest version of scikit-learn'
-                print 'installed. Sklearn 0.19.1 is the minimum required version.'
-                print 'skiping ...'
-                continue
             # Evaluate with test data
             print 'Report on Test Data'
             print '-----------------------'            
@@ -622,25 +605,25 @@ if __name__=='__main__':
     print '============= Ignore Warnings =============='
     print '============================================'
     print '###### Calculcating dataset statistics #####'
+    plot_statistics(infolder,outfolder)
     print '###### Check results in TED_stats folder ###'
-    #plot_statistics(infolder,outfolder)
     print '##############################################'
     print 'Calculcating dataset statistics (correlations)'
+    plot_correlation(False,infolder,outfolder)
     print 'Check results in TED_stats folder'
     print '##############################################'
-    #plot_correlation(False,infolder,outfolder)
 
     print '############ Loading sentiment data ##########'
-    #comp = ts.Sentiment_Comparator({'all':all_valid_talks},ts.read_bluemix)
+    comp = ts.Sentiment_Comparator({'all':all_valid_talks},ts.read_bluemix)
     print '############ Calculating global means ########'
+    draw_global_means(comp)
     print '####### Check results in the plots folder#####'
-    #draw_global_means(comp)
 
     print '##### Loading data for cluster analysis ######'
     X,comp = tca.load_all_scores()
     print '######## Performing cluster analysis #########'
-    print '###### Check results in the plot folder ######'
     evaluate_clusters_pretty(X,comp,outfilename='./plots/')
+    print '###### Check results in the plot folder ######'
    
     print '### Loading dataset for classif. and regr. ###'
     scores,Y,_ = tp.loaddata()
@@ -648,4 +631,5 @@ if __name__=='__main__':
     regress_ratings(scores,Y)
     print '###### Experimenting on classification #######'
     classify_Good_Bad(scores,Y)
-
+    print 'Done!'
+    

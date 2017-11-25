@@ -258,7 +258,6 @@ def see_sentences_percent(talkid,start=50,end=60,selected_scores=None):
 def time_avg_hi_lo_ratings():
     '''
     Experiment on High/Low ratings
-    This Version was edited by Samiha
     '''
     avg_saved = np.array([])
     i = 0

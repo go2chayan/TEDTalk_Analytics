@@ -3,16 +3,23 @@ Awe the Audience: How Emotional Trajectories Affect Audience Perception in Publi
 
 Installation Instruction
 ========================
-1. For python distribution, you can install anaconda or miniconda
+1. For python distribution, you can install anaconda or miniconda (a mini version of anaconda)
 https://conda.io/docs/user-guide/install/index.html
 
 2. Install the requirements:
 pip install -r requirements.txt
 
-3. (Optional) If you want to extract IBM tone analyzer scores yourself:
-# install it according to instructions given here: https://pypi.python.org/pypi/watson-developer-cloud
-# Typically the following command should work (assumes pip):
-# pip install --upgrade watson-developer-cloud
+3. Install IBM Watson Developer Cloud to extract the tone (Emotion, Language, Personality) scores:
+pip install --upgrade watson-developer-cloud
+For more instructions/help, you may visit: https://pypi.python.org/pypi/watson-developer-cloud
+
+
+4. (Optional) If you want to extract the IBM scores yourself, you need to create an account for IBM Watson tone analyzer service (Even a free account will work):
+https://www.ibm.com/watson/services/tone-analyzer/
+Then, edit the bluemix_key.py file and put the credentials (username and password) provided in the service key. Please note that this credentials are different than your account login username and password.
+ 
+
+Please Note: We provided the TED talk transcripts and the IBM scores within the repository (please check the talks folder and the bluemix_sentiment folder. The data is stored in pickle format. To unpickle and to see the data, use the pickle library in python: https://docs.python.org/2/library/pickle.html)
 
 Usage
 =====

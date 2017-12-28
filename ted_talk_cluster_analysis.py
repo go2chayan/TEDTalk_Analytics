@@ -1,9 +1,11 @@
 import csv
+import itertools
+import operator as op
 from list_of_talks import all_valid_talks
 from ted_talk_sentiment import Sentiment_Comparator, read_bluemix
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import f_oneway
+from scipy.stats import f_oneway,ttest_ind
 
 def load_all_scores():
     '''
@@ -108,6 +110,10 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
     a dictionary, it draws the cluster means and evaluate the differences
     in various clusters. It performs ANOVA to check if the 
     clusters have any differences in their ratings
+    Edit: Now it also performs 
+    1. ANOVA with Bonferroni correction
+    2. Pairwise multiple t-test with Bonferroni correction
+    3. Effectsize and direction of the clusters on the ratings
     '''
     N,M,B = X.shape
     avg_dict = {}
@@ -138,26 +144,59 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
         pvals = {}
         allvals = {}
         # Formulate a list of values for each rating
-        print
-        print 'Reporting only the significant p-values'
+        print '======================================='
+        print '            HYPOTHESIS TESTS           '
         print '======================================='
         for akw in kwlist:
             if akw == 'Totalviews':
-                ratvals = [[int(csvcontent[akw][csv_id[avid]]) for avid\
+                ratvals = {aclust:[int(csvcontent[akw][csv_id[avid]]) for avid\
                     in comparator.groups[aclust]] for aclust in \
-                    comparator.groups]
+                    comparator.groups}
             else:
-                ratvals = [[float(csvcontent[akw][csv_id[avid]])/\
+                ratvals = {aclust:[float(csvcontent[akw][csv_id[avid]])/\
                         float(csvcontent['total_count'][csv_id[avid]])\
                         for avid in comparator.groups[aclust]] for\
-                        aclust in comparator.groups]
-            # perform ANOVA
-            _,pval = f_oneway(*ratvals)
+                        aclust in comparator.groups}
+            #################### perform ANOVA #####################
+            ratval_itemlist = list(zip(*ratvals.items())[1])
+            _,pval = f_oneway(*ratval_itemlist)
             # Save only the statistically significant ones
-            if pval<0.01:
-                print 'p value for cluster analysis ('+akw+'):',pval
-                pvals[akw]=pval
-                allvals[akw] = ratvals
+            if pval<0.05:
+                print 'ANOVA p value ('+akw+'):',pval
+                print 'ANOVA p value ('+akw+') with Bonferroni:',\
+                    pval*float(len(kwlist)),
+                if pval*float(len(kwlist)) < 0.05:
+                    print '< 0.05'
+                    pvals[akw]=pval*float(len(kwlist))
+                    allvals[akw] = ratval_itemlist
+                else:
+                    print 'not significant'
+            ########### Pair-wise t-test with correction ###########
+            # Total number of repeated comparisons
+            paircount = count_n_choose_r(len(ratvals),2)
+            # Pair-wise comparison using t-test and effectsize
+            for rat1,rat2 in itertools.combinations(ratvals,2):
+                _,pval_t = ttest_ind(ratvals[rat1],ratvals[rat2],\
+                    equal_var=False)
+                # Perform Bonferroni Correction for multiple t-test
+                pval_t = pval_t*float(paircount)
+                # Check significance
+                if pval_t < 0.005:
+                    print 'ttest with Bonferroni: '+rat1+' vs '+rat2+':',pval_t
+                    ############# Pair-wise Effectsizes ##############
+                    n1 = len(ratvals[rat1])
+                    n2 = len(ratvals[rat2])
+                    sd1 = np.std(ratvals[rat1])
+                    sd2 = np.std(ratvals[rat2])
+                    sd_pooled = np.sqrt(((n1 - 1)*(sd1**2.) +\
+                        (n2-1)*(sd2**2.))/(n1+n2-2))
+                    cohen_d = (np.mean(ratvals[rat1]) - \
+                        np.mean(ratvals[rat2]))/sd_pooled
+                    print 'Cohen\'s d:'+rat1+' vs '+rat2+':',cohen_d
+                    print
+
+
+
         # If the clusters are significantly different in any rating, draw it
         if not pvals.keys():
             continue
@@ -282,7 +321,7 @@ def draw_clusters_pretty(avg_dict,comp,csvcontent,vid_idx,
                 amean_rat = np.mean(\
                     [float(csvcontent[akw][i])/float(csvcontent[\
                     'total_count'][i])*100 for i in f20vids])
-                print akw+' : {0:2.2f}'.format(amean_rat)
+                print 'mean rating:',akw+' : {0:2.2f}'.format(amean_rat)
             # Print the average of total view
             avview = np.mean([int(csvcontent['Totalviews'][i])\
                     for i in f20vids])
@@ -324,3 +363,9 @@ def decorate_axis(c,cols,rows,yval,avg_yval,txtlist,legendval,fig,
     for i,txt in enumerate(txtlist):
         txtax.text(0,1 - txth*(i+1),str(i+1)+'. '+txt)
 
+def count_n_choose_r(n,r):
+    r = min(r, n-r)
+    if r == 0: return 1
+    numer = reduce(op.mul, xrange(n, n-r, -1))
+    denom = reduce(op.mul, xrange(1, r+1))
+    return numer//denom

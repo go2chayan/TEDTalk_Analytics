@@ -9,6 +9,7 @@ import sklearn as sl
 import scipy as sp
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
 # This python file enlists many experiments we have done.
 # It can also be used as sample usage of the code repository such as
@@ -600,6 +601,8 @@ def regress_ratings(scores,Y,regressor='SVR',cv_score=sl.metrics.r2_score):
 if __name__=='__main__':
     infolder = './talks/'
     outfolder = './TED_stats/'
+    if not os.path.exists('./plots'):
+        os.makedirs('./plots')
     print '============================================'
     print '============= Ignore Warnings =============='
     print '============================================'

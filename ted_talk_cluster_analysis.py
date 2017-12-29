@@ -164,6 +164,7 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
             # Save only the statistically significant ones
             if pval<0.05:
                 print 'ANOVA p value ('+akw+'):',pval
+                # Bonferroni Correction for tests over multiple ratings
                 print 'ANOVA p value ('+akw+') with Bonferroni:',\
                     pval*float(len(kwlist)),
                 if pval*float(len(kwlist)) < 0.05:
@@ -173,16 +174,20 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
                 else:
                     print 'not significant'
             ########### Pair-wise t-test with correction ###########
+            # Skip totalviews, we are interested in ratings only
+            if akw == 'Totalviews':
+                continue
             # Total number of repeated comparisons
             paircount = count_n_choose_r(len(ratvals),2)
             # Pair-wise comparison using t-test and effectsize
             for rat1,rat2 in itertools.combinations(ratvals,2):
                 _,pval_t = ttest_ind(ratvals[rat1],ratvals[rat2],\
                     equal_var=False)
-                # Perform Bonferroni Correction for multiple t-test
-                pval_t = pval_t*float(paircount)
+                # Perform Bonferroni Correction for multiple t-tests
+                # and multiple ratings
+                pval_t = pval_t*float(paircount)*float(len(kwlist))
                 # Check significance
-                if pval_t < 0.005:
+                if pval_t < 0.05:
                     print 'p-val of ttest (with Bonferroni) in "'+akw+\
                         '" between '+rat1+' and '+rat2+':',pval_t
                     ############# Pair-wise Effectsizes ##############
@@ -197,9 +202,6 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
                     print 'Cohen\'s d of rating "'+akw+'" between '+rat1+\
                         ' and '+rat2+': ',cohen_d
                     print
-
-
-
         # If the clusters are significantly different in any rating, draw it
         if not pvals.keys():
             continue

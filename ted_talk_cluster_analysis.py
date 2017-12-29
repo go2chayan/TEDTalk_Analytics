@@ -110,7 +110,7 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
     a dictionary, it draws the cluster means and evaluate the differences
     in various clusters. It performs ANOVA to check if the 
     clusters have any differences in their ratings
-    Edit: Now it also performs 
+    Edit: Now it also performs (Based on CHI Reviewer's recommendations)
     1. ANOVA with Bonferroni correction
     2. Pairwise multiple t-test with Bonferroni correction
     3. Effectsize and direction of the clusters on the ratings
@@ -144,9 +144,10 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
         pvals = {}
         allvals = {}
         # Formulate a list of values for each rating
-        print '======================================='
-        print '            HYPOTHESIS TESTS           '
-        print '======================================='
+        print '='*50
+        print '{:^50}'.format('HYPOTHESIS TESTS')
+        print '{:^50}'.format('for IBM Score:'+comparator.column_names[s])
+        print '='*50
         for akw in kwlist:
             if akw == 'Totalviews':
                 ratvals = {aclust:[int(csvcontent[akw][csv_id[avid]]) for avid\
@@ -182,7 +183,8 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
                 pval_t = pval_t*float(paircount)
                 # Check significance
                 if pval_t < 0.005:
-                    print 'ttest with Bonferroni: '+rat1+' vs '+rat2+':',pval_t
+                    print 'p-val of ttest (with Bonferroni) in "'+akw+\
+                        '" between '+rat1+' and '+rat2+':',pval_t
                     ############# Pair-wise Effectsizes ##############
                     n1 = len(ratvals[rat1])
                     n2 = len(ratvals[rat2])
@@ -192,7 +194,8 @@ def evaluate_clust_separate_stand(X,clusterer,comparator,\
                         (n2-1)*(sd2**2.))/(n1+n2-2))
                     cohen_d = (np.mean(ratvals[rat1]) - \
                         np.mean(ratvals[rat2]))/sd_pooled
-                    print 'Cohen\'s d:'+rat1+' vs '+rat2+':',cohen_d
+                    print 'Cohen\'s d of rating "'+akw+'" between '+rat1+\
+                        ' and '+rat2+': ',cohen_d
                     print
 
 

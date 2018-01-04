@@ -525,6 +525,26 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
             # Evaluate with test data
             tp.classifier_eval(clf_trained,testX,testY,ROCTitle=\
                 'ROC of SVM_RBF on Test Data for '+kw)
+        elif classifier == 'logit':
+            clf = sl.linear_model.LogisticRegression()
+            # Train with training data
+            try:
+                clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
+                    {'C':sp.stats.expon(scale=1)},
+                    nb_iter=100,datname=kw)
+                print 'Number of SV:',clf_trained.n_support_
+            except ImportError:
+                raise
+            except:
+                print 'Data is badly scaled for',kw
+                print 'skiping'
+                continue
+            # Evaluate with test data
+            print 'Report on Test Data'
+            print '-----------------------'                 
+            # Evaluate with test data
+            tp.classifier_eval(clf_trained,testX,testY,ROCTitle=\
+                'ROC of SVM_RBF on Test Data for '+kw)
 
 def regress_ratings(scores,Y,regressor='SVR',cv_score=sl.metrics.r2_score):
     '''
@@ -616,7 +636,8 @@ if __name__=='__main__':
     print '##############################################'
 
     print '############ Loading sentiment data ##########'
-    comp = ts.Sentiment_Comparator({'all':all_valid_talks},ts.read_bluemix)
+    comp = ts.Sentiment_Comparator({'all':all_valid_talks},\
+        ts.read_bluemix)
     print '############ Calculating global means ########'
     draw_global_means(comp)
     print '####### Check results in the plots folder#####'
@@ -630,8 +651,11 @@ if __name__=='__main__':
     print '### Loading dataset for classif. and regr. ###'
     scores,Y,_ = tp.loaddata()
     print '######### Experimenting on regression ########'
-    regress_ratings(scores,Y)
+    print 'try: ridge, SVR, gp, lasso'
+    regress_ratings(scores,Y,regressor='SVR',\
+        cv_score=sl.metrics.r2_score)
     print '###### Experimenting on classification #######'
-    classify_Good_Bad(scores,Y)
+    print 'try: LinearSVM, SVM_RBF and logit'
+    classify_Good_Bad(scores,Y,classifier='LinearSVM')
     print 'Done!'
     

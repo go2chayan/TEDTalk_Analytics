@@ -625,6 +625,8 @@ if __name__=='__main__':
         os.makedirs('./plots')
     print '============================================'
     print '============= Ignore Warnings =============='
+    print 'Note: The results change at each run due to '
+    print 'randomness involved in the predictors       '
     print '============================================'
     print '###### Calculcating dataset statistics #####'
     plot_statistics(infolder,outfolder)

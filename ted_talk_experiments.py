@@ -528,17 +528,9 @@ def classify_Good_Bad(scores,Y,classifier='LinearSVM'):
         elif classifier == 'logit':
             clf = sl.linear_model.LogisticRegression()
             # Train with training data
-            try:
-                clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
+            clf_trained,auc=tp.train_with_CV(trainX,trainY,clf,
                     {'C':sp.stats.expon(scale=1)},
                     nb_iter=100,datname=kw)
-                print 'Number of SV:',clf_trained.n_support_
-            except ImportError:
-                raise
-            except:
-                print 'Data is badly scaled for',kw
-                print 'skiping'
-                continue
             # Evaluate with test data
             print 'Report on Test Data'
             print '-----------------------'                 
